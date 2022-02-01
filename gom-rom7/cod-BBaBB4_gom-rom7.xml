@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ad Romanos 7 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ad Romanos 7 [Strasbourg 1481 Transcription]</title>
+          <date when="2022-02-01">February 01, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-BBaBB4">Strassbourg 1481, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-02-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="1064-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom7">
+        <head>Ad Romanos 7</head>
+        <div>
+          <head>Verse 15</head>
+          <p>
+            <lb ed="#S"/><pc type="pilcrow"/><quote source="http://scta.info/resource/rom7_15@1-3">Quod enim operor</quote> Probat quod servus est peccati quia quod operor secundum 
+            <lb ed="#S"/>exteriorem dimittendo bona vel faciendo mala: intelligo secundum interiorem 
+            <lb ed="#S"/>non esse operandum; Vere operor quod non intelligo: quia et dimitto bonum 
+            <lb ed="#S"/>quod volo <pc type="punctus"/> et facio malum quod nolo  <pc type="punctus"/> dimitto  <pc type="punctus"/> et facio  <pc type="punctus"/> sunt partes. operor. vo<lb ed="#S" break="no"/>lo 
+            et nolo effectus intelligo. Et est probatio a partibus et ab effectu. Et hoc est. non 
+            <lb ed="#S"/>enim quod <sic>volo</sic> ego interior naturaliter quidem ratio vult bonum <pc type="punctus"/> sed voluntas 
+            <lb ed="#S"/>haec semper caret effectu: nisi gratia dei velle suum ad amandum bonum addi<lb ed="#S" break="no"/>derit 
+            <pc type="punctus"/>quod ad effectum potest perduci. Est enim velle naturae <pc type="punctus"/> velle gratie <pc type="punctus"/> vel<lb ed="#S" break="no"/>le 
+            vitii <pc type="punctus"/> velle naturae per se impotens est <pc type="punctus"/> nec palmam meretur <pc type="punctus"/> sed vincitur et trahitur 
+            <lb ed="#S"/>a velle vitii <pc type="punctus"/> nisi velle gratiae subveniat <pc type="punctus"/> quod velle vicii fugat <pc type="punctus"/> et velle natu<lb ed="#S" break="no"/>re 
+            liberat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
