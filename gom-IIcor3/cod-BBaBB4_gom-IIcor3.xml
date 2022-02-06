@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> II Ad Corinthios 3 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>II Ad Corinthios 3 [Strasbourg 1481 Transcription]</title>
+          <date when="2022-02-06">February 06, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-BBaBB4">Strasbourg 1481, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-02-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="1090-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIcor3">
+        <div xml:id="gom-IIcor3-Dd1e86">
+          <head xml:id="gom-IIcor3-Hd1e88">Versa 5</head>
+          <p xml:id="gom-IIcor3-d1e90">
+            <lb ed="#S"/><quote xml:id="gom-IIcor3-Qd1e93" source="http://scta.info/resource/IIcor3_5@12-17">Sed sufficientia 
+            <lb ed="#S"/>nostra ex deo est</quote>
+            <lb ed="#S"/>Attendant hic et verba 
+            <lb ed="#S"/>ista perpendant qui putant
+            <lb ed="#S"/>ex nobis esse fidei ceptum 
+            <lb ed="#S"/>et ex deo eius supplemen<lb ed="#S" break="no"/>tum.
+            Commendat enim 
+            <lb ed="#S"/>gratiam quae non datur secundum a<lb ed="#S" break="no"/>liqua 
+            merita <pc type="punctus"/> sed efficit 
+            <lb ed="#S"/>omnia bona merita.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
