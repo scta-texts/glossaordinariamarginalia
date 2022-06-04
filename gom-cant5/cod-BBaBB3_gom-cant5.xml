@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Canticum canticorum [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title> Canticum canticorum [Strasbourg 1481 Transcription]</title>
+          <date when="2021-05-07">May 07, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-BBaBB3">Strasbourg 1481, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#S" n="34-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-cant5">
+        <div xml:id="gom-cant5-Dd1e84">
+          <head xml:id="gom-cant5-Hd1e86">Vers 17</head><!-- Sir 33, 18-->
+          <p xml:id="gom-cant5-d1e89">
+            <lb ed="#S"/><pc type="pilcrow"/><quote xml:id="gom-cant5-Qd1e93" source="http://scta.info/resource/cant5_17@1-2" type="incipit">Quo abiit</quote> Au<lb ed="#S"/>dita 
+            qualitate dilecti de 
+            <lb ed="#S"/>qua quesierant filiae hie<lb ed="#S"/>rusalem. 
+            addunt aliam quae<lb ed="#S"/>stionem 
+            quia enervatis tot 
+            <lb ed="#S"/>aludibus quis audiens non 
+            <lb ed="#S"/>concupiscat et hoc in unita<lb ed="#S"/>te 
+            sanctae ecclesiae inquiri
+            <lb ed="#S"/>oportet in qualium corde 
+            <lb ed="#S"/>potissimum et in quo gene<lb ed="#S"/>re 
+            conuersationis dominus so<lb ed="#S"/>leat 
+            inueniri.
+          </p>
+          <p xml:id="gom-cant5-d1e121">
+            <lb ed="#S"/><pc type="pilcrow"/><quote xml:id="gom-cant5-Qd1e125" source="http://scta.info/resource/cant5_17@1-2" type="incipit">Quo abiit</quote> non relin<lb ed="#S"/>quendo 
+            eos in quibus erat 
+            <lb ed="#S"/>sed ubi alios associet et 
+            <lb ed="#S"/>post alios etiam alios in<lb ed="#S"/>vitet. 
+            et sic abire, et de<lb ed="#S"/>clinare 
+            dicitur ad modum can<lb ed="#S"/>delae 
+            quae cum accensa sit mul<lb ed="#S"/>tas 
+            alias circumquamque accen<lb ed="#S"/>dit
+            ipsa tamen nihil patiens 
+            <lb ed="#S"/>detrimenti
+          </p>
+          <p xml:id="gom-cant5-d1e148">
+            <pc type="pilcrow"/><quote xml:id="gom-cant5-Qd1e151" source="http://scta.info/resource/cant5_17@1-2" type="incipit">Quo abiit</quote> <name xml:id="gom-cant5-Nd1e154">Gre<lb ed="#S"/>go</name> 
+            Sciendum quod deus qui 
+            <lb ed="#S"/>ubique eest in loco est sed lo<lb ed="#S"/>calis 
+            non est locale dicitur quod 
+            <lb ed="#S"/>circumscribitur secundum partes lo<lb ed="#S"/>ci 
+            supra et infra. ante et re<lb ed="#S"/>tro 
+            dextra et sinistra. 
+            <lb ed="#S"/>cum verl angeli et humanae 
+            <lb ed="#S"/>animae locales circumscribi. 
+            <lb ed="#S"/>non possunt. longe minus 
+            <lb ed="#S"/>illa incomprehensibilis substantia 
+            <lb ed="#S"/>Maiore vero agnitio qua in 
+            <lb ed="#S"/>praesenti deo deo haberi potest est 
+            <lb ed="#S"/>secundum sola opera quia quod al<lb ed="#S"/>tius 
+            est in carne possumus mirificentiam operum dei subtiliter attendere
+          </p>
+          <p xml:id="gom-cant5-d1e188">
+            <lb ed="#S"/><quote xml:id="gom-cant5-Qd1e191" source="http://scta.info/resource/cant5_17@1-1" type="incipit">Quo</quote> Licet deus communi modo omnibus rebus insit praesentia potentia substantia tamen fa<lb ed="#S"/>miliari 
+            modo dicitur inesse id est per gratiam illis quibus opera sua videntur mirabiliora qui licet 
+            <lb ed="#S"/>plenam dei notitiam non habeant tamen mirificentiam operum dei acutius considerant
+          </p>
+          
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
