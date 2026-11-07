@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0117C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt10">
+        <head xml:id="gom-mt10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-mt10-Dd1e100">
+          <head xml:id="gom-mt10-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt10-d1e104">
+            <quote xml:id="gom-mt10-Qd1e106" type="lemma" source="http://scta.info/resource/mt10_1@1-2">Et convocatis.</quote>
+            <quote xml:id="gom-mt10-Qd1e109"><seg type="qs">A curatione socrus Petri</seg>, etc., usque ad <seg type="qs">curatum centurionis servum.</seg></quote>
+          </p>
+          <p xml:id="gom-mt10-d1e117">
+            <quote xml:id="gom-mt10-Qd1e119" type="lemma" source="http://scta.info/resource/mt10_1@3-3">Duodecim.</quote>
+            Hi sunt operarii qui mittendi erant, et quadrati orbis partes ad fidem Trinitatis vocaturi. Quorum praedicatio ut pondus haberet auctoritatis, datur eis potestas curandae omnis infirmitatis.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e124">
+          <head xml:id="gom-mt10-Hd1e126">Versus 2</head>
+          <p xml:id="gom-mt10-d1e128">
+            <quote xml:id="gom-mt10-Qd1e130" type="lemma" source="http://scta.info/resource/mt10_2@11-13">Petrus et Andreas.</quote>
+            <quote xml:id="gom-mt10-Qd1e133"><seg type="qs">Apostolorum paria jugaque sociat</seg>, etc., usque ad <seg type="qs">Christus in quem credebat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e142">
+          <head xml:id="gom-mt10-Hd1e144">Versus 3</head>
+          <p xml:id="gom-mt10-d1e146">
+            <pb ed="#P" n="0117D"/>
+            <quote xml:id="gom-mt10-Qd1e150" type="lemma" source="http://scta.info/resource/mt10_3@10-10">Thomas.</quote>
+            Abyssus: quia altitudinem divinae virtutis in resurrectione certa fide penetravit. Vel, Thomas geminus, quod est Graece didymus, propter dubium cor in credendo.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e155">
+          <head xml:id="gom-mt10-Hd1e157">Versus 4</head>
+          <p xml:id="gom-mt10-d1e159">
+            <quote xml:id="gom-mt10-Qd1e161" type="lemma" source="http://scta.info/resource/mt10_4@3-5">Et Judas Scariothis.</quote>
+            Magnum in nobis exemplum doctrinae, cum qui omnia noverat non dubitaret proditorem in discipulum eligere, atque apostolum ordinare. Habet enim Christus conscium munditiae testem, cum suum non dubitet eligere proditorem.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e167">
+          <head xml:id="gom-mt10-Hd1e169">Versus 5</head>
+          <p xml:id="gom-mt10-d1e171">
+            <quote xml:id="gom-mt10-Qd1e173" type="lemma" source="http://scta.info/resource/mt10_5@9-10">In viam.</quote>
+            Post resurrectionem dicit: <quote xml:id="gom-mt10-Qd1e176" source="http://scta.info/resource/mt28_19@3-5">Docete omnes gentes.</quote> Sed hoc ante: quia prius oportet Judaeis praedicari, ne causam habeant non recipiendi, quia ad gentes apostolos misit.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e181">
+          <head xml:id="gom-mt10-Hd1e183">Versus 7</head>
+          <p xml:id="gom-mt10-d1e185">
+            <pb ed="#P" n="0118A"/>
+            <quote xml:id="gom-mt10-Qd1e189" type="lemma" source="http://scta.info/resource/mt10_7@6-8">Appropinquabit regnum coelorum.</quote>
+            Per fidem prope est regnum. Sicut enim sit peccans terra, ita justus sit coelum, in quo Deus praesidet; unde dicitur: <quote xml:id="gom-mt10-Qd1e192" source="http://scta.info/resource/lc17_21@10-14">Regnum Dei intra vos est</quote>, etc. Ecce quid debeant praedicare: Appropinquabit regnum coelorum.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e197">
+          <head xml:id="gom-mt10-Hd1e199">Versus 8</head>
+          <p xml:id="gom-mt10-d1e201">
+            <quote xml:id="gom-mt10-Qd1e203" type="lemma" source="http://scta.info/resource/mt10_8@1-2">Infirmos curate.</quote>
+            Ecclesia infirmos statu boni operis confortat, mortuos in peccatis, vel sine fide, suscitat; leprosos erroribus aspersos mundat, daemones per exorcismos fugat.
+          </p>
+          <p xml:id="gom-mt10-d1e207">
+            <quote xml:id="gom-mt10-Qd1e209" type="lemma" source="http://scta.info/resource/mt10_8@9-10">Gratis accepistis.</quote>
+            Ne Judas, qui loculos habebat, de praedicta potestate pecuniam congregare vellet, neguitiam ejus supprimit Dominus, dicens: <quote xml:id="gom-mt10-Qd1e212" source="http://scta.info/resource/mt10_8@9-10">Gratis accepistis,</quote> etc. Damnat etiam hic perfidiam Simoniacae haereseos. Dona spiritualia pretio vilescunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e217">
+          <head xml:id="gom-mt10-Hd1e219">Versus 9</head>
+          <p xml:id="gom-mt10-d1e221">
+            <pb ed="#P" n="0118B"/>
+            <quote xml:id="gom-mt10-Qd1e225" type="lemma" source="http://scta.info/resource/mt10_9@3-5">Aurum neque argentum.</quote>
+            Qui haec haberent, viderentur non causa salutis praedicare, sed lucri.
+          </p>
+          <p xml:id="gom-mt10-d1e229">
+            <quote xml:id="gom-mt10-Qd1e231" type="lemma" source="http://scta.info/resource/mt10_9@6-10">Neque pecuniam in zonis vestris.</quote>
+            Duo sunt genera necessariorum: unum quo emuntur necessaria, aliud ipsa necessaria. Per pecuniam in zonis, illud unde emuntur: per peram quod emitur, quod ibi reponitur. De hoc in passione: <quote xml:id="gom-mt10-Qd1e234" source="http://scta.info/resource/lc22_35@4-19">Quando misi vos sine sacculo et pera, nunquid defuit vobis aliquid? At illi dixerunt: Non.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e239">
+          <head xml:id="gom-mt10-Hd1e241">Versus 10</head>
+          <p xml:id="gom-mt10-d1e243">
+            <quote xml:id="gom-mt10-Qd1e245" type="lemma" source="http://scta.info/resource/mt10_10@8-9">Neque calceamenta.</quote>
+            Et Plato dicit duas corporum summitates non esse velandas, nec assuetam fieri debere mollitiem capitis et pedum: Cum autem haec habuerint firmitatem, caetera robustiora sunt.
+          </p>
+          <p xml:id="gom-mt10-d1e249">
+            <quote xml:id="gom-mt10-Qd1e251" type="lemma" source="http://scta.info/resource/mt10_10@10-11">Neque virgam.</quote>
+            <quote xml:id="gom-mt10-Qd1e254"><seg type="qs">Matthaeus et Lucas dicunt <quote xml:id="gom-mt10-Qd1e257" source="http://scta.info/resource/mt10_10@10-11">neque virgam;</quote> Marcus <quote xml:id="gom-mt10-Qd1e260">non nisi virgam:</quote> quo <pb ed="#P" n="0118C"/> nomine</seg>, etc., usque ad <seg type="qs">iter praedicationis pergere debeat, ostendatur.</seg></quote>
+          </p>
+          <p xml:id="gom-mt10-d1e269">
+            <quote xml:id="gom-mt10-Qd1e271" type="lemma" source="http://scta.info/resource/mt10_10@12-14">Dignus est.</quote>
+            Unde ergo necessaria? Tantum accipite, quantum ad necessitatem sufficit, ut inde securi aeternis melius vacetis.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e276">
+          <head xml:id="gom-mt10-Hd1e278">Versus 11</head>
+          <p xml:id="gom-mt10-d1e280">
+            <quote xml:id="gom-mt10-Qd1e282" type="lemma" source="http://scta.info/resource/mt10_11@7-8">Interrogate quis.</quote>
+            Testimonio vicinorum eligendus est hospes, ne hujus infamia praedicatio laedatur.
+          </p>
+          <p xml:id="gom-mt10-d1e286">
+            <quote xml:id="gom-mt10-Qd1e288" type="lemma" source="http://scta.info/resource/mt10_11@11-12">Dignus sit.</quote>
+            Ut sciat se magis accipere gratiam quam dare.
+          </p>
+          <p xml:id="gom-mt10-d1e292">
+            <quote xml:id="gom-mt10-Qd1e294" type="lemma" source="http://scta.info/resource/mt10_11@14-15">Ibi manete.</quote>
+            <ref xml:id="gom-mt10-Rd1e297"><name xml:id="gom-mt10-Nd1e298" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-mt10-Qd1e301">Dat constantiae generale mandatum ut hospitalis necessitudinis jura custodiant: ideo domus eligenda, ut mutandi hospitii necessitudinisque violandae causa non suppetat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e306">
+          <head xml:id="gom-mt10-Hd1e308">Versus 14</head>
+          <p xml:id="gom-mt10-d1e310">
+            <quote xml:id="gom-mt10-Qd1e312" type="lemma" source="http://scta.info/resource/mt10_14@17-20">Excutite pulverem de pedibus.</quote>
+            Per excussionem pulveris, intelligitur amissio itineris.
+          </p>
+          <p xml:id="gom-mt10-d1e316">
+            <quote xml:id="gom-mt10-Qd1e318" type="lemma" source="http://scta.info/resource/mt10_14@17-17">Excutite</quote>
+            <quote xml:id="gom-mt10-Qd1e321"><seg type="qs">pulverem, ad contestationem terreni laboris <pb ed="#P" n="0118D"/> quem pro eis inaniter susceperant</seg>, etc., usque ad <seg type="qs">per ipsum Salvatorem narrantur abluti.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e332">
+          <head xml:id="gom-mt10-Hd1e334">Versus 16</head>
+          <p xml:id="gom-mt10-d1e336">
+            <quote xml:id="gom-mt10-Qd1e338" type="lemma" source="http://scta.info/resource/mt10_16@1-3">Ecce ego mitto.</quote>
+            <quote xml:id="gom-mt10-Qd1e341"><seg type="qs">Illis sua poena servabitur in futurum</seg>, etc., usque ad <seg type="qs">mala inferre non debet, sed tolerare.</seg></quote>
+          </p>
+          <p xml:id="gom-mt10-d1e349">
+            <quote xml:id="gom-mt10-Qd1e351" type="lemma" source="http://scta.info/resource/mt10_16@13-14">Sicut serpentes.</quote>
+            <quote xml:id="gom-mt10-Qd1e354"><seg type="qs">Serpentis astutia est</seg>, etc., usque ad <seg type="qs">veterem exuit hominem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e363">
+          <head xml:id="gom-mt10-Hd1e365">Versus 18</head>
+          <p xml:id="gom-mt10-d1e367">
+            <quote xml:id="gom-mt10-Qd1e369" type="lemma" source="http://scta.info/resource/mt10_18@10-11">In testimonium.</quote>
+            <quote xml:id="gom-mt10-Qd1e372"><seg type="qs">Ut inde perversi pereant</seg>, etc., usque ad <seg type="qs">testimonium ipsorum innocentiae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e381">
+          <head xml:id="gom-mt10-Hd1e383">Versus 19</head>
+          <p xml:id="gom-mt10-d1e385">
+            <quote xml:id="gom-mt10-Qd1e387" type="lemma" source="http://scta.info/resource/mt10_19@11-18">Dabitur enim vobis in illa hora quid loquamini.</quote>
+            Voluntatem vestram pro Christo offerte; Christus vero loquetur pro se.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e392">
+          <head xml:id="gom-mt10-Hd1e394">Versus 21</head>
+          <p xml:id="gom-mt10-d1e396">
+            <quote xml:id="gom-mt10-Qd1e398" type="lemma" source="http://scta.info/resource/mt10_21@1-3">Tradet autem frater,</quote>
+            etc. Minorem dolorem ingerunt mala quae ab extraneis: majorem <pb ed="#P" n="0119A"/> quae ab illis patimur, de quorum mentibus praesumebamus: quia cum damno corporis, mala nos cruciant amissae charitatis.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e405">
+          <head xml:id="gom-mt10-Hd1e407">Versus 22</head>
+          <p xml:id="gom-mt10-d1e409">
+            <quote xml:id="gom-mt10-Qd1e411" type="lemma" source="http://scta.info/resource/mt10_22@8-9">Qui autem,</quote>
+            etc. <quote xml:id="gom-mt10-Qd1e414"><seg type="qs">Docet virtutem longanimitatis et patientiae</seg>, etc., usque ad <seg type="qs">hoc ipsum incipimus possidere quod sumus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e424">
+          <head xml:id="gom-mt10-Hd1e426">Versus 23</head>
+          <p xml:id="gom-mt10-d1e428">
+            <quote xml:id="gom-mt10-Qd1e430" type="lemma" source="http://scta.info/resource/mt10_23@1-2">Cum autem.</quote>
+            Hoc ad illud tempus pertinet, quo dictum est.: <quote xml:id="gom-mt10-Qd1e433" source="http://scta.info/resource/mt10_5@9-13">In via gentium ne abieritis,</quote> quod persecutiones non debeant timere, sed declinare: ut tribulationis occasio sit Evangelii seminarium.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e438">
+          <head xml:id="gom-mt10-Hd1e440">Versus 24</head>
+          <p xml:id="gom-mt10-d1e442">
+            <quote xml:id="gom-mt10-Qd1e444" type="lemma" source="http://scta.info/resource/mt10_24@1-3">Non est discipulus,</quote>
+            etc. Ne indignemini tolerare quod tolero qui Dominus sum, faciens quod volo, et magister docens quod utile scio.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e449">
+          <head xml:id="gom-mt10-Hd1e451">Versus 25</head>
+          <p xml:id="gom-mt10-d1e453">
+            <quote xml:id="gom-mt10-Qd1e455" type="lemma" source="http://scta.info/resource/mt10_25@13-15">Si patrem familias.</quote>
+            <quote xml:id="gom-mt10-Qd1e458"><seg type="qs">Ostendit calumnias <pb ed="#P" n="0119B"/> suas, ut suo exemplo ferant injurias. Unde dixit: <quote xml:id="gom-mt10-Qd1e463" source="http://scta.info/resource/mt6_34@14-17">Sufficit diei malitia sua. Beelzebub.</quote> Beel ipse est Bel, Zebub, musca.</seg> etc., usque ad <seg type="qs">vir muscarum, sive habens muscas.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e472">
+          <head xml:id="gom-mt10-Hd1e474">Versus 26</head>
+          <p xml:id="gom-mt10-d1e476">
+            <quote xml:id="gom-mt10-Qd1e478" type="lemma" source="http://scta.info/resource/mt10_26@1-4">Ne ergo timueritis eos.</quote>
+            Eorum saevitiam vel blasphemias, quia veniet dies cum Deus judicabit occulta hominum, ubi et nequitia discooperietur, et vestra intentio, nunc soli Deo cognita, ab omnibus scietur.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e483">
+          <head xml:id="gom-mt10-Hd1e485">Versus 27</head>
+          <p xml:id="gom-mt10-d1e487">
+            <quote xml:id="gom-mt10-Qd1e489" type="lemma" source="http://scta.info/resource/mt10_27@1-2">Quod dico.</quote>
+            <quote xml:id="gom-mt10-Qd1e492"><seg type="qs">Hoc est, in quo volo vos constantes esse</seg>, etc., usque ad <seg type="qs">calcato carnis domicilio <quote xml:id="gom-mt10-Qd1e498" source="http://scta.info/resource/mt10_27@14-14">praedicate.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e503">
+          <head xml:id="gom-mt10-Hd1e505">Versus 29</head>
+          <p xml:id="gom-mt10-d1e507">
+            <quote xml:id="gom-mt10-Qd1e509" type="lemma" source="http://scta.info/resource/mt10_29@12-12">Super.</quote>
+            <quote xml:id="gom-mt10-Qd1e512"><seg type="qs">Loquitur juxta morem Palestinae</seg>, etc., usque ad <seg type="qs">in toto mundo dicite.</seg></quote>
+          </p>
+          <p xml:id="gom-mt10-d1e520">
+            <quote xml:id="gom-mt10-Qd1e522" type="lemma" source="http://scta.info/resource/mt10_29@1-3">Nonne duo passeres?</quote>
+            Lucas: <quote xml:id="gom-mt10-Qd1e525" source="http://scta.info/resource/lc12_6@1-5">Nonne quinque passeres veneunt <pb ed="#P" n="0119C"/> dipondio</quote>? Nec multum distat, ut duo asse et quinque dipondio. Dipondio enim est ex duobus assibus. Quod autem in numeris est unus, hoc in pondere as: et quod duo, hoc dipondius.
+          </p>
+          <p xml:id="gom-mt10-d1e531">
+            <quote xml:id="gom-mt10-Qd1e533" type="lemma" source="http://scta.info/resource/mt10_29@6-9">Et unus ex illis.</quote>
+            Quomodo ergo Apostolus: <quote xml:id="gom-mt10-Qd1e536" source="http://scta.info/resource/Icor9_9@12-17">Nunquid de bobus cura est Deo<!-- check: Migne cites lc9; text matches Icor9_9 --></quote>? Sed aliud est cura, aliud scientia.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e543">
+          <head xml:id="gom-mt10-Hd1e545">Versus 30</head>
+          <p xml:id="gom-mt10-d1e547">
+            <quote xml:id="gom-mt10-Qd1e549" type="lemma" source="http://scta.info/resource/mt10_30@7-7">Numerati.</quote>
+            <quote xml:id="gom-mt10-Qd1e552"><seg type="qs">Hoc est, scientia Dei</seg>, etc., usque ad <seg type="qs">parva otiosaque dicta eum lateant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e561">
+          <head xml:id="gom-mt10-Hd1e563">Versus 32</head>
+          <p xml:id="gom-mt10-d1e565">
+            <quote xml:id="gom-mt10-Qd1e567" type="lemma" source="http://scta.info/resource/mt10_32@3-4">Qui confitebitur.</quote>
+            Vel confitetur quis Jesum ea fide, quae per dilectionem operatur: negat qui praeceptis Dei non obedit.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e572">
+          <head xml:id="gom-mt10-Hd1e574">Versus 33</head>
+          <p xml:id="gom-mt10-d1e576">
+            <quote xml:id="gom-mt10-Qd1e578" type="lemma" source="http://scta.info/resource/mt10_33@1-2">Qui autem.</quote>
+            Negatur a Filio apud Patrem, cui non manifestatur in divinitatis potentia <pb ed="#P" n="0119D"/> Filius et Pater. Confitetur a Filio apud Patrem, qui per Filium habet accessum ad Patrem.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e585">
+          <head xml:id="gom-mt10-Hd1e587">Versus 34</head>
+          <p xml:id="gom-mt10-d1e589">
+            <quote xml:id="gom-mt10-Qd1e591" type="lemma" source="http://scta.info/resource/mt10_34@6-6">Pacem.</quote>
+            Missum est bellum bonum, ut rumperetur pax mala.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e596">
+          <head xml:id="gom-mt10-Hd1e598">Versus 35</head>
+          <p xml:id="gom-mt10-d1e600">
+            <quote xml:id="gom-mt10-Qd1e602" type="lemma" source="http://scta.info/resource/mt10_35@1-2">Veni enim.</quote>
+            <quote xml:id="gom-mt10-Qd1e605"><seg type="qs">Hic Lucas ait: <quote xml:id="gom-mt10-Qd1e608" source="http://scta.info/resource/lc12_52@1-16">Erunt quinque in una domo divisi, tres in duo et duo in tres dividentur.</quote> Quomodo ergo</seg>, etc., usque ad <seg type="qs">circumcisionem caeterasque carnales observantias.</seg></quote>
+          </p>
+          <p xml:id="gom-mt10-d1e616">
+            <quote xml:id="gom-mt10-Qd1e618" type="lemma" source="http://scta.info/resource/mt10_35@3-3">Separare.</quote>
+            Id est, privatos carnis affectus exstinguere, quibus ita invicem diliguntur, ut Deo minus serviant. Vel penitus avertantur, non quod non sint honorandi pater et mater, sed post Deum; hic est ordo charitatis.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e623">
+          <head xml:id="gom-mt10-Hd1e625">Versus 37</head>
+          <p xml:id="gom-mt10-d1e627">
+            <quote xml:id="gom-mt10-Qd1e629" type="lemma" source="http://scta.info/resource/mt10_37@1-3">Qui amat patrem.</quote>
+            Post Deum amandi <pb ed="#P" n="0120A"/> sunt, sed si utrumque non potest servari, odium in suos, pietas est in Deum.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e637">
+          <head xml:id="gom-mt10-Hd1e639">Versus 38</head>
+          <p xml:id="gom-mt10-d1e641">
+            <quote xml:id="gom-mt10-Qd1e643" type="lemma" source="http://scta.info/resource/mt10_38@1-4">Et qui non accipit,</quote>
+            etc. <quote xml:id="gom-mt10-Qd1e646"><seg type="qs">Crux duobus modis portatur</seg>, etc., usque ad <seg type="qs">amor Christi ostendatur.</seg></quote>
+          </p>
+          <p xml:id="gom-mt10-d1e654">
+            <quote xml:id="gom-mt10-Qd1e656" type="lemma" source="http://scta.info/resource/mt10_38@7-9">Et sequitur me.</quote>
+            Aliquis enim carnem macerat pro inani gloria, vel proximo carnaliter compatitur ut culpae faveat: Hic crucem ferre videtur, sed Dominum non sequitur.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e661">
+          <head xml:id="gom-mt10-Hd1e663">Versus 39</head>
+          <p xml:id="gom-mt10-d1e665">
+            <quote xml:id="gom-mt10-Qd1e667" type="lemma" source="http://scta.info/resource/mt10_39@1-2">Qui invenit,</quote>
+            etc. Nomine animae vita praesens designatur.
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e672">
+          <head xml:id="gom-mt10-Hd1e674">Versus 40</head>
+          <p xml:id="gom-mt10-d1e676">
+            <quote xml:id="gom-mt10-Qd1e678" type="lemma" source="http://scta.info/resource/mt10_40@1-2">Qui recipit,</quote>
+            etc. <quote xml:id="gom-mt10-Qd1e681"><seg type="qs">Cum ad praedicationem mittit</seg>, etc., usque ad <seg type="qs">debere stipendia accipere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt10-Dd1e690">
+          <head xml:id="gom-mt10-Hd1e692">Versus 42</head>
+          <p xml:id="gom-mt10-d1e694">
+            <quote xml:id="gom-mt10-Qd1e696" type="lemma" source="http://scta.info/resource/mt10_42@1-2">Et quicumque.</quote>
+            Qui periculum non suscipientium testimonio excussi pulveris denuntiavit, meritum <pb ed="#P" n="0120B"/> recipientium ultra speratum commendat. Nota Deum magis ad pium affectum respicere quam ad quantitatem rei exhibitae.
+          </p>
+          <p xml:id="gom-mt10-d1e702">
+            <quote xml:id="gom-mt10-Qd1e704" type="lemma" source="http://scta.info/resource/mt10_42@5-7">Uni ex minimis.</quote>
+            Minimi sunt qui nihil penitus habent in hoc mundo, et judices erunt cum Christo.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

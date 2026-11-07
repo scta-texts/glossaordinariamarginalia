@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Marcus, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Marcus, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0189A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mc3">
+        <head xml:id="gom-mc3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-mc3-Dd1e100">
+          <head xml:id="gom-mc3-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mc3-d1e104">
+            <quote xml:id="gom-mc3-Qd1e106" type="lemma" source="http://scta.info/resource/mc3_1@10-11">Manum aridam.</quote>
+            <ref xml:id="gom-mc3-Rd1e109"><name xml:id="gom-mc3-Nd1e110" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e113">Quae ad fructum vetitum extensa est, a bono opere aruit, per manus Christi in cruce extensas, bonorum operum succis restituta.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e116">
+            <ref xml:id="gom-mc3-Rd1e118" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_1@10-11"/>
+            <ref xml:id="gom-mc3-Rd1e120"><name xml:id="gom-mc3-Nd1e121" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e124">Homo iste significat avaros, qui, nolentes dare, volunt accipere, praedari et non largiri: quibus dicitur ut extendant manus suas, id est, qui <quote xml:id="gom-mc3-Qd1e126" source="http://scta.info/resource/eph4_28@2-19">furabatur jam non furetur, magis autem laboret operans <pb ed="#P" n="0189B"/> manibus suis quod bonum est, ut habeat unde tribuat necessitatem patienti</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e134">
+          <head xml:id="gom-mc3-Hd1e136">Versus 2</head>
+          <p xml:id="gom-mc3-d1e138">
+            <quote xml:id="gom-mc3-Qd1e140" type="lemma" source="http://scta.info/resource/mc3_2@1-2">Et observabant.</quote>
+            <ref xml:id="gom-mc3-Rd1e143"><name xml:id="gom-mc3-Nd1e144" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e147">Quia discipulos probabiliter excusaverat: ipsum observant, ut si in sabbato curet, transgressionis: si non curet, crudelitatis aut imbecillitatis arguant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e151">
+          <head xml:id="gom-mc3-Hd1e153">Versus 4</head>
+          <p xml:id="gom-mc3-d1e155">
+            <quote xml:id="gom-mc3-Qd1e157" type="lemma" source="http://scta.info/resource/mc3_4@4-5">Licet sabbatis benefacere.</quote>
+            <ref xml:id="gom-mc3-Rd1e160"><name xml:id="gom-mc3-Nd1e161" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e164"><seg type="qs">Arguit, quod legis praecepta prava interpretatione violant, aestimantes in sabbato a bono feriandum, cum lex dicat</seg>, etc., usque ad <seg type="qs">similitudinem praeposuit de ove, et conclusit quod <quote xml:id="gom-mc3-Qd1e170" source="http://scta.info/resource/mc3_4@4-5">licet sabbato benefacere.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-mc3-d1e174">
+            <quote xml:id="gom-mc3-Qd1e176" type="lemma" source="http://scta.info/resource/mc3_4@10-10">Animam.</quote>
+            <ref xml:id="gom-mc3-Rd1e179"><name xml:id="gom-mc3-Nd1e180" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e183">Hominem totum per partem significat. Vel quia propter animam hoc faciebat, vel quod haec manus sanatio animae salutem significat.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e186">
+            <quote xml:id="gom-mc3-Qd1e188" type="lemma" source="http://scta.info/resource/mc3_4@14-14">Perdere.</quote>
+            <ref xml:id="gom-mc3-Rd1e191"><name xml:id="gom-mc3-Nd1e192" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e195">Non quod summe pius quemquam <pb ed="#P" n="0189C"/> possit perdere, sed ejus non salvare est perdere. Sicut dicitur indurasse cor Pharaonis, non quod obduravit, sed obduratum non emollivit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e202">
+          <head xml:id="gom-mc3-Hd1e204">Versus 5</head>
+          <p xml:id="gom-mc3-d1e206">
+            <quote xml:id="gom-mc3-Qd1e208" type="lemma" source="http://scta.info/resource/mc3_5@13-14">Extende manum.</quote>
+            <ref xml:id="gom-mc3-Rd1e211"><name xml:id="gom-mc3-Nd1e212" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e215">Infructuosa debilitas animae non melius curatur quam eleemosynae largitione; unde: <quote xml:id="gom-mc3-Qd1e217" source="http://scta.info/resource/lc3_11@5-17">Qui habet duas tunicas, det non habenti: et qui habet escas, similiter faciat</quote>. Et in Ecclesiastico: <quote xml:id="gom-mc3-Qd1e220" source="http://scta.info/resource/sir4_36@1-11">Fili, non sit manus tua porrecta ad capiendum et ad dandum collecta<!-- check: Migne cites qoh4; text matches sir4_36 --></quote>. Frustra enim in oratione manus ad Dominum expandit, qui eas ad rogantem viduam non extendit.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e226">
+            <quote xml:id="gom-mc3-Qd1e228" type="lemma" source="http://scta.info/resource/mc3_5@18-22">Et restituta est manus illi.</quote>
+            Magnum studium nequitiae in crimen reputant., quod ad verbum illius sanata est manus. Neque et sabbato potest convinci <pb ed="#P" n="0189D"/> laborasse, qui dixit et facta sunt: cum ipsi in sabbatis cibos portent, calices porrigant, et caetera victui necessaria.
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e236">
+          <head xml:id="gom-mc3-Hd1e238">Versus 6</head>
+          <p xml:id="gom-mc3-d1e240">
+            <quote xml:id="gom-mc3-Qd1e242" type="lemma" source="http://scta.info/resource/mc3_6@1-2">Exeuntes autem.</quote>
+            Qui per se non possunt, socios iniquitatis quaerunt.
+          </p>
+          <p xml:id="gom-mc3-d1e246">
+            <quote xml:id="gom-mc3-Qd1e248" type="lemma" source="http://scta.info/resource/mc3_6@5-6">Cum Herodianis.</quote>
+            Ministri Herodis propter inimicitias quas ipse adversus hominem exercebat, Jesum insidiis et odiis persequebantur quem Joannes praedicabat.
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e253">
+          <head xml:id="gom-mc3-Hd1e255">Versus 7</head>
+          <p xml:id="gom-mc3-d1e257">
+            <quote xml:id="gom-mc3-Qd1e259" type="lemma" source="http://scta.info/resource/mc3_7@6-6">Secessit.</quote>
+            Fugit ut homo, quia nondum venerat hora ejus, et passionis ejus extra Jerusalem non erat locus.
+          </p>
+          <p xml:id="gom-mc3-d1e263">
+            <ref xml:id="gom-mc3-Rd1e265" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_7@6-6"/>
+            <ref xml:id="gom-mc3-Rd1e267"><name xml:id="gom-mc3-Nd1e268" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e271">De synagoga secedit ad mare, etc. Judaeam relinquit, ad gentes venit cum discipulis, scilicet praedicantibus apostolis corda gentium adiit: et sic <pb ed="#P" n="0190A"/> multos ad se venientes suscepit, et desideratam salutem dedit.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e277">
+            <quote xml:id="gom-mc3-Qd1e279" type="lemma" source="http://scta.info/resource/mc3_7@9-11">Et multa turba.</quote>
+            <ref xml:id="gom-mc3-Rd1e282"><name xml:id="gom-mc3-Nd1e283" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e286">Magistri plebis et ministri regis odio persequuntur: vulgus indoctum dilectione sequitur, et plurimi sanari merentur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e290">
+          <head xml:id="gom-mc3-Hd1e292">Versus 9</head>
+          <p xml:id="gom-mc3-d1e294">
+            <quote xml:id="gom-mc3-Qd1e296" type="lemma" source="http://scta.info/resource/mc3_9@6-6">Navicula.</quote>
+            Ecclesia de gentibus congregata fluctus saeculi mente transgressa: quae quanto sinum cordis gratiae recipiendae dilatat, tanto fluctus saeculi securius calcat.
+          </p>
+          <p xml:id="gom-mc3-d1e300">
+            <quote xml:id="gom-mc3-Qd1e302" type="lemma" source="http://scta.info/resource/mc3_9@11-12">Ne comprimerent.</quote>
+            Comprimunt, qui Ecclesiae pacem turbant. Tangunt, qui fidem vero corde et dilectione suscipiunt, qui tetigere sanati esse perhibentur: fugiens comprimentes naviculam ascendit.
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e307">
+          <head xml:id="gom-mc3-Hd1e309">Versus 11</head>
+          <p xml:id="gom-mc3-d1e311">
+            <quote xml:id="gom-mc3-Qd1e313" type="lemma" source="http://scta.info/resource/mc3_11@1-3">Et spiritus immundi,</quote>
+            etc.
+            <ref xml:id="gom-mc3-Rd1e316"><name xml:id="gom-mc3-Nd1e317" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e320">Uterque et plagas habentes, et immundi spiritus. <pb ed="#P" n="0190B"/> Sed infirmi pia intentione salutis: daemoniaci, vel potius in eis daemones: non solum timore coacti ad procidendum, verum etiam ad confitendum majestatem ejus. Praesentia enim ejus perterriti, quem Filium Dei esse jamjamque noverant, celare non poterant. Saniores Arianis, qui etiam hodie negant Filium Dei esse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e327">
+          <head xml:id="gom-mc3-Hd1e329">Versus 12</head>
+          <p xml:id="gom-mc3-d1e331">
+            <quote xml:id="gom-mc3-Qd1e333" type="lemma" source="http://scta.info/resource/mc3_12@9-10">Ne manifestarent.</quote>
+            <ref xml:id="gom-mc3-Rd1e336"><name xml:id="gom-mc3-Nd1e337" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e340">Non solum daemones, qui inviti, vel ab eo sanati, qui sponte confitentur: sed et apostoli toto orbe post passionem praedicaturi, ante passionem tacere jubentur, ne divina majestate praedicata passio differretur, et sic salus mundi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e344">
+          <head xml:id="gom-mc3-Hd1e346">Versus 13</head>
+          <p xml:id="gom-mc3-d1e348">
+            <quote xml:id="gom-mc3-Qd1e350" type="lemma" source="http://scta.info/resource/mc3_13@1-2">Et ascendens.</quote>
+            <ref xml:id="gom-mc3-Rd1e353"><name xml:id="gom-mc3-Nd1e354" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e357">Postquam immundos spiritus se praedicare prohibuit, sanctos elegit, <pb ed="#P" n="0190C"/> qui eum praedicarent et nefandos spiritus ejicerent.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e363">
+            <ref xml:id="gom-mc3-Rd1e365" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_13@1-2"/>
+            Mons iste significat altitudinem justitiae, qua instruendi, et quam praedicaturi erant, per locum admonet ad coelestia erigi, sic et legem in monte dedit.
+          </p>
+          <p xml:id="gom-mc3-d1e368">
+            <ref xml:id="gom-mc3-Rd1e370" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_13@1-2"/>
+            <ref xml:id="gom-mc3-Rd1e372"><name xml:id="gom-mc3-Nd1e373" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e376"><seg type="qs">Consuetudo divinae Scripturae est allegorice loqui: sed nos sic excelsa sensibus nostris applicemus, ut historiae veritatem</seg>, etc., usque ad <seg type="qs">in montem vocantur excelsi et merito et verbo, ut locus congruat meritis altis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e386">
+          <head xml:id="gom-mc3-Hd1e388">Versus 14</head>
+          <p xml:id="gom-mc3-d1e390">
+            <quote xml:id="gom-mc3-Qd1e392" type="lemma" source="http://scta.info/resource/mc3_14@3-5">Ut essent duodecim.</quote>
+            Speciem Jacob dilexit Deus cum videret excelsus gentes, et separaret filios Adam. Statuit terminos populorum juxta numerum filiorum Israel, ut sint super thronos duodecim, judicantes duodecim tribus Israel. Quibus <pb ed="#P" n="0190D"/> data est potestas, quam Filius accepit a Patre secundum carnem, ut opera quae ipse fecit et ipsi faciant, et majora horum faciant.
+          </p>
+          <p xml:id="gom-mc3-d1e398">
+            <ref xml:id="gom-mc3-Rd1e400" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_14@3-5"/>
+            <ref xml:id="gom-mc3-Rd1e402"><name xml:id="gom-mc3-Nd1e403" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e406"><seg type="qs">Dedit etiam potestatem mortuos suscitandi, sicut Matthaeus dicit, ut virtus ostensa fidem</seg>, etc., usque ad <seg type="qs">quia <quote xml:id="gom-mc3-Qd1e412" source="http://scta.info/resource/Icor14_22@2-9">linguae in signum sunt non fidelibus, sed infidelibus</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e418">
+          <head xml:id="gom-mc3-Hd1e420">Versus 16</head>
+          <p xml:id="gom-mc3-d1e422">
+            <quote xml:id="gom-mc3-Qd1e424" type="lemma" source="http://scta.info/resource/mc3_16@1-2">Et imposuit.</quote>
+            <ref xml:id="gom-mc3-Rd1e427"><name xml:id="gom-mc3-Nd1e428" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e431"><seg type="qs">Non modo primum, sed cum adducto ab Andraea dixit: <quote xml:id="gom-mc3-Qd1e434" source="http://scta.info/resource/io1_42@16-21">Tu vocaberis Cephas, quod interpretatur Petrus</quote>. Sed hic evangelista te attentum reddit dicens, quod</seg>, etc., usque ad <seg type="qs">vel audiens tristitiam mortis, scilicet cum ei dicitur: <quote xml:id="gom-mc3-Qd1e440" source="http://scta.info/resource/io21_18@21-28">Alius te cinget et ducet quo tu non vis<!-- check: Migne cites Icor4; text matches io21_18 --></quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e447">
+          <head xml:id="gom-mc3-Hd1e449">Versus 17</head>
+          <p xml:id="gom-mc3-d1e451">
+            <pb ed="#P" n="0191A"/>
+            <quote xml:id="gom-mc3-Qd1e455" type="lemma" source="http://scta.info/resource/mc3_17@1-2">Et Jacobum.</quote>
+            Qui supplantata habet desideria carnis. Et Joannem, qui gratia accepit quod alii per laborem.
+          </p>
+          <p xml:id="gom-mc3-d1e459">
+            <quote xml:id="gom-mc3-Qd1e461" type="lemma" source="http://scta.info/resource/mc3_17@8-16">Et imposuit eis nomen Boanerges, quod est filii tonitrui.</quote>
+            Quorum sublime meritum in monte meretur audire tonitruum Patris per nubem de Filio tonantis: <quote xml:id="gom-mc3-Qd1e464" source="http://scta.info/resource/mt17_5@15-19">Hic est Filius meus dilectus</quote>, ut per nubem carnis et ipsi Christi ignem ac fulgura in pluviam spargerent in terris. quoniam Dominus in pluviam fulgura fecit, ut exstinguat misericordia quod judicium exurit; unde: <quote xml:id="gom-mc3-Qd1e467" source="http://scta.info/resource/ps100_1@4-9">Misericordiam et judicium cantabo tibi, Domine</quote>.
+          </p>
+          <p xml:id="gom-mc3-d1e471">
+            <quote xml:id="gom-mc3-Qd1e473" type="lemma" source="http://scta.info/resource/mc3_17@2-2">Jacobum.</quote>
+            Qui curam carnis Domino vocante supplantavit, et ipsam carnem Herode trucidante contempsit.
+          </p>
+          <p xml:id="gom-mc3-d1e477">
+            <pb ed="#P" n="0191B"/>
+            <quote xml:id="gom-mc3-Qd1e481" type="lemma" source="http://scta.info/resource/mc3_17@5-5">Joannem.</quote>
+            <ref xml:id="gom-mc3-Rd1e484"><name xml:id="gom-mc3-Nd1e485" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e488">In quo est gratia, vel <quote xml:id="gom-mc3-Qd1e490">Domini gratia,</quote> qui ob amoris praecipui gratiam quam virginali gloria promeruit, supra Redemptoris sui pectus in poena recubuit.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e495">
+            <quote xml:id="gom-mc3-Qd1e497" type="lemma" source="http://scta.info/resource/mc3_17@15-15">Filii.</quote>
+            <ref xml:id="gom-mc3-Rd1e500"><name xml:id="gom-mc3-Nd1e501" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e504">Quorum unus intonans, vocem theologam (quam nemo prius edere noverat) emisit: <quote xml:id="gom-mc3-Qd1e506" source="http://scta.info/resource/io1_1@1-4">In principio erat Verbum,</quote> etc. <!--<note>(Joan. I.)</note>--> Quam tanto pondere gravidam reliquit, ut si aliquanto plus intonare voluisset, nec ipse mundus capere potuisset.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e514">
+          <head xml:id="gom-mc3-Hd1e516">Versus 18</head>
+          <p xml:id="gom-mc3-d1e518">
+            <quote xml:id="gom-mc3-Qd1e520" type="lemma" source="http://scta.info/resource/mc3_18@1-2">Et Andream.</quote>
+            <ref xml:id="gom-mc3-Rd1e523"><name xml:id="gom-mc3-Nd1e524" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e527">Qui viriliter vim facit perditionis suae ut responsum mortis semper in se habeat et animam semper in manibus suis.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e530">
+            <quote xml:id="gom-mc3-Qd1e532" type="lemma" source="http://scta.info/resource/mc3_18@3-4">Et Philippum.</quote>
+            <ref xml:id="gom-mc3-Rd1e535"><name xml:id="gom-mc3-Nd1e536" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e539">Qui <quote xml:id="gom-mc3-Qd1e541">os lampadis</quote> est, qui illuminat ore quod accepit, cui datum est opus oris <pb ed="#P" n="0191C"/> illuminati. Hoc locutionis genus saepe Scriptura commemorat, quando nomina propter mysteria sunt posita: quod nunc evangelista, ex Dei persona vehementer affectans interserit.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e547">
+            <quote xml:id="gom-mc3-Qd1e549" type="lemma" source="http://scta.info/resource/mc3_18@5-6">Et Bartholomaeum.</quote>
+            <ref xml:id="gom-mc3-Rd1e552"><name xml:id="gom-mc3-Nd1e553" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e556">Qui est filius suspendentis aquas, illius scilicet qui dixit: <quote xml:id="gom-mc3-Qd1e558" source="http://scta.info/resource/is5_6@16-19">Mandabo nubibus meis ne pluant</quote>. Nomen vero filii Dei per pacem et dilectionem acquiritur: <quote xml:id="gom-mc3-Qd1e561">Beati</quote> enim <quote xml:id="gom-mc3-Qd1e563" source="http://scta.info/resource/mt5_9@2-6">pacifici, quoniam filii Dei vocabuntur</quote>. Et: <quote xml:id="gom-mc3-Qd1e566" source="http://scta.info/resource/lc6_27@6-8">Diligite inimicos vestros</quote> ut sitis <quote xml:id="gom-mc3-Qd1e569" source="http://scta.info/resource/mt5_9@4-5">filii Dei<!-- check: Migne cites lc6; text matches mt5_9 --></quote>.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e575">
+            <quote xml:id="gom-mc3-Qd1e577" type="lemma" source="http://scta.info/resource/mc3_18@7-8">Et Matthaeum.</quote>
+            Qui est <quote xml:id="gom-mc3-Qd1e580">donatus:</quote> cui non solum remissio peccatorum, sed etiam in apostolorum numero esse datur, <quote xml:id="gom-mc3-Qd1e582" source="http://scta.info/resource/is11_6@12-17">ut leo et bos simul comedant, et lupus cum agno</quote>.
+          </p>
+          <p xml:id="gom-mc3-d1e587">
+            <ref xml:id="gom-mc3-Rd1e589" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_18@7-8"/>
+            Nota, quod alii evangelistae Matthaeum praeponunt, <pb ed="#P" n="0191D"/> et publicanum non dicunt. Ipse post Thomam se ponit, et publicanum se dicit.
+          </p>
+          <p xml:id="gom-mc3-d1e594">
+            <quote xml:id="gom-mc3-Qd1e596" type="lemma" source="http://scta.info/resource/mc3_18@9-10">Et Thomam.</quote>
+            <ref xml:id="gom-mc3-Rd1e599"><name xml:id="gom-mc3-Nd1e600" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e603">Qui est <quote xml:id="gom-mc3-Qd1e605">abyssus.</quote> Multi enim profunda sciunt, sed non proferunt. <quote xml:id="gom-mc3-Qd1e607" source="http://scta.info/resource/IIcor12_2@1-4">Unde scio hominem in Christo,</quote> etc., usque: <quote xml:id="gom-mc3-Qd1e610" source="http://scta.info/resource/IIcor12_4@10-14">quae non licet homini loqui</quote>.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e615">
+            <ref xml:id="gom-mc3-Rd1e617" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_18@9-10"/>
+            <ref xml:id="gom-mc3-Rd1e619"><name xml:id="gom-mc3-Nd1e620" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e623">Thomas abyssus: quia altitudinem virtutis in resurrectione penetravit. Vel geminus, graece quod dicitur <mentioned>didymus</mentioned>, id est, dubius propter dubium cor, quia resurrectionem vix credidit.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e629">
+            <quote xml:id="gom-mc3-Qd1e631" type="lemma" source="http://scta.info/resource/mc3_18@11-13">Et Jacobum Alphaei.</quote>
+            Id est, docti vel millesimi, cujus <quote xml:id="gom-mc3-Qd1e634" source="http://scta.info/resource/ps90_7@2-11">a latere cadent mille, et decem millia a dextris tuis</quote>.
+          </p>
+          <p xml:id="gom-mc3-d1e638">
+            <ref xml:id="gom-mc3-Rd1e640" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_18@11-13"/>
+            <ref xml:id="gom-mc3-Rd1e642"><name xml:id="gom-mc3-Nd1e643" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e646"><seg type="qs">Jacobum Alphaei, qui et frater Domini dicitur: <pb ed="#P" n="0192A"/> quia Maria Alphaei fuit soror</seg>, etc., usque ad <seg type="qs">post resurrectionem statim Jerosolymorum ordinatur episcopus, tanquam doctus vel docti filius.</seg></quote>
+          </p>
+          <p xml:id="gom-mc3-d1e656">
+            <quote xml:id="gom-mc3-Qd1e658" type="lemma" source="http://scta.info/resource/mc3_18@15-15">Thaddaeum.</quote>
+            Custos cordis. Hunc Lucas in Evangelio, et in Actibus apostolorum Judam Jacobi nominat, quia frater Jacobi fratris Domini. Unde dicitur filius Mariae matris Jacobi et Joseph et Judae et Simonis.
+          </p>
+          <p xml:id="gom-mc3-d1e663">
+            <quote xml:id="gom-mc3-Qd1e665" type="lemma" source="http://scta.info/resource/mc3_18@14-15">Et Thaddaeum,</quote>
+            <ref xml:id="gom-mc3-Rd1e668"><name xml:id="gom-mc3-Nd1e669" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e672">qui est <mentioned>corculus</mentioned>, id est, cordis cultor qui servat cor suum omni custodia. Munditia namque cordis videtur Deus ut per vitrum mundum.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e678">
+            <quote xml:id="gom-mc3-Qd1e680" type="lemma" source="http://scta.info/resource/mc3_18@16-17">Et Simonem.</quote>
+            <ref xml:id="gom-mc3-Rd1e683"><name xml:id="gom-mc3-Nd1e684" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e687">Simon Cananaeus a Cana vico Galilaeae, qui et Simon <mentioned>Zelotes</mentioned>, id est, aemulator. Cana, Zelus; Cananaeus, Zelotes.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e693">
+            <pb ed="#P" n="0192B"/>
+            <quote xml:id="gom-mc3-Qd1e697" type="lemma" source="http://scta.info/resource/mc3_18@16-18">Et Simonem Cananaeum.</quote>
+            Qui et Zelotes Simon ponens vel habens tristitiam.
+          </p>
+          <p xml:id="gom-mc3-d1e701">
+            <quote xml:id="gom-mc3-Qd1e703" type="lemma" source="http://scta.info/resource/mc3_18">Beati</quote>
+            <!-- check: lemma not matched to verse text -->
+            namque <quote xml:id="gom-mc3-Qd1e708" source="http://scta.info/resource/mt5_5@2-6">qui lugent, quoniam ipsi consolabuntur</quote>. Trinum luctum implet qui consolationem quaerit futuram. Deflet propria peccata cum David et Maria. Cum Paulo flet cum flentibus. Et flet multum cum Joanne qui dicebat: <quote xml:id="gom-mc3-Qd1e711" source="http://scta.info/resource/ap5_4@1-11">Et ego flebam multum: quia nemo dignus inventus est aperire librum et solvere signacula ejus</quote>. Zelotes autem dicitur quem comedit zelus domus Dei, ut Phinees: <quote xml:id="gom-mc3-Qd1e714" source="http://scta.info/resource/ps105_30@6-8">Et cessavit quassatio<!-- check: Migne cites num25; text matches ps105_30 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e720">
+          <head xml:id="gom-mc3-Hd1e722">Versus 19</head>
+          <p xml:id="gom-mc3-d1e724">
+            <quote xml:id="gom-mc3-Qd1e726" type="lemma" source="http://scta.info/resource/mc3_19@1-3">Et Judam Scariotem.</quote>
+            Qui non delet peccatum suum per poenitentiam, nec illud deletur per memoriam. Unde: <quote xml:id="gom-mc3-Qd1e729" source="http://scta.info/resource/ps108_14@10-15">Et peccatum matris ejus non deleatur. Fiat contra Dominum semper</quote>.
+          </p>
+          <p xml:id="gom-mc3-d1e733">
+            <pb ed="#P" n="0192C"/>
+            <ref xml:id="gom-mc3-Rd1e737" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_19@1-3"/>
+            Judas <quote xml:id="gom-mc3-Qd1e739">confitens</quote> vel <quote xml:id="gom-mc3-Qd1e741">gloriosus;</quote> Scarioth <quote xml:id="gom-mc3-Qd1e743">memoria mortis.</quote> Confessores multi sunt in Ecclesia superbi et gloriosi quorum primus Simon Magus, et alii haeretici, quorum memoria mortalis in Ecclesia celebratur: ut deleatur.
+          </p>
+          <p xml:id="gom-mc3-d1e746">
+            <ref xml:id="gom-mc3-Rd1e748" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_19@1-3"/>
+            <ref xml:id="gom-mc3-Rd1e750"><name xml:id="gom-mc3-Nd1e751" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e754"><seg type="qs">Judas Scarioth a vico in quo ortus, aut a tribu Issachar. Issachar <quote xml:id="gom-mc3-Qd1e757">merces,</quote> pretium scilicet perditionis: Scarioth</seg>, etc., usque ad <seg type="qs">quos unius exemplum ad timorem humiliat, ut angelos luciferi casus, ut <quote xml:id="gom-mc3-Qd1e762" source="http://scta.info/resource/ier9_23@4-9">Non glorietur sapiens in sapientia sua</quote>, sed <quote xml:id="gom-mc3-Qd1e765" source="http://scta.info/resource/Icor1_31@5-9">qui gloriatur, in Domino glorietur</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e771">
+          <head xml:id="gom-mc3-Hd1e773">Versus 20</head>
+          <p xml:id="gom-mc3-d1e775">
+            <quote xml:id="gom-mc3-Qd1e777" type="lemma" source="http://scta.info/resource/mc3_20@1-2">Et veniunt,</quote>
+            etc.
+            <ref xml:id="gom-mc3-Rd1e780"><name xml:id="gom-mc3-Nd1e781" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e784">Qui aliorum curam susceperunt, sollicite custodire debent conscientiae donum, ut se prius, inde alios regant.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e787">
+            <pb ed="#P" n="0192D"/>
+            <ref xml:id="gom-mc3-Rd1e791" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_20@1-2"/>
+            <ref xml:id="gom-mc3-Rd1e793"><name xml:id="gom-mc3-Nd1e794" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e797">Domus in qua conveniunt, primitiva Ecclesia est. Turbae quae impediunt panem manducare, peccata et vitia sunt, quia <quote xml:id="gom-mc3-Qd1e799" source="http://scta.info/resource/Icor11_29@1-14">qui manducat corpus Domini indigne, judicium sibi manducat et bibit, non dijudicans corpus Domini</quote>. Unde Dominus in furorem vertitur cum dicit: <quote xml:id="gom-mc3-Qd1e802" source="http://scta.info/resource/io6_54@9-20">Nisi manducaveritis carnem Filii hominis et biberitis ejus sanguinem, non habebitis vitam</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e809">
+          <head xml:id="gom-mc3-Hd1e811">Versus 21</head>
+          <p xml:id="gom-mc3-d1e813">
+            <quote xml:id="gom-mc3-Qd1e815" type="lemma" source="http://scta.info/resource/mc3_21@1-3">Et cum audissent,</quote>
+            etc. Turba frequentat eum, sui tanquam furiosum despiciunt, in quo salus gentium notatur, et invidia Judaeorum reprobatur, de quibus: <quote xml:id="gom-mc3-Qd1e818" source="http://scta.info/resource/io6_37@8-10">In propria venit, et sui eum non receperunt</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e823">
+          <head xml:id="gom-mc3-Hd1e825">Versus 22</head>
+          <p xml:id="gom-mc3-d1e827">
+            <pb ed="#P" n="0193A"/>
+            <quote xml:id="gom-mc3-Qd1e831" type="lemma" source="http://scta.info/resource/mc3_22@1-2">Et Scribae.</quote>
+            <ref xml:id="gom-mc3-Rd1e834"><name xml:id="gom-mc3-Nd1e835" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e838">Si qui tarditate mentis non intelligunt verbum Dei, remanet tamen spes salutis; si forte intelligant, nulla. Qui autem intelligere nolunt et invertunt quod intelligunt, nulla spes est. Unde, <quote xml:id="gom-mc3-Qd1e840" source="http://scta.info/resource/mc3_22@2-2">Scribae,</quote> id est sapientes, etc.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e845">
+            <quote xml:id="gom-mc3-Qd1e847" type="lemma" source="http://scta.info/resource/mc3_22@4-5">Ab Hierosolymis.</quote>
+            Quod significat eum a civibus suis esse persequendum usque ad mortem. Legimus supra quia secuta est eum turba a Galilaea et Jerosolymis, et trans Jordanem et circa Tyrum et Sidonem, quae sunt civitates gentilium: et Scribae ab Jerosolymis blasphemabant: quia turba populi Judaeorum illum cum palmis et laudibus perduxit; gentiles desiderabant; Scribae et seniores populi de nece ejus tractabant.
+          </p>
+          <p xml:id="gom-mc3-d1e851">
+            <quote xml:id="gom-mc3-Qd1e853" type="lemma" source="http://scta.info/resource/mc3_22@9-10">Beelzebub habet.</quote>
+            Vir muscarum sive habens muscas: quo nomine principem <pb ed="#P" n="0193B"/> daemoniorum cognominabant propter sordes immolatitii cruoris.
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e860">
+          <head xml:id="gom-mc3-Hd1e862">Versus 23</head>
+          <p xml:id="gom-mc3-d1e864">
+            <quote xml:id="gom-mc3-Qd1e866" type="lemma" source="http://scta.info/resource/mc3_23@8-10">Quomodo potest Satanas,</quote>
+            etc.
+            <ref xml:id="gom-mc3-Rd1e869"><name xml:id="gom-mc3-Nd1e870" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e873">Eligant quod volunt. Si Satanas Satanam non potest ejicere, nihil contra Dominum dicunt. Si autem potest, recedant a regno ejus, quod divisum stare non potest.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e877">
+          <head xml:id="gom-mc3-Hd1e879">Versus 27</head>
+          <p xml:id="gom-mc3-d1e881">
+            <quote xml:id="gom-mc3-Qd1e883" type="lemma" source="http://scta.info/resource/mc3_27@13-17">Et tunc domum ejus diripiet.</quote>
+            <ref xml:id="gom-mc3-Rd1e886"><name xml:id="gom-mc3-Nd1e887" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e890">Domum diripuit, quia omnes mundi partes a diabolo possessas, apostolis et eorum successoribus quasi divisas provincias, ut populos ad fidem converterent, distribuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e894">
+          <head xml:id="gom-mc3-Hd1e896">Versus 29</head>
+          <p xml:id="gom-mc3-d1e898">
+            <quote xml:id="gom-mc3-Qd1e900" type="lemma" source="http://scta.info/resource/mc3_29@1-3">Qui autem blasphemaverit.</quote>
+            <ref xml:id="gom-mc3-Rd1e903"><name xml:id="gom-mc3-Nd1e904" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e907"><seg type="qs">Quia non meretur poenitentiam agere ut recipiatur, qui Christum intelligens principem daemoniorum esse <pb ed="#P" n="0193C"/> dicebat</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-mc3-Qd1e914" source="http://scta.info/resource/mt5_19@18-28">Qui enim fecerit et docuerit, hic magnus vocabitur in regno coelorum</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-mc3-d1e919">
+            <ref xml:id="gom-mc3-Rd1e921" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_29@1-3"/>
+            <ref xml:id="gom-mc3-Rd1e923"><name xml:id="gom-mc3-Nd1e924" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e927">Matthaeus dicit <!--<note>(Matth. XII)</note>-->: <quote xml:id="gom-mc3-Qd1e931" source="http://scta.info/resource/mc3_29@1-6">Qui blasphemaverit in Spiritum sanctum vel verbum,</quote> etc. Ubi ostendit quaedam revelari in futuro. Quod de minimis intelligendum est, ut de sermone otioso, de risu nimio; quorum etiam haec vita veniam promeruit.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e936">
+            <quote xml:id="gom-mc3-Qd1e938" type="lemma" source="http://scta.info/resource/mc3_29@10-11">In aeternum.</quote>
+            Hoc contra Origenem, qui omnibus peccatoribus veniam promittit post judicium transactis innumeris saeculis.
+          </p>
+          <p xml:id="gom-mc3-d1e942">
+            <quote xml:id="gom-mc3-Qd1e944" type="lemma" source="http://scta.info/resource/mc3_29@13-16">Reus erit aeterni delicti.</quote>
+            <ref xml:id="gom-mc3-Rd1e947"><name xml:id="gom-mc3-Nd1e948" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e951">Non quia spiritum non esse: vel quia esse, sed non Deum esse: vel Deum esse, sed minorem Patre et Filio: quia hoc non invidia diabolica, sed humana ignorantia, etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e955">
+          <head xml:id="gom-mc3-Hd1e957">Versus 31</head>
+          <p xml:id="gom-mc3-d1e959">
+            <pb ed="#P" n="0193D"/>
+            <quote xml:id="gom-mc3-Qd1e963" type="lemma" source="http://scta.info/resource/mc3_31@6-6">Fratres.</quote>
+            <ref xml:id="gom-mc3-Rd1e966"><name xml:id="gom-mc3-Nd1e967" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e970">Non filii Mariae semper Virginis, ut mentitur Helvidius: vel Joseph ex alia uxore, sicut alii garriunt, sed cognati.</quote>
+          </p>
+          <p xml:id="gom-mc3-d1e973">
+            <ref xml:id="gom-mc3-Rd1e975" type="lemma" subtype="implied" target="http://scta.info/resource/mc3_31@6-6"/>
+            <ref xml:id="gom-mc3-Rd1e977"><name xml:id="gom-mc3-Nd1e978" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e981">Mater et fratres, populus Judaeorum ex quibus Christus secundum carnem, foris stant in litterali sensu. Turba in domo, gentes in spirituali mysterio. Foris volunt Judaei videre Christum, quia, spiritualem intelligentiam non quaerentes, potius ad carnalia docenda eum exire cogunt vel quaerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e986">
+          <head xml:id="gom-mc3-Hd1e988">Versus 33</head>
+          <p xml:id="gom-mc3-d1e990">
+            <quote xml:id="gom-mc3-Qd1e992" type="lemma" source="http://scta.info/resource/mc3_33@5-7">Quae est mater.</quote>
+            <ref xml:id="gom-mc3-Rd1e995"><name xml:id="gom-mc3-Nd1e996" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e999">Non refutat obsequi matri qui dicit: <quote xml:id="gom-mc3-Qd1e1001" source="http://scta.info/resource/ex20_12@1-5">Honora patrem et matrem</quote>: sed ostendit se plus debere paternis mysteriis, quam maternis affectibus, idem exemplo monstravit, quod verbo ait: <quote xml:id="gom-mc3-Qd1e1004" source="http://scta.info/resource/mt10_37@1-12">Qui amat patrem aut <pb ed="#P" n="0194A"/> matrem plus quam me, non est me dignus</quote>. Nec fratres injuriose contemnit, sed opus spirituale praeficit cognationi, docens meliorem esse copulam cordium quam corporum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc3-Dd1e1012">
+          <head xml:id="gom-mc3-Hd1e1014">Versus 34</head>
+          <p xml:id="gom-mc3-d1e1016">
+            <quote xml:id="gom-mc3-Qd1e1018" type="lemma" source="http://scta.info/resource/mc3_34@10-12">Ecce mater mea,</quote>
+            etc.
+            <ref xml:id="gom-mc3-Rd1e1021"><name xml:id="gom-mc3-Nd1e1022" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc3-Qd1e1025">Ut sciamus nos esse et fratres ejus et matrem si voluntatem Patris ejus fecerimus, ut cohaeredes simus, quia non in sexibus, sed in factis discernit. Soror et frater credendo, mater praedicando, dum per praedicationem amor Christi quasi ipse Christus in corde auditoris generatur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

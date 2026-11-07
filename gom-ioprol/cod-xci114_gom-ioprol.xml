@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ioannes, Prologus</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ioannes, Prologus</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0355B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ioprol">
+        <head xml:id="gom-ioprol-Hd1e98">PROLOGUS.</head>
+        <p xml:id="gom-ioprol-d1e100">
+          <pb ed="#P" n="0355B"/>
+          Omnibus divinae Scripturae paginis, Evangelium excellit, quia quod lex et prophetae futurum praedixerunt, hoc completum dicit Evangelium. Inter ipsos autem evangeliorum scriptores Joannes eminet in divinorum mysteriorum profunditate, qui a tempore Dominicae Ascensionis per annos sexaginta quinque verbum Dei absque adminiculo scribendi usque ad ultima Domitiani praedicavit tempora. Sed occiso Domitiano, cum permittente Nerva de exsilio redisset Ephesum, compulsus ab episcopis Asiae de coaeterna Patri divinitate Christi scripsit adversus haereticos, qui eo absente irruperant in ejus ecclesias, qui Christum ante Mariam fuisse negabant. Unde merito in figura quatuor animalium aquilae volanti comparatur, <pb ed="#P" n="0355C"/> quae volat altius caeteris animalibus, et solis radios irreverberatis aspicit luminibus. Caeteri quippe evangelistae, qui temporalem Christi nativitatem et temporalia ejus facta, quae gessit in homine sufficienter exponunt, et de divinitate pauca dixerunt, quasi animalia gressibilia, cum Domino ambulant in terra. Hic autem pauca de temporalibus ejus gestis edisserens, sed divinitatis potentiam sublimius contemplans, cum Domino ad coelum volat. Qui enim supra pectus Domini in coena recubuit, coelestis haustum sapientiae caeteris excellentius de ipso Dominici pectoris fonte potavit. Legerat siquidem evangelia trium evangelistarum, et approbaverat fidem eorum et veritatem in quibus deesse vidit aliqua gestarum rerum historiae, et ea maxime quae Dominus <pb ed="#P" n="0355D"/> gessit primo praedicationis suae tempore, scilicet, antequam Joannes Baptista clauderetur in carcere. Haec ergo quasi dimissa ab illis, scribit Joannes quae fecit Jesus antequam Joannes traderetur, sed maxime divinitatem Christi et Trinitatis mysterium commendare curavit. Tres siquidem alii evangelistae, dicta et facta Domini temporalia, quae ad informandos mores vitae praesentis maxime valent, copiosius consecuti, circa activam vitam sunt versati. In qua laboratur, ut cor mundetur ad videndum Deum. Joannes vero pauca Domini facta dicit, verba vero <pb ed="#P" n="0356B"/> Domini quae Trinitatis unitatem, et vitae aeternae felicitatem insinuant, diligentius conscribit, et sic in contemplativa vita virtute commendanda, intentionem suam et praedicationem tenuit. In qua contemplativa vacatur, ut Deus videatur. Iste siquidem est Joannes quem Dominus de fluctivaga nuptiarum tempestate vocavit, et cui matrem virginem virgini commendavit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0072D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt2">
+        <head xml:id="gom-mt2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-mt2-Dd1e100">
+          <head xml:id="gom-mt2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt2-d1e104">
+            <quote xml:id="gom-mt2-Qd1e106" type="lemma" source="http://scta.info/resource/mt2_1@1-3">Cum ergo natus,</quote>
+            etc. Quamvis Matthaeus nativitatem praetermittat, tamen adventum magorum referens, breviter eam commemorat, sic dicens: <quote xml:id="gom-mt2-Qd1e109" source="http://scta.info/resource/mt2_1@1-2">Cum ergo.</quote>
+          </p>
+          <p xml:id="gom-mt2-d1e113">
+            <ref xml:id="gom-mt2-Rd1e115" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_1@1-3"/>
+            <ref xml:id="gom-mt2-Rd1e117"><name xml:id="gom-mt2-Nd1e118" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt2-Qd1e121"><seg type="qs">Quatuor hic ponuntur a prophetis roborata, nativitas, nomen, locus et tempus</seg>, etc., usque ad <seg type="qs">de adventu magorum Lucas tacet, et Matthaeus exponit.</seg></quote>
+          </p>
+          <p xml:id="gom-mt2-d1e129">
+            <pb ed="#P" n="0073A"/>
+            <quote xml:id="gom-mt2-Qd1e133" type="lemma" source="http://scta.info/resource/mt2_1@7-8">Bethehem Judae.</quote>
+            Ad differentiam illius quae est in Galilaea, in tribu Zabulon. Duae enim sunt Bethlehem: Bethlehem prius dicta est Ephratha, Bethlehem domus panis, quia ibi nasciturus erat Panis vivus qui de coelo descendit, qui ponitur in praesepio: ut irrationabiles pastos, faciat socios angelorum. Significat autem Ecclesiam, quae est domus in qua panis vivus comeditur.
+          </p>
+          <p xml:id="gom-mt2-d1e137">
+            <quote xml:id="gom-mt2-Qd1e139" type="lemma" source="http://scta.info/resource/mt2_1@9-10">In diebus.</quote>
+            <ref xml:id="gom-mt2-Rd1e142"><name xml:id="gom-mt2-Nd1e143" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt2-Qd1e146"><seg type="qs">Hoc non ponit tantum pro tempore, sed ut videatur impletum</seg>, etc., usque ad <seg type="qs">Judaei locum insinuant: tempus adventus non cognoscunt.</seg></quote>
+          </p>
+          <p xml:id="gom-mt2-d1e155">
+            <ref xml:id="gom-mt2-Rd1e157" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_1@9-10"/>
+            <ref xml:id="gom-mt2-Rd1e159"><name xml:id="gom-mt2-Nd1e160" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt2-Qd1e163"><seg type="qs">Manifestatus est Jesus non doctis nec justis: praevalet namque</seg>, etc., usque ad <seg type="qs">ut nullus magnus superbiret, nullus infirmus desperaret.</seg></quote>
+          </p>
+          <p xml:id="gom-mt2-d1e171">
+            <pb ed="#P" n="0073B"/>
+            <quote xml:id="gom-mt2-Qd1e175" type="lemma" source="http://scta.info/resource/mt2_1@17-17">Venerunt.</quote>
+            Magi, non post annum: quia tunc non inveniretur in praesepio, sed in Aegypto, sed decima tertia die. Fuerunt autem de terra Persarum ubi et Saba fluvius a quo regio nominatur, juxta quam et Arabia est, ubi Magi fuerunt reges. Qui etsi tria munera obtulisse dicuntur, non ideo non plures quam tres fuisse probantur, sed ut per eos gentes quae ex tribus filiis Noe natae sunt, venturae ad fidem praefigurentur: vel tot fuerunt principes, qui multos duxerunt in suo comitatu. Ideo Magi apud Jerosolymam praecipue rogant: quia per Balaam de Israel nasciturum audierunt. Nova enim stella novum hominem indicabat. Stella, Christus quem sequi debemus, qui nisi in cordibus oriatur, rex Judaeorum in Oriente non quaeritur.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e180">
+          <head xml:id="gom-mt2-Hd1e182">Versus 2</head>
+          <p xml:id="gom-mt2-d1e184">
+            <pb ed="#P" n="0073C"/>
+            <quote xml:id="gom-mt2-Qd1e188" type="lemma" source="http://scta.info/resource/mt2_2@2-7">Ubi est, qui natus est rex,</quote>
+            etc. Confusio Judaeorum est, ubi Christi nativitatem a gentibus discunt, et si non credunt, inexcusabiles sunt.
+          </p>
+          <p xml:id="gom-mt2-d1e192">
+            <quote xml:id="gom-mt2-Qd1e194" type="lemma" source="http://scta.info/resource/mt2_2@9-11">Vidimus enim stellam.</quote>
+            Haec stella Dominicae nativitatis nuntia nunquam prius apparuit, sed eam tunc puer creavit, et Magis deputavit: quae mox peracto officio esse desiit. Christum nondum loquentem muta stella praedicat, postea loquentem apostoli nuntiaverunt Judaeis, tanquam ratione utentibus; substantia rationalis, id est, angelus ortum Christi nuntiavit. Magos vero primitias gentium nondum ratione utentium irrationalis, id est stella, perduxit. Pastoribus angeli, Magis stella, utrisque tamen loquitur lingua coelorum, quia jam cessabat lingua prophetarum. Utrum stella orta sit in oriente, an <pb ed="#P" n="0073D"/> ipsi ibi positi natam ad occidentem viderint, ambiguum est. Potuit enim nasci in oriente, et eos in Jerusalem perducere. Sed dum humanum quasi ex lege quaerunt auxilium, divino deseruntur. Per stellam intellexerunt eum in Judaea natum, et ideo Jerusalem veniunt, ubi locum discentes tunc aggressi iter primum habent stellam praeviam quam recognoscunt.
+          </p>
+          <p xml:id="gom-mt2-d1e200">
+            <ref xml:id="gom-mt2-Rd1e202" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_2@9-11"/>
+            Allegorice. Stella est illuminatio fidei quae ad Christum ducit. Dum divertunt ad Judaeos, eam amittunt: quia dum a malis consilium quaerunt, veram illuminationem perdunt.
+          </p>
+          <p xml:id="gom-mt2-d1e205">
+            <ref xml:id="gom-mt2-Rd1e207" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_2@9-11"/>
+            <ref xml:id="gom-mt2-Rd1e209"><name xml:id="gom-mt2-Nd1e210" ref="#PopeLeoI">LEO.</name></ref>
+            <quote xml:id="gom-mt2-Qd1e213"><seg type="qs">Sequuntur tres viri superni luminis ductum et praevii fulgoris indicium intenta contemplatione <pb ed="#P" n="0074A"/> comitantes, ad agnitionem veritatis</seg>, etc., usque ad <seg type="qs">ut eos tantae visionis mysterium non lateret, et quod oculis ostendebatur insolitum, animis non esset obscurum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e224">
+          <head xml:id="gom-mt2-Hd1e226">Versus 3</head>
+          <p xml:id="gom-mt2-d1e228">
+            <quote xml:id="gom-mt2-Qd1e230" type="lemma" source="http://scta.info/resource/mt2_3@1-3">Audiens autem Herodes,</quote>
+            etc. Rex dicitur, ut collatione ejus qui quaeritur, hic intelligatur extraneus, quia jam defecerat proprius.
+          </p>
+          <p xml:id="gom-mt2-d1e234">
+            <quote xml:id="gom-mt2-Qd1e236" type="lemma" source="http://scta.info/resource/mt2_3@1-3">Audiens autem Herodes.</quote>
+            Alium regem Judaeorum quam se quaeri, volebat enim cum esset alienigena legitimus rex videri: et ideo codices quibus genealogia texitur cremavit.
+          </p>
+          <p xml:id="gom-mt2-d1e240">
+            <quote xml:id="gom-mt2-Qd1e242" type="lemma" source="http://scta.info/resource/mt2_3@5-6">Turbatus est,</quote>
+            etc. Vel quia exitum regni sui timet, vel propter iram Romanorum si hoc pateretur, qui decreverant ne quis rex vel dominus sine eorum consilio diceretur. Nato rege coeli, rex terrae <pb ed="#P" n="0074B"/> turbatus est, quia nimirum terrena altitudo confunditur cum coelestis celsitudo praedicatur.
+          </p>
+          <p xml:id="gom-mt2-d1e248">
+            <quote xml:id="gom-mt2-Qd1e250" type="lemma" source="http://scta.info/resource/mt2_3@10-11">Cum illo.</quote>
+            Propter favorem: quia saepe populus plus eis injuste favet, quos crudeles sustinent. Unde Salomon: <quote xml:id="gom-mt2-Qd1e253" source="http://scta.info/resource/mt2_2@7-7">Rex</quote> injustus <quote xml:id="gom-mt2-Qd1e256" source="http://scta.info/resource/prov29_12@7-10">omnes ministros impios habet</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e261">
+          <head xml:id="gom-mt2-Hd1e263">Versus 4</head>
+          <p xml:id="gom-mt2-d1e265">
+            <quote xml:id="gom-mt2-Qd1e267" type="lemma" source="http://scta.info/resource/mt2_4@1-5">Et congregans omnes principes sacerdotum.</quote>
+            Nota diligentiam inquirentis, ut si invenerit faciat quod post se velle ostendit: sin autem, excusatus sit Romanis. Explorabat etiam, si rex eorum tristes vel laetos faciat Judaeos.
+          </p>
+          <p xml:id="gom-mt2-d1e271">
+            <quote xml:id="gom-mt2-Qd1e273" type="lemma" source="http://scta.info/resource/mt2_4@12-14">Ubi Christus nasceretur.</quote>
+            A Judaeis quaerit locum, a Magis tempus, ut de utroque fiat certus.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e279">
+          <head xml:id="gom-mt2-Hd1e281">Versus 5</head>
+          <p xml:id="gom-mt2-d1e283">
+            <quote xml:id="gom-mt2-Qd1e285" type="lemma" source="http://scta.info/resource/mt2_5@5-7">In Bethlehem Judae.</quote>
+            Locum nativitatis exprimunt, quem testimonio Scripturae <pb ed="#P" n="0074C"/> didicerunt, ut ipsa eorum scientia illis fieret ad testimonium damnationis, nobis ad adjutorium fidei.
+          </p>
+          <p xml:id="gom-mt2-d1e291">
+            <ref xml:id="gom-mt2-Rd1e293" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_5@5-7"/>
+            Ex hoc patet, quia non ex ignorantia, sed ex cordis duritia credere noluerunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e297">
+          <head xml:id="gom-mt2-Hd1e299">Versus 6</head>
+          <p xml:id="gom-mt2-d1e301">
+            <quote xml:id="gom-mt2-Qd1e303" type="lemma" source="http://scta.info/resource/mt2_6@1-3">Et tu, Bethlehem.</quote>
+            Hoc sic ponit, ut ab eis dictum est, quia etsi non verba, veritatem sensus quodammodo ponunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e308">
+          <head xml:id="gom-mt2-Hd1e310">Versus 7</head>
+          <p xml:id="gom-mt2-d1e312">
+            <quote xml:id="gom-mt2-Qd1e314" type="lemma" source="http://scta.info/resource/mt2_7@3-5">Clam vocatis Magis.</quote>
+            Remotis sacerdotibus et scribis; timebat enim ne Judaei quasi ex Dei oraculo promissum occultarent, si se velle eum perimere sentirent. Ideo etiam promisit se adorare, ne quis sentiret dolum ejus: sed sine suspicione ob gratiam favoris ei renuntiarent.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e319">
+          <head xml:id="gom-mt2-Hd1e321">Versus 8</head>
+          <p xml:id="gom-mt2-d1e323">
+            <quote xml:id="gom-mt2-Qd1e325" type="lemma" source="http://scta.info/resource/mt2_8@22-23">Adorem eum.</quote>
+            Herodes devotionem pro <pb ed="#P" n="0074D"/> mittit, sed gladium acuit: malitiam cordis depingens colore humilitatis. Finxit se vultu et verbis adorare eum, quem invida mente cogitabat occidere. Cujus personam repraesentant hypocritae, qui ficte Deum quaerunt, nunquam merentur invenire.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e332">
+          <head xml:id="gom-mt2-Hd1e334">Versus 9</head>
+          <p xml:id="gom-mt2-d1e336">
+            <quote xml:id="gom-mt2-Qd1e338" type="lemma" source="http://scta.info/resource/mt2_9@6-10">Et ecce stella quam viderant.</quote>
+            Ingressi Judaeam deseruntur indicio stellae, ut cogantur ex lege inquirere. Vel divino deseruntur auxilio qui quaerunt humanum. Nec decebat signum infidelibus datum apparere domesticis legis et prophetarum; quia, <quote xml:id="gom-mt2-Qd1e341" source="http://scta.info/resource/lc16_31@4-14">si Moysen et prophetas non audiunt: neque si quis ex mortuis,</quote> etc. Non tenuit aethereas vias: sed multum domui vicina, aliter non discernerent domum.
+          </p>
+          <p xml:id="gom-mt2-d1e345">
+            <pb ed="#P" n="0075A"/>
+            <ref xml:id="gom-mt2-Rd1e349" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_9@6-10"/>
+            Moraliter. Stella est bona exhortatio ducens ad Christum. Vel potius fides quae est mentis illuminatio, per quam ingrediens Christum videt qui est stella matutina: et eo viso gaudet gaudio et adorare non desinit.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e353">
+          <head xml:id="gom-mt2-Hd1e355">Versus 10</head>
+          <p xml:id="gom-mt2-d1e357">
+            <quote xml:id="gom-mt2-Qd1e359" type="lemma" source="http://scta.info/resource/mt2_10@4-7">Gavisi sunt gaudio magno,</quote>
+            etc. Gaudio gaudet, qui propter Deum (qui verum gaudium est) gaudet. Addit et magno, quo nihil est majus. Et valde gavisi, quia de magno potest alius plus, alius minus gaudere.
+          </p>
+          <p xml:id="gom-mt2-d1e363">
+            <ref xml:id="gom-mt2-Rd1e365" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_10@4-7"/>
+            VERS. 11.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e370">
+          <head xml:id="gom-mt2-Hd1e372">Versus 11</head>
+          <p xml:id="gom-mt2-d1e374">
+            <quote xml:id="gom-mt2-Qd1e376" type="lemma" source="http://scta.info/resource/mt2_11@1-3">Et intrantes domum,</quote>
+            etc. Tres Magi uno itinere Deum veniunt adorare: quia in uno Christo (qui est via) inseparabilis Trinitas ab eis erat adoranda.
+          </p>
+          <p xml:id="gom-mt2-d1e380">
+            <quote xml:id="gom-mt2-Qd1e382" type="lemma" source="http://scta.info/resource/mt2_11@5-9">Puerum cum Maria matre ejus,</quote>
+            etc. Saepe puer nominatur, ut eum agnoscant, de quo <pb ed="#P" n="0075B"/> dictum est: <quote xml:id="gom-mt2-Qd1e387" source="http://scta.info/resource/is9_6@3-5">Puer natus est nobis.</quote>
+          </p>
+          <p xml:id="gom-mt2-d1e391">
+            <ref xml:id="gom-mt2-Rd1e393" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_11@5-9"/>
+            Cur non et Joseph cum Maria inventus est a Magis? Ne aliqua inde malae suspicionis occasio daretur gentibus, quae primitias suas statim nato Salvatore ad eum adorandum miserunt.
+          </p>
+          <p xml:id="gom-mt2-d1e396">
+            <quote xml:id="gom-mt2-Qd1e398" type="lemma" source="http://scta.info/resource/mt2_11@12-13">Adoraverunt eum.</quote>
+            Sic confitentes Deum, quem actum esse hominem intelligunt, et moriturum quod per myrrham ostendunt.
+          </p>
+          <p xml:id="gom-mt2-d1e403">
+            <quote xml:id="gom-mt2-Qd1e405" type="lemma" source="http://scta.info/resource/mt2_11@14-15">Et apertis,</quote>
+            etc. <quote xml:id="gom-mt2-Qd1e408"><seg type="qs">Fidem suam mysticis protestantur muneribus: Munera clausa, fides est cordis; munera aperta</seg>, etc., usque ad <seg type="qs">vel per haec tria in eodem Christo intimantur, regia potestas, divina majestas, humana mortalitas.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e417">
+          <head xml:id="gom-mt2-Hd1e419">Versus 12</head>
+          <p xml:id="gom-mt2-d1e421">
+            <quote xml:id="gom-mt2-Qd1e423" type="lemma" source="http://scta.info/resource/mt2_12@1-3">Et responso accepto.</quote>
+            Sicut Moyses tacens <pb ed="#P" n="0075C"/> clamabat, sic isti pio affectu interrogabant quid divina juberet voluntas. Haec responsio non fit per angelum, sed per ipsum Deum, quia nullus alius viam reversionis instituit, nisi ille qui dicit: <quote xml:id="gom-mt2-Qd1e428" source="http://scta.info/resource/io14_6@4-10">Ego sum via, veritas, et vita.</quote> Non loquitur puer ad eos, ne divinitas ante tempus revelaretur, et vera humanitas habeatur. Unde et mox in Aegyptum mittitur: quia et fides nutrienda erat ad praemium, et vita doctrinae praeparanda est ad eundum.
+          </p>
+          <p xml:id="gom-mt2-d1e432">
+            <quote xml:id="gom-mt2-Qd1e434" type="lemma" source="http://scta.info/resource/mt2_12@10-12">Per aliam viam,</quote>
+            etc. In hoc forma datur credentibus, ut devoti ad Deum veniant: et quod jubeat intendant, scilicet, ne ad diabolum redeant: sed per semitas virtutum ad patriam veniant, et qui ceciderunt contemnendo resurgant obediendo.
+          </p>
+          <p xml:id="gom-mt2-d1e438">
+            <ref xml:id="gom-mt2-Rd1e440" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_12@10-12"/>
+            <ref xml:id="gom-mt2-Rd1e442"><name xml:id="gom-mt2-Nd1e443" ref="#PopeLeoI">LEO.</name></ref>
+            <quote xml:id="gom-mt2-Qd1e446"><seg type="qs">Adorant in carne Verbum, in infantia sapientiam, <pb ed="#P" n="0075D"/> in infirmitate virtutem, et in hominis veritate Dominum majestatis</seg>, etc., usque ad <seg type="qs">quia quod erat in substantiis proprium, non erat in persona diversum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e457">
+          <head xml:id="gom-mt2-Hd1e459">Versus 13</head>
+          <p xml:id="gom-mt2-d1e461">
+            <quote xml:id="gom-mt2-Qd1e463" type="lemma" source="http://scta.info/resource/mt2_13@14-15">Accipe puerum,</quote>
+            etc.
+            <ref xml:id="gom-mt2-Rd1e466"><name xml:id="gom-mt2-Nd1e467" ref="#HilaryOfPoitiers">HILAR.</name></ref>
+            <quote xml:id="gom-mt2-Qd1e470">Cum desponsatam eam justo significabat, conjugem nuncupavit, sed post partum mater tantum Jesu ostenditur, ut quemadmodum justo Joseph deputaretur Mariae in virginitate conjugium, ita venerabilis ejus ostenderetur in Jesu matris virginitas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e474">
+          <head xml:id="gom-mt2-Hd1e476">Versus 14</head>
+          <p xml:id="gom-mt2-d1e478">
+            <quote xml:id="gom-mt2-Qd1e480" type="lemma" source="http://scta.info/resource/mt2_14@1-2">Qui consurgens.</quote>
+            Joseph figura praedicatorum, qui Christum, cum matre, id est, fidem Christi, et Ecclesiae tulerunt ad gentes, relicto Herode, id est Judaeorum infidelitate.
+          </p>
+          <p xml:id="gom-mt2-d1e484">
+            <quote xml:id="gom-mt2-Qd1e486" type="lemma" source="http://scta.info/resource/mt2_14@8-8">Nocte.</quote>
+            Quia <pb ed="#P" n="0076A"/> occulte per fugam ad illustrandam Aegyptum descendit, relicta nocte Judaeis.
+          </p>
+          <p xml:id="gom-mt2-d1e492">
+            <ref xml:id="gom-mt2-Rd1e494" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_14@8-8"/>
+            Nocte tulit in Aegyptum, quia nocte ignorantiae his a quibus ipse recessit reliquit incredulis. Quando redit, noctis non fit mentio, quia in fine mundi, Judaei fidem tanquam Christum ab Aegypto revertentem suscipientes illuminabuntur.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e498">
+          <head xml:id="gom-mt2-Hd1e500">Versus 13</head>
+          <p xml:id="gom-mt2-d1e502">
+            <quote xml:id="gom-mt2-Qd1e504" type="lemma" source="http://scta.info/resource/mt2_13@21-25">In Aegyptum, et erat ibi,</quote>
+            etc. Omnigenum Deum monstrat venerantem: quia Christus a Judaeis non receptus, per praedicationem transit ad gentes. Fugit in Aegyptum sicut natus est, ut corruptam reparet naturam. Sic fugit, ut fugaces revocaret. Quod fugit, sacramenti fuit non timoris, ut exemplum fugiendi daret suis. Non fugit mortem qui mori venerat: nec insidias expavit qui venerat aperire versutias <pb ed="#P" n="0076B"/> diaboli. De hac fuga praedixit Isaias: <quote xml:id="gom-mt2-Qd1e509" source="http://scta.info/resource/is19_1@3-8">Ecce Dominus ascendet super nubem levem,</quote> id est, carnem sine peccato: <quote xml:id="gom-mt2-Qd1e512" source="http://scta.info/resource/is19_1@10-11">ingredieturque Aegyptum</quote>. Septem autem annis in Aegypto latuit.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e517">
+          <head xml:id="gom-mt2-Hd1e519">Versus 15</head>
+          <p xml:id="gom-mt2-d1e521">
+            <quote xml:id="gom-mt2-Qd1e523" type="lemma" source="http://scta.info/resource/mt2_15@18-20">Ex Aegypto vocavi.</quote>
+            In Osaea juxta Hebraicam veritatem hoc invenitur: vel in libro Numerorum, ut quidam asserunt: quia totum dispositione Dei factum est.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e529">
+          <head xml:id="gom-mt2-Hd1e531">Versus 16</head>
+          <p xml:id="gom-mt2-d1e533">
+            <quote xml:id="gom-mt2-Qd1e535" type="lemma" source="http://scta.info/resource/mt2_16@1-3">Tunc Herodes videns.</quote>
+            Verisimile est, quod cum Herodi nihil renuntiatum esset a Magis, credidit illos fallaci stella deceptos esse, et ideo ad se non esse reversos: unde et tandiu quievit a pueri inquisitione. Deinde vulgatis his quae in templo facta dictave fuerant, se a Magis sensit illusum, et in mortem Christi properans pueros occidit.
+          </p>
+          <p xml:id="gom-mt2-d1e539">
+            <pb ed="#P" n="0076C"/>
+            <ref xml:id="gom-mt2-Rd1e543" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_16@1-3"/>
+            Verisimile est per annum et quatuor dies a nativitate Christi Herodem in pueros desaevisse: quod forsitan ideo distulit, quia Romam profectus est, vel ibi accusatus, vel ut Romanos consuleret super his quae de Christo dicebantur. Ideo forsitan tandiu ab inquisitione pueri se continuit, ut sollicitius eum deprehenderet, neque elabi aliquo modo posset.
+          </p>
+          <p xml:id="gom-mt2-d1e546">
+            <quote xml:id="gom-mt2-Qd1e548" type="lemma" source="http://scta.info/resource/mt2_16@14-16">Occidit omnes pueros.</quote>
+            Quam cito Christus apparuit mundo, incepit in eum pesecutio: quae figuravit persecutionem sanctorum: et dum infans quaeritur, infantes occiduntur; in quibus forma martyrii nascitur, ubi infantia Ecclesiae dedicatur.
+          </p>
+          <p xml:id="gom-mt2-d1e552">
+            <ref xml:id="gom-mt2-Rd1e554" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_16@14-16"/>
+            Figurat mors parvulorum passionem omnium martyrum, qui parvuli, humiles et innocentes occisi sunt: qui non in Judaea tantum, sed ubique passi <pb ed="#P" n="0076D"/> sunt ab impiis, quos significat Herodes. Quod bimi: quia doctrina et operatione perfecti. Illis occisis Christus evasit: quia corpora possunt perimi, divinitas non contingi.
+          </p>
+          <p xml:id="gom-mt2-d1e560">
+            <quote xml:id="gom-mt2-Qd1e562" type="lemma" source="http://scta.info/resource/mt2_16@21-25">Et in omnibus finibus ejus.</quote>
+            Non est contentus vastatione Bethlehem, sed adjacentia loca vastavit; nec ullam misericordiam aetatis habuit a filio unius noctis usque ad filium duorum annorum, quin omnes occideret.
+          </p>
+          <p xml:id="gom-mt2-d1e566">
+            <quote xml:id="gom-mt2-Qd1e568" type="lemma" source="http://scta.info/resource/mt2_16@26-27">A bimatu.</quote>
+            Ideo a bimatu, ut sicut praeoccupaverat Herodes fines civitatis, ita et praeoccuparet alium annum. Ideo etiam a bimatu: quia timebat, ne puer cui famulabantur sidera, paulo supra aetatem vel infra speciem sibi conformaret.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e573">
+          <head xml:id="gom-mt2-Hd1e575">Versus 17</head>
+          <p xml:id="gom-mt2-d1e577">
+            <pb ed="#P" n="0077A"/>
+            <quote xml:id="gom-mt2-Qd1e581" type="lemma" source="http://scta.info/resource/mt2_17@1-3">Tunc adimpletum est.</quote>
+            Adimpletum dicitur: quia antequam fieret legentibus erat semiplenum, quia quod in littera sonabat, aliquid futurum occulte promittebat.
+          </p>
+          <p xml:id="gom-mt2-d1e585">
+            <ref xml:id="gom-mt2-Rd1e587" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_17@1-3"/>
+            <ref xml:id="gom-mt2-Rd1e589"><name xml:id="gom-mt2-Nd1e590" ref="#JohnChrysostom">CHRYSOST.</name></ref>
+            <quote xml:id="gom-mt2-Qd1e593">Dicit quod stella per annum apparuit, sicut in destructione Romanorum signa apparuerunt in coelo, quando vox angelorum audita est: Transeamus ab his sedibus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e597">
+          <head xml:id="gom-mt2-Hd1e599">Versus 18</head>
+          <p xml:id="gom-mt2-d1e601">
+            <quote xml:id="gom-mt2-Qd1e603" type="lemma" source="http://scta.info/resource/mt2_18@1-3">Vox in Rama.</quote>
+            Id est, in excelso longe lateque diffusa est.
+          </p>
+          <p xml:id="gom-mt2-d1e607">
+            <ref xml:id="gom-mt2-Rd1e609" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_18@1-3"/>
+            Allegorice. Vel, vox Ecclesiae de nece membrorum gementis usque ad solium superni ascendit judicis.
+          </p>
+          <p xml:id="gom-mt2-d1e612">
+            <quote xml:id="gom-mt2-Qd1e614" type="lemma" source="http://scta.info/resource/mt2_18@1-3">Vox in Rama.</quote>
+            Propter uxorem Levitae fornicatione peremptam, secundum numerum tribuum in duodecim partes divisam, omnis Israel <pb ed="#P" n="0077B"/> tribum Benjamin praeter trecentos viros delevit: eorum qui superfuerunt ploratus et ululatus auditus est usque Rama, qui est locus juxta Gabaa duodecimo milliario a Bethlehem.
+          </p>
+          <p xml:id="gom-mt2-d1e620">
+            <quote xml:id="gom-mt2-Qd1e622" type="lemma" source="http://scta.info/resource/mt2_18@4-4">Audita.</quote>
+            Exaggerat, ut hyperbolice Rachel jam mortua, dolentis affectu filios jam flere dicatur. Unde per hoc de Chaldaeis historia texitur quod similis esset ab eis cladi priori populo Judaeorum futura vastatio. Sed verius revelante per evangelistam spiritu, prophetia de nece puerorum accipitur. Dicit ergo, quod tunc completum sit quod dictum est, quia etsi ad imminentem captivitatem sermo prophetiae respicit, tamen in eo sicut in umbra, futura veritas caedis infantium pronuntiatur.
+          </p>
+          <p xml:id="gom-mt2-d1e627">
+            <quote xml:id="gom-mt2-Qd1e629" type="lemma" source="http://scta.info/resource/mt2_18@10-10">Rachel.</quote>
+            Quia sepulta est juxta Bethlehem, et ex <pb ed="#P" n="0077C"/> terreno corporis hospitio matris nomen accepit. Vel quia multi de Benjamin et Joseph occisi sunt. De Rachel natus est Benjamin, ad cujus sortem non pertinet Bethlehem, sed ad tribum tantum Juda. Sed quia contiguae tribus sunt Juda et Benjamin in finibus Bethlehem, multi quoque de tribu Benjamin occisi sunt.
+          </p>
+          <p xml:id="gom-mt2-d1e635">
+            <ref xml:id="gom-mt2-Rd1e637" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_18@10-10"/>
+            Nota quod melius per Rachel (quam si per Bethlehem plorasse diceretur) figura sacramenti innuitur, quia per eam in omnibus schema Ecclesiae commendatur, quae plorat non tam morte translatos, quam supplicio peremptos.
+          </p>
+          <p xml:id="gom-mt2-d1e640">
+            <quote xml:id="gom-mt2-Qd1e642" type="lemma" source="http://scta.info/resource/mt2_18@10-10">Rachel.</quote>
+            Id est Ecclesia, suos teneros agnos plorat peremptos: neque vult consolari in praesenti, quia non sunt: sed omnem spem et consolationem ad aeternam transmittit vitam.
+          </p>
+          <p xml:id="gom-mt2-d1e646">
+            <ref xml:id="gom-mt2-Rd1e648" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_18@10-10"/>
+            Plorat Ecclesia, et non vult consolari hic: quia <pb ed="#P" n="0077D"/> filii sui non sunt de hoc mundo. Vel plorat: quia dum parit, justitiam habet unde dicitur: <quote xml:id="gom-mt2-Qd1e652">Vos plorabitis,</quote> etc., sed additur consolatio: <quote xml:id="gom-mt2-Qd1e654" source="http://scta.info/resource/io16_20@17-21">Tristitia vestra vertetur in gaudium</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e659">
+          <head xml:id="gom-mt2-Hd1e661">Versus 19</head>
+          <p xml:id="gom-mt2-d1e663">
+            <quote xml:id="gom-mt2-Qd1e665" type="lemma" source="http://scta.info/resource/mt2_19@1-4">Defuncto autem Herode, ecce,</quote>
+            etc. Quia sopita Judaeorum perfidia, et Helia et Enoch praedicantibus, Judaea verbum Dei recipiet.
+          </p>
+          <p xml:id="gom-mt2-d1e669">
+            <ref xml:id="gom-mt2-Rd1e671" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_19@1-4"/>
+            Defuncto rege illico complices ejus pereunt, sic cessante persecutione Ecclesiae ad coelestia invitatur.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e675">
+          <head xml:id="gom-mt2-Hd1e677">Versus 20</head>
+          <p xml:id="gom-mt2-d1e679">
+            <quote xml:id="gom-mt2-Qd1e681" type="lemma" source="http://scta.info/resource/mt2_20@11-12">In terram.</quote>
+            Non determinat in quam partem, ut dubitante Joseph angelus revertatur: et frequenti ejus allocutione Joseph certior reddatur. Quia non distinxit in quam partem, ideo Josephus intellexit Judaeam quae dignior pars regni erat.
+          </p>
+          <p xml:id="gom-mt2-d1e685">
+            <quote xml:id="gom-mt2-Qd1e687" type="lemma" source="http://scta.info/resource/mt2_20@14-14">Defuncti.</quote>
+            <pb ed="#P" n="0078A"/> Tradunt quidam quia fecit Herodes super funus suum nobiliores Judaeorum occidere, ut sic cogeret Judaeos mortem suam flere.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e694">
+          <head xml:id="gom-mt2-Hd1e696">Versus 21</head>
+          <p xml:id="gom-mt2-d1e698">
+            <quote xml:id="gom-mt2-Qd1e700" type="lemma" source="http://scta.info/resource/mt2_21@1-2">Qui consurgens.</quote>
+            Allegorice. Joseph gerit figuram apostolorum, quorum officio Christus circumfertur. Apostoli primum venerunt in terram Israel: quia primum praedicaverunt Judaeis. Sed pro Herode, id est, manente haereditaria infidelitate, metuunt et recedunt admoniti gratiam gentibus praedicare, et ad eas Christum transferre.
+          </p>
+          <p xml:id="gom-mt2-d1e704">
+            <ref xml:id="gom-mt2-Rd1e706" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_21@1-2"/>
+            Nominata terra Israel visum est Joseph non alicubi talem puerum debere habitare, nisi in Jerusalem ubi erat templum et celebratio prophetarum. Tamen angelus intelligi voluit Galilaeam, quam et Judaei incolebant, quod ostendit sic fuisse praedestinatum, <pb ed="#P" n="0078B"/> quia Nazareus vocabitur.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e713">
+          <head xml:id="gom-mt2-Hd1e715">Versus 22</head>
+          <p xml:id="gom-mt2-d1e717">
+            <quote xml:id="gom-mt2-Qd1e719" type="lemma" source="http://scta.info/resource/mt2_22@12-14">Timuit illo ire.</quote>
+            Si timuit Judaeam pro Archelao haerede paternae crudelitatis, cur non et Galilaeam, ubi Herodes alius frater ejus regnabat? Quia Archelaus post patrem monarchiam totius regni obtinuit: sed insolescens a Tiberio Caesare dejectus est Lugdunum in exsilium, et tunc divisum est regnum in quatuor tetrarchias, quarum unam, id est Galilaeam, Herodes frater ejus obtinuit.
+          </p>
+          <p xml:id="gom-mt2-d1e723">
+            <ref xml:id="gom-mt2-Rd1e725" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_22@12-14"/>
+            Quaeritur: quare non timuit Joseph ire in Galilaeam sicut in Judaeam, cum et ibi regnaret Archelaus? Sed melius potuit in Nazareth (quae remota erat) latere quam in Jerusalem, ubi erat caput regni et assiduus Archelaus.
+          </p>
+          <p xml:id="gom-mt2-d1e728">
+            <quote xml:id="gom-mt2-Qd1e730" type="lemma" source="http://scta.info/resource/mt2_22@19-21">Secessit in partes.</quote>
+            Quod Christus illuc non transfertur <pb ed="#P" n="0078C"/> ubi regnabat Archelaus, significat, quia illis abscondetur Christus, in quibus regnabit Antichristus.
+          </p>
+        </div>
+        <div xml:id="gom-mt2-Dd1e737">
+          <head xml:id="gom-mt2-Hd1e739">Versus 23</head>
+          <p xml:id="gom-mt2-d1e741">
+            <quote xml:id="gom-mt2-Qd1e743" type="lemma" source="http://scta.info/resource/mt2_23@8-8">Nazareth.</quote>
+            Nazareth, <mentioned>germen novellum</mentioned> vel <mentioned>flos campi</mentioned> interpretatur, de cujus radice germinis sanctus sanctorum ad significandum aeternitatis suae substantiam ascendisse legitur. Sicut ergo eligit tempus quo nasceretur et locum, ita et civitatem in qua coalesceret: cujus nomen indicio est, quod ipsa sanctitas, in sanctitate nutritus, sanctus sanctorum recte dicitur: unde et discipuli ejus prius Nazaraei dicti sunt, sed postea a Christo Christiani vocati sunt.
+          </p>
+          <p xml:id="gom-mt2-d1e751">
+            <ref xml:id="gom-mt2-Rd1e753" type="lemma" subtype="implied" target="http://scta.info/resource/mt2_23@8-8"/>
+            Nazareth Galilaeae quo transfertur, partem ejusdem gentis quae fidem susceptura erat, significat: unde <mentioned>flos</mentioned> interpretatur: quia Ecclesia quo ardentius a terrenis ad coelestia transmigrat, eo magis virtutum <pb ed="#P" n="0078D"/> flore et germine abundat.
+          </p>
+          <p xml:id="gom-mt2-d1e760">
+            <quote xml:id="gom-mt2-Qd1e762" type="lemma" source="http://scta.info/resource/mt2_23@14-15">Per prophetas.</quote>
+            Prophetas pluraliter dicit, quia non habemus fixum de Scriptura exemplum: ostendit sensum non verba se sumpsisse. Vel eisdem verbis in Isaia juxta Hebraicam veritatem: <quote xml:id="gom-mt2-Qd1e765" source="http://scta.info/resource/is11_1@9-12">Nazaraeus de radice ejus ascendet</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

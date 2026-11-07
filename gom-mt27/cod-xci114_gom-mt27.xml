@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 27</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 27</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0172C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt27">
+        <head xml:id="gom-mt27-Hd1e98">Caput 27</head>
+        <div xml:id="gom-mt27-Dd1e100">
+          <head xml:id="gom-mt27-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt27-d1e104">
+            <quote xml:id="gom-mt27-Qd1e106" type="lemma" source="http://scta.info/resource/mt27_1@1-2">Mane autem.</quote>
+            Matthaeus et Marcus contexerunt narrationem de his quae cum Domino acta sunt usque ad mane, sed postea redeunt usque ad negationem Petri narrandam: qua terminata redeunt <pb ed="#P" n="0172D"/> iterum ad mane, ut inde caetera contexerent.
+          </p>
+          <p xml:id="gom-mt27-d1e112">
+            <ref xml:id="gom-mt27-Rd1e114" type="lemma" subtype="implied" target="http://scta.info/resource/mt27_1@1-2"/>
+            VERS. 4.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e118">
+          <head xml:id="gom-mt27-Hd1e120">Versus 4</head>
+          <p xml:id="gom-mt27-d1e122">
+            <quote xml:id="gom-mt27-Qd1e124" type="lemma" source="http://scta.info/resource/mt27_4@2-3">Peccavi tradens,</quote>
+            etc. Quasi in potestate sua esset mutare persecutorum sententiam: licet autem mutaverit voluntatem, tamen primae voluntatis exitum non mutavit.
+          </p>
+          <p xml:id="gom-mt27-d1e128">
+            <quote xml:id="gom-mt27-Qd1e130" type="lemma" source="http://scta.info/resource/mt27_4@9-11">Quid ad nos.</quote>
+            Quid ad nos pertinet de hoc?
+          </p>
+          <p xml:id="gom-mt27-d1e134">
+            <quote xml:id="gom-mt27-Qd1e136" type="lemma" source="http://scta.info/resource/mt27_4@12-13">tu videris,</quote>
+            tu scias quid fecisti. Vel quid videris pertinere ad nos. Quid ad nos pertinet pretium acceptum: tu istud probaveras, tu inde fac quod vis. Qui ad mortem peccant, tantam habent ignorantiam et caecitatem, ut nec turbentur in sceleribus suis, nec poenitentiae dolore crucientur.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e141">
+          <head xml:id="gom-mt27-Hd1e143">Versus 5</head>
+          <p xml:id="gom-mt27-d1e145">
+            <quote xml:id="gom-mt27-Qd1e147" type="lemma" source="http://scta.info/resource/mt27_5@1-2">Et projectis.</quote>
+            Sicut poenitentia ejus fuit infructuosa, sic et haec oblatio in templo est exsecrabilis.
+          </p>
+          <p xml:id="gom-mt27-d1e151">
+            <quote xml:id="gom-mt27-Qd1e153" type="lemma" source="http://scta.info/resource/mt27_5@7-8">Et abiens.</quote>
+            <ref xml:id="gom-mt27-Rd1e156"><name xml:id="gom-mt27-Nd1e157" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt27-Qd1e160">Nihil profuit Judae egisse poenitentiam, per quam scelus corrigere non <pb ed="#P" n="0173A"/> potuit. Sed quando frater sic peccat in fratrem, ut emendare valeat quod peccavit, potest ei dimitti. Sin autem permanent opera, frustra voce assumitur poenitentia. Hoc est quod de eo dicitur: <quote xml:id="gom-mt27-Qd1e164" source="http://scta.info/resource/ps108_7@6-11">Et oratio ejus fiat in peccatum</quote>: ut non solum emendare nequiverit proditionis nefas, sed proprii homicidii scelus addiderit, unde scelestior.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e170">
+          <head xml:id="gom-mt27-Hd1e172">Versus 6</head>
+          <p xml:id="gom-mt27-d1e174">
+            <quote xml:id="gom-mt27-Qd1e176" type="lemma" source="http://scta.info/resource/mt27_6@7-10">Non licet eos.</quote>
+            Vere colentes culicem et camelum glutientes: si enim ideo non mittunt pecuniam in corbonam, id est, in gazophylacium, id est, inter dona Dei, quia pretium sanguinis est, cur ergo ipse sanguis effunditur? Et quid praemii eis, si inde ager emitur in sepulturam pauperum?
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e182">
+          <head xml:id="gom-mt27-Hd1e184">Versus 9</head>
+          <p xml:id="gom-mt27-d1e186">
+            <quote xml:id="gom-mt27-Qd1e188" type="lemma" source="http://scta.info/resource/mt27_9@7-8">Per Jeremiam.</quote>
+            <ref xml:id="gom-mt27-Rd1e191"><name xml:id="gom-mt27-Nd1e192" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt27-Qd1e195">Hoc non in Jeremia, sed in Zacharia legitur: tamen aliis verbis. <pb ed="#P" n="0173B"/> Legi nuper Jeremiae apocryphum, in quo haec verba scripta reperi. Sed tamen magis mihi videtur hoc sumptum de Zacharia more apostolorum, qui verborum ordine praetermisso, sensus tantum de Veteri Testamento proferunt.</quote>
+          </p>
+          <p xml:id="gom-mt27-d1e201">
+            <quote xml:id="gom-mt27-Qd1e203" type="lemma" source="http://scta.info/resource/mt27_9@19-21">A filiis Israel,</quote>
+            etc. A quibus minus oportuerat, qui magnificare debuerant.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e208">
+          <head xml:id="gom-mt27-Hd1e210">Versus 11</head>
+          <p xml:id="gom-mt27-d1e212">
+            <quote xml:id="gom-mt27-Qd1e214" type="lemma" source="http://scta.info/resource/mt27_11@11-14">Tu es rex Judaeorum.</quote>
+            Secundum Lucam duo objecerant, scilicet quod prohibebat dari censum Caesari, et quod diceret se regem. De regno ergo Pilatus, quia nescit, interrogat. De tributis: quia audierat eum respondisse: <quote xml:id="gom-mt27-Qd1e217" source="http://scta.info/resource/mt22_21@7-12">Reddite quae sunt Caesaris Caesari<!-- check: Migne cites zac2; text matches mt22_21 --></quote>: quasi apertum mendacium invidorum negligit. Unde Marcus: <quote xml:id="gom-mt27-Qd1e221" source="http://scta.info/resource/mc24">Et non erant convenientia testimonia eorum<!-- check: cited chapter given; verse not identified --></quote>. In <pb ed="#P" n="0173C"/> hoc quod Pilatus nihil aliud criminis interrogat, nisi an sit rex Judaeorum: arguuntur impietatis Judaei, qui nec falso invenire potuerunt quod objicerent Salvatori.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e229">
+          <head xml:id="gom-mt27-Hd1e231">Versus 16</head>
+          <p xml:id="gom-mt27-d1e233">
+            <quote xml:id="gom-mt27-Qd1e235" type="lemma" source="http://scta.info/resource/mt27_16@6-8">Qui dicebatur Barabbas.</quote>
+            Barabbas in Evangelio secundum Hebraeos <mentioned>filius patris</mentioned> vel <mentioned>magister eorum</mentioned> interpretatur. Ipse est Antichristus, quem illi Christo praeferunt, quibus dicitur: <quote xml:id="gom-mt27-Qd1e242" source="http://scta.info/resource/io8_44@1-5">Vos ex patre diabolo estis</quote>. Pilatus qui <mentioned>os malleatoris</mentioned> interpretatur, diabolum significat, qui est malleus universae terrae, per quem Dominus vasa sua permittit probari: et ad ultimum conterit, quando in extrema damnatione confringet.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e249">
+          <head xml:id="gom-mt27-Hd1e251">Versus 17</head>
+          <p xml:id="gom-mt27-d1e253">
+            <quote xml:id="gom-mt27-Qd1e255" type="lemma" source="http://scta.info/resource/mt27_17@6-7">Quem vultis.</quote>
+            Populo volens satisfacere dat optionem quamvis non dubitet Christum <pb ed="#P" n="0173D"/> eligendum sciens per invidiam traditum.
+          </p>
+          <p xml:id="gom-mt27-d1e261">
+            <quote xml:id="gom-mt27-Qd1e263" type="lemma" source="http://scta.info/resource/mt27_17@13-15">Qui dicitur Christus.</quote>
+            Idem quod Marcus ait: regem Judaeorum, quorum rex Christus vocabatur.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e268">
+          <head xml:id="gom-mt27-Hd1e270">Versus 19</head>
+          <p xml:id="gom-mt27-d1e272">
+            <quote xml:id="gom-mt27-Qd1e274" type="lemma" source="http://scta.info/resource/mt27_19@4-5">Pro tribunali.</quote>
+            Tribunal sedes judicum, ut solium regum, cathedra doctorum.
+          </p>
+          <p xml:id="gom-mt27-d1e278">
+            <quote xml:id="gom-mt27-Qd1e280" type="lemma" source="http://scta.info/resource/mt27_19@9-10">Uxor ejus.</quote>
+            Uxor viri gentilis hoc in visione intelligit, quod Judaei vigilantes intelligere noluerunt.
+          </p>
+          <p xml:id="gom-mt27-d1e284">
+            <quote xml:id="gom-mt27-Qd1e286" type="lemma" source="http://scta.info/resource/mt27_19@12-13">Nihil tibi.</quote>
+            Nunc demum diabolus intelligens per Christum se spolia amissurum, sicut primum per mulierem mortem intulit; ita modo per mulierem vult Christum de manibus Judaeorum liberare, ne per mortem ejus mortis amittat imperium.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e291">
+          <head xml:id="gom-mt27-Hd1e293">Versus 21</head>
+          <p xml:id="gom-mt27-d1e295">
+            <quote xml:id="gom-mt27-Qd1e297" type="lemma" source="http://scta.info/resource/mt27_21@15-15">Barabbam,</quote>
+            etc. Filium diaboli elegerunt pro Filio Dei, ut Salvatorem cum sua salute perderent, <pb ed="#P" n="0174A"/> et proditorem liberarent, quae sua petitio hodie etiam haeret eis, amissa gente et loco et libertate: quia datorem libertatis perdere voluerunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e305">
+          <head xml:id="gom-mt27-Hd1e307">Versus 22</head>
+          <p xml:id="gom-mt27-d1e309">
+            <quote xml:id="gom-mt27-Qd1e311" type="lemma" source="http://scta.info/resource/mt27_22@4-8">Quid igitur faciam de Jesu.</quote>
+            Multas quaerebat occasiones, ut eum cum benevolentia populi liberaret. Primo, latronem justo conferens. Deinde: <quote xml:id="gom-mt27-Qd1e314" source="http://scta.info/resource/mt27_22@4-11">Quid ergo faciam de Jesu, qui dicitur Christus?</quote> Et cum dicerent: <quote xml:id="gom-mt27-Qd1e317" source="http://scta.info/resource/mt27_23@3-3">crucifigatur,</quote> non statim acquievit, sed juxta suggestionem uxoris ait: <quote xml:id="gom-mt27-Qd1e320" source="http://scta.info/resource/mt27_23@7-10">Quid enim mali fecit?</quote> Quo dicto Pilatus absolvit Christum.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e325">
+          <head xml:id="gom-mt27-Hd1e327">Versus 24</head>
+          <p xml:id="gom-mt27-d1e329">
+            <quote xml:id="gom-mt27-Qd1e331" type="lemma" source="http://scta.info/resource/mt27_24@13-14">Lavit manus.</quote>
+            Gentilem populum ab impietate Judaeorum alienum designans, qui clamaverunt: <quote xml:id="gom-mt27-Qd1e334">Crucifige, crucifige eum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e338">
+          <head xml:id="gom-mt27-Hd1e340">Versus 25</head>
+          <p xml:id="gom-mt27-d1e342">
+            <quote xml:id="gom-mt27-Qd1e344" type="lemma" source="http://scta.info/resource/mt27_25@6-7">Sanguis ejus.</quote>
+            Perseverat usque hodie imprecatio, et sanguis Christi non aufertur <pb ed="#P" n="0174B"/> ab eis.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e351">
+          <head xml:id="gom-mt27-Hd1e353">Versus 26</head>
+          <p xml:id="gom-mt27-d1e355">
+            <quote xml:id="gom-mt27-Qd1e357" type="lemma" source="http://scta.info/resource/mt27_26@1-4">Tunc dimisit illis Barabbam.</quote>
+            Barabbas latro seditiosus et homicidiorum auctor, dimissus est populo Judaeorum.
+          </p>
+          <p xml:id="gom-mt27-d1e361">
+            <ref xml:id="gom-mt27-Rd1e363" type="lemma" subtype="implied" target="http://scta.info/resource/mt27_26@1-4"/>
+            <ref xml:id="gom-mt27-Rd1e365"><name xml:id="gom-mt27-Nd1e366" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-mt27-Qd1e369">Diabolus qui jam olim ob superbiam a patria lucis expulsus, et in tenebrarum carcerem fuerat missus. Et ideo Judaei pacem habere non possunt, quia seditionum principem eligere maluerunt. Vel Barabbas typum gerebat Antichristi.</quote>
+          </p>
+          <p xml:id="gom-mt27-d1e372">
+            <quote xml:id="gom-mt27-Qd1e374" type="lemma" source="http://scta.info/resource/mt27_26@5-7">Jesum vero flagellatum.</quote>
+            Ideo credendus est Pilatus Jesum flagellasse et militibus ad illudendum dedisse, ut satiati poenis ejus et opprobriis, Judaei ejus mortem ultra non sitirent.
+          </p>
+          <p xml:id="gom-mt27-d1e378">
+            <quote xml:id="gom-mt27-Qd1e380" type="lemma" source="http://scta.info/resource/mt27_26">Jesum vero.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Serviens Romanis legibus, quae crucifigendos prius jubent flagellari.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e387">
+          <head xml:id="gom-mt27-Hd1e389">Versus 28</head>
+          <p xml:id="gom-mt27-d1e391">
+            <pb ed="#P" n="0174C"/>
+            <quote xml:id="gom-mt27-Qd1e395" type="lemma" source="http://scta.info/resource/mt27_28@4-5">Chlamydem coccineam.</quote>
+            <ref xml:id="gom-mt27-Rd1e398"><name xml:id="gom-mt27-Nd1e399" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt27-Qd1e402">In chlamyde coccinea opera gentium cruenta sustentat. In corona spinea, maledictum solvit antiquum. In calamo, venenata occidit animalia. Vel calamum tenet in manu, ut sacrilegium scriberet Judaeorum. In suis vestibus non illuditur, sed in his quae propter peccata nostra portavit. Cum crucifigeretur suum recepit ornamentum statim: quia elementa turbantur, et Creatori testimonium dat creatura.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e406">
+          <head xml:id="gom-mt27-Hd1e408">Versus 32</head>
+          <p xml:id="gom-mt27-d1e410">
+            <quote xml:id="gom-mt27-Qd1e412" type="lemma" source="http://scta.info/resource/mt27_32@5-5">Cyrenaeum.</quote>
+            Ecce non Hebraeus, sed alienigena opprobrio Christi subditur, ut plenitudo sacramentorum transire a circumcisione ad praeputium ostendatur.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e418">
+          <head xml:id="gom-mt27-Hd1e420">Versus 33</head>
+          <p xml:id="gom-mt27-d1e422">
+            <quote xml:id="gom-mt27-Qd1e424" type="lemma" source="http://scta.info/resource/mt27_33@7-7">Golgotha.</quote>
+            Syrum est, et interpretatur <mentioned>Calvariae</mentioned>, non ob calvitium Adae quem mentiuntur <pb ed="#P" n="0174D"/> ibi sepultum, sed ob decollationem damnatorum. Adam juxta Hebron in libro Jesu legitur sepultus.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e433">
+          <head xml:id="gom-mt27-Hd1e435">Versus 34</head>
+          <p xml:id="gom-mt27-d1e437">
+            <quote xml:id="gom-mt27-Qd1e439" type="lemma" source="http://scta.info/resource/mt27_34@6-8">Cum felle mistum.</quote>
+            Alius evangelista dicit <mentioned>mirrhatum</mentioned>, id est, amarissimum. Et potuit utraque esse commistio fellis et myrrhae.
+          </p>
+          <p xml:id="gom-mt27-d1e445">
+            <quote xml:id="gom-mt27-Qd1e447" type="lemma" source="http://scta.info/resource/mt27_34@9-12">Et cum gustasset noluit.</quote>
+            Hoc Marcus tacet: <quote xml:id="gom-mt27-Qd1e450" source="http://scta.info/resource/mt27_34@12-13">noluit bibere.</quote> Hoc est quod Marcus ait: <quote xml:id="gom-mt27-Qd1e453">non accepit,</quote> scilicet ut biberet.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e457">
+          <head xml:id="gom-mt27-Hd1e459">Versus 35</head>
+          <p xml:id="gom-mt27-d1e461">
+            <quote xml:id="gom-mt27-Qd1e463" type="lemma" source="http://scta.info/resource/mt27_35@5-5">Diviserunt.</quote>
+            Hoc Joannes distinctius: vestimenta in quatuor partes ut Ecclesia in quatuor partibus mundi signetur. Tunica sortita significat omnium partium unitatem vinculo charitatis, quae sorte, id est, gratia Dei provenit, non humano arbitrio.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e468">
+          <head xml:id="gom-mt27-Hd1e470">Versus 37</head>
+          <p xml:id="gom-mt27-d1e472">
+            <quote xml:id="gom-mt27-Qd1e474" type="lemma" source="http://scta.info/resource/mt27_37@6-6">Causam.</quote>
+            Pro quam eum Judaei Pilato <pb ed="#P" n="0175A"/> tradiderunt. Rex per crucem non perdidit, sed confirmavit imperium, velint nolint Judaei.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e481">
+          <head xml:id="gom-mt27-Hd1e483">Versus 38</head>
+          <p xml:id="gom-mt27-d1e485">
+            <quote xml:id="gom-mt27-Qd1e487" type="lemma" source="http://scta.info/resource/mt27_38@8-10">Unus a dextris.</quote>
+            Unus a dextris per quem mortificatio significatur carnis pro coelesti gloria: unus a sinistris, per quem iterum significatur mortificatio carnis pro aliqua mundi causa.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e492">
+          <head xml:id="gom-mt27-Hd1e494">Versus 39</head>
+          <p xml:id="gom-mt27-d1e496">
+            <quote xml:id="gom-mt27-Qd1e498" type="lemma" source="http://scta.info/resource/mt27_39@3-3">Blasphemabant.</quote>
+            Praedictum erat in libro Sapientiae <!--<note>(Cap. II)</note>-->: <quote xml:id="gom-mt27-Qd1e503">Morte turpissima condemnemus eum. Erit enim respectus in sermonibus illius. Si enim vere Filius Dei est, suscipiet illum et liberabit illum de manu contrariorum.</quote> Quia ergo crucifigebatur, et non liberabatur, credebant illum non esse Dei Filium: propterea pendenti in ligno insultant, et caput agitant:
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e508">
+          <head xml:id="gom-mt27-Hd1e510">Versus 40</head>
+          <p xml:id="gom-mt27-d1e512">
+            <quote xml:id="gom-mt27-Qd1e514" type="lemma" source="http://scta.info/resource/mt27_40@14-17">Si Filius Dei es.</quote>
+            Si insultantibus cedens <pb ed="#P" n="0175B"/> descenderet de cruce, virtutem patientiae non demonstraret.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e521">
+          <head xml:id="gom-mt27-Hd1e523">Versus 42</head>
+          <p xml:id="gom-mt27-d1e525">
+            <quote xml:id="gom-mt27-Qd1e527" type="lemma" source="http://scta.info/resource/mt27_42@18-20">Et credemus ei.</quote>
+            Fraudulenta promissio: majus facit surgens de sepulcro, et non creditis: si ergo de cruce descenderet, non crederetis. Sed hoc daemones immiserunt; statim enim senserunt virtutem crucis, et suas vires fractas et hoc agunt ut de cruce descendat. Sed sciens hoc Dominus, permanet ut diabolum destruat.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e532">
+          <head xml:id="gom-mt27-Hd1e534">Versus 44</head>
+          <p xml:id="gom-mt27-d1e536">
+            <quote xml:id="gom-mt27-Qd1e538" type="lemma" source="http://scta.info/resource/mt27_44@2-5">Idipsum autem et latrones.</quote>
+            Prius uterque blasphemavit, deinde visis signis unus credidit. Ita uterque populus Deum prius blasphemavit: sed alter signis territus poenituit, et nunc Judaeos arguit.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e543">
+          <head xml:id="gom-mt27-Hd1e545">Versus 45</head>
+          <p xml:id="gom-mt27-d1e547">
+            <quote xml:id="gom-mt27-Qd1e549" type="lemma" source="http://scta.info/resource/mt27_45@1-4">A sexta autem hora.</quote>
+            Nota, sole a centro mundi recessuro crucifigitur Dominus, quia <pb ed="#P" n="0175C"/> propter peccata moritur, et Adam post meridiem cum peccasset vocem Domini audivit. Et ordo est rationis, ut quo tempore praevaricanti Adae clausit, eo tempore poenitenti latroni januam reseret paradisi. Quod Marcus ait hora tertia crucifixisse Dominum, ideo est, ut Judaeos qui se excusant, magis crucifixisse ostendat linguis, quam milites quorum manibus factum est: qui hora tertia ut crucifigeretur inclamaverunt. Quando enim crucifixus est, hora erat quasi sexta, id est non adhuc plene sexta.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e556">
+          <head xml:id="gom-mt27-Hd1e558">Versus 46</head>
+          <p xml:id="gom-mt27-d1e560">
+            <quote xml:id="gom-mt27-Qd1e562" type="lemma" source="http://scta.info/resource/mt27_46@1-4">Et circa horam nonam.</quote>
+            Cum inclinata est dies ad vesperam et tepefactus est sol a fervore, passionem consummat, ostendens se mori propter peccata nostra quibus a divina luce et dilectione in hanc noctem cecidimus. Mane surrexit Dominus, <pb ed="#P" n="0175D"/> docens resuscitatos in anima se esse producturum in lucem aeternae felicitatis.
+          </p>
+          <p xml:id="gom-mt27-d1e568">
+            <quote xml:id="gom-mt27-Qd1e570" type="lemma" source="http://scta.info/resource/mt27_46@10-11">Eli, Eli, lamma.</quote>
+            Quorum suscipit naturam, eorumdem plorat miseriam. In quo ostendit quantum ipsi flere debent qui peccant. Ne mireris verborum humilitatem et querimonias derelicti, cum formam servi sciens scandalum crucis videas.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e575">
+          <head xml:id="gom-mt27-Hd1e577">Versus 47</head>
+          <p xml:id="gom-mt27-d1e579">
+            <quote xml:id="gom-mt27-Qd1e581" type="lemma" source="http://scta.info/resource/mt27_47@1-2">Quidam autem.</quote>
+            Non omnes, forsitan Romani, Hebraei sermonis ignorantes proprietatem. Vel aliqui Judaei Christum minorem Elia reputantes, ut ejus auxilium deprecetur.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e587">
+          <head xml:id="gom-mt27-Hd1e589">Versus 49</head>
+          <p xml:id="gom-mt27-d1e591">
+            <quote xml:id="gom-mt27-Qd1e593" type="lemma" source="http://scta.info/resource/mt27_49@4-5">Sine videamus.</quote>
+            Quia vocem Domini male intelligebant, frustra Eliae exspectabant adventum.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e598">
+          <head xml:id="gom-mt27-Hd1e600">Versus 51</head>
+          <p xml:id="gom-mt27-d1e602">
+            <pb ed="#P" n="0176A"/>
+            <quote xml:id="gom-mt27-Qd1e606" type="lemma" source="http://scta.info/resource/mt27_51@1-4">Et ecce velum templi.</quote>
+            Ut arca testamenti et omnia sacramenta legis quae tegebantur appareant, et ad gentes transeant. Josephus ait virtutes angelicas praesides quondam templi tunc pariter conclamasse: transeamus de his sedibus. Velum quod dicebatur exterius: quia nunc ex parte videmus; cum autem venerit quod perfectum est, tunc velum interius dirumpetur.
+          </p>
+          <p xml:id="gom-mt27-d1e610">
+            <quote xml:id="gom-mt27-Qd1e612" type="lemma" source="http://scta.info/resource/mt27_51@15-17">Terra mota est.</quote>
+            Omnia elementa suum Dominum crucifixum demonstrant. Terra movetur, Dominum suum pendentem ferre non sustinens.
+          </p>
+          <p xml:id="gom-mt27-d1e616">
+            <quote xml:id="gom-mt27-Qd1e618" type="lemma" source="http://scta.info/resource/mt27_51@19-19">Petrae.</quote>
+            Id est corda gentilium, vel vaticinia prophetarum, qui petrae dicuntur a petra Christo, ut quidquid in eis duro legis velamine clausum erat, scissum pateret gentibus.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e623">
+          <head xml:id="gom-mt27-Hd1e625">Versus 52</head>
+          <p xml:id="gom-mt27-d1e627">
+            <quote xml:id="gom-mt27-Qd1e629" type="lemma" source="http://scta.info/resource/mt27_52@1-2">Et monumenta.</quote>
+            Et tamen cum monumenta <pb ed="#P" n="0176B"/> aperta sunt, non ante surrexerunt, quam Dominus resurgeret, ut esset primogenitus ex multis fratribus.
+          </p>
+          <p xml:id="gom-mt27-d1e635">
+            <quote xml:id="gom-mt27-Qd1e637" type="lemma" source="http://scta.info/resource/mt27_52@7-8">Corpora sanctorum.</quote>
+            Hi credendi sunt cum Domino ascendente similiter ascendisse cum corpore.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e642">
+          <head xml:id="gom-mt27-Hd1e644">Versus 53</head>
+          <p xml:id="gom-mt27-d1e646">
+            <quote xml:id="gom-mt27-Qd1e648" type="lemma" source="http://scta.info/resource/mt27_53@9-11">In sanctam civitatem.</quote>
+            Jerusalem quae sancta dicitur propter templum, et Sancta sanctorum, quod nulla alia.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e653">
+          <head xml:id="gom-mt27-Hd1e655">Versus 54</head>
+          <p xml:id="gom-mt27-d1e657">
+            <quote xml:id="gom-mt27-Qd1e659" type="lemma" source="http://scta.info/resource/mt27_54@1-2">Centurio autem.</quote>
+            Hi in scandalo crucis confitentur Deum. Arius in Ecclesia praedicat creaturam, quem caeci Judaei nec tot miraculis credunt. In centurione fides Ecclesiae designatur, quae velo coelestium mysteriorum per mortem Domini reserato, Jesum Filium Dei tacente Synagoga confirmat.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e664">
+          <head xml:id="gom-mt27-Hd1e666">Versus 55</head>
+          <p xml:id="gom-mt27-d1e668">
+            <quote xml:id="gom-mt27-Qd1e670" type="lemma" source="http://scta.info/resource/mt27_55@4-5">Mulieres multae.</quote>
+            Matthaeus et Lucas dicunt Mariam Magdalenam a longe stetisse. Joannes <pb ed="#P" n="0176C"/> vero juxta crucem, quia tanto intervallo aberat, ut juxta diceretur: quia praesto erat in conspectu ejus, et longe comparatione turbae propioris. Possumus etiam dicere quod illae quae erant cum matre Domini postquam eam commendavit discipulo, abire coeperint jam, ut a densitate turbae eruerent se et caetera quae facta sunt longius intuerentur.
+          </p>
+          <p xml:id="gom-mt27-d1e676">
+            <quote xml:id="gom-mt27-Qd1e678" type="lemma" source="http://scta.info/resource/mt27_55@14-15">Ministrantes ei.</quote>
+            Consuetudinis Hebraicae erat, ut mulieres de substantia sua praeceptoribus suis ministrarent: quod Dominus accepit, ut exemplum daret apostolis.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e684">
+          <head xml:id="gom-mt27-Hd1e686">Versus 56</head>
+          <p xml:id="gom-mt27-d1e688">
+            <quote xml:id="gom-mt27-Qd1e690" type="lemma" source="http://scta.info/resource/mt27_56@8-8">Jacobi.</quote>
+            Jacobus Alphaei minor dicitur ad differentiam Jacobi, qui inter primos apostolos vocatus est et electus a Domino.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e695">
+          <head xml:id="gom-mt27-Hd1e697">Versus 57</head>
+          <p xml:id="gom-mt27-d1e699">
+            <quote xml:id="gom-mt27-Qd1e701" type="lemma" source="http://scta.info/resource/mt27_57@8-9">Homo dives.</quote>
+            Quia ad praesidem nisi dives accedere non poterat, non quod divitias commendet <pb ed="#P" n="0176D"/> evangelista. Dictus est et decurio, quia fuit de ordine curiae et officium curae ministrabat, per hoc potuit habere facultatem, per hoc quod discipulus, hoc ministerio dignus fuit. <quote xml:id="gom-mt27-Qd1e706">Discipulus erat Jesu. Hic accessit ad Pilatum.</quote> Etsi occultus, vitans prius inimicitias Judaeorum, in hoc extremo officio nihil curat de illis.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e710">
+          <head xml:id="gom-mt27-Hd1e712">Versus 59</head>
+          <p xml:id="gom-mt27-d1e714">
+            <quote xml:id="gom-mt27-Qd1e716" type="lemma" source="http://scta.info/resource/mt27_59@7-8">In syndone munda.</quote>
+            Mystice. Sindone munda Jesum involvit, qui pura mente eum suscepit. Hinc etiam mos Ecclesiae habet, ut sacrificium altaris non serico, non panno tincto, sed puro lineo celebretur.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e721">
+          <head xml:id="gom-mt27-Hd1e723">Versus 60</head>
+          <p xml:id="gom-mt27-d1e725">
+            <quote xml:id="gom-mt27-Qd1e727" type="lemma" source="http://scta.info/resource/mt27_60@4-7">In monumento suo novo.</quote>
+            Quia si in monumento, ubi alius positus esset, poneretur, alius <pb ed="#P" n="0177A"/> fortasse resurrexisse fingeretur. In petra, ne si ex multis lapidibus aedificatum esset, suffossis tumuli fundamentis ablatus furto diceretur.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e734">
+          <head xml:id="gom-mt27-Hd1e736">Versus 61</head>
+          <p xml:id="gom-mt27-d1e738">
+            <quote xml:id="gom-mt27-Qd1e740" type="lemma" source="http://scta.info/resource/mt27_61@1-3">Erant autem ibi.</quote>
+            Aliis notis Jesu ad sua redeuntibus, solae mulieres quae arctius amabant, obsequium funeris inspiciebant, exspectantes quod promiserat Jesus: et ideo primae resurrectionem vident.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e745">
+          <head xml:id="gom-mt27-Hd1e747">Versus 63</head>
+          <p xml:id="gom-mt27-d1e749">
+            <quote xml:id="gom-mt27-Qd1e751" type="lemma" source="http://scta.info/resource/mt27_63@11-12">Post tres.</quote>
+            A parte totum, sexti diei quo crucifixus est cum sua nocte pro uno die. Sabbatum integre. Tertius dies a parte prima, id est, nocte totius cum suo diurno, et sic est triduum.
+          </p>
+        </div>
+        <div xml:id="gom-mt27-Dd1e757">
+          <head xml:id="gom-mt27-Hd1e759">Versus 66</head>
+          <p xml:id="gom-mt27-d1e761">
+            <quote xml:id="gom-mt27-Qd1e763" type="lemma" source="http://scta.info/resource/mt27_66@4-5">Munierunt sepulcrum.</quote>
+            Diligentia eorum nostrae profuit fidei. Nam quanto amplius servabatur, tanto magis virtus resurrectionis ostenditur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

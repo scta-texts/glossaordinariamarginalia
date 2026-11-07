@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ioannes, Caput 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ioannes, Caput 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0410B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-io15">
+        <head xml:id="gom-io15-Hd1e98">Caput 15</head>
+        <div xml:id="gom-io15-Dd1e100">
+          <head xml:id="gom-io15-Hd1e102">Versus 1</head>
+          <p xml:id="gom-io15-d1e104">
+            <quote xml:id="gom-io15-Qd1e106" type="lemma" source="http://scta.info/resource/io15_1@1-4">Ego sum vitis vera.</quote>
+            Et me praecedentem ad passionem debetis sequi, quia ego sum vitis, id est caput vestrum ejusdem naturae vobiscum, ut in me possit fructificare humana natura. <pb ed="#P" n="0410C"/>
+          </p>
+          <p xml:id="gom-io15-d1e112">
+            <quote xml:id="gom-io15-Qd1e114" type="lemma" source="http://scta.info/resource/io15_1@5-6">Et Pater,</quote>
+            etc. Ego etiam agricola cum Patre, quia sum mundator palmitum, quod est agricolae, non vitis officium, qui etiam palmites operarios facit, licet non de suo, nec per ipsos, sed per meipsum.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e119">
+          <head xml:id="gom-io15-Hd1e121">Versus 3</head>
+          <p xml:id="gom-io15-d1e123">
+            <quote xml:id="gom-io15-Qd1e125" type="lemma" source="http://scta.info/resource/io15_3@5-6">Propter sermonem,</quote>
+            etc. Non ait: propter aquam baptismi, quia et ipsa sine verbo est solum aqua, per verbum fit sacramentum.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e130">
+          <head xml:id="gom-io15-Hd1e132">Versus 5</head>
+          <p xml:id="gom-io15-d1e134">
+            <quote xml:id="gom-io15-Qd1e136" type="lemma" source="http://scta.info/resource/io15_5@1-2">Ego sum,</quote>
+            etc. Qui se a se ferre fructum existimat, non est in vite. Unde cum repetitione et superiorum explanatione supponit: <quote xml:id="gom-io15-Qd1e139" source="http://scta.info/resource/io15_5@1-5">Ego sum vitis, vos palmites.</quote> Mihi quasi viti adhaerentes.
+          </p>
+          <p xml:id="gom-io15-d1e143">
+            <quote xml:id="gom-io15-Qd1e145" type="lemma" source="http://scta.info/resource/io15_5@6-9">Qui manet in me.</quote>
+            Et ideo quicunque (non solum vos) manet in me credendo, obediendo, perseverando.
+          </p>
+          <p xml:id="gom-io15-d1e149">
+            <quote xml:id="gom-io15-Qd1e151" type="lemma" source="http://scta.info/resource/io15_5@10-13">Et ego in eo.</quote>
+            Illuminando, subveniendo, perseverantiam dando.
+          </p>
+          <p xml:id="gom-io15-d1e155">
+            <quote xml:id="gom-io15-Qd1e157" type="lemma" source="http://scta.info/resource/io15_5@14-15">Hic fert.</quote>
+            Et si secundum hominem Christus <pb ed="#P" n="0410D"/> est vitis. tamen hanc gratiam palmitibus non daret, nisi etiam Deus esset.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e164">
+          <head xml:id="gom-io15-Hd1e166">Versus 6</head>
+          <p xml:id="gom-io15-d1e168">
+            <quote xml:id="gom-io15-Qd1e170" type="lemma" source="http://scta.info/resource/io15_6@1-2">Si quis.</quote>
+            Sarmenta praecisa caeteris liguis sunt viliora, quia nullis usibus deputantur, sed igni, vel in vite sunt vel in igne.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e176">
+          <head xml:id="gom-io15-Hd1e178">Versus 7</head>
+          <p xml:id="gom-io15-d1e180">
+            <quote xml:id="gom-io15-Qd1e182" type="lemma" source="http://scta.info/resource/io15_7@5-6">Et verba.</quote>
+            Verba Dei tunc dicuntur manere in nobis, quando facimus quae praecipit et diligimus quae promittit. Qui autem hoc non facit, tangit, non cohaeret, et ideo non sunt ei in beneficium sed in testimonium damnationis.
+          </p>
+          <p xml:id="gom-io15-d1e186">
+            <quote xml:id="gom-io15-Qd1e188" type="lemma" source="http://scta.info/resource/io15_7@13-13">Petetis.</quote>
+            Si quid petit fidelis et non fit, non petit hoc quod habet mansio in eo, nec quod habet verba ejus quae sunt in eo, sed quod habet cupiditas et infirmitas carnis.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e193">
+          <head xml:id="gom-io15-Hd1e195">Versus 8</head>
+          <p xml:id="gom-io15-d1e197">
+            <pb ed="#P" n="0411A"/>
+            <quote xml:id="gom-io15-Qd1e201" type="lemma" source="http://scta.info/resource/io15_8@1-3">In hoc clarificatus,</quote>
+            etc. Qui manet in me fructum multum fert, quod est ex gratia Dei, et ita est gloria ejus non hominis, et hoc est: <quote xml:id="gom-io15-Qd1e204" source="http://scta.info/resource/io15_8@1-2">In hoc,</quote> etc.
+          </p>
+          <p xml:id="gom-io15-d1e208">
+            <quote xml:id="gom-io15-Qd1e210" type="lemma" source="http://scta.info/resource/io15_8@7-9">Ut fructum plurimum.</quote>
+            Sicut non aequalitatem ostendit nostrae naturae et suae, sed gratiam qua Mediator est, nam Pater diligit nos, sed in Filio.
+          </p>
+          <p xml:id="gom-io15-d1e214">
+            <quote xml:id="gom-io15-Qd1e216" type="lemma" source="http://scta.info/resource/io15_8@12-12">Efficiamini.</quote>
+            Quomodo? Si me dilexeritis. Ex qua dilectione? ex praeceptorum observatione. Si me dilexeritis sicut dilexit me Pater, non quantum. Non enim notatur aequalitas, sed similitudo dans eis aeternam aeternitatem.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e221">
+          <head xml:id="gom-io15-Hd1e223">Versus 11</head>
+          <p xml:id="gom-io15-d1e225">
+            <quote xml:id="gom-io15-Qd1e227" type="lemma" source="http://scta.info/resource/io15_11@5-6">Ut gaudium.</quote>
+            Gaudium Dei de nobis qui praescivit et praedestinavit semper est plenum, in nobis incipit ex fide, crescit imo et perficietur in resurrectione.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e232">
+          <head xml:id="gom-io15-Hd1e234">Versus 12</head>
+          <p xml:id="gom-io15-d1e236">
+            <quote xml:id="gom-io15-Qd1e238" type="lemma" source="http://scta.info/resource/io15_12@1-3">Hoc est praeceptum,</quote>
+            etc. Et supra de <pb ed="#P" n="0411B"/> dilectione proximo, sed repetitio est confirmatio: ibi tamen dicit: Mandatum do, quasi non ante fuerit; hic autem, hoc est quasi non aliud sit. Ibi Novum, ne in vetustate remaneamus, hic, Meum, ne contemnatur.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e245">
+          <head xml:id="gom-io15-Hd1e247">Versus 13</head>
+          <p xml:id="gom-io15-d1e249">
+            <quote xml:id="gom-io15-Qd1e251" type="lemma" source="http://scta.info/resource/io15_13@1-2">Majorem hac.</quote>
+            Diffinit plenitudinem mutuae dilectionis quam habere praecipit.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e256">
+          <head xml:id="gom-io15-Hd1e258">Versus 15</head>
+          <p xml:id="gom-io15-d1e260">
+            <quote xml:id="gom-io15-Qd1e262" type="lemma" source="http://scta.info/resource/io15_15@1-2">Jam non dicam.</quote>
+            Commendata dilectione addit quod dignationis est, ut bonos servos (qui sciunt faciendo quae praecipit) dicat amicos, et eis tollit nomen servi, qui est ex timore foras mittendo, qui nescit quid faciat Dominus. Quia cum aliquid facit, sic extollitur quasi ipse faciat, non dominus.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e268">
+          <head xml:id="gom-io15-Hd1e270">Versus 17</head>
+          <p xml:id="gom-io15-d1e272">
+            <pb ed="#P" n="0411C"/>
+            <quote xml:id="gom-io15-Qd1e276" type="lemma" source="http://scta.info/resource/io15_17@1-2">Haec manao,</quote>
+            etc. Hic ostendit quis sit fructus quem dixerat, pro quo et dabit Pater quod petimus, qui et hoc dedit, ut diligamus.
+          </p>
+          <p xml:id="gom-io15-d1e280">
+            <quote xml:id="gom-io15-Qd1e282" type="lemma" source="http://scta.info/resource/io15_17@4-5">Ut diligatis.</quote>
+            <ref xml:id="gom-io15-Rd1e285"><name xml:id="gom-io15-Nd1e286" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io15-Qd1e289">Merito saepe dilectionem commendat, quasi sola praecipienda sit sine qua non possunt caetera, quae sine caeteris non potest haberi. Pro hac autem patienter debemus sustinere etiam omnia adversa mundi. Unde subdit:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e293">
+          <head xml:id="gom-io15-Hd1e295">Versus 18</head>
+          <p xml:id="gom-io15-d1e297">
+            <quote xml:id="gom-io15-Qd1e299" type="lemma" source="http://scta.info/resource/io15_18@1-2">Si mundus.</quote>
+            Nomine mundi aliquando boni, aliquando mali designantur, quia una massa est quae tota in Adam periit, de qua sunt alia vasa in honorem, alia in contumeliam.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e304">
+          <head xml:id="gom-io15-Hd1e306">Versus 19</head>
+          <p xml:id="gom-io15-d1e308">
+            <quote xml:id="gom-io15-Qd1e310" type="lemma" source="http://scta.info/resource/io15_19@5-7">Mundus quod suum.</quote>
+            Si malus punit scelus mali, ex parte odit mundus quod suum est; dum punit ex parte amat, quia malus favet <pb ed="#P" n="0411D"/> malis.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e317">
+          <head xml:id="gom-io15-Hd1e319">Versus 20</head>
+          <p xml:id="gom-io15-d1e321">
+            <quote xml:id="gom-io15-Qd1e323" type="lemma" source="http://scta.info/resource/io15_20@2-3">Sermonis mei.</quote>
+            Hoc scilicet: <quote xml:id="gom-io15-Qd1e326" source="http://scta.info/resource/io15_20@8-9">Non est.</quote> Et illius superioris: <quote xml:id="gom-io15-Qd1e329" source="http://scta.info/resource/io15_18@5-11">Scitote, quia me priorem vobis odio habuit.</quote> Et subdit causam: <quote xml:id="gom-io15-Qd1e332" source="http://scta.info/resource/io15_20@8-11">Non est servus major,</quote> etc. Quia exemplo sui (quo aliud melius non est) monuit ad ferenda odia mundi, subdit quare debeant, eum in hoc imitari, quia ipse Dominus, illi servi.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e337">
+          <head xml:id="gom-io15-Hd1e339">Versus 22</head>
+          <p xml:id="gom-io15-d1e341">
+            <quote xml:id="gom-io15-Qd1e343" type="lemma" source="http://scta.info/resource/io15_22@1-3">Si non venissem.</quote>
+            Hic expressius Judaeos ostendit, ad quos venit, de quibus sub nomine mundi superiora dixerat. Et quia ad eos venit, hic inexcusabiles de omnibus malis ostendit.
+          </p>
+          <p xml:id="gom-io15-d1e347">
+            <quote xml:id="gom-io15-Qd1e349" type="lemma" source="http://scta.info/resource/io15_22@13-13">Excusationem,</quote>
+            etc. Illi quibus non venit nec locutus est, habent excusationem non de omni peccato, sed de <pb ed="#P" n="0412A"/> hoc quod in Christum non crediderint. Hi vero quibus in apostolis venit et locutus est, non excusantur. Priores vero <quote xml:id="gom-io15-Qd1e354" source="http://scta.info/resource/rom2_12@3-9">qui sine lege peccaverunt, sine lege peribunt</quote>.
+          </p>
+          <p xml:id="gom-io15-d1e358">
+            <quote xml:id="gom-io15-Qd1e360" type="lemma" source="http://scta.info/resource/io15_22@16-17">De peccato.</quote>
+            Quod non credunt me sed oderunt, et persequentur in meipso et in meis, sed hoc peccatum in me, etiam redundat in Patrem, quia qui me odit et Patrem meum odit. Et quod est gravissimum, non solum veni et locutus sum, sed opera feci, quae videntes oderunt et me et Patrem.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e365">
+          <head xml:id="gom-io15-Hd1e367">Versus 24</head>
+          <p xml:id="gom-io15-d1e369">
+            <quote xml:id="gom-io15-Qd1e371" type="lemma" source="http://scta.info/resource/io15_24@7-8">Quae nemo,</quote>
+            etc.
+            <ref xml:id="gom-io15-Rd1e374"><name xml:id="gom-io15-Nd1e375" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io15-Qd1e378"><seg type="qs">Quod pavit tot millia de paucis, quod super aquas ivit</seg>, etc., usque ad <seg type="qs">et quia ipse per seipsum fecit, nemo sine eo.</seg></quote>
+          </p>
+          <p xml:id="gom-io15-d1e386">
+            <quote xml:id="gom-io15-Qd1e388" type="lemma" source="http://scta.info/resource/io15_24@17-17">Oderunt,</quote>
+            etc. Judaei dicunt se diligere Deum et <pb ed="#P" n="0412B"/> tamen nescientes oderunt, quia qui volunt esse mali nolunt esse veritatem qua damnantur. Et sicut oderunt suam poenam, oderunt veritatem quae irrogat poenam, nescientes eum esse veritatem. Et si oderunt veritatem, oderunt eum de quo nata est veritas, et ita Patrem nescientes de eo natam veritatem oderunt.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e396">
+          <head xml:id="gom-io15-Hd1e398">Versus 25</head>
+          <p xml:id="gom-io15-d1e400">
+            <quote xml:id="gom-io15-Qd1e402" type="lemma" source="http://scta.info/resource/io15_25@11-12">Quia odio.</quote>
+            Gratis odit, qui nullum ex odio commodum quaerit vel incommodum fugit. Sic impii oderunt Christum. Sic justi diligunt gratis, non propter aliud sed propter ipsum.
+          </p>
+        </div>
+        <div xml:id="gom-io15-Dd1e407">
+          <head xml:id="gom-io15-Hd1e409">Versus 26</head>
+          <p xml:id="gom-io15-d1e411">
+            <quote xml:id="gom-io15-Qd1e413" type="lemma" source="http://scta.info/resource/io15_26@1-2">Cum autem.</quote>
+            Nunc videntes opera oderunt gratis et me et Patrem. Sed cum venerit Paracletus, manifestiore testimonio convincet eos qui viderunt et oderunt, sed et quosdam eorum compunctos <pb ed="#P" n="0412C"/> de tanto scelere convertet.
+          </p>
+          <p xml:id="gom-io15-d1e419">
+            <quote xml:id="gom-io15-Qd1e421" type="lemma" source="http://scta.info/resource/io15_26@5-7">Quem ego mittam.</quote>
+            Die Pentecostes venit Spiritus sanctus in centum viginti homines congregatos, cum quibus erant omnes apostoli in domo ubi coena fuerat.
+          </p>
+          <p xml:id="gom-io15-d1e425">
+            <quote xml:id="gom-io15-Qd1e427" type="lemma" source="http://scta.info/resource/io15_26@13-15">Qui a Patre.</quote>
+            Spiritus procedit a Patre et Filio, sed Filius dicitur a Patre procedere, quia ad Patrem solet referre, et quod ipsius est de quo ipse est. A quo ergo habet ut sit, ab illo habet ut de illo procedat Spiritus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0112B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt8">
+        <head xml:id="gom-mt8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-mt8-Dd1e100">
+          <head xml:id="gom-mt8-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt8-d1e104">
+            <quote xml:id="gom-mt8-Qd1e106" type="lemma" source="http://scta.info/resource/mt8_1@1-3">Cum autem descendisset.</quote>
+            <quote xml:id="gom-mt8-Qd1e109"><seg type="qs">Post descensionem Domini de monte</seg>, etc., usque ad <seg type="qs">ostendit <pb ed="#P" n="0112C"/> post quantum temporis intervallum.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e119">
+            <quote xml:id="gom-mt8-Qd1e121" type="lemma" source="http://scta.info/resource/mt8_1@1-3">Cum autem descendisset.</quote>
+            Secundum Lucam, et in campestri loco sermonem quem jam forsitan supra habuerat ei fecisset.
+          </p>
+          <p xml:id="gom-mt8-d1e125">
+            <quote xml:id="gom-mt8-Qd1e127" type="lemma" source="http://scta.info/resource/mt8_1@6-7">Secutae sunt.</quote>
+            Alii propter charitatem, alii propter doctrinam, alii propter admirationem et curationem.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e132">
+          <head xml:id="gom-mt8-Hd1e134">Versus 2</head>
+          <p xml:id="gom-mt8-d1e136">
+            <quote xml:id="gom-mt8-Qd1e138" type="lemma" source="http://scta.info/resource/mt8_2@5-8">Adorabat eum dicens: Domine.</quote>
+            Priusquam peteret, cultum divinitatis ostendit.
+          </p>
+          <p xml:id="gom-mt8-d1e142">
+            <quote xml:id="gom-mt8-Qd1e144" type="lemma" source="http://scta.info/resource/mt8_2@9-13">Si vis, potes me mundare.</quote>
+            De voluntate non quasi pietatis incredulus, dubito; sed quasi meae colluvionis conscius non praesumo.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e149">
+          <head xml:id="gom-mt8-Hd1e151">Versus 3</head>
+          <p xml:id="gom-mt8-d1e153">
+            <quote xml:id="gom-mt8-Qd1e155" type="lemma" source="http://scta.info/resource/mt8_3@2-2">Extendens.</quote>
+            Post sermonem et miracula facit, quibus sermo apud auditores confirmatur.
+          </p>
+          <p xml:id="gom-mt8-d1e159">
+            <quote xml:id="gom-mt8-Qd1e161" type="lemma" source="http://scta.info/resource/mt8_3@4-4">Tetigit.</quote>
+            Non quia sine tactu sanare posset, sed ut indicet se non subjectum esse legi, sed Dominum legis, <pb ed="#P" n="0112D"/> qui non timet contagium.
+          </p>
+          <p xml:id="gom-mt8-d1e167">
+            <quote xml:id="gom-mt8-Qd1e169" type="lemma" source="http://scta.info/resource/mt8_3@4-4">Tetigit.</quote>
+            Propter humanitatem, ut nos doceret nullum spernere pro aliqua corporis maculatione. Apparet supra legem (quae leprosum excludit) esse gratiam, quae sanat eum; ut ait: <quote xml:id="gom-mt8-Qd1e172" source="http://scta.info/resource/mt5_17@9-13">Non veni solvere legem, sed adimplere,</quote> etc.
+          </p>
+          <p xml:id="gom-mt8-d1e176">
+            <quote xml:id="gom-mt8-Qd1e178" type="lemma" source="http://scta.info/resource/mt8_3@8-8">Volo.</quote>
+            Eo sanavit genere quo fuerat obsecratus, deinde imperat: <quote xml:id="gom-mt8-Qd1e181" source="http://scta.info/resource/mt8_2@13-13">Mundare.</quote> Ecce potestas.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e186">
+          <head xml:id="gom-mt8-Hd1e188">Versus 4</head>
+          <p xml:id="gom-mt8-d1e190">
+            <quote xml:id="gom-mt8-Qd1e192" type="lemma" source="http://scta.info/resource/mt8_4@5-6">Vide, nemini,</quote>
+            etc. Tacere jussit, nec tamen tacere potuit. Non quod aliquid voluit et non potuit, sed dat exemplum, ut sui in magnis quae faciunt latere velint: sed ut prosint aliis, prodantur inviti. <quote xml:id="gom-mt8-Qd1e195" source="http://scta.info/resource/mc1_44@5-6">Nemini dixeris</quote>. Hunc tamen Marcus ubi quod hoc praedicasse dicit quasi Evangelista factus sit.
+          </p>
+          <p xml:id="gom-mt8-d1e199">
+            <quote xml:id="gom-mt8-Qd1e201" type="lemma" source="http://scta.info/resource/mt8_4@9-9">Vade.</quote>
+            Mittit ad sacerdotes propter humilitatem, <pb ed="#P" n="0113A"/> ut sacerdotibus deferat honorem quibus lex jubet mundatos munera offerre, et ut videntes credant ei: vel si non credunt, inexcusabiles sint, et ne legem frangere videretur.
+          </p>
+          <p xml:id="gom-mt8-d1e207">
+            <quote xml:id="gom-mt8-Qd1e209" type="lemma" source="http://scta.info/resource/mt8_4@10-12">Ostende te sacerdoti.</quote>
+            Ut sacerdos non legis ordine, sed gratia Dei supra legem curatum esse intelligat.
+          </p>
+          <p xml:id="gom-mt8-d1e213">
+            <quote xml:id="gom-mt8-Qd1e215" type="lemma" source="http://scta.info/resource/mt8_4@14-14">Offer,</quote>
+            etc. Quia legem non solvo, quia nondum coepit verum sacrificium.
+          </p>
+          <p xml:id="gom-mt8-d1e220">
+            <quote xml:id="gom-mt8-Qd1e222" type="lemma" source="http://scta.info/resource/mt8_4@19-20">In testimonium.</quote>
+            Id est, Domino credant, si impietatis lepra discendat.
+          </p>
+          <p xml:id="gom-mt8-d1e226">
+            <quote xml:id="gom-mt8-Qd1e228" type="lemma" source="http://scta.info/resource/mt8_4@19-20">In testimonium.</quote>
+            Spiritualis curationis, offerendum est munus spirituale homo ipse.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e234">
+          <head xml:id="gom-mt8-Hd1e236">Versus 7</head>
+          <p xml:id="gom-mt8-d1e238">
+            <quote xml:id="gom-mt8-Qd1e240" type="lemma" source="http://scta.info/resource/mt8_7">Ego veniam et curabo eum. Et respondens centurio ait,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. <quote xml:id="gom-mt8-Qd1e245"><seg type="qs">Magna humilitas</seg>, etc., usque ad <seg type="qs">ob impotentiam virium corporaliter ire putaretur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e254">
+          <head xml:id="gom-mt8-Hd1e256">Versus 8</head>
+          <p xml:id="gom-mt8-d1e258">
+            <quote xml:id="gom-mt8-Qd1e260" type="lemma" source="http://scta.info/resource/mt8_8@6-8">Non sum dignus.</quote>
+            Propter conscientiam <pb ed="#P" n="0113B"/> vitae gentilis, magis timet gravari praesentia quam juvari, quia et si erat fide praeditus, nondum tamen erat sacramentis imbutus. Sed quod nec infirmitas nostra praesumit gratia dare novit.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e267">
+          <head xml:id="gom-mt8-Hd1e269">Versus 9</head>
+          <p xml:id="gom-mt8-d1e271">
+            <quote xml:id="gom-mt8-Qd1e273" type="lemma" source="http://scta.info/resource/mt8_9@1-3">Nam et ego,</quote>
+            etc. <quote xml:id="gom-mt8-Qd1e276"><seg type="qs">Si ego homo</seg>, etc., usque ad <seg type="qs">ut Cornelius dicitur <quote xml:id="gom-mt8-Qd1e282" source="http://scta.info/resource/act10_22@5-9">vir justus et timens Deum</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e288">
+          <head xml:id="gom-mt8-Hd1e290">Versus 11</head>
+          <p xml:id="gom-mt8-d1e292">
+            <quote xml:id="gom-mt8-Qd1e294" type="lemma" source="http://scta.info/resource/mt8_11@6-12">Ab oriente et occidente venient et recumbent.</quote>
+            Vel oriens, qui illuminati statim transeunt; occidens, qui passiones usque ad mortem tolerant. Per istas duas partes mundi ex quibus gentes vocandae erant designantur.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e299">
+          <head xml:id="gom-mt8-Hd1e301">Versus 12</head>
+          <p xml:id="gom-mt8-d1e303">
+            <quote xml:id="gom-mt8-Qd1e305" type="lemma" source="http://scta.info/resource/mt8_12@1-4">Filii autem regni ejicientur.</quote>
+            Quia in hoc mundo fruuntur beneficiis Dei; secundum illud: <quote xml:id="gom-mt8-Qd1e308" source="http://scta.info/resource/mt5_45@20-24">Pluit super justos et injustos.</quote> Nunc videntur in <pb ed="#P" n="0113C"/> facie Domini, sed tunc minime.
+          </p>
+          <p xml:id="gom-mt8-d1e314">
+            <quote xml:id="gom-mt8-Qd1e316" type="lemma" source="http://scta.info/resource/mt8_12@5-7">In tenebras exteriores.</quote>
+            <quote xml:id="gom-mt8-Qd1e319"><seg type="qs">Quia a Domino foras expellentur</seg>, etc., usque ad <seg type="qs">poenitet quod deliquit pertinaciter.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e327">
+            <quote xml:id="gom-mt8-Qd1e329" type="lemma" source="http://scta.info/resource/mt8_12@10-10">Fletus.</quote>
+            Per hoc ostenditur magnitudo tormentorum. Per fletum, tormentum animae; per stridorem dentium, corporis.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e334">
+          <head xml:id="gom-mt8-Hd1e336">Versus 14</head>
+          <p xml:id="gom-mt8-d1e338">
+            <quote xml:id="gom-mt8-Qd1e340" type="lemma" source="http://scta.info/resource/mt8_14@1-3">Et cum venisset,</quote>
+            etc. <quote xml:id="gom-mt8-Qd1e343"><seg type="qs">Quando hoc sit factum non expressit Matthaeus</seg>, etc., usque ad <seg type="qs">narranda recordationi ejus suggerere.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e351">
+            <quote xml:id="gom-mt8-Qd1e353" type="lemma" source="http://scta.info/resource/mt8_14@12-13">Et febricitantem.</quote>
+            Febris Graece, fervor Latine dicitur: et si quando haec passio faciat tremere, naturae est humanae.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e359">
+          <head xml:id="gom-mt8-Hd1e361">Versus 15</head>
+          <p xml:id="gom-mt8-d1e363">
+            <quote xml:id="gom-mt8-Qd1e365" type="lemma" source="http://scta.info/resource/mt8_15@1-2">Et tetigit,</quote>
+            etc. <quote xml:id="gom-mt8-Qd1e368"><seg type="qs">Lucas dicit, quod rogaverunt</seg>, etc., usque ad <seg type="qs">ut <quote xml:id="gom-mt8-Qd1e374" source="http://scta.info/resource/ps18_13@1-9">Delicta quis intelligit: ab occultis meis munda me<!-- check: Migne cites ps8; text matches ps18_13 --></quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e380">
+            <quote xml:id="gom-mt8-Qd1e382" type="lemma" source="http://scta.info/resource/mt8_15@9-10">Et surrexit,</quote>
+            <quote xml:id="gom-mt8-Qd1e385"><seg type="qs">etc. <pb ed="#P" n="0113D"/> Naturale est febricitantibus incipiente sanitate lassescere</seg>, etc., usque ad <seg type="qs">ministrat in spiritu.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e396">
+          <head xml:id="gom-mt8-Hd1e398">Versus 16</head>
+          <p xml:id="gom-mt8-d1e400">
+            <quote xml:id="gom-mt8-Qd1e402" type="lemma" source="http://scta.info/resource/mt8_16@1-3">Vespere autem facto,</quote>
+            etc. Occasus solis, mors est Christi, per quam plures sanavit daemoniacos, quam ante vivens in carne aegrotos.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e407">
+          <head xml:id="gom-mt8-Hd1e409">Versus 18</head>
+          <p xml:id="gom-mt8-d1e411">
+            <quote xml:id="gom-mt8-Qd1e413" type="lemma" source="http://scta.info/resource/mt8_18@1-3">Videns autem Jesus.</quote>
+            <quote xml:id="gom-mt8-Qd1e416"><seg type="qs">Manifestum est alium esse diem</seg>, etc., usque ad <seg type="qs">amaros saeculi fluctus transeamus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e425">
+          <head xml:id="gom-mt8-Hd1e427">Versus 19</head>
+          <p xml:id="gom-mt8-d1e429">
+            <quote xml:id="gom-mt8-Qd1e431" type="lemma" source="http://scta.info/resource/mt8_19@1-2">Et accedens.</quote>
+            Quod Matthaeus dicit hoc factum quando jussit ire trans fretum: Lucas vero <quote xml:id="gom-mt8-Qd1e434" source="http://scta.info/resource/lc9_57@4-7">ambulantibus illis in via:</quote> non est contrarium: quia via ambulabant ut venirent ad fretum.
+          </p>
+          <p xml:id="gom-mt8-d1e438">
+            <quote xml:id="gom-mt8-Qd1e440" type="lemma" source="http://scta.info/resource/mt8_19@7-7">Magister.</quote>
+            Quasi unus sit de pluribus. Et ipse litterator erat, non spiritualis auditor.
+          </p>
+          <p xml:id="gom-mt8-d1e444">
+            <quote xml:id="gom-mt8-Qd1e446" type="lemma" source="http://scta.info/resource/mt8_19@7-7">Magister.</quote>
+            Non dixit, <pb ed="#P" n="0114A"/> Domine, sed magister: unum de pluribus magistris aestimans.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e453">
+          <head xml:id="gom-mt8-Hd1e455">Versus 20</head>
+          <p xml:id="gom-mt8-d1e457">
+            <quote xml:id="gom-mt8-Qd1e459" type="lemma" source="http://scta.info/resource/mt8_20@5-7">Vulpes foveas habent.</quote>
+            <quote xml:id="gom-mt8-Qd1e462"><seg type="qs">Quasi dicat: Quid me propter lucra saeculi</seg>, etc., usque ad <seg type="qs">divinitati Christi non est locus.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e470">
+            <quote xml:id="gom-mt8-Qd1e472" type="lemma" source="http://scta.info/resource/mt8_20@12-16">Filius autem hominis non habet,</quote>
+            etc. Cum homines vocent eum Filium Dei, ipse seipsum vocat Filium hominis, humilitatis causa.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e477">
+          <head xml:id="gom-mt8-Hd1e479">Versus 21</head>
+          <p xml:id="gom-mt8-d1e481">
+            <quote xml:id="gom-mt8-Qd1e483" type="lemma" source="http://scta.info/resource/mt8_21@1-2">Alius autem.</quote>
+            Nota hunc vocatum esse a Jesu.
+          </p>
+          <p xml:id="gom-mt8-d1e487">
+            <quote xml:id="gom-mt8-Qd1e489" type="lemma" source="http://scta.info/resource/mt8_21@8-8">Domine.</quote>
+            Ille qui ingessit se vocat eum magister, ut elatus Pharisaeus, alter qui receptus est, Dominum vocat humiliter, sicut publicanus.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e495">
+          <head xml:id="gom-mt8-Hd1e497">Versus 22</head>
+          <p xml:id="gom-mt8-d1e499">
+            <quote xml:id="gom-mt8-Qd1e501" type="lemma" source="http://scta.info/resource/mt8_22@11-12">Mortuos suos.</quote>
+            Qui culpa exierunt, ut ipsi cum culpa vivunt. Mortuos sepelire, est peccatores in peccato fovere.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e506">
+          <head xml:id="gom-mt8-Hd1e508">Versus 23</head>
+          <p xml:id="gom-mt8-d1e510">
+            <pb ed="#P" n="0114B"/>
+            <quote xml:id="gom-mt8-Qd1e514" type="lemma" source="http://scta.info/resource/mt8_23@1-2">Et ascendente.</quote>
+            Qui magna fecit in terra, transit ad mare, ut et ibi faciat, et Dominus terrae et maris appareat.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e519">
+          <head xml:id="gom-mt8-Hd1e521">Versus 24</head>
+          <p xml:id="gom-mt8-d1e523">
+            <quote xml:id="gom-mt8-Qd1e525" type="lemma" source="http://scta.info/resource/mt8_24@2-3">Ecce motus.</quote>
+            Non ex se orta est tempestas, sed ejus imperio: ut discipuli magis timeant et rogent: et rogantibus ostendat potentiam.
+          </p>
+          <p xml:id="gom-mt8-d1e529">
+            <quote xml:id="gom-mt8-Qd1e531" type="lemma" source="http://scta.info/resource/mt8_24@16-16">Dormiebat.</quote>
+            Dormit in nobis Dominus, id est fides Domini, cum negligentius agimus, et ideo tempestas. Si vero fides resurgit, imperat ventis et fluctibus.
+          </p>
+          <p xml:id="gom-mt8-d1e535">
+            <ref xml:id="gom-mt8-Rd1e537" type="lemma" subtype="implied" target="http://scta.info/resource/mt8_24@16-16"/>
+            VERS. 25.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e541">
+          <head xml:id="gom-mt8-Hd1e543">Versus 25</head>
+          <p xml:id="gom-mt8-d1e545">
+            <quote xml:id="gom-mt8-Qd1e547" type="lemma" source="http://scta.info/resource/mt8_25@4-4">Suscitaverunt.</quote>
+            Primum est Jesus in tribulationibus orationibus excitandus, ut post increpationem surgens imperet ventis et mari, et sit tranquillitas magna.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e552">
+          <head xml:id="gom-mt8-Hd1e554">Versus 26</head>
+          <p xml:id="gom-mt8-d1e556">
+            <quote xml:id="gom-mt8-Qd1e558" type="lemma" source="http://scta.info/resource/mt8_26@7-7">Modicae,</quote>
+            etc. Si novistis potentem <pb ed="#P" n="0114C"/> in terra, cur non creditis etiam in mari? Qui parum credit, arguitur: qui nihil, contemnitur.
+          </p>
+          <p xml:id="gom-mt8-d1e564">
+            <quote xml:id="gom-mt8-Qd1e566" type="lemma" source="http://scta.info/resource/mt8_26@11-11">Imperavit,</quote>
+            etc. Cui imperatur, imperantem sentit. Nota quod omnis creatura creatorem sentit. Quae apud nos insensibilia, isti sunt sensibilia.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e571">
+          <head xml:id="gom-mt8-Hd1e573">Versus 27</head>
+          <p xml:id="gom-mt8-d1e575">
+            <quote xml:id="gom-mt8-Qd1e577" type="lemma" source="http://scta.info/resource/mt8_27@6-8">Qualis est hic,</quote>
+            etc.
+            <ref xml:id="gom-mt8-Rd1e580"><name xml:id="gom-mt8-Nd1e581" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-mt8-Qd1e584"><seg type="qs">Qualis est iste, major Moyse</seg>, etc., usque ad <seg type="qs">non habent auditum obtemperant.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e592">
+            <ref xml:id="gom-mt8-Rd1e594" type="lemma" subtype="implied" target="http://scta.info/resource/mt8_27@6-8"/>
+            VERS. 28.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e599">
+          <head xml:id="gom-mt8-Hd1e601">Versus 28</head>
+          <p xml:id="gom-mt8-d1e603">
+            <quote xml:id="gom-mt8-Qd1e605" type="lemma" source="http://scta.info/resource/mt8_28@6-8">In regionem Gerazenorum.</quote>
+            <quote xml:id="gom-mt8-Qd1e608"><seg type="qs">Geraza urbs est Arabiae</seg>, etc., usque ad <seg type="qs">a Christo visitata per praedicatores.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e616">
+            <quote xml:id="gom-mt8-Qd1e618" type="lemma" source="http://scta.info/resource/mt8_28@11-12">Duo habentes.</quote>
+            <quote xml:id="gom-mt8-Qd1e621"><seg type="qs">Marcus et Lucas dicunt unum</seg>, etc., usque ad <seg type="qs">foeditatem corporum ostendebant.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e629">
+            <quote xml:id="gom-mt8-Qd1e631" type="lemma" source="http://scta.info/resource/mt8_28@17-17">Saevi.</quote>
+            <quote xml:id="gom-mt8-Qd1e634"><seg type="qs">Marcus dicit quod nullus jam daemoniacum</seg>, etc., usque ad <seg type="qs">impugnant aliquem transire.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e643">
+          <head xml:id="gom-mt8-Hd1e645">Versus 29</head>
+          <p xml:id="gom-mt8-d1e647">
+            <quote xml:id="gom-mt8-Qd1e649" type="lemma" source="http://scta.info/resource/mt8_29@9-10">Jesu fili Dei.</quote>
+            <ref xml:id="gom-mt8-Rd1e652"><name xml:id="gom-mt8-Nd1e653" ref="#HilaryOfPoitiers">HILAR.</name></ref>
+            <quote xml:id="gom-mt8-Qd1e656">Magis suspicati <pb ed="#P" n="0114D"/> quam nosse credendi sunt.</quote>
+          </p>
+          <p xml:id="gom-mt8-d1e662">
+            <quote xml:id="gom-mt8-Qd1e664" type="lemma" source="http://scta.info/resource/mt8_29@9-10">Jesu fili Dei.</quote>
+            <ref xml:id="gom-mt8-Rd1e667"><name xml:id="gom-mt8-Nd1e668" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-mt8-Qd1e671"><seg type="qs">Tantum eis innotuit quantum voluit</seg>, etc., usque ad <seg type="qs">videbant in eo, non credebant.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e679">
+            <quote xml:id="gom-mt8-Qd1e681" type="lemma" source="http://scta.info/resource/mt8_29@13-14">Ante tempus.</quote>
+            <quote xml:id="gom-mt8-Qd1e684"><seg type="qs">Sciebant enim sibi futuram in Dei judicio</seg>, etc., usque ad <seg type="qs">fuerunt enim duo millia, ut Marcus ait.</seg></quote>
+          </p>
+          <p xml:id="gom-mt8-d1e692">
+            <quote xml:id="gom-mt8-Qd1e694" type="lemma" source="http://scta.info/resource/mt8_29@15-16">Torquere nos.</quote>
+            Praesentia Christi tortura est eis; vel, torquentur dum de corporibus ejiciuntur, in quorum tortura delectabantur, sicut praesentia Dei refectio angelorum.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e699">
+          <head xml:id="gom-mt8-Hd1e701">Versus 31</head>
+          <p xml:id="gom-mt8-d1e703">
+            <quote xml:id="gom-mt8-Qd1e705" type="lemma" source="http://scta.info/resource/mt8_31@9-10">Mitte nos.</quote>
+            Nota multo minus eos sua potestate nocere hominibus, qui nec pecoribus possunt. Nisi quis more porci vixerit, diabolus in eum potestatem non accipit, nisi forte ad probandum.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e710">
+          <head xml:id="gom-mt8-Hd1e712">Versus 32</head>
+          <p xml:id="gom-mt8-d1e714">
+            <quote xml:id="gom-mt8-Qd1e716" type="lemma" source="http://scta.info/resource/mt8_32@11-12">Et ecce magno.</quote>
+            Dignior homo bestiis, <pb ed="#P" n="0115A"/> cum propter salutem duorum hominum duo millia porcorum perierunt. Liberato populo gentium, increduli agunt malos ritus in abditis: caeca et profunda curiositate submersi.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e723">
+          <head xml:id="gom-mt8-Hd1e725">Versus 33</head>
+          <p xml:id="gom-mt8-d1e727">
+            <quote xml:id="gom-mt8-Qd1e729" type="lemma" source="http://scta.info/resource/mt8_33@1-3">Pastores autem fugerunt.</quote>
+            Quia etiam quidam principes impiorum, et, si fugiunt fidem Christi, tamen potentiam ejus mirando nuntiare non cessant.
+          </p>
+        </div>
+        <div xml:id="gom-mt8-Dd1e734">
+          <head xml:id="gom-mt8-Hd1e736">Versus 34</head>
+          <p xml:id="gom-mt8-d1e738">
+            <quote xml:id="gom-mt8-Qd1e740" type="lemma" source="http://scta.info/resource/mt8_34@5-6">Exiit obviam.</quote>
+            <ref xml:id="gom-mt8-Rd1e743"><name xml:id="gom-mt8-Nd1e744" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-mt8-Qd1e747">Prodeuntes, signant quosdam consuetudine ligatos, mirari quidem et venerari legem Christi, sed nolle pati: unde transire rogant.</quote>
+          </p>
+          <p xml:id="gom-mt8-d1e750">
+            <quote xml:id="gom-mt8-Qd1e752" type="lemma" source="http://scta.info/resource/mt8_34">Et invenerunt hominem</quote>
+            <!-- check: lemma not matched to verse text -->
+            (ut Lucas ait) <quote xml:id="gom-mt8-Qd1e757" source="http://scta.info/resource/lc8_35@19-24">vestitum et sana mente sedere ad pedes Jesu</quote>.
+          </p>
+          <p xml:id="gom-mt8-d1e761">
+            <quote xml:id="gom-mt8-Qd1e763" type="lemma" source="http://scta.info/resource/mt8_34">Rogabant eum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Rogant non de superbia de humilitate judicantes se indignos, ut Petrus fecit, <pb ed="#P" n="0115B"/> et vidua de Elia. Timebant ne destrueret eos praesentia sanctitatis ejus propter peccata sua, sicut destruxerat porcos.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

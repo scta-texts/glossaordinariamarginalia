@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0088D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt5">
+        <head xml:id="gom-mt5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-mt5-Dd1e100">
+          <head xml:id="gom-mt5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt5-d1e104">
+            <quote xml:id="gom-mt5-Qd1e106" type="lemma" source="http://scta.info/resource/mt5_1@1-2">Videns autem Jesus.</quote>
+            <ref xml:id="gom-mt5-Rd1e109"><name xml:id="gom-mt5-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e113"><seg type="qs">Huic rei consentit Lucas dicens: <quote xml:id="gom-mt5-Qd1e116" source="http://scta.info/resource/lc6_12@1-10">Factum est autem in illis diebus, exiit in montem orare</quote>, etc. Sed Lucas dicit</seg>, etc., usque ad <seg type="qs">non enim omnes omnia possunt: <pb ed="#P" n="0089A"/> quod verius putatur quamvis idem utriusque simul possit videri factus.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e126">
+            <quote xml:id="gom-mt5-Qd1e128" type="lemma" source="http://scta.info/resource/mt5_1@4-4">Ascendit.</quote>
+            Docens suos ascendere nec in turba remanere: altiorem docturus justitiam, quam illam quae est Scribarum et Pharisaeorum. Ascendit ipse mons in montem, ut altiora virtutum culmina doceret, et Ecclesiam supra quam sedet praedicans praeceptum Domini sublimius erigendam ostenderet quam eadem doctrina usque ad finem saeculi plenius erudiret. Apostolos praeeminentius abducit, ut a monte prius suscipiant montes pacem populo.
+          </p>
+          <p xml:id="gom-mt5-d1e132">
+            <quote xml:id="gom-mt5-Qd1e134" type="lemma" source="http://scta.info/resource/mt5_1@9-9">Sedisset.</quote>
+            Sessio humanitatis per quam cognoscitur. Unde: <quote xml:id="gom-mt5-Qd1e137" source="http://scta.info/resource/io1_10@10-14">Et mundus eum non cognovit,</quote> ante incarnationem.
+          </p>
+          <p xml:id="gom-mt5-d1e141">
+            <quote xml:id="gom-mt5-Qd1e143" type="lemma" source="http://scta.info/resource/mt5_1@10-10">Accesserunt.</quote>
+            Ut vicinius audiant, qui ad implendum animo properant.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e148">
+          <head xml:id="gom-mt5-Hd1e150">Versus 2</head>
+          <p xml:id="gom-mt5-d1e152">
+            <pb ed="#P" n="0089B"/>
+            <quote xml:id="gom-mt5-Qd1e156" type="lemma" source="http://scta.info/resource/mt5_2@1-2">Et aperiens.</quote>
+            Apertio oris profunditatem significat sacramenti. Quasi abyssum, quasi thesaurum aperuit, quasi fluvium paradisi. In hoc monte Novum Testamentum in cordibus filiorum scribit, incipiens a beatitudine qui in monte Sinai Vetus Testamentum in lapidibus servis dedit incipiens a terrore.
+          </p>
+          <p xml:id="gom-mt5-d1e160">
+            <ref xml:id="gom-mt5-Rd1e162" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_2@1-2"/>
+            <ref xml:id="gom-mt5-Rd1e164"><name xml:id="gom-mt5-Nd1e165" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e168">Sermonem quem locutus est Dominus noster in monte, sicut in Evangelio, etc., <quote xml:id="gom-mt5-Qd1e170" source="http://scta.info/resource/mt7_24@1-13">usque ad, Omnis qui audit verba mea haec et faciat, assimilabo eum viro sapienti</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e176">
+          <head xml:id="gom-mt5-Hd1e178">Versus 3</head>
+          <p xml:id="gom-mt5-d1e180">
+            <quote xml:id="gom-mt5-Qd1e182" type="lemma" source="http://scta.info/resource/mt5_3@1-1">Beati.</quote>
+            <ref xml:id="gom-mt5-Rd1e185"><name xml:id="gom-mt5-Nd1e186" ref="#GregoryGreat">GREG.</name> NYSS.</ref>
+            <quote xml:id="gom-mt5-Qd1e190"><seg type="qs">Beatitudo, ut mea fert opinio, comprehensio est omnium earum rerum quae</seg>, etc., usque ad <seg type="qs">miseria enim est in acerbis et tristibus nostraque voluntate non occidentibus casibus <pb ed="#P" n="0089C"/> et calamitatibus aerumna.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e200">
+            <quote xml:id="gom-mt5-Qd1e202" type="lemma" source="http://scta.info/resource/mt5_3@1-2">Beati pauperes.</quote>
+            Sententiarum numerus diligenter est attendendus. Incipit enim beatitudo ab humilitate.
+          </p>
+          <p xml:id="gom-mt5-d1e206">
+            <quote xml:id="gom-mt5-Qd1e208" type="lemma" source="http://scta.info/resource/mt5_3@1-3">Beati pauperes spiritu.</quote>
+            <ref xml:id="gom-mt5-Rd1e211"><name xml:id="gom-mt5-Nd1e212" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e215"><seg type="qs">Quia non necessitas sed fides, et devotio paupertatis beatos facit</seg>, etc., usque ad <seg type="qs">sicut initium sapientiae timor Domini, sic paupertas est principium beatitudinis.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e223">
+            <ref xml:id="gom-mt5-Rd1e225" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_3@1-3"/>
+            <ref xml:id="gom-mt5-Rd1e227"><name xml:id="gom-mt5-Nd1e228" ref="#JohnChrysostom">CHRYSOST.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e231">Pauperes spiritu sunt humiles et contriti corde. Spiritum autem hic animam et voluntatem dixit. Quoniam autem multi sunt humiles non spontanei, sed astricti necessitate, primos vocat beatos.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e235">
+          <head xml:id="gom-mt5-Hd1e237">Versus 4</head>
+          <p xml:id="gom-mt5-d1e239">
+            <quote xml:id="gom-mt5-Qd1e241" type="lemma" source="http://scta.info/resource/mt5_4@1-2">Beati mites.</quote>
+            Mites sunt qui malis moribus dominantur: perfecta virtus est morum possessio.
+          </p>
+          <p xml:id="gom-mt5-d1e245">
+            <pb ed="#P" n="0089D"/>
+            <ref xml:id="gom-mt5-Rd1e249" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_4@1-2"/>
+            <ref xml:id="gom-mt5-Rd1e251"><name xml:id="gom-mt5-Nd1e252">THEOPH.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e254"><seg type="qs">Mites sunt, non qui prorsus non irascuntur</seg>, etc., usque ad <seg type="qs">sic doctrina viri per patientiam dignoscitur.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e262">
+            <quote xml:id="gom-mt5-Qd1e264" type="lemma" source="http://scta.info/resource/mt5_4@5-6">Possidebunt terram.</quote>
+            <ref xml:id="gom-mt5-Rd1e267"><name xml:id="gom-mt5-Nd1e268" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e271">Illam terram ego credo de qua in Psalmo dicitur: <quote xml:id="gom-mt5-Qd1e273" source="http://scta.info/resource/ps141_6@10-16">Spes mea es tu, portio mea in terra viventium<!-- check: Migne cites ps161; text matches ps141_6 --></quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e281">
+          <head xml:id="gom-mt5-Hd1e283">Versus 5</head>
+          <p xml:id="gom-mt5-d1e285">
+            <quote xml:id="gom-mt5-Qd1e287" type="lemma" source="http://scta.info/resource/mt5_5@1-3">Beati qui lugent.</quote>
+            Pro suis vel aliorum peccatis, qui est ab irriguo inferiori, sed qui fit ab irriguo superiori est ex desiderio coelestis patriae. Ille lavat praesentes sordes, hic accendit acrius aeternorum amatores. Qui autem peccata deposuit, mores mansuetudine correxit, flevit etiam, jam potest esurire et sitire justitiam, quod prius non poterat. Haec <pb ed="#P" n="0090A"/> virtus sine spiritu fortitudinis non impletur: quia per eum esuriendo ad satietatem quandoque veniemus.
+          </p>
+          <p xml:id="gom-mt5-d1e293">
+            <quote xml:id="gom-mt5-Qd1e295" type="lemma" source="http://scta.info/resource/mt5_5@1-3">Beati qui lugent.</quote>
+            Restat post praedicta ruinarum colluvionem luctu purgare. Luctus pro peccatis vel pro desiderio coelesti consolationem meretur et non alius.
+          </p>
+          <p xml:id="gom-mt5-d1e299">
+            <ref xml:id="gom-mt5-Rd1e301" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_5@1-3"/>
+            Hi scientiae spiritu illustrantur, ut sciant quibus malis involvantur.
+          </p>
+          <p xml:id="gom-mt5-d1e304">
+            <ref xml:id="gom-mt5-Rd1e306" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_5@1-3"/>
+            <ref xml:id="gom-mt5-Rd1e308"><name xml:id="gom-mt5-Nd1e309" ref="#HilaryOfPoitiers">HILAR.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e312">Lugentibus non orbitates, aut contumelias, aut damna moerentibus, sed peccata vetera flentibus, et criminum quibus obsordescimus conscientia aerumnosis, haec sedula in coelo consolatio praeparatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e316">
+          <head xml:id="gom-mt5-Hd1e318">Versus 6</head>
+          <p xml:id="gom-mt5-d1e320">
+            <quote xml:id="gom-mt5-Qd1e322" type="lemma" source="http://scta.info/resource/mt5_6@1-3">Beati qui esuriunt.</quote>
+            Amatores verbi boni, quibus non satis est quod justi sunt, sed semper sitiunt opus justitiae.
+          </p>
+          <p xml:id="gom-mt5-d1e326">
+            <pb ed="#P" n="0090B"/>
+            <ref xml:id="gom-mt5-Rd1e330" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_6@1-3"/>
+            Justitia est sua cuique tribuere, sibi, et proximis, et Deo. Haec justitia non plene implebitur, donec Deus sit omnia in omnibus: ideo hic possumus esurire, non saturari. Justitiae lumen est misericordia, misericordiae virtus justitia; haec misericordia eget spiritu consilii, sine quo nemo circumspecte miseretur. Initium est sui misereri, finis est pro alio mori. Ordo enim est miserendi ut unusquisque incipiat a se. Finem Christus insinuat, pro peccatoribus mortuus ex misericordia.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e334">
+          <head xml:id="gom-mt5-Hd1e336">Versus 7</head>
+          <p xml:id="gom-mt5-d1e338">
+            <quote xml:id="gom-mt5-Qd1e340" type="lemma" source="http://scta.info/resource/mt5_7@1-2">Beati misericordes.</quote>
+            Misericordia nascitur de praecedentibus, quia si praecesserit vera humilitas et animus mansuescat, et suos et aliorum casus fleat, et justitiam esuriat, post nascitur vera misericordia. Tunc enim miserias alienas faciet suas <pb ed="#P" n="0090C"/> et pro viribus juvabit: et si juvandi facultas deest, compassio non deerit: <quote xml:id="gom-mt5-Qd1e345" source="http://scta.info/resource/lc6_36@1-9">Estote misericordes sicut et Pater vester misericors est</quote>, id est, ad hoc misereamini ad quod et Deus, ut bonitas redundet in omnibus: misericordia sine justitia remissio et tepiditas; justitia sine misericordia severitas et austeritas dicitur.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e350">
+          <head xml:id="gom-mt5-Hd1e352">Versus 9</head>
+          <p xml:id="gom-mt5-d1e354">
+            <quote xml:id="gom-mt5-Qd1e356" type="lemma" source="http://scta.info/resource/mt5_9@1-2">Beati pacifici.</quote>
+            <ref xml:id="gom-mt5-Rd1e359"><name xml:id="gom-mt5-Nd1e360" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e363"><seg type="qs">Pacifici sunt qui omnes motus animi componunt et rationi subjiciunt, quia his nihil repugnat qui similes patri</seg>, etc., usque ad <seg type="qs">cum autem Deus erit omnia in omnibus, tunc beatitudo adoptionis dabitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e372">
+          <head xml:id="gom-mt5-Hd1e374">Versus 10</head>
+          <p xml:id="gom-mt5-d1e376">
+            <quote xml:id="gom-mt5-Qd1e378" type="lemma" source="http://scta.info/resource/mt5_10@1-3">Beati qui persecutionem.</quote>
+            In praedictis septem est perfectionis ostensio et probatio. Qui praedicta habent, pati possunt persecutionem: et <pb ed="#P" n="0090D"/> recte tenet praedicta quae accepit qui pro eis paratus est mori.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e385">
+          <head xml:id="gom-mt5-Hd1e387">Versus 11</head>
+          <p xml:id="gom-mt5-d1e389">
+            <quote xml:id="gom-mt5-Qd1e391" type="lemma" source="http://scta.info/resource/mt5_11@1-4">Beati estis cum maledixerint.</quote>
+            Hucusque generaliter sententias posuit quasi ad absentes, cum et ad praesentes pertinerent, nunc ad eos verba convertit (quamvis et hoc aliis conveniat), praedicens quanta pro nomine ejus essent passuri: quia dignitatem gradus eorum eis intimare volebat dicens: <quote xml:id="gom-mt5-Qd1e394">Vos estis sal terrae, vos estis lux mundi;</quote> ut ex tristibus humilitatem, ex laetis acciperent consolationem.
+          </p>
+          <p xml:id="gom-mt5-d1e397">
+            <quote xml:id="gom-mt5-Qd1e399" type="lemma" source="http://scta.info/resource/mt5_11@4-4">Maledixerint.</quote>
+            Antiqua translatio habet: <quote xml:id="gom-mt5-Qd1e402">Cum oderint vos homines, et dixerint omne malum, et expulerint.</quote> Idem tamen sensus in nostra, cum maledieta ex odio cordis fiant. Qui gloriam coeli optat, non <pb ed="#P" n="0091A"/> timet opprobrium in terra; quantum quisque de laude hominum laetatur, tantum de opprobrio tristatur. Quem laus extollit, vituperatio deprimit: ubi quis quaerit laudari tantum apud Deum, non timet confundi in conspectu hominum.
+          </p>
+          <p xml:id="gom-mt5-d1e407">
+            <quote xml:id="gom-mt5-Qd1e409" type="lemma" source="http://scta.info/resource/mt5_11@16-16">Mentientes.</quote>
+            Hoc addit ne glorietur de quo vere mala dicuntur. Etiam addit: <quote xml:id="gom-mt5-Qd1e412" source="http://scta.info/resource/mt5_11@17-18">Propter me,</quote> quia aliquando falsa dicuntur, quod accedit temeritate hominum, non tamen propter Christum hoc patiuntur, quem non sequuntur.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e418">
+          <head xml:id="gom-mt5-Hd1e420">Versus 12</head>
+          <p xml:id="gom-mt5-d1e422">
+            <quote xml:id="gom-mt5-Qd1e424" type="lemma" source="http://scta.info/resource/mt5_12@4-10">Quoniam merces vestra copiosa est in coelis.</quote>
+            Non in volubilibus, cum non in rebus volubilibus merces aeterna esse debeat, sed in spiritualibus firmamentis, ubi habitat sempiterna justitia. Jam ergo sentiunt hanc mercedem qui spiritualibus bonis gaudent. Sed perficietur cum mortale hoc induet <pb ed="#P" n="0091B"/> immortalitatem.
+          </p>
+          <p xml:id="gom-mt5-d1e430">
+            <quote xml:id="gom-mt5-Qd1e432" type="lemma" source="http://scta.info/resource/mt5_12@11-13">Sic enim persecuti,</quote>
+            etc. Temperat exemplo rigorem passionis. Tribus modis fit persecutio: odio cordis, dictis, factis.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e437">
+          <head xml:id="gom-mt5-Hd1e439">Versus 13</head>
+          <p xml:id="gom-mt5-d1e441">
+            <quote xml:id="gom-mt5-Qd1e443" type="lemma" source="http://scta.info/resource/mt5_13@1-4">Vos estis sal terrae.</quote>
+            Hic jam ostenditur apostolorum officium, scilicet quod sunt sal terrae et lux mundi. Hoc specialiter ad apostolos, qui praedictis virtutibus, paupertate scilicet et aliis, debent ornari, ut sint sal optimum condientes alios doctrina, et vitae suae exemplo. Sal, salus a corruptione. Unde propheta: <quote xml:id="gom-mt5-Qd1e446" source="http://scta.info/resource/is49_6@18-29">Posui te in lucem gentium, ut sis salus mea usque ad extrema terrae.</quote>
+          </p>
+          <p xml:id="gom-mt5-d1e450">
+            <quote xml:id="gom-mt5-Qd1e452" type="lemma" source="http://scta.info/resource/mt5_13@5-7">Quod si sal,</quote>
+            etc. Id est, si vos, per quos alii condiendi sunt, adversis vel prosperis cesseritis: per quos a vobis error auferetur, cum vos Deus tollere <pb ed="#P" n="0091C"/> aliis elegerit? Ad nihilum valet: quia (ut alius evangelista ait) nec terrae utilis est quam suo injectu germinare prohibet, nec sterquilinio quod non fecundare sinit. Sic qui retro vadit, nec ipse fructum fert, nec alios valet excolere, sed ab Ecclesia ejicitur, et in haec verba ridetur: <quote xml:id="gom-mt5-Qd1e457" source="http://scta.info/resource/lc14_30@3-10">Hic homo coepit aedificare, et non potuit consummare. Si sal evanuerit<!-- check: Migne cites lc4; text matches lc14_30 --></quote>. Id est, si timore vel cupidine doctor saporem sapientiae omiserit, per quem fatuitas ejus emendabitur? Hoc solis apostolis convenit: Quod sequitur, omnibus magistris: <quote xml:id="gom-mt5-Qd1e461" source="http://scta.info/resource/mt5_13@12-15">Ad nihilum valet ultra,</quote> etc. In fine de omnibus concludit sic: <quote xml:id="gom-mt5-Qd1e464" source="http://scta.info/resource/mt5_20@5-7">Nisi abundaverit justitia,</quote> etc.
+          </p>
+          <p xml:id="gom-mt5-d1e468">
+            <quote xml:id="gom-mt5-Qd1e470" type="lemma" source="http://scta.info/resource/mt5_13@20-23">Et conculcetur ab hominibus.</quote>
+            Sanctus et verus minister Christi, etsi a malis ridetur, conculcari non <pb ed="#P" n="0091D"/> potest, quia mente fixus in coelo manet.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e477">
+          <head xml:id="gom-mt5-Hd1e479">Versus 14</head>
+          <p xml:id="gom-mt5-d1e481">
+            <quote xml:id="gom-mt5-Qd1e483" type="lemma" source="http://scta.info/resource/mt5_14@1-4">Vos estis lux mundi.</quote>
+            Prius sal quam lux, quia prius vita quam doctrina: vita ducit ad scientiam veritatis. Qui Deum timet, scientia non caret.
+          </p>
+          <p xml:id="gom-mt5-d1e487">
+            <quote xml:id="gom-mt5-Qd1e489" type="lemma" source="http://scta.info/resource/mt5_14@3-4">Lux mundi.</quote>
+            Alia causa est quare non debent deficere: quia illuminati a Christo verbo et exemplo: quocunque illati mundanis lucem fidei et scientiae debent ministrare. Et sicut (quia sunt sal) debent corruptionem pellere: sic et tenebras (quia lux sunt) fugare.
+          </p>
+          <p xml:id="gom-mt5-d1e493">
+            <quote xml:id="gom-mt5-Qd1e495" type="lemma" source="http://scta.info/resource/mt5_14@5-7">Non potest civitas,</quote>
+            etc. Quia apostoli fundamenta sunt, apte civitas dicuntur.
+          </p>
+          <p xml:id="gom-mt5-d1e499">
+            <quote xml:id="gom-mt5-Qd1e501" type="lemma" source="http://scta.info/resource/mt5_14@9-10">Supra montem.</quote>
+            Locus montem justitiae innuit, qui excelsus est, quo propalamini <pb ed="#P" n="0092A"/> ne vos abscondatis. Non enim facultas subterfugiendi vel clam aliquid faciendi; ideo subditos misericorditer intus consilio regite, et extra contra adversarios pro justitia pugnando defendite: quod pertinet ad spiritum consilii et fortitudinis.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e508">
+          <head xml:id="gom-mt5-Hd1e510">Versus 15</head>
+          <p xml:id="gom-mt5-d1e512">
+            <quote xml:id="gom-mt5-Qd1e514" type="lemma" source="http://scta.info/resource/mt5_15@1-3">Neque accendunt lucernam.</quote>
+            Domesticis exemplis docet, ne celent lucem verbi sibi commissam. Non accendunt, id est, non ideo data est doctrina praedicationis ut celent eam et subjiciant servituti corporis, dum aliqua timent. Sed corpus suum ministerio Dei subjiciant, ut per vocem et caetera corporis officia lux excellentior caeteris appareat. Unde dicitur <!--<note>(I Cor. IX)</note>-->: <quote xml:id="gom-mt5-Qd1e519" source="http://scta.info/resource/Icor9_27@2-4">Castigo corpus meum,</quote> etc. Vel, Christus lucernam accendit, dum testam humanae naturae flamma suae divinitatis implevit: <pb ed="#P" n="0092B"/> quam nec credentibus abscondit, nec modio, id est mensura legis, vel terminis unius gentis inclusit. Sed super candelabrum, id est, Ecclesiam fidem suae incarnationis affixit, ubi omnes possint intueri, qui in domo, id est, Ecclesia sunt vel mundo. Unde subdit: <quote xml:id="gom-mt5-Qd1e524" source="http://scta.info/resource/mt5_16@1-2">Sic luceat,</quote> etc.
+          </p>
+          <p xml:id="gom-mt5-d1e528">
+            <quote xml:id="gom-mt5-Qd1e530" type="lemma" source="http://scta.info/resource/mt5_15@11-11">Candelabrum.</quote>
+            Sicut lucerna Christus, candelabrum crux est, super quam erat levandus. Candelabrum Ecclesia, quae verbum vitae praesentis bajulat.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e535">
+          <head xml:id="gom-mt5-Hd1e537">Versus 16</head>
+          <p xml:id="gom-mt5-d1e539">
+            <quote xml:id="gom-mt5-Qd1e541" type="lemma" source="http://scta.info/resource/mt5_16@1-2">Sic luceat,</quote>
+            etc. Et haec omnia ita agite, ut non finem boni operis in laudibus hominum constituatis.
+          </p>
+          <p xml:id="gom-mt5-d1e545">
+            <quote xml:id="gom-mt5-Qd1e547" type="lemma" source="http://scta.info/resource/mt5_16@7-8">Ut videant,</quote>
+            etc. Opera requiro, ut videantur, et sic doctrina confirmetur: et hoc non ad gloriam vestram.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e552">
+          <head xml:id="gom-mt5-Hd1e554">Versus 17</head>
+          <p xml:id="gom-mt5-d1e556">
+            <quote xml:id="gom-mt5-Qd1e558" type="lemma" source="http://scta.info/resource/mt5_17@1-2">Nolite putare.</quote>
+            Postquam hortatus est <pb ed="#P" n="0092C"/> omnia pati pro veritate, et non celare, et gloriam Dei facere, incipit docere quid docturi sint. Quasi diceret: Quid est quod vetas abscondi, pro quo jubes omnia pati? an est aliquid contra legem?
+          </p>
+          <p xml:id="gom-mt5-d1e564">
+            <quote xml:id="gom-mt5-Qd1e566" type="lemma" source="http://scta.info/resource/mt5_17@9-13">Non veni solvere legem, sed adimplere,</quote>
+            vel faciendo quod dicit, vel supplendo quod deerat et imperfectum erat.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e572">
+          <head xml:id="gom-mt5-Hd1e574">Versus 18</head>
+          <p xml:id="gom-mt5-d1e576">
+            <quote xml:id="gom-mt5-Qd1e578" type="lemma" source="http://scta.info/resource/mt5_18@10-10">Iota.</quote>
+            <ref xml:id="gom-mt5-Rd1e581"><name xml:id="gom-mt5-Nd1e582" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e585"><seg type="qs">Hic ostenditur, quod quae minima putantur in lege, sacramentis spiritualibus plena sunt, et omnia</seg>, etc., usque ad <seg type="qs">quia iota decem significat, id est decalogum, cujus apex est Evangelii perfectio.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e593">
+            <quote xml:id="gom-mt5-Qd1e595" type="lemma" source="http://scta.info/resource/mt5_18@20-21">Omnia fiant.</quote>
+            Spiritualiter impleantur, vel imperfecta perficiantur, et significantia, id est impletione, consummentur.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e600">
+          <head xml:id="gom-mt5-Hd1e602">Versus 19</head>
+          <p xml:id="gom-mt5-d1e604">
+            <pb ed="#P" n="0092D"/>
+            <quote xml:id="gom-mt5-Qd1e608" type="lemma" source="http://scta.info/resource/mt5_19@1-3">Qui ergo solverit,</quote>
+            etc. Minima sunt crux Christi et passio, quam qui erubescit minimus est; qui confitetur magnus. Vel Pharisaeos notat, qui mandata Dei dimiserunt pro suis traditionibus, quae nihil valent, dum vel minimum, quod in lege est, praetereunt. Moraliter autem solvit qui non implet, sed tenet sicut infirmis data sunt. Vel qui non intelligit spiritualiter. Solvere, non est agere, quod recte intelligit, vel non intelligere quod non depravat, aut minuere integritatem superadditionis Christi.
+          </p>
+          <p xml:id="gom-mt5-d1e612">
+            <quote xml:id="gom-mt5-Qd1e614" type="lemma" source="http://scta.info/resource/mt5_19@13-14">Minimus vocabitur,</quote>
+            etc. In regno coelorum minimus vocabitur qui erit in eo indignus, in quo nullus minimus sed omnes magni.
+          </p>
+          <p xml:id="gom-mt5-d1e618">
+            <pb ed="#P" n="0093A"/>
+            <quote xml:id="gom-mt5-Qd1e622" type="lemma" source="http://scta.info/resource/mt5_19@18-20">Qui autem fecerit.</quote>
+            Qui non solverit, et sic docet, non minimus, non tamen magnus: sed facit quod docet. <quote xml:id="gom-mt5-Qd1e625" source="http://scta.info/resource/rom2_13@2-8">Soli enim factores legis justi sunt apud Deum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e630">
+          <head xml:id="gom-mt5-Hd1e632">Versus 20</head>
+          <p xml:id="gom-mt5-d1e634">
+            <quote xml:id="gom-mt5-Qd1e636" type="lemma" source="http://scta.info/resource/mt5_20@1-3">Dico autem vobis.</quote>
+            Cum ait, dico, magnam vim et profundam intelligentiam cogitandi incussit: ostendit quomodo superaddit. Et non quae prius mandaverat, absolvit. Plus etiam est diligere inimicos quam non odisse: non cupere, quam non adulterari: non irasci, quam non occidere.
+          </p>
+          <p xml:id="gom-mt5-d1e640">
+            <quote xml:id="gom-mt5-Qd1e642" type="lemma" source="http://scta.info/resource/mt5_20@5-5">Nisi,</quote>
+            etc. Id est, non solum minima legis praecepta impleveritis, sed et ea quae addo: quia dum fiunt addita ad perfectionem, etiam haec plenius aguntur quae praemissa sunt ad inchoationem: <pb ed="#P" n="0093B"/> quia qui non videt mulierem ad concupiscendum eam, nec fornicatur: nec occidit qui non irascitur.
+          </p>
+          <p xml:id="gom-mt5-d1e648">
+            <quote xml:id="gom-mt5-Qd1e650" type="lemma" source="http://scta.info/resource/mt5_20@7-8">Justitia vestra.</quote>
+            Justitiam Pharisaeorum vocat omnia illa ad cultum Dei actualiter praecepta: seu figurarum mystica tantum ad litteram instituta.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e655">
+          <head xml:id="gom-mt5-Hd1e657">Versus 21</head>
+          <p xml:id="gom-mt5-d1e659">
+            <quote xml:id="gom-mt5-Qd1e661" type="lemma" source="http://scta.info/resource/mt5_21@1-1">Audistis,</quote>
+            etc. Exponit quae est justitia Pharisaeorum, quam qui adimplet non statim magnus, sed aliquem gradum conscendit.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e666">
+          <head xml:id="gom-mt5-Hd1e668">Versus 22</head>
+          <p xml:id="gom-mt5-d1e670">
+            <quote xml:id="gom-mt5-Qd1e672" type="lemma" source="http://scta.info/resource/mt5_22@1-2">Ego autem,</quote>
+            etc. Perfectionem quam venit implere incipit explanare, et quomodo justitia eorum debeat superabundare.
+          </p>
+          <p xml:id="gom-mt5-d1e676">
+            <quote xml:id="gom-mt5-Qd1e678" type="lemma" source="http://scta.info/resource/mt5_22@6-8">Omnis qui irascitur.</quote>
+            Quia nesciebant homicidium esse nisi peremptionem: aperit omnem motum animi ad nocendum, in homicidium computari. Mandatum Christi non est contrarium legi, sed latius <pb ed="#P" n="0093C"/> legem in se continens. Qui non irascitur, non occidit. Sed non econtra, licentia irascendi causa homicidii. Tolle iram, et homicidium non fit.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e685">
+          <head xml:id="gom-mt5-Hd1e687">Versus 23</head>
+          <p xml:id="gom-mt5-d1e689">
+            <quote xml:id="gom-mt5-Qd1e691" type="lemma" source="http://scta.info/resource/mt5_23@1-5">Si ergo offers munus tuum.</quote>
+            Explanat ampliorem justitiam ostendendo quod si non licet fratri irasci, multo minus in animo retinere quod in odium quaerat converti. Si quidquam mali contra proximum in animo habemus, Deo placite offerre non possumus.
+          </p>
+          <p xml:id="gom-mt5-d1e695">
+            <quote xml:id="gom-mt5-Qd1e697" type="lemma" source="http://scta.info/resource/mt5_23@1-3">Si ergo offers.</quote>
+            Secundum litteram hoc absurdum est. Est ergo in interiori templo altare, id est fides, cui quodlibet munus, id est, psalmus, hymnus, oratio, et hujusmodi, nisi sit innixum non est Deo placiturum.
+          </p>
+          <p xml:id="gom-mt5-d1e701">
+            <quote xml:id="gom-mt5-Qd1e703" type="lemma" source="http://scta.info/resource/mt5_23@8-9">Et ibi,</quote>
+            etc., id est, cum in corde (quod est templum interius) tale munus oblaturus es, si in mentem <pb ed="#P" n="0093D"/> venerit quod frater tuus habet aliquid adversum te, quem tu laesisti. Si enim ipse te laesit, non ipse, sed tu habes adversus eum: nec tunc oportet te veniam petere, sed dare sicut vis tibi dimitti.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e711">
+          <head xml:id="gom-mt5-Hd1e713">Versus 24</head>
+          <p xml:id="gom-mt5-d1e715">
+            <quote xml:id="gom-mt5-Qd1e717" type="lemma" source="http://scta.info/resource/mt5_24@1-2">Relinque ibi,</quote>
+            etc. Non ait refer: quia quod recte offertur immutari non licet. Sed relinque, donec placabilius offeras: non enim munus repellit, sed charitatem proximi quaerit, sine qua nemo ad charitatem Dei pervenit. Unde: Prius charitatem proximo exsolvat qui munus suum Deo placere optat.
+          </p>
+          <p xml:id="gom-mt5-d1e721">
+            <quote xml:id="gom-mt5-Qd1e723" type="lemma" source="http://scta.info/resource/mt5_24@8-8">Vade.</quote>
+            Non pedibus, sed animo humiliter ei prosternas in conspectu illius cui oblaturus es. Vel petendo veniam si praesens est.
+          </p>
+          <p xml:id="gom-mt5-d1e727">
+            <quote xml:id="gom-mt5-Qd1e729" type="lemma" source="http://scta.info/resource/mt5_24@16-16">Offeres.</quote>
+            Hoc ex spiritu pietatis quo mitis fit, et divinum verbum <pb ed="#P" n="0094A"/> pie intelligit, intelligendo obedit, et ad implendum cor erigit.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e736">
+          <head xml:id="gom-mt5-Hd1e738">Versus 25</head>
+          <p xml:id="gom-mt5-d1e740">
+            <quote xml:id="gom-mt5-Qd1e742" type="lemma" source="http://scta.info/resource/mt5_25@1-2">Esto consentiens.</quote>
+            Sicut jam praecepit fratri reconciliari et post jubet inimicos diligi, ita hic dum currimus in via hujus saeculi, ad pacem et concordiam hortatur, sicut dicitur: <quote xml:id="gom-mt5-Qd1e745" source="http://scta.info/resource/rom12_18@1-12">Si fieri potest quod ex vobis est cum omnibus hominibus pacem habentes</quote>. Et pro consentiens ex Graeco habetur benignus vel benevolus.
+          </p>
+          <p xml:id="gom-mt5-d1e749">
+            <quote xml:id="gom-mt5-Qd1e751" type="lemma" source="http://scta.info/resource/mt5_25@5-5">Cito,</quote>
+            ne differas in crastinum: <quote xml:id="gom-mt5-Qd1e754" source="http://scta.info/resource/mt5_25@6-9">Dum es in via,</quote> dum adhuc licet operari.
+          </p>
+          <p xml:id="gom-mt5-d1e758">
+            <ref xml:id="gom-mt5-Rd1e760" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_25@5-5"/>
+            Si fratrem laesisti, reconciliare ei. Si adversarius exstiterit, esto benevolus, ut fiat amicus.
+          </p>
+          <p xml:id="gom-mt5-d1e763">
+            <quote xml:id="gom-mt5-Qd1e765" type="lemma" source="http://scta.info/resource/mt5_25@8-11">In via cum eo.</quote>
+            Sermo divinus, nobiscum est in Christi via. Adversarius nobiscum in via saeculi. <pb ed="#P" n="0094B"/> Sermo divinus nobis via est qua currimus. Unde: <quote xml:id="gom-mt5-Qd1e770" source="http://scta.info/resource/ps118_32@1-8">Viam mandatorum tuorum cucurri, cum dilatasti cor meum</quote>.
+          </p>
+          <p xml:id="gom-mt5-d1e775">
+            <quote xml:id="gom-mt5-Qd1e777" type="lemma" source="http://scta.info/resource/mt5_25@12-14">Ne forte tradat.</quote>
+            Sic temperavit, ut poenitentiae locum non afferret: putaretur enim, quod si obiisset adversarius et non posset ei in via esse benevolus, necessario judici traderetur. Sed et locum poenitentiae reliquit, et impoenitentem judici tradidit, dicens: Judex tradat te ministro.
+          </p>
+          <p xml:id="gom-mt5-d1e781">
+            <quote xml:id="gom-mt5-Qd1e783" type="lemma" source="http://scta.info/resource/mt5_25@14-14">Tradat,</quote>
+            id est, causa sit cur tradaris in manus Christi, cui Pater omne judicium dedit. Christus ministro, id est angelo, qui colliget zizania.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e788">
+          <head xml:id="gom-mt5-Hd1e790">Versus 26</head>
+          <p xml:id="gom-mt5-d1e792">
+            <quote xml:id="gom-mt5-Qd1e794" type="lemma" source="http://scta.info/resource/mt5_26@9-10">Novissimum quadrantem.</quote>
+            Id est, minuta peccata, quia nihil erit impunitum. Vel per quadrantem novissimum, significantur terrena peccata, <pb ed="#P" n="0094C"/> quia prima pars mundi coelum; secunda, aer; tertia aqua; quarta, novissima terra. Ergo donec reddas novissimum quadrantem, id est, donec luas peccata quae de terra contraxisti.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e801">
+          <head xml:id="gom-mt5-Hd1e803">Versus 27</head>
+          <p xml:id="gom-mt5-d1e805">
+            <quote xml:id="gom-mt5-Qd1e807" type="lemma" source="http://scta.info/resource/mt5_27@1-1">Audistis.</quote>
+            <ref xml:id="gom-mt5-Rd1e810"><name xml:id="gom-mt5-Nd1e811" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e814"><seg type="qs">Adhuc qui dixit: <quote xml:id="gom-mt5-Qd1e817" source="http://scta.info/resource/mt5_17@9-13">Non veni solvere legem, sed adimplere<!-- check: Migne cites mc11; text matches mt5_17 --></quote>. Addit: quantum debeat abundare</seg>, etc., usque ad <seg type="qs">quando anima relicta superiori lege, turpi voluntate inferiorum prostituta corrumpitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e827">
+          <head xml:id="gom-mt5-Hd1e829">Versus 28</head>
+          <p xml:id="gom-mt5-d1e831">
+            <quote xml:id="gom-mt5-Qd1e833" type="lemma" source="http://scta.info/resource/mt5_28@8-9">Viderit mulierem.</quote>
+            <ref xml:id="gom-mt5-Rd1e836"><name xml:id="gom-mt5-Nd1e837" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e840"><seg type="qs">Magna superadditio. Visus ponitur pro omni motu qui est</seg>, etc., usque ad <seg type="qs">quia non secundum quod quisque potuit et non licuit, sed secundum quod voluit et proposuit ex conscientia accusatur vel defenditur.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e848">
+            <quote xml:id="gom-mt5-Qd1e850" type="lemma" source="http://scta.info/resource/mt5_28@10-11">Ad concupiscendum.</quote>
+            Ut transeat in affectum cordis, <pb ed="#P" n="0094D"/> ut facere disponat, ubi non deest voluntas, sed occasio: quod passio dicitur, quae est mors in domo. Propassio est animi subitus affectus vel irae, vel amoris. Passio est animi forma vel deliberatio ex consensu. Unde dicitur aliquis iracundus vel amator.
+          </p>
+          <p xml:id="gom-mt5-d1e856">
+            <ref xml:id="gom-mt5-Rd1e858" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_28@10-11"/>
+            <ref xml:id="gom-mt5-Rd1e860"><name xml:id="gom-mt5-Nd1e861" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e864">Si contemplatio vertitur in taedium vel in arrogantiam, dimitte eam, et transi ad activam: quia melius est per activam salvari, quam per contemplativam perire.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e868">
+          <head xml:id="gom-mt5-Hd1e870">Versus 29</head>
+          <p xml:id="gom-mt5-d1e872">
+            <quote xml:id="gom-mt5-Qd1e874" type="lemma" source="http://scta.info/resource/mt5_29@8-9">Erue eum.</quote>
+            Ad litteram nullum membrum erui praecipitur, sed interior visus qui dexter, et exterior qui sinister dicitur, per studium pii laboris si nocet est revocandus vel removendus: et <pb ed="#P" n="0095A"/> etiam longe faciendus, ut scilicet nec in memoria habeatur. Eruitur oculus cum frangitur malus usus. Projicitur, cum ex toto annihilatur, nec intrare permittitur.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e882">
+          <head xml:id="gom-mt5-Hd1e884">Versus 30</head>
+          <p xml:id="gom-mt5-d1e886">
+            <quote xml:id="gom-mt5-Qd1e888" type="lemma" source="http://scta.info/resource/mt5_30@3-5">Dextera manus tua.</quote>
+            Prospera operatio, vel aliquis adjutor strenuus intra vitae negotia: qui si scandalum est in lege Dei, melius est illo praeciso salvari, quam cum illo damnari.
+          </p>
+          <p xml:id="gom-mt5-d1e892">
+            <quote xml:id="gom-mt5-Qd1e894" type="lemma" source="http://scta.info/resource/mt5_30@8-9">Abscinde eam,</quote>
+            etc. Si quis hoc praedicat de membris, affectu pietatis non debet audiri. Sed ut improbitas morum et pravitas actionum inde resecetur, ut quidquid in oculo mentis de via justitiae et morum probitate nos subvertit, et quidquid contra operationem virtutum extra pulsat, procul pellatur.
+          </p>
+          <p xml:id="gom-mt5-d1e898">
+            <quote xml:id="gom-mt5-Qd1e900" type="lemma" source="http://scta.info/resource/mt5_30@26-27">In gehennam.</quote>
+            Nomen gehennae in veteribus non invenitur: sed prius a <pb ed="#P" n="0095B"/> Domino ponitur. Cujus nominis occasio est. Idolum Baal fuit juxta Jerusalem ad radicem montis Moria ubi Siloe fuit. Haec vallis irrigua fuit et nemorosa et plena deliciis, et locus in ea idolis consecratus: populus autem Israel adeo insanivit, ut relicto templo ibi immolarent, et filios suos incenderent daemoniis. Et dicebatur locus iste Gehennon, id est, vallis Ennon. Comminatur autem Deus se impleturum locum illum cadaveribus, ut vocetur polyandrum, id est, tumulus mortuorum: hujus ergo loci nomine futura supplicia designantur.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e907">
+          <head xml:id="gom-mt5-Hd1e909">Versus 31</head>
+          <p xml:id="gom-mt5-d1e911">
+            <quote xml:id="gom-mt5-Qd1e913" type="lemma" source="http://scta.info/resource/mt5_31@8-9">Det illi.</quote>
+            <ref xml:id="gom-mt5-Rd1e916"><name xml:id="gom-mt5-Nd1e917" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e920"><seg type="qs">Scripsit Moyses in Deuteronomio, quod si uxor non placet viro propter aliquam foeditatem, dimittat eam. Quod Christus exponit</seg>, etc., usque ad <seg type="qs">sicut diligit inimicum, non in <pb ed="#P" n="0095C"/> hoc quod inimicus et malus, sed quod homo ut secum sit salvus.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e930">
+            <ref xml:id="gom-mt5-Rd1e932" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_31@8-9"/>
+            <ref xml:id="gom-mt5-Rd1e934"><name xml:id="gom-mt5-Nd1e935" ref="#JohnChrysostom">CHRYSOST.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e938"><seg type="qs">Permisit Moyses dari libellum repudii, ne propter odium funderetur sanguis. Permisit fieri mala</seg>, etc., usque ad <seg type="qs">quia malas hominum voluntates ad plenum prohibere non possumus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e947">
+          <head xml:id="gom-mt5-Hd1e949">Versus 32</head>
+          <p xml:id="gom-mt5-d1e951">
+            <quote xml:id="gom-mt5-Qd1e953" type="lemma" source="http://scta.info/resource/mt5_32">Causa fornicationis.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Quia in hoc fides castitatis et connubii rumpitur: et ille non facit eam moechari, sed ipsa causa est reatus sui. Si autem pro fornicatione dimittit, a fornicatione debet esse immunis, nec aliam ducere licet dum illa vivit.
+          </p>
+          <p xml:id="gom-mt5-d1e959">
+            <quote xml:id="gom-mt5-Qd1e961" type="lemma" source="http://scta.info/resource/mt5_32@12-13">Fornicationis causa.</quote>
+            Feminae, quae fornicata est, vel viri ne fornicetur, scilicet si uxor cogat ad idololatriam, vel ad avaritiam, vel ad alias illicitas concupiscentias. Non enim fornicatio est tantum stupri, <pb ed="#P" n="0095D"/> sed generaliter quae a lege Dei aberrare facit.
+          </p>
+          <p xml:id="gom-mt5-d1e967">
+            <quote xml:id="gom-mt5-Qd1e969" type="lemma" source="http://scta.info/resource/mt5_32@17-18">Et qui,</quote>
+            etc.
+            <ref xml:id="gom-mt5-Rd1e972"><name xml:id="gom-mt5-Nd1e973" ref="#JohnChrysostom">CHRYSOST.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e976">Non dicas quoniam vir suus eam dimisit, quia etiam postquam dimissa est, remanet dimittentis uxor.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e980">
+          <head xml:id="gom-mt5-Hd1e982">Versus 33</head>
+          <p xml:id="gom-mt5-d1e984">
+            <quote xml:id="gom-mt5-Qd1e986" type="lemma" source="http://scta.info/resource/mt5_33@9-10">Reddes autem.</quote>
+            Si jurare contigerit: per Creatorem jurabis: non per creaturam. Hoc enim per quod jurat quilibet veneratur: hoc amat, hoc timet. Ideo lex praecipit ut non juretur nisi per Deum.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e991">
+          <head xml:id="gom-mt5-Hd1e993">Versus 34</head>
+          <p xml:id="gom-mt5-d1e995">
+            <quote xml:id="gom-mt5-Qd1e997" type="lemma" source="http://scta.info/resource/mt5_34@1-2">Ego autem,</quote>
+            etc. Docet nil tam vile in creaturis quod quis pejerare debeat, dum a summo usque ad imum, juramentum vetat, id est, a coelo usque ad capillum. In Deum pejerare convincitur, cujus thronus est coelum, et cujus est quidquid est.
+          </p>
+          <p xml:id="gom-mt5-d1e1001">
+            <pb ed="#P" n="0096A"/>
+            <quote xml:id="gom-mt5-Qd1e1005" type="lemma" source="http://scta.info/resource/mt5_34@9-10">Per coelum.</quote>
+            Illi vel coelum plus aliquid suspicabantur, vel per illud jurantes non putabant se juramento teneri: ideo sententiam sic temperat, ut et coelum creatura Dei credatur, non plus aliquid: et quia thronus ejus est perjurium timeatur. Sic et de terra, quia scabellum pedum ejus. Qui ergo per creaturam jurat, illi debet juramentum qui eam creavit et regit, nec alii recte putatur reddi.
+          </p>
+          <p xml:id="gom-mt5-d1e1009">
+            <ref xml:id="gom-mt5-Rd1e1011" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_34@9-10"/>
+            Non juremus per creaturas ut veneremur eas ultra quam debemus per eas, ut viles existimemus, ut scilicet cum per eas juremus nihil jurare putemus.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1015">
+          <head xml:id="gom-mt5-Hd1e1017">Versus 35</head>
+          <p xml:id="gom-mt5-d1e1019">
+            <quote xml:id="gom-mt5-Qd1e1021" type="lemma" source="http://scta.info/resource/mt5_35@1-3">Neque per terram.</quote>
+            Alii per salutem Pharaonis, qui Dei judicio positus est in infimis. <quote xml:id="gom-mt5-Qd1e1024" source="http://scta.info/resource/rom13_1@7-13">Non est potestas nisi a Deo</quote>: et in hoc Deum juras.
+          </p>
+          <p xml:id="gom-mt5-d1e1028">
+            <pb ed="#P" n="0096B"/>
+            <quote xml:id="gom-mt5-Qd1e1032" type="lemma" source="http://scta.info/resource/mt5_35@1-1">Neque,</quote>
+            etc. Quod non est tuum opus, sed Dei: et ita in minimis Deum jurando perjurium incurrere potes.
+          </p>
+          <p xml:id="gom-mt5-d1e1036">
+            <ref xml:id="gom-mt5-Rd1e1038" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_35@1-1"/>
+            Qui per caput jurat, illi debet cujus figura et potestas in eo manet.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1043">
+          <head xml:id="gom-mt5-Hd1e1045">Versus 36</head>
+          <p xml:id="gom-mt5-d1e1047">
+            <quote xml:id="gom-mt5-Qd1e1049" type="lemma" source="http://scta.info/resource/mt5_36@6-8">Quia non potes,</quote>
+            etc. Haec praedicta cum sint ardua et difficilia, nemo sine spiritu fortitudinis servat. Compellit ad perfectionem, dum tollit jurandi occasionem.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1054">
+          <head xml:id="gom-mt5-Hd1e1056">Versus 37</head>
+          <p xml:id="gom-mt5-d1e1058">
+            <quote xml:id="gom-mt5-Qd1e1060" type="lemma" source="http://scta.info/resource/mt5_37@5-8">Est, est; non, non.</quote>
+            Ideo bis dicit, ut quod ore dicis, operibus probes. Quod verbis negas, factis non comprobes vel confirmes.
+          </p>
+          <p xml:id="gom-mt5-d1e1064">
+            <ref xml:id="gom-mt5-Rd1e1066" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_37@5-8"/>
+            Non penitus jurare prohibuit, sed occasione perjurii. Quod perfectius est docuit ostendens quod ulterius est a malo esse. Apostolus jurat, ut fidem <pb ed="#P" n="0096C"/> persuadeat: Ecclesia etiam pro foedere pacis ac fidei suos jurare concedit. Sed Christus quod perfectius est docuit, quod infirmitatis indulsit, quod superstitiosum resecavit.
+          </p>
+          <p xml:id="gom-mt5-d1e1071">
+            <ref xml:id="gom-mt5-Rd1e1073" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_37@5-8"/>
+            Veritas Evangelii juramentum non recipit, sed alterius infirmitas id cogit, dum veritati non credit.
+          </p>
+          <p xml:id="gom-mt5-d1e1076">
+            <quote xml:id="gom-mt5-Qd1e1078" type="lemma" source="http://scta.info/resource/mt5_37@14-16">A malo est.</quote>
+            Non quidem malum, quia etsi non bonum, tamen necessarium, sed a malo est, non tuo sed illius a quo cogeris jurare, id est, ab infirmitate illius quae malum est.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1083">
+          <head xml:id="gom-mt5-Hd1e1085">Versus 38</head>
+          <p xml:id="gom-mt5-d1e1087">
+            <quote xml:id="gom-mt5-Qd1e1089" type="lemma" source="http://scta.info/resource/mt5_38@1-1">Audistis.</quote>
+            <ref xml:id="gom-mt5-Rd1e1092"><name xml:id="gom-mt5-Nd1e1093" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e1096"><seg type="qs">Lex modum ultionis instituit: oculum pro oculo. Quod si dici potest</seg>, etc., usque ad <seg type="qs">sed pro dilectione justitiae, justum pro injusto, quod est bonum pro malo, quod etiam judex facit.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e1104">
+            <pb ed="#P" n="0096D"/>
+            <ref xml:id="gom-mt5-Rd1e1108" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_38@1-1"/>
+            Quod dicit, <quote xml:id="gom-mt5-Qd1e1110" source="http://scta.info/resource/mt5_38@5-11">oculum pro oculo, dentem pro dente:</quote> non alterum vult tollere, sed utrumque conservare, dum minatur talionem. Quam etiam cum modo facit, ut injuriam vindicta non transeat: et haec est pacis inchoatio, et quasi justitiae incoeptio.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1115">
+          <head xml:id="gom-mt5-Hd1e1117">Versus 39</head>
+          <p xml:id="gom-mt5-d1e1119">
+            <quote xml:id="gom-mt5-Qd1e1121" type="lemma" source="http://scta.info/resource/mt5_39@5-6">Non resistere.</quote>
+            Justitia legis rudes instruit in initio justitiae, id est, non plus quam est illatum reddere. Justitia Evangelii (quae ducit homines ad regnum) est non resistere malo: <quote xml:id="gom-mt5-Qd1e1124" source="http://scta.info/resource/mt5_39@5-6">Non resistere:</quote> ut ipse idem: <quote xml:id="gom-mt5-Qd1e1127" source="http://scta.info/resource/mt11_29@7-15">Discite a me, quia mitis sum, et humilis corde</quote>. Et David: <quote xml:id="gom-mt5-Qd1e1130" source="http://scta.info/resource/ps7_5@1-5">Si reddidi retribuentibus mihi mala</quote>. Jerem. <quote xml:id="gom-mt5-Qd1e1133" source="http://scta.info/resource/lam3_43@5-6">Et maxillam dedi percutienti</quote>. Ecce idem Dominus legis et Evangelii.
+          </p>
+          <p xml:id="gom-mt5-d1e1137">
+            <pb ed="#P" n="0097A"/>
+            <quote xml:id="gom-mt5-Qd1e1141" type="lemma" source="http://scta.info/resource/mt5_39@17-18">Praebe illi.</quote>
+            Non tantum non repercutias, sed si vult alteram ferire, patienter feras: hoc de injuria corporis. De necessariis autem si perdideris unum, sine tolli et reliquum. Quid ergo de superfluis?
+          </p>
+          <p xml:id="gom-mt5-d1e1145">
+            <quote xml:id="gom-mt5-Qd1e1147" type="lemma" source="http://scta.info/resource/mt5_39@20-20">Alteram.</quote>
+            <ref xml:id="gom-mt5-Rd1e1150"><name xml:id="gom-mt5-Nd1e1151" ref="#JohnChrysostom">CHRYSOST.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e1154"><seg type="qs">Primum indigna res est ut nomo fidelis stet in judicio ante conspectum judicis infidelis. Nam et si infidelis</seg>, etc., usque ad <seg type="qs">Si semel in judicium ingressus fueris, non jam desideras ut veritas causae appareat, sed ut quocunque modo victor exsistas.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1163">
+          <head xml:id="gom-mt5-Hd1e1165">Versus 40</head>
+          <p xml:id="gom-mt5-d1e1167">
+            <quote xml:id="gom-mt5-Qd1e1169" type="lemma" source="http://scta.info/resource/mt5_40@1-3">Et ei qui,</quote>
+            etc. Consilium est antequam contendas. Licet quidem infirmis sua repetere, sed non contendere. Lucas econverso: Qui aufert vestem, etiam tunicam noli prohibere. Quod non de his solis, sed de omnibus temporalibus faciendum est.
+          </p>
+          <p xml:id="gom-mt5-d1e1173">
+            <quote xml:id="gom-mt5-Qd1e1175" type="lemma" source="http://scta.info/resource/mt5_40@9-10">Tunicam <pb ed="#P" n="0097B"/> tuam.</quote>
+            Vel, tunica est anima, quam si quis perdere noluerit, dimittat pallium, id est, corpus ad martyrium. Spiritualiter, doctor tunicam tollit, cum interiora vitia facit confiteri, ut est invidia, superbia, et hujusmodi. Ille addit: <quote xml:id="gom-mt5-Qd1e1180" source="http://scta.info/resource/mt5_40@14-15">Et pallium;</quote> qui et exteriora, ut furtum et fornicationem, non erubescit confiteri.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1185">
+          <head xml:id="gom-mt5-Hd1e1187">Versus 41</head>
+          <p xml:id="gom-mt5-d1e1189">
+            <quote xml:id="gom-mt5-Qd1e1191" type="lemma" source="http://scta.info/resource/mt5_41@5-6">Mille passus.</quote>
+            Hoc est iter sabbati, quo designatur perfectio spiritualis: quia non licet in sabbato servile opus facere.
+          </p>
+          <p xml:id="gom-mt5-d1e1195">
+            <quote xml:id="gom-mt5-Qd1e1197" type="lemma" source="http://scta.info/resource/mt5_41@10-11">Alia duo.</quote>
+            Vadit et alia duo qui dum corpore tantum in servitutem redigitur, spiritu et anima, id est ratione et voluntate, redigi est paratus.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1203">
+          <head xml:id="gom-mt5-Hd1e1205">Versus 42</head>
+          <p xml:id="gom-mt5-d1e1207">
+            <quote xml:id="gom-mt5-Qd1e1209" type="lemma" source="http://scta.info/resource/mt5_42@5-6">Da ei.</quote>
+            Quae honeste et juste possunt dari. Si deest facultas, da affectum verbo vel obsequio. <pb ed="#P" n="0097C"/>
+          </p>
+          <p xml:id="gom-mt5-d1e1215">
+            <quote xml:id="gom-mt5-Qd1e1217" type="lemma" source="http://scta.info/resource/mt5_42@5-6">Da ei.</quote>
+            Ita, scilicet, ut nec tibi noceat, nec alii: pensanda est enim justitia. Ita enim omni petenti dabis, et si non id quod petit, sed melius cum injuste petentem correxeris.
+          </p>
+          <p xml:id="gom-mt5-d1e1221">
+            <quote xml:id="gom-mt5-Qd1e1223" type="lemma" source="http://scta.info/resource/mt5_42@7-8">Et volenti.</quote>
+            Duo genera praestandi complectitur. Vel enim benevole damus, vel reddituro commodamus. Et quandoque qui donat, non vult commodare, quasi nihil mercedis in eo sit cum rem acceptam debitor persolvit. Sed vere ille qui etiam hoc jubet, retribuit. Dicit ergo: <quote xml:id="gom-mt5-Qd1e1226" source="http://scta.info/resource/mt5_42@12-13">Ne avertaris,</quote> id est, nec alienes voluntatem tuam. <quote xml:id="gom-mt5-Qd1e1229" source="http://scta.info/resource/IIcor9_7@12-16">Hilarem enim datorem diligit Deus</quote>, sic et spiritualis doctor verbi divini foenus auditoribus debet accommodare, ut boni operis retributionem ab illis possit accipere, et a Deo mercedem sperare.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1234">
+          <head xml:id="gom-mt5-Hd1e1236">Versus 43</head>
+          <p xml:id="gom-mt5-d1e1238">
+            <quote xml:id="gom-mt5-Qd1e1240" type="lemma" source="http://scta.info/resource/mt5_43@1-1">Audistis.</quote>
+            Qui legem implere venit, in <pb ed="#P" n="0097D"/> fine ad charitatem plenam perducit, quae est impletio legis.
+          </p>
+          <p xml:id="gom-mt5-d1e1246">
+            <quote xml:id="gom-mt5-Qd1e1248" type="lemma" source="http://scta.info/resource/mt5_43@9-10">Odio habebis.</quote>
+            Forsitan intelligendum est juxta hoc quod <ref xml:id="gom-mt5-Rd1e1251">supra: <seg type="incipit">Oculum pro oculo</seg>,</ref> etc. Vel subtrahendo officia humanitatis.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1259">
+          <head xml:id="gom-mt5-Hd1e1261">Versus 44</head>
+          <p xml:id="gom-mt5-d1e1263">
+            <quote xml:id="gom-mt5-Qd1e1265" type="lemma" source="http://scta.info/resource/mt5_44@5-5">Diligite.</quote>
+            Contra Ecclesiam pugnatur tribus modis: odio, verbis, cruciatu corporis. Ecclesia econtra diligit, benefacit, orat. Hoc est novum mandatum, hoc de filiis irae facit filios Dei; unde sequitur: <quote xml:id="gom-mt5-Qd1e1268" source="http://scta.info/resource/mt5_45@1-3">Ut sitis fiili.</quote> Adoptio filiorum sola charitate acquiritur.
+          </p>
+          <p xml:id="gom-mt5-d1e1272">
+            <quote xml:id="gom-mt5-Qd1e1274" type="lemma" source="http://scta.info/resource/mt5_44@8-8">Benefacite.</quote>
+            Ministrando cibum mentis vel corporis. Quod facit etiam qui dicit eum hujusmodi nec cibum sumere. Omnia enim ea spectant, ut fratres fiant. <pb ed="#P" n="0098A"/> Singulis singula opponuntur, ut omnes partes malitiae bonitate vincantur. Videntur contra esse imprecationes prophetarum quae non dicuntur voto optantium, sed spiritu praevidentium.
+          </p>
+          <p xml:id="gom-mt5-d1e1280">
+            <quote xml:id="gom-mt5-Qd1e1282" type="lemma" source="http://scta.info/resource/mt5_44@14-14">Orate.</quote>
+            <ref xml:id="gom-mt5-Rd1e1285"><name xml:id="gom-mt5-Nd1e1286" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt5-Qd1e1289"><seg type="qs">Non ait hoc pro fratribus in quibus sunt aliquando peccata persecutione inimicorum graviora</seg>, etc., usque ad <seg type="qs">cum etsi peccasse fateantur, et fecisse mala vehementer eos poeniteat, tamen hujusmodi affectiones mentis habent ut se non humilient ad petendam veniam.</seg></quote>
+          </p>
+          <p xml:id="gom-mt5-d1e1297">
+            <ref xml:id="gom-mt5-Rd1e1299" type="lemma" subtype="implied" target="http://scta.info/resource/mt5_44@14-14"/>
+            Movere autem potest, quod Joannes in Epistola de dilectione Dei et proximi tantum monere videtur, ut fratres diligamus, cum Dominus dicat et pro inimicis orandum. Sed fratres intelliguntur non solum qui jam credunt, sed qui credituri sunt, pro quibus <pb ed="#P" n="0098B"/> orandum est, ut fraterno foedere nobis socientur.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1305">
+          <head xml:id="gom-mt5-Hd1e1307">Versus 45</head>
+          <p xml:id="gom-mt5-d1e1309">
+            <quote xml:id="gom-mt5-Qd1e1311" type="lemma" source="http://scta.info/resource/mt5_45@3-3">Filii.</quote>
+            Non degeneres. Quasi diceret: Accepta potestate operibus agite ut sitis filii renascendo per charitatem.
+          </p>
+          <p xml:id="gom-mt5-d1e1315">
+            <quote xml:id="gom-mt5-Qd1e1317" type="lemma" source="http://scta.info/resource/mt5_45@4-4">Patris.</quote>
+            Jam dicitur pater. Videte ut sitis filii renati ex Deo qui est charitas.
+          </p>
+          <p xml:id="gom-mt5-d1e1321">
+            <quote xml:id="gom-mt5-Qd1e1323" type="lemma" source="http://scta.info/resource/mt5_45@10-11">Qui solem.</quote>
+            Hunc visibilem. Nam inquiunt in libro Salomonis, <quote xml:id="gom-mt5-Qd1e1326" source="http://scta.info/resource/sap5_6@7-11">Sol justitiae non illuxit nobis</quote>. Et de pluvia doctrinae propheta dicit: <quote xml:id="gom-mt5-Qd1e1329" source="http://scta.info/resource/am4_7@17-23">Super unam civitatem pluit, et non super alteram. Solem suum</quote>, etc. Quasi dicat: Quem fecit, cujus proprie sunt omnia quae de nihilo creavit. Quid ergo nos faciemus de his quae de munere ejus accepimus?
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1334">
+          <head xml:id="gom-mt5-Hd1e1336">Versus 46</head>
+          <p xml:id="gom-mt5-d1e1338">
+            <quote xml:id="gom-mt5-Qd1e1340" type="lemma" source="http://scta.info/resource/mt5_46@13-13">Publicani.</quote>
+            Exactores Romanorum, quos Judaei sic vocant, quia de republica curam gerebant. Dicuntur et nomen traxisse a Publio Romano <pb ed="#P" n="0098C"/> rege, qui prius eos ordinavit.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1347">
+          <head xml:id="gom-mt5-Hd1e1349">Versus 47</head>
+          <p xml:id="gom-mt5-d1e1351">
+            <quote xml:id="gom-mt5-Qd1e1353" type="lemma" source="http://scta.info/resource/mt5_47@1-3">Et si salutaveritis.</quote>
+            Si pro his tantum oraveritis, qui aliqua affinitate vobis sint conjuncti, quid amplius habet beneficium vestrum quam infidelium? Oportet fratres diligere, et humiliter salutare: sed parum est.
+          </p>
+        </div>
+        <div xml:id="gom-mt5-Dd1e1359">
+          <head xml:id="gom-mt5-Hd1e1361">Versus 48</head>
+          <p xml:id="gom-mt5-d1e1363">
+            <quote xml:id="gom-mt5-Qd1e1365" type="lemma" source="http://scta.info/resource/mt5_48@4-4">Perfecti.</quote>
+            In charitate Dei et proximi. Cumulus perfectionis diligere etiam inimicos, et orare pro illis, sicut et Christus fecit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

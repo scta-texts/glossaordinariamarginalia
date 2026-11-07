@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0083D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt4">
+        <head xml:id="gom-mt4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-mt4-Dd1e100">
+          <head xml:id="gom-mt4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt4-d1e104">
+            <quote xml:id="gom-mt4-Qd1e106" type="lemma" source="http://scta.info/resource/mt4_1@1-2">Tunc Jesus.</quote>
+            Post baptismum, quia nulla est mora a tentatione: Ut mox doceat baptizatos <pb ed="#P" n="0084A"/> de mundo exire, in quiete Deo vacare: sic filii Israel post transitum maris per desertum ascendunt, et manna comedunt donec veniant ad terram promissionis.
+          </p>
+          <p xml:id="gom-mt4-d1e112">
+            <quote xml:id="gom-mt4-Qd1e114" type="lemma" source="http://scta.info/resource/mt4_1@1-4">Tunc Jesus ductus est,</quote>
+            etc.
+            <ref xml:id="gom-mt4-Rd1e117"><name xml:id="gom-mt4-Nd1e118" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e121">Hic est ordo rectae conversationis, ut post acceptam Spiritus sancti gratiam contra diabolum arctius accingamur: ea via Samaritanus descendit, quia carne indutus easdem tentationes sustinuit.</quote>
+          </p>
+          <p xml:id="gom-mt4-d1e124">
+            <quote xml:id="gom-mt4-Qd1e126" type="lemma" source="http://scta.info/resource/mt4_1@8-8">Spiritui</quote>
+            Sancto, qui quos replet ad pugnam mittit fortes. Sine hoc spiritu qui ad pugnam vadit, cito cadit.
+          </p>
+          <p xml:id="gom-mt4-d1e130">
+            <quote xml:id="gom-mt4-Qd1e132" type="lemma" source="http://scta.info/resource/mt4_1@9-12">Ut tentaretur a diabolo.</quote>
+            Non tentatur a diabolo, nisi quia ad desertum exierit, id est, bono studere coeperit.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e137">
+          <head xml:id="gom-mt4-Hd1e139">Versus 2</head>
+          <p xml:id="gom-mt4-d1e141">
+            <quote xml:id="gom-mt4-Qd1e143" type="lemma" source="http://scta.info/resource/mt4_2@1-3">Et cum jejunasset.</quote>
+            <ref xml:id="gom-mt4-Rd1e146"><name xml:id="gom-mt4-Nd1e147" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e150"><seg type="qs">Jejunat ut tentetur, tentatur quia jejunat, et exemplum jejunandi <pb ed="#P" n="0084B"/> nobis dat</seg>, etc., usque ad <seg type="qs">et sic quandiu hic sumus, semper peccata ploremus: quia hoc numero praesens vita ostenditur.</seg></quote>
+          </p>
+          <p xml:id="gom-mt4-d1e160">
+            <ref xml:id="gom-mt4-Rd1e162" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_2@1-3"/>
+            <ref xml:id="gom-mt4-Rd1e164"><name xml:id="gom-mt4-Nd1e165" ref="#PopeLeoI">LEO.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e168"><seg type="qs">Dum per varias actiones vitae hujus sollicitudo distenditur, necesse est de mundano pulvere</seg>, etc., usque ad <seg type="qs">ut in cujus sumus resurrectione conresuscitati, in ipsius inveniamur passione commortui.</seg></quote>
+          </p>
+          <p xml:id="gom-mt4-d1e176">
+            <quote xml:id="gom-mt4-Qd1e178" type="lemma" source="http://scta.info/resource/mt4_2@9-10">Postea esuriit.</quote>
+            Hoc est vere humanitatis: et per hoc est occasio tentandi. Latet potestas, patet infirmitas.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e183">
+          <head xml:id="gom-mt4-Hd1e185">Versus 3</head>
+          <p xml:id="gom-mt4-d1e187">
+            <quote xml:id="gom-mt4-Qd1e189" type="lemma" source="http://scta.info/resource/mt4_3@1-2">Et accedens.</quote>
+            Quia esuries est signum infirmitatis. Et sic nobis in abstinentia non deest tentatio. Per exteriorem infirmitatem Christum tentat in quo nullam legem peccati inveniebat.
+          </p>
+          <p xml:id="gom-mt4-d1e193">
+            <quote xml:id="gom-mt4-Qd1e195" type="lemma" source="http://scta.info/resource/mt4_3@6-9">Si Filius <pb ed="#P" n="0084C"/> Dei es.</quote>
+            Aliud horum explorantis est, aliud tentantis, dum Deum confiteri videtur, et hujusmodi illudere conatur. Sic enim tentat ut exploret quod veretur. Sic explorat, ut tentando decipiat.
+          </p>
+          <p xml:id="gom-mt4-d1e201">
+            <quote xml:id="gom-mt4-Qd1e203" type="lemma" source="http://scta.info/resource/mt4_3@6-9">Si Filius Dei es.</quote>
+            Noverat Filium Dei venisse in mundum, seu per prophetas seu per angelos nuntiantes, seu per Joannem demonstrantem: sed quia humilia in eo videbat, quod de Deitate suspicatus est, ex superbia ei in dubium venit. Unde et callide exquirit: Nec indignum fuit Christum tentari qui venerat occidi, ut tentationes superando nobis potestatem daret superandi tentationes, sicut sua morte abstulit nostram mortalitatem.
+          </p>
+          <p xml:id="gom-mt4-d1e207">
+            <ref xml:id="gom-mt4-Rd1e209" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_3@6-9"/>
+            <ref xml:id="gom-mt4-Rd1e211"><name xml:id="gom-mt4-Nd1e212" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e215"><seg type="qs">Christus non nisi post baptismum se tentari permisit, insinuans ad se euntes graviores passuros, <pb ed="#P" n="0084D"/></seg> etc., usque ad <seg type="qs">Christus vero sola suggestione tentatus fuit: quia delectatio peccati mentem ejus non momordit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e225">
+          <head xml:id="gom-mt4-Hd1e227">Versus 4</head>
+          <p xml:id="gom-mt4-d1e229">
+            <quote xml:id="gom-mt4-Qd1e231" type="lemma" source="http://scta.info/resource/mt4_4@4-5">Scriptum est.</quote>
+            Non utitur potestate, sed Scripturarum auctoritate, docens nos magis doctrina quam miraculis pugnare.
+          </p>
+          <p xml:id="gom-mt4-d1e235">
+            <quote xml:id="gom-mt4-Qd1e237" type="lemma" source="http://scta.info/resource/mt4_4@6-11">Non in solo pane vivit homo.</quote>
+            Quasi: Persuasio tua tentatio est: quia agis de cibo corporis, et non de cibo mentis. Inferior pars hominis pane sustentatur, alia verbo Dei reficitur: quia vero agis de inferiori, patet quod tentator sis.
+          </p>
+          <p xml:id="gom-mt4-d1e241">
+            <quote xml:id="gom-mt4-Qd1e243" type="lemma" source="http://scta.info/resource/mt4_4@12-15">Sed in omni verbo,</quote>
+            etc. Omne verbum charitas, in qua complentur omnia quae procedunt de ore Dei, quia cujuscunque ministerio dicantur, non ejus sunt, sed Dei: sed si adversum quid inseritur, hoc non est <pb ed="#P" n="0085A"/> Dei. De uno verbo, id est, sapientia Dei procedit quidquid loquuntur sancti qui sunt os ejus.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e251">
+          <head xml:id="gom-mt4-Hd1e253">Versus 5</head>
+          <p xml:id="gom-mt4-d1e255">
+            <quote xml:id="gom-mt4-Qd1e257" type="lemma" source="http://scta.info/resource/mt4_5">Tunc assumpsit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Prima et ultima tentatio in deserto, media quoque historialiter, ultima fuit postquam regressus est Jerusalem. Quia Matthaeus non secundum ordinem historiae, sed secundum tentationem Adae prosequitur: Lucas vero ut res gesta est.
+          </p>
+          <p xml:id="gom-mt4-d1e263">
+            <ref xml:id="gom-mt4-Rd1e265" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_5"/>
+            Quia ex responsione Christi victus et incertus remansit: post primam ad secundam accessit tentationem.
+          </p>
+          <p xml:id="gom-mt4-d1e268">
+            <ref xml:id="gom-mt4-Rd1e270" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_5"/>
+            Quod permisit se assumi, non infirmitas fuit, sed patientia: in diabolo vero non virtus, sed superbia.
+          </p>
+          <p xml:id="gom-mt4-d1e273">
+            <ref xml:id="gom-mt4-Rd1e275" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_5"/>
+            Nota haec omnia corporeis sensibus esse completa. Nec mirum si se permisit circumferri: si sic <pb ed="#P" n="0085B"/> accipitur assumptio, qui permisit se crucifigi.
+          </p>
+          <p xml:id="gom-mt4-d1e281">
+            <quote xml:id="gom-mt4-Qd1e283" type="lemma" source="http://scta.info/resource/mt4_5@11-12">Supra pinnaculum.</quote>
+            <ref xml:id="gom-mt4-Rd1e286"><name xml:id="gom-mt4-Nd1e287" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e290"><seg type="qs">In Palaestina desuper plana erant tecta, et ibi erat sedes doctorum, unde</seg>, etc., usque ad <seg type="qs">ostendit ut cuicunque bona et alta imperanti obediamus, sed praecipitare volenti contraeamus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e299">
+          <head xml:id="gom-mt4-Hd1e301">Versus 6</head>
+          <p xml:id="gom-mt4-d1e303">
+            <quote xml:id="gom-mt4-Qd1e305" type="lemma" source="http://scta.info/resource/mt4_6@4-5">Si filius.</quote>
+            <ref xml:id="gom-mt4-Rd1e308"><name xml:id="gom-mt4-Nd1e309" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e312"><seg type="qs">In omnibus tentationibus hoc agit, ut intelligat</seg>, etc., usque ad <seg type="qs">in specie hominis diabolum apparuisse verisimile est.</seg></quote>
+          </p>
+          <p xml:id="gom-mt4-d1e320">
+            <quote xml:id="gom-mt4-Qd1e322" type="lemma" source="http://scta.info/resource/mt4_6@8-8">Mitte.</quote>
+            Haec vox convenit illi, qui omnes praecipitare satagit: in quo infirmus ostenditur, quod nulli nocere possit, nisi prius ille se deorsum miserit. Suggerebat enim, ut aliquo signo exploraret quantum apud Deum posset. Sed nemo debet tentare Deum, quando habet ex humana ratione quid faciat. <pb ed="#P" n="0085C"/> Unde quamvis omnia posset, ait tamen suis: <quote xml:id="gom-mt4-Qd1e327" source="http://scta.info/resource/mt10_23@3-10">Si persecuti vos fuerint in civitate ista, fugite in aliam.</quote> Et ipse idem fugit et abiit et latuit. Nunc autem poterat aliter de templo descendere, quam per jactantiam se praecipitare. Postquam deficit humana ratio, commendet se homo Deo, non tentando, sed devote confitendo.
+          </p>
+          <p xml:id="gom-mt4-d1e331">
+            <quote xml:id="gom-mt4-Qd1e333" type="lemma" source="http://scta.info/resource/mt4_6@14-19">Quia angelis suis mandavit de te.</quote>
+            <ref xml:id="gom-mt4-Rd1e336"><name xml:id="gom-mt4-Nd1e337" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e340"><seg type="qs">Quod bene dicitur de corpore, diabolus male interpretatur de capite</seg>, etc., usque ad <seg type="qs">sed de auxilio angelorum quasi ad infirmum loquitur, de sua conculcatione tacet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e349">
+          <head xml:id="gom-mt4-Hd1e351">Versus 8</head>
+          <p xml:id="gom-mt4-d1e353">
+            <quote xml:id="gom-mt4-Qd1e355" type="lemma" source="http://scta.info/resource/mt4_8">Iterum assumpsit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Haec tentatio ordine praecessit, sed narratur praepostero, secundum quod <pb ed="#P" n="0085D"/> factum est Adae.
+          </p>
+          <p xml:id="gom-mt4-d1e363">
+            <quote xml:id="gom-mt4-Qd1e365" type="lemma" source="http://scta.info/resource/mt4_8@10-10">Ostendit,</quote>
+            etc. <quote xml:id="gom-mt4-Qd1e368"><seg type="qs">Non quod visum ejus qui omnia videt ampliaverit, sed vanitatem mundanae pompae quam amabat, quasi speciosam</seg>, etc., usque ad <seg type="qs">Non quod eam concupiscentiae oculo intueretur sicut nos, sed sic haec ostensio fuit in mente, sicut medici vident morbos sine laesione.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e377">
+          <head xml:id="gom-mt4-Hd1e379">Versus 9</head>
+          <p xml:id="gom-mt4-d1e381">
+            <quote xml:id="gom-mt4-Qd1e383" type="lemma" source="http://scta.info/resource/mt4_9@4-7">Haec omnia tibi dabo.</quote>
+            Haec de arrogantia dicit: non quod totus mundus suus sit.
+          </p>
+          <p xml:id="gom-mt4-d1e387">
+            <ref xml:id="gom-mt4-Rd1e389" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_9@4-7"/>
+            A principio quod Dei erat ut sibi usurparet diabolus laboravit: unde ut in eis coleretur, idola invenit. In his tribus notantur gula, avaritia, superbia.
+          </p>
+          <p xml:id="gom-mt4-d1e392">
+            <ref xml:id="gom-mt4-Rd1e394" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_9@4-7"/>
+            <ref xml:id="gom-mt4-Rd1e396"><name xml:id="gom-mt4-Nd1e397" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e400"><seg type="qs">Lucas avaritiam mediam ponit, ultimam superbiam, <pb ed="#P" n="0086A"/></seg> etc., usque ad <seg type="qs">in his tribus omnia genera tentationum comprehenduntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e410">
+          <head xml:id="gom-mt4-Hd1e412">Versus 10</head>
+          <p xml:id="gom-mt4-d1e414">
+            <quote xml:id="gom-mt4-Qd1e416" type="lemma" source="http://scta.info/resource/mt4_10@7-8">Scriptum est.</quote>
+            David Goliam tribus lapidibus de torrente prostravit, et Christus diabolum tribus testimoniis de lege.
+          </p>
+          <p xml:id="gom-mt4-d1e420">
+            <quote xml:id="gom-mt4-Qd1e422" type="lemma" source="http://scta.info/resource/mt4_10@9-11">Dominum Deum tuum.</quote>
+            Hoc vel ad diabolum dicitur: non quia ex devotione sit impleturus sed ut, econtra, quam ipse moliebatur scriptum ostendatur quod non ipse, sed Deus sit adorandus: vel, non diabolo, sed sibi secundum humanitatem et cuilibet homini hoc praeceptum esse insinuat. Similiter, et illud: <quote xml:id="gom-mt4-Qd1e425" source="http://scta.info/resource/mt4_10@9-11">Non tentabis Dominum Deum tuum,</quote> scilicet Filium et Patrem et Spiritum sanctum, qui est unus Deus. Deus adoratur, et specialiter ei propter se servitur.
+          </p>
+          <p xml:id="gom-mt4-d1e429">
+            <ref xml:id="gom-mt4-Rd1e431" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_10@9-11"/>
+            Hic ostenditur, quod homo Christus, ut Deus et <pb ed="#P" n="0086B"/> Dominus sit adorandus ex debito.
+          </p>
+          <p xml:id="gom-mt4-d1e436">
+            <quote xml:id="gom-mt4-Qd1e438" type="lemma" source="http://scta.info/resource/mt4_10@16-16">Servies.</quote>
+            Graece <foreign xml:lang="greek">λατρεύσεις</foreign>: <foreign xml:lang="greek">λατρεία</foreign> enim servitus dicitur. Servitus communis Deo et homini et cuicunque, Graece <foreign xml:lang="greek">δουλεία</foreign> dicitur. Illa vero quae soli Deo debetur, latria dicitur: unde idololatria, quae quod soli Deo debet, idolis dat.
+          </p>
+          <p xml:id="gom-mt4-d1e452">
+            <ref xml:id="gom-mt4-Rd1e454" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_10@16-16"/>
+            Nota diabolum in his vinci in quibus Adam vicit. Quem de gula tentavit, dum de ligno vetito gustare rogavit. De vana gloria, cum dixit <!--<note>(Gen. III)</note>-->: <quote xml:id="gom-mt4-Qd1e458" source="http://scta.info/resource/gen3_5@15-17">Eritis sicut dii.</quote> De avaritia, cum ait: <quote xml:id="gom-mt4-Qd1e461" source="http://scta.info/resource/gen3_5@18-21">Scientes bonum et malum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e466">
+          <head xml:id="gom-mt4-Hd1e468">Versus 11</head>
+          <p xml:id="gom-mt4-d1e470">
+            <quote xml:id="gom-mt4-Qd1e472" type="lemma" source="http://scta.info/resource/mt4_11@8-8">Accesserunt.</quote>
+            Non quasi tunc primum adeuntes, sed agonem Domini procul aspicientes, ne videatur eorum praesidio eguisse vel vicisse. Sed ut ille victus abiit, parati ad obsequium venerunt. Sicut <pb ed="#P" n="0086C"/> in hoc agone militia nostra praestruitur, ita in obsequium angelorum gloriosa remuneratio docetur.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e480">
+          <head xml:id="gom-mt4-Hd1e482">Versus 12</head>
+          <p xml:id="gom-mt4-d1e484">
+            <quote xml:id="gom-mt4-Qd1e486" type="lemma" source="http://scta.info/resource/mt4_12@1-3">Cum autem audisset.</quote>
+            <ref xml:id="gom-mt4-Rd1e489"><name xml:id="gom-mt4-Nd1e490" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e493">Hic Matthaeus, sicut Marcus et Lucas, praetermittit primum adventum Domini in Galilaeam, postquam, etc., <quote xml:id="gom-mt4-Qd1e495" source="http://scta.info/resource/io2_11@1-5">usque ad, Hoc fecit initium signorum Jesus.</quote> Et iterum: <quote xml:id="gom-mt4-Qd1e498" source="http://scta.info/resource/io3_24@1-6">Nondum Joannes missus erat in carcerem.</quote></quote>
+          </p>
+          <p xml:id="gom-mt4-d1e502">
+            <quote xml:id="gom-mt4-Qd1e504" type="lemma" source="http://scta.info/resource/mt4_12@5-5">Joannes,</quote>
+            etc. Quod erat propter Evangelium. Jesus hoc idem perfectius praedicans ad tempus cedit et fugit, ut sit exemplum suis.
+          </p>
+          <p xml:id="gom-mt4-d1e508">
+            <quote xml:id="gom-mt4-Qd1e510" type="lemma" source="http://scta.info/resource/mt4_12@9-10">In Galilaeam.</quote>
+            Duae sunt Galilaeae: una dicitur Judaeorum, altera gentium propter inhabitationem gentium, quam partem dedit Salomon regi Tyri qui gentes ibi posuit.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e515">
+          <head xml:id="gom-mt4-Hd1e517">Versus 13</head>
+          <p xml:id="gom-mt4-d1e519">
+            <pb ed="#P" n="0086D"/>
+            <quote xml:id="gom-mt4-Qd1e523" type="lemma" source="http://scta.info/resource/mt4_13@4-4">Nazareth.</quote>
+            <ref xml:id="gom-mt4-Rd1e526"><name xml:id="gom-mt4-Nd1e527" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e530"><seg type="qs">Unde Christus Nazaraeus dicitur, vicus est in Galilaea juxta montem Thabor</seg>, etc., usque ad <seg type="qs">quia in medio gentium ad dilatandum verbum Dei fortiter consistit, ut credentibus refugium periclitantibus ostendat fidei portum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e539">
+          <head xml:id="gom-mt4-Hd1e541">Versus 15</head>
+          <p xml:id="gom-mt4-d1e543">
+            <quote xml:id="gom-mt4-Qd1e545" type="lemma" source="http://scta.info/resource/mt4_15@1-2">Terra Zabulon.</quote>
+            <ref xml:id="gom-mt4-Rd1e548"><name xml:id="gom-mt4-Nd1e549" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e552"><seg type="qs">Quod primo positum est praetermittit evangelista; scilicet: <quote xml:id="gom-mt4-Qd1e555" source="http://scta.info/resource/is9_1@1-9">Primo tempore alleviata est terra Zabulon et terra Nephtalim</quote>: sicut et quod in medio est</seg>, etc., usque ad <seg type="qs">sed pro figura eorum qui vocandi sunt de gentibus, ea quae gentium est hic memoratur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e564">
+          <head xml:id="gom-mt4-Hd1e566">Versus 16</head>
+          <p xml:id="gom-mt4-d1e568">
+            <quote xml:id="gom-mt4-Qd1e570" type="lemma" source="http://scta.info/resource/mt4_16@1-1">Populus.</quote>
+            <ref xml:id="gom-mt4-Rd1e573"><name xml:id="gom-mt4-Nd1e574" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e577">Populus iste qui prior ductus est in captivitatem, et in tenebris vitiorum erat, prior lucem praedicationis Christi vidit. Deinde <pb ed="#P" n="0087A"/> in omnes Evangelium disseminatum est. Unde sequitur: <quote xml:id="gom-mt4-Qd1e581" source="http://scta.info/resource/mt4_16@11-12">Habitantibus in regione.</quote></quote>
+          </p>
+          <p xml:id="gom-mt4-d1e585">
+            <quote xml:id="gom-mt4-Qd1e587" type="lemma" source="http://scta.info/resource/mt4_16@14-15">Umbrae mortis.</quote>
+            Mors est in inferno. Umbra hujus mortis sunt peccata, quae nunquam sine morte. Qui ergo vult fugere mortem, vitet umbram.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e592">
+          <head xml:id="gom-mt4-Hd1e594">Versus 17</head>
+          <p xml:id="gom-mt4-d1e596">
+            <quote xml:id="gom-mt4-Qd1e598" type="lemma" source="http://scta.info/resource/mt4_17@1-1">Exinde.</quote>
+            Postquam baptizatus est. Baptismus idoneos facit ad praedicandum.
+          </p>
+          <p xml:id="gom-mt4-d1e602">
+            <quote xml:id="gom-mt4-Qd1e604" type="lemma" source="http://scta.info/resource/mt4_17@1-1">Exinde,</quote>
+            id est, tradito Joanne: quia lege desinente sequitur Evangelium, ut auroram sol. Humilis magister qui doctrinam discipuli non impedit, sed exspectat donec consummet cursum suum. In quo docet, ne quis ab inferiore persona sermonem contemnat. Unde Apostolus. <quote xml:id="gom-mt4-Qd1e607" source="http://scta.info/resource/Icor14_30@2-8">Si cui revelatum fuerit, prior taceat.</quote>
+          </p>
+          <p xml:id="gom-mt4-d1e611">
+            <quote xml:id="gom-mt4-Qd1e613" type="lemma" source="http://scta.info/resource/mt4_17@7-8">Poenitentiam agite.</quote>
+            Eadem quae praeco praedicat: <pb ed="#P" n="0087B"/> ut ostendatur non alius quam qui in voce clamaverat. Christus enim verbum quod clamat in Jordane organo et in omnibus qui ab initio aliquid divinitus dixerunt: et tamen iste solus vox, quia per eum praesens verbum ostenditur quod alii longe nuntiaverunt. Inter enim vocem et verbum nihil est medium, sed ut vox sonuit, mox verbum percipitur: sicut Joannes clausus destitit: Christus virtutibus claruit. Unde Joannes est figura prophetarum et legis, qui vere sunt vox clamantis sapientiae Dei, quorum Joannes est finis, quibus cessantibus solum verbum, quod in eis sonuerat, per se ostenditur.
+          </p>
+          <p xml:id="gom-mt4-d1e619">
+            <ref xml:id="gom-mt4-Rd1e621" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_17@7-8"/>
+            <ref xml:id="gom-mt4-Rd1e623"><name xml:id="gom-mt4-Nd1e624" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e627"><seg type="qs">Haec praedicatio Christi in Capharnaum coruscantibus miraculis incepta, dicitur</seg>, etc., usque ad <seg type="qs">Baptista incarcerato praedicare incepit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e636">
+          <head xml:id="gom-mt4-Hd1e638">Versus 18</head>
+          <p xml:id="gom-mt4-d1e640">
+            <pb ed="#P" n="0087C"/>
+            <quote xml:id="gom-mt4-Qd1e644" type="lemma" source="http://scta.info/resource/mt4_18@10-12">Qui vocatur Petrus.</quote>
+            Vel quando primum Andraeas adduxit eum, hoc nomen inditum est ei, dum dicitur: <quote xml:id="gom-mt4-Qd1e647" source="http://scta.info/resource/io1_42@16-18">Tu vocaberis Cephas</quote>, quod interpretatur <mentioned>Petrus</mentioned>: quanquam hic videtur de futuro promittere. Vel quando confessus est: <quote xml:id="gom-mt4-Qd1e652" source="http://scta.info/resource/mt16_16@5-10">Tu es Christus Filius Dei vivi,</quote> dictum est ei: <quote xml:id="gom-mt4-Qd1e656" source="http://scta.info/resource/mt16_18@6-15">Tu es Petrus et super hanc petram aedificabo Ecclesiam meam</quote>.
+          </p>
+          <p xml:id="gom-mt4-d1e660">
+            <ref xml:id="gom-mt4-Rd1e662" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_18@10-12"/>
+            <ref xml:id="gom-mt4-Rd1e664"><name xml:id="gom-mt4-Nd1e665" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e668"><seg type="qs">Petrus, <quote xml:id="gom-mt4-Qd1e671">agnoscens:</quote> Andraeas, <quote xml:id="gom-mt4-Qd1e673">virilis:</quote> quod doctoribus convenit: quia hi soli</seg>, etc., usque ad <seg type="qs">quia vero primus homo inobediens exivit, secundus obediens ingressus est <ref xml:id="gom-mt4-Rd1e678"><name xml:id="gom-mt4-Nd1e679" ref="#RabanusMaurus">RAB.</name></ref><!-- check: attribution inside gloss body --> Matthaeus dicit post habitationem Capharnaum discipulos vocasse. Joannes dicit</seg>, etc., usque ad <seg type="qs">ante autem quam veniret Jesus in Cana Galilaeae, Andraeas Petrum adduxit, sed <pb ed="#P" n="0087D"/> nondum discipuli.</seg></quote>
+          </p>
+          <p xml:id="gom-mt4-d1e690">
+            <quote xml:id="gom-mt4-Qd1e692" type="lemma" source="http://scta.info/resource/mt4_18@17-18">Mittentes rete.</quote>
+            Quia quos saepe terrenis lucris inhiare considerat, coelestibus desideriis advocat, et per eos retibus Evangelii, alios de profundo iniquitatis eripit, unde subdit: <quote xml:id="gom-mt4-Qd1e695" source="http://scta.info/resource/mt4_19@4-12">Venite post me, et faciam vos fieri piscatores hominum<!-- check: Migne cites io1; text matches mt4_19 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e702">
+          <head xml:id="gom-mt4-Hd1e704">Versus 19</head>
+          <p xml:id="gom-mt4-d1e706">
+            <quote xml:id="gom-mt4-Qd1e708" type="lemma" source="http://scta.info/resource/mt4_19@11-11">Piscatores.</quote>
+            Piscaturus per piscatoria vadit loca.
+          </p>
+          <p xml:id="gom-mt4-d1e712">
+            <ref xml:id="gom-mt4-Rd1e714" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_19@11-11"/>
+            Mystice. Cum incarnatus carnem suscepit, divinitus vidit in mari mundi spirituales piscatores: et aliis quid essent ostendit, quos ab aeterno praevidit.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e718">
+          <head xml:id="gom-mt4-Hd1e720">Versus 20</head>
+          <p xml:id="gom-mt4-d1e722">
+            <quote xml:id="gom-mt4-Qd1e724" type="lemma" source="http://scta.info/resource/mt4_20@3-3">Continuo.</quote>
+            Perfecta obedientia est sua imperfecta relinquere. Relictis retibus: quia et <pb ed="#P" n="0088A"/> si postea resumunt, non cupiditate et proprietatis amore. In his datur forma volentibus sequi. Mutatur intentio non piscatio, mutantur retia in doctrinam, cupiditas in amorem animarum: fit mare saeculum, navis Ecclesia, pisces boni et mali homines.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e731">
+          <head xml:id="gom-mt4-Hd1e733">Versus 21</head>
+          <p xml:id="gom-mt4-d1e735">
+            <quote xml:id="gom-mt4-Qd1e737" type="lemma" source="http://scta.info/resource/mt4_21@4-6">Vidit alios duos.</quote>
+            Ecce in his quatuor numerus evangelistarum praefiguratur, qui animas a mundo extrahunt de quatuor partibus mundi.
+          </p>
+          <p xml:id="gom-mt4-d1e741">
+            <ref xml:id="gom-mt4-Rd1e743" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_21@4-6"/>
+            Bini et bini vocantur, quia charitas non nisi inter duos est. Vocatio dicitur: Vel secundum electionem gratiae. Unde dicitur: <quote xml:id="gom-mt4-Qd1e745" source="http://scta.info/resource/rom8_30@8-9">Quos vocavit</quote>, etc. Vel secundum illud: <quote xml:id="gom-mt4-Qd1e748" source="http://scta.info/resource/mt22_14@1-4">Multi sunt vocati<!-- check: Migne cites mt10; text matches mt22_14 --></quote>.
+          </p>
+          <p xml:id="gom-mt4-d1e753">
+            <ref xml:id="gom-mt4-Rd1e755" type="lemma" subtype="implied" target="http://scta.info/resource/mt4_21@4-6"/>
+            <ref xml:id="gom-mt4-Rd1e757"><name xml:id="gom-mt4-Nd1e758" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e761"><seg type="qs">Quaeritur quomodo Matthaeus et Marcus dicant binos vocasse Jesum: primo Petrum et Andraeam</seg>, etc., usque ad <seg type="qs">ideo autem piscatores illitteratos <pb ed="#P" n="0088B"/> misit praedicare, ut fides in virtute Dei, non eloquentia hominum putetur.</seg></quote>
+          </p>
+          <p xml:id="gom-mt4-d1e771">
+            <quote xml:id="gom-mt4-Qd1e773" type="lemma" source="http://scta.info/resource/mt4_21@9-11">Zebedaei et Joannem.</quote>
+            Zebedaeus fugitivus, id est, diabolus. Jacobus, supplantator qui adjuvatur a Joanne, id est, a gratia Dei.
+          </p>
+          <p xml:id="gom-mt4-d1e778">
+            <quote xml:id="gom-mt4-Qd1e780" type="lemma" source="http://scta.info/resource/mt4_21@23-25">Et vocavit eos. Illi autem,</quote>
+            etc. Vocavit et alios, sed sufficit nominare istos.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e785">
+          <head xml:id="gom-mt4-Hd1e787">Versus 23</head>
+          <p xml:id="gom-mt4-d1e789">
+            <quote xml:id="gom-mt4-Qd1e791" type="lemma" source="http://scta.info/resource/mt4_23@1-5">Et circumibat Jesus totam Galilaeam.</quote>
+            Coadjutoribus vocatis praedicationi insistit, docens impigrum esse debere doctorem.
+          </p>
+          <p xml:id="gom-mt4-d1e795">
+            <quote xml:id="gom-mt4-Qd1e797" type="lemma" source="http://scta.info/resource/mt4_23@6-8">Docens in synagogis.</quote>
+            Docens de moribus, vitae activae subditos. Praedicans de futuris vitae contemplativae perfectis. Docens naturales justitias, castitatem scilicet et humilitatem et similia quae homo naturaliter habet. Praedicans Evangelium regni. Ad Evangelium pertinet <pb ed="#P" n="0088C"/> mysterium justitiae, bonum initium, beatitudinis promissio, peccatorum remissio, adoptio, resurrectio, coelestis haereditas, angelorum societas.
+          </p>
+          <p xml:id="gom-mt4-d1e803">
+            <quote xml:id="gom-mt4-Qd1e805" type="lemma" source="http://scta.info/resource/mt4_23@7-8">In synagogis.</quote>
+            Nec otiosus doctor in vacuum discurrat, sed ubi sunt plures praedicet.
+          </p>
+          <p xml:id="gom-mt4-d1e809">
+            <quote xml:id="gom-mt4-Qd1e811" type="lemma" source="http://scta.info/resource/mt4_23@12-12">Evangelium.</quote>
+            Quia justitia est molestia viventi in carne, labor justitiae non suscipitur, nisi merces operis exspectetur. Ideo Christus evangelizat beatitudinem, ut excitet ad boni operis patientiam.
+          </p>
+          <p xml:id="gom-mt4-d1e816">
+            <quote xml:id="gom-mt4-Qd1e818" type="lemma" source="http://scta.info/resource/mt4_23@14-15">Et sanans.</quote>
+            Curare languorem et infirmitatem non fuit magnum, cum postea morituri. Sed ideo factum, ut sic erigerentur ad regnum. Moraliter instruens praedicatores etiam terrena subsidia subditis ministrare, et sic ad regnum trahere.
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e823">
+          <head xml:id="gom-mt4-Hd1e825">Versus 24</head>
+          <p xml:id="gom-mt4-d1e827">
+            <quote xml:id="gom-mt4-Qd1e829" type="lemma" source="http://scta.info/resource/mt4_24@1-3">Et abiit opinio.</quote>
+            <ref xml:id="gom-mt4-Rd1e832"><name xml:id="gom-mt4-Nd1e833" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e836"><seg type="qs">Opera salutis <pb ed="#P" n="0088D"/> sine fama boni odoris non satis relucent auditoribus, nec fama sine opere proficit: sine quibus</seg>, etc., usque ad <seg type="qs">curat corpora, ut paratius audiant invisibilia. Aliter parum erat mox morituris curam impendere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt4-Dd1e847">
+          <head xml:id="gom-mt4-Hd1e849">Versus 25</head>
+          <p xml:id="gom-mt4-d1e851">
+            <quote xml:id="gom-mt4-Qd1e853" type="lemma" source="http://scta.info/resource/mt4_25@2-3">Secutae sunt.</quote>
+            <ref xml:id="gom-mt4-Rd1e856"><name xml:id="gom-mt4-Nd1e857" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt4-Qd1e860"><seg type="qs">Quadripartitae turbae, scilicet. Alii</seg>, etc., usque ad <seg type="qs">alii, per invidiam volentes eum accusare et in aliquo capere.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

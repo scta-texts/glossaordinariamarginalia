@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ioannes, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ioannes, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0363D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-io2">
+        <head xml:id="gom-io2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-io2-Dd1e100">
+          <head xml:id="gom-io2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-io2-d1e104">
+            <pb ed="#P" n="0363D"/>
+            <quote xml:id="gom-io2-Qd1e108" type="lemma" source="http://scta.info/resource/io2_1@1-3">Et die tertia.</quote>
+            <ref xml:id="gom-io2-Rd1e111"><name xml:id="gom-io2-Nd1e112" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io2-Qd1e115">Post ostensionem Christi per testimonia Joannis ipse se miraculo ostendit.</quote>
+          </p>
+          <p xml:id="gom-io2-d1e118">
+            <quote xml:id="gom-io2-Qd1e120" type="lemma" source="http://scta.info/resource/io2_1@1-2">Et die.</quote>
+            Significat tertia die, id est tempore gratiae, post tempus, id est ante legem et sub lege Christum ad nuptias Ecclesiae per carnem venisse.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e125">
+          <head xml:id="gom-io2-Hd1e127">Versus 2</head>
+          <p xml:id="gom-io2-d1e129">
+            <quote xml:id="gom-io2-Qd1e131" type="lemma" source="http://scta.info/resource/io2_2@1-3">Vocatus est autem.</quote>
+            In quo ostendit non despiciendas nuptias quas fecit, et sacramentum nuptiarum insinuat.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e136">
+          <head xml:id="gom-io2-Hd1e138">Versus 3</head>
+          <p xml:id="gom-io2-d1e140">
+            <quote xml:id="gom-io2-Qd1e142" type="lemma" source="http://scta.info/resource/io2_3@2-2">Deficiente.</quote>
+            Vinum deficit, ut mirabiliter vino de aqua facto, virtus latentis Deitatis appareat.
+          </p>
+          <p xml:id="gom-io2-d1e146">
+            <ref xml:id="gom-io2-Rd1e148" type="lemma" subtype="implied" target="http://scta.info/resource/io2_3@2-2"/>
+            <ref xml:id="gom-io2-Rd1e150"><name xml:id="gom-io2-Nd1e151" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io2-Qd1e154"><seg type="qs">Major virtus est in creatione et gubernatione <pb ed="#P" n="0364A"/> coeli et terrae</seg>, etc., usque ad <seg type="qs">per quae virtus quae in majoribus etiam operatur, ad memoriam reducitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e165">
+          <head xml:id="gom-io2-Hd1e167">Versus 4</head>
+          <p xml:id="gom-io2-d1e169">
+            <quote xml:id="gom-io2-Qd1e171" type="lemma" source="http://scta.info/resource/io2_4@5-6">Quid mihi.</quote>
+            <ref xml:id="gom-io2-Rd1e174"><name xml:id="gom-io2-Nd1e175" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-io2-Qd1e178"><seg type="qs">In his non negat matrem, ut haeretici dicunt</seg>, etc., usque ad <seg type="qs">intrationem ad Deum intelligit, vinum bibit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e188">
+          <head xml:id="gom-io2-Hd1e190">Versus 6</head>
+          <p xml:id="gom-io2-d1e192">
+            <quote xml:id="gom-io2-Qd1e194" type="lemma" source="http://scta.info/resource/io2_6@14-15">Binas vel.</quote>
+            <ref xml:id="gom-io2-Rd1e197"><name xml:id="gom-io2-Nd1e198" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-io2-Qd1e201"><seg type="qs">Aestimantis est hoc dicere, ut ipsas diceret binas quas et ternas</seg>, etc., usque ad <seg type="qs">tribus filiis Noe disseminatae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e210">
+          <head xml:id="gom-io2-Hd1e212">Versus 7</head>
+          <p xml:id="gom-io2-d1e214">
+            <quote xml:id="gom-io2-Qd1e216" type="lemma" source="http://scta.info/resource/io2_7@7-8">Et impleverunt.</quote>
+            Quod jussu ejus impletae sunt hydriae, significat quod etiam illa Scriptura a Domino est, sed dum in ea sub velamine, id est adopertione litterae, latet Christus, sapit aquam insipidam. Cum autem aufertur velamen, est vinum inebrians. Potuit quidem vacuas implere <pb ed="#P" n="0364B"/> vino, qui cuncta creat ex nihilo, sed maluit de aqua vinum facere, ut doceret se non solvere legem, sed implere, nec in Evangelio alia facere vel docere quam quae prophetia praedixit.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e223">
+          <head xml:id="gom-io2-Hd1e225">Versus 9</head>
+          <p xml:id="gom-io2-d1e227">
+            <quote xml:id="gom-io2-Qd1e229" type="lemma" source="http://scta.info/resource/io2_9@1-3">Ut autem gustavit.</quote>
+            Triclinium, id est tres ordines discumbentium, altitudine distantes inter se, id est doctores, continentes, conjugati. Architriclinus aliquis legisperitus, qui bibit spiritualem sensum legis. Unde spiritualem sensum in Scripturis aperire discipulis est aquam in vinum convertere, ut quando post resurrectionem aperuit illis sensum, intelligerent Scripturas.
+          </p>
+          <p xml:id="gom-io2-d1e233">
+            <quote xml:id="gom-io2-Qd1e235" type="lemma" source="http://scta.info/resource/io2_9@5-7">Aquam vinum factam.</quote>
+            Per aquam baptismus Joannis, per vinum passio Christi, unde et vinum prius fertur architriclino, id est Joanni qui ante bibit passionem quam Christus.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e240">
+          <head xml:id="gom-io2-Hd1e242">Versus 11</head>
+          <p xml:id="gom-io2-d1e244">
+            <pb ed="#P" n="0364C"/>
+            <quote xml:id="gom-io2-Qd1e248" type="lemma" source="http://scta.info/resource/io2_11@1-2">Hoc fecit.</quote>
+            <ref xml:id="gom-io2-Rd1e251"><name xml:id="gom-io2-Nd1e252" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-io2-Qd1e255">In initio signorum quae mortalis mortalibus erat daturus, aquam vertit in vinum, sicut jam immortalis discipulis aperuit sensum, ut in lege et prophetis intelligerent Christum, ita carnales mentes prius sapore sapientiae imbuit, postea resuscitatos majori gloria completurus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e259">
+          <head xml:id="gom-io2-Hd1e261">Versus 12</head>
+          <p xml:id="gom-io2-d1e263">
+            <quote xml:id="gom-io2-Qd1e265" type="lemma" source="http://scta.info/resource/io2_12">Post haec,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Post initium signorum de vino, subdit aliud indicium divinae majestatis in ejectione vendentium de templo. Typice. Filius Dei ut humilis, descendit Capharnaum, id est in mundum, secundum quod habet matrem et fratres.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e272">
+          <head xml:id="gom-io2-Hd1e274">Versus 13</head>
+          <p xml:id="gom-io2-d1e276">
+            <quote xml:id="gom-io2-Qd1e278" type="lemma" source="http://scta.info/resource/io2_13@1-4">Et prope erat Pascha.</quote>
+            Pascha agimus, dum a vitiis ad virtutes transimus. Ad hoc Jesus venit dum Ecclesiam quotidie visitat, et actus <pb ed="#P" n="0364D"/> cujusque considerat, et eos ejicit qui inter sanctos, vel ficte bona, vel aperte mala faciunt. Per boves qui arant, praedicatores doctrinae coelestis significantur, hos vendunt qui non amore Dei, sed pro quaestu temporali praedicant. Oves innocentes sua vellera vestiendis praebent, per has signantur opera munditiae et pietatis, quae venduntur, dum pro humana laude geruntur. Spiritus ut columba apparuit, unde per columbam spiritus accipitur, quam vendunt Simoniaci. Nummos dant mutuo in Ecclesia, qui non simulate coelestibus, sed aperte terrenis serviunt. Hi omnes ejiciuntur de parte sortis sanctorum, qui vel ficte bona, vel aperte mala faciunt, et funiculis peccatorum modo flagellantur ad correctionem; <pb ed="#P" n="0365A"/> qui, si incorrecti permanserint, in fine ligabuntur. Oves quoque et boves ejicit, quia talium vitam et doctrinam ostendit reprobam. Et mensas subvertit, quia in fine ipsae res quas dilexerunt, destruuntur.
+          </p>
+          <p xml:id="gom-io2-d1e286">
+            <quote xml:id="gom-io2-Qd1e288" type="lemma" source="http://scta.info/resource/io2_13@6-7">Et ascendit.</quote>
+            Si ipse qui dedit decreta Dei, custodit, docet quanta cura hominibus debet esse vacare orationibus et Dei solemnitatibus. Bis legitur ad Pascha ascendisse. Semel primo anno praedicationis, nondum incarcerato Joanne, unde hic agitur. Secundo cum ad passionem iret, et in utroque vendentes ejecit de templo.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e294">
+          <head xml:id="gom-io2-Hd1e296">Versus 14</head>
+          <p xml:id="gom-io2-d1e298">
+            <quote xml:id="gom-io2-Qd1e300" type="lemma" source="http://scta.info/resource/io2_14@1-4">Et invenit in templo.</quote>
+            Si in figurali templo quod est domus orationis, prohibet negotiationem quae honesta putatur, cum sit de his quae in templo offeruntur, quanto magis prohibet <pb ed="#P" n="0365B"/> potationes et caetera graviora?
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e307">
+          <head xml:id="gom-io2-Hd1e309">Versus 15</head>
+          <p xml:id="gom-io2-d1e311">
+            <quote xml:id="gom-io2-Qd1e313" type="lemma" source="http://scta.info/resource/io2_15@6-7">De funiculis.</quote>
+            Funiculi quibus ejiciuntur sunt incrementa actionum malarum, unde Isaias: <quote xml:id="gom-io2-Qd1e316" source="http://scta.info/resource/is5_18@1-7">Vae qui trahitis iniquitatem in funiculis vanitatis</quote>. Et Salomon: <quote xml:id="gom-io2-Qd1e319" source="http://scta.info/resource/prov5_22@7-9">Funiculis peccatorum suorum quisque constringitur</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e324">
+          <head xml:id="gom-io2-Hd1e326">Versus 16</head>
+          <p xml:id="gom-io2-d1e328">
+            <quote xml:id="gom-io2-Qd1e330" type="lemma" source="http://scta.info/resource/io2_16@3-4">Qui columbas.</quote>
+            Non solum vendentes columbas, sed etiam alii domum Dei faciunt domum negotiationis, id est omnes qui quaerunt quae sua sunt, non quae Jesu Christi.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e335">
+          <head xml:id="gom-io2-Hd1e337">Versus 17</head>
+          <p xml:id="gom-io2-d1e339">
+            <quote xml:id="gom-io2-Qd1e341" type="lemma" source="http://scta.info/resource/io2_17@9-11">Zelus domus tuae.</quote>
+            <ref xml:id="gom-io2-Rd1e344"><name xml:id="gom-io2-Nd1e345" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io2-Qd1e348">Bonus zelus est fervor animi, quo mens, abjecto humano timore, pro defensione veritatis accenditur. Ab eo comeditur, qui quaelibet prava quae viderit, corrigere satagit; si nequit, tolerat et gemit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e352">
+          <head xml:id="gom-io2-Hd1e354">Versus 18</head>
+          <p xml:id="gom-io2-d1e356">
+            <pb ed="#P" n="0365C"/>
+            <quote xml:id="gom-io2-Qd1e360" type="lemma" source="http://scta.info/resource/io2_18@7-13">Quod signum ostendis nobis, quia haec facis? Respondit.</quote>
+            Quia signum quaerunt quare solita commercia de templo ejicit? et ait: <quote xml:id="gom-io2-Qd1e363" source="http://scta.info/resource/io2_19@6-6">Solvite.</quote> Quasi dicat: Quia hoc templum significat templum corporis in quo nulla est macula et merito hoc figurale purgo, qui illud ab hominibus morte solutum divina potentia suscitare queo.
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e368">
+          <head xml:id="gom-io2-Hd1e370">Versus 20</head>
+          <p xml:id="gom-io2-d1e372">
+            <quote xml:id="gom-io2-Qd1e374" type="lemma" source="http://scta.info/resource/io2_20@1-2">Dixerunt ergo.</quote>
+            Carnales carnaliter sapiebant, ille spiritualiter loquebatur. Quod Evangelista nobis aperit: <quote xml:id="gom-io2-Qd1e377" source="http://scta.info/resource/io2_21@1-7">Ille autem dicebat de templo corporis sui.</quote>
+          </p>
+          <p xml:id="gom-io2-d1e381">
+            <quote xml:id="gom-io2-Qd1e383" type="lemma" source="http://scta.info/resource/io2_20@4-6">Quadraginta et sex.</quote>
+            <ref xml:id="gom-io2-Rd1e386"><name xml:id="gom-io2-Nd1e387" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io2-Qd1e390"><seg type="qs">Anatole Graece oriens, dysme occidens, arctos septentrio</seg>, etc., usque ad <seg type="qs">qui senarium numerum quadragies sexies habent.</seg></quote>
+          </p>
+          <p xml:id="gom-io2-d1e398">
+            <quote xml:id="gom-io2-Qd1e400" type="lemma" source="http://scta.info/resource/io2_20@8-8">Aedificatum.</quote>
+            <ref xml:id="gom-io2-Rd1e403"><name xml:id="gom-io2-Nd1e404" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io2-Qd1e407"><seg type="qs">Aedificatio Salomonis septem <pb ed="#P" n="0365D"/> annis perfecta est</seg>, etc., usque ad <seg type="qs">unde dicitur electos esse congregandos a quatuor ventis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-io2-Dd1e419">
+          <head xml:id="gom-io2-Hd1e421">Versus 23</head>
+          <p xml:id="gom-io2-d1e423">
+            <quote xml:id="gom-io2-Qd1e425" type="lemma" source="http://scta.info/resource/io2_23@1-2">Cum autem.</quote>
+            Conventus adibat, ut verbis et signis plures converteret. Et quia aliqui solis signis moti credebant in eum, vere quidem, sed tamen ita, ut possent postea in passione ejus scandalizari, et quia nondum erant renati ex aqua et spiritu, non erant digni quibus se crederet Jesus, et familiariter cohabitaret. Sciebat enim quid esset in illis, melius quam ipse homo de se. Haec fides convenit catechumenis, qui credunt in eum, sed quia non sunt renati, non creditur eis communio corporis et sanguinis Christi. De talibus erat Nicodemus, qui credens dicit eum a Deo venisse, propter <pb ed="#P" n="0366A"/> signa quae viderat, sed nondum renatus erat, et ideo nocte venit, non die, quia nondum illuminatus coelesti lumine.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0129D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt13">
+        <head xml:id="gom-mt13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-mt13-Dd1e100">
+          <head xml:id="gom-mt13-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt13-d1e104">
+            <quote xml:id="gom-mt13-Qd1e106" type="lemma" source="http://scta.info/resource/mt13_1@1-3">In illo die.</quote>
+            Per hoc indicat hoc gestum consequenter, nisi forte dies ponatur pro tempore, more Scripturae. Marcus eumdem tenet ordinem. Lucas in aliud transit, sed nec repugnat huic.
+          </p>
+          <p xml:id="gom-mt13-d1e110">
+            <ref xml:id="gom-mt13-Rd1e112" type="lemma" subtype="implied" target="http://scta.info/resource/mt13_1@1-3"/>
+            <ref xml:id="gom-mt13-Rd1e114"><name xml:id="gom-mt13-Nd1e115" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt13-Qd1e118"><seg type="qs">Non solum facta et dicta Domini, sed et <pb ed="#P" n="0130A"/> itinera</seg>, etc., usque ad <seg type="qs">ad quae Judaei non intraverunt, foris in littera fixi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e129">
+          <head xml:id="gom-mt13-Hd1e131">Versus 2</head>
+          <p xml:id="gom-mt13-d1e133">
+            <quote xml:id="gom-mt13-Qd1e135" type="lemma" source="http://scta.info/resource/mt13_2@16-17">Turba stabat.</quote>
+            Hi sunt qui nuper audire venerunt, qui et a fluctibus maris secreti sunt, necdum coelestibus mysteriis quae desiderant imbuti cum Christo ascendunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e140">
+          <head xml:id="gom-mt13-Hd1e142">Versus 3</head>
+          <p xml:id="gom-mt13-d1e144">
+            <quote xml:id="gom-mt13-Qd1e146" type="lemma" source="http://scta.info/resource/mt13_3@2-5">Locutus est multa.</quote>
+            Quia turba non unius est sententiae sed diversarum voluntatum, loquitur eis multis parabolis, ut juxta varias voluptates, diversas recipiant disciplinas.
+          </p>
+          <p xml:id="gom-mt13-d1e150">
+            <quote xml:id="gom-mt13-Qd1e152" type="lemma" source="http://scta.info/resource/mt13_3@11-12">Qui seminat.</quote>
+            Ipse Christus, qui verbum veritatis quod apud Patrem vidit, hominibus per se vel per suos seminavit. Qui discipulis sacramenta loquebatur, exiit seminare Dei verbum in turbas.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e157">
+          <head xml:id="gom-mt13-Hd1e159">Versus 4</head>
+          <p xml:id="gom-mt13-d1e161">
+            <quote xml:id="gom-mt13-Qd1e163" type="lemma" source="http://scta.info/resource/mt13_4@6-7">Secus viam.</quote>
+            Via est, mens malarum <pb ed="#P" n="0130B"/> cogitationum sedulo meatu trita et arefacta. Ubi dupliciter perit semen, quia et transitu cogitationum conculcatur, ut Lucas ait, et a volucribus rapitur. Daemones dicuntur volucres, seu quia coelestis spiritualisque naturae, seu quia per aera volitant.
+          </p>
+          <p xml:id="gom-mt13-d1e169">
+            <quote xml:id="gom-mt13-Qd1e171" type="lemma" source="http://scta.info/resource/mt13_4@8-9">Et venerunt.</quote>
+            Secundum Lucam ab hominibus conculcatum est, quia prava persuasione impiorum sublatum est.
+          </p>
+          <p xml:id="gom-mt13-d1e175">
+            <quote xml:id="gom-mt13-Qd1e177" type="lemma" source="http://scta.info/resource/mt13_4@11-12">Et comederunt.</quote>
+            Quia a mentibus hominum illud surripuerunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e183">
+          <head xml:id="gom-mt13-Hd1e185">Versus 5</head>
+          <p xml:id="gom-mt13-d1e187">
+            <quote xml:id="gom-mt13-Qd1e189" type="lemma" source="http://scta.info/resource/mt13_5@4-5">In petrosa.</quote>
+            Petrosa cito quaerunt germinare, sed non figitur radix, quia non est alta terra, id est, quia parum inest desiderii salutaris. In hac expositione Domini discimus, quia res non semper in eadem significatione ponuntur. Nam petra hic pro duritia, terra pro lenitate mentis, sol pro fervore <pb ed="#P" n="0130C"/> persecutionis. Cum sol alibi in bono: <quote xml:id="gom-mt13-Qd1e194" source="http://scta.info/resource/mt13_43@3-5">Fulgebunt justi sicut sol</quote>, et petra in fundamento, pro fortitudine fidei, et terra pro terrenis cogitationibus.
+          </p>
+          <p xml:id="gom-mt13-d1e198">
+            <quote xml:id="gom-mt13-Qd1e200" type="lemma" source="http://scta.info/resource/mt13_5@18-19">Altitudinem terrae.</quote>
+            Altitudo terrae est probitas animi disciplinis coelestibus eruditi, et in tentationibus probati.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e205">
+          <head xml:id="gom-mt13-Hd1e207">Versus 8</head>
+          <p xml:id="gom-mt13-d1e209">
+            <quote xml:id="gom-mt13-Qd1e211" type="lemma" source="http://scta.info/resource/mt13_8@13-13">Scaagesimum.</quote>
+            Quia in numero senario mundi ornatus expletus est, per hunc bona operatio signatur.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e216">
+          <head xml:id="gom-mt13-Hd1e218">Versus 9</head>
+          <p xml:id="gom-mt13-d1e220">
+            <quote xml:id="gom-mt13-Qd1e222" type="lemma" source="http://scta.info/resource/mt13_9@1-4">Qui habet aures audiendi.</quote>
+            Quoties haec admonitio in Evangelio vel in Apocalypsi Joannis interponitur, mysticum quod dicitur insinuatur.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e227">
+          <head xml:id="gom-mt13-Hd1e229">Versus 10</head>
+          <p xml:id="gom-mt13-d1e231">
+            <quote xml:id="gom-mt13-Qd1e233" type="lemma" source="http://scta.info/resource/mt13_10@1-3">Et accedentes discipuli,</quote>
+            etc. Quomodo accedunt discipuli cum Dominus in navi sederet? Sed forte intelligendum, quod dudum cum ipso navem <pb ed="#P" n="0130D"/> conscenderint: et ibi stantes quaerunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e240">
+          <head xml:id="gom-mt13-Hd1e242">Versus 11</head>
+          <p xml:id="gom-mt13-d1e244">
+            <quote xml:id="gom-mt13-Qd1e246" type="lemma" source="http://scta.info/resource/mt13_11@6-8">Vobis datum est.</quote>
+            Nota non solum verba Domini, sed et facta, parabolas esse: id est, signa mysticarum rerum, quae non intelligebant multi qui foris sunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e251">
+          <head xml:id="gom-mt13-Hd1e253">Versus 12</head>
+          <p xml:id="gom-mt13-d1e255">
+            <quote xml:id="gom-mt13-Qd1e257" type="lemma" source="http://scta.info/resource/mt13_12@1-3">Qui enim habet.</quote>
+            Id est, apostolis habentibus fidem, si quid minus virtutum habent, conceditur Judaeis, qui non credunt in Filium Dei, etiam si quid boni per naturam habent, tollitur. Nam nihil possunt sapienter intelligere qui caput non habent sapientiae.
+          </p>
+          <p xml:id="gom-mt13-d1e261">
+            <quote xml:id="gom-mt13-Qd1e263" type="lemma" source="http://scta.info/resource/mt13_12@15-17">Auferetur ab eo.</quote>
+            Nulla verae sapientiae dulcedine gaudebit.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e269">
+          <head xml:id="gom-mt13-Hd1e271">Versus 13</head>
+          <p xml:id="gom-mt13-d1e273">
+            <quote xml:id="gom-mt13-Qd1e275" type="lemma" source="http://scta.info/resource/mt13_13@1-3">Ideo in parabolis.</quote>
+            Dicitur quod ideo excaecati sunt, et sententiae Domini per parabolas <pb ed="#P" n="0131A"/> eis occultatae sunt, ut post salubrius converterentur. Nam quia obscure dicta non intellexerunt, ideo non crediderunt in eum, et sic crucifixerunt, et sic post resurrectionem miraculis territi, majoris criminis reatu compuncti sunt. Unde accepta indulgentia ampliori flagrant dilectione. Sed Joannes hunc locum ita dicit: <quote xml:id="gom-mt13-Qd1e280" source="http://scta.info/resource/io11_37@6-17">Propterea non poterant credere, quia iterum dixit Isaias: Excaevavit oculos eorum, ut non videant</quote>. Ubi aperte dicit non ideo factam excaecationem, ut ea commoniti, et dolentes se non intelligere, converterentur aliquando: non enim hoc possent nisi crederent, sed potius ideo excaecati, ut non crederent, quod aliis peccatis meruerunt.
+          </p>
+          <p xml:id="gom-mt13-d1e284">
+            <quote xml:id="gom-mt13-Qd1e286" type="lemma" source="http://scta.info/resource/mt13_13@7-9">Videntes non vident.</quote>
+            Sicut avarus multas habet opes et nullas, quia inutiles sunt ei.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e291">
+          <head xml:id="gom-mt13-Hd1e293">Versus 14</head>
+          <p xml:id="gom-mt13-d1e295">
+            <pb ed="#P" n="0131B"/>
+            <quote xml:id="gom-mt13-Qd1e299" type="lemma" source="http://scta.info/resource/mt13_14@7-8">Auditu audietis.</quote>
+            Haec de turbis prophetata sunt, quia stant in littore, et Domini non merentur audire sermonem.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e304">
+          <head xml:id="gom-mt13-Hd1e306">Versus 15</head>
+          <p xml:id="gom-mt13-d1e308">
+            <quote xml:id="gom-mt13-Qd1e310" type="lemma" source="http://scta.info/resource/mt13_15@12-13">Oculos suos.</quote>
+            Id est, ipsi sibi causa fuerunt ut Deus eis oculos clauderet.
+          </p>
+          <p xml:id="gom-mt13-d1e314">
+            <quote xml:id="gom-mt13-Qd1e316" type="lemma" source="http://scta.info/resource/mt13_15">Ne quando.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Id est, ideo, quia oculos et aures aperire noluerunt, non meruerunt aliquando converti: quod tamen misericorditer factum est eis.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e323">
+          <head xml:id="gom-mt13-Hd1e325">Versus 16</head>
+          <p xml:id="gom-mt13-d1e327">
+            <quote xml:id="gom-mt13-Qd1e329" type="lemma" source="http://scta.info/resource/mt13_16@3-3">Beati.</quote>
+            Vere beati, quia hoc etiam praesentialiter videre et audire meruerunt, quod nullus priorum quantivis meriti meruit, quamvis multum desideraverit.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e334">
+          <head xml:id="gom-mt13-Hd1e336">Versus 17</head>
+          <p xml:id="gom-mt13-d1e338">
+            <quote xml:id="gom-mt13-Qd1e340" type="lemma" source="http://scta.info/resource/mt13_17@8-9">Et justi.</quote>
+            Lucas justos reges dicit, quia motus suos bene regunt
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e345">
+          <head xml:id="gom-mt13-Hd1e347">Versus 18</head>
+          <p xml:id="gom-mt13-d1e349">
+            <quote xml:id="gom-mt13-Qd1e351" type="lemma" source="http://scta.info/resource/mt13_18@1-3">Vos ergo audite.</quote>
+            Primam parabolam <pb ed="#P" n="0131C"/> exponit, ut idem attendant in caeteris. Exponit non secundum singula verba, sed summam sententiae.
+          </p>
+          <p xml:id="gom-mt13-d1e357">
+            <ref xml:id="gom-mt13-Rd1e359" type="lemma" subtype="implied" target="http://scta.info/resource/mt13_18@1-3"/>
+            <ref xml:id="gom-mt13-Rd1e361"><name xml:id="gom-mt13-Nd1e362" ref="#Augustine">AUG.</name> sup. Gen.</ref>
+            <quote xml:id="gom-mt13-Qd1e366"><seg type="qs">Proinde quod narravit evangelista (etiam factum est) Dominum scilicet talia fuisse locutum. Ipsius autem</seg>, etc., usque ad <seg type="qs">illud quippe scripsit narrator rerum praeteritarum, hoc praenuntiator tantummodo futurorum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e376">
+          <head xml:id="gom-mt13-Hd1e378">Versus 20</head>
+          <p xml:id="gom-mt13-d1e380">
+            <quote xml:id="gom-mt13-Qd1e382" type="lemma" source="http://scta.info/resource/mt13_20@3-4">Super petrosa.</quote>
+            Super petram et in spinis seminantur, qui bene accipiunt: sed vel adversa terrendo, vel prospera blandiendo, retardant eos ne perficiant. Divitiis jungitur sollicitudo custodiae, quae affligit, et voluptas, quae effluere facit.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e387">
+          <head xml:id="gom-mt13-Hd1e389">Versus 22</head>
+          <p xml:id="gom-mt13-d1e391">
+            <quote xml:id="gom-mt13-Qd1e393" type="lemma" source="http://scta.info/resource/mt13_22@17-18">Fallacia divitiarum.</quote>
+            <ref xml:id="gom-mt13-Rd1e396"><name xml:id="gom-mt13-Nd1e397" ref="#JohnChrysostom">CHRYSOST.</name></ref>
+            <quote xml:id="gom-mt13-Qd1e400"><seg type="qs">Suffocantur spinis quae audivimus, non quidem ipsarum spinarum culpa, sed ejus qui illas</seg>, etc., usque ad <seg type="qs"><pb ed="#P" n="0131D"/> duo quippe vitia inter se opposita in divitiis sunt, unum quod incendit sollicitudinem, et offuscat curis: alterum quod molliores deliciis reddit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e410">
+          <head xml:id="gom-mt13-Hd1e412">Versus 23</head>
+          <p xml:id="gom-mt13-d1e414">
+            <quote xml:id="gom-mt13-Qd1e416" type="lemma" source="http://scta.info/resource/mt13_23@20-21">Aliud quidem centesimum.</quote>
+            <ref xml:id="gom-mt13-Rd1e419"><name xml:id="gom-mt13-Nd1e420" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-mt13-Qd1e423"><seg type="qs">Tres differentiae sunt in bona terra, sicut fuere in mala. Triginta enim refertur ad nuptias. Sexaginta ad</seg>, etc., usque ad <seg type="qs">tricesimum conjugatorum, quia haec est aetas praeliantium, et his est major conflictus ne libidine superentur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e432">
+          <head xml:id="gom-mt13-Hd1e434">Versus 24</head>
+          <p xml:id="gom-mt13-d1e436">
+            <quote xml:id="gom-mt13-Qd1e438" type="lemma" source="http://scta.info/resource/mt13_24@1-2">Aliam parabolam.</quote>
+            Quasi dives paterfamilias invitatos diversis reficit cibis, ut unusquisque secundum naturam stomachi sui varia alimenta susciperet. Unde et dixit aliam parabolam et non alteram, ut plures sequi intelligantur. Haec parabola <pb ed="#P" n="0132A"/> proponitur, dimissis turbis, domi rogantibus discipulis exponitur. Et docet hic bonam voluntatem, et cautelam, et patientiam, et discretionem, et longanimitatem, et justitiam.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e445">
+          <head xml:id="gom-mt13-Hd1e447">Versus 25</head>
+          <p xml:id="gom-mt13-d1e449">
+            <quote xml:id="gom-mt13-Qd1e451" type="lemma" source="http://scta.info/resource/mt13_25@4-4">Homines.</quote>
+            Qui aliis ad tutelam et custodiam deputati sunt praelati in Ecclesia: vel cum dormitionem mortis accipient apostoli.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e456">
+          <head xml:id="gom-mt13-Hd1e458">Versus 28</head>
+          <p xml:id="gom-mt13-d1e460">
+            <quote xml:id="gom-mt13-Qd1e462" type="lemma" source="http://scta.info/resource/mt13_28@12-13">Vis, imus.</quote>
+            Cum spiritualis homo audit hoc esse a diabolo qui nihil valet contra voluntatem Dei, potest ei voluntas suboriri, ut tales auferat de mundo si facultatem habeat. Sed consulit justitiam Dei, an facere debeat, et an Deus velit esse hoc officium hominum. Sed Veritas respondet: Non nosse hominem in hac vita qualis futurus sit qui modo errat, et quid bonis conferat ejus error: et <pb ed="#P" n="0132B"/> ideo eos non esse tollendos, ne forte interficiantur, qui forte futuri sunt: vel ne bonis obsit, quibus prosunt, etc. Tunc vero opportune fieri, cum jam non est commutandae vitae tempus et proficiendi aliis: et tunc non ab hominibus, sed ab angelis dicit fieri.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e470">
+          <head xml:id="gom-mt13-Hd1e472">Versus 29</head>
+          <p xml:id="gom-mt13-d1e474">
+            <quote xml:id="gom-mt13-Qd1e476" type="lemma" source="http://scta.info/resource/mt13_29@1-3">Et ait: Non,</quote>
+            etc. Ecce patientia. Non enim audito dolore exarsit in iram, nec mox ulcisci voluit, ita et nos laesi patienter feramus.
+          </p>
+          <p xml:id="gom-mt13-d1e480">
+            <quote xml:id="gom-mt13-Qd1e482" type="lemma" source="http://scta.info/resource/mt13_29@4-5">Ne forte.</quote>
+            Hic datur locus poenitentiae et monemur non cito amputare: quia qui errat hodie, cras forte defendet veritatem. Si ergo modo avelleretur, triticum quod futurum erat eradicaretur. Vel necesse est ut mali permisti sint bonis per quos exerceantur. Vel quorum comparatione nitantur ad melius, quibus <pb ed="#P" n="0132C"/> sublatis altitudo charitatis marcescit quod est eradicari.
+          </p>
+          <p xml:id="gom-mt13-d1e488">
+            <ref xml:id="gom-mt13-Rd1e490" type="lemma" subtype="implied" target="http://scta.info/resource/mt13_29@4-5"/>
+            Ibi patienter tolerandi sunt mali, ubi aliqui inveniuntur quibus adjuventur boni.
+          </p>
+          <p xml:id="gom-mt13-d1e493">
+            <ref xml:id="gom-mt13-Rd1e495" type="lemma" subtype="implied" target="http://scta.info/resource/mt13_29@4-5"/>
+            <ref xml:id="gom-mt13-Rd1e497"><name xml:id="gom-mt13-Nd1e498" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt13-Qd1e501">Multitudo non est excommunicanda, nec princeps populi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e505">
+          <head xml:id="gom-mt13-Hd1e507">Versus 30</head>
+          <p xml:id="gom-mt13-d1e509">
+            <quote xml:id="gom-mt13-Qd1e511" type="lemma" source="http://scta.info/resource/mt13_30@1-1">Sinite.</quote>
+            Hoc videtur contrarium illi apostolico: <quote xml:id="gom-mt13-Qd1e514" source="http://scta.info/resource/Icor5_13@8-11">Auferte malum ex vobis</quote>. Sed sicut inter lolium et triticum quamdiu herba est, parum distat: ita monet Dominus ne de ambiguo judicemus, quod Dominus in die judicii non suspiciose, sed manifeste damnabit.
+          </p>
+          <p xml:id="gom-mt13-d1e518">
+            <ref xml:id="gom-mt13-Rd1e520" type="lemma" subtype="implied" target="http://scta.info/resource/mt13_30@1-1"/>
+            In patiendo justitiam meditemur: in judicando justitiam non negligamus.
+          </p>
+          <p xml:id="gom-mt13-d1e523">
+            <quote xml:id="gom-mt13-Qd1e525" type="lemma" source="http://scta.info/resource/mt13_30@7-9">Et in tempore.</quote>
+            Qui longanimiter tulit per justitiam, <pb ed="#P" n="0132D"/> digna retribuit: discretae enim sunt virtutes, sed non contrariae.
+          </p>
+          <p xml:id="gom-mt13-d1e531">
+            <quote xml:id="gom-mt13-Qd1e533" type="lemma" source="http://scta.info/resource/mt13_30@16-17">Et alligate.</quote>
+            In hac vita non est alligatio, alioquin non tot ab errore resipiscerent.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e538">
+          <head xml:id="gom-mt13-Hd1e540">Versus 31</head>
+          <p xml:id="gom-mt13-d1e542">
+            <quote xml:id="gom-mt13-Qd1e544" type="lemma" source="http://scta.info/resource/mt13_31@6-8">Simile est regnum,</quote>
+            etc. Regnum coelorum, praedicatio est Evangelii, de qua alibi: <quote xml:id="gom-mt13-Qd1e547" source="http://scta.info/resource/mt21_43@5-15">Auferetur a vobis regnum Dei, et dabitur genti facienti fructum ejus</quote>. Vel notitia Scripturarum.
+          </p>
+          <p xml:id="gom-mt13-d1e551">
+            <quote xml:id="gom-mt13-Qd1e553" type="lemma" source="http://scta.info/resource/mt13_31@10-11">Grano sinapis.</quote>
+            Grano sinapis comparatur pro fervore fidei, quia dicitur venena expellere, id est, omnia dogmata pravitatis. Potest in grano sinapis humilitas Dominicae incarnationis intelligi. Quo accepto homo misit in hortum suum, quia corpus crucifixi Salvatoris accipiens Joseph in horto sepelivit. Expandit ramos in quibus volucres coeli requiescent, <pb ed="#P" n="0133A"/> quia praedicatores dispersit in mundum, in quorum dictis et consolationibus fideles ab hujus vitae fatigatione respirarent.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e560">
+          <head xml:id="gom-mt13-Hd1e562">Versus 32</head>
+          <p xml:id="gom-mt13-d1e564">
+            <quote xml:id="gom-mt13-Qd1e566" type="lemma" source="http://scta.info/resource/mt13_32@7-9">Cum autem creverit.</quote>
+            Toto mundo vel in animo singulorum: quia nemo repente perfectus. Crevit et factum est in arborem, quia surrexit et ascendit in coelum. Vel creverit, id est, mentibus hominum quantae sit virtutis innotuerit. Caetera apparent olera, quae cito crescunt et corruunt: non vivida, sed marcida: illa non olus, sed arbor fit, ubi folia cum fructu, et in ejus diversis sententiis spirituales quiescunt.
+          </p>
+          <p xml:id="gom-mt13-d1e570">
+            <quote xml:id="gom-mt13-Qd1e572" type="lemma" source="http://scta.info/resource/mt13_32@13-16">Oleribus et fit arbor.</quote>
+            Id est, dogmatibus philosophorum, quae cito crescunt et corruunt, nil vitale promittentia.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e577">
+          <head xml:id="gom-mt13-Hd1e579">Versus 33</head>
+          <p xml:id="gom-mt13-d1e581">
+            <pb ed="#P" n="0133B"/>
+            <quote xml:id="gom-mt13-Qd1e585" type="lemma" source="http://scta.info/resource/mt13_33@15-17">In farinae satis.</quote>
+            Ut spiritus, anima, et corpus in unum redacta non discrepent inter se. Vel tres animae virtutes in unum rediguntur, ut in ratione possideamus prudentiam, in ira odium vitiorum, in cupiditate desiderium virtutum. Vel, mulier, Ecclesia, fidem hominum farinae tribus satis miscet, credulitati Patris et Filii et Spiritus sancti. Cumque in unum fuerit fermentatum, non nos ad triplicem Deum, sed unius deitatis notitiam perducit, quia non est diversa natura in singulis.
+          </p>
+          <p xml:id="gom-mt13-d1e589">
+            <quote xml:id="gom-mt13-Qd1e591" type="lemma" source="http://scta.info/resource/mt13_33@19-20">Donec fermentatum.</quote>
+            Tandiu charitas in mente recondita crescere debet, donec mentem totam in sui perfectionem commutet, ut nihil praeter Deum diligat vel recolat, quod hic incipitur, in alia vita perficitur.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e596">
+          <head xml:id="gom-mt13-Hd1e598">Versus 34</head>
+          <p xml:id="gom-mt13-d1e600">
+            <quote xml:id="gom-mt13-Qd1e602" type="lemma" source="http://scta.info/resource/mt13_34@6-9">In parabolis ad turbas.</quote>
+            Quia quidquid <pb ed="#P" n="0133C"/> ibi dicitur de exercitu Israel, et omnia signa occulta sunt sacramenta.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e610">
+          <head xml:id="gom-mt13-Hd1e612">Versus 44</head>
+          <p xml:id="gom-mt13-d1e614">
+            <quote xml:id="gom-mt13-Qd1e616" type="lemma" source="http://scta.info/resource/mt13_44@5-8">Thesauro abscondito in agro.</quote>
+            Thesaurus potest accipi verbum Dei, qui in carne Christi absconditur. Vel Scriptura, in qua reposita est notitia Salvatoris. Vel, duo Testamenta in Ecclesia, pro quorum intelligentia omnibus renuntiatur ut in otio discantur.
+          </p>
+          <p xml:id="gom-mt13-d1e620">
+            <ref xml:id="gom-mt13-Rd1e622" type="lemma" subtype="implied" target="http://scta.info/resource/mt13_44@5-8"/>
+            Terrenis regnum coelorum similatur, ut per cognita surgat ad incognita animus, et diligat.
+          </p>
+          <p xml:id="gom-mt13-d1e625">
+            <quote xml:id="gom-mt13-Qd1e627" type="lemma" source="http://scta.info/resource/mt13_44@13-17">Abscondit et prae gaudio illius.</quote>
+            Ut servetur a malignis spiritibus et laudibus hominum. Sic sit opus in publico, ut intentio maneat occulta.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e632">
+          <head xml:id="gom-mt13-Hd1e634">Versus 45</head>
+          <p xml:id="gom-mt13-d1e636">
+            <quote xml:id="gom-mt13-Qd1e638" type="lemma" source="http://scta.info/resource/mt13_45@7-7">Negotiatori.</quote>
+            Beatitudinem qua exuti sumus culpa primi hominis, debemus omnes, intelligendo <pb ed="#P" n="0133D"/> recte et operando bene, negotiari.
+          </p>
+          <p xml:id="gom-mt13-d1e644">
+            <quote xml:id="gom-mt13-Qd1e646" type="lemma" source="http://scta.info/resource/mt13_45@9-10">Bonas margaritas.</quote>
+            Bonae margaritae, lex et prophetae. Una pretiosa, scientia Salvatoris, pro qua homo, ut Paulus, omnibus mysteriis legis et observationibus renuntiavit.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e651">
+          <head xml:id="gom-mt13-Hd1e653">Versus 46</head>
+          <p xml:id="gom-mt13-d1e655">
+            <quote xml:id="gom-mt13-Qd1e657" type="lemma" source="http://scta.info/resource/mt13_46@1-2">Inventa autem.</quote>
+            Id est, Christo, qui praeest omnibus hominibus, vel spirituali praecepto dilectionis. Vel intellecto verbo, quod erat apud Deum penetrata carnis testudine. Vel coelestis vitae dulcedine, pro qua omnia vilescunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e662">
+          <head xml:id="gom-mt13-Hd1e664">Versus 47</head>
+          <p xml:id="gom-mt13-d1e666">
+            <quote xml:id="gom-mt13-Qd1e668" type="lemma" source="http://scta.info/resource/mt13_47@6-7">Sagenae missae.</quote>
+            Impletur Jeremiae vaticinium: <quote xml:id="gom-mt13-Qd1e671" source="http://scta.info/resource/ier16_16@1-5">Ecce ego mitto ad vos piscatores multos</quote>. Postquam audierunt Petrus et Andreas, Jacobus et Joannes: <quote xml:id="gom-mt13-Qd1e674" source="http://scta.info/resource/mt4_19@6-12">Sequimini me, faciam vos piscatores hominum:</quote> contexuerunt sibi sagenam ex Veteri <pb ed="#P" n="0134A"/> et Novo Testamento, et in mare saeculi miserunt, quae usque hodie trahitur, et in fluctibus tenditur: capiens quidquid incidit, bonos et malos, quos ad littus trahit, id est, ad finem mundi, ut tunc fiat divisio. Unde sequitur: <quote xml:id="gom-mt13-Qd1e679" source="http://scta.info/resource/mt13_49@1-5">Sic erit in consummatione saeculi,</quote> etc. Sagenae comparatur Ecclesia vel praedicatio evangelica, quae a fluctibus saeculi ad, coelum trahit.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e684">
+          <head xml:id="gom-mt13-Hd1e686">Versus 48</head>
+          <p xml:id="gom-mt13-d1e688">
+            <quote xml:id="gom-mt13-Qd1e690" type="lemma" source="http://scta.info/resource/mt13_48@6-8">Et secus littus.</quote>
+            Littus, finis saeculi, in quo boni ad coelum, mali ad tenebras mittentur: in praesenti enim erant permisti.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e695">
+          <head xml:id="gom-mt13-Hd1e697">Versus 52</head>
+          <p xml:id="gom-mt13-d1e699">
+            <quote xml:id="gom-mt13-Qd1e701" type="lemma" source="http://scta.info/resource/mt13_52@3-6">Ideo omnis Scriba doctus,</quote>
+            etc. Quia intelligitis mysteria quae vobis revelo: ideo faciam vos praedicatores, et eritis mihi similes qui de thesauro scientiae meae, nova et vetera profero, ut vos <pb ed="#P" n="0134B"/> similiter faciatis.
+          </p>
+          <p xml:id="gom-mt13-d1e707">
+            <ref xml:id="gom-mt13-Rd1e709" type="lemma" subtype="implied" target="http://scta.info/resource/mt13_52@3-6"/>
+            Apostoli sunt scribae et notarii Christi, verba ejus signantes in tabulis cordis, et pollent opibus patrisfamilias, ejicientes de thesauro doctrinarum suarum nova et vetera, quia quidquid in Evangelio praedicatur, legis et prophetarum vocibus comprobant.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e714">
+          <head xml:id="gom-mt13-Hd1e716">Versus 54</head>
+          <p xml:id="gom-mt13-d1e718">
+            <quote xml:id="gom-mt13-Qd1e720" type="lemma" source="http://scta.info/resource/mt13_54@12-13">Ut mirarentur.</quote>
+            Magna caecitas, quem verbis et factis Christum cognoscunt, ob generis notitiam contemnunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e725">
+          <head xml:id="gom-mt13-Hd1e727">Versus 55</head>
+          <p xml:id="gom-mt13-d1e729">
+            <quote xml:id="gom-mt13-Qd1e731" type="lemma" source="http://scta.info/resource/mt13_55@4-5">Fabri filius.</quote>
+            Non sine re voluit dici fabri filius, non illius quem putant, sed fabricatoris omnium. Sed hujus sacramenti Judaei ignari divinae virtutis opera carnalis prosapiae contemplatione contemnunt. Non enim considerant praesentia ejus opera, sed fragilem recordantur infantiam.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e736">
+          <head xml:id="gom-mt13-Hd1e738">Versus 57</head>
+          <p xml:id="gom-mt13-d1e740">
+            <pb ed="#P" n="0134C"/>
+            <quote xml:id="gom-mt13-Qd1e744" type="lemma" source="http://scta.info/resource/mt13_57@11-11">Propheta.</quote>
+            Christus dicitur propheta. Unde Moses dicit: <quote xml:id="gom-mt13-Qd1e747" source="http://scta.info/resource/deut18_18@1-4">Prophetam suscitabit vobis Dominus de semine vestro</quote>.
+          </p>
+          <p xml:id="gom-mt13-d1e751">
+            <quote xml:id="gom-mt13-Qd1e753" type="lemma" source="http://scta.info/resource/mt13_57@15-16">In patria.</quote>
+            Id est, in populo Judaeorum: majora autem facit in gentibus.
+          </p>
+        </div>
+        <div xml:id="gom-mt13-Dd1e758">
+          <head xml:id="gom-mt13-Hd1e760">Versus 58</head>
+          <p xml:id="gom-mt13-d1e762">
+            <quote xml:id="gom-mt13-Qd1e764" type="lemma" source="http://scta.info/resource/mt13_58@1-3">Et non fecit.</quote>
+            Fecit virtutes aliquas, sed non multas, ne incredulos condemnaret. Vel despectus pauca facit, ne penitus excusabiles sint, majora autem in gentibus facit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

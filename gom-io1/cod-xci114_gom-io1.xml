@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ioannes, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ioannes, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0356B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-io1">
+        <head xml:id="gom-io1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-io1-Dd1e100">
+          <head xml:id="gom-io1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-io1-d1e104">
+            <quote xml:id="gom-io1-Qd1e106" type="lemma" source="http://scta.info/resource/io1_1@1-4">In principio erat Verbum.</quote>
+            Contra eos qui propter temporalem Christi nativitatem dicebant Christum non semper fuisse, incipit de aeternitate Verbi dicens: <quote xml:id="gom-io1-Qd1e109" source="http://scta.info/resource/io1_1@1-4">In principio erat Verbum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e114">
+          <head xml:id="gom-io1-Hd1e116">Versus 3</head>
+          <p xml:id="gom-io1-d1e118">
+            <quote xml:id="gom-io1-Qd1e120" type="lemma" source="http://scta.info/resource/io1_3@1-5">Omnia per ipsum facta sunt.</quote>
+            <ref xml:id="gom-io1-Rd1e123"><name xml:id="gom-io1-Nd1e124" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io1-Qd1e127"><seg type="qs">Non est creatura per quem omnis creatura facta est, etc., <pb ed="#P" n="0356C"/></seg> usque ad <seg type="qs">quae concordant cuncti potentiae Divinitatis.</seg></quote>
+          </p>
+          <p xml:id="gom-io1-d1e136">
+            <quote xml:id="gom-io1-Qd1e138" type="lemma" source="http://scta.info/resource/io1_3@6-11">Et sine ipso factum est nihil.</quote>
+            <ref xml:id="gom-io1-Rd1e141"><name xml:id="gom-io1-Nd1e142" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-io1-Qd1e145">Ita distinguit: <quote xml:id="gom-io1-Qd1e147" source="http://scta.info/resource/io1_3@6-11">Et sine ipso factum est nihil.</quote> Ordo: <quote xml:id="gom-io1-Qd1e150">Nihil est quod factum est sine ipso.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e154">
+          <head xml:id="gom-io1-Hd1e156">Versus 4</head>
+          <p xml:id="gom-io1-d1e158">
+            <quote xml:id="gom-io1-Qd1e160" type="lemma" source="http://scta.info/resource/io1_4">Quod factum est, erat vita in ipso.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-io1-Rd1e165"><name xml:id="gom-io1-Nd1e166" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io1-Qd1e169">Joannes Chrysostomus: <quote xml:id="gom-io1-Qd1e171" source="http://scta.info/resource/io1_3@6-14">Et sine ipso factum est nihil. Quod factum est.</quote> Hilarius: <quote xml:id="gom-io1-Qd1e174" source="http://scta.info/resource/io1_3@7-14">Sine ipso factum est nihil, quod factum est in ipso.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e179">
+          <head xml:id="gom-io1-Hd1e181">Versus 6</head>
+          <p xml:id="gom-io1-d1e183">
+            <quote xml:id="gom-io1-Qd1e185" type="lemma" source="http://scta.info/resource/io1_6@1-3">Fuit homo missus.</quote>
+            Postquam sublimi volatu ultra omnem naturam in altitudinem theologiae ascendit, quia Verbum apud Patrem semper fuisse contemplatus est, mox ad humilitatem humanae naturae, et specialiter praecursoris Verbi descendit contra illos qui dicebant humanam naturam in <pb ed="#P" n="0356D"/> primo parente ex toto perditam et ad nihilum redactam.
+          </p>
+          <p xml:id="gom-io1-d1e191">
+            <quote xml:id="gom-io1-Qd1e193" type="lemma" source="http://scta.info/resource/io1_6@2-3">Homo missus.</quote>
+            Homo, non angelus, ut haeretici volunt, missus a Deo. Ideo potuit dicere de Deo.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e199">
+          <head xml:id="gom-io1-Hd1e201">Versus 9</head>
+          <p xml:id="gom-io1-d1e203">
+            <quote xml:id="gom-io1-Qd1e205" type="lemma" source="http://scta.info/resource/io1_9@1-3">Erat lux vera.</quote>
+            Omnis homo dicitur illa natura in homine, quae ad imaginem et ad similitudinem Dei facta est. Alia omnia quae sunt in homine inferiores partes hominis sunt, et quodammodo extra hominem sunt. In illa scilicet, anima velut in quodam mundo superiori vera lux lucet, et in illum mundum venientes, et per gratiam renascentes illuminat, quia <pb ed="#P" n="0357A"/> quorum vita et conversatio in coelis est, quasi in alio mundo sunt.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e212">
+          <head xml:id="gom-io1-Hd1e214">Versus 11</head>
+          <p xml:id="gom-io1-d1e216">
+            <quote xml:id="gom-io1-Qd1e218" type="lemma" source="http://scta.info/resource/io1_11@4-8">Et sui eum non receperunt.</quote>
+            Ab initio mundi nullum tempus erat in quo receptores divini verbi non essent, unde addit: <quote xml:id="gom-io1-Qd1e221" source="http://scta.info/resource/io1_12@1-3">Quotquot autem receperunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e226">
+          <head xml:id="gom-io1-Hd1e228">Versus 12</head>
+          <p xml:id="gom-io1-d1e230">
+            <quote xml:id="gom-io1-Qd1e232" type="lemma" source="http://scta.info/resource/io1_12@8-10">Filios Dei fieri.</quote>
+            Mirabilis potestas ut qui filii diaboli erant, et filii Dei et fratres Christi per eum liberati dicantur, quo autem ordine filii Dei fiant, et quomodo haec generatio distat a carnali, subditur: <quote xml:id="gom-io1-Qd1e235" source="http://scta.info/resource/io1_13@1-4">Qui non ex sanguinibus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e240">
+          <head xml:id="gom-io1-Hd1e242">Versus 14</head>
+          <p xml:id="gom-io1-d1e244">
+            <quote xml:id="gom-io1-Qd1e246" type="lemma" source="http://scta.info/resource/io1_14@1-5">Et Verbum caro factum est.</quote>
+            Ut autem secure credamus homines nasci ex Deo, subdit Deum nasci ex homine, ex hac susceptione infirmitatis sanatur nostra infirmitas, ut possimus filii Dei fieri. <pb ed="#P" n="0357B"/> Et hoc est: <quote xml:id="gom-io1-Qd1e251" source="http://scta.info/resource/io1_14@1-5">Et Verbum caro factum est.</quote> Quod superius erat, inferius descendit. Quid mirum: si quod erat inferius, in id quod superius est ascendit? Nec mirum, si homines nascuntur ex Deo, quia Deus ex homine est natus.
+          </p>
+          <p xml:id="gom-io1-d1e255">
+            <quote xml:id="gom-io1-Qd1e257" type="lemma" source="http://scta.info/resource/io1_14@19-22">Plenum gratiae et veritatis.</quote>
+            Homo Christus plenus fuit gratia, quia nullis praecedentibus meritis ex quo conceptus est, fuit Deitas in eo implens hominem illum omni plenitudine redundante, in omnes sanctos, unde et mater ejus non tantum dicitur mater hominis, sed et mater Dei. Nec mirum, si dicitur, homo etiam Deus, cum Deus dicatur etiam homo, haec autem gratia dicitur et veritas, quia sic olim promissum est, et modo exhibitum, scilicet, ut Deus sit in homine implens eum omni bono, et per eum suos.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e262">
+          <head xml:id="gom-io1-Hd1e264">Versus 15</head>
+          <p xml:id="gom-io1-d1e266">
+            <pb ed="#P" n="0357C"/>
+            <quote xml:id="gom-io1-Qd1e270" type="lemma" source="http://scta.info/resource/io1_15@9-12">Hic erat quem dixi.</quote>
+            Per demonstrativum pronomen innuitur Christum affuisse in illo loco. Saepe enim ipse Dominus adhuc ignotus antequam baptizaretur et praedicaret, ad Joannem solitus erat venire.
+          </p>
+          <p xml:id="gom-io1-d1e274">
+            <quote xml:id="gom-io1-Qd1e276" type="lemma" source="http://scta.info/resource/io1_15@14-18">Qui post me venturus est.</quote>
+            Qui post me natus, post me praedicaturus, baptizaturus, moriturus. Non quod jam non esset natus, quando haec dixit, quia etiam baptizatus: sed venturus in praedicatione, in morte, sed non in resurrectione.
+          </p>
+          <p xml:id="gom-io1-d1e280">
+            <quote xml:id="gom-io1-Qd1e282" type="lemma" source="http://scta.info/resource/io1_15@19-26">Ante me factus est, quia prior me erat.</quote>
+            Ex Graeco, coram me factus est, id est, apparuit mihi quidem, scilicet, quia prior me erat.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e287">
+          <head xml:id="gom-io1-Hd1e289">Versus 16</head>
+          <p xml:id="gom-io1-d1e291">
+            <quote xml:id="gom-io1-Qd1e293" type="lemma" source="http://scta.info/resource/io1_16@1-3">Et de plenitudine.</quote>
+            Exposito testimonio praecursoris, redit evangelista ad testimonium <pb ed="#P" n="0357D"/> suae assertionis. Quasi dicat: <quote xml:id="gom-io1-Qd1e298" source="http://scta.info/resource/io1_14@2-22">Verbum caro factum est: vidimus gloriam ejus plenam gratiae et veritatis, et de plenitudine ejus nos omnes accepimus.</quote> Gratiam, ut ipsum credamus, et veritatem qua illum intelligemus.
+          </p>
+          <p xml:id="gom-io1-d1e302">
+            <quote xml:id="gom-io1-Qd1e304" type="lemma" source="http://scta.info/resource/io1_16@7-7">Accepimus.</quote>
+            <ref xml:id="gom-io1-Rd1e307"><name xml:id="gom-io1-Nd1e308" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io1-Qd1e311">Non solum gratiam, quae plane gratis datur, non pro merito ut fidem quae per dilectionem operatur, ex qua justus vivit, sed pro ista, gratiam, id est beatitudinem aeternam, quae et merces justitiae dicitur, et etiam gratiam, quia meritum ex gratia.</quote>
+          </p>
+          <p xml:id="gom-io1-d1e314">
+            <quote xml:id="gom-io1-Qd1e316" type="lemma" source="http://scta.info/resource/io1_16@9-11">Gratiam pro gratia.</quote>
+            Gratia in conceptione boni per gratiam datur. Gratia simpliciter quae non est meriti, si postea cum illa operamur, in bonis consuescimus, et tunc datur gratia pro gratia priori.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e322">
+          <head xml:id="gom-io1-Hd1e324">Versus 17</head>
+          <p xml:id="gom-io1-d1e326">
+            <pb ed="#P" n="0358A"/>
+            <quote xml:id="gom-io1-Qd1e330" type="lemma" source="http://scta.info/resource/io1_17@3-4">Per Moysen.</quote>
+            Per Moysen servum praenuntiatio, per Dominum Jesum salutis impletio.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e335">
+          <head xml:id="gom-io1-Hd1e337">Versus 18</head>
+          <p xml:id="gom-io1-d1e339">
+            <quote xml:id="gom-io1-Qd1e341" type="lemma" source="http://scta.info/resource/io1_18@1-4">Deum nemo vidit unquam.</quote>
+            Id est, nullus purus homo vivens in hoc corpore vidit Deum ut est, unde dictum est Moysi: <quote xml:id="gom-io1-Qd1e344" source="http://scta.info/resource/ex33_20@8-14">Non videbit me homo et vivet</quote>, id est, nemo vivens in corpore videbit divinitatem meam. Unde ista adjecit Deus Moysi: <quote xml:id="gom-io1-Qd1e347">Sta in foramine petrae, et cum pertransiero videbis posteriora mea</quote><ref xml:id="gom-io1-Rd1e348"><name xml:id="gom-io1-Nd1e349" ref="#Augustine">Ibid.</name></ref><!-- check: attribution inside gloss body -->. Petra, id est, Christus, foramen, crucis patibulum, pertransiero, id est, transiero de mundo ad Patrem. Posteriora, ortus ejus, passio, resurrectio, ascensio, per quae credita ad ejus beatitudinem et visionem pervenimus. Quod legitur Deum apparuisse hominibus sive visibiliter <pb ed="#P" n="0358B"/> carnalibus oculis, sive invisibiliter propheticis visionibus per subjectam creaturam, intelligendum est, visiones enim prophetarum quadam spirituali creatura factae sunt, quibus Deum vidisse perhibentur.
+          </p>
+          <p xml:id="gom-io1-d1e356">
+            <quote xml:id="gom-io1-Qd1e358" type="lemma" source="http://scta.info/resource/io1_18@5-6">Unigenitus Filius,</quote>
+            etc. Quae sit summa gratiae et veritatis, breviter subdit, scilicet cognitio ipsius Trinitatis, unde: <quote xml:id="gom-io1-Qd1e361" source="http://scta.info/resource/io17_3@1-16">Haec est vita aeterna, ut cognoscant te unum verum Deum, et quem misisti Jesum Christum.</quote> Quae in hac vita non plene est, quia nemo in carne vidit Deum ut est. Unde nec ipse Moyses nedum per eum data sit gratia, sicut etiam ipse post omnia visa in typo Dei dixit: <quote xml:id="gom-io1-Qd1e364" source="http://scta.info/resource/ex33_13@8-9">Ostende mihi teipsum</quote>, sed Filius qui est in secreto Patris narravit, <quote xml:id="gom-io1-Qd1e367" source="http://scta.info/resource/lc10_22@20-26">quia nemo novit Patrem nisi Filius, et cui voluerit Filius <pb ed="#P" n="0358C"/> revelare</quote>. Ipse narrat suis quid de Trinitate deitatis sentiendum sit, quomodo ad eam perveniendum, et ad ipsam introducit.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e374">
+          <head xml:id="gom-io1-Hd1e376">Versus 19</head>
+          <p xml:id="gom-io1-d1e378">
+            <quote xml:id="gom-io1-Qd1e380" type="lemma" source="http://scta.info/resource/io1_19@1-2">Et hoc.</quote>
+            Et haec et caetera sequentia testimonia Joannis, exhibita sunt post baptizatum Christum, cum jam Jesus veniret invitare discipulos, quos Joannes suis testimoniis mittit ad eum. Testimonium contra hoc, quod occultus Christus: occultus quia humilis: humilis ut possit sperni et occidi, ut redimeret mundum.
+          </p>
+          <p xml:id="gom-io1-d1e384">
+            <quote xml:id="gom-io1-Qd1e386" type="lemma" source="http://scta.info/resource/io1_19@19-21">Tu quis es.</quote>
+            Putabant Judaei Joannem esse Christum, qui in lege promittebatur. Alii putabant eum esse Eliam, propter nimiam abstinentiam et castitatem, et solitariam vitam, et asperrimam delictorum reprehensionem, et durissimum futurae vindictae terrorem. Alii dicebant eum esse unum de <pb ed="#P" n="0358D"/> prophetis resuscitatum, propter prophetiae gratiam.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e393">
+          <head xml:id="gom-io1-Hd1e395">Versus 20</head>
+          <p xml:id="gom-io1-d1e397">
+            <quote xml:id="gom-io1-Qd1e399" type="lemma" source="http://scta.info/resource/io1_20@2-3">Confessus est.</quote>
+            Confessus est, ut postea dicit, non quod erat Christus. Non negavit quod erat, id est, quod esset praecursor, ut post interrogatus dicit: <quote xml:id="gom-io1-Qd1e402" source="http://scta.info/resource/io1_23@2-4">Ego vox clamantis.</quote> Ordo verborum, et confessus est et non negavit quando miserunt.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e407">
+          <head xml:id="gom-io1-Hd1e409">Versus 21</head>
+          <p xml:id="gom-io1-d1e411">
+            <quote xml:id="gom-io1-Qd1e413" type="lemma" source="http://scta.info/resource/io1_21@6-8">Elias es tu?</quote>
+            Cum omnes scirent nomen Christi, sciebant etiam quod Elias praecessurus sit eum. Sed ipse Elias praecessurus, in potestate judicaturum, Joannes figuraliter Elias eumdem judicandum, ut sint duo praecones sicut duo adventus ejusdem, unde: <quote xml:id="gom-io1-Qd1e416" source="http://scta.info/resource/io1_20@11-12">Non sum Elias,</quote> id est, non praeco: potentiam indicans; sed in quam offenditis ostendo <pb ed="#P" n="0359A"/> humilitatem: quasi dicat: Servite humili antequam excelsus judicet. Ecce nec ego Christus, nec a parte potentiae judex.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e423">
+          <head xml:id="gom-io1-Hd1e425">Versus 23</head>
+          <p xml:id="gom-io1-d1e427">
+            <quote xml:id="gom-io1-Qd1e429" type="lemma" source="http://scta.info/resource/io1_23@2-6">Ego vox clamantis in deserto.</quote>
+            Non dicit, Ego sum homo, vel Joannes, vel filius Zachariae. Non considerat humanam subsistentiam vel generationem, sed ultra haec omnia exaltatus praecursor Verbi, deserit omnia quae intra mundum continentur. Ascendit in altum factus vox Verbi, nullam in se substantiam fatetur praeter abundantiam gratiae, qua excedit omnem creaturam, ut sit vox Verbi. Vox est interpres animi, animus autem, id est intellectus omnium est Filius Dei. Joannes ergo vox est et interpres hujus animi, quia primo mundo eum demonstravit: <quote xml:id="gom-io1-Qd1e432" source="http://scta.info/resource/io1_29@11-13">Ecce agnus Dei. Isaias,</quote> Hoc de <pb ed="#P" n="0359B"/> Joanne prophetavit: <quote xml:id="gom-io1-Qd1e437" source="http://scta.info/resource/io1_23@2-6">Ego vox clamantis in deserto,</quote> in qua verbum sonat, id est prophetia, et ostensio et lucerna verbi praesentis.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e443">
+          <head xml:id="gom-io1-Hd1e445">Versus 24</head>
+          <p xml:id="gom-io1-d1e447">
+            <quote xml:id="gom-io1-Qd1e449" type="lemma" source="http://scta.info/resource/io1_24@6-7">Ex Pharisaeis.</quote>
+            Id est, ex principibus Judaeorum, qui doctrinam non quaerunt, sed invident. Qui tamen ad Joannem ideo veniunt, quia audiunt eum praedicasse communem omnium resurrectionem, quam et ipsi credebant, unde et ipsi in multis Christo consentiunt. Paulum quoque apostolum in multis audierunt.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e454">
+          <head xml:id="gom-io1-Hd1e456">Versus 25</head>
+          <p xml:id="gom-io1-d1e458">
+            <quote xml:id="gom-io1-Qd1e460" type="lemma" source="http://scta.info/resource/io1_25@7-9">Quid ergo baptizas.</quote>
+            Audiebant Pharisaei in prophetis Christum venturum et baptizaturum, scientes Jordanem figuram baptismi gessisse, eumque Eliam et Elisaeum siccis pedibus transisse, figuramque baptismi in Elia et Elisaeo non dubitabant <pb ed="#P" n="0359C"/> praecessisse, unde et nunc eos surrexisse putabant et baptizasse, unde nec interrogant, Es tu unus prophetarum? sed solummodo: Es tu propheta? ille videlicet qui praefiguravit baptismum.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e467">
+          <head xml:id="gom-io1-Hd1e469">Versus 26</head>
+          <p xml:id="gom-io1-d1e471">
+            <quote xml:id="gom-io1-Qd1e473" type="lemma" source="http://scta.info/resource/io1_26@5-8">Ego baptizo in aqua.</quote>
+            Non imputetur audaciae quod ago, quia corpora abluo aqua, non aufero peccata, ut sicut nascendo et praedicando praecursor sum, sic et baptizando, sed iste medius inter vos est qui peccata tollit.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e478">
+          <head xml:id="gom-io1-Hd1e480">Versus 27</head>
+          <p xml:id="gom-io1-d1e482">
+            <quote xml:id="gom-io1-Qd1e484" type="lemma" source="http://scta.info/resource/io1_27@13-17">Cujus ego non sum dignus,</quote>
+            etc. Non ait non solvam. Solvit enim, quoniam ipsum manifestavit et de divinitate et humanitate ipsius multa aperuit; sed, Non sum dignus, quia indignum ad hoc agendum se reputat, in quo simpliciter indicatur humilitas.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e489">
+          <head xml:id="gom-io1-Hd1e491">Versus 28</head>
+          <p xml:id="gom-io1-d1e493">
+            <pb ed="#P" n="0359D"/>
+            <quote xml:id="gom-io1-Qd1e497" type="lemma" source="http://scta.info/resource/io1_28@1-3">Haec in Bethania.</quote>
+            Duae sunt Bethaniae. Una trans Jordanem, altera circa non longe ab Hierusalem, ubi Lazarus suscitatus est. Illa quae trans Jordanem est significat humanam naturam sub lege naturali ante fluenta gratiae, quae gratia post incarnationem Christi abundans fuit, quae natura ad hoc creata erat; ut legi naturae obediret in qua Joannes baptizat, quia a peccato non liberat. Baptizat ultra fluenta divinorum donorum, quae nondum in Christo inchoaverant in humanam naturam descendere. Illa quae est citra Jordanem significat eamdem humanam naturam obedientem sub lege gratiae, quae est proxima Hierusalem, id est visioni pacis, per charitatem, <pb ed="#P" n="0360A"/> in qua Christus mortuum suscitat quia a peccato liberat.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e504">
+          <head xml:id="gom-io1-Hd1e506">Versus 29</head>
+          <p xml:id="gom-io1-d1e508">
+            <quote xml:id="gom-io1-Qd1e510" type="lemma" source="http://scta.info/resource/io1_29@1-5">Altera die vidit Joannes Jesum.</quote>
+            Typice. Joannes, id est populus gratiae, altera die, id est post legem, cognoscit agnum quo redimitur.
+          </p>
+          <p xml:id="gom-io1-d1e514">
+            <quote xml:id="gom-io1-Qd1e516" type="lemma" source="http://scta.info/resource/io1_29@6-10">Venientem ad se, et ait.</quote>
+            Non solum gressibus corporis, sed etiam interioris suae contemplationis accessibus, quia dignatus est a Joanne cognosci secundum divinitatem et humanitatem.
+          </p>
+          <p xml:id="gom-io1-d1e520">
+            <quote xml:id="gom-io1-Qd1e522" type="lemma" source="http://scta.info/resource/io1_29@11-13">Ecce agnus Dei,</quote>
+            etc. Tria ministrat agnus possidentibus se, lac simplicis doctrinae quo parvuli nutriuntur, lanam, id est incrementa virtutum, esum carnis suae.
+          </p>
+          <p xml:id="gom-io1-d1e526">
+            <quote xml:id="gom-io1-Qd1e528" type="lemma" source="http://scta.info/resource/io1_29@16-17">Peccata mundi.</quote>
+            Peccatum mundi dicitur originale peccatum quod est commune totius mundi quo tota humana natura simul et semel condita leges divinas per inobedientiam <pb ed="#P" n="0360B"/> transgressa est in paradiso, quod originale, singulaque superaddita gratia relaxat.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e536">
+          <head xml:id="gom-io1-Hd1e538">Versus 30</head>
+          <p xml:id="gom-io1-d1e540">
+            <quote xml:id="gom-io1-Qd1e542" type="lemma" source="http://scta.info/resource/io1_30@6-9">Post me venit vir.</quote>
+            Christus est vir in quo nobis congruit et pro nobis solvit, et Filius Dei in quo Patri congruit et peccata dimittendo reconciliat nos ei.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e547">
+          <head xml:id="gom-io1-Hd1e549">Versus 31</head>
+          <p xml:id="gom-io1-d1e551">
+            <quote xml:id="gom-io1-Qd1e553" type="lemma" source="http://scta.info/resource/io1_31@6-7">Ut manifestetur.</quote>
+            Hic est agnus qui tollit peccata, quod non ego quem etiam melius modo novi, sed propterea baptizo ut manifestetur Israeli. Ne enim propter insolentiam minus baptizarentur a Christo in spiritu, usu baptizandi ei viam paravit, unde postquam ad ipsum, qui via est, ventum est, baptismus ejus cessat. In baptismo etiam Joannis manifestatur humilitas Christi, quae est impletio totius justitiae; sicut enim opus est Christum <pb ed="#P" n="0360C"/> nasci et mori, sic et baptizari. Si enim ipse qui non eget a servo baptizatur, non dedignentur quantumcunque sapientes et sancti a Domino baptizari, sine quo permanent in peccatis.
+          </p>
+          <p xml:id="gom-io1-d1e559">
+            <quote xml:id="gom-io1-Qd1e561" type="lemma" source="http://scta.info/resource/io1_31@14-14">Baptizans.</quote>
+            Christus a Joanne baptizatur, ut indicetur omnis humilitas quae est omnis justitia. Sed non solus, ne baptisma Joannis sanctius et majus, in quo Deus homo baptizatus est, videretur baptismo Christi, in quo homines baptizantur. Baptizantur autem alii a Joanne, ut usus baptizandi praeparet viam baptismo Christi.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e566">
+          <head xml:id="gom-io1-Hd1e568">Versus 32</head>
+          <p xml:id="gom-io1-d1e570">
+            <quote xml:id="gom-io1-Qd1e572" type="lemma" source="http://scta.info/resource/io1_32@1-2">Et testimonium.</quote>
+            Sicut dixit se venisse ut manifestaret Christum, ita perhibuit testimonium, scilicet <quote xml:id="gom-io1-Qd1e575" source="http://scta.info/resource/io1_32@7-8">vidit spiritum.</quote> In quo didicit, quod prius nescivit: venerat etiam praedicare poenitentiam, id <pb ed="#P" n="0360D"/> est, facere praeparationem praedicationis Christi, sed tantum de praeparatione baptismi ponit singulariter, quia baptismus Christi est summum sacramentum inter alia.
+          </p>
+          <p xml:id="gom-io1-d1e581">
+            <quote xml:id="gom-io1-Qd1e583" type="lemma" source="http://scta.info/resource/io1_32@8-9">Spiritum descendentem.</quote>
+            Non quod modo primum descenderit, sed ut per hoc descendere ostendatur, et manere in baptizatis aqua et non aliter, et ut Joannes per eum de Christo excellentius intelligeret.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e588">
+          <head xml:id="gom-io1-Hd1e590">Versus 33</head>
+          <p xml:id="gom-io1-d1e592">
+            <quote xml:id="gom-io1-Qd1e594" type="lemma" source="http://scta.info/resource/io1_33@1-3">Et ego nesciebam.</quote>
+            <ref xml:id="gom-io1-Rd1e597"><name xml:id="gom-io1-Nd1e598" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io1-Qd1e601"><seg type="qs">Visa columba, dicit se per eam didicisse, quod prius nesciebat</seg>, etc., usque ad <seg type="qs">unde Apostolus: <quote xml:id="gom-io1-Qd1e607">In labore et mente sunt differentes, in operatione indifferentes.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-io1-d1e610">
+            <ref xml:id="gom-io1-Rd1e612" type="lemma" subtype="implied" target="http://scta.info/resource/io1_33@1-3"/>
+            <ref xml:id="gom-io1-Rd1e614"><name xml:id="gom-io1-Nd1e615" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-io1-Qd1e618">Ostendit Joannem non scire per baptismum Christi, id est mundum esse redemptum, nam sciebat <pb ed="#P" n="0361A"/> bat eum Filium Dei esse, et natum in carne. Aug. dicit Joannem ignorasse hoc tantum utrum sibi retineat vim baptizandi, an alicui suorum tribuat.</quote>
+          </p>
+          <p xml:id="gom-io1-d1e624">
+            <quote xml:id="gom-io1-Qd1e626" type="lemma" source="http://scta.info/resource/io1_33@20-21">Et manentem.</quote>
+            <ref xml:id="gom-io1-Rd1e629"><name xml:id="gom-io1-Nd1e630" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io1-Qd1e633">Spiritualiter dicitur spiritum manere in Christo, a quo nunquam per peccatum recessit, in quo semper mirabiliter vixit et mirabiliter operatus est; in sanctos venit, et per peccata recedit. Manet tamen semper in eis ad aliquid, ut Christus eis promisit, scilicet ut bonis semper insistant. Ad aliquid non manet, scilicet ut ex eo prophetent, vel miracula faciant, et ideo hoc quod dicit est primum signum agnoscendi Christum.</quote>
+          </p>
+          <p xml:id="gom-io1-d1e636">
+            <quote xml:id="gom-io1-Qd1e638" type="lemma" source="http://scta.info/resource/io1_33@26-27">Qui baptizat.</quote>
+            Baptizat Christus in spiritu, non solum remittendo peccata in aqua, sed et post purgando, et amorem accendendo, et donis implendo.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e643">
+          <head xml:id="gom-io1-Hd1e645">Versus 34</head>
+          <p xml:id="gom-io1-d1e647">
+            <pb ed="#P" n="0361B"/>
+            <quote xml:id="gom-io1-Qd1e651" type="lemma" source="http://scta.info/resource/io1_34@8-11">Hic est Filius Dei.</quote>
+            Hic testatur Filium Dei quem superius virum vocabat: ut ab eo habeatur testimonium utriusque naturae.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e656">
+          <head xml:id="gom-io1-Hd1e658">Versus 35</head>
+          <p xml:id="gom-io1-d1e660">
+            <quote xml:id="gom-io1-Qd1e662" type="lemma" source="http://scta.info/resource/io1_35@1-5">Altera die iterum stabat Joannes.</quote>
+            Typice. Stat Joannes, cessat lex, tamen testimonium perhibens Christo. Ambulat Jesus, id est gratia hinc inde colligens.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e668">
+          <head xml:id="gom-io1-Hd1e670">Versus 37</head>
+          <p xml:id="gom-io1-d1e672">
+            <quote xml:id="gom-io1-Qd1e674" type="lemma" source="http://scta.info/resource/io1_37@8-10">Secuti sunt Jesum.</quote>
+            Secuti sunt, ut eum jam potius quam Joannem audirent, non tamen adhuc ei penitus adhaerentes, sed ut videant ubi habitat, ut assidue ad eum veniant, et ab eo erudiantur, et postea perfecte sunt secuti, quando eos de navi vocavit. Duo sequuntur, quia qui sequuntur gemina charitate debent accendi.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e679">
+          <head xml:id="gom-io1-Hd1e681">Versus 38</head>
+          <p xml:id="gom-io1-d1e683">
+            <quote xml:id="gom-io1-Qd1e685" type="lemma" source="http://scta.info/resource/io1_38@1-1">Conversus.</quote>
+            Quasi a tergo viderant, sed <pb ed="#P" n="0361C"/> quasi faciem praebuit illis dum de majestate descendit, ut posset videri, dum pro umbra legis Evangelii lucem exhibuit.
+          </p>
+          <p xml:id="gom-io1-d1e691">
+            <quote xml:id="gom-io1-Qd1e693" type="lemma" source="http://scta.info/resource/io1_38@10-11">Quid quaeritis?</quote>
+            Interrogat non ignorans, sed ut mercedem habeant respondentes, qui rem, non personam, quid, non quem, ne se videatur ostendere, illi personam respondent.
+          </p>
+          <p xml:id="gom-io1-d1e697">
+            <quote xml:id="gom-io1-Qd1e699" type="lemma" source="http://scta.info/resource/io1_38@20-21">Ubi habitas?</quote>
+            Mystice. Volunt ostendi sibi in quibus Christus habitet, ut se illis assimilent. Vel, qui incarnationem vident, pie quaerunt ostendi sibi aeternam mansionem quomodo sit apud Patrem.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e704">
+          <head xml:id="gom-io1-Hd1e706">Versus 39</head>
+          <p xml:id="gom-io1-d1e708">
+            <quote xml:id="gom-io1-Qd1e710" type="lemma" source="http://scta.info/resource/io1_39@3-3">Venite.</quote>
+            Quasi sermone non potest explicari, sed opere demonstratur, venite credendo et operando, et intelligetis; venite testimonio Joannis et a lege recedite, et gratiam recipietis.
+          </p>
+          <p xml:id="gom-io1-d1e714">
+            <quote xml:id="gom-io1-Qd1e716" type="lemma" source="http://scta.info/resource/io1_39@15-16">Die illo.</quote>
+            Ostendit Novum Testamentum, sive praesentem vitam.
+          </p>
+          <p xml:id="gom-io1-d1e720">
+            <quote xml:id="gom-io1-Qd1e722" type="lemma" source="http://scta.info/resource/io1_39@17-21">Hora <pb ed="#P" n="0361D"/> autem erat quasi decima.</quote>
+            Quia ex lege venerant, decalogus ad Christum misit, hora decima quaerunt ab eo doceri, quia non alius docet legem, nisi qui dedit eam. Docet autem cum misericordia et implentur quae implere non poterant, vel hora decima vesperam mundi indicat.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e729">
+          <head xml:id="gom-io1-Hd1e731">Versus 40</head>
+          <p xml:id="gom-io1-d1e733">
+            <quote xml:id="gom-io1-Qd1e735" type="lemma" source="http://scta.info/resource/io1_40@4-16">Frater Simonis Petri, unus ex duobus qui audierant a Joanne, et secuti fuerant.</quote>
+            Frater junior natu prior credit, non enim est ordo fidei inanis. Forte ad dignitatem Andreas dicitur esse frater Petri, super quem, id est super cujus fidem fundanda erat Ecclesia.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e740">
+          <head xml:id="gom-io1-Hd1e742">Versus 41</head>
+          <p xml:id="gom-io1-d1e744">
+            <quote xml:id="gom-io1-Qd1e746" type="lemma" source="http://scta.info/resource/io1_41@1-3">Invenit hic primum.</quote>
+            Vera pietas statim inventum thesaurum nuntiat fratri, ut sicut est <pb ed="#P" n="0362A"/> sanguine, sit et germanus in fide.
+          </p>
+          <p xml:id="gom-io1-d1e752">
+            <quote xml:id="gom-io1-Qd1e754" type="lemma" source="http://scta.info/resource/io1_41@10-11">Invenimus Messiam,</quote>
+            etc. Christus Graece, Messias Hebraice, unctus Latine, vere enim unctus est a Spiritu sancto specialiter, a qua unctione Christiani appellantur. Quod Jacob erexit lapidem post visionem in titulum quem olei superfusio unxit, jam divinitus per illam petram, futuram petram, scilicet Christum Spiritu sancto ungendum figuraliter intellexit, in qua petra sic fundari Ecclesiam praefigurabat, etc.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e759">
+          <head xml:id="gom-io1-Hd1e761">Versus 42</head>
+          <p xml:id="gom-io1-d1e763">
+            <quote xml:id="gom-io1-Qd1e765" type="lemma" source="http://scta.info/resource/io1_42@11-14">Tu es Simon filius.</quote>
+            Prius dicit nomen ut habet a parentibus, ut significetur mutatio, dum de Simone Petrum dicit. In mutatione autem notatur vivacitas mysterii, sed nec prius nomen caret virtute. Est enim Simon obediens filius gratiae vel columbae, dum venit ad Jesum, sequens fratrem, <pb ed="#P" n="0362B"/> unde a petra Christo dicitur Petrus, infirmus in illo, in figura Ecclesiae quae in petra fundatur.
+          </p>
+          <p xml:id="gom-io1-d1e771">
+            <quote xml:id="gom-io1-Qd1e773" type="lemma" source="http://scta.info/resource/io1_42@11-13">Tu es Simon.</quote>
+            <ref xml:id="gom-io1-Rd1e776"><name xml:id="gom-io1-Nd1e777" ref="#JohnChrysostom">CHRYS.</name></ref>
+            <quote xml:id="gom-io1-Qd1e780">Ideo nomen mutavit ut ostendat quia ipse est qui Vetus Testamentum dedit, et nomina transmutavit, quia Abram Abraham vocavit, et Sarai Saram, et Jacob Israelem. Igitur multis quidem et a nativitate nomina imposuit, ut Isaac et Samson, aliis autem post eam quae a progenitoribus est nuncupationem, ut Petro et filiis Zebedaei. Nam quibus quidam a prima aetate debebat virtus clarescere, ex tunc nomina susceperunt: quibus autem postea debebat augeri, postea nuncupatio posita est.</quote>
+          </p>
+          <p xml:id="gom-io1-d1e783">
+            <quote xml:id="gom-io1-Qd1e785" type="lemma" source="http://scta.info/resource/io1_42@14-15">Filius Joanna,</quote>
+            etc. Jona dicitur et Joanna indifferenter. Jona <quote xml:id="gom-io1-Qd1e788">columba,</quote> Joanna <mentioned>gratia</mentioned> interpretatur.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e795">
+          <head xml:id="gom-io1-Hd1e797">Versus 43</head>
+          <p xml:id="gom-io1-d1e799">
+            <pb ed="#P" n="0362C"/>
+            <quote xml:id="gom-io1-Qd1e803" type="lemma" source="http://scta.info/resource/io1_43@5-9">In Galilaeam et invenit Philippum.</quote>
+            Galilaea dicitur transmigratio, vel revelatio. Transmigrat enim homo de vitiis ad virtutes, et post de virtute in virtutem, et sic fit ei revelatio, ut videatur Deus deorum in Sion. Vocaturus ergo discipulum ad sequendum, id est ad imitandum exit in Galilaeam, ipso loco innuens, ut sicut ipse proficiebat sapientia, et sicut per passiones intravit in gloriam, sic et sequaces.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e808">
+          <head xml:id="gom-io1-Hd1e810">Versus 44</head>
+          <p xml:id="gom-io1-d1e812">
+            <quote xml:id="gom-io1-Qd1e814" type="lemma" source="http://scta.info/resource/io1_44@4-6">A Bethsaida civitate.</quote>
+            Non frustra nominatur civitas, nec frustra dicitur Philippi, Petri et Andreae. Sonat enim domus venatorum, in quo notatur animus et officium istorum: sunt enim venatores in capiendis animabus, unde Philippus, antequam fiat apostolus, sponte vocat Nathanaelem.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e819">
+          <head xml:id="gom-io1-Hd1e821">Versus 45</head>
+          <p xml:id="gom-io1-d1e823">
+            <pb ed="#P" n="0362D"/>
+            <quote xml:id="gom-io1-Qd1e827" type="lemma" source="http://scta.info/resource/io1_45@1-2">Invenit Philippus,</quote>
+            etc. Nathanael peritissimus Scripturarum intelligit quod non alii, scilicet a Nazareth exire singularem Nazarenum: quia autem doctissimus, non est in apostolum electus: omnes enim apostoli primum de idiotis, ut confundantur sapientes.
+          </p>
+          <p xml:id="gom-io1-d1e831">
+            <quote xml:id="gom-io1-Qd1e833" type="lemma" source="http://scta.info/resource/io1_45@7-9">Quem scripsit Moyses.</quote>
+            Ut cautus venator multis rationibus veritatem fratri astruit, scilicet quod Jesus est qui praenuntiatur in lege et prophetis. Filius Joseph, qui est de domo David, ut per eum (non quod de eo natus) cum Maria matre ejus (quam sciebat ex prophetis virginem peperisse) notetur esse ex David.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e838">
+          <head xml:id="gom-io1-Hd1e840">Versus 46</head>
+          <p xml:id="gom-io1-d1e842">
+            <quote xml:id="gom-io1-Qd1e844" type="lemma" source="http://scta.info/resource/io1_46@1-4">Et dixit ei Nathanael.</quote>
+            Vel dubitando interrogat vel affirmat ut legisperitus, a civitate <pb ed="#P" n="0363A"/> tanti nominis posse esse aliquem bonum vel eximium doctorem, vel summum Salvatorem. Dicitur enim Nazareth, flos vel germen munditiae, vel sanctitas. Utrique autem pronuntiationi congrue subditur: <quote xml:id="gom-io1-Qd1e849" source="http://scta.info/resource/io1_46@14-16">Veni et vide,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e854">
+          <head xml:id="gom-io1-Hd1e856">Versus 47</head>
+          <p xml:id="gom-io1-d1e858">
+            <quote xml:id="gom-io1-Qd1e860" type="lemma" source="http://scta.info/resource/io1_47@11-13">Ecce vere Israelita.</quote>
+            Dolus, id est simulatio. Si enim habet peccata, confitetur. Non ergo negat peccatorem, sed in eo laudat confessionem. Pharisaei autem sunt dolosi qui se bonos praedicant cum sint mali.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e865">
+          <head xml:id="gom-io1-Hd1e867">Versus 48</head>
+          <p xml:id="gom-io1-d1e869">
+            <quote xml:id="gom-io1-Qd1e871" type="lemma" source="http://scta.info/resource/io1_48@4-6">Unde me nosti?</quote>
+            Cognoscens Dominum loqui de sua conscientia, non ex indignatione quaerit, sed admirando, unde et ex qua virtute.
+          </p>
+          <p xml:id="gom-io1-d1e875">
+            <quote xml:id="gom-io1-Qd1e877" type="lemma" source="http://scta.info/resource/io1_48@18-21">Sub ficu vidi te.</quote>
+            <ref xml:id="gom-io1-Rd1e880"><name xml:id="gom-io1-Nd1e881" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io1-Qd1e884">Nathanael, id est donum Dei, est verus populus Israel donum Dei, qui erat <pb ed="#P" n="0363B"/> sub ficu abditus, id est subditus sub consuetudine peccandi et umbra mortis, ut primi parentes sub fici foliis se texerunt, ubi prius visus esset a Domino et quaesitus, quam Dominum videret et quaereret, et ante etiam quam per apostolos vocaret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e892">
+          <head xml:id="gom-io1-Hd1e894">Versus 49</head>
+          <p xml:id="gom-io1-d1e896">
+            <quote xml:id="gom-io1-Qd1e898" type="lemma" source="http://scta.info/resource/io1_49@6-10">Rabbi, tu es Filius Dei.</quote>
+            Quia cognovit Nathanael Christum absentem vidisse quae ipse in alio loco gesserat, id est, quomodo et ubi vocatus sit a Philippo, quod est indicium Deitatis, fatetur non solum magistrum, sed et Dei Filium, et regem Israel, id est Christum in quo probatur esse Israelita, ut dicitur, id est videns Deum.
+          </p>
+        </div>
+        <div xml:id="gom-io1-Dd1e903">
+          <head xml:id="gom-io1-Hd1e905">Versus 51</head>
+          <p xml:id="gom-io1-d1e907">
+            <quote xml:id="gom-io1-Qd1e909" type="lemma" source="http://scta.info/resource/io1_51@8-10">Videbitis coelum apertum.</quote>
+            Nathanael Israelita, dicitur visurus apertum coelum, et angelos Dei descendentes et ascendentes, ut olim patriarcha <pb ed="#P" n="0363C"/> Jacob vidit scalam, et angelos ascendentes et descendentes, qui per benedictionem vocatus est Israel.
+          </p>
+          <p xml:id="gom-io1-d1e915">
+            <quote xml:id="gom-io1-Qd1e917" type="lemma" source="http://scta.info/resource/io1_51@12-13">Angelos Dei.</quote>
+            Saepe hoc miraculum apparuit quod angeli ascendebant et descendebant super Christum.
+          </p>
+          <p xml:id="gom-io1-d1e921">
+            <quote xml:id="gom-io1-Qd1e923" type="lemma" source="http://scta.info/resource/io1_51@17-19">Super Filium hominis.</quote>
+            Christus dicit se Filium hominis, affirmans quod minus est, scilicet humanitatem, Nathanael et Petrus Filium Dei, quod majus est, affirmantes divinitatem. Ecce confirmatio utriusque naturae in Christo. Isti confitentes deitatem, merentur ascendere, ille asserens humanitatem, testatur se ad redimendum venisse.
+          </p>
+          <p xml:id="gom-io1-d1e927">
+            <quote xml:id="gom-io1-Qd1e929" type="lemma" source="http://scta.info/resource/io1_51@17-19">Super Filium hominis.</quote>
+            Confirmat se esse hominem ne aliqui errarent, credentes ipsum tantum esse Deum ut etiam Petrus cum dixit: <quote xml:id="gom-io1-Qd1e932" source="http://scta.info/resource/mt16_22@9-12">Absit a te, Domine.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

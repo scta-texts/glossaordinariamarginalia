@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 20</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 20</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0150A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt20">
+        <head xml:id="gom-mt20-Hd1e98">Caput 20</head>
+        <div xml:id="gom-mt20-Dd1e100">
+          <head xml:id="gom-mt20-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt20-d1e104">
+            <quote xml:id="gom-mt20-Qd1e106" type="lemma" source="http://scta.info/resource/mt20_1@1-4">Simile est regnum.</quote>
+            Ostendit per parabolam, quia primi erunt novissimi, et novissimi primi. Pater iste familias conditor noster est, qui habet vineam, universalem Ecclesiam, quae ab Abel usque ad ultimum electum qui in fine nasciturus est quotquot sanctos protulit, tot palmites misit. Hic pater exiit ad excolendam vineam mane hora tertia, sexta, nona, undecima operarios conduxit a mundi hujus initio usque ad finem: ad erudiendam fidelium <pb ed="#P" n="0150B"/> plebem praedicatores mittere non desistit.
+          </p>
+          <p xml:id="gom-mt20-d1e112">
+            <quote xml:id="gom-mt20-Qd1e114" type="lemma" source="http://scta.info/resource/mt20_1@1-4">Simile est regnum.</quote>
+            Non homini solum, sed toti negotio ab homine gesto, et in similibus similiter.
+          </p>
+          <p xml:id="gom-mt20-d1e118">
+            <quote xml:id="gom-mt20-Qd1e120" type="lemma" source="http://scta.info/resource/mt20_1@11-12">Primo mane.</quote>
+            Manifeste coepit a primo justo aeterna mercede praedicatores ad plantandam Ecclesiam invitare.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e125">
+          <head xml:id="gom-mt20-Hd1e127">Versus 2</head>
+          <p xml:id="gom-mt20-d1e129">
+            <quote xml:id="gom-mt20-Qd1e131" type="lemma" source="http://scta.info/resource/mt20_2@1-1">Conventione.</quote>
+            Id est, confirmata promissione quod ad imaginem Dei reformandi essent, si Ecclesiam aedificando mandatis decalogi insisterent.
+          </p>
+          <p xml:id="gom-mt20-d1e135">
+            <quote xml:id="gom-mt20-Qd1e137" type="lemma" source="http://scta.info/resource/mt20_2@6-7">Ex denario.</quote>
+            <ref xml:id="gom-mt20-Rd1e140"><name xml:id="gom-mt20-Nd1e141" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt20-Qd1e144"><seg type="qs">Denarius habet imaginem regis</seg>, etc., usque ad <seg type="qs">vel in ultimis resipiscite.</seg></quote>
+          </p>
+          <p xml:id="gom-mt20-d1e152">
+            <quote xml:id="gom-mt20-Qd1e154" type="lemma" source="http://scta.info/resource/mt20_2">A novissimis usque,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Quia qui in adventu Domini vocati sunt ad regnum, sine aliqua tarditate perveniunt, aequales his qui ab initio mundi coeperunt, omnes quidem idem coelum, sed stella differt a stella in claritate. A novissimis incoepit, dum prius <pb ed="#P" n="0150C"/> latronem quam Petrum in paradisum introduxit. Quia prius aliquando remunerantur sero venientes, quia prius de corpore exeunt, quam qui in pueritia vocati sunt.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e163">
+          <head xml:id="gom-mt20-Hd1e165">Versus 15</head>
+          <p xml:id="gom-mt20-d1e167">
+            <quote xml:id="gom-mt20-Qd1e169" type="lemma" source="http://scta.info/resource/mt20_15@1-3">Aut non licet.</quote>
+            Stulta quaestio contra bonitatem Dei. Quaerendum esset, non si daret quod non deberet: sed si non quod deberet.
+          </p>
+          <p xml:id="gom-mt20-d1e173">
+            <quote xml:id="gom-mt20-Qd1e175" type="lemma" source="http://scta.info/resource/mt20_15@8-10">An oculus tuus,</quote>
+            etc. Vere Judaei pravam intentionem habuerunt qui prohibuerunt apostolos gentibus loqui, ut salvae fierent.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e180">
+          <head xml:id="gom-mt20-Hd1e182">Versus 16</head>
+          <p xml:id="gom-mt20-d1e184">
+            <quote xml:id="gom-mt20-Qd1e186" type="lemma" source="http://scta.info/resource/mt20_16@1-4">Sic erunt novissimi primi.</quote>
+            <ref xml:id="gom-mt20-Rd1e189"><name xml:id="gom-mt20-Nd1e190" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt20-Qd1e193">Id est, Judaei de capite vertentur in caudam: et gentes de cauda in caput. Unde Moyses in Deuteronomii libro: <quote xml:id="gom-mt20-Qd1e195">Advena qui tecum moratur, ascendet super te: ille erit in caput, et tu eris in caudam.</quote> Sed tamen <pb ed="#P" n="0150D"/> nec omnes primi nec omnes novissimi ad numerum electorum pertinent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e203">
+          <head xml:id="gom-mt20-Hd1e205">Versus 18</head>
+          <p xml:id="gom-mt20-d1e207">
+            <quote xml:id="gom-mt20-Qd1e209" type="lemma" source="http://scta.info/resource/mt20_18@1-2">Ecce ascendimus,</quote>
+            etc.
+            <ref xml:id="gom-mt20-Rd1e212"><name xml:id="gom-mt20-Nd1e213" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt20-Qd1e216"><seg type="qs">Hoc saepe eis dixerat</seg>, etc., usque ad <seg type="qs">resurrecturum non dubitent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e225">
+          <head xml:id="gom-mt20-Hd1e227">Versus 19</head>
+          <p xml:id="gom-mt20-d1e229">
+            <quote xml:id="gom-mt20-Qd1e231" type="lemma" source="http://scta.info/resource/mt20_19@5-6">Ad illudendum,</quote>
+            etc. Ideo Dominus in mundo noluit prosperari sed gravia pati, ut ostenderet nos qui per delectationem cecidimus cum qua amaritudine redire debeamus.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e236">
+          <head xml:id="gom-mt20-Hd1e238">Versus 20</head>
+          <p xml:id="gom-mt20-d1e240">
+            <quote xml:id="gom-mt20-Qd1e242" type="lemma" source="http://scta.info/resource/mt20_20@1-4">Tunc accessit ad eum.</quote>
+            Audita resurrectione putavit eum illico (immemor secundi adventus) regnaturum, et aviditate feminea praesentia cupit, immemor futurorum.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e247">
+          <head xml:id="gom-mt20-Hd1e249">Versus 21</head>
+          <p xml:id="gom-mt20-d1e251">
+            <quote xml:id="gom-mt20-Qd1e253" type="lemma" source="http://scta.info/resource/mt20_21@8-9">Dic ut,</quote>
+            etc. Bonum desiderium, sed <pb ed="#P" n="0151A"/> inconsiderata petitio. Et ideo non voluntas, non propositum culpatur, sed ignorantia: et si impetrare non debet simplicitas, non meretur confundi.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e260">
+          <head xml:id="gom-mt20-Hd1e262">Versus 22</head>
+          <p xml:id="gom-mt20-d1e264">
+            <quote xml:id="gom-mt20-Qd1e266" type="lemma" source="http://scta.info/resource/mt20_22@5-5">Nescitis.</quote>
+            Qui sedem gloriae petitis vel quaeritis, quam nondum meruistis, delectat culmen honoris quos nondum exercuit via laboris.
+          </p>
+          <p xml:id="gom-mt20-d1e270">
+            <quote xml:id="gom-mt20-Qd1e272" type="lemma" source="http://scta.info/resource/mt20_22@8-8">Potestis.</quote>
+            Et hoc sciebat, quod ejus passionem poterant imitari; sed hoc dicit, ut eo interrogante, et illis respondentibus, omnes audiamus: quia nemo potest cum Christo regnare, nisi passionem ejus sit imitatus.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e277">
+          <head xml:id="gom-mt20-Hd1e279">Versus 23</head>
+          <p xml:id="gom-mt20-d1e281">
+            <quote xml:id="gom-mt20-Qd1e283" type="lemma" source="http://scta.info/resource/mt20_23@3-3">Calicem.</quote>
+            Ut Jacobus ab Herode truncatus, et Joannes in ferventis olei dolium missus, et in Pathmos relegatus, animo non defuit martyrium.
+          </p>
+          <p xml:id="gom-mt20-d1e287">
+            <quote xml:id="gom-mt20-Qd1e289" type="lemma" source="http://scta.info/resource/mt20_23@14-17">Non est meum dare.</quote>
+            Hoc est regnum coelorum non est dantis sed accipientis. <quote xml:id="gom-mt20-Qd1e292" source="http://scta.info/resource/rom2_11@1-7">Non enim personarum acceptio <pb ed="#P" n="0151B"/> est apud Deum:</quote> sed quicunque dignus est accipit, quod non paratum personae est, sed vitae. Si itaque tales estis qui consequamini, quod victoribus pater paravit, accipietis. Vel, non est meum dare superbis, quod adhuc estis, sed aliis quibus paratum est. Ergo et vos nolite esse quod estis, sed estote alii, id est, humiliamini qui jam vultis exaltari, et est paratum vobis.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e300">
+          <head xml:id="gom-mt20-Hd1e302">Versus 24</head>
+          <p xml:id="gom-mt20-d1e304">
+            <quote xml:id="gom-mt20-Qd1e306" type="lemma" source="http://scta.info/resource/mt20_24@1-3">Et audientes decem.</quote>
+            Ut illi carnaliter petiverunt esse super omnes, sic et isti carnaliter contristati sunt esse aliquem ante se.
+          </p>
+        </div>
+        <div xml:id="gom-mt20-Dd1e311">
+          <head xml:id="gom-mt20-Hd1e313">Versus 30</head>
+          <p xml:id="gom-mt20-d1e315">
+            <quote xml:id="gom-mt20-Qd1e317" type="lemma" source="http://scta.info/resource/mt20_30@1-4">Et ecce duo caeci.</quote>
+            De istis unum commemorat Marcus, quia fuerat in illa civitate famosissimus: qui ex magna felicitate ejectus notissimae erat miseriae. Caecus nempe et mendicus, unde et nomen <pb ed="#P" n="0151C"/> ejus memorat, et nomen patris ejus Barthimaeus Thimaei filius, quod in aliis non facile occurrit, nisi in Jairo, qui et in illo loco nobilis fuit. Famositas autem illuminati, magnam famam miraculo comparavit. Veniens Jericho unum illuminat quod Lucas ait, quia morti propinquans lumen Evangelii praedicavit Judaeis, exiens duos, quia post resurrectionem Judaeis, et gentibus. De quibus Marcus unum ponit, qui gentibus scribit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

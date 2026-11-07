@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lucas, Prooemium Lucae in Evangelium suum</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lucas, Prooemium Lucae in Evangelium suum</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0243C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-lcprooem">
+        <head xml:id="gom-lcprooem-Hd1e98">PROOEMIUM LUCAE IN EVANGELIUM SUUM.</head>
+        <div xml:id="gom-lcprooem-Dd1e100">
+          <head xml:id="gom-lcprooem-Hd1e102">Versus 1</head>
+          <p xml:id="gom-lcprooem-d1e104">
+            <quote xml:id="gom-lcprooem-Qd1e106">Quoniam quidem,</quote> etc.
+          </p>
+          <p xml:id="gom-lcprooem-d1e109">
+            <ref xml:id="gom-lcprooem-Rd1e111"><name xml:id="gom-lcprooem-Nd1e112" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lcprooem-Qd1e115"><seg type="qs">Lucas de omnibus quae fecit Jesus et docuit</seg>, etc., usque ad <seg type="qs">magis ordinarent narrationem quam historiae texerent veritatem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lcprooem-Dd1e124">
+          <head xml:id="gom-lcprooem-Hd1e126">Versus 3</head>
+          <p xml:id="gom-lcprooem-d1e128">
+            <pb ed="#P" n="0243D"/>
+            <quote xml:id="gom-lcprooem-Qd1e132">Omnia.</quote>
+          </p>
+          <p xml:id="gom-lcprooem-d1e135">
+            <ref xml:id="gom-lcprooem-Rd1e137"><name xml:id="gom-lcprooem-Nd1e138" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lcprooem-Qd1e141"><seg type="qs">Non omnia quae assecutus, sed de omnibus quae ad fidem legentium confirmandam credit idonea. Ex consulto enim multa praeterit, quae alii dicunt, ut diversa in Evangelio gratia refulgeret, et propriis quibusdam libri singuli mysteriorum gestorumque miracula eminerent. <quote xml:id="gom-lcprooem-Qd1e144">Theophile.</quote> Theophilus, amans Deum</seg>, etc., usque ad <seg type="qs">fidem perpetuae divinitatis et temporaneae dispensationis illius debet ordinem nosse.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthaeus, Caput 28</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Matthaeus, Caput 28</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0177B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mt28">
+        <head xml:id="gom-mt28-Hd1e98">Caput 28</head>
+        <div xml:id="gom-mt28-Dd1e100">
+          <head xml:id="gom-mt28-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mt28-d1e104">
+            <pb ed="#P" n="0177B"/>
+            <quote xml:id="gom-mt28-Qd1e108" type="lemma" source="http://scta.info/resource/mt28_1@1-1">Vespere,</quote>
+            etc.
+            <ref xml:id="gom-mt28-Rd1e111"><name xml:id="gom-mt28-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt28-Qd1e115"><seg type="qs">Quod diversa tempora istarum mulierum</seg>, etc., usque ad <seg type="qs">adire non potuerunt, mane adeunt.</seg></quote>
+          </p>
+          <p xml:id="gom-mt28-d1e123">
+            <quote xml:id="gom-mt28-Qd1e125" type="lemma" source="http://scta.info/resource/mt28_1@10-14">Maria Magdalene, et altera Maria.</quote>
+            Duae unius nominis et devotionis mulieres, duas significant plebes pari devotione Christi passionem et resurrectionem amplectentes.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e130">
+          <head xml:id="gom-mt28-Hd1e132">Versus 2</head>
+          <p xml:id="gom-mt28-d1e134">
+            <quote xml:id="gom-mt28-Qd1e136" type="lemma" source="http://scta.info/resource/mt28_2">Terrae motus.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Sicut in passione et in resurrectione fit motus terrae: significat autem corda terrenorum per fidem passionis et resurrectionis ad poenitentiam movenda.
+          </p>
+          <p xml:id="gom-mt28-d1e142">
+            <quote xml:id="gom-mt28-Qd1e144" type="lemma" source="http://scta.info/resource/mt28_2@15-16">Revolvit lapidem.</quote>
+            Clauso potuit exire sepulcro, qui clauso natus est virginis utero. Revolutio lapidis significat reserationem sacramentorum Christi, quae velo litterae tegebantur: <pb ed="#P" n="0177C"/> quo ablato, resurrectio, mortis abolitio, vita aeterna coepit toto orbe praedicari.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e151">
+          <head xml:id="gom-mt28-Hd1e153">Versus 3</head>
+          <p xml:id="gom-mt28-d1e155">
+            <quote xml:id="gom-mt28-Qd1e157" type="lemma" source="http://scta.info/resource/mt28_3@5-6">Sicut fulgur.</quote>
+            In candore vestis significabat blandum justis, in terrore fulguris, significat terribilem futurum reprobis.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e162">
+          <head xml:id="gom-mt28-Hd1e164">Versus 5</head>
+          <p xml:id="gom-mt28-d1e166">
+            <quote xml:id="gom-mt28-Qd1e168" type="lemma" source="http://scta.info/resource/mt28_5@6-7">Nolite timere.</quote>
+            Quae vestros concives videtis. Illi timeant qui ad eorum societatem non pertinent.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e174">
+          <head xml:id="gom-mt28-Hd1e176">Versus 7</head>
+          <p xml:id="gom-mt28-d1e178">
+            <quote xml:id="gom-mt28-Qd1e180" type="lemma" source="http://scta.info/resource/mt28_7@1-3">Et cito euntes.</quote>
+            Nec concessum est nobis hoc gaudium occulto cordis tenere, sed similiter amantibus pandere.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e185">
+          <head xml:id="gom-mt28-Hd1e187">Versus 8</head>
+          <p xml:id="gom-mt28-d1e189">
+            <quote xml:id="gom-mt28-Qd1e191" type="lemma" source="http://scta.info/resource/mt28_8@6-10">Cum timore et gaudio.</quote>
+            Duplex est affectus in eis, timoris et gaudii. Alter de magnitudine miraculi, alter ex desiderio resurgentis, et uterque gradum femineum concitabat.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e196">
+          <head xml:id="gom-mt28-Hd1e198">Versus 9</head>
+          <p xml:id="gom-mt28-d1e200">
+            <pb ed="#P" n="0177D"/>
+            <quote xml:id="gom-mt28-Qd1e204" type="lemma" source="http://scta.info/resource/mt28_9@1-3">Et ecce Jesus,</quote>
+            etc. Sic omnibus iter virtutum inchoantibus adjuvando occurrit Christus.
+          </p>
+          <p xml:id="gom-mt28-d1e208">
+            <quote xml:id="gom-mt28-Qd1e210" type="lemma" source="http://scta.info/resource/mt28_9@11-12">Et tenuerunt.</quote>
+            Superius dictum est clauso exisse monumento, ut immortale corpus intelligeres: hic tenentur pedes, ut veram carnem comprobes. Et quia tantam visionem tremebant, primum pellitur timor: <quote xml:id="gom-mt28-Qd1e213" source="http://scta.info/resource/mt28_10@5-6">Nolite timere,</quote> ut mente placida possint audire quae dicuntur. Istae tenent pedes quae adorant resuscitatum: sed illa quae nesciebat adhuc resurrexisse <pb ed="#P" n="0178A"/> Filium Dei, audit merito: <quote xml:id="gom-mt28-Qd1e218" source="http://scta.info/resource/io20_17@4-12">Noli me tangere, nondum enim ascendi ad Patrem meum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e223">
+          <head xml:id="gom-mt28-Hd1e225">Versus 10</head>
+          <p xml:id="gom-mt28-d1e227">
+            <quote xml:id="gom-mt28-Qd1e229" type="lemma" source="http://scta.info/resource/mt28_10@8-8">Nuntiate.</quote>
+            Ut mulier mortifera serpentis verba narravit, ita modo verba vivificatoris, ut a qua tunc mors, modo ab ea vita.
+          </p>
+          <p xml:id="gom-mt28-d1e233">
+            <quote xml:id="gom-mt28-Qd1e235" type="lemma" source="http://scta.info/resource/mt28_10@9-10">Fratribus meis.</quote>
+            Ante etiam servos vocavit, modo fratres, ut post resurrectionem eamdem humanitatem resumpsisse, et illos idem sperare doceat.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e240">
+          <head xml:id="gom-mt28-Hd1e242">Versus 12</head>
+          <p xml:id="gom-mt28-d1e244">
+            <quote xml:id="gom-mt28-Qd1e246" type="lemma" source="http://scta.info/resource/mt28_12@7-8">Pecuniam copiosam.</quote>
+            <ref xml:id="gom-mt28-Rd1e249"><name xml:id="gom-mt28-Nd1e250" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mt28-Qd1e253">Qui rebus Ecclesiae abutuntur in aliis rebus quibus suam expleant voluntatem, similes sunt scribarum et Pharisaeorum et sacerdotum redimentium mendacium et sanguinem Salvatoris.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e257">
+          <head xml:id="gom-mt28-Hd1e259">Versus 13</head>
+          <p xml:id="gom-mt28-d1e261">
+            <quote xml:id="gom-mt28-Qd1e263" type="lemma" source="http://scta.info/resource/mt28_13@9-13">Furati sunt eum nobis dormientibus.</quote>
+            <ref xml:id="gom-mt28-Rd1e266"><name xml:id="gom-mt28-Nd1e267" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt28-Qd1e270">Si dormierunt, quomodo viderunt? Si non <pb ed="#P" n="0178B"/> viderunt, quomodo testes esse potuerunt? Avaritia quae captivavit discipulum comitem Domini, decepit et milites custodes sepulcri: et sic Judaeos seduxit, unde subdit: <quote xml:id="gom-mt28-Qd1e274" source="http://scta.info/resource/mt28_15@9-11">Et divulgatum est.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e280">
+          <head xml:id="gom-mt28-Hd1e282">Versus 16</head>
+          <p xml:id="gom-mt28-d1e284">
+            <quote xml:id="gom-mt28-Qd1e286" type="lemma" source="http://scta.info/resource/mt28_16@4-4">Abierunt.</quote>
+            A Jerusalem in Galilaeam.
+          </p>
+          <p xml:id="gom-mt28-d1e290">
+            <quote xml:id="gom-mt28-Qd1e292" type="lemma" source="http://scta.info/resource/mt28_16@7-8">In montem:</quote>
+            quia corpus de communi terra susceptum super omnia terrena erat elevatum. Et monet nos, ut si eum videre volumus, ad superna de infimis elevemur. Praecessit Christus primitiae dormientium, sequuntur alii in suo ordine, et videntes eum adorant, id est, sine fine laudant.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e297">
+          <head xml:id="gom-mt28-Hd1e299">Versus 17</head>
+          <p xml:id="gom-mt28-d1e301">
+            <quote xml:id="gom-mt28-Qd1e303" type="lemma" source="http://scta.info/resource/mt28_17@5-7">Quidam autem dubitaverunt,</quote>
+            ut Lucas ait: existimantes se spiritum videre, quem moriendo tradidit.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e308">
+          <head xml:id="gom-mt28-Hd1e310">Versus 18</head>
+          <p xml:id="gom-mt28-d1e312">
+            <quote xml:id="gom-mt28-Qd1e314" type="lemma" source="http://scta.info/resource/mt28_18@1-2">Et accedens.</quote>
+            Et ideo pius magister et <pb ed="#P" n="0178C"/> illos ad fidem confortat, et dubios ad fidem vocat intimans ad quantam pervenerit gloriam.
+          </p>
+          <p xml:id="gom-mt28-d1e320">
+            <quote xml:id="gom-mt28-Qd1e322" type="lemma" source="http://scta.info/resource/mt28_18@8-9">Data est.</quote>
+            Hoc non de coaeterna Patris divinitate, sed de assumpta dicit humanitate, in qua minor angelis, in qua etiam gloria et honore coronatus est et omnibus superpositus.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e327">
+          <head xml:id="gom-mt28-Hd1e329">Versus 19</head>
+          <p xml:id="gom-mt28-d1e331">
+            <quote xml:id="gom-mt28-Qd1e333" type="lemma" source="http://scta.info/resource/mt28_19@1-1">Euntes.</quote>
+            Qui jam in lucem venit, quod hactenus quibusdam de causis dubium hominibus fuerat.
+          </p>
+          <p xml:id="gom-mt28-d1e337">
+            <quote xml:id="gom-mt28-Qd1e339" type="lemma" source="http://scta.info/resource/mt28_19@3-3">Docete.</quote>
+            Congruus ordo. Primo enim docendus est auditor. Deinde fidei sacramentis imbuendus, tunc ad servanda mandata instruendus. Quia nisi prius anima fidem recipiat, non est dandus baptismus, nec valet mundari, si post non insistat bonis operibus.
+          </p>
+        </div>
+        <div xml:id="gom-mt28-Dd1e344">
+          <head xml:id="gom-mt28-Hd1e346">Versus 20</head>
+          <p xml:id="gom-mt28-d1e348">
+            <quote xml:id="gom-mt28-Qd1e350" type="lemma" source="http://scta.info/resource/mt28_20@8-12">Et ecce ego vobiscum sum.</quote>
+            Quae autem <pb ed="#P" n="0178D"/> merces piae conversationis, quodve pignus futurae beatitudinis etiam in praesenti sit fidelibus, subdit: <quote xml:id="gom-mt28-Qd1e355" source="http://scta.info/resource/mt28_20@9-12">Ecce ego vobiscum sum,</quote> etc. Quod apostolis per successiones universali Ecclesiae promittit. Nota quod usque in finem saeculi non sunt desituri qui divina mansione sunt digni.
+          </p>
+          <p xml:id="gom-mt28-d1e359">
+            <ref xml:id="gom-mt28-Rd1e361" type="lemma" subtype="implied" target="http://scta.info/resource/mt28_20@8-12"/>
+            <ref xml:id="gom-mt28-Rd1e363"><name xml:id="gom-mt28-Nd1e364" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mt28-Qd1e367"><seg type="qs">Prima sabbati diluculo</seg>, etc., usque ad <seg type="qs">dicente eis angelo: <quote xml:id="gom-mt28-Qd1e373" source="http://scta.info/resource/act1_11@20-27">Sic veniet quemadmodum vidistis eum euntem in coelum</quote>.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

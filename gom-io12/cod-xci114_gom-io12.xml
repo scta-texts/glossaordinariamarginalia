@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ioannes, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ioannes, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0401B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-io12">
+        <head xml:id="gom-io12-Hd1e98">Caput 12</head>
+        <div xml:id="gom-io12-Dd1e100">
+          <head xml:id="gom-io12-Hd1e102">Versus 1</head>
+          <p xml:id="gom-io12-d1e104">
+            <quote xml:id="gom-io12-Qd1e106" type="lemma" source="http://scta.info/resource/io12_1@7-8">Venit in Bethaniam.</quote>
+            Ideo prius Bethaniam venit, ut resuscitatio Lazari altius memoriae omnium traderetur, et inexcusabiles Judaei confunderentur, tractantes de morte tanti suscitatoris.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e111">
+          <head xml:id="gom-io12-Hd1e113">Versus 3</head>
+          <p xml:id="gom-io12-d1e115">
+            <quote xml:id="gom-io12-Qd1e117" type="lemma" source="http://scta.info/resource/io12_3@1-2">Maria ergo.</quote>
+            Pretiosum unguentum fit de nardo maxime de spicis, hic autem dicitur pistici a loco unde erat. Et interpretatur fidelis, non alia admixtione corrupti.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e122">
+          <head xml:id="gom-io12-Hd1e124">Versus 4</head>
+          <p xml:id="gom-io12-d1e126">
+            <quote xml:id="gom-io12-Qd1e128" type="lemma" source="http://scta.info/resource/io12_4@1-3">Dixit ergo unus.</quote>
+            Judas etsi malus <pb ed="#P" n="0401C"/> tamen inter apostolos numeratur, ut doceamur malos tolerare, ne corpus Christi dividamus, et malos bonis non obesse.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e135">
+          <head xml:id="gom-io12-Hd1e137">Versus 6</head>
+          <p xml:id="gom-io12-d1e139">
+            <quote xml:id="gom-io12-Qd1e141" type="lemma" source="http://scta.info/resource/io12_6@4-5">Non quia,</quote>
+            etc. Quantum ad suam intentionem ad eum non pertinebat de egenis, quia non curabat de ipsis, non quia commissum esset ei dispensare pauperibus.
+          </p>
+          <p xml:id="gom-io12-d1e145">
+            <quote xml:id="gom-io12-Qd1e147" type="lemma" source="http://scta.info/resource/io12_6@16-17">Loculos habens,</quote>
+            etc. Cui ministrant angeli, loculos habet in sumptus pauperum, condescendens infirmis.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e153">
+          <head xml:id="gom-io12-Hd1e155">Versus 7</head>
+          <p xml:id="gom-io12-d1e157">
+            <quote xml:id="gom-io12-Qd1e159" type="lemma" source="http://scta.info/resource/io12_7@4-5">Sinite illam.</quote>
+            Novit furem, sed non prodit, docens tolerare malos. Tantum obsequium Mariae commendat, ostendens quod esset moriturus, et ad sepeliendum aromatibus ungendus. Ideo Mariae cui non licuit mortuum ungere, datum est viventem officio funeris donare, unde secundum Marcum dicitur, <pb ed="#P" n="0401D"/> quod habuit, id est potuit, hoc fecit, <quote xml:id="gom-io12-Qd1e164" source="http://scta.info/resource/mc14_8@5-10">praevenit ungere corpus meum in sepulturam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e169">
+          <head xml:id="gom-io12-Hd1e171">Versus 8</head>
+          <p xml:id="gom-io12-d1e173">
+            <quote xml:id="gom-io12-Qd1e175" type="lemma" source="http://scta.info/resource/io12_8@6-10">Me autem non semper habetis.</quote>
+            Corporali praesentia. Vel non habebitis, tu Juda et qui sunt hujusmodi, quia si mali jam communicant sacramentis, postea tamen non habent Dominum ut boni.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e180">
+          <head xml:id="gom-io12-Hd1e182">Versus 9</head>
+          <p xml:id="gom-io12-d1e184">
+            <quote xml:id="gom-io12-Qd1e186" type="lemma" source="http://scta.info/resource/io12_9@10-11">Et venerunt.</quote>
+            Curiositas hos, non charitas adduxit. Nos econtra, si cognoscimus Jesum obedientis animae domum in qua habitet invenisse, veniamus illuc contemplatione, non propter hominem tantum quem in anima suscitatum videmus, sed ut bonam vitam imitemur, et per hoc ad visionem Jesu perveniamus.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e191">
+          <head xml:id="gom-io12-Hd1e193">Versus 10</head>
+          <p xml:id="gom-io12-d1e195">
+            <quote xml:id="gom-io12-Qd1e197" type="lemma" source="http://scta.info/resource/io12_10@1-1">Cogitaverunt.</quote>
+            Quia non poterant occultare <pb ed="#P" n="0402A"/> vel negare miraculum, stulte volunt occidere, quasi non possit suscitare occisum qui suscitavit defunctum.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e204">
+          <head xml:id="gom-io12-Hd1e206">Versus 12</head>
+          <p xml:id="gom-io12-d1e208">
+            <quote xml:id="gom-io12-Qd1e210" type="lemma" source="http://scta.info/resource/io12_12@1-2">In crastinum.</quote>
+            Ecce oves ex Israel veniunt ad pastorem. Rami sunt laudes significantes victoriam superaturi diabolum et mortem.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e215">
+          <head xml:id="gom-io12-Hd1e217">Versus 13</head>
+          <p xml:id="gom-io12-d1e219">
+            <quote xml:id="gom-io12-Qd1e221" type="lemma" source="http://scta.info/resource/io12_13@9-9">Clamabant.</quote>
+            <ref xml:id="gom-io12-Rd1e224"><name xml:id="gom-io12-Nd1e225" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io12-Qd1e228">Osanna vox obsecrantis magis indicans affectum quam rem aliquam significans, sicut interjectiones.</quote>
+          </p>
+          <p xml:id="gom-io12-d1e231">
+            <quote xml:id="gom-io12-Qd1e233" type="lemma" source="http://scta.info/resource/io12_13@17-18">Rex Israel.</quote>
+            Rex non terreno more, quod parum est, sed quia regit, et ad mentes, et ad regna coelorum ducit, et est miserationis non indignationis.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e239">
+          <head xml:id="gom-io12-Hd1e241">Versus 15</head>
+          <p xml:id="gom-io12-d1e243">
+            <quote xml:id="gom-io12-Qd1e245" type="lemma" source="http://scta.info/resource/io12_15@1-3">Noli timere, filia.</quote>
+            In reprobo populo erat filia Sion, id est, Jerusalem, scilicet oves quae devote occurrunt venienti, quibus divinitus dicitur: <pb ed="#P" n="0402B"/> Agnoscite quem laudatis, et ne timeatis cum patitur qui est vestra redemptio. Pullus in quo nemo sederat, populus est gentium qui legem Dei non acceperat.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e252">
+          <head xml:id="gom-io12-Hd1e254">Versus 19</head>
+          <p xml:id="gom-io12-d1e256">
+            <quote xml:id="gom-io12-Qd1e258" type="lemma" source="http://scta.info/resource/io12_19@11-13">Ecce totus.</quote>
+            Per passionem et resurrectionem totum mundum redemit, et secutus est eum. Et quid mirum si mundus post eum vadit per quem factus est mundus?
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e263">
+          <head xml:id="gom-io12-Hd1e265">Versus 21</head>
+          <p xml:id="gom-io12-d1e267">
+            <quote xml:id="gom-io12-Qd1e269" type="lemma" source="http://scta.info/resource/io12_21@2-3">Hi ergo accesserunt.</quote>
+            Ostendit gentes per praedicationem apostolorum conversas.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e274">
+          <head xml:id="gom-io12-Hd1e276">Versus 23</head>
+          <p xml:id="gom-io12-d1e278">
+            <quote xml:id="gom-io12-Qd1e280" type="lemma" source="http://scta.info/resource/io12_23@1-2">Jesus autem.</quote>
+            De Judaeis erant, qui clamabant: <quote xml:id="gom-io12-Qd1e283" source="http://scta.info/resource/io12_13@11-16">Benedictus qui venit in nomine Domini;</quote> modo gentiles quaerunt videre, ecce duo parietes concurrentes. Dicit itaque angularis lapis.
+          </p>
+          <p xml:id="gom-io12-d1e287">
+            <quote xml:id="gom-io12-Qd1e289" type="lemma" source="http://scta.info/resource/io12_23@6-9">Venit hora ut clarificetur.</quote>
+            Haec non est clarificatio de istis volentibus <pb ed="#P" n="0402C"/> videre, sed occasione horum annuntiat venturam plenitudinem gentium eo in coelis glorificato. Sed hanc altitudinem glorificationis praecedit humilitas passionis, unde: <quote xml:id="gom-io12-Qd1e294" source="http://scta.info/resource/io12_24@1-4">Amen, amen dico vobis,</quote> etc. Ubi se dicit granum mortificandum et multiplicandum, ad quam passionem jam exhortatus subdit: <quote xml:id="gom-io12-Qd1e297" source="http://scta.info/resource/io12_25@11-14">Qui amat animam suam,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e302">
+          <head xml:id="gom-io12-Hd1e304">Versus 24</head>
+          <p xml:id="gom-io12-d1e306">
+            <quote xml:id="gom-io12-Qd1e308" type="lemma" source="http://scta.info/resource/io12_24@5-7">Nisi granum frumenti.</quote>
+            <ref xml:id="gom-io12-Rd1e311"><name xml:id="gom-io12-Nd1e312" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io12-Qd1e315">Ipse est frumentum quo vivere debet fidelis anima. Granum, de quo spiritualis seges debet surgere. Cum sint multa grana seminum, nulli se comparat nisi frumento, unde mos coepit Ecclesiae de hoc solo grano confici corpus Domini.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e319">
+          <head xml:id="gom-io12-Hd1e321">Versus 25</head>
+          <p xml:id="gom-io12-d1e323">
+            <quote xml:id="gom-io12-Qd1e325" type="lemma" source="http://scta.info/resource/io12_25@11-12">Qui amat.</quote>
+            <ref xml:id="gom-io12-Rd1e328"><name xml:id="gom-io12-Nd1e329" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io12-Qd1e332">Qui amat in hac vita, perdit in futuro quod magis congruit, unde <pb ed="#P" n="0402D"/> subdit: <quote xml:id="gom-io12-Qd1e336" source="http://scta.info/resource/io12_25@18-20">Qui odit animam,</quote> etc. Non amat, sed odit animam in hoc mundo, qui diligendo Deum, potius quam in eum peccet eligit occidi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e343">
+          <head xml:id="gom-io12-Hd1e345">Versus 26</head>
+          <p xml:id="gom-io12-d1e347">
+            <quote xml:id="gom-io12-Qd1e349" type="lemma" source="http://scta.info/resource/io12_26@1-4">Si quis mihi ministrat.</quote>
+            Pretium operis quo illi ministratur est esse cum illo, sine quo nusquam bene est esse, et cum quo nusquam male est esse, unde et apertius subdit, <quote xml:id="gom-io12-Qd1e352" source="http://scta.info/resource/io12_26@1-4">si quis mihi ministrat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e357">
+          <head xml:id="gom-io12-Hd1e359">Versus 27</head>
+          <p xml:id="gom-io12-d1e361">
+            <quote xml:id="gom-io12-Qd1e363" type="lemma" source="http://scta.info/resource/io12_27@1-8">Nunc anima mea turbata est. Et quid dicam?</quote>
+            Praedicta passione et ad eam supposita exhortatione quasi data voce fortitudinis suae subdit affectum infirmitatis nostrae quam vere suscepit, sed ex voluntate pro nobis ne de hac infirmitate desperemus: in qua etiam docet quid dicere debeamus, et quo <pb ed="#P" n="0403A"/> confugere. Quasi dicat: Conturbatur anima mea, quid dicam? quo confugiam? quem invocem? in quem sperem? in Patrem qui salvat, cui voluntatem meam propono, quia propterea ut haec patiar veni in hanc horam, unde et clarificatio mihi sic fit et in membris meis.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e370">
+          <head xml:id="gom-io12-Hd1e372">Versus 28</head>
+          <p xml:id="gom-io12-d1e374">
+            <quote xml:id="gom-io12-Qd1e376" type="lemma" source="http://scta.info/resource/io12_28@1-2">Pater, clarifica.</quote>
+            Salvationem quaero, sed passionem non recuso, propter quam passionem clarifica me quod est gloria tui nominis.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e381">
+          <head xml:id="gom-io12-Hd1e383">Versus 30</head>
+          <p xml:id="gom-io12-d1e385">
+            <quote xml:id="gom-io12-Qd1e387" type="lemma" source="http://scta.info/resource/io12_30@5-8">Non propter me vox.</quote>
+            Ostendit hanc vocem non sibi indicasse quod sciebat, sed eis quibus indicari oportebat.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e392">
+          <head xml:id="gom-io12-Hd1e394">Versus 31</head>
+          <p xml:id="gom-io12-d1e396">
+            <quote xml:id="gom-io12-Qd1e398" type="lemma" source="http://scta.info/resource/io12_31@1-3">Nunc judicium est.</quote>
+            Discretionis scilicet, quod est ante ultimum damnationis, quia nunc per passionem jure diaboli destructo multi liberabuntur, <pb ed="#P" n="0403B"/> unde exponendo subjungit: Patior, turbor, et per haec, etc.
+          </p>
+          <p xml:id="gom-io12-d1e404">
+            <quote xml:id="gom-io12-Qd1e406" type="lemma" source="http://scta.info/resource/io12_31@9-9">Ejicietur.</quote>
+            A redemptis expelletur, praedicantibus apostolis plene expelletur qui olim a paucis etsi extra tentetur, non laedit intus.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e411">
+          <head xml:id="gom-io12-Hd1e413">Versus 34</head>
+          <p xml:id="gom-io12-d1e415">
+            <quote xml:id="gom-io12-Qd1e417" type="lemma" source="http://scta.info/resource/io12_34@13-15">Et quomodo tu,</quote>
+            etc. Quomodo in cruce morietur? Hoc enim eum dixisse putabant quod facere cogitabant. Filium hominis. Quia hoc memoriter tenebant, quod saepe dixerat se Filium hominis, non quod hic dixisset, <quote xml:id="gom-io12-Qd1e420" source="http://scta.info/resource/io12_34@18-25">si exaltatus fuerit Filius hominis. Quis est iste Filius hominis?</quote> Si enim Christus est, manet in aeternum. Si manet in aeternum, quomodo exaltabitur a terra, id est, morietur in cruce?
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e426">
+          <head xml:id="gom-io12-Hd1e428">Versus 35</head>
+          <p xml:id="gom-io12-d1e430">
+            <quote xml:id="gom-io12-Qd1e432" type="lemma" source="http://scta.info/resource/io12_35@11-11">Ambulate.</quote>
+            Id est, totum intelligite, et moriturum Christum ut redimat victurum in aeternum <pb ed="#P" n="0403C"/> in coelo quo perducat. Vel dum Christum vobiscum habetis ne tenebrae ignorantiae et mortis perpetuae vos comprehendant.
+          </p>
+          <p xml:id="gom-io12-d1e438">
+            <quote xml:id="gom-io12-Qd1e440" type="lemma" source="http://scta.info/resource/io12_35@25-27">Nescit quo vadat.</quote>
+            Qui non credit mortem Christi, nescit quo vadit, sed offendit in petram scandali, quod est Christus, Judaeis contemnentibus et irridentibus mortuum.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e445">
+          <head xml:id="gom-io12-Hd1e447">Versus 36</head>
+          <p xml:id="gom-io12-d1e449">
+            <quote xml:id="gom-io12-Qd1e451" type="lemma" source="http://scta.info/resource/io12_36@1-3">Dum lucem habetis.</quote>
+            Id est, dum aliquid veri intelligitis de aeternitate Christi, credite in veritatem addendo de humilitate, ut renascamini in veritate.
+          </p>
+          <p xml:id="gom-io12-d1e455">
+            <quote xml:id="gom-io12-Qd1e457" type="lemma" source="http://scta.info/resource/io12_36@20-21">Ab eis.</quote>
+            Non ab his qui credere incoeperant, sed ab his qui invidebant. Quod abscondit se, nostrae infirmitati consuluit, non suae potestati derogavit.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e462">
+          <head xml:id="gom-io12-Hd1e464">Versus 38</head>
+          <p xml:id="gom-io12-d1e466">
+            <quote xml:id="gom-io12-Qd1e468" type="lemma" source="http://scta.info/resource/io12_38@1-5">Ut sermo Isaiae impleretur.</quote>
+            Quem omnibus modis impleri necesse est, non tamen necessitate faciendum, sed voluntate, praescivit enim <pb ed="#P" n="0403D"/> Deus et praedixit, non credituros et peccaturos, non tamen coegit ad hoc, sed ut fit sic praescivit et praedixit.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e475">
+          <head xml:id="gom-io12-Hd1e477">Versus 39</head>
+          <p xml:id="gom-io12-d1e479">
+            <quote xml:id="gom-io12-Qd1e481" type="lemma" source="http://scta.info/resource/io12_39@2-3">Non poterant.</quote>
+            <ref xml:id="gom-io12-Rd1e484"><name xml:id="gom-io12-Nd1e485" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-io12-Qd1e488">Non quod non possunt homines mutari in melius, sed quandiu tales non possunt credere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e492">
+          <head xml:id="gom-io12-Hd1e494">Versus 43</head>
+          <p xml:id="gom-io12-d1e496">
+            <quote xml:id="gom-io12-Qd1e498" type="lemma" source="http://scta.info/resource/io12_43@7-8">Gloriam Dei.</quote>
+            Ideo crux in fronte credentium, ubi est sedes verecundiae, figitur, ut de nomine Christi nullus erubescat, et magis gloriam Dei quam hominum quaerat.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e503">
+          <head xml:id="gom-io12-Hd1e505">Versus 44</head>
+          <p xml:id="gom-io12-d1e507">
+            <quote xml:id="gom-io12-Qd1e509" type="lemma" source="http://scta.info/resource/io12_44@1-1">Jesus.</quote>
+            Aliis non credentibus, aliis vero credentibus, vel palam cum palmis et laudibus, vel in occulto jam appropinquante sua passione, clamat Jesus qui latebat quandiu passio non erat complenda. <pb ed="#P" n="0404A"/>
+          </p>
+          <p xml:id="gom-io12-d1e515">
+            <quote xml:id="gom-io12-Qd1e517" type="lemma" source="http://scta.info/resource/io12_44@6-9">Qui credit in me.</quote>
+            Quia homo apparebat, et Deus in homine latebat, ne putarent eum hoc tantum esse quod videbant, vult se credi talem et tantum qualis et quantus pater est.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e523">
+          <head xml:id="gom-io12-Hd1e525">Versus 45</head>
+          <p xml:id="gom-io12-d1e527">
+            <quote xml:id="gom-io12-Qd1e529" type="lemma" source="http://scta.info/resource/io12_45@1-7">Et qui me videt, videt et eum qui,</quote>
+            etc. Usque adeo nihil distat inter me et eum, ut qui videt me videat eum. Haec visio non carnalis, sed intellectualis est mundo corde.
+          </p>
+          <p xml:id="gom-io12-d1e533">
+            <quote xml:id="gom-io12-Qd1e535" type="lemma" source="http://scta.info/resource/io12_45@2-4">Qui videt me.</quote>
+            Non ait non videt me, sed eum qui me misit, sicut dixit, <quote xml:id="gom-io12-Qd1e538" source="http://scta.info/resource/io12_44@6-19">qui credit in me, non credit in me, sed in eum qui misit me,</quote> quia illud dixit, ne sicut videbatur crederetur tantum Filius hominis; hoc autem dixit, ut crederetur aequalis Patri. Neutrum horum diceret alius missus, id est apostolus, quia tantum servus. Potest autem dicere alia Filio communia, ut qui audit vel <pb ed="#P" n="0404B"/> recipit me audit eum et recipit qui me misit, quia Dominus honoratur in servo et Pater in Filio.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e545">
+          <head xml:id="gom-io12-Hd1e547">Versus 46</head>
+          <p xml:id="gom-io12-d1e549">
+            <quote xml:id="gom-io12-Qd1e551" type="lemma" source="http://scta.info/resource/io12_46@1-2">Ego lux.</quote>
+            De alio non dicitur: Lux venit in mundum, nisi de eo qui illuminat, caeteri ut illuminati sunt lux, quia vita eorum lucet hominibus.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e556">
+          <head xml:id="gom-io12-Hd1e558">Versus 48</head>
+          <p xml:id="gom-io12-d1e560">
+            <quote xml:id="gom-io12-Qd1e562" type="lemma" source="http://scta.info/resource/io12_48@13-16">Sermo quem locutus sum.</quote>
+            Manifeste dicit se judicaturum in novissimo die, quia ipse est sermo Patris qui seipsum locutus est, seipsum annuntiavit.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e567">
+          <head xml:id="gom-io12-Hd1e569">Versus 49</head>
+          <p xml:id="gom-io12-d1e571">
+            <quote xml:id="gom-io12-Qd1e573" type="lemma" source="http://scta.info/resource/io12_49@16-16">Mandatum.</quote>
+            Non dedit Pater Filio mandatum per angelum vel aliam creaturam. Nec mandatum quod aliquando nescisset: sed dum verbum et sapientiam in qua sunt omnia mandata, genuit, dedit: sicut Filio qui est vita, eo dedit vitam quo genuit vitam, quia gignendo vitam, dedit esse <pb ed="#P" n="0404C"/> vitam, quae sine vitio fuit.
+          </p>
+        </div>
+        <div xml:id="gom-io12-Dd1e580">
+          <head xml:id="gom-io12-Hd1e582">Versus 50</head>
+          <p xml:id="gom-io12-d1e584">
+            <quote xml:id="gom-io12-Qd1e586" type="lemma" source="http://scta.info/resource/io12_50@1-2">Et scio.</quote>
+            Cum dicat mandatum esse vitam aeternam, et ipse sit vita aeterna, aperte dicit se mandatum Dei.
+          </p>
+          <p xml:id="gom-io12-d1e590">
+            <quote xml:id="gom-io12-Qd1e592" type="lemma" source="http://scta.info/resource/io12_50@9-18">Quae ergo ego loquor sicut dixit mihi Pater, sic loquor.</quote>
+            Intelligentibus mentibus, ut est nata veritas ex Pater, sed sic loquitur veritas intus sine sono, sicut dixit ei Pater ut crederent homines quod nondum possunt intelligere, ex ore carnis verba sonuerunt, quae prolata et litteris signata, nos ad ipsam veritatem aliquatenus erigunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

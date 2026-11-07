@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lucas, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lucas, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0253C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-lc4">
+        <head xml:id="gom-lc4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-lc4-Dd1e100">
+          <head xml:id="gom-lc4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-lc4-d1e104">
+            <quote xml:id="gom-lc4-Qd1e106" type="lemma" source="http://scta.info/resource/lc4_1@10-11">Et agebatur.</quote>
+            <ref xml:id="gom-lc4-Rd1e109"><name xml:id="gom-lc4-Nd1e110" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e113">Agebatur in desertum, hoc consilio, ut diabolum provocaret; nam nisi ille certasset, iste mihi non vicisset; mysterio, <pb ed="#P" n="0253D"/> ut Adam de exsilio liberaret; exemplo, ut ostenderet nobis diabolum ad meliora tendentibus invidere.</quote>
+          </p>
+          <p xml:id="gom-lc4-d1e119">
+            <quote xml:id="gom-lc4-Qd1e121" type="lemma" source="http://scta.info/resource/lc4_1@14-15">In desertum.</quote>
+            Historialiter: in illo deserto quod est inter Hierusalem et Hiericho, ubi figuraliter dixerat Adam a diabolo victum fuisse.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e126">
+          <head xml:id="gom-lc4-Hd1e128">Versus 2</head>
+          <p xml:id="gom-lc4-d1e130">
+            <quote xml:id="gom-lc4-Qd1e132" type="lemma" source="http://scta.info/resource/lc4_2@16-16">Esuriit.</quote>
+            <ref xml:id="gom-lc4-Rd1e135"><name xml:id="gom-lc4-Nd1e136" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e139"><seg type="qs">Non est scriptum de Moyse vel Elia</seg>, etc., usque ad <seg type="qs">esurit autem non tam cibum corporis quam salutem animae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e148">
+          <head xml:id="gom-lc4-Hd1e150">Versus 3</head>
+          <p xml:id="gom-lc4-d1e152">
+            <quote xml:id="gom-lc4-Qd1e154" type="lemma" source="http://scta.info/resource/lc4_3@5-8">Si Filius Dei es.</quote>
+            <ref xml:id="gom-lc4-Rd1e157"><name xml:id="gom-lc4-Nd1e158" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e161"><seg type="qs">Noverat Dei Filium venturum, sed venisse per infirmitatem corporis non putabat</seg>, etc., usque ad <seg type="qs">qui hoc verbo non vescitur, non vivit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e170">
+          <head xml:id="gom-lc4-Hd1e172">Versus 4</head>
+          <p xml:id="gom-lc4-d1e174">
+            <quote xml:id="gom-lc4-Qd1e176" type="lemma" source="http://scta.info/resource/lc4_4@6-7">Scriptum est.</quote>
+            Docet magis doctrina quam miraculis pugnare, humilitati quam potentia, <pb ed="#P" n="0254A"/> nihil pro diaboli arbitrio, nec declarandae virtutis consideratione faciendum.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e184">
+          <head xml:id="gom-lc4-Hd1e186">Versus 5</head>
+          <p xml:id="gom-lc4-d1e188">
+            <quote xml:id="gom-lc4-Qd1e190" type="lemma" source="http://scta.info/resource/lc4_5@1-2">Et duxit.</quote>
+            Lucas sicut res gesta est exsequitur, mediam ponens avaritiam, ultimam superbiam, secundum mores praesentis temporis, quia superbia post omnes virtutes saevit. Matthaeus non sequitur ordinem historiae, sed tentationum Adae.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e195">
+          <head xml:id="gom-lc4-Hd1e197">Versus 6</head>
+          <p xml:id="gom-lc4-d1e199">
+            <quote xml:id="gom-lc4-Qd1e201" type="lemma" source="http://scta.info/resource/lc4_6@4-5">Tibi dabo.</quote>
+            Haec de arrogantia dicit, non quod totus mundus sit suus, sunt enim aliqui boni.
+          </p>
+          <p xml:id="gom-lc4-d1e205">
+            <quote xml:id="gom-lc4-Qd1e207" type="lemma" source="http://scta.info/resource/lc4_6@13-14">Mihi traditur.</quote>
+            Non a diabolo est potestas, sed obnoxia tamen insidiis diaboli. Nec ideo mala ordinatio potestatum, quia malo sunt obnoxiae potestates.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e212">
+          <head xml:id="gom-lc4-Hd1e214">Versus 7</head>
+          <p xml:id="gom-lc4-d1e216">
+            <quote xml:id="gom-lc4-Qd1e218" type="lemma" source="http://scta.info/resource/lc4_7@1-2">Tu ergo.</quote>
+            <ref xml:id="gom-lc4-Rd1e221"><name xml:id="gom-lc4-Nd1e222" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e225">Dicens diabolus Salvatori: <quote xml:id="gom-lc4-Qd1e227" source="http://scta.info/resource/lc4_7@3-6">Si procidens adoraveris me,</quote> econtrario audit, quod ipse magis adorare eum debeat, Dominum et <pb ed="#P" n="0254B"/> Deum suum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e235">
+          <head xml:id="gom-lc4-Hd1e237">Versus 9</head>
+          <p xml:id="gom-lc4-d1e239">
+            <quote xml:id="gom-lc4-Qd1e241" type="lemma" source="http://scta.info/resource/lc4_9@15-17">Si Filius Dei.</quote>
+            In omnibus tentationibus hoc agit, ut intelligat si Filius Dei sit. Sed Christus sic responsum temperat, ut ambiguum relinquat: <quote xml:id="gom-lc4-Qd1e244" source="http://scta.info/resource/lc4_9@19-22">Mitte te deorsum.</quote> Quem nec gula nec avaritia vicit, tentat vana gloria, si forte illum vel ipsa victoriae suae jactantia valeat dejicere.
+          </p>
+          <p xml:id="gom-lc4-d1e248">
+            <quote xml:id="gom-lc4-Qd1e250" type="lemma" source="http://scta.info/resource/lc4_9@19-19">Mitte.</quote>
+            Haec vox ei convenit qui omnes praecipitare satagit. In quo infirmus ostenditur qui nulli possit nocere, nisi prius ille se deorsum miserit.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e255">
+          <head xml:id="gom-lc4-Hd1e257">Versus 8</head>
+          <p xml:id="gom-lc4-d1e259">
+            <quote xml:id="gom-lc4-Qd1e261" type="lemma" source="http://scta.info/resource/lc4_8@6-7">Scriptum est.</quote>
+            Quia Scripturarum exemplum praetulerat, Scripturarum vincitur exemplis. Utitur autem diabolus per haereticos testimoniis Scripturarum, non ut doceat, sed ut fallat.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e266">
+          <head xml:id="gom-lc4-Hd1e268">Versus 10</head>
+          <p xml:id="gom-lc4-d1e270">
+            <quote xml:id="gom-lc4-Qd1e272" type="lemma" source="http://scta.info/resource/lc4_10@5-5">Angelis.</quote>
+            <ref xml:id="gom-lc4-Rd1e275"><name xml:id="gom-lc4-Nd1e276" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e279">Haec prophetia non <pb ed="#P" n="0254C"/> de Christo est, sed de sancto viro. Quae etiamsi de Christo esset, etiam quod sequitur debuerat meminisse: <quote xml:id="gom-lc4-Qd1e283" source="http://scta.info/resource/ps90_13@1-10">Super aspidem et basiliscum ambulabis, et conculcabis leonem et draconem</quote>. Sed de angelorum auxilio quasi ad infirmum loquitur, de sua conculcatione quasi tergiversator tacet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e290">
+          <head xml:id="gom-lc4-Hd1e292">Versus 13</head>
+          <p xml:id="gom-lc4-d1e294">
+            <quote xml:id="gom-lc4-Qd1e296" type="lemma" source="http://scta.info/resource/lc4_13@1-2">Et consummata.</quote>
+            <ref xml:id="gom-lc4-Rd1e299"><name xml:id="gom-lc4-Nd1e300" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e303"><seg type="qs">Tribus tentationibus victis, omnem tentationem dicit consummatam</seg>, etc., usque ad <seg type="qs">tamen formidat instare, ne frequentius triumphetur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e312">
+          <head xml:id="gom-lc4-Hd1e314">Versus 14</head>
+          <p xml:id="gom-lc4-d1e316">
+            <quote xml:id="gom-lc4-Qd1e318" type="lemma" source="http://scta.info/resource/lc4_14@10-12">Et fama exiit.</quote>
+            Non tantum a praesentibus propter visa miracula honoratur, sed apud absentes fama divulgabatur.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e323">
+          <head xml:id="gom-lc4-Hd1e325">Versus 15</head>
+          <p xml:id="gom-lc4-d1e327">
+            <quote xml:id="gom-lc4-Qd1e329" type="lemma" source="http://scta.info/resource/lc4_15@3-3">Docebat.</quote>
+            Post miracula ecce sapientia, qua docet, qua doctrina per miracula praecedentia <pb ed="#P" n="0254D"/> magnificat.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e336">
+          <head xml:id="gom-lc4-Hd1e338">Versus 16</head>
+          <p xml:id="gom-lc4-d1e340">
+            <quote xml:id="gom-lc4-Qd1e342" type="lemma" source="http://scta.info/resource/lc4_16@16-18">Et surrexit legere.</quote>
+            <ref xml:id="gom-lc4-Rd1e345"><name xml:id="gom-lc4-Nd1e346" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e349"><seg type="qs">Qui non venerat ministrari, sed ministrare</seg>, etc., usque ad <seg type="qs">vel prophetiae lectionis attestatione corrigeret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e358">
+          <head xml:id="gom-lc4-Hd1e360">Versus 18</head>
+          <p xml:id="gom-lc4-d1e362">
+            <quote xml:id="gom-lc4-Qd1e364" type="lemma" source="http://scta.info/resource/lc4_18@1-1">Spiritus.</quote>
+            <ref xml:id="gom-lc4-Rd1e367"><name xml:id="gom-lc4-Nd1e368" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e371"><seg type="qs">In superioribus prophetiae Salvator de gentium vocatione et Ecclesiae confirmatione loquens</seg>, etc., usque ad <seg type="qs">quia Spiritus Domini est super eum.</seg></quote>
+          </p>
+          <p xml:id="gom-lc4-d1e379">
+            <quote xml:id="gom-lc4-Qd1e381" type="lemma" source="http://scta.info/resource/lc4_18@9-10">Evangelizare pauperibus,</quote>
+            etc. Gentes intelligit quae erant vere pauperes. Neque enim Dei cognitionem, neque legem, neque prophetas, neque aliud quidquam in bonis habebant, et caeteris omnibus spiritualibus opibus erant destitutae.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e386">
+          <head xml:id="gom-lc4-Hd1e388">Versus 20</head>
+          <p xml:id="gom-lc4-d1e390">
+            <quote xml:id="gom-lc4-Qd1e392" type="lemma" source="http://scta.info/resource/lc4_20@1-3">Et cum plicuisset.</quote>
+            <ref xml:id="gom-lc4-Rd1e395"><name xml:id="gom-lc4-Nd1e396" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e399"><seg type="qs">Audientibus <pb ed="#P" n="0255A"/> illis qui aderant legit</seg>, etc., usque ad <seg type="qs">sed pro capacitate audientium committit doctori dispensandum verbum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e411">
+          <head xml:id="gom-lc4-Hd1e413">Versus 23</head>
+          <p xml:id="gom-lc4-d1e415">
+            <quote xml:id="gom-lc4-Qd1e417" type="lemma" source="http://scta.info/resource/lc4_23@9-9">Medice.</quote>
+            Sicut fabri filium, ita eadem erroris dementia; medicum vocant, sed in errore illorum veritas latet. Vere enim erat filius fabri, qui per ipsum in principio omnia fecit, qui operatur in Spiritu sancto et igni, qui in magna domo hujus mundi facit vasa diversi generis. Est et medicus, quia per ipsum omnia quae in coelis et quae in terra sunt restaurata. Qui de se dicit: <quote xml:id="gom-lc4-Qd1e420" source="http://scta.info/resource/mt9_12@5-12">Non est opus valentibus medicus, sed male habentibus</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e425">
+          <head xml:id="gom-lc4-Hd1e427">Versus 24</head>
+          <p xml:id="gom-lc4-d1e429">
+            <quote xml:id="gom-lc4-Qd1e431" type="lemma" source="http://scta.info/resource/lc4_24@3-5">Amen dico vobis.</quote>
+            <ref xml:id="gom-lc4-Rd1e434"><name xml:id="gom-lc4-Nd1e435" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e438"><seg type="qs">Non solum Dominus et caput prophetarum</seg>, etc., usque ad <seg type="qs">miracula suae virtutis avertit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e447">
+          <head xml:id="gom-lc4-Hd1e449">Versus 25</head>
+          <p xml:id="gom-lc4-d1e451">
+            <quote xml:id="gom-lc4-Qd1e453" type="lemma" source="http://scta.info/resource/lc4_25@8-10">In diebus Eliae.</quote>
+            <ref xml:id="gom-lc4-Rd1e456"><name xml:id="gom-lc4-Nd1e457" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e460"><seg type="qs">Quasi dicat: Non <pb ed="#P" n="0255B"/> est contrarium exemplo prophetarum</seg>, etc., usque ad <seg type="qs">quia nulla erat cognoscendae divinitatis ubertas.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e471">
+          <head xml:id="gom-lc4-Hd1e473">Versus 26</head>
+          <p xml:id="gom-lc4-d1e475">
+            <quote xml:id="gom-lc4-Qd1e477" type="lemma" source="http://scta.info/resource/lc4_26@14-14">Viduam.</quote>
+            <ref xml:id="gom-lc4-Rd1e480"><name xml:id="gom-lc4-Nd1e481" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e484"><seg type="qs">Vidua ad quam Elias mittitur, gentium figurat Ecclesiam</seg>, etc., usque ad <seg type="qs">in qua nobis vitae aeternae praeparatur panis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e493">
+          <head xml:id="gom-lc4-Hd1e495">Versus 27</head>
+          <p xml:id="gom-lc4-d1e497">
+            <quote xml:id="gom-lc4-Qd1e499" type="lemma" source="http://scta.info/resource/lc4_27">Naaman Syrus.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-lc4-Rd1e504"><name xml:id="gom-lc4-Nd1e505" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e508"><seg type="qs">Naaman, qui decor interpretatur, populum significat nationum</seg>, etc., usque ad <seg type="qs">quia oportet baptizatos Dominici corporis participatione confirmari.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e517">
+          <head xml:id="gom-lc4-Hd1e519">Versus 29</head>
+          <p xml:id="gom-lc4-d1e521">
+            <quote xml:id="gom-lc4-Qd1e523" type="lemma" source="http://scta.info/resource/lc4_29@8-9">Et duxerunt.</quote>
+            <ref xml:id="gom-lc4-Rd1e526"><name xml:id="gom-lc4-Nd1e527" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e530"><seg type="qs">Pejores Judaei discipuli, diabolo magistro</seg>, etc., usque ad <seg type="qs">veluti divini Sculptoris expressa manu servantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e540">
+          <head xml:id="gom-lc4-Hd1e542">Versus 31</head>
+          <p xml:id="gom-lc4-d1e544">
+            <quote xml:id="gom-lc4-Qd1e546" type="lemma" source="http://scta.info/resource/lc4_31@1-2">Et descendit,</quote>
+            etc.
+            <ref xml:id="gom-lc4-Rd1e549"><name xml:id="gom-lc4-Nd1e550" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e553"><seg type="qs">Nec indignatione commotus, nec scelere offensus</seg>, etc., usque ad <seg type="qs">nec solvitur lex, si sit renovatio hominis jam labentis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e562">
+          <head xml:id="gom-lc4-Hd1e564">Versus 33</head>
+          <p xml:id="gom-lc4-d1e566">
+            <pb ed="#P" n="0255C"/>
+            <quote xml:id="gom-lc4-Qd1e570" type="lemma" source="http://scta.info/resource/lc4_33@1-3">Et in Synagoga.</quote>
+            <ref xml:id="gom-lc4-Rd1e573"><name xml:id="gom-lc4-Nd1e574" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e577">In Synagoga est homo habens spiritum immundum, quia Spiritum sanctum amiserat. Introierat enim diabolus, unde Christus spiritualiter exierat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e581">
+          <head xml:id="gom-lc4-Hd1e583">Versus 34</head>
+          <p xml:id="gom-lc4-d1e585">
+            <quote xml:id="gom-lc4-Qd1e587" type="lemma" source="http://scta.info/resource/lc4_34@12-13">Scio te.</quote>
+            Per opera potuit probari Filius Dei. Sed nonne dixit Apostolis: <quote xml:id="gom-lc4-Qd1e590">Majora facietis?</quote> Solutio, per opera, id est modum operationis. Alii dicebant: <quote xml:id="gom-lc4-Qd1e592" source="http://scta.info/resource/act5_40@8-10">In nomine Jesu,</quote> etc. Ipse dicebat: <quote xml:id="gom-lc4-Qd1e595">Tibi dixi,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e599">
+          <head xml:id="gom-lc4-Hd1e601">Versus 35</head>
+          <p xml:id="gom-lc4-d1e603">
+            <quote xml:id="gom-lc4-Qd1e605" type="lemma" source="http://scta.info/resource/lc4_35@11-13">Et cum projecisset.</quote>
+            <ref xml:id="gom-lc4-Rd1e608"><name xml:id="gom-lc4-Nd1e609" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e612">Curandus permittitur a daemone in medium projici, ut virtus patefacta plures ad salutem invitet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e616">
+          <head xml:id="gom-lc4-Hd1e618">Versus 36</head>
+          <p xml:id="gom-lc4-d1e620">
+            <quote xml:id="gom-lc4-Qd1e622" type="lemma" source="http://scta.info/resource/lc4_36@19-20">Et virtute.</quote>
+            Non ut homines qui in verbo Dei daemonia ejiciunt, sed propria potestate <pb ed="#P" n="0255D"/> virtutes operatur.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e629">
+          <head xml:id="gom-lc4-Hd1e631">Versus 38</head>
+          <p xml:id="gom-lc4-d1e633">
+            <quote xml:id="gom-lc4-Qd1e635" type="lemma" source="http://scta.info/resource/lc4_38@6-8">In domum Simonis.</quote>
+            Domus Petri, circumcisio est ejus apostolatui commissa. Socrus, est Synagoga quae quodammodo mater est Ecclesiae Petro commissae. Haec febricitat, quia invidiae aestibus laborabat, persequens Ecclesiam. Sed Jesus stans super eam sanat, quia ubi timor Dei incipit esse, talis aestuatio solet recedere.
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e641">
+          <head xml:id="gom-lc4-Hd1e643">Versus 40</head>
+          <p xml:id="gom-lc4-d1e645">
+            <quote xml:id="gom-lc4-Qd1e647" type="lemma" source="http://scta.info/resource/lc4_40@1-4">Cum sol autem occidisset.</quote>
+            <ref xml:id="gom-lc4-Rd1e650"><name xml:id="gom-lc4-Nd1e651" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e654">Solis occubitus, passio Christi, per quam plures sanantur daemoniaci, quam ante vivens in carne aegrotos sanaverat, quia in carne vivens paucos Judaeorum docuit, post resurrectionem gentibus apparuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e658">
+          <head xml:id="gom-lc4-Hd1e660">Versus 41</head>
+          <p xml:id="gom-lc4-d1e662">
+            <quote xml:id="gom-lc4-Qd1e664" type="lemma" source="http://scta.info/resource/lc4_41@11-14">Tu es Filius Dei.</quote>
+            <ref xml:id="gom-lc4-Rd1e667"><name xml:id="gom-lc4-Nd1e668" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-lc4-Qd1e671"><seg type="qs">Cum jejunio fatigatum <pb ed="#P" n="0256A"/> diabolus videret</seg>, etc., usque ad <seg type="qs">quia, <quote xml:id="gom-lc4-Qd1e679" source="http://scta.info/resource/Icor2_8@7-13">si cognovissent Dominum gloriae, nunquam crucifixissent<!-- check: Migne cites mt1; text matches Icor2_8 --></quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lc4-Dd1e686">
+          <head xml:id="gom-lc4-Hd1e688">Versus 42</head>
+          <p xml:id="gom-lc4-d1e690">
+            <quote xml:id="gom-lc4-Qd1e692" type="lemma" source="http://scta.info/resource/lc4_42@1-3">Facta autem die.</quote>
+            Mystice: manifesta luce resurrectionis a credentium turmis requiritur: et in gentium deserto inventus, ne abeat, retinetur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

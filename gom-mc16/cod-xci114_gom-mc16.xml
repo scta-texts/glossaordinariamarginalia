@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Marcus, Caput 16</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Marcus, Caput 16</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0240D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-mc16">
+        <head xml:id="gom-mc16-Hd1e98">Caput 16</head>
+        <div xml:id="gom-mc16-Dd1e100">
+          <head xml:id="gom-mc16-Hd1e102">Versus 1</head>
+          <p xml:id="gom-mc16-d1e104">
+            <quote xml:id="gom-mc16-Qd1e106" type="lemma" source="http://scta.info/resource/mc16_1@1-3">Et cum transisset.</quote>
+            <ref xml:id="gom-mc16-Rd1e109"><name xml:id="gom-mc16-Nd1e110" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e113"><seg type="qs">Lucas dicit quia revertentes a monumento paraverunt aromata et unguenta, et sabbato siluerunt, quia mandatum <pb ed="#P" n="0241A"/> erat ut sabbati silentium</seg>, etc., usque ad <seg type="qs">illuminata facie decussis vitiorum tenebris odorem bonorum operum Domino et orationum suavitatem offerre.</seg></quote>
+          </p>
+          <p xml:id="gom-mc16-d1e123">
+            <ref xml:id="gom-mc16-Rd1e125" type="lemma" subtype="implied" target="http://scta.info/resource/mc16_1@1-3"/>
+            <ref xml:id="gom-mc16-Rd1e127"><name xml:id="gom-mc16-Nd1e128" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e131"><seg type="qs">Nunc cum aromatibus redolentibus cum sponsa et adolescentulis currunt, post eam conspergimus librum, id est cubile</seg>, etc., usque ad <seg type="qs">et Domino in eo cum triumpho resurgente et dicente: <quote xml:id="gom-mc16-Qd1e137" source="http://scta.info/resource/ps117_24@1-6">Haec est dies quam fecit Dominus,</quote> etc. <!--<note>(PSAL. CXVII)</note>-->.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e145">
+          <head xml:id="gom-mc16-Hd1e147">Versus 2</head>
+          <p xml:id="gom-mc16-d1e149">
+            <quote xml:id="gom-mc16-Qd1e151" type="lemma" source="http://scta.info/resource/mc16_2@1-3">Et valde mane.</quote>
+            <ref xml:id="gom-mc16-Rd1e154"><name xml:id="gom-mc16-Nd1e155" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e158">Quod alius dicit diluculo. Diluculum est inter tenebras noctis et diei claritatem in qua salus venit in Ecclesia declaranda more solis, qui consurgens roseam praemittit auroram, ut tantus splendor praeparatis oculis possit videri, cum tempus Dominicae resurrectionis illuxit, ut tunc laudes Christi tota cantaret ecclesia sanctarum <pb ed="#P" n="0241B"/> feminarum, quando vitam praestitit et lumen credulitatis infundit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e165">
+          <head xml:id="gom-mc16-Hd1e167">Versus 3</head>
+          <p xml:id="gom-mc16-d1e169">
+            <quote xml:id="gom-mc16-Qd1e171" type="lemma" source="http://scta.info/resource/mc16_3@1-4">Et dicebant ad invicem.</quote>
+            <ref xml:id="gom-mc16-Rd1e174"><name xml:id="gom-mc16-Nd1e175" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e178">Aquilae congregantur ad corpus, martyres et apostoli vident lapidem revolutum, qui est lex mortis, quasi dicat: <quote xml:id="gom-mc16-Qd1e180" source="http://scta.info/resource/Icor15_55@6-10">Ubi est, mors, aculeus tuus</quote>?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e186">
+          <head xml:id="gom-mc16-Hd1e188">Versus 4</head>
+          <p xml:id="gom-mc16-d1e190">
+            <quote xml:id="gom-mc16-Qd1e192" type="lemma" source="http://scta.info/resource/mc16_4@4-5">Revolutum lapidem.</quote>
+            <ref xml:id="gom-mc16-Rd1e195"><name xml:id="gom-mc16-Nd1e196" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e199">Quomodo lapis per angelum sit revolutus, Matthaeus dicit? Allegorice autem, lapidis revolutio resurrectionem sacramentorum Christi quae velamine litterae legis tecta erant, insinuat. Lex etenim in lapide scripta est cujus ablato tegmine, gloria resurrectionis ostensa est, et abolitio mortis antiquae, et vita nobis speranda perpetua toto orbe coepit praedicari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e204">
+          <head xml:id="gom-mc16-Hd1e206">Versus 5</head>
+          <p xml:id="gom-mc16-d1e208">
+            <pb ed="#P" n="0241C"/>
+            <quote xml:id="gom-mc16-Qd1e212" type="lemma" source="http://scta.info/resource/mc16_5@6-6">Juvenem.</quote>
+            <ref xml:id="gom-mc16-Rd1e215"><name xml:id="gom-mc16-Nd1e216" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e219">Non senem, non infantem, sed jucundum aetate, ut dicitur: <quote xml:id="gom-mc16-Qd1e221" source="http://scta.info/resource/qoh11_9@1-6">Laetare, juvenis, in adolescentia tua</quote>, quae non est hic vera dum senio mista.</quote>
+          </p>
+          <p xml:id="gom-mc16-d1e226">
+            <ref xml:id="gom-mc16-Rd1e228" type="lemma" subtype="implied" target="http://scta.info/resource/mc16_5@6-6"/>
+            <ref xml:id="gom-mc16-Rd1e230"><name xml:id="gom-mc16-Nd1e231" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e234">Mulieres angelos vident quae cum aromatibus venerunt, quia illae mentes supernos cives aspiciunt, quae cum virtutibus ad Deum per sancta desideria veniunt.</quote>
+          </p>
+          <p xml:id="gom-mc16-d1e237">
+            <quote xml:id="gom-mc16-Qd1e239" type="lemma" source="http://scta.info/resource/mc16_5@7-9">Sedentem in dexteris.</quote>
+            <ref xml:id="gom-mc16-Rd1e242"><name xml:id="gom-mc16-Nd1e243" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e246"><seg type="qs">Ad meridianam partem loci illius, ubi positum fuerat</seg>, etc., usque ad <seg type="qs">intrantes in monumentum duos angelos ibi stantes invenerunt.</seg></quote>
+          </p>
+          <p xml:id="gom-mc16-d1e254">
+            <ref xml:id="gom-mc16-Rd1e256" type="lemma" subtype="implied" target="http://scta.info/resource/mc16_5@7-9"/>
+            <ref xml:id="gom-mc16-Rd1e258"><name xml:id="gom-mc16-Nd1e259" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e262"><seg type="qs">Per sinistram vita praesens, per dexteram vita aeterna</seg>, etc., usque ad <seg type="qs">et ad angelorum numerum restituens coelestis patriae damna reparavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e271">
+          <head xml:id="gom-mc16-Hd1e273">Versus 6</head>
+          <p xml:id="gom-mc16-d1e275">
+            <pb ed="#P" n="0241D"/>
+            <quote xml:id="gom-mc16-Qd1e279" type="lemma" source="http://scta.info/resource/mc16_6@4-5">Nolite expavescere.</quote>
+            <ref xml:id="gom-mc16-Rd1e282"><name xml:id="gom-mc16-Nd1e283" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e286">Quasi: Paveant illi qui non amant adventum Domini vel supernorum civium, qui vitiis pressi de eorum societate desperant. Vos autem, quid timetis quae vestros concives videtis? Unde Matthaeus angelum apparuisse describens ait: <quote xml:id="gom-mc16-Qd1e288" source="http://scta.info/resource/mt28_3@1-11">Erat aspectus ejus sicut fulgur, et vestimenta ejus sicut nix</quote>.</quote>
+          </p>
+          <p xml:id="gom-mc16-d1e293">
+            <quote xml:id="gom-mc16-Qd1e295" type="lemma" source="http://scta.info/resource/mc16_6@6-6">Jesum.</quote>
+            Salutare. Sed quia multi non substantialiter sed nuncupative hoc nomine dicebantur, determinat per locum Nazarenum, et causam subdit: <quote xml:id="gom-mc16-Qd1e298" source="http://scta.info/resource/mc16_6@9-9">Crucifixum.</quote> Atque addit: <quote xml:id="gom-mc16-Qd1e301" source="http://scta.info/resource/mc16_6@10-13">Surrexit, non est hic.</quote> Per praesentiam carnis, qui tamen nusquam deest per praesentiam majestatis.
+          </p>
+          <p xml:id="gom-mc16-d1e305">
+            <quote xml:id="gom-mc16-Qd1e307" type="lemma" source="http://scta.info/resource/mc16_6@14-15">Ecce locus.</quote>
+            Ostenditur mortalitas mortalibus ad actionem gratiarum debitam, <pb ed="#P" n="0242A"/> ut intelligamus quid simus et fuerimus, et sciamus quid erimus.
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e314">
+          <head xml:id="gom-mc16-Hd1e316">Versus 7</head>
+          <p xml:id="gom-mc16-d1e318">
+            <quote xml:id="gom-mc16-Qd1e320" type="lemma" source="http://scta.info/resource/mc16_7@7-8">Et Petro.</quote>
+            <ref xml:id="gom-mc16-Rd1e323"><name xml:id="gom-mc16-Nd1e324" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e327"><seg type="qs">Petrus vocatur ex nomine, ne desperet ex negatione. Nisi enim</seg>, etc., usque ad <seg type="qs">ut qui futurus erat pastor Ecclesiae in sua culpa disceret quomodo aliis misereri deberet.</seg></quote>
+          </p>
+          <p xml:id="gom-mc16-d1e335">
+            <quote xml:id="gom-mc16-Qd1e337" type="lemma" source="http://scta.info/resource/mc16_7@7-8">Et Petro.</quote>
+            <ref xml:id="gom-mc16-Rd1e340"><name xml:id="gom-mc16-Nd1e341" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e344">Qui se indignum discipulatu indicat, cum ter magistrum negat. Sed peccata praeterita non nocent, quando non placent.</quote>
+          </p>
+          <p xml:id="gom-mc16-d1e347">
+            <quote xml:id="gom-mc16-Qd1e349" type="lemma" source="http://scta.info/resource/mc16_7@10-11">Praecedit vos.</quote>
+            Bene de Redemptore nostro dicitur: de Galilaea namque transmigratio facta interpretatur. Jam enim a passione ad resurrectionem, a morte ad vitam, a poena ad gloriam transmigraverat. Et bene post resurrectionem in Galilaea a discipulis videtur, quia resurrectionis ejus gloriam <pb ed="#P" n="0242B"/> post laeti videbimus, si modo a vitiis ad virtutum celsitudinem transmigremus. Qui ergo in sepulcro nuntiatur, in transmigratione ostenditur; et qui in mortificatione carnis agnoscitur, in transmigratione mentis videtur.
+          </p>
+          <p xml:id="gom-mc16-d1e355">
+            <ref xml:id="gom-mc16-Rd1e357" type="lemma" subtype="implied" target="http://scta.info/resource/mc16_7@10-11"/>
+            <ref xml:id="gom-mc16-Rd1e359"><name xml:id="gom-mc16-Nd1e360" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e363"><seg type="qs">Nota quod Marcus dicit: <quote xml:id="gom-mc16-Qd1e366" source="http://scta.info/resource/mc16_7@10-13">Praecedit vos in Galilaeam,</quote> etc. Nec tamen ibi visum retulit. Matthaeus autem</seg>, etc., usque ad <seg type="qs">sicut in illa aeternitate cognoscetur, quo et nos perducet propter formam servi, ut liberi contemplemur formam Domini.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e375">
+          <head xml:id="gom-mc16-Hd1e377">Versus 8</head>
+          <p xml:id="gom-mc16-d1e379">
+            <quote xml:id="gom-mc16-Qd1e381" type="lemma" source="http://scta.info/resource/mc16_8@4-4">Fugerunt.</quote>
+            <ref xml:id="gom-mc16-Rd1e384"><name xml:id="gom-mc16-Nd1e385" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e388">De futura vita dicitur: <quote xml:id="gom-mc16-Qd1e390" source="http://scta.info/resource/is35_10@23-26">Fugiet dolor et gemitus.</quote> Imitantur mulieres ante resurrectionem omnium quod faciunt post, id est, quod facturae sunt fugiunt mortem et pavorem.</quote>
+          </p>
+          <p xml:id="gom-mc16-d1e395">
+            <quote xml:id="gom-mc16-Qd1e397" type="lemma" source="http://scta.info/resource/mc16_8@13-14">Et nemini.</quote>
+            <ref xml:id="gom-mc16-Rd1e400"><name xml:id="gom-mc16-Nd1e401" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e404">Quia illi soli mysterium resurrectionis <pb ed="#P" n="0242C"/> vident qui meruerunt, unde, secundum Joannem: <quote xml:id="gom-mc16-Qd1e408" source="http://scta.info/resource/lc24_12@1-6">Petrus autem surgens cucurrit ad monumentum,</quote> ut videret quae audivit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e414">
+          <head xml:id="gom-mc16-Hd1e416">Versus 9</head>
+          <p xml:id="gom-mc16-d1e418">
+            <quote xml:id="gom-mc16-Qd1e420" type="lemma" source="http://scta.info/resource/mc16_9@1-2">Surgens autem.</quote>
+            Mane surrexit, sero sepultus est, ut hoc adimpleret: <quote xml:id="gom-mc16-Qd1e423" source="http://scta.info/resource/ps29_6@12-19">Ad vesperum demorabitur fletus et ad matutinum laetitia</quote>. Sepultus ergo sexta sabbati quae vocatur parasceve circa ve peram sequenti nocte et die sabbati, cum sequenti nocte in monumento positus, die tertia, id est primo mane prima sabbati, surrexit. Et bene una die et duabus noctibus in sepulcro jacuit, quia lucem suae simplae mortis nostrae duplae mortis tenebris adjunxit. In morte enim animae et spiritus tenebamur, unde ad nos suam, id est carnis mortem attulit, <pb ed="#P" n="0242D"/> et duas nostras solvit: simplam suam duplae nostrae contulit, et duplam nostram moriens abstulit.
+          </p>
+          <p xml:id="gom-mc16-d1e429">
+            <quote xml:id="gom-mc16-Qd1e431" type="lemma" source="http://scta.info/resource/mc16_9@6-9">Apparuit primo Mariae Magdalenae.</quote>
+            Mariae Magdalenae primo ostenditur, de qua ejecerat septem daemonia: quia meretrices, et publicani praecedunt Synagogam in regnum Dei, ut latro praecessit apostolos. Apostoli flent et lugent, quia necdum viderunt, sed cito consolabuntur.
+          </p>
+          <p xml:id="gom-mc16-d1e435">
+            <ref xml:id="gom-mc16-Rd1e437" type="lemma" subtype="implied" target="http://scta.info/resource/mc16_9@6-9"/>
+            <ref xml:id="gom-mc16-Rd1e439"><name xml:id="gom-mc16-Nd1e440" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e443"><seg type="qs">In principio mulier auctor culpae viro fuit, exsecutor vir erroris</seg>, etc., usque ad <seg type="qs">ut ipsis evangelistis et apostolis resurrectionem evangelizaret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e452">
+          <head xml:id="gom-mc16-Hd1e454">Versus 11</head>
+          <p xml:id="gom-mc16-d1e456">
+            <quote xml:id="gom-mc16-Qd1e458" type="lemma" source="http://scta.info/resource/mc16_11@1-3">Et illi audientes.</quote>
+            <ref xml:id="gom-mc16-Rd1e461"><name xml:id="gom-mc16-Nd1e462" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e465">Quod discipuli resurrectionem tarde credunt, non tam est illorum infirmitas, quam nostra firmitas; dubitantibus enim <pb ed="#P" n="0243A"/> resurrectio per multa argumenta monstrata est, quibus et nos firmius solidamur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e473">
+          <head xml:id="gom-mc16-Hd1e475">Versus 12</head>
+          <p xml:id="gom-mc16-d1e477">
+            <quote xml:id="gom-mc16-Qd1e479" type="lemma" source="http://scta.info/resource/mc16_12@4-6">Duobus ex his.</quote>
+            <ref xml:id="gom-mc16-Rd1e482"><name xml:id="gom-mc16-Nd1e483" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e486">Hoc Lucas apertius <!--<note>(Luc. XXIV)</note>-->: <quote xml:id="gom-mc16-Qd1e490">Oculi eorum,</quote> etc. Post cognoverunt eum in fractione panis. Et sicut Lucas ait: <quote xml:id="gom-mc16-Qd1e492">Surgentes eadem hora reversi sunt in Hierusalem,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-mc16-d1e496">
+            <quote xml:id="gom-mc16-Qd1e498" type="lemma" source="http://scta.info/resource/mc16_12@7-7">Ambulantibus.</quote>
+            <ref xml:id="gom-mc16-Rd1e501"><name xml:id="gom-mc16-Nd1e502" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e505"><seg type="qs">Fides hic laborat agens activam vitam, illic contemplativa</seg>, etc., usque ad <seg type="qs">oblitus carnis suae postulat in ista vita quod post illam speramus in futura.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e514">
+          <head xml:id="gom-mc16-Hd1e516">Versus 14</head>
+          <p xml:id="gom-mc16-d1e518">
+            <quote xml:id="gom-mc16-Qd1e520" type="lemma" source="http://scta.info/resource/mc16_14@1-1">Novissime,</quote>
+            etc.
+            <ref xml:id="gom-mc16-Rd1e523"><name xml:id="gom-mc16-Nd1e524" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e527"><seg type="qs">Quadragesimo die, quando erat jam ab eis recessurus in coelum, hoc eis maxime</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-mc16-Qd1e532" source="http://scta.info/resource/mc16_15@4-9">Euntes in mundum universum, praedicate Evangelium.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-mc16-d1e536">
+            <quote xml:id="gom-mc16-Qd1e538" type="lemma" source="http://scta.info/resource/mc16_14@11-12">Duritiam cordis,</quote>
+            etc.
+            <ref xml:id="gom-mc16-Rd1e541"><name xml:id="gom-mc16-Nd1e542" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e545">Ut succedat cor carneum <pb ed="#P" n="0243B"/> charitate plenum: hinc quod catervae martyrum mortem hujus saeculi libenter affectant, quia norunt pro temporali interitu perpetuo se esse victuros.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e552">
+          <head xml:id="gom-mc16-Hd1e554">Versus 15</head>
+          <p xml:id="gom-mc16-d1e556">
+            <quote xml:id="gom-mc16-Qd1e558" type="lemma" source="http://scta.info/resource/mc16_15@10-11">Omni creaturae.</quote>
+            Omni nationi gentium. Ante enim dictum erat: <quote xml:id="gom-mc16-Qd1e561" source="http://scta.info/resource/mt10_5@9-13">In viam gentium ne abieritis</quote>: ut scilicet apostolorum prius a Judaea repulsa praedicatio, tunc gentibus in adjutorium fieret.
+          </p>
+          <p xml:id="gom-mc16-d1e565">
+            <ref xml:id="gom-mc16-Rd1e567" type="lemma" subtype="implied" target="http://scta.info/resource/mc16_15@10-11"/>
+            <ref xml:id="gom-mc16-Rd1e569"><name xml:id="gom-mc16-Nd1e570" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e573">Omni generi humano, quod habet aliquid commune omni creaturae, angelis, pecoribus, lignis, lapidibus, igni et aquae, calido et frigido, humido et arido, quia minor mundus homo dicitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e577">
+          <head xml:id="gom-mc16-Hd1e579">Versus 16</head>
+          <p xml:id="gom-mc16-d1e581">
+            <quote xml:id="gom-mc16-Qd1e583" type="lemma" source="http://scta.info/resource/mc16_16@1-2">Qui crediderit,</quote>
+            etc. Per alios parvuli credunt, sicut ex aliis ea quae in baptismo eis remittuntur, <pb ed="#P" n="0243C"/> peccata extraxerunt.
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e590">
+          <head xml:id="gom-mc16-Hd1e592">Versus 17</head>
+          <p xml:id="gom-mc16-d1e594">
+            <quote xml:id="gom-mc16-Qd1e596" type="lemma" source="http://scta.info/resource/mc16_17@1-2">Signa autem,</quote>
+            etc. Nunquid si signa <pb ed="#P" n="0244A"/> non faciamus, non credimus? Sed haec in exordio necessaria fuerunt, ut fides miraculis nutriretur, fide autem Ecclesiae jam confirmata non sunt necessaria.
+          </p>
+          <p xml:id="gom-mc16-d1e602">
+            <quote xml:id="gom-mc16-Qd1e604" type="lemma" source="http://scta.info/resource/mc16_17@11-12">Daemonia ejicient,</quote>
+            etc. Hoc hodie spiritualiter facit Ecclesia, cum per exorcismi gratiam manum credentibus imponit, et malignos spiritus expellit.
+          </p>
+          <p xml:id="gom-mc16-d1e608">
+            <quote xml:id="gom-mc16-Qd1e610" type="lemma" source="http://scta.info/resource/mc16_17@13-15">Linguis loquentur novis.</quote>
+            Hoc fit dum fideles veteris vitae saecularia verba relinquunt, et sancta mysteria insonant, et Dei laudes et potentiam quantum valent extollunt.
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e615">
+          <head xml:id="gom-mc16-Hd1e617">Versus 18</head>
+          <p xml:id="gom-mc16-d1e619">
+            <quote xml:id="gom-mc16-Qd1e621" type="lemma" source="http://scta.info/resource/mc16_18@4-5">Si mortiferum,</quote>
+            etc. Dum pestiferas persuasiones audiunt, nec ad operationes usque perducunt, quod inde eis non nocet si mortiferum bibunt.
+          </p>
+          <p xml:id="gom-mc16-d1e625">
+            <quote xml:id="gom-mc16-Qd1e627" type="lemma" source="http://scta.info/resource/mc16_18@11-13">Super aegros manus,</quote>
+            etc. Dum proximos in bono opere confirmatos roborant exemplo bonae operationis, <pb ed="#P" n="0244B"/> super aegros manus imponunt, et bene habebunt. Haec miracula tanto majora, quanto spiritualia; per hoc enim animae suscitantur, non corpora.
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e635">
+          <head xml:id="gom-mc16-Hd1e637">Versus 19</head>
+          <p xml:id="gom-mc16-d1e639">
+            <quote xml:id="gom-mc16-Qd1e641" type="lemma" source="http://scta.info/resource/mc16_19@10-11">In coelum.</quote>
+            <ref xml:id="gom-mc16-Rd1e644"><name xml:id="gom-mc16-Nd1e645" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e648"><seg type="qs">Nota quod aliquando coelos pluraliter et aliquando coelum singulariter</seg>, etc., usque ad <seg type="qs">ubi fidelium credulitas plus actibus quam locutionibus eruditur.</seg></quote>
+          </p>
+          <p xml:id="gom-mc16-d1e656">
+            <quote xml:id="gom-mc16-Qd1e658" type="lemma" source="http://scta.info/resource/mc16_19@12-15">Et sedet a dextris.</quote>
+            <ref xml:id="gom-mc16-Rd1e661"><name xml:id="gom-mc16-Nd1e662" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e665">Et nunc omnia judicans, in fine omnium Judex venturus est. Stephanus autem vidit eum stantem, quia in certamine habuit eum adjutorem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-mc16-Dd1e669">
+          <head xml:id="gom-mc16-Hd1e671">Versus 20</head>
+          <p xml:id="gom-mc16-d1e673">
+            <quote xml:id="gom-mc16-Qd1e675" type="lemma" source="http://scta.info/resource/mc16_20@1-2">Illi autem,</quote>
+            etc.
+            <ref xml:id="gom-mc16-Rd1e678"><name xml:id="gom-mc16-Nd1e679" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-mc16-Qd1e682"><seg type="qs">Nota quod Marcus Evangelium suum quanto inchoavit tardius, tanto</seg>, etc., usque ad <seg type="qs">quo apostoli idem Evangelii <pb ed="#P" n="0244C"/> verbum per totum orbem seminaverunt.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
