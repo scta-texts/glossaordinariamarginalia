@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apocalypsis, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Apocalypsis, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0710C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ap1">
+        <head xml:id="gom-ap1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-ap1-Dd1e100">
+          <head xml:id="gom-ap1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ap1-d1e104">
+            <quote xml:id="gom-ap1-Qd1e106" type="lemma" source="http://scta.info/resource/ap1_1@1-3">Apocalypsis Jesu Christi.</quote>
+            Praeparat auditores, redditque eos benevolos et attentos, sicut et <ref xml:id="gom-ap1-Rd1e109">ibi: <seg type="incipit">Joannes septem Ecclesiis quae sunt in Asia. Quam dedit</seg>.</ref> Secundum humanitatem Christus accipit eam a Patre et Verbo sibi conjuncto hypostatice, et a Spiritu sancto.
+          </p>
+          <p xml:id="gom-ap1-d1e116">
+            <quote xml:id="gom-ap1-Qd1e118" type="lemma" source="http://scta.info/resource/ap1_1@12-14">Quae oportet fieri.</quote>
+            Quasi dicat: Inevitabile est quin fiant, et utile est ut fiant. Oportet ut servi patiantur tribulationes cito.
+          </p>
+          <p xml:id="gom-ap1-d1e122">
+            <quote xml:id="gom-ap1-Qd1e124" type="lemma" source="http://scta.info/resource/ap1_1@15-15">Cito.</quote>
+            Dicit <quote xml:id="gom-ap1-Qd1e127" source="http://scta.info/resource/ap1_1@15-15">cito,</quote> ut seipsos parent, ne sit grave pati. Cito finiendi sunt labores, et praemia danda. Brevis labor, festinata gloria.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e132">
+          <head xml:id="gom-ap1-Hd1e134">Versus 2</head>
+          <p xml:id="gom-ap1-d1e136">
+            <quote xml:id="gom-ap1-Qd1e138" type="lemma" source="http://scta.info/resource/ap1_2@1-3">Qui testimonium perhibuit.</quote>
+            Qui testatur <pb ed="#P" n="0710D"/> esse vera verba ipsius Christi habita tam de Verbo, id est Divinitate, quam de humanitate Jesu Christi.
+          </p>
+          <p xml:id="gom-ap1-d1e144">
+            <quote xml:id="gom-ap1-Qd1e146" type="lemma" source="http://scta.info/resource/ap1_2@4-5">Verbo Dei.</quote>
+            Filius vocatur Verbum Dei, quia per eum manifestatus est in mundo Pater.
+          </p>
+          <p xml:id="gom-ap1-d1e150">
+            <quote xml:id="gom-ap1-Qd1e152" type="lemma" source="http://scta.info/resource/ap1_2">In his quae vidit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            In his quae corporaliter vidit, ut passum et mortuum, sola mente, ut fuisse cum Patre ante omnia.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e159">
+          <head xml:id="gom-ap1-Hd1e161">Versus 3</head>
+          <p xml:id="gom-ap1-d1e163">
+            <quote xml:id="gom-ap1-Qd1e165" type="lemma" source="http://scta.info/resource/ap1_3@1-1">Beatus.</quote>
+            Christus dedit haec mihi, beatus autem quia me acceperit.
+          </p>
+          <p xml:id="gom-ap1-d1e169">
+            <quote xml:id="gom-ap1-Qd1e171" type="lemma" source="http://scta.info/resource/ap1_3@1-1">Beatus,</quote>
+            quia haec Apocalypsis est Jesu Christi, etc.
+          </p>
+          <p xml:id="gom-ap1-d1e175">
+            <quote xml:id="gom-ap1-Qd1e177" type="lemma" source="http://scta.info/resource/ap1_3@2-3">Qui legit.</quote>
+            Id est, narrat aliis quae audivit: quia plures ab uno legente possunt audire; vel, <quote xml:id="gom-ap1-Qd1e180" source="http://scta.info/resource/ap1_3@6-6">audient,</quote> et in hoc notat auditores, quia plures. Illi soli beati qui audiunt ut mente recondant; et mente recondunt, ut opere compleant; et opere implent, ut vitam aeternam <pb ed="#P" n="0711A"/> possideant.
+          </p>
+          <p xml:id="gom-ap1-d1e186">
+            <quote xml:id="gom-ap1-Qd1e188" type="lemma" source="http://scta.info/resource/ap1_3@10-11">Servat ea.</quote>
+            Non enim auditores legis, sed factores justi sunt. Servat ea, qui fidem Christi et Ecclesiae non violat, et timet minata, et quaerit promissa. Vere beatus est iste, quia nec longa mora laboris, et praemia vicina.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e193">
+          <head xml:id="gom-ap1-Hd1e195">Versus 4</head>
+          <p xml:id="gom-ap1-d1e197">
+            <quote xml:id="gom-ap1-Qd1e199" type="lemma" source="http://scta.info/resource/ap1_4@2-3">Septem ecclesiis.</quote>
+            Principaliter illis scribit ecclesiis Asiae, quibus magister erat constitutus, et per simile aliis. Deus dedit Christo, Christus Joanni, Joannes autem ecclesiis, vel per septem, universae Ecclesiae. Quia <quote xml:id="gom-ap1-Qd1e202" source="http://scta.info/resource/ap1_4@2-2">septem</quote> universitatem significant, vel quia septiformi spiritu illustrantur.
+          </p>
+          <p xml:id="gom-ap1-d1e206">
+            <quote xml:id="gom-ap1-Qd1e208" type="lemma" source="http://scta.info/resource/ap1_4@6-7">In Asia.</quote>
+            Asia est elatio, Ecclesia ergo nunc est in elatione virtutum, vel olim vitiorum. Asia ista non est magna illa tertia pars mundi, sed quaedam provincia ubi erant septem civitates, et septem ecclesiae <pb ed="#P" n="0711B"/> cum septem episcopis.
+          </p>
+          <p xml:id="gom-ap1-d1e214">
+            <quote xml:id="gom-ap1-Qd1e216" type="lemma" source="http://scta.info/resource/ap1_4@8-9">Gratia vobis.</quote>
+            Praeparat auditores in salutatione, et reddit eos benevolos et attentos, sicut et in prologo.
+          </p>
+          <p xml:id="gom-ap1-d1e220">
+            <quote xml:id="gom-ap1-Qd1e222" type="lemma" source="http://scta.info/resource/ap1_4@14-18">Qui est et qui erat.</quote>
+            Aeternaliter. Quamvis autem sit natus ex tempore, jam immutabilis est per humanitatem qui olim fuerat corruptibilis. Talis venturus est, etiamsi mundo non apparet talis.
+          </p>
+          <p xml:id="gom-ap1-d1e227">
+            <quote xml:id="gom-ap1-Qd1e229" type="lemma" source="http://scta.info/resource/ap1_4@23-29">Et a septem spiritibus, qui in conspectu. Spiritus.</quote>
+            Idem sonat quod charitas. Unde attribuitur Spiritui remissio peccatorum, et alia dona quae sunt dona totius Trinitatis, ut intelligamus Trinitatem ex sola dilectione operari. Personam Patris tacet, quia de Deo Creatore nemo mala intellexerat, ponit personam Filii et Spiritus sancti de quibus omnes nascuntur in ecclesiis haereses.
+          </p>
+          <p xml:id="gom-ap1-d1e233">
+            <quote xml:id="gom-ap1-Qd1e235" type="lemma" source="http://scta.info/resource/ap1_4@30-30">Throni.</quote>
+            Throni Dei sunt angeli ejus et sancti homines in <pb ed="#P" n="0711C"/> quibus nunc sedet Deus et judicat, ne in futuro judicet.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e243">
+          <head xml:id="gom-ap1-Hd1e245">Versus 5</head>
+          <p xml:id="gom-ap1-d1e247">
+            <quote xml:id="gom-ap1-Qd1e249" type="lemma" source="http://scta.info/resource/ap1_5@7-8">Testis fidelis.</quote>
+            Dicit hoc propter desperantes de morte Christi ut illi qui dixerunt: <quote xml:id="gom-ap1-Qd1e252" source="http://scta.info/resource/lc24_21@5-8">Nos putabamus quod ipse esset redempturus Israel</quote>.
+          </p>
+          <p xml:id="gom-ap1-d1e256">
+            <quote xml:id="gom-ap1-Qd1e258" type="lemma" source="http://scta.info/resource/ap1_5@9-10">Primogenitus mortuorum.</quote>
+            Quasi dicat: Vos non terreat, quia surrexit, et est impassibilis. Vel est primus mortificantium se, quia peccatum non fecit.
+          </p>
+          <p xml:id="gom-ap1-d1e262">
+            <quote xml:id="gom-ap1-Qd1e264" type="lemma" source="http://scta.info/resource/ap1_5@12-14">Princeps regum terrae.</quote>
+            Princeps terrenarum potestatum, potens eas removere, et ad utilitatem suorum vel sanctorum permittens impios servire.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e269">
+          <head xml:id="gom-ap1-Hd1e271">Versus 6</head>
+          <p xml:id="gom-ap1-d1e273">
+            <quote xml:id="gom-ap1-Qd1e275" type="lemma" source="http://scta.info/resource/ap1_6@1-4">Et fecit nos Deo nostro regnum.</quote>
+            Id est potentes vitiis resistere, <quote xml:id="gom-ap1-Qd1e278" source="http://scta.info/resource/ap1_6@1-5">et sacerdotes,</quote> id est pro nobis et pro fratribus nosmetipsos Deo offerentes.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e283">
+          <head xml:id="gom-ap1-Hd1e285">Versus 7</head>
+          <p xml:id="gom-ap1-d1e287">
+            <quote xml:id="gom-ap1-Qd1e289" type="lemma" source="http://scta.info/resource/ap1_7@1-2">Ecce venit,</quote>
+            etc. Et vere debetis eum <pb ed="#P" n="0711D"/> glorificare, quia ipse est qui venturus est ad remunerandum.
+          </p>
+          <p xml:id="gom-ap1-d1e295">
+            <quote xml:id="gom-ap1-Qd1e297" type="lemma" source="http://scta.info/resource/ap1_7@3-4">Cum nubibus,</quote>
+            id est cum sanctis: quia nubes fuerunt compluendo aliis doctrinam, et miracula faciendo; vel, sicut in nube ascendit, ita in nube veniet, per quam Dei clementiam intelligimus, qua bonis est refrigerium et illuminatio, malis vero terror et excaecatio. Quod et significatum est per nubem qua educti sunt filii Israel de Aegypto.
+          </p>
+          <p xml:id="gom-ap1-d1e301">
+            <quote xml:id="gom-ap1-Qd1e303" type="lemma" source="http://scta.info/resource/ap1_7@5-7">Et videbit eum.</quote>
+            Alia translatio habet: <quote xml:id="gom-ap1-Qd1e306">Videbit omnis terra talem.</quote> Quasi dicat: Talem videbunt qualem impii venturum esse non credebant.
+          </p>
+          <p xml:id="gom-ap1-d1e309">
+            <quote xml:id="gom-ap1-Qd1e311" type="lemma" source="http://scta.info/resource/ap1_7@8-9">Omnis oculus.</quote>
+            Boni ut laetentur, mali ut confundantur, videbunt.
+          </p>
+          <p xml:id="gom-ap1-d1e316">
+            <quote xml:id="gom-ap1-Qd1e318" type="lemma" source="http://scta.info/resource/ap1_7@15-15">Plangent.</quote>
+            Seu collident super eum impotentes ejus imperio resistere, ad similitudinem lapidis <pb ed="#P" n="0712A"/> et fictilium. Vel <quote xml:id="gom-ap1-Qd1e323" source="http://scta.info/resource/ap1_7@15-16">plangent se,</quote> id est dolebunt respicientes eos qui fundati sunt super eum, quia non tantum dolebunt de ipso tormento, quam quod repellentur a tali consortio.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e328">
+          <head xml:id="gom-ap1-Hd1e330">Versus 8</head>
+          <p xml:id="gom-ap1-d1e332">
+            <quote xml:id="gom-ap1-Qd1e334" type="lemma" source="http://scta.info/resource/ap1_8@1-2">Ego sum.</quote>
+            Vere veniet, quia ipse promittit se venturum. Vel praemissa salutatione reddit attentos, quasi dicat: Ne a me hoc dictum, sed ab ipso Christo credatis.
+          </p>
+          <p xml:id="gom-ap1-d1e338">
+            <quote xml:id="gom-ap1-Qd1e340" type="lemma" source="http://scta.info/resource/ap1_8@3-6">Alpha, principium.</quote>
+            Ante quem nullus, vel e quo omnia coeperunt.
+          </p>
+          <p xml:id="gom-ap1-d1e344">
+            <quote xml:id="gom-ap1-Qd1e346" type="lemma" source="http://scta.info/resource/ap1_8@5-8">Omega, finis.</quote>
+            Post quem nullus, vel in quo omnia terminabuntur.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e351">
+          <head xml:id="gom-ap1-Hd1e353">Versus 9</head>
+          <p xml:id="gom-ap1-d1e355">
+            <quote xml:id="gom-ap1-Qd1e357" type="lemma" source="http://scta.info/resource/ap1_9@1-2">Ego Joannes.</quote>
+            Finita salutatione, progreditur ad narrationem, imponendo quatuor, personam, locum, causam ipsius loci, tempus, quae valent ad commendationem ipsius revelationis.
+          </p>
+          <p xml:id="gom-ap1-d1e361">
+            <quote xml:id="gom-ap1-Qd1e363" type="lemma" source="http://scta.info/resource/ap1_9@1-2">Ego Joannes.</quote>
+            Quasi dicat: Scio quia tribulamini, sed <pb ed="#P" n="0712B"/> exemplo Christi patienter sufferatis, ut sitis participes regni ipsius.
+          </p>
+          <p xml:id="gom-ap1-d1e369">
+            <quote xml:id="gom-ap1-Qd1e371" type="lemma" source="http://scta.info/resource/ap1_9@3-4">Frater vester,</quote>
+            etc., <quote xml:id="gom-ap1-Qd1e374">in Christo.</quote> In fidei unitate, et propter illam fidem tribulatus fui, sicut et alii, per quod ad regnum pervenire patienter sustinui, habendo Christum in omnibus exemplum.
+          </p>
+          <p xml:id="gom-ap1-d1e377">
+            <quote xml:id="gom-ap1-Qd1e379" type="lemma" source="http://scta.info/resource/ap1_9@20-20">Pathmos.</quote>
+            Id est fretum, scilicet tribulatio, in qua magis coelestia a fidelibus aperiuntur. Ecclesia comparatur insulae, quia sicut insula marinis procellis illiditur, ita Ecclesia persecutionibus marinorum, id est mundanorum, affligitur.
+          </p>
+          <p xml:id="gom-ap1-d1e384">
+            <quote xml:id="gom-ap1-Qd1e386" type="lemma" source="http://scta.info/resource/ap1_9@21-23">Propter verbum Dei.</quote>
+            Id est, propter testimonium divinitati et humanitati exhibitum.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e391">
+          <head xml:id="gom-ap1-Hd1e393">Versus 10</head>
+          <p xml:id="gom-ap1-d1e395">
+            <quote xml:id="gom-ap1-Qd1e397" type="lemma" source="http://scta.info/resource/ap1_10@4-6">In Dominica die.</quote>
+            Solet rerum qualitas ex tempore notari, ut Abraham in fervorem fidei, angelum in meridie vidit; Loth in perditionem <pb ed="#P" n="0712C"/> Sodomae vespere; Adam post meridiem audivit vocem Domini; Salomon, non reservaturus, sapientiam nocte suscepit.
+          </p>
+          <p xml:id="gom-ap1-d1e403">
+            <quote xml:id="gom-ap1-Qd1e405" type="lemma" source="http://scta.info/resource/ap1_10@8-11">Audivi post me vocem.</quote>
+            Post se audivit, quia dum de praesentibus eductus in anteriora verae contemplationis se extenderet, etiam alios respicere admonitus est; vel: post se audit, quia a lege et prophetis praedictum est hoc, id enim intelligit.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e411">
+          <head xml:id="gom-ap1-Hd1e413">Versus 11</head>
+          <p xml:id="gom-ap1-d1e415">
+            <quote xml:id="gom-ap1-Qd1e417" type="lemma" source="http://scta.info/resource/ap1_11@2-4">Quod vides, scribe.</quote>
+            Communis admonitio fit Joanni, quae monuit communiter mittere ecclesiae Asiae, per quas intelligendae sunt omnes aliae Ecclesiae. Haec communis admonitio fit usque <ref xml:id="gom-ap1-Rd1e420">ibi: <seg type="incipit">Et Angelo Ephesi</seg>,</ref> etc. Sive simul et uno intuitu, sive per tempora diversa hanc visionem vidit Joannes, angelus utrumlibet ei conferre potuit.
+          </p>
+          <p xml:id="gom-ap1-d1e427">
+            <quote xml:id="gom-ap1-Qd1e429" type="lemma" source="http://scta.info/resource/ap1_11">Epheso.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <pb ed="#P" n="0712D"/> Ephesas <mentioned>voluntas mea</mentioned> interpretatur, vel <mentioned>lapsus profundus</mentioned>, vel <mentioned>consilium</mentioned>.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e445">
+          <head xml:id="gom-ap1-Hd1e447">Versus 12</head>
+          <p xml:id="gom-ap1-d1e449">
+            <quote xml:id="gom-ap1-Qd1e451" type="lemma" source="http://scta.info/resource/ap1_12@1-3">Et conversus sum.</quote>
+            Et quia audivi vocem, conversus sum, etc.
+          </p>
+          <p xml:id="gom-ap1-d1e455">
+            <quote xml:id="gom-ap1-Qd1e457" type="lemma" source="http://scta.info/resource/ap1_12@13-14">Septem candelabra.</quote>
+            Id est septem ecclesias ardentes et illuminatas sapientia divini Verbi.
+          </p>
+          <p xml:id="gom-ap1-d1e461">
+            <quote xml:id="gom-ap1-Qd1e463" type="lemma" source="http://scta.info/resource/ap1_12@15-15">Aurea.</quote>
+            Sicut aurum per ignem probatum, percussionibus extensum candelabrum efficitur, sic Ecclesia tribulationibus purgata, tentationum ictibus in longanimitatem extensa consummatur, et haec si habeat vocem in ore, et non in opere, candelabrum quidem est, sed non aureum.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e468">
+          <head xml:id="gom-ap1-Hd1e470">Versus 13</head>
+          <p xml:id="gom-ap1-d1e472">
+            <quote xml:id="gom-ap1-Qd1e474" type="lemma" source="http://scta.info/resource/ap1_13@6-8">Similem Filio hominis.</quote>
+            Id est angelum in persona Christi, qui jam non dicitur Filius hominis, sed similis, quia jam non moritur. Vel <pb ed="#P" n="0713A"/> Filio hominis similis, quia non cum peccato, sed in similitudine carnis peccati, apparuit Christus, in quo sunt omnia necessaria ad regimen Ecclesiae.
+          </p>
+          <p xml:id="gom-ap1-d1e480">
+            <quote xml:id="gom-ap1-Qd1e482" type="lemma" source="http://scta.info/resource/ap1_13@10-10">Podere.</quote>
+            Id est sacerdotali veste, id est carne in qua se obtulit, et quotidie offert, repraesentans se Deo Patri. Vel, poderis est Ecclesia, qua vestitur Deus ut tunica, quae dicitur talaris, quia usque ad finem mundi duratura est Ecclesia.
+          </p>
+          <p xml:id="gom-ap1-d1e486">
+            <quote xml:id="gom-ap1-Qd1e488" type="lemma" source="http://scta.info/resource/ap1_13@12-14">Praecinctum ad mamillas.</quote>
+            Daniel cinctum renes vidit in Veteri Testamento, quia ibi carnalia constringuntur; hic legimus praecinctum <quote xml:id="gom-ap1-Qd1e491" source="http://scta.info/resource/ap1_13@13-14">ad mamillas,</quote> quia in Novo Testamento, etiam cogitationes judicantur.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e496">
+          <head xml:id="gom-ap1-Hd1e498">Versus 14</head>
+          <p xml:id="gom-ap1-d1e500">
+            <quote xml:id="gom-ap1-Qd1e502" type="lemma" source="http://scta.info/resource/ap1_14@5-7">Capilli erant candidi.</quote>
+            Id est sancti extenuati, et adhaerentes ipsi capiti. Vel cogitationes ejus.
+          </p>
+          <p xml:id="gom-ap1-d1e506">
+            <quote xml:id="gom-ap1-Qd1e508" type="lemma" source="http://scta.info/resource/ap1_14@8-9">Tanquam lana.</quote>
+            Sicut lana alba apta est ad <pb ed="#P" n="0713B"/> quoscunque colores accipiendos, sic sancti ad tribulationes sufferendas.
+          </p>
+          <p xml:id="gom-ap1-d1e514">
+            <quote xml:id="gom-ap1-Qd1e516" type="lemma" source="http://scta.info/resource/ap1_14@12-12">Nix.</quote>
+            Nix candor est immortalitatis, quia candidior omni creatura.
+          </p>
+          <p xml:id="gom-ap1-d1e520">
+            <quote xml:id="gom-ap1-Qd1e522" type="lemma" source="http://scta.info/resource/ap1_14@14-14">Oculi.</quote>
+            Id est dona Spiritus sancti: haec sunt Christi velut habentis et dantis, sicut Ecclesiae accipientis; haec illuminant et faciunt ardere. Vel oculi sunt ipsi spirituales in Ecclesia, vel divina praecepta.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e527">
+          <head xml:id="gom-ap1-Hd1e529">Versus 15</head>
+          <p xml:id="gom-ap1-d1e531">
+            <quote xml:id="gom-ap1-Qd1e533" type="lemma" source="http://scta.info/resource/ap1_15@1-2">Et pedes.</quote>
+            Id est ultimi fideles, qui multis concussionibus non retinebunt priorem naturam, sicut aurichalcum, quod saepe incenditur, et meliorem accipit colorem.
+          </p>
+          <p xml:id="gom-ap1-d1e537">
+            <quote xml:id="gom-ap1-Qd1e539" type="lemma" source="http://scta.info/resource/ap1_15@7-9">In camino ardenti.</quote>
+            In alia translatione habetur: aurichalco Libani, per quod ostenditur quod in illa regione ubi Dominus crucifixus est, maxime illa tribulatio est valitura.
+          </p>
+          <p xml:id="gom-ap1-d1e543">
+            <quote xml:id="gom-ap1-Qd1e545" type="lemma" source="http://scta.info/resource/ap1_15@10-16">Et vox illius tanquam vox aquarum multarum.</quote>
+            Id est, <pb ed="#P" n="0713C"/> praedicatio ejus obtinet vim aquae, quia mundat. Vel, quia hanc vocem receperunt jam multi populi (qui comparantur aquae propter fluxum) tanto magis vos constare debetis. Vel vox datrix multarum aquarum, id est gratiarum, unde mox sequitur:
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e552">
+          <head xml:id="gom-ap1-Hd1e554">Versus 16</head>
+          <p xml:id="gom-ap1-d1e556">
+            <quote xml:id="gom-ap1-Qd1e558" type="lemma" source="http://scta.info/resource/ap1_16@6-6">Stellas.</quote>
+            Stellae sunt episcopi, qui debent aliis lucere verbo et exemplo vitae, qui etsi peccaverint, stellae vocantur, secundum quod instituti sunt: quos habet in dextera, id est in potioribus donis, quae per dexteram significantur.
+          </p>
+          <p xml:id="gom-ap1-d1e562">
+            <quote xml:id="gom-ap1-Qd1e564" type="lemma" source="http://scta.info/resource/ap1_16@8-10">Et ex ore.</quote>
+            Id est Dei inspiratione exivit praedicatio, quae utrumque secat, in Veteri quidem Testamento carnalia opera, in Novo autem concupiscentias; unde de hoc gladio, qui est verbum Dei, scriptum est: <quote xml:id="gom-ap1-Qd1e567" source="http://scta.info/resource/mt10_20@1-14">Non enim vos estis qui loquimini, sed spiritus Patris vestri, qui loquitur <pb ed="#P" n="0713D"/> in vobis. Sicut sol lucet in virtute.</quote> Id est in meridie sine nubibus. Vel, sicut ipse Christus in resurrectione; vel, quando fixus erit in aeternum.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e575">
+          <head xml:id="gom-ap1-Hd1e577">Versus 17</head>
+          <p xml:id="gom-ap1-d1e579">
+            <quote xml:id="gom-ap1-Qd1e581" type="lemma" source="http://scta.info/resource/ap1_17@5-5">Cecidi.</quote>
+            Id est, projeci curam humanitatis ad similitudinem ultimorum fidelium.
+          </p>
+          <p xml:id="gom-ap1-d1e585">
+            <quote xml:id="gom-ap1-Qd1e587" type="lemma" source="http://scta.info/resource/ap1_17@9-10">Tanquam mortuus.</quote>
+            Mortuus mundo, vivus Deo, et nil terrenitatis cupiens.
+          </p>
+          <p xml:id="gom-ap1-d1e591">
+            <quote xml:id="gom-ap1-Qd1e593" type="lemma" source="http://scta.info/resource/ap1_17@13-14">Dexteram suam.</quote>
+            Scilicet sanctum Spiritum confortantem, id est auxilium suum.
+          </p>
+          <p xml:id="gom-ap1-d1e597">
+            <quote xml:id="gom-ap1-Qd1e599" type="lemma" source="http://scta.info/resource/ap1_17@18-19">Noli timere.</quote>
+            Pati pro me tribulationes et mortem, quia <quote xml:id="gom-ap1-Qd1e602" source="http://scta.info/resource/ap1_17@20-20">ego</quote> qui non indigebam propter me, cum sim <quote xml:id="gom-ap1-Qd1e605" source="http://scta.info/resource/ap2_8@8-14">primus et novissimus, fui mortuus et vivus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e610">
+          <head xml:id="gom-ap1-Hd1e612">Versus 18</head>
+          <p xml:id="gom-ap1-d1e614">
+            <quote xml:id="gom-ap1-Qd1e616" type="lemma" source="http://scta.info/resource/ap1_18@8-9">Sum vivens.</quote>
+            Et ideo non terreamini, quia manifeste surrexi, nec amplius moriar.
+          </p>
+          <p xml:id="gom-ap1-d1e620">
+            <quote xml:id="gom-ap1-Qd1e622" type="lemma" source="http://scta.info/resource/ap1_18@13-14">Et habeo.</quote>
+            Et ideo non patiar vos tentari supra quam <pb ed="#P" n="0714A"/> potestis ferre, quia habeo potestatem super diabolum et super membra ejus.
+          </p>
+          <p xml:id="gom-ap1-d1e628">
+            <quote xml:id="gom-ap1-Qd1e630" type="lemma" source="http://scta.info/resource/ap1_18@16-18">Mortis et inferni.</quote>
+            Diabolus est mors, quia causa est peccati, id est mortis; ministri ejus sunt infernus, in quibus habet locum.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e635">
+          <head xml:id="gom-ap1-Hd1e637">Versus 19</head>
+          <p xml:id="gom-ap1-d1e639">
+            <quote xml:id="gom-ap1-Qd1e641" type="lemma" source="http://scta.info/resource/ap1_19@9-13">Quae oportet fieri post haec.</quote>
+            In ultimis fidelibus, per quorum exemplum isti multum debent animari.
+          </p>
+        </div>
+        <div xml:id="gom-ap1-Dd1e646">
+          <head xml:id="gom-ap1-Hd1e648">Versus 20</head>
+          <p xml:id="gom-ap1-d1e650">
+            <quote xml:id="gom-ap1-Qd1e652" type="lemma" source="http://scta.info/resource/ap1_20@1-1">Sacramentum.</quote>
+            Scilicet mysterium, ubi aliud videtur, et aliud intelligitur. Haec prima visio est de correptione Ecclesiarum. Angelus allegoriam in parte aperit, ut doceat ubique debere requiri.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

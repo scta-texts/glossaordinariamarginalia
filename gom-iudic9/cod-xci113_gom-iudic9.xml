@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0528C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudic9">
+        <head xml:id="gom-iudic9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-iudic9-Dd1e100">
+          <head xml:id="gom-iudic9-Hd1e102">Versus 5</head>
+          <p xml:id="gom-iudic9-d1e104">
+            <quote xml:id="gom-iudic9-Qd1e106" type="lemma" source="http://scta.info/resource/iudic9_5@19-20">Remansitque Joatham.</quote>
+            <ref xml:id="gom-iudic9-Rd1e109"><name xml:id="gom-iudic9-Nd1e110" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-iudic9-Qd1e113">Filius junior, qui fugitando gladium inimici evadit, significat reliquias Israel in extremo tempore credituras, et Antichristi gladium evasuras, hic ascendit in verticem montis Garizim: quia nec prophetare nec persecutionem Antichristi potest quilibet evadere, nisi prius in montem benedictionis, id est in sublimitatem fidei ac virtutum ascenderit: hic est enim mons Garizim qui a Moyse in benedictionem deputatur.</quote>
+          </p>
+          <p xml:id="gom-iudic9-d1e116">
+            <ref xml:id="gom-iudic9-Rd1e118" type="lemma" subtype="implied" target="http://scta.info/resource/iudic9_5@19-20"/>
+            <ref xml:id="gom-iudic9-Rd1e120"><name xml:id="gom-iudic9-Nd1e121" ref="#IsidoreOfSeville">ISID.</name>, in Jud. tom. V.</ref>
+            <quote xml:id="gom-iudic9-Qd1e125"><seg type="qs">Si hoc factum mysticum non esset</seg>, etc., usque ad <seg type="qs">inducet persecutionem ut <pb ed="#P" n="0528D"/> omnes sanctos interficiat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic9-Dd1e136">
+          <head xml:id="gom-iudic9-Hd1e138">Versus 10</head>
+          <p xml:id="gom-iudic9-d1e140">
+            <quote xml:id="gom-iudic9-Qd1e142" type="lemma" source="http://scta.info/resource/iudic9_10@1-1">Dixeruntque.</quote>
+            <ref xml:id="gom-iudic9-Rd1e145"><name xml:id="gom-iudic9-Nd1e146" ref="#IsidoreOfSeville">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-iudic9-Qd1e150"><seg type="qs">Ligna silvae sunt homines infructuosi</seg>, etc., usque ad <seg type="qs">et suavissimam pinguedinem Christi cum gloria et honore perduxit.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic9-d1e158">
+            <ref xml:id="gom-iudic9-Rd1e160" type="lemma" subtype="implied" target="http://scta.info/resource/iudic9_10@1-1"/>
+            <ref xml:id="gom-iudic9-Rd1e162"><name xml:id="gom-iudic9-Nd1e163" ref="#IsidoreOfSeville">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-iudic9-Qd1e167">Vitis autem Christus est qui dixit: <quote xml:id="gom-iudic9-Qd1e169" source="http://scta.info/resource/io15_1@1-4">Ego sum vitis vera</quote>. Quia ergo populus qui Antichristo servit in reprobum sensum datur ut credat mendacio, id est, Antichristo, qui veritati, id est Christo credere noluit, a regno vitis, id est Christi; et ab oliva, id est Spiritus sancti gratia et a ficu, id est divinae legis dulcedine reprobatur.</quote>
+          </p>
+          <p xml:id="gom-iudic9-d1e174">
+            <quote xml:id="gom-iudic9-Qd1e176" type="lemma" source="http://scta.info/resource/iudic9_10@1-1">Dixeruntque.</quote>
+            <ref xml:id="gom-iudic9-Rd1e179"><name xml:id="gom-iudic9-Nd1e180" ref="#IsidoreOfSeville">ID.</name></ref>
+            <quote xml:id="gom-iudic9-Qd1e183">Rhamnus est genus rubi, quem vulgo senticem ursinam appellant, asperum nimis <pb ed="#P" n="0529A"/> et spinosum, per quod Antichristus significatur cum omni asperitate et feritate humanum genus vastaturus: <quote xml:id="gom-iudic9-Qd1e187" source="http://scta.info/resource/IIsam22_9@6-8">et exiet ignis de rhamno,</quote> id est, iniquitas de Antichristo, et omnes qui in illo confidunt pariter cum illo devorabit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic9-Dd1e193">
+          <head xml:id="gom-iudic9-Hd1e195">Versus 23</head>
+          <p xml:id="gom-iudic9-d1e197">
+            <quote xml:id="gom-iudic9-Qd1e199" type="lemma" source="http://scta.info/resource/iudic9_23">Misitque. Et misit Deus Spiritum malignum inter Abimelech et viros Sichimorum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-iudic9-Rd1e204"><name xml:id="gom-iudic9-Nd1e205" ref="#Augustine">AUG.</name>, quaest. 45 in Jud.</ref>
+            <quote xml:id="gom-iudic9-Qd1e209"><seg type="qs">Hoc verbum</seg>, etc., usque ad <seg type="qs">etiam <mentioned>immisit</mentioned> interpretati sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic9-Dd1e220">
+          <head xml:id="gom-iudic9-Hd1e222">Versus 32</head>
+          <p xml:id="gom-iudic9-d1e224">
+            <quote xml:id="gom-iudic9-Qd1e226" type="lemma" source="http://scta.info/resource/iudic9_32">Surge. Et nunc surge nocte tu et populus tuus tecum, et insidiare.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-iudic9-Rd1e231"><name xml:id="gom-iudic9-Nd1e232" ref="#Augustine">ID.</name>, quaest. 46.</ref>
+            <quote xml:id="gom-iudic9-Qd1e236"><seg type="qs">Quidam Latini habent <quote xml:id="gom-iudic9-Qd1e239">maturabis,</quote></seg> etc., usque ad <seg type="qs">Deus quarto die conderet solem.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

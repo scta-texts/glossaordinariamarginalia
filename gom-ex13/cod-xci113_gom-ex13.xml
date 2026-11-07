@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0221D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex13">
+        <head xml:id="gom-ex13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-ex13-Dd1e100">
+          <head xml:id="gom-ex13-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ex13-d1e104">
+            <quote xml:id="gom-ex13-Qd1e106" type="lemma" source="http://scta.info/resource/ex13_2@1-4">Sanctifica mihi omne primogenitum,</quote>
+            etc. Quia occidi omnia primogenita Aegyptiorum in liberatione vestra.
+          </p>
+        </div>
+        <div xml:id="gom-ex13-Dd1e111">
+          <head xml:id="gom-ex13-Hd1e113">Versus 9</head>
+          <p xml:id="gom-ex13-d1e115">
+            <quote xml:id="gom-ex13-Qd1e117" type="lemma" source="http://scta.info/resource/ex13_9@1-4">Et erit quasi signum,</quote>
+            etc.
+            <ref xml:id="gom-ex13-Rd1e120"><name xml:id="gom-ex13-Nd1e121" ref="#Augustine">AUG.</name>, quaest. 48 in Exod.</ref>
+            <quote xml:id="gom-ex13-Qd1e125"><seg type="qs">. Quid est quod ait cum de pascha <pb ed="#P" n="0222A"/> praecipit</seg>, etc., usque ad <seg type="qs">alioquin gratia jam non esset gratia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex13-Dd1e136">
+          <head xml:id="gom-ex13-Hd1e138">Versus 13</head>
+          <p xml:id="gom-ex13-d1e140">
+            <quote xml:id="gom-ex13-Qd1e142" type="lemma" source="http://scta.info/resource/ex13_13@10-13">Omne autem primogenitum hominis,</quote>
+            etc. <!--<note>(CYRILL.)</note>--> Primogenita hominum redimi jubet, ut homicidium vetet: qui omnia ut incorruptibilia essent, creavit.
+          </p>
+          <p xml:id="gom-ex13-d1e148">
+            <ref xml:id="gom-ex13-Rd1e150" type="lemma" subtype="implied" target="http://scta.info/resource/ex13_13@10-13"/>
+            <ref xml:id="gom-ex13-Rd1e152"><name xml:id="gom-ex13-Nd1e153" ref="#GregoryGreat">GREG.</name>, lib. XXVII Moral., cap. 1.</ref>
+            <quote xml:id="gom-ex13-Qd1e157">Asinus immunditiam, ovis innocentiam significat. Asini ergo primogenitum ove mutare, est immundae vitae primordia innocentiae simplicitate convertere, ut postquam peccator illa egit quae ut immunda Dominus respuit, ea jam agendo proferat quae Dei sacrificio imponat. Omnes enim in peccato nati sumus, et ex carnis delectatione concepti, culpam originalem nobis contraximus. Unde etiam voluntate nostra peccatis <pb ed="#P" n="0222B"/> implicamur. Sed et qui post malitiam carnis ad innocentiam convertitur cordis, primogenitum asini mutat ove, malitiam scilicet prioris vitae. Qui enim qualis prius fuit desinit esse, et apprehensa carnis munditia innocentiam custodit, in oblationem Dei primogenitum asini ove mutavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex13-Dd1e164">
+          <head xml:id="gom-ex13-Hd1e166">Versus 16</head>
+          <p xml:id="gom-ex13-d1e168">
+            <quote xml:id="gom-ex13-Qd1e170" type="lemma" source="http://scta.info/resource/ex13_16@8-10">Et quasi appensum.</quote>
+            Hoc male intelligentes Judaei, pictatia vel phylacteria capitibus circumligabant, in quibus decem verba scripta ante oculos habebant.
+          </p>
+        </div>
+        <div xml:id="gom-ex13-Dd1e176">
+          <head xml:id="gom-ex13-Hd1e178">Versus 17</head>
+          <p xml:id="gom-ex13-d1e180">
+            <quote xml:id="gom-ex13-Qd1e182" type="lemma" source="http://scta.info/resource/ex13_17@1-3">Igitur cum emisisset,</quote>
+            etc.
+            <ref xml:id="gom-ex13-Rd1e185"><name xml:id="gom-ex13-Nd1e186" ref="#GregoryGreat">GREG.</name> lib. XXIV Moral. cap. 13</ref>
+            <quote xml:id="gom-ex13-Qd1e190">. Saepe conversi in ipso aditu suae conversionis tranquillitatem carnis, dona prophetiae, praedicamenta doctrinae, signorum miracula vel gratiam curationum accipiunt. Postea duris tentationum <pb ed="#P" n="0222C"/> probationibus fatigantur, a quibus liberos se esse credebant: quia si in principio tentationum amaritudo pulsaret, facile ad vitia redirent, a quibus non longe recesserunt. De Aegypto ergo exeuntibus e vicino bella subtrahuntur: quia relinquentibus saeculum quaedam prius tranquillitas ostenditur, ne in ipsa teneritudine et inchoatione turbati, ad hoc quod reliquerant, redeant: prius ergo suavitatem securitatis sentiunt, prius pacis quiete nutriuntur; post cognitam vero dulcedinem tanto tolerabilius tentationum certamina sustinent quanto in Deo altius cognoverunt quae ament.</quote>
+          </p>
+          <p xml:id="gom-ex13-d1e196">
+            <quote xml:id="gom-ex13-Qd1e198" type="lemma" source="http://scta.info/resource/ex13_17@6-8">Non eos duxit Deus,</quote>
+            etc.
+            <ref xml:id="gom-ex13-Rd1e201"><name xml:id="gom-ex13-Nd1e202" ref="#Augustine">AUG.</name>, quaest. 49</ref>
+            <quote xml:id="gom-ex13-Qd1e206">. Hic ostenditur omnia fieri debere quae consilio recte fieri possunt, ad evitanda ea quae <pb ed="#P" n="0222D"/> adversa sunt, etiam cum Deus apertissime adjutor est <!--<note>(Epist. ad Dam., tom. I)</note>-->.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex13-Dd1e215">
+          <head xml:id="gom-ex13-Hd1e217">Versus 18</head>
+          <p xml:id="gom-ex13-d1e219">
+            <quote xml:id="gom-ex13-Qd1e221" type="lemma" source="http://scta.info/resource/ex13_18@11-14">Et armati ascenderunt filii,</quote>
+            etc.
+            <ref xml:id="gom-ex13-Rd1e224"><name xml:id="gom-ex13-Nd1e225" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-ex13-Qd1e228">Aquila, qui non contentiosus, ut putant, sed studiosus verbum interpretatur ad verbum, ubi LXX posuerunt, <quote xml:id="gom-ex13-Qd1e230" source="http://scta.info/resource/ex13_18@13-18">quinta autem generatione ascenderunt filii Israel de terra Aegypti,</quote> transtulit, <quote xml:id="gom-ex13-Qd1e233" source="http://scta.info/resource/ex13_18@11-18">et armati ascenderunt filii Israel de terra Aegypti,</quote> licet pro eo quod nos <quote xml:id="gom-ex13-Qd1e236" source="http://scta.info/resource/ex13_18@12-12">armati</quote> diximus, secundum Graeci sermonis ambiguitatem <quote xml:id="gom-ex13-Qd1e239">instructi</quote> vel <quote xml:id="gom-ex13-Qd1e241">muniti</quote> propter supellectilem quo Aegyptios exspoliaverunt, possit intelligi. Sed ubi LXX, <quote xml:id="gom-ex13-Qd1e244">quinta generatione</quote> posuerunt, qui Hebraeorum libros diligenter inspexerunt, non quinta, sed quinque, scriptum afferunt, ut sit sensus: quinque autem ascenderunt <pb ed="#P" n="0223A"/> filii Israel de terra Aegypti; quod quia minus videbatur intelligi, adjuncta generatio est. Aquila vero, et in caeteris, et in hoc praecipue loco, proprie transtulisse dicitur, sicut synagogarum consonant universa subsellia.</quote>
+          </p>
+          <p xml:id="gom-ex13-d1e250">
+            <quote xml:id="gom-ex13-Qd1e252" type="lemma" source="http://scta.info/resource/ex13_18">Quinta autem progenie,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ex13-Rd1e257"><name xml:id="gom-ex13-Nd1e258" ref="#Augustine">AUG.</name>, quaest. 53.</ref>
+            <quote xml:id="gom-ex13-Qd1e262"><seg type="qs">etc. Utrum progeniem in centum annis vult computare</seg>, etc., usque ad <seg type="qs">Naason genuit Salmon.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex13-Dd1e271">
+          <head xml:id="gom-ex13-Hd1e273">Versus 21</head>
+          <p xml:id="gom-ex13-d1e275">
+            <quote xml:id="gom-ex13-Qd1e277" type="lemma" source="http://scta.info/resource/ex13_21@1-4">Dominus autem praecedebat eos,</quote>
+            etc.
+            <ref xml:id="gom-ex13-Rd1e280"><name xml:id="gom-ex13-Nd1e281" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-ex13-Qd1e284">Cum a te tertiae diei mysterium fuerit receptum, incipiet te deducere Deus et viam salutis ostendere.</quote>
+          </p>
+          <p xml:id="gom-ex13-d1e287">
+            <ref xml:id="gom-ex13-Rd1e289" type="lemma" subtype="implied" target="http://scta.info/resource/ex13_21@1-4"/>
+            <ref xml:id="gom-ex13-Rd1e291"><name xml:id="gom-ex13-Nd1e292" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-ex13-Qd1e295">In igne terror, in nube visionis lene blandimentum. Dies, vita justi; nox, peccatoris. Unde Ephes. V: <quote xml:id="gom-ex13-Qd1e297" source="http://scta.info/resource/eph5_8@3-9">Fuistis aliquando tenebrae, nunc autem <pb ed="#P" n="0223B"/> lux in Domino,</quote> etc. In die per nubem columna monstrata est, et in nocte per ignem; quia omnipotens Deus et blandus justis, et terribilis apparebit impiis. Hos ad judicium veniens, per lenitatis mansuetudinem mulcet, illos per justitiae districtionem terret. Aliter columna nubis in eremo populum praeibat, et splendore ignis non in die, sed in nocte radiabat: quia Christus conversationis suae exemplo ducatum sequentibus praestans, de justitia sua confidentibus nulla luce claruit; peccatorum vero tenebras agnoscentibus, igne sui amoris infulsit. Christus nubes et columna, quia rectus, et firmus, et fulciens infirmitatem nostram; quia nocte lucens, per diem non lucens, <quote xml:id="gom-ex13-Qd1e302" source="http://scta.info/resource/io9_39@11-20">ut qui non vident, videant; et qui vident, caeci fiant</quote>. Christi quoque sacramentum <pb ed="#P" n="0223C"/> tanquam in die manifestum est in carne velut in nube: in judicio vero tanquam in terrore nocturno; quia tunc erit magna tribulatio, tanquam ignis lucebit justis, et ardebit injustis.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

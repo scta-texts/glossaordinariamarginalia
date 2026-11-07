@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 49</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 49</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0916C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps49">
+        <head xml:id="gom-ps49-Hd1e98">Psalmus 49</head>
+        <div xml:id="gom-ps49-Dd1e100">
+          <head xml:id="gom-ps49-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps49-d1e104">
+            <quote xml:id="gom-ps49-Qd1e106" type="lemma" source="http://scta.info/resource/ps49_1@1-2">Psalmus Asaph.</quote>
+            <ref xml:id="gom-ps49-Rd1e109"><name xml:id="gom-ps49-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e113"><quote xml:id="gom-ps49-Qd1e114" source="http://scta.info/resource/ps49_1@2-2">Asaph,</quote> Latine congregatio; Graece, synagoga, quae fidelis hic loquitur, quae Christum exspectat, per quam magis confutantur increduli Judaei.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e119">
+            <ref xml:id="gom-ps49-Rd1e121"><name xml:id="gom-ps49-Nd1e122" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e125" type="lemma" source="http://scta.info/resource/ps49_1@2-2">Asaph,</quote>
+            <quote xml:id="gom-ps49-Qd1e128">vocem Dei inducturus de mutatione sacrificiorum, prius agit de utroque adventu per primum invitans, per secundum terrens.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e131">
+            <quote xml:id="gom-ps49-Qd1e133" type="lemma" source="http://scta.info/resource/ps49_1@3-4">Deus Deorum.</quote>
+            <ref xml:id="gom-ps49-Rd1e136"><name xml:id="gom-ps49-Nd1e137" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e140"><seg type="qs">Ne quis mediocriter <pb ed="#P" n="0916D"/> de incarnatione aestimet</seg>, etc., usque ad <seg type="qs">nuncupative, ut falsi dii, Jupiter, Venus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps49-d1e150">
+            <quote xml:id="gom-ps49-Qd1e152" type="lemma" source="http://scta.info/resource/ps49_1@6-10">Locutus est, et vocavit terram.</quote>
+            <ref xml:id="gom-ps49-Rd1e155"><name xml:id="gom-ps49-Nd1e156" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e159">Per se, per praecones.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e163">
+            <quote xml:id="gom-ps49-Qd1e165" type="lemma" source="http://scta.info/resource/ps49_1@11-16">A solis ortu usque ad occasum.</quote>
+            <ref xml:id="gom-ps49-Rd1e168"><name xml:id="gom-ps49-Nd1e169" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e172"><seg type="qs">Quasi dicat</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-ps49-Qd1e177" source="http://scta.info/resource/mic4_2@29-37">exibit de Sion lex, et Verbum Domini de Jerusalem.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e182">
+          <head xml:id="gom-ps49-Hd1e184">Versus 2</head>
+          <p xml:id="gom-ps49-d1e186">
+            <quote xml:id="gom-ps49-Qd1e188" type="lemma" source="http://scta.info/resource/ps49_2@1-5">Ex Sion, species decoris ejus,</quote>
+            etc.
+            <ref xml:id="gom-ps49-Rd1e191"><name xml:id="gom-ps49-Nd1e192" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e195"><seg type="qs">Coepit decus Evangelii</seg>, etc., usque ad <seg type="qs">ut testes essent in Jerusalem et in tota terra.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e204">
+          <head xml:id="gom-ps49-Hd1e206">Versus 3</head>
+          <p xml:id="gom-ps49-d1e208">
+            <quote xml:id="gom-ps49-Qd1e210" type="lemma" source="http://scta.info/resource/ps49_3@10-19">Ignis in conspectu ejus exardescet et in circumitu ejus.</quote>
+            <ref xml:id="gom-ps49-Rd1e213"><name xml:id="gom-ps49-Nd1e214" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e217"><seg type="qs">Ante eum praeibit; poena ergo terreat, quos praemia non invitant</seg>, etc., usque ad <seg type="qs">malos comitabitur ad inferos.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e226">
+          <head xml:id="gom-ps49-Hd1e228">Versus 4</head>
+          <p xml:id="gom-ps49-d1e230">
+            <quote xml:id="gom-ps49-Qd1e232" type="lemma" source="http://scta.info/resource/ps49_4@1-5">Tempesta valida. Advocabit coelum desursum, et terram.</quote>
+            <ref xml:id="gom-ps49-Rd1e235"><name xml:id="gom-ps49-Nd1e236" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e239"><seg type="qs">Non ventus</seg>, etc., usque ad <seg type="qs">prius omnes communiter vocavit, <pb ed="#P" n="0917A"/> tunc vocabit ut discernat.</seg></quote>
+          </p>
+          <p xml:id="gom-ps49-d1e249">
+            <quote xml:id="gom-ps49-Qd1e251" type="lemma" source="http://scta.info/resource/ps49_4@6-8">Discernere populum suum.</quote>
+            <ref xml:id="gom-ps49-Rd1e254"><name xml:id="gom-ps49-Nd1e255" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e258">Primo commistos vocavit a solis ortu usque ad occasum, tunc autem ut discernat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e263">
+          <head xml:id="gom-ps49-Hd1e265">Versus 5</head>
+          <p xml:id="gom-ps49-d1e267">
+            <quote xml:id="gom-ps49-Qd1e269" type="lemma" source="http://scta.info/resource/ps49_5@1-4">Congregate illi sanctos ejus.</quote>
+            <ref xml:id="gom-ps49-Rd1e272"><name xml:id="gom-ps49-Nd1e273" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e276"><seg type="qs">Videns Propheta futura</seg>, etc., usque ad <seg type="qs">de malis dicitur, <quote xml:id="gom-ps49-Qd1e282">de quo non implevit manum suam. Qui ordinant testamentum ejus super sacrificia.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps49-d1e285">
+            <ref xml:id="gom-ps49-Rd1e287" type="lemma" subtype="implied" target="http://scta.info/resource/ps49_5@1-4"/>
+            <ref xml:id="gom-ps49-Rd1e289"><name xml:id="gom-ps49-Nd1e290" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e293"><seg type="qs">Novum Testamentum super Vetus</seg>, etc., usque ad <seg type="qs">qui pluris habent opera charitatis quam sacrificia pecudum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e302">
+          <head xml:id="gom-ps49-Hd1e304">Versus 6</head>
+          <p xml:id="gom-ps49-d1e306">
+            <quote xml:id="gom-ps49-Qd1e308" type="lemma" source="http://scta.info/resource/ps49_6@1-5">Et annuntiabunt coeli justitiam ejus,</quote>
+            etc.
+            <ref xml:id="gom-ps49-Rd1e311"><name xml:id="gom-ps49-Nd1e312" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e315"><seg type="qs">Jam coeli nuntiaverunt nobis hanc justitiam Dei</seg>, etc., usque ad <seg type="qs">et si nunc permista, quia <quote xml:id="gom-ps49-Qd1e321" source="http://scta.info/resource/ps7_12@1-3">Deus est judex justus.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e326">
+          <head xml:id="gom-ps49-Hd1e328">Versus 7</head>
+          <p xml:id="gom-ps49-d1e330">
+            <quote xml:id="gom-ps49-Qd1e332" type="lemma" source="http://scta.info/resource/ps49_7@1-3">Audi, populus meus, etc.</quote>
+            <ref xml:id="gom-ps49-Rd1e335"><name xml:id="gom-ps49-Nd1e336" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e339">Vox Christi, ut, relictis sacrificiis pecudum, fiat sacrificium laudis.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e342">
+            <ref xml:id="gom-ps49-Rd1e344" type="lemma" subtype="implied" target="http://scta.info/resource/ps49_7@1-3"/>
+            <ref xml:id="gom-ps49-Rd1e346"><name xml:id="gom-ps49-Nd1e347" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e350">Vel, repetit sub alio verbo, Audi <pb ed="#P" n="0917B"/> sicut Israel, id est, sicut videns Deum, et <quote xml:id="gom-ps49-Qd1e354" source="http://scta.info/resource/ps49_7@9-9">Testificabor,</quote> haec, scilicet, <quote xml:id="gom-ps49-Qd1e357" source="http://scta.info/resource/ps49_7@13-16">Deus tuus ego sum.</quote></quote>
+          </p>
+          <p xml:id="gom-ps49-d1e361">
+            <quote xml:id="gom-ps49-Qd1e363" type="lemma" source="http://scta.info/resource/ps49_7@13-14">Deus tuus.</quote>
+            <ref xml:id="gom-ps49-Rd1e366"><name xml:id="gom-ps49-Nd1e367" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e370">Prius dicit simpliciter: <quote xml:id="gom-ps49-Qd1e372">Sum Deus.</quote> Et postea dicit: <quote xml:id="gom-ps49-Qd1e374" source="http://scta.info/resource/ps49_7@13-14">Sum Deus tuus.</quote> Quasi diceret: Etsi non sum Deus tuus, tamen sum Deus. Bono enim meo sum Deus, malo autem tuo non sum Deus tuus.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e379">
+            <quote xml:id="gom-ps49-Qd1e381" type="lemma" source="http://scta.info/resource/ps49_7@16-16">Sum.</quote>
+            <ref xml:id="gom-ps49-Rd1e384"><name xml:id="gom-ps49-Nd1e385" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e388">Esse est proprium Deitatis.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e392">
+            <quote xml:id="gom-ps49-Qd1e394" type="lemma" source="http://scta.info/resource/ps49_7">Audi, Israel.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps49-Rd1e399"><name xml:id="gom-ps49-Nd1e400" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e403">Quasi diceret: Si es Israel, id est, si me vides, audire non negligis. Deus ille generalis, Deus tuus proprie.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e407">
+          <head xml:id="gom-ps49-Hd1e409">Versus 8</head>
+          <p xml:id="gom-ps49-d1e411">
+            <quote xml:id="gom-ps49-Qd1e413" type="lemma" source="http://scta.info/resource/ps49_8@8-9">Holocausta autem.</quote>
+            <ref xml:id="gom-ps49-Rd1e416"><name xml:id="gom-ps49-Nd1e417" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e420">Si anima inflammatur, et membra in usum suum rapit, ne serviant cupiditati: unde praecipitur in Levitico, ut adipem cum renunculis offerant, quibus interna <pb ed="#P" n="0917C"/> charitas signatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e427">
+          <head xml:id="gom-ps49-Hd1e429">Versus 9</head>
+          <p xml:id="gom-ps49-d1e431">
+            <quote xml:id="gom-ps49-Qd1e433" type="lemma" source="http://scta.info/resource/ps49_9@1-2">Non accipiam,</quote>
+            etc.
+            <ref xml:id="gom-ps49-Rd1e436"><name xml:id="gom-ps49-Nd1e437" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e440">Etsi sic feceris: <quote xml:id="gom-ps49-Qd1e442" source="http://scta.info/resource/ps49_9@1-6">Non accipiam de domo tua vitulos,</quote> quasi significatos acciperem, non illos de domo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e448">
+          <head xml:id="gom-ps49-Hd1e450">Versus 10</head>
+          <p xml:id="gom-ps49-d1e452">
+            <quote xml:id="gom-ps49-Qd1e454" type="lemma" source="http://scta.info/resource/ps49_10@1-2">Quoniam meae:</quote>
+            ac si diceret, quia non sunt tua, sed mea.
+          </p>
+          <p xml:id="gom-ps49-d1e458">
+            <quote xml:id="gom-ps49-Qd1e460" type="lemma" source="http://scta.info/resource/ps49_10@1-3">Quoniam meae sunt,</quote>
+            etc.
+            <ref xml:id="gom-ps49-Rd1e463"><name xml:id="gom-ps49-Nd1e464" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e467">Mea sunt quae non possides, indomita, scilicet: <quote xml:id="gom-ps49-Qd1e469" source="http://scta.info/resource/ps49_10@5-11">Ferae silvarum, jumenta, boves,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e474">
+            <ref xml:id="gom-ps49-Rd1e476" type="lemma" subtype="implied" target="http://scta.info/resource/ps49_10@1-3"/>
+            <ref xml:id="gom-ps49-Rd1e478"><name xml:id="gom-ps49-Nd1e479" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e482"><seg type="qs">His similitudinibus figurat Ecclesiam</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-ps49-Qd1e487">Carnes taurorum</quote> non vult in sacrificiis, sed in pauperibus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps49-d1e491">
+            <ref xml:id="gom-ps49-Rd1e493" type="lemma" subtype="implied" target="http://scta.info/resource/ps49_10@1-3"/>
+            VERS, 11.-- <quote xml:id="gom-ps49-Qd1e495" source="http://scta.info/resource/ps49_11@1-3">Cognovi omnia volatilia.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e500">
+            <ref xml:id="gom-ps49-Rd1e502" type="lemma" subtype="implied" target="http://scta.info/resource/ps49_10@1-3"/>
+            <ref xml:id="gom-ps49-Rd1e504"><name xml:id="gom-ps49-Nd1e505" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e508">Cum illo sunt omnia, cognitione quadam ineffabilis sapientiae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e513">
+          <head xml:id="gom-ps49-Hd1e515">Versus 12</head>
+          <p xml:id="gom-ps49-d1e517">
+            <quote xml:id="gom-ps49-Qd1e519" type="lemma" source="http://scta.info/resource/ps49_12@1-3">Si esuriero, non.</quote>
+            <ref xml:id="gom-ps49-Rd1e522"><name xml:id="gom-ps49-Nd1e523" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e526">Si haec datis forsitan esurire putatis, quod est insania?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e530">
+          <head xml:id="gom-ps49-Hd1e532">Versus 13</head>
+          <p xml:id="gom-ps49-d1e534">
+            <pb ed="#P" n="0917D"/>
+            <quote xml:id="gom-ps49-Qd1e538" type="lemma" source="http://scta.info/resource/ps49_13@1-4">Nunquid manducabo carnes taurorum?</quote>
+            Olim haec sacrificabantur, non ideo quod Deus inde delectaretur, sed ne daemonibus offerentur, et tantum Deo sacrificabantur, in quibus erat aliqua significatio.
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e543">
+          <head xml:id="gom-ps49-Hd1e545">Versus 14</head>
+          <p xml:id="gom-ps49-d1e547">
+            <quote xml:id="gom-ps49-Qd1e549" type="lemma" source="http://scta.info/resource/ps49_14@1-2">Immola Deo.</quote>
+            <ref xml:id="gom-ps49-Rd1e552"><name xml:id="gom-ps49-Nd1e553" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e556">Non dicit mihi, sed de se, quasi de alio ut et post: <quote xml:id="gom-ps49-Qd1e558" source="http://scta.info/resource/ps49_16@1-4">Peccatori autem dixit, Deus, non ego.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e563">
+          <head xml:id="gom-ps49-Hd1e565">Versus 15</head>
+          <p xml:id="gom-ps49-d1e567">
+            <quote xml:id="gom-ps49-Qd1e569" type="lemma" source="http://scta.info/resource/ps49_15@6-6">Tribulationis.</quote>
+            <ref xml:id="gom-ps49-Rd1e572"><name xml:id="gom-ps49-Nd1e573" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e576">Nostra tribulatio proprie est timore salutis, non carnalium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e580">
+          <head xml:id="gom-ps49-Hd1e582">Versus 16</head>
+          <p xml:id="gom-ps49-d1e584">
+            <quote xml:id="gom-ps49-Qd1e586" type="lemma" source="http://scta.info/resource/ps49_16@1-2">Peccatori autem.</quote>
+            <ref xml:id="gom-ps49-Rd1e589"><name xml:id="gom-ps49-Nd1e590" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e593">A quibus sacrificium velit, ubi peccatori suae nequitiae imputantur</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e596">
+            <pb ed="#P" n="0918A"/>
+            <ref xml:id="gom-ps49-Rd1e600" type="lemma" subtype="implied" target="http://scta.info/resource/ps49_16@1-2"/>
+            <ref xml:id="gom-ps49-Rd1e602"><name xml:id="gom-ps49-Nd1e603" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e606"><seg type="qs">Haec populo suo dixit</seg>, etc., usque ad <seg type="qs">Non enim lectio negatur corrigendis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e615">
+          <head xml:id="gom-ps49-Hd1e617">Versus 17</head>
+          <p xml:id="gom-ps49-d1e619">
+            <quote xml:id="gom-ps49-Qd1e621" type="lemma" source="http://scta.info/resource/ps49_17@1-3">Tu vero odisti.</quote>
+            <ref xml:id="gom-ps49-Rd1e624"><name xml:id="gom-ps49-Nd1e625" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e628">Tu vero ore dicis, sed facto negas disciplinam: si corrigo, murmuras.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e633">
+          <head xml:id="gom-ps49-Hd1e635">Versus 18</head>
+          <p xml:id="gom-ps49-d1e637">
+            <quote xml:id="gom-ps49-Qd1e639" type="lemma" source="http://scta.info/resource/ps49_18@3-4">Furem, currebas.</quote>
+            <ref xml:id="gom-ps49-Rd1e642"><name xml:id="gom-ps49-Nd1e643" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e646">In his omnia tonat vitia; a parte totum, vel furem sani intellectus Scripturae.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e649">
+            <quote xml:id="gom-ps49-Qd1e651" type="lemma" source="http://scta.info/resource/ps49_18@10-10">Adulteris.</quote>
+            Qui ponunt falsum, auferendo verum.
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e656">
+          <head xml:id="gom-ps49-Hd1e658">Versus 19</head>
+          <p xml:id="gom-ps49-d1e660">
+            <quote xml:id="gom-ps49-Qd1e662" type="lemma" source="http://scta.info/resource/ps49_19@1-3">Os tuum abundavit,</quote>
+            etc.
+            <ref xml:id="gom-ps49-Rd1e665"><name xml:id="gom-ps49-Nd1e666" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e669"><seg type="qs">Accusat conscientiam, et linguam</seg>, etc., usque ad <seg type="qs">non casu alii derogat, sed studio.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e678">
+          <head xml:id="gom-ps49-Hd1e680">Versus 20</head>
+          <p xml:id="gom-ps49-d1e682">
+            <quote xml:id="gom-ps49-Qd1e684" type="lemma" source="http://scta.info/resource/ps49_20@1-1">Sedens.</quote>
+            <ref xml:id="gom-ps49-Rd1e687"><name xml:id="gom-ps49-Nd1e688" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e691">Quod transiens vel stans facit, non cum voluntate facit.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e694">
+            <quote xml:id="gom-ps49-Qd1e696" type="lemma" source="http://scta.info/resource/ps49_20@3-3">Fratrem.</quote>
+            <ref xml:id="gom-ps49-Rd1e699"><name xml:id="gom-ps49-Nd1e700" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e703">Omnem hominem.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e706">
+            <quote xml:id="gom-ps49-Qd1e708" type="lemma" source="http://scta.info/resource/ps49_20@6-9">Et adversus filium matris,</quote>
+            Ecclesiae, cui charitate jungimur.
+          </p>
+          <p xml:id="gom-ps49-d1e712">
+            <quote xml:id="gom-ps49-Qd1e714" type="lemma" source="http://scta.info/resource/ps49_20@11-12">Ponebas scandalum,</quote>
+            haereses vel alia quibus innocens capiatur.
+          </p>
+          <p xml:id="gom-ps49-d1e719">
+            <pb ed="#P" n="0918B"/>
+            <quote xml:id="gom-ps49-Qd1e723" type="lemma" source="http://scta.info/resource/ps49_20@5-7">Loquebaris adversus.</quote>
+            <ref xml:id="gom-ps49-Rd1e726"><name xml:id="gom-ps49-Nd1e727" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e730"><seg type="qs">Dum detrahit qui doctus videtur</seg>, etc., usque ad <seg type="qs">validioris doctrinae cibo.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e739">
+          <head xml:id="gom-ps49-Hd1e741">Versus 21</head>
+          <p xml:id="gom-ps49-d1e743">
+            <quote xml:id="gom-ps49-Qd1e745" type="lemma" source="http://scta.info/resource/ps49_21@9-10">Tui similis.</quote>
+            <ref xml:id="gom-ps49-Rd1e748"><name xml:id="gom-ps49-Nd1e749" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e752">Consentiendo malis.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e755">
+            <quote xml:id="gom-ps49-Qd1e757" type="lemma" source="http://scta.info/resource/ps49_21@15-18">Statuam contra tuam.</quote>
+            <ref xml:id="gom-ps49-Rd1e760"><name xml:id="gom-ps49-Nd1e761" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e764">Quod post dorsum posuisti, ante faciem ponam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e768">
+          <head xml:id="gom-ps49-Hd1e770">Versus 22</head>
+          <p xml:id="gom-ps49-d1e772">
+            <quote xml:id="gom-ps49-Qd1e774" type="lemma" source="http://scta.info/resource/ps49_22@7-7">Rapiat.</quote>
+            <ref xml:id="gom-ps49-Rd1e777"><name xml:id="gom-ps49-Nd1e778" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e781">Deus ad poenam, et <quote xml:id="gom-ps49-Qd1e783" source="http://scta.info/resource/ps49_22@9-12">non sit qui eripiat.</quote> Quando diabolus rapit, Deus eripit; sed cum Deus rapit, nemo valet liberare.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps49-Dd1e789">
+          <head xml:id="gom-ps49-Hd1e791">Versus 23</head>
+          <p xml:id="gom-ps49-d1e793">
+            <quote xml:id="gom-ps49-Qd1e795" type="lemma" source="http://scta.info/resource/ps49_23@1-2">Sacrificium laudis.</quote>
+            <ref xml:id="gom-ps49-Rd1e798"><name xml:id="gom-ps49-Nd1e799" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e802">Non quod scelerati cantant, <quote xml:id="gom-ps49-Qd1e804" source="http://scta.info/resource/ps49_23@1-2">sacrificium laudis,</quote> non animalium. Et haec est via ad Deum, scala Jacob, qua <mentioned>angeli</mentioned>, id est, fideles, <mentioned>ascendunt</mentioned> ad laudem divinitatis, et <mentioned>descendunt</mentioned> ad laudem humanitatis.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e815">
+            <quote xml:id="gom-ps49-Qd1e817" type="lemma" source="http://scta.info/resource/ps49_23@6-8">Illic iter quo,</quote>
+            etc.
+            <ref xml:id="gom-ps49-Rd1e820"><name xml:id="gom-ps49-Nd1e821" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e824">In sacrificio laudis.</quote>
+          </p>
+          <p xml:id="gom-ps49-d1e827">
+            <quote xml:id="gom-ps49-Qd1e829" type="lemma" source="http://scta.info/resource/ps49_23@11-12">Salutare Dei.</quote>
+            <ref xml:id="gom-ps49-Rd1e832"><name xml:id="gom-ps49-Nd1e833" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps49-Qd1e836">Christus, qui cum gratia venit, quem novit, qui aliquid <pb ed="#P" n="0918C"/> alii quam gratiae Dei attribuit.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum II, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum II, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0612B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIreg3">
+        <head xml:id="gom-IIreg3-Hd1e98">Caput 3</head>
+        <p xml:id="gom-IIreg3-d1e100">
+          <ref xml:id="gom-IIreg3-Rd1e102"><name xml:id="gom-IIreg3-Nd1e103" ref="#RabanusMaurus">RAB.</name></ref>
+          <quote xml:id="gom-IIreg3-Qd1e106">Tres reges contra Moab bellantes, rectores sunt fidelium, qui per Trinitatis fidem contra mundi principem et populum, id est philosophos, haereticos, schismaticos atque omnes iniquos armis spiritualibus confligunt. Moab interpretatur de patre, illis convenit ad quos Dominus dixit: <quote xml:id="gom-IIreg3-Qd1e108" source="http://scta.info/resource/io8_44@1-5">Vos ex patre diabolo estis</quote>. Hi adversantur Ecclesiae, minis, persecutionibus, et dolo: sed per Christum, qui caput est Christianorum, effugantur.</quote>
+        </p>
+        <div xml:id="gom-IIreg3-Dd1e113">
+          <head xml:id="gom-IIreg3-Hd1e115">Versus 16</head>
+          <p xml:id="gom-IIreg3-d1e117">
+            <quote xml:id="gom-IIreg3-Qd1e119" type="lemma" source="http://scta.info/resource/IIreg3_16@4-4">Facite.</quote>
+            <ref xml:id="gom-IIreg3-Rd1e122"><name xml:id="gom-IIreg3-Nd1e123" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg3-Qd1e126">Propheta populo siti <pb ed="#P" n="0612C"/> fatigato per miraculum consuluit, et prophetiae dicta consilium praebent fidelibus, qualiter spiritali doctrina animum reficiant.</quote>
+          </p>
+          <p xml:id="gom-IIreg3-d1e132">
+            <ref xml:id="gom-IIreg3-Rd1e134" type="lemma" subtype="implied" target="http://scta.info/resource/IIreg3_16@4-4"/>
+            <ref xml:id="gom-IIreg3-Rd1e136"><name xml:id="gom-IIreg3-Nd1e137" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg3-Qd1e140">Fossam in alveo torrentis facit, qui profunda mysteria in Scripturis quaerit. Quae absque pluvia et vento aqua replentur; quia saepe absque humano solatio sapientiam confert suis investigatoribus potentia divina. Unde Joannes dicit: <quote xml:id="gom-IIreg3-Qd1e142" source="http://scta.info/resource/Iio2_27@12-26">Non necesse habetis ut aliquis vos doceat, sed sicut unctio ejus docet vos de omnibus,</quote> etc. <!--<note>(I Joan. II)</note>-->. Unde: <quote xml:id="gom-IIreg3-Qd1e147" source="http://scta.info/resource/io3_13@12-14">Bibent homines et jumenta</quote>, id est, doctrinam accipient, ingeniosi et simplices</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg3-Dd1e153">
+          <head xml:id="gom-IIreg3-Hd1e155">Versus 18</head>
+          <p xml:id="gom-IIreg3-d1e157">
+            <quote xml:id="gom-IIreg3-Qd1e159" type="lemma" source="http://scta.info/resource/IIreg3_18@1-1">Parumque.</quote>
+            <ref xml:id="gom-IIreg3-Rd1e162"><name xml:id="gom-IIreg3-Nd1e163" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg3-Qd1e166">Non enim sufficit servis Dei abdita mysteria scire: quin etiam debent ea aliis praedicare, et contradicentes redarguere, quibus <pb ed="#P" n="0612D"/> promissa est certa de hoste victoria, ut percutiant omnem civitatem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg3-Dd1e173">
+          <head xml:id="gom-IIreg3-Hd1e175">Versus 19</head>
+          <p xml:id="gom-IIreg3-d1e177">
+            <quote xml:id="gom-IIreg3-Qd1e179" type="lemma" source="http://scta.info/resource/IIreg3_19@4-4">Civitatem.</quote>
+            <ref xml:id="gom-IIreg3-Rd1e182"><name xml:id="gom-IIreg3-Nd1e183" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg3-Qd1e186">Civitas, saecularis est prudentia, in qua philosophi et haeretici confidunt, haec per praedicatores subvertitur.</quote>
+          </p>
+          <p xml:id="gom-IIreg3-d1e189">
+            <quote xml:id="gom-IIreg3-Qd1e191" type="lemma" source="http://scta.info/resource/IIreg3_19@12-12">Lignum.</quote>
+            <ref xml:id="gom-IIreg3-Rd1e194"><name xml:id="gom-IIreg3-Nd1e195" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg3-Qd1e198">Non quod facit fructum sed mortiferum <pb ed="#P" n="0613A"/> quod secuturo examine succisum, pabulum fiet ignis aeterni. Fontes aquarum obturantur, cum haeresiarchae cum suis sequacibus per catholicos damnantur. Agri egregii lapidibus operiuntur, cum venustas locutionis haereticae et philosophicae anathematis pondere obruitur. Remanent tantum muri fictiles, id est falsae rationes, quae a fundibulariis, id est sanctis praedicatoribus ad nihilum rediguntur.</quote>
+          </p>
+          <p xml:id="gom-IIreg3-d1e204">
+            <ref xml:id="gom-IIreg3-Rd1e206" type="lemma" subtype="implied" target="http://scta.info/resource/IIreg3_19@12-12"/>
+            <ref xml:id="gom-IIreg3-Rd1e208"><name xml:id="gom-IIreg3-Nd1e209" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg3-Qd1e212">Ita philosophi verbum stultitiam existimantes, derident passionem Christi, et Ecclesiae martyrium dementiam existimant.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

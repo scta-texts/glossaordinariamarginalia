@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 56</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 56</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0926D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps56">
+        <head xml:id="gom-ps56-Hd1e98">Psalmus 56</head>
+        <div xml:id="gom-ps56-Dd1e100">
+          <head xml:id="gom-ps56-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps56-d1e104">
+            <quote xml:id="gom-ps56-Qd1e106" type="lemma" source="http://scta.info/resource/ps56_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps56-Rd1e109"><name xml:id="gom-ps56-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e113"><seg type="qs">Psalmus de resurrectione et passione breviter. Hoc agit psalmus <quote xml:id="gom-ps56-Qd1e116" source="http://scta.info/resource/ps56_1@3-3">ne,</quote> tu, Pilate, vel tu quicunque, <quote xml:id="gom-ps56-Qd1e119">corrumpas David,</quote> etc., negando regem, quia tectus carne fugit a cognitione Judaeorum <ref xml:id="gom-ps56-Rd1e121"><name xml:id="gom-ps56-Nd1e122" ref="#Augustine">Ibid.</name></ref><!-- check: attribution inside gloss body --> Nullus titulus inscriptus est David</seg>, etc., usque ad <seg type="qs">ubi latuit Christus incognitus Judaeis</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps56-Dd1e132">
+          <head xml:id="gom-ps56-Hd1e134">Versus 2</head>
+          <p xml:id="gom-ps56-d1e136">
+            <quote xml:id="gom-ps56-Qd1e138" type="lemma" source="http://scta.info/resource/ps56_2@1-2">Miserere mei.</quote>
+            <ref xml:id="gom-ps56-Rd1e141"><name xml:id="gom-ps56-Nd1e142" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e145">Propheta in persona Domini, quia in eo Dominus, quasi inter <pb ed="#P" n="0927A"/> mala, exclamat, et praedicit liberationem.</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e151">
+            <ref xml:id="gom-ps56-Rd1e153" type="lemma" subtype="implied" target="http://scta.info/resource/ps56_2@1-2"/>
+            <ref xml:id="gom-ps56-Rd1e155"><name xml:id="gom-ps56-Nd1e156" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e159">Christus secundum quod homo orat, de passione ita humilis, ut unus de fidelibus clamare putetur.</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e162">
+            <quote xml:id="gom-ps56-Qd1e164" type="lemma" source="http://scta.info/resource/ps56_2@12-14">Et in umbra.</quote>
+            Vox corporis adjungitur capiti: et loquens in persona membrorum et sua, quomodo possit liberari dicet, <quote xml:id="gom-ps56-Qd1e167">misit Verbum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps56-Dd1e171">
+          <head xml:id="gom-ps56-Hd1e173">Versus 4</head>
+          <p xml:id="gom-ps56-d1e175">
+            <quote xml:id="gom-ps56-Qd1e177" type="lemma" source="http://scta.info/resource/ps56_4@1-3">Misit Verbum de coelo.</quote>
+            <ref xml:id="gom-ps56-Rd1e180"><name xml:id="gom-ps56-Nd1e181" ref="#Augustine">AUG.</name>, HIER.</ref>
+            <quote xml:id="gom-ps56-Qd1e185"><seg type="qs">De occulta essentia sua</seg>, etc., usque ad <seg type="qs">quem putabant se exstinxisse.</seg></quote>
+          </p>
+          <p xml:id="gom-ps56-d1e193">
+            <quote xml:id="gom-ps56-Qd1e195" type="lemma" source="http://scta.info/resource/ps56_4@1-3">Misit de coelo.</quote>
+            <ref xml:id="gom-ps56-Rd1e198"><name xml:id="gom-ps56-Nd1e199" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e202">Diapsalmus. Jam declarat quid misit et de quibus eripuit, et loquitur in persona membrorum.</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e205">
+            <quote xml:id="gom-ps56-Qd1e207" type="lemma" source="http://scta.info/resource/ps56_4@5-5">Liberavit.</quote>
+            <ref xml:id="gom-ps56-Rd1e210"><name xml:id="gom-ps56-Nd1e211" ref="#Jerome">Ibid.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e214">Quia jam <quote xml:id="gom-ps56-Qd1e216">Misit Verbum,</quote> certum est, quasi jam sit qui <quote xml:id="gom-ps56-Qd1e218" source="http://scta.info/resource/ps56_4@5-5">liberavit,</quote> id est, liberabit: et <quote xml:id="gom-ps56-Qd1e221" source="http://scta.info/resource/ps56_4@8-8">dedit,</quote> id est, dabit <quote xml:id="gom-ps56-Qd1e224" source="http://scta.info/resource/ps56_4@9-14">in opprobrium conculcantes me. Misit Deus.</quote></quote>
+          </p>
+          <p xml:id="gom-ps56-d1e228">
+            <ref xml:id="gom-ps56-Rd1e230" type="lemma" subtype="implied" target="http://scta.info/resource/ps56_4@5-5"/>
+            <ref xml:id="gom-ps56-Rd1e232"><name xml:id="gom-ps56-Nd1e233" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e236">Verbum, in quo misericorditer egit, in quo et promissiones <pb ed="#P" n="0927B"/> implevit.</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e243">
+            <quote xml:id="gom-ps56-Qd1e245" type="lemma" source="http://scta.info/resource/ps56_4@15-15">Misericordiam,</quote>
+            quia ex misericordia pro nobis mortuus est.
+          </p>
+          <p xml:id="gom-ps56-d1e249">
+            <quote xml:id="gom-ps56-Qd1e251" type="lemma" source="http://scta.info/resource/ps56_4@18-18">Veritatem,</quote>
+            quia, ut praedixit, surrexit, ad justificandos nos.
+          </p>
+          <p xml:id="gom-ps56-d1e255">
+            <quote xml:id="gom-ps56-Qd1e257" type="lemma" source="http://scta.info/resource/ps56_4@15-16">Misericordiam suam,</quote>
+            etc.
+            <ref xml:id="gom-ps56-Rd1e260"><name xml:id="gom-ps56-Nd1e261" ref="#Jerome">HIER.</name>, AUG.</ref>
+            <quote xml:id="gom-ps56-Qd1e265">Utraque enim in eo continentur. Si enim sola fuisset misericordia, licentia esset nobis peccandi; si sola veritas, non potuisset homo sustinere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps56-Dd1e269">
+          <head xml:id="gom-ps56-Hd1e271">Versus 5</head>
+          <p xml:id="gom-ps56-d1e273">
+            <quote xml:id="gom-ps56-Qd1e275" type="lemma" source="http://scta.info/resource/ps56_5@9-9">Dormivi.</quote>
+            <ref xml:id="gom-ps56-Rd1e278"><name xml:id="gom-ps56-Nd1e279" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e282">Alta quiete facile excitandus: <quote xml:id="gom-ps56-Qd1e284" source="http://scta.info/resource/ps56_5@10-10">Conturbatus</quote> passione, <quote xml:id="gom-ps56-Qd1e287" source="http://scta.info/resource/ps56_5@9-9">dormivi.</quote> David non dormivit in spelunca, sed Christus in morte.</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e292">
+            <ref xml:id="gom-ps56-Rd1e294" type="lemma" subtype="implied" target="http://scta.info/resource/ps56_5@9-9"/>
+            <ref xml:id="gom-ps56-Rd1e296"><name xml:id="gom-ps56-Nd1e297" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e300">Conturbatus, secundum carnem passionis memoria et angustia, unde;</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e303">
+            <quote xml:id="gom-ps56-Qd1e305" type="lemma" source="http://scta.info/resource/ps56_5@1-4">Tristis est anima mea,</quote>
+            etc. <quote xml:id="gom-ps56-Qd1e308">Et coepit Jesus taedere et pavere. Filii hominum.</quote> Rectus ordo est: filii hominum laqueos paraverunt; sed interserit qualiter turbaverint.
+          </p>
+          <p xml:id="gom-ps56-d1e311">
+            <quote xml:id="gom-ps56-Qd1e313" type="lemma" source="http://scta.info/resource/ps56_5@19-19">Lingua.</quote>
+            Voces illae <pb ed="#P" n="0927C"/> Crucifige, crucifige, et hujusmodi, etiam fecerunt mortem, ut gladius acutus <!--<note>(Matth. XXVI; Marc. XIV)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-ps56-Dd1e323">
+          <head xml:id="gom-ps56-Hd1e325">Versus 6</head>
+          <p xml:id="gom-ps56-d1e327">
+            <quote xml:id="gom-ps56-Qd1e329" type="lemma" source="http://scta.info/resource/ps56_6@1-1">Exaltare.</quote>
+            <ref xml:id="gom-ps56-Rd1e332"><name xml:id="gom-ps56-Nd1e333" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e336">Ex persona prophetae visis injuriis, visoque quod in resurrectione inanes facti sunt Judaei, gaudens exclamat homo in cruce: <quote xml:id="gom-ps56-Qd1e338" source="http://scta.info/resource/ps56_6@1-3">Exaltare, Deus super, coelos,</quote> ut judicet in terra Judaeos.</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e343">
+            <quote xml:id="gom-ps56-Qd1e345" type="lemma" source="http://scta.info/resource/ps56_6@1-1">Exaltare.</quote>
+            Superiora Dominus, propheta quidem, sed in persona Domini, quia Dominus in propheta loquitur. Quando etiam ex sua persona loquitur propheta, Dominus per eum loquitur, qui ei dictat.
+          </p>
+          <p xml:id="gom-ps56-d1e349">
+            <ref xml:id="gom-ps56-Rd1e351"><name xml:id="gom-ps56-Nd1e352" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e355" type="lemma" source="http://scta.info/resource/ps56_6@1-1">Exaltare.</quote>
+            <quote xml:id="gom-ps56-Qd1e358"><seg type="qs">Verba Christi. Sed, o Pater</seg>, etc., usque ad <seg type="qs">quia totus mundus ei subjectus est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps56-Dd1e367">
+          <head xml:id="gom-ps56-Hd1e369">Versus 7</head>
+          <p xml:id="gom-ps56-d1e371">
+            <quote xml:id="gom-ps56-Qd1e373" type="lemma" source="http://scta.info/resource/ps56_7@1-2">Laqueum paraverunt.</quote>
+            Interposita exaltatione, coeptam narrationem exsequitur.
+          </p>
+          <p xml:id="gom-ps56-d1e377">
+            <quote xml:id="gom-ps56-Qd1e379" type="lemma" source="http://scta.info/resource/ps56_7@3-3">Pedibus</quote>
+            <pb ed="#P" n="0927D"/> <ref xml:id="gom-ps56-Rd1e384"><name xml:id="gom-ps56-Nd1e385" ref="#Cassiodorus">CASS.</name></ref><!-- check: attribution inside gloss body --> Domini sunt increpationes malorum, et promissiones fidelium, quibus <quote xml:id="gom-ps56-Qd1e389">dolos paraverunt,</quote> ut de adultera.
+          </p>
+          <p xml:id="gom-ps56-d1e392">
+            <quote xml:id="gom-ps56-Qd1e394" type="lemma" source="http://scta.info/resource/ps56_7@6-6">Incurvaverunt,</quote>
+            dum eis compatiens sterilis reddebatur ab eis.
+          </p>
+          <p xml:id="gom-ps56-d1e398">
+            <quote xml:id="gom-ps56-Qd1e400" type="lemma" source="http://scta.info/resource/ps56_7@10-13">Ante faciem meam foveam,</quote>
+            etc. Dum in os ejus dixerunt: Reus est mortis.
+          </p>
+        </div>
+        <div xml:id="gom-ps56-Dd1e405">
+          <head xml:id="gom-ps56-Hd1e407">Versus 8</head>
+          <p xml:id="gom-ps56-d1e409">
+            <quote xml:id="gom-ps56-Qd1e411" type="lemma" source="http://scta.info/resource/ps56_8@1-1">Paratum.</quote>
+            <ref xml:id="gom-ps56-Rd1e414"><name xml:id="gom-ps56-Nd1e415" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e418">Diapsalmus. Post resurrectionem laudes promittit. Vel, paratum ad agendas gratias (quod ibi ostendit) <quote xml:id="gom-ps56-Qd1e420" source="http://scta.info/resource/ps56_8@9-9">cantabo.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps56-Dd1e425">
+          <head xml:id="gom-ps56-Hd1e427">Versus 9</head>
+          <p xml:id="gom-ps56-d1e429">
+            <quote xml:id="gom-ps56-Qd1e431" type="lemma" source="http://scta.info/resource/ps56_9@1-3">Exsurge, gloria mea.</quote>
+            <ref xml:id="gom-ps56-Rd1e434"><name xml:id="gom-ps56-Nd1e435" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e438">Et ideo, o caro, quae es causa gloriae meae, <quote xml:id="gom-ps56-Qd1e440" source="http://scta.info/resource/ps56_9@1-1">Exsurge,</quote> potenter, quasi ad miraculum faciendum congratulatio, qui certus, unde idem affirmando, repetit.</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e445">
+            <quote xml:id="gom-ps56-Qd1e447" type="lemma" source="http://scta.info/resource/ps56_9@1-1">Exsurge</quote>
+            dico, quia certus sum et de hora, quia <quote xml:id="gom-ps56-Qd1e450" source="http://scta.info/resource/ps56_9@1-8">exsurgam diluculo. Exsurge, psalterium et cithara.</quote>
+          </p>
+          <p xml:id="gom-ps56-d1e454">
+            <ref xml:id="gom-ps56-Rd1e456" type="lemma" subtype="implied" target="http://scta.info/resource/ps56_9@1-1"/>
+            <ref xml:id="gom-ps56-Rd1e458"><name xml:id="gom-ps56-Nd1e459" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e462"><seg type="qs">Una <pb ed="#P" n="0928A"/> caro Christi surrexit</seg>, etc., usque ad <seg type="qs">surrexit ergo <quote xml:id="gom-ps56-Qd1e470" source="http://scta.info/resource/ps56_9@6-8">psalterium et cithara,</quote> et confitetur Domino.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps56-Dd1e476">
+          <head xml:id="gom-ps56-Hd1e478">Versus 11</head>
+          <p xml:id="gom-ps56-d1e480">
+            <quote xml:id="gom-ps56-Qd1e482" type="lemma" source="http://scta.info/resource/ps56_11@5-6">Ad coelos.</quote>
+            <ref xml:id="gom-ps56-Rd1e485"><name xml:id="gom-ps56-Nd1e486" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps56-Qd1e489"><seg type="qs">Qui supra nubes, ubi sedes angelorum</seg>, etc., usque ad <seg type="qs">coelos misericordia ascendit.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

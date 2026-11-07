@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Romanos, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Romanos, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0512B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom13">
+        <head xml:id="gom-rom13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-rom13-Dd1e100">
+          <head xml:id="gom-rom13-Hd1e102">Versus 1</head>
+          <p xml:id="gom-rom13-d1e104">
+            <quote xml:id="gom-rom13-Qd1e106" type="lemma" source="http://scta.info/resource/rom13_1@1-2">Omnis anima.</quote>
+            <ref xml:id="gom-rom13-Rd1e109"><name xml:id="gom-rom13-Nd1e110" ref="#Augustine">AUG.</name> Expositio prop. 720 ex epist. ad Rom.</ref>
+            <quote xml:id="gom-rom13-Qd1e114"><seg type="qs">Quod ait Apostolus hic rectissime admonet</seg>, etc., usque ad <seg type="qs">tamen omnis homo <pb ed="#P" n="0512C"/> subditus sit superiori se.</seg></quote>
+          </p>
+          <p xml:id="gom-rom13-d1e124">
+            <quote xml:id="gom-rom13-Qd1e126" type="lemma" source="http://scta.info/resource/rom13_1@7-10">Non est enim potestas.</quote>
+            Potestas est a Deo; sed quae a Deo sunt, ordinata sunt; ergo potestas est ordinata. Itaque qui resistit potestati, Dei ordinationi resistit, de bona potestate patet, quod eam perfecit Deus. Rationabiliter de mala videri potest, dum et boni per eam purgantur, et mali damnantur, et ipsa in deterius praecipitatur. Et scias, quod nomine potestatis interdum accipitur potestas ipsa, quae datur alicui a Deo, aliquando ipse homo habens potestatem; quod diligens lector distinguat.
+          </p>
+          <p xml:id="gom-rom13-d1e130">
+            <quote xml:id="gom-rom13-Qd1e132" type="lemma" source="http://scta.info/resource/rom13_1@14-20">Quae autem sunt, a Deo ordinata sunt.</quote>
+            Id est, rationabiliter a Deo disposita, unde: <quote xml:id="gom-rom13-Qd1e135" source="http://scta.info/resource/iob36_5@1-9">Deus potentes non abjicit, cum et ipse potens sit</quote>.
+          </p>
+          <p xml:id="gom-rom13-d1e139">
+            <ref xml:id="gom-rom13-Rd1e141" type="lemma" subtype="implied" target="http://scta.info/resource/rom13_1@14-20"/>
+            <ref xml:id="gom-rom13-Rd1e143"><name xml:id="gom-rom13-Nd1e144" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-rom13-Qd1e147"><seg type="qs">Deum quippe imitari desiderat, qui fastigium <pb ed="#P" n="0512D"/> potentiae</seg>, etc., usque ad <seg type="qs">quia nequaquam justa potentia, sed actio prava damnatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e158">
+          <head xml:id="gom-rom13-Hd1e160">Versus 2</head>
+          <p xml:id="gom-rom13-d1e162">
+            <quote xml:id="gom-rom13-Qd1e164" type="lemma" source="http://scta.info/resource/rom13_2@8-10">Qui autem resistit.</quote>
+            <ref xml:id="gom-rom13-Rd1e167"><name xml:id="gom-rom13-Nd1e168" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom13-Qd1e171">Quid si jubeat quod nonlicet? hic sane contemnet potestatem, timendo potestatem majorem; ergo si aliud imperator, et aliud Deus jubeat, cor tempto illo obtemperandum est Deo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e175">
+          <head xml:id="gom-rom13-Hd1e177">Versus 3</head>
+          <p xml:id="gom-rom13-d1e179">
+            <quote xml:id="gom-rom13-Qd1e181" type="lemma" source="http://scta.info/resource/rom13_3@2-2">Principes.</quote>
+            Dicit illos esse principes Apostolus, qui propter corrigendam vitam et prohibenda adversa creantur, Dei habentes imaginem, ut sub uno caeteri sint.
+          </p>
+          <p xml:id="gom-rom13-d1e185">
+            <quote xml:id="gom-rom13-Qd1e187" type="lemma" source="http://scta.info/resource/rom13_3@3-6">Non sunt timore boni,</quote>
+            etc. Si bonus est princeps, bene operantem non punit, sed diligit. Sin malus, non nocet bono, sed purgat eum. Malus ergo subditus debet timere, quia instituti sunt <pb ed="#P" n="0513A"/> principes ut mala puniant.
+          </p>
+          <p xml:id="gom-rom13-d1e193">
+            <quote xml:id="gom-rom13-Qd1e195" type="lemma" source="http://scta.info/resource/rom13_3@18-21">Habebis laudem ex illa.</quote>
+            Si justa est, ipsa laudante; si iniqua, ipsa tibi laudis occasionem praebente.
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e200">
+          <head xml:id="gom-rom13-Hd1e202">Versus 4</head>
+          <p xml:id="gom-rom13-d1e204">
+            <quote xml:id="gom-rom13-Qd1e206" type="lemma" source="http://scta.info/resource/rom13_4@1-3">Dei enim minister.</quote>
+            Ideo dati sunt rectores, ne mala fiant.
+          </p>
+          <p xml:id="gom-rom13-d1e210">
+            <quote xml:id="gom-rom13-Qd1e212" type="lemma" source="http://scta.info/resource/rom13_4@23-25">Vindex in iram.</quote>
+            Id est, propter iram Dei vindicandam, vel vindex in iram Dei ostendendam; quia haec punitio indicat persistentes in malo gravius puniendos.
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e218">
+          <head xml:id="gom-rom13-Hd1e220">Versus 6</head>
+          <p xml:id="gom-rom13-d1e222">
+            <quote xml:id="gom-rom13-Qd1e224" type="lemma" source="http://scta.info/resource/rom13_6@1-2">Ideo enim.</quote>
+            Subditi esse debetis, quia etiam ideo, id est propter ostendendam subjectionem, praestatis tributa, quod est signum subjectionis. Non ait, solvitis, sed praestatis, quasi reddituris; quia reddunt dum pugnant pro patria, et dum agunt judicia, vos praestatis servientes Deo. Per hoc enim, quod illi tributa datis, Deo servitis, quia ministri <pb ed="#P" n="0513B"/> Dei sunt. Vel praestatis tributa, quia ministri Dei sunt, ut boni laudentur, mali puniantur.
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e231">
+          <head xml:id="gom-rom13-Hd1e233">Versus 7</head>
+          <p xml:id="gom-rom13-d1e235">
+            <quote xml:id="gom-rom13-Qd1e237" type="lemma" source="http://scta.info/resource/rom13_7@5-5">Tributum.</quote>
+            Vel tributum quod dominis solvitur. Vectigal quod ad domum domini vehitur.
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e242">
+          <head xml:id="gom-rom13-Hd1e244">Versus 8</head>
+          <p xml:id="gom-rom13-d1e246">
+            <quote xml:id="gom-rom13-Qd1e248" type="lemma" source="http://scta.info/resource/rom13_8@1-2">Nemini quidquam.</quote>
+            Pax ad omnes, dilectio inter fratres. Aliter enim vere fratres non sunt.
+          </p>
+          <p xml:id="gom-rom13-d1e252">
+            <quote xml:id="gom-rom13-Qd1e254" type="lemma" source="http://scta.info/resource/rom13_8@7-7">Diligatis.</quote>
+            Mentio fit hic de charitate, quia valet ad hanc humilitatem. Sola enim charitas est, quae etiam reddita semper retinet debitorem. Redditur enim cum impenditur, debetur autem etiam si reddita fuerit, quia nullum est tempus quo impendenda non sit. Nec cum redditur, amittitur, sed potius reddendo multiplicatur; habendo enim redditur, non carendo, ut pecunia quae reddi non potest, nisi habeatur; nec haberi, nisi reddatur, imo cum redditur <pb ed="#P" n="0513C"/> ab homine, crescit in homine; et tanto major acquiritur, quanto pluribus redditur.
+          </p>
+          <p xml:id="gom-rom13-d1e260">
+            <quote xml:id="gom-rom13-Qd1e262" type="lemma" source="http://scta.info/resource/rom13_8@10-11">Diligit proximum.</quote>
+            Cum duo praecepta sint charitatis, pro utroque unum saepe ponitur, quia nec Deus sine proximo, nec sine Deo proximus diligitur vel potest diligi. Dilectio proximi in factis apparet, dilectio Dei amplius latet, et ideo hanc specialius ponit, de qua Dominus ait: <quote xml:id="gom-rom13-Qd1e265" source="http://scta.info/resource/io13_34@1-7">Mandatum novum do vobis, ut diligatis invicem,</quote> ubi illud mandatum majus dilectionis Dei videtur esse praetermissum. Sed bene intelligentibus utrumque invenitur in singulis; quia qui diligit Deum, nec potest eum contemnere quem Deus praecipit diligi, et qui sancte ac spiritualiter diligit proximum, quid in illo diligit nisi Deum?
+          </p>
+          <p xml:id="gom-rom13-d1e269">
+            <quote xml:id="gom-rom13-Qd1e271" type="lemma" source="http://scta.info/resource/rom13_8@11-13">Proximum, legem implevit.</quote>
+            Omnem hominem intelligi <pb ed="#P" n="0513D"/> oportet per proximum, quia nemo est, cum quo sit operandum malum. Qui ergo amat homines, aut quia justi sunt, aut ut justi sint amare debet. Sic enim et seipsum amare debet, scilicet, vel quia justus est, vel ut justus sit. Qui enim aliter se diligit, injuste se diligit, quia ad hoc se diligit ut sit injustus, ad hoc ergo ut sit malus: ergo jam se non diligit; qui enim diligit iniquitatem, odit animam suam.
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e278">
+          <head xml:id="gom-rom13-Hd1e280">Versus 11</head>
+          <p xml:id="gom-rom13-d1e282">
+            <quote xml:id="gom-rom13-Qd1e284" type="lemma" source="http://scta.info/resource/rom13_11@1-3">Et hoc scientes.</quote>
+            Scilicet quia hora est, vel sicut quidam libri habent: hoc tempus, scilicet gratiae, scientes. Jam ex quo dilectionem habuimus; est hora, id est opportunitas, sed brevis.
+          </p>
+          <p xml:id="gom-rom13-d1e288">
+            <quote xml:id="gom-rom13-Qd1e290" type="lemma" source="http://scta.info/resource/rom13_11@11-12">Somno surgere.</quote>
+            Somnus est negligentia vel ignorantia.
+          </p>
+          <p xml:id="gom-rom13-d1e294">
+            <quote xml:id="gom-rom13-Qd1e296" type="lemma" source="http://scta.info/resource/rom13_11@13-14">Nunc enim.</quote>
+            Causae interpositae, quare surgere <pb ed="#P" n="0514A"/> debeamus.
+          </p>
+          <p xml:id="gom-rom13-d1e302">
+            <quote xml:id="gom-rom13-Qd1e304" type="lemma" source="http://scta.info/resource/rom13_11@15-16">Propior est.</quote>
+            Bene operans vicinus est aeternae vitae. Baptismus enim est ad veniam, vita bona ad coronam. Vel <quote xml:id="gom-rom13-Qd1e307" source="http://scta.info/resource/rom13_11@15-15">propior,</quote> quia plus morti proximi sumus.
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e312">
+          <head xml:id="gom-rom13-Hd1e314">Versus 12</head>
+          <p xml:id="gom-rom13-d1e316">
+            <quote xml:id="gom-rom13-Qd1e318" type="lemma" source="http://scta.info/resource/rom13_12@1-2">Nox praecessit.</quote>
+            Item quare surgere debent ostenditur: quia <quote xml:id="gom-rom13-Qd1e321" source="http://scta.info/resource/rom13_12@1-1">nox</quote> infidelitatis et ignorantiae <quote xml:id="gom-rom13-Qd1e324" source="http://scta.info/resource/rom13_12@2-2">praecessit,</quote> id est fuit; sed modo non est cujus memoria monet, ut caveatis.
+          </p>
+          <p xml:id="gom-rom13-d1e328">
+            <quote xml:id="gom-rom13-Qd1e330" type="lemma" source="http://scta.info/resource/rom13_12@3-4">Dies autem,</quote>
+            id est aeterna beatitudo, <quote xml:id="gom-rom13-Qd1e333" source="http://scta.info/resource/rom13_12@5-5">appropinquavit,</quote> dum peccata remissa, dum estis justi per gratiam.
+          </p>
+          <p xml:id="gom-rom13-d1e337">
+            <quote xml:id="gom-rom13-Qd1e339" type="lemma" source="http://scta.info/resource/rom13_12@1-1">Nox</quote>
+            vetus homo, qui in baptismo praeteriit;
+          </p>
+          <p xml:id="gom-rom13-d1e343">
+            <quote xml:id="gom-rom13-Qd1e345" type="lemma" source="http://scta.info/resource/rom13_12@3-3">Dies,</quote>
+            sol justitiae Christus, cujus luce veritatem didicerunt, ut sciant quid agendum sit.
+          </p>
+          <p xml:id="gom-rom13-d1e350">
+            <quote xml:id="gom-rom13-Qd1e352" type="lemma" source="http://scta.info/resource/rom13_12@8-9">Opera tenebrarum.</quote>
+            Opera mala, quae ex tenebris ignorantiae venerunt, vel tenebras amant, et ad tenebras ducunt
+          </p>
+        </div>
+        <div xml:id="gom-rom13-Dd1e357">
+          <head xml:id="gom-rom13-Hd1e359">Versus 13</head>
+          <p xml:id="gom-rom13-d1e361">
+            <pb ed="#P" n="0514B"/>
+            <quote xml:id="gom-rom13-Qd1e365" type="lemma" source="http://scta.info/resource/rom13_13@6-8">Non in comessationibus.</quote>
+            Nota in his Romanos tangi; et ideo non est eis jus gloriandi.
+          </p>
+          <p xml:id="gom-rom13-d1e369">
+            <ref xml:id="gom-rom13-Rd1e371" type="lemma" subtype="implied" target="http://scta.info/resource/rom13_13@6-8"/>
+            <ref xml:id="gom-rom13-Rd1e373"><name xml:id="gom-rom13-Nd1e374" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom13-Qd1e377">Horum autem morborum superbia est mater, et humanae mentis aviditas, quae etiam hypocrisim saepe generat; huic non resistitur, nisi crebris divinorum librorum testimoniis incutiatur timor et charitas.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

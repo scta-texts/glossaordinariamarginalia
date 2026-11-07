@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0666B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr3">
+        <head xml:id="gom-IIchr3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-IIchr3-Dd1e100">
+          <head xml:id="gom-IIchr3-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIchr3-d1e104">
+            <quote xml:id="gom-IIchr3-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr3_1@23-25">In area Ornan.</quote>
+            <ref xml:id="gom-IIchr3-Rd1e109"><name xml:id="gom-IIchr3-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr3-Qd1e113"><seg type="qs">Ecclesia per aream signatur</seg>, etc., usque ad <seg type="qs">sed cum Christus eam respexit, pacis in se et locum invenit et nomen.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e122">
+          <head xml:id="gom-IIchr3-Hd1e124">Versus 2</head>
+          <p xml:id="gom-IIchr3-d1e126">
+            <quote xml:id="gom-IIchr3-Qd1e128" type="lemma" source="http://scta.info/resource/IIchr3_2@4-5">Mense secundo,</quote>
+            etc. Id est Maio, mox scilicet post pascha, ut consecratus mystica <pb ed="#P" n="0666C"/> solemnitate populus digne aggrederetur mysticum opus.
+          </p>
+          <p xml:id="gom-IIchr3-d1e134">
+            <quote xml:id="gom-IIchr3-Qd1e136" type="lemma" source="http://scta.info/resource/IIchr3_2@6-9">Anno quarto regni sui.</quote>
+            Post expletam dispensationem divinae incarnationis, quae in quatuor Evangeliis scripta est, misso Spiritu de coelo Ecclesia fabricata est. Quae in libris Regum exposuimus, in Paralipomenon sub brevitate perstringimus.
+          </p>
+          <p xml:id="gom-IIchr3-d1e140">
+            <ref xml:id="gom-IIchr3-Rd1e142" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr3_2@6-9"/>
+            Longitudo domus longam Ecclesiae patientiam significat. Latitudo charitatem qua etiam diligit inimicos, donec cum solis amicis in Deo gaudeat. Altitudo vero spem futurae vitae et retributionis, quia omnia adversa contemnit: donec videat bona Domini in terra viventium. Notandum quod triginta cubiti altitudinis, qui in Regum leguntur, non ad tectum templi, sed usque ad coenaculum inferius pervenerunt. <pb ed="#P" n="0666D"/> Hic enim quod altitudo centum viginti cubitorum erat. Alii triginta ad medium coenaculum, alii vero ad tertium, deinde usque ad supremum templi tectum numerabuntur, alii triginta et sic tota altitudo domus in centum viginti cubitis consummatur: quo numero virorum primitiva Ecclesia in Jerusalem gratiam Spiritus sancti accepit. Quindecim namque qui ex septem et octo constant, futuram vitam signant, quae nunc agitur in quiete animarum et perficietur in resurrectione corporum: quindecim vero in trigonum ducta, id est, cum omnibus partibus suis numerata centum viginti fiunt, quibus designatur futura beatitudo electorum. Bene autem hoc numero tertium coenaculum domus consummatur, <pb ed="#P" n="0667A"/> quae post praesentes labores, post animarum requiem, plena felicitatis gloria in resurrectione completur.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e150">
+          <head xml:id="gom-IIchr3-Hd1e152">Versus 4</head>
+          <p xml:id="gom-IIchr3-d1e154">
+            <quote xml:id="gom-IIchr3-Qd1e156" type="lemma" source="http://scta.info/resource/IIchr3_4@1-2">Porticum vero,</quote>
+            etc. Ipsum scilicet templum quod erat pro foribus oraculi: tripartita enim fuit fabricae distinctio: hoc est porticus ante templum: et ipsum templum in quo altare thymiamatis, mensa propositionis, et candelabrum luminis erant: et oraculum, id est, Sanctum sanctorum ubi arca testamenti et cherubim post velum collocata. Porticus vero ante templum antiquorum figuram gestat fidelium. Ipsum vero templum eorum qui post incarnationem Domini in mundum venerunt. Domus autem interior regni coelestis gaudia utrisque data.
+          </p>
+          <p xml:id="gom-IIchr3-d1e160">
+            <pb ed="#P" n="0667B"/>
+            <ref xml:id="gom-IIchr3-Rd1e164" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr3_4@1-2"/>
+            Notandum ergo quod parietes domus lapidibus pretiosis facti fuerunt tabulis cypressinis vel cedrinis operti, laminis aureis vestiti. Unde in Regum: <quote xml:id="gom-IIchr3-Qd1e166" source="http://scta.info/resource/Ireg6_18@1-6">Et cedro omnis domus vestiebatur,</quote> etc. Lapides parietis vel pavimenti et tabulae et aurum sanctorum vitam in Ecclesia significant. Lapides vivi sunt sancti fortitudine fidei in unam regulam conjuncti. Tabulae quoque cedrinae vel cypressinae sunt sancti latitudine variarum virtutum secundum donationem Spiritus sancti in eadem fide sibimetipsis connexi. Auri laminae sunt sancti supereminentem scientiae charitatem habentes, et hujus fulgore gratissimo ad invicem congaudentes.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e171">
+          <head xml:id="gom-IIchr3-Hd1e173">Versus 6</head>
+          <p xml:id="gom-IIchr3-d1e175">
+            <quote xml:id="gom-IIchr3-Qd1e177" type="lemma" source="http://scta.info/resource/IIchr3_6@1-3">Stravit quoque pavimentum,</quote>
+            etc. Sicut latitudo parietis in altum exsurgens, et ad laquearia <pb ed="#P" n="0667C"/> perveniens, provectus virtutum quibus sancti ad coelum perveniunt, vel sanctorum choros sibi per varia tempora succedentes significant: ita aequalitas pavimenti concordem eorum humilitatem, qua in hac vita positi sociali charitate conversantur. Pavimentum pretioso marmore stratum multo decore, et marmor tectum tabulis abiegnis, quia vita justorum primo fidei firmitate munienda est in corde: post virtutum latitudine ornanda in opere. Quid enim prodest decor marmoris tabulis obtectis, nisi aliquid mysticum ostendat? sed bonorum amplitudinem operum fortitudine fidei fulciendam esse significat. Abies vero alta et durabilis mentem electorum infima spernentem, coelestibus inhaerentem, et virtutem patientiae excellentem demonstrat. Auri laminae <pb ed="#P" n="0667D"/> marmori de tabulis abiegnis superpositae latitudo est charitatis de corde puro et conscientia bona et fide non ficta, quae sicut aurum aliis metallis, ita caeteris virtutibus in templo Dei praefulget.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e187">
+          <head xml:id="gom-IIchr3-Hd1e189">Versus 7</head>
+          <p xml:id="gom-IIchr3-d1e191">
+            <quote xml:id="gom-IIchr3-Qd1e193" type="lemma" source="http://scta.info/resource/IIchr3_7@14-16">Postes et parietes,</quote>
+            etc. Texit, cum aditum fidei ipso Domino pandente qua veritate reluceat omnibus Ecclesiam intrantibus ostendit. Ostium templi Christus est, per quem venitur ad Patrem, qui ait: <quote xml:id="gom-IIchr3-Qd1e196" source="http://scta.info/resource/io10_7@11-13">Ego sum ostium,</quote> etc. <!--<note>(Joan. X.)</note>--> In Regum ita scriptum est: <quote xml:id="gom-IIchr3-Qd1e201" source="http://scta.info/resource/Ireg6_20@2-14">Oraculum habebat viginti cubitos longitudinis, et viginti latitudis et viginti altitudinis<!-- check: Migne cites Ireg3; text matches Ireg6_20 --></quote>. Oraculum dicitur Sanctum sanctorum, quia ibi divina et angelica locutione hominibus secreta revelantur. Unde: <quote xml:id="gom-IIchr3-Qd1e205">Oraculum in abditis</quote> id est, <pb ed="#P" n="0668A"/> interiori domo factum est, quia in superna patria angelorum visio et allocutio et ipsa Dei praesentia revelabitur. Quod dicit viginti cubitos altitudinis, parietem cedrinum significat, qui oraculum ab aede exteriori segregat.
+          </p>
+          <p xml:id="gom-IIchr3-d1e211">
+            <quote xml:id="gom-IIchr3-Qd1e213" type="lemma" source="http://scta.info/resource/IIchr3_7@20-21">Coelavit cherubim.</quote>
+            Habet haec domus, sicut in Regum legitur, caelaturas eminentes, cum sancti opera virtutum non in oculto agant, sed exemplum omnibus praeferunt.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e218">
+          <head xml:id="gom-IIchr3-Hd1e220">Versus 8</head>
+          <p xml:id="gom-IIchr3-d1e222">
+            <quote xml:id="gom-IIchr3-Qd1e224" type="lemma" source="http://scta.info/resource/IIchr3_8@1-3">Fecit quoque domum,</quote>
+            etc. Oraculum ubi erat arca viginti cubitos habebat in longitudine, latitudine, altitudine, id est per quadrum: quia in superna patria ubi regem in decore suo vident sancti, sola charitas divinae et supernae gratiae per omnia fulget. Unde in sequentibus: <quote xml:id="gom-IIchr3-Qd1e227" source="http://scta.info/resource/Ireg6_21@10-12">Laminis aureis <pb ed="#P" n="0668B"/> texit eam</quote>, id est, moenia supernae civitatis gratia charitatis implevit.
+          </p>
+          <p xml:id="gom-IIchr3-d1e233">
+            <quote xml:id="gom-IIchr3-Qd1e235" type="lemma" source="http://scta.info/resource/IIchr3_8@23-24">Talentis sexcentis,</quote>
+            etc. In talentis ponderis perfectio quae charitatis perfectionem exprimit, sicut perfectio senarii per quem centenarius multiplicatur, ut fiant sexcenti.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e240">
+          <head xml:id="gom-IIchr3-Hd1e242">Versus 9</head>
+          <p xml:id="gom-IIchr3-d1e244">
+            <quote xml:id="gom-IIchr3-Qd1e246" type="lemma" source="http://scta.info/resource/IIchr3_9@1-3">Sed et clavos.</quote>
+            <ref xml:id="gom-IIchr3-Rd1e249"><name xml:id="gom-IIchr3-Nd1e250" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr3-Qd1e253"><seg type="qs">Quinquagenario numero peccatorum remissio</seg>, etc., usque ad <seg type="qs">qui ad perfectiora perveniens de clavis perfectionis, ait: <quote xml:id="gom-IIchr3-Qd1e259" source="http://scta.info/resource/ps72_28@1-6">Mihi autem adhaerere Deo, bonum est</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-IIchr3-d1e264">
+            <quote xml:id="gom-IIchr3-Qd1e266" type="lemma" source="http://scta.info/resource/IIchr3_9@13-14">Coenacula quoque.</quote>
+            Sicut Sancta sanctorum, ubi erat arca, internam sanctorum vitam in conspectu Redemptoris significat, unde: <quote xml:id="gom-IIchr3-Qd1e269" source="http://scta.info/resource/ps30_21@1-9">Abscondes eos in abscondito faciei tuae, a conturbatione hominum</quote>. Ita coenacula in alto eamdem vitam, id <pb ed="#P" n="0668C"/> est in coelis esse et non in hoc mundo, unde: <quote xml:id="gom-IIchr3-Qd1e274" source="http://scta.info/resource/col3_1@5-8">Quae sursum sunt quaerite</quote>, ubi Christus est in dextera Dei sedens.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e279">
+          <head xml:id="gom-IIchr3-Hd1e281">Versus 10</head>
+          <p xml:id="gom-IIchr3-d1e283">
+            <quote xml:id="gom-IIchr3-Qd1e285" type="lemma" source="http://scta.info/resource/IIchr3_10@1-2">Fecit etiam.</quote>
+            <ref xml:id="gom-IIchr3-Rd1e288"><name xml:id="gom-IIchr3-Nd1e289" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr3-Qd1e292"><seg type="qs">Hoc in Regum plenius legitur</seg>, etc., usque ad <seg type="qs">denario perpetui regni remunerandam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e301">
+          <head xml:id="gom-IIchr3-Hd1e303">Versus 11</head>
+          <p xml:id="gom-IIchr3-d1e305">
+            <quote xml:id="gom-IIchr3-Qd1e307" type="lemma" source="http://scta.info/resource/IIchr3_11@6-9">Ita ut ala.</quote>
+            Quinque cubitorum erat ala cherub una, etc., quia angeli legem Dei descriptam in quinque libris indefessa devotione custodiunt, diligendo scilicet Deum ex omnibus viribus suis, et proximos tanquam seipsos. <quote xml:id="gom-IIchr3-Qd1e310" source="http://scta.info/resource/rom13_10@6-9">Plenitudo autem legis est charitas</quote>. Proximi quoque adinvicem sunt spiritus angelici et homines electi. Unde utraque ala cherub ejusdem mensurae est: quia eadem devotione qua sese alterutrum in Deo diligunt, <pb ed="#P" n="0668D"/> nostram quoque ad se ascendentium societatem desiderant. Similiter ergo alae decem cubitos complent, cum in gemina charitatis exhibitione angeli, conditoris sui praesentia laetantur.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e317">
+          <head xml:id="gom-IIchr3-Hd1e319">Versus 12</head>
+          <p xml:id="gom-IIchr3-d1e321">
+            <quote xml:id="gom-IIchr3-Qd1e323" type="lemma" source="http://scta.info/resource/IIchr3_12@9-10">Tangebant parietem.</quote>
+            Duos aeque parietes alis suis tangunt, quia Judaeos et gentiles secum habent coelestis aulae possessores: non quod ibi sit localis distinctio inter utrumque populum, sed quia major est festivitas internae beatitudinis de consortio adunatae in Deo fraternitatis. Extendunt ergo ad utrumque parietem alas: quia laetantes in coelesti patria justos utriusque populi ad laudem excitant Creatoris. Alas tectas auro ad oraculi parietes extendunt, sicut habent facies versas ad <pb ed="#P" n="0669A"/> exteriorem domum: quia angeli sicut suam innocentiam conservant, sic de sanctorum beatitudine gaudent, ut eis quos adhuc in terris conspiciunt, opem ferant donec illos ad coelestem patriam introducant. <quote xml:id="gom-IIchr3-Qd1e328" source="http://scta.info/resource/hebr1_14@2-14">Omnes enim sunt administratorii spiritus in ministerium missi, propter eos qui haereditatem capiunt salutis</quote>. Alis exterioribus iste unum parietem, ille alterum contingit: quia Vetus Testamentum antiquo populo scripto novum nobis qui post incarnationem Domini ad fidem venimus, et secundo parieti, id est, septentrionali recte comparamur, qui post frigora et tenebras idololatriae lucem veritatis cognovimus.
+          </p>
+          <p xml:id="gom-IIchr3-d1e332">
+            <quote xml:id="gom-IIchr3-Qd1e334" type="lemma" source="http://scta.info/resource/IIchr3_12@12-13">Ala ejus.</quote>
+            Extendunt alas ad invicem super arcam, cum ad laudem Salvatoris referunt omne bonum <pb ed="#P" n="0669B"/> quod acceperant. Extendunt alteras alas ad parietes oraculi, cum sanctos secum videre laetantur, eosque velut alarum summitatibus tangunt, quos imitatores suae puritatis in hac vita fuisse exsultant.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e342">
+          <head xml:id="gom-IIchr3-Hd1e344">Versus 13</head>
+          <p xml:id="gom-IIchr3-d1e346">
+            <quote xml:id="gom-IIchr3-Qd1e348" type="lemma" source="http://scta.info/resource/IIchr3_13@17-20">Et facies eorum versae.</quote>
+            Quia nostri gratia qui adhuc foris stamus, sed spe salvi facti sumus, divini libri sunt conditi, quorum scriptores jam cum Domino regnantes, nostrae salutis curam gerunt, et pro nobis interpellant apud Deum.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e353">
+          <head xml:id="gom-IIchr3-Hd1e355">Versus 14</head>
+          <p xml:id="gom-IIchr3-d1e357">
+            <quote xml:id="gom-IIchr3-Qd1e359" type="lemma" source="http://scta.info/resource/IIchr3_14@1-2">Fecit quoque.</quote>
+            <ref xml:id="gom-IIchr3-Rd1e362"><name xml:id="gom-IIchr3-Nd1e363" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr3-Qd1e366"><seg type="qs">Hoc in Regum praemittitur</seg>, etc., usque ad <seg type="qs">et veritas Evangelii et ingressus regni ipsa veritate aperitur.</seg></quote>
+          </p>
+          <p xml:id="gom-IIchr3-d1e374">
+            <quote xml:id="gom-IIchr3-Qd1e376" type="lemma" source="http://scta.info/resource/IIchr3_14@10-11">Et intexuit.</quote>
+            Intexuntur cherubim his quatuor coloribus, cum in omnibus quae pie agimus a venenatis <pb ed="#P" n="0669C"/> daemonum telis per angelica praesidia protegimur, et multitudine scientiae indesinenter utimur, respicientes semper ad eloquia divina, ne a virtutum calle aberremus.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e383">
+          <head xml:id="gom-IIchr3-Hd1e385">Versus 15</head>
+          <p xml:id="gom-IIchr3-d1e387">
+            <quote xml:id="gom-IIchr3-Qd1e389" type="lemma" source="http://scta.info/resource/IIchr3_15@1-6">Ante fores etiam templi duas columnas.</quote>
+            Stabant in porticu ante fores templi, et ingressum templi suo decore ex utraque parte ornabant. Ostium templi Dominus est, qui ait: <quote xml:id="gom-IIchr3-Qd1e392" source="http://scta.info/resource/io14_6@11-17">Nemo venit ad Patrem, nisi per me,</quote> etc. <!--<note>(Joan. XIV)</note>-->. Ostium columnae ab utroque latere circumstant, cum ministri sermonis utrique populo introitum regni coelestis ostendunt, ut quicunque a luce legalis scientiae vel gentilitatis errore ad fidem Evangelii venerit, habeat eos paratos qui sibi iter salutis verbo monstrent et exemplo. In Regum de his columnis legitur: <pb ed="#P" n="0669D"/> <quote xml:id="gom-IIchr3-Qd1e399" source="http://scta.info/resource/Ireg7_14@24-33">Qui cum venisset ad regem Salomonem, fecit omne opus ejus, et finxit duas columnas aereas,</quote> etc. <!--<note>(III Reg. VII.)</note>-->
+          </p>
+          <p xml:id="gom-IIchr3-d1e405">
+            <quote xml:id="gom-IIchr3-Qd1e407" type="lemma" source="http://scta.info/resource/IIchr3_15@8-10">Triginta et quinque.</quote>
+            Hic numerus perfectionem significat magistrorum. Septenarius enim numerus per quinarium, vel quinarius per septenarium multiplicatus, triginta quinque reddunt. Quinarius vero legem, septenarius propter Spiritum septiformem in flore radicis Jesse manentem, Evangelium exprimit; unde alibi Dominus quinque panibus quinque millia hominum, et alibi septem panibus quatuor millia hominum pavisse narratur. Columnae igitur triginta quinque cubitorum significant doctores Evangelii duorum Testamentorum habere <pb ed="#P" n="0670A"/> perfectam scientiam, unde: <quote xml:id="gom-IIchr3-Qd1e412" source="http://scta.info/resource/mc4_11@4-9">Vobis datum est nosse mysterium regni Dei</quote>. Et alibi: <quote xml:id="gom-IIchr3-Qd1e415" source="http://scta.info/resource/lc24_45@2-7">Aperuit illis sensum, ut intelligerent Scripturas</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e420">
+          <head xml:id="gom-IIchr3-Hd1e422">Versus 16</head>
+          <p xml:id="gom-IIchr3-d1e424">
+            <quote xml:id="gom-IIchr3-Qd1e426" type="lemma" source="http://scta.info/resource/IIchr3_16@3-4">Quasi catenulas.</quote>
+            <ref xml:id="gom-IIchr3-Rd1e429"><name xml:id="gom-IIchr3-Nd1e430" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr3-Qd1e433">Multiplex catenarum contextio et retis, secundum Regum expansio ( <quote xml:id="gom-IIchr3-Qd1e435">sic</quote> ) multifarias electorum personas insinuat, quae cum verbis praedicatorum fideliter auscultando et obediende adhaerent, quasi capitibus columnarum superposita retia et catenulae miraculum suae connexionis spectantibus praebent.</quote>
+          </p>
+          <p xml:id="gom-IIchr3-d1e439">
+            <quote xml:id="gom-IIchr3-Qd1e441" type="lemma" source="http://scta.info/resource/IIchr3_16@10-11">Capitibus columnarum.</quote>
+            Capita columnarum, id est suprema pars, praecordia sunt doctorum, quorum Deo devotis cogitationibus sicut capite membra, ita ipsorum omnia opera dirigantur et verba.
+          </p>
+          <p xml:id="gom-IIchr3-d1e445">
+            <pb ed="#P" n="0670B"/>
+            <quote xml:id="gom-IIchr3-Qd1e449" type="lemma" source="http://scta.info/resource/IIchr3_16@12-12">Malogranata.</quote>
+            Uno foris cortice multa interius grana circumdant, unde Ecclesiam significant, quia unius fidei munimine innumera electorum agmina circumdat, vel cujusque justi vitam et mores, qui multa cogitationum virtutumque insignia, ne forte defluant, firma fidei et humilitatis vallant custodia. Apte vero capita columnarum malis granatis erant in gyro circumdata, quia sancti doctores priorum vitam fidelium ad memoriam revocant; eorumque exemplis et sermones suos omni parte confirmant, ne si aliter quam illorum habet regula, vixerint vel docuerint, errent.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr3-Dd1e454">
+          <head xml:id="gom-IIchr3-Hd1e456">Versus 17</head>
+          <p xml:id="gom-IIchr3-d1e458">
+            <quote xml:id="gom-IIchr3-Qd1e460" type="lemma" source="http://scta.info/resource/IIchr3_17@1-2">Ipsas quoque.</quote>
+            Ideo duae factae sunt columnae et ita dispositae, ut nobis in prosperis et in adversis ingressum regni coelestis ante oculos <pb ed="#P" n="0670C"/> habendum doceant. Notandum vero quod porticus templi etiam vestibulum vocatur, et quod legimus inter vestibulum et altare, inter porticum et altare intelligi debeat. Secunda columna significat praedicatores qui gentibus ad praedicandum missi sunt. Vel dextra columna eos significat qui venturum in carne prophetaverunt Dominum. Secunda vero illos qui jam venisse et mundum suo sanguine redemisse testantur. Ambae columnae simili vocabulo censentur, cum una firmitas et altera in robore dicitur, ut una fidei, et operis fortitudo cunctis inesse doctoribus monstretur, et nostri temporis doctores tacite notentur, qui columnae domus Dei videri et appellari volunt, cum in se firmae fidei ad contemnendas saeculi pompas, ad desideranda bona invisibilia, nihil <pb ed="#P" n="0670D"/> habeant roboris ad corrigendos, vel industriae ad intelligendos eorum quibus praesunt errores.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

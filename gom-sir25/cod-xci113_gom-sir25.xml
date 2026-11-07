@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 25</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 25</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1211A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir25">
+        <head xml:id="gom-sir25-Hd1e98">Caput 25</head>
+        <div xml:id="gom-sir25-Dd1e100">
+          <head xml:id="gom-sir25-Hd1e102">Versus 2</head>
+          <p xml:id="gom-sir25-d1e104">
+            <quote xml:id="gom-sir25-Qd1e106" type="lemma" source="http://scta.info/resource/sir25_2@7-9">Vir et mulier.</quote>
+            <ref xml:id="gom-sir25-Rd1e109"><name xml:id="gom-sir25-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir25-Qd1e113">Unde Paulus, <quote xml:id="gom-sir25-Qd1e115" source="http://scta.info/resource/eph5_25@1-8">Viri, diligite uxores vestras, sicut et Christus Ecclesiam</quote>. Possumus in viro spiritum, in muliere animam accipere, qui si in timore et dilectione Dei consenserint, quidquid petierint fiet eis, unde: <quote xml:id="gom-sir25-Qd1e118" source="http://scta.info/resource/mt18_19@5-8">Si duo consenserint ex vobis, fiet illis</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e124">
+          <head xml:id="gom-sir25-Hd1e126">Versus 3</head>
+          <p xml:id="gom-sir25-d1e128">
+            <quote xml:id="gom-sir25-Qd1e130" type="lemma" source="http://scta.info/resource/sir25_3@1-2">Tres species.</quote>
+            <ref xml:id="gom-sir25-Rd1e133"><name xml:id="gom-sir25-Nd1e134" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir25-Qd1e137"><seg type="qs">Possunt haec ad diabolum transferri</seg>, etc., usque ad <seg type="qs">quia Conditori suo subjici noluit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e146">
+          <head xml:id="gom-sir25-Hd1e148">Versus 5</head>
+          <p xml:id="gom-sir25-d1e150">
+            <quote xml:id="gom-sir25-Qd1e152" type="lemma" source="http://scta.info/resource/sir25_5@1-2">Quae in juventute.</quote>
+            Qui in juventute non discit sapientiam, in senectute fructum ejus non habet. Unde, <quote xml:id="gom-sir25-Qd1e155" source="http://scta.info/resource/prov10_4@1-10">Egestatem operata est manus remissa, <pb ed="#P" n="1211B"/> manus autem fortium divitias parat</quote>. <quote xml:id="gom-sir25-Qd1e160" source="http://scta.info/resource/ps1_3@14-17">Qui autem meditatur in lege Domini, dabit fructum in tempore suo</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e165">
+          <head xml:id="gom-sir25-Hd1e167">Versus 6</head>
+          <p xml:id="gom-sir25-d1e169">
+            <quote xml:id="gom-sir25-Qd1e171" type="lemma" source="http://scta.info/resource/sir25_6@1-2">Quam speciosum.</quote>
+            <ref xml:id="gom-sir25-Rd1e174"><name xml:id="gom-sir25-Nd1e175" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir25-Qd1e178"><seg type="qs">Canum caput decet</seg>, etc., usque ad <seg type="qs">non licet eis ignorare legis scientiam et sapientiam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e188">
+          <head xml:id="gom-sir25-Hd1e190">Versus 9</head>
+          <p xml:id="gom-sir25-d1e192">
+            <quote xml:id="gom-sir25-Qd1e194" type="lemma" source="http://scta.info/resource/sir25_9@1-2">Novem insuspicabilia,</quote>
+            etc. <quote xml:id="gom-sir25-Qd1e197" source="http://scta.info/resource/rom10_10@1-11">Corde creditur ad justitiam, ore autem confessio fit ad salutem</quote>. Novem ergo sunt insuspicabilia, id est ab omni suspicione falsitatis aliena, quae parit homini fides recta.
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e202">
+          <head xml:id="gom-sir25-Hd1e204">Versus 13</head>
+          <p xml:id="gom-sir25-d1e206">
+            <quote xml:id="gom-sir25-Qd1e208" type="lemma" source="http://scta.info/resource/sir25_13@5-5">Sapientiam.</quote>
+            Quae est malum cavere. Unde, <quote xml:id="gom-sir25-Qd1e211" source="http://scta.info/resource/iob28_28@1-14">Et ecce timor Domini ipse est sapientia, et recedere a malo intelligentiam</quote>. Hinc est quod unum speciebus virtutum superadditur.
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e216">
+          <head xml:id="gom-sir25-Hd1e218">Versus 16</head>
+          <p xml:id="gom-sir25-d1e220">
+            <pb ed="#P" n="1211C"/>
+            <quote xml:id="gom-sir25-Qd1e224" type="lemma" source="http://scta.info/resource/sir25_16@1-2">Timor Dei.</quote>
+            <ref xml:id="gom-sir25-Rd1e227"><name xml:id="gom-sir25-Nd1e228" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir25-Qd1e231"><seg type="qs">Quia sicut novenarius imperfectus est</seg>, etc., usque ad <seg type="qs">sed ne te deserat praesentia Dei, quam amplecteris, et in aeternum frui desideras.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e240">
+          <head xml:id="gom-sir25-Hd1e242">Versus 17</head>
+          <p xml:id="gom-sir25-d1e244">
+            <quote xml:id="gom-sir25-Qd1e246" type="lemma" source="http://scta.info/resource/sir25_17@1-2">Omnis plaga.</quote>
+            Non est major gratia quam vera laetitia mentis, nec major plaga quam tristitia fraudulenti cordis in idololatria vel in haeresi, quia in ejus nequitia omnis malitia est.
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e251">
+          <head xml:id="gom-sir25-Hd1e253">Versus 18</head>
+          <p xml:id="gom-sir25-d1e255">
+            <quote xml:id="gom-sir25-Qd1e257" type="lemma" source="http://scta.info/resource/sir25_18@1-3">Et omnem plagam.</quote>
+            Videt plagam cordis qui intelligit injuriam suae pravitatis, sed non videt, qui per poenitentiam non corrigit.
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e262">
+          <head xml:id="gom-sir25-Hd1e264">Versus 22</head>
+          <p xml:id="gom-sir25-d1e266">
+            <quote xml:id="gom-sir25-Qd1e268" type="lemma" source="http://scta.info/resource/sir25_22@1-3">Non est caput,</quote>
+            etc.
+            <ref xml:id="gom-sir25-Rd1e271"><name xml:id="gom-sir25-Nd1e272" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir25-Qd1e275"><seg type="qs">Nequitia haereticorum comparata</seg>, etc., usque ad <seg type="qs">ideo ejus cohabitatio omnibus noxia est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e285">
+          <head xml:id="gom-sir25-Hd1e287">Versus 26</head>
+          <p xml:id="gom-sir25-d1e289">
+            <quote xml:id="gom-sir25-Qd1e291" type="lemma" source="http://scta.info/resource/sir25_26@1-2">Brevis omnis malitia.</quote>
+            Parva est omnis <pb ed="#P" n="1211D"/> malitia ad comparationem idololatriae et pravitatis haereticae, quia peccant, non per fragilitatem carnis, sed per superbiam mentis.
+          </p>
+        </div>
+        <div xml:id="gom-sir25-Dd1e298">
+          <head xml:id="gom-sir25-Hd1e300">Versus 30</head>
+          <p xml:id="gom-sir25-d1e302">
+            <quote xml:id="gom-sir25-Qd1e304" type="lemma" source="http://scta.info/resource/sir25_30@1-4">Mulier si primatum habeat.</quote>
+            <quote xml:id="gom-sir25-Qd1e307"><seg type="qs">Historice ostendit, quam noxius sit primatus mulieris</seg>, etc., usque ad <seg type="qs">contraria erit viro, id est doctori catholico perversa sentiendo et prava docendo.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

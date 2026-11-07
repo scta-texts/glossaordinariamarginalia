@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1197B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir13">
+        <head xml:id="gom-sir13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-sir13-Dd1e100">
+          <head xml:id="gom-sir13-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir13-d1e104">
+            <quote xml:id="gom-sir13-Qd1e106" type="lemma" source="http://scta.info/resource/sir13_1@1-4">Qui tetigerit picem inquinabitur.</quote>
+            <ref xml:id="gom-sir13-Rd1e109"><name xml:id="gom-sir13-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir13-Qd1e113"><seg type="qs"><pb ed="#P" n="1197C"/> Per similitudinem ostendit</seg>, etc., usque ad <seg type="qs">ne mala quae frequenter aspiciunt, imitari velint.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e123">
+          <head xml:id="gom-sir13-Hd1e125">Versus 2</head>
+          <p xml:id="gom-sir13-d1e127">
+            <quote xml:id="gom-sir13-Qd1e129" type="lemma" source="http://scta.info/resource/sir13_2@1-4">Pondus super se tollet.</quote>
+            <ref xml:id="gom-sir13-Rd1e132"><name xml:id="gom-sir13-Nd1e133" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir13-Qd1e136"><seg type="qs">Haec moraliter nos instruunt, ut humilia sequamur, superba fugiamus: <quote xml:id="gom-sir13-Qd1e139" source="http://scta.info/resource/iac4_6@8-14">Quia Deus superbis resistit, humilibus autem dat gratiam</quote>. Mystice autem docet</seg>, etc., usque ad <seg type="qs">quia aeterna confusione dignos ostendent, cum in aeternum cruciabuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e148">
+          <head xml:id="gom-sir13-Hd1e150">Versus 11</head>
+          <p xml:id="gom-sir13-d1e152">
+            <quote xml:id="gom-sir13-Qd1e154" type="lemma" source="http://scta.info/resource/sir13_11@1-2">Noli esse,</quote>
+            etc. Non virtutem humilitatis abhorret: sed auctoritatem firmam contra expugnatores veritatis docet tenere, quibus fortiter resistendum.
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e159">
+          <head xml:id="gom-sir13-Hd1e161">Versus 12</head>
+          <p xml:id="gom-sir13-d1e163">
+            <quote xml:id="gom-sir13-Qd1e165" type="lemma" source="http://scta.info/resource/sir13_12@1-1">Advocatus.</quote>
+            Modeste agendum est cum potentibus hujus saeculi, qui frequenter derident innocentium simplicitatem: quibus tamen debitum <pb ed="#P" n="1197D"/> honorem conferre debemus, sed non contra Deum, vel contra mandata ejus. Unde, <quote xml:id="gom-sir13-Qd1e170" source="http://scta.info/resource/Ipetr2_17@1-8">Omnes honorate, fraternitatem diligite, Deum timete, regem honorificate</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e176">
+          <head xml:id="gom-sir13-Hd1e178">Versus 16</head>
+          <p xml:id="gom-sir13-d1e180">
+            <quote xml:id="gom-sir13-Qd1e182" type="lemma" source="http://scta.info/resource/sir13_16@1-4">Cave tibi, et attende.</quote>
+            Quasi: nihil tutum apud amatores mundi, qui mutabilia sequuntur et cum illis mutantur. Unde: <quote xml:id="gom-sir13-Qd1e185" source="http://scta.info/resource/qoh27">Stultus ut luna mutatur<!-- check: cited chapter given; verse not identified --></quote>. Possunt in his haeretici et falsi Christiani intelligi, quibus non est credendum, quia inconstantes sunt in omnibus viis suis.
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e191">
+          <head xml:id="gom-sir13-Hd1e193">Versus 18</head>
+          <p xml:id="gom-sir13-d1e195">
+            <quote xml:id="gom-sir13-Qd1e197" type="lemma" source="http://scta.info/resource/sir13_18@1-2">Omni vita.</quote>
+            <ref xml:id="gom-sir13-Rd1e200"><name xml:id="gom-sir13-Nd1e201" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir13-Qd1e204"><seg type="qs">Caeteris refutatis</seg>, etc., usque ad <seg type="qs">quia prope est Dominus omnibus invocantibus eum in veritate.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e213">
+          <head xml:id="gom-sir13-Hd1e215">Versus 19</head>
+          <p xml:id="gom-sir13-d1e217">
+            <quote xml:id="gom-sir13-Qd1e219" type="lemma" source="http://scta.info/resource/sir13_19@1-2">Omne animal.</quote>
+            Ad superiora respicit, <pb ed="#P" n="1198A"/> ut divitum, scilicet, et potentum societatem declines, et ei conjungaris, qui studio et religione tibi consors est. Haec est enim amicitia firma, quam similitudo virtutum sociat.
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e226">
+          <head xml:id="gom-sir13-Hd1e228">Versus 21</head>
+          <p xml:id="gom-sir13-d1e230">
+            <quote xml:id="gom-sir13-Qd1e232" type="lemma" source="http://scta.info/resource/sir13_21@1-2">Si communicabit.</quote>
+            Rapacitas lupi cum agni innocentia non convenit, nec avari rabies cum modestia simplicis. Nulla enim communicatio munditiae cum immunditia: <quote xml:id="gom-sir13-Qd1e235" source="http://scta.info/resource/prov26_11@1-13">Sicut enim canis revertitur ad vomitum, ita qui iterat stultitiam suam<!-- check: Migne cites prov6; text matches prov26_11 --></quote>. Nulla ergo parilitas superbi divitis cum humilitate pauperis Christi.
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e241">
+          <head xml:id="gom-sir13-Hd1e243">Versus 25</head>
+          <p xml:id="gom-sir13-d1e245">
+            <quote xml:id="gom-sir13-Qd1e247" type="lemma" source="http://scta.info/resource/sir13_25@1-2">Dives commotus.</quote>
+            Quod de divite et paupere increpat, exsequitur: quia multi sunt qui divitis facta et dicta extollunt: pauci qui doctrinam humilium et virtutem intelligunt. Arrogantes inveniunt <pb ed="#P" n="1198B"/> praedicatores, humiles vero contemptores. Unde: <quote xml:id="gom-sir13-Qd1e252" source="http://scta.info/resource/prov19_4@1-12">Divitiae addunt amicos plurimos, a paupere vero, et hi, quos habuit, separantur</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e257">
+          <head xml:id="gom-sir13-Hd1e259">Versus 31</head>
+          <p xml:id="gom-sir13-d1e261">
+            <quote xml:id="gom-sir13-Qd1e263" type="lemma" source="http://scta.info/resource/sir13_31@1-3">Cor hominis immutat.</quote>
+            In judicio vultus, mentis mutatio deprehenditur: unde, <quote xml:id="gom-sir13-Qd1e266" source="http://scta.info/resource/prov15_13@1-9">Cor gaudens exhilarat faciem, in moerore animi dejicitur spiritus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir13-Dd1e272">
+          <head xml:id="gom-sir13-Hd1e274">Versus 32</head>
+          <p xml:id="gom-sir13-d1e276">
+            <quote xml:id="gom-sir13-Qd1e278" type="lemma" source="http://scta.info/resource/sir13_32@1-3">Vestigium cordis boni.</quote>
+            Quia multi simulati et ficti: ideo difficile invenitur in quo cor et facies, id est cogitatio et operatio atque doctrina, in bono conveniant: cum autem hoc invenies, da gloriam Deo, quia hoc ejus donum est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

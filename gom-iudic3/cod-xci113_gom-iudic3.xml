@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0522D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudic3">
+        <head xml:id="gom-iudic3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-iudic3-Dd1e100">
+          <head xml:id="gom-iudic3-Hd1e102">Versus 5</head>
+          <p xml:id="gom-iudic3-d1e104">
+            <quote xml:id="gom-iudic3-Qd1e106" type="lemma" source="http://scta.info/resource/iudic3_5@5-6">In medio.</quote>
+            <ref xml:id="gom-iudic3-Rd1e109"><name xml:id="gom-iudic3-Nd1e110" ref="#Augustine">AUG.</name>, quaest. 17 in Jud.</ref>
+            <quote xml:id="gom-iudic3-Qd1e114"><seg type="qs">In Exodo dicit Deus</seg>, etc., usque ad <seg type="qs">eorum multitudo terras unde adversarii exterminarentur desertas esse non sineret. Quod autem ait: <quote xml:id="gom-iudic3-Qd1e120" source="http://scta.info/resource/ex23_29@9-18">Ne multiplicentur in te bestiae ferae;</quote> mirum si non bestiales cupiditates et <pb ed="#P" n="0523A"/> libidines intelligi voluit . . . non enim Deus homines exterminare poterat, et bestias non poterat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic3-Dd1e128">
+          <head xml:id="gom-iudic3-Hd1e130">Versus 8</head>
+          <p xml:id="gom-iudic3-d1e132">
+            <quote xml:id="gom-iudic3-Qd1e134" type="lemma" source="http://scta.info/resource/iudic3_8">Et tradidit eos Dominus,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-iudic3-Rd1e139"><name xml:id="gom-iudic3-Nd1e140" ref="#Origen">ADAM.</name>, hom. 3.</ref>
+            <quote xml:id="gom-iudic3-Qd1e144">etc., usque ad <seg type="qs">odor teterrimus superbiae renidet.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic3-d1e150">
+            <ref xml:id="gom-iudic3-Rd1e152" type="lemma" subtype="implied" target="http://scta.info/resource/iudic3_8"/>
+            <ref xml:id="gom-iudic3-Rd1e154"><name xml:id="gom-iudic3-Nd1e155" ref="#Origen">ORIG.</name>, hom. 3 in Jud.</ref>
+            <quote xml:id="gom-iudic3-Qd1e159"><seg type="qs">Vide benignum Dominum</seg>, etc., usque ad <seg type="qs">qui per Othoniel vel Aioth disignantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic3-Dd1e168">
+          <head xml:id="gom-iudic3-Hd1e170">Versus 10</head>
+          <p xml:id="gom-iudic3-d1e172">
+            <quote xml:id="gom-iudic3-Qd1e174" type="lemma" source="http://scta.info/resource/iudic3_10@2-5">Fuit in eo Spiritus Domini,</quote>
+            etc. Magna laus est primi judicis, quod Spiritus Domini factus est super eum: et per Spiritum Dei judicavit populum, quod de alia dictum non valde memini. Sunt hodie ecclesiarum judices, quibus datum est etiam judicium animarum: sed nescio, si quis dignus sit Spiritu Dei repleri.
+          </p>
+          <p xml:id="gom-iudic3-d1e178">
+            <pb ed="#P" n="0523B"/>
+            <quote xml:id="gom-iudic3-Qd1e182" type="lemma" source="http://scta.info/resource/iudic3_10@1-2">Fuitque in.</quote>
+            <ref xml:id="gom-iudic3-Rd1e185"><name xml:id="gom-iudic3-Nd1e186" ref="#Origen">ADAM.</name></ref>
+            <quote xml:id="gom-iudic3-Qd1e189">Postquam, scilicet, clamaverunt ad Dominum. Quis in nobis tam validum, tam justum clamorem emittit ad Dominum, ut mereatur populus accipere judicem quem repleat Spiritus Dei, ut posset rectum tenere judicium? Unde liber iste Judicum dicitur, qui, scilicet, judicaverunt populum Israel, viros, scilicet, mirabiles, sicut Josue fuit. Sicut et liber Regum, in quo dicitur quomodo quisque regum regnaverit, et quid egerit etiam malum: ut Ecclesiae scilicet principes, vel judices bona eorum imitentur, mala caveant.</quote>
+          </p>
+          <p xml:id="gom-iudic3-d1e192">
+            <quote xml:id="gom-iudic3-Qd1e194" type="lemma" source="http://scta.info/resource/iudic3_10">Servieruntque Israel.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-iudic3-Rd1e199"><name xml:id="gom-iudic3-Nd1e200" ref="#Origen">ADAM.</name>, ubi supra.</ref>
+            <quote xml:id="gom-iudic3-Qd1e204"><seg type="qs">Post decem et octo annos</seg>, etc., usque ad <seg type="qs">quibus dicetur: <quote xml:id="gom-iudic3-Qd1e210">Discedite a me, operarii iniquitatis, nescio vos: ite in ignem aeternum,</quote> etc. <!--<note>(Luc. XIII)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic3-d1e216">
+            <pb ed="#P" n="0523C"/>
+            <ref xml:id="gom-iudic3-Rd1e220" type="lemma" subtype="implied" target="http://scta.info/resource/iudic3_10"/>
+            <ref xml:id="gom-iudic3-Rd1e222"><name xml:id="gom-iudic3-Nd1e223" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-iudic3-Qd1e226">Etiam mensuras poenae indicat divina Scriptura supra octo annis: hic decem et octo dicit. Certum est autem, quia secundum modum peccati, et conversionis moram, etiam castigationis tempora terminantur. Transierunt enim et isti decem et octo anni servitutis, et non dicitur quia clamaverunt ad Dominum vel conversi sunt a malitia sua: sed post.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic3-Dd1e230">
+          <head xml:id="gom-iudic3-Hd1e232">Versus 15</head>
+          <p xml:id="gom-iudic3-d1e234">
+            <quote xml:id="gom-iudic3-Qd1e236" type="lemma" source="http://scta.info/resource/iudic3_15@9-9">Salvatorem.</quote>
+            <ref xml:id="gom-iudic3-Rd1e239"><name xml:id="gom-iudic3-Nd1e240" ref="#Origen">ID.</name>, hom. 3.</ref>
+            <quote xml:id="gom-iudic3-Qd1e244"><seg type="qs">Salvatores vel judices</seg>, etc., usque ad <seg type="qs">quae dicit: <quote xml:id="gom-iudic3-Qd1e250" source="http://scta.info/resource/io14_6@4-10">Ego sum via, veritas et vita</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic3-d1e255">
+            <quote xml:id="gom-iudic3-Qd1e257" type="lemma" source="http://scta.info/resource/iudic3_15@16-21">Qui utraque manu pro dextera utebatur.</quote>
+            Secundum spiritualem intelligentiam, omnes sancti ambidextri dicuntur, diabolus et principes ejus, ambisinistri. Totum enim quod agunt, sinistrum est et perversum, <pb ed="#P" n="0523D"/> aeterno igni cum his, qui a sinistris sunt, deputatum.
+          </p>
+        </div>
+        <div xml:id="gom-iudic3-Dd1e265">
+          <head xml:id="gom-iudic3-Hd1e267">Versus 20</head>
+          <p xml:id="gom-iudic3-d1e269">
+            <quote xml:id="gom-iudic3-Qd1e271" type="lemma" source="http://scta.info/resource/iudic3_20@1-4">Ingressus est Aod,</quote>
+            etc.
+            <ref xml:id="gom-iudic3-Rd1e274"><name xml:id="gom-iudic3-Nd1e275" ref="#Origen">ADAM.</name>, hom. 4.</ref>
+            <quote xml:id="gom-iudic3-Qd1e279"><seg type="qs">Aod interpretatur <mentioned>laus</mentioned>. Arte enim callida, et laudabili usus deceptione</seg>, etc., usque ad <seg type="qs">cui dicitur a Domino: <quote xml:id="gom-iudic3-Qd1e287" source="http://scta.info/resource/mt25_23@5-7">Euge, serve bone,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic3-Dd1e293">
+          <head xml:id="gom-iudic3-Hd1e295">Versus 22</head>
+          <p xml:id="gom-iudic3-d1e297">
+            <quote xml:id="gom-iudic3-Qd1e299" type="lemma" source="http://scta.info/resource/iudic3_22@10-10">Pinguissimo.</quote>
+            <ref xml:id="gom-iudic3-Rd1e302"><name xml:id="gom-iudic3-Nd1e303" ref="#Augustine">AUG.</name>, quaest. 21.</ref>
+            <quote xml:id="gom-iudic3-Qd1e307"><seg type="qs">Merito quaeritur</seg>, etc., usque ad <seg type="qs">ita invenimus. <quote xml:id="gom-iudic3-Qd1e313" source="http://scta.info/resource/iudic3_17@6-10">Erat autem Eglon crassus nimis.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic3-Dd1e318">
+          <head xml:id="gom-iudic3-Hd1e320">Versus 25</head>
+          <p xml:id="gom-iudic3-d1e322">
+            <quote xml:id="gom-iudic3-Qd1e324" type="lemma" source="http://scta.info/resource/iudic3_25@10-10">Tulerunt.</quote>
+            <ref xml:id="gom-iudic3-Rd1e327"><name xml:id="gom-iudic3-Nd1e328" ref="#Augustine">ID.</name>, quaest. 23.</ref>
+            <quote xml:id="gom-iudic3-Qd1e332">Quomodo pueri regis Eglon clavi aperuerunt, quod Aod clavi non clauserat? Aut si ille clavi clauserat, quomodo eam secum non tulerat, ut nec isti clavi aperire possent? Proinde aut alia clavis allata est, aut tale <pb ed="#P" n="0524A"/> genus clausurae fuit, quod sine clavi posset claudi, nec sine clavi aperiri. Nam sunt quaedam talia, sicut ea quae verudata [ <quote xml:id="gom-iudic3-Qd1e336">MSS.,</quote> veruclata] dicuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic3-Dd1e341">
+          <head xml:id="gom-iudic3-Hd1e343">Versus 31</head>
+          <p xml:id="gom-iudic3-d1e345">
+            <quote xml:id="gom-iudic3-Qd1e347" type="lemma" source="http://scta.info/resource/iudic3_31@1-2">Post hunc.</quote>
+            <ref xml:id="gom-iudic3-Rd1e350"><name xml:id="gom-iudic3-Nd1e351" ref="#Origen">ADAM.</name>, hom. 4.</ref>
+            <quote xml:id="gom-iudic3-Qd1e355">LXX. Semgar, id est ibi advena. Omnes enim homines Dei advenae sunt in hoc mundo; sicut ille, qui dicebat: <quote xml:id="gom-iudic3-Qd1e357" source="http://scta.info/resource/ps38_13@16-26">Advena ego sum, in terra apud te, et peregrinus, sicut omnes patres mei.</quote> Hunc ergo Semgar Spiritus sanctus ibi advenam dicit, id est hic: quod enim Spiritui sancto, qui in coelis est, ibi est, nobis hic est.</quote>
+          </p>
+          <p xml:id="gom-iudic3-d1e362">
+            <quote xml:id="gom-iudic3-Qd1e364" type="lemma" source="http://scta.info/resource/iudic3_31@1-2">Post hunc.</quote>
+            <ref xml:id="gom-iudic3-Rd1e367"><name xml:id="gom-iudic3-Nd1e368" ref="#Augustine">AUG.</name>, quaest. 25.</ref>
+            <quote xml:id="gom-iudic3-Qd1e372">Quaeritur quomodo post Aod pugnaverit Semgar pro Israel et eum salvasse dictus sit. Non enim fuerat captivatus vel jugo servitutis innexus. Sed ita salvavit, non quia hostis <pb ed="#P" n="0524B"/> nocuerit; sed ne permitteretur nocere: quem credendum est bello coepisse tentare, et hujus victoria fuisse repulsum.</quote>
+          </p>
+          <p xml:id="gom-iudic3-d1e378">
+            <quote xml:id="gom-iudic3-Qd1e380" type="lemma" source="http://scta.info/resource/iudic3_31@7-8">Qui percussit.</quote>
+            <ref xml:id="gom-iudic3-Rd1e383"><name xml:id="gom-iudic3-Nd1e384" ref="#Origen">ADAM.</name>, hom. 4.</ref>
+            <quote xml:id="gom-iudic3-Qd1e388"><seg type="qs">Semgar percussit Allophylos in sexcentis viris</seg>, etc., usque ad <seg type="qs">ut confidenter dicas: <quote xml:id="gom-iudic3-Qd1e394" source="http://scta.info/resource/gal6_14@1-4">Mihi autem absit gloriari,</quote> etc.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

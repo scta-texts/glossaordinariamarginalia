@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium, Caput 16</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Deuteronomium, Caput 16</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0467C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-deut16">
+        <head xml:id="gom-deut16-Hd1e98">Caput 16</head>
+        <div xml:id="gom-deut16-Dd1e100">
+          <head xml:id="gom-deut16-Hd1e102">Versus 1</head>
+          <p xml:id="gom-deut16-d1e104">
+            <quote xml:id="gom-deut16-Qd1e106" type="lemma" source="http://scta.info/resource/deut16_1@1-4">Observa mensem novarum frugum.</quote>
+            Quia in eo manipuli spicarum, id est primitiae, per sacerdotem offerebantur Domino.
+          </p>
+          <p xml:id="gom-deut16-d1e110">
+            <ref xml:id="gom-deut16-Rd1e112" type="lemma" subtype="implied" target="http://scta.info/resource/deut16_1@1-4"/>
+            Mensem primum, scilicet Hebraeorum qui apud eos nisan apud Graecos quoque <foreign xml:lang="greek">ξάνθικος,</foreign> apud Latinos Aprilis dicitur, in quo agnus paschalis occidebatur.
+          </p>
+          <p xml:id="gom-deut16-d1e118">
+            <quote xml:id="gom-deut16-Qd1e120" type="lemma" source="http://scta.info/resource/deut16_1@19-20">Eduxit te.</quote>
+            Mystice. Nos quoque de Aegypto hujus mundi liberati, novum hominem induti, in novitate <pb ed="#P" n="0467D"/> vitae ambulemus, primitias bonorum operum consecrantes, et phase, id est, transitum bonum celebrantes, ut, relicta Aegypto, ad terram promissionis veniamus.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e127">
+          <head xml:id="gom-deut16-Hd1e129">Versus 2</head>
+          <p xml:id="gom-deut16-d1e131">
+            <quote xml:id="gom-deut16-Qd1e133" type="lemma" source="http://scta.info/resource/deut16_2@8-12">Et de bobus in loco.</quote>
+            <ref xml:id="gom-deut16-Rd1e136"><name xml:id="gom-deut16-Nd1e137" ref="#Augustine">AUG.</name>, quaest. 24.</ref>
+            <quote xml:id="gom-deut16-Qd1e141">Boves addit, cum de ove tantum praeceperit, quam jussit accipi ex ovibus et haedis vel capris, vel propter Christum, qui secundum carnem ex justis fuit et peccatoribus. Non enim ait ex ovibus vel capris, sed ex ovibus et capris, licet proprie non intelligatur ovis ex capris, ne Judaei dicerent subaudiendum esse caprum. Quare ergo additi sunt boves? an propter alia sacrificia, quae diebus azymorum sunt immolanda?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e145">
+          <head xml:id="gom-deut16-Hd1e147">Versus 3</head>
+          <p xml:id="gom-deut16-d1e149">
+            <pb ed="#P" n="0468A"/>
+            <quote xml:id="gom-deut16-Qd1e153" type="lemma" source="http://scta.info/resource/deut16_3@5-6">Panem fermentatum.</quote>
+            Corruptam doctrinam vel veterem conversationem, unde: <quote xml:id="gom-deut16-Qd1e156" source="http://scta.info/resource/Icor5_8@2-6">Epulemur in azymis, non in fermento veteri,</quote> etc. <!--<note>(I Cor. V)</note>-->.
+          </p>
+          <p xml:id="gom-deut16-d1e162">
+            <quote xml:id="gom-deut16-Qd1e164" type="lemma" source="http://scta.info/resource/deut16_3@7-7">Septem.</quote>
+            Toto tempore praesentis vitae. Sicut illi septem diebus azyma comedebant, sic nos pure et simpliciter septem diebus hujus vitae conversemur, quibus quotidie agnus occiditur, et pascha celebratur, si innovati nihil ex veteri corruptione retinemus. Quid enim est aliud fermentum, quam naturae corruptio? Fermentatum enim recedit a naturali dulcedine, et corrumpitur adulterino rancore.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e169">
+          <head xml:id="gom-deut16-Hd1e171">Versus 4</head>
+          <p xml:id="gom-deut16-d1e173">
+            <quote xml:id="gom-deut16-Qd1e175" type="lemma" source="http://scta.info/resource/deut16_4">Non apparebit. Epulemur non in fermento veteri, neque in fermento malitiae et nequitiae,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. <!--<note>(I Cor. V)</note>-->, quasi: relinquite veterem hominem, et induite novum.
+          </p>
+          <p xml:id="gom-deut16-d1e183">
+            <pb ed="#P" n="0468B"/>
+            <quote xml:id="gom-deut16-Qd1e187" type="lemma" source="http://scta.info/resource/deut16_4@11-12">Non remanebit.</quote>
+            In hac vita omnia sacramenta Dominicae incarnationis perscrutanda, et cuncta praecepta ejus implenda sunt <!--<note>(Ephes. IV)</note>-->, antequam mane, id est finis saeculi, adveniat.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e195">
+          <head xml:id="gom-deut16-Hd1e197">Versus 5</head>
+          <p xml:id="gom-deut16-d1e199">
+            <quote xml:id="gom-deut16-Qd1e201" type="lemma" source="http://scta.info/resource/deut16_5@1-2">Non poteris.</quote>
+            In una domo agnus paschalis editur, et in uno loco phase immolatur, id est in catholica Ecclesia: extra illam non recte pascha celebratur. Vetat celebrare mysteria Christi in conventiculis haereticorum.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e206">
+          <head xml:id="gom-deut16-Hd1e208">Versus 6</head>
+          <p xml:id="gom-deut16-d1e210">
+            <quote xml:id="gom-deut16-Qd1e212" type="lemma" source="http://scta.info/resource/deut16_6@16-18">Vespere ad solis.</quote>
+            Novissima aetate mundi, quando verus Sol in passione occubuit, et Aegyptiacam captivitatem solvit, cum pascha nostrum immolatus est Christus.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e217">
+          <head xml:id="gom-deut16-Hd1e219">Versus 7</head>
+          <p xml:id="gom-deut16-d1e221">
+            <quote xml:id="gom-deut16-Qd1e223" type="lemma" source="http://scta.info/resource/deut16_7@14-16">Vades in tabernacula.</quote>
+            Peracto servitio Domini mane resurrectionis transibimus in aeterna <pb ed="#P" n="0468C"/> tabernacula, ut quiescamus ab omni labore, laetantes de percepta retributione.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e230">
+          <head xml:id="gom-deut16-Hd1e232">Versus 8</head>
+          <p xml:id="gom-deut16-d1e234">
+            <quote xml:id="gom-deut16-Qd1e236" type="lemma" source="http://scta.info/resource/deut16_8@7-8">Die septima.</quote>
+            Aeterna requie, quam septenarius significat: propter sabbatum ubi nullus labor, nulla operandi ratio.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e241">
+          <head xml:id="gom-deut16-Hd1e243">Versus 9</head>
+          <p xml:id="gom-deut16-d1e245">
+            <quote xml:id="gom-deut16-Qd1e247" type="lemma" source="http://scta.info/resource/deut16_9@1-2">Septem hebdomadas.</quote>
+            In Levitico plenius. <quote xml:id="gom-deut16-Qd1e250" source="http://scta.info/resource/lev23_15@1-14">Numerabis ergo ab altero die sabbati septem hebdomadas plenas ad alteram diem explorationis hebdomadae septimae.</quote>
+          </p>
+          <p xml:id="gom-deut16-d1e254">
+            <quote xml:id="gom-deut16-Qd1e256" type="lemma" source="http://scta.info/resource/deut16_9@1-2">Septem hebdomadas,</quote>
+            <ref xml:id="gom-deut16-Rd1e259"><name xml:id="gom-deut16-Nd1e260" ref="#Augustine">AUG.</name>, quaest. 25.</ref>
+            <quote xml:id="gom-deut16-Qd1e264">etc. Si ab universo populo haec Pentecoste jussa est observari, nunquid omnes credendum est uno die falcem jussos mittere in messem? Si autem sibi quisque observat istam quinquagesimam, dinumerans ab illo die quo falcem mittit, non una est universo populo. Illa vero <pb ed="#P" n="0468D"/> una est quae computatur ab immolatione paschae usque in diem datae legis in Sina.</quote>
+          </p>
+          <p xml:id="gom-deut16-d1e270">
+            <ref xml:id="gom-deut16-Rd1e272" type="lemma" subtype="implied" target="http://scta.info/resource/deut16_9@1-2"/>
+            Nos quoque celebramus Pentecosten, id est, adventum Spiritus sancti, qui est digitus Dei, quo scripta est lex in tabulis.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e276">
+          <head xml:id="gom-deut16-Hd1e278">Versus 13</head>
+          <p xml:id="gom-deut16-d1e280">
+            <quote xml:id="gom-deut16-Qd1e282" type="lemma" source="http://scta.info/resource/deut16_13@1-1">Solemnitatem.</quote>
+            Qui ut tabernaculo, praesenti mundo utitur, festivitatem agere, et laetari in eo potest, propter futuri exspectationem: <quote xml:id="gom-deut16-Qd1e285" source="http://scta.info/resource/IIcor5_1@4-21">Quia si terrena domus hujus habitationis dissolvatur, habebit domum non manufactam in coelis<!-- check: Migne cites Icor5; text matches IIcor5_1 --></quote>.
+          </p>
+          <p xml:id="gom-deut16-d1e290">
+            <quote xml:id="gom-deut16-Qd1e292" type="lemma" source="http://scta.info/resource/deut16_13@8-8">Quando.</quote>
+            Consummata perfectione omnium bonorum et multarum collectione virtutum, laetandum et exsultandum esse cum amicis significat. Cum exsultabit quisque de percepta retributione qui hic largus <pb ed="#P" n="0469A"/> fuerit in munere, tunc vere tabernaculorum solemnitas agetur, non mutabilium scilicet, sed aeternorum, unde: <quote xml:id="gom-deut16-Qd1e297" source="http://scta.info/resource/lc16_9@11-18">Ut recipiant vos in aeterna tabernacula</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e303">
+          <head xml:id="gom-deut16-Hd1e305">Versus 16</head>
+          <p xml:id="gom-deut16-d1e307">
+            <quote xml:id="gom-deut16-Qd1e309" type="lemma" source="http://scta.info/resource/deut16_16@7-7">Masculinum.</quote>
+            Non femineum; nihil enim molle, fragile et infirmum in nostra conversatione debet esse: fortia quaeque a nobis exigit Deus <!--<note>(Exod. XXIII, XXXIV; Eccli. XXXV)</note>-->. Si autem in fide Trinitatis Patris et Filii et Spiritus sancti aeternae mercedis respectu tempore praesentis vitae bonis operibus insudamus, masculum in conspectu Domini statuimus.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e316">
+          <head xml:id="gom-deut16-Hd1e318">Versus 18</head>
+          <p xml:id="gom-deut16-d1e320">
+            <quote xml:id="gom-deut16-Qd1e322" type="lemma" source="http://scta.info/resource/deut16_18@5-6">In omnibus.</quote>
+            Ut advenientes undique statim in introitu, paratos inveniant, a quibus justa judicia accipiant.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e327">
+          <head xml:id="gom-deut16-Hd1e329">Versus 19</head>
+          <p xml:id="gom-deut16-d1e331">
+            <pb ed="#P" n="0469B"/>
+            <quote xml:id="gom-deut16-Qd1e335" type="lemma" source="http://scta.info/resource/deut16_19@14-15">Oculos sapientum.</quote>
+            Apud homines, non apud Deum, quibus dicitur: <quote xml:id="gom-deut16-Qd1e338" source="http://scta.info/resource/is5_21@1-7">Vae qui sapientes estis in oculis vestris</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e343">
+          <head xml:id="gom-deut16-Hd1e345">Versus 20</head>
+          <p xml:id="gom-deut16-d1e347">
+            <quote xml:id="gom-deut16-Qd1e349" type="lemma" source="http://scta.info/resource/deut16_20@1-1">Juste.</quote>
+            <ref xml:id="gom-deut16-Rd1e352"><name xml:id="gom-deut16-Nd1e353" ref="#GregoryGreat">GREG.</name>, lib. X Moral., cap. 19.</ref>
+            <quote xml:id="gom-deut16-Qd1e357">Injuste quod justum est exsequitur, qui ad defensionem justitiae non virtutis aemulatione, sed amore praemii temporalis excitatur, et justitiam quam praetendit, vendere non veretur. Juste ergo justum exsequi est in assertione justitiae ipsam justitiam quaerere: <quote xml:id="gom-deut16-Qd1e359">Sunt viae quae videntur hominibus justae,</quote> etc. <!--<note>(Prov. XIV)</note>-->. Et: <quote xml:id="gom-deut16-Qd1e363" source="http://scta.info/resource/lc16_15@6-10">Vae qui justificatis vos coram hominibus</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut16-Dd1e369">
+          <head xml:id="gom-deut16-Hd1e371">Versus 21</head>
+          <p xml:id="gom-deut16-d1e373">
+            <quote xml:id="gom-deut16-Qd1e375" type="lemma" source="http://scta.info/resource/deut16_21@1-2">Non plantabis.</quote>
+            Occasionem idololatriae amputat. Solebant enim gentes immolare, et in delubris statuas adorare.
+          </p>
+          <p xml:id="gom-deut16-d1e379">
+            <pb ed="#P" n="0469C"/>
+            <quote xml:id="gom-deut16-Qd1e383" type="lemma" source="http://scta.info/resource/deut16_21@3-3">Lucum.</quote>
+            <ref xml:id="gom-deut16-Rd1e386"><name xml:id="gom-deut16-Nd1e387" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-deut16-Qd1e390"><seg type="qs">Nemus, frondentes arbores infructuosae</seg>, etc., usque ad <seg type="qs">nec permittit fictionem falsitatis vel erroris veritati catholicae sociare.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

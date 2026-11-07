@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 22</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 22</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0465B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act22">
+        <head xml:id="gom-act22-Hd1e98">Caput 22</head>
+        <div xml:id="gom-act22-Dd1e100">
+          <head xml:id="gom-act22-Hd1e102">Versus 3</head>
+          <p xml:id="gom-act22-d1e104">
+            <quote xml:id="gom-act22-Qd1e106" type="lemma" source="http://scta.info/resource/act22_3@7-8">Natus in Tarso.</quote>
+            <ref xml:id="gom-act22-Rd1e109"><name xml:id="gom-act22-Nd1e110" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-act22-Qd1e113"><seg type="qs">Natus in oppido Galilaeae Giscali nomine fuit Paulus</seg>, etc., usque ad <seg type="qs">sic Christus, in Bethleem natus, Nazarenus est appellatus.</seg></quote>
+          </p>
+          <p xml:id="gom-act22-d1e121">
+            <quote xml:id="gom-act22-Qd1e123" type="lemma" source="http://scta.info/resource/act22_3@23-24">Aemulator legis.</quote>
+            In Graeco: <quote xml:id="gom-act22-Qd1e126" source="http://scta.info/resource/IImac4_2@8-10">Aemulator legis Dei existentis,</quote> secundum illud: <quote xml:id="gom-act22-Qd1e129" source="http://scta.info/resource/rom10_2@1-12">Testimonium illis perhibeo, quod aemulationem Dei habent, sed non secundum scientiam</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-act22-Dd1e134">
+          <head xml:id="gom-act22-Hd1e136">Versus 7</head>
+          <p xml:id="gom-act22-d1e138">
+            <pb ed="#P" n="0465C"/>
+            <quote xml:id="gom-act22-Qd1e142" type="lemma" source="http://scta.info/resource/act22_7@9-10">Saule, Saule.</quote>
+            <ref xml:id="gom-act22-Rd1e145"><name xml:id="gom-act22-Nd1e146" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act22-Qd1e149">Quaedam exemplaria habent: <quote xml:id="gom-act22-Qd1e151" source="http://scta.info/resource/act22_7@9-10">Saul, Saul,</quote> ut ostendatur de nomine Saulis Saulum nominatum esse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act22-Dd1e157">
+          <head xml:id="gom-act22-Hd1e159">Versus 9</head>
+          <p xml:id="gom-act22-d1e161">
+            <quote xml:id="gom-act22-Qd1e163" type="lemma" source="http://scta.info/resource/act22_9@7-7">Audierunt.</quote>
+            <ref xml:id="gom-act22-Rd1e166"><name xml:id="gom-act22-Nd1e167" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act22-Qd1e170">Intellexerunt, sed solum sonum vocis Pauli, vel ejus qui Paulo loquebatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act22-Dd1e174">
+          <head xml:id="gom-act22-Hd1e176">Versus 10</head>
+          <p xml:id="gom-act22-d1e178">
+            <quote xml:id="gom-act22-Qd1e180" type="lemma" source="http://scta.info/resource/act22_10@14-15">Et ibi.</quote>
+            <ref xml:id="gom-act22-Rd1e183"><name xml:id="gom-act22-Nd1e184" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act22-Qd1e187">Exemplum humilitatis, contra doctores non disputandi, nec de nobis praesumendi, quasi a Deo simus edocti.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act22-Dd1e192">
+          <head xml:id="gom-act22-Hd1e194">Versus 13</head>
+          <p xml:id="gom-act22-d1e196">
+            <quote xml:id="gom-act22-Qd1e198" type="lemma" source="http://scta.info/resource/act22_13@8-10">Saule frater, respice.</quote>
+            <ref xml:id="gom-act22-Rd1e201"><name xml:id="gom-act22-Nd1e202" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act22-Qd1e205">Duo erant in oculis Pauli, excaecatio et illuminatio: et ideo merito credidit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act22-Dd1e209">
+          <head xml:id="gom-act22-Hd1e211">Versus 14</head>
+          <p xml:id="gom-act22-d1e213">
+            <quote xml:id="gom-act22-Qd1e215" type="lemma" source="http://scta.info/resource/act22_14@7-8">Praeordinavit te.</quote>
+            <ref xml:id="gom-act22-Rd1e218"><name xml:id="gom-act22-Nd1e219" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act22-Qd1e222">Conveniens ordo: primo, praeordinatus in praescientia Dei; deinde cognoscit veritatem, videt Justum, audit ex ore <pb ed="#P" n="0465D"/> ipsius; postea fit testis eorum quae cognovit, vidit, audivit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act22-Dd1e229">
+          <head xml:id="gom-act22-Hd1e231">Versus 17</head>
+          <p xml:id="gom-act22-d1e233">
+            <quote xml:id="gom-act22-Qd1e235" type="lemma" source="http://scta.info/resource/act22_17@12-16">Fieri me in stupore mentis.</quote>
+            Hoc non narrat ad elationem, sed propter necessitatem, ut videatur idoneus evangelizare gentibus.
+          </p>
+        </div>
+        <div xml:id="gom-act22-Dd1e240">
+          <head xml:id="gom-act22-Hd1e242">Versus 20</head>
+          <p xml:id="gom-act22-d1e244">
+            <quote xml:id="gom-act22-Qd1e246" type="lemma" source="http://scta.info/resource/act22_20@11-11">Consentiebam.</quote>
+            Confitendo quod consensit, notat quia non occidit, nisi caedens accipiatur pro occidens, vel occidere curans.
+          </p>
+        </div>
+        <div xml:id="gom-act22-Dd1e251">
+          <head xml:id="gom-act22-Hd1e253">Versus 28</head>
+          <p xml:id="gom-act22-d1e255">
+            <quote xml:id="gom-act22-Qd1e257" type="lemma" source="http://scta.info/resource/act22_28@4-6">Ego multa summa.</quote>
+            Alia editio manifestius insinuat quid dixerit tribunus. Dixit tribunus: tam facile dicis civem Romanum te esse? ego enim quanto pretio civilitatem possedi istam.
+          </p>
+          <p xml:id="gom-act22-d1e261">
+            <quote xml:id="gom-act22-Qd1e263" type="lemma" source="http://scta.info/resource/act22_28@7-7">Civilitatem.</quote>
+            Id est socialem inter cives conversationem, vel reipublicae administrationem. Non enim <pb ed="#P" n="0466A"/> tribunus civitatis Romanae civis esse non posset, sed consortium civitatis emerat, ut esset particeps. Paulus eo magis erat civis Romanus, quod non comparando, sed hoc nascendo habebat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

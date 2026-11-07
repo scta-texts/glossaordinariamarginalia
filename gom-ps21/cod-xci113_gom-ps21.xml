@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 21</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 21</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0873B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps21">
+        <head xml:id="gom-ps21-Hd1e98">Psalmus 21</head>
+        <div xml:id="gom-ps21-Dd1e100">
+          <head xml:id="gom-ps21-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ps21-d1e104">
+            <quote xml:id="gom-ps21-Qd1e106" type="lemma" source="http://scta.info/resource/ps21_2@1-2">Deus, Deus.</quote>
+            <ref xml:id="gom-ps21-Rd1e109"><name xml:id="gom-ps21-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e113">Praemittitur conquestio de derelictione, necnon et oratio, sicut in omnibus psalmis de passione.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e116">
+            <ref xml:id="gom-ps21-Rd1e118"><name xml:id="gom-ps21-Nd1e119" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps21-Qd1e123" type="lemma" source="http://scta.info/resource/ps21_2@1-2">Deus, Deus:</quote>
+            <quote xml:id="gom-ps21-Qd1e126">geminat ex affectu, vel <quote xml:id="gom-ps21-Qd1e128" source="http://scta.info/resource/ps21_2@1-1">Deus</quote> omnium per <pb ed="#P" n="0873C"/> creationis potentiam, <quote xml:id="gom-ps21-Qd1e133" source="http://scta.info/resource/ps21_2@3-3">meus</quote> proprie per cultum.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e138">
+            <ref xml:id="gom-ps21-Rd1e140" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_2@1-2"/>
+            <ref xml:id="gom-ps21-Rd1e142"><name xml:id="gom-ps21-Nd1e143" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e146">Quando hoc in cruce dixerat, psalmum istum de se scriptum indicavit.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e149">
+            <quote xml:id="gom-ps21-Qd1e151" type="lemma" source="http://scta.info/resource/ps21_2@4-6">Respice in me.</quote>
+            <ref xml:id="gom-ps21-Rd1e154"><name xml:id="gom-ps21-Nd1e155" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e158">Non est in Hebraeo, sed a septuaginta interpretibus additum.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e162">
+            <quote xml:id="gom-ps21-Qd1e164" type="lemma" source="http://scta.info/resource/ps21_2@8-10">Quare me dereliquisti?</quote>
+            <ref xml:id="gom-ps21-Rd1e167"><name xml:id="gom-ps21-Nd1e168" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e171">Mirum hoc, cum et Deus esset cum eo; sed pro nobis, qui in eo corpus ejus.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e174">
+            <quote xml:id="gom-ps21-Qd1e176" type="lemma" source="http://scta.info/resource/ps21_2@12-15">Longe a salute mea,</quote>
+            id est, mei veteris hominis, quia <quote xml:id="gom-ps21-Qd1e179" source="http://scta.info/resource/ps118_155@1-4">longe a peccatoribus salus,</quote> et haec sunt verba non justitiae, sed delictorum. Vel, longe a salute sunt verba delictorum meorum, quae sunt tollenda.
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e184">
+          <head xml:id="gom-ps21-Hd1e186">Versus 3</head>
+          <p xml:id="gom-ps21-d1e188">
+            <quote xml:id="gom-ps21-Qd1e190" type="lemma" source="http://scta.info/resource/ps21_3@3-3">Clamabo.</quote>
+            <ref xml:id="gom-ps21-Rd1e193"><name xml:id="gom-ps21-Nd1e194" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e197">De nobis, corpore suo dicit, ut cum forte dicit: <quote xml:id="gom-ps21-Qd1e199" source="http://scta.info/resource/mt26_39@16-20">Transeat a me calix iste,</quote> id est, putatur timuisse mori; sed pro suis infirmis qui timent mori, haec dixit, sic et haec vox <pb ed="#P" n="0873D"/> membrorum est: <quote xml:id="gom-ps21-Qd1e204" source="http://scta.info/resource/ps21_3@3-15">Clamabo et non exaudies. Per diem, et non exaudies, et nocte et non ad insipientiam.</quote></quote>
+          </p>
+          <p xml:id="gom-ps21-d1e208">
+            <ref xml:id="gom-ps21-Rd1e210" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_3@3-3"/>
+            <ref xml:id="gom-ps21-Rd1e212"><name xml:id="gom-ps21-Nd1e213" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e216">Quia nullae in eo tenebrae, et tamen non auditur ad salutem corporalem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e220">
+          <head xml:id="gom-ps21-Hd1e222">Versus 4</head>
+          <p xml:id="gom-ps21-d1e224">
+            <quote xml:id="gom-ps21-Qd1e226" type="lemma" source="http://scta.info/resource/ps21_4@3-5">In sancto habitas.</quote>
+            <ref xml:id="gom-ps21-Rd1e229"><name xml:id="gom-ps21-Nd1e230" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e233">Et ita mirum, quia patres liberasti; ego autem sum vermis.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e236">
+            <ref xml:id="gom-ps21-Rd1e238" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_4@3-5"/>
+            <ref xml:id="gom-ps21-Rd1e240"><name xml:id="gom-ps21-Nd1e241" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e244">Tu habitas in sancto, quia Deus erat in Christo mundum sibi reconcilians.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e247">
+            <quote xml:id="gom-ps21-Qd1e249" type="lemma" source="http://scta.info/resource/ps21_4@6-7">Laus Israel,</quote>
+            <ref xml:id="gom-ps21-Rd1e252"><name xml:id="gom-ps21-Nd1e253" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e256">id est, videntis te, non ejus qui se voluit abscondere a conspectu tuo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e260">
+          <head xml:id="gom-ps21-Hd1e262">Versus 5</head>
+          <p xml:id="gom-ps21-d1e264">
+            <quote xml:id="gom-ps21-Qd1e266" type="lemma" source="http://scta.info/resource/ps21_5@1-7">In te speraverunt patres nostri, speraverunt.</quote>
+            <ref xml:id="gom-ps21-Rd1e269"><name xml:id="gom-ps21-Nd1e270" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e273">Magnus decor, dum iterat <quote xml:id="gom-ps21-Qd1e275" source="http://scta.info/resource/ps21_5@3-3">speraverunt.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e281">
+          <head xml:id="gom-ps21-Hd1e283">Versus 7</head>
+          <p xml:id="gom-ps21-d1e285">
+            <pb ed="#P" n="0874A"/>
+            <quote xml:id="gom-ps21-Qd1e289" type="lemma" source="http://scta.info/resource/ps21_7@1-2">Ego autem,</quote>
+            etc.
+            <ref xml:id="gom-ps21-Rd1e292"><name xml:id="gom-ps21-Nd1e293" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e296">Hucusque Christus in persona veteris hominis, hic jam proprie in sua persona loquitur.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e299">
+            <quote xml:id="gom-ps21-Qd1e301" type="lemma" source="http://scta.info/resource/ps21_7@1-2">Ego autem.</quote>
+            Jam proprie Christus, sine semine natus sum, ut essem ultra homines in homine, in quo factus sum opprobrium, ut vel sic superbia hominis humilem imitetur.
+          </p>
+          <p xml:id="gom-ps21-d1e305">
+            <quote xml:id="gom-ps21-Qd1e307" type="lemma" source="http://scta.info/resource/ps21_7@4-9">Vermis et non homo, opprobrium.</quote>
+            <ref xml:id="gom-ps21-Rd1e310"><name xml:id="gom-ps21-Nd1e311" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e314"><seg type="qs">Ita viliter conculcatus</seg>, etc., usque ad <seg type="qs">vermis, sine coitu natus, mortalis, humilis et vilis, silentio repens.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e323">
+          <head xml:id="gom-ps21-Hd1e325">Versus 9</head>
+          <p xml:id="gom-ps21-d1e327">
+            <quote xml:id="gom-ps21-Qd1e329" type="lemma" source="http://scta.info/resource/ps21_9@1-3">Speravit in Domino,</quote>
+            etc.
+            <ref xml:id="gom-ps21-Rd1e332"><name xml:id="gom-ps21-Nd1e333" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e336">Dicentes: <quote xml:id="gom-ps21-Qd1e338" source="http://scta.info/resource/ps21_9@1-3">Spera in Domino,</quote> etc. Ironia Judaeorum, ecce quasi historialis narratio, non prophetia, ne qua sit excusatio, ne qua ambiguitas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e344">
+          <head xml:id="gom-ps21-Hd1e346">Versus 10</head>
+          <p xml:id="gom-ps21-d1e348">
+            <quote xml:id="gom-ps21-Qd1e350" type="lemma" source="http://scta.info/resource/ps21_10@11-12">Ab uberibus.</quote>
+            <quote xml:id="gom-ps21-Qd1e353"><seg type="qs">Non ex quo lactari <pb ed="#P" n="0874B"/> coepi</seg>, etc., usque ad <seg type="qs">sed fuisti Deus meus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps21-d1e363">
+            <quote xml:id="gom-ps21-Qd1e365" type="lemma" source="http://scta.info/resource/ps21_10@7-8">De ventre.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e370">
+          <head xml:id="gom-ps21-Hd1e372">Versus 11</head>
+          <p xml:id="gom-ps21-d1e374">
+            <quote xml:id="gom-ps21-Qd1e376" type="lemma" source="http://scta.info/resource/ps21_11@8-9">De ventre.</quote>
+            <ref xml:id="gom-ps21-Rd1e379"><name xml:id="gom-ps21-Nd1e380" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e383">Non solum matris, quae lex nascendi est omnibus; sed de tenebris Synagogae, in quibus infidelis est, nondum in luce Christi natus, qui in observationibus illis carnalibus sabbati et circumcisionis confidit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e387">
+          <head xml:id="gom-ps21-Hd1e389">Versus 12</head>
+          <p xml:id="gom-ps21-d1e391">
+            <quote xml:id="gom-ps21-Qd1e393" type="lemma" source="http://scta.info/resource/ps21_12@1-4">Ne discesseris a me,</quote>
+            qui jam coepisti.
+          </p>
+          <p xml:id="gom-ps21-d1e397">
+            <quote xml:id="gom-ps21-Qd1e399" type="lemma" source="http://scta.info/resource/ps21_12">Tu extraxisti:</quote>
+            <!-- check: lemma not matched to verse text -->
+            non vir, ne dubitetur virginis partus, virtute Dei factum est.
+          </p>
+          <p xml:id="gom-ps21-d1e405">
+            <quote xml:id="gom-ps21-Qd1e407" type="lemma" source="http://scta.info/resource/ps21_12">Spes mea ab uberibus:</quote>
+            <!-- check: lemma not matched to verse text -->
+            vera humanitas et magna perfectio; ab uberibus enim facit, quod vix maturus.
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e414">
+          <head xml:id="gom-ps21-Hd1e416">Versus 11</head>
+          <p xml:id="gom-ps21-d1e418">
+            <quote xml:id="gom-ps21-Qd1e420" type="lemma" source="http://scta.info/resource/ps21_11@1-4">In te projectus sum,</quote>
+            non in peccata hominis. Alii in Adam projiciuntur, ex quo rei.
+          </p>
+          <p xml:id="gom-ps21-d1e424">
+            <quote xml:id="gom-ps21-Qd1e426" type="lemma" source="http://scta.info/resource/ps21_11@8-13">De ventre matris <pb ed="#P" n="0874C"/> meae, Deus meus.</quote>
+            <ref xml:id="gom-ps21-Rd1e431"><name xml:id="gom-ps21-Nd1e432" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e435">Nec conceptio sine Deo, nec in peccato, ut homo; unde Angelus: <quote xml:id="gom-ps21-Qd1e437" source="http://scta.info/resource/lc1_35@6-10">Spiritus sanctus superveniet in te.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e443">
+          <head xml:id="gom-ps21-Hd1e445">Versus 13</head>
+          <p xml:id="gom-ps21-d1e447">
+            <quote xml:id="gom-ps21-Qd1e449" type="lemma" source="http://scta.info/resource/ps21_13@1-1">Circumdederunt.</quote>
+            <ref xml:id="gom-ps21-Rd1e452"><name xml:id="gom-ps21-Nd1e453" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e456">Describitur passio, quam terminat oratio; ad convincendos Judaeos refert futura quasi praeterita.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e460">
+          <head xml:id="gom-ps21-Hd1e462">Versus 14</head>
+          <p xml:id="gom-ps21-d1e464">
+            <quote xml:id="gom-ps21-Qd1e466" type="lemma" source="http://scta.info/resource/ps21_14@1-1">Aperuerunt.</quote>
+            <ref xml:id="gom-ps21-Rd1e469"><name xml:id="gom-ps21-Nd1e470" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e473">Ut ferae volentes deglutire, os suum, non ad sapientiam reseratum.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e476">
+            <quote xml:id="gom-ps21-Qd1e478" type="lemma" source="http://scta.info/resource/ps21_14@6-7">Sicut leo.</quote>
+            <ref xml:id="gom-ps21-Rd1e481"><name xml:id="gom-ps21-Nd1e482" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e485">Ut leo rapiens circumdederunt, ut rugiens os aperuerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e489">
+          <head xml:id="gom-ps21-Hd1e491">Versus 15</head>
+          <p xml:id="gom-ps21-d1e493">
+            <quote xml:id="gom-ps21-Qd1e495" type="lemma" source="http://scta.info/resource/ps21_15@1-2">Sicut aqua.</quote>
+            <quote xml:id="gom-ps21-Qd1e498"><seg type="qs">Quando funditur aqua</seg>, etc., usque ad <seg type="qs">unde relicto eo fugerunt.</seg></quote>
+          </p>
+          <p xml:id="gom-ps21-d1e506">
+            <ref xml:id="gom-ps21-Rd1e508" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_15@1-2"/>
+            <ref xml:id="gom-ps21-Rd1e510"><name xml:id="gom-ps21-Nd1e511" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e514"><seg type="qs">Sicut aquae sacramentum ablutio peccatorum</seg>, etc., usque ad <seg type="qs">et solidata est.</seg></quote>
+          </p>
+          <p xml:id="gom-ps21-d1e522">
+            <quote xml:id="gom-ps21-Qd1e524" type="lemma" source="http://scta.info/resource/ps21_15@16-17">Tanquam cera.</quote>
+            <quote xml:id="gom-ps21-Qd1e527"><seg type="qs">Bene legis mysteria <pb ed="#P" n="0874D"/> comparat cerae</seg>, etc., usque ad <seg type="qs">quoniam circumdederunt.</seg></quote>
+          </p>
+          <p xml:id="gom-ps21-d1e537">
+            <quote xml:id="gom-ps21-Qd1e539" type="lemma" source="http://scta.info/resource/ps21_15@19-22">In medio ventris mei.</quote>
+            <ref xml:id="gom-ps21-Rd1e542"><name xml:id="gom-ps21-Nd1e543" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e546">Venter infirmos in Ecclesia, vel memoriam Ecclesiae significat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e550">
+          <head xml:id="gom-ps21-Hd1e552">Versus 16</head>
+          <p xml:id="gom-ps21-d1e554">
+            <quote xml:id="gom-ps21-Qd1e556" type="lemma" source="http://scta.info/resource/ps21_16@1-5">Aruit tanquam testa virtus mea.</quote>
+            <ref xml:id="gom-ps21-Rd1e559"><name xml:id="gom-ps21-Nd1e560" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e563">Non ut fenum, sed ut testa quae igne fit firmior.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e566">
+            <quote xml:id="gom-ps21-Qd1e568" type="lemma" source="http://scta.info/resource/ps21_16@7-8">Lingua mea.</quote>
+            <ref xml:id="gom-ps21-Rd1e571"><name xml:id="gom-ps21-Nd1e572" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e575">Servaverunt praecepta mea apud se hi per quos locuturus eram: et per eos in cognationem eorum, qui erant pulvis mortis, deductus sum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e579">
+          <head xml:id="gom-ps21-Hd1e581">Versus 17</head>
+          <p xml:id="gom-ps21-d1e583">
+            <quote xml:id="gom-ps21-Qd1e585" type="lemma" source="http://scta.info/resource/ps21_17@11-11">Foderunt.</quote>
+            <ref xml:id="gom-ps21-Rd1e588"><name xml:id="gom-ps21-Nd1e589" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e592">Evangelica narratio. Etsi haec ad litteram, innuit fossio manuum, quod operibus ejus non crediderunt; pedum, quod Apostolos laceraverunt.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e595">
+            <ref xml:id="gom-ps21-Rd1e597" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_17@11-11"/>
+            <ref xml:id="gom-ps21-Rd1e599"><name xml:id="gom-ps21-Nd1e600" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e603">foderunt. <pb ed="#P" n="0875A"/> Terra fossa fructum facit, sic fructum vitae dedit Christus vulneratus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e610">
+          <head xml:id="gom-ps21-Hd1e612">Versus 18</head>
+          <p xml:id="gom-ps21-d1e614">
+            <quote xml:id="gom-ps21-Qd1e616" type="lemma" source="http://scta.info/resource/ps21_18@1-4">Dinumeraverunt omnia ossa mea.</quote>
+            <ref xml:id="gom-ps21-Rd1e619"><name xml:id="gom-ps21-Nd1e620" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e623">Proprie describitur poena crucis. Sic ossa dinumeraverunt, id est, Apostolos; ne in majorem numerum crescerent, quaerebant exstinguere.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e626">
+            <quote xml:id="gom-ps21-Qd1e628" type="lemma" source="http://scta.info/resource/ps21_18@9-10">Inspexerunt me.</quote>
+            <ref xml:id="gom-ps21-Rd1e631"><name xml:id="gom-ps21-Nd1e632" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e635">Cum diligentia et delectatione, cum a re crudeli soleant oculi averti. Ecce quam obstinati, non casu aliquid factum, nec tot miraculis cor mollitum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e640">
+          <head xml:id="gom-ps21-Hd1e642">Versus 19</head>
+          <p xml:id="gom-ps21-d1e644">
+            <quote xml:id="gom-ps21-Qd1e646" type="lemma" source="http://scta.info/resource/ps21_19@1-4">Diviserunt sibi vestimenta mea,</quote>
+            etc.
+            <ref xml:id="gom-ps21-Rd1e649"><name xml:id="gom-ps21-Nd1e650" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e653">Sacramenta ipsius potuerunt dividi per haereses, sed non tunica desuper, id est, a Deo data; haec est charitas vel unitas, quam nemo potest dividere.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e656">
+            <ref xml:id="gom-ps21-Rd1e658" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_19@1-4"/>
+            <ref xml:id="gom-ps21-Rd1e660"><name xml:id="gom-ps21-Nd1e661" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e664"><seg type="qs">Sed forte et dono Dei quibusdam <pb ed="#P" n="0875B"/> venit</seg>, etc., usque ad <seg type="qs">ut ramus olivae a columba delatus ad arcam.</seg></quote>
+          </p>
+          <p xml:id="gom-ps21-d1e674">
+            <ref xml:id="gom-ps21-Rd1e676" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_19@1-4"/>
+            <ref xml:id="gom-ps21-Rd1e678"><name xml:id="gom-ps21-Nd1e679" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e682">Vel, per animam unicam caput et corpus, quod unum diversitates respuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e686">
+          <head xml:id="gom-ps21-Hd1e688">Versus 22</head>
+          <p xml:id="gom-ps21-d1e690">
+            <quote xml:id="gom-ps21-Qd1e692" type="lemma" source="http://scta.info/resource/ps21_22@9-11">Unicornium, humilitatem meam,</quote>
+            etc.
+            <ref xml:id="gom-ps21-Rd1e695"><name xml:id="gom-ps21-Nd1e696" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e699">Judaei, terrena tantum petentes: vel, de cultu Dei singulariter se jactantes, vel singulariter superbientes, occiso etiam filio post servos.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e703">
+          <head xml:id="gom-ps21-Hd1e705">Versus 24</head>
+          <p xml:id="gom-ps21-d1e707">
+            <quote xml:id="gom-ps21-Qd1e709" type="lemma" source="http://scta.info/resource/ps21_24@1-5">Qui timetis Dominum, laudate eum,</quote>
+            etc.
+            <ref xml:id="gom-ps21-Rd1e712"><name xml:id="gom-ps21-Nd1e713" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e716">Timor humanus non laudem, sed vituperium parit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e720">
+          <head xml:id="gom-ps21-Hd1e722">Versus 25</head>
+          <p xml:id="gom-ps21-d1e724">
+            <quote xml:id="gom-ps21-Qd1e726" type="lemma" source="http://scta.info/resource/ps21_25@1-8">Timeat eum omne semen Israel, quoniam non sprevit,</quote>
+            etc. Quos dixerit semen Jacob, aperit, subdens: <quote xml:id="gom-ps21-Qd1e729" source="http://scta.info/resource/ps21_25@12-12">Pauperis.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e733">
+            <ref xml:id="gom-ps21-Rd1e735" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_25@1-8"/>
+            <ref xml:id="gom-ps21-Rd1e737"><name xml:id="gom-ps21-Nd1e738" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e741">Non ejus qui verbis delictorum clamat de vana vita, sed <pb ed="#P" n="0875C"/> non tumentis de pompis saeculi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e748">
+          <head xml:id="gom-ps21-Hd1e750">Versus 26</head>
+          <p xml:id="gom-ps21-d1e752">
+            <quote xml:id="gom-ps21-Qd1e754" type="lemma" source="http://scta.info/resource/ps21_26@1-7">Apud te laus mea in Ecclesia magna,</quote>
+            etc.
+            <ref xml:id="gom-ps21-Rd1e757"><name xml:id="gom-ps21-Nd1e758" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e761">Apud Deum laudem ponit, qui docet in homine non praesumi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e765">
+          <head xml:id="gom-ps21-Hd1e767">Versus 27</head>
+          <p xml:id="gom-ps21-d1e769">
+            <quote xml:id="gom-ps21-Qd1e771" type="lemma" source="http://scta.info/resource/ps21_27@6-12">Laudabunt Dominum qui requirunt eum: vivent.</quote>
+            <ref xml:id="gom-ps21-Rd1e774"><name xml:id="gom-ps21-Nd1e775" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e778">Pauperes Deum divites se: ideo pauperes, quia Deum laudant ut eum quaerant, et ipse est divitiae pauperum. <quote xml:id="gom-ps21-Qd1e780">Corda eorum in saeculum saeculi reminiscentur et convertentur ad Dominum.</quote></quote>
+          </p>
+          <p xml:id="gom-ps21-d1e783">
+            <ref xml:id="gom-ps21-Rd1e785" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_27@6-12"/>
+            <ref xml:id="gom-ps21-Rd1e787"><name xml:id="gom-ps21-Nd1e788" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e791">Quia ille cibus est cordis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e796">
+          <head xml:id="gom-ps21-Hd1e798">Versus 30</head>
+          <p xml:id="gom-ps21-d1e800">
+            <quote xml:id="gom-ps21-Qd1e802" type="lemma" source="http://scta.info/resource/ps21_30@1-3">Manducaverunt et adoraverunt.</quote>
+            <ref xml:id="gom-ps21-Rd1e805"><name xml:id="gom-ps21-Nd1e806" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e809">Non prohibeat dispensator manducare, sed exactorem moneat timere.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e812">
+            <quote xml:id="gom-ps21-Qd1e814" type="lemma" source="http://scta.info/resource/ps21_30@8-11">In conspectu ejus cadent.</quote>
+            <ref xml:id="gom-ps21-Rd1e817"><name xml:id="gom-ps21-Nd1e818" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e821">Ecclesia utrosque recipit, sed ipse videt et discernit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps21-Dd1e825">
+          <head xml:id="gom-ps21-Hd1e827">Versus 32</head>
+          <p xml:id="gom-ps21-d1e829">
+            <pb ed="#P" n="0875D"/>
+            <quote xml:id="gom-ps21-Qd1e833" type="lemma" source="http://scta.info/resource/ps21_32@1-1">Annuntiabitur,</quote>
+            etc.
+            <ref xml:id="gom-ps21-Rd1e836"><name xml:id="gom-ps21-Nd1e837" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e840">An angelis qui preces hominum Deo offerunt, non pro instructione, sed pro ministerio.</quote>
+          </p>
+          <p xml:id="gom-ps21-d1e843">
+            <ref xml:id="gom-ps21-Rd1e845" type="lemma" subtype="implied" target="http://scta.info/resource/ps21_32@1-1"/>
+            <ref xml:id="gom-ps21-Rd1e847"><name xml:id="gom-ps21-Nd1e848" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps21-Qd1e851">Nota psalmos de passione in magna spe Christianorum terminari, ut sciatur ex passione salus esse.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

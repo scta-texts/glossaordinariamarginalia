@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 51</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 51</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0920C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps51">
+        <head xml:id="gom-ps51-Hd1e98">Psalmus 51</head>
+        <div xml:id="gom-ps51-Dd1e100">
+          <head xml:id="gom-ps51-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps51-d1e104">
+            <quote xml:id="gom-ps51-Qd1e106" type="lemma" source="http://scta.info/resource/ps51_1@1-2">In finem pro,</quote>
+            etc.
+            <ref xml:id="gom-ps51-Rd1e109"><name xml:id="gom-ps51-Nd1e110" ref="#Jerome">HIER.</name>, AUG.</ref>
+            <quote xml:id="gom-ps51-Qd1e114"><seg type="qs">Doeg prodidit David</seg>, etc., usque ad <seg type="qs">Non est hic oratio pro malis, sed prophetia quid sit eis futurum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e123">
+          <head xml:id="gom-ps51-Hd1e125">Versus 2</head>
+          <p xml:id="gom-ps51-d1e127">
+            <quote xml:id="gom-ps51-Qd1e129" type="lemma" source="http://scta.info/resource/ps51_2">Doeg.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps51-Rd1e134"><name xml:id="gom-ps51-Nd1e135" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e138">Adversarius David significat Antichristum, qui totum orbem movebit; qui veniet per signa, et miracula ante adventum judicii, et auxilium a Saule, id est, a diabolo petens, nuntiabit venisse David, id est, Christum in domum Achimelech, id est, ad Ecclesiam, quae est regnum <pb ed="#P" n="0920D"/> Patris.</quote>
+          </p>
+          <p xml:id="gom-ps51-d1e144">
+            <quote xml:id="gom-ps51-Qd1e146" type="lemma" source="http://scta.info/resource/ps51_2@13-13">Abimelech.</quote>
+            <ref xml:id="gom-ps51-Rd1e149"><name xml:id="gom-ps51-Nd1e150" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e153"><seg type="qs">Dicit, in Hebraeo Achimelech</seg>, etc., usque ad <seg type="qs">ergo Abimelech patris mei regnum, et significat Judaeos.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e162">
+          <head xml:id="gom-ps51-Hd1e164">Versus 3</head>
+          <p xml:id="gom-ps51-d1e166">
+            <quote xml:id="gom-ps51-Qd1e168" type="lemma" source="http://scta.info/resource/ps51_3@1-4">Quid gloriaris in malitia,</quote>
+            etc.
+            <ref xml:id="gom-ps51-Rd1e171"><name xml:id="gom-ps51-Nd1e172" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e175">Prima est invectio in Doeg, ut fideles corroboret, contra Antichristum et ejus complices.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e179">
+          <head xml:id="gom-ps51-Hd1e181">Versus 4</head>
+          <p xml:id="gom-ps51-d1e183">
+            <quote xml:id="gom-ps51-Qd1e185" type="lemma" source="http://scta.info/resource/ps51_4@4-4">Cogitavit.</quote>
+            <ref xml:id="gom-ps51-Rd1e188"><name xml:id="gom-ps51-Nd1e189" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e192">Levis mens, praeceps dictio, non ante cogitat quam loquatur, unde: <quote xml:id="gom-ps51-Qd1e194">In ore stultorum est cor eorum.</quote></quote>
+          </p>
+          <p xml:id="gom-ps51-d1e197">
+            <quote xml:id="gom-ps51-Qd1e199" type="lemma" source="http://scta.info/resource/ps51_4@8-9">Sicut novacula,</quote>
+            etc.
+            <ref xml:id="gom-ps51-Rd1e202"><name xml:id="gom-ps51-Nd1e203" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e206">Quae dum promittit innovationem, incidit ita ille dolosus, Antichristus scilicet, beatitudinem, et occidit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e211">
+          <head xml:id="gom-ps51-Hd1e213">Versus 5</head>
+          <p xml:id="gom-ps51-d1e215">
+            <quote xml:id="gom-ps51-Qd1e217" type="lemma" source="http://scta.info/resource/ps51_5@1-2">Dilexisti malitiam,</quote>
+            etc.
+            <ref xml:id="gom-ps51-Rd1e220"><name xml:id="gom-ps51-Nd1e221" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e224">Non deserit <pb ed="#P" n="0921A"/> malum, qui diligit super benignitatem; et si benignitas tangit animum, refugit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e231">
+          <head xml:id="gom-ps51-Hd1e233">Versus 6</head>
+          <p xml:id="gom-ps51-d1e235">
+            <quote xml:id="gom-ps51-Qd1e237" type="lemma" source="http://scta.info/resource/ps51_6@6-7">Lingua dolosa.</quote>
+            <ref xml:id="gom-ps51-Rd1e240"><name xml:id="gom-ps51-Nd1e241" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e244">Id est, dolosa verba fallaciae ministra, aliud in corde gestantium, aliud in ore promentium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e248">
+          <head xml:id="gom-ps51-Hd1e250">Versus 7</head>
+          <p xml:id="gom-ps51-d1e252">
+            <quote xml:id="gom-ps51-Qd1e254" type="lemma" source="http://scta.info/resource/ps51_7@1-2">Propterea Deus.</quote>
+            <ref xml:id="gom-ps51-Rd1e257"><name xml:id="gom-ps51-Nd1e258" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e261">De celeri fine iniqui.</quote>
+          </p>
+          <p xml:id="gom-ps51-d1e264">
+            <quote xml:id="gom-ps51-Qd1e266" type="lemma" source="http://scta.info/resource/ps51_7@16-21">Et radicem tuam de terra viventium.</quote>
+            <ref xml:id="gom-ps51-Rd1e269"><name xml:id="gom-ps51-Nd1e270" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e273"><seg type="qs">Radix nostra charitas est</seg>, etc., usque ad <seg type="qs">hic enim pulvis, quem projicit ventus a facie terrae.</seg></quote>
+          </p>
+          <p xml:id="gom-ps51-d1e281">
+            <ref xml:id="gom-ps51-Rd1e283" type="lemma" subtype="implied" target="http://scta.info/resource/ps51_7@16-21"/>
+            <ref xml:id="gom-ps51-Rd1e285"><name xml:id="gom-ps51-Nd1e286" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e289">Radix mali cupiditas, quae non fructum parit in terra viventium. Vel, loquitur de Antichristo, cujus radix ministri, qui cum eo nihil habebunt cum sanctis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e293">
+          <head xml:id="gom-ps51-Hd1e295">Versus 8</head>
+          <p xml:id="gom-ps51-d1e297">
+            <quote xml:id="gom-ps51-Qd1e299" type="lemma" source="http://scta.info/resource/ps51_8@1-2">Videbunt justi.</quote>
+            <ref xml:id="gom-ps51-Rd1e302"><name xml:id="gom-ps51-Nd1e303" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e306">Pro dejectione ejus irrisio.</quote>
+          </p>
+          <p xml:id="gom-ps51-d1e309">
+            <quote xml:id="gom-ps51-Qd1e311" type="lemma" source="http://scta.info/resource/ps51_8@1-2">Videbunt justi.</quote>
+            <ref xml:id="gom-ps51-Rd1e314"><name xml:id="gom-ps51-Nd1e315" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e318"><seg type="qs">Quid malis sit</seg>, etc., usque ad <seg type="qs">quia plus omnibus aliis malis fideles <pb ed="#P" n="0921B"/> decipiet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e329">
+          <head xml:id="gom-ps51-Hd1e331">Versus 10</head>
+          <p xml:id="gom-ps51-d1e333">
+            <quote xml:id="gom-ps51-Qd1e335" type="lemma" source="http://scta.info/resource/ps51_10@1-2">Ego autem,</quote>
+            etc.
+            <ref xml:id="gom-ps51-Rd1e338"><name xml:id="gom-ps51-Nd1e339" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e342">Quomodo contra eum bonus se habeat.</quote>
+          </p>
+          <p xml:id="gom-ps51-d1e345">
+            <ref xml:id="gom-ps51-Rd1e347" type="lemma" subtype="implied" target="http://scta.info/resource/ps51_10@1-2"/>
+            <ref xml:id="gom-ps51-Rd1e349"><name xml:id="gom-ps51-Nd1e350" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e353">Hucusque vituperatio illius, hic laus contrariae partis: ecce perfecta demonstratio.</quote>
+          </p>
+          <p xml:id="gom-ps51-d1e356">
+            <quote xml:id="gom-ps51-Qd1e358" type="lemma" source="http://scta.info/resource/ps51_10@4-5">Oliva fructifera.</quote>
+            <ref xml:id="gom-ps51-Rd1e361"><name xml:id="gom-ps51-Nd1e362" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e365">Populus Dei oliva, unde fracti sunt superbi rami, id est, Judaei, et insertus est oleaster de gentibus.</quote>
+          </p>
+          <p xml:id="gom-ps51-d1e368">
+            <ref xml:id="gom-ps51-Rd1e370" type="lemma" subtype="implied" target="http://scta.info/resource/ps51_10@4-5"/>
+            <ref xml:id="gom-ps51-Rd1e372"><name xml:id="gom-ps51-Nd1e373" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e376">Oliva fructifera, de cujus germine Dominus Christus effloruit, qui spirituali oleo perunctus est prae consortibus suis.</quote>
+          </p>
+          <p xml:id="gom-ps51-d1e380">
+            <quote xml:id="gom-ps51-Qd1e382" type="lemma" source="http://scta.info/resource/ps51_10@14-19">In aeternum et in saeculum saeculi.</quote>
+            <ref xml:id="gom-ps51-Rd1e385"><name xml:id="gom-ps51-Nd1e386" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e389">Quod dixit <quote xml:id="gom-ps51-Qd1e391" source="http://scta.info/resource/ps51_10@14-15">in aeternum,</quote> repetit <quote xml:id="gom-ps51-Qd1e394" source="http://scta.info/resource/ps51_10@17-19">in saeculum saeculi:</quote> ut repetendo confirmet, quam fundatus est in amore regni coelorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps51-Dd1e400">
+          <head xml:id="gom-ps51-Hd1e402">Versus 11</head>
+          <p xml:id="gom-ps51-d1e404">
+            <pb ed="#P" n="0921C"/>
+            <quote xml:id="gom-ps51-Qd1e408" type="lemma" source="http://scta.info/resource/ps51_11@6-10">Fecisti, et exspectabo nomen.</quote>
+            <ref xml:id="gom-ps51-Rd1e411"><name xml:id="gom-ps51-Nd1e412" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps51-Qd1e415">Praedicta scilicet, quod sim oliva, quod speravi in misericordia in aeternum.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

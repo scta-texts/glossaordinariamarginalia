@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 53</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 53</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1296D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is53">
+        <head xml:id="gom-is53-Hd1e98">Caput 53</head>
+        <div xml:id="gom-is53-Dd1e100">
+          <head xml:id="gom-is53-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is53-d1e104">
+            <pb ed="#P" n="1296D"/>
+            <quote xml:id="gom-is53-Qd1e108" type="lemma" source="http://scta.info/resource/is53_1@1-2">Quis credidit?</quote>
+            <ref xml:id="gom-is53-Rd1e111"><name xml:id="gom-is53-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is53-Qd1e115">Propheta in persona prophetarum conqueritur quod pauci ex Judaeis credunt quod de adventu Filii ab illis audiunt.</quote>
+          </p>
+          <p xml:id="gom-is53-d1e118">
+            <quote xml:id="gom-is53-Qd1e120" type="lemma" source="http://scta.info/resource/is53_1@5-7">Et brachium Domini.</quote>
+            <ref xml:id="gom-is53-Rd1e123"><name xml:id="gom-is53-Nd1e124" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is53-Qd1e127">Pater Filium suum mundo nuntiavit venturum; et ante scandalum cruceis, crucis, praemisit gloriam resurgentis.</quote>
+          </p>
+          <p xml:id="gom-is53-d1e130">
+            <quote xml:id="gom-is53-Qd1e132" type="lemma" source="http://scta.info/resource/is53_1">Elevabitur et exallabitur,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <pb ed="#P" n="1296A"/> etc. Respondet ergo prophetarum chorus se officium implesse et brachium Domini annuntiasse.
+          </p>
+        </div>
+        <div xml:id="gom-is53-Dd1e141">
+          <head xml:id="gom-is53-Hd1e143">Versus 2</head>
+          <p xml:id="gom-is53-d1e145">
+            <quote xml:id="gom-is53-Qd1e147" type="lemma" source="http://scta.info/resource/is53_2@4-4">Virgultum.</quote>
+            Symmachus, ramus; hominem significans, qui processit de utero virginis.
+          </p>
+          <p xml:id="gom-is53-d1e151">
+            <quote xml:id="gom-is53-Qd1e153" type="lemma" source="http://scta.info/resource/is53_2@12-12">Sitienti.</quote>
+            Aquila, <quote xml:id="gom-is53-Qd1e156">invia,</quote> ubi virginitatis privilegium demonstratur, quia sine semine de terra prius invia creatus est.
+          </p>
+        </div>
+        <div xml:id="gom-is53-Dd1e160">
+          <head xml:id="gom-is53-Hd1e162">Versus 5</head>
+          <p xml:id="gom-is53-d1e164">
+            <quote xml:id="gom-is53-Qd1e166" type="lemma" source="http://scta.info/resource/is53_5@19-19">Livore.</quote>
+            <ref xml:id="gom-is53-Rd1e169"><name xml:id="gom-is53-Nd1e170" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is53-Qd1e173">Perspicuum est, quia sicut corpus laceratum et flagellatum, ita anima vere doluit pro nobis, ne ex parte veritas, ex parte mendacium in Christo credatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is53-Dd1e177">
+          <head xml:id="gom-is53-Hd1e179">Versus 7</head>
+          <p xml:id="gom-is53-d1e181">
+            <quote xml:id="gom-is53-Qd1e183" type="lemma" source="http://scta.info/resource/is53_7@7-8">Non aperuit,</quote>
+            etc. Pilato vel Herodi. Pauca enim respondit ne differretur salus humani generis.
+          </p>
+          <p xml:id="gom-is53-d1e187">
+            <quote xml:id="gom-is53-Qd1e189" type="lemma" source="http://scta.info/resource/is53_7@16-18">Et quasi agnus.</quote>
+            <ref xml:id="gom-is53-Rd1e192"><name xml:id="gom-is53-Nd1e193" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is53-Qd1e196">In cujus figura populus Israel <pb ed="#P" n="1296B"/> agnum in Aegypto comedit <!--<note>(Exod. XII)</note>-->. Hic est agnus <quote xml:id="gom-is53-Qd1e202" source="http://scta.info/resource/io1_29@14-17">qui tollit peccata mundi</quote>, <quote xml:id="gom-is53-Qd1e205" source="http://scta.info/resource/ap13_8@17-22">qui occisus est ab origine mundi</quote>, qui carne et sanguine suo nos pascit, et vellere protectionis nos vestit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is53-Dd1e212">
+          <head xml:id="gom-is53-Hd1e214">Versus 8</head>
+          <p xml:id="gom-is53-d1e216">
+            <quote xml:id="gom-is53-Qd1e218" type="lemma" source="http://scta.info/resource/is53_8@4-5">De judicio.</quote>
+            Judex omnium judicii non reperit veritatem, sed sine culpa damnatus est. Unde admiratur propheta quod omnium Deus passioni se tradiderit.
+          </p>
+        </div>
+        <div xml:id="gom-is53-Dd1e223">
+          <head xml:id="gom-is53-Hd1e225">Versus 9</head>
+          <p xml:id="gom-is53-d1e227">
+            <quote xml:id="gom-is53-Qd1e229" type="lemma" source="http://scta.info/resource/is53_9@2-3">Dabit impios.</quote>
+            <ref xml:id="gom-is53-Rd1e232"><name xml:id="gom-is53-Nd1e233" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is53-Qd1e236">Id est gentes, quae sine pietate, Deo Patri, quia mortuus et sepultus eos acquisivit, et divites, Judaeos scilicet divitiis legis et prophetarum gloriantes.</quote>
+          </p>
+          <p xml:id="gom-is53-d1e239">
+            <quote xml:id="gom-is53-Qd1e241" type="lemma" source="http://scta.info/resource/is53_9@7-7">Divites.</quote>
+            Scribas et Pharisaeos doctrinae legis divitiis gloriantes.
+          </p>
+        </div>
+        <div xml:id="gom-is53-Dd1e246">
+          <head xml:id="gom-is53-Hd1e248">Versus 10</head>
+          <p xml:id="gom-is53-d1e250">
+            <quote xml:id="gom-is53-Qd1e252" type="lemma" source="http://scta.info/resource/is53_10@15-16">Semen longaevum.</quote>
+            Verbum Evangelii <pb ed="#P" n="1296C"/> scilicet quod non veterascet, sicut Vetus Testamentum, unde: <quote xml:id="gom-is53-Qd1e257" source="http://scta.info/resource/lc8_5@1-6">Exiit qui seminavit semen suum</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is53-Dd1e262">
+          <head xml:id="gom-is53-Hd1e264">Versus 11</head>
+          <p xml:id="gom-is53-d1e266">
+            <quote xml:id="gom-is53-Qd1e268" type="lemma" source="http://scta.info/resource/is53_11@9-9">Saturabitur.</quote>
+            Fide gentium, unde esuriens et sitiens supra puteum Jacob emptis cibis uti noluit, quia jam Samaritanae et eorum qui de civitate ad eum exibant, fide satiatus erat.
+          </p>
+        </div>
+        <div xml:id="gom-is53-Dd1e273">
+          <head xml:id="gom-is53-Hd1e275">Versus 12</head>
+          <p xml:id="gom-is53-d1e277">
+            <quote xml:id="gom-is53-Qd1e279" type="lemma" source="http://scta.info/resource/is53_12@17-19">Et cum sceleratis.</quote>
+            Ut sceleratos a peccato redimeret, omnia omnibus factus: <quote xml:id="gom-is53-Qd1e282" source="http://scta.info/resource/Ipetr2_24@2-8">Peccata enim nostra portavit in corpore suo</quote>. Cujus imitator Paulus ait: <quote xml:id="gom-is53-Qd1e285" source="http://scta.info/resource/Icor9_22@9-14">Omnibus omnia factus sum, ut omnes lucrificarem</quote>.
+          </p>
+          <p xml:id="gom-is53-d1e289">
+            <quote xml:id="gom-is53-Qd1e291" type="lemma" source="http://scta.info/resource/is53_12@30-30">Rogavit.</quote>
+            Pater, ignosce illis. Ad hanc vocem secundum Evangelium Nazareorum multa millia Judaeorum astantium circa crucem crediderunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

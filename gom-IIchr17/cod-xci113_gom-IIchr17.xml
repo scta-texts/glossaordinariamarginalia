@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 17</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 17</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0683B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr17">
+        <head xml:id="gom-IIchr17-Hd1e98">Caput 17</head>
+        <div xml:id="gom-IIchr17-Dd1e100">
+          <head xml:id="gom-IIchr17-Hd1e102">Versus 3</head>
+          <p xml:id="gom-IIchr17-d1e104">
+            <quote xml:id="gom-IIchr17-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr17_3@7-10">Ambulavit in viis David,</quote>
+            etc.
+            <ref xml:id="gom-IIchr17-Rd1e109"><name xml:id="gom-IIchr17-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr17-Qd1e113">Ostendit eum exsecutorem fuisse sicut David divinorum mandatorum antequam peccaret in uxorem <pb ed="#P" n="0683C"/> Uriae, cujus peccati satisfactio aeternam illi memoriam comparavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr17-Dd1e120">
+          <head xml:id="gom-IIchr17-Hd1e122">Versus 5</head>
+          <p xml:id="gom-IIchr17-d1e124">
+            <quote xml:id="gom-IIchr17-Qd1e126" type="lemma" source="http://scta.info/resource/IIchr17_5@8-12">Dedit omnis Juda munera Josaphat.</quote>
+            Hic fideles de gentibus significat, qui relicto patrum errore, ad Christum conveniunt baptismo abluti chrismate liniti, a Christo Christianum nomen et re giam dignitatem accipientes. Unde: <quote xml:id="gom-IIchr17-Qd1e129" source="http://scta.info/resource/Ipetr2_9@1-6">Vos estis genus electum, regale sacerdotium,</quote> etc. <!--<note>(I Petr. II.)</note>--> In tempore enim Josaphat, Domini dos, vel qui est dos, vel qui est dotatus, et quia Ecclesia gentium, sanguine Christi comparata, Spiritus sancti pignore data, consortium Sponsi coelestis et societatem regni promeruit. Cui factae sunt infinitae divitiae cum diversae nationes credunt, et in acquisitione diversarum virtutum.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr17-Dd1e136">
+          <head xml:id="gom-IIchr17-Hd1e138">Versus 10</head>
+          <p xml:id="gom-IIchr17-d1e140">
+            <pb ed="#P" n="0683D"/>
+            <quote xml:id="gom-IIchr17-Qd1e144" type="lemma" source="http://scta.info/resource/IIchr17_10@1-4">Itaque factus est pavor,</quote>
+            etc. Pro virtutibus, quae geruntur in Ecclesia, aufertur gentilium audacia, et incitantur ut deferant Christo munera fidei et censum boni operis, et piae confessionis, et pecora simplicitatis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

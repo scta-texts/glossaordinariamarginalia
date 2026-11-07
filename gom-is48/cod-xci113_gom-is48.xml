@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 48</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 48</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1291A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is48">
+        <head xml:id="gom-is48-Hd1e98">Caput 48</head>
+        <div xml:id="gom-is48-Dd1e100">
+          <head xml:id="gom-is48-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is48-d1e104">
+            <quote xml:id="gom-is48-Qd1e106" type="lemma" source="http://scta.info/resource/is48_1">Audite haec.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-is48-Rd1e111"><name xml:id="gom-is48-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is48-Qd1e115">Consuetudo est ut quando agitur de carnali Israel, simpliciter et sine nominis adjectione Jacob vel Israel dicatur, sicut in hoc loco, ubi eos alloquitur, qui nomine tenus Jacob vel Israel appellantur.</quote>
+          </p>
+          <p xml:id="gom-is48-d1e118">
+            <quote xml:id="gom-is48-Qd1e120" type="lemma" source="http://scta.info/resource/is48_1@9-12">Et de aquis Juda.</quote>
+            Judae facit mentionem, quia docem tribubus captivatis, Juda et Benjamin et Levitae in terra promissionis manebant, et regem de Juda habebant.
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e125">
+          <head xml:id="gom-is48-Hd1e127">Versus 2</head>
+          <p xml:id="gom-is48-d1e129">
+            <quote xml:id="gom-is48-Qd1e131" type="lemma" source="http://scta.info/resource/is48_2@1-4">De civitate enim sancta.</quote>
+            <ref xml:id="gom-is48-Rd1e134"><name xml:id="gom-is48-Nd1e135" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is48-Qd1e138">Ac si dicat: Habitatores Jerusalem vos esse jactatis, et Domini Sabaoth habere privilegium, cum cassa vobis, Jacob, Israel, et sanctae urbis, Dei omnipotentis assumatis <pb ed="#P" n="1291B"/> vocabula.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e145">
+          <head xml:id="gom-is48-Hd1e147">Versus 3</head>
+          <p xml:id="gom-is48-d1e149">
+            <quote xml:id="gom-is48-Qd1e151" type="lemma" source="http://scta.info/resource/is48_3@1-3">Priora extunc.</quote>
+            Praedixi Babylonios superandos, et repente faciam quod minatus sum: ut cum venerint quae praedicta sunt, scias nec fortuito nec deorum tuorum nutu accidisse.
+          </p>
+          <p xml:id="gom-is48-d1e155">
+            <quote xml:id="gom-is48-Qd1e157" type="lemma" source="http://scta.info/resource/is48_3">Priora miracula,</quote>
+            <!-- check: lemma not matched to verse text -->
+            scilicet quae feci in medio eorum ex quo ab Aegypto exierunt, et imminente captivitate a Nabuchodonosor: nunc autem antequam captiventur praedicit eorum liberationem et Chaldaeorum vastationem; unde repente scilicet quae ventura praedico operatus sum.
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e164">
+          <head xml:id="gom-is48-Hd1e166">Versus 4</head>
+          <p xml:id="gom-is48-d1e168">
+            <quote xml:id="gom-is48-Qd1e170" type="lemma" source="http://scta.info/resource/is48_4@8-9">Nervus ferreus.</quote>
+            Hinc Stephanus: <quote xml:id="gom-is48-Qd1e173" source="http://scta.info/resource/act7_51@1-5">dura cervice et incircumcisi cordibus<!-- check: Migne cites act17; text matches act7_51 --></quote>.
+          </p>
+          <p xml:id="gom-is48-d1e178">
+            <quote xml:id="gom-is48-Qd1e180" type="lemma" source="http://scta.info/resource/is48_4@13-15">Frons tua aerea:</quote>
+            unde Ezechiel: <quote xml:id="gom-is48-Qd1e183" source="http://scta.info/resource/ez3_7@11-17">Omnis quippe domus Israel attrita fronte est</quote>, etc. Et <pb ed="#P" n="1291C"/> Jeremias: <quote xml:id="gom-is48-Qd1e188" source="http://scta.info/resource/ier3_3@13-20">Frons mulieris meretricis facta est tibi, noluisti erubescere</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e194">
+          <head xml:id="gom-is48-Hd1e196">Versus 6</head>
+          <p xml:id="gom-is48-d1e198">
+            <quote xml:id="gom-is48-Qd1e200" type="lemma" source="http://scta.info/resource/is48_6@15-16">Et conservata sunt.</quote>
+            Quasi dicat: Plurima annuntiaturus eram, sed quia non recordaris quae dico, quae dicturus eram reservo.
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e205">
+          <head xml:id="gom-is48-Hd1e207">Versus 9</head>
+          <p xml:id="gom-is48-d1e209">
+            <quote xml:id="gom-is48-Qd1e211" type="lemma" source="http://scta.info/resource/is48_9@1-3">Propter nomen meum.</quote>
+            Scilicet ne violaretur: <quote xml:id="gom-is48-Qd1e214" source="http://scta.info/resource/is48_9@4-5">longe faciam; feci:</quote> scilicet furorem meum ne disperderem te, quia adorasti vitulum: <quote xml:id="gom-is48-Qd1e217" source="http://scta.info/resource/is48_9@8-10">et laude mea</quote> (ut me scilicet laudares): <quote xml:id="gom-is48-Qd1e220" source="http://scta.info/resource/is48_9@11-12">Infrenabo te</quote> lege mea.
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e225">
+          <head xml:id="gom-is48-Hd1e227">Versus 10</head>
+          <p xml:id="gom-is48-d1e229">
+            <quote xml:id="gom-is48-Qd1e231" type="lemma" source="http://scta.info/resource/is48_10@10-12">In camino paupertatis.</quote>
+            <ref xml:id="gom-is48-Rd1e234"><name xml:id="gom-is48-Nd1e235" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is48-Qd1e238">Purgando per paupertatem, divitias tuas dando hostibus; vel in Aegypto, ubi ostenditur divitiis et paupertate plerosquo tentari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e242">
+          <head xml:id="gom-is48-Hd1e244">Versus 12</head>
+          <p xml:id="gom-is48-d1e246">
+            <quote xml:id="gom-is48-Qd1e248" type="lemma" source="http://scta.info/resource/is48_12@1-3">Audi me, Jacob.</quote>
+            <ref xml:id="gom-is48-Rd1e251"><name xml:id="gom-is48-Nd1e252" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is48-Qd1e255"><seg type="qs">Eisdem <pb ed="#P" n="1291D"/> adhuc loquitur</seg>, etc., usque ad <seg type="qs">sed vocatos appellat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e266">
+          <head xml:id="gom-is48-Hd1e268">Versus 14</head>
+          <p xml:id="gom-is48-d1e270">
+            <pb ed="#P" n="1291D"/>
+            <quote xml:id="gom-is48-Qd1e274" type="lemma" source="http://scta.info/resource/is48_14@1-3">Congregamini omnes vos.</quote>
+            Quid ergo gloriatur terra et cinis et ignorans fragilitatem suam?
+          </p>
+          <p xml:id="gom-is48-d1e278">
+            <quote xml:id="gom-is48-Qd1e280" type="lemma" source="http://scta.info/resource/is48_14@9-10">Annuntiavit haec.</quote>
+            Quod Cyrus Babylonem destrueret, vel quia Filius meus de virgine nasciturus esset.
+          </p>
+          <p xml:id="gom-is48-d1e284">
+            <quote xml:id="gom-is48-Qd1e286" type="lemma" source="http://scta.info/resource/is48_14@11-13">Dominus dilexit eum.</quote>
+            Haec proprie ad Christum pertinent. Possunt tamen ad Cyrum referri et ad Darium usque ad locum illum: <quote xml:id="gom-is48-Qd1e289" source="http://scta.info/resource/is48_15@11-14">Directa est via ejus.</quote>
+          </p>
+          <p xml:id="gom-is48-d1e293">
+            <quote xml:id="gom-is48-Qd1e295" type="lemma" source="http://scta.info/resource/is48_14@16-16">Suam:</quote>
+            quia capiet eam. Vel, Filius in mundo redimendo eum, qui et Chaldaeos (scilicet daemones) ejecit, unde, <quote xml:id="gom-is48-Qd1e298" source="http://scta.info/resource/io12_31@6-10">princeps hujus mundi ejicietur foras.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e303">
+          <head xml:id="gom-is48-Hd1e305">Versus 15</head>
+          <p xml:id="gom-is48-d1e307">
+            <quote xml:id="gom-is48-Qd1e309" type="lemma" source="http://scta.info/resource/is48_15@6-7">Vocavi eum.</quote>
+            Cyrum vel filium, per Gabrielem dicens: <quote xml:id="gom-is48-Qd1e312" source="http://scta.info/resource/is7_14@14-17">Et vocabis nomen ejus Jesum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e318">
+          <head xml:id="gom-is48-Hd1e320">Versus 16</head>
+          <p xml:id="gom-is48-d1e322">
+            <quote xml:id="gom-is48-Qd1e324" type="lemma" source="http://scta.info/resource/is48_16@24-25">Misit me.</quote>
+            <ref xml:id="gom-is48-Rd1e327"><name xml:id="gom-is48-Nd1e328" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is48-Qd1e331">Totam Trinitatem breviter, plene et aperte distinguit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e335">
+          <head xml:id="gom-is48-Hd1e337">Versus 17</head>
+          <p xml:id="gom-is48-d1e339">
+            <pb ed="#P" n="1292A"/>
+            <quote xml:id="gom-is48-Qd1e343" type="lemma" source="http://scta.info/resource/is48_17@8-9">Ego Dominus.</quote>
+            Qui Israel futura promitto. Reddit causam quare eos prius afflixerit.
+          </p>
+        </div>
+        <div xml:id="gom-is48-Dd1e348">
+          <head xml:id="gom-is48-Hd1e350">Versus 21</head>
+          <p xml:id="gom-is48-d1e352">
+            <quote xml:id="gom-is48-Qd1e354" type="lemma" source="http://scta.info/resource/is48_21@1-2">Non sitierunt.</quote>
+            <ref xml:id="gom-is48-Rd1e357"><name xml:id="gom-is48-Nd1e358" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is48-Qd1e361"><seg type="qs">De Aegypto venientibus ad litteram</seg>, etc., usque ad <seg type="qs">satiati aqua sapientiae.</seg></quote>
+          </p>
+          <p xml:id="gom-is48-d1e369">
+            <quote xml:id="gom-is48-Qd1e371" type="lemma" source="http://scta.info/resource/is48_21@14-15">Scidit petram.</quote>
+            Petra erat Christus. Scinditur in partes sermo divinus, ut quem totum suscipere non possumus, per partes sumamus.
+          </p>
+          <p xml:id="gom-is48-d1e375">
+            <quote xml:id="gom-is48-Qd1e377" type="lemma" source="http://scta.info/resource/is48_21">Et fluxerunt aquae. Unus militum lancea latus ejus aperuit, et continuo exivit sanguis nostrae redemptionis, et aqua baptismi,</quote>
+            <!-- check: lemma not matched to verse text -->
+            baptismum et martyrium dedicans nobis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium, Caput 33</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Deuteronomium, Caput 33</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0493A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-deut33">
+        <head xml:id="gom-deut33-Hd1e98">Caput 33</head>
+        <div xml:id="gom-deut33-Dd1e100">
+          <head xml:id="gom-deut33-Hd1e102">Versus 1</head>
+          <p xml:id="gom-deut33-d1e104">
+            <pb ed="#P" n="0493A"/>
+            <quote xml:id="gom-deut33-Qd1e108" type="lemma" source="http://scta.info/resource/deut33_1@1-3">Haec est benedictio.</quote>
+            Bene in fine Deuteronomii benedictionem posuit, quia Christus post completionem Evangelii ascensurus in coelum, elevatis manibus discipulos suos benedixit. Benedictio qua filiis Israel in Deuteronomio (quod est secunda lex) benedixit, ad gratiam pertinet Novi Testamenti, in quo priscae legis mysteria reserantur, et veri Israelitae benedictionem, per Moysen hominem Dei praedictam, per hominem Christum consequuntur. Bene autem imminente morte Moysi benedictio datur, quia, legis umbra moriente, coelestium donorum veritas aperitur. Praevidens ergo Moyses Salvatoris adventum et gratiam Novi Testamenti quasi praeteritam explicans, voce primitivae Ecclesiae laetabundus <pb ed="#P" n="0493B"/> exsultat, dicens: <quote xml:id="gom-deut33-Qd1e113" source="http://scta.info/resource/deut33_2@3-6">Dominus de Sina venit,</quote> etc.
+          </p>
+          <p xml:id="gom-deut33-d1e117">
+            <ref xml:id="gom-deut33-Rd1e119" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_1@1-3"/>
+            <ref xml:id="gom-deut33-Rd1e121"><name xml:id="gom-deut33-Nd1e122" ref="#Augustine">AUG.</name>, quaest. 36.</ref>
+            <quote xml:id="gom-deut33-Qd1e126"><seg type="qs">Alia littera</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-deut33-Qd1e132">Laetamini, gentes, cum populo ejus. Quia caecitas contigit ex parte in Israel, donec plenitudo,</quote> etc. <!--<note>(Rom. XI.)</note>--></seg></quote>
+          </p>
+          <p xml:id="gom-deut33-d1e137">
+            <quote xml:id="gom-deut33-Qd1e139" type="lemma" source="http://scta.info/resource/deut33_1@6-7">Moyses homo.</quote>
+            Moyses significat legem, quae ante mortem, id est, antequam in ipso finiretur, praedixit Ecclesiam in Christo benedicendam.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e144">
+          <head xml:id="gom-deut33-Hd1e146">Versus 2</head>
+          <p xml:id="gom-deut33-d1e148">
+            <quote xml:id="gom-deut33-Qd1e150" type="lemma" source="http://scta.info/resource/deut33_2@3-6">Dominus de Sinai venit.</quote>
+            Sinai ( ) interpretatur <mentioned>amphora mea</mentioned> vel <mentioned>mensura mea</mentioned> vel <mentioned>mandatum</mentioned>. Seir ( ) <quote xml:id="gom-deut33-Qd1e159">pilosus</quote> vel <quote xml:id="gom-deut33-Qd1e162">hispidus.</quote> Pharan ( ) <quote xml:id="gom-deut33-Qd1e164">ferocitas eorum</quote> vel <quote xml:id="gom-deut33-Qd1e166">frugifer.</quote> Sina igitur figurat Vetus Testamentum, quia certam mensuram mandatorum juxta decalogi decretum tenens, prohibere novit, non juvare: nec spiritu dilectionis liberat, <pb ed="#P" n="0493C"/> sed timore poenae subditos ligat. Unde: <quote xml:id="gom-deut33-Qd1e170" source="http://scta.info/resource/gal4_24@11-18">Unum quidem in monte Sina in servitutem generans,</quote> etc. <!--<note>(Gal. IV.)</note>--> Dominus ergo venit de Sina, id est ex lege et prophetis credentibus innotuit. Inde enim venit, cum ibi legenti et intelligenti innotescit. Unde: <quote xml:id="gom-deut33-Qd1e176" source="http://scta.info/resource/lc24_27@2-7">Ipse incipiens a Moyse et omnibus prophetis</quote>, discipulis exponebat, ad quorum corda venire cupiebat. De Seir ortus secundum carnem, scilicet de Judaeis malitiae et perfidiae spineto asperrimis, novae lucis ortu tanquam verus sol justitiae fideles illuminavit. Unde: <quote xml:id="gom-deut33-Qd1e179" source="http://scta.info/resource/mal4_2@3-8">Nobis orietur sol justitiae</quote>. Et alibi: <quote xml:id="gom-deut33-Qd1e182" source="http://scta.info/resource/num24_17@11-19">Orietur stella ex Jacob, et consurget homo de Israel</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e186">
+            <quote xml:id="gom-deut33-Qd1e188" type="lemma" source="http://scta.info/resource/deut33_2@3-3">Dominus,</quote>
+            etc. Sina interpretatur <mentioned>tentatio</mentioned>. Dominus <pb ed="#P" n="0493D"/> ergo de Sina venit, quia carnem nostram, in qua tentaretur, accepit.
+          </p>
+          <p xml:id="gom-deut33-d1e196">
+            <quote xml:id="gom-deut33-Qd1e198" type="lemma" source="http://scta.info/resource/deut33_2@7-9">Et de Seir,</quote>
+            etc. Qui et Edom vel Esau. Hic est populus Judaeorum, qui gulae desiderio quasi pro lentis edulio primatus gloriam perdidit, et benedictionis gratiam fide junioris populi supplantatus amisit.
+          </p>
+          <p xml:id="gom-deut33-d1e202">
+            <quote xml:id="gom-deut33-Qd1e204" type="lemma" source="http://scta.info/resource/deut33_2@8-12">De Seir ortus est nobis,</quote>
+            etc. Hunc montem longo tempore circumierunt, et in eo aliqua praecepta acceperunt. Seir, id est <quote xml:id="gom-deut33-Qd1e207">hispidus</quote> vel <quote xml:id="gom-deut33-Qd1e209">pilosus,</quote> gentilitatem significat, quae peccatis erat horrenda; de qua ortus est Dominus qui in fine de Ecclesia gentium Judaeis praedicabit, quia reliquiae salvae fient.
+          </p>
+          <p xml:id="gom-deut33-d1e213">
+            <quote xml:id="gom-deut33-Qd1e215" type="lemma" source="http://scta.info/resource/deut33_2@13-16">Apparuit de monte Pharan,</quote>
+            etc. Qui <mentioned>frugifer</mentioned> interpretatur, <pb ed="#P" n="0494A"/> quia de Ecclesia gentium virtutibus frugifera fides Christi praedicabatur Judaeis. Christus ergo de Pharan apparuit; quia quanto contra eum ferocitas infidelium exarsit, tanto altius divinitatis ejus notitia crevit. Quanto enim inter passionis contumelias latuit, tanto per virtutem resurrectionis effulsit; et qui prius incredulitatis ferocitate persecuti sunt, postmodum ei charitatis ardore adhaeserunt; de quibus additur: <quote xml:id="gom-deut33-Qd1e222" source="http://scta.info/resource/deut33_2@17-21">Et cum eo sanctorum millia.</quote>
+          </p>
+          <p xml:id="gom-deut33-d1e226">
+            <quote xml:id="gom-deut33-Qd1e228" type="lemma" source="http://scta.info/resource/deut33_2@22-26">In dextera ejus ignea lex.</quote>
+            Tabulae scilicet, in quibus lex, quae purgat et urit peccata. Dextera quoque Patris est Filius, qui attulit legem charitatis dicens: <quote xml:id="gom-deut33-Qd1e231" source="http://scta.info/resource/lc12_49@1-5">Ignem veni mittere in terram,</quote> etc. <!--<note>(Luc. XII.)</note>-->
+          </p>
+          <p xml:id="gom-deut33-d1e237">
+            <quote xml:id="gom-deut33-Qd1e239" type="lemma" source="http://scta.info/resource/deut33_2@22-26">In dextera ejus ignea lex.</quote>
+            Dextera, Evangelium, <pb ed="#P" n="0494B"/> per quod beatitudo aeterna promittitur; quae dextera dicitur, non temporalis, sicut in lege, quae dicitur laeva. Unde: <quote xml:id="gom-deut33-Qd1e244" source="http://scta.info/resource/cant2_6@7-10">Dextera illius amplexabitur me.</quote> In hac dextera lex ignea, id est, charitas a Spiritu sancto in electorum cordibus inflammata. Unde dicit: <quote xml:id="gom-deut33-Qd1e247" source="http://scta.info/resource/rom13_10@6-10">Plenitudo legis dilectio</quote>. Et alibi: <quote xml:id="gom-deut33-Qd1e250" source="http://scta.info/resource/io13_34@1-7">Mandatum novum do vobis, ut diligatis invicem</quote>. Haec igneis linguis Spiritus sancti apostolis infusa, omnem legis plenitudinem tanquam digito Dei descripsit, et spiritu ferventes et operatione lucentes fecit. Sed quia non uni populo, ut lex Moysi, sed omnibus data est, adjungit: <quote xml:id="gom-deut33-Qd1e254" source="http://scta.info/resource/deut33_3@1-2">Dilexit populos.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e259">
+          <head xml:id="gom-deut33-Hd1e261">Versus 3</head>
+          <p xml:id="gom-deut33-d1e263">
+            <quote xml:id="gom-deut33-Qd1e265" type="lemma" source="http://scta.info/resource/deut33_3@1-1">Dilexit.</quote>
+            Unde: <quote xml:id="gom-deut33-Qd1e268" source="http://scta.info/resource/io15_13@1-10">Majorem hac dilectionem nemo habet, ut animam suam ponat,</quote> etc. <!--<note>(Joan. XV)</note>-->.
+          </p>
+          <p xml:id="gom-deut33-d1e274">
+            <pb ed="#P" n="0494C"/>
+            <quote xml:id="gom-deut33-Qd1e278" type="lemma" source="http://scta.info/resource/deut33_3@3-3">Omnes.</quote>
+            Sine personae acceptione; unde: <quote xml:id="gom-deut33-Qd1e281" source="http://scta.info/resource/act10_35@5-13">Qui timet Deum et operatur justitiam, acceptus est illi</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e285">
+            <quote xml:id="gom-deut33-Qd1e287" type="lemma" source="http://scta.info/resource/deut33_3@3-4">Omnes sancti.</quote>
+            Sanctificati scilicet in nomine ejus qui audierunt: <quote xml:id="gom-deut33-Qd1e290" source="http://scta.info/resource/lev11_44@7-13">Sancti estote, quoniam ego sanctus sum,</quote> etc. <!--<note>(Lev. XIX)</note>-->.
+          </p>
+          <p xml:id="gom-deut33-d1e296">
+            <quote xml:id="gom-deut33-Qd1e298" type="lemma" source="http://scta.info/resource/deut33_3@5-6">In manu.</quote>
+            Id est potentia, qua proteguntur. Unde: <quote xml:id="gom-deut33-Qd1e301" source="http://scta.info/resource/io10_28@13-19">Non rapiet quisquam de manu mea,</quote> etc. <!--<note>(Joan. X)</note>-->. Hi per charitatem sunt unum regnum in manu Domini; unde Isaias: <quote xml:id="gom-deut33-Qd1e306" source="http://scta.info/resource/is62_3@1-14">Et eris corona gloriae in manu Domini, et diadema regni in manu Dei tui</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e311">
+            <quote xml:id="gom-deut33-Qd1e313" type="lemma" source="http://scta.info/resource/deut33_3@9-11">Et qui appropinquant,</quote>
+            etc. Quasi: Non contristentur qui Christum in carne docentem non audierunt, quasi ab hominibus decipiantur. Per os sanctorum loquitur Christus, per pedes doctrina capitis <pb ed="#P" n="0494D"/> auditur; unde: <quote xml:id="gom-deut33-Qd1e318" source="http://scta.info/resource/lc10_16@1-5">Qui vos audit, me audit,</quote> etc. <!--<note>(Luc. X.)</note>--> Vel illi appropinquant pedibus ejus ad capiendam doctrinam, qui spirituali desiderio flagrantes, evangelicis et apostolicis Scripturis die noctuque invigilant. Sed quia haec de Novo Testamento dicta sunt, sequitur quorum voce Moyses loquitur de veteri lege dicens: <quote xml:id="gom-deut33-Qd1e323" source="http://scta.info/resource/deut33_4@1-3">Legem praecepit nobis,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e328">
+          <head xml:id="gom-deut33-Hd1e330">Versus 4</head>
+          <p xml:id="gom-deut33-d1e332">
+            <quote xml:id="gom-deut33-Qd1e334" type="lemma" source="http://scta.info/resource/deut33_4@5-5">Haereditatem.</quote>
+            Quia haec est utilitas legis, haereditas Abrahae promissa: <quote xml:id="gom-deut33-Qd1e337" source="http://scta.info/resource/is1_19@1-7">Si volueritis et audieritis, me bona terrae comedetis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e343">
+          <head xml:id="gom-deut33-Hd1e345">Versus 5</head>
+          <p xml:id="gom-deut33-d1e347">
+            <quote xml:id="gom-deut33-Qd1e349" type="lemma" source="http://scta.info/resource/deut33_5@1-3">Erit apud rectissimum,</quote>
+            etc. Jacob, ab angelo benedictus, Israel vocatus est, id est <quote xml:id="gom-deut33-Qd1e352">rectus Dei;</quote> et Judaeus ad fidem conversus ab eo post resurrectionem benedictus, cui in passione praevaluit, ob justitiae <pb ed="#P" n="0495A"/> professionem rectissimus appellatur. Unde: <quote xml:id="gom-deut33-Qd1e356" source="http://scta.info/resource/is44_1@3-10">Audi, Jacob, serve meus, et rectissime, quem elegi,</quote> etc. <!--<note>(Isa. XLIV.)</note>-->
+          </p>
+          <p xml:id="gom-deut33-d1e362">
+            <quote xml:id="gom-deut33-Qd1e364" type="lemma" source="http://scta.info/resource/deut33_5@4-4">Rex.</quote>
+            Christus. Ego autem constitutus sum rex ab eo, ut scilicet faciat regnum et potestatem, qui est rex et potestas prima.
+          </p>
+          <p xml:id="gom-deut33-d1e368">
+            <quote xml:id="gom-deut33-Qd1e370" type="lemma" source="http://scta.info/resource/deut33_5@8-10">Cum tribubus Israel.</quote>
+            De quibus primitiva Ecclesia. Bene prius principes, deinde tribus congregandae dicuntur, quia primi apostoli, et per eos crediderunt alii.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e375">
+          <head xml:id="gom-deut33-Hd1e377">Versus 6</head>
+          <p xml:id="gom-deut33-d1e379">
+            <quote xml:id="gom-deut33-Qd1e381" type="lemma" source="http://scta.info/resource/deut33_6@1-2">Vivat Ruben.</quote>
+            Praedicta salute primitivae Ecclesiae, singulis tribubus proprias benedictiones tribuit; veros Israelitas de utroque populo praenuntians, nunc de Christo, nunc de apostolis, nunc de primitiva, nunc de tota Ecclesia vaticinatur.
+          </p>
+          <p xml:id="gom-deut33-d1e385">
+            <pb ed="#P" n="0495B"/>
+            <quote xml:id="gom-deut33-Qd1e389" type="lemma" source="http://scta.info/resource/deut33_6@1-2">Vivat Ruben.</quote>
+            Quasi: Licet Ruben cubile patris violaverit, et primogeniti dignitatem amiserit, vivat tamen, et agens poenitentiam non moriatur. Filii Ruben, id est, Judaei per Ruben significati, lectum Patris violaverunt, id est Christum Filium ejus sputis immundis polluerunt: tamen ad poenitentiam reservantur, sed pauci numero ad comparationem Ecclesiae gentium.
+          </p>
+          <p xml:id="gom-deut33-d1e393">
+            <quote xml:id="gom-deut33-Qd1e395" type="lemma" source="http://scta.info/resource/deut33_6@2-2">Ruben.</quote>
+            Visionis filius, quia mater ait <!--<note>(Gen. XXIX)</note>-->: Vidit Deus humilitatem meam. Hic est primogenitus, significans electos ex Judaeis, qui Christum negando et crucifigendo mortui, praedicatione apostolorum conversi, ex fide Christi sunt vivificati: hi visionis filii, quia respectu divinae misericordiae salvi.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e402">
+          <head xml:id="gom-deut33-Hd1e404">Versus 7</head>
+          <p xml:id="gom-deut33-d1e406">
+            <quote xml:id="gom-deut33-Qd1e408" type="lemma" source="http://scta.info/resource/deut33_7@1-3">Haec est Judae.</quote>
+            Judas, qui interpretatur <pb ed="#P" n="0495C"/> <quote xml:id="gom-deut33-Qd1e413">confessio,</quote> universalem significat Ecclesiam, in qua laudis divinae confessio et gratiarum actio. De quo mater ait: <quote xml:id="gom-deut33-Qd1e415" source="http://scta.info/resource/gen29_35@8-10">Modo confitebor Domino</quote>. Haec est vera sponsa Christi quae virtutum monilibus adornata, non superbit, sed gratias agit, pro hac orat ut audiatur.
+          </p>
+          <p xml:id="gom-deut33-d1e419">
+            <quote xml:id="gom-deut33-Qd1e421" type="lemma" source="http://scta.info/resource/deut33_7@5-8">Audi, Domine, vocem Judae.</quote>
+            Regum scilicet qui de Juda, qui Christum desiderabant; et ipsius Christi, qui ait: <quote xml:id="gom-deut33-Qd1e424" source="http://scta.info/resource/mt11_25@7-13">Confitebor tibi, Pater, rex coeli et terrae,</quote> etc. <!--<note>(Luc. X.)</note>-->
+          </p>
+          <p xml:id="gom-deut33-d1e430">
+            <quote xml:id="gom-deut33-Qd1e432" type="lemma" source="http://scta.info/resource/deut33_7@15-15">Manus.</quote>
+            Oravit Dominum pro Juda, cui nunc Domini promittit auxilia, quasi non praesumat de viribus suis Judas, sed in illo confidat qui ait: <quote xml:id="gom-deut33-Qd1e435" source="http://scta.info/resource/io16_33@15-18">Confidite, ego vici mundum</quote>; cujus manus in cruce contra spiritales nequitias pugnaverunt, ut <pb ed="#P" n="0495D"/> per mortem destrueret eum qui habebat mortis imperium.
+          </p>
+          <p xml:id="gom-deut33-d1e441">
+            <quote xml:id="gom-deut33-Qd1e443" type="lemma" source="http://scta.info/resource/deut33_7@21-21">Adjutor.</quote>
+            Ut vincat et dicat: <quote xml:id="gom-deut33-Qd1e446" source="http://scta.info/resource/hab3_19@12-17">Super excelsa mea deducet me victor</quote><!--<note>(Habac. III)</note>-->: ipse enim in nobis vincit, et pro victoria sua coronat nos in misericordia et miserationibus.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e452">
+          <head xml:id="gom-deut33-Hd1e454">Versus 8</head>
+          <p xml:id="gom-deut33-d1e456">
+            <quote xml:id="gom-deut33-Qd1e458" type="lemma" source="http://scta.info/resource/deut33_8@4-4">Perfectio.</quote>
+            Quasi, quam sis perfectus, et quam sancta doctrina tua per Moysen declarasti. Vel a sancto viro tuo, id est Levitis, est perfectio tua et doctrina tua. Illi enim debent legem custodire, facere et docere.
+          </p>
+          <p xml:id="gom-deut33-d1e462">
+            <quote xml:id="gom-deut33-Qd1e464" type="lemma" source="http://scta.info/resource/deut33_8@4-5">Perfectio tua.</quote>
+            Choro angelorum et martyrum et omnium perfectorum ista dicuntur, qui perfectionem charitatis moriendo pro Domino impleverunt; <pb ed="#P" n="0496A"/> et mundo renuntiantes, culmen ecclesiasticae doctrinae assecuti sunt, tanquam veri Levitae in terra partem non habentes, sed cum Propheta dicentes: <quote xml:id="gom-deut33-Qd1e469" source="http://scta.info/resource/ps15_5@1-4">Dominus pars haereditatis meae,</quote> etc. <!--<note>(Psal. XV)</note>-->; secundum illud: <quote xml:id="gom-deut33-Qd1e474" source="http://scta.info/resource/lc9_23@5-12">Si quis vult venire post me, abneget se,</quote> etc. <quote xml:id="gom-deut33-Qd1e478" source="http://scta.info/resource/lc9_24@11-16">Qui perdiderit animam suam propter me,</quote> etc. <!--<note>(Matth. X.)</note>--> Christus autem verus Levi, qui haec omnia fecit et docuit. Ipsi Levitae adhaerent imitantes illum usque ad sanguinem, de cujus passione subditur: <quote xml:id="gom-deut33-Qd1e483" source="http://scta.info/resource/deut33_8@12-15">Quem probasti in tentatione,</quote> etc.
+          </p>
+          <p xml:id="gom-deut33-d1e487">
+            <quote xml:id="gom-deut33-Qd1e489" type="lemma" source="http://scta.info/resource/deut33_8@18-19">Ad aquas.</quote>
+            Locus est ubi Moysi et Aaron ingressum terrae promissionis contradixit.
+          </p>
+          <p xml:id="gom-deut33-d1e493">
+            <quote xml:id="gom-deut33-Qd1e495" type="lemma" source="http://scta.info/resource/deut33_8@18-19">Ad aquas.</quote>
+            Legem significat, quae male viventibus introitum regni coelestis contradixit. Aquae, populi, qui contradicentes clamaverunt: <quote xml:id="gom-deut33-Qd1e498" source="http://scta.info/resource/mt27_25@6-13">Crucifige eum. <pb ed="#P" n="0496B"/> Sanguis ejus super nos, et super filios nostros</quote>. Ad cumulum perfectionis Levi adjungit:
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e505">
+          <head xml:id="gom-deut33-Hd1e507">Versus 9</head>
+          <p xml:id="gom-deut33-d1e509">
+            <quote xml:id="gom-deut33-Qd1e511" type="lemma" source="http://scta.info/resource/deut33_9@1-4">Qui dixit patri suo.</quote>
+            Quando fecerunt vitulum aureum, jubente Moyse, Levitae, accincti gladiis, a porta usque ad portam idololatras interfecerunt. In ultione idololatriae quasi suos non cognoscebant, quia sine differentia occidebant. Unde: <quote xml:id="gom-deut33-Qd1e514" source="http://scta.info/resource/lc18">Nisi quis reliquerit patrem et matrem et uxorem et filios propter me, non est meus discipulus<!-- check: cited chapter given; verse not identified --></quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e519">
+            <quote xml:id="gom-deut33-Qd1e521" type="lemma" source="http://scta.info/resource/deut33_9@1-6">Qui dixit patri suo et matri,</quote>
+            etc. Debemus et temporaliter his cum quibus vicinius conjungimur, plus prodesse. Debemus copulam terrenae cognationis agnoscere; sed si cursum mentis praepedit, ignorare, ut affectus mentis viscera repleat, sed a spiritali proposito non avertat. Haec bene vaccae innuunt, <pb ed="#P" n="0496C"/> quae sub arca Domini ad montana tendentes, affectu et rigido sensu gradiuntur: pro vitulis pergentes mugiebant sed accepto, itinere gressus non deflectebant.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e528">
+          <head xml:id="gom-deut33-Hd1e530">Versus 10</head>
+          <p xml:id="gom-deut33-d1e532">
+            <quote xml:id="gom-deut33-Qd1e534" type="lemma" source="http://scta.info/resource/deut33_10@10-11">Ponent thymiama.</quote>
+            Sicut Aaron stans inter mortuos et viventes pro populo deprecatus est.
+          </p>
+          <p xml:id="gom-deut33-d1e538">
+            <quote xml:id="gom-deut33-Qd1e540" type="lemma" source="http://scta.info/resource/deut33_10@10-11">Ponent thymiama.</quote>
+            Sanctorum oratio suavissimum incensum est Domino: quo (peccante populo) Domini furor mitigatur, quia ab omni terrena sorde defaecata, coelesti desiderio ignita, quasi thymiama in conspectu Dei flagrat, et quasi holocaustum ab ara pli cordis flamma devotionis in coelum subvolat. Hoc praecipue apostolis et martyribus congruit, de quibus dicitur: <quote xml:id="gom-deut33-Qd1e543" source="http://scta.info/resource/sap3_6@1-11">Tanquam aurum in fornace probavit illos, et quasi holocausti hostiam accepit</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e549">
+          <head xml:id="gom-deut33-Hd1e551">Versus 11</head>
+          <p xml:id="gom-deut33-d1e553">
+            <pb ed="#P" n="0496D"/>
+            <quote xml:id="gom-deut33-Qd1e557" type="lemma" source="http://scta.info/resource/deut33_11@9-9">Suscipe.</quote>
+            Quasi grata, ut remuneres. Dantur nunc singulis albae stolae, scilicet animarum laetitia; et in judicio secundum corpus, recepta immortalitate, <quote xml:id="gom-deut33-Qd1e560" source="http://scta.info/resource/sap3_7@1-7">fulgebunt sicut sol et tanquam scintillae in arundineto discurrent,</quote> exurendo scilicet vacuos et infructuosos adversarios; de quorum poena subditur:
+          </p>
+          <p xml:id="gom-deut33-d1e564">
+            <quote xml:id="gom-deut33-Qd1e566" type="lemma" source="http://scta.info/resource/deut33_11@10-11">Percute dorsa.</quote>
+            Quasi: videbantur sibi impune martyrum sanguinem fundere, sed quasi post dorsum poena improvisa parabatur, id est aeterna damnatio, in quam ruentes surgere non valebunt. Unde: <quote xml:id="gom-deut33-Qd1e569" source="http://scta.info/resource/prov26_3@7-9">Virga in dorso imprudentium</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e574">
+          <head xml:id="gom-deut33-Hd1e576">Versus 12</head>
+          <p xml:id="gom-deut33-d1e578">
+            <quote xml:id="gom-deut33-Qd1e580" type="lemma" source="http://scta.info/resource/deut33_12@1-2">Et Benjamin.</quote>
+            Videtur historiae alludere, quia Benjamin patriarcha et propheta Jacob <pb ed="#P" n="0497A"/> spiritu plenus unice amabat, et dispensatione Dei, locus divino cultui mancipatus, ejus tribui custodiendus decernitur; unde addit: <quote xml:id="gom-deut33-Qd1e585" source="http://scta.info/resource/deut33_12@10-14">Quasi in thalamo tota die,</quote> etc.
+          </p>
+          <p xml:id="gom-deut33-d1e589">
+            <quote xml:id="gom-deut33-Qd1e591" type="lemma" source="http://scta.info/resource/deut33_12@4-4">Amantissimus.</quote>
+            Christus est amantissimus Dei Patris, qui de seipso ait: <quote xml:id="gom-deut33-Qd1e594" source="http://scta.info/resource/mt17_5@15-19">Hic est Filius meus dilectus</quote>. Hic habitat in dextera Patris confidenter, cui dicitur: <quote xml:id="gom-deut33-Qd1e597" source="http://scta.info/resource/ps109_1@8-11">Sede a dextris meis</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e601">
+            <ref xml:id="gom-deut33-Rd1e603" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_12@4-4"/>
+            Aliter: Benjamin, de filio doloris <quote xml:id="gom-deut33-Qd1e605">filius dextrae</quote> dictus, exprimit Paulum de persecutore apostolum et vas electionis factum: ipse enim de hac tribu fuit; dignum autem erat ut sicut Domini praecursor prophetali oraculo praedictus est, ita magister gentium universo mundo profuturus, inter magna Ecclesiae mysteria praedicaretur. In cujus mente Christus fiducialiter <pb ed="#P" n="0497B"/> habitavit, cum inter innumera pericula coram gentibus et regibus eum constanter praedicavit. De cujus anima dicitur:
+          </p>
+          <p xml:id="gom-deut33-d1e610">
+            <quote xml:id="gom-deut33-Qd1e612" type="lemma" source="http://scta.info/resource/deut33_12@10-15">Quasi thalamo tota die morabitur.</quote>
+            Vel maritali connubio mira oblectatione perfruens, et virtutum prole fecundans, nulliusque vitii inquietudine secretum placidissimi pectoris derelinquens; vel in ea quasi in thalamo residens, tanquam sponsus speciosus, virgineas credentium mentes per praedicationem ejus suis jungit amplexibus. Unde: <quote xml:id="gom-deut33-Qd1e615" source="http://scta.info/resource/ps44_15@3-7">Adducentur regi virgines post eam<!-- check: Migne cites ps43; text matches ps44_15 --></quote>. Ipse quoque ait: <quote xml:id="gom-deut33-Qd1e619" source="http://scta.info/resource/IIcor11_2@6-14">Despondi enim vos uni viro virginem castam exhibere Christo</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e624">
+            <ref xml:id="gom-deut33-Rd1e626" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_12@10-15"/>
+            Divinitas quoque in humanitate Christi habitat confidenter.
+          </p>
+          <p xml:id="gom-deut33-d1e629">
+            <quote xml:id="gom-deut33-Qd1e631" type="lemma" source="http://scta.info/resource/deut33_12@11-15">In thalamo morabitur,</quote>
+            significat quod <pb ed="#P" n="0497C"/> in utero Virginis coelesti sponso juncta est Ecclesia, quae in fortitudine potentiae Christi et in operibus fiducialiter requiescit.
+          </p>
+          <p xml:id="gom-deut33-d1e637">
+            <quote xml:id="gom-deut33-Qd1e639" type="lemma" source="http://scta.info/resource/deut33_12@16-20">Et inter humeros illius requiscet.</quote>
+            Humeris onera portantur, ideo in eis robusta patientia designatur. Tanto autem libentius Christus in illo requievit, quanto pro ipso durissimos labores toleravit: tanto arctius amplexus est, quanto ab illius amplexu nullo terrore avulsus est. Unde ait: <quote xml:id="gom-deut33-Qd1e642" source="http://scta.info/resource/rom8_35@1-6">Quis nos separabit a charitate Christi?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e647">
+          <head xml:id="gom-deut33-Hd1e649">Versus 13</head>
+          <p xml:id="gom-deut33-d1e651">
+            <quote xml:id="gom-deut33-Qd1e653" type="lemma" source="http://scta.info/resource/deut33_13@1-3">Joseph quoque ait.</quote>
+            Joseph <mentioned>auctus</mentioned> interpretatur. Hic est Christus, qui a Judaeis fratribus suis abjectus, in Aegypto hujus saeculi princeps factus est, et genus humanum a famis inopia evangelici <pb ed="#P" n="0497D"/> frumenti dispensatione liberavit: qui est vere Salvator mundi.
+          </p>
+          <p xml:id="gom-deut33-d1e661">
+            <quote xml:id="gom-deut33-Qd1e663" type="lemma" source="http://scta.info/resource/deut33_13@4-8">De benedictione Domini terra ejus.</quote>
+            Ad litteram, fertilitatem significat, quam duae tribus ex Joseph, id est Ephraim et Manasses, habuerunt in ubertate frugum, pomorum et pastu pecorum. Haec est Basan, fertilissima regio, unde <mentioned>pinguedo</mentioned> interpretatur.
+          </p>
+          <p xml:id="gom-deut33-d1e669">
+            <ref xml:id="gom-deut33-Rd1e671" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_13@4-8"/>
+            Temperie coeli, et rore fructus, et fontium et fluminum abundantia, homine delectantur, quae in abysso significantur.
+          </p>
+          <p xml:id="gom-deut33-d1e674">
+            <quote xml:id="gom-deut33-Qd1e676" type="lemma" source="http://scta.info/resource/deut33_13@5-7">Benedixisti, Domine, terram tuam,</quote>
+            Ecclesiam scilicet, quae non propria virtute, sed virtutum benedictione divinitus impletur. Unde: <quote xml:id="gom-deut33-Qd1e679" source="http://scta.info/resource/eph1_3@1-19">Benedictus Deus <pb ed="#P" n="0498A"/> qui benedixit nos in omni benedictione spiritali in coelestibus Christo</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e686">
+            <quote xml:id="gom-deut33-Qd1e688" type="lemma" source="http://scta.info/resource/deut33_13@11-11">Coeli.</quote>
+            Coelum dicuntur propter unitatem fidei et doctrinae apostoli et evangelistae, de quibus alibi pluraliter dicitur: <quote xml:id="gom-deut33-Qd1e691" source="http://scta.info/resource/ps18_2@1-3">Coeli enarrant gloriam,</quote> etc. <!--<note>(Psal. XVIII.)</note>--> In ipsis enim vita et contemplatione fulgentibus tanquam in coelo habitat Deus, intonans terrorem, pluens consolationem, et coruscans miraculis.
+          </p>
+          <p xml:id="gom-deut33-d1e697">
+            <quote xml:id="gom-deut33-Qd1e699" type="lemma" source="http://scta.info/resource/deut33_13@13-13">Rore.</quote>
+            Coelesti praedicatione, quae mirae subtilitatis et gratiae, qua contra aestum tentationis corda rigantur, et ut semper vireant virtutibus; unde: <quote xml:id="gom-deut33-Qd1e702" source="http://scta.info/resource/gen27_28@1-6">Det tibi Deus de rore coeli,</quote> etc. <!--<note>(Gen. XXVII.)</note>-->
+          </p>
+          <p xml:id="gom-deut33-d1e708">
+            <quote xml:id="gom-deut33-Qd1e710" type="lemma" source="http://scta.info/resource/deut33_13@15-15">Abysso,</quote>
+            ut scilicet pinguior fiat, de fonte ascendente irrorata quasi paradisus Dei. Unde: <quote xml:id="gom-deut33-Qd1e713" source="http://scta.info/resource/gen2_6@2-9">Fons ascendebat <pb ed="#P" n="0498B"/> de terra irrigans superficiem terrae</quote>. A mari abundavit sensus ejus, et cogitatus illius de abysso magna. Frustra enim exterius irrigat sermo doctoris, nisi riget interius gratia conditoris. Unde subdit: <quote xml:id="gom-deut33-Qd1e718" source="http://scta.info/resource/deut33_15@5-7">De pomis collium,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e723">
+          <head xml:id="gom-deut33-Hd1e725">Versus 14</head>
+          <p xml:id="gom-deut33-d1e727">
+            <quote xml:id="gom-deut33-Qd1e729" type="lemma" source="http://scta.info/resource/deut33_14@4-4">Solis.</quote>
+            Christi, qui est sol justitiae, qui ait: <quote xml:id="gom-deut33-Qd1e732" source="http://scta.info/resource/mt13_43@3-9">Fulgebunt justi sicut sol in regno Patris eorum</quote>, quia similes ei erimus.
+          </p>
+          <p xml:id="gom-deut33-d1e736">
+            <quote xml:id="gom-deut33-Qd1e738" type="lemma" source="http://scta.info/resource/deut33_14@5-6">Ac lunae.</quote>
+            Ecclesiae, quae accipit hos fructus a sole, id est a Christo: semper igitur solem plena devotione respiciat, ne aliquando aversa lumen perdat.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e743">
+          <head xml:id="gom-deut33-Hd1e745">Versus 15</head>
+          <p xml:id="gom-deut33-d1e747">
+            <quote xml:id="gom-deut33-Qd1e749" type="lemma" source="http://scta.info/resource/deut33_15@5-8">De pomis collium aeternorum.</quote>
+            Colles aeterni fideles Veteris Testamenti qui humiles filii immobili firmitate in fide prophetarum et patriarcharum fundati <!--<note>(unde: Mons domus Domini elevabitur super colles [Isa. II])</note>--> quorum pomis terra Joseph <pb ed="#P" n="0498C"/> benedicitur, cum Ecclesia Christi doctrina prophetiae, exemplo virtutis, in fide fructificat. Et notandum, quia supra in pomis et rore coeli doctrina evangelica, hic in vertice antiquorum montium et pomis collium aeternorum, legalis et prophetica signatur, et utrisque terra Joseph locupletatur; quia sancta Ecclesia utriusque Testamenti paginis, et novorum et veterum Patrum exemplis informatur; unde: <quote xml:id="gom-deut33-Qd1e756" source="http://scta.info/resource/cant7_13@7-13">Omnia poma, dilecte mi,</quote> id est, <quote xml:id="gom-deut33-Qd1e759" source="http://scta.info/resource/cant7_13@9-15">nova et vetera servavi tibi</quote> et: <quote xml:id="gom-deut33-Qd1e763" source="http://scta.info/resource/mt13_52@4-22">Omnis scriba doctus profert de thesauro suo nova et vetera</quote>. Manichaei ergo et Judaei (quia illi Vetus, isti Novum Testamentum non recipiunt) in hac terra opulenta haereditare nequeunt.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e768">
+          <head xml:id="gom-deut33-Hd1e770">Versus 16</head>
+          <p xml:id="gom-deut33-d1e772">
+            <pb ed="#P" n="0498D"/>
+            <quote xml:id="gom-deut33-Qd1e776" type="lemma" source="http://scta.info/resource/deut33_16@1-3">Et de frugibus.</quote>
+            Ecclesia in toto orbe justitiae fruge fecunda et charismatum largitate, de plenitudine sui Joseph accepit; unde sequitur:
+          </p>
+          <p xml:id="gom-deut33-d1e780">
+            <quote xml:id="gom-deut33-Qd1e782" type="lemma" source="http://scta.info/resource/deut33_16@8-11">Benedictio illius qui apparuit.</quote>
+            Totus Joseph, id est, caput et corpus benedictione plenus, sed benedictionis plenitudo praecipue in capite; unde: <quote xml:id="gom-deut33-Qd1e785" source="http://scta.info/resource/ps132_2@1-10">Sicut unguentum in capite quod descendit in barbam Aaron,</quote> etc. <!--<note>(Psal. XXXII.)</note>--> Hic privilegio gratiae, fratribus, id est, fidelibus praeeminens, septiformi spiritu tanquam verus Samson ex utero virginis Nazaraeus, id est Deo consecratus, quasi septem crinibus intactis effulsit.
+          </p>
+          <p xml:id="gom-deut33-d1e791">
+            <quote xml:id="gom-deut33-Qd1e793" type="lemma" source="http://scta.info/resource/deut33_16@15-17">Super caput Joseph,</quote>
+            Christi, qui est caput Ecclesiae, in quo benedicuntur omnes gentes, de cujus <pb ed="#P" n="0499A"/> passione et resurrectione subditur: <quote xml:id="gom-deut33-Qd1e798" source="http://scta.info/resource/deut33_17@1-3">Quasi primogeniti tauri,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e804">
+          <head xml:id="gom-deut33-Hd1e806">Versus 17</head>
+          <p xml:id="gom-deut33-d1e808">
+            <quote xml:id="gom-deut33-Qd1e810" type="lemma" source="http://scta.info/resource/deut33_17@1-1">Quasi.</quote>
+            <ref xml:id="gom-deut33-Rd1e813"><name xml:id="gom-deut33-Nd1e814" ref="#Augustine">AUG.</name>, quaest. 56.</ref>
+            <quote xml:id="gom-deut33-Qd1e818">Primogenitus tauri pulchritudo ejus. Non est ita legendum ut dicatur primogenitus tauri: sed cum sit primogenitus, pulchritudo ejus pulchritudo tauri est, propter cornua crucis.</quote>
+          </p>
+          <p xml:id="gom-deut33-d1e821">
+            <ref xml:id="gom-deut33-Rd1e823" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_17@1-1"/>
+            Christus vitulus saginatus, quem de armento patrum primogenitum regresso Filio Pater immolavit, qui die tertia suscitatus gloriosus apparuit, qui est primogenitus mortuorum et princeps regum terrae, post resurrectionis gloriam de virtute passionis adjungit cornua.
+          </p>
+          <p xml:id="gom-deut33-d1e826">
+            <quote xml:id="gom-deut33-Qd1e828" type="lemma" source="http://scta.info/resource/deut33_17@6-6">Cornua.</quote>
+            Joseph comparat cornibus rhinocerotis, significans Ephraim habiturum principatum inter decem tribus, in quibus regnavit Jeroboam <pb ed="#P" n="0499B"/> de tribu Ephraim in tempore Roboam filii Salomonis.
+          </p>
+          <p xml:id="gom-deut33-d1e834">
+            <quote xml:id="gom-deut33-Qd1e836" type="lemma" source="http://scta.info/resource/deut33_17@6-7">Cornua rhinocerotis.</quote>
+            Cornua crucis significat, de quibus ait Habacuc: <quote xml:id="gom-deut33-Qd1e839" source="http://scta.info/resource/hab3_4@10-14">Ibi abscondita est fortitudo ejus</quote><!--<note>(Habac. III)</note>-->. Per infirmitatem namque carnis quasi aries illusorum spinis coronatur, his cornibus haesit, sed passionis incomparabili fortitudine unicornis exstitit mortis victor, et ejus qui habebat mortis imperium, unde: <quote xml:id="gom-deut33-Qd1e843" source="http://scta.info/resource/Icor1_25@10-16">Quod infirmum est Dei, fortius est hominibus</quote>
+          </p>
+          <p xml:id="gom-deut33-d1e848">
+            <quote xml:id="gom-deut33-Qd1e850" type="lemma" source="http://scta.info/resource/deut33_17@12-12">Ventilabit.</quote>
+            Praedicatione crucis discernens paleas a frumento: verbum enim crucis pereuntibus stultitia.
+          </p>
+          <p xml:id="gom-deut33-d1e854">
+            <quote xml:id="gom-deut33-Qd1e856" type="lemma" source="http://scta.info/resource/deut33_17">Gentes. Postula a me, et dabo tibi gentes,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. <!--<note>(Psal. II.)</note>--> De haereditate enim veri Joseph (quae est <pb ed="#P" n="0499C"/> terra inclyta) haec omnia dicuntur, de cujus cultoribus ex utroque populo congregatis, sequitur:
+          </p>
+          <p xml:id="gom-deut33-d1e866">
+            <quote xml:id="gom-deut33-Qd1e868" type="lemma" source="http://scta.info/resource/deut33_17@18-21">Hae sunt multitudines Ephraim.</quote>
+            Hae duae tribus ex Joseph, non in se, sed in parente benedicuntur. Filios significant utriusque populi, qui in Christo benedicuntur secundum illud: <quote xml:id="gom-deut33-Qd1e871" source="http://scta.info/resource/gen22_18@3-7">In semine tuo benedicentur omnes gentes</quote>. Hos patriarcha Jacob Ephraim et Manassen cancellatis manibus in modum crucis benedicens, et primogenito minorem praeferens, in fide crucis Christi benedicendos esse signavit, in minore ex gentibus fidelem populum in Christi gratia tempore minorem, sed fide majorem: ad quem Israelitici populi gratia transivit, de cujus inaestimabili multitudine dicitur: <quote xml:id="gom-deut33-Qd1e874" source="http://scta.info/resource/deut33_17@18-20">Hae sunt multitudines,</quote> etc., unde: <quote xml:id="gom-deut33-Qd1e877" source="http://scta.info/resource/is54_1@14-22">Multi filii desertae magis quam <pb ed="#P" n="0499D"/> ejus quae habet virum</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e883">
+            <ref xml:id="gom-deut33-Rd1e885" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_17@18-21"/>
+            Manasses primogeniti honore privatus, et tamen benedictus, est Judaicus populus, qui ex majore sui parte pro infidelitate reprobatus, in reliquis tamen benedictionem consecutus, unde: <quote xml:id="gom-deut33-Qd1e887" source="http://scta.info/resource/rom11_25@15-20">Caecitas contingit ex parte in Israel,</quote> etc. <!--<note>(Rom. II.)</note>-->
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e894">
+          <head xml:id="gom-deut33-Hd1e896">Versus 18</head>
+          <p xml:id="gom-deut33-d1e898">
+            <quote xml:id="gom-deut33-Qd1e900" type="lemma" source="http://scta.info/resource/deut33_18@1-2">Et Zabulon.</quote>
+            Zabulon et Issachar in Galilaea passionem acceperunt, ubi Christus maxime docuit, unde apostolos elegit. Per eos ergo apostoli designantur, et eis in exitu laetitia promittitur, quia exeuntes de finibus suis populum gentium Christo subjugaverunt, et in tabernaculis pro conversione Judaeorum, de quibus et ipsi electi sunt. Pro utroque ergo populo, praesens eis laetitia promittitur, et futura: <pb ed="#P" n="0500A"/> quia in praesenti de conversione eorum gavisi sunt, et in coelestibus aeterna laetitia remunerati.
+          </p>
+          <p xml:id="gom-deut33-d1e906">
+            <quote xml:id="gom-deut33-Qd1e908" type="lemma" source="http://scta.info/resource/deut33_18@11-12">In tabernaculis,</quote>
+            Judaeorum, unde: <quote xml:id="gom-deut33-Qd1e911" source="http://scta.info/resource/gen9_27@1-8">Dilatet Deus Japhet, et habitet in tabernaculis Sem</quote>: quia in ecclesiis de Judaeis habitat latitudo minoris populi per unitatem fidei.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e916">
+          <head xml:id="gom-deut33-Hd1e918">Versus 19</head>
+          <p xml:id="gom-deut33-d1e920">
+            <quote xml:id="gom-deut33-Qd1e922" type="lemma" source="http://scta.info/resource/deut33_19@2-3">Ad montem.</quote>
+            Sion scilicet vel Jerusalem, vel contemplationem et virtutum altitudinem.
+          </p>
+          <p xml:id="gom-deut33-d1e926">
+            <quote xml:id="gom-deut33-Qd1e928" type="lemma" source="http://scta.info/resource/deut33_19@4-4">Vocabunt.</quote>
+            Justitiam tantum in fide Christi esse docentes. <quote xml:id="gom-deut33-Qd1e931" source="http://scta.info/resource/rom10_4@1-8">Finis enim legis Christus ad justitiam omni credenti</quote>. In monte immolant victimas justitiae, dum omnes qui ad Christum veniunt (in quo construitur Ecclesia) non ex operibus legis sed ex fide Christi justificari docent, secundum illud <quote xml:id="gom-deut33-Qd1e934" source="http://scta.info/resource/rom1_17@14-18">Justus <pb ed="#P" n="0500B"/> autem ex fide vivit</quote><!--<note>(Habac. I)</note>-->. Sunt ergo veri Christiani victimae justitiae, quae ab apostolis immolantur, dum terrena desideria mortificare docentur, ut spiritualia vivificentur; unde: <quote xml:id="gom-deut33-Qd1e940" source="http://scta.info/resource/rom8_13@7-13">Si spiritu facta carnis mortificaveritis, vivetis</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e944">
+            <quote xml:id="gom-deut33-Qd1e946" type="lemma" source="http://scta.info/resource/deut33_19@5-6">Ibi immolabunt.</quote>
+            Non est locus veri sacrificii extra catholicam Ecclesiam, quae supra hunc montem posita est.
+          </p>
+          <p xml:id="gom-deut33-d1e950">
+            <quote xml:id="gom-deut33-Qd1e952" type="lemma" source="http://scta.info/resource/deut33_19@9-10">Qui inundationem.</quote>
+            Hae tribus negotiationibus vacaverunt, de transmarinis regionibus mercimonia reportantes, et thesauros absconditos, argentum, scilicet aurum vel gemmas <quote xml:id="gom-deut33-Qd1e955" source="http://scta.info/resource/deut33_19@12-14">quasi lac sugent,</quote> id est, facile accipient.
+          </p>
+          <p xml:id="gom-deut33-d1e960">
+            <quote xml:id="gom-deut33-Qd1e962" type="lemma" source="http://scta.info/resource/deut33_19@9-11">Qui inundationem maris.</quote>
+            Gentium vocationem significat. Mare enim universum genus hominum significat; <pb ed="#P" n="0500C"/> unde: <quote xml:id="gom-deut33-Qd1e967" source="http://scta.info/resource/mt13_47@2-14">Simile est regnum coelorum sagenae missae in mari, et ex omni genere piscium congreganti</quote>. Mare, mundus, sagena, doctrina, omne genus piscium, omnis sexus, aetas et conditio intelligitur. Maris ergo inundationem apostoli quasi lac suxerunt, quia confluentes ad doctrinam Evangelii turbas populorum in augmentum corporis Christi traxerunt.
+          </p>
+          <p xml:id="gom-deut33-d1e971">
+            <ref xml:id="gom-deut33-Rd1e973" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_19@9-11"/>
+            <quote xml:id="gom-deut33-Qd1e975" source="http://scta.info/resource/IItim2_19@10-13">Absconditos. Novit Dominus qui sunt ejus<!-- check: Migne cites Itim2; text matches IItim2_19 --></quote>. <quote xml:id="gom-deut33-Qd1e979" source="http://scta.info/resource/mt22_14@1-5">Multi enim sunt vocati, pauci,</quote> etc. <!--<note>(Matth. XX.)</note>-->
+          </p>
+          <p xml:id="gom-deut33-d1e985">
+            <ref xml:id="gom-deut33-Rd1e987" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_19@9-11"/>
+            Arenae, infidelium multitudo; thesauri, pretiosae electorum animae. Sic ergo suxerunt, ut ex auditoribus Evangelii alii quasi vasa in honorem thesauris regis transferrentur, alii quasi arenae steriles et <pb ed="#P" n="0500D"/> inutiles vacui remanerent.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e993">
+          <head xml:id="gom-deut33-Hd1e995">Versus 20</head>
+          <p xml:id="gom-deut33-d1e997">
+            <quote xml:id="gom-deut33-Qd1e999" type="lemma" source="http://scta.info/resource/deut33_20@1-3">Et Gad ait.</quote>
+            In benedictione Gad videtur praedicere potentiam virorum fortium vel judicium, qui de illa tribu fuerunt, sicut Jephte, et alii multi.
+          </p>
+          <p xml:id="gom-deut33-d1e1003">
+            <quote xml:id="gom-deut33-Qd1e1005" type="lemma" source="http://scta.info/resource/deut33_20@5-6">In latitudine.</quote>
+            Quia omnis plenitudo benedictionis supra Christum requievit, unde suos benedixit.
+          </p>
+          <p xml:id="gom-deut33-d1e1009">
+            <quote xml:id="gom-deut33-Qd1e1011" type="lemma" source="http://scta.info/resource/deut33_20@2-2">Gad.</quote>
+            Id est, accinctus, Christum significat, qui contra spirituales nequitias pugnaturus, in infirmitate carnis virtute divinitatis praecinctus apparuit, secundum illud: <quote xml:id="gom-deut33-Qd1e1014" source="http://scta.info/resource/ps92_1@19-25">Indutus est Dominus fortitudinem et praecinxit se<!-- check: Migne cites ps112; text matches ps92_1 --></quote>. Et alibi: <quote xml:id="gom-deut33-Qd1e1018" source="http://scta.info/resource/ps23_8@7-14">Dominus fortis et potens in praelio,</quote> etc. Hic in latitudine benedictus est, quia non in solis Judaeis, sed in omnibus <pb ed="#P" n="0501A"/> gentibus amplissimum regnum accepit. Inde Prophetia ait:
+          </p>
+          <p xml:id="gom-deut33-d1e1024">
+            <quote xml:id="gom-deut33-Qd1e1026" type="lemma" source="http://scta.info/resource/deut33_20">A solis ortu usque ad occasum laudabile nomen Domini.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Sed quia per humilitatem passionis ad hanc gloriam pervenit, de morte ejus subjungit:
+          </p>
+          <p xml:id="gom-deut33-d1e1033">
+            <ref xml:id="gom-deut33-Rd1e1035" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_20"/>
+            <quote xml:id="gom-deut33-Qd1e1037" source="http://scta.info/resource/io10_18@13-16">Quasi leo requievit. Potestatem habeo ponendi animam meam</quote>. Potestas mortis, non necessitas exprimitur; unde: <quote xml:id="gom-deut33-Qd1e1040" source="http://scta.info/resource/io10_18@1-9">Nemo tollit eam a me, sed ego pono eam.</quote>
+          </p>
+          <p xml:id="gom-deut33-d1e1044">
+            <ref xml:id="gom-deut33-Rd1e1046" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_20"/>
+            <ref xml:id="gom-deut33-Rd1e1048"><name xml:id="gom-deut33-Nd1e1049" ref="#Augustine">Ibid.</name></ref>
+          </p>
+          <p xml:id="gom-deut33-d1e1053">
+            <quote xml:id="gom-deut33-Qd1e1055" type="lemma" source="http://scta.info/resource/deut33_20@8-9">Quasi leo fremuit.</quote>
+            Quidquid enim dixit, potenter implevit.
+          </p>
+          <p xml:id="gom-deut33-d1e1059">
+            <quote xml:id="gom-deut33-Qd1e1061" type="lemma" source="http://scta.info/resource/deut33_20@11-14">Cepitque brachium et verticem.</quote>
+            Cum resurgens a mortuis fortitudinem inimicorum sibi subjugavit. Cepit quoque verticem, id est, mundani imperii sublimitatem ad suscipiendam fidem inclinavit; unde: <pb ed="#P" n="0501B"/> <quote xml:id="gom-deut33-Qd1e1066" source="http://scta.info/resource/ps71_11@1-11">Et adorabunt eum omnes reges; omnes gentes servient ei</quote>. Sequitur de novo statu regni ejus.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1071">
+          <head xml:id="gom-deut33-Hd1e1073">Versus 21</head>
+          <p xml:id="gom-deut33-d1e1075">
+            <quote xml:id="gom-deut33-Qd1e1077" type="lemma" source="http://scta.info/resource/deut33_21@1-8">Et vidit principatum suum, quod in parte sua.</quote>
+            Subjectis sibi regnis et gentibus, potentia ejus apparuit, non armorum terrore, sed virtute doctrinae.
+          </p>
+          <p xml:id="gom-deut33-d1e1081">
+            <quote xml:id="gom-deut33-Qd1e1083" type="lemma" source="http://scta.info/resource/deut33_21@11-11">Repositus.</quote>
+            Occultus, dum scribit leges suas in cordibus fidelium; unde ait: <quote xml:id="gom-deut33-Qd1e1086" source="http://scta.info/resource/Iio2_27@11-26">Vos unctionem habetis a sancto, et non necesse habetis ut aliquis doceat vos; unctio ejus docet vos de omnibus<!-- check: Migne cites io2; text matches Iio2_27 --></quote>. Vel, <quote xml:id="gom-deut33-Qd1e1090" source="http://scta.info/resource/deut33_21@11-11">Repositus,</quote> quia in lege et prophetis in figuris latebat, et docebat absconditus, quae manifeste in Evangelio declaravit; unde: <quote xml:id="gom-deut33-Qd1e1093" source="http://scta.info/resource/lc24_27@2-9">Incipiens a Moyse et omnibus prophetis interpretabatur illis</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e1097">
+            <pb ed="#P" n="0501C"/>
+            <quote xml:id="gom-deut33-Qd1e1101" type="lemma" source="http://scta.info/resource/deut33_21@12-16">Qui fuit cum principibus populi.</quote>
+            Adjutor, unde: <quote xml:id="gom-deut33-Qd1e1104" source="http://scta.info/resource/mc16_20@6-12">Domino cooperante et sermonem confirmante sequentibus signis</quote>, quia ait: <quote xml:id="gom-deut33-Qd1e1107" source="http://scta.info/resource/io15_5@19-23">Sine me nihil potestis facere</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e1111">
+            <quote xml:id="gom-deut33-Qd1e1113" type="lemma" source="http://scta.info/resource/deut33_21@18-19">Fecit justitias.</quote>
+            Id est justificans in se credentes, et tandem secundum merita judicabit cum Israel, id est cum populo suo ad visionem Dei electo.
+          </p>
+          <p xml:id="gom-deut33-d1e1118">
+            <quote xml:id="gom-deut33-Qd1e1120" type="lemma" source="http://scta.info/resource/deut33_21@19-19">Justitias.</quote>
+            Justificationes credentium. Ipse enim justificat impium ex fide. Neque enim ex operibus legis justificabitur omnis caro.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1125">
+          <head xml:id="gom-deut33-Hd1e1127">Versus 22</head>
+          <p xml:id="gom-deut33-d1e1129">
+            <quote xml:id="gom-deut33-Qd1e1131" type="lemma" source="http://scta.info/resource/deut33_22@1-2">Dan quoque.</quote>
+            Alii per Dan Antichristum signari putant, quem de hac tribu nasciturum aestimant: ipse est catulus leonis, id est diaboli, qui largiter fluet de Basan, quia plenus confusione; <pb ed="#P" n="0501D"/> Basan quippe confusio, vel pinguedo, vel bruchus interpretatur.
+          </p>
+          <p xml:id="gom-deut33-d1e1137">
+            <ref xml:id="gom-deut33-Rd1e1139" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_22@1-2"/>
+            Dan quoque judicium, Basan ignominiam. Dan vero Christum significat, qui ait: <quote xml:id="gom-deut33-Qd1e1141" source="http://scta.info/resource/io9_39@4-10">In judicium ego in hunc mundum veni</quote>. Catulus leonis propter fortitudinem, et quia parvulus fieri dignatus est; sed suscipiens infirmitatem nostram, non amisit virtutem suam, <quote xml:id="gom-deut33-Qd1e1144" source="http://scta.info/resource/Icor1_25@10-16">quod enim infirmum est Dei, fortius est hominibus</quote>. De ipso dicitur: <quote xml:id="gom-deut33-Qd1e1147" source="http://scta.info/resource/ap5_5@10-14">Vicit leo de tribu Juda,</quote> etc. <!--<note>(Apoc. V.)</note>--> Ignominiam quidem crucis a Judaeis sustinuit, putantibus nomen ejus per mortem deleri: sed qui per infirmitatem ejus carnis, in passione catulus fuit, per divinitatis potentiam leo invictus in resurrectione apparuit; unde Apostolus: <quote xml:id="gom-deut33-Qd1e1153" source="http://scta.info/resource/IIcor13_4@2-12">Et si crucifixus est ex infirmitate, <pb ed="#P" n="0502A"/> vivit tamen ex virtute Dei</quote>. Quasi ergo ex Basan largiter fluxit, cum per ignominiam mortis perveniens ad gloriam immortalitatis, fluentis Evangelii totum orbem irrigavit; unde Isaias: <quote xml:id="gom-deut33-Qd1e1158" source="http://scta.info/resource/is11_9@12-20">Repleta est terra scientia Domini, sicut aquae maris operientis<!-- check: Migne cites is2; text matches is11_9 --></quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e1163">
+            <quote xml:id="gom-deut33-Qd1e1165" type="lemma" source="http://scta.info/resource/deut33_22@4-6">Dan catulus leonis.</quote>
+            Hoc propter Samsonem dicit, qui de tribu Dan fuit, et quasi leo fortis, cujus possessio usque Basan. Antichristus vero fluet largiter de Basan, quia satiabitur pinguedine luxuriae et omnium vitiorum.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1171">
+          <head xml:id="gom-deut33-Hd1e1173">Versus 23</head>
+          <p xml:id="gom-deut33-d1e1175">
+            <quote xml:id="gom-deut33-Qd1e1177" type="lemma" source="http://scta.info/resource/deut33_23@12-15">Mare et meridiem possidebit.</quote>
+            Quia possessio ejus ab australi parte in occidentem usque ad mare Tyrrhenum pertingit.
+          </p>
+          <p xml:id="gom-deut33-d1e1181">
+            <quote xml:id="gom-deut33-Qd1e1183" type="lemma" source="http://scta.info/resource/deut33_23@12-15">Mare et meridiem possidebit.</quote>
+            Per apostolos enim <pb ed="#P" n="0502B"/> ex Judaeis et gentibus Ecclesia acquiritur Christo. Per mare enim occidentale (quod hic intelligitur) Judaei figurantur, qui umbrae et exemplari deserviunt, nec habent lucem scientiae et veritatis, et quia eis sol justitiae occubuit, perpetuis remanserunt in tenebris. Hunc occidentem apostoli possederunt, cum ex eis plurimos gratia fidei illuminatos Christo subjecerunt, ut qui fuerunt aliquando tenebrae, lux essent in Domino. In meridie intelligitur Ecclesia de gentibus collecta, quae, ablato legis velamine, Evangelii luce perfruitur, et cubans cum sponso in meridie, revelata facie gloriam Domini contemplatur.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1190">
+          <head xml:id="gom-deut33-Hd1e1192">Versus 24</head>
+          <p xml:id="gom-deut33-d1e1194">
+            <quote xml:id="gom-deut33-Qd1e1196" type="lemma" source="http://scta.info/resource/deut33_24@1-11">Aser quoque ait: Benedictus in filiis Aser, sit placens fratribus suis.</quote>
+            Aser beatus, Christus scilicet nostrae beatitudinis spes, cujus primitias nobis <pb ed="#P" n="0502C"/> ostendit resurgens a mortuis. Hic est benedictus in filiis, quia credentes, per ejus gratiam renascentes, totum orbem ejus similitudine repleverunt, quibus dicitur: <quote xml:id="gom-deut33-Qd1e1201" source="http://scta.info/resource/io12_36@4-10">Credite in lucem, filii ut lucis sitis</quote>. Ipsi afferunt fructum lucis in omni bonitate et justitia et veritate. Hoc autem factum est, quia fratribus suis, id est apostolis, quos de Judaea elegit, vera charitate complacuit, ut spretis figuris gauderent de veritate Evangelii, et quia <quote xml:id="gom-deut33-Qd1e1204" source="http://scta.info/resource/act5_41@10-17">digni essent pro nomine Jesu contumeliam pati.</quote> Et unde eis tanta charitatis abundantia, supponit, <quote xml:id="gom-deut33-Qd1e1207" source="http://scta.info/resource/deut33_24@12-15">tingat in oleo pedem,</quote> etc.
+          </p>
+          <p xml:id="gom-deut33-d1e1211">
+            <quote xml:id="gom-deut33-Qd1e1213" type="lemma" source="http://scta.info/resource/deut33_24@12-16">Et tingat in oleo pedem suum.</quote>
+            Christus caput nostrum ascendens in coelum, apostolos, scilicet pedes suos mundum praedicando circumituros in terra <pb ed="#P" n="0502D"/> adhuc consistentes, oleo Spiritus sancti copiosissime unxit, ut nullo labore deficerent, sed immarcessibilis gaudii claritate pollerent. Incorruptibile quoque praebuit calceamenti munimentum de quo subditur:
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1220">
+          <head xml:id="gom-deut33-Hd1e1222">Versus 25</head>
+          <p xml:id="gom-deut33-d1e1224">
+            <quote xml:id="gom-deut33-Qd1e1226" type="lemma" source="http://scta.info/resource/deut33_25@1-3">Ferrum et aes cal.</quote>
+            <ref xml:id="gom-deut33-Rd1e1229"><name xml:id="gom-deut33-Nd1e1230" ref="#GregoryGreat">GREG.</name>, lib. XXXIV Moral., cap. 5.</ref>
+            <quote xml:id="gom-deut33-Qd1e1234"><seg type="qs">Hoc de Ecclesia</seg>, etc., usque ad <seg type="qs">his calceamentis verum pascha celebrandum.</seg></quote>
+          </p>
+          <p xml:id="gom-deut33-d1e1242">
+            <quote xml:id="gom-deut33-Qd1e1244" type="lemma" source="http://scta.info/resource/deut33_25@6-8">Sicut dies juventutis.</quote>
+            Significat hanc tribum prosperitate et deliciis abundasse usque ad senectutem captivitatis.
+          </p>
+          <p xml:id="gom-deut33-d1e1248">
+            <quote xml:id="gom-deut33-Qd1e1250" type="lemma" source="http://scta.info/resource/deut33_25@6-6">Sicut.</quote>
+            Promittitur Ecclesiae cruda viridisque senectus: ut sicut fortiter in principio omnes impetus evicit, ita eminente fine Antichristi furorem evincat, unde: <quote xml:id="gom-deut33-Qd1e1253" source="http://scta.info/resource/mt28_20@9-18">Ecce ego vobiscum sum omnibus diebus <pb ed="#P" n="0503A"/> usque ad consummationem saeculi</quote>. Et alibi: <quote xml:id="gom-deut33-Qd1e1258" source="http://scta.info/resource/ps91_11@8-12">Senectus mea in misericordia uberi (Psalmus XCI)</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1263">
+          <head xml:id="gom-deut33-Hd1e1265">Versus 26</head>
+          <p xml:id="gom-deut33-d1e1267">
+            <quote xml:id="gom-deut33-Qd1e1269" type="lemma" source="http://scta.info/resource/deut33_26@1-5">Non est Deus.</quote>
+            Supradicta admirans in laude Christi, qui haec omnia fecit laetabundus erumpit.
+          </p>
+          <p xml:id="gom-deut33-d1e1273">
+            <quote xml:id="gom-deut33-Qd1e1275" type="lemma" source="http://scta.info/resource/deut33_26@7-8">Ascensor coeli.</quote>
+            Propria virtute ascendit, et quotidie Ecclesiam ad se trahit. <quote xml:id="gom-deut33-Qd1e1278" source="http://scta.info/resource/cant1_3@1-9">Trahe me post te, curre in odorem unguentorum tuorum</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e1282">
+            <quote xml:id="gom-deut33-Qd1e1284" type="lemma" source="http://scta.info/resource/deut33_26@14-14">Nubes.</quote>
+            Apostoli, qui pluunt verbis, coruscant miraculis: quos ascendens in coelum misit ad praedicandum; unde: <quote xml:id="gom-deut33-Qd1e1287" source="http://scta.info/resource/ps76_18@5-7">Vocem dederunt nubes</quote>, quae scilicet nullo remorante discurrunt, non sua, sed Christi virtute signa et prodigia facientes, et quasi coruscationibus corda mortalium terrentes, unde: <pb ed="#P" n="0503B"/> <quote xml:id="gom-deut33-Qd1e1292" source="http://scta.info/resource/IItim4_7@1-5">Bonum certamen certavi, cursum consummavi</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1297">
+          <head xml:id="gom-deut33-Hd1e1299">Versus 27</head>
+          <p xml:id="gom-deut33-d1e1301">
+            <quote xml:id="gom-deut33-Qd1e1303" type="lemma" source="http://scta.info/resource/deut33_27@1-3">Habitaculum ejus sursum,</quote>
+            etc. Corpus a mortuis suscitatum in Patris dextera collocatum, de quo dicitur: Solvite templum hoc <!--<note>(Joan. II)</note>-->.
+          </p>
+          <p xml:id="gom-deut33-d1e1309">
+            <quote xml:id="gom-deut33-Qd1e1311" type="lemma" source="http://scta.info/resource/deut33_27@6-6">Brachia.</quote>
+            Virtus scilicet passionis, quae omnes defendit, quam in cruce extensis brachiis accepit.
+          </p>
+          <p xml:id="gom-deut33-d1e1315">
+            <quote xml:id="gom-deut33-Qd1e1317" type="lemma" source="http://scta.info/resource/deut33_27@5-6">Subter brachia.</quote>
+            Scilicet haec brachia contra verum Amalec dimicantes defendunt: nec sicut Moysi lassitudine gravantur, sed indefessa virtute sublevant, donec veram consequantur victoriam. Veneremur ergo in supernis primitias nostrae resurrectionis, in infimis sacramentum nostrae redemptionis, ut et ipsi, debellato adversario, immortalitatis gloriam consequamur, de quo vero Israeli promittitur: <quote xml:id="gom-deut33-Qd1e1320" source="http://scta.info/resource/deut33_27@8-12">Ejiciet a <pb ed="#P" n="0503C"/> facie tua inimicum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1327">
+          <head xml:id="gom-deut33-Hd1e1329">Versus 28</head>
+          <p xml:id="gom-deut33-d1e1331">
+            <quote xml:id="gom-deut33-Qd1e1333" type="lemma" source="http://scta.info/resource/deut33_28@4-5">Et solus.</quote>
+            Suo scilicet more et suis legibus vivens, unde Balaam: <quote xml:id="gom-deut33-Qd1e1336" source="http://scta.info/resource/num23_9@11-18">Populus solus habitabit et inter gentes non reputabitur</quote>.
+          </p>
+          <p xml:id="gom-deut33-d1e1340">
+            <quote xml:id="gom-deut33-Qd1e1342" type="lemma" source="http://scta.info/resource/deut33_28@6-7">Oculus Jacob.</quote>
+            Qui hic vitiis supplantandis desudabat, ibi se levissimo mentis intuitu gloriam Christi, qui propter nos terram verae carnis accepit, indesinenter contemplabitur: ut cujus hic corpore et sanguine per sacramentum frumenti et vini pascebatur, ibi divinitatis ejus perpetua visione saginetur, unde: <quote xml:id="gom-deut33-Qd1e1345" source="http://scta.info/resource/ps16_15@9-13">Satiabor cum apparuerit gloria tua</quote>. Et alibi: <quote xml:id="gom-deut33-Qd1e1348" source="http://scta.info/resource/io14_21@26-29">Manifestabo ei meipsum</quote>. Tunc Jacob in perfectum Israel conversus, facie ad faciem Deum videbit, tam larga, tam subtili, tam delectabili Dei cognitione, quasi <pb ed="#P" n="0503D"/> levissimo rore repletus, ut praedicatorum scientia qua in praesenti instruimur caligare videatur; unde: <quote xml:id="gom-deut33-Qd1e1353" source="http://scta.info/resource/Icor13_8@10-12">Sive scientia destruetur</quote>. Et alibi: <quote xml:id="gom-deut33-Qd1e1357" source="http://scta.info/resource/ps17_13@1-5">Tenebrosa aqua in nubibus aeris, prae fulgorem in conspectu ejus</quote>, ad quam cum perventum fuerit, omnis haec doctrina cessabit, <quote xml:id="gom-deut33-Qd1e1360" source="http://scta.info/resource/io6_45@5-9">et erunt omnes docibiles Dei</quote>; unde merito adjungit: <quote xml:id="gom-deut33-Qd1e1363" source="http://scta.info/resource/deut33_29@1-3">Beatus es, Israel,</quote> etc
+          </p>
+          <p xml:id="gom-deut33-d1e1367">
+            <quote xml:id="gom-deut33-Qd1e1369" type="lemma" source="http://scta.info/resource/deut33_28@13-14">Caelique caligabunt,</quote>
+            quasi tam abundanter terrae fecundandae ros infundetur, ut hominum tenebrescat obtuitus. In quo significatur, quia Judaei cum terrenam opulentiam ultra modum diligerent, caligaverunt, et Christum cognoscere non potuerunt; unde: <quote xml:id="gom-deut33-Qd1e1372" source="http://scta.info/resource/io11_48@1-8">Si dimittimus eum sic, omnes credent in eum,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-deut33-Dd1e1378">
+          <head xml:id="gom-deut33-Hd1e1380">Versus 29</head>
+          <p xml:id="gom-deut33-d1e1382">
+            <pb ed="#P" n="0504A"/>
+            <quote xml:id="gom-deut33-Qd1e1386" type="lemma" source="http://scta.info/resource/deut33_29@4-7">Quis similis tui, popule?</quote>
+            Quasi, ideo beatus, ideo tibi similis nullus, quia non de tua virtute, sed de Christi gratia salutem speras, qui salvum facit populum suum a peccatis eorum.
+          </p>
+          <p xml:id="gom-deut33-d1e1390">
+            <quote xml:id="gom-deut33-Qd1e1392" type="lemma" source="http://scta.info/resource/deut33_29@15-17">Et gladius gloriae.</quote>
+            In futuro adversarios irrevocabili severitate percutiens, quando sanguinem servorum ulciscetur. Gladius modo hic in humilitate patientium occultatur, in gloria resurgentium revelabitur, ideo <quote xml:id="gom-deut33-Qd1e1395" source="http://scta.info/resource/deut33_29@16-17">gladius gloriae</quote> Israel dicitur. Christus ergo quasi scutum protegit praeliantem, et quasi gladius gloriae ulciscetur triumphantem. Ad eum quasi ad caput, in fine vaticinii refertur gloria corporis, cum dicitur:
+          </p>
+          <p xml:id="gom-deut33-d1e1399">
+            <quote xml:id="gom-deut33-Qd1e1401" type="lemma" source="http://scta.info/resource/deut33_29@19-19">Negabunt.</quote>
+            Abominabuntur et odient, sicut Balac, qui rogavit Balaam, ut Israelitas maledicendo repelleret.
+          </p>
+          <p xml:id="gom-deut33-d1e1405">
+            <pb ed="#P" n="0504B"/>
+            <quote xml:id="gom-deut33-Qd1e1409" type="lemma" source="http://scta.info/resource/deut33_29@27-27">Calcabis.</quote>
+            Subjiciendo eos Ecclesiae, quam abominantur et persequuntur.
+          </p>
+          <p xml:id="gom-deut33-d1e1414">
+            <ref xml:id="gom-deut33-Rd1e1416" type="lemma" subtype="implied" target="http://scta.info/resource/deut33_29@27-27"/>
+            Notandum undecim tantum esse benedictiones. Simeon namque in his benedictionibus non reperitur, in quo Judas ab apostolis excluditur, undecim tantum remanentibus. Inde quoque undecim mansionibus filii Israel de Horeb pervenerunt ad locum in quo Deuteronomium acceperunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

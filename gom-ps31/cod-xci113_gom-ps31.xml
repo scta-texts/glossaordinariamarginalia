@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 31</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 31</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0886D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps31">
+        <head xml:id="gom-ps31-Hd1e98">Psalmus 31</head>
+        <p xml:id="gom-ps31-d1e100">
+          <quote xml:id="gom-ps31-Qd1e102" type="lemma">Intellectus David.</quote>
+          <!-- check: lemma not matched to verse text -->
+          <ref xml:id="gom-ps31-Rd1e107"><name xml:id="gom-ps31-Nd1e108" ref="#Augustine">AUG.</name></ref>
+          <quote xml:id="gom-ps31-Qd1e111">Psalmus de gratia qua Christiani sumus, ut ait Apostolus <!--<note>(Rom. IV)</note>-->. Incipit ergo per indulgentiam hic psalmus contra vitium hominum agens, qui peccata nesciunt vel defendunt, et merita jactant.</quote>
+        </p>
+        <p xml:id="gom-ps31-d1e117">
+          <ref xml:id="gom-ps31-Rd1e119"><name xml:id="gom-ps31-Nd1e120" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-ps31-Qd1e123"><seg type="qs">Contra vitium ergo hominum <pb ed="#P" n="0887A"/> hic psalmus opponitur</seg>, etc., usque ad <seg type="qs">in quo stantes confirmat.</seg></quote>
+        </p>
+        <div xml:id="gom-ps31-Dd1e133">
+          <head xml:id="gom-ps31-Hd1e135">Versus 1</head>
+          <p xml:id="gom-ps31-d1e137">
+            <quote xml:id="gom-ps31-Qd1e139" type="lemma" source="http://scta.info/resource/ps31_1@4-7">Beati quorum remissae sunt,</quote>
+            etc.
+            <ref xml:id="gom-ps31-Rd1e142"><name xml:id="gom-ps31-Nd1e143" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e146">Non in quibus non invenit peccatum, sed quibus remitit.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e149">
+            <quote xml:id="gom-ps31-Qd1e151" type="lemma" source="http://scta.info/resource/ps31_1@8-8">Iniquitates.</quote>
+            <quote xml:id="gom-ps31-Qd1e154"><seg type="qs">Dicit fomitem peccati, scilicet concupiscibilitatem</seg>, etc., usque ad <seg type="qs">sed ut peccatum ultra non sit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps31-d1e162">
+            <ref xml:id="gom-ps31-Rd1e164" type="lemma" subtype="implied" target="http://scta.info/resource/ps31_1@8-8"/>
+            <ref xml:id="gom-ps31-Rd1e166"><name xml:id="gom-ps31-Nd1e167" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e170">Iniquitates, ante fidem et baptismum: peccatum, post fidem et baptismum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e174">
+          <head xml:id="gom-ps31-Hd1e176">Versus 2</head>
+          <p xml:id="gom-ps31-d1e178">
+            <quote xml:id="gom-ps31-Qd1e180" type="lemma" source="http://scta.info/resource/ps31_2@1-2">Beatus vir.</quote>
+            <ref xml:id="gom-ps31-Rd1e183"><name xml:id="gom-ps31-Nd1e184" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e187">Cui remittit Deus, non enim per se. Tegit, ne in judicio reveletur; et sic non imputabitur ad poenam. Non est dolus qui se accusat: corde tenet quod ore fatetur hic.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e190">
+            <quote xml:id="gom-ps31-Qd1e192" type="lemma" source="http://scta.info/resource/ps31_2@1-1">Beatus:</quote>
+            quia olim non confitens Deo, veni in peccatum, dum clamarem, si quid boni egi.
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e198">
+          <head xml:id="gom-ps31-Hd1e200">Versus 3</head>
+          <p xml:id="gom-ps31-d1e202">
+            <quote xml:id="gom-ps31-Qd1e204" type="lemma" source="http://scta.info/resource/ps31_3@2-2">Tacui.</quote>
+            <ref xml:id="gom-ps31-Rd1e207"><name xml:id="gom-ps31-Nd1e208" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e211">Qui non vult confiteri <pb ed="#P" n="0887B"/> peccata, laborat sine causa in defensione peccatorum: in quo cum et jactet merita, amplius deficit fortitudo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e218">
+          <head xml:id="gom-ps31-Hd1e220">Versus 2</head>
+          <p xml:id="gom-ps31-d1e222">
+            <ref xml:id="gom-ps31-Rd1e224"><name xml:id="gom-ps31-Nd1e225" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e228" type="lemma" source="http://scta.info/resource/ps31_2@1-5">Beatus cui non imputavit.</quote>
+            <quote xml:id="gom-ps31-Qd1e231">Aliis, qui gravia habent, Deus imputat; aliis per misericordiam non imputat, etsi habent aliqua, his scilicet qui non justos se praedicant, cum sint mali, sed se agnoscentes satisfaciunt, modo hoc profiteor, sed olim: <quote xml:id="gom-ps31-Qd1e233" source="http://scta.info/resource/ps31_3@1-2">Quoniam tacui,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e238">
+            <ref xml:id="gom-ps31-Rd1e240" type="lemma" subtype="implied" target="http://scta.info/resource/ps31_2@1-5"/>
+            <ref xml:id="gom-ps31-Rd1e242"><name xml:id="gom-ps31-Nd1e243" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e246">Vel, <quote xml:id="gom-ps31-Qd1e248" source="http://scta.info/resource/ps31_3@2-2">tacui,</quote> voce peccatum, <quote xml:id="gom-ps31-Qd1e251" source="http://scta.info/resource/ps31_3@6-9">dum clamarem tota die:</quote> dum poena peccati, vel interior excaecatio ostenderet me peccatorem, vel dum prava vita me tacente clamaret, si quid boni egi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e257">
+          <head xml:id="gom-ps31-Hd1e259">Versus 3</head>
+          <p xml:id="gom-ps31-d1e261">
+            <quote xml:id="gom-ps31-Qd1e263" type="lemma" source="http://scta.info/resource/ps31_3@6-9">Dum clamarem tota die,</quote>
+            etc. Etsi non sit sibi conscius quis, non tamen justus: quia delicta quis intelligit? Unde: <quote xml:id="gom-ps31-Qd1e266" source="http://scta.info/resource/qoh7_16@8-12">Est justus qui perit in justitia sua.</quote> Et Apostolus: <quote xml:id="gom-ps31-Qd1e269" source="http://scta.info/resource/Icor4_4@1-5">Nihil mihi conscius sum,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e274">
+          <head xml:id="gom-ps31-Hd1e276">Versus 4</head>
+          <p xml:id="gom-ps31-d1e278">
+            <pb ed="#P" n="0887C"/>
+            <quote xml:id="gom-ps31-Qd1e282" type="lemma" source="http://scta.info/resource/ps31_4@17-18">Configitur spina.</quote>
+            <ref xml:id="gom-ps31-Rd1e285"><name xml:id="gom-ps31-Nd1e286" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e289"><quote xml:id="gom-ps31-Qd1e290" source="http://scta.info/resource/ps31_4@18-18">Spina,</quote> quae totum corpus erigit, id est, superbia.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e295">
+            <ref xml:id="gom-ps31-Rd1e297" type="lemma" subtype="implied" target="http://scta.info/resource/ps31_4@17-18"/>
+            <ref xml:id="gom-ps31-Rd1e299"><name xml:id="gom-ps31-Nd1e300" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e303"><seg type="qs">Item <quote xml:id="gom-ps31-Qd1e306" source="http://scta.info/resource/ps31_4@14-14">aerumna,</quote></seg> etc., usque ad: <seg type="qs"><quote xml:id="gom-ps31-Qd1e310">in manibus temulenti.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e314">
+          <head xml:id="gom-ps31-Hd1e316">Versus 5</head>
+          <p xml:id="gom-ps31-d1e318">
+            <quote xml:id="gom-ps31-Qd1e320" type="lemma" source="http://scta.info/resource/ps31_5@1-2">Delictum meum.</quote>
+            Diapsalma. Confessio, unde venia, sicut supra de rectione inveteratio.
+          </p>
+          <p xml:id="gom-ps31-d1e324">
+            <quote xml:id="gom-ps31-Qd1e326" type="lemma" source="http://scta.info/resource/ps31_5">Feci cognitum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps31-Rd1e331"><name xml:id="gom-ps31-Nd1e332" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e335"><seg type="qs"><quote xml:id="gom-ps31-Qd1e337" source="http://scta.info/resource/ps31_5@11-11">Dixi</quote> enim prius</seg>, etc., usque ad <seg type="qs">et Deus audit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e346">
+          <head xml:id="gom-ps31-Hd1e348">Versus 6</head>
+          <p xml:id="gom-ps31-d1e350">
+            <quote xml:id="gom-ps31-Qd1e352" type="lemma" source="http://scta.info/resource/ps31_6@1-3">Pro hac orabit.</quote>
+            <ref xml:id="gom-ps31-Rd1e355"><name xml:id="gom-ps31-Nd1e356" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e359">Diapsalma. poenitudinem commendans, omnibus sanctis dicit communem; quam variae sectae respuunt, contra quas ad Deum refugit.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e362">
+            <ref xml:id="gom-ps31-Rd1e364"><name xml:id="gom-ps31-Nd1e365" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e368" type="lemma" source="http://scta.info/resource/ps31_6@1-2">Pro hac.</quote>
+            <quote xml:id="gom-ps31-Qd1e371">Inde orat omnis sanctus, quia dimisisti, aliter non esset sanctus.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e374">
+            <quote xml:id="gom-ps31-Qd1e376" type="lemma" source="http://scta.info/resource/ps31_6@8-8">Tempore,</quote>
+            etc. Tempus est gratiae, lex premens, convincens reos, coegit clamare, gratia sanat.
+          </p>
+          <p xml:id="gom-ps31-d1e380">
+            <quote xml:id="gom-ps31-Qd1e382" type="lemma" source="http://scta.info/resource/ps31_6@10-12">Verumtamen in diluvio,</quote>
+            etc.
+            <ref xml:id="gom-ps31-Rd1e385"><name xml:id="gom-ps31-Nd1e386" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e389"><seg type="qs">Licet sanctus oret, <pb ed="#P" n="0887D"/></seg> etc., usque ad <seg type="qs">sanctus orabit, dicens: <quote xml:id="gom-ps31-Qd1e396" source="http://scta.info/resource/ps31_7@1-4">Tu es refugium. Ad eum.</quote> Deum, mutat enim personam ut saepe. Non appropiant qui dicunt fatum facit peccare, vel fortuna, quae omnia regit, vel gens tenebrarum, quae Deo rebellat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e403">
+          <head xml:id="gom-ps31-Hd1e405">Versus 8</head>
+          <p xml:id="gom-ps31-d1e407">
+            <quote xml:id="gom-ps31-Qd1e409" type="lemma" source="http://scta.info/resource/ps31_8@1-3">Intellectum tibi dabo.</quote>
+            <ref xml:id="gom-ps31-Rd1e412"><name xml:id="gom-ps31-Nd1e413" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e416">Diapsalma. Respondetur poenitenti: <quote xml:id="gom-ps31-Qd1e418" source="http://scta.info/resource/ps31_8@1-3">Intellectum tibi dabo,</quote> etc. Ecce psalmus intelligentiae, ne putetur supplicans negligi, teste Deo.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e423">
+            <quote xml:id="gom-ps31-Qd1e425" type="lemma" source="http://scta.info/resource/ps31_8">Tu, erue.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps31-Rd1e430"><name xml:id="gom-ps31-Nd1e431" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e434">Qui promisisti, <quote xml:id="gom-ps31-Qd1e436" source="http://scta.info/resource/ps31_8@1-3">intellectum tibi dabo.</quote> Vel respondet Christus poenitenti: Laetus finis, dat Deus intellectum: unde alios adhortatur ad idem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e442">
+          <head xml:id="gom-ps31-Hd1e444">Versus 9</head>
+          <p xml:id="gom-ps31-d1e446">
+            <quote xml:id="gom-ps31-Qd1e448" type="lemma" source="http://scta.info/resource/ps31_9@1-6">Nolite fieri sicut equus et mulus,</quote>
+            etc.
+            <ref xml:id="gom-ps31-Rd1e451"><name xml:id="gom-ps31-Nd1e452" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e455">Accepto intellectu, convertit se iste poenitens <pb ed="#P" n="0888A"/> ad superbos peccata defendentes: ergo vos, quos invito, etc.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e461">
+            <quote xml:id="gom-ps31-Qd1e463" type="lemma" source="http://scta.info/resource/ps31_9@4-4">Equus,</quote>
+            gentilis indomitus;
+          </p>
+          <p xml:id="gom-ps31-d1e467">
+            <quote xml:id="gom-ps31-Qd1e469" type="lemma" source="http://scta.info/resource/ps31_9@6-6">mulus,</quote>
+            Judaeus piger ad credendum.
+          </p>
+          <p xml:id="gom-ps31-d1e473">
+            <ref xml:id="gom-ps31-Rd1e475"><name xml:id="gom-ps31-Nd1e476" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e479" type="lemma" source="http://scta.info/resource/ps31_9@4-4">Equus,</quote>
+            <quote xml:id="gom-ps31-Qd1e482">sine discretione sessorum;</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e486">
+            <quote xml:id="gom-ps31-Qd1e488" type="lemma" source="http://scta.info/resource/ps31_9@6-6">mulus,</quote>
+            <quote xml:id="gom-ps31-Qd1e491"><seg type="qs">quaelibet onera accipit</seg>, etc., usque ad <seg type="qs">id est, jactantiam de viribus suis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps31-d1e499">
+            <quote xml:id="gom-ps31-Qd1e501" type="lemma" source="http://scta.info/resource/ps31_9@15-15">Maxillas.</quote>
+            Vel, <quote xml:id="gom-ps31-Qd1e504" source="http://scta.info/resource/ps31_9@15-15">maxillas</quote> quibus mandunt, id est, parcius, da victualia, ut necessitate coacti redeant.
+          </p>
+          <p xml:id="gom-ps31-d1e508">
+            <ref xml:id="gom-ps31-Rd1e510" type="lemma" subtype="implied" target="http://scta.info/resource/ps31_9@15-15"/>
+            <ref xml:id="gom-ps31-Rd1e512"><name xml:id="gom-ps31-Nd1e513" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e516">Vel hic confringes, et in futuro erunt multa flagella. Vel: <quote xml:id="gom-ps31-Qd1e518" source="http://scta.info/resource/ps31_9@1-4">Nolite fieri sicut equus,</quote> quia multa flagella hic et in futuro.</quote>
+          </p>
+          <p xml:id="gom-ps31-d1e523">
+            <quote xml:id="gom-ps31-Qd1e525" type="lemma" source="http://scta.info/resource/ps31_9@18-22">Qui non approximant ad te.</quote>
+            <ref xml:id="gom-ps31-Rd1e528"><name xml:id="gom-ps31-Nd1e529" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e532">Sunt enim qui, si peccant carnis imbecillitate, a piis precibus non recedunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps31-Dd1e536">
+          <head xml:id="gom-ps31-Hd1e538">Versus 10</head>
+          <p xml:id="gom-ps31-d1e540">
+            <quote xml:id="gom-ps31-Qd1e542" type="lemma" source="http://scta.info/resource/ps31_10@1-3">Multa flagella peccatoris,</quote>
+            etc.
+            <ref xml:id="gom-ps31-Rd1e545"><name xml:id="gom-ps31-Nd1e546" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps31-Qd1e549">Post frenum adduntur flagella ad domandum, ne sit de illis impunitis quibus modo vaga datur licentia <pb ed="#P" n="0888B"/> viae suae: sic iste supra dixit se domitum.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

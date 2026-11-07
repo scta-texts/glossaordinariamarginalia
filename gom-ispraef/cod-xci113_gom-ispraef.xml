@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Praefatio in Isaiam</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Praefatio in Isaiam</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1231"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ispraef">
+        <head xml:id="gom-ispraef-Hd1e98">PRAEFATIO IN ISAIAM.</head>
+        <p xml:id="gom-ispraef-d1e100">
+          <pb ed="#P" n="1231"/>
+          <pb ed="#P" n="1231C"/>
+          <ref xml:id="gom-ispraef-Rd1e106"><name xml:id="gom-ispraef-Nd1e107" ref="#Jerome">HIERON.</name> in Isa.</ref>
+          <quote xml:id="gom-ispraef-Qd1e111">Isaias, vir nobilis et urbanae eloquentiae, nihil in eloquio rusticitatis habens, non tam propheta dicendus est quam evangelista: Ita enim liquide Christi et Ecclesiae mysteria prosequitur, ut de praeteritis putetur historiam texere. Prophetavit autem in Hierusalem et Juda, nondum decem tribubus captivatis: et de utroque regno nunc mixtim, nunc separatim, texuit oracula. Et cum interdum ad praesentem respicit historiam, et post Babylonicam captivitatem reditum populi significet in Judaeam, in advocationem tamen gentium et Christi adventum omnem intendit curam.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

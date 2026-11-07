@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0506D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios1">
+        <head xml:id="gom-ios1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-ios1-Dd1e100">
+          <head xml:id="gom-ios1-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ios1-d1e104">
+            <quote xml:id="gom-ios1-Qd1e106" type="lemma" source="http://scta.info/resource/ios1_2">Moses servus (ADAMANT., hom. 2 in <pb ed="#P" n="0507A"/> Josue.) Moses famulus meus mortuus est.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-ios1-Qd1e113"><seg type="qs">Adverte quomodo regnat Jesus</seg>, etc., usque ad <seg type="qs">spiritualis Moses est qui vivit in spiritu.</seg></quote>
+          </p>
+          <p xml:id="gom-ios1-d1e121">
+            <quote xml:id="gom-ios1-Qd1e123" type="lemma" source="http://scta.info/resource/ios1_2@6-8">Surge et transi,</quote>
+            etc. Nunc ergo exsurgens, transi Jordanem istum, etc. Vide quomodo minister fuerit Mosi Jesus Filius Dei. <quote xml:id="gom-ios1-Qd1e126" source="http://scta.info/resource/gal4_4@3-15">Cum venit plenitudo temporis, misit Deus Filium suum factum ex muliere, factum sub lege</quote>, quia factus sub lege Mosi, factus est minister Mosi. Et factus est Christi minister circumcisionis ad confirmandas promissiones Patrum.
+          </p>
+        </div>
+        <div xml:id="gom-ios1-Dd1e131">
+          <head xml:id="gom-ios1-Hd1e133">Versus 3</head>
+          <p xml:id="gom-ios1-d1e135">
+            <quote xml:id="gom-ios1-Qd1e137" type="lemma" source="http://scta.info/resource/ios1_3@1-2">Omnem locum,</quote>
+            etc.
+            <ref xml:id="gom-ios1-Rd1e140"><name xml:id="gom-ios1-Nd1e141" ref="#Origen">Orig.</name>, hom. 2 in Jos.</ref>
+            <quote xml:id="gom-ios1-Qd1e145"><seg type="qs">Littera legis humi posita est, et deorsum jacet</seg>, etc., usque ad <seg type="qs">ut non solum efficiaris haeres Dei, sed cohaeres Christi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios1-Dd1e154">
+          <head xml:id="gom-ios1-Hd1e156">Versus 4</head>
+          <p xml:id="gom-ios1-d1e158">
+            <quote xml:id="gom-ios1-Qd1e160" type="lemma" source="http://scta.info/resource/ios1_4@1-4">A deserto et Libano,</quote>
+            etc.
+            <ref xml:id="gom-ios1-Rd1e163"><name xml:id="gom-ios1-Nd1e164" ref="#Origen">ORIG.</name>, ibid.</ref>
+            <quote xml:id="gom-ios1-Qd1e168"><seg type="qs"><pb ed="#P" n="0507B"/> Eremum et Antilibanum. Non dixit <quote xml:id="gom-ios1-Qd1e172" source="http://scta.info/resource/ios1_4@4-4">Libanum,</quote> sed <quote xml:id="gom-ios1-Qd1e175">Antilibanum,</quote></seg> etc., usque ad <seg type="qs">Ecclesia ex gentibus congregata per Jesum Christum.</seg></quote>
+          </p>
+          <p xml:id="gom-ios1-d1e181">
+            <ref xml:id="gom-ios1-Rd1e183" type="lemma" subtype="implied" target="http://scta.info/resource/ios1_4@1-4"/>
+            <ref xml:id="gom-ios1-Rd1e185"><name xml:id="gom-ios1-Nd1e186" ref="#Augustine">AUG.</name>, quaest. 1 in Josue, tom. III.</ref>
+            <quote xml:id="gom-ios1-Qd1e190">Ex hoc testimonio et aliis probatur Moses defunctus, ut Dei famulus et Deo placens, quamvis in eo illa vindicta completa sit, ne terram promissionis intraret. Ex quo datur intelligi Deum etiam in bonis servis suis aliqua corporaliter vel temporaliter vindicare, et tamen eos inter vasa honesta et utilia habere.</quote>
+          </p>
+          <p xml:id="gom-ios1-d1e193">
+            <quote xml:id="gom-ios1-Qd1e195" type="lemma" source="http://scta.info/resource/ios1_4">Praecepitque Josue.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ios1-Rd1e200"><name xml:id="gom-ios1-Nd1e201" ref="#Augustine">AUG.</name>, quaest. 2.</ref>
+            <quote xml:id="gom-ios1-Qd1e205"><seg type="qs">Quaeritur quomodo hoc praecepit, postquam Dominus exhortatus est eum</seg>, etc., usque ad <seg type="qs">dispositio ejus Jethro suggerente divinitus mutatur.</seg></quote>
+          </p>
+          <p xml:id="gom-ios1-d1e213">
+            <quote xml:id="gom-ios1-Qd1e215" type="lemma" source="http://scta.info/resource/ios1_4">Rubenitis quoque.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ios1-Rd1e220"><name xml:id="gom-ios1-Nd1e221" ref="#Origen">ADAMAN.</name>, hom. 3 in Josue.</ref>
+            <quote xml:id="gom-ios1-Qd1e225"><seg type="qs">Consideremus <pb ed="#P" n="0507C"/> quam formam teneant duae et semis tribus</seg>, etc., usque ad <seg type="qs">qui terram fluentem lac et mel in amaritudine malitiae detinent.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

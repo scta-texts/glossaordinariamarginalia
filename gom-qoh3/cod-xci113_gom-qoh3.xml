@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiastes, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiastes, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1120B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-qoh3">
+        <head xml:id="gom-qoh3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-qoh3-Dd1e100">
+          <head xml:id="gom-qoh3-Hd1e102">Versus 1</head>
+          <p xml:id="gom-qoh3-d1e104">
+            <pb ed="#P" n="1120B"/>
+            <quote xml:id="gom-qoh3-Qd1e108" type="lemma" source="http://scta.info/resource/qoh3_1@1-3">Omnia tempus habent.</quote>
+            <ref xml:id="gom-qoh3-Rd1e111"><name xml:id="gom-qoh3-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e115"><seg type="qs">Incertum et fluctuantem statum conditionis humanae supra docuit</seg>, etc., usque ad <seg type="qs">nec loco nec tempore continentur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e124">
+          <head xml:id="gom-qoh3-Hd1e126">Versus 2</head>
+          <p xml:id="gom-qoh3-d1e128">
+            <quote xml:id="gom-qoh3-Qd1e130" type="lemma" source="http://scta.info/resource/qoh3_2@6-7">Tempus plantandi,</quote>
+            etc.
+            <ref xml:id="gom-qoh3-Rd1e133"><name xml:id="gom-qoh3-Nd1e134" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e137"><seg type="qs">Nulli dubium est</seg>, etc., usque ad <seg type="qs">quia perfecta charitas foras mittit timorem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e146">
+          <head xml:id="gom-qoh3-Hd1e148">Versus 3</head>
+          <p xml:id="gom-qoh3-d1e150">
+            <quote xml:id="gom-qoh3-Qd1e152" type="lemma" source="http://scta.info/resource/qoh3_3@6-7">Tempus destruendi,</quote>
+            etc. Non possumus aedificare bona, nisi prius destruxerimus mala, sicut Jeremiae dictum est a Deo, ut ante eradicaret et suffoderet et perderet, et postea aedificaret atque plantaret <!--<note>(Jerem. I)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e159">
+          <head xml:id="gom-qoh3-Hd1e161">Versus 4</head>
+          <p xml:id="gom-qoh3-d1e163">
+            <quote xml:id="gom-qoh3-Qd1e165" type="lemma" source="http://scta.info/resource/qoh3_4@6-7">Tempus plangendi,</quote>
+            etc. Plangendum est nunc ut in futuro saltemus, illam saltationem, <pb ed="#P" n="1120C"/> quam David ante arcam testamenti <!--<note>(II Reg. VI)</note>-->. Saulis filiae displicens, magis placuit Deo.
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e175">
+          <head xml:id="gom-qoh3-Hd1e177">Versus 5</head>
+          <p xml:id="gom-qoh3-d1e179">
+            <quote xml:id="gom-qoh3-Qd1e181" type="lemma" source="http://scta.info/resource/qoh3_5@1-3">Tempus spargendi lapides,</quote>
+            etc.
+            <ref xml:id="gom-qoh3-Rd1e184"><name xml:id="gom-qoh3-Nd1e185" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e188"><seg type="qs">Miror</seg>, etc., usque ad <seg type="qs">et ad poenitentiam vocat.</seg></quote>
+          </p>
+          <p xml:id="gom-qoh3-d1e196">
+            <quote xml:id="gom-qoh3-Qd1e198" type="lemma" source="http://scta.info/resource/qoh3_5@7-8">Tempus amplexandi.</quote>
+            Tempus amplexandi sapientiam, et contemplationi strictius inhaerendi; et tempus longe fieri a complexu, scilicet sapientiae, ut curae temporis, et his sine quibus vivere non possumus, serviamus.
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e203">
+          <head xml:id="gom-qoh3-Hd1e205">Versus 7</head>
+          <p xml:id="gom-qoh3-d1e207">
+            <quote xml:id="gom-qoh3-Qd1e209" type="lemma" source="http://scta.info/resource/qoh3_7@6-9">Tempus tacendi et tempus.</quote>
+            <ref xml:id="gom-qoh3-Rd1e212"><name xml:id="gom-qoh3-Nd1e213" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e216">Docemus in Ecclesiis quod nescimus. Omnes artes absque doctore non discimus, sola haec tam vilis et tam facilis, ut praeceptore non egeat. Nihil nobis videtur esse rectum, nisi quod discimus, ut post multum silentium de discipulis efficiamur magistri.</quote>
+          </p>
+          <p xml:id="gom-qoh3-d1e219">
+            <pb ed="#P" n="1120D"/>
+            <quote xml:id="gom-qoh3-Qd1e223" type="lemma" source="http://scta.info/resource/qoh3_7@9-10">Tempus loquendi.</quote>
+            Disciplina Pythagorae est per quinquennium tacere, et postea eruditos loqui.
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e228">
+          <head xml:id="gom-qoh3-Hd1e230">Versus 8</head>
+          <p xml:id="gom-qoh3-d1e232">
+            <quote xml:id="gom-qoh3-Qd1e234" type="lemma" source="http://scta.info/resource/qoh3_8@1-2">Tempus dilectionis.</quote>
+            Tempus amandi post Deum uxores, liberos, propinquos, et tempus odiendi eos, in martyrio. Vel, <quote xml:id="gom-qoh3-Qd1e237" source="http://scta.info/resource/Icor13_12@2-6">Quoniam nunc videmus per speculum in aenigmate</quote>, etc. Tempus erit diligendi praesentiam Dei, et tempus odiendi, quando, facie ad faciem cernentes, et in melius proficientes, incipiemus odisse et despicere quod amavimus.
+          </p>
+          <p xml:id="gom-qoh3-d1e241">
+            <quote xml:id="gom-qoh3-Qd1e243" type="lemma" source="http://scta.info/resource/qoh3_8@6-7">Tempus belli.</quote>
+            Modo, non agentibus poenitentiam; tempus pacis in futuro, quando omnis Israel salvus fiet;
+          </p>
+          <p xml:id="gom-qoh3-d1e247">
+            <quote xml:id="gom-qoh3-Qd1e249" type="lemma" source="http://scta.info/resource/qoh3_8@6-7">Tempus belli,</quote>
+            ne sis securus, accipe armaturam Dei.
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e254">
+          <head xml:id="gom-qoh3-Hd1e256">Versus 10</head>
+          <p xml:id="gom-qoh3-d1e258">
+            <pb ed="#P" n="1121A"/>
+            <quote xml:id="gom-qoh3-Qd1e262" type="lemma" source="http://scta.info/resource/qoh3_10@1-4">Vidi afflictionem quam dedit,</quote>
+            etc.
+            <ref xml:id="gom-qoh3-Rd1e265"><name xml:id="gom-qoh3-Nd1e266" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e269"><seg type="qs">Dicitur quod propterea Deus</seg>, etc., usque ad <seg type="qs">usque ad finem saeculi fecerit crescere, manere et mutari.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e278">
+          <head xml:id="gom-qoh3-Hd1e280">Versus 12</head>
+          <p xml:id="gom-qoh3-d1e282">
+            <quote xml:id="gom-qoh3-Qd1e284" type="lemma" source="http://scta.info/resource/qoh3_12@1-2">Et cognovi.</quote>
+            <ref xml:id="gom-qoh3-Rd1e287"><name xml:id="gom-qoh3-Nd1e288" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e291"><seg type="qs">Ideo colonus in mundo datus est homo</seg>, etc., usque ad <seg type="qs">hinc:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e300">
+          <head xml:id="gom-qoh3-Hd1e302">Versus 13</head>
+          <p xml:id="gom-qoh3-d1e304">
+            <quote xml:id="gom-qoh3-Qd1e306" type="lemma" source="http://scta.info/resource/qoh3_13@1-7">Omnis homo qui comedit et bibit,</quote>
+            etc., Multae enim nunc tribulationes justorum, in futuro autem non erit labor in Jacob.
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e312">
+          <head xml:id="gom-qoh3-Hd1e314">Versus 14</head>
+          <p xml:id="gom-qoh3-d1e316">
+            <quote xml:id="gom-qoh3-Qd1e318" type="lemma" source="http://scta.info/resource/qoh3_14@1-1">Didici,</quote>
+            etc.
+            <ref xml:id="gom-qoh3-Rd1e321"><name xml:id="gom-qoh3-Nd1e322" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e325">Nihil est in mundo novum, solis cursus, lunae vices, terrae et arborum siccitas, vel viror, cum mundo condita sunt; et haec idcirco Deus certa ratione temperavit, ut Dei Providentiam in his intelligamus, et timeamus a facie Dei. Vultus autem Domini super facientes mala.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e329">
+          <head xml:id="gom-qoh3-Hd1e331">Versus 16</head>
+          <p xml:id="gom-qoh3-d1e333">
+            <pb ed="#P" n="1121B"/>
+            <quote xml:id="gom-qoh3-Qd1e337" type="lemma" source="http://scta.info/resource/qoh3_16@1-3">Vidi sub sole.</quote>
+            <ref xml:id="gom-qoh3-Rd1e340"><name xml:id="gom-qoh3-Nd1e341" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e344">Cum in hoc mundo judicium et veritatem requirerem, etc., <quote xml:id="gom-qoh3-Qd1e346" source="http://scta.info/resource/sir39_26@11-16">usque ad, Omnia enim tempore suo requirentur.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e351">
+          <head xml:id="gom-qoh3-Hd1e353">Versus 17</head>
+          <p xml:id="gom-qoh3-d1e355">
+            <quote xml:id="gom-qoh3-Qd1e357" type="lemma" source="http://scta.info/resource/qoh3_17@2-5">Dixi in corde meo.</quote>
+            <ref xml:id="gom-qoh3-Rd1e360"><name xml:id="gom-qoh3-Nd1e361" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e364"><seg type="qs">Quasi</seg>, etc., usque ad <seg type="qs">et impleri terram pecoribus et armentis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e373">
+          <head xml:id="gom-qoh3-Hd1e375">Versus 21</head>
+          <p xml:id="gom-qoh3-d1e377">
+            <quote xml:id="gom-qoh3-Qd1e379" type="lemma" source="http://scta.info/resource/qoh3_21@1-2">Quis novit.</quote>
+            <ref xml:id="gom-qoh3-Rd1e382"><name xml:id="gom-qoh3-Nd1e383" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh3-Qd1e386"><seg type="qs">Non dicit</seg>, etc., usque ad <seg type="qs">et rei quasi dubiae certus assertor sit.</seg></quote>
+          </p>
+          <p xml:id="gom-qoh3-d1e394">
+            <quote xml:id="gom-qoh3-Qd1e396" type="lemma" source="http://scta.info/resource/qoh3_21@14-14">Deorsum.</quote>
+            Ad inferos. Fieri enim potest ut cito mutentur, et saepe qui docti videbantur, ad inferos ducuntur; et simplices rustici coronantur.
+          </p>
+        </div>
+        <div xml:id="gom-qoh3-Dd1e401">
+          <head xml:id="gom-qoh3-Hd1e403">Versus 22</head>
+          <p xml:id="gom-qoh3-d1e405">
+            <quote xml:id="gom-qoh3-Qd1e407" type="lemma" source="http://scta.info/resource/qoh3_22@1-2">Et deprehendi.</quote>
+            <quote xml:id="gom-qoh3-Qd1e410"><seg type="qs">Superiori errore turbatus</seg>, etc., usque ad <seg type="qs">quae in mundo futura sunt postea.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

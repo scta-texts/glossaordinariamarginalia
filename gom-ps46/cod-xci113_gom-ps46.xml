@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 46</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 46</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0912C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps46">
+        <head xml:id="gom-ps46-Hd1e98">Psalmus 46</head>
+        <div xml:id="gom-ps46-Dd1e100">
+          <head xml:id="gom-ps46-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ps46-d1e104">
+            <quote xml:id="gom-ps46-Qd1e106" type="lemma" source="http://scta.info/resource/ps46_2@1-2">Omnes gentes.</quote>
+            <ref xml:id="gom-ps46-Rd1e109"><name xml:id="gom-ps46-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e113">Quasi diceret: insultant, pueri, dicentes: <quote xml:id="gom-ps46-Qd1e115">Calve, calve,</quote> vos omnes gentes ad quas transivit gratia: <quote xml:id="gom-ps46-Qd1e117" source="http://scta.info/resource/ps46_2@3-3">Plaudite,</quote> etc. Gentes ad quas transivit gratia, et quos in priori psalmo ad fidem vocavit, invitat ad laudem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps46-Dd1e123">
+          <head xml:id="gom-ps46-Hd1e125">Versus 3</head>
+          <p xml:id="gom-ps46-d1e127">
+            <quote xml:id="gom-ps46-Qd1e129" type="lemma" source="http://scta.info/resource/ps46_3@3-3">Excelsus.</quote>
+            <ref xml:id="gom-ps46-Rd1e132"><name xml:id="gom-ps46-Nd1e133" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e136">Potens quod vult. <pb ed="#P" n="0912D"/></quote>
+          </p>
+          <p xml:id="gom-ps46-d1e141">
+            <quote xml:id="gom-ps46-Qd1e143" type="lemma" source="http://scta.info/resource/ps46_3@4-4">Terribilis.</quote>
+            <!--<note>(REMIG.)</note>--> Quia judicaturus in potestate.
+          </p>
+        </div>
+        <div xml:id="gom-ps46-Dd1e150">
+          <head xml:id="gom-ps46-Hd1e152">Versus 4</head>
+          <p xml:id="gom-ps46-d1e154">
+            <quote xml:id="gom-ps46-Qd1e156" type="lemma" source="http://scta.info/resource/ps46_4@1-3">Subjecit populos nobis.</quote>
+            <ref xml:id="gom-ps46-Rd1e159"><name xml:id="gom-ps46-Nd1e160" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e163">Hoc hominibus fidelibus convenit, quibus omnes extrinseci subjecti sunt, vel, sibi subjecit nobis associandos.</quote>
+          </p>
+          <p xml:id="gom-ps46-d1e166">
+            <quote xml:id="gom-ps46-Qd1e168" type="lemma" source="http://scta.info/resource/ps46_4@2-2">Populos,</quote>
+            Judaeos.
+          </p>
+          <p xml:id="gom-ps46-d1e172">
+            <quote xml:id="gom-ps46-Qd1e174" type="lemma" source="http://scta.info/resource/ps46_4@3-3">Nobis.</quote>
+            <ref xml:id="gom-ps46-Rd1e177"><name xml:id="gom-ps46-Nd1e178" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e181">Universali scilicet Ecclesiae; hoc dicere convenit omnibus fidelibus, quibus extrinseci subjecti sunt.</quote>
+          </p>
+          <p xml:id="gom-ps46-d1e184">
+            <quote xml:id="gom-ps46-Qd1e186" type="lemma" source="http://scta.info/resource/ps46_4@6-7">Sub pedibus.</quote>
+            <ref xml:id="gom-ps46-Rd1e189"><name xml:id="gom-ps46-Nd1e190" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e193">Per <quote xml:id="gom-ps46-Qd1e195">pedes,</quote> praedicatores accipe, quibus populi subjecti sunt.</quote>
+          </p>
+          <p xml:id="gom-ps46-d1e200">
+            <ref xml:id="gom-ps46-Rd1e202"><name xml:id="gom-ps46-Nd1e203" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e206" type="lemma" source="http://scta.info/resource/ps46_4@6-7">Sub pedibus.</quote>
+            <quote xml:id="gom-ps46-Qd1e209">Sic est exaltata Ecclesia, ut nondum credentes sub pedibus habeat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps46-Dd1e213">
+          <head xml:id="gom-ps46-Hd1e215">Versus 5</head>
+          <p xml:id="gom-ps46-d1e217">
+            <quote xml:id="gom-ps46-Qd1e219" type="lemma" source="http://scta.info/resource/ps46_5@1-2">Elegit nobis,</quote>
+            etc. Vel in persona Apostolorum, elegit nobis dare haereditatem suam, multorum populorum, ut colamus eam, gladio praedicationis corda eorum ferientes, et malitiam destruentes. <pb ed="#P" n="0913A"/>
+          </p>
+          <p xml:id="gom-ps46-d1e225">
+            <quote xml:id="gom-ps46-Qd1e227" type="lemma" source="http://scta.info/resource/ps46_5@3-3">Haereditatem.</quote>
+            <ref xml:id="gom-ps46-Rd1e230"><name xml:id="gom-ps46-Nd1e231" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e234">Coelestis haereditas, pulchritudo est Christiani populi, in qua speciosus erit fulgens ut sol, qui nunc est abjectus.</quote>
+          </p>
+          <p xml:id="gom-ps46-d1e237">
+            <quote xml:id="gom-ps46-Qd1e239" type="lemma" source="http://scta.info/resource/ps46_5@6-8">Speciem Jacob quam,</quote>
+            etc. Id est, similes Jacob vel signatos per Jacob, qui terrena dant pro coelestibus, ut Jacob fecit, quod fuit gratia Dei, quia <quote xml:id="gom-ps46-Qd1e242">eum dilexit, Esau reprobato.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps46-Dd1e247">
+          <head xml:id="gom-ps46-Hd1e249">Versus 6</head>
+          <p xml:id="gom-ps46-d1e251">
+            <quote xml:id="gom-ps46-Qd1e253" type="lemma" source="http://scta.info/resource/ps46_6@1-1">Ascendit.</quote>
+            <ref xml:id="gom-ps46-Rd1e256"><name xml:id="gom-ps46-Nd1e257" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e260">Diapsalma ascensio et regnum Dei describitur, unde instanter monet psallere.</quote>
+          </p>
+          <p xml:id="gom-ps46-d1e263">
+            <quote xml:id="gom-ps46-Qd1e265" type="lemma" source="http://scta.info/resource/ps46_6@3-4">In jubilo.</quote>
+            <ref xml:id="gom-ps46-Rd1e268"><name xml:id="gom-ps46-Nd1e269" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e272"><seg type="qs">Gaudium admirantium Apostolorum</seg>, etc., usque ad <seg type="qs">quod nec taceri potest, nec exprimi valet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps46-Dd1e281">
+          <head xml:id="gom-ps46-Hd1e283">Versus 7</head>
+          <p xml:id="gom-ps46-d1e285">
+            <quote xml:id="gom-ps46-Qd1e287" type="lemma" source="http://scta.info/resource/ps46_7@1-1">Psallite.</quote>
+            <ref xml:id="gom-ps46-Rd1e290"><name xml:id="gom-ps46-Nd1e291" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e294">Operibus laudate: valde est salutare quod tam crebro repetitur, quia Deus est qui creat, et rex creata gubernans.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps46-Dd1e298">
+          <head xml:id="gom-ps46-Hd1e300">Versus 8</head>
+          <p xml:id="gom-ps46-d1e302">
+            <quote xml:id="gom-ps46-Qd1e304" type="lemma" source="http://scta.info/resource/ps46_8@3-3">Omnis.</quote>
+            <ref xml:id="gom-ps46-Rd1e307"><name xml:id="gom-ps46-Nd1e308" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e311">Non ut Jupiter Cretae, <pb ed="#P" n="0913B"/> Mars Thraciae.</quote>
+          </p>
+          <p xml:id="gom-ps46-d1e317">
+            <quote xml:id="gom-ps46-Qd1e319" type="lemma" source="http://scta.info/resource/ps46_8@7-7">Sapienter.</quote>
+            Docet quomodo sit psallendum. Olim sine sensu psallebant, dum lapides colerent.
+          </p>
+          <p xml:id="gom-ps46-d1e323">
+            <ref xml:id="gom-ps46-Rd1e325" type="lemma" subtype="implied" target="http://scta.info/resource/ps46_8@7-7"/>
+            <ref xml:id="gom-ps46-Rd1e327"><name xml:id="gom-ps46-Nd1e328" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e331">Nemo sapienter facit quod non intelligit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps46-Dd1e335">
+          <head xml:id="gom-ps46-Hd1e337">Versus 9</head>
+          <p xml:id="gom-ps46-d1e339">
+            <quote xml:id="gom-ps46-Qd1e341" type="lemma" source="http://scta.info/resource/ps46_9@1-1">Regnabit.</quote>
+            <ref xml:id="gom-ps46-Rd1e344"><name xml:id="gom-ps46-Nd1e345" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e348">Modo impleta est haec prophetia: <quote xml:id="gom-ps46-Qd1e350" source="http://scta.info/resource/ps46_9@6-10">Deus sedet super sedem sanctam. Sedem sanctam.</quote></quote>
+          </p>
+          <p xml:id="gom-ps46-d1e354">
+            <ref xml:id="gom-ps46-Rd1e356" type="lemma" subtype="implied" target="http://scta.info/resource/ps46_9@1-1"/>
+            <ref xml:id="gom-ps46-Rd1e358"><name xml:id="gom-ps46-Nd1e359" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e362">Throni, Virtutes, et sancti.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps46-Dd1e366">
+          <head xml:id="gom-ps46-Hd1e368">Versus 10</head>
+          <p xml:id="gom-ps46-d1e370">
+            <quote xml:id="gom-ps46-Qd1e372" type="lemma" source="http://scta.info/resource/ps46_10@1-2">Principes populorum.</quote>
+            <ref xml:id="gom-ps46-Rd1e375"><name xml:id="gom-ps46-Nd1e376" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps46-Qd1e379">Primitivi omnium gentium convenerunt credendo in Christo, quia, expulsis Judaeis, gentes in filios Abrahae succedunt, habentes promissionem, quia Judaei superbierunt.</quote>
+          </p>
+          <p xml:id="gom-ps46-d1e382">
+            <ref xml:id="gom-ps46-Rd1e384" type="lemma" subtype="implied" target="http://scta.info/resource/ps46_10@1-2"/>
+            <ref xml:id="gom-ps46-Rd1e386"><name xml:id="gom-ps46-Nd1e387" ref="#Jerome">HIER.</name>, CASS.</ref>
+            <quote xml:id="gom-ps46-Qd1e391">Vel <mentioned>dii fortes</mentioned>, Apostoli scilicet, quos neque mors, neque vita separabit a charitate Christi.</quote>
+          </p>
+          <p xml:id="gom-ps46-d1e397">
+            <quote xml:id="gom-ps46-Qd1e399" type="lemma" source="http://scta.info/resource/ps46_10@13-13">Elevati,</quote>
+            miraculis et doctrina.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 136</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 136</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1056D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps136">
+        <head xml:id="gom-ps136-Hd1e98">Psalmus 136</head>
+        <div xml:id="gom-ps136-Dd1e100">
+          <head xml:id="gom-ps136-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps136-d1e104">
+            <quote xml:id="gom-ps136-Qd1e106" type="lemma" source="http://scta.info/resource/ps136_1@1-2">Psalmus David.</quote>
+            <ref xml:id="gom-ps136-Rd1e109"><name xml:id="gom-ps136-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e113"><seg type="qs">Tertius psalmus de lamentatione Jerusalem</seg>, etc, usque ad <seg type="qs">hic autem de captivitate facta a Nabuchodonosor.</seg></quote>
+          </p>
+          <p xml:id="gom-ps136-d1e121">
+            <ref xml:id="gom-ps136-Rd1e123" type="lemma" subtype="implied" target="http://scta.info/resource/ps136_1@1-2"/>
+            <ref xml:id="gom-ps136-Rd1e125"><name xml:id="gom-ps136-Nd1e126" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e129"><seg type="qs">Duae civitates sunt permistae corpore</seg>, etc., usque ad <seg type="qs">qui mente et desiderio sunt cives Jerusalem.</seg></quote>
+          </p>
+          <p xml:id="gom-ps136-d1e137">
+            <quote xml:id="gom-ps136-Qd1e139" type="lemma" source="http://scta.info/resource/ps136_1@4-5">Super flumina.</quote>
+            <ref xml:id="gom-ps136-Rd1e142"><name xml:id="gom-ps136-Nd1e143" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e146"><seg type="qs">Primo, captivandos <pb ed="#P" n="1057A"/> longe post</seg>, etc., usque ad <seg type="qs">incipit desiderio patriae, dicens: <quote xml:id="gom-ps136-Qd1e154" source="http://scta.info/resource/ps136_1@4-5">Super flumina,</quote> etc.</seg></quote>
+          </p>
+          <p xml:id="gom-ps136-d1e159">
+            <quote xml:id="gom-ps136-Qd1e161" type="lemma" source="http://scta.info/resource/ps136_1">Dum recordaremur,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps136-Rd1e166"><name xml:id="gom-ps136-Nd1e167" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e170"><seg type="qs">In hostili terra dulcis recordatio patriae</seg>, etc., usque ad <seg type="qs">utrumque de Babylonia est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps136-Dd1e179">
+          <head xml:id="gom-ps136-Hd1e181">Versus 2</head>
+          <p xml:id="gom-ps136-d1e183">
+            <quote xml:id="gom-ps136-Qd1e185" type="lemma" source="http://scta.info/resource/ps136_2@1-2">In salicibus.</quote>
+            <ref xml:id="gom-ps136-Rd1e188"><name xml:id="gom-ps136-Nd1e189" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e192"><seg type="qs">Quae rigantur fluminibus Babylonis</seg>, etc., usque ad <seg type="qs">sed differendo suspendimus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps136-d1e200">
+            <ref xml:id="gom-ps136-Rd1e202" type="lemma" subtype="implied" target="http://scta.info/resource/ps136_2@1-2"/>
+            <ref xml:id="gom-ps136-Rd1e204"><name xml:id="gom-ps136-Nd1e205" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e208">Vis doloris exaggeratur, quando delectatio, qua se solebant consolari, suspenditur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps136-Dd1e212">
+          <head xml:id="gom-ps136-Hd1e214">Versus 3</head>
+          <p xml:id="gom-ps136-d1e216">
+            <quote xml:id="gom-ps136-Qd1e218" type="lemma" source="http://scta.info/resource/ps136_3@1-4">Quia illic interrogaverunt nos.</quote>
+            <ref xml:id="gom-ps136-Rd1e221"><name xml:id="gom-ps136-Nd1e222" ref="#BasilOfCasarea">BASIL.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e225"><seg type="qs">Et hinc haud parum emolumenti coeperunt</seg>, etc., usque ad <seg type="qs">ut et cantica nostra audire voluerint.</seg></quote>
+          </p>
+          <p xml:id="gom-ps136-d1e233">
+            <quote xml:id="gom-ps136-Qd1e235" type="lemma" source="http://scta.info/resource/ps136_3@9-10">Verba cantionum.</quote>
+            <ref xml:id="gom-ps136-Rd1e238"><name xml:id="gom-ps136-Nd1e239" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e242">Vel, canticorum, ut quid prodest Christus? vel, quae est alia vita? Sed, hic qui pleni sunt malis, non debemus <pb ed="#P" n="1057B"/> percutere organum, ut sonet, sed suspendere.</quote>
+          </p>
+          <p xml:id="gom-ps136-d1e248">
+            <ref xml:id="gom-ps136-Rd1e250" type="lemma" subtype="implied" target="http://scta.info/resource/ps136_3@9-10"/>
+            <ref xml:id="gom-ps136-Rd1e252"><name xml:id="gom-ps136-Nd1e253" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e256"><seg type="qs">Diabolus astute quaerit ut irrideat</seg>, etc., usque ad <seg type="qs">et constrinxit se juramento, dicens: <quote xml:id="gom-ps136-Qd1e262" source="http://scta.info/resource/ps136_5@1-3">Si oblitus fuero,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps136-Dd1e268">
+          <head xml:id="gom-ps136-Hd1e270">Versus 4</head>
+          <p xml:id="gom-ps136-d1e272">
+            <quote xml:id="gom-ps136-Qd1e274" type="lemma" source="http://scta.info/resource/ps136_4@1-2">Quomodo cantabimus.</quote>
+            <ref xml:id="gom-ps136-Rd1e277"><name xml:id="gom-ps136-Nd1e278" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e281">Cavendum est, ne quis timens talibus displicere, affectet amicitias eorum, et incipiat delectari in Babylonia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps136-Dd1e286">
+          <head xml:id="gom-ps136-Hd1e288">Versus 5</head>
+          <p xml:id="gom-ps136-d1e290">
+            <quote xml:id="gom-ps136-Qd1e292" type="lemma" source="http://scta.info/resource/ps136_5@8-9">Dextera mea.</quote>
+            <ref xml:id="gom-ps136-Rd1e295"><name xml:id="gom-ps136-Nd1e296" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e299">Quidquid facis pro aeternis, dextera operatur; si et alio intenderis, sinistra se immiscuit; et in ea delectatus quasi in dextera perdis aeterna.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps136-Dd1e303">
+          <head xml:id="gom-ps136-Hd1e305">Versus 6</head>
+          <p xml:id="gom-ps136-d1e307">
+            <quote xml:id="gom-ps136-Qd1e309" type="lemma" source="http://scta.info/resource/ps136_6@1-1">Adhaereat.</quote>
+            <ref xml:id="gom-ps136-Rd1e312"><name xml:id="gom-ps136-Nd1e313" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e316">Mutus fiam in laudibus Dei, quod est consolatio fletus et miseriarum.</quote>
+          </p>
+          <p xml:id="gom-ps136-d1e319">
+            <quote xml:id="gom-ps136-Qd1e321" type="lemma" source="http://scta.info/resource/ps136_6@2-3">Lingua mea.</quote>
+            <ref xml:id="gom-ps136-Rd1e324"><name xml:id="gom-ps136-Nd1e325" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e328">Canticum Jerusalem, lingua nostra, canticum saeculi, lingua barbara. Mutus est <pb ed="#P" n="1057C"/> Deo, qui oblitus est Jerusalem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps136-Dd1e335">
+          <head xml:id="gom-ps136-Hd1e337">Versus 7</head>
+          <p xml:id="gom-ps136-d1e339">
+            <quote xml:id="gom-ps136-Qd1e341" type="lemma" source="http://scta.info/resource/ps136_7@1-2">Memor esto.</quote>
+            <ref xml:id="gom-ps136-Rd1e344"><name xml:id="gom-ps136-Nd1e345" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e348">Secunda pars, ubi contra hostes ad Deum fit conversio.</quote>
+          </p>
+          <p xml:id="gom-ps136-d1e351">
+            <quote xml:id="gom-ps136-Qd1e353" type="lemma" source="http://scta.info/resource/ps136_7@1-7">Memor esto, in die</quote>
+            sequestrationis, ut puniantur.
+          </p>
+          <p xml:id="gom-ps136-d1e357">
+            <quote xml:id="gom-ps136-Qd1e359" type="lemma" source="http://scta.info/resource/ps136_7@4-5">Filiorum Edom.</quote>
+            <ref xml:id="gom-ps136-Rd1e362"><name xml:id="gom-ps136-Nd1e363" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e366">Filii Edom, id est Ideumaei, impedimento fuerunt reaedificantibus Jerusalem; vel, in destructione conjuncti Babylonis, unde dicit, <quote xml:id="gom-ps136-Qd1e368" source="http://scta.info/resource/ps136_8@1-3">Filia Babylonis misera. Edom moraliter</quote> est carnalitas, quae ad illicitos motus nos seducit.</quote>
+          </p>
+          <p xml:id="gom-ps136-d1e373">
+            <quote xml:id="gom-ps136-Qd1e375" type="lemma" source="http://scta.info/resource/ps136_7@5-5">Edom.</quote>
+            <ref xml:id="gom-ps136-Rd1e378"><name xml:id="gom-ps136-Nd1e379" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e382">Esau omnes carnales; Jacob spirituales; major carnalis homo, minor spiritualis, quia prius quidem animale, postea quod spirituale. Omnes carnales inimici sunt spiritualibus, unde ait: <quote xml:id="gom-ps136-Qd1e384" source="http://scta.info/resource/ps136_7@1-2">Memor esto,</quote> libera nos ab illis.</quote>
+          </p>
+          <p xml:id="gom-ps136-d1e390">
+            <quote xml:id="gom-ps136-Qd1e392" type="lemma" source="http://scta.info/resource/ps136_7@13-13">Exinanite.</quote>
+            <ref xml:id="gom-ps136-Rd1e395"><name xml:id="gom-ps136-Nd1e396" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e399">A similitudine <pb ed="#P" n="1057D"/> cisternae, unde si aqua hauritur, ad fundamentum pervenitur. Sed quid prodest et vitam talibus tollere, quibus in fundamento (qui est Christus) vita aeterna est? dum putant nocere mali, coronas dant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps136-Dd1e406">
+          <head xml:id="gom-ps136-Hd1e408">Versus 8</head>
+          <p xml:id="gom-ps136-d1e410">
+            <quote xml:id="gom-ps136-Qd1e412" type="lemma" source="http://scta.info/resource/ps136_8@1-1">Filia.</quote>
+            <ref xml:id="gom-ps136-Rd1e415"><name xml:id="gom-ps136-Nd1e416" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e419">Per successionem facta est filia Babylonis civitas malorum, sicut Ecclesia; Jerusalem scilicet, civitas bonorum per successionem filia Sion.</quote>
+          </p>
+          <p xml:id="gom-ps136-d1e422">
+            <ref xml:id="gom-ps136-Rd1e424"><name xml:id="gom-ps136-Nd1e425" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e428" type="lemma" source="http://scta.info/resource/ps136_8@1-2">Filia Babylonis</quote>
+            <quote xml:id="gom-ps136-Qd1e431"><seg type="qs">moraliter. Caro est, quae confusionem</seg>, etc., usque ad <seg type="qs">allidunt ad petram Christum, ut confracti dispereant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps136-Dd1e440">
+          <head xml:id="gom-ps136-Hd1e442">Versus 9</head>
+          <p xml:id="gom-ps136-d1e444">
+            <quote xml:id="gom-ps136-Qd1e446" type="lemma" source="http://scta.info/resource/ps136_9@1-3">Beatus qui tenebit.</quote>
+            <ref xml:id="gom-ps136-Rd1e449"><name xml:id="gom-ps136-Nd1e450" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps136-Qd1e453">Quam retributionem? ut Babylonia natos in mundo, dum parvi sunt, parentum et saeculi suffocat erroribus: ita qui jam juvenes, data agnitione Dei, parvulos Babylonis <pb ed="#P" n="1058A"/> elidunt, id est nascentes cupiditates, antequam robur accipiant, sic facilius vincuntur, sed et majores ad petram occidendae sunt.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

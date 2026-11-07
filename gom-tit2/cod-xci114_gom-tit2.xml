@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Titum, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Titum, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0640A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-tit2">
+        <head xml:id="gom-tit2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-tit2-Dd1e100">
+          <head xml:id="gom-tit2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-tit2-d1e104">
+            <quote xml:id="gom-tit2-Qd1e106" type="lemma" source="http://scta.info/resource/tit2_1@1-7">Tu autem loquere quae decent sanam doctrinam.</quote>
+            Haec sunt quae ad bonos mores pertinent.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e111">
+          <head xml:id="gom-tit2-Hd1e113">Versus 2</head>
+          <p xml:id="gom-tit2-d1e115">
+            <quote xml:id="gom-tit2-Qd1e117" type="lemma" source="http://scta.info/resource/tit2_2@1-4">Senes ut sobrii sint.</quote>
+            <ref xml:id="gom-tit2-Rd1e120"><name xml:id="gom-tit2-Nd1e121" ref="#JohnChrysostom">CHRYS.</name></ref>
+            <quote xml:id="gom-tit2-Qd1e124">Habet senectus vitia quaedam propria, et morbos quibus juventus caret. Et ipsa quoque senectus morbus est, <pb ed="#P" n="0640B"/> inest illi tamen praeterea segnities quaedam ac tarditas, oblivio profunda, obtusio sensuum et iracundia. Sunt enim plurima quae in hujusmodi aetate vix fieri patiantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e131">
+          <head xml:id="gom-tit2-Hd1e133">Versus 3</head>
+          <p xml:id="gom-tit2-d1e135">
+            <quote xml:id="gom-tit2-Qd1e137" type="lemma" source="http://scta.info/resource/tit2_3@3-5">In habitu sancto.</quote>
+            Ut scilicet earum incessus, motus, vultus, sermo praeferant sanctitatem.
+          </p>
+          <p xml:id="gom-tit2-d1e141">
+            <quote xml:id="gom-tit2-Qd1e143" type="lemma" source="http://scta.info/resource/tit2_3@8-10">Non vino multo.</quote>
+            Solent enim esse quaedam, quae corporis frigescente luxuria, vino se pro libidine dederunt.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e148">
+          <head xml:id="gom-tit2-Hd1e150">Versus 4</head>
+          <p xml:id="gom-tit2-d1e152">
+            <quote xml:id="gom-tit2-Qd1e154" type="lemma" source="http://scta.info/resource/tit2_4@5-7">Ut viros suos.</quote>
+            Quos naturali affectu naturaliter diligunt, ament etiam pudica dilectione, ut scilicet cum pudore viris debitum potius reddant, quam exigant.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e160">
+          <head xml:id="gom-tit2-Hd1e162">Versus 5</head>
+          <p xml:id="gom-tit2-d1e164">
+            <quote xml:id="gom-tit2-Qd1e166" type="lemma" source="http://scta.info/resource/tit2_5@10-12">Ut non blasphemetur.</quote>
+            Hoc ad senes et ad omnia superiora potest referri, quasi dicat: Hortare senes, et anus, et adolescentulas, ut ita se habeant <pb ed="#P" n="0640C"/> ut dixi, quod ideo facere debent ut non blasphemetur, etc.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e173">
+          <head xml:id="gom-tit2-Hd1e175">Versus 7</head>
+          <p xml:id="gom-tit2-d1e177">
+            <quote xml:id="gom-tit2-Qd1e179" type="lemma" source="http://scta.info/resource/tit2_7@1-2">In omnibus,</quote>
+            etc. Omnis enim qui male vivit in conspectu eorum quibus praepositus est, quantum in ipso est occidit eos; etiamsi illi vivunt, de misericordia Dei vivunt.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e184">
+          <head xml:id="gom-tit2-Hd1e186">Versus 10</head>
+          <p xml:id="gom-tit2-d1e188">
+            <quote xml:id="gom-tit2-Qd1e190" type="lemma" source="http://scta.info/resource/tit2_10@9-11">Ut doctrinam Salvatoris.</quote>
+            Hoc refertur ad omnia praedicta, scilicet ad senes, et anus, et servos, quasi dicat: Hortare omnes praedictos, ut ita se habeant sicut praescriptum est, ut ita ornent in actibus suis doctrinam Salvatoris, etc.
+          </p>
+          <p xml:id="gom-tit2-d1e194">
+            <quote xml:id="gom-tit2-Qd1e196" type="lemma" source="http://scta.info/resource/tit2_10@14-14">Ornent.</quote>
+            Ornamentum doctoris est honesta vita discipuli.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e201">
+          <head xml:id="gom-tit2-Hd1e203">Versus 11</head>
+          <p xml:id="gom-tit2-d1e205">
+            <quote xml:id="gom-tit2-Qd1e207" type="lemma" source="http://scta.info/resource/tit2_11@1-2">Apparuit enim.</quote>
+            Quasi dicat: Omnes monendi sunt, quia omnibus natus est Christus, nullum exclusit. Vel, <quote xml:id="gom-tit2-Qd1e210" source="http://scta.info/resource/tit2_11@3-3">Gratia,</quote> id est Christus qui est <pb ed="#P" n="0640D"/> gratia Dei. Vel, <quote xml:id="gom-tit2-Qd1e215" source="http://scta.info/resource/tit2_11@3-5">gratia Dei et Salvatoris,</quote> etc., id est Deus et Salvator noster, scilicet Dei Filius, etsi invisibilis sit in forma Dei, tamen per gratiam apparuit in forma servi.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e220">
+          <head xml:id="gom-tit2-Hd1e222">Versus 13</head>
+          <p xml:id="gom-tit2-d1e224">
+            <quote xml:id="gom-tit2-Qd1e226" type="lemma" source="http://scta.info/resource/tit2_13@4-8">Et adventum gloriae magni Dei,</quote>
+            etc. Qui non in infirmitate ut prius, sed in gloria et potestate veniet praemia daturus secundum merita, qui in primo adventu adeo humilis fuit, quod non solum erudivit, sed etiam dedit semetipsum.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e231">
+          <head xml:id="gom-tit2-Hd1e233">Versus 14</head>
+          <p xml:id="gom-tit2-d1e235">
+            <quote xml:id="gom-tit2-Qd1e237" type="lemma" source="http://scta.info/resource/tit2_14@18-20">Sectatorem bonorum operum,</quote>
+            etc. Quia ad hoc redemit nos Christus, ut puram vitam sectantes et repleti operibus bonis, Dei haeredes esse possimus.
+          </p>
+        </div>
+        <div xml:id="gom-tit2-Dd1e243">
+          <head xml:id="gom-tit2-Hd1e245">Versus 15</head>
+          <p xml:id="gom-tit2-d1e247">
+            <quote xml:id="gom-tit2-Qd1e249" type="lemma" source="http://scta.info/resource/tit2_15@6-8">Argue cum omni,</quote>
+            etc. Ut non aspere accipiatur, cum pro salute fieri scitur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

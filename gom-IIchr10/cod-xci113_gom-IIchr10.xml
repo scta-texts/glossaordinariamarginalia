@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0681B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr10">
+        <head xml:id="gom-IIchr10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-IIchr10-Dd1e100">
+          <head xml:id="gom-IIchr10-Hd1e102">Versus 8</head>
+          <p xml:id="gom-IIchr10-d1e104">
+            <pb ed="#P" n="0681B"/>
+            <quote xml:id="gom-IIchr10-Qd1e108" type="lemma" source="http://scta.info/resource/IIchr10_8@3-5">Reliquit consilium senum,</quote>
+            etc.
+            <ref xml:id="gom-IIchr10-Rd1e111"><name xml:id="gom-IIchr10-Nd1e112" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-IIchr10-Qd1e115">Hoc aiunt Hebraei esse Banaiam filium Joiadae et Jahihel filium Achamoni, qui et Chilla vocatur: quorum consilio relicto, tractare coepit Roboam cum juvenibus, id est, Aduram, qui in sequentibus lapidatus dicitur, et similibus. Juvenem autem non aetate, sed animo saepe dicimus. Non enim erat Roboam juvenis aetate, sed sensu: qui quadragesimo primo aetatis suae anno coepit regnare.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr10-Dd1e119">
+          <head xml:id="gom-IIchr10-Hd1e121">Versus 13</head>
+          <p xml:id="gom-IIchr10-d1e123">
+            <quote xml:id="gom-IIchr10-Qd1e125" type="lemma" source="http://scta.info/resource/IIchr10_13@1-2">Responditque rex,</quote>
+            etc. Hic significat malos rectores in Ecclesia, qui terrenis cupiditatibus dediti, curam subditorum negligunt, et gaudent in multitudine sibi obsequentium. Interpretatur vero Roboam latitudo populi. Hi sunt qui latam ingrediantur <pb ed="#P" n="0681C"/> viam quae ducit ad mortem, non angustam, quae ducit ad vitam; et relicto patrum consilio quorum dicta et facta ad altitudinem perfectionis tendunt, consilio juvenum obtemperare eligunt, qui laudibus et adulationibus eos gravant, qui caeci sunt et duces caecorum, etc., unde: <quote xml:id="gom-IIchr10-Qd1e130" source="http://scta.info/resource/qoh10_16@1-8">Vae tibi, terra cujus rex puer est,</quote> etc. <!--<note>(Eccl. X.)</note>-->
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0565D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam5">
+        <head xml:id="gom-IIsam5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-IIsam5-Dd1e100">
+          <head xml:id="gom-IIsam5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIsam5-d1e104">
+            <quote xml:id="gom-IIsam5-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam5_1@1-2">Et venerunt.</quote>
+            <ref xml:id="gom-IIsam5-Rd1e109"><name xml:id="gom-IIsam5-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam5-Qd1e113">Sic omnes gentes <pb ed="#P" n="0566A"/> conveniunt ad Christum, et quasi blandiendo dicunt: <quote xml:id="gom-IIsam5-Qd1e117" source="http://scta.info/resource/IIsam5_1@13-18">Os tuum et caro tua sumus:</quote> cum in illo incarnationem quam ex nostra natura in virginis utero suscepit, diligunt et venerantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e123">
+          <head xml:id="gom-IIsam5-Hd1e125">Versus 3</head>
+          <p xml:id="gom-IIsam5-d1e127">
+            <quote xml:id="gom-IIsam5-Qd1e129" type="lemma" source="http://scta.info/resource/IIsam5_3">Seniores.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-IIsam5-Rd1e134"><name xml:id="gom-IIsam5-Nd1e135" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam5-Qd1e138">Prophetae, apostoli pari fide et devotione ad Christum concurrunt.</quote>
+          </p>
+          <p xml:id="gom-IIsam5-d1e141">
+            <quote xml:id="gom-IIsam5-Qd1e143" type="lemma" source="http://scta.info/resource/IIsam5_3@22-22">Unxeruntque.</quote>
+            <ref xml:id="gom-IIsam5-Rd1e146"><name xml:id="gom-IIsam5-Nd1e147" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam5-Qd1e150">David bis unctus dicitur, et Christus prius in Judaeis, post in gentibus principatum sumpsit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e154">
+          <head xml:id="gom-IIsam5-Hd1e156">Versus 4</head>
+          <p xml:id="gom-IIsam5-d1e158">
+            <quote xml:id="gom-IIsam5-Qd1e160" type="lemma" source="http://scta.info/resource/IIsam5_4@9-10">Et quadraginta.</quote>
+            <ref xml:id="gom-IIsam5-Rd1e163"><name xml:id="gom-IIsam5-Nd1e164" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam5-Qd1e167"><seg type="qs">Quaeritur cur non in summa quadraginta anni et sex menses numerentur?</seg> etc., usque ad <seg type="qs">qui ex quaterdenis constat, temporum et rerum perfectionem significat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e176">
+          <head xml:id="gom-IIsam5-Hd1e178">Versus 5</head>
+          <p xml:id="gom-IIsam5-d1e180">
+            <quote xml:id="gom-IIsam5-Qd1e182" type="lemma" source="http://scta.info/resource/IIsam5_5@11-12">In Hierusalem.</quote>
+            Tradunt Hebraei quod Sem filius Noe, quem dicunt Melchisedech, condidit <pb ed="#P" n="0566B"/> Salem. Hanc postea tenuerunt Jebusaei, e quibus sortita est nomen Jebus. Inde Hierusalem, quasi Jebus Salem, post a Salomone Jerosolyma, quasi Jerosalomonia dicta est, quae postea ab Aelio Adriano vocata est Aelia.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e190">
+          <head xml:id="gom-IIsam5-Hd1e192">Versus 6</head>
+          <p xml:id="gom-IIsam5-d1e194">
+            <quote xml:id="gom-IIsam5-Qd1e196" type="lemma" source="http://scta.info/resource/IIsam5_6@28-30">Caecos et claudos.</quote>
+            Qui sufficiunt contra te. Hoc dicebant fidentes muris. Aut ita: non ingredieris nisi nos auferas, quos inermes sicut caecos et claudos arbitraris et triumphare putas.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e201">
+          <head xml:id="gom-IIsam5-Hd1e203">Versus 7</head>
+          <p xml:id="gom-IIsam5-d1e205">
+            <quote xml:id="gom-IIsam5-Qd1e207" type="lemma" source="http://scta.info/resource/IIsam5_7@1-2">Cepit autem.</quote>
+            <ref xml:id="gom-IIsam5-Rd1e210"><name xml:id="gom-IIsam5-Nd1e211" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam5-Qd1e214"><seg type="qs">Sicut Josephus ait</seg>, etc., usque ad <seg type="qs">quae merito arx Sion, id est speculationis vocatur, ut de ea recte dicatur: <quote xml:id="gom-IIsam5-Qd1e220" source="http://scta.info/resource/ps75_3@2-7">Factus est in pace locus ejus,</quote> etc. <!--<note>(Psal. LXXV)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-IIsam5-d1e227">
+            <ref xml:id="gom-IIsam5-Rd1e229" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam5_7@1-2"/>
+            David arcem Sion cepit, ablatis prius caecis et <pb ed="#P" n="0566C"/> claudis odientibus animam David. Sic Dominus primatum in Ecclesia gentium acquisivit, reprobatis ejus Scribis et Pharisaeis, qui caeci et claudi oderunt animam Christi, id est ejus vitam auferre conati sunt.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e235">
+          <head xml:id="gom-IIsam5-Hd1e237">Versus 8</head>
+          <p xml:id="gom-IIsam5-d1e239">
+            <quote xml:id="gom-IIsam5-Qd1e241" type="lemma" source="http://scta.info/resource/IIsam5_8@12-12">Domatum.</quote>
+            Id est rectorum. Fistulas appellat aquae ductus de plumbo vel regula factos per quos aqua ibat super murum per totam civitatem.
+          </p>
+          <p xml:id="gom-IIsam5-d1e245">
+            <quote xml:id="gom-IIsam5-Qd1e247" type="lemma" source="http://scta.info/resource/IIsam5_8@13-13">Fistulas.</quote>
+            Falsam scientiam seu haereticorum dogmata figurant, quae Dominus per Joab, id est, praedicatores destruit. Jebusaeus conculcans, haec est gentilitas, quae ante fidem praecepta Dei conculcabat. Item Jebusaeus calcatus, quia diabolus a Domino calcatur, et sub Joab calcandus subditur
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e252">
+          <head xml:id="gom-IIsam5-Hd1e254">Versus 9</head>
+          <p xml:id="gom-IIsam5-d1e256">
+            <quote xml:id="gom-IIsam5-Qd1e258" type="lemma" source="http://scta.info/resource/IIsam5_9@11-12">Et aedificavit.</quote>
+            A loco ita dicto, subaudi <pb ed="#P" n="0566D"/> murum: et intrinsecus subaudi alium murum, hoc est, munivit urbem duplici muro.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e265">
+          <head xml:id="gom-IIsam5-Hd1e267">Versus 11</head>
+          <p xml:id="gom-IIsam5-d1e269">
+            <quote xml:id="gom-IIsam5-Qd1e271" type="lemma" source="http://scta.info/resource/IIsam5_11@1-2">Misit quoque.</quote>
+            Hiram vivens excelse, haec est gentilitas in Christo excelsa; nuntios mittit ad David, id est doctores ad Christum, et per eos cedrina ligna, id est incorruptos et fortes; et artifices, id est, eos quorum arte mentes sunt incorruptae, et tanquam lapides quatuor virtutibus quadratae, sic domus David, id est Ecclesia Christi aedificatur, et cognoscitur quod Deus nostrum David confirmavit regem super Israel, id est, videntes Deum.
+          </p>
+          <p xml:id="gom-IIsam5-d1e275">
+            <ref xml:id="gom-IIsam5-Rd1e277" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam5_11@1-2"/>
+            <ref xml:id="gom-IIsam5-Rd1e279"><name xml:id="gom-IIsam5-Nd1e280" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam5-Qd1e283">Haereticorum ecclesias quae sub Christiani nominis titulo se manere gloriantur. Sed quia propter <pb ed="#P" n="0567A"/> lucra carnalia Christum sequuntur, non conjuges, sed concubinae vocantur. Nunc vero si reges plures uxores, vel concubinas habent, peccatum est: quia figurae transierunt, pro quibus hoc aliquando veniale fuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e290">
+          <head xml:id="gom-IIsam5-Hd1e292">Versus 13</head>
+          <p xml:id="gom-IIsam5-d1e294">
+            <quote xml:id="gom-IIsam5-Qd1e296" type="lemma" source="http://scta.info/resource/IIsam5_13@13-14">Natique sunt.</quote>
+            Si per David significatur Christus, non immerito per filios ejus intelliguntur Christiani, qui sunt ex Judaeis et nationibus, quibus congruunt interpretationes neminum: Samua, audacia; Sobab, convertens; Jabahar, elegit; Elisua, Dei mei salus; Nepheg, applicans ori; Japhia, illuminat vel ostendit; Elisama, Deus meus audiens; Elioda, Deus meus scit; Eliphalet, Deus meus salvans.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e302">
+          <head xml:id="gom-IIsam5-Hd1e304">Versus 20</head>
+          <p xml:id="gom-IIsam5-d1e306">
+            <quote xml:id="gom-IIsam5-Qd1e308" type="lemma" source="http://scta.info/resource/IIsam5_20">Baal Pharasim.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Interpretatur <mentioned>inimicorum <pb ed="#P" n="0567B"/> divisio</mentioned>. Potest dici sic locus vocatus, quia Philisthiim reliquerunt idola sua in loco ubi divisi sunt.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e320">
+          <head xml:id="gom-IIsam5-Hd1e322">Versus 23</head>
+          <p xml:id="gom-IIsam5-d1e324">
+            <quote xml:id="gom-IIsam5-Qd1e326" type="lemma" source="http://scta.info/resource/IIsam5_23@20-20">Pyrorum.</quote>
+            In Hebraeo <quote xml:id="gom-IIsam5-Qd1e329">flentium,</quote> id est, idolorum, ubi scilicet idola erant in quibus confidebant quae flentium vocantur, quia fletu digna sunt, et cultores suos ad fletum miseriamque perducunt.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam5-Dd1e333">
+          <head xml:id="gom-IIsam5-Hd1e335">Versus 24</head>
+          <p xml:id="gom-IIsam5-d1e337">
+            <quote xml:id="gom-IIsam5-Qd1e339" type="lemma" source="http://scta.info/resource/IIsam5_24@6-7">In cacumine.</quote>
+            <ref xml:id="gom-IIsam5-Rd1e342"><name xml:id="gom-IIsam5-Nd1e343" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam5-Qd1e346">Pyrus dicitur ex Greco <foreign xml:lang="greek">πῦρ</foreign> quod est ignis. Pyri sancti: cacumen, sublimitas vitae eorum; in qua flante Spiritu sancto intonuit praedicationis sonitus. Qui est gradientis, id est donum in carne advenientis, in cacumine pyrorum, id est super celsitudinem sanctorum, dum hic sonitus auditur a nostro David, Philisthaei intelligibiles <pb ed="#P" n="0567C"/> superantur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

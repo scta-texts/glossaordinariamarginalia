@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum II, Caput 17</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum II, Caput 17</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0621B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIreg17">
+        <head xml:id="gom-IIreg17-Hd1e98">Caput 17</head>
+        <div xml:id="gom-IIreg17-Dd1e100">
+          <head xml:id="gom-IIreg17-Hd1e102">Versus 27</head>
+          <p xml:id="gom-IIreg17-d1e104">
+            <quote xml:id="gom-IIreg17-Qd1e106" type="lemma" source="http://scta.info/resource/IIreg17_27@14-14">Adduxistis.</quote>
+            <ref xml:id="gom-IIreg17-Rd1e109"><name xml:id="gom-IIreg17-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg17-Qd1e113">Rex Assyrius, id est diabolus cum suo exercitu populum ecclesiasticum obsidendo et devastando quotidie afficit, cum eos propter peccata commissa de sedibus propriis evellens defert in terram alienam. Unde: <quote xml:id="gom-IIreg17-Qd1e115" source="http://scta.info/resource/ps136_1@4-13">Super flumina Babylonis illic sedimus, et flevimus dum recordaremur <pb ed="#P" n="0621C"/> Sion.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg17-Dd1e122">
+          <head xml:id="gom-IIreg17-Hd1e124">Versus 29</head>
+          <p xml:id="gom-IIreg17-d1e126">
+            <quote xml:id="gom-IIreg17-Qd1e128" type="lemma" source="http://scta.info/resource/IIreg17_29@1-2">Et unaquaeque.</quote>
+            <ref xml:id="gom-IIreg17-Rd1e131"><name xml:id="gom-IIreg17-Nd1e132" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg17-Qd1e135">In libro Locorum legitur, quod Benoth et Nergel fuerunt civitates quas construxerunt in Judaea qui de Babylonia transierant. Asima quoque oppidum aedificaverunt qui ad eam venerant de Emath. Nebahan et Tharthac civitates sunt quas Hevaei in Judaea condiderunt.</quote>
+          </p>
+          <p xml:id="gom-IIreg17-d1e138">
+            <ref xml:id="gom-IIreg17-Rd1e140" type="lemma" subtype="implied" target="http://scta.info/resource/IIreg17_29@1-2"/>
+            <ref xml:id="gom-IIreg17-Rd1e142"><name xml:id="gom-IIreg17-Nd1e143" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg17-Qd1e146">Videtur juxta consequentiam sermonis et idolorum, quibus hae gentes prius servierant, hic posse vocabula intelligi, quia cum dictum esset: <quote xml:id="gom-IIreg17-Qd1e148" source="http://scta.info/resource/IIreg17_29@1-7">Et unaquaeque gens fabricata est Deum suum,</quote> quasi ad expletionem sententiae subjunctum est: <quote xml:id="gom-IIreg17-Qd1e151" source="http://scta.info/resource/IIreg17_30@1-4">Viri enim Babylonici fecerunt Sochoth Benoth;</quote> id est tabernacula: Benoth, quod est nomen idoli. In sequentibus <pb ed="#P" n="0621D"/> ostenditur Adramalech et Anamelech idola fuisse urbis Sepharvaim, ita videtur consequens ut et Nergel Cuthenorum, Asima Emathaeorum, Nebahath et Tharthach idola fuerunt Hevaeorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg17-Dd1e159">
+          <head xml:id="gom-IIreg17-Hd1e161">Versus 33</head>
+          <p xml:id="gom-IIreg17-d1e163">
+            <quote xml:id="gom-IIreg17-Qd1e165" type="lemma" source="http://scta.info/resource/IIreg17_33@1-2">Et cum.</quote>
+            <ref xml:id="gom-IIreg17-Rd1e168"><name xml:id="gom-IIreg17-Nd1e169" ref="#RabanusMaurus">RAB.</name> ex Euch.</ref>
+            <quote xml:id="gom-IIreg17-Qd1e173"><seg type="qs">Habent haeretici quaedam sacramenta communia cum sancta Ecclesia</seg>, usque ad <seg type="qs">et nepotum intelligimus.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

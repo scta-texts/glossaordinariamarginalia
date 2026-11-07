@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 142</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 142</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1066A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps142">
+        <head xml:id="gom-ps142-Hd1e98">Psalmus 142</head>
+        <div xml:id="gom-ps142-Dd1e100">
+          <head xml:id="gom-ps142-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps142-d1e104">
+            <quote xml:id="gom-ps142-Qd1e106" type="lemma" source="http://scta.info/resource/ps142_1@1-2">Psalmus David.</quote>
+            Psalmus iste septimus poenitentialum, qui ideo sunt septem, ut eodem numero quo peccavimus, peccata diluamus.
+          </p>
+          <p xml:id="gom-ps142-d1e110">
+            <ref xml:id="gom-ps142-Rd1e112" type="lemma" subtype="implied" target="http://scta.info/resource/ps142_1@1-2"/>
+            <ref xml:id="gom-ps142-Rd1e114"><name xml:id="gom-ps142-Nd1e115" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e118">Sicut enim in hebdomada mundi hujus peccamus, ita hoc numero psalmorum remedium poenitentiae peccatis opponitur. In quibus psalmis talis est forma, quia a lacrymis incipitur, et in gaudio finis est, ne quis de venia desperet.</quote>
+          </p>
+          <p xml:id="gom-ps142-d1e121">
+            <ref xml:id="gom-ps142-Rd1e123" type="lemma" subtype="implied" target="http://scta.info/resource/ps142_1@1-2"/>
+            <ref xml:id="gom-ps142-Rd1e125"><name xml:id="gom-ps142-Nd1e126" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e129">Sicut Absalom David, sic Judas Christum, falsi fratres corpus ejus; vel illiciti motus et operatio.</quote>
+          </p>
+          <p xml:id="gom-ps142-d1e132">
+            <quote xml:id="gom-ps142-Qd1e134" type="lemma" source="http://scta.info/resource/ps142_1@9-10">Domine, exaudi,</quote>
+            etc.
+            <ref xml:id="gom-ps142-Rd1e137"><name xml:id="gom-ps142-Nd1e138" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e141">Primo <pb ed="#P" n="1066B"/> captat exordium; secundo narrat mala sua, et quid contra egerit, <ref xml:id="gom-ps142-Rd1e145">ibi, <seg type="incipit">quia persecutus est</seg>;</ref> tertio ponitur deprecatio causis confirmata, <ref xml:id="gom-ps142-Rd1e151">ibi, <seg type="incipit">velociter exaudi</seg>;</ref> quarto ponitur laeta conclusio, <ref xml:id="gom-ps142-Rd1e157">ibi, <seg type="incipit">spiritus tuus</seg>.</ref> Monet ad poenitentiam, et orationem, ad orandum. In persona totius Christi dicit: <quote xml:id="gom-ps142-Qd1e163">O Domine,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps142-d1e168">
+            <quote xml:id="gom-ps142-Qd1e170" type="lemma" source="http://scta.info/resource/ps142_1@18-20">In veritate tua.</quote>
+            <ref xml:id="gom-ps142-Rd1e173"><name xml:id="gom-ps142-Nd1e174" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e177">Non est hoc contra humilitatem, quae petebat audiri: sed veritas et justitia Dei est, ne cum rogante disceptet, ne eum qui se damnat judicet; unde subditur: <quote xml:id="gom-ps142-Qd1e179" source="http://scta.info/resource/ps142_2@1-3">et non intres,</quote> non petivit justitiam judicii.</quote>
+          </p>
+          <p xml:id="gom-ps142-d1e184">
+            <ref xml:id="gom-ps142-Rd1e186"><name xml:id="gom-ps142-Nd1e187" ref="#Augustine">AUG.</name>, CAS.</ref>
+            <quote xml:id="gom-ps142-Qd1e191" type="lemma" source="http://scta.info/resource/ps142_1@18-26">In veritate tua, in tua justitia.</quote>
+            <quote xml:id="gom-ps142-Qd1e194">Vel justitiam et veritatem dicit, quae parcit poenitentibus, et se damnantes absolvit, et accipit pro eodem <quote xml:id="gom-ps142-Qd1e196" source="http://scta.info/resource/ps44_5@11-15">veritatem et justitiam.</quote> Et est, <quote xml:id="gom-ps142-Qd1e199" source="http://scta.info/resource/ps142_1@18-26">in veritate tua, et tua justitia,</quote> id est secundum justitiam et <pb ed="#P" n="1066C"/> veritatem quam poenitentibus et se accusantibus indulges.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps142-Dd1e207">
+          <head xml:id="gom-ps142-Hd1e209">Versus 2</head>
+          <p xml:id="gom-ps142-d1e211">
+            <quote xml:id="gom-ps142-Qd1e213" type="lemma" source="http://scta.info/resource/ps142_2@1-5">Et non intres in judicium.</quote>
+            <ref xml:id="gom-ps142-Rd1e216"><name xml:id="gom-ps142-Nd1e217" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e220">Intrant in judicium cum Domino, qui suam justitiam constituunt, quod non iste humilis; unde propheta: <quote xml:id="gom-ps142-Qd1e222" source="http://scta.info/resource/ier2_29@1-10">Quid vultis mecum in judicio contendere? Omnes dereliquistis me, dicit Dominus. Cum servo tuo.</quote> Indignum est cum servo, ne dicam cum amico: et si tu dicis amicum, ego servum, fugitivus redeo, pacem quaero, <quote xml:id="gom-ps142-Qd1e225" source="http://scta.info/resource/lc15_19@3-8">non sum dignus vocari filius tuus.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps142-Dd1e230">
+          <head xml:id="gom-ps142-Hd1e232">Versus 3</head>
+          <p xml:id="gom-ps142-d1e234">
+            <quote xml:id="gom-ps142-Qd1e236" type="lemma" source="http://scta.info/resource/ps142_3@1-2">Quia persecutis.</quote>
+            <ref xml:id="gom-ps142-Rd1e239"><name xml:id="gom-ps142-Nd1e240" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e243">Secunda pars, ubi est narratio malorum quae patitur, et quid contra egerit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps142-Dd1e247">
+          <head xml:id="gom-ps142-Hd1e249">Versus 5</head>
+          <p xml:id="gom-ps142-d1e251">
+            <quote xml:id="gom-ps142-Qd1e253" type="lemma" source="http://scta.info/resource/ps142_5@1-2">Memor fui.</quote>
+            <ref xml:id="gom-ps142-Rd1e256"><name xml:id="gom-ps142-Nd1e257" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e260"><seg type="qs">Hoc dicunt membra</seg>, etc., usque ad <seg type="qs">sed non esse coepisti.</seg></quote>
+          </p>
+          <p xml:id="gom-ps142-d1e268">
+            <quote xml:id="gom-ps142-Qd1e270" type="lemma" source="http://scta.info/resource/ps142_5@6-7">Meditatus <pb ed="#P" n="1066D"/> sum.</quote>
+            Quia utique omnia bona sunt, in quo percipit, quia quidquid in se boni est, a Deo est.
+          </p>
+          <p xml:id="gom-ps142-d1e276">
+            <quote xml:id="gom-ps142-Qd1e278" type="lemma" source="http://scta.info/resource/ps142_5@13-15">In factis manuum.</quote>
+            Ac si dicat: Quaesivi in opere artificem, et in conditis omnibus conditorem: creatura tua facta est mihi spectaculum.
+          </p>
+          <p xml:id="gom-ps142-d1e282">
+            <quote xml:id="gom-ps142-Qd1e284" type="lemma" source="http://scta.info/resource/ps142_5@1-3">Memor fui dierum.</quote>
+            <ref xml:id="gom-ps142-Rd1e287"><name xml:id="gom-ps142-Nd1e288" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e291">Recolens iste quod fecit coelum et terram, et quod benefecit antiquis, obliviscitur miseriarum mundi. Et ex his quae Deus fecit se consolatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps142-Dd1e296">
+          <head xml:id="gom-ps142-Hd1e298">Versus 7</head>
+          <p xml:id="gom-ps142-d1e300">
+            <quote xml:id="gom-ps142-Qd1e302" type="lemma" source="http://scta.info/resource/ps142_7@1-1">Velociter.</quote>
+            <ref xml:id="gom-ps142-Rd1e305"><name xml:id="gom-ps142-Nd1e306" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e309">Tertia pars, ubi ponitur deprecatio causis confirmata.</quote>
+          </p>
+          <p xml:id="gom-ps142-d1e312">
+            <quote xml:id="gom-ps142-Qd1e314" type="lemma" source="http://scta.info/resource/ps142_7@6-7">Defecit spiritus.</quote>
+            <ref xml:id="gom-ps142-Rd1e317"><name xml:id="gom-ps142-Nd1e318" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e321">Impleat me tuus Spiritus, quia defecit meus: jam sum pauper spiritu. In quo enim vivit spiritus suus, ille superbus est spiritu suo, et extollitur <pb ed="#P" n="1067A"/> contra Deum. Unde alibi: <quote xml:id="gom-ps142-Qd1e325" source="http://scta.info/resource/ps103_29@7-11">Auferes spiritum eorum, et deficient</quote>.</quote>
+          </p>
+          <p xml:id="gom-ps142-d1e330">
+            <quote xml:id="gom-ps142-Qd1e332" type="lemma" source="http://scta.info/resource/ps142_7@19-20">In lacum.</quote>
+            Ille descendit in profundum, quia etiam perdit confessionem, ut qui proponit sibi licentiam peccandi sine spe veniae, habenis iniquitatis effusis. Talis non audit Deum dicentem: <quote xml:id="gom-ps142-Qd1e335" source="http://scta.info/resource/zac1_3@9-18">Convertimini ad me, et ego convertar ad vos</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-ps142-Dd1e340">
+          <head xml:id="gom-ps142-Hd1e342">Versus 8</head>
+          <p xml:id="gom-ps142-d1e344">
+            <quote xml:id="gom-ps142-Qd1e346" type="lemma" source="http://scta.info/resource/ps142_8@4-4">Mane.</quote>
+            <ref xml:id="gom-ps142-Rd1e349"><name xml:id="gom-ps142-Nd1e350" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e353">Post noctem peccatorum.</quote>
+          </p>
+          <p xml:id="gom-ps142-d1e356">
+            <ref xml:id="gom-ps142-Rd1e358" type="lemma" subtype="implied" target="http://scta.info/resource/ps142_8@4-4"/>
+            <ref xml:id="gom-ps142-Rd1e360"><name xml:id="gom-ps142-Nd1e361" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e364">Mane est, cum peccata laxantur.</quote>
+          </p>
+          <p xml:id="gom-ps142-d1e367">
+            <quote xml:id="gom-ps142-Qd1e369" type="lemma" source="http://scta.info/resource/ps142_8@11-14">Notam fac mihi viam.</quote>
+            <quote xml:id="gom-ps142-Qd1e372"><seg type="qs">Hoc fecit Deus</seg>, etc., usque ad <seg type="qs">perveniemus ad lumen purum, ad Verbum in principio apud Deum.</seg></quote>
+          </p>
+          <p xml:id="gom-ps142-d1e380">
+            <quote xml:id="gom-ps142-Qd1e382" type="lemma" source="http://scta.info/resource/ps142_8@22-22">Animam.</quote>
+            (CAS). Ut vas ad fontem attuli: imple ergo.
+          </p>
+        </div>
+        <div xml:id="gom-ps142-Dd1e387">
+          <head xml:id="gom-ps142-Hd1e389">Versus 10</head>
+          <p xml:id="gom-ps142-d1e391">
+            <quote xml:id="gom-ps142-Qd1e393" type="lemma" source="http://scta.info/resource/ps142_10@11-13">Spiritus tuus bonus.</quote>
+            <ref xml:id="gom-ps142-Rd1e396"><name xml:id="gom-ps142-Nd1e397" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps142-Qd1e400">Quarta pars, ubi est laeta conclusio.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps142-Dd1e404">
+          <head xml:id="gom-ps142-Hd1e406">Versus 11</head>
+          <p xml:id="gom-ps142-d1e408">
+            <quote xml:id="gom-ps142-Qd1e410" type="lemma" source="http://scta.info/resource/ps142_11@1-10">Propter nomen tuum, <pb ed="#P" n="1067B"/> Domine, vivificabis me in aequitate tua.</quote>
+            Gratia Dei hic commendatur: quia non ex meritis, sed ex nomine, quod est Jesus, se vivificatum dicit, sed cum hoc gratia aequitatis miseretur, quia licet Deus omnia gratis faciat, justitiae tamen ejus est supplices justificare, quos daemones videt impetere.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

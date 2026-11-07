@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Romanos, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Romanos, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0494C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom8">
+        <head xml:id="gom-rom8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-rom8-Dd1e100">
+          <head xml:id="gom-rom8-Hd1e102">Versus 1</head>
+          <p xml:id="gom-rom8-d1e104">
+            <pb ed="#P" n="0494C"/>
+            <quote xml:id="gom-rom8-Qd1e108" type="lemma" source="http://scta.info/resource/rom8_1@1-3">Nihil igitur nunc.</quote>
+            Etsi ante, non nunc: cum in Christo.
+          </p>
+          <p xml:id="gom-rom8-d1e112">
+            <quote xml:id="gom-rom8-Qd1e114" type="lemma" source="http://scta.info/resource/rom8_1@1-4">Nihil damnationis.</quote>
+            Quia per gratiam baptismatis et lavacrum regenerationis solutus est et ipse reatus, cum quo eras natus, et quidquid ante commisisti.
+          </p>
+          <p xml:id="gom-rom8-d1e118">
+            <ref xml:id="gom-rom8-Rd1e120" type="lemma" subtype="implied" target="http://scta.info/resource/rom8_1@1-4"/>
+            <ref xml:id="gom-rom8-Rd1e122"><name xml:id="gom-rom8-Nd1e123" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e126"><seg type="qs">Etsi habent desideria carnis quibus non consentiunt</seg>, etc., usque ad <seg type="qs">sed hoc bonum fecit regeneratio.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e135">
+          <head xml:id="gom-rom8-Hd1e137">Versus 2</head>
+          <p xml:id="gom-rom8-d1e139">
+            <quote xml:id="gom-rom8-Qd1e141" type="lemma" source="http://scta.info/resource/rom8_2@1-3">Lex enim spiritus.</quote>
+            Hic ostendit per quid gratia liberet, scilicet per Spiritum sanctum, quia <quote xml:id="gom-rom8-Qd1e144" source="http://scta.info/resource/rom8_2@1-3">lex spiritus.</quote> Est Spiritus sanctus qui docet quid sit agendum, et quid non qui est dator vitae, et hoc per Christum qui dat Spiritum: et quomodo in Christo exponit.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e149">
+          <head xml:id="gom-rom8-Hd1e151">Versus 3</head>
+          <p xml:id="gom-rom8-d1e153">
+            <quote xml:id="gom-rom8-Qd1e155" type="lemma" source="http://scta.info/resource/rom8_3@1-3">Nam quod impossibile.</quote>
+            Quomodo in <pb ed="#P" n="0494D"/> Christo facta sit liberatio, ostendit.
+          </p>
+          <p xml:id="gom-rom8-d1e161">
+            <quote xml:id="gom-rom8-Qd1e163" type="lemma" source="http://scta.info/resource/rom8_3@9-10">Per carnem.</quote>
+            Per carnalitatem, quae rebellabat, et audita lege amplius est incitata; sic infirmata est lex litterae per carnem, et ideo erat ei impossibile liberare a lege peccati et mortis.
+          </p>
+          <p xml:id="gom-rom8-d1e167">
+            <quote xml:id="gom-rom8-Qd1e169" type="lemma" source="http://scta.info/resource/rom8_3@12-14">Filium suum mittens.</quote>
+            <ref xml:id="gom-rom8-Rd1e172"><name xml:id="gom-rom8-Nd1e173" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e176"><seg type="qs">Non ubi non erat: qui ubique est</seg>, etc., usque ad <seg type="qs">quia visibilis mundo apparuit.</seg></quote>
+          </p>
+          <p xml:id="gom-rom8-d1e184">
+            <quote xml:id="gom-rom8-Qd1e186" type="lemma" source="http://scta.info/resource/rom8_3@15-16">In similitudinem,</quote>
+            etc. Non in carnem peccatricem; quia non eum mater concupiscentia sed gratia concepit. Non peccatrix ergo fuit, quia nec in libidinis concupiscentia concepta, nec peccati causam in se habuit, nec in ea peccavit. In poena ergo similis nostrae, non in qualitate peccati.
+          </p>
+          <p xml:id="gom-rom8-d1e191">
+            <pb ed="#P" n="0495A"/>
+            <quote xml:id="gom-rom8-Qd1e195" type="lemma" source="http://scta.info/resource/rom8_3@19-21">Et de peccato.</quote>
+            <ref xml:id="gom-rom8-Rd1e198"><name xml:id="gom-rom8-Nd1e199" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e202">Hoc est: Per hostiam carnis suae quam obtulit in ara crucis, damnavit peccatum, et ad nihilum redegit in carne sua.</quote>
+          </p>
+          <p xml:id="gom-rom8-d1e205">
+            <quote xml:id="gom-rom8-Qd1e207" type="lemma" source="http://scta.info/resource/rom8_3@22-22">Damnavit.</quote>
+            Id est destruxit diabolum, id est pro peccato quod facit in carne Christi. Vel peccatum, id est fomitem procedentem de peccato Adae damnavit, id est debilitavit.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e212">
+          <head xml:id="gom-rom8-Hd1e214">Versus 4</head>
+          <p xml:id="gom-rom8-d1e216">
+            <quote xml:id="gom-rom8-Qd1e218" type="lemma" source="http://scta.info/resource/rom8_4@1-2">Ut justificatio.</quote>
+            Ita damnatur peccatum per Christum ut justitia quam lex Moysi promisit consummaretur.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e224">
+          <head xml:id="gom-rom8-Hd1e226">Versus 5</head>
+          <p xml:id="gom-rom8-d1e228">
+            <quote xml:id="gom-rom8-Qd1e230" type="lemma" source="http://scta.info/resource/rom8_5@1-4">Qui enim secundum carnem.</quote>
+            Ambuans secundum carnem non est justus, quia nec qui est secundum eam. Cur non? quia carnalia pro summis bonis concupiscit, quod repugnat justitiae.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e235">
+          <head xml:id="gom-rom8-Hd1e237">Versus 6</head>
+          <p xml:id="gom-rom8-d1e239">
+            <quote xml:id="gom-rom8-Qd1e241" type="lemma" source="http://scta.info/resource/rom8_6@1-2">Nam prudentia.</quote>
+            Qui haec quae carnis <pb ed="#P" n="0495B"/> sunt sapit, non est justus; nam prudentia carnis mors est.
+          </p>
+          <p xml:id="gom-rom8-d1e247">
+            <quote xml:id="gom-rom8-Qd1e249" type="lemma" source="http://scta.info/resource/rom8_6@8-10">Vita et pax.</quote>
+            Vita quidem ad id relatum, <quote xml:id="gom-rom8-Qd1e252" source="http://scta.info/resource/rom8_6@3-4">affectus carnis mors;</quote> pax autem ad id quod sequitur: <quote xml:id="gom-rom8-Qd1e255" source="http://scta.info/resource/rom8_7@3-7">affectus carnis inimicitia est ad Deum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e260">
+          <head xml:id="gom-rom8-Hd1e262">Versus 7</head>
+          <p xml:id="gom-rom8-d1e264">
+            <quote xml:id="gom-rom8-Qd1e266" type="lemma" source="http://scta.info/resource/rom8_7@1-3">Quoniam sapientia carnis.</quote>
+            Haec enumerando deterret a carnis obedientia.
+          </p>
+          <p xml:id="gom-rom8-d1e270">
+            <quote xml:id="gom-rom8-Qd1e272" type="lemma" source="http://scta.info/resource/rom8_7@4-5">Inimica est.</quote>
+            Dum nil putat Deum posse, praeter quod in naturis rerum videtur.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e277">
+          <head xml:id="gom-rom8-Hd1e279">Versus 9</head>
+          <p xml:id="gom-rom8-d1e281">
+            <quote xml:id="gom-rom8-Qd1e283" type="lemma" source="http://scta.info/resource/rom8_9@10-11">Si tamen.</quote>
+            Ambigue loquitur, quia nondum sunt perfectae fidei, sed spes est perficiendi.
+          </p>
+          <p xml:id="gom-rom8-d1e287">
+            <quote xml:id="gom-rom8-Qd1e289" type="lemma" source="http://scta.info/resource/rom8_9@12-13">Spiritus Dei.</quote>
+            Spiritus Christi, quia idem est Spiritus Dei et Spiritus Christi.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e294">
+          <head xml:id="gom-rom8-Hd1e296">Versus 10</head>
+          <p xml:id="gom-rom8-d1e298">
+            <quote xml:id="gom-rom8-Qd1e300" type="lemma" source="http://scta.info/resource/rom8_10@7-8">Corpus quidem.</quote>
+            Nomine corporis hominem totum significat, sicut Ezechiel econverso <pb ed="#P" n="0495C"/> nomine animae, cum inquit: <quote xml:id="gom-rom8-Qd1e305">Anima quae peccavit,</quote> etc. Et sensus est: Si spiritus Christi in vobis est, licet corpus mortuum, id est homo mortuus fuerit propter peccata, id est in peccatis, spiritus tamen, id est anima quae fuerat impia, vivit: quia Deo, qui est vita, jungitur, et hoc propter justificationem, id est peccatorum remissionem, quae est ex Spiritu sancto.
+          </p>
+          <p xml:id="gom-rom8-d1e308">
+            <quote xml:id="gom-rom8-Qd1e310" type="lemma" source="http://scta.info/resource/rom8_10@9-9">Mortuum,</quote>
+            ait, non mortale. Ante peccatum enim corpus animale, id est mortale fuit, scilicet potens mori. Sed quod non necesse erat mori: modo mortuum dicitur propter peccatum, id est quod est necesse mori.
+          </p>
+          <p xml:id="gom-rom8-d1e314">
+            <quote xml:id="gom-rom8-Qd1e316" type="lemma" source="http://scta.info/resource/rom8_10@11-12">Propter peccatum</quote>
+            vitandum, reservatur haec infirmitas, ut exinde peccare magis timeat.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e321">
+          <head xml:id="gom-rom8-Hd1e323">Versus 11</head>
+          <p xml:id="gom-rom8-d1e325">
+            <quote xml:id="gom-rom8-Qd1e327" type="lemma" source="http://scta.info/resource/rom8_11@1-3">Quod si Spiritus.</quote>
+            <ref xml:id="gom-rom8-Rd1e330"><name xml:id="gom-rom8-Nd1e331" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e334"><seg type="qs">Attende quod Spiritus sanctus</seg>, etc., usque ad <seg type="qs">sicut et generationem <pb ed="#P" n="0495D"/> Filii quis enarrabit?</seg></quote>
+          </p>
+          <p xml:id="gom-rom8-d1e344">
+            <quote xml:id="gom-rom8-Qd1e346" type="lemma" source="http://scta.info/resource/rom8_11@19-21">Vivificabit et mortalia.</quote>
+            <ref xml:id="gom-rom8-Rd1e349"><name xml:id="gom-rom8-Nd1e350" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e353"><seg type="qs">Ecce quartus actus. In prima actione</seg>, etc., usque ad <seg type="qs">quia nos superiorem nobis Deum deserueramus.</seg></quote>
+          </p>
+          <p xml:id="gom-rom8-d1e361">
+            <quote xml:id="gom-rom8-Qd1e363" type="lemma" source="http://scta.info/resource/rom8_11@21-21">Mortalia.</quote>
+            Non mortua, quia in resurrectione cum mortale hoc induet immortalitatem, non solum necessitas moriendi, quam modo habet propter peccatum, sed nec mortalitas, quam habuit corpus animale ante peccatum, remanebit.
+          </p>
+          <p xml:id="gom-rom8-d1e367">
+            <quote xml:id="gom-rom8-Qd1e369" type="lemma" source="http://scta.info/resource/rom8_11@24-25">Propter inhabitantem.</quote>
+            Evidentissime apparet non tantum Spiritus, sed etiam corporis morte propter peccatum hominem meruisse, et per Spiritum sanctum, utrumque liberatum a Christo.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e375">
+          <head xml:id="gom-rom8-Hd1e377">Versus 13</head>
+          <p xml:id="gom-rom8-d1e379">
+            <quote xml:id="gom-rom8-Qd1e381" type="lemma" source="http://scta.info/resource/rom8_13@7-9">Si autem Spiritu.</quote>
+            Vel Spiritu sancto <pb ed="#P" n="0496A"/> vel nostro: quod tamen non est, nisi agente Spiritu sancto.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e388">
+          <head xml:id="gom-rom8-Hd1e390">Versus 14</head>
+          <p xml:id="gom-rom8-d1e392">
+            <quote xml:id="gom-rom8-Qd1e394" type="lemma" source="http://scta.info/resource/rom8_14@5-5">Aguntur.</quote>
+            Aguntur dicit, non reguntur. Plus est enim agi quam regi: agi enim dicimus aliquem, quasi vix aliquid agentem; regi autem quasi jam aliquid agentem, qui ideo regitur, ut recte agat. Sed aguntur, non quod nihil per se, sed quod, ut aliquid agant, impetu gratiae impelluntur.
+          </p>
+          <p xml:id="gom-rom8-d1e398">
+            <ref xml:id="gom-rom8-Rd1e400" type="lemma" subtype="implied" target="http://scta.info/resource/rom8_14@5-5"/>
+            <ref xml:id="gom-rom8-Rd1e402"><name xml:id="gom-rom8-Nd1e403" ref="#Augustine">AUG.</name>, lib. de Correp. et Grat., c. 2.</ref>
+            <quote xml:id="gom-rom8-Qd1e407"><seg type="qs">Non se itaque fallant qui dicunt: Ut quid nobis</seg>, etc., usque ad <seg type="qs">accepisse se gaudeant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e416">
+          <head xml:id="gom-rom8-Hd1e418">Versus 15</head>
+          <p xml:id="gom-rom8-d1e420">
+            <quote xml:id="gom-rom8-Qd1e422" type="lemma" source="http://scta.info/resource/rom8_15@1-3">Non enim accepistis,</quote>
+            etc. Filii esse debetis, non servi, quia non accepistis spiritum servitutis: qui invitos timore poenae servire faciat.
+          </p>
+          <p xml:id="gom-rom8-d1e426">
+            <quote xml:id="gom-rom8-Qd1e428" type="lemma" source="http://scta.info/resource/rom8_15@9-12">Sed accepistis spiritum adoptionis.</quote>
+            Idem est spiritus, <pb ed="#P" n="0496B"/> sed propter diversa opera dissimiliter appellatur: Spiritus irae Aegyptiis dicitur, quibus aqua spiritu divisa nocuit. Filius Israel non dicitur irae, quibus aqua divisa profuit. Spiritus timoris est, his qui per legem, de peccatis et sua infirmitate convicti, gratiam spiritus non intelligebant. Spiritus libertatis ejus opere istis quibus regeneratio in vitam aeternam et fides, quae per dilectionem operatur, impertita est. Unus ergo spiritus qui duos timores facit. Qui et duo genera servorum faciunt. Est enim servus qui et filius, qui timet Dominum et honorat patrem, unde Malachias: <quote xml:id="gom-rom8-Qd1e433" source="http://scta.info/resource/mal1_6@18-25">Si Dominus sum, ubi est timor meus? Si pater, ubi est honor meus?</quote>. Et est servus qui timet poenam, sed non diligit justitiam. Et quia de timoribus fit mentio, sciendum est <pb ed="#P" n="0496C"/> praeter naturalem timorem, qui omnibus inest, quatuor esse timores, scilicet: mundanum, qui malus est nec a Deo; et servilem, qui bonus est et a Deo, sed non est sufficiens; initialem, qui bonus est et sufficiens; et castum, qui bonus est et perficiens, de quo hic agitur: <quote xml:id="gom-rom8-Qd1e438">Ipse enim generat nos filios Dei. In quo clamamus.</quote> Hoc iterum ex dono Spiritus, quod ita nos facit clamare <quote xml:id="gom-rom8-Qd1e441" source="http://scta.info/resource/rom8_15@17-17">Abba,</quote> Hebraice, <quote xml:id="gom-rom8-Qd1e444" source="http://scta.info/resource/rom8_15@18-18">pater</quote> Latine.
+          </p>
+          <p xml:id="gom-rom8-d1e448">
+            <quote xml:id="gom-rom8-Qd1e450" type="lemma" source="http://scta.info/resource/rom8_15@17-18">Abba pater.</quote>
+            Propter sacramentum, utrumque posuit Apostolus. Et in passione dixit Christus, <quote xml:id="gom-rom8-Qd1e453" source="http://scta.info/resource/rom8_15@17-18">Abba pater,</quote> quia Ecclesia est de utroque populo, cui compatiens in se ostendit filios ejus (martyres scilicet) non debere desperare, si qua tempore passionis ex humana fragilitate tristitia irrepat.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e458">
+          <head xml:id="gom-rom8-Hd1e460">Versus 16</head>
+          <p xml:id="gom-rom8-d1e462">
+            <quote xml:id="gom-rom8-Qd1e464" type="lemma" source="http://scta.info/resource/rom8_16@7-10">Quod sumus filii Dei.</quote>
+            Hoc recognoscere <pb ed="#P" n="0496D"/> facit Spiritus sanctus, dum in Ecclesia fit remissio peccatorum; quam etsi tota Trinitas faciat, ad Spiritum sanctum tamen intelligitur pertinere, quia communis est Patri et Filio, amborumque unio; per quam fit societas et unitas, qua efficimur unum corpus unici Filii Dei. Unitas enim nos compaginat, quam facit charitas, quae non est nisi a Spiritu sancto. Haec dicuntur, ut amemus unitatem, et timeamus separationem.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e471">
+          <head xml:id="gom-rom8-Hd1e473">Versus 17</head>
+          <p xml:id="gom-rom8-d1e475">
+            <quote xml:id="gom-rom8-Qd1e477" type="lemma" source="http://scta.info/resource/rom8_17@5-5">Haeredes.</quote>
+            Etsi non decedat Deus, quod dicitur humanis legibus. Vel decedet, ut non videatur per speculum in aenigmate sicut nunc, sed facie ad faciem. Potest etiam dici, quod Christus caput nostrum ad passionem decedens, nobis reliquit <pb ed="#P" n="0497A"/> pacis ecclesiasticae possessionem, sicut ipse ait: <quote xml:id="gom-rom8-Qd1e482" source="http://scta.info/resource/io14_27@4-7">Pacem meam do vobis, pacem meam relinquo vobis</quote>. Christus etiam est haereditas nostra. Unde: <quote xml:id="gom-rom8-Qd1e485" source="http://scta.info/resource/ps15_5@1-4">Dominus pars haereditatis meae</quote>, etc.
+          </p>
+          <p xml:id="gom-rom8-d1e489">
+            <quote xml:id="gom-rom8-Qd1e491" type="lemma" source="http://scta.info/resource/rom8_17@12-14">Si tamen compatimur.</quote>
+            Mortificare facta carnis, unde vita erit, nemo potest sine molestia, cui necessaria est patientia.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e496">
+          <head xml:id="gom-rom8-Hd1e498">Versus 19</head>
+          <p xml:id="gom-rom8-d1e500">
+            <quote xml:id="gom-rom8-Qd1e502" type="lemma" source="http://scta.info/resource/rom8_19@1-3">Nam exspectatio creaturae.</quote>
+            Creatura, sunt boni, qui in creatione Dei manent, vel quia sunt causa omnium. Corruptio est vanitas, cui subjecta est creatura. Omnia enim quae nascuntur infirma et corruptibilia sunt, et per hoc vana: quia statum suum tenere non possunt.
+          </p>
+          <p xml:id="gom-rom8-d1e506">
+            <ref xml:id="gom-rom8-Rd1e508" type="lemma" subtype="implied" target="http://scta.info/resource/rom8_19@1-3"/>
+            <ref xml:id="gom-rom8-Rd1e510"><name xml:id="gom-rom8-Nd1e511" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e514"><seg type="qs">Quod ait, <quote xml:id="gom-rom8-Qd1e517" source="http://scta.info/resource/rom8_19@1-2">nam exspectatio,</quote> etc. Sic intelligendum est, ut neque sensum</seg>, etc., usque ad <seg type="qs">laborat <pb ed="#P" n="0497B"/> et corruptioni subjacet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e529">
+          <head xml:id="gom-rom8-Hd1e531">Versus 20</head>
+          <p xml:id="gom-rom8-d1e533">
+            <quote xml:id="gom-rom8-Qd1e535" type="lemma" source="http://scta.info/resource/rom8_20@6-7">Non volens,</quote>
+            etc. Sponte peccavit, sed non sponte fert poenam, quod subjicitur fallaciae: sed propter justitiam et clementiam ejus qui et peccatum punit, et sanare intendit.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e540">
+          <head xml:id="gom-rom8-Hd1e542">Versus 21</head>
+          <p xml:id="gom-rom8-d1e544">
+            <quote xml:id="gom-rom8-Qd1e546" type="lemma" source="http://scta.info/resource/rom8_21@1-4">Quia et ipsa creatura.</quote>
+            <ref xml:id="gom-rom8-Rd1e549"><name xml:id="gom-rom8-Nd1e550" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e553"><seg type="qs">Modo creatura tantum cum nondum filiorum forma perfecta</seg>, etc., usque ad <seg type="qs">homo enim, signaculo imaginis amisso, remansit tantum creatura.</seg></quote>
+          </p>
+          <p xml:id="gom-rom8-d1e561">
+            <quote xml:id="gom-rom8-Qd1e563" type="lemma" source="http://scta.info/resource/rom8_21@5-5">Liberabitur.</quote>
+            Revelabitur, exspectat revela; subjecit liberabitur. Haec omnia per Spiritum.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e568">
+          <head xml:id="gom-rom8-Hd1e570">Versus 22</head>
+          <p xml:id="gom-rom8-d1e572">
+            <quote xml:id="gom-rom8-Qd1e574" type="lemma" source="http://scta.info/resource/rom8_22@4-5">Omnis creatura.</quote>
+            <ref xml:id="gom-rom8-Rd1e577"><name xml:id="gom-rom8-Nd1e578" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e581"><seg type="qs">Homo. Omnis creatura est vel corporalis</seg>, etc., usque ad <seg type="qs">etsi non in omnibus hominibus.</seg></quote>
+          </p>
+          <p xml:id="gom-rom8-d1e589">
+            <quote xml:id="gom-rom8-Qd1e591" type="lemma" source="http://scta.info/resource/rom8_22@4-5">Omnis creatura.</quote>
+            <ref xml:id="gom-rom8-Rd1e594"><name xml:id="gom-rom8-Nd1e595" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e598">Omnia elementa cum labore sua explent officia, quod est <pb ed="#P" n="0497C"/> nostri causa: unde quiescent nobis assumptis; et ideo diligenter nos paremus.</quote>
+          </p>
+          <p xml:id="gom-rom8-d1e604">
+            <quote xml:id="gom-rom8-Qd1e606" type="lemma" source="http://scta.info/resource/rom8_22@6-6">Ingemiscit.</quote>
+            Semper in hoc nova est, quod notatur per inchoativum verbum, et pro desiderio patriae coelestis.
+          </p>
+          <p xml:id="gom-rom8-d1e610">
+            <quote xml:id="gom-rom8-Qd1e612" type="lemma" source="http://scta.info/resource/rom8_22@8-8">Parturit.</quote>
+            Id est dolet.
+          </p>
+          <p xml:id="gom-rom8-d1e617">
+            <quote xml:id="gom-rom8-Qd1e619" type="lemma" source="http://scta.info/resource/rom8_22@9-10">Usque adhuc.</quote>
+            <ref xml:id="gom-rom8-Rd1e622"><name xml:id="gom-rom8-Nd1e623" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e626">Quia etsi aliquis in sinu Abrahae dolere destitit, tamen adhuc in his qui nondum sunt liberati, omnis creatura ingemiscit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e630">
+          <head xml:id="gom-rom8-Hd1e632">Versus 23</head>
+          <p xml:id="gom-rom8-d1e634">
+            <quote xml:id="gom-rom8-Qd1e636" type="lemma" source="http://scta.info/resource/rom8_23@1-2">Non solum,</quote>
+            etc.
+            <ref xml:id="gom-rom8-Rd1e639"><name xml:id="gom-rom8-Nd1e640" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e643">Id est, non solum in homine corporis, sed et nos in nobis ipsis praeter corpus, exceptis corporis molestiis.</quote>
+          </p>
+          <p xml:id="gom-rom8-d1e646">
+            <quote xml:id="gom-rom8-Qd1e648" type="lemma" source="http://scta.info/resource/rom8_23@1-2">Non solum.</quote>
+            <ref xml:id="gom-rom8-Rd1e651"><name xml:id="gom-rom8-Nd1e652" ref="#Augustine">AUG.</name>, in expos. propos. in 53. in epist. ad Rom.</ref>
+            <quote xml:id="gom-rom8-Qd1e656"><seg type="qs">Non solum ipsa quae tantummodo creatura dicitur in hominibus</seg>, etc., usque ad <seg type="qs">aut sollicitante molestia.</seg></quote>
+          </p>
+          <p xml:id="gom-rom8-d1e664">
+            <pb ed="#P" n="0497D"/>
+            <quote xml:id="gom-rom8-Qd1e668" type="lemma" source="http://scta.info/resource/rom8_23@9-10">Primitias spiritus.</quote>
+            Id est, quorum jam spiritus quasi in sacrificium oblati sunt Deo, et divino charitatis igne succensi.
+          </p>
+          <p xml:id="gom-rom8-d1e672">
+            <quote xml:id="gom-rom8-Qd1e674" type="lemma" source="http://scta.info/resource/rom8_23@17-17">Adoptionem.</quote>
+            Ut corpus etiam beneficium adoptionis accipiat, et ex omni parte filii Dei sint.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e679">
+          <head xml:id="gom-rom8-Hd1e681">Versus 24</head>
+          <p xml:id="gom-rom8-d1e683">
+            <quote xml:id="gom-rom8-Qd1e685" type="lemma" source="http://scta.info/resource/rom8_24@1-2">Spe enim.</quote>
+            Ideo dicit ut majus meriritum spei videatur et ideo debeat salvare.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e690">
+          <head xml:id="gom-rom8-Hd1e692">Versus 26</head>
+          <p xml:id="gom-rom8-d1e694">
+            <quote xml:id="gom-rom8-Qd1e696" type="lemma" source="http://scta.info/resource/rom8_26@4-6">Spiritus adjuvat infirmitatem.</quote>
+            <ref xml:id="gom-rom8-Rd1e699"><name xml:id="gom-rom8-Nd1e700" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e703">Quia ingemiscimus et petimus liberari, sed ne vel ante tempus vel contrarie petamus, Spiritus adjuvat. Quod oratio impetrat, donum Dei est evidenter, sed et orare est ex gratia.</quote>
+          </p>
+          <p xml:id="gom-rom8-d1e706">
+            <quote xml:id="gom-rom8-Qd1e708" type="lemma" source="http://scta.info/resource/rom8_26@21-21">Inenarrabilibus.</quote>
+            Quommodo enim enarraretur, quando desideratur, quod ignoratur? <pb ed="#P" n="0498A"/> Non tamen omnino ignoratur. Nam si penitus ignoraretur, non desideraretur. Et rursus si videretur, gemitibus non quaereretur.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e716">
+          <head xml:id="gom-rom8-Hd1e718">Versus 27</head>
+          <p xml:id="gom-rom8-d1e720">
+            <quote xml:id="gom-rom8-Qd1e722" type="lemma" source="http://scta.info/resource/rom8_27@3-3">Scrutatur.</quote>
+            <ref xml:id="gom-rom8-Rd1e725"><name xml:id="gom-rom8-Nd1e726" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e729">Non quasi quaerens quod nesciat cui nihil est occultum, cuique nota est precatio omnium spirituum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e733">
+          <head xml:id="gom-rom8-Hd1e735">Versus 28</head>
+          <p xml:id="gom-rom8-d1e737">
+            <quote xml:id="gom-rom8-Qd1e739" type="lemma" source="http://scta.info/resource/rom8_28@1-4">Scimus autem quoniam diligentibus,</quote>
+            etc. Quasi dicat: Non solum hoc facit Spiritus sanctus, sed etiam facit omnia diligentibus se provenire in bonum, prospera vel adversa; talis enim Deus consolatur prosperis, exercet adversis. Prosunt ergo mala quae fideles pie perferunt, vel ad emendanda sive demenda peccata, vel ad exercendam probandamque justitiam, vel ad demonstrandam hujus vitae miseriam. Quamvis enim mors carnis de peccato primi <pb ed="#P" n="0498B"/> hominis originaliter venerit, tamen bonus ejus usus gloriosissimos martyres fecit. Ideoque non solum ipsa, sed et omnia saeculi mala remissis peccatis remanere debuerunt, ut haberet homo cum quibus pro veritate certaret, et unde exercitaretur virtus fidelium.
+          </p>
+          <p xml:id="gom-rom8-d1e745">
+            <quote xml:id="gom-rom8-Qd1e747" type="lemma" source="http://scta.info/resource/rom8_28@12-13">Secundum propositum.</quote>
+            Quasi dicat: Quod vocati sunt, non aliunde est quam a praedestinatione Dei. Et inde est, quod <quote xml:id="gom-rom8-Qd1e750" source="http://scta.info/resource/rom8_28@6-9">omnia cooperantur in bonum:</quote> non ex merito.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e755">
+          <head xml:id="gom-rom8-Hd1e757">Versus 29</head>
+          <p xml:id="gom-rom8-d1e759">
+            <quote xml:id="gom-rom8-Qd1e761" type="lemma" source="http://scta.info/resource/rom8_29@1-2">Nam quos,</quote>
+            Deus, <quote xml:id="gom-rom8-Qd1e764" source="http://scta.info/resource/rom8_29@5-5">praedestinavit,</quote> id est, per appositam gratiam praeparavit ut verbo praedicationis crederent: illos <quote xml:id="gom-rom8-Qd1e767" source="http://scta.info/resource/rom8_29@3-3">praescivit,</quote> id est longe ante praenovit, <quote xml:id="gom-rom8-Qd1e770" source="http://scta.info/resource/rom8_29@7-9">fieri conformes Filii,</quote> qui est imago Patris, usquequaque eadem cum Patre. Unde dicitur: <quote xml:id="gom-rom8-Qd1e773" source="http://scta.info/resource/io14_9@13-18">Qui <pb ed="#P" n="0498C"/> videt me, videt et Patrem</quote>.
+          </p>
+          <p xml:id="gom-rom8-d1e779">
+            <quote xml:id="gom-rom8-Qd1e781" type="lemma" source="http://scta.info/resource/rom8_29@8-8">Imaginis.</quote>
+            Ut portemus imaginem coelestis, sicut portavimus imaginem terreni. Vel <quote xml:id="gom-rom8-Qd1e784" source="http://scta.info/resource/rom8_29@14-14">primogenitus.</quote> Quia ante omnem creaturam non factus sed natus est, et quia primus sine peccato natus, et primus impassibilis resurgens, in quo habet fratres.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e789">
+          <head xml:id="gom-rom8-Hd1e791">Versus 30</head>
+          <p xml:id="gom-rom8-d1e793">
+            <quote xml:id="gom-rom8-Qd1e795" type="lemma" source="http://scta.info/resource/rom8_30@6-6">Vocavit.</quote>
+            Vocatio exterior fit per praedicatores et est communis bonorum et malorum. Interior vero tantum electorum. De exteriori dicitur: <quote xml:id="gom-rom8-Qd1e798" source="http://scta.info/resource/mt22_14@1-7">Multi sunt vocati, pauci vero electi.</quote> Vocatione impletur praedestinatio. Vocare, est cognitionem de fide adjuvare vel compungere eum quem faciat audire, et hoc est electorum tantum.
+          </p>
+          <p xml:id="gom-rom8-d1e802">
+            <quote xml:id="gom-rom8-Qd1e804" type="lemma" source="http://scta.info/resource/rom8_30">Magnificavit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Hoc de praescitis, de aliis non, qui etsi ad tempus credant et boni videantur, tamen quia non permanent, non magnificantur. <pb ed="#P" n="0498D"/>
+          </p>
+          <p xml:id="gom-rom8-d1e812">
+            <quote xml:id="gom-rom8-Qd1e814" type="lemma" source="http://scta.info/resource/rom8_30">Magnificavit,</quote>
+            <!-- check: lemma not matched to verse text -->
+            vel <mentioned>magnificabit</mentioned>: hoc autem futurum est, sed dicitur praeteritum: quia dicitur Deus fecisse quae ab aeterno disposuit facere; unde Isaias: <quote xml:id="gom-rom8-Qd1e821" source="http://scta.info/resource/is44_7@18-20">Qui fecit quae futura sunt</quote>. Talibus omnia in bonum, etiam quod deviant, ut inde cautiores sint, et in se non confidentes. Sunt hic quatuor memorata: praedestinatio, vocatio, justificatio, magnificatio. Unum est in Deo, et tria in nobis. Praedestinatio enim nostra non in nobis est, sed in occulto apud ipsum in ejus praescientia. Tria vero reliqua in nobis sunt.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e826">
+          <head xml:id="gom-rom8-Hd1e828">Versus 31</head>
+          <p xml:id="gom-rom8-d1e830">
+            <quote xml:id="gom-rom8-Qd1e832" type="lemma" source="http://scta.info/resource/rom8_31@6-9">Si Deus pro nobis.</quote>
+            <ref xml:id="gom-rom8-Rd1e835"><name xml:id="gom-rom8-Nd1e836" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e839">Deus pro nobis ut praedestinaret nos ante quam essemus, ut vocaret nos cum aversi essemus, ut justificaret nos <pb ed="#P" n="0499A"/> cum peccatores essemus, et glorificaret nos cum mortales essemus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e846">
+          <head xml:id="gom-rom8-Hd1e848">Versus 32</head>
+          <p xml:id="gom-rom8-d1e850">
+            <quote xml:id="gom-rom8-Qd1e852" type="lemma" source="http://scta.info/resource/rom8_32@11-11">Tradidit.</quote>
+            Dicitur hoc quia Pater tradidit Filium, verum auctor calicis hujus est etiam ipse qui bibit. Unde Apostolus: <quote xml:id="gom-rom8-Qd1e855" source="http://scta.info/resource/eph5_2@7-15">Christus dilexit nos, et tradidit semetipsum pro nobis</quote>. Si ergo Pater Filium tradidit, et Filius seipsum, Judas quid fecit? Pater tradendo Filium, bene fecit; Filius tradendo seipsum, bene fecit; Judas tradendo magistrum pro avaritia, male fecit. Non enim quod nobis praestitum est de passione Christi, malitiae Judae deputabitur; habebit ille mercedem malitiae, Christus laudem gratiae.
+          </p>
+          <p xml:id="gom-rom8-d1e859">
+            <quote xml:id="gom-rom8-Qd1e861" type="lemma" source="http://scta.info/resource/rom8_32@18-18">Omnia.</quote>
+            Minus est nobis omnia dare, quam nostri causa morti Christum tradere. Itaque omnia superiora, scilicet Deus trinitas, nostra <pb ed="#P" n="0499B"/> sunt ad videndum sive fruendum. Aequalia, scilicet angeli quibus aequabimur in futuro ad convivendum, modo vero sumus inferiores. Inferiora quoque nostra sunt ad dominandum. Et similiter quaedam etiam superiora, ut sublimes angeli, et universa ministeria coelestia Dei nostra sunt, non dominio, sed usu; sicut res Domini, famulorum sunt; ad victum, scilicet vel ornamentum vel aliud hujusmodi.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e869">
+          <head xml:id="gom-rom8-Hd1e871">Versus 34</head>
+          <p xml:id="gom-rom8-d1e873">
+            <quote xml:id="gom-rom8-Qd1e875" type="lemma" source="http://scta.info/resource/rom8_34@16-18">Ad dexteram Dei.</quote>
+            In honore quo Deus cujus postulatio non potest contemni.
+          </p>
+          <p xml:id="gom-rom8-d1e879">
+            <quote xml:id="gom-rom8-Qd1e881" type="lemma" source="http://scta.info/resource/rom8_34@21-21">Interpellat.</quote>
+            Dum quotidie hominem quem assumpsit, et grave genus mortis quod pro nobis sustinuit, vultui paterno offert.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e886">
+          <head xml:id="gom-rom8-Hd1e888">Versus 35</head>
+          <p xml:id="gom-rom8-d1e890">
+            <quote xml:id="gom-rom8-Qd1e892" type="lemma" source="http://scta.info/resource/rom8_35@1-3">Quis nos separabit,</quote>
+            etc.
+            <ref xml:id="gom-rom8-Rd1e895"><name xml:id="gom-rom8-Nd1e896" ref="#Cyprian">CYPR.</name></ref>
+            <quote xml:id="gom-rom8-Qd1e899"><seg type="qs">Nihil <pb ed="#P" n="0499C"/> horum potest separare credentes</seg>, etc., usque ad <seg type="qs">ut et nos propter ipsum patiamur: <quote xml:id="gom-rom8-Qd1e907" source="http://scta.info/resource/rom8_37@1-5">Sed in his omnibus superamus.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e912">
+          <head xml:id="gom-rom8-Hd1e914">Versus 38</head>
+          <p xml:id="gom-rom8-d1e916">
+            <quote xml:id="gom-rom8-Qd1e918" type="lemma" source="http://scta.info/resource/rom8_38@9-13">Neque angeli, neque principes, neque virtutes.</quote>
+            Hi ordines accipiuntur de malis angelis, et de bonis si fieri posset.
+          </p>
+        </div>
+        <div xml:id="gom-rom8-Dd1e923">
+          <head xml:id="gom-rom8-Hd1e925">Versus 39</head>
+          <p xml:id="gom-rom8-d1e927">
+            <quote xml:id="gom-rom8-Qd1e929" type="lemma" source="http://scta.info/resource/rom8_39@1-4">Neque altitudo, neque profundum.</quote>
+            Id est nec prospera vel adversa, unde Salomon: <quote xml:id="gom-rom8-Qd1e932" source="http://scta.info/resource/prov30">Divitias et paupertates ne dederis mihi: ne repletus mendax fiam, vel pauper rapiam, et perjurem nomen Dei<!-- check: cited chapter given; verse not identified --></quote>. Multi peccant altitudine, multi necessitate. Contra hoc proponitur Achaz in Isaia, qui nolebat petere signum neque in alto neque in profundo. Remedium de Christo, qui neque elatus potestate qua aequalis Patri, nec turbatus de ejectione <pb ed="#P" n="0499D"/> mortis, qui est signum in alto, et in profundo: ne ille vel regia potestate extolleretur, vel aerumna turbaretur, sicut tunc erat pro bello Assyriorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

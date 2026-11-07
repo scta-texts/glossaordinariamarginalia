@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 28</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 28</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0278B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex28">
+        <head xml:id="gom-ex28-Hd1e98">Caput 28</head>
+        <div xml:id="gom-ex28-Dd1e100">
+          <head xml:id="gom-ex28-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ex28-d1e104">
+            <quote xml:id="gom-ex28-Qd1e106" type="lemma" source="http://scta.info/resource/ex28_1@1-4">Applica quoque ad te,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e109"><name xml:id="gom-ex28-Nd1e110" ref="#Bede">BEDA</name>, lib. III de Tabernac., cap. 1, tom. II.</ref>
+            <quote xml:id="gom-ex28-Qd1e114"><seg type="qs">Quomodo tabernaculum</seg>, etc., usque ad <seg type="qs">et cunctos Ecclesiae magistros.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e122">
+            <ref xml:id="gom-ex28-Rd1e124"><name xml:id="gom-ex28-Nd1e125" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e128" type="lemma" source="http://scta.info/resource/ex28_1@1-2">Applica quoque,</quote>
+            <quote xml:id="gom-ex28-Qd1e131"><seg type="qs">etc. Descripta factura tabernaculi, <pb ed="#P" n="0278C"/></seg> etc., usque ad <seg type="qs">igne supernae ultionis absumuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e141">
+          <head xml:id="gom-ex28-Hd1e143">Versus 2</head>
+          <p xml:id="gom-ex28-d1e145">
+            <quote xml:id="gom-ex28-Qd1e147" type="lemma" source="http://scta.info/resource/ex28_2@1-3">Faciesque vestem sanctam.</quote>
+            <ref xml:id="gom-ex28-Rd1e150"><name xml:id="gom-ex28-Nd1e151" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e155"><seg type="qs">Vestes sanctae Aaron</seg>, etc., usque ad <seg type="qs">et Dei verbi dispensatorem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e164">
+          <head xml:id="gom-ex28-Hd1e166">Versus 4</head>
+          <p xml:id="gom-ex28-d1e168">
+            <quote xml:id="gom-ex28-Qd1e170" type="lemma" source="http://scta.info/resource/ex28_4@1-2">Haec autem.</quote>
+            <ref xml:id="gom-ex28-Rd1e173"><name xml:id="gom-ex28-Nd1e174" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e178"><seg type="qs">Quomodo haec singula facta sint</seg>, etc., usque ad <seg type="qs">praeclara et interni arbitri conspectui oportet esse gloriosa.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e186">
+            <ref xml:id="gom-ex28-Rd1e188" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_4@1-2"/>
+            <ref xml:id="gom-ex28-Rd1e190"><name xml:id="gom-ex28-Nd1e191" ref="#GregoryGreat">GREG.</name> Past., lib. II, cap. 3, tom. III.</ref>
+            <quote xml:id="gom-ex28-Qd1e195"><seg type="qs">Jubetur sacerdos in utroque humero</seg>, etc., usque ad <seg type="qs">quasi in diversa superhumeralis specie byssus torta candescit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e204">
+          <head xml:id="gom-ex28-Hd1e206">Versus 6</head>
+          <p xml:id="gom-ex28-d1e208">
+            <quote xml:id="gom-ex28-Qd1e210" type="lemma" source="http://scta.info/resource/ex28_6@1-3">Facient autem superhumerale.</quote>
+            <ref xml:id="gom-ex28-Rd1e213"><name xml:id="gom-ex28-Nd1e214" ref="#Bede">BED.</name>, lib. III de Tabernac., cap. 4.</ref>
+            <quote xml:id="gom-ex28-Qd1e218"><seg type="qs">Quia in humeris onera portamus</seg>, etc., usque ad <seg type="qs">cum per abstinentiam caro <pb ed="#P" n="0278D"/> fatigatur.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e228">
+            <quote xml:id="gom-ex28-Qd1e230" type="lemma" source="http://scta.info/resource/ex28_6@10-17">Coccoque bis tincto et bysso retorta, opere polymito.</quote>
+            <ref xml:id="gom-ex28-Rd1e233"><name xml:id="gom-ex28-Nd1e234" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e238"><seg type="qs">Coccus ignis specie refulget</seg>, etc., usque ad <seg type="qs">in suo habitu coccum demonstrans.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e248">
+          <head xml:id="gom-ex28-Hd1e250">Versus 7</head>
+          <p xml:id="gom-ex28-d1e252">
+            <quote xml:id="gom-ex28-Qd1e254" type="lemma" source="http://scta.info/resource/ex28_7@1-12">Duas oras junctas habebit in utroque latere summitatum, ut in unum redeant.</quote>
+            <ref xml:id="gom-ex28-Rd1e257"><name xml:id="gom-ex28-Nd1e258" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e262"><seg type="qs">De hoc in sequentibus dicitur</seg>, etc., usque ad <seg type="qs">quam vitae invisibilis praemia requirimus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e271">
+          <head xml:id="gom-ex28-Hd1e273">Versus 8</head>
+          <p xml:id="gom-ex28-d1e275">
+            <quote xml:id="gom-ex28-Qd1e277" type="lemma" source="http://scta.info/resource/ex28_8@2-19">Ipsa quoque textura et cuncta operis varietas erit ex auro et hyacintho ac purpura, coccoque bis tincto, et bysso retorta. Sumesque.</quote>
+            <ref xml:id="gom-ex28-Rd1e280"><name xml:id="gom-ex28-Nd1e281" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e285"><seg type="qs">Non in una parte aurum</seg>, etc., usque ad <seg type="qs">sacerdos debet esse nitidus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e294">
+          <head xml:id="gom-ex28-Hd1e296">Versus 9</head>
+          <p xml:id="gom-ex28-d1e298">
+            <quote xml:id="gom-ex28-Qd1e300" type="lemma" source="http://scta.info/resource/ex28_9@2-3">Duos lapides,</quote>
+            etc. Ut sacerdos fidem <pb ed="#P" n="0279A"/> et vitam patriarcharum imitetur et duodecim tribuum in sacrificiis et orationibus memor sit et populus intuens non aberret a patriarcharum meritis.
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e307">
+          <head xml:id="gom-ex28-Hd1e309">Versus 11</head>
+          <p xml:id="gom-ex28-d1e311">
+            <quote xml:id="gom-ex28-Qd1e313" type="lemma" source="http://scta.info/resource/ex28_11@11-12">Inclusos auro,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e316"><name xml:id="gom-ex28-Nd1e317" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e321"><seg type="qs">Apte lapides includi auro atque circumdari jubentur</seg>, etc., usque ad <seg type="qs">custodia mentis valeant prolabi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e330">
+          <head xml:id="gom-ex28-Hd1e332">Versus 12</head>
+          <p xml:id="gom-ex28-d1e334">
+            <quote xml:id="gom-ex28-Qd1e336" type="lemma" source="http://scta.info/resource/ex28_12@10-20">Portabitque Aaron nomina eorum coram Domino super utrumque humerum ob recordationem.</quote>
+            Quia sacerdos diligenter omni hora praecedentium sanctorum vitam perpendens in adversis et prosperis virtutum ornamento debet muniri, ut per arma justitae a dextris et a sinistris gradiens in nullo delectationis infimae latere flectatur.
+          </p>
+          <p xml:id="gom-ex28-d1e340">
+            <ref xml:id="gom-ex28-Rd1e342" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_12@10-20"/>
+            <ref xml:id="gom-ex28-Rd1e344"><name xml:id="gom-ex28-Nd1e345" ref="#Bede">BED.</name> ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e349"><seg type="qs">Tribus causis Aaron nomina, etc., <pb ed="#P" n="0279B"/></seg> usque ad <seg type="qs">sive patrum exempla quae sequantur proponat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e359">
+          <head xml:id="gom-ex28-Hd1e361">Versus 14</head>
+          <p xml:id="gom-ex28-d1e363">
+            <quote xml:id="gom-ex28-Qd1e365" type="lemma" source="http://scta.info/resource/ex28_14@1-11">Facies et uncinos ex auro, et duas catenulas auri purissimi sibi invicem cohaerentes quas inseres uncinis.</quote>
+            <ref xml:id="gom-ex28-Rd1e368"><name xml:id="gom-ex28-Nd1e369" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e373"><seg type="qs">Uncini isti in supremis erant angulis</seg>, etc., usque ad <seg type="qs">per charitatem et bonam intentionem sunt nectenda.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e381">
+            <ref xml:id="gom-ex28-Rd1e383" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_14@1-11"/>
+            <ref xml:id="gom-ex28-Rd1e385"><name xml:id="gom-ex28-Nd1e386" ref="#GregoryGreat">GREG.</name>, Past., part. II, cap. 2, tom. III.</ref>
+            <quote xml:id="gom-ex28-Qd1e390"><seg type="qs">Praecipitur ut in pectore Aaron rationale judicii vittis ligantibus imprimatur</seg>, etc., usque ad <seg type="qs">non sine magno timore regantur subjecti.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e400">
+          <head xml:id="gom-ex28-Hd1e402">Versus 15</head>
+          <p xml:id="gom-ex28-d1e404">
+            <quote xml:id="gom-ex28-Qd1e406" type="lemma" source="http://scta.info/resource/ex28_15@1-5">Rationale quoque judicii facies opere,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e409"><name xml:id="gom-ex28-Nd1e410" ref="#Bede">BED.</name>, ubi supra, cap. 5.</ref>
+            <quote xml:id="gom-ex28-Qd1e414"><seg type="qs">Sicut in superhumerali operum perfectio</seg>, etc., usque ad <seg type="qs">congruant studiose cogitare.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e423">
+          <head xml:id="gom-ex28-Hd1e425">Versus 16</head>
+          <p xml:id="gom-ex28-d1e427">
+            <pb ed="#P" n="0279C"/>
+            <quote xml:id="gom-ex28-Qd1e431" type="lemma" source="http://scta.info/resource/ex28_16@4-4">Duplex.</quote>
+            <ref xml:id="gom-ex28-Rd1e434"><name xml:id="gom-ex28-Nd1e435" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e439"><seg type="qs">Factum est rationale</seg>, etc., usque ad <seg type="qs">ut comprehendat bravium supernae vocationis Dei.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e448">
+          <head xml:id="gom-ex28-Hd1e450">Versus 17</head>
+          <p xml:id="gom-ex28-d1e452">
+            <quote xml:id="gom-ex28-Qd1e454" type="lemma" source="http://scta.info/resource/ex28_17@1-3">Ponesque in eo.</quote>
+            <ref xml:id="gom-ex28-Rd1e457"><name xml:id="gom-ex28-Nd1e458" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e462"><seg type="qs">Haec positio diversarum gemmarum in rationali</seg>, etc., usque ad <seg type="qs">ut et illi membra summi sacerdotis mereantur effici.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e470">
+            <ref xml:id="gom-ex28-Rd1e472" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_17@1-3"/>
+            <ref xml:id="gom-ex28-Rd1e474"><name xml:id="gom-ex28-Nd1e475" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e478"><seg type="qs">Possumus in vario decore lapidum</seg>, etc., usque ad <seg type="qs">nihil illi prodest.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e487">
+          <head xml:id="gom-ex28-Hd1e489">Versus 20</head>
+          <p xml:id="gom-ex28-d1e491">
+            <quote xml:id="gom-ex28-Qd1e493" type="lemma" source="http://scta.info/resource/ex28_20@4-4">Onychinus.</quote>
+            <ref xml:id="gom-ex28-Rd1e496"><name xml:id="gom-ex28-Nd1e497" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e500"><seg type="qs">Recte autem duo lapides onychini</seg>, etc., usque ad <seg type="qs">ipse ad meliora proficiat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e509">
+          <head xml:id="gom-ex28-Hd1e511">Versus 22</head>
+          <p xml:id="gom-ex28-d1e513">
+            <quote xml:id="gom-ex28-Qd1e515" type="lemma" source="http://scta.info/resource/ex28_22@1-3">Facies in rationali,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e518"><name xml:id="gom-ex28-Nd1e519" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e522"><seg type="qs">Ordo operis</seg>, etc., usque ad <seg type="qs">et a se invicem moverentur.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e530">
+            <ref xml:id="gom-ex28-Rd1e532" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_22@1-3"/>
+            <ref xml:id="gom-ex28-Rd1e534"><name xml:id="gom-ex28-Nd1e535" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e539"><seg type="qs">Superhumerale consummationem bonorum <pb ed="#P" n="0279D"/> operum</seg>, etc., usque ad <seg type="qs">si non eum accelerans bonae actionis uncinis contineat.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e549">
+            <ref xml:id="gom-ex28-Rd1e551" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_22@1-3"/>
+            <ref xml:id="gom-ex28-Rd1e553"><name xml:id="gom-ex28-Nd1e554" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e557"><seg type="qs">Quod superhumerale strictum erat balteo</seg>, etc., usque ad <seg type="qs">per virtutum operationem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e566">
+          <head xml:id="gom-ex28-Hd1e568">Versus 28</head>
+          <p xml:id="gom-ex28-d1e570">
+            <quote xml:id="gom-ex28-Qd1e572" type="lemma" source="http://scta.info/resource/ex28_28@9-10">Vitta hyacinthina,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e575"><name xml:id="gom-ex28-Nd1e576" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e580">Vittae hyacinthinae quibus uterque sacerdotis habitus copulatur, ligaturae sunt desiderii coelestis, quae annulis aureis innexae superhumerale cum rationali stringunt, cum agnita luce perennis patriae in illam gloriam suspiramus, et ut intrare mereamur concordi fide, et vita, et opere, et professione, in tabernaculo praesentis ecclesiae servire studemus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e585">
+          <head xml:id="gom-ex28-Hd1e587">Versus 29</head>
+          <p xml:id="gom-ex28-d1e589">
+            <quote xml:id="gom-ex28-Qd1e591" type="lemma" source="http://scta.info/resource/ex28_29@1-9">Portabitque Aaron nomina filiorum Israel in rationali judicii super,</quote>
+            etc. Nomina filiorum <pb ed="#P" n="0280A"/> Israel Aaron super pectus memoriale coram Domino portat in aeternum, quando praesul nunquam subditorum curam intermittit, sed vitam eorum consolando, increpando, exhortando, confortat, et tutandam Domino crebris orationibus satagit commendare.
+          </p>
+          <p xml:id="gom-ex28-d1e597">
+            <ref xml:id="gom-ex28-Rd1e599" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_29@1-9"/>
+            <ref xml:id="gom-ex28-Rd1e601"><name xml:id="gom-ex28-Nd1e602" ref="#GregoryGreat">GREG.</name>, lib. XXVIII Moral., cap. 9.</ref>
+            <quote xml:id="gom-ex28-Qd1e606">Sacerdos quando tabernaculum ingreditur, duodecim lapides in pectore portare jubetur sculptos nominibus filiorum Israel: hic est redemptor noster, qui semetipsum pro nobis sacrificium offerens, dum fortes in exordio praedicatores habuit, duodecim lapides sub capite in prima sui corporis parte portavit.</quote>
+          </p>
+          <p xml:id="gom-ex28-d1e609">
+            <ref xml:id="gom-ex28-Rd1e611" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_29@1-9"/>
+            Oportet sacerdotem memoriam patrum ferre in pectore, maxime cum ministrat altari, ut in quo <pb ed="#P" n="0280B"/> sacratius est ministerium, solertius se toto studio, tota industria mentis, exornet, et corporis, exempla sanctorum respiciens, ut eorum sedulus imitator aptum se divinis praesentet aspectibus.
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e617">
+          <head xml:id="gom-ex28-Hd1e619">Versus 30</head>
+          <p xml:id="gom-ex28-d1e621">
+            <quote xml:id="gom-ex28-Qd1e623" type="lemma" source="http://scta.info/resource/ex28_30@1-5">Pones autem in rationali judicii,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e626"><name xml:id="gom-ex28-Nd1e627" ref="#Bede">BED.</name>, ubi supra.</ref>
+            <quote xml:id="gom-ex28-Qd1e631"><seg type="qs">Ut scilicet meminerit sacerdos</seg>, etc., usque ad <seg type="qs">in eo quod divina vice dispensat.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e639">
+            <quote xml:id="gom-ex28-Qd1e641" type="lemma" source="http://scta.info/resource/ex28_30@1-4">Pones autem in rationali,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e644"><name xml:id="gom-ex28-Nd1e645" ref="#Augustine">AUG.</name>, Quaest. 117 in Exod.</ref>
+            <quote xml:id="gom-ex28-Qd1e649"><seg type="qs">In quali re vel metallo ponatur demonstratio et veritas super rationale</seg>, etc., usque ad <seg type="qs">impositam super <foreign xml:lang="greek">λογίον.</foreign></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e660">
+          <head xml:id="gom-ex28-Hd1e662">Versus 31</head>
+          <p xml:id="gom-ex28-d1e664">
+            <quote xml:id="gom-ex28-Qd1e666" type="lemma" source="http://scta.info/resource/ex28_31@1-3">Facies et tunicam,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e669"><name xml:id="gom-ex28-Nd1e670" ref="#Bede">BED.</name>, ubi supra.</ref>
+            <quote xml:id="gom-ex28-Qd1e674"><seg type="qs">Tunica talari tota hyacinthina vestitur sacerdos</seg>, etc., usque ad <seg type="qs">recte additur:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e683">
+          <head xml:id="gom-ex28-Hd1e685">Versus 32</head>
+          <p xml:id="gom-ex28-d1e687">
+            <quote xml:id="gom-ex28-Qd1e689" type="lemma" source="http://scta.info/resource/ex28_32@1-14">In cujus medio supra erit capitium <pb ed="#P" n="0280C"/> et ora per gyrum ejus textilis: sicut fieri,</quote>
+            etc. Capitium tunica hyacinthina firmissimum habet, et oram ex sese textam, ne facile rumpatur, cum primordium boni operis forti radice timoris Domini subnixum et contra omnes insidias antiqui hostis probatur esse munitum. Talis ora collum sacerdotis per gyrum vestit et ornat, quando rectori fiduciam praedicandi coelestia praebet: hoc quod non solum in vitae cursu recte vixerit, sed exordium quoque a rectitudine coeperit, sicut Samuel, Jeremias, Joannes, qui ab ipsa infantia spirituali gratia repleti, et in doctorum ordine sunt separati. Quia enim vox in collo est, per collum recte loquendi usus exprimitur, <quote xml:id="gom-ex28-Qd1e694" source="http://scta.info/resource/ex28_32@13-19">sicut fieri solet in extremis vestium partibus:</quote> sicut <pb ed="#P" n="0280D"/> vestibus opera, ita extremis vestium partibus operum consummatio figuratur. Vel extremae vestium partes, ultimae sunt nostrae sollicitudines, quibus fideles, cum finire vitam coguntur, intentius ab omni labe malorum se expurgare contendunt, cum metu et pavore curantes, ne ante districtum judicem producti pro sordido vitiorum habitu expellantur in tenebras exteriores, sed appareant induti, sicut electi Dei, viscera misericordiae, benignitatem, modestiam, patientiam et charitatem, quod est vinculum perfectionis <!--<note>(Coloss. III)</note>-->. Tunica ergo hyacinthina habet oram in capitio textilem, sicut in extremis vestium partibus solet fieri: cum doctor egregius a tanta perfectione opus virtutum inchoat, ad quantam alius longo labore vix aliquando per <pb ed="#P" n="0281A"/> veniat; et cum tanto timore famulatus omni hora cum Deo suo ambulat, quantum alius vix moriturus, et ad judicium ultimum ingressurus habere sufficiat; sed quia tota perfectio sacerdotis in operibus et doctrina veritatis consistit, secundum illud: <quote xml:id="gom-ex28-Qd1e704" source="http://scta.info/resource/act1_1@10-14">Coepit Jesus facere et docere</quote>, recte subjungitur: <quote xml:id="gom-ex28-Qd1e707" source="http://scta.info/resource/ex28_33@1-6">Deorsum vero ad pedes ejusdem tunicae</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e712">
+          <head xml:id="gom-ex28-Hd1e714">Versus 31</head>
+          <p xml:id="gom-ex28-d1e716">
+            <quote xml:id="gom-ex28-Qd1e718" type="lemma" source="http://scta.info/resource/ex28_31@1-3">Facies et tunicam,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e721"><name xml:id="gom-ex28-Nd1e722" ref="#Bede">BEDA</name>, ut supra.</ref>
+            <quote xml:id="gom-ex28-Qd1e726"><seg type="qs">Tunica superhumeralis dicitur</seg>, etc., usque ad <seg type="qs">a capite usque ad pedes gratia virtutum contecta esse debere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e735">
+          <head xml:id="gom-ex28-Hd1e737">Versus 33</head>
+          <p xml:id="gom-ex28-d1e739">
+            <quote xml:id="gom-ex28-Qd1e741" type="lemma" source="http://scta.info/resource/ex28_33@1-2">Deorsum vero,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e744"><name xml:id="gom-ex28-Nd1e745" ref="#GregoryGreat">GREG.</name>, lib. I Regist., c. 29.</ref>
+            <quote xml:id="gom-ex28-Qd1e749"><seg type="qs">Cum rector se ad loquendum praeparat</seg>, etc., usque ad <seg type="qs">unitatem fidei cauta observatione teneatis.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e757">
+            <ref xml:id="gom-ex28-Rd1e759" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_33@1-2"/>
+            <ref xml:id="gom-ex28-Rd1e761"><name xml:id="gom-ex28-Nd1e762" ref="#Bede">BEDA</name>, ut supra.</ref>
+            <quote xml:id="gom-ex28-Qd1e766"><seg type="qs">Deorsum ad pedes tunicae fiunt, <pb ed="#P" n="0281B"/></seg> etc., usque ad <seg type="qs">discreto sermonis sonitu produnt.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e775">
+            <ref xml:id="gom-ex28-Rd1e777" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_33@1-2"/>
+            <ref xml:id="gom-ex28-Rd1e779"><name xml:id="gom-ex28-Nd1e780" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e783"><seg type="qs">Possumus in duodenario gemmarum rationalis intelligere</seg>, etc., usque ad <seg type="qs">De eodem anno et David dicit: <quote xml:id="gom-ex28-Qd1e789" source="http://scta.info/resource/ps64_12@1-5">Benedices coronae anni benignitatis tuae</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e794">
+            <ref xml:id="gom-ex28-Rd1e796" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_33@1-2"/>
+            <ref xml:id="gom-ex28-Rd1e798"><name xml:id="gom-ex28-Nd1e799" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e802"><seg type="qs">Vel sicut supra dictum est</seg>, etc., usque ad <seg type="qs">in variarum splendore virtutum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e812">
+          <head xml:id="gom-ex28-Hd1e814">Versus 35</head>
+          <p xml:id="gom-ex28-d1e816">
+            <quote xml:id="gom-ex28-Qd1e818" type="lemma" source="http://scta.info/resource/ex28_35@8-9">Ut audiatur,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e821"><name xml:id="gom-ex28-Nd1e822" ref="#GregoryGreat">GREG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-ex28-Qd1e826"><seg type="qs">Sacerdos ingrediens vel regrediens</seg>, etc., usque ad <seg type="qs">ipsa quoque opera sacerdotis clament.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e834">
+            <ref xml:id="gom-ex28-Rd1e836" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_35@8-9"/>
+            <ref xml:id="gom-ex28-Rd1e838"><name xml:id="gom-ex28-Nd1e839" ref="#Bede">BED.</name>, ubi supra.</ref>
+            <quote xml:id="gom-ex28-Qd1e843"><seg type="qs">Quod si Josephi verbis intendere volumus</seg>, etc., usque ad <seg type="qs">quadrati orbis partibus praedicaretur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e852">
+          <head xml:id="gom-ex28-Hd1e854">Versus 36</head>
+          <p xml:id="gom-ex28-d1e856">
+            <quote xml:id="gom-ex28-Qd1e858" type="lemma" source="http://scta.info/resource/ex28_36@1-3">Facies et laminam,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e861"><name xml:id="gom-ex28-Nd1e862" ref="#Bede">ID.</name>, ibid., c. 7.</ref>
+            <quote xml:id="gom-ex28-Qd1e866"><seg type="qs">Lamina aurea in fronte pontificis</seg>, etc., usque ad <seg type="qs">ut <pb ed="#P" n="0281C"/> eamdem resurrexisse fateamur.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e876">
+            <quote xml:id="gom-ex28-Qd1e878" type="lemma" source="http://scta.info/resource/ex28_36@12-13">Sanctum Domino,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e881"><name xml:id="gom-ex28-Nd1e882" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e885"><seg type="qs">Quod in lamina sculpi jubetur</seg>, etc., usque ad <seg type="qs">quam reparavit sua passione.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e893">
+            <ref xml:id="gom-ex28-Rd1e895" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_36@12-13"/>
+            <ref xml:id="gom-ex28-Rd1e897"><name xml:id="gom-ex28-Nd1e898" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e901"><seg type="qs">Sanctum Domini auro sculptum in fronte portamus</seg>, etc., usque ad <seg type="qs">qui omnibus debent exemplum virtutis ostendere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e910">
+          <head xml:id="gom-ex28-Hd1e912">Versus 37</head>
+          <p xml:id="gom-ex28-d1e914">
+            <quote xml:id="gom-ex28-Qd1e916" type="lemma" source="http://scta.info/resource/ex28_37@1-2">Ligabisque eam.</quote>
+            Ligatur lamina, quae sanctum Domini continet, vitta hyacinthina cum tiara pontificis, cum spe coelestium praemiorum, quam hyacinthus significat, in fide confortamur, et eo arctius sacramenta nostrae redemptionis, vel imaginem ac similitudinem conditoris ac redemptoris nostri intemeratam servamus, quo nullum aliud esse salutis iter cognovimus. De tiara suo loco <pb ed="#P" n="0281D"/> dicetur.
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e923">
+          <head xml:id="gom-ex28-Hd1e925">Versus 38</head>
+          <p xml:id="gom-ex28-d1e927">
+            <quote xml:id="gom-ex28-Qd1e929" type="lemma" source="http://scta.info/resource/ex28_38@4-5">Portabitque Aaron.</quote>
+            Portat scilicet sacerdos iniquitates in muneribus et donariis quae obtulerunt Domino, et sanctificaverunt filii Israel: cum pro fructibus dignae poenitentiae, id est eleemosynis, caeterisque operibus justitiae, quae faciunt poenitentes, a reatu scelerum absolvit. Haec quidem ita gerenda institutio divina in habitu pontificis figuravit et verbis manifeste docuit. Proh dolor! autem, quidam donaria accipiunt, imo exigunt, et iniquitates populi non asportant nec castigant, cum ob hoc solum debeant sumere carnalia, quia ministrant spiritualia. Sed quia pro subditis potest efficaciter laborare, praedicare, et Domino supplicare cujus <pb ed="#P" n="0282A"/> animus divini nominis memoria semper est praeditus, apte subjungitur: Erit autem lamina semper in fronte ejus, etc.
+          </p>
+          <p xml:id="gom-ex28-d1e935">
+            <quote xml:id="gom-ex28-Qd1e937" type="lemma" source="http://scta.info/resource/ex28_38@20-22">Erit autem lamina,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e940"><name xml:id="gom-ex28-Nd1e941" ref="#Bede">BED.</name>, ubi supra, cap. 8.</ref>
+            <quote xml:id="gom-ex28-Qd1e945"><seg type="qs">Si lamina nomine Dei scripta semper fuerit in fronte Aaron</seg>, etc., usque ad <seg type="qs">promereri festinant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e954">
+          <head xml:id="gom-ex28-Hd1e956">Versus 39</head>
+          <p xml:id="gom-ex28-d1e958">
+            <quote xml:id="gom-ex28-Qd1e960" type="lemma" source="http://scta.info/resource/ex28_39@1-2">Stringesque tunicam.</quote>
+            <ref xml:id="gom-ex28-Rd1e963"><name xml:id="gom-ex28-Nd1e964" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e968"><seg type="qs">Quare linea dicta sit stricta</seg>, etc., usque ad <seg type="qs">cum dicitur: <quote xml:id="gom-ex28-Qd1e974" source="http://scta.info/resource/ex28_39@4-7">Et tiaram byssinam facies,</quote> etc.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e979">
+            <ref xml:id="gom-ex28-Rd1e981" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_39@1-2"/>
+            <ref xml:id="gom-ex28-Rd1e983"><name xml:id="gom-ex28-Nd1e984" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e988"><seg type="qs">Qualiter haec facta sit</seg>, etc., usque ad <seg type="qs">auditoribus asperum reddat et durum.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e996">
+            <quote xml:id="gom-ex28-Qd1e998" type="lemma" source="http://scta.info/resource/ex28_39@4-5">Et tiaram,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e1001"><name xml:id="gom-ex28-Nd1e1002" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e1006"><seg type="qs">Tiara quae cidaris et mitra vocatur</seg>, etc., usque ad <seg type="qs">timore Dei perficeret.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e1014">
+            <ref xml:id="gom-ex28-Rd1e1016" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_39@4-5"/>
+            <ref xml:id="gom-ex28-Rd1e1018"><name xml:id="gom-ex28-Nd1e1019" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e1022"><seg type="qs">De factura baltei</seg>, etc., usque ad <seg type="qs">et caetera indumenta, cum dicitur:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e1031">
+          <head xml:id="gom-ex28-Hd1e1033">Versus 40</head>
+          <p xml:id="gom-ex28-d1e1035">
+            <pb ed="#P" n="0282B"/>
+            <quote xml:id="gom-ex28-Qd1e1039" type="lemma" source="http://scta.info/resource/ex28_40@1-6">Porro filiis Aaron tunicas parabis lineas,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e1042"><name xml:id="gom-ex28-Nd1e1043" ref="#Bede">Ibid.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e1046"><seg type="qs">Dicendum est autem de balteo pontificis</seg>, etc., usque ad <seg type="qs">et fides cinctorium renum ejus.</seg></quote>
+          </p>
+          <p xml:id="gom-ex28-d1e1054">
+            <quote xml:id="gom-ex28-Qd1e1056" type="lemma" source="http://scta.info/resource/ex28_40@4-6">Tunicas parabis,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e1059"><name xml:id="gom-ex28-Nd1e1060" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex28-Qd1e1064"><seg type="qs">Tunicas habent sacerdotes lineas</seg>, etc., usque ad <seg type="qs">et olfactus digne Deo custodiantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex28-Dd1e1074">
+          <head xml:id="gom-ex28-Hd1e1076">Versus 41</head>
+          <p xml:id="gom-ex28-d1e1078">
+            <quote xml:id="gom-ex28-Qd1e1080" type="lemma" source="http://scta.info/resource/ex28_41@1-2">Vestiesque his,</quote>
+            etc.
+            <ref xml:id="gom-ex28-Rd1e1083"><name xml:id="gom-ex28-Nd1e1084" ref="#Bede">ID.</name>, ibid., cap. 9.</ref>
+            <quote xml:id="gom-ex28-Qd1e1088">Omnibus his vestiendus erat Aaron et filii ejus, sed distincte, ut ipse quidem omnibus his uteretur; filii autem ultimis tribus, quae eis proprie ascripta sunt, cum dicitur: <quote xml:id="gom-ex28-Qd1e1090" source="http://scta.info/resource/ex28_40@1-6">Porro filiis Aaron tunicas parabis lineas,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ex28-d1e1095">
+            <ref xml:id="gom-ex28-Rd1e1097" type="lemma" subtype="implied" target="http://scta.info/resource/ex28_41@1-2"/>
+            <ref xml:id="gom-ex28-Rd1e1099"><name xml:id="gom-ex28-Nd1e1100" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ex28-Qd1e1103"><seg type="qs">Feminalia quae ad operiendam corporis vel carnis turpitudinem fiunt</seg>, etc., usque ad <seg type="qs">feminalibus, <pb ed="#P" n="0282C"/> scilicet linea stricta, cingulo, et tiara.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

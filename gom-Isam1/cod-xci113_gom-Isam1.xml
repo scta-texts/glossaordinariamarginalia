@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0539B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam1">
+        <head xml:id="gom-Isam1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-Isam1-Dd1e100">
+          <head xml:id="gom-Isam1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Isam1-d1e104">
+            <quote xml:id="gom-Isam1-Qd1e106" type="lemma" source="http://scta.info/resource/Isam1_1@5-7">Ramathaim Sophim, de monte,</quote>
+            etc.
+            <ref xml:id="gom-Isam1-Rd1e109"><name xml:id="gom-Isam1-Nd1e110" ref="#Origen">ORIG.</name>, hom. de Elcana.</ref>
+            <quote xml:id="gom-Isam1-Qd1e114"><seg type="qs">Sive <quote xml:id="gom-Isam1-Qd1e117">Armathaim,</quote> quod in aliis codicibus habetur</seg>, etc., usque ad <seg type="qs">in quo nobilitas omnium virtutum fructificare dignoscitur.</seg></quote>
+          </p>
+          <p xml:id="gom-Isam1-d1e124">
+            <ref xml:id="gom-Isam1-Rd1e126" type="lemma" subtype="implied" target="http://scta.info/resource/Isam1_1@5-7"/>
+            <ref xml:id="gom-Isam1-Rd1e128"><name xml:id="gom-Isam1-Nd1e129" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-Isam1-Qd1e132"><seg type="qs">Hic habuit duas uxores</seg>, etc., usque ad <seg type="qs">hanc sobolem ex imitatione Annae sicut et ipsa oremus.</seg></quote>
+          </p>
+          <p xml:id="gom-Isam1-d1e140">
+            <ref xml:id="gom-Isam1-Rd1e142" type="lemma" subtype="implied" target="http://scta.info/resource/Isam1_1@5-7"/>
+            <ref xml:id="gom-Isam1-Rd1e144"><name xml:id="gom-Isam1-Nd1e145" ref="#RabanusMaurus">RAB.</name>, in lib. Reg.</ref>
+            <quote xml:id="gom-Isam1-Qd1e149"><seg type="qs">Prius historicae prophetiae generatio dicenda</seg>, etc., usque ad <seg type="qs">cum soror ejus gauderet numerositate prolis.</seg></quote>
+          </p>
+          <p xml:id="gom-Isam1-d1e157">
+            <ref xml:id="gom-Isam1-Rd1e159" type="lemma" subtype="implied" target="http://scta.info/resource/Isam1_1@5-7"/>
+            <ref xml:id="gom-Isam1-Rd1e161"><name xml:id="gom-Isam1-Nd1e162" ref="#Jerome">HIERON.</name>, lib. de Nom. Heb.</ref>
+            <quote xml:id="gom-Isam1-Qd1e166">Elcana allegorice possessio Dei qui est filius Dei, dicens: <quote xml:id="gom-Isam1-Qd1e168" source="http://scta.info/resource/prov8_22@1-3">Dominus possedit me:</quote> qui bene vir unus, non numero, sed quia nunquam mutatur, nec a se aliter efficitur Deus. Armathaim Sophim excelsa vel specula, haec est <pb ed="#P" n="0539C"/> superna Jerusalem; de qua veniens, speculationem docuit, et morte sua possidere fecit.</quote>
+          </p>
+          <p xml:id="gom-Isam1-d1e176">
+            <quote xml:id="gom-Isam1-Qd1e178" type="lemma" source="http://scta.info/resource/Isam1_1@14-14">Jeroham,</quote>
+            misericors.
+          </p>
+          <p xml:id="gom-Isam1-d1e182">
+            <quote xml:id="gom-Isam1-Qd1e184" type="lemma" source="http://scta.info/resource/Isam1_1@16-16">Eliu,</quote>
+            Deus meus.
+          </p>
+          <p xml:id="gom-Isam1-d1e188">
+            <quote xml:id="gom-Isam1-Qd1e190" type="lemma" source="http://scta.info/resource/Isam1_1">Thohu,</quote>
+            <!-- check: lemma not matched to verse text -->
+            signatus.
+          </p>
+          <p xml:id="gom-Isam1-d1e196">
+            <quote xml:id="gom-Isam1-Qd1e198" type="lemma" source="http://scta.info/resource/Isam1_1@20-20">Suph,</quote>
+            effundens, quia per misericordiam ad nos veniens signatus in passione ait: <quote xml:id="gom-Isam1-Qd1e201" source="http://scta.info/resource/mt27_46@16-19">Deus meus, Deus meus</quote>, ubi semetipsum exinaniens effudit, unde: <quote xml:id="gom-Isam1-Qd1e204" source="http://scta.info/resource/cant1_2@2-7">Unguentum effusum nomen tuum</quote>, effusum a suis invisibilibus ad nostra visibilia.
+          </p>
+          <p xml:id="gom-Isam1-d1e208">
+            <quote xml:id="gom-Isam1-Qd1e210" type="lemma" source="http://scta.info/resource/Isam1_1@21-21">Ephrathaeus,</quote>
+            frugifer, quia donis Spiritus sancti abundat. Ephrathaeus ab Ephrata uxore Caleb, vel Ephrata civitate, quae post dicta est Bethlehem, vel ab Ephraim (ut nonnulli aiunt), quia fuit a de Ramatha civitate Ephraim, quae sita est in monte Sophim, <pb ed="#P" n="0539D"/> qui mons est in tribu Ephraim
+          </p>
+          <p xml:id="gom-Isam1-d1e216">
+            <ref xml:id="gom-Isam1-Rd1e218" type="lemma" subtype="implied" target="http://scta.info/resource/Isam1_1@21-21"/>
+            <ref xml:id="gom-Isam1-Rd1e220"><name xml:id="gom-Isam1-Nd1e221" ref="#GregoryGreat">GREG.</name>, in lib. Reg.</ref>
+            <quote xml:id="gom-Isam1-Qd1e225">Phenenna est synagoga, quae secunda primum filios Deo per legem generabat, sed jam propter infidelitatem infecunda manet. Anna sterilis Ecclesia gentium quae olim sterilis a prole spirituali, nunc gratia Christi redempta. Anna enim, quae interpretatur gratia, Deo filios per baptisma et Spiritum sanctum gignit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e229">
+          <head xml:id="gom-Isam1-Hd1e231">Versus 3</head>
+          <p xml:id="gom-Isam1-d1e233">
+            <quote xml:id="gom-Isam1-Qd1e235" type="lemma" source="http://scta.info/resource/Isam1_3@17-17">Silo.</quote>
+            Est in nonagesimo milliario Neapoleos in regione Athabitana.
+          </p>
+          <p xml:id="gom-Isam1-d1e239">
+            <quote xml:id="gom-Isam1-Qd1e241" type="lemma" source="http://scta.info/resource/Isam1_3@27-28">Sacerdotes Domini</quote>
+            <ref xml:id="gom-Isam1-Rd1e244"><name xml:id="gom-Isam1-Nd1e245" ref="#GregoryGreat">GREG.</name>, ibid.</ref>
+            <quote xml:id="gom-Isam1-Qd1e249">Quomodo sacerdotes Domini, qui inferius filii Belial dicuntur? <pb ed="#P" n="0540B"/> Eo tempore sacerdotes Domini dicti sunt, quando simulacrorum sacerdotes ex falsorum deorum nominibus censebantur, ut hoc insigni ab illis discernantur. His enim verbis eorum fides, non vita, praedicatur, quia et pravitatem exercebant operis, sed non errabant in fide conditoris.</quote>
+          </p>
+          <p xml:id="gom-Isam1-d1e255">
+            <quote xml:id="gom-Isam1-Qd1e257" type="lemma" source="http://scta.info/resource/Isam1_3">Ophni,</quote>
+            <!-- check: lemma not matched to verse text -->
+            discalceatus, sive insania conversionis.
+          </p>
+          <p xml:id="gom-Isam1-d1e263">
+            <quote xml:id="gom-Isam1-Qd1e265" type="lemma" source="http://scta.info/resource/Isam1_3@26-26">Phinees.</quote>
+            <ref xml:id="gom-Isam1-Rd1e268"><name xml:id="gom-Isam1-Nd1e269" ref="#Origen">ORIG.</name>, hom. de Elcana.</ref>
+            <quote xml:id="gom-Isam1-Qd1e273"><seg type="qs">Os mutum, scribas et Pharisaeos significat</seg>, etc., usque ad <seg type="qs">merito ergo dimissi sunt et Deo derelicti.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e282">
+          <head xml:id="gom-Isam1-Hd1e284">Versus 4</head>
+          <p xml:id="gom-Isam1-d1e286">
+            <quote xml:id="gom-Isam1-Qd1e288" type="lemma" source="http://scta.info/resource/Isam1_4@1-8">Venit ergo dies et immolavit Elcana deditque Phenennae,</quote>
+            etc.
+            <ref xml:id="gom-Isam1-Rd1e291"><name xml:id="gom-Isam1-Nd1e292" ref="#Jerome">HIER.</name>, l. de tradit. Heb.</ref>
+            <quote xml:id="gom-Isam1-Qd1e296">Hae partes, vestes intelliguntur, quae in tribus festivitatibus Paschae videlicet, et Pentecostes, et Tabernaculorum, juxta morem illius gentis, uxoribus, <pb ed="#P" n="0540C"/> et liberis, ac famulis dabantur</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e303">
+          <head xml:id="gom-Isam1-Hd1e305">Versus 5</head>
+          <p xml:id="gom-Isam1-d1e307">
+            <quote xml:id="gom-Isam1-Qd1e309" type="lemma" source="http://scta.info/resource/Isam1_5@1-6">Annae autem dedit partem unam tristis,</quote>
+            quia non habebat filios quibus amplius daret.
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e315">
+          <head xml:id="gom-Isam1-Hd1e317">Versus 4</head>
+          <p xml:id="gom-Isam1-d1e319">
+            <quote xml:id="gom-Isam1-Qd1e321" type="lemma" source="http://scta.info/resource/Isam1_4@8-8">Phenennae,</quote>
+            id est synagogae, <quote xml:id="gom-Isam1-Qd1e324" source="http://scta.info/resource/Isam1_4@11-17">et filiis dedit partes,</quote> id est, temporalia bona, juxta illud: <quote xml:id="gom-Isam1-Qd1e327" source="http://scta.info/resource/ps104_44@2-5">Dedit eis regiones gentium</quote>. Et quia primum credita sunt illis eloquia Dei, <quote xml:id="gom-Isam1-Qd1e330" source="http://scta.info/resource/Isam1_2@15-15">Annae,</quote> id est, Ecclesiae gentium <quote xml:id="gom-Isam1-Qd1e333" source="http://scta.info/resource/Isam1_5@3-5">dedit partem unam,</quote> scilicet ingenium. Bene ait.
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e338">
+          <head xml:id="gom-Isam1-Hd1e340">Versus 5</head>
+          <p xml:id="gom-Isam1-d1e342">
+            <quote xml:id="gom-Isam1-Qd1e344" type="lemma" source="http://scta.info/resource/Isam1_5@6-6">Tristis,</quote>
+            quia <quote xml:id="gom-Isam1-Qd1e347" source="http://scta.info/resource/Isam1_6@14-17">concluserat Dominus vulvam ejus</quote> nondum enim advenerat tempus miserendi ejus, ut spirituali gratia fecundaretur. Sicut Phenenna Annam, ita synagoga gentilitatem despiciebat. Multi ex gentilibus Redemptoris adventum, ut in Job reperimus, exspectaverunt, et quia in prece perseveraverunt, tandem redemptor flenti et non capienti cibum <pb ed="#P" n="0540D"/> Annae, consolationem adhibuit, dicens:
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e354">
+          <head xml:id="gom-Isam1-Hd1e356">Versus 8</head>
+          <p xml:id="gom-Isam1-d1e358">
+            <quote xml:id="gom-Isam1-Qd1e360" type="lemma" source="http://scta.info/resource/Isam1_8@7-9">Anna, cur fles?</quote>
+            Melior est Ecclesiae vir suus, id est Christus, quam decem filii quos de synagoga edebat, qui Christum plus nonnunquam diligit, id est gratiam ejus, quam illos quos carnaliter pariebat.
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e365">
+          <head xml:id="gom-Isam1-Hd1e367">Versus 14</head>
+          <p xml:id="gom-Isam1-d1e369">
+            <quote xml:id="gom-Isam1-Qd1e371" type="lemma" source="http://scta.info/resource/Isam1_14@1-2">Dixitque ei.</quote>
+            Septuaginta, <foreign xml:lang="greek">καὶ εἶπεν αὐτῇ παιδάριον Ἡλί.</foreign>
+          </p>
+          <p xml:id="gom-Isam1-d1e378">
+            <quote xml:id="gom-Isam1-Qd1e380" type="lemma" source="http://scta.info/resource/Isam1_14@3-5">Usquequo ebria eris?</quote>
+            Homo videt in facie, Deus in corde. Heli aestimabat ebriam qui tantum os intuebatur: Dominus autem respexit ad orationem ejus, qui videbat cor ejus. Hic autem traditur nobis forma orandi ut non in multiloquio, sed in compunctione <pb ed="#P" n="0541A"/> cordis et effusione lacrymarum oremus: quia <quote xml:id="gom-Isam1-Qd1e385" source="http://scta.info/resource/ps50_19@1-7">sacrificium Deo spiritus contribulatus, cor contritum,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e390">
+          <head xml:id="gom-Isam1-Hd1e392">Versus 17</head>
+          <p xml:id="gom-Isam1-d1e394">
+            <quote xml:id="gom-Isam1-Qd1e396" type="lemma" source="http://scta.info/resource/Isam1_17@2-7">Heli ait, Vade in pace,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e401">
+          <head xml:id="gom-Isam1-Hd1e403">Versus 18</head>
+          <p xml:id="gom-Isam1-d1e405">
+            <quote xml:id="gom-Isam1-Qd1e407" type="lemma" source="http://scta.info/resource/Isam1_18@12-14">Et abiit mulier,</quote>
+            etc. Vides mulieris fidem? Priusquam acciperet quod postulaverat, perinde confisa est, quasi jam accepisset. In causa erat, quod orasset multo cum fervore, citra ullam haesitationem. Abiit pacato animo, quasi totum impetrasset. Insuper Deus totam anxietatem jam illi excussit ex animo, largiturus quod petebat. Hanc feminam imitemur, et in omnibus afflictionibus ad Deum confugiamus. Si nobis non fuerint liberi, ab illo postulemus, quos si acceperimus, multa cura educamus, etc.
+          </p>
+          <p xml:id="gom-Isam1-d1e411">
+            <quote xml:id="gom-Isam1-Qd1e413" type="lemma" source="http://scta.info/resource/Isam1_18@20-27">Vultusque illius non sunt amplius in <pb ed="#P" n="0541B"/> diversa mutati.</quote>
+            <ref xml:id="gom-Isam1-Rd1e418"><name xml:id="gom-Isam1-Nd1e419" ref="#RabanusMaurus">RAB.</name> in lib. Reg.</ref>
+            <quote xml:id="gom-Isam1-Qd1e423">Alia translatio: <quote xml:id="gom-Isam1-Qd1e425">Facies non concidit amplius,</quote> quia certissime se credidit exauditam.</quote>
+          </p>
+          <p xml:id="gom-Isam1-d1e429">
+            <ref xml:id="gom-Isam1-Rd1e431" type="lemma" subtype="implied" target="http://scta.info/resource/Isam1_18@20-27"/>
+            <ref xml:id="gom-Isam1-Rd1e433"><name xml:id="gom-Isam1-Nd1e434" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam1-Qd1e437">Nequaquam enim Ecclesia a fide et dilectione Redemptoris in diversa declinando mutata est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e442">
+          <head xml:id="gom-Isam1-Hd1e444">Versus 19</head>
+          <p xml:id="gom-Isam1-d1e446">
+            <quote xml:id="gom-Isam1-Qd1e448" type="lemma" source="http://scta.info/resource/Isam1_19@22-26">Et recordatus est ejus Dominus.</quote>
+            <ref xml:id="gom-Isam1-Rd1e451"><name xml:id="gom-Isam1-Nd1e452" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam1-Qd1e455">Quia Anna Dominum devote postulavit, concepit et peperit. Sic Ecclesia per naturalem intellectum orans, mysterium incarnationis corde concepit, ore confessionis genuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e459">
+          <head xml:id="gom-Isam1-Hd1e461">Versus 20</head>
+          <p xml:id="gom-Isam1-d1e463">
+            <quote xml:id="gom-Isam1-Qd1e465" type="lemma" source="http://scta.info/resource/Isam1_20@12-15">Vocavitque nomen ejus Samuel.</quote>
+            Id est Deus. Annae primogenitus propheta. Quis est hic nisi Dominicus homo?
+          </p>
+          <p xml:id="gom-Isam1-d1e469">
+            <ref xml:id="gom-Isam1-Rd1e471" type="lemma" subtype="implied" target="http://scta.info/resource/Isam1_20@12-15"/>
+            <ref xml:id="gom-Isam1-Rd1e473"><name xml:id="gom-Isam1-Nd1e474" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam1-Qd1e477">Samuel postulatio Dei vel nomen ejus: <pb ed="#P" n="0541C"/> actor, scilicet nativitatis ejus Deus, quia sterili oranti concessit filium, qui cunctis diebus sibi in templo deserviret.</quote>
+          </p>
+          <p xml:id="gom-Isam1-d1e483">
+            <ref xml:id="gom-Isam1-Rd1e485" type="lemma" subtype="implied" target="http://scta.info/resource/Isam1_20@12-15"/>
+            <ref xml:id="gom-Isam1-Rd1e487"><name xml:id="gom-Isam1-Nd1e488" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam1-Qd1e491"><seg type="qs">Ecclesia ex nationibus</seg>, etc., usque ad <seg type="qs">cum perfecta fide incarnationis junxit se primitivae Ecclesiae ex Judaeis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e500">
+          <head xml:id="gom-Isam1-Hd1e502">Versus 23</head>
+          <p xml:id="gom-Isam1-d1e504">
+            <quote xml:id="gom-Isam1-Qd1e506" type="lemma" source="http://scta.info/resource/Isam1_23@17-20">Precorque ut impleat Dominus.</quote>
+            Quod vovisti, vel suum quod promisit per Heli. cum ait: <quote xml:id="gom-Isam1-Qd1e509" source="http://scta.info/resource/Isam1_17@11-13">Det tibi Deus petitionem,</quote> etc.
+          </p>
+          <p xml:id="gom-Isam1-d1e513">
+            <quote xml:id="gom-Isam1-Qd1e515" type="lemma" source="http://scta.info/resource/Isam1_23@23-34">Mansit ergo mulier et lactavit filium suum donec amoveret eum a lacte. Et adduxit.</quote>
+            Non vult Anna puerum ducere ad domum Dei antequam ablactetur: quia Ecclesia nullum ad sacerdotium provehit dum lactis infantiae particeps est, non solidi cibi et intelligentiae spiritalis capax.
+          </p>
+          <p xml:id="gom-Isam1-d1e519">
+            <pb ed="#P" n="0541D"/>
+            <ref xml:id="gom-Isam1-Rd1e523" type="lemma" subtype="implied" target="http://scta.info/resource/Isam1_23@23-34"/>
+            <ref xml:id="gom-Isam1-Rd1e525"><name xml:id="gom-Isam1-Nd1e526" ref="#Jerome">HIERON.</name>, lib. de Trad. Hebr. in lib. Reg.</ref>
+            <quote xml:id="gom-Isam1-Qd1e530">In Hebraeo: <quote xml:id="gom-Isam1-Qd1e532">Modio farinae,</quote> sed vitio scriptorum depravatum est. Si enim cum tribus vitulis tres modios farinae obtulit contra legem fecit, in qua dicitur: Vitulum de armento unum, arietem unum, agnos agniculos immaculatos septem, in sacrificiis eorum similae oleo conspersae tres decimas per singulos vitulos, duas decimas per arietem, unam decimam per agnum. Haec vero decima, pars decima ephi erat. Unde intelligitur, quod Elcana non obtulit tres modios farinae, cum tribus vitulis, sed novem decimas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam1-Dd1e537">
+          <head xml:id="gom-Isam1-Hd1e539">Versus 19</head>
+          <p xml:id="gom-Isam1-d1e541">
+            <quote xml:id="gom-Isam1-Qd1e543" type="lemma" source="http://scta.info/resource/Isam1_19@4-5">Et adoraverunt.</quote>
+            <ref xml:id="gom-Isam1-Rd1e546"><name xml:id="gom-Isam1-Nd1e547" ref="#Origen">ORIG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-Isam1-Qd1e551"><seg type="qs">Non invenitur orare in hoc cantico</seg>, etc., usque ad <seg type="qs">si autem dimiserit, vincit Amalec inimicus Dei</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

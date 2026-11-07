@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 66</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 66</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0939D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps66">
+        <head xml:id="gom-ps66-Hd1e98">Psalmus 66</head>
+        <div xml:id="gom-ps66-Dd1e100">
+          <head xml:id="gom-ps66-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps66-d1e104">
+            <quote xml:id="gom-ps66-Qd1e106" type="lemma" source="http://scta.info/resource/ps66_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps66-Rd1e109"><name xml:id="gom-ps66-Nd1e110" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e113">Post canticum resurrectionis, deprecationem <pb ed="#P" n="0940A"/> suam Propheta subdit, ut benedicti ad Dei cognitionem ducantur. Prophetat benedictionem omnium per adventum Christi.</quote>
+          </p>
+          <p xml:id="gom-ps66-d1e119">
+            <ref xml:id="gom-ps66-Rd1e121" type="lemma" subtype="implied" target="http://scta.info/resource/ps66_1@1-2"/>
+            <ref xml:id="gom-ps66-Rd1e123"><name xml:id="gom-ps66-Nd1e124" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e127">Quia in praecedenti psalmo monuerat nos benedicere Deum; quod non possumus, nisi ipse prior benedicat nos; ideo hoc precatur benedici, dicens: <quote xml:id="gom-ps66-Qd1e129" source="http://scta.info/resource/ps66_2@1-5">Deus misereatur nostri et benedicat,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps66-Dd1e135">
+          <head xml:id="gom-ps66-Hd1e137">Versus 2</head>
+          <p xml:id="gom-ps66-d1e139">
+            <quote xml:id="gom-ps66-Qd1e141" type="lemma" source="http://scta.info/resource/ps66_2@1-2">Deus misereatur.</quote>
+            <ref xml:id="gom-ps66-Rd1e144"><name xml:id="gom-ps66-Nd1e145" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e148">Prior est benedictio Dei, quae est quasi pluvia terram nostrae mentis irrigans: inde nos benedicimus eum, quod quasi fructus est, et in utroque nos crescimus, non ipse. Dicat ergo desiderans pluviam Dominicae benedictionis: Deus misereatur, etc.</quote>
+          </p>
+          <p xml:id="gom-ps66-d1e151">
+            <quote xml:id="gom-ps66-Qd1e153" type="lemma" source="http://scta.info/resource/ps66_2@1-5">Deus misereatur nostri et benedicat.</quote>
+            <ref xml:id="gom-ps66-Rd1e156"><name xml:id="gom-ps66-Nd1e157" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e160"><seg type="qs">Sed qui multi volunt</seg>, etc., usque ad <seg type="qs">et quia cognoscitur in gentibus Christus: <pb ed="#P" n="0940B"/> <quote xml:id="gom-ps66-Qd1e168" source="http://scta.info/resource/ps66_4@1-1">Confiteantur,</quote> etc.</seg></quote>
+          </p>
+          <p xml:id="gom-ps66-d1e173">
+            <quote xml:id="gom-ps66-Qd1e175" type="lemma" source="http://scta.info/resource/ps66_2@5-6">Benedicat nobis.</quote>
+            <ref xml:id="gom-ps66-Rd1e178"><name xml:id="gom-ps66-Nd1e179" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e182">Benedicit Creator creaturae, multiplicando, numero et merito. Benedicit creatura Creatori, eum corde, voce et opere, laudando, et omne bonum, quod habet, ei ascribendo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps66-Dd1e186">
+          <head xml:id="gom-ps66-Hd1e188">Versus 4</head>
+          <p xml:id="gom-ps66-d1e190">
+            <quote xml:id="gom-ps66-Qd1e192" type="lemma" source="http://scta.info/resource/ps66_4@1-4">Confiteantur tibi populi, Deus.</quote>
+            <ref xml:id="gom-ps66-Rd1e195"><name xml:id="gom-ps66-Nd1e196" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e199">Post notitiam hortatur confiteri pro directione et judicio.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps66-Dd1e203">
+          <head xml:id="gom-ps66-Hd1e205">Versus 5</head>
+          <p xml:id="gom-ps66-d1e207">
+            <quote xml:id="gom-ps66-Qd1e209" type="lemma" source="http://scta.info/resource/ps66_5@1-3">Laetentur et exsultent.</quote>
+            <ref xml:id="gom-ps66-Rd1e212"><name xml:id="gom-ps66-Nd1e213" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e216">Quia jam confessi non timent futura judicia, quibus Christus est advocatus, non judex, <quote xml:id="gom-ps66-Qd1e218" source="http://scta.info/resource/ps66_5@1-1">laetentur.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps66-Dd1e224">
+          <head xml:id="gom-ps66-Hd1e226">Versus 6</head>
+          <p xml:id="gom-ps66-d1e228">
+            <quote xml:id="gom-ps66-Qd1e230" type="lemma" source="http://scta.info/resource/ps66_6@1-4">Confiteantur tibi populi, Deus.</quote>
+            <ref xml:id="gom-ps66-Rd1e233"><name xml:id="gom-ps66-Nd1e234" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e237">Eadem admonitio ad aliud tendens, quia terra dedit fructum, et si idem initium sensus, tamen ad diversa tendit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps66-Dd1e241">
+          <head xml:id="gom-ps66-Hd1e243">Versus 7</head>
+          <p xml:id="gom-ps66-d1e245">
+            <pb ed="#P" n="0940C"/>
+            <quote xml:id="gom-ps66-Qd1e249" type="lemma" source="http://scta.info/resource/ps66_7@1-4">Terra dedit fructum suum.</quote>
+            <ref xml:id="gom-ps66-Rd1e252"><name xml:id="gom-ps66-Nd1e253" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e256"><seg type="qs">Mariae Christum</seg>, etc., usque ad: <seg type="qs">Sed non illa sola hoc debet, imo, <quote xml:id="gom-ps66-Qd1e262" source="http://scta.info/resource/ps66_7@6-6">Benedicat</quote> etiam <quote xml:id="gom-ps66-Qd1e265" source="http://scta.info/resource/ps66_7@7-10">nos. Deus, Deus noster.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps66-d1e269">
+            <ref xml:id="gom-ps66-Rd1e271" type="lemma" subtype="implied" target="http://scta.info/resource/ps66_7@1-4"/>
+            <ref xml:id="gom-ps66-Rd1e273"><name xml:id="gom-ps66-Nd1e274" ref="#Jerome">Ibid.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e277">Ter trinitas, <quote xml:id="gom-ps66-Qd1e279" source="http://scta.info/resource/ps66_8@6-6">eum,</quote> unitas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps66-Dd1e285">
+          <head xml:id="gom-ps66-Hd1e287">Versus 8</head>
+          <p xml:id="gom-ps66-d1e289">
+            <quote xml:id="gom-ps66-Qd1e291" type="lemma" source="http://scta.info/resource/ps66_8@4-6">Et metuant eum.</quote>
+            <ref xml:id="gom-ps66-Rd1e294"><name xml:id="gom-ps66-Nd1e295" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps66-Qd1e298">Metus inter beneficia postulatur, ut credita caute custodiantur: Timor Dei incipit, et consummat; qui timere novit, amare non desinit.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1175B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap12">
+        <head xml:id="gom-sap12-Hd1e98">Caput 12</head>
+        <p xml:id="gom-sap12-d1e100">
+          <quote xml:id="gom-sap12-Qd1e102" type="lemma">O Quam bonus et suavis,</quote>
+          <!-- check: lemma not matched to verse text -->
+          etc. Per eos quos reples, vel per alios quos volueris; unde: <quote xml:id="gom-sap12-Qd1e107" source="http://scta.info/resource/io16_8@4-14">Ille arguet mundum de peccato, et de justitia, et de judicio</quote>.
+        </p>
+        <div xml:id="gom-sap12-Dd1e111">
+          <head xml:id="gom-sap12-Hd1e113">Versus 3</head>
+          <p xml:id="gom-sap12-d1e115">
+            <quote xml:id="gom-sap12-Qd1e117" type="lemma" source="http://scta.info/resource/sap12_3@2-5">Illos enim antiquos inhabitatores.</quote>
+            <ref xml:id="gom-sap12-Rd1e120"><name xml:id="gom-sap12-Nd1e121" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap12-Qd1e124"><seg type="qs">Historialiter dicit</seg>, etc., usque ad <seg type="qs">virtutes adjuvante <pb ed="#P" n="1175C"/> Spiritu sancto, utiles fructus afferent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap12-Dd1e135">
+          <head xml:id="gom-sap12-Hd1e137">Versus 12</head>
+          <p xml:id="gom-sap12-d1e139">
+            <quote xml:id="gom-sap12-Qd1e141" type="lemma" source="http://scta.info/resource/sap12_12@1-3">Quis enim dicet,</quote>
+            etc.
+            <ref xml:id="gom-sap12-Rd1e144"><name xml:id="gom-sap12-Nd1e145" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap12-Qd1e148">Manifesta ratione ostendit, quod non est contradicendum Creatori, si creaturam suam secundum propriam disponit voluntatem: quia in voluntate ejus universa sunt posita, et non est qui possit resistere ei. <quote xml:id="gom-sap12-Qd1e150" source="http://scta.info/resource/ps144_17@1-6">Justus est in omnibus viis suis</quote>; unde sequitur, <quote xml:id="gom-sap12-Qd1e153" source="http://scta.info/resource/sap12_15@1-4">Cum ergo sis justus<!-- check: Migne cites rom9; text matches sap12_15 --></quote>, etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap12-Dd1e160">
+          <head xml:id="gom-sap12-Hd1e162">Versus 16</head>
+          <p xml:id="gom-sap12-d1e164">
+            <quote xml:id="gom-sap12-Qd1e166" type="lemma" source="http://scta.info/resource/sap12_16@1-2">Virtus enim,</quote>
+            etc. Quia judicium Dei, sive in correctione electorum, sive in damnatione malorum, summae aequitatis perfectio est: et ideo per bonitatem suam diu differendo suspendit judicium, ut plures habeat, quibus reddat beneficium. Quando enim creatura se erigit contra Creatorem justa punitur vindicta, ut se inferiorem cognoscat. <pb ed="#P" n="1175D"/> Possunt haec ad passionem Christi referri, quem Pater pro nobis in mortem tradidit, et eum, qui non noverat peccatum, pro nobis peccatum fecit: qui nisi indebitam mortem susciperet, non nos a debita morte liberaret. Pater ergo justus justum puniens, juste omnia disponit. Omnipotens Deus cum summa tranquillitate judicat omnia: humani tamen affectus et membra, ei tropica locutione ascribuntur, ut secundum capacitatem nostram conformentur eloquia divina. Leguntur enim in Scripturis: oculi Domini, aures, manus, os, pedes, ira, furor, et hujusmodi, cum simplex natura nunquam recipiat varietatem, nec vera unitas divisionem. Multiplicia vero et diversa unus et idem operatur: Unde: <quote xml:id="gom-sap12-Qd1e171" source="http://scta.info/resource/ps101_28@1-8">Mutabis eos, et <pb ed="#P" n="1176A"/> mutabuntur: tu autem ipse es, et anni tui</quote>, etc. Et alibi: <quote xml:id="gom-sap12-Qd1e176" source="http://scta.info/resource/mal3_6@1-6">Ego sum Deus, et non mutor</quote>. Et alibi: <quote xml:id="gom-sap12-Qd1e179" source="http://scta.info/resource/iac1_17@14-18">Apud quem non est transmutatio</quote>, etc. Docuisti autem populum tuum: per mirifica opera Dei instruuntur fideles, ne complicentur iniquis; sed studeant se incontaminatos servare confitendo, et sperando in Domino, et non negligant poenitentiae tempus.
+          </p>
+        </div>
+        <div xml:id="gom-sap12-Dd1e185">
+          <head xml:id="gom-sap12-Hd1e187">Versus 15</head>
+          <p xml:id="gom-sap12-d1e189">
+            <quote xml:id="gom-sap12-Qd1e191" type="lemma" source="http://scta.info/resource/sap12_15@1-3">Cum ergo,</quote>
+            etc. Unde: <quote xml:id="gom-sap12-Qd1e194" source="http://scta.info/resource/ps31_10@1-10">Multa flagella peccatoris, sperantem autem in Domino misericordia circumdabit</quote>. Magna distantia est inter judicium electorum et reproborum. Illos Dominus corripit, ut emendet; hi superbiae et perfidiae poenas luunt, ut contra dominatorem omnium se repugnare non posse cognoscant. Felix judex qui pietatem et bonitatem <pb ed="#P" n="1176B"/> sui judicis semper inspicit. <quote xml:id="gom-sap12-Qd1e199" source="http://scta.info/resource/iac2_13@1-9">Judicium enim sine misericordia illi qui non fecit misericordiam.</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sap12-Dd1e204">
+          <head xml:id="gom-sap12-Hd1e206">Versus 23</head>
+          <p xml:id="gom-sap12-d1e208">
+            <quote xml:id="gom-sap12-Qd1e210" type="lemma" source="http://scta.info/resource/sap12_23@8-8">Insensate,</quote>
+            etc., ut qui nolebant Creatorem agnoscere et honorare, digne traditi in reprobum sensum, facerent, ea, quae non conveniunt, contumeliis afficientes corpora sua in semetipsis: <quote xml:id="gom-sap12-Qd1e213" source="http://scta.info/resource/rom1_25@1-14">Quia commutaverunt veritatem Dei in mendacium, et servierunt creaturae potius quam Creatori</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sap12-Dd1e218">
+          <head xml:id="gom-sap12-Hd1e220">Versus 26</head>
+          <p xml:id="gom-sap12-d1e222">
+            <quote xml:id="gom-sap12-Qd1e224" type="lemma" source="http://scta.info/resource/sap12_26@1-3">Qui autem ludibriis,</quote>
+            etc. Id est, qui a Deo flagellati non sunt correcti, condignam damnationem experti sunt: ad hoc corripit Deus, ut emendet. Qui autem ingratus et impatiens murmurat, de temporali tormento ducitur ad aeternum.
+          </p>
+        </div>
+        <div xml:id="gom-sap12-Dd1e229">
+          <head xml:id="gom-sap12-Hd1e231">Versus 27</head>
+          <p xml:id="gom-sap12-d1e233">
+            <quote xml:id="gom-sap12-Qd1e235" type="lemma" source="http://scta.info/resource/sap12_27@1-3">In his enim,</quote>
+            etc.
+            <ref xml:id="gom-sap12-Rd1e238"><name xml:id="gom-sap12-Nd1e239" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap12-Qd1e242"><seg type="qs">Gentilitas <pb ed="#P" n="1176C"/> dum idolis serviebat</seg>, etc., usque ad <seg type="qs">incorrectis aeternam poenam infligit.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

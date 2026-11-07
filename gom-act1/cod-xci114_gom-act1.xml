@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0425C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act1">
+        <head xml:id="gom-act1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-act1-Dd1e100">
+          <head xml:id="gom-act1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-act1-d1e104">
+            <quote xml:id="gom-act1-Qd1e106" type="lemma" source="http://scta.info/resource/act1_1@3-4">Sermonem feci.</quote>
+            Id est, scripsi: quia scribere est operari. Vel hoc ita dicit, quia factis meruit esse scriptor Evangelii.
+          </p>
+          <p xml:id="gom-act1-d1e110">
+            <quote xml:id="gom-act1-Qd1e112" type="lemma" source="http://scta.info/resource/act1_1@4-4">Feci.</quote>
+            Totus liber Evangelii unus sermo dicitur, eo quod habeat unum sensum: aut singulare pro plurali. Evangelium est bona annuntiatio, qua annuntiatur requies post laborem, regnum post servitium, vita post mortem.
+          </p>
+          <p xml:id="gom-act1-d1e116">
+            <quote xml:id="gom-act1-Qd1e118" type="lemma" source="http://scta.info/resource/act1_1@5-6">De omnibus.</quote>
+            Dictis et factis Christi quae judicavit officio digna vel idonea suae dispensationi.
+          </p>
+          <p xml:id="gom-act1-d1e122">
+            <quote xml:id="gom-act1-Qd1e124" type="lemma" source="http://scta.info/resource/act1_1@8-8">Theophile.</quote>
+            Theophilus idem est quod Dei amicus, vel Dei amator: et si tu sis amicus Dei, tibi scribitur. <pb ed="#P" n="0425D"/>
+          </p>
+          <p xml:id="gom-act1-d1e131">
+            <quote xml:id="gom-act1-Qd1e133" type="lemma" source="http://scta.info/resource/act1_1@9-12">Quae coepit Jesus facere.</quote>
+            A baptismo Joannis quo Jesus baptizatus est, <quote xml:id="gom-act1-Qd1e136" source="http://scta.info/resource/act1_2@1-3">usque in diem</quote> quo assumptus est in coelum: quia de toto illo tempore Lucas sermones texuit, qui in fine Evangelii ita scripsit: <quote xml:id="gom-act1-Qd1e139" source="http://scta.info/resource/lc24_51@5-13">Cum benedixisset, recessit ab eis et ferebatur in coelum. Facere.</quote> Bonum doctorem instituit vel instruit, qui faciat quod docet.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e144">
+          <head xml:id="gom-act1-Hd1e146">Versus 2</head>
+          <p xml:id="gom-act1-d1e148">
+            <quote xml:id="gom-act1-Qd1e150" type="lemma" source="http://scta.info/resource/act1_2@5-6">Praecipiens apostolis</quote>
+            praedicare Evangelium <quote xml:id="gom-act1-Qd1e153" source="http://scta.info/resource/act1_2@7-9">per Spiritum sanctum,</quote> per quem praedicatum est Evangelium, quia verba inspirabat, et fiduciam tribuebat. Vel, <quote xml:id="gom-act1-Qd1e156" source="http://scta.info/resource/act1_2@5-9">praecipiens per Spiritum sanctum,</quote> id est, quod Filius praecipit, praecipit et hoc Spiritus <pb ed="#P" n="0426C"/> sanctus. Vel, propter Spiritum praecepit, quia non praeciperet nisi Spiritus venturus esset.
+          </p>
+          <p xml:id="gom-act1-d1e162">
+            <quote xml:id="gom-act1-Qd1e164" type="lemma" source="http://scta.info/resource/act1_2@11-11">Elegit.</quote>
+            Hoc ad laudem apostolorum, quorum actus scribere proponit, vertitur.
+          </p>
+          <p xml:id="gom-act1-d1e168">
+            <quote xml:id="gom-act1-Qd1e170" type="lemma" source="http://scta.info/resource/act1_2@12-12">Assumptus.</quote>
+            A Divinitate, vel a nube assumptus, quasi verus homo.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e175">
+          <head xml:id="gom-act1-Hd1e177">Versus 3</head>
+          <p xml:id="gom-act1-d1e179">
+            <quote xml:id="gom-act1-Qd1e181" type="lemma" source="http://scta.info/resource/act1_3@6-6">Vivum.</quote>
+            Corpus vivum et proprium, non phantasticum quod et apostoli cognoverunt tanquam notissimum. Aut vivum, eo quod post mortem vivebat. Vel vivum, id est amplius non moriturum.
+          </p>
+          <p xml:id="gom-act1-d1e185">
+            <quote xml:id="gom-act1-Qd1e187" type="lemma" source="http://scta.info/resource/act1_3@13-14">Per dies.</quote>
+            Non tamen eis per quadraginta dies continuos apparuit: post diem enim resurrectionis alios quatuor dies intervenisse Joannes dicit. Post quos rursus apparuit per quadraginta: quia quadraginta horis mortuus fuerat, quadraginta diebus se vivere confirmat. Et per quadraginta <pb ed="#P" n="0426D"/> typus praesentis saeculi, quo Christus in Ecclesia versatur, potest intelligi: sive quia homo quatuor constans elementis, eruditur contra transgressionem Decalogi.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e194">
+          <head xml:id="gom-act1-Hd1e196">Versus 4</head>
+          <p xml:id="gom-act1-d1e198">
+            <quote xml:id="gom-act1-Qd1e200" type="lemma" source="http://scta.info/resource/act1_4@2-2">Convescens.</quote>
+            Signa veri corporis annuntiat, quia non uno corporis sensu, sed visu, auditu, tactu, apparendo, loquendo, convescendo probavit se resurrexisse.
+          </p>
+          <p xml:id="gom-act1-d1e204">
+            <quote xml:id="gom-act1-Qd1e206" type="lemma" source="http://scta.info/resource/act1_4@11-11">Promissionem,</quote>
+            quam promisit per Joel, ut habetur in sequentibus: et si a Christo facta, a Patre tamen complebitur. Vel <mentioned>Patris</mentioned> dicitur, quia in ejus Verbo, id est Christo, promittitur.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e214">
+          <head xml:id="gom-act1-Hd1e216">Versus 5</head>
+          <p xml:id="gom-act1-d1e218">
+            <pb ed="#P" n="0427A"/>
+            <quote xml:id="gom-act1-Qd1e222" type="lemma" source="http://scta.info/resource/act1_5@1-2">Quia Joannes.</quote>
+            <ref xml:id="gom-act1-Rd1e225"><name xml:id="gom-act1-Nd1e226" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act1-Qd1e229"><seg type="qs">Cum diceret Dominus: Quia Joannes baptizavit aqua, vos autem</seg>, etc., usque ad <seg type="qs">quod in baptismo Joannis non fiebat.</seg></quote>
+          </p>
+          <p xml:id="gom-act1-d1e237">
+            <ref xml:id="gom-act1-Rd1e239" type="lemma" subtype="implied" target="http://scta.info/resource/act1_5@1-2"/>
+            Baptisma datur in duabus naturis, corporali scilicet et spirituali: quia homo qui baptizatur, duobus constat: corpore scilicet et anima, tamen unum est baptisma, sicut unus homo.
+          </p>
+          <p xml:id="gom-act1-d1e242">
+            <quote xml:id="gom-act1-Qd1e244" type="lemma" source="http://scta.info/resource/act1_5@6-7">Vos autem,</quote>
+            etc. Quando Petrus negavit, non erant apostoli baptizati; non aqua, sed spiritu: post resurrectionem enim dictum est: <quote xml:id="gom-act1-Qd1e247" source="http://scta.info/resource/act1_5@6-10">Vos vero baptizabimini Spiritu sancto.</quote> Nondum enim resurrectione Christi et missione Spiritus confirmati erant. Sicut autem justis circumcisio non fuit necessaria, antequam imperaretur Abrahae et posteritati suae: sic <pb ed="#P" n="0427B"/> postquam sacramentum Novi Testamenti, id est baptisma, circumcisionis loco datum est a Domino dicente: <quote xml:id="gom-act1-Qd1e252" source="http://scta.info/resource/io3_5@7-14">Nisi quis renatus fuerit ex aqua et Spiritu sancto</quote>, etc., certum est nullum ad corpus Christi pertinere, nisi baptizatum, praeter eos quibus passio deputatur pro baptismo. Item scriptum est, quando Paulus baptizatus est: et non est scriptum quando alii apostoli baptizati sunt: sed debemus intelligere baptizatos esse propter illud: <quote xml:id="gom-act1-Qd1e255" source="http://scta.info/resource/io3_5@7-10">Nisi quis renatus fuerit,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e260">
+          <head xml:id="gom-act1-Hd1e262">Versus 7</head>
+          <p xml:id="gom-act1-d1e264">
+            <quote xml:id="gom-act1-Qd1e266" type="lemma" source="http://scta.info/resource/act1_7@4-7">Non est vestrum nosse.</quote>
+            Non ait, non erit, sed <quote xml:id="gom-act1-Qd1e269" source="http://scta.info/resource/act1_7@4-5">non est:</quote> notans adhuc esse infirmos, et ideo ad secretum cognoscendum non esse idoneos: Cum vero ait: <quote xml:id="gom-act1-Qd1e272" source="http://scta.info/resource/act1_7@4-7">Non est vestrum nosse,</quote> ostendit <pb ed="#P" n="0427C"/> quod ipse sciat, cujus sunt omnia quae Patris, sed eis non expedit nosse, sed ita vivant quasi quotidie judicandi.
+          </p>
+          <p xml:id="gom-act1-d1e278">
+            <quote xml:id="gom-act1-Qd1e280" type="lemma" source="http://scta.info/resource/act1_7@11-12">Quae Pater.</quote>
+            Illius, inquit, regni tam secretum est tempus, ut tantum scientiae Patris pateat, <quote xml:id="gom-act1-Qd1e283" source="http://scta.info/resource/act1_8@1-6">sed accipietis virtutem Spiritus sancti,</quote> ut quod propter infirmitatem carnis non potestis, possitis ex virtute Spiritus sancti.
+          </p>
+          <p xml:id="gom-act1-d1e287">
+            <quote xml:id="gom-act1-Qd1e289" type="lemma" source="http://scta.info/resource/act1_7@14-16">In sua potestate.</quote>
+            Hoc ut verus homo excusabiliter dixit, sed tantum una est Patris et Filii et Spiritus sancti potestas: Filius etiam potestas Patris est.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e294">
+          <head xml:id="gom-act1-Hd1e296">Versus 8</head>
+          <p xml:id="gom-act1-d1e298">
+            <quote xml:id="gom-act1-Qd1e300" type="lemma" source="http://scta.info/resource/act1_8@1-2">Sed accipietis.</quote>
+            Tollitur scientia temporum, sed divinum, quo indigent, adhibetur auxilium: hoc modo, cum pueris aliquid tollitur, aliud datur ne penitus tristentur.
+          </p>
+          <p xml:id="gom-act1-d1e304">
+            <quote xml:id="gom-act1-Qd1e306" type="lemma" source="http://scta.info/resource/act1_8@4-6">Supervenientis Spiritus sancti.</quote>
+            Cum superveniet Spiritus in vos, non regnum <pb ed="#P" n="0427D"/> Israel, sive regnum Dei in Israel, ut putatis, afferet, sed virtutem testificandi de me vobis praestabit, tantumque illius regni tempus longe est, ut prius non solum Hierosolymam, sed omnes fines Judaeae et Samariae, mundi etiam terminos per circuitum fama Evangelii percurrat.
+          </p>
+          <p xml:id="gom-act1-d1e312">
+            <quote xml:id="gom-act1-Qd1e314" type="lemma" source="http://scta.info/resource/act1_8@13-18">In Jerusalem et in omni Judaea.</quote>
+            Consequentia ordinis in vocabulis locorum conservata est: Jerusalem succedit proxima Judaeae provincia, cui Samaria situ conjungitur, dehinc omnis terrae communio subinfertur.
+          </p>
+          <p xml:id="gom-act1-d1e318">
+            <quote xml:id="gom-act1-Qd1e320" type="lemma" source="http://scta.info/resource/act1_8@13-14">In Jerusalem.</quote>
+            Mystice: in visione pacis, in confessione verae fidei: custodia praeceptorum Dei: et in his qui se in alienos fecerint a terra praedicaturos eos praedixit, per quos quasi rotae radios de medio terrae ubi salutem <pb ed="#P" n="0428A"/> operatus est, gratia spiritualis et salutaris doctrina per totum orbem defluxit.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e327">
+          <head xml:id="gom-act1-Hd1e329">Versus 9</head>
+          <p xml:id="gom-act1-d1e331">
+            <quote xml:id="gom-act1-Qd1e333" type="lemma" source="http://scta.info/resource/act1_9@1-4">Et cum haec dixisset.</quote>
+            Aliter Marcus commemorat dicens: <quote xml:id="gom-act1-Qd1e336" source="http://scta.info/resource/mt28_18@1-13">Et Dominus quidem Jesus postquam locutus est eis, assumptus est in coelum</quote>. Sed quia Lucas significantius adjecit: <quote xml:id="gom-act1-Qd1e339" source="http://scta.info/resource/act1_9@2-8">Cum haec dixisset, elevatus est,</quote> completis illis sermonibus quos commemoraverat Dominum ascendisse coelos ostendit.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e344">
+          <head xml:id="gom-act1-Hd1e346">Versus 11</head>
+          <p xml:id="gom-act1-d1e348">
+            <quote xml:id="gom-act1-Qd1e350" type="lemma" source="http://scta.info/resource/act1_11@5-10">Galilaei, quid statis aspicientes in coelum?</quote>
+            In quibus debet esse prudentior sensus, quia Galilaei caeteris Judaeis in sapientia praecellebant. Vel, Galilaei volubiles, quia instabilitate sui sensus obliti erunt praecepta Dei.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e355">
+          <head xml:id="gom-act1-Hd1e357">Versus 12</head>
+          <p xml:id="gom-act1-d1e359">
+            <quote xml:id="gom-act1-Qd1e361" type="lemma" source="http://scta.info/resource/act1_12@1-3">Tunc reversi sunt,</quote>
+            etc. Reversio <pb ed="#P" n="0428B"/> apostolorum de monte Oliveti Jerusalem, significat Ecclesiam quae de activa in contemplativam ascendens, iterum descendit in conversationem activalem. Mons enim Oliveti ab antiquis mons trium luminum vocabatur: lucernae scilicet de templo resplendentis, ac solis ex altera parte orientis, et olei in ipso monte naturalis lucis: quae tria conveniunt perfectioni propter divini Verbi lucem de Ecclesia fulgentem, propter solis justitiae fulgorem, propter purae conscientiae nitorem.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e369">
+          <head xml:id="gom-act1-Hd1e371">Versus 13</head>
+          <p xml:id="gom-act1-d1e373">
+            <quote xml:id="gom-act1-Qd1e375" type="lemma" source="http://scta.info/resource/act1_13@1-3">Et cum introissent.</quote>
+            In Graeco ita ponitur: <quote xml:id="gom-act1-Qd1e378" source="http://scta.info/resource/act1_13@2-9">Cum introissent civitatem, in coenaculum ascenderunt, ubi erant manentes Petrus,</quote> etc. In Graeco sic est ordo nominum: <quote xml:id="gom-act1-Qd1e381" source="http://scta.info/resource/act1_13@9-28">Petrus et Andraeas, Jacobus et Joannes, Simon Zelotes et Judas Jacobi. Coenaculum,</quote> <pb ed="#P" n="0428C"/> etc.
+          </p>
+          <p xml:id="gom-act1-d1e387">
+            <ref xml:id="gom-act1-Rd1e389" type="lemma" subtype="implied" target="http://scta.info/resource/act1_13@1-3"/>
+            <ref xml:id="gom-act1-Rd1e391"><name xml:id="gom-act1-Nd1e392" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act1-Qd1e395">Locus est in superiori, designans quod a terra sublati ad superiora scientiae et virtutis conscendunt.</quote>
+          </p>
+          <p xml:id="gom-act1-d1e398">
+            <ref xml:id="gom-act1-Rd1e400" type="lemma" subtype="implied" target="http://scta.info/resource/act1_13@1-3"/>
+            Coenaculum dicitur tertium tectum, figura charitatis fidei superaedificatae et spei. Charitas autem diffusa est in cordibus nostris per Spiritum.
+          </p>
+          <p xml:id="gom-act1-d1e403">
+            <quote xml:id="gom-act1-Qd1e405" type="lemma" source="http://scta.info/resource/act1_13@9-11">Petrus et Joannes.</quote>
+            Petrus primus ponitur, quia princeps et pastor. Petrus et Joannes merito primi ponuntur, qui simul cucurrerunt ad monumentum, quia plus caeteris amabant. Primus (si fas est dici) plus caeteris dilexit: alium, plurimum Jesus amavit. Catalogus apostolorum ideo ponitur, ne extra hos aliqui falsi recipiantur: paria et ponuntur loca singulorum, distinguentibus gradibus meritorum.
+          </p>
+          <p xml:id="gom-act1-d1e410">
+            <ref xml:id="gom-act1-Rd1e412" type="lemma" subtype="implied" target="http://scta.info/resource/act1_13@9-11"/>
+            Hi sunt duodecim filii Jacob; duodecim fontes <pb ed="#P" n="0428D"/> deserti, quos Israel reperit in Elim; duodecim panes propositionis; duodecim lapides in veste pontificis; duodecim signa zodiaci; duodecim lapides altaris; duodecim lapides de Jordane elevati; duodecim boves sub aeneo mari; duodecim stellae in corona sponsae; duodecim fundamenta; duodecim portae; duodecim menses anni; duodecim horae diei; duodecim fructus ligni vitae.
+          </p>
+          <p xml:id="gom-act1-d1e417">
+            <quote xml:id="gom-act1-Qd1e419" type="lemma" source="http://scta.info/resource/act1_13@25-25">Zelotes.</quote>
+            <ref xml:id="gom-act1-Rd1e422"><name xml:id="gom-act1-Nd1e423" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act1-Qd1e426">Zelotes ipse est qui in Evangeliis dicitur Chananaeus. Chana <mentioned>zelus</mentioned> interpretatur. Erat enim de vico Galilaeae ubi Dominus aquam convertit in vinum. Hic post Jacobum fratrem suum, rexit Ecclesiam Hierosolymorum.</quote>
+          </p>
+          <p xml:id="gom-act1-d1e432">
+            <ref xml:id="gom-act1-Rd1e434" type="lemma" subtype="implied" target="http://scta.info/resource/act1_13@25-25"/>
+            Filio pereunte perditionis, imperfectus numerus <pb ed="#P" n="0429A"/> apostolorum remansit, juxta similitudinem enim lunae crescit et decrescit Ecclesia: sed vetera transeunt, et nova fiunt.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e440">
+          <head xml:id="gom-act1-Hd1e442">Versus 14</head>
+          <p xml:id="gom-act1-d1e444">
+            <quote xml:id="gom-act1-Qd1e446" type="lemma" source="http://scta.info/resource/act1_14@11-11">Maria,</quote>
+            etc. Virgo a mulieribus distinguitur, quae tamen aliquando mulier non pro corruptione, sed pro sexu appellatur. Ecce principium nascentis Ecclesiae adornatur flore virginitatis.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e451">
+          <head xml:id="gom-act1-Hd1e453">Versus 15</head>
+          <p xml:id="gom-act1-d1e455">
+            <quote xml:id="gom-act1-Qd1e457" type="lemma" source="http://scta.info/resource/act1_15@7-9">In medio fratrum.</quote>
+            Id est filiorum, quorum unus est Pater in coelis.
+          </p>
+          <p xml:id="gom-act1-d1e461">
+            <ref xml:id="gom-act1-Rd1e463" type="lemma" subtype="implied" target="http://scta.info/resource/act1_15@7-9"/>
+            In medio Petrus stetisse dicitur: quasi communi miseratione condescendens. Hoc exemplum sumendum est pastoribus Ecclesiae.
+          </p>
+          <p xml:id="gom-act1-d1e466">
+            <ref xml:id="gom-act1-Rd1e468" type="lemma" subtype="implied" target="http://scta.info/resource/act1_15@7-9"/>
+            Hic numerus centum et viginti congruit aetati Moysi, ut sicut sub hoc numero, Moyse defuncto, Jesus successit, qui populum in terram promissionis <pb ed="#P" n="0429B"/> induxit, sic veteri legi in Ecclesia principatus Christi successit, ducens verum Israel ad regnum coeli.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e474">
+          <head xml:id="gom-act1-Hd1e476">Versus 18</head>
+          <p xml:id="gom-act1-d1e478">
+            <quote xml:id="gom-act1-Qd1e480" type="lemma" source="http://scta.info/resource/act1_18@4-5">Possedit agrum.</quote>
+            Non quia agrum possederit, sed quia ipsius fuerat pretium agri qui Dominum vitae vendidit. Amissa terra viventium, agrum sanguinis et mortis, aeterna sceleris et nominis sui memoria possidet Judas. Emptum tamen pretio sanguinis agrum figuli non possedit, qui traditionis crimen in se protinus mulctavit, sed <quote xml:id="gom-act1-Qd1e483" source="http://scta.info/resource/act1_18@4-4">possedit</quote> dictum est pro <quote xml:id="gom-act1-Qd1e486">possideri fecit.</quote> Quidam agrum a Juda possessum ridicule exponunt infernum. Alii possedisse agrum illum existimant, ex eo quod cum peregrinis in eo sepultus fuit.
+          </p>
+          <p xml:id="gom-act1-d1e489">
+            <quote xml:id="gom-act1-Qd1e491" type="lemma" source="http://scta.info/resource/act1_18@17-17">Viscera.</quote>
+            Viscera quae sunt sedes fraudis, tanto scelere dirupta, se cohibere non <pb ed="#P" n="0429C"/> valuerunt. Merito autem per sedem doli viscera funduntur, non per locum osculi, id est os quo osculatus est Jesum, quamvis falsa superficie, sed per alium cui virus occultae malitiae inerat.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e498">
+          <head xml:id="gom-act1-Hd1e500">Versus 19</head>
+          <p xml:id="gom-act1-d1e502">
+            <quote xml:id="gom-act1-Qd1e504" type="lemma" source="http://scta.info/resource/act1_19@14-14">Eorum,</quote>
+            id est habitantium Jerusalem, quia etsi utrique loquebantur Hebraice, distabat tamen proprietas linguae Hierosolymorum a Galilaeis, de quibus apostoli erant: quod in passione Domini ostenditur, ubi etiam Petrus nolens lingua sua proditus est esse Galilaeus.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e509">
+          <head xml:id="gom-act1-Hd1e511">Versus 20</head>
+          <p xml:id="gom-act1-d1e513">
+            <quote xml:id="gom-act1-Qd1e515" type="lemma" source="http://scta.info/resource/act1_20@10-13">Deserta, et non sit,</quote>
+            etc. Donec electus pro eo assumatur Matthias. Vel, non sit ipse Judas, qui habitet in ea, sed alius assumatur pro eo qui poenitentia indignus judicatus est.
+          </p>
+        </div>
+        <div xml:id="gom-act1-Dd1e521">
+          <head xml:id="gom-act1-Hd1e523">Versus 23</head>
+          <p xml:id="gom-act1-d1e525">
+            <quote xml:id="gom-act1-Qd1e527" type="lemma" source="http://scta.info/resource/act1_23@3-3">Duos.</quote>
+            Clemens refert hos duos qui <pb ed="#P" n="0429D"/> ad sortem apostolatus statuti sunt, de numero septuaginta discipulorum fuisse.
+          </p>
+          <p xml:id="gom-act1-d1e533">
+            <quote xml:id="gom-act1-Qd1e535" type="lemma" source="http://scta.info/resource/act1_23@8-9">Qui cognominatus.</quote>
+            In laude Barnabae immoratur: quia pro laude Matthaeus habet, quod sorte eligitur. Barnabae laus cumulatur, ne velut indignus repelli videretur: quod postea declaratum est; quia cum Paulo gentium apostolus ordinatur, illi officio reservatus.
+          </p>
+          <p xml:id="gom-act1-d1e539">
+            <quote xml:id="gom-act1-Qd1e541" type="lemma" source="http://scta.info/resource/act1_23@11-11">Justus.</quote>
+            Aut Latinum est, aut Hebraeum: et interpretatur <mentioned>parcens</mentioned>, vel <mentioned>elevatus. Et Matthiam</mentioned>, qui <mentioned>donatus</mentioned>, vel <mentioned>donum Dei</mentioned> interpretatur: cui donum apostolatus a Domino collatum est, vel <mentioned>Dei pannus</mentioned> interpretatur. Merito parvi transcenditur ille laude hominum qui justus erat, inquit Arator.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

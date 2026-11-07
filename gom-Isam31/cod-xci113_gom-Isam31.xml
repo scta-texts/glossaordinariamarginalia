@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 31</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 31</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0562C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam31">
+        <head xml:id="gom-Isam31-Hd1e98">Caput 31</head>
+        <div xml:id="gom-Isam31-Dd1e100">
+          <head xml:id="gom-Isam31-Hd1e102">Versus 2</head>
+          <p xml:id="gom-Isam31-d1e104">
+            <quote xml:id="gom-Isam31-Qd1e106" type="lemma" source="http://scta.info/resource/Isam31_2@9-10">Percusserunt Jonathan,</quote>
+            etc.
+            <ref xml:id="gom-Isam31-Rd1e109"><name xml:id="gom-Isam31-Nd1e110" ref="#RabanusMaurus">RAB.</name> in lib. Reg. tom. II.</ref>
+            <quote xml:id="gom-Isam31-Qd1e114"><seg type="qs">Jonathan, Abinadab</seg>, etc., usque ad <seg type="qs">cum filiis periret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam31-Dd1e123">
+          <head xml:id="gom-Isam31-Hd1e125">Versus 4</head>
+          <p xml:id="gom-Isam31-d1e127">
+            <quote xml:id="gom-Isam31-Qd1e129" type="lemma" source="http://scta.info/resource/Isam31_4@31-32">Arripuit itaque.</quote>
+            Gladio quo Amalecitis <pb ed="#P" n="0562D"/> contra praeceptum Dei pepercit, merito seipsum occidit: sic qui potestate pro communi utilitate accepta, aut non utitur aut abutitur, suo se nimirum gladio confodit, et quo ab hoste defendi debuerat, hostem potius juvat.
+          </p>
+        </div>
+        <div xml:id="gom-Isam31-Dd1e136">
+          <head xml:id="gom-Isam31-Hd1e138">Versus 11</head>
+          <p xml:id="gom-Isam31-d1e140">
+            <quote xml:id="gom-Isam31-Qd1e142" type="lemma" source="http://scta.info/resource/Isam31_11@4-4">Habitatores.</quote>
+            Quos Saul ab adversariis defenderat, rependunt quod possunt. Nos quoque benefactores nostros gladio peccati peremptos, quoad possumus, a Philisthinorum opprobrio eripiamus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1199A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir15">
+        <head xml:id="gom-sir15-Hd1e98">Caput 15</head>
+        <div xml:id="gom-sir15-Dd1e100">
+          <head xml:id="gom-sir15-Hd1e102">Versus 3</head>
+          <p xml:id="gom-sir15-d1e104">
+            <quote xml:id="gom-sir15-Qd1e106" type="lemma" source="http://scta.info/resource/sir15_3@8-9">Aqua sapientiae.</quote>
+            <ref xml:id="gom-sir15-Rd1e109"><name xml:id="gom-sir15-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir15-Qd1e113">gratia Spiritus sancti: unde, <quote xml:id="gom-sir15-Qd1e115" source="http://scta.info/resource/io4_14@2-14">Qui biberit aquam quam ego dabo vobis, <pb ed="#P" n="1199B"/> fiet in eo fons aquae salientis in vitam aeternam<!-- check: Migne cites io14; text matches io4_14 --></quote>, id est non cedet persecutioni, vel haereticae pravitati.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e124">
+          <head xml:id="gom-sir15-Hd1e126">Versus 5</head>
+          <p xml:id="gom-sir15-d1e128">
+            <quote xml:id="gom-sir15-Qd1e130" type="lemma" source="http://scta.info/resource/sir15_5@1-4">Et in medio Ecclesiae.</quote>
+            Apostolos, praedicatores Evangelii significat, quos Dei sapientia, id est Christus, Ecclesiae praeposuit.
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e135">
+          <head xml:id="gom-sir15-Hd1e137">Versus 7</head>
+          <p xml:id="gom-sir15-d1e139">
+            <quote xml:id="gom-sir15-Qd1e141" type="lemma" source="http://scta.info/resource/sir15_7@1-2">Homines stulti,</quote>
+            etc. Pagani, et idololatrae et Judaei, qui crucifigunt Filium Dei, sequentes umbram legis, et respuentes veritatem Evangelii: vel haeretici, qui Scripturas pervertunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e146">
+          <head xml:id="gom-sir15-Hd1e148">Versus 8</head>
+          <p xml:id="gom-sir15-d1e150">
+            <quote xml:id="gom-sir15-Qd1e152" type="lemma" source="http://scta.info/resource/sir15_8@7-9">Et viri veraces.</quote>
+            Omnis qui est ex veritate, audit vocem meam.
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e158">
+          <head xml:id="gom-sir15-Hd1e160">Versus 9</head>
+          <p xml:id="gom-sir15-d1e162">
+            <quote xml:id="gom-sir15-Qd1e164" type="lemma" source="http://scta.info/resource/sir15_9@5-7">In ore peccatoris.</quote>
+            Haereticorum, qui doctrinam Patrum despiciunt, et simplices decipiunt. Donum largitatis non invidet Deus alicui, qui <pb ed="#P" n="1199C"/> vult omnes homines salvos fieri.
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e171">
+          <head xml:id="gom-sir15-Hd1e173">Versus 12</head>
+          <p xml:id="gom-sir15-d1e175">
+            <quote xml:id="gom-sir15-Qd1e177" type="lemma" source="http://scta.info/resource/sir15_12@1-2">Non dicas.</quote>
+            <ref xml:id="gom-sir15-Rd1e180"><name xml:id="gom-sir15-Nd1e181" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir15-Qd1e184">Non sunt mala nostra Deo imputanda, cui non sunt necessaria: <quote xml:id="gom-sir15-Qd1e186" source="http://scta.info/resource/iac1_13@9-13">Deus intentator malorum est</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e192">
+          <head xml:id="gom-sir15-Hd1e194">Versus 14</head>
+          <p xml:id="gom-sir15-d1e196">
+            <quote xml:id="gom-sir15-Qd1e198" type="lemma" source="http://scta.info/resource/sir15_14@4-5">Constituit hominem</quote>
+            ad imaginem et similitudinem suam, et liberum arbitrium dedit ei.
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e203">
+          <head xml:id="gom-sir15-Hd1e205">Versus 16</head>
+          <p xml:id="gom-sir15-d1e207">
+            <quote xml:id="gom-sir15-Qd1e209" type="lemma" source="http://scta.info/resource/sir15_16@1-2">Si volueris.</quote>
+            Id est si volueris implere opera et mandata Dei, habebis consolationem: si contempseris gehennae ardorem.
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e214">
+          <head xml:id="gom-sir15-Hd1e216">Versus 19</head>
+          <p xml:id="gom-sir15-d1e218">
+            <quote xml:id="gom-sir15-Qd1e220" type="lemma" source="http://scta.info/resource/sir15_19@1-3">Quoniam multa sapientia.</quote>
+            <ref xml:id="gom-sir15-Rd1e223"><name xml:id="gom-sir15-Nd1e224" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir15-Qd1e227"><seg type="qs">Nullus potest praescientiam Dei</seg>, etc., usque ad <seg type="qs">nihil faciat homo, nisi quod dignum sit conspectui divino.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir15-Dd1e236">
+          <head xml:id="gom-sir15-Hd1e238">Versus 21</head>
+          <p xml:id="gom-sir15-d1e240">
+            <quote xml:id="gom-sir15-Qd1e242" type="lemma" source="http://scta.info/resource/sir15_21@1-2">Nemini mandavit.</quote>
+            Non est auctor Deus peccandi, nec spatium concedit in quo homo <pb ed="#P" n="1199D"/> impune peccare possit; semper bona praecipit, et mala interdicit. Solummodo placet ei quod bonum est, infidelitas autem et inutilitas displicet, <quote xml:id="gom-sir15-Qd1e247" source="http://scta.info/resource/ps10_8@1-6">quoniam justus Deus, et justitias dilexit.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

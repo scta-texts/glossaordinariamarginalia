@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 96</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 96</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1006B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps96">
+        <head xml:id="gom-ps96-Hd1e98">Psalmus 96</head>
+        <p xml:id="gom-ps96-d1e100">
+          <quote xml:id="gom-ps96-Qd1e102" type="lemma">Psalmus ipsi David.</quote>
+          <!-- check: lemma not matched to verse text -->
+          Ad litteram illud tangit hic, quod mortuo Absalom, iniquo filio David, qui vivens patrem persequebatur, David restituta est terra, et in pace regnavit, de quo hic non agitur, sed potius de significato.
+        </p>
+        <p xml:id="gom-ps96-d1e108">
+          <ref xml:id="gom-ps96-Rd1e110"><name xml:id="gom-ps96-Nd1e111" ref="#Augustine">AUG.</name></ref>
+          <quote xml:id="gom-ps96-Qd1e114">David Christum significat, quem iniqui filii, id est, Judaei, crucifixerunt, atque regnum abjuraverunt ei. Sed <quote xml:id="gom-ps96-Qd1e116" source="http://scta.info/resource/ps113_7@5-9">restituta est terra ei,</quote> quando Judaea, quae crucifixerat, credidit: <pb ed="#P" n="1006C"/> et apostoli, qui titubaverant, sunt confirmati: sed et aliae oves de gentibus sunt adductae.</quote>
+        </p>
+        <p xml:id="gom-ps96-d1e123">
+          Vel, <quote xml:id="gom-ps96-Qd1e125">restituta est terra,</quote> cum caro ejus resurrexit, postquam resurrectionem haec omnia quae hic cantantur, facta sunt.
+        </p>
+        <p xml:id="gom-ps96-d1e128">
+          <ref xml:id="gom-ps96-Rd1e130"><name xml:id="gom-ps96-Nd1e131" ref="#Augustine">AUG.</name></ref>
+          <quote xml:id="gom-ps96-Qd1e134"><seg type="qs">Praevidentes in spiritu haec, gavisi sunt prophetae</seg>, etc., usque ad <seg type="qs">palato namque fidei dulce sapit mel divinae promissionis.</seg></quote>
+        </p>
+        <p xml:id="gom-ps96-d1e143">
+          <ref xml:id="gom-ps96-Rd1e145"><name xml:id="gom-ps96-Nd1e146" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-ps96-Qd1e149">Quartus psalmus de primo adventu, quo mundus liberatus est. Describit primo virtutes Domini, ostendit omnia restituta ei, et arguit idololatras.</quote>
+        </p>
+        <div xml:id="gom-ps96-Dd1e152">
+          <head xml:id="gom-ps96-Hd1e154">Versus 1</head>
+          <p xml:id="gom-ps96-d1e156">
+            <quote xml:id="gom-ps96-Qd1e158" type="lemma" source="http://scta.info/resource/ps96_1@8-9">Dominus regnavit.</quote>
+            <ref xml:id="gom-ps96-Rd1e161"><name xml:id="gom-ps96-Nd1e162" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e165">Videns propheta superstitiones mundi abundare ante Christi resurrectionem, opponit: <quote xml:id="gom-ps96-Qd1e167" source="http://scta.info/resource/ps96_1@8-9">Dominus regnavit.</quote></quote>
+          </p>
+          <p xml:id="gom-ps96-d1e171">
+            <ref xml:id="gom-ps96-Rd1e173" type="lemma" subtype="implied" target="http://scta.info/resource/ps96_1@8-9"/>
+            <ref xml:id="gom-ps96-Rd1e175"><name xml:id="gom-ps96-Nd1e176" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e179"><pb ed="#P" n="1006D"/> Quis ergo alter colendus est? quasi, nullus; inde:</quote>
+          </p>
+          <p xml:id="gom-ps96-d1e184">
+            <quote xml:id="gom-ps96-Qd1e186" type="lemma" source="http://scta.info/resource/ps96_1@11-12">Exsultet terra.</quote>
+            Quid remanet idolis? Quasi nihil.
+          </p>
+          <p xml:id="gom-ps96-d1e190">
+            <quote xml:id="gom-ps96-Qd1e192" type="lemma" source="http://scta.info/resource/ps96_1@15-15">Insulae.</quote>
+            Totius mundi Ecclesiae.
+          </p>
+          <p xml:id="gom-ps96-d1e197">
+            <quote xml:id="gom-ps96-Qd1e199" type="lemma" source="http://scta.info/resource/ps96_1@16-16">Multae.</quote>
+            Non omnes, propter haereticorum conventus.
+          </p>
+          <p xml:id="gom-ps96-d1e203">
+            <ref xml:id="gom-ps96-Rd1e205" type="lemma" subtype="implied" target="http://scta.info/resource/ps96_1@16-16"/>
+            <ref xml:id="gom-ps96-Rd1e207"><name xml:id="gom-ps96-Nd1e208" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e211">Inde qualis sit Dominus primo adventu dicit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps96-Dd1e215">
+          <head xml:id="gom-ps96-Hd1e217">Versus 2</head>
+          <p xml:id="gom-ps96-d1e219">
+            <quote xml:id="gom-ps96-Qd1e221" type="lemma" source="http://scta.info/resource/ps96_2@1-3">Nubes et caligo.</quote>
+            Impiis, qui caeci sunt, nubilosus et caliginosus, quibus nulla claritate splendet; sed bonis, <quote xml:id="gom-ps96-Qd1e224" source="http://scta.info/resource/ps96_2@8-10">Justitia et judicium.</quote> Qui correcti sunt sedes ejus. Ante adventum ejus <quote xml:id="gom-ps96-Qd1e227" source="http://scta.info/resource/ps96_3@1-4">ignis praecedet,</quote> quia impii pro praedicatione prophetarum ira succensi, de nece eorum tractaverunt, et ad indignationem inflammati in circuitu, quia multi, cum pauci essent praedicatores.
+          </p>
+        </div>
+        <div xml:id="gom-ps96-Dd1e232">
+          <head xml:id="gom-ps96-Hd1e234">Versus 3</head>
+          <p xml:id="gom-ps96-d1e236">
+            <pb ed="#P" n="1007A"/>
+            <quote xml:id="gom-ps96-Qd1e240" type="lemma" source="http://scta.info/resource/ps96_3@1-4">Ignis ante ipsum praecedet,</quote>
+            etc.
+            <ref xml:id="gom-ps96-Rd1e243"><name xml:id="gom-ps96-Nd1e244" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e247"><seg type="qs">Quasi correcti sunt sedes Dei</seg>, etc., usque ad <seg type="qs">si mali sunt, ad consumptionem; si boni, ad reparationem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps96-Dd1e256">
+          <head xml:id="gom-ps96-Hd1e258">Versus 4</head>
+          <p xml:id="gom-ps96-d1e260">
+            <quote xml:id="gom-ps96-Qd1e262" type="lemma" source="http://scta.info/resource/ps96_4@1-2">Illuxerunt fulgura.</quote>
+            <ref xml:id="gom-ps96-Rd1e265"><name xml:id="gom-ps96-Nd1e266" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e269">Nubes viluerunt forma humana, sed fulgor mirandus in verbis vel factis eorum apparuit, et inde mota est terra.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps96-Dd1e273">
+          <head xml:id="gom-ps96-Hd1e275">Versus 5</head>
+          <p xml:id="gom-ps96-d1e277">
+            <quote xml:id="gom-ps96-Qd1e279" type="lemma" source="http://scta.info/resource/ps96_5@4-4">Fluxerunt.</quote>
+            <ref xml:id="gom-ps96-Rd1e282"><name xml:id="gom-ps96-Nd1e283" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e286">Etsi non modo credit paganus, tamen victus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps96-Dd1e291">
+          <head xml:id="gom-ps96-Hd1e293">Versus 7</head>
+          <p xml:id="gom-ps96-d1e295">
+            <quote xml:id="gom-ps96-Qd1e297" type="lemma" source="http://scta.info/resource/ps96_7@1-1">Confundantur.</quote>
+            Hoc jam factum est.
+          </p>
+          <p xml:id="gom-ps96-d1e301">
+            <ref xml:id="gom-ps96-Rd1e303" type="lemma" subtype="implied" target="http://scta.info/resource/ps96_7@1-1"/>
+            <ref xml:id="gom-ps96-Rd1e305"><name xml:id="gom-ps96-Nd1e306" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e309">Cessat enim jam idololatria. Et erubescant qui adorant lapides, quia mortui.</quote>
+          </p>
+          <p xml:id="gom-ps96-d1e312">
+            <quote xml:id="gom-ps96-Qd1e314" type="lemma" source="http://scta.info/resource/ps96_7@4-4">Adorate.</quote>
+            <ref xml:id="gom-ps96-Rd1e317"><name xml:id="gom-ps96-Nd1e318" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e321">Cessat ergo adoratio angelorum, sed adorant. Ipsi mali angeli volunt adorari, boni adorant, nec se permittunt adorari. Vel saltem hoc exemplo idololatriae cessent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps96-Dd1e325">
+          <head xml:id="gom-ps96-Hd1e327">Versus 8</head>
+          <p xml:id="gom-ps96-d1e329">
+            <pb ed="#P" n="1007B"/>
+            <quote xml:id="gom-ps96-Qd1e333" type="lemma" source="http://scta.info/resource/ps96_8@1-3">Audivit et laetata.</quote>
+            <ref xml:id="gom-ps96-Rd1e336"><name xml:id="gom-ps96-Nd1e337" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e340"><seg type="qs">Secundo post restaurationem terrae omnimoda exsultatio</seg>, etc., usque ad <seg type="qs">ut de Cornelio fratres gavisi sunt quem Petrus baptizavit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps96-d1e348">
+            <quote xml:id="gom-ps96-Qd1e350" type="lemma" source="http://scta.info/resource/ps96_8@6-7">Et exsultaverunt.</quote>
+            <ref xml:id="gom-ps96-Rd1e353"><name xml:id="gom-ps96-Nd1e354" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e357">Audierunt apostoli, qui erant in Judaea fratres, quia gentes receperunt verbum Dei, et laetati sunt et magnificabant Deum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps96-Dd1e361">
+          <head xml:id="gom-ps96-Hd1e363">Versus 9</head>
+          <p xml:id="gom-ps96-d1e365">
+            <quote xml:id="gom-ps96-Qd1e367" type="lemma" source="http://scta.info/resource/ps96_9">Terram . . . deos.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps96-Rd1e372"><name xml:id="gom-ps96-Nd1e373" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e376">Per <quote xml:id="gom-ps96-Qd1e378" source="http://scta.info/resource/ps96_9@7-7">terram</quote> et <quote xml:id="gom-ps96-Qd1e381" source="http://scta.info/resource/ps96_9@14-14">deos,</quote> peccatores et justos accipe. Vel, terrenis et coelestibus significat eum imperare.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps96-Dd1e387">
+          <head xml:id="gom-ps96-Hd1e389">Versus 10</head>
+          <p xml:id="gom-ps96-d1e391">
+            <quote xml:id="gom-ps96-Qd1e393" type="lemma" source="http://scta.info/resource/ps96_10@7-8">Custodit Dominus.</quote>
+            <ref xml:id="gom-ps96-Rd1e396"><name xml:id="gom-ps96-Nd1e397" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps96-Qd1e400">Si cum coeperis odisse malignum, subsequantur persecutiones, ne timeas, quia custodit Dominus animas sanctorum suorum, de quibus tollendis est ultimum genus persecutionis.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

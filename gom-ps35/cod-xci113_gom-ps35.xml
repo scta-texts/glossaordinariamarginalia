@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 35</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 35</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0895A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps35">
+        <head xml:id="gom-ps35-Hd1e98">Psalmus 35</head>
+        <div xml:id="gom-ps35-Dd1e100">
+          <head xml:id="gom-ps35-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps35-d1e104">
+            <quote xml:id="gom-ps35-Qd1e106" type="lemma" source="http://scta.info/resource/ps35_1@1-3">In finem sermo.</quote>
+            <ref xml:id="gom-ps35-Rd1e109"><name xml:id="gom-ps35-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e113"><seg type="qs">Agit hic de errore quorumdam</seg>, etc., usque ad <seg type="qs">qui tamen imminet omnibus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps35-d1e121">
+            <ref xml:id="gom-ps35-Rd1e123" type="lemma" subtype="implied" target="http://scta.info/resource/ps35_1@1-3"/>
+            Non est timor ante oculos: quia dolus, id est, quia <pb ed="#P" n="0895B"/> carni obedit non Deo, cum ratio aliud insinuet, quod videat Deus etsi non alius: vel, quod videt ipse injustus, a Deo scit, ut inveniatur ab ipso eodem quod iniquitas sua est habenda odio apud Deum et omnes homines.
+          </p>
+          <p xml:id="gom-ps35-d1e128">
+            <ref xml:id="gom-ps35-Rd1e130" type="lemma" subtype="implied" target="http://scta.info/resource/ps35_1@1-3"/>
+            <ref xml:id="gom-ps35-Rd1e132"><name xml:id="gom-ps35-Nd1e133" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e136">Primo, asserit mala esse ex homine.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e140">
+          <head xml:id="gom-ps35-Hd1e142">Versus 2</head>
+          <p xml:id="gom-ps35-d1e144">
+            <quote xml:id="gom-ps35-Qd1e146" type="lemma" source="http://scta.info/resource/ps35_2@1-2">Dixit injustus,</quote>
+            etc.
+            <ref xml:id="gom-ps35-Rd1e149"><name xml:id="gom-ps35-Nd1e150" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e153">Duo sunt genera peccantium: quia vel infirmitate carnis non possunt sequi jussa legis; vel blasphemi qui libere peccant, quasi Deus non curet hoc; unde est: <quote xml:id="gom-ps35-Qd1e155" source="http://scta.info/resource/ps35_2@1-1">Dixit,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps35-d1e160">
+            <ref xml:id="gom-ps35-Rd1e162" type="lemma" subtype="implied" target="http://scta.info/resource/ps35_2@1-2"/>
+            <ref xml:id="gom-ps35-Rd1e164"><name xml:id="gom-ps35-Nd1e165" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e168">Descriptio iniqui viri.</quote>
+          </p>
+          <p xml:id="gom-ps35-d1e171">
+            <quote xml:id="gom-ps35-Qd1e173" type="lemma" source="http://scta.info/resource/ps35_2@8-11">Non est timor Dei.</quote>
+            <ref xml:id="gom-ps35-Rd1e176"><name xml:id="gom-ps35-Nd1e177" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e180">Quia dolus noluit studere legi, qua per ignorantiam excusetur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e184">
+          <head xml:id="gom-ps35-Hd1e186">Versus 3</head>
+          <p xml:id="gom-ps35-d1e188">
+            <quote xml:id="gom-ps35-Qd1e190" type="lemma" source="http://scta.info/resource/ps35_3@1-2">Quoniam dolose.</quote>
+            <ref xml:id="gom-ps35-Rd1e193"><name xml:id="gom-ps35-Nd1e194" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e197"><seg type="qs">Multi inquirunt iniquitates suas</seg>, etc., usque ad <seg type="qs">nec excusantur de <pb ed="#P" n="0895C"/> ignorantia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e208">
+          <head xml:id="gom-ps35-Hd1e210">Versus 4</head>
+          <p xml:id="gom-ps35-d1e212">
+            <quote xml:id="gom-ps35-Qd1e214" type="lemma" source="http://scta.info/resource/ps35_4@1-1">Verba.</quote>
+            <quote xml:id="gom-ps35-Qd1e217"><seg type="qs">(ID). Ostendit inquitatem</seg>, etc., usque ad <seg type="qs">ut bene ageret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e227">
+          <head xml:id="gom-ps35-Hd1e229">Versus 5</head>
+          <p xml:id="gom-ps35-d1e231">
+            <quote xml:id="gom-ps35-Qd1e233" type="lemma" source="http://scta.info/resource/ps35_5@4-5">In cubili.</quote>
+            Id est, in corde, in quo sibi complacent opera mala; et hoc est, <quote xml:id="gom-ps35-Qd1e236" source="http://scta.info/resource/ps35_5@8-10">astitit omni viae,</quote> cum studio et mora: invenit quidem, et scivit esse mala, sed tamen non odivit.
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e241">
+          <head xml:id="gom-ps35-Hd1e243">Versus 4</head>
+          <p xml:id="gom-ps35-d1e245">
+            <quote xml:id="gom-ps35-Qd1e247" type="lemma" source="http://scta.info/resource/ps35_4@8-8">Noluit.</quote>
+            <ref xml:id="gom-ps35-Rd1e250"><name xml:id="gom-ps35-Nd1e251" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e254">Non quod non potuit; perniciosius agit contra seipsum qui quod potest non vult. Sunt enim quaedam quae, etsi volunt, non intelligere homines possunt, ut: <quote xml:id="gom-ps35-Qd1e256" source="http://scta.info/resource/io1_1@1-4">In principio erat Verbum,</quote> et ut tamen bene agerent, intelligere possunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e262">
+          <head xml:id="gom-ps35-Hd1e264">Versus 5</head>
+          <p xml:id="gom-ps35-d1e266">
+            <quote xml:id="gom-ps35-Qd1e268" type="lemma" source="http://scta.info/resource/ps35_5@4-6">In cubili suo.</quote>
+            <ref xml:id="gom-ps35-Rd1e271"><name xml:id="gom-ps35-Nd1e272" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e275"><seg type="qs">Id est, corde, ubi praecepit Dominus orare clauso ostio</seg>, etc., usque ad <seg type="qs">sapientia, scilicet carnis, quae est inimica Deo.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e284">
+          <head xml:id="gom-ps35-Hd1e286">Versus 6</head>
+          <p xml:id="gom-ps35-d1e288">
+            <quote xml:id="gom-ps35-Qd1e290" type="lemma" source="http://scta.info/resource/ps35_6@1-3">Domine, in coelo.</quote>
+            <ref xml:id="gom-ps35-Rd1e293"><name xml:id="gom-ps35-Nd1e294" ref="#Cassiodorus">Cass.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e297">Bona ex Deo <pb ed="#P" n="0895D"/> per misericordiam. Quasi dicat: Mala sunt ex homine, sed bona ex misericordia. O Domine, in his, qui <quote xml:id="gom-ps35-Qd1e301">coelum</quote> sunt, id est, arcana scientes, est misericordia tua: et quod ipsi sunt <quote xml:id="gom-ps35-Qd1e303" source="http://scta.info/resource/ps35_6@11-11">nubes,</quote> est a te.</quote>
+          </p>
+          <p xml:id="gom-ps35-d1e308">
+            <ref xml:id="gom-ps35-Rd1e310" type="lemma" subtype="implied" target="http://scta.info/resource/ps35_6@1-3"/>
+            <ref xml:id="gom-ps35-Rd1e312"><name xml:id="gom-ps35-Nd1e313" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e316"><seg type="qs">Vel <mentioned>in coelo</mentioned>, id est, misericordia</seg>, etc., usque ad <seg type="qs">nuntiat vero missa veritate sua.</seg></quote>
+          </p>
+          <p xml:id="gom-ps35-d1e326">
+            <quote xml:id="gom-ps35-Qd1e328" type="lemma" source="http://scta.info/resource/ps35_6@9-11">Usque ad nubes.</quote>
+            Id est praedicatores, per quos tonat Deus nuntiando, coruscat miraculis, pluit doctrinis. Qui sunt etiam montes, quos prius sol luce vestit, quae post, de eis et si non ab eis, ad infima vallium descendit: ministri enim sunt doctrinae, sed Deus illuminat.
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e333">
+          <head xml:id="gom-ps35-Hd1e335">Versus 7</head>
+          <p xml:id="gom-ps35-d1e337">
+            <quote xml:id="gom-ps35-Qd1e339" type="lemma" source="http://scta.info/resource/ps35_7@7-8">Judicia tua.</quote>
+            <ref xml:id="gom-ps35-Rd1e342"><name xml:id="gom-ps35-Nd1e343" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e346">Quod horum misereris, hos excaecas; nulli sunt penitus scrutabilia: <pb ed="#P" n="0896A"/> tamen utrosque salvas, hos corporaliter tantum, illos et spiritualiter, in quo magna misericordia.</quote>
+          </p>
+          <p xml:id="gom-ps35-d1e352">
+            <quote xml:id="gom-ps35-Qd1e354" type="lemma" source="http://scta.info/resource/ps35_7@11-11">Homines,</quote>
+            etc. Etiam temporalia a Deo esse ostendit.
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e359">
+          <head xml:id="gom-ps35-Hd1e361">Versus 9</head>
+          <p xml:id="gom-ps35-d1e363">
+            <quote xml:id="gom-ps35-Qd1e365" type="lemma" source="http://scta.info/resource/ps35_9@1-1">Inebriabuntur.</quote>
+            <ref xml:id="gom-ps35-Rd1e368"><name xml:id="gom-ps35-Nd1e369" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e372">Non potest res exprimi, sed per hanc similitudinem innuit, ut pleni mentem perdant, ne suos jam agnoscant patres, filios, caeterosque amicos. Vel, tunc in re ebrii, qui modo sperant.</quote>
+          </p>
+          <p xml:id="gom-ps35-d1e375">
+            <quote xml:id="gom-ps35-Qd1e377" type="lemma" source="http://scta.info/resource/ps35_9@7-7">Torrente.</quote>
+            Quasi: Impetus erit gratiae et misericordiae ad inebriandos.
+          </p>
+          <p xml:id="gom-ps35-d1e381">
+            <ref xml:id="gom-ps35-Rd1e383"><name xml:id="gom-ps35-Nd1e384" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e387" type="lemma" source="http://scta.info/resource/ps35_9@7-7">Torrente.</quote>
+            <quote xml:id="gom-ps35-Qd1e390">Non ut transitoria sit beatitudo, sed copiosa. Vel, voluntas tua in homine omnia rumpit obstacula. Vel, sapientia Christi torrens, quia subita et rapida.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps35-Dd1e395">
+          <head xml:id="gom-ps35-Hd1e397">Versus 10</head>
+          <p xml:id="gom-ps35-d1e399">
+            <quote xml:id="gom-ps35-Qd1e401" type="lemma" source="http://scta.info/resource/ps35_10@1-6">Quoniam apud te est fons vitae.</quote>
+            <ref xml:id="gom-ps35-Rd1e404"><name xml:id="gom-ps35-Nd1e405" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps35-Qd1e408"><quote xml:id="gom-ps35-Qd1e409" source="http://scta.info/resource/ps35_10@2-3">Apud te,</quote> Christe, <quote xml:id="gom-ps35-Qd1e412" source="http://scta.info/resource/ps35_10@4-5">est fons,</quote> id est, initium omnis boni; <pb ed="#P" n="0896B"/> et <quote xml:id="gom-ps35-Qd1e417" source="http://scta.info/resource/ps35_10@8-10">in tuo lumine,</quote> quia per ejus praedicationem videmus lumen Patris et Spiritus sancti, et ideo <quote xml:id="gom-ps35-Qd1e420" source="http://scta.info/resource/ps35_11@1-1">praetende,</quote> ut in hoc saeculo tutius eatur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

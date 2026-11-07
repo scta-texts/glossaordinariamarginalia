@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Canticum Canticorum, Praefatio</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Canticum Canticorum, Praefatio</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1125D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-cantpraef">
+        <head xml:id="gom-cantpraef-Hd1e98">PRAEFATIO.</head>
+        <p xml:id="gom-cantpraef-d1e100">
+          <pb ed="#P" n="1125D"/>
+          Salomon filius David regis Israel juxta numerum vocabulorum suorum tria volumina edidit. Quorum primus est <quote xml:id="gom-cantpraef-Qd1e104">misle,</quote> quem Graeci <foreign xml:lang="greek">παραβολάς,</foreign> Latini proverbia nominant, eo quod in ipso sub comparativa similitudine figuras verborum et imagines veritatis ostendit: ipsam autem veritatem ad intelligendum <pb ed="#P" n="1126D"/> ingenio legentium reservavit. Secundum librum <quote xml:id="gom-cantpraef-Qd1e111">coheleth</quote> vocavit, qui Graece <foreign xml:lang="greek">ἐκκλησιαστὴς</foreign> vocatur, Latine <mentioned>concionator</mentioned>: eo quod conciones non solum spiritualiter ad unum, sicut in Proverbiis, sed ad universos generaliter dirigantur, docens, omnia quae in mundo cernimus, vana esse et brevia: et ob hoc minime appetenda. Tertium librum <pb ed="#P" n="1127A"/> <quote xml:id="gom-cantpraef-Qd1e121">sir hassirim</quote> praenotavit: qui in Latinam linguam vertitur in Cantica canticorum. Ubi per epithalamicum carmen conjunctionem Christi et Ecclesiae mystice canit. Dicitur autem Canticum canticorum, eo quod omnibus canticis praeferatur. Sicut in lege quaedam dicuntur <mentioned>sancta</mentioned>, quibus majora sunt <mentioned>sancta sanctorum</mentioned>. In his quidem tribus libris trium generum disciplinas composuit, quibus ad rerum scientiam pervenitur. In primis namque ethicam, id est moralem, post hoc physicam, quae qualitatem naturae comprehendit, ad ultimum theoricam, id est contemplativam. In Proverbiis enim moralia docens, per communem quemdam loquendi usum altiorem intelligentiam edidit, conservationemque mandatorum, et doctrinae coelestis institutionem succinctis <pb ed="#P" n="1127B"/> verbis, brevibus sententiis coaptat. Sunt autem Proverbia sub verbis aliis res alias explicantia, quae aliter quam dicuntur, intelliguntur: plus in virtute sententiarum, quam in sono verborum habent; quae Graeci <foreign xml:lang="greek">παραβολὰς</foreign> vocant. Ecclesiastes rerum naturas discutiens, cuncta in mundo vana et caduca esse deprehendit, rerumque omnium fragilitate conspecta, renuntiari mundo admonuit. In Canticis canticorum supergressus visibilia, atque contemplans ea quae sunt coelestia, vel divina, sub specie sponsi sponsaeque, Christi Ecclesiaeque unitatem declarat, atque animam ad amorem coelestium excitans, perveniendum ad consortium Dei provocat. Illud vero non est putandum, quod ab auditoribus nostris traditur, apud Hebraeos hanc fuisse conversationem, <pb ed="#P" n="1127C"/> ne cuiquam hunc librum legere permitterent, nisi viro jam perfectae scientiae et roboratae fidei in peritia: ne tam erudiret cognitio lubricas mentes, quam textus ad concupiscentias corporales converteret.
+        </p>
+        <p xml:id="gom-cantpraef-d1e136">
+          Salomon, id est pacificus, quia in regno ejus pax per quam futura pax Ecclesiae figurabatur, <quote xml:id="gom-cantpraef-Qd1e138">Idida,</quote> id est dilectus, et significat illum de quo dicitur: <quote xml:id="gom-cantpraef-Qd1e140" source="http://scta.info/resource/ps44_3@1-18">Speciosus forma prae filiis hominum: propterea benedixit te Deus in aeternum</quote>. Ecclesiastes, id est concionator, et significat illum, qui rationabiliter erat allocuturus, et congregaturus Ecclesiam. Juxta numerum vocabulorum, tres fecit libros: Proverbia, in quo libro docet parvulos non tam aetate quam sapientia, de aequanimi conversatione in mundo, <pb ed="#P" n="1127D"/> scilicet qualiter licite possint uti temporalibus; Ecclesiasten, in quo instruit homines provectioris aetatis ad contemptum caducorum; Cantica canticorum, scilicet hoc opus, in quo virum consummatum docet de solo amore Dei, ut requiescat inter brachia sponsi. Unde et Canticum canticorum dicitur sua dignitate omnia alia excellens cantica. Per illa quippe vitantur vitia, cavetur hostis: per ista locupletamur virtutibus, Domino conjungimur. Simili ordine etiam philosophi institutiones suas ponunt. Primum ethicam docent, postea physicam, et quem in his profecisse vident, ad theoricam usque perducunt. Materia, sponsus et sponsa, id est caput et Ecclesia. Et modus, quali desiderio membra capiti <pb ed="#P" n="1128A"/> cohaereant, et ei placere contendant, et quae dona ab illo, vel in praesenti accipiant, vel in futuro exspectent, et quali affectione sponsus Ecclesiam diligat, eam laudans, et admonens, et confortans. Finis est dilectio Dei.
+        </p>
+        <p xml:id="gom-cantpraef-d1e148">
+          Quatuor mihi in hoc opere invenisse videor personas, sponsum et sodales ipsius, sponsam et adolescentulas cum ea. Alia a sponso, alia dicuntur a sponsa: nonnulla a juvenculis, quaedam a sodalibus sponsi. Congruum quippe est ut in initiis sit adolescentularum multitudo cum sponsa, juvenum turba cum sponso. Sponsum, Christum intellige, sponsam Ecclesiam sine macula et ruga. Angelos vero, et eos qui pervenerunt in virum perfectum, intellige amicos sponsi. Adolescentulae, sunt sponsarum incipientium <pb ed="#P" n="1128B"/> turbae, juxta modum quemdam salutem adeptae.
+        </p>
+        <p xml:id="gom-cantpraef-d1e153">
+          Ex hoc autem libro Gentiles sibi epithalamium vindicarunt, et istius generis carmen assumptum est. Si vis ascendere ad Canticum canticorum, necesse est de Aegypto egredi, ut post transitum maris Rubri, submersis inimicis, primum possis canere canticum: <quote xml:id="gom-cantpraef-Qd1e155">Cantemus Domino, gloriose enim,</quote> etc. <!--<note>(Exod. XV)</note>-->. Sed quia adhuc longe es a Cantico canticorum, perambula terram deserti spiritualiter, et consequenter Jordanis ad ripam constitutus, secundum canticum canas, <quote xml:id="gom-cantpraef-Qd1e159">Audite coeli quae loquor,</quote> etc. <!--<note>(Deut. XXXI)</note>-->. Et cum universa transieris, ad altiora conscende, ut possis anima decora cum sponso, et hoc canere Canticum canticorum.
+        </p>
+        <p xml:id="gom-cantpraef-d1e165">
+          Notandum quod sponsa semper in domo, vel in <pb ed="#P" n="1128C"/> lectulo, vel in aliquo interiori loco cum sponso manere concupiscit: quod mulieribus congruit. Ipse quod masculorum est, ad forinseca vinearum, vel ad hujusmodi opera amicam evocat: quia nimirum Ecclesia, si posset fieri in tranquillitate pacis Domino sobolem educare desiderat. At ipse in praesenti eam crebris persecutionibus exercet, quo mundior ad aeterna perveniat, ne si prospera contingant, incolatu praesentis saeculi vel exsilii delectata, minus ad coelestem suspiret patriam.
+        </p>
+        <p xml:id="gom-cantpraef-d1e170">
+          Synagoga congregatio, quod et lapidum: Ecclesia convocatio, quod rationabilium. Utraque autem haec portio justorum in eadem fide Christi et dilectione diversis temporibus, illa exspectando venturum, ista suscipiendo praesentem, consors effecta est. Omnes <pb ed="#P" n="1128D"/> animae motiones, universitatis conditor Deus creavit ad bonum: sed usu nostro saepe fit, ut res quae per naturam bonae sunt, dum male his abutimur, nos ad peccatum deducant. Unus ex animae motibus amor est, quo bene utimur si sapientiam amemus, et veritatem: Male autem si carnem aut sanguinem. Tu igitur ut spiritualis audi spiritualiter amatoria verba cantici cantari, et disce motum animae tuae et naturalis amoris incendium ad meliora transferre.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

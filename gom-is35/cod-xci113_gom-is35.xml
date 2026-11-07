@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 35</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 35</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1277C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is35">
+        <head xml:id="gom-is35-Hd1e98">Caput 35</head>
+        <div xml:id="gom-is35-Dd1e100">
+          <head xml:id="gom-is35-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is35-d1e104">
+            <pb ed="#P" n="1277C"/>
+            <quote xml:id="gom-is35-Qd1e108" type="lemma" source="http://scta.info/resource/is35_1@1-1">Laetabitur.</quote>
+            Exposita captivitate Judaeorum, agit de conversione gentium.
+          </p>
+        </div>
+        <div xml:id="gom-is35-Dd1e113">
+          <head xml:id="gom-is35-Hd1e115">Versus 2</head>
+          <p xml:id="gom-is35-d1e117">
+            <quote xml:id="gom-is35-Qd1e119" type="lemma" source="http://scta.info/resource/is35_2@16-16">Saron.</quote>
+            Populi Judaeorum; unde: <quote xml:id="gom-is35-Qd1e122" source="http://scta.info/resource/is32_2@2-4">Erit Saron sicut desertum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-is35-Dd1e127">
+          <head xml:id="gom-is35-Hd1e129">Versus 7</head>
+          <p xml:id="gom-is35-d1e131">
+            <quote xml:id="gom-is35-Qd1e133" type="lemma" source="http://scta.info/resource/is35_7@20-21">Viror calami.</quote>
+            Impletio Scripturae, quae per calamum; et intentionis adjutorium, quae per juncum: calamus enim et juncus juxta aquas oriuntur et virent.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

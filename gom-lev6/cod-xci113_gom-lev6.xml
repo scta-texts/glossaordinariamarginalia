@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Leviticus, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0311B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-lev6">
+        <head xml:id="gom-lev6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-lev6-Dd1e100">
+          <head xml:id="gom-lev6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-lev6-d1e104">
+            <quote xml:id="gom-lev6-Qd1e106" type="lemma" source="http://scta.info/resource/lev6_1@1-2">Locutus est,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e111">
+          <head xml:id="gom-lev6-Hd1e113">Versus 2</head>
+          <p xml:id="gom-lev6-d1e115">
+            <quote xml:id="gom-lev6-Qd1e117" type="lemma" source="http://scta.info/resource/lev6_2@1-3">Anima quae peccaverit,</quote>
+            <pb ed="#P" n="0311C"/> etc.
+          </p>
+          <p xml:id="gom-lev6-d1e123">
+            <ref xml:id="gom-lev6-Rd1e125" type="lemma" subtype="implied" target="http://scta.info/resource/lev6_2@1-3"/>
+            <ref xml:id="gom-lev6-Rd1e127"><name xml:id="gom-lev6-Nd1e128">ISICH.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e130"><seg type="qs">Idem peccatum est quod in sancta</seg>, etc., usque ad <seg type="qs">simile est rapinae.</seg></quote>
+          </p>
+          <p xml:id="gom-lev6-d1e138">
+            <quote xml:id="gom-lev6-Qd1e140" type="lemma" source="http://scta.info/resource/lev6_2@1-3">Anima quae peccaverit,</quote>
+            <ref xml:id="gom-lev6-Rd1e143"><name xml:id="gom-lev6-Nd1e144" ref="#Origen">ORIG.</name> hom. 4 in Levit.</ref>
+            <quote xml:id="gom-lev6-Qd1e148"><seg type="qs">etc. Ego puto quod animam nostram</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-lev6-Qd1e153" source="http://scta.info/resource/lc5_37@2-8">Nemo enim mittit vinum novum in utres veteres.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e158">
+          <head xml:id="gom-lev6-Hd1e160">Versus 3</head>
+          <p xml:id="gom-lev6-d1e162">
+            <quote xml:id="gom-lev6-Qd1e164" type="lemma" source="http://scta.info/resource/lev6_3@2-3">Rem perditam,</quote>
+            etc.
+            <ref xml:id="gom-lev6-Rd1e167"><name xml:id="gom-lev6-Nd1e168" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e171">LXX: <quote xml:id="gom-lev6-Qd1e173" source="http://scta.info/resource/lev6_3@3-3">perditionem.</quote> Laborant haeretici in Scripturis perditionem invenire, unde possint errorem astruere: sed forte ecclesiastica verba audientes resipiscunt, et quod invenerant, perditionem esse intelligunt et reddunt, id est, auctori suo dimittunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e179">
+          <head xml:id="gom-lev6-Hd1e181">Versus 5</head>
+          <p xml:id="gom-lev6-d1e183">
+            <quote xml:id="gom-lev6-Qd1e185" type="lemma" source="http://scta.info/resource/lev6_5@8-11">Et quintam insuper partem,</quote>
+            etc. Linguam, scilicet in qua unus de quinque sensibus: haec offertur, ut de caetero non peccet, quia per ipsam unumquodque praedictorum commissum est.
+          </p>
+          <p xml:id="gom-lev6-d1e189">
+            <pb ed="#P" n="0311D"/>
+            <ref xml:id="gom-lev6-Rd1e193" type="lemma" subtype="implied" target="http://scta.info/resource/lev6_5@8-11"/>
+            <ref xml:id="gom-lev6-Rd1e195"><name xml:id="gom-lev6-Nd1e196" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e199"><seg type="qs">LXX: non <quote xml:id="gom-lev6-Qd1e202" source="http://scta.info/resource/lev6_5@9-11">quintam partem,</quote> sed <quote xml:id="gom-lev6-Qd1e205" source="http://scta.info/resource/lev6_5@9-9">quintas,</quote> ut bis quinque</seg>, etc., usque ad <seg type="qs">unum Deum referamus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e215">
+          <head xml:id="gom-lev6-Hd1e217">Versus 8</head>
+          <p xml:id="gom-lev6-d1e219">
+            <quote xml:id="gom-lev6-Qd1e221" type="lemma" source="http://scta.info/resource/lev6_8@1-6">Locutusque est Dominus ad Moysen, dicens.</quote>
+            <ref xml:id="gom-lev6-Rd1e224"><name xml:id="gom-lev6-Nd1e225">ISICH.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e227"><seg type="qs">Hic de jugi sacrificio loquitur</seg>, etc., usque ad <seg type="qs">et totam vitam suam ad perfectionem componat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e236">
+          <head xml:id="gom-lev6-Hd1e238">Versus 10</head>
+          <p xml:id="gom-lev6-d1e240">
+            <quote xml:id="gom-lev6-Qd1e242" type="lemma" source="http://scta.info/resource/lev6_10@6-6">Lineis,</quote>
+            non laneis, tunicam et feminalia linea vult esse, non lanea <!--<note>(Exod. XXVIII)</note>-->. Vestis enim linea habilis et mollis est, et adhaerens corpori; lanea autem aspera, quia habiles multumque cohaerentes sunt animae justitia et castitas. Linea quoque vestis facile potest haberi, sic et virtutes, si quis voluerit eas consequi.
+          </p>
+          <p xml:id="gom-lev6-d1e248">
+            <pb ed="#P" n="0312A"/>
+            <quote xml:id="gom-lev6-Qd1e252" type="lemma" source="http://scta.info/resource/lev6_10@7-8">Tolletque cineres,</quote>
+            etc. Cinis consummatio boni operis. Cineres extra castra efferet Aaron, qui post hanc vitam bona opera per Christum pontificem magnum Deo Patri praesentant. Et ibi in favillam rediguntur, dum assistit vultui Dei pro nobis. Castra enim sunt praesens vita, in qua semper contra spirituales nequitias pugnamus <!--<note>(Heb. IX)</note>-->. Juxta altare ponuntur, dum consummatio bonorum operum in arca cordis reconditur. Altare enim in hoc loco cor significat. <quote xml:id="gom-lev6-Qd1e257" source="http://scta.info/resource/IIcor1_12@2-7">Gloria nostra haec est testimonium conscientiae,</quote> etc. <!--<note>(Eph. ult.)</note>-->
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e264">
+          <head xml:id="gom-lev6-Hd1e266">Versus 11</head>
+          <p xml:id="gom-lev6-d1e268">
+            <quote xml:id="gom-lev6-Qd1e270" type="lemma" source="http://scta.info/resource/lev6_11@4-5">Indutusque aliis.</quote>
+            <ref xml:id="gom-lev6-Rd1e273"><name xml:id="gom-lev6-Nd1e274" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e277">Observandum quod aliis indumentis utitur sacerdos in sacrificiorum mysterio, et aliis quando procedit ad populum. Unde: <quote xml:id="gom-lev6-Qd1e279" source="http://scta.info/resource/Icor2_6@1-5">Sapientiam loquimur inter perfectos<!-- check: Migne cites IIcor1; text matches Icor2_6 --></quote> <pb ed="#P" n="0312B"/> . Et alibi: longe inferiori stola indutus, <quote xml:id="gom-lev6-Qd1e285">nihil judicavi,</quote> inquit, <quote xml:id="gom-lev6-Qd1e287" source="http://scta.info/resource/Icor2_2@5-14">me scire inter vos, nisi Jesum Christum, et hunc crucifixum<!-- check: Migne cites IIcor1; text matches Icor2_2 --></quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e294">
+          <head xml:id="gom-lev6-Hd1e296">Versus 12</head>
+          <p xml:id="gom-lev6-d1e298">
+            <quote xml:id="gom-lev6-Qd1e300" type="lemma" source="http://scta.info/resource/lev6_12@1-3">Ignis in.</quote>
+            <ref xml:id="gom-lev6-Rd1e303"><name xml:id="gom-lev6-Nd1e304" ref="#Augustine">AUG.</name> quaest. 12 in Levit.</ref>
+            <quote xml:id="gom-lev6-Qd1e308">Non vult ignem prorsus exstingui, sed cum usque mane arserit holocaustum, ablatis reliquis iterum renovati, quo ardeant alia quae imponuntur.</quote>
+          </p>
+          <p xml:id="gom-lev6-d1e311">
+            <quote xml:id="gom-lev6-Qd1e313" type="lemma" source="http://scta.info/resource/lev6_12@7-9">Quem nutriet sacer. Allegorice.</quote>
+            Mane judicatus est Christus, vespere crucifixus. Ignis ergo mane et vespere subjicitur: quia charitas Dei in nobis nutritur, dum Christum mane judicatum, vespere crucifixum, recolimus.
+          </p>
+          <p xml:id="gom-lev6-d1e317">
+            <ref xml:id="gom-lev6-Rd1e319" type="lemma" subtype="implied" target="http://scta.info/resource/lev6_12@7-9"/>
+            <ref xml:id="gom-lev6-Rd1e321"><name xml:id="gom-lev6-Nd1e322" ref="#GregoryGreat">GREG.</name> lib. XXV Moral., cap. 7.</ref>
+            <quote xml:id="gom-lev6-Qd1e326"><seg type="qs">Altare Dei cor nostrum est</seg>, etc., usque ad <seg type="qs">ut quo magis videtur Deus, magis diligatur.</seg></quote>
+          </p>
+          <p xml:id="gom-lev6-d1e334">
+            <pb ed="#P" n="0312C"/>
+            <quote xml:id="gom-lev6-Qd1e338" type="lemma" source="http://scta.info/resource/lev6_12@16-20">Et imposito holocausto desuper adolebit,</quote>
+            etc.
+            <ref xml:id="gom-lev6-Rd1e341"><name xml:id="gom-lev6-Nd1e342" ref="#Augustine">AUG.</name>, quaest. 13 in Levit.</ref>
+            <quote xml:id="gom-lev6-Qd1e346"><seg type="qs">Videndum est utrum nullus dies praetermitteretur</seg>, etc., usque ad <seg type="qs">quod mirum est si taceret, nec admoneret talia vespere offerri.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e355">
+          <head xml:id="gom-lev6-Hd1e357">Versus 14</head>
+          <p xml:id="gom-lev6-d1e359">
+            <quote xml:id="gom-lev6-Qd1e361" type="lemma" source="http://scta.info/resource/lev6_14@1-2">Haec est.</quote>
+            Videtur legislator iterare quae dixit, memoriam renovans repetitione mandati, et ostendens utilitatem et necessitatem legis. Interponit tamen aliquid novi in quo mandatum necessarium et inexcusabile innuit. Sicut ergo de holocaustis sacrificia iteravit, permiscens eis assiduitatem, ut est illud: <quote xml:id="gom-lev6-Qd1e364">Ignis in altari semper ardeat et nunquam deficiat:</quote> sic in sacrificio similae, id est theologiae addit, quia oportet in loco tantum sancto, et a masculo comedi.
+          </p>
+          <p xml:id="gom-lev6-d1e367">
+            <quote xml:id="gom-lev6-Qd1e369" type="lemma" source="http://scta.info/resource/lev6_14@13-14">Et coram.</quote>
+            Secundum quod Christus revelaverit, <pb ed="#P" n="0312D"/> qui est verum altare. In his ergo theologiam constituamus quae nobis tradidit Christus incarnatus, ut Patrem in eo, et ipsum in Patre cogitemus, et quia Spiritus est Filii et a Patre procedit.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e376">
+          <head xml:id="gom-lev6-Hd1e378">Versus 16</head>
+          <p xml:id="gom-lev6-d1e380">
+            <quote xml:id="gom-lev6-Qd1e382" type="lemma" source="http://scta.info/resource/lev6_16@1-1">Reliquam,</quote>
+            etc., ut non ex toto a theologia cessemus, quia summa scientiae in futurum conversatur.
+          </p>
+          <p xml:id="gom-lev6-d1e386">
+            <quote xml:id="gom-lev6-Qd1e388" type="lemma" source="http://scta.info/resource/lev6_16@14-15">In loco.</quote>
+            Ecclesia, quae est introitus et vestibulum coeli, in ea oportet de divinitate loqui, unde psal. LXVII: <quote xml:id="gom-lev6-Qd1e391" source="http://scta.info/resource/ps67_27@1-4">In ecclesiis benedicite Deo,</quote> est quisque sibi domestica ecclesia, dum a terrenis negotiis cessat: hic sibi de Deo loqui et theologiam exercere potest. Tales sunt quibus pars sacrificii datur, de Deo, scilicet, meditari et loqui.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e397">
+          <head xml:id="gom-lev6-Hd1e399">Versus 17</head>
+          <p xml:id="gom-lev6-d1e401">
+            <pb ed="#P" n="0313A"/>
+            <quote xml:id="gom-lev6-Qd1e405" type="lemma" source="http://scta.info/resource/lev6_17@15-17">Sicut pro peccato.</quote>
+            Simile innuit hoc sacrificium ei, quod et pro peccato et pro delicto: sermo enim de Deo maxime ad expiationem et ad emundationem animae habetur, quando oleo et thuri, id est, eleemosynae et orationi, sacrificium verbi Dei, id est, theologiae, conjunguntur.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e410">
+          <head xml:id="gom-lev6-Hd1e412">Versus 18</head>
+          <p xml:id="gom-lev6-d1e414">
+            <quote xml:id="gom-lev6-Qd1e416" type="lemma" source="http://scta.info/resource/lev6_18@1-2">Mares tantum.</quote>
+            Non omnium est de Deo disputare, sed eorum qui nihil femineum, nihil fluxum in cogitationibus vel operibus habent.
+          </p>
+          <p xml:id="gom-lev6-d1e420">
+            <quote xml:id="gom-lev6-Qd1e422" type="lemma" source="http://scta.info/resource/lev6_18@7-10">Legitimum ac sempiternum est.</quote>
+            De Deo enim disputare praesumere non debemus, dum per saeculares phantasias a masculorum dignitate declinamus.
+          </p>
+          <p xml:id="gom-lev6-d1e426">
+            <quote xml:id="gom-lev6-Qd1e428" type="lemma" source="http://scta.info/resource/lev6_18@17-19">Omnis qui tetigerit.</quote>
+            <ref xml:id="gom-lev6-Rd1e431"><name xml:id="gom-lev6-Nd1e432">ISICH.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e434">Hoc ad litteram stare non potest: nunquid enim si tetigerit homicida aut profanus sanctificabitur? nullus enim excipitur. Sed <pb ed="#P" n="0313B"/> Christus, in cujus typo haec praecesserunt, immolatur: hujus carnem qui tetigerit, id est, qui fideli corde totam spem salutis in passione ejus et resurrectione posuerit, continuo sanctificabitur.</quote>
+          </p>
+          <p xml:id="gom-lev6-d1e440">
+            <ref xml:id="gom-lev6-Rd1e442"><name xml:id="gom-lev6-Nd1e443">ID.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e445" type="lemma" source="http://scta.info/resource/lev6_18@17-18">Omnis qui,</quote>
+            <quote xml:id="gom-lev6-Qd1e448">etc. Omnis commemoratio Dei sanctificationem praestat. Unde: <quote xml:id="gom-lev6-Qd1e450" source="http://scta.info/resource/Itim4_5@1-7">Sanctificatur autem per verbum Dei et orationem.</quote> Sed cum dicit, tangentem sanctificari, plane ostendit quia disputando de Deo, id est, theologizando, sufficit nobis tantum tangere: qui enim vult calefieri, si manum in ignem miserit, pro calefactione adustionem sustinebit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e456">
+          <head xml:id="gom-lev6-Hd1e458">Versus 20</head>
+          <p xml:id="gom-lev6-d1e460">
+            <quote xml:id="gom-lev6-Qd1e462" type="lemma" source="http://scta.info/resource/lev6_20@1-3">Haec est oblatio.</quote>
+            <ref xml:id="gom-lev6-Rd1e465"><name xml:id="gom-lev6-Nd1e466" ref="#Augustine">AUG.</name>, quaest. 14 in Levit.</ref>
+            <quote xml:id="gom-lev6-Qd1e470">Alia sunt sacrificia quae commemoravit in Exod., quibus per septem dies sanctificantur sacerdotes, ut fungantur <pb ed="#P" n="0313C"/> sacerdotio. Aliud est quod commemorat, quod offerat summus sacerdos, quando constituitur, id est quando ungitur: unde addit: <quote xml:id="gom-lev6-Qd1e474" source="http://scta.info/resource/ps19_10@8-10">In die qua unxerit eum,</quote> non eos, cum etiam secundos sacerdotes ungi praecipiat; hoc sacrificium est sempiternum per successionem, scilicet sacerdotum. Vel quia quod signat est sempiternum.</quote>
+          </p>
+          <p xml:id="gom-lev6-d1e479">
+            <quote xml:id="gom-lev6-Qd1e481" type="lemma" source="http://scta.info/resource/lev6_20@1-2">Haec est,</quote>
+            etc. Aaron mons fortitudinis, id est, Christus; filii ejus omnes fideles; dies unctionis, tempus incarnationis, quo unctus est oleo laetitiae prae participibus suis.
+          </p>
+          <p xml:id="gom-lev6-d1e485">
+            <quote xml:id="gom-lev6-Qd1e487" type="lemma" source="http://scta.info/resource/lev6_20@18-18">Ephi.</quote>
+            Christi humanitatem. Ephi quidem tres modios capiens significat Trinitatem, si tamen ephi Domini caro est, ut demonstretur divinitatis eminentia, et Dominicae carnis cum ea inseparabilitas, nihilominus <pb ed="#P" n="0313D"/> sacrificium perpetuum est. Una enim oblatione consummavit in sempiternum sanctificatos: unde et <quote xml:id="gom-lev6-Qd1e492" source="http://scta.info/resource/hebr7_25@3-6">salvare in perpetuum potest.</quote>
+          </p>
+          <p xml:id="gom-lev6-d1e496">
+            <quote xml:id="gom-lev6-Qd1e498" type="lemma" source="http://scta.info/resource/lev6_20@21-22">In sacrificio.</quote>
+            <ref xml:id="gom-lev6-Rd1e501"><name xml:id="gom-lev6-Nd1e502" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e505"><seg type="qs">Lex Moysi sacrificium est sacerdotis</seg>, etc., usque ad <seg type="qs">in quo nihil sit remissum, nihil luxuriosum <!--<note>(Matth. XVI)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-lev6-d1e516">
+            <quote xml:id="gom-lev6-Qd1e518" type="lemma" source="http://scta.info/resource/lev6_20@26-26">Mane.</quote>
+            Mane coepit passio Domini ex quo in atrio Caiphae alapis caesus est, et usque ad vesperum protelata est, tenebris enim eam interpolantibus, a sexta hora usque ad horam nonam in mane et vespere dividitur.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e523">
+          <head xml:id="gom-lev6-Hd1e525">Versus 21</head>
+          <p xml:id="gom-lev6-d1e527">
+            <quote xml:id="gom-lev6-Qd1e529" type="lemma" source="http://scta.info/resource/lev6_21@1-3">Quae in sartagine.</quote>
+            <ref xml:id="gom-lev6-Rd1e532"><name xml:id="gom-lev6-Nd1e533" ref="#GregoryGreat">GREG.</name> hom. 12 in Ezech.</ref>
+            <quote xml:id="gom-lev6-Qd1e537"><seg type="qs">Nullum Deo tale sacrificium est</seg>, etc., usque ad <seg type="qs">holocaustum Deo deputatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e546">
+          <head xml:id="gom-lev6-Hd1e548">Versus 22</head>
+          <p xml:id="gom-lev6-d1e550">
+            <quote xml:id="gom-lev6-Qd1e552" type="lemma" source="http://scta.info/resource/lev6_22@1-1">Sacerdos.</quote>
+            LXX: <quote xml:id="gom-lev6-Qd1e555">Sacerdos unctus pro <pb ed="#P" n="0314A"/> eo ex filiis ejus faciet ea.</quote> Christus enim <quote xml:id="gom-lev6-Qd1e560">pro</quote> Aaron est, non in loco ejus, quia transtulit in se sacerdotium, et abstulit Aaron.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e564">
+          <head xml:id="gom-lev6-Hd1e566">Versus 25</head>
+          <p xml:id="gom-lev6-d1e568">
+            <quote xml:id="gom-lev6-Qd1e570" type="lemma" source="http://scta.info/resource/lev6_25@4-5">Ex filiis ejus,</quote>
+            quia de Jacob per Mariam descendit et ex eadem tribu.
+          </p>
+          <p xml:id="gom-lev6-d1e574">
+            <quote xml:id="gom-lev6-Qd1e576" type="lemma" source="http://scta.info/resource/lev6_25">Qui patri.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Unus Dominus Jesus Christus, per quem omnia <!--<note>(Rom. XI)</note>-->. Dominus enim gloriae crucifixus est, et incarnati Verbi passio est, quae fuit in carne Christi: <quote xml:id="gom-lev6-Qd1e583">Qui semetipsum totum exinanivit, formam servi accipiens et obediens patri usque ad mortem crucis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e588">
+          <head xml:id="gom-lev6-Hd1e590">Versus 23</head>
+          <p xml:id="gom-lev6-d1e592">
+            <quote xml:id="gom-lev6-Qd1e594" type="lemma" source="http://scta.info/resource/lev6_23@1-2">Omne enim.</quote>
+            Quaecunque in sacrificio pacificorum in hoc quoque jubet fieri.
+          </p>
+          <p xml:id="gom-lev6-d1e598">
+            <quote xml:id="gom-lev6-Qd1e600" type="lemma" source="http://scta.info/resource/lev6_23@7-8">Nec quisquam.</quote>
+            Quod comeditur comminuitur: sacrificium Christi comminuit, qui pro peccatis mortuum dicit, cum peccatum non fecerit.
+          </p>
+          <p xml:id="gom-lev6-d1e604">
+            <pb ed="#P" n="0314B"/>
+            <ref xml:id="gom-lev6-Rd1e608"><name xml:id="gom-lev6-Nd1e609" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-lev6-Qd1e612" type="lemma" source="http://scta.info/resource/lev6_23@7-9">Nec quisquam comedet.</quote>
+            <quote xml:id="gom-lev6-Qd1e615">Sacrificium in hoc loco Verbum ipsum accipiendum est, et doctrina, de qua nullus edit, id est, disputat vel retractat; sed holocaustum est. Quidquid enim dixit, quidquid statuit, aeterna consecratione perdurat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e619">
+          <head xml:id="gom-lev6-Hd1e621">Versus 26</head>
+          <p xml:id="gom-lev6-d1e623">
+            <quote xml:id="gom-lev6-Qd1e625" type="lemma" source="http://scta.info/resource/lev6_26@1-2">Sacerdos qui,</quote>
+            etc.
+            <ref xml:id="gom-lev6-Rd1e628"><name xml:id="gom-lev6-Nd1e629" ref="#Augustine">AUG.</name> quaest. 18 in Levit.</ref>
+            <quote xml:id="gom-lev6-Qd1e633"><seg type="qs">Non quod imponit</seg>, etc., usque ad <seg type="qs">hoc et modo breviter commemorat.</seg></quote>
+          </p>
+          <p xml:id="gom-lev6-d1e641">
+            <ref xml:id="gom-lev6-Rd1e643" type="lemma" subtype="implied" target="http://scta.info/resource/lev6_26@1-2"/>
+            <ref xml:id="gom-lev6-Rd1e645"><name xml:id="gom-lev6-Nd1e646" ref="#Origen">ORIG.</name> homil. 5 in Levit.</ref>
+            <quote xml:id="gom-lev6-Qd1e650"><seg type="qs">Quaedam hostiarum sunt solius Dei</seg>, etc., usque ad <seg type="qs">melius ista igni reservamus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e659">
+          <head xml:id="gom-lev6-Hd1e661">Versus 27</head>
+          <p xml:id="gom-lev6-d1e663">
+            <quote xml:id="gom-lev6-Qd1e665" type="lemma" source="http://scta.info/resource/lev6_27">Quidquid tetigerit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Quamvis oblatio sit alterius, id est poenitentis, sanctificabitur etsi non poeniteat. Similiter si parvulus baptizatus fuerit, <pb ed="#P" n="0314C"/> qui per se nondum peccavit, mundatur ab originali
+          </p>
+          <p xml:id="gom-lev6-d1e673">
+            <quote xml:id="gom-lev6-Qd1e675" type="lemma" source="http://scta.info/resource/lev6_27@6-8">Si de sanguine,</quote>
+            id est, si substantia carnis peccatis fuerit maculata. Unde: <quote xml:id="gom-lev6-Qd1e678" source="http://scta.info/resource/is9_5@8-16">Vestimentum mistum sanguine erit in combustione, et cibus ignis</quote> infernalis, scilicet lavabitur in loco sancto, id est spem habebit in baptismo, qui non solum praeterita abluit, sed instruit ut de futuris poenitere possit.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e683">
+          <head xml:id="gom-lev6-Hd1e685">Versus 28</head>
+          <p xml:id="gom-lev6-d1e687">
+            <quote xml:id="gom-lev6-Qd1e689" type="lemma" source="http://scta.info/resource/lev6_28@1-3">Vas autem fictile,</quote>
+            etc. Infirmus: scilicet, imbecillis, qui peracta poenitentia relabitur ad peccata, his confringendus est terrore judicii.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e694">
+          <head xml:id="gom-lev6-Hd1e696">Versus 29</head>
+          <p xml:id="gom-lev6-d1e698">
+            <quote xml:id="gom-lev6-Qd1e700" type="lemma" source="http://scta.info/resource/lev6_29@1-2">Omnis masculus,</quote>
+            etc. Sacerdos integrum sacrificium offerens et comedens, Christus est, qui nostram poenitentiam offert, et comedit peccatorum salutem. Carnes autem sacrificii, quia pertinent <pb ed="#P" n="0314D"/> ad poenitentiam, omnis masculus de sacerdotibus comedit, fortis, scilicet et strenuus, cui dicitur: <quote xml:id="gom-lev6-Qd1e705" source="http://scta.info/resource/ps26_14@3-12">Viriliter age, et confortetur cor tuum, et sustine Dominum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-lev6-Dd1e710">
+          <head xml:id="gom-lev6-Hd1e712">Versus 30</head>
+          <p xml:id="gom-lev6-d1e714">
+            <quote xml:id="gom-lev6-Qd1e716" type="lemma" source="http://scta.info/resource/lev6_30@17-18">Non comedetur,</quote>
+            etc. Quia ad Christum pertinet, qui propria auctoritate, et propria divinitatis virtute remissionem tribuit. Ejus enim passio, per quam nobis procuratur remissio, non fuit hominis puri, sed Dei incarnati. Ideo non editur ab hominibus, sed igne consumitur, quia remissionem dare Dei solius est, qui per ignem significatur, <quote xml:id="gom-lev6-Qd1e719" source="http://scta.info/resource/deut4_24@3-7">Deus enim noster ignis consumens est</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

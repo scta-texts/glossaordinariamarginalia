@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 26</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 26</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1211D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir26">
+        <head xml:id="gom-sir26-Hd1e98">Caput 26</head>
+        <div xml:id="gom-sir26-Dd1e100">
+          <head xml:id="gom-sir26-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir26-d1e104">
+            <quote xml:id="gom-sir26-Qd1e106" type="lemma" source="http://scta.info/resource/sir26_1@1-2">Mulieris bonae.</quote>
+            <ref xml:id="gom-sir26-Rd1e109"><name xml:id="gom-sir26-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir26-Qd1e113"><seg type="qs">Sicut prius mulierem nequam vituperavit</seg>, etc., usque ad <seg type="qs">et in futuro gaudebit de perceptione praemiorum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e122">
+          <head xml:id="gom-sir26-Hd1e124">Versus 4</head>
+          <p xml:id="gom-sir26-d1e126">
+            <quote xml:id="gom-sir26-Qd1e128" type="lemma" source="http://scta.info/resource/sir26_4@1-2">Divitis autem.</quote>
+            Dives vel pauper ad gratiam Christi devota mente perveniens, jucunditate <pb ed="#P" n="1212A"/> visionis Dei perpetuo fruetur, quia non est personarum acceptor Deus.
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e135">
+          <head xml:id="gom-sir26-Hd1e137">Versus 5</head>
+          <p xml:id="gom-sir26-d1e139">
+            <quote xml:id="gom-sir26-Qd1e141" type="lemma" source="http://scta.info/resource/sir26_5@2-2">Tribus.</quote>
+            His similitudinibus vocat eos, qui ab unitate verae religionis separati sunt, id est, Judaeos, paganos, haereticos, et falsos Christianos.
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e146">
+          <head xml:id="gom-sir26-Hd1e148">Versus 6</head>
+          <p xml:id="gom-sir26-d1e150">
+            <quote xml:id="gom-sir26-Qd1e152" type="lemma" source="http://scta.info/resource/sir26_6@1-2">Delaturam civitatis.</quote>
+            Insipientia stultorum. Sicut enim bruta animalia nesciunt discernere inter amicum et inimicum, et inter bonum et malum; ita insipientes ignorant distantiam catholicae doctrinae et haereticae, sed veris et falsis doctoribus obediunt aeque. Contra quos dicitur alibi, <quote xml:id="gom-sir26-Qd1e155" source="http://scta.info/resource/prov7_22@1-19">Statim eam sequitur quasi bos ad victimam, et quasi agnus lasciviens, et ignorat quod ad victimam pertrahatur</quote>. Sed haereticorum astutia non aperta fronte, sed dolose incautos decipit.
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e161">
+          <head xml:id="gom-sir26-Hd1e163">Versus 11</head>
+          <p xml:id="gom-sir26-d1e165">
+            <pb ed="#P" n="1212B"/>
+            <quote xml:id="gom-sir26-Qd1e169" type="lemma" source="http://scta.info/resource/sir26_11@1-2">Mulier ebriosa.</quote>
+            Habitum meretricis describit, quae motu corporis et motu oculorum ostentat libidinem. Mystice autem haereticum significat, qui in superbia sensus et facundia verborum fornicationem suam jactat, ut novitatum amatores facilius attrahat prurientes auribus, qui a veritate auditum avertunt et ad fabulas convertuntur.
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e174">
+          <head xml:id="gom-sir26-Hd1e176">Versus 12</head>
+          <p xml:id="gom-sir26-d1e178">
+            <quote xml:id="gom-sir26-Qd1e180" type="lemma" source="http://scta.info/resource/sir26_12@1-2">Fornicatio mulieris.</quote>
+            <ref xml:id="gom-sir26-Rd1e183"><name xml:id="gom-sir26-Nd1e184" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir26-Qd1e187"><seg type="qs">Per haec tria curiositatem humanae mentis ostendit</seg>, etc., usque ad <seg type="qs">per superbiam vitae, cum adderet, <quote xml:id="gom-sir26-Qd1e193" source="http://scta.info/resource/gen3_5@15-17">Eritis sicut dii</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e199">
+          <head xml:id="gom-sir26-Hd1e201">Versus 16</head>
+          <p xml:id="gom-sir26-d1e203">
+            <quote xml:id="gom-sir26-Qd1e205" type="lemma" source="http://scta.info/resource/sir26_16@8-10">Ossa illius impinguabit.</quote>
+            Charitate scilicet, unde: <quote xml:id="gom-sir26-Qd1e208" source="http://scta.info/resource/io14_21@1-24">Qui servat mandata mea, ille est qui diligit me, et diligetur a Patre meo, et ego diligam eum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e213">
+          <head xml:id="gom-sir26-Hd1e215">Versus 18</head>
+          <p xml:id="gom-sir26-d1e217">
+            <pb ed="#P" n="1212C"/>
+            <quote xml:id="gom-sir26-Qd1e221" type="lemma" source="http://scta.info/resource/sir26_18@1-1">Mulier,</quote>
+            etc. Quia sapientia Dei animas electorum imbuit, et tribuit eis custodiam oris et efficaciam operis, nec eos a se declinare permittit, quia omnis qui natus est ex Deo, non peccat, fidem, scilicet violando, vel charitatem: <quote xml:id="gom-sir26-Qd1e224">Quia semen Dei,</quote> id est verbum, quo renatus est, <quote xml:id="gom-sir26-Qd1e226">in se habet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e230">
+          <head xml:id="gom-sir26-Hd1e232">Versus 23</head>
+          <p xml:id="gom-sir26-d1e234">
+            <quote xml:id="gom-sir26-Qd1e236" type="lemma" source="http://scta.info/resource/sir26_23@1-2">Columnae aureae.</quote>
+            Doctores sapientia fulgentes, super bases argenteas locantur, cum in sancta Scriptura praedicatione sua insigniuntur.
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e241">
+          <head xml:id="gom-sir26-Hd1e243">Versus 25</head>
+          <p xml:id="gom-sir26-d1e245">
+            <quote xml:id="gom-sir26-Qd1e247" type="lemma" source="http://scta.info/resource/sir26_25@1-2">In duobus.</quote>
+            <ref xml:id="gom-sir26-Rd1e250"><name xml:id="gom-sir26-Nd1e251" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir26-Qd1e254"><seg type="qs">Notat sapientia</seg>, etc., usque ad <seg type="qs">vel deserto tramite veritatis sequitur devia erroris.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir26-Dd1e264">
+          <head xml:id="gom-sir26-Hd1e266">Versus 28</head>
+          <p xml:id="gom-sir26-d1e268">
+            <quote xml:id="gom-sir26-Qd1e270" type="lemma" source="http://scta.info/resource/sir26_28@8-9">Difficile exuitur.</quote>
+            <ref xml:id="gom-sir26-Rd1e273"><name xml:id="gom-sir26-Nd1e274" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir26-Qd1e277">Actus pessimus, non res honesta damnatur. Ille negotiator abominandus, qui per immoderatam ambitionem merces <pb ed="#P" n="1212D"/> suas plus perjurio onerat quam pretio.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

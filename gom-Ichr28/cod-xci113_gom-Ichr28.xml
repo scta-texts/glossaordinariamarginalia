@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon I, Caput 28</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon I, Caput 28</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0663B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ichr28">
+        <head xml:id="gom-Ichr28-Hd1e98">Caput 28</head>
+        <div xml:id="gom-Ichr28-Dd1e100">
+          <head xml:id="gom-Ichr28-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ichr28-d1e104">
+            <quote xml:id="gom-Ichr28-Qd1e106" type="lemma" source="http://scta.info/resource/Ichr28_1@28-37">Cum eunuchis et potentes et robustissimos quosque in exercitu Jerusalem.</quote>
+            <ref xml:id="gom-Ichr28-Rd1e109"><name xml:id="gom-Ichr28-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr28-Qd1e113">Lex prohibet Israelitas abscindi, et alienigenae non solent ad secreta consilii admitti. Sed tradunt in hoc loco <pb ed="#P" n="0663C"/> eunuchos vocari, qui a saeculi actionibus alieni, orationi et lectioni vacabant: et uxores non causa libidinis, sed suscipiendae prolis habebant: quos Josephus Essenos vocat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr28-Dd1e120">
+          <head xml:id="gom-Ichr28-Hd1e122">Versus 11</head>
+          <p xml:id="gom-Ichr28-d1e124">
+            <quote xml:id="gom-Ichr28-Qd1e126" type="lemma" source="http://scta.info/resource/Ichr28_11@1-3">Dedit autem David.</quote>
+            David Psalmista, et caeteri Patres Veteris Testamenti figuris et aenigmatibus designabant universa quae verus pacificus in Ecclesia facturus erat: quomodo omnes nationes per fidem baptismi introitum in Ecclesiam habuerunt, qualis Ecclesiae status esset futurus, qualis sanctorum perfectio et in regno coelesti remuneratio cujusque pro meritis reddenda per diversas cellas et exedras, quia in regno Dei mansiones multae sunt.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr28-Dd1e131">
+          <head xml:id="gom-Ichr28-Hd1e133">Versus 17</head>
+          <p xml:id="gom-Ichr28-d1e135">
+            <quote xml:id="gom-Ichr28-Qd1e137" type="lemma" source="http://scta.info/resource/Ichr28_17@11-12">Et leunculos.</quote>
+            <ref xml:id="gom-Ichr28-Rd1e140"><name xml:id="gom-Ichr28-Nd1e141" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr28-Qd1e144"><seg type="qs">Neque in Exodo in constructione tabernaculi</seg>, etc., usque ad <seg type="qs">perstrinximus.</seg></quote>
+          </p>
+          <p xml:id="gom-Ichr28-d1e152">
+            <pb ed="#P" n="0663D"/>
+            <ref xml:id="gom-Ichr28-Rd1e156" type="lemma" subtype="implied" target="http://scta.info/resource/Ichr28_17@11-12"/>
+            <ref xml:id="gom-Ichr28-Rd1e158"><name xml:id="gom-Ichr28-Nd1e159" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ichr28-Qd1e162">Tradunt Hebraei exemplar templi et vasorum <pb ed="#P" n="0664A"/> Mosi in monte monstrati ad Jesum pervenisse, deinde ad judices et ad Heli et ad Samuel et ad David, tandem ad Salomonem. Vel manus Domini, filius est, per cujus donum David et alii sancti perceperunt quidquid de sanctae Ecclesiae structura protulerunt.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

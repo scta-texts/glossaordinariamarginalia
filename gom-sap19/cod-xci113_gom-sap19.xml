@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 19</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 19</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1183A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap19">
+        <head xml:id="gom-sap19-Hd1e98">Caput 19</head>
+        <div xml:id="gom-sap19-Dd1e100">
+          <head xml:id="gom-sap19-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sap19-d1e104">
+            <quote xml:id="gom-sap19-Qd1e106" type="lemma" source="http://scta.info/resource/sap19_1@1-2">Impiis autem,</quote>
+            etc. Inimicis populi Dei: vindicta usque ad consummationem supervenit, quia nec vitam nec mores correxerunt, fictis enim argumentis simulabant poenitentiam, et ideo non meruerunt indulgentiam. Unde Pharao cum plagis afflictus, populum Dei se dimissurum promitteret, paululum respirans ad domesticam crudelitatem reversus est, donec in mari Rubro fluctibus submersus est. Persecutores enim Christiani nominis si perstiterint in malitia <pb ed="#P" n="1183B"/> sua, sentient in poena quantum valeat Dei justitia.
+          </p>
+        </div>
+        <div xml:id="gom-sap19-Dd1e113">
+          <head xml:id="gom-sap19-Hd1e115">Versus 8</head>
+          <p xml:id="gom-sap19-d1e117">
+            <quote xml:id="gom-sap19-Qd1e119" type="lemma" source="http://scta.info/resource/sap19_8@10-11">Videntes tua mirabilia.</quote>
+            Sic nos oportet liberatori nostro exsultantes gratias agere dicentes: <quote xml:id="gom-sap19-Qd1e122" source="http://scta.info/resource/ps103_1@3-6">Benedic, anima mea, Dominum</quote>. Unde Apostolus: <quote xml:id="gom-sap19-Qd1e125" source="http://scta.info/resource/Ith5_18@1-4">Sine intermissione orate, in omnibus gratias agite</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sap19-Dd1e130">
+          <head xml:id="gom-sap19-Hd1e132">Versus 10</head>
+          <p xml:id="gom-sap19-d1e134">
+            <quote xml:id="gom-sap19-Qd1e136" type="lemma" source="http://scta.info/resource/sap19_10">Produxit terra.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Nota quod inimicis Dei terra produxit muscas, et fluvius ranas; cultoribus autem Dei terra dedit fructum, et mare <pb ed="#P" n="1184A"/> carnis alimentum. Dignum est enim, ut fidelibus suis per opera sua nutrimentum, divina procuret providentia. Inimicis vero condignum tormentum per subditam sibi creaturam inferat.
+          </p>
+        </div>
+        <div xml:id="gom-sap19-Dd1e145">
+          <head xml:id="gom-sap19-Hd1e147">Versus 12</head>
+          <p xml:id="gom-sap19-d1e149">
+            <quote xml:id="gom-sap19-Qd1e151" type="lemma" source="http://scta.info/resource/sap19_12@25-27">Juste enim patiebantur.</quote>
+            <ref xml:id="gom-sap19-Rd1e154"><name xml:id="gom-sap19-Nd1e155" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap19-Qd1e158"><seg type="qs">Qui antiquos Dei servos</seg>, etc., usque ad <seg type="qs">viam veritatis non agnoscit, et ostium quod Christus est, non invenit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap19-Dd1e168">
+          <head xml:id="gom-sap19-Hd1e170">Versus 17</head>
+          <p xml:id="gom-sap19-d1e172">
+            <quote xml:id="gom-sap19-Qd1e174" type="lemma" source="http://scta.info/resource/sap19_17@1-4">In se elementa.</quote>
+            Sicut in organo diversi soni ad concordiam melodiae temperamento consentiunt, ita discrepantia elementa servato jure naturae ad Creatoris voluntatem flectuntur: non enim creaturam sibi condidit contrariam, sed per omnia voluntati suae consentaneam.
+          </p>
+          <p xml:id="gom-sap19-d1e178">
+            <quote xml:id="gom-sap19-Qd1e180" type="lemma" source="http://scta.info/resource/sap19_17@18-20">Unde aestimari,</quote>
+            etc.
+            <ref xml:id="gom-sap19-Rd1e183"><name xml:id="gom-sap19-Nd1e184" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap19-Qd1e187"><seg type="qs">Homines enim et jumenta</seg>, etc., usque ad <seg type="qs">ut appareret quod elementa mundi non suae tantum conditioni, <pb ed="#P" n="1184B"/> sed Creatoris deservirent voluntati.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap19-Dd1e198">
+          <head xml:id="gom-sap19-Hd1e200">Versus 20</head>
+          <p xml:id="gom-sap19-d1e202">
+            <quote xml:id="gom-sap19-Qd1e204" type="lemma" source="http://scta.info/resource/sap19_20@20-24">In omnibus enim magnificasti.</quote>
+            Misericors et miserator Dominus semper adest fidelibus suis, quos semper protegit et regit: quos aliquando in martyrio purgat. Unde: <quote xml:id="gom-sap19-Qd1e207" source="http://scta.info/resource/sir27_6@1-9">Vasa figuli probat fornax, et homines justos tentatio tribulationis<!-- check: Migne cites qoh27; text matches sir27_6 --></quote>. Multae enim tribulationes justorum, et de omnibus his liberavit eos Dominus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

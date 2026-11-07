@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1242D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is6">
+        <head xml:id="gom-is6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-is6-Dd1e100">
+          <head xml:id="gom-is6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is6-d1e104">
+            <quote xml:id="gom-is6-Qd1e106" type="lemma" source="http://scta.info/resource/is6_1@1-2">In anno,</quote>
+            etc.
+            <ref xml:id="gom-is6-Rd1e109"><name xml:id="gom-is6-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is6-Qd1e113"><seg type="qs">Ozias ipse est Azarias</seg>, etc., usque ad <seg type="qs">cadens in faciem, excelsa voce clamat ad Dominum.</seg></quote>
+          </p>
+          <p xml:id="gom-is6-d1e121">
+            <pb ed="#P" n="1243A"/>
+            <quote xml:id="gom-is6-Qd1e125" type="lemma" source="http://scta.info/resource/is6_1@6-7">Rex Ozias.</quote>
+            Rex, scilicet leprosus, qui sacerdotium usurpavit.
+          </p>
+          <p xml:id="gom-is6-d1e129">
+            <quote xml:id="gom-is6-Qd1e131" type="lemma" source="http://scta.info/resource/is6_1@8-9">Vidi Dominum.</quote>
+            Christum scilicet. Visus est Filius in habitu regnantis; locutus est Spiritus sanctus propter consortium majestatis, unitatemque substantiae.
+          </p>
+          <p xml:id="gom-is6-d1e135">
+            <quote xml:id="gom-is6-Qd1e137" type="lemma" source="http://scta.info/resource/is6_1@11-13">Super solium excelsum,</quote>
+            etc.
+            <ref xml:id="gom-is6-Rd1e140"><name xml:id="gom-is6-Nd1e141" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is6-Qd1e144">Qui videt Dominum regnantem in coelestibus virtutibus, videt eum super solium excelsum et elevatum, quae sunt Throni et Dominationes, etc.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e148">
+            <ref xml:id="gom-is6-Rd1e150" type="lemma" subtype="implied" target="http://scta.info/resource/is6_1@11-13"/>
+            Quidam dicunt seraphim virtutes in coelo Deo assistentes et laudantes, quae in ministeria mittuntur maxime ad eos qui purgatione indigent, et propter peccata aliqua ex parte suppliciis.
+          </p>
+          <p xml:id="gom-is6-d1e153">
+            <ref xml:id="gom-is6-Rd1e155" type="lemma" subtype="implied" target="http://scta.info/resource/is6_1@11-13"/>
+            <ref xml:id="gom-is6-Rd1e157"><name xml:id="gom-is6-Nd1e158" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e161">Cherubim, multitudo scientiae, super quos Dominus <pb ed="#P" n="1243B"/> in modum aurigae sedere ostenditur, unde: <quote xml:id="gom-is6-Qd1e165" source="http://scta.info/resource/is37_16@5-8">Qui sedes super cherubim,</quote> etc. Seraphim autem praeter hunc locum in Scripturis canonicis me legisse non memini. Errant ergo qui in precibus solent scribere: Qui sedes super cherubim et seraphim.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e171">
+          <head xml:id="gom-is6-Hd1e173">Versus 2</head>
+          <p xml:id="gom-is6-d1e175">
+            <quote xml:id="gom-is6-Qd1e177" type="lemma" source="http://scta.info/resource/is6_2@2-2">Stabant.</quote>
+            <ref xml:id="gom-is6-Rd1e180"><name xml:id="gom-is6-Nd1e181" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e184">Id est, stant assistentia Deo; volant demonstrantia Deum; nudant quasi medietatem; non manifestant quae velata sunt; non velant, quae nota sunt.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e187">
+            <quote xml:id="gom-is6-Qd1e189" type="lemma" source="http://scta.info/resource/is6_2@5-7">Sex alae uni.</quote>
+            <ref xml:id="gom-is6-Rd1e192"><name xml:id="gom-is6-Nd1e193" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e196">Victorinus duodecim apostolos intelligit. Nos autem duodecim lapides altaris quos ferrum non tetigit, et duodecim gemmas in diademate sacerdotis.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e199">
+            <ref xml:id="gom-is6-Rd1e201" type="lemma" subtype="implied" target="http://scta.info/resource/is6_2@5-7"/>
+            <ref xml:id="gom-is6-Rd1e203"><name xml:id="gom-is6-Nd1e204" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e207">Alas habere dicuntur angeli, quia in superioribus <pb ed="#P" n="1243C"/> commorantur, vel propter velocem in omnibus discursum, sicut et venti alati dicuntur.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e213">
+            <quote xml:id="gom-is6-Qd1e215" type="lemma" source="http://scta.info/resource/is6_2@12-15">Duabus velabant faciem ejus.</quote>
+            <quote xml:id="gom-is6-Qd1e218"><seg type="qs">Ante haec quae fuerunt nescio</seg>, etc., usque ad <seg type="qs">angeli quoque et praedicatores nihil inde docent; similiter:</seg></quote>
+          </p>
+          <p xml:id="gom-is6-d1e227">
+            <quote xml:id="gom-is6-Qd1e229" type="lemma" source="http://scta.info/resource/is6_2@18-19">Velabant pedes.</quote>
+            <ref xml:id="gom-is6-Rd1e232"><name xml:id="gom-is6-Nd1e233" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is6-Qd1e236">Quid post hunc mundum futurum sit ignoramus: media tamen, quae sex diebus vel aetatibus facta sunt, vel fiunt; cognoscimus tantum <quote xml:id="gom-is6-Qd1e238" source="http://scta.info/resource/is6_2@12-13">Duabus velabant,</quote> quia de praesenti tantummodo notitiam habemus.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e243">
+            <ref xml:id="gom-is6-Rd1e245" type="lemma" subtype="implied" target="http://scta.info/resource/is6_2@18-19"/>
+            <ref xml:id="gom-is6-Rd1e247"><name xml:id="gom-is6-Nd1e248" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e251"><seg type="qs">Hebraeus meus longe alia via ingressus est</seg>, etc., usque ad <seg type="qs">et tunc vere purgatus labiis, dixi ad Dominum: <quote xml:id="gom-is6-Qd1e257" source="http://scta.info/resource/is6_8@14-18">Ecce ego, mitte me.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e262">
+          <head xml:id="gom-is6-Hd1e264">Versus 3</head>
+          <p xml:id="gom-is6-d1e266">
+            <quote xml:id="gom-is6-Qd1e268" type="lemma" source="http://scta.info/resource/is6_3@1-2">Et clamabant.</quote>
+            <ref xml:id="gom-is6-Rd1e271"><name xml:id="gom-is6-Nd1e272" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e275">Non leviter dicunt, sed salutarem omnibus confessionem clamore pronuntiant: <pb ed="#P" n="1243D"/> Sanctus, sanctus, sanctus, quia et ipsa, scilicet seraphim sancta: sanctius enim his nihil est: mirantur autem quod Filius tantum se humiliaverit et crucem subierit, et terrenis innotuerit.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e281">
+            <quote xml:id="gom-is6-Qd1e283" type="lemma" source="http://scta.info/resource/is6_3@8-9">Sanctus, sanctus,</quote>
+            etc. Mysterium Trinitatis. In utroque Testamento Trinitas praedicatur, Dominus Christus, scilicet qui hic quatuor litterarum est, quod proprie de Deo ponitur: Iod, He, Iod, He; id est, duo <quote xml:id="gom-is6-Qd1e286">ia,</quote> quae duplicata ineffabile nomen Dei faciunt.
+          </p>
+          <p xml:id="gom-is6-d1e289">
+            <quote xml:id="gom-is6-Qd1e291" type="lemma" source="http://scta.info/resource/is6_3@13-16">Plena est omnis terra.</quote>
+            <ref xml:id="gom-is6-Rd1e294"><name xml:id="gom-is6-Nd1e295" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e298"><seg type="qs">Et implebitur</seg>, etc., usque ad <seg type="qs">post duos et quadraginta annos a passione Domini.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e307">
+          <head xml:id="gom-is6-Hd1e309">Versus 4</head>
+          <p xml:id="gom-is6-d1e311">
+            <quote xml:id="gom-is6-Qd1e313" type="lemma" source="http://scta.info/resource/is6_4@4-4">Superliminaria.</quote>
+            <quote xml:id="gom-is6-Qd1e316"><seg type="qs">In Veteri Testamento locutus est Dominus</seg>, etc., usque ad <seg type="qs">quem capientes <pb ed="#P" n="1244A"/> dicimus: <quote xml:id="gom-is6-Qd1e324" source="http://scta.info/resource/Icor13_9@1-8">Ex parte cognoscimus, et ex parte prophetamus</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e331">
+          <head xml:id="gom-is6-Hd1e333">Versus 5</head>
+          <p xml:id="gom-is6-d1e335">
+            <quote xml:id="gom-is6-Qd1e337" type="lemma" source="http://scta.info/resource/is6_5@9-9">Pollutus.</quote>
+            <ref xml:id="gom-is6-Rd1e340"><name xml:id="gom-is6-Nd1e341" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e344">Hoc dicit pro societate populi, cum quo cogebatur loqui. Noxium est cum peccatoribus vivere.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e347">
+            <quote xml:id="gom-is6-Qd1e349" type="lemma" source="http://scta.info/resource/is6_5@20-21">Ego habito.</quote>
+            Nota cum peccatoribus non esse morandum.
+          </p>
+          <p xml:id="gom-is6-d1e353">
+            <quote xml:id="gom-is6-Qd1e355" type="lemma" source="http://scta.info/resource/is6_5">Et regem Dominum exercituum vidi oculis meis: et volavit ad me unus.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Sic Abraham postquam vidit Dominum et vocem ejus audivit, se cinerem et pulverem esse confitetur, quia quantacunque sit hominum dignitas, vilescit in comparatione ejus.
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e362">
+          <head xml:id="gom-is6-Hd1e364">Versus 6</head>
+          <p xml:id="gom-is6-d1e366">
+            <quote xml:id="gom-is6-Qd1e368" type="lemma" source="http://scta.info/resource/is6_6@6-7">De seraphim.</quote>
+            <ref xml:id="gom-is6-Rd1e371"><name xml:id="gom-is6-Nd1e372" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e375">Seraphim per <mentioned>m</mentioned>, in masculino genere per <mentioned>n</mentioned>, in neutro genere plurali dicimus. Seraphim tamen singulariter dici potest, sicut <pb ed="#P" n="1244B"/> cherubim et cherub.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e385">
+            <quote xml:id="gom-is6-Qd1e387" type="lemma" source="http://scta.info/resource/is6_6@8-11">Et in manu ejus.</quote>
+            Id est, operatione ejus, id est Christi. Calculus, id est, charitas, quem forcipe, id est doctrina duorum Testamentorum, de altari tulerat, et Isaiae in exemplum posuerat.
+          </p>
+          <p xml:id="gom-is6-d1e391">
+            <quote xml:id="gom-is6-Qd1e393" type="lemma" source="http://scta.info/resource/is6_6@12-12">Calculus.</quote>
+            <ref xml:id="gom-is6-Rd1e396"><name xml:id="gom-is6-Nd1e397" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e400">LXX: carbunculus, lapis ignitus, qui propter flammeum colorem igneus dicitur.</quote>
+          </p>
+          <p xml:id="gom-is6-d1e403">
+            <quote xml:id="gom-is6-Qd1e405" type="lemma" source="http://scta.info/resource/is6_6@14-14">Forcipe.</quote>
+            <ref xml:id="gom-is6-Rd1e408"><name xml:id="gom-is6-Nd1e409" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e412"><seg type="qs">Haec est scala Jacob gladius bis acutus</seg>, etc., usque ad <seg type="qs">Dei sermonem duplici acie praeceptorum comprehendens.</seg></quote>
+          </p>
+          <p xml:id="gom-is6-d1e421">
+            <quote xml:id="gom-is6-Qd1e423" type="lemma" source="http://scta.info/resource/is6_6@16-17">De altari.</quote>
+            Quod Joannes vidit in Apocalypsi, quod est plenum calculis ignitis, quibus possunt peccata purgari.
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e428">
+          <head xml:id="gom-is6-Hd1e430">Versus 7</head>
+          <p xml:id="gom-is6-d1e432">
+            <quote xml:id="gom-is6-Qd1e434" type="lemma" source="http://scta.info/resource/is6_7@7-11">Ecce tetigi labia tua:</quote>
+            unde: <quote xml:id="gom-is6-Qd1e437" source="http://scta.info/resource/ps119_3@1-9">Quid detur tibi aut quid adjiciatur tibi ad linguam dolosam? <pb ed="#P" n="1244C"/> Sagittae potentis acutae cum carbonibus desolatoriis</quote>. Hic est sermo Dei, de quo dicitur: Habes carbones ignis, sedebis super eos, hi erunt tibi in adjutorium.
+          </p>
+          <p xml:id="gom-is6-d1e443">
+            <quote xml:id="gom-is6-Qd1e445" type="lemma" source="http://scta.info/resource/is6_7@12-14">Et auferetur iniquitas.</quote>
+            <ref xml:id="gom-is6-Rd1e448"><name xml:id="gom-is6-Nd1e449" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e452">Jeremias, qui puer erat, ideo pene immunis a peccato solius manus attactu purgatur. Ad Isaiam vero qui dicit: Vir pollutus labiis ego sum, angelus cum calculo mittitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e456">
+          <head xml:id="gom-is6-Hd1e458">Versus 8</head>
+          <p xml:id="gom-is6-d1e460">
+            <quote xml:id="gom-is6-Qd1e462" type="lemma" source="http://scta.info/resource/is6_8@6-7">Quem mittam?</quote>
+            Non cogit, sed voluntatem quaerit: voluntas enim sola praemium meretur. Isaias autem, tanquam purgatus, offert se spontaneus.
+          </p>
+          <p xml:id="gom-is6-d1e466">
+            <quote xml:id="gom-is6-Qd1e468" type="lemma" source="http://scta.info/resource/is6_8@17-18">Mitte me.</quote>
+            <ref xml:id="gom-is6-Rd1e471"><name xml:id="gom-is6-Nd1e472" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e475"><seg type="qs">Putat se bonum nuntiaturum</seg>, etc., usque ad <seg type="qs">non temeritatis esse, sed obedientiae, quod se obtulerit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e484">
+          <head xml:id="gom-is6-Hd1e486">Versus 9</head>
+          <p xml:id="gom-is6-d1e488">
+            <pb ed="#P" n="1244D"/>
+            <quote xml:id="gom-is6-Qd1e492" type="lemma" source="http://scta.info/resource/is6_9@8-9">Audite audientes.</quote>
+            <ref xml:id="gom-is6-Rd1e495"><name xml:id="gom-is6-Nd1e496" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e499"><seg type="qs">Lucas secundum LXX in Actibus apostolorum: <quote xml:id="gom-is6-Qd1e502" source="http://scta.info/resource/is6_9@9-12">Aure audietis et non intelligetis,</quote></seg> etc., usque ad <seg type="qs">et magis Graecis quam Hebraicis utitur testimoniis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e510">
+          <head xml:id="gom-is6-Hd1e512">Versus 10</head>
+          <p xml:id="gom-is6-d1e514">
+            <quote xml:id="gom-is6-Qd1e516" type="lemma" source="http://scta.info/resource/is6_10@1-1">Excaeca,</quote>
+            etc.
+            <ref xml:id="gom-is6-Rd1e519"><name xml:id="gom-is6-Nd1e520" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is6-Qd1e523"><seg type="qs">Cui simile</seg>, etc., usque ad <seg type="qs">nec est Dei crudelitas, sed misericordia, infidelibus excaecatis, humiles illuminare.</seg></quote>
+          </p>
+          <p xml:id="gom-is6-d1e531">
+            <quote xml:id="gom-is6-Qd1e533" type="lemma" source="http://scta.info/resource/is6_10@26-27">Et convertatur.</quote>
+            Quamvis grave peccatum sit, si convertatur quis, potest salvari: sed hi pro magnitudine sceleris, poenitentia sunt indigni.
+          </p>
+        </div>
+        <div xml:id="gom-is6-Dd1e539">
+          <head xml:id="gom-is6-Hd1e541">Versus 13</head>
+          <p xml:id="gom-is6-d1e543">
+            <quote xml:id="gom-is6-Qd1e545" type="lemma" source="http://scta.info/resource/is6_13@1-2">Et adhuc.</quote>
+            Et pro, id est, adhuc ex ea gente decimatio, quasi adhuc decima pars illius gentis remanebit.
+          </p>
+          <p xml:id="gom-is6-d1e549">
+            <quote xml:id="gom-is6-Qd1e551" type="lemma" source="http://scta.info/resource/is6_13@8-9">Et erit.</quote>
+            Sub Adriano, Judaea iterum vastata est, <pb ed="#P" n="1245A"/> quinquagesimo vero anno post captivitatem Romanorum. Prohibiti enim sunt publicis legibus Judaeam intrare.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

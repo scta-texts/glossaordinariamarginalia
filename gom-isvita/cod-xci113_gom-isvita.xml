@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Vita Isaiae</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Vita Isaiae</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1231B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-isvita">
+        <head xml:id="gom-isvita-Hd1e98">VITA ISAIAE<note>(Ex Epiphanio, lib. de Vitis prophetarum.)</note>
+            </head>
+        <p xml:id="gom-isvita-d1e103">
+          <pb ed="#P" n="1231B"/>
+          Isaias in Jerusalem nobili genere ortus est, ibique prophetavit: sub Manasse rege, sectus in duas partes, occubuit. Sepultusque est sub quercu Rogel, juxta transitum aquarum, quas olim Ezechias rex jacto obstruxerat pulvere. Fontem quippe Deus Siloam causa Prophetae efficit, quoniam priusquam moreretur, pusillum precatus est, uti undas illic effingere dignaretur. Et confestim demisit illi coelitus aquam viventem, unde sortitus est locus ille appellationem Siloam, quod si quis interpretetur, sonat demissum. Sub Ezechia quoque rege, antequam stagnum piscinasque fabricasset, precibus Isaiae effectum, <pb ed="#P" n="1232B"/> ut exigua lympha scaturiret, quod populus in obsidione hostium teneretur, et ne ipsa periret undis destituta civitas. In cujus rei perennem memoriam, populus accurate Prophetam isthic solo cum gloria et honore reddidit, ut per ejusdem intercessiones in consummationem usque saeculi, aquae ejusmodi fructus impetretur, cui scilicet usum referebant acceptum. Exstat autem monumentum Isaiae, finitimum sepulturae principum, post sepulcra sacerdotum versus Nothum partemque meridionalem. Salomon enim Jerosolymam construens, regum excitavit mausolea, prout illa David descripserat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

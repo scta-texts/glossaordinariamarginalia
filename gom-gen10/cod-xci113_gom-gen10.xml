@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0113B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen10">
+        <head xml:id="gom-gen10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-gen10-Dd1e100">
+          <head xml:id="gom-gen10-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen10-d1e104">
+            <pb ed="#P" n="0113B"/>
+            <quote xml:id="gom-gen10-Qd1e108" type="lemma" source="http://scta.info/resource/gen10_1@1-2">Hae sunt generationes,</quote>
+            etc. Benedictus duobus filiis Noe, et medio maledicto, generationes eorum texuntur, ex quibus septuaginta duae generationes sunt ortae: quindecim de Japheth, triginta de Cham, viginti septem de Sem. Ad quas misit Dominus septuaginta duos discipulos.
+          </p>
+          <p xml:id="gom-gen10-d1e112">
+            <quote xml:id="gom-gen10-Qd1e114" type="lemma" source="http://scta.info/resource/gen10_1@5-5">Sem</quote>
+            <ref xml:id="gom-gen10-Rd1e117"><name xml:id="gom-gen10-Nd1e118">ALC.</name></ref>
+            <quote xml:id="gom-gen10-Qd1e120">Sem, ut aestimant, Asiam; Cham Africam, Japheth Europam sortitus est.</quote>
+          </p>
+          <p xml:id="gom-gen10-d1e123">
+            <quote xml:id="gom-gen10-Qd1e125" type="lemma" source="http://scta.info/resource/gen10_1@7-7">Japheth.</quote>
+            Minoris filii, de quo nati sunt septem filii, qui tenuerunt septentrionalem regionem a Tauro et Amano, montibus Ciliciae et Syriae, usque ad fluvium Tanaim, in Europa vero usque ad Gadira. Nomina vero locis et gentibus relinquentes, ex quibus plurima mutata, caetera permanent.
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e130">
+          <head xml:id="gom-gen10-Hd1e132">Versus 2</head>
+          <p xml:id="gom-gen10-d1e134">
+            <quote xml:id="gom-gen10-Qd1e136" type="lemma" source="http://scta.info/resource/gen10_2@3-3">Gomer.</quote>
+            Hi sunt Galatae, secundum <pb ed="#P" n="0113C"/> Josephum, qui Latine Gallograeci dicuntur.
+          </p>
+          <p xml:id="gom-gen10-d1e142">
+            <quote xml:id="gom-gen10-Qd1e144" type="lemma" source="http://scta.info/resource/gen10_2@9-9">Thubal.</quote>
+            Iberes qui et Hispani, a quibus Celtiberia, licet quidam Italicos suspicentur.
+          </p>
+          <p xml:id="gom-gen10-d1e148">
+            <quote xml:id="gom-gen10-Qd1e150" type="lemma" source="http://scta.info/resource/gen10_2">Chanaan.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Hic obtinuit terram quam Judaei postea possederunt, ejectis Chananaeis.
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e157">
+          <head xml:id="gom-gen10-Hd1e159">Versus 7</head>
+          <p xml:id="gom-gen10-d1e161">
+            <quote xml:id="gom-gen10-Qd1e163" type="lemma" source="http://scta.info/resource/gen10_7@9-14">Regma et Saba,</quote>
+            etc.
+            <ref xml:id="gom-gen10-Rd1e166"><name xml:id="gom-gen10-Nd1e167" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen10-Qd1e170">Paulatim antiqua nomina perdiderunt, et quae nunc pro veteribus habeant, ignoratur.</quote>
+          </p>
+          <p xml:id="gom-gen10-d1e173">
+            <quote xml:id="gom-gen10-Qd1e175" type="lemma" source="http://scta.info/resource/gen10_7@3-3">Saba.</quote>
+            Alia quam superior, et differunt in scriptura: illa enim per <quote xml:id="gom-gen10-Qd1e178">samech,</quote> haec per <quote xml:id="gom-gen10-Qd1e180">schin</quote> scribitur; ubi enim dicimus: Reges Arabum et Saba dona adducent, » in Hebraeo habetur et <quote xml:id="gom-gen10-Qd1e182">scheba</quote> et <quote xml:id="gom-gen10-Qd1e184">seba.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e188">
+          <head xml:id="gom-gen10-Hd1e190">Versus 8</head>
+          <p xml:id="gom-gen10-d1e192">
+            <quote xml:id="gom-gen10-Qd1e194" type="lemma" source="http://scta.info/resource/gen10_8@4-4">Nemrod.</quote>
+            Qui ultra naturam coelum penetrare voluit. Significat diabolum, qui ait: <pb ed="#P" n="0113D"/> <quote xml:id="gom-gen10-Qd1e199">Ascendam super astra coeli.</quote> Nemrod, secundum Josephum, nova regni cupiditate tyrannidem arripuit, et fuit auctor aedificandae turris quae tangeret coelum.
+          </p>
+          <p xml:id="gom-gen10-d1e202">
+            <quote xml:id="gom-gen10-Qd1e204" type="lemma" source="http://scta.info/resource/gen10_8@5-8">Ipse coepit esse potens,</quote>
+            vel <mentioned>gigas</mentioned>, secundum alios. Sed antea gigantes natos Scriptura commemorat. Sed forte post diluvium novitas generis humani reparandi memoratur, <quote xml:id="gom-gen10-Qd1e209">quia ipse coepit esse gigas super terram.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e214">
+          <head xml:id="gom-gen10-Hd1e216">Versus 9</head>
+          <p xml:id="gom-gen10-d1e218">
+            <quote xml:id="gom-gen10-Qd1e220" type="lemma" source="http://scta.info/resource/gen10_9@3-4">Robustus venator.</quote>
+            <ref xml:id="gom-gen10-Rd1e223"><name xml:id="gom-gen10-Nd1e224">ALC.</name></ref>
+            <quote xml:id="gom-gen10-Qd1e226">Id est, hominum oppressor et exstinctor, quos allexit ut turrem contra Deum construerent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e230">
+          <head xml:id="gom-gen10-Hd1e232">Versus 10</head>
+          <p xml:id="gom-gen10-d1e234">
+            <quote xml:id="gom-gen10-Qd1e236" type="lemma" source="http://scta.info/resource/gen10_10@6-6">Babylon.</quote>
+            Est confusio, quia ibi facta est linguarum divisio.
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e241">
+          <head xml:id="gom-gen10-Hd1e243">Versus 11</head>
+          <p xml:id="gom-gen10-d1e245">
+            <quote xml:id="gom-gen10-Qd1e247" type="lemma" source="http://scta.info/resource/gen10_11@6-6">Assur.</quote>
+            Imperium Assyriorum, <pb ed="#P" n="0114A"/> quod primum fuit sub Nino, qui aedificavit Ninivem, quae propter poenitentiam <mentioned>pulchra</mentioned> appellatur.
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e256">
+          <head xml:id="gom-gen10-Hd1e258">Versus 13</head>
+          <p xml:id="gom-gen10-d1e260">
+            <quote xml:id="gom-gen10-Qd1e262" type="lemma" source="http://scta.info/resource/gen10_13@1-3">At vero Mesraim,</quote>
+            etc.
+            <ref xml:id="gom-gen10-Rd1e265"><name xml:id="gom-gen10-Nd1e266" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen10-Qd1e269">Exceptis Laabin, a quibus Libyes postea nominati sunt, qui prius Phutaei vocabantur; et Chasluim, qui postea Philistiim dicti sunt, quos nos corrupte <quote xml:id="gom-gen10-Qd1e271">Palaestinos</quote> dicimus, caeterae sex gentes nobis ignotae sunt, quia bello Aethiopico subversae. Possederunt autem terram a Gaza usque ad extremos fines Aegypti.</quote>
+          </p>
+          <p xml:id="gom-gen10-d1e275">
+            <quote xml:id="gom-gen10-Qd1e277" type="lemma" source="http://scta.info/resource/gen10_13@5-10">Ludim et Anamim. Laabim, Nephetuim,</quote>
+            etc. Haec omnia ignorantur, vel quia deletae sunt gentes bello Aethiopico, vel quia ignoratur quae nomina nunc habeant.
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e282">
+          <head xml:id="gom-gen10-Hd1e284">Versus 21</head>
+          <p xml:id="gom-gen10-d1e286">
+            <quote xml:id="gom-gen10-Qd1e288" type="lemma" source="http://scta.info/resource/gen10_21@1-2">De Sem.</quote>
+            De hoc novissime loquitur, <pb ed="#P" n="0114B"/> quia ejus generationem, et generationis lineam prosequitur.
+          </p>
+          <p xml:id="gom-gen10-d1e294">
+            <quote xml:id="gom-gen10-Qd1e296" type="lemma" source="http://scta.info/resource/gen10_21@9-9">Heber.</quote>
+            Qui tamen quintus a filio Noe Sem. Utrum quia Hebraei dicuntur ex illo appellati, vel quia per illum generatio ad Abraham transit? Quid ergo probabilius sit Hebraeos dici tanquam Heberaeos, vel tanquam Abraaeos, merito quaeritur.
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e301">
+          <head xml:id="gom-gen10-Hd1e303">Versus 22</head>
+          <p xml:id="gom-gen10-d1e305">
+            <quote xml:id="gom-gen10-Qd1e307" type="lemma" source="http://scta.info/resource/gen10_22@5-5">Assur.</quote>
+            Qui aedificavit Ninivem.
+          </p>
+        </div>
+        <div xml:id="gom-gen10-Dd1e313">
+          <head xml:id="gom-gen10-Hd1e315">Versus 25</head>
+          <p xml:id="gom-gen10-d1e317">
+            <quote xml:id="gom-gen10-Qd1e319" type="lemma" source="http://scta.info/resource/gen10_25@1-4">Natique sunt Heber filii,</quote>
+            etc. Heber, <quote xml:id="gom-gen10-Qd1e322">transitor,</quote> a quo Hebraei, id est, <quote xml:id="gom-gen10-Qd1e324">transitores.</quote> Veri Hebraei sunt, qui de praesentibus ad futura, de caducis ad mansura transeunt. Hae gentes a fluvio Cono possederunt omnem regionem quae vocatur Geria.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

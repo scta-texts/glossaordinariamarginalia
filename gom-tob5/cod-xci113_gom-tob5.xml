@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tobiae, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Tobiae, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0727C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-tob5">
+        <head xml:id="gom-tob5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-tob5-Dd1e100">
+          <head xml:id="gom-tob5-Hd1e102">Versus 7</head>
+          <p xml:id="gom-tob5-d1e104">
+            <quote xml:id="gom-tob5-Qd1e106" type="lemma" source="http://scta.info/resource/tob5_7@4-6">Ex filiis Israel.</quote>
+            Erat enim ex numero angelorum, qui sunt filii Israel, quia semper vident <pb ed="#P" n="0727D"/> Deum facie ad faciem, et saepe mittuntur in custodia filiorum Israel, id est videntium Deum. Unde: <quote xml:id="gom-tob5-Qd1e111" source="http://scta.info/resource/deut32_8@9-15">Constitui terminos populorum juxta numerum filiorum Israel .<!-- check: Migne cites deut52; text matches deut32_8 --></quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob5-Dd1e117">
+          <head xml:id="gom-tob5-Hd1e119">Versus 10</head>
+          <p xml:id="gom-tob5-d1e121">
+            <quote xml:id="gom-tob5-Qd1e123" type="lemma" source="http://scta.info/resource/tob5_10@1-2">Tunc ingressus,</quote>
+            etc.
+            <ref xml:id="gom-tob5-Rd1e126"><name xml:id="gom-tob5-Nd1e127" ref="#Bede">BED.</name>, ubi supra.</ref>
+            <quote xml:id="gom-tob5-Qd1e131">Apparuit angelus Tobiae et socium se praebuit et Filius Dei hominem assumpsit, et visibiliter cum hominibus conversatus humanum genus salvavit. Introduxit Tobias angelum ad patrem, etc., et Dominus per miracula quae in carne fecit populo Judaeorum, ex quo carnem susceperat, ostendit: quia est filius et angelus, id est nuntius paternae voluntatis, cui etiam gaudium perpetuae salutis praedicavit, dicens: <quote xml:id="gom-tob5-Qd1e133" source="http://scta.info/resource/mt3_2@3-8">Poenitentiam agite, appropinquavit enim <pb ed="#P" n="0728A"/> regnum coelorum.</quote> Et desperantibus de lumine coelesti <quote xml:id="gom-tob5-Qd1e138" source="http://scta.info/resource/io8_12@8-18">Ego sum, inquit, lux mundi, qui sequitur me non ambulat in tenebris .</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob5-Dd1e143">
+          <head xml:id="gom-tob5-Hd1e145">Versus 15</head>
+          <p xml:id="gom-tob5-d1e147">
+            <quote xml:id="gom-tob5-Qd1e149" type="lemma" source="http://scta.info/resource/tob5_15@1-4">Et dixit ei angelus.</quote>
+            <ref xml:id="gom-tob5-Rd1e152"><name xml:id="gom-tob5-Nd1e153" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob5-Qd1e157"><seg type="qs">Promittit angelus Tobiae ducere filium suum in civitatem Medorum et reducere</seg>, etc., usque ad <seg type="qs">interrogante angelum Tobia unde esset.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob5-Dd1e166">
+          <head xml:id="gom-tob5-Hd1e168">Versus 18</head>
+          <p xml:id="gom-tob5-d1e170">
+            <ref xml:id="gom-tob5-Rd1e172" type="lemma" subtype="implied" target="http://scta.info/resource/tob5_18"/>
+            « Ego sum, inquit, Azarias Ananiae magni filius, <ref xml:id="gom-tob5-Rd1e174"><name xml:id="gom-tob5-Nd1e175" ref="#Bede">ID.</name>, ibid.</ref><!-- check: attribution inside gloss body --> Azarias <quote xml:id="gom-tob5-Qd1e180">adjutor,</quote> Ananias <quote xml:id="gom-tob5-Qd1e182">gloria Dei.</quote> Christus quoque fidelibus suis indicat, quia ipse est de quo dicitur: <quote xml:id="gom-tob5-Qd1e184" source="http://scta.info/resource/ps69_6@11-21">Adjutor meus et liberator meus es tu, Domine, ne moreris .</quote> <quote xml:id="gom-tob5-Qd1e188" source="http://scta.info/resource/io1_14@10-18">Et vidimus gloriam ejus, quasi unigeniti a Patre .</quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob5-Dd1e194">
+          <head xml:id="gom-tob5-Hd1e196">Versus 22</head>
+          <p xml:id="gom-tob5-d1e198">
+            <quote xml:id="gom-tob5-Qd1e200" type="lemma" source="http://scta.info/resource/tob5_22@1-2">Tunc paratis.</quote>
+            <ref xml:id="gom-tob5-Rd1e203"><name xml:id="gom-tob5-Nd1e204" ref="#Bede">BED.</name>, ubi supra.</ref>
+            <quote xml:id="gom-tob5-Qd1e208"><seg type="qs"><pb ed="#P" n="0728B"/> Apparente Domino in carne</seg>, etc., usque ad <seg type="qs">et sic ad salutem gentium per apostolos pervenit.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

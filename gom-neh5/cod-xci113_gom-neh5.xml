@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nehemiae, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Nehemiae, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0718D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-neh5">
+        <head xml:id="gom-neh5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-neh5-Dd1e100">
+          <head xml:id="gom-neh5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-neh5-d1e104">
+            <quote xml:id="gom-neh5-Qd1e106" type="lemma" source="http://scta.info/resource/neh5_1@1-4">Et factus est clamor,</quote>
+            etc.
+            <ref xml:id="gom-neh5-Rd1e109"><name xml:id="gom-neh5-Nd1e110" ref="#Bede">BEDA</name> in Esdr., lib. III, cap. 21.</ref>
+            <quote xml:id="gom-neh5-Qd1e114"><seg type="qs">Desiderabat populus murum construere</seg>, etc., usque ad <seg type="qs">et manus nostras a propriis voluptatibus avertens ad construendam Christi convertat civitatem.</seg></quote>
+          </p>
+          <p xml:id="gom-neh5-d1e122">
+            <ref xml:id="gom-neh5-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/neh5_1@1-4"/>
+            <ref xml:id="gom-neh5-Rd1e126"><name xml:id="gom-neh5-Nd1e127" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh5-Qd1e131">Tribus de causis augetur clamor populi. Quidam fame coacti filios suos ditioribus vendere volebant: alii liberis parcentes agros potius et domos. Nonnulli, prohibentes liberorum et agrorum venditionem, hoc tantum persuadebant, ut mutuo sumerent pecuniam in tributa regis, oppignoratis agris et vineis, donec redeunte fertilitate reddere <pb ed="#P" n="0719A"/> possent feneratoribus quod mutuo accepissent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh5-Dd1e138">
+          <head xml:id="gom-neh5-Hd1e140">Versus 7</head>
+          <p xml:id="gom-neh5-d1e142">
+            <quote xml:id="gom-neh5-Qd1e144" type="lemma" source="http://scta.info/resource/neh5_7@5-7">Et increpavi optimates,</quote>
+            etc.
+            <ref xml:id="gom-neh5-Rd1e147"><name xml:id="gom-neh5-Nd1e148" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-neh5-Qd1e152"><seg type="qs">Tanquam dux optimus militiae coelestis et sapiens architectus civitatis Dei</seg>, etc., usque ad <seg type="qs">ut dimittat nobis Pater debita nostra.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh5-Dd1e161">
+          <head xml:id="gom-neh5-Hd1e163">Versus 13</head>
+          <p xml:id="gom-neh5-d1e165">
+            <quote xml:id="gom-neh5-Qd1e167" type="lemma" source="http://scta.info/resource/neh5_13@1-11">Insuper excussi sinum meum, et dixi: Sic excutiat Deus omnem,</quote>
+            etc. Huic sententiae terribilis clausula imponitur. Quicunque enim pauperibus misericordiam non impendit, vel ab eis qui non habent velut juste exigit, de domo sua excutitur, id est, de coetu Ecclesiae, in qua putabat se perpetuo manere, et de laboribus, scilicet, in fructibus bonorum operum, in quibus se laudabiliter laborasse putabat: nil prorsus laboris recipiet. Labores enim sine pietate non possunt apud Deum fructuosi esse.
+          </p>
+          <p xml:id="gom-neh5-d1e171">
+            <pb ed="#P" n="0719B"/>
+            <quote xml:id="gom-neh5-Qd1e175" type="lemma" source="http://scta.info/resource/neh5_13@30-34">Et dixit universa multitudo, Amen.</quote>
+            Quantum Nehemiae objurgatio vel imprecatio corda omnium moverit, ostenditur: audita enim contestatione respondentes, amen, et Deum collaudantes, fecerunt quae jusserat. In quo patet: quia non timore, sed amore dicta ejus susceperunt.
+          </p>
+        </div>
+        <div xml:id="gom-neh5-Dd1e180">
+          <head xml:id="gom-neh5-Hd1e182">Versus 14</head>
+          <p xml:id="gom-neh5-d1e184">
+            <quote xml:id="gom-neh5-Qd1e186" type="lemma" source="http://scta.info/resource/neh5_14@24-26">Per annos duodecim.</quote>
+            <ref xml:id="gom-neh5-Rd1e189"><name xml:id="gom-neh5-Nd1e190" ref="#Bede">BEDA</name>, ubi supra.</ref>
+            <quote xml:id="gom-neh5-Qd1e194">Hoc exponit Apostolus, dicens: <quote xml:id="gom-neh5-Qd1e196" source="http://scta.info/resource/Icor9_14@3-11">Quia statuit Dominus eos qui Evangelium annuntiant, de Evangelio vivere: ego autem nullo horum usus sum</quote>. Duodecim autem annis Nehemias cum fratribus suis ita in ducatu vivebant, ut annonas quae ducibus debebantur, non comederent: insinuans evangelicum opus esse in regimine plebis, opus rectoris notabiliter circa Ecclesiam exercere, et a subditis commodum <pb ed="#P" n="0719C"/> terrenum non quaerere.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

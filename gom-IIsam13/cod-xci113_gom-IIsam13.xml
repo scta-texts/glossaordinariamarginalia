@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0573C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam13">
+        <head xml:id="gom-IIsam13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-IIsam13-Dd1e100">
+          <head xml:id="gom-IIsam13-Hd1e102">Versus 6</head>
+          <p xml:id="gom-IIsam13-d1e104">
+            <quote xml:id="gom-IIsam13-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam13_6@29-29">Sorbitiunculas.</quote>
+            Est quod ad sorbendum aptum est.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam13-Dd1e111">
+          <head xml:id="gom-IIsam13-Hd1e113">Versus 14</head>
+          <p xml:id="gom-IIsam13-d1e115">
+            <quote xml:id="gom-IIsam13-Qd1e117" type="lemma" source="http://scta.info/resource/IIsam13_14@9-9">Oppressit.</quote>
+            <ref xml:id="gom-IIsam13-Rd1e120"><name xml:id="gom-IIsam13-Nd1e121" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam13-Qd1e124">Incestus Amnon majoris filii David in sorore sua Thamar et parricidium <pb ed="#P" n="0573D"/> Absalon in Amnon fratre, monet nos ut semper caute agamus, ne vitia in nobis dominentur; et princeps peccati (qui falsam pacem periclitantibus spondet) nos imparatos inveniens de improviso trucidet. Absalon enim <mentioned>pater pacis</mentioned> vel <mentioned>patris pax</mentioned> interpretatur, Amnon <mentioned>donans</mentioned>, Thamar <mentioned>amaritudo</mentioned>. Qui enim membra sua donat libidini, et servit iniquitati ad iniquitatem, in peccati amaritudinem cadit, licet inimicus se quasi patrem pacis ostendat, et prospera pro talibus factis promittat. Necesse est enim ut cito ad poenitentiam redeamus, ne forte diabolus per malignos spiritus in necem nostram conspiret, et morti perpetuae tradat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam13-Dd1e139">
+          <head xml:id="gom-IIsam13-Hd1e141">Versus 15</head>
+          <p xml:id="gom-IIsam13-d1e143">
+            <quote xml:id="gom-IIsam13-Qd1e145" type="lemma" source="http://scta.info/resource/IIsam13_15@1-4">Et exosam eam habuit,</quote>
+            etc. Et nos <pb ed="#P" n="0574A"/> admissum facinus odio habeamus, magis quam ante perpetrationem dilexeramus, et ob hoc citius consequemur veniam, si tamen in alio vitio denuo non offendamus sicut Amnon: qui quia post incestum ebrietatem non vitavit, ob hoc mortem non evasit.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam13-Dd1e152">
+          <head xml:id="gom-IIsam13-Hd1e154">Versus 37</head>
+          <p xml:id="gom-IIsam13-d1e156">
+            <quote xml:id="gom-IIsam13-Qd1e158" type="lemma" source="http://scta.info/resource/IIsam13_37@6-6">Tholomai.</quote>
+            Hic fuit pater Maacha matris Absalom, quam dicunt Hebraei David in praelio cepisse, et caesarie et unguibus praecisis secundum legem in uxorem sibi sociasse, et ex ea generasse Thamar et Absalom.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam13-Dd1e164">
+          <head xml:id="gom-IIsam13-Hd1e166">Versus 39</head>
+          <p xml:id="gom-IIsam13-d1e168">
+            <quote xml:id="gom-IIsam13-Qd1e170" type="lemma" source="http://scta.info/resource/IIsam13_39@1-1">Cessavitque.</quote>
+            In Hebraeo, <quote xml:id="gom-IIsam13-Qd1e173" source="http://scta.info/resource/IIsam13_39@1-5">cessavit rex exire post Absalom.</quote> Perhibetur enim David exire voluisse post Absalom, ut revocaret eum, sed putans quia quoties eum videret, mortem Amnon ad memoriam reduceret, cessavit exire.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

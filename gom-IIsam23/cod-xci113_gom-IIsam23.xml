@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 23</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 23</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0577A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam23">
+        <head xml:id="gom-IIsam23-Hd1e98">Caput 23</head>
+        <div xml:id="gom-IIsam23-Dd1e100">
+          <head xml:id="gom-IIsam23-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIsam23-d1e104">
+            <quote xml:id="gom-IIsam23-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam23_1@1-3">Haec sunt autem.</quote>
+            <ref xml:id="gom-IIsam23-Rd1e109"><name xml:id="gom-IIsam23-Nd1e110" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-IIsam23-Qd1e113">Novissima sunt, quia post psalterium, et caetera metra, hoc composuisse metrum dicitur, in quo ait: <quote xml:id="gom-IIsam23-Qd1e115" source="http://scta.info/resource/IIsam23_1@7-19">Dixit David filius Isai: Dixit vir, cui constituta est scala Christo <pb ed="#P" n="0577B"/> Dei Jacob.</quote></quote>
+          </p>
+          <p xml:id="gom-IIsam23-d1e121">
+            <ref xml:id="gom-IIsam23-Rd1e123" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam23_1@1-3"/>
+            <ref xml:id="gom-IIsam23-Rd1e125"><name xml:id="gom-IIsam23-Nd1e126" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam23-Qd1e129">Quia ultimam confessionis laudem significant, quam superato hoste et peracta victoria mortis sancti cantabunt in aeternum.</quote>
+          </p>
+          <p xml:id="gom-IIsam23-d1e132">
+            <quote xml:id="gom-IIsam23-Qd1e134" type="lemma" source="http://scta.info/resource/IIsam23_1@20-20">Egregius.</quote>
+            Quia luculentissime de Christo Dei et de incarnatione ejus ac redemptione humani generis prophetavit.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e139">
+          <head xml:id="gom-IIsam23-Hd1e141">Versus 3</head>
+          <p xml:id="gom-IIsam23-d1e143">
+            <quote xml:id="gom-IIsam23-Qd1e145" type="lemma" source="http://scta.info/resource/IIsam23_3@13-14">In timore.</quote>
+            Qui in timore Dei dominationem in subditis exercet, lucis opera per solem justitiae illuminata profert, nec in eis aliquid obscurum remanet, sed imbre coelestis gratiae irrigatus germina virtutum in carne vivens fructificat.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e150">
+          <head xml:id="gom-IIsam23-Hd1e152">Versus 5</head>
+          <p xml:id="gom-IIsam23-d1e154">
+            <quote xml:id="gom-IIsam23-Qd1e156" type="lemma" source="http://scta.info/resource/IIsam23_5@25-26">Nec est.</quote>
+            <ref xml:id="gom-IIsam23-Rd1e159"><name xml:id="gom-IIsam23-Nd1e160" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam23-Qd1e163">Qui in lege Domini meditatur die ac nocte, fit tanquam lignum quod plantatum juxta aquas dat fructum suum in tempore <pb ed="#P" n="0577C"/> suo, et quaecunque faciet prosperabuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e170">
+          <head xml:id="gom-IIsam23-Hd1e172">Versus 7</head>
+          <p xml:id="gom-IIsam23-d1e174">
+            <quote xml:id="gom-IIsam23-Qd1e176" type="lemma" source="http://scta.info/resource/IIsam23_7@1-3">Et si quis.</quote>
+            Qui scilicet communicans peccatis alienis propter cordis sui duritiam, iniquitatum pondere premitur, et jaculis peccatorum confoditur, ejusque opera aeternis ignibus digna, ad nihilum redigentur.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e182">
+          <head xml:id="gom-IIsam23-Hd1e184">Versus 8</head>
+          <p xml:id="gom-IIsam23-d1e186">
+            <quote xml:id="gom-IIsam23-Qd1e188" type="lemma" source="http://scta.info/resource/IIsam23_8@1-2">Haec sunt nomina.</quote>
+            <ref xml:id="gom-IIsam23-Rd1e191"><name xml:id="gom-IIsam23-Nd1e192" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-IIsam23-Qd1e195">Texitur catalogus virorum fortium in figura sanctorum, qui quamvis virtutum sublimitate proficiant, tamen usque ad excellentiam divinae Trinitatis non attingunt. Hoc est enim quod scriptum est: Usque ad tres primos non pervenit. Quis enim in nubibus aequabitur Domino in filiis Dei?</quote>
+          </p>
+          <p xml:id="gom-IIsam23-d1e198">
+            <quote xml:id="gom-IIsam23-Qd1e200" type="lemma" source="http://scta.info/resource/IIsam23_8@3-3">Fortium.</quote>
+            De his fortibus ait Josephus: Primus omnium erat Eusebius filius Achimaeae, qui aciem <pb ed="#P" n="0577D"/> hostium frequenter irrumpens non cessavit donec nongentos occideret. Post hunc erat Eleazar filius Dodo, qui cum rege fuerat in Sarpha. Hic Israelitis formidantibus Philisthinorum exercitum et fugientibus solus restitit, et multos occidit, ut sanguine occisorum gladius ejus haereret in dextera. Israelitae vero videntes Palaestinos in fugam conversos, descendentes de montibus persecuti sunt eos, et pervenit Israelitis famosa victoria. Tertius fuit Semaeias filius Heli, qui in loco maxillae cum Hebraei fugerent, exercitus Palaestinorum solus portavit alios prosternens, alios in fugam convertens.
+          </p>
+          <p xml:id="gom-IIsam23-d1e206">
+            <quote xml:id="gom-IIsam23-Qd1e208" type="lemma" source="http://scta.info/resource/IIsam23_8@12-12">Ipse.</quote>
+            <ref xml:id="gom-IIsam23-Rd1e211"><name xml:id="gom-IIsam23-Nd1e212" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam23-Qd1e215">Virga de radice Jesse absque nuptiali opere florem protulit, qui de uno homine typum gentium <pb ed="#P" n="0578A"/> praeferente, uno impetu, id est sermonis imperio legionem expulit daemonum.</quote>
+          </p>
+          <p xml:id="gom-IIsam23-d1e221">
+            <quote xml:id="gom-IIsam23-Qd1e223" type="lemma" source="http://scta.info/resource/IIsam23_8@15-16">Tenerrimus ligni.</quote>
+            <ref xml:id="gom-IIsam23-Rd1e226"><name xml:id="gom-IIsam23-Nd1e227" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam23-Qd1e230"><seg type="qs">Virtus viri bellica et modesta significatur</seg>, etc., usque ad <seg type="qs">in interfectione octingentorum fortitudo.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e239">
+          <head xml:id="gom-IIsam23-Hd1e241">Versus 11</head>
+          <p xml:id="gom-IIsam23-d1e243">
+            <quote xml:id="gom-IIsam23-Qd1e245" type="lemma" source="http://scta.info/resource/IIsam23_11@4-5">Semma filius.</quote>
+            Audiens.
+          </p>
+          <p xml:id="gom-IIsam23-d1e249">
+            <quote xml:id="gom-IIsam23-Qd1e251" type="lemma" source="http://scta.info/resource/IIsam23_11@6-7">Age de,</quote>
+            etc. Meditans sive loquens.
+          </p>
+          <p xml:id="gom-IIsam23-d1e255">
+            <quote xml:id="gom-IIsam23-Qd1e257" type="lemma" source="http://scta.info/resource/IIsam23_11@8-8">Arari.</quote>
+            Montanus, qui gestat personam Christi sive praedicatorum ejus.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e262">
+          <head xml:id="gom-IIsam23-Hd1e264">Versus 12</head>
+          <p xml:id="gom-IIsam23-d1e266">
+            <quote xml:id="gom-IIsam23-Qd1e268" type="lemma" source="http://scta.info/resource/IIsam23_12@1-1">Stetit.</quote>
+            <ref xml:id="gom-IIsam23-Rd1e271"><name xml:id="gom-IIsam23-Nd1e272" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam23-Qd1e275">Christus cum Spiritu sancto in agro Ecclesiae stans infirmos velut hordeum tuetur, vel certe verecundiam castitatis incontinentibus quasi legentes gladio oris contra luxuriam defendit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e279">
+          <head xml:id="gom-IIsam23-Hd1e281">Versus 13</head>
+          <p xml:id="gom-IIsam23-d1e283">
+            <quote xml:id="gom-IIsam23-Qd1e285" type="lemma" source="http://scta.info/resource/IIsam23_13@3-4">Descenderant tres.</quote>
+            Tres fortes supra <pb ed="#P" n="0578B"/> nominati, et Jesboam filius Achamoni, quem Josephus Eusebium filium Achimeae nominat. Et Eleazar filius Ahohi, quem dicit filium esse Dodo, et Semma filius Age, quem Semeiam filium Heli vocat. Hebraei autem tres istos arbitrantur fuisse, Abisai filium Sarviae, et Sobochai Usathitem, et Jonathan filium Sammaa fratris David, qui supra memorati sunt in praeliis Philisthinorum. Cui sententiae congruere videtur quod sequitur: <quote xml:id="gom-IIsam23-Qd1e290" source="http://scta.info/resource/IIsam23_18@1-6">Abisai quoque frater Joab filius Sarviae,</quote> etc. Hinc enim apparet quod Abisai princeps erat et nominatus inter tres sequentes.
+          </p>
+          <p xml:id="gom-IIsam23-d1e294">
+            <ref xml:id="gom-IIsam23-Rd1e296" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam23_13@3-4"/>
+            <ref xml:id="gom-IIsam23-Rd1e298"><name xml:id="gom-IIsam23-Nd1e299" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-IIsam23-Qd1e302">Cogitandum est, ut qui illicita commisit a quibusdam etiam licitis abstineat, ut per hoc conditori suo satisfaciat, ut qui commisit prohibita, abscindat sibi etiam concessa, et se reprehendat in <pb ed="#P" n="0578C"/> minimis, quem meminit peccasse in maximis. Lex Veteris Testamenti uxorem alienam concupisci prohibet: a rege vero fortia juberi militibus vel desiderare aquam, non poenaliter vetat. David vero alienam uxorem concupivit et abstulit, cujus culpam digna verbera sunt secuta, et malum quod perpetravit, per poenitentiae lamenta correxit. Qui cum longe post contra hostium cuneos sedit, aquam ex eorum cisterna desideravit; cujus electi milites intra catervas hostium irrumpentes, aquam quam desideraverat, illaesi pertulerunt. Sed vir flagellis eruditus se protinus cum periculo militum aquam desiderasse reprehendit, eamque Domino fundens libavit. In sacrificium enim Domini effusa aqua conversa est, quia culpam concupiscentiae mactavit per <pb ed="#P" n="0578D"/> poenitentiam suae reprehensionis. Qui ergo concupiscere alienam conjugem non timuit, post etiam quia aquam concupisset, expavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e311">
+          <head xml:id="gom-IIsam23-Hd1e313">Versus 16</head>
+          <p xml:id="gom-IIsam23-d1e315">
+            <quote xml:id="gom-IIsam23-Qd1e317" type="lemma" source="http://scta.info/resource/IIsam23_16@25-26">Sed libavit.</quote>
+            Exemplum fortitudinis et constantiae militibus praebuit, vincens naturam ne sitiens biberet, ut exercitus sitim tolerare disceret.
+          </p>
+          <p xml:id="gom-IIsam23-d1e321">
+            <ref xml:id="gom-IIsam23-Rd1e323" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam23_16@25-26"/>
+            Mystice vero aquam non sitiebat, sed nasciturum in Bethlehem de virgine Christum praevidebat: cujus lavacrum et sanguinem sitiebat. Aquam ergo non bibit, sed fudit. Sitiebat enim fontem aeternum qui non periculis quaeritur alienis, sed aliena pericula abluit.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e327">
+          <head xml:id="gom-IIsam23-Hd1e329">Versus 19</head>
+          <p xml:id="gom-IIsam23-d1e331">
+            <quote xml:id="gom-IIsam23-Qd1e333" type="lemma" source="http://scta.info/resource/IIsam23_19@11-12">Tres primos.</quote>
+            Intelligi volunt sapientiam, humilitatem et fortitudinem, David enim <pb ed="#P" n="0579A"/> sedit sapientissimus: ipse ligni vermiculus, id est, humilis octingentos interfecit velut fortis; ad has tres virtutes nemo fortium David pervenit.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e341">
+          <head xml:id="gom-IIsam23-Hd1e343">Versus 20</head>
+          <p xml:id="gom-IIsam23-d1e345">
+            <quote xml:id="gom-IIsam23-Qd1e347" type="lemma" source="http://scta.info/resource/IIsam23_20">Et Bana.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Qui erat magister <quote xml:id="gom-IIsam23-Qd1e352" source="http://scta.info/resource/IIsam23_20@9-10">de Capseel,</quote> id est, de congregatione Dei in Cerethi et Pheleti, qui interpretantur <mentioned>occidentes</mentioned> et <mentioned>vivificantes. Ipse percussit</mentioned> quos Paralipomenon duos Ariel Moab nominat. Hi ergo viri fortissimi fuerunt in regno Moab, unde et leones dicuntur. Ariel enim <mentioned>leo Dei</mentioned> interpretatur.
+          </p>
+          <p xml:id="gom-IIsam23-d1e363">
+            <quote xml:id="gom-IIsam23-Qd1e365" type="lemma" source="http://scta.info/resource/IIsam23_20@22-23">In media.</quote>
+            Josephus hic apertius dicit quid fuerit, scilicet, cisterna nimis profunda, tempore hyemis nivis aggere coaequata. In hanc leo inscius decidit, et conclusus grandi rugitu clamavit. Banaias vero qui cum caeteris ad spectaculum venit, in cisternam <pb ed="#P" n="0579B"/> desiliit, et leonem interfecit. Banaias, qui interpretatur <mentioned>aedificator Dominus</mentioned>, Christum significat, qui Ecclesiam aedificat. Unde Paulus: <quote xml:id="gom-IIsam23-Qd1e372" source="http://scta.info/resource/Icor3_9@8-10">Dei aedificatio estis.</quote> Hic in tempore nivis et frigoris, cum scilicet gratia Christi mundo resplenduit, et frigus charitatis homines refrigeravit, leonem, id est, diabolum interfecit. Hebraeus vero hunc leonem Moab intelligit, qui in medio cisternae, id est, in domo Domini, ubi tenebat cornua altaris, occisus est. Altare vero cisterna dicitur, quia sicut aqua cisternae abluit et mundat, ita sanctuarium Domini purgat peccata. In diebus nivis, quia per mortem expiavit peccatum. Unde: <quote xml:id="gom-IIsam23-Qd1e375">Lavabis me,</quote> quod impletum est in medio cisternae;
+          </p>
+          <p xml:id="gom-IIsam23-d1e378">
+            <quote xml:id="gom-IIsam23-Qd1e380" type="lemma" source="http://scta.info/resource/IIsam23_20">et super nivem dealbabor,</quote>
+            <!-- check: lemma not matched to verse text -->
+            quod impletum est in eo quod ait <quote xml:id="gom-IIsam23-Qd1e385" source="http://scta.info/resource/IIsam23_20@25-26">diebus nivis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e390">
+          <head xml:id="gom-IIsam23-Hd1e392">Versus 21</head>
+          <p xml:id="gom-IIsam23-d1e394">
+            <pb ed="#P" n="0579C"/>
+            <quote xml:id="gom-IIsam23-Qd1e398" type="lemma" source="http://scta.info/resource/IIsam23_21@4-5">Virum Aegyptium.</quote>
+            Imitatorem scilicet Aegyptii Deum blasphemantis, quem Moses jubente Domino interfecit, ille enim blasphemavit Deum, hic prophetam et regem.
+          </p>
+          <p xml:id="gom-IIsam23-d1e402">
+            <quote xml:id="gom-IIsam23-Qd1e404" type="lemma" source="http://scta.info/resource/IIsam23_21@7-7">Dignum.</quote>
+            Spectabatur enim ut si Jerusalem egrederetur, interficeretur.
+          </p>
+          <p xml:id="gom-IIsam23-d1e408">
+            <quote xml:id="gom-IIsam23-Qd1e410" type="lemma" source="http://scta.info/resource/IIsam23_21@12-12">Hastam.</quote>
+            Legem Dei, quam si meditatus fuisset permanendo in Jerusalem non periret, sed quia praeceptum regis contempsit, Banaias in virga, id est in rectitudine justitiae ad eum descendit, et hastam, quam non recte tenebat, extorsit.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e415">
+          <head xml:id="gom-IIsam23-Hd1e417">Versus 23</head>
+          <p xml:id="gom-IIsam23-d1e419">
+            <quote xml:id="gom-IIsam23-Qd1e421" type="lemma" source="http://scta.info/resource/IIsam23_23@7-8">Qui erant.</quote>
+            Neminem moverat quod in summa non triginta, sed septem et triginta leguntur. Triginta enim et septem leguntur hoc modo. Septem scilicet, fortes hi: David, qui dicitur Adeodatus, <pb ed="#P" n="0579D"/> Abisai, Sobochai, Jonathan, Eleazar, Semmaa filius Agge de Arari, et Banaias, ecce septem. Triginta autem hi sunt Asael, Eleanam et caeteri.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam23-Dd1e428">
+          <head xml:id="gom-IIsam23-Hd1e430">Versus 39</head>
+          <p xml:id="gom-IIsam23-d1e432">
+            <quote xml:id="gom-IIsam23-Qd1e434" type="lemma" source="http://scta.info/resource/IIsam23_39@1-1">Urias.</quote>
+            Hic ultimus ponitur pro eo quod sequitur: <quote xml:id="gom-IIsam23-Qd1e437" source="http://scta.info/resource/IIsam24_1@1-4">Et addidit furor Domini,</quote> etc. Jam enim ultio facta fuerat in David et in domo ejus, sed non in populo qui vel non restitit David vel consensit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

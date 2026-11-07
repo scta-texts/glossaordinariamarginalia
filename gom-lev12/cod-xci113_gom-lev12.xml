@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Leviticus, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0331C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-lev12">
+        <head xml:id="gom-lev12-Hd1e98">Caput 12</head>
+        <div xml:id="gom-lev12-Dd1e100">
+          <head xml:id="gom-lev12-Hd1e102">Versus 2</head>
+          <p xml:id="gom-lev12-d1e104">
+            <quote xml:id="gom-lev12-Qd1e106" type="lemma" source="http://scta.info/resource/lev12_2@8-11">Mulier si suscepto semine.</quote>
+            <ref xml:id="gom-lev12-Rd1e109"><name xml:id="gom-lev12-Nd1e110" ref="#IsidoreOfSeville">ISID.</name>, quaest. in Levit., tom. V.</ref>
+            <quote xml:id="gom-lev12-Qd1e114"><seg type="qs">Septimana est praesens vita</seg>, etc., usque ad <seg type="qs">nec in futuro purgabitur.</seg></quote>
+          </p>
+          <p xml:id="gom-lev12-d1e122">
+            <pb ed="#P" n="0331D"/>
+            <quote xml:id="gom-lev12-Qd1e126" type="lemma" source="http://scta.info/resource/lev12_2@14-15">Immunda erit.</quote>
+            <ref xml:id="gom-lev12-Rd1e129"><name xml:id="gom-lev12-Nd1e130">ISICH.</name></ref>
+            <quote xml:id="gom-lev12-Qd1e132">Quia scilicet sator immundus, ut haeres Adae, qui per transgressionem immundus, et ita uxori mistus. Postquam enim exiit de paradiso cognovit uxorem suam, et ita propagatur humanum genus.</quote>
+          </p>
+          <p xml:id="gom-lev12-d1e135">
+            <quote xml:id="gom-lev12-Qd1e137" type="lemma" source="http://scta.info/resource/lev12_2@16-17">Septem diebus.</quote>
+            <ref xml:id="gom-lev12-Rd1e140"><name xml:id="gom-lev12-Nd1e141">ID.</name></ref>
+            <quote xml:id="gom-lev12-Qd1e143"><seg type="qs">Quia Adam</seg>, etc., usque ad <seg type="qs">quando Adam separatus a paradiso in hanc miseriam decidit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev12-Dd1e152">
+          <head xml:id="gom-lev12-Hd1e154">Versus 3</head>
+          <p xml:id="gom-lev12-d1e156">
+            <quote xml:id="gom-lev12-Qd1e158" type="lemma" source="http://scta.info/resource/lev12_3@2-3">Die octavo,</quote>
+            etc.
+            <ref xml:id="gom-lev12-Rd1e161"><name xml:id="gom-lev12-Nd1e162">ID.</name></ref>
+            <quote xml:id="gom-lev12-Qd1e164"><seg type="qs">Dies octavus</seg>, etc., usque ad <seg type="qs">Inobedientia autem immunditiam nobis sordemque contraxit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev12-Dd1e173">
+          <head xml:id="gom-lev12-Hd1e175">Versus 4</head>
+          <p xml:id="gom-lev12-d1e177">
+            <quote xml:id="gom-lev12-Qd1e179" type="lemma" source="http://scta.info/resource/lev12_4@3-5">Triginta tribus diebus,</quote>
+            etc.
+            <ref xml:id="gom-lev12-Rd1e182"><name xml:id="gom-lev12-Nd1e183">ID.</name></ref>
+            <quote xml:id="gom-lev12-Qd1e185"><seg type="qs">septem additis</seg>, etc., usque ad <seg type="qs">incertum est enim an feminam, an marem pariant.</seg></quote>
+          </p>
+          <p xml:id="gom-lev12-d1e193">
+            <pb ed="#P" n="0332A"/>
+            <ref xml:id="gom-lev12-Rd1e197" type="lemma" subtype="implied" target="http://scta.info/resource/lev12_4@3-5"/>
+            <ref xml:id="gom-lev12-Rd1e199"><name xml:id="gom-lev12-Nd1e200" ref="#Augustine">AUG.</name>, quaest. 40 in Levit.</ref>
+            <quote xml:id="gom-lev12-Qd1e204"><seg type="qs">Quae differentia est inter septem dies</seg>, etc., usque ad <seg type="qs">in feminae octoginta.</seg></quote>
+          </p>
+          <p xml:id="gom-lev12-d1e212">
+            <quote xml:id="gom-lev12-Qd1e214" type="lemma" source="http://scta.info/resource/lev12_4@11-14">Omne sanctum non tanget.</quote>
+            Quid sanctuarium vult intelligere cum tabernaculum nonnisi sacerdotes debeant ingredi, et usque ad velum secundi: ultra velum autem, ubi erat arca, summus tantum sacerdos introibat? Forte ante tabernaculum, ubi altare sacrificiorum est, potuit dici sanctuarium. Nam saepe sanctus locus appellatur etiam atrium, cum dicitur: <quote xml:id="gom-lev12-Qd1e217" source="http://scta.info/resource/IImac1_29@4-6">In loco sancto edent ea.</quote> Illuc forsitan intrabant mulieres dona sua offerentes, quae altari imponerent.
+          </p>
+        </div>
+        <div xml:id="gom-lev12-Dd1e222">
+          <head xml:id="gom-lev12-Hd1e224">Versus 6</head>
+          <p xml:id="gom-lev12-d1e226">
+            <quote xml:id="gom-lev12-Qd1e228" type="lemma" source="http://scta.info/resource/lev12_6@1-3">Cumque expleti fuerint.</quote>
+            Intentionem aperit, quia scilicet, pollutionem naturales motus non faciunt, sed peccatum, de quo dicit David: <quote xml:id="gom-lev12-Qd1e231" source="http://scta.info/resource/ps50_7@1-5">Ecce enim in iniquitatibus conceptus</quote>, etc., <pb ed="#P" n="0332B"/> Matrem naturam appellans, et immunditiam peccati Adae et Evae in totum genus humanum descendisse significans. Ideo Moyses, completis diebus purificationis holocaustum, et pro peccato praecepit immolari; evidenter ostendens quia imago Dei perfectionem tribuit generi nostro. Nam formationem dies mundationis ostendunt, perfectionem holocaustum.
+          </p>
+          <p xml:id="gom-lev12-d1e237">
+            <ref xml:id="gom-lev12-Rd1e239" type="lemma" subtype="implied" target="http://scta.info/resource/lev12_6@1-3"/>
+            <ref xml:id="gom-lev12-Rd1e241"><name xml:id="gom-lev12-Nd1e242" ref="#Augustine">AUG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-lev12-Qd1e246"><seg type="qs">Nunquid peperisse peccatum est?</seg> etc., usque ad <seg type="qs">non ut dicerent super filio aut super filia, sed pro filio aut filia.</seg></quote>
+          </p>
+          <p xml:id="gom-lev12-d1e254">
+            <ref xml:id="gom-lev12-Rd1e256" type="lemma" subtype="implied" target="http://scta.info/resource/lev12_6@1-3"/>
+            Notandum autem quam pauper Dominus nasci voluerit, ut non pro illo offerretur agnus et pullus columbinus aut turtur, sed par turturum aut duo pulli columbarum secundum Evangelium, quod scriptura Levitici tunc jussit offerri, si non habuit <pb ed="#P" n="0332C"/> agnum manus offerentis, quod satis est magnum.
+          </p>
+          <p xml:id="gom-lev12-d1e261">
+            <ref xml:id="gom-lev12-Rd1e263" type="lemma" subtype="implied" target="http://scta.info/resource/lev12_6@1-3"/>
+            <ref xml:id="gom-lev12-Rd1e265"><name xml:id="gom-lev12-Nd1e266" ref="#Bede">BEDA</name>, in Lev., tom. II.</ref>
+            <quote xml:id="gom-lev12-Qd1e270"><seg type="qs">Dominus noster non solum homo</seg>, etc., usque ad <seg type="qs">et post in coelestem Jerusalem bonorum operum victimis Domino commendata perveniet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev12-Dd1e280">
+          <head xml:id="gom-lev12-Hd1e282">Versus 7</head>
+          <p xml:id="gom-lev12-d1e284">
+            <quote xml:id="gom-lev12-Qd1e286" type="lemma" source="http://scta.info/resource/lev12_7@13-14">A profluvio,</quote>
+            etc. Tanquam aliquis quaerat, unde mundabitur quae legitime generavit? ait, a <quote xml:id="gom-lev12-Qd1e289" source="http://scta.info/resource/lev12_7@14-16">profluvio sanguinis sui,</quote> hoc est inobedientia, unde immunditia et poena profluxit, per meditationem et contemplationem legis, cujus negligentia hominibus immunditiam invexit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

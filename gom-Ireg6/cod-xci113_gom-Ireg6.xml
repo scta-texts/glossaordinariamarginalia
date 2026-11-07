@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum I, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum I, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0585D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ireg6">
+        <head xml:id="gom-Ireg6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-Ireg6-Dd1e100">
+          <head xml:id="gom-Ireg6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ireg6-d1e104">
+            <quote xml:id="gom-Ireg6-Qd1e106" type="lemma" source="http://scta.info/resource/Ireg6_1@1-3">Factum est igitur.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e109"><name xml:id="gom-Ireg6-Nd1e110" ref="#RabanusMaurus">RAB.</name> ex Bed., lib. de Templo Salom., cap. 5.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e114"><seg type="qs">Fit commemoratio egressionis de Aegypto</seg>, etc., usque ad <seg type="qs">nec Scriptura quae gratiam Novi Testamenti intimaret in Veteri.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e122">
+            <quote xml:id="gom-Ireg6-Qd1e124" type="lemma" source="http://scta.info/resource/Ireg6_1@15-16">Anno quarto.</quote>
+            Quarto anno regis Salomonis coepit aedificari domus: quia post expletam Christi incarnationis dispensationem in quatuor Evangeliis scriptam, misso Spiritu sancto Ecclesiae structura coepit.
+          </p>
+          <p xml:id="gom-Ireg6-d1e128">
+            <quote xml:id="gom-Ireg6-Qd1e130" type="lemma" source="http://scta.info/resource/Ireg6_1@17-21">Mense Zio (ipse est mensis).</quote>
+            <ref xml:id="gom-Ireg6-Rd1e133"><name xml:id="gom-Ireg6-Nd1e134" ref="#Bede">BEDA</name>, ibidem.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e138"><seg type="qs">Quod mense secundo</seg>, etc., usque ad <seg type="qs">unde patet quia mox <pb ed="#P" n="0586A"/> peracto pascha coepit aedificare domum Domini et consecratus mystica solemnitate populus misit manus ad mysticum opus.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e148">
+            <quote xml:id="gom-Ireg6-Qd1e150" type="lemma" source="http://scta.info/resource/Ireg6_1@27-28">Aedificare coepit.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e153"><name xml:id="gom-Ireg6-Nd1e154" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e158"><seg type="qs">Ubi aedificatum sit templum in Paralipomenis manifestatur</seg>, etc., usque ad <seg type="qs">sed internae pacis, quam cum conditore suo haberet, compos effecta est.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e167">
+            <quote xml:id="gom-Ireg6-Qd1e169" type="lemma" source="http://scta.info/resource/Ireg6_1">Quae praeparaverat David,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Paraverat enim David psallendo, paraverunt alii prophetae vaticinando locum Domino: vero scilicet Salomoni, in quo domum aedificaret, quia corda auditorum fide instituerunt, monentes ut incarnatum Dei Filium fideli devotione susciperent. Unde: <quote xml:id="gom-Ireg6-Qd1e174" source="http://scta.info/resource/io4_36@1-20">Levate oculos vestros et videte regiones, quia albae sunt jam ad messem: et qui metit, mercedem accipit: et congregat fructum in vitam <pb ed="#P" n="0586B"/> aeternam, ut qui seminat simul gaudeat et qui metit</quote>. Quod dicit: Levate oculos vestros et videte locum qui paratus est ad aedificandam domum, et qui aedificat docendo, mercedem accipit, et congregat lapides pretiosos in vitam aeternam: ut et qui parat locum aedificio simul gaudeat et qui aedificat, id est propheta venturum praedicens: et apostolus praedicans Dominum venientem, una simul mercede potiantur.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e181">
+          <head xml:id="gom-Ireg6-Hd1e183">Versus 2</head>
+          <p xml:id="gom-Ireg6-d1e185">
+            <quote xml:id="gom-Ireg6-Qd1e187" type="lemma" source="http://scta.info/resource/Ireg6_2@11-12">In longitudine,</quote>
+            etc. Longitudo domus longanimitatem Ecclesiae significat, qua patienter adversa tolerat, donec ad patriam perveniat. Haec est sexaginta cubitorum, quia senarius perfectionem bonorum operum significat; quia debemus per longanimitatem ita adversa tolerare, ut per bona opera promissam <pb ed="#P" n="0586C"/> patriam mereamur intrare.
+          </p>
+          <p xml:id="gom-Ireg6-d1e193">
+            <quote xml:id="gom-Ireg6-Qd1e195" type="lemma" source="http://scta.info/resource/Ireg6_2@14-15">Viginti cubitos.</quote>
+            Propter geminam charitatis distantiam, qua Deum diligimus et proximum.
+          </p>
+          <p xml:id="gom-Ireg6-d1e199">
+            <quote xml:id="gom-Ireg6-Qd1e201" type="lemma" source="http://scta.info/resource/Ireg6_2@16-17">In latitudine.</quote>
+            Latitudo charitatem significat, quae dilatato sinu mentis amicos in Deo, et inimicos diligit propter Deum donec ad pacem conversis vel funditus exstinctis, cum solis amicis gaudeat in Domino.
+          </p>
+          <p xml:id="gom-Ireg6-d1e205">
+            <ref xml:id="gom-Ireg6-Rd1e207" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg6_2@16-17"/>
+            <ref xml:id="gom-Ireg6-Rd1e209"><name xml:id="gom-Ireg6-Nd1e210" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e214">Notandum, quia triginta cubiti altitudinis non usque ad tectum templi, sed usque ad coenaculum inferius pertingebant. Aperte enim in Paralipomenis scriptum est quod altitudo centum viginti cubitorum erat, de cujus rei sacramentis aptius in sequenti tractabitur, ubi ad medium coenaculum et tertium lectionis ordo pervenerit.</quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e218">
+            <pb ed="#P" n="0586D"/>
+            <quote xml:id="gom-Ireg6-Qd1e222" type="lemma" source="http://scta.info/resource/Ireg6_2@19-20">Triginta cubitos.</quote>
+            Propter fidem Trinitatis, in cujus visione cuncta desideria spei nostrae suspendantur. Singuli numeri per decem multiplicantur, quia per fidem et custodiam legis patientia salubriter exercetur: charitas viriliter ardescit, et spes sublimiter ad aeterna rapitur.
+          </p>
+          <p xml:id="gom-Ireg6-d1e226">
+            <quote xml:id="gom-Ireg6-Qd1e228" type="lemma" source="http://scta.info/resource/Ireg6_2@16-17">In altitudine.</quote>
+            Altitudo significat spem retributionis futurae, pro qua prospera vel adversa contemnit, donec videat bona Domini in terra viventium.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e233">
+          <head xml:id="gom-Ireg6-Hd1e235">Versus 3</head>
+          <p xml:id="gom-Ireg6-d1e237">
+            <quote xml:id="gom-Ireg6-Qd1e239" type="lemma" source="http://scta.info/resource/Ireg6_3@2-3">Porticus erat,</quote>
+            etc. De hac in Paralipomenis ita scriptum: <quote xml:id="gom-Ireg6-Qd1e242" source="http://scta.info/resource/IIchr3_4@1-14">Porticum vero ante frontem quae tendebatur in longum juxta mensuram latitudinis cubitorum viginti</quote>. Patet ergo quia porticus ista ad orientalem templi partem facta est. <pb ed="#P" n="0587A"/> Templum enim versum ad orientem erat sicut et tabernaculum: habebatque ostium ab oriente contra ostium templi, juxta Josephum, ita ut sol aequinoctialis oriens directis radiorum lineis per ostia tria, porticus, scilicet, templi et oraculi, arcam testamenti perfunderet. Templum Ecclesiam figurat, porticus quae ante templum prior lumen solis recipiebat, illam Ecclesiae partem quae Domini incarnationem praecessit: in qua patriarchae et prophetae orientem justitiae solem primi susceperunt, et nascenti Domino in carne vivendo, praedicando, nascendo, et moriendo testimonium praebuerunt.
+          </p>
+          <p xml:id="gom-Ireg6-d1e248">
+            <quote xml:id="gom-Ireg6-Qd1e250" type="lemma" source="http://scta.info/resource/Ireg6_3@6-12">Viginti cubitorum longitudinis, juxta mensuram latitudinis templi.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e253"><name xml:id="gom-Ireg6-Nd1e254" ref="#Bede">BEDA</name>, lib. de temp. Salom., c. 6.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e258"><seg type="qs">Quia antiqui justi in patientia et longanimitate <pb ed="#P" n="0587B"/> exspectabant</seg>, etc., usque ad <seg type="qs">tamen doctrinam ejus audire et sacramenta percipere nequiverunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e269">
+          <head xml:id="gom-Ireg6-Hd1e271">Versus 4</head>
+          <p xml:id="gom-Ireg6-d1e273">
+            <quote xml:id="gom-Ireg6-Qd1e275" type="lemma" source="http://scta.info/resource/Ireg6_4@4-5">Fenestras obliquas.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e278"><name xml:id="gom-Ireg6-Nd1e279" ref="#Bede">ID.</name>, ibid., cap. 7.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e283">Sanctos doctores quibus mente excedentibus Deo, arcana coelestium specialius videre conceditur. Qui dum quae in occulto vident, publice pandunt, quasi suscepto lumine solis fenestrae cuncta templi penetralia replent. Unde obliquae, id est, intus latiores fuisse perhibentur: quia qui jubar supernae contemplationis vel ad momentum percipit, mox sinum cordis amplius castigando dilatat, et ad majora capessenda solerti exercitatione praeparat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e288">
+          <head xml:id="gom-Ireg6-Hd1e290">Versus 5</head>
+          <p xml:id="gom-Ireg6-d1e292">
+            <quote xml:id="gom-Ireg6-Qd1e294" type="lemma" source="http://scta.info/resource/Ireg6_5@1-2">Et aedificavit,</quote>
+            etc.
+            <ref xml:id="gom-Ireg6-Rd1e297"><name xml:id="gom-Ireg6-Nd1e298" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e302"><seg type="qs">Haec tabulata in Evangelio ubi Dominus tentatur a diabolo, pinnacula templi vocantur</seg>, etc., usque ad <seg type="qs">quorum maximam <pb ed="#P" n="0587C"/> partem uxores reliquisse completius sancti Stephani testatur historia, ubi feminas eadem religione pollentes non conjuges, sed viduas eorum appellat.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e312">
+            <quote xml:id="gom-Ireg6-Qd1e314" type="lemma" source="http://scta.info/resource/Ireg6_5@19-19">Latera.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e317"><name xml:id="gom-Ireg6-Nd1e318" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e322">Id. est luriculas, ne quis inde facile ad inferiora decideret, etc., <quote xml:id="gom-Ireg6-Qd1e324">usque ad Latera,</quote> id est, muros vel cancellos, vel luriculas, doctores in tabulatis sedentes, qui ad circumstantem inferius populum concionabantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e329">
+          <head xml:id="gom-Ireg6-Hd1e331">Versus 6</head>
+          <p xml:id="gom-Ireg6-d1e333">
+            <quote xml:id="gom-Ireg6-Qd1e335" type="lemma" source="http://scta.info/resource/Ireg6_6@22-29">Trabes autem posuit in domo per circuitum forinsecus.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e338"><name xml:id="gom-Ireg6-Nd1e339" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e343"><seg type="qs">Domus quae tabulata portant</seg>, etc., usque ad <seg type="qs">et tamen ex eis quae loquendo, agendo, vel patiendo foris ostendunt, invenimus salutis auxilium.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e351">
+            <quote xml:id="gom-Ireg6-Qd1e353" type="lemma" source="http://scta.info/resource/Ireg6_6@22-22">Trabes,</quote>
+            etc., <quote xml:id="gom-Ireg6-Qd1e356" source="http://scta.info/resource/Ireg6_6@29-29">forinsecus.</quote> Tantae longitudinis erat, ut capita earum forinsecus prominerent. In infimo <pb ed="#P" n="0587D"/> ordine cubitorum septem, in medio sex, in supremo quinque, ut in capitibus earum tabulata componerentur, non muris templi infixa, sed juxta muros trabibus quae de muris exierant, superposita.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e363">
+          <head xml:id="gom-Ireg6-Hd1e365">Versus 7</head>
+          <p xml:id="gom-Ireg6-d1e367">
+            <quote xml:id="gom-Ireg6-Qd1e369" type="lemma" source="http://scta.info/resource/Ireg6_7@1-2">Domus autem,</quote>
+            etc. Haec ad illam Ecclesiae partem quae post saeculi labores et certamina ad aeterna praemia meruit introduci proprie pertinent. Nihil enim inquinatum intrabit in illam civitatem.
+          </p>
+          <p xml:id="gom-Ireg6-d1e373">
+            <quote xml:id="gom-Ireg6-Qd1e375" type="lemma" source="http://scta.info/resource/Ireg6_7@11-14">Et malleus et securis.</quote>
+            Quia hic tundimur adversitatibus et disciplina veritatis exercemur, ut illic juxta meritum locis congruis disponamur, et castigatione cessante solo amoris glutino quo ad invicem copulemur, uno impleti spiritu perfundamur. Sed quamvis <pb ed="#P" n="0588A"/> dicatur: <quote xml:id="gom-Ireg6-Qd1e380" source="http://scta.info/resource/gen6_9@4-12">Noe vir perfectus in generationibus suis,</quote> et: <quote xml:id="gom-Ireg6-Qd1e383" source="http://scta.info/resource/ps118_1@4-7">Beati immaculati in via,</quote> et hujuscemodi, nullus vere perfectus et sine macula viam hujus vitae incedere potest. Non est enim qui faciat bonum, et non peccet. Sed secundum hujus temporis modum perfecti et immaculati vocantur, qui tunc vere perficiuntur, cum nexibus corporis absoluti ad immortalem domus Domini decorem pervenerint.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e388">
+          <head xml:id="gom-Ireg6-Hd1e390">Versus 8</head>
+          <p xml:id="gom-Ireg6-d1e392">
+            <quote xml:id="gom-Ireg6-Qd1e394" type="lemma" source="http://scta.info/resource/Ireg6_8@1-2">Ostium lateris.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e397"><name xml:id="gom-Ireg6-Nd1e398" ref="#Bede">BEDA</name>, ibid, cap. 8.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e402"><seg type="qs">Qui dam hunc locum male intelligentes</seg>, etc., usque ad <seg type="qs">et bene unum ostium, propter consonam in omnibus sanctis fidem et dilectionem veritatis.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e410">
+            <quote xml:id="gom-Ireg6-Qd1e412" type="lemma" source="http://scta.info/resource/Ireg6_8@12-20">Ascendebant in medium coenaculum et a medio in tertium. Et aedificavit.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e415"><name xml:id="gom-Ireg6-Nd1e416" ref="#Bede">BEDA</name> ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e420"><seg type="qs">Notandum quod triginta cubiti altitudinis de quo supra legitur, etc., <pb ed="#P" n="0588B"/></seg> usque ad <seg type="qs">quia consona mente et voce omnes divinae majestatis gloriam collaudabunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e430">
+          <head xml:id="gom-Ireg6-Hd1e432">Versus 9</head>
+          <p xml:id="gom-Ireg6-d1e434">
+            <quote xml:id="gom-Ireg6-Qd1e436" type="lemma" source="http://scta.info/resource/Ireg6_9@10-10">Laquearibus.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e439"><name xml:id="gom-Ireg6-Nd1e440" ref="#Bede">BEDA</name>, ibid., cap. 9.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e444">Laquearia sunt tabulata, quae magno decore composita et ornata, ab inferiori parte trabibus affiguntur, et quia ternae altitudinis domus Domini facta erat, terna habebat laquearia. Sanctis sublimioribus scilicet, quorum opus et doctrina cunctis in templo proposita, quasi longius in alto praeeminent; quicunque intercedendo, exhortando, animas infirmorum ne deficiant, protegant.</quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e447">
+            <quote xml:id="gom-Ireg6-Qd1e449" type="lemma" source="http://scta.info/resource/Ireg6_9@11-11">Cedrinis.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e452"><name xml:id="gom-Ireg6-Nd1e453" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e457"><seg type="qs">Cedrus arbor imputribilis</seg>, etc., usque ad <seg type="qs">nisi diligere Deum ex toto corde, tota anima, tota virtute, et proximum tanquam nos ipsos.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e466">
+          <head xml:id="gom-Ireg6-Hd1e468">Versus 10</head>
+          <p xml:id="gom-Ireg6-d1e470">
+            <pb ed="#P" n="0588C"/>
+            <quote xml:id="gom-Ireg6-Qd1e474" type="lemma" source="http://scta.info/resource/Ireg6_10@3-9">Tabulatum super omnem domum quinque cubitis altitudinis.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e477"><name xml:id="gom-Ireg6-Nd1e478" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e482">Hic supremum ipsius domus tectum dicitur, etc., <quote xml:id="gom-Ireg6-Qd1e484" source="http://scta.info/resource/lc1_17@6-10">usque ad in spiritu et virtute Eliae.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e490">
+          <head xml:id="gom-Ireg6-Hd1e492">Versus 15</head>
+          <p xml:id="gom-Ireg6-d1e494">
+            <quote xml:id="gom-Ireg6-Qd1e496" type="lemma" source="http://scta.info/resource/Ireg6_15@1-3">Et aedificavit parietes.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e499"><name xml:id="gom-Ireg6-Nd1e500" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e504"><seg type="qs">Intrinsecus quidem domus cedro erat vestita</seg>, etc., usque ad <seg type="qs">sed non habent quos portent.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e512">
+            <quote xml:id="gom-Ireg6-Qd1e514" type="lemma" source="http://scta.info/resource/Ireg6_15@3-4">Parietes domus.</quote>
+            Operiuntur cum corda fidelium amore virtutum redundant. Sicut enim cedrus perfectos significat, ita locis opportunis, celsitudinem virtutum, quibus ad eamdem pervenitur perfectionem.
+          </p>
+          <p xml:id="gom-Ireg6-d1e518">
+            <quote xml:id="gom-Ireg6-Qd1e520" type="lemma" source="http://scta.info/resource/Ireg6_15@8-9">A pavimento.</quote>
+            Teguntur omnia lignis, a pavimento domus usque ad summitatem parietum et usque ad laquearia, cum electi a primis fidei rudimentis usque <pb ed="#P" n="0588D"/> ad perfectionem bonae actionis, et usque ad ingressum patriae coelestis insudant operibus bonis, cum a primis justis usque ad ultimos in consummatione saeculi omnes virtutibus student, quarum merito dicere audeant: <quote xml:id="gom-Ireg6-Qd1e525" source="http://scta.info/resource/IIcor2_15@2-6">Christi bonus odor sumus Deo</quote>.
+          </p>
+          <p xml:id="gom-Ireg6-d1e529">
+            <quote xml:id="gom-Ireg6-Qd1e531" type="lemma" source="http://scta.info/resource/Ireg6_15@22-24">Et texit pavimentum.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e534"><name xml:id="gom-Ireg6-Nd1e535" ref="#Bede">BED.</name> ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e539"><seg type="qs">Hoc in Paralipomenis plenius scriptum est</seg>, etc., usque ad <seg type="qs">subjunxit: <quote xml:id="gom-Ireg6-Qd1e545" source="http://scta.info/resource/col3_14@1-5">Super omnia autem charitatem habentes,</quote> etc. <!--<note>(I Tim. I; Col. III)</note>-->.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e553">
+          <head xml:id="gom-Ireg6-Hd1e555">Versus 16</head>
+          <p xml:id="gom-Ireg6-d1e557">
+            <quote xml:id="gom-Ireg6-Qd1e559" type="lemma" source="http://scta.info/resource/Ireg6_16@1-2">Aedificavit viginti.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e562"><name xml:id="gom-Ireg6-Nd1e563" ref="#Bede">BED.</name>, ibid., cap. 10.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e567"><seg type="qs">Quod tabulata</seg>, etc., usque ad <seg type="qs">et hoc per totam Ecclesiae latitudinem diffusae per orbem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e576">
+          <head xml:id="gom-Ireg6-Hd1e578">Versus 17</head>
+          <p xml:id="gom-Ireg6-d1e580">
+            <quote xml:id="gom-Ireg6-Qd1e582" type="lemma" source="http://scta.info/resource/Ireg6_17@1-1">Porro.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e585"><name xml:id="gom-Ireg6-Nd1e586" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e590"><seg type="qs">Decem quater ducta <pb ed="#P" n="0589A"/> quadraginta faciunt</seg>, etc., usque ad <seg type="qs">quadratus vero mundus in quo pro eadem acquirenda certamus. Unde: <quote xml:id="gom-Ireg6-Qd1e598" source="http://scta.info/resource/ps106_3@1-9">De regionibus congregavit eos. A solis ortu et occasu, ab Aquilone et mari</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e604">
+          <head xml:id="gom-Ireg6-Hd1e606">Versus 18</head>
+          <p xml:id="gom-Ireg6-d1e608">
+            <quote xml:id="gom-Ireg6-Qd1e610" type="lemma" source="http://scta.info/resource/Ireg6_18@1-3">Et cedro omnis.</quote>
+            Cedrus insuperabilem virtutum venustatem signat, quo ligno omnis domus intrinsecus vestitur, cum corda justorum solo bonorum operum amore nitescunt.
+          </p>
+          <p xml:id="gom-Ireg6-d1e614">
+            <quote xml:id="gom-Ireg6-Qd1e616" type="lemma" source="http://scta.info/resource/Ireg6_18@7-8">Habens tornaturas.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e619"><name xml:id="gom-Ireg6-Nd1e620" ref="#Bede">BEDA</name>, ibid., cap. 11.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e624">Habet domus in tabulis cedrinis tornaturas suas et juncturas fabrefactas, cum electi ad invicem pulcherrima charitatis copula nectuntur, ut habeant cor unum et animam unam. Tornaturae enim quae juncturis tabularum opponuntur, ut unum tabulatum fiat ex omnibus, officia sunt charitatis quibus sancta fraternitas <pb ed="#P" n="0589B"/> copulatur, et in unam Christi domum toto orbe terrarum componitur.</quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e630">
+            <quote xml:id="gom-Ireg6-Qd1e632" type="lemma" source="http://scta.info/resource/Ireg6_18@14-14">Caelaturas.</quote>
+            Opera sanctorum manifesta expressione quales sint in exemplum aliis proferunt. Unde Paulus et factis et dictis se in exemplum proponit.
+          </p>
+          <p xml:id="gom-Ireg6-d1e636">
+            <quote xml:id="gom-Ireg6-Qd1e638" type="lemma" source="http://scta.info/resource/Ireg6_18@16-17">Omnia cedrinis,</quote>
+            etc.
+            <ref xml:id="gom-Ireg6-Rd1e641"><name xml:id="gom-Ireg6-Nd1e642" ref="#Bede">ID.</name> ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e646"><seg type="qs">Lapides parietis vel pavimentum, et tabulae, et aurum</seg>, etc., usque <seg type="qs">et <quote xml:id="gom-Ireg6-Qd1e652" source="http://scta.info/resource/Ireg6_16@4-4">ad</quote> qui gratiam Evangelii perfecte susceperunt, aeterna vita pariter perfruuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e658">
+          <head xml:id="gom-Ireg6-Hd1e660">Versus 19</head>
+          <p xml:id="gom-Ireg6-d1e662">
+            <quote xml:id="gom-Ireg6-Qd1e664" type="lemma" source="http://scta.info/resource/Ireg6_19@1-1">Oraculum.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e667"><name xml:id="gom-Ireg6-Nd1e668" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e672"><seg type="qs">Oraculum ubi erat arca</seg>, etc., usque ad <seg type="qs">qui post resurrectionem ascendens in coelum carnem sumptam de virgine in Patris dextera collocavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e681">
+          <head xml:id="gom-Ireg6-Hd1e683">Versus 20</head>
+          <p xml:id="gom-Ireg6-d1e685">
+            <quote xml:id="gom-Ireg6-Qd1e687" type="lemma" source="http://scta.info/resource/Ireg6_20@1-2">Porro oraculum.</quote>
+            Bene autem interior <pb ed="#P" n="0589C"/> domus viginti cubitis longa est, pro mysterio geminae dilectionis, de qua jam dictum est, quae in hac vita ex parte maxima illustrat electorum mentes, sed in patria cessantibus aliarum virtutum operibus sola regnat.
+          </p>
+          <p xml:id="gom-Ireg6-d1e693">
+            <quote xml:id="gom-Ireg6-Qd1e695" type="lemma" source="http://scta.info/resource/Ireg6_20@22-24">Sed et altare.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e698"><name xml:id="gom-Ireg6-Nd1e699" ref="#Bede">ID.</name>, ibid., cap. 12.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e703"><seg type="qs">Thymiamatis scilicet</seg>, etc., usque ad <seg type="qs">quid autem lapis, cedrus, aurumque significent, supra dictum est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e713">
+          <head xml:id="gom-Ireg6-Hd1e715">Versus 21</head>
+          <p xml:id="gom-Ireg6-d1e717">
+            <quote xml:id="gom-Ireg6-Qd1e719" type="lemma" source="http://scta.info/resource/Ireg6_21@1-4">Domum quoque ante oraculum.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e722"><name xml:id="gom-Ireg6-Nd1e723" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e727"><seg type="qs">Domus ante oraculum auro tecta est</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-Ireg6-Qd1e733" source="http://scta.info/resource/io14_21@22-29">Ego diligam eum, et manifestabo ei meipsum.</quote> Et iterum: <quote xml:id="gom-Ireg6-Qd1e736" source="http://scta.info/resource/io16_25@7-15">Venit hora cum jam non in proverbiis loquar vobis,</quote> etc. <!--<note>(Joan. XIV; XVI)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e743">
+            <quote xml:id="gom-Ireg6-Qd1e745" type="lemma" source="http://scta.info/resource/Ireg6_21@11-12">Clavis aureis.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e748"><name xml:id="gom-Ireg6-Nd1e749" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e753"><seg type="qs">Clavi autem sunt praecepta charitatis</seg>, etc., usque ad <seg type="qs">qui rursum ad perfectionem <pb ed="#P" n="0589D"/> veniens de clavis dilectionis ait: <quote xml:id="gom-Ireg6-Qd1e761" source="http://scta.info/resource/ps72_28@1-4">Mihi autem adhaerere Deo,</quote> etc. <!--<note>(Psal. CXVIII, 72)</note>-->.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e769">
+          <head xml:id="gom-Ireg6-Hd1e771">Versus 22</head>
+          <p xml:id="gom-Ireg6-d1e773">
+            <quote xml:id="gom-Ireg6-Qd1e775" type="lemma" source="http://scta.info/resource/Ireg6_22@1-4">Nihilque erat in templo.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e778"><name xml:id="gom-Ireg6-Nd1e779" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e783"><seg type="qs">Haec in Paralipomenis plenius explicantur <!--<note>(II Par. III)</note>--></seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-Ireg6-Qd1e789" source="http://scta.info/resource/col3_2@1-8">et quae sursum sunt sapite, non quae super terram</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e795">
+          <head xml:id="gom-Ireg6-Hd1e797">Versus 23</head>
+          <p xml:id="gom-Ireg6-d1e799">
+            <quote xml:id="gom-Ireg6-Qd1e801" type="lemma" source="http://scta.info/resource/Ireg6_23@6-8">Cherubim de lignis.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e804"><name xml:id="gom-Ireg6-Nd1e805" ref="#Bede">ID.</name>, ibid., cap. 13.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e809">Angelicae dignitatis vocabulum est, et dicitur singulariter cherub, pluraliter cherubim. Per cherubim ergo angelica ministeria quae conditori semper assistunt in coelis, possunt intelligi.-- <quote xml:id="gom-Ireg6-Qd1e811" source="http://scta.info/resource/Ireg6_23@9-9">Olivarum.</quote> Quia angeli gratia spirituali sunt uncti, ne unquam arescant ab amore Dei, quos luce coelestis sapientiae mox ipse qui creavit, implevit, <pb ed="#P" n="0590A"/> unde et cherubim dicuntur, id est, multiplicata scientia, vel scientiae multitudo. De lignis olivarum sunt facti, quia lucem nobis scientiae tribuunt, juvante flamma charitatis Dei, quae per Spiritum diffunditur in cordibus nostris.</quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e818">
+            <quote xml:id="gom-Ireg6-Qd1e820" type="lemma" source="http://scta.info/resource/Ireg6_23@10-11">Decem cubitorum.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e823"><name xml:id="gom-Ireg6-Nd1e824" ref="#Bede">BEDA</name> ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e828">Decem cubitorum altitudinis sunt, quia denario aeternae vitae fruuntur, habentes inviolatam conditoris imaginem, servata sanctitate et justitia, et veritate in qua conditi sunt. Denarius enim decem obolis constat, et continere in se regis nomen et imaginem consuevit. Ideo figurae regni coelestis congruit, ubi angeli in imagine conditoris ad quam facti sunt, semper manent, et electi homines, imaginem quam peccando amiserunt, recipiunt, unde: <quote xml:id="gom-Ireg6-Qd1e830" source="http://scta.info/resource/Iio3_2@13-22">Cum apparuerit, similes ei erimus et <pb ed="#P" n="0590B"/> videbimus eum sicut est<!-- check: Migne cites io3; text matches Iio3_2 --></quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e839">
+          <head xml:id="gom-Ireg6-Hd1e841">Versus 24</head>
+          <p xml:id="gom-Ireg6-d1e843">
+            <quote xml:id="gom-Ireg6-Qd1e845" type="lemma" source="http://scta.info/resource/Ireg6_24@1-2">Quinque cubitorum.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e848"><name xml:id="gom-Ireg6-Nd1e849" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e853"><seg type="qs">Alae cum in sanctorum hominum figuram ponuntur</seg>, etc., usque ad <seg type="qs">qui promissus est vitae cultoribus, veniunt denarium.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e861">
+            <quote xml:id="gom-Ireg6-Qd1e863" type="lemma" source="http://scta.info/resource/Ireg6_24@9-11">Ala cherub altera.</quote>
+            Geminas habent alas, quia testamenta aeque per prospera et adversa, indefesso proposito semper ad coelestia tetendisse et pervenisse declarant, quia hoc idem suis auditoribus faciendum esse demonstrant.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e868">
+          <head xml:id="gom-Ireg6-Hd1e870">Versus 25</head>
+          <p xml:id="gom-Ireg6-d1e872">
+            <quote xml:id="gom-Ireg6-Qd1e874" type="lemma" source="http://scta.info/resource/Ireg6_25@1-3">Decem quoque cubitorum.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e877"><name xml:id="gom-Ireg6-Nd1e878" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e882">Alti sunt decem cubitis, quia per observantiam Decalogi Deo serviendum praedicant, quia Deo fideliter servientes aeterni regni denario remunerandos esse ostendunt.</quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e885">
+            <pb ed="#P" n="0590C"/>
+            <quote xml:id="gom-Ireg6-Qd1e889" type="lemma" source="http://scta.info/resource/Ireg6_25@9-10">Et opus.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e892"><name xml:id="gom-Ireg6-Nd1e893" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e897"><seg type="qs">Duo facti erant cherubim propter consortium charitatis significandum</seg>, etc., usque ad <seg type="qs">quibus post frigora et tenebras idololatriae, lucem veritatis cognoscere datum est.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e905">
+            <ref xml:id="gom-Ireg6-Rd1e907" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg6_25@9-10"/>
+            <ref xml:id="gom-Ireg6-Rd1e909"><name xml:id="gom-Ireg6-Nd1e910" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e914"><seg type="qs">Possunt per duo cherubim duo Testamenta figurari</seg>, etc., usque ad <seg type="qs">sed quia major sit festivitas internae beatitudinis de consortio adunatae fraternitatis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e923">
+          <head xml:id="gom-Ireg6-Hd1e925">Versus 27</head>
+          <p xml:id="gom-Ireg6-d1e927">
+            <quote xml:id="gom-Ireg6-Qd1e929" type="lemma" source="http://scta.info/resource/Ireg6_27@3-6">In medio templi interioris.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e932"><name xml:id="gom-Ireg6-Nd1e933" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e937"><seg type="qs">Manifestum est ex praedictis</seg>, etc., usque ad <seg type="qs">eam dilectionis gratiam qua se alterutrum complectuntur, exprimit.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e945">
+            <quote xml:id="gom-Ireg6-Qd1e947" type="lemma" source="http://scta.info/resource/Ireg6_27@7-9">Extendebant autem alas,</quote>
+            etc.
+            <ref xml:id="gom-Ireg6-Rd1e950"><name xml:id="gom-Ireg6-Nd1e951" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e955"><seg type="qs">Extendunt autem cherubim ad utrumque parietem oraculi alas</seg>, etc., usque ad <seg type="qs">scriptores eorum jam regnantes cum Domino ipsumque laudantes curam <pb ed="#P" n="0590D"/> gerunt salutis, interpellantes pro nobis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e967">
+          <head xml:id="gom-Ireg6-Hd1e969">Versus 28</head>
+          <p xml:id="gom-Ireg6-d1e971">
+            <quote xml:id="gom-Ireg6-Qd1e973" type="lemma" source="http://scta.info/resource/Ireg6_28@1-3">Texit quoque cherubim.</quote>
+            Circumdati sunt auro, quia praeclaris scriptorum suorum operibus confirmata est auctoritas testamentorum, manifestata autem per orbem cognitio est divinarum Scripturarum, vel interna gloria coelestium agminum. Utrumque enim cherubim et angelos, scilicet et testamenta significat.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e978">
+          <head xml:id="gom-Ireg6-Hd1e980">Versus 29</head>
+          <p xml:id="gom-Ireg6-d1e982">
+            <quote xml:id="gom-Ireg6-Qd1e984" type="lemma" source="http://scta.info/resource/Ireg6_29@7-9">Sculpsit variis coelaturis.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e987"><name xml:id="gom-Ireg6-Nd1e988" ref="#Bede">BEDA</name>, ibid., cap. 14.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e992"><seg type="qs">Sculpuntur parietes torno</seg>, etc., usque ad <seg type="qs">longo usu virtutum exercitata didicit.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e1000">
+            <quote xml:id="gom-Ireg6-Qd1e1002" type="lemma" source="http://scta.info/resource/Ireg6_29@17-18">Et palmas.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e1005"><name xml:id="gom-Ireg6-Nd1e1006" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e1010">Palmas facit, cum memoriam aeternae remunerationis sanctorum mentibus infigit, ut <pb ed="#P" n="0591A"/> eo minus ab arcae justitiae cadant, quo mercedem justitiae semper ante oculos habent.</quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e1016">
+            <quote xml:id="gom-Ireg6-Qd1e1018" type="lemma" source="http://scta.info/resource/Ireg6_29@19-21">Et picturas varias.</quote>
+            Facit picturas varias quasi prominentes de pariete et egredientes, cum omnes multifarias virtutum operationes fidelibus tribuit, viscera scilicet misericordiae, benignitatem, humilitatem, patientiam, modestiam, etc., <quote xml:id="gom-Ireg6-Qd1e1021" source="http://scta.info/resource/col3_14@1-9">super omnia autem charitatem, quae est vinculum perfectionis</quote>. Hae virtutes, cum in tantam electis consuetudinem venerint, ut naturaliter insitae videantur, quid aliud quam quia ut picturae domus Domini prominentes de pariete exeunt? Quia verba et opera veritatis non adhuc ab aliis extrinsecus discunt, sed sibimet infixa radicitus parata semper ab intimis cordis, quae sunt agenda vel docenda proferunt. Diximus autem <pb ed="#P" n="0591B"/> quod pavimenti aequalitas, humilem concordiam fraternitatis significat: ubi cum sint Judaei vel gentes, barbari et Scythae, liberi et servi, nobiles et ignobiles: cuncti se in Christo esse fratres, et eumdem patrem habere in coelis gloriantur. Concordissima enim humilitas supernorum civium nulli dubia est. Texit ergo Salomon pavimentum domus auro in oraculo intrinsecus, et in templo extrinsecus: quia Christus angelos et animas justorum in coelis, plenario dono perfectionis implevit, et peregrinantes in saeculo cives patriae coelestis, signaculo dilectionis aeterno, a mortalium vilitate secrevit. Unde: <quote xml:id="gom-Ireg6-Qd1e1026" source="http://scta.info/resource/io13_35@1-13">In hoc cognoscent omnes, quia discipuli mei estis, si dilectionem habueritis ad invicem</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1031">
+          <head xml:id="gom-Ireg6-Hd1e1033">Versus 31</head>
+          <p xml:id="gom-Ireg6-d1e1035">
+            <quote xml:id="gom-Ireg6-Qd1e1037" type="lemma" source="http://scta.info/resource/Ireg6_31@1-4">Et in ingressu oraculi,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-Ireg6-d1e1041">
+            <quote xml:id="gom-Ireg6-Qd1e1043" type="lemma" source="http://scta.info/resource/Ireg6_31">(BEDA, <pb ed="#P" n="0591C"/> ibid., cap. 15.)</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-Ireg6-Qd1e1050"><seg type="qs">Unus erat ingressus, sed duobus ostiis claudebatur</seg>, etc., usque ad <seg type="qs">imo omnes electi per arma lucis et pietatis aditum sibi patriae coelestis aperiunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1059">
+          <head xml:id="gom-Ireg6-Hd1e1061">Versus 32</head>
+          <p xml:id="gom-Ireg6-d1e1063">
+            <quote xml:id="gom-Ireg6-Qd1e1065" type="lemma" source="http://scta.info/resource/Ireg6_32@2-6">Duo ostiola de ligno olivarum.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e1068"><name xml:id="gom-Ireg6-Nd1e1069" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e1073">Duo sunt ostiola, quia Deum et proximum diligunt angeli et homines sancti, neque januam vitae nisi per geminam dilectionem possunt intrare. Vel quia utriusque populi fidelibus, Judaeis, scilicet, et gentibus eadem vitae janua reseratur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1077">
+          <head xml:id="gom-Ireg6-Hd1e1079">Versus 31</head>
+          <p xml:id="gom-Ireg6-d1e1081">
+            <quote xml:id="gom-Ireg6-Qd1e1083" type="lemma" source="http://scta.info/resource/Ireg6_31@10-11">Postesque angulorum.</quote>
+            Postes habent angulorum quinque, quia non solum animas electorum aula coelestis recipit, sed et corporibus immortali gloria praeditis in judicio fores aperit, quinque enim sunt corporis sensus. Vel uterque postis oraculi altus est <pb ed="#P" n="0591D"/> quinque cubitorum, quia solis illis supernae patriae introitus panditur, qui omnibus corporis et cordis sensibus Domino serviunt: corporis scilicet cum per eos aliquid pro illa agunt; cordis vero, cum sobrie, et juste, et pie cogitant de eis per ipsos corporis sensus agere decernunt.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1090">
+          <head xml:id="gom-Ireg6-Hd1e1092">Versus 32</head>
+          <p xml:id="gom-Ireg6-d1e1094">
+            <quote xml:id="gom-Ireg6-Qd1e1096" type="lemma" source="http://scta.info/resource/Ireg6_32@17-17">Anaglypha.</quote>
+            Posset dici sculptura facta in junctura tabularum, sed large accipitur.
+          </p>
+          <p xml:id="gom-Ireg6-d1e1100">
+            <ref xml:id="gom-Ireg6-Rd1e1102" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg6_32@17-17"/>
+            <ref xml:id="gom-Ireg6-Rd1e1104"><name xml:id="gom-Ireg6-Nd1e1105" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e1109"><seg type="qs"><foreign xml:lang="greek">Ἀνάγλυφα</foreign> anaglypha Graece, Latine dicuntur caelaturae</seg>, etc., usque ad <seg type="qs">horum intuitu continuo vestigia nostra regimus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1121">
+          <head xml:id="gom-Ireg6-Hd1e1123">Versus 33</head>
+          <p xml:id="gom-Ireg6-d1e1125">
+            <quote xml:id="gom-Ireg6-Qd1e1127" type="lemma" source="http://scta.info/resource/Ireg6_33@1-3">Fecitque in introitu.</quote>
+            Sicut ingressus oraculi quo ad arcam Domini cherubimque pervenitur, introitum coeli significat, quo ad visionem Dei <pb ed="#P" n="0592A"/> supernorumque civium nos introduci desideramus: ita introitus in templum, primordia nostrae conversionis ad Deum, quando in praesentem Ecclesiam intramus. Iste ingressum nostrum ad fidem, ille designat ad spem. Unde postes hujus introitus quadrangulati sunt propter quatuor Evangelii libros, quorum doctrina in fide veritatis erudimur.
+          </p>
+          <p xml:id="gom-Ireg6-d1e1133">
+            <quote xml:id="gom-Ireg6-Qd1e1135" type="lemma" source="http://scta.info/resource/Ireg6_33@5-7">Postes de lignis.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e1138"><name xml:id="gom-Ireg6-Nd1e1139" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e1143"><seg type="qs">Quadrangulos propter quatuor scilicet principales virtutes</seg>, etc., usque ad <seg type="qs">quarta post prudentiam, fortitudinem et temperantiam, justitia sequitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1152">
+          <head xml:id="gom-Ireg6-Hd1e1154">Versus 34</head>
+          <p xml:id="gom-Ireg6-d1e1156">
+            <quote xml:id="gom-Ireg6-Qd1e1158" type="lemma" source="http://scta.info/resource/Ireg6_34@7-7">Altrinsecus.</quote>
+            Quia ad invicem respiciunt, ut una sine altera haberi non possit. Exterius ostium dilectio fraterna, interius divina: quia illa prior tempore, haec sublimior dignitate: et per <pb ed="#P" n="0592B"/> illam ad hanc intratur: quia in amore proximi discitur, qualiter conditor debeat amari.
+          </p>
+          <p xml:id="gom-Ireg6-d1e1164">
+            <quote xml:id="gom-Ireg6-Qd1e1166" type="lemma" source="http://scta.info/resource/Ireg6_34@8-10">Et utrumque ostium.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e1169"><name xml:id="gom-Ireg6-Nd1e1170" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e1174"><seg type="qs">Quia in utraque dilectione duo sunt principaliter observanda</seg>, etc., usque ad <seg type="qs">quia exstinctis peccatis omnibus ad littus et soliditatem virtutum transeamus.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e1182">
+            <ref xml:id="gom-Ireg6-Rd1e1184" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg6_34@8-10"/>
+            <ref xml:id="gom-Ireg6-Rd1e1186"><name xml:id="gom-Ireg6-Nd1e1187" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e1191"><seg type="qs">Notandum quod in egressu oraculi duo dicuntur fuisse ostia</seg>, etc., usque ad <seg type="qs">aliud mysterii dispensationem praefigurans.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e1199">
+            <quote xml:id="gom-Ireg6-Qd1e1201" type="lemma" source="http://scta.info/resource/Ireg6_34@13-15">Et se invicem.</quote>
+            Vel ostium quod se invicem tenebat aperitur, cum per ministerium praedicatoris discernitur quid proprie ad cognitionem fidei, quid ad vivendi castitatem pertineat, quae utraque nequeunt separari, et quod parum sit, proximorum mala tolerare, et eis bona non commodare, cum haec certissime <pb ed="#P" n="0592C"/> soleant in corde perfectorum indissolubiliter permanere.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1208">
+          <head xml:id="gom-Ireg6-Hd1e1210">Versus 35</head>
+          <p xml:id="gom-Ireg6-d1e1212">
+            <quote xml:id="gom-Ireg6-Qd1e1214" type="lemma" source="http://scta.info/resource/Ireg6_35@1-3">Et sculpsit cherubim.</quote>
+            Haec supra exposita sunt, quia in parietibus domus, et in ostiis interioribus eaedem picturae vel caelaturae factae sunt; quia eadem arcana fidei, spei, et charitatis, quae sublimes et perfecti sublimiter capiunt, et quae omnes electi plene in aeterna visione percipiunt, etiam catechizandis rudibus pro suo cuique captu discenda et confitenda traduntur, ut sacris initiati mysteriis, quandoque ad capienda ea quae pie crediderunt, proveniant.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1219">
+          <head xml:id="gom-Ireg6-Hd1e1221">Versus 36</head>
+          <p xml:id="gom-Ireg6-d1e1223">
+            <quote xml:id="gom-Ireg6-Qd1e1225" type="lemma" source="http://scta.info/resource/Ireg6_36@2-3">Aedificavit atrium.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e1228"><name xml:id="gom-Ireg6-Nd1e1229" ref="#Bede">BEDA</name> ubi supra, cap. 16.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e1233"><seg type="qs">De interiori atrio breviter loquitur</seg>, etc., usque ad <seg type="qs">unde sequitur: <quote xml:id="gom-Ireg6-Qd1e1239" source="http://scta.info/resource/Ireg6_36@2-6">Aedificavit atrium interius <pb ed="#P" n="0592D"/> tribus ordinibus<!-- check: Migne cites Icor2; text matches Ireg6_36 --></quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e1247">
+            <quote xml:id="gom-Ireg6-Qd1e1249" type="lemma" source="http://scta.info/resource/Ireg6_36@9-11">Et uno ordine.</quote>
+            Unus ordo lignorum cedri bona est operatio sine corruptione simulationis exhibita, sine cujus adjectione fides, spes, et charitas vera esse non potest. Ligna enim cedri propter odoris gratiam et imputribilem naturae potentiam, perseverantiam, et famam piae actionis designant. Usque ad hoc atrium universi conscendunt electi, qui fide, spe, charitate et opere, Deo placere appetunt, hoc alta meritorum gratia transcendunt perfecti, cum in tanto virtutum culmine proficiunt, ut dicere auditoribus possint: <quote xml:id="gom-Ireg6-Qd1e1252" source="http://scta.info/resource/Icor4_16@4-6">Imitatores mei estote sicut et ego Christi</quote>; et: <quote xml:id="gom-Ireg6-Qd1e1255" source="http://scta.info/resource/Icor6_3@1-7">Nescitis quoniam angelos judicabimus, quanto magis saecularia</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg6-Dd1e1260">
+          <head xml:id="gom-Ireg6-Hd1e1262">Versus 38</head>
+          <p xml:id="gom-Ireg6-d1e1264">
+            <pb ed="#P" n="0593A"/>
+            <quote xml:id="gom-Ireg6-Qd1e1268" type="lemma" source="http://scta.info/resource/Ireg6_38@7-9">Ipse est mensis.</quote>
+            <ref xml:id="gom-Ireg6-Rd1e1271"><name xml:id="gom-Ireg6-Nd1e1272" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-Ireg6-Qd1e1276"><seg type="qs">Quaeritur quomodo dicatur domus Domini in mense octavo perfecta in omni opere suo</seg>, etc., usque ad <seg type="qs">unde David Psalmum pro octava intitulavit, quem pro metu judicii cantavit, dicens: <quote xml:id="gom-Ireg6-Qd1e1282" source="http://scta.info/resource/ps37_2@1-13">Domine, ne in furore tuo arguas me, neque in ira tua corripias me Psal. VI)</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg6-d1e1287">
+            <quote xml:id="gom-Ireg6-Qd1e1289" type="lemma" source="http://scta.info/resource/Ireg6_38@22-23">Aedificavitque eam.</quote>
+            Quia Ecclesia toto hujus saeculi tempore, quod septem dierum circuitu peragitur, ex electis construitur animabus: et in fine saeculi suum incrementum ad finem perducit. Vel ob significationem gratiae spiritualis, per quam Ecclesia, solum ut sit Ecclesia, percipit: quia sine donis Spiritus, nemo fidelis effici, vel fidem servare, vel merito fidei ad coronam justitiae potest pervenire.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

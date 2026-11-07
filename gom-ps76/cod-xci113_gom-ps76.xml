@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 76</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 76</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0964D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps76">
+        <head xml:id="gom-ps76-Hd1e98">Psalmus 76</head>
+        <div xml:id="gom-ps76-Dd1e100">
+          <head xml:id="gom-ps76-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps76-d1e104">
+            <quote xml:id="gom-ps76-Qd1e106" type="lemma" source="http://scta.info/resource/ps76_1@1-4">In finem pro Idithum.</quote>
+            <ref xml:id="gom-ps76-Rd1e109"><name xml:id="gom-ps76-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e113">Congregatio loquitur transiliens, ut perveniat ad finem, qui est Christus. Docet igitur desideria et illecebras mundi calcare, nihil sibi praeponere, nisi ex quo sunt <pb ed="#P" n="0965A"/> omnia.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e119">
+            <ref xml:id="gom-ps76-Rd1e121" type="lemma" subtype="implied" target="http://scta.info/resource/ps76_1@1-4"/>
+            <ref xml:id="gom-ps76-Rd1e123"><name xml:id="gom-ps76-Nd1e124" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e127">Transcendens omnia, Deum quaerit et invenit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e131">
+          <head xml:id="gom-ps76-Hd1e133">Versus 2</head>
+          <p xml:id="gom-ps76-d1e135">
+            <quote xml:id="gom-ps76-Qd1e137" type="lemma" source="http://scta.info/resource/ps76_2@1-5">Voce mea ad Dominum clamavi.</quote>
+            <ref xml:id="gom-ps76-Rd1e140"><name xml:id="gom-ps76-Nd1e141" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e144">Intentione devotionis ad Dominum non aliud ab eo petens, quia Dominus, et quia Deus.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e147">
+            <quote xml:id="gom-ps76-Qd1e149" type="lemma" source="http://scta.info/resource/ps76_2@8-10">Vox mea ad eum.</quote>
+            Ad hoc est vox, propter quod editur, hoc addit, ne putetur propter aliud clamare ad Deum, quam propter ipsum, supra quem nihil est.
+          </p>
+          <p xml:id="gom-ps76-d1e153">
+            <ref xml:id="gom-ps76-Rd1e155" type="lemma" subtype="implied" target="http://scta.info/resource/ps76_2@8-10"/>
+            <ref xml:id="gom-ps76-Rd1e157"><name xml:id="gom-ps76-Nd1e158" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e161">Non dicit quid petat, quia non opus est dici ei, qui novit quod expedit.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e164">
+            <quote xml:id="gom-ps76-Qd1e166" type="lemma" source="http://scta.info/resource/ps76_2@12-13">Intendit mihi.</quote>
+            <ref xml:id="gom-ps76-Rd1e169"><name xml:id="gom-ps76-Nd1e170" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e173"><quote xml:id="gom-ps76-Qd1e174">Intendere Dei</quote> est dare totum quod petitur, et plusquam petatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e179">
+          <head xml:id="gom-ps76-Hd1e181">Versus 3</head>
+          <p xml:id="gom-ps76-d1e183">
+            <quote xml:id="gom-ps76-Qd1e185" type="lemma" source="http://scta.info/resource/ps76_3@1-6">In die tribulationis exquisivi.</quote>
+            <ref xml:id="gom-ps76-Rd1e188"><name xml:id="gom-ps76-Nd1e189" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e192"><seg type="qs">Quomodo exquisisti?</seg> etc., usque ad <seg type="qs">qui non facit justitiam coram hominibus, ut videatur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps76-d1e200">
+            <quote xml:id="gom-ps76-Qd1e202" type="lemma" source="http://scta.info/resource/ps76_3@17-18">Renuit consolari.</quote>
+            <ref xml:id="gom-ps76-Rd1e205"><name xml:id="gom-ps76-Nd1e206" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e209"><seg type="qs">Exponit tribulationem</seg>, etc., usque ad <seg type="qs"><pb ed="#P" n="0965B"/> qui in omnibus hominibus scandalum vel invenit, vel timet, in nullo securus est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e219">
+          <head xml:id="gom-ps76-Hd1e221">Versus 4</head>
+          <p xml:id="gom-ps76-d1e223">
+            <quote xml:id="gom-ps76-Qd1e225" type="lemma" source="http://scta.info/resource/ps76_4@7-9">Et exercitatus sum.</quote>
+            <ref xml:id="gom-ps76-Rd1e228"><name xml:id="gom-ps76-Nd1e229" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e232">Vel, <mentioned>garrivi</mentioned>, id est, exsultavi, loquendo ut garrulus, qui, prae laetitia, nec vellet nec posset tacere: et rursus in garriendo defecit spiritus, qui prius contabuerat taedio malorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e240">
+          <head xml:id="gom-ps76-Hd1e242">Versus 5</head>
+          <p xml:id="gom-ps76-d1e244">
+            <quote xml:id="gom-ps76-Qd1e246" type="lemma" source="http://scta.info/resource/ps76_5@1-2">Anticipaverunt vigilias.</quote>
+            <ref xml:id="gom-ps76-Rd1e249"><name xml:id="gom-ps76-Nd1e250" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e253">Diapsalma. Invento Deo, qui solus bonus est, deliberat an sit eum reducturus?</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e256">
+            <ref xml:id="gom-ps76-Rd1e258" type="lemma" subtype="implied" target="http://scta.info/resource/ps76_5@1-2"/>
+            <ref xml:id="gom-ps76-Rd1e260"><name xml:id="gom-ps76-Nd1e261" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e264">Anticipaverunt vigilias aliorum.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e267">
+            <quote xml:id="gom-ps76-Qd1e269" type="lemma" source="http://scta.info/resource/ps76_5@3-4">Oculi mei,</quote>
+            ut ille, qui ante tempus surgit ad negotium. Vel, <quote xml:id="gom-ps76-Qd1e272" source="http://scta.info/resource/ps76_5@3-4">oculi mei,</quote> affectiones meae.
+          </p>
+          <p xml:id="gom-ps76-d1e276">
+            <quote xml:id="gom-ps76-Qd1e278" type="lemma" source="http://scta.info/resource/ps76_5@1-1">Anticipaverunt,</quote>
+            sedulitatem aliorum. Vel, per <quote xml:id="gom-ps76-Qd1e281" source="http://scta.info/resource/ps76_5@2-2">vigilias,</quote> nocturnos significat, quos facimus, et usualiter sic vocamus in laudibus Dei, et ideo: <quote xml:id="gom-ps76-Qd1e284" source="http://scta.info/resource/ps76_5@6-6">Turbatus.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e289">
+            <ref xml:id="gom-ps76-Rd1e291" type="lemma" subtype="implied" target="http://scta.info/resource/ps76_5@1-1"/>
+            <ref xml:id="gom-ps76-Rd1e293"><name xml:id="gom-ps76-Nd1e294" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e297"><pb ed="#P" n="0965C"/> Quia consequi non potui quod quaero.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e302">
+            <quote xml:id="gom-ps76-Qd1e304" type="lemma" source="http://scta.info/resource/ps76_5@9-11">Non sum locutus.</quote>
+            Non murmuravi contra Deum. Vel, <quote xml:id="gom-ps76-Qd1e307" source="http://scta.info/resource/ps76_5@6-7">turbatus sum,</quote> quia dum nocte secreta animi perquirit, videt humanum genus in peccata ruere: et pio dolore pro aliis cruciatur, qui jam vitia transilivit.
+          </p>
+          <p xml:id="gom-ps76-d1e311">
+            <quote xml:id="gom-ps76-Qd1e313" type="lemma" source="http://scta.info/resource/ps76_5">Tacet,</quote>
+            <!-- check: lemma not matched to verse text -->
+            quia nocte non habet solatium humani colloquii, quo tempore cautius cogitat; ideo subdit: <quote xml:id="gom-ps76-Qd1e318" source="http://scta.info/resource/ps76_6@1-2">Cogitavi dies,</quote> etc.
+          </p>
+          <p xml:id="gom-ps76-d1e322">
+            <quote xml:id="gom-ps76-Qd1e324" type="lemma" source="http://scta.info/resource/ps76_5@3-4">Oculi mei.</quote>
+            Alias <quote xml:id="gom-ps76-Qd1e327">inimici mei anticipaverunt vigilias.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e330">
+            <ref xml:id="gom-ps76-Rd1e332" type="lemma" subtype="implied" target="http://scta.info/resource/ps76_5@3-4"/>
+            <ref xml:id="gom-ps76-Rd1e334"><name xml:id="gom-ps76-Nd1e335" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e338"><seg type="qs">Id est, vigilaverunt super me</seg>, etc., usque ad <seg type="qs">non tamen cessat, vult et hoc transcendere, unde subdit:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e347">
+          <head xml:id="gom-ps76-Hd1e349">Versus 6</head>
+          <p xml:id="gom-ps76-d1e351">
+            <quote xml:id="gom-ps76-Qd1e353" type="lemma" source="http://scta.info/resource/ps76_6@1-3">Cogitavi dies antiquos,</quote>
+            etc. Ideo turbatus: quia <quote xml:id="gom-ps76-Qd1e356" source="http://scta.info/resource/ps76_6@1-3">cogitavi dies antiquos Adae,</quote> in quibus corruit homo. Sed contra <quote xml:id="gom-ps76-Qd1e359" source="http://scta.info/resource/ps76_6@2-5">dies antiquos, annos</quote> ponit <quote xml:id="gom-ps76-Qd1e362" source="http://scta.info/resource/ps76_6@6-6">aeternos:</quote> ideo <quote xml:id="gom-ps76-Qd1e365" source="http://scta.info/resource/ps76_5@6-6">turbatus,</quote> quia hos desiderat homo, aeternos <pb ed="#P" n="0965D"/> negligit.
+          </p>
+          <p xml:id="gom-ps76-d1e372">
+            <quote xml:id="gom-ps76-Qd1e374" type="lemma" source="http://scta.info/resource/ps76_6@2-9">Dies antiquos, et annos aeternos in mente habui.</quote>
+            <ref xml:id="gom-ps76-Rd1e377"><name xml:id="gom-ps76-Nd1e378" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e381">Quid contigit Adae pro inobedientia? Ex illo cognovi hunc hominis defectum esse. Et annos aeternos, quos persistens haberet, in mente habui, quod non stulti.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e385">
+          <head xml:id="gom-ps76-Hd1e387">Versus 7</head>
+          <p xml:id="gom-ps76-d1e389">
+            <quote xml:id="gom-ps76-Qd1e391" type="lemma" source="http://scta.info/resource/ps76_7@1-4">Et etiam meditatus sum nocte,</quote>
+            id est, in hoc defectu.
+          </p>
+          <p xml:id="gom-ps76-d1e395">
+            <quote xml:id="gom-ps76-Qd1e397" type="lemma" source="http://scta.info/resource/ps76_7@5-6">Cum corde,</quote>
+            id est, cum ratione, si quomodo possem redire ad annos aeternos. Cum ratione tacitus loquitur, qui in ea quietus exercetur.
+          </p>
+          <p xml:id="gom-ps76-d1e401">
+            <quote xml:id="gom-ps76-Qd1e403" type="lemma" source="http://scta.info/resource/ps76_7@8-9">Et exercitabar.</quote>
+            In ipsa meditatione: <quote xml:id="gom-ps76-Qd1e406" source="http://scta.info/resource/ps76_7@11-13">Scopebam spiritum meum;</quote> purgabam mentem. Alii <quote xml:id="gom-ps76-Qd1e409" source="http://scta.info/resource/ps76_7@12-13">ventilabam spiritum meum,</quote> sic apud me tractans:
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e414">
+          <head xml:id="gom-ps76-Hd1e416">Versus 8</head>
+          <p xml:id="gom-ps76-d1e418">
+            <quote xml:id="gom-ps76-Qd1e420" type="lemma" source="http://scta.info/resource/ps76_8@1-4">Nunquid in aeternum projiciet,</quote>
+            genus humanum?
+          </p>
+          <p xml:id="gom-ps76-d1e424">
+            <quote xml:id="gom-ps76-Qd1e426" type="lemma" source="http://scta.info/resource/ps76_8@10-11">ut complacitior.</quote>
+            Quasi qui jam placitus <pb ed="#P" n="0966A"/> fuit sua gratia in Veteri Testamento, nonne addet ut plus sit in Novo per adventum Filii? hoc sentit, qui de pietate tractat.
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e433">
+          <head xml:id="gom-ps76-Hd1e435">Versus 7</head>
+          <p xml:id="gom-ps76-d1e437">
+            <quote xml:id="gom-ps76-Qd1e439" type="lemma" source="http://scta.info/resource/ps76_7@9-11">Exercitabar et scopebam.</quote>
+            <ref xml:id="gom-ps76-Rd1e442"><name xml:id="gom-ps76-Nd1e443" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e446"><seg type="qs">Vel, <quote xml:id="gom-ps76-Qd1e449">garriebam,</quote> non jam foris</seg>, etc., usque ad <seg type="qs">ubi hoc invenit, quod <quote xml:id="gom-ps76-Qd1e454" source="http://scta.info/resource/ps76_8@2-12">non in aeternum projiciet Deus. Ut complacitior sit,</quote> scilicet ut ipse, qui fuit iratus repellendo, mala inferendo, sit mansuetior liberando, revocando.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e460">
+          <head xml:id="gom-ps76-Hd1e462">Versus 10</head>
+          <p xml:id="gom-ps76-d1e464">
+            <quote xml:id="gom-ps76-Qd1e466" type="lemma" source="http://scta.info/resource/ps76_10@1-4">Aut obliviscetur misereri Deus.</quote>
+            <ref xml:id="gom-ps76-Rd1e469"><name xml:id="gom-ps76-Nd1e470" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e473">In alio modo, non est misericordia, nisi Deus eam donet: et ipse erit sine ea. Rivus currit, fons siccatus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e478">
+          <head xml:id="gom-ps76-Hd1e480">Versus 11</head>
+          <p xml:id="gom-ps76-d1e482">
+            <quote xml:id="gom-ps76-Qd1e484" type="lemma" source="http://scta.info/resource/ps76_11@1-5">Et dixi: Nunc coepi.</quote>
+            <ref xml:id="gom-ps76-Rd1e487"><name xml:id="gom-ps76-Nd1e488" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e491">Quid deliberando invenerit, scilicet quod Christus mutat homines, et redimit.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e494">
+            <ref xml:id="gom-ps76-Rd1e496"><name xml:id="gom-ps76-Nd1e497" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e500" type="lemma" source="http://scta.info/resource/ps76_11@1-2">Et dixi.</quote>
+            <quote xml:id="gom-ps76-Qd1e503"><seg type="qs">Huic meditationi, <pb ed="#P" n="0966B"/></seg> etc., usque ad <seg type="qs">cum et me transiliens ad Deum veni, hic nullum periculum.</seg></quote>
+          </p>
+          <p xml:id="gom-ps76-d1e512">
+            <quote xml:id="gom-ps76-Qd1e514" type="lemma" source="http://scta.info/resource/ps76_11@5-5">Caepi.</quote>
+            <ref xml:id="gom-ps76-Rd1e517"><name xml:id="gom-ps76-Nd1e518" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e521">Aliquid, ubi securus sum, ubi non anticipant inimici, modo coepit me mutare Excelsus.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e524">
+            <quote xml:id="gom-ps76-Qd1e526" type="lemma" source="http://scta.info/resource/ps76_11@8-9">Mutatio dexterae,</quote>
+            etc.
+            <ref xml:id="gom-ps76-Rd1e529"><name xml:id="gom-ps76-Nd1e530" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e533">Ab ira ad misericordiam, quod de servis filii.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e537">
+            <ref xml:id="gom-ps76-Rd1e539" type="lemma" subtype="implied" target="http://scta.info/resource/ps76_11@8-9"/>
+            <ref xml:id="gom-ps76-Rd1e541"><name xml:id="gom-ps76-Nd1e542" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e545"><seg type="qs">Hujus mutationis</seg>, etc., usque ad <seg type="qs">haec sunt quae sanctum mulcent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e554">
+          <head xml:id="gom-ps76-Hd1e556">Versus 13</head>
+          <p xml:id="gom-ps76-d1e558">
+            <quote xml:id="gom-ps76-Qd1e560" type="lemma" source="http://scta.info/resource/ps76_13@8-9">In adinventionibus.</quote>
+            <ref xml:id="gom-ps76-Rd1e563"><name xml:id="gom-ps76-Nd1e564" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e567">Id est, in praeceptis, quae invenisti, vel quibus inveniris.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e570">
+            <ref xml:id="gom-ps76-Rd1e572" type="lemma" subtype="implied" target="http://scta.info/resource/ps76_13@8-9"/>
+            <ref xml:id="gom-ps76-Rd1e574"><name xml:id="gom-ps76-Nd1e575" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e578">Vel <mentioned>observationibus</mentioned>, id est, praeceptis quae observanda sunt, exercebor: quia non satis est legere Scripturas, sed fructus operum demonstrare oportet: his eruditus in laudes prorumpit.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e584">
+            <ref xml:id="gom-ps76-Rd1e586"><name xml:id="gom-ps76-Nd1e587" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e590" type="lemma" source="http://scta.info/resource/ps76_13@8-9">In adinventionibus</quote>
+            <quote xml:id="gom-ps76-Qd1e593">vel <mentioned>affectionibus tuis</mentioned>, non in meis, vel in terrenis est affectio: ita in operibus et meditatione <pb ed="#P" n="0966C"/> Dei est interior quaedam affectio, cum inspicitur mundus, et in creaturis quaeritur creator, et invenitur nusquam displicens, sed undique placens.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e602">
+          <head xml:id="gom-ps76-Hd1e604">Versus 14</head>
+          <p xml:id="gom-ps76-d1e606">
+            <quote xml:id="gom-ps76-Qd1e608" type="lemma" source="http://scta.info/resource/ps76_14@1-3">Deus in sancto.</quote>
+            <ref xml:id="gom-ps76-Rd1e611"><name xml:id="gom-ps76-Nd1e612" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e615">Per praedicta certus sum quod veniam, et hoc duce.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e618">
+            <ref xml:id="gom-ps76-Rd1e620"><name xml:id="gom-ps76-Nd1e621" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e624" type="lemma" source="http://scta.info/resource/ps76_14@1-3">Deus in sancto,</quote>
+            <quote xml:id="gom-ps76-Qd1e627">id est, in Christo, via redeundi ad te. Et cum hoc sit, <quote xml:id="gom-ps76-Qd1e629" source="http://scta.info/resource/ps76_14@7-9">quis Deus magnus?</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e634">
+            <quote xml:id="gom-ps76-Qd1e636" type="lemma" source="http://scta.info/resource/ps76_14@4-5">Via tua.</quote>
+            <ref xml:id="gom-ps76-Rd1e639"><name xml:id="gom-ps76-Nd1e640" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e643">Colendi te et ad te veniendi, unde potentiam Dei laetus praefert simulacris, quae falso colebantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e647">
+          <head xml:id="gom-ps76-Hd1e649">Versus 15</head>
+          <p xml:id="gom-ps76-d1e651">
+            <quote xml:id="gom-ps76-Qd1e653" type="lemma" source="http://scta.info/resource/ps76_15@6-6">Mirabilia.</quote>
+            <ref xml:id="gom-ps76-Rd1e656"><name xml:id="gom-ps76-Nd1e657" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e660">Sanati sunt surdi, caeci, languidi, mortui, paralytici. Ista in corporibus facta sunt. In anima quidam sobrii sunt, qui paulo ante ebriosi, infideles, adoratores simulacrorum.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e663">
+            <quote xml:id="gom-ps76-Qd1e665" type="lemma" source="http://scta.info/resource/ps76_15@11-12">Populis virtutem.</quote>
+            <ref xml:id="gom-ps76-Rd1e668"><name xml:id="gom-ps76-Nd1e669" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e672"><quote xml:id="gom-ps76-Qd1e673">Infidelibus, ut</quote> cognoscant <pb ed="#P" n="0966D"/> Christum tantum corpore, <quote xml:id="gom-ps76-Qd1e677">fidelibus,</quote> re et Deitate; subdit: Quid praestiteris, <quote xml:id="gom-ps76-Qd1e679" source="http://scta.info/resource/ps76_16@1-1">redemisti.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e684">
+          <head xml:id="gom-ps76-Hd1e686">Versus 16</head>
+          <p xml:id="gom-ps76-d1e688">
+            <quote xml:id="gom-ps76-Qd1e690" type="lemma" source="http://scta.info/resource/ps76_16@7-10">Filios Joseph.</quote>
+            <ref xml:id="gom-ps76-Rd1e693"><name xml:id="gom-ps76-Nd1e694" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e697">Id est, Gentilem populum. Vel, per <quote xml:id="gom-ps76-Qd1e699" source="http://scta.info/resource/ps76_16@10-10">Joseph</quote> intelligitur Christus: quia, sicut Joseph venditus in Aegyptum regnavit, ita Christus in gentibus, prius humiliatus in martyribus.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e704">
+            <ref xml:id="gom-ps76-Rd1e706"><name xml:id="gom-ps76-Nd1e707" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e710" type="lemma" source="http://scta.info/resource/ps76_16@10-10">Joseph</quote>
+            <quote xml:id="gom-ps76-Qd1e713">qui pervenit ad gentes <mentioned>augmentum</mentioned> interpretatur: et significat gentes, de quibus augmentatus est populus Dei. Vel, <quote xml:id="gom-ps76-Qd1e717" source="http://scta.info/resource/ps76_16@10-10">Joseph,</quote> Christus a Judaeis venditus, et pulsus ad gentes, <quote xml:id="gom-ps76-Qd1e720">filii ejus,</quote> quos ex gentibus elegit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e725">
+          <head xml:id="gom-ps76-Hd1e727">Versus 17</head>
+          <p xml:id="gom-ps76-d1e729">
+            <quote xml:id="gom-ps76-Qd1e731" type="lemma" source="http://scta.info/resource/ps76_17@1-1">Viderunt.</quote>
+            <ref xml:id="gom-ps76-Rd1e734"><name xml:id="gom-ps76-Nd1e735" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e738">Diapsalma. Quae in mundo Christus operatur, exponit.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e741">
+            <ref xml:id="gom-ps76-Rd1e743" type="lemma" subtype="implied" target="http://scta.info/resource/ps76_17@1-1"/>
+            <ref xml:id="gom-ps76-Rd1e745"><name xml:id="gom-ps76-Nd1e746" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e749">Quasi diceret: Quoniam notam fecisti virtutem, vel per eum <pb ed="#P" n="0967A"/> <quote xml:id="gom-ps76-Qd1e753" source="http://scta.info/resource/ps76_17@1-4">viderunt te, o Deus Pater,</quote> vel, <quote xml:id="gom-ps76-Qd1e756">te, o Christe,</quote> qui es virtus et brachium, etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e762">
+          <head xml:id="gom-ps76-Hd1e764">Versus 18</head>
+          <p xml:id="gom-ps76-d1e766">
+            <quote xml:id="gom-ps76-Qd1e768" type="lemma" source="http://scta.info/resource/ps76_18@1-1">Multitudo.</quote>
+            <ref xml:id="gom-ps76-Rd1e771"><name xml:id="gom-ps76-Nd1e772" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e775">Non pauci, sed <quote xml:id="gom-ps76-Qd1e777" source="http://scta.info/resource/ps76_18@1-2">multitudo. Sonitus,</quote> in gemitu culparum, in actione gratiarum: quasi enim mare confragosum sonant diversa vota populorum.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e782">
+            <quote xml:id="gom-ps76-Qd1e784" type="lemma" source="http://scta.info/resource/ps76_18@2-3">Sonitus aquarum.</quote>
+            <ref xml:id="gom-ps76-Rd1e787"><name xml:id="gom-ps76-Nd1e788" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e791">Unde isti sonitus aquarum, turbatio abyssorum? quia <quote xml:id="gom-ps76-Qd1e793" source="http://scta.info/resource/ps76_18@5-7">vocem dederunt nubes,</quote> de quibus: <quote xml:id="gom-ps76-Qd1e796" source="http://scta.info/resource/is5_6@16-22">Mandabo nubibus meis ne pluant super eam imbrem.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e801">
+          <head xml:id="gom-ps76-Hd1e803">Versus 19</head>
+          <p xml:id="gom-ps76-d1e805">
+            <quote xml:id="gom-ps76-Qd1e807" type="lemma" source="http://scta.info/resource/ps76_19@1-2">Vox tonitrui.</quote>
+            <ref xml:id="gom-ps76-Rd1e810"><name xml:id="gom-ps76-Nd1e811" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e814">Tonitrui vox revolvitur, ut rugatus et sinuosus sonus sentiatur. Allegoria: <quote xml:id="gom-ps76-Qd1e816" source="http://scta.info/resource/ps76_19@4-5">in rota</quote> totius mundi.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e821">
+            <quote xml:id="gom-ps76-Qd1e823" type="lemma" source="http://scta.info/resource/ps76_19@5-5">Rota.</quote>
+            <ref xml:id="gom-ps76-Rd1e826"><name xml:id="gom-ps76-Nd1e827" ref="#Jerome">HIER.</name>, AUG.</ref>
+            <quote xml:id="gom-ps76-Qd1e831">Est quod exponit orbis terrae, quem circumierunt nubes tonando praeceptis, coruscando miraculis.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e834">
+            <quote xml:id="gom-ps76-Qd1e836" type="lemma" source="http://scta.info/resource/ps76_19@15-16">Contremuit terra.</quote>
+            <ref xml:id="gom-ps76-Rd1e839"><name xml:id="gom-ps76-Nd1e840" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e843">Qui habitant in terra. Ipsa <pb ed="#P" n="0967B"/> terra mare dicitur per similitudinem, quia humana vita amara, tempestatibus subdita, ubi major piscis minorem devorat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e850">
+          <head xml:id="gom-ps76-Hd1e852">Versus 20</head>
+          <p xml:id="gom-ps76-d1e854">
+            <quote xml:id="gom-ps76-Qd1e856" type="lemma" source="http://scta.info/resource/ps76_20@1-2">In mari.</quote>
+            <ref xml:id="gom-ps76-Rd1e859"><name xml:id="gom-ps76-Nd1e860" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e863">Ad litteram, dum Christus super aquas ambulavit. Vel, in cordibus hominum, quos sibi subdit. Vel, per <quote xml:id="gom-ps76-Qd1e865" source="http://scta.info/resource/ps76_19@16-16">terram,</quote> Judaei; per <quote xml:id="gom-ps76-Qd1e868">mare,</quote> gentes accipiuntur.</quote>
+          </p>
+          <p xml:id="gom-ps76-d1e872">
+            <quote xml:id="gom-ps76-Qd1e874" type="lemma" source="http://scta.info/resource/ps76_20@11-15">Et vestigia tua non cognoscentur.</quote>
+            Increpatio tacita Judaeorum; quasi dicat: Licet palam venerit, et se miraculis ostenderit: non est cognitus a Judaeis infidelibus quos deduxit in manu Moysi et Aaron, id est, operatione miraculorum quae fecerunt.
+          </p>
+          <p xml:id="gom-ps76-d1e878">
+            <quote xml:id="gom-ps76-Qd1e880" type="lemma" source="http://scta.info/resource/ps76_20@12-13">Vestigia tua,</quote>
+            etc. Tetigit aliquos, id est, Judaeos, qui dicunt, Nondum venit Christus, non vident super mare ambulantem.
+          </p>
+        </div>
+        <div xml:id="gom-ps76-Dd1e885">
+          <head xml:id="gom-ps76-Hd1e887">Versus 21</head>
+          <p xml:id="gom-ps76-d1e889">
+            <quote xml:id="gom-ps76-Qd1e891" type="lemma" source="http://scta.info/resource/ps76_21@2-3">Sicut oves.</quote>
+            Quia non vere oves, sed <pb ed="#P" n="0967C"/> haedi.
+          </p>
+          <p xml:id="gom-ps76-d1e897">
+            <quote xml:id="gom-ps76-Qd1e899" type="lemma" source="http://scta.info/resource/ps76_21@8-10">Moysi et Aaron.</quote>
+            <ref xml:id="gom-ps76-Rd1e902"><name xml:id="gom-ps76-Nd1e903" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps76-Qd1e906">Moyses intrepretatur <quote xml:id="gom-ps76-Qd1e908">assumptus de flumine;</quote> Aaron, <quote xml:id="gom-ps76-Qd1e910">mons fortitudinis:</quote> his nominibus, virtutes quas fecerunt exprimuntur. Moyses inter caetera in mari viam fecit, signans per baptismum populum liberari. Aaron Ecclesiae tenebat imaginem, quae monti fortissimo comparatur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

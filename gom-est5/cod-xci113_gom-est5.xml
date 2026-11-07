@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Esther, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Esther, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0744B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-est5">
+        <head xml:id="gom-est5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-est5-Dd1e100">
+          <head xml:id="gom-est5-Hd1e102">Versus 2</head>
+          <p xml:id="gom-est5-d1e104">
+            <quote xml:id="gom-est5-Qd1e106" type="lemma" source="http://scta.info/resource/est5_2@13-14">Virgam auream.</quote>
+            Regiminis potentiam vel passionis crucem, per quam acquisivit <pb ed="#P" n="0744C"/> potestatem, de qua dicitur: <quote xml:id="gom-est5-Qd1e111" source="http://scta.info/resource/mt28_18@8-17">Data est mihi omnis potestas in coelo et in terra .</quote> Et alibi: <quote xml:id="gom-est5-Qd1e114" source="http://scta.info/resource/phil2_9@1-13">Propter quod exaltavit illum, et dedit illi nomen quod est super omne nomen .</quote>
+          </p>
+        </div>
+        <div xml:id="gom-est5-Dd1e119">
+          <head xml:id="gom-est5-Hd1e121">Versus 8</head>
+          <p xml:id="gom-est5-d1e123">
+            <quote xml:id="gom-est5-Qd1e125" type="lemma" source="http://scta.info/resource/est5_8@1-5">Si inveni in conspectu.</quote>
+            Dilatio petendi non deputatur segnitiei, sed patientiae. Non enim in praesenti sed in futuro bonis et malis retribuetur merces: cras enim pro futuro ponitur, unde: <quote xml:id="gom-est5-Qd1e128" source="http://scta.info/resource/lc12_11@12-14">Nolite solliciti esse de crastino;</quote> et Jacob in Genesi ait: <quote xml:id="gom-est5-Qd1e131" source="http://scta.info/resource/gen30_33@2-5">Apparebit mihi cras justitia mea .<!-- check: Migne cites mt6; text matches gen30_33 --></quote> Et de agno dicitur: <quote xml:id="gom-est5-Qd1e135" source="http://scta.info/resource/ex12_10@2-7">Non remanebit ex eo quidquam usque mane .<!-- check: Migne cites gen30; text matches ex12_10 --></quote> Cum judicium venerit, revelabitur quali veste quisquam ad convivium intraverit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

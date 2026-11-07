@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 42</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 42</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0171D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen42">
+        <head xml:id="gom-gen42-Hd1e98">Caput 42</head>
+        <div xml:id="gom-gen42-Dd1e100">
+          <head xml:id="gom-gen42-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen42-d1e104">
+            <pb ed="#P" n="0171D"/>
+            <quote xml:id="gom-gen42-Qd1e108" type="lemma" source="http://scta.info/resource/gen42_1@1-8">Audiens autem Jacob quod alimenta venderentur in Aegypto,</quote>
+            etc.
+            <ref xml:id="gom-gen42-Rd1e111"><name xml:id="gom-gen42-Nd1e112" ref="#IsidoreOfSeville">ISID.</name> in Gen., tom. V.</ref>
+            <quote xml:id="gom-gen42-Qd1e116">Est frumentum in Aegypto: dicit et Deus Pater, Osee XI: <quote xml:id="gom-gen42-Qd1e118" source="http://scta.info/resource/os11_1@14-18">Ex Aegypto vocavi Filium meum.</quote> Descendunt decem provectiores, id est Judaei, sub decalogo constituti; quos ipse cognoscens, non est agnitus ab eis; cognoscuntur Hebraei a Christo, et ipsi non agnoscunt eum; dederunt illi pecuniam; sed Joseph, id est Christus, triticum dedit, et argentum reddidit, quia non pecunia emitur Christus, sed gratia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen42-Dd1e124">
+          <head xml:id="gom-gen42-Hd1e126">Versus 16</head>
+          <p xml:id="gom-gen42-d1e128">
+            <quote xml:id="gom-gen42-Qd1e130" type="lemma" source="http://scta.info/resource/gen42_16@22-27">Mititte ex vobis unum . . . . . alioquin per salutem Pharaonis exploratores estis.</quote>
+            <quote xml:id="gom-gen42-Qd1e133"><seg type="qs"><pb ed="#P" n="0172A"/> <ref xml:id="gom-gen42-Rd1e137"><name xml:id="gom-gen42-Nd1e138" ref="#Augustine">AUG.</name> Quaest. in Gen.</ref><!-- check: attribution inside gloss body --> Quid est quod Joseph, vir sapiens</seg>, etc., usque ad <seg type="qs">erit Deus, non enim erit, sed habebitur</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen42-Dd1e149">
+          <head xml:id="gom-gen42-Hd1e151">Versus 23</head>
+          <p xml:id="gom-gen42-d1e153">
+            <quote xml:id="gom-gen42-Qd1e155" type="lemma" source="http://scta.info/resource/gen42_23@1-2">Nesciebant autem,</quote>
+            etc.
+            <ref xml:id="gom-gen42-Rd1e158"><name xml:id="gom-gen42-Nd1e159" ref="#Augustine">Aug.</name>, ibid.</ref>
+            <quote xml:id="gom-gen42-Qd1e163"><seg type="qs">Quid est quod cum inter se poenitentes loquerentur de Joseph</seg>, etc., usque ad <seg type="qs">sicut ipsum in exteras provincias vendiderant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen42-Dd1e172">
+          <head xml:id="gom-gen42-Hd1e174">Versus 27</head>
+          <p xml:id="gom-gen42-d1e176">
+            <quote xml:id="gom-gen42-Qd1e178" type="lemma" source="http://scta.info/resource/gen42_27@1-1">Apertoque,</quote>
+            etc. Fratres Joseph dant argentum, quia Judaei conversi dimittunt litteram occidentem, et accipiunt spiritum vivificantem: reperitur tamen argentum in ore saccorum, quia propter fructum spiritualis intelligentiae non deseritur nitor eloquentiae.
+          </p>
+        </div>
+        <div xml:id="gom-gen42-Dd1e184">
+          <head xml:id="gom-gen42-Hd1e186">Versus 35</head>
+          <p xml:id="gom-gen42-d1e188">
+            <quote xml:id="gom-gen42-Qd1e190" type="lemma" source="http://scta.info/resource/gen42_35@6-7">Singuli repererunt,</quote>
+            etc. Fratres Joseph dederunt pecuniam in emptione frumenti, <pb ed="#P" n="0172B"/> sed eam accepto frumento receperunt, quia noster Joseph non quaerit nostra, sed nos. Gratis enim dat sua munera, et in nostra emptione nos ditiores facit.
+          </p>
+        </div>
+        <div xml:id="gom-gen42-Dd1e197">
+          <head xml:id="gom-gen42-Hd1e199">Versus 37</head>
+          <p xml:id="gom-gen42-d1e201">
+            <quote xml:id="gom-gen42-Qd1e203" type="lemma" source="http://scta.info/resource/gen42_37@1-3">Cui respondit Ruben,</quote>
+            etc.
+            <ref xml:id="gom-gen42-Rd1e206"><name xml:id="gom-gen42-Nd1e207">STRAB.</name></ref>
+            <quote xml:id="gom-gen42-Qd1e209">Ruben ait: <quote xml:id="gom-gen42-Qd1e211" source="http://scta.info/resource/gen42_37@4-12">Duos filios meos interfice, si non reduxero illum tibi,</quote> etc., nec tamen obtinuit. At Judas dicens: <quote xml:id="gom-gen42-Qd1e214" source="http://scta.info/resource/gen44_32@18-24">Reus ero peccati in patrem omni tempore,</quote> impetravit, quia ei commissus est Benjamin. Plus est ergo reum esse peccati, quam corporaliter occidi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen42-Dd1e220">
+          <head xml:id="gom-gen42-Hd1e222">Versus 38</head>
+          <p xml:id="gom-gen42-d1e224">
+            <quote xml:id="gom-gen42-Qd1e226" type="lemma" source="http://scta.info/resource/gen42_38@26-28">Deducetis canos meos,</quote>
+            etc.
+            <ref xml:id="gom-gen42-Rd1e229"><name xml:id="gom-gen42-Nd1e230" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen42-Qd1e233">Quaeritur utrum ideo ad infernum, quia cum tristitia, an etiam si abesset tristitia, tanquam ad infernum moriendo descensurus haec loquatur? De inferno <pb ed="#P" n="0172C"/> enim magna quaestio est, et quid inde Scriptura sentiat, ubicunque hoc memoratum fuerit, observandum est.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

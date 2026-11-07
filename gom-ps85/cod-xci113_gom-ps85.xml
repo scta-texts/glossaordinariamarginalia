@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 85</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 85</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0988A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps85">
+        <head xml:id="gom-ps85-Hd1e98">Psalmus 85</head>
+        <div xml:id="gom-ps85-Dd1e100">
+          <head xml:id="gom-ps85-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps85-d1e104">
+            <quote xml:id="gom-ps85-Qd1e106" type="lemma" source="http://scta.info/resource/ps85_1@1-3">Oratio David.</quote>
+            <ref xml:id="gom-ps85-Rd1e109"><name xml:id="gom-ps85-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e113">Psalmus iste, secundus eorum est qui orationis nomine intitulantur, in quo Christus Dei Filius et hominis, unus Deus cum Patre, <pb ed="#P" n="0988B"/> unus homo cum hominibus, orat in forma servi, qui oratur a nobis in forma Dei. Orat pro nobis ut sacerdos noster; orat in nobis ut caput nostrum, oratur a nobis ut Deus noster.</quote>
+          </p>
+          <p xml:id="gom-ps85-d1e119">
+            <ref xml:id="gom-ps85-Rd1e121" type="lemma" subtype="implied" target="http://scta.info/resource/ps85_1@1-3"/>
+            <ref xml:id="gom-ps85-Rd1e123"><name xml:id="gom-ps85-Nd1e124" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e127"><seg type="qs">Christi oratio fidelium</seg>, etc., usque ad <seg type="qs">comprimeret audaciam stultae et inconsultae temeritatis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps85-d1e135">
+            <ref xml:id="gom-ps85-Rd1e137" type="lemma" subtype="implied" target="http://scta.info/resource/ps85_1@1-3"/>
+            <ref xml:id="gom-ps85-Rd1e139"><name xml:id="gom-ps85-Nd1e140" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e143">Haec dicit Christus in nobis, et nos in illo.</quote>
+          </p>
+          <p xml:id="gom-ps85-d1e146">
+            <ref xml:id="gom-ps85-Rd1e148" type="lemma" subtype="implied" target="http://scta.info/resource/ps85_1@1-3"/>
+            <ref xml:id="gom-ps85-Rd1e150"><name xml:id="gom-ps85-Nd1e151" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e154">Orat ascendendo, unde concludit: Omnes gentes adorantes.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e158">
+          <head xml:id="gom-ps85-Hd1e160">Versus 2</head>
+          <p xml:id="gom-ps85-d1e162">
+            <quote xml:id="gom-ps85-Qd1e164" type="lemma" source="http://scta.info/resource/ps85_2@4-6">Quoniam sanctus sum.</quote>
+            <ref xml:id="gom-ps85-Rd1e167"><name xml:id="gom-ps85-Nd1e168" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e171"><seg type="qs">Christus proprie sanctus sanctificans</seg>, etc., usque ad <seg type="qs">miserere clamantis, laetifica levatum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e180">
+          <head xml:id="gom-ps85-Hd1e182">Versus 5</head>
+          <p xml:id="gom-ps85-d1e184">
+            <quote xml:id="gom-ps85-Qd1e186" type="lemma" source="http://scta.info/resource/ps85_5@6-6">Mitis.</quote>
+            <ref xml:id="gom-ps85-Rd1e189"><name xml:id="gom-ps85-Nd1e190" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e193"><seg type="qs">Portans hominem, donec perficiat eum</seg>, etc., usque ad <seg type="qs">cum nondum sit perfectus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e202">
+          <head xml:id="gom-ps85-Hd1e204">Versus 6</head>
+          <p xml:id="gom-ps85-d1e206">
+            <pb ed="#P" n="0988C"/>
+            <quote xml:id="gom-ps85-Qd1e210" type="lemma" source="http://scta.info/resource/ps85_6@1-2">Auribus percipe.</quote>
+            <ref xml:id="gom-ps85-Rd1e213"><name xml:id="gom-ps85-Nd1e214" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e217"><seg type="qs">Vide ordinem orationis</seg>, etc., usque ad <seg type="qs">auditum deprecationi meae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e227">
+          <head xml:id="gom-ps85-Hd1e229">Versus 7</head>
+          <p xml:id="gom-ps85-d1e231">
+            <quote xml:id="gom-ps85-Qd1e233" type="lemma" source="http://scta.info/resource/ps85_7@3-3">Tribulationis.</quote>
+            <ref xml:id="gom-ps85-Rd1e236"><name xml:id="gom-ps85-Nd1e237" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps85-Qd1e241">Cum enixius clamatur, etc., <quote xml:id="gom-ps85-Qd1e243" source="http://scta.info/resource/ps85_8@1-7">usque ad quia non est similis tui in diis, Domine.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e248">
+          <head xml:id="gom-ps85-Hd1e250">Versus 9</head>
+          <p xml:id="gom-ps85-d1e252">
+            <quote xml:id="gom-ps85-Qd1e254" type="lemma" source="http://scta.info/resource/ps85_9@3-8">Quascunque fecisti venient et adorabunt coram,</quote>
+            etc.
+            <ref xml:id="gom-ps85-Rd1e257"><name xml:id="gom-ps85-Nd1e258" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e261">Si est gens quam non fecit Deus, illa non adorabit. Annuntiat Ecclesiam ubique diffusam, quod modo impletum est: Et nota, quia, ut ait Scriptura: <quote xml:id="gom-ps85-Qd1e263">In lata gente gloria regis, in diminutione populi principis contritio.</quote> Sequitur: <quote xml:id="gom-ps85-Qd1e265" source="http://scta.info/resource/ps85_9@11-13">Et glorificabunt nomen.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e270">
+          <head xml:id="gom-ps85-Hd1e272">Versus 10</head>
+          <p xml:id="gom-ps85-d1e274">
+            <quote xml:id="gom-ps85-Qd1e276" type="lemma" source="http://scta.info/resource/ps85_10@9-12">Tu es Deus solus.</quote>
+            <ref xml:id="gom-ps85-Rd1e279"><name xml:id="gom-ps85-Nd1e280" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e283">Vel tu solus magnus contra futuros, qui se dicunt magnos et deos.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e287">
+          <head xml:id="gom-ps85-Hd1e289">Versus 11</head>
+          <p xml:id="gom-ps85-d1e291">
+            <pb ed="#P" n="0988D"/>
+            <quote xml:id="gom-ps85-Qd1e295" type="lemma" source="http://scta.info/resource/ps85_11@1-6">Deduc me, Domine, in via tua.</quote>
+            <ref xml:id="gom-ps85-Rd1e298"><name xml:id="gom-ps85-Nd1e299" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e302">Orat pro omnibus jam adorantibus, et loquitur in membris.</quote>
+          </p>
+          <p xml:id="gom-ps85-d1e305">
+            <quote xml:id="gom-ps85-Qd1e307" type="lemma" source="http://scta.info/resource/ps85_11">Domine, deduc,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Aliud est duci ad viam, et aliud est duci in via, ne in ea cadatur: ubique egent homines adjuvari, sive sint in via, sive extra eam. Via autem Christus est, qui dicit: <quote xml:id="gom-ps85-Qd1e312" source="http://scta.info/resource/io14_6@4-10">Ego sum via, veritas, et vita. Laetetur cor meum.</quote>
+          </p>
+          <p xml:id="gom-ps85-d1e316">
+            <ref xml:id="gom-ps85-Rd1e318" type="lemma" subtype="implied" target="http://scta.info/resource/ps85_11"/>
+            <ref xml:id="gom-ps85-Rd1e320"><name xml:id="gom-ps85-Nd1e321" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e324"><seg type="qs">In timore mundano praecedit causa</seg>, etc., usque ad <seg type="qs">qui autem timet, et non sperat, depressus est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e333">
+          <head xml:id="gom-ps85-Hd1e335">Versus 13</head>
+          <p xml:id="gom-ps85-d1e337">
+            <quote xml:id="gom-ps85-Qd1e339" type="lemma" source="http://scta.info/resource/ps85_13@12-14">Ex inferno inferiori.</quote>
+            <ref xml:id="gom-ps85-Rd1e342"><name xml:id="gom-ps85-Nd1e343" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e346"><seg type="qs">Per hoc intelligimus</seg>, etc., usque ad <seg type="qs">haec sunt opiniones, non assertiones.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e355">
+          <head xml:id="gom-ps85-Hd1e357">Versus 14</head>
+          <p xml:id="gom-ps85-d1e359">
+            <quote xml:id="gom-ps85-Qd1e361" type="lemma" source="http://scta.info/resource/ps85_14@1-8">Deus, iniqui insurrexerunt super me, <pb ed="#P" n="0989A"/> et Synagoga potentium,</quote>
+            etc.
+            <ref xml:id="gom-ps85-Rd1e366"><name xml:id="gom-ps85-Nd1e367" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e370">Item pro se orat facta mentione passionis suae et gloriae, unde habent hi pro quibus oravit multam misericordiam et eruuntur de inferno.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps85-Dd1e375">
+          <head xml:id="gom-ps85-Hd1e377">Versus 16</head>
+          <p xml:id="gom-ps85-d1e379">
+            <quote xml:id="gom-ps85-Qd1e381" type="lemma" source="http://scta.info/resource/ps85_16@8-10">Da imperium tuum.</quote>
+            <ref xml:id="gom-ps85-Rd1e384"><name xml:id="gom-ps85-Nd1e385" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps85-Qd1e388">Quasi dicat: Transeat tempus patientiae, veniat tempus judicii, unde non tantum Christus, sed et sancti sedebunt judices, qui sunt <quote xml:id="gom-ps85-Qd1e390">filii ancillae,</quote> id est Ecclesiae.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

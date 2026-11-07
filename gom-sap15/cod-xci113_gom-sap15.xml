@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1179B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap15">
+        <head xml:id="gom-sap15-Hd1e98">Caput 15</head>
+        <div xml:id="gom-sap15-Dd1e100">
+          <head xml:id="gom-sap15-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sap15-d1e104">
+            <quote xml:id="gom-sap15-Qd1e106" type="lemma" source="http://scta.info/resource/sap15_1@1-2">Tu autem,</quote>
+            etc.
+            <ref xml:id="gom-sap15-Rd1e109"><name xml:id="gom-sap15-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap15-Qd1e113">Justo enim judicio damnati sero poenitentes agnoscunt, quod antea credere noluerunt; unde: <quote xml:id="gom-sap15-Qd1e115" source="http://scta.info/resource/ps9_17@1-12">Cognoscetur Dominus judicia faciens, in operibus manuum suarum comprehensus est peccator</quote>; unde Joannes: <quote xml:id="gom-sap15-Qd1e118" source="http://scta.info/resource/Iio3_3@3-15">Qui habet spem in eo, sanctificat sicut et ille sanctus est: <pb ed="#P" n="1179C"/> et omnis qui in eo manet, non peccat</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap15-Dd1e126">
+          <head xml:id="gom-sap15-Hd1e128">Versus 3</head>
+          <p xml:id="gom-sap15-d1e130">
+            <quote xml:id="gom-sap15-Qd1e132" type="lemma" source="http://scta.info/resource/sap15_3@1-3">Nosse enim te,</quote>
+            etc. Perceptio est incorruptionis, et in futuro contemplationis; unde: <quote xml:id="gom-sap15-Qd1e135" source="http://scta.info/resource/io17_3@1-11">Haec est enim vita aeterna, ut cognoscant te verum Deum</quote>, etc.
+          </p>
+        </div>
+        <div xml:id="gom-sap15-Dd1e140">
+          <head xml:id="gom-sap15-Hd1e142">Versus 4</head>
+          <p xml:id="gom-sap15-d1e144">
+            <quote xml:id="gom-sap15-Qd1e146" type="lemma" source="http://scta.info/resource/sap15_4@1-4">Non enim in errorem.</quote>
+            Ex persona fidelium loquitur, qui Dei gratia muniti, non miscuere se gentilium iniquitati vel idololatriae: quia sine fructu justitiae est labor iste, et mortem meretur aeternam.
+          </p>
+        </div>
+        <div xml:id="gom-sap15-Dd1e151">
+          <head xml:id="gom-sap15-Hd1e153">Versus 6</head>
+          <p xml:id="gom-sap15-d1e155">
+            <quote xml:id="gom-sap15-Qd1e157" type="lemma" source="http://scta.info/resource/sap15_6@1-2">Malorum amatores,</quote>
+            etc. <quote xml:id="gom-sap15-Qd1e160" source="http://scta.info/resource/ps134_18@1-12">Similes illis fiant, qui faciunt ea, et omnes qui confidunt in eis</quote>. Inventores quoque falsorum dogmatum, et cultores digni sunt morte. Disperdet enim Deus virum qui haec fecerit, id est magistrum et <pb ed="#P" n="1179D"/> discipulum ejus. Reprobavit superius lignea, lapidea, vel aerea idola, nunc etiam fictilia damnat. Juste enim retributum est eis; ut qui de terra facti sunt, quia meliorem sui partem, id est animam, ad imaginem Dei creatam ad notandum Deum vivum, sequi nolebant; viliorem sui partem, id est, corpus terrenum imitando, luteum adorarent Deum, et sine boni operis fructu terrae insensibili, de qua sumpti sunt insensati, inutiles redderentur. Mystice autem haeretici et schismatici, qui veritatem Dei in injustitia detinent, et mendacium pro veritate in doctrinae suae simulacris colunt, licet eloquentia aut ficta virtute pallient, fragilia tamen et lutea sunt, quae fingunt.
+          </p>
+        </div>
+        <div xml:id="gom-sap15-Dd1e168">
+          <head xml:id="gom-sap15-Hd1e170">Versus 10</head>
+          <p xml:id="gom-sap15-d1e172">
+            <pb ed="#P" n="1180A"/>
+            <quote xml:id="gom-sap15-Qd1e176" type="lemma" source="http://scta.info/resource/sap15_10@1-3">Cinis est cor eorum,</quote>
+            et foeda cogitatio eorum, et vita coeno sordidior; quia ignorant factorem suum, et evanescunt in cogitationibus suis. Sensum autem sanctorum patrum spernunt, et errores novos quasi ludos vanos propter favorem humanum et terrenum lucrum fingunt; errantes, scilicet et in errorem mittentes, ut inexcusabiles sint: cum judicabit Deus occulta cordium, et reddet unicuique secundum opera sua.
+          </p>
+        </div>
+        <div xml:id="gom-sap15-Dd1e181">
+          <head xml:id="gom-sap15-Hd1e183">Versus 13</head>
+          <p xml:id="gom-sap15-d1e185">
+            <quote xml:id="gom-sap15-Qd1e187" type="lemma" source="http://scta.info/resource/sap15_13@1-5">Hic enim scit,</quote>
+            etc. Nullam excusationem habent haeretici; quia scienter peccant, dum fidem sanam et rectam doctrinam nolunt imitari: magis terrenum sensum et fragilem quam spiritualem sequentes.
+          </p>
+        </div>
+        <div xml:id="gom-sap15-Dd1e192">
+          <head xml:id="gom-sap15-Hd1e194">Versus 17</head>
+          <p xml:id="gom-sap15-d1e196">
+            <quote xml:id="gom-sap15-Qd1e198" type="lemma" source="http://scta.info/resource/sap15_17@9-10">Melior est.</quote>
+            Quia melior est homo <pb ed="#P" n="1180B"/> idolis secundum rationem creationis; quia vivit et intelligit, illa autem nunquam. Sed quia magis sequitur vanitatem erroris, quam veritatis scientiam, <quote xml:id="gom-sap15-Qd1e203" source="http://scta.info/resource/ps48_13@3-12">cum in honore sit, non intelligit: et comparatur jumentis insipientibus</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sap15-Dd1e208">
+          <head xml:id="gom-sap15-Hd1e210">Versus 18</head>
+          <p xml:id="gom-sap15-d1e212">
+            <quote xml:id="gom-sap15-Qd1e214" type="lemma" source="http://scta.info/resource/sap15_18@6-6">Insensata.</quote>
+            Quasi: nec discretionem habebant. In veritate enim viventia meliora sunt mortuis, sensibilia insensibilibus, rationalia irrationalibus. Sed dignum fuit, ut qui ignorabant Creatorem, in creaturis distinctionem non scirent. Qui enim laudem et benedictionem Dei in se habere negligit, in discretione animalium seipsum errare ostendit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

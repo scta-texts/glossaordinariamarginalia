@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 50</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 50</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1293B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is50">
+        <head xml:id="gom-is50-Hd1e98">Caput 50</head>
+        <div xml:id="gom-is50-Dd1e100">
+          <head xml:id="gom-is50-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is50-d1e104">
+            <quote xml:id="gom-is50-Qd1e106" type="lemma" source="http://scta.info/resource/is50_1@1-5">Haec dicit Dominus: Quis est?</quote>
+            <ref xml:id="gom-is50-Rd1e109"><name xml:id="gom-is50-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is50-Qd1e113">Post vocationem gentium, post captionem fortis, <pb ed="#P" n="1293C"/> cujus praeda divisa est apostolis, loquitur ad populum Judaeorum super Sion quae superius ait: <quote xml:id="gom-is50-Qd1e117" source="http://scta.info/resource/is49_14@4-6">Dereliquit me Dominus,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-is50-d1e122">
+            <ref xml:id="gom-is50-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/is50_1@1-5"/>
+            <quote xml:id="gom-is50-Qd1e126" source="http://scta.info/resource/rom7_14@7-13">Vendidi. Ego autem carnalis sum venundatus sub peccato</quote>. <quote xml:id="gom-is50-Qd1e129" source="http://scta.info/resource/io8_34@10-15">Qui facit peccatum servus peccati est</quote>. Unde: <quote xml:id="gom-is50-Qd1e132" source="http://scta.info/resource/rom6_12@1-6">Non regnet peccatum in corpore vestro</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-is50-Dd1e137">
+          <head xml:id="gom-is50-Hd1e139">Versus 2</head>
+          <p xml:id="gom-is50-d1e141">
+            <quote xml:id="gom-is50-Qd1e143" type="lemma" source="http://scta.info/resource/is50_2@1-2">Quia veni.</quote>
+            <ref xml:id="gom-is50-Rd1e146"><name xml:id="gom-is50-Nd1e147" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is50-Qd1e150">Hoc est ut sciatis me matrem vestram non repudiasse, sed eam voluntate propria recessisse: post multa beneficia carnem assumpsi, nec jam per prophetas, sed praesens ipse locutus sum.</quote>
+          </p>
+          <p xml:id="gom-is50-d1e153">
+            <quote xml:id="gom-is50-Qd1e155" type="lemma" source="http://scta.info/resource/is50_2@4-6">Non erat vir.</quote>
+            <quote xml:id="gom-is50-Qd1e158"><seg type="qs">Herodi propter malitiam</seg>, etc., usque ad <seg type="qs">de omnibus in commune: <quote xml:id="gom-is50-Qd1e164" source="http://scta.info/resource/is30">Visio quadrupedum in deserto<!-- check: cited chapter given; verse not identified --></quote></seg></quote>
+          </p>
+          <p xml:id="gom-is50-d1e169">
+            <quote xml:id="gom-is50-Qd1e171" type="lemma" source="http://scta.info/resource/is50_2@7-7">Vocavi.</quote>
+            Quasi diceret: Rationales, <quote xml:id="gom-is50-Qd1e174" source="http://scta.info/resource/ps77_1@9-15">Inclinate aurem vestram in verba oris mei</quote>. <quote xml:id="gom-is50-Qd1e177" source="http://scta.info/resource/io8_14@18-22">Qui sitit, veniat et bibat</quote>, et hujusmodi.
+          </p>
+          <p xml:id="gom-is50-d1e181">
+            <quote xml:id="gom-is50-Qd1e183" type="lemma" source="http://scta.info/resource/is50_2@13-13">Nunquid.</quote>
+            <ref xml:id="gom-is50-Rd1e186"><name xml:id="gom-is50-Nd1e187" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is50-Qd1e190">Invehitur contra eos qui putabant, etc., <quote xml:id="gom-is50-Qd1e192" source="http://scta.info/resource/mt26_53@10-17">usque ad ut exhibeat mihi plus quam duodecim legiones angelorum?</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is50-Dd1e198">
+          <head xml:id="gom-is50-Hd1e200">Versus 3</head>
+          <p xml:id="gom-is50-d1e202">
+            <quote xml:id="gom-is50-Qd1e204" type="lemma" source="http://scta.info/resource/is50_3@1-3">Induam coelos tenebris.</quote>
+            Aiunt philosophi non amplius decem stadiis a terra nubes in sublime levari, et solis splendorem abscondi: sic excluso coeli lumine, aer inferior obscuratur.
+          </p>
+          <p xml:id="gom-is50-d1e208">
+            <quote xml:id="gom-is50-Qd1e210" type="lemma" source="http://scta.info/resource/is50_3@1-1">Induam.</quote>
+            Sanctos, scilicet ut se cognoscant peccatores.
+          </p>
+          <p xml:id="gom-is50-d1e214">
+            <quote xml:id="gom-is50-Qd1e216" type="lemma" source="http://scta.info/resource/is50_3@4-6">Et saccum ponam.</quote>
+            Ut agant poenitentiam in timore et cilicio.
+          </p>
+        </div>
+        <div xml:id="gom-is50-Dd1e221">
+          <head xml:id="gom-is50-Hd1e223">Versus 4</head>
+          <p xml:id="gom-is50-d1e225">
+            <pb ed="#P" n="1294A"/>
+            <quote xml:id="gom-is50-Qd1e229" type="lemma" source="http://scta.info/resource/is50_4@1-2">Dominus dedit,</quote>
+            etc.
+            <ref xml:id="gom-is50-Rd1e232"><name xml:id="gom-is50-Nd1e233" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is50-Qd1e236">Quamvis possint haec referri ad Isaiam, proprie tamen referuntur ad Christum, quasi diceret: Qui olim talia operatus sum, et modo similia operari possum, non est potentia imminuta.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is50-Dd1e241">
+          <head xml:id="gom-is50-Hd1e243">Versus 9</head>
+          <p xml:id="gom-is50-d1e245">
+            <quote xml:id="gom-is50-Qd1e247" type="lemma" source="http://scta.info/resource/is50_9@13-14">Quasi vestimentum.</quote>
+            <ref xml:id="gom-is50-Rd1e250"><name xml:id="gom-is50-Nd1e251" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is50-Qd1e254">Vestimentum vetustate et tinea consumitur. Judaei quoque quadraginta duobus annis post passionem ad poenitentiam vocati sunt: tandem negligentes contriti sunt advenientibus Romanis, et malae conscientiae tinea devorati.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is50-Dd1e258">
+          <head xml:id="gom-is50-Hd1e260">Versus 10</head>
+          <p xml:id="gom-is50-d1e262">
+            <quote xml:id="gom-is50-Qd1e264" type="lemma" source="http://scta.info/resource/is50_10@1-3">Quis ex vobis.</quote>
+            <quote xml:id="gom-is50-Qd1e267"><seg type="qs">Qui timet non est perfectus</seg>, etc., usque ad <seg type="qs">hic custodit animas sanctorum integras et pudicas et puras.</seg></quote>
+          </p>
+          <p xml:id="gom-is50-d1e275">
+            <quote xml:id="gom-is50-Qd1e277" type="lemma" source="http://scta.info/resource/is50_10@10-13">Qui ambulavit in tenebris.</quote>
+            <quote xml:id="gom-is50-Qd1e280"><seg type="qs">Gentilis populus in tenebris</seg>, etc., usque ad <seg type="qs">ad poenitentiam voco; <quote xml:id="gom-is50-Qd1e286" source="http://scta.info/resource/ez18_23@12-18">nolo <pb ed="#P" n="1294B"/> enim mortem peccatoris, sed magis ut convertatur et vivat</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is50-Dd1e294">
+          <head xml:id="gom-is50-Hd1e296">Versus 11</head>
+          <p xml:id="gom-is50-d1e298">
+            <quote xml:id="gom-is50-Qd1e300" type="lemma" source="http://scta.info/resource/is50_11@1-2">Ecce omnes,</quote>
+            quasi diceret: Nihil prodest exhortatio, nec est spes salutis post scelera: <quote xml:id="gom-is50-Qd1e303" source="http://scta.info/resource/ps13_3@1-6">Omnes declinaverunt simul inutiles facti sunt</quote>.
+          </p>
+          <p xml:id="gom-is50-d1e307">
+            <quote xml:id="gom-is50-Qd1e309" type="lemma" source="http://scta.info/resource/is50_11@4-5">Accendentes ignem.</quote>
+            <quote xml:id="gom-is50-Qd1e312"><seg type="qs">Civitatis ignem quo a Romanis succensa est accenderunt</seg>, etc., usque ad <seg type="qs">sic peccatoribus diversa peccati materia plus vel minus succenditur.</seg></quote>
+          </p>
+          <p xml:id="gom-is50-d1e320">
+            <quote xml:id="gom-is50-Qd1e322" type="lemma" source="http://scta.info/resource/is50_11@25-27">In doloribus dormietis.</quote>
+            Quia nec beneficiis, nec tormentis, Dei Filium suscipere voluerunt, unde, <quote xml:id="gom-is50-Qd1e325" source="http://scta.info/resource/mt25_41@12-15">Ite, maledicti, in ignem aeternum</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

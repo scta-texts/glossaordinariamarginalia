@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 20</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 20</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1204A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir20">
+        <head xml:id="gom-sir20-Hd1e98">Caput 20</head>
+        <div xml:id="gom-sir20-Dd1e100">
+          <head xml:id="gom-sir20-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir20-d1e104">
+            <quote xml:id="gom-sir20-Qd1e106" type="lemma" source="http://scta.info/resource/sir20_1@1-3">Quam bonum est.</quote>
+            <ref xml:id="gom-sir20-Rd1e109"><name xml:id="gom-sir20-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir20-Qd1e113"><seg type="qs">Prohibuit iracundiam in judicio</seg>, etc., usque ad <seg type="qs">et doctrina omnis per patientiam dignoscitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e122">
+          <head xml:id="gom-sir20-Hd1e124">Versus 2</head>
+          <p xml:id="gom-sir20-d1e126">
+            <quote xml:id="gom-sir20-Qd1e128" type="lemma" source="http://scta.info/resource/sir20_2@1-1">Concupiscentia.</quote>
+            Probat exemplo, quod bonum sit non irasci: quia sicut concupiscentia spadonis maculat virginem, nec generat sobolem: ita violentia iniqui simulat judicium, sed non servat aequitatis modum.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e133">
+          <head xml:id="gom-sir20-Hd1e135">Versus 6</head>
+          <p xml:id="gom-sir20-d1e137">
+            <quote xml:id="gom-sir20-Qd1e139" type="lemma" source="http://scta.info/resource/sir20_6@9-10">Est tacens.</quote>
+            Hic laudatur modestus, et <pb ed="#P" n="1204B"/> culpatur temerarius.
+          </p>
+          <p xml:id="gom-sir20-d1e145">
+            <quote xml:id="gom-sir20-Qd1e147" type="lemma" source="http://scta.info/resource/sir20_6@1-3">Est autem tacens,</quote>
+            etc. Exponit quam taciturnitatem laudet. Alii enim tacent, quia nesciunt loqui: alii autem quia sciunt esse tempus tacendi, et tempus loquendi.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e152">
+          <head xml:id="gom-sir20-Hd1e154">Versus 7</head>
+          <p xml:id="gom-sir20-d1e156">
+            <quote xml:id="gom-sir20-Qd1e158" type="lemma" source="http://scta.info/resource/sir20_7@1-2">Homo sapiens,</quote>
+            etc. Prudentes moderantur sermones suos, et tempus servant: stultus vero totum spiritum suum profert.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e164">
+          <head xml:id="gom-sir20-Hd1e166">Versus 12</head>
+          <p xml:id="gom-sir20-d1e168">
+            <quote xml:id="gom-sir20-Qd1e170" type="lemma" source="http://scta.info/resource/sir20_12@1-3">Est qui multa,</quote>
+            etc.
+            <ref xml:id="gom-sir20-Rd1e173"><name xml:id="gom-sir20-Nd1e174" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir20-Qd1e177">Qui scilicet per confessionem humilitatis ab omni reatu solvitur.</quote>
+          </p>
+          <p xml:id="gom-sir20-d1e180">
+            <quote xml:id="gom-sir20-Qd1e182" type="lemma" source="http://scta.info/resource/sir20_12@7-8">Et restituens,</quote>
+            etc. Quando in locum vitiorum subrogat multiplicem numerum virtutum: Ut <quote xml:id="gom-sir20-Qd1e185" source="http://scta.info/resource/rom5_20@7-12">ubi abundavit delictum, superabundet gratia</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e190">
+          <head xml:id="gom-sir20-Hd1e192">Versus 14</head>
+          <p xml:id="gom-sir20-d1e194">
+            <quote xml:id="gom-sir20-Qd1e196" type="lemma" source="http://scta.info/resource/sir20_14@7-8">Oculi enim,</quote>
+            etc. Id est, intentio, scilicet variis nequitiis maculata, semper ad nocendum parata. Septenarius enim universitatem significat.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e201">
+          <head xml:id="gom-sir20-Hd1e203">Versus 16</head>
+          <p xml:id="gom-sir20-d1e205">
+            <pb ed="#P" n="1204C"/>
+            <quote xml:id="gom-sir20-Qd1e209" type="lemma" source="http://scta.info/resource/sir20_16@1-2">Hodie foeneratur,</quote>
+            etc. Instabilitatem haereticorum ostendit: quia sensum sui erroris violenter ab auditoribus extorquent, et ideo odibiles sunt Deo et hominibus. Vel, qui de eleemosyna in praesenti retributionem quaerit, odibilem se facit: unde, <quote xml:id="gom-sir20-Qd1e212" source="http://scta.info/resource/lc14_14@1-14">Voca pauperes et debiles, caecos, claudos, et beatus eris: quia non habent retribuere tibi. Retribuetur autem tibi in resurrectione justorum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e217">
+          <head xml:id="gom-sir20-Hd1e219">Versus 17</head>
+          <p xml:id="gom-sir20-d1e221">
+            <quote xml:id="gom-sir20-Qd1e223" type="lemma" source="http://scta.info/resource/sir20_17@1-4">Fatuo non erit amicus,</quote>
+            etc. Quia laboris praemium in vita hac quaerit, vel haereticus qui gloriam humanam appetit.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e228">
+          <head xml:id="gom-sir20-Hd1e230">Versus 18</head>
+          <p xml:id="gom-sir20-d1e232">
+            <quote xml:id="gom-sir20-Qd1e234" type="lemma" source="http://scta.info/resource/sir20_18@9-11">Quoties et quanti,</quote>
+            etc. Detestabilis est coetus haereticorum, quia Scripturam Dei pravo sensu interpretantur, et expositionem suam inique <pb ed="#P" n="1204D"/> praedicant.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e241">
+          <head xml:id="gom-sir20-Hd1e243">Versus 20</head>
+          <p xml:id="gom-sir20-d1e245">
+            <quote xml:id="gom-sir20-Qd1e247" type="lemma" source="http://scta.info/resource/sir20_20@1-3">Lapsus falsae linguae,</quote>
+            etc. Sicut in planitie pavimenti, ubi offendicula non sunt, frustra quis cadit: sic haereticorum sensus propria nequitia excaecatus, in semita veritatis quae aperta est, casum invenit.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e253">
+          <head xml:id="gom-sir20-Hd1e255">Versus 21</head>
+          <p xml:id="gom-sir20-d1e257">
+            <quote xml:id="gom-sir20-Qd1e259" type="lemma" source="http://scta.info/resource/sir20_21@1-2">Homo acharis,</quote>
+            etc. Sine gratia Spiritus sancti; vel amarus, quia amarum ex noxium sensum ingerit auditoribus.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e264">
+          <head xml:id="gom-sir20-Hd1e266">Versus 22</head>
+          <p xml:id="gom-sir20-d1e268">
+            <quote xml:id="gom-sir20-Qd1e270" type="lemma" source="http://scta.info/resource/sir20_22@3-5">Fatui reprobabitur parabola,</quote>
+            etc.
+            <ref xml:id="gom-sir20-Rd1e273"><name xml:id="gom-sir20-Nd1e274" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir20-Qd1e277"><seg type="qs">Judaei, qui adhuc putant</seg>, etc., usque ad <seg type="qs">haeretici, qui sophisticis argumentis nituntur evertere veritatem Evangelii.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e286">
+          <head xml:id="gom-sir20-Hd1e288">Versus 23</head>
+          <p xml:id="gom-sir20-d1e290">
+            <quote xml:id="gom-sir20-Qd1e292" type="lemma" source="http://scta.info/resource/sir20_23@1-3">Est qui vetatur.</quote>
+            Reprehensa falsitate <pb ed="#P" n="1205A"/> haereticorum, intentionem pravae voluntatis vituperat. Sunt enim, qui cum non possunt actu peccare, nolunt in voluntate quiescere.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e299">
+          <head xml:id="gom-sir20-Hd1e301">Versus 24</head>
+          <p xml:id="gom-sir20-d1e303">
+            <quote xml:id="gom-sir20-Qd1e305" type="lemma" source="http://scta.info/resource/sir20_24@1-5">Est qui perdet animam suam.</quote>
+            Quia timens hujus mundi potestatem, non audet profiteri Evangelii veritatem: unde, <quote xml:id="gom-sir20-Qd1e308" source="http://scta.info/resource/lc9_26@2-10">Qui erubuerit me et meos sermones, hunc erubescet Filius hominis</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e313">
+          <head xml:id="gom-sir20-Hd1e315">Versus 25</head>
+          <p xml:id="gom-sir20-d1e317">
+            <quote xml:id="gom-sir20-Qd1e319" type="lemma" source="http://scta.info/resource/sir20_25@1-4">Est qui prae confusione,</quote>
+            etc. Sunt qui plura promittunt, et pauca reddunt, et eos quibus mentiendo promittunt, inimicos sibi faciunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e324">
+          <head xml:id="gom-sir20-Hd1e326">Versus 27</head>
+          <p xml:id="gom-sir20-d1e328">
+            <quote xml:id="gom-sir20-Qd1e330" type="lemma" source="http://scta.info/resource/sir20_27">Potior fur.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Non excusat furem, sed ejus comparatione ingravat mentiendi assiduitatem. Mystice autem fures, sunt Judaei, quibus dicitur, <quote xml:id="gom-sir20-Qd1e335" source="http://scta.info/resource/rom2_21@9-13">Qui praedicas non furandum, furaris</quote>. Haeretici vero mendaces qui pejores sunt, quia post perceptam <pb ed="#P" n="1205B"/> baptismi gratiam ad vomitum redierunt, et Spiritui gratiae contumeliam fecerunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e343">
+          <head xml:id="gom-sir20-Hd1e345">Versus 29</head>
+          <p xml:id="gom-sir20-d1e347">
+            <quote xml:id="gom-sir20-Qd1e349" type="lemma" source="http://scta.info/resource/sir20_29@3-5">Sapiens in verbis,</quote>
+            etc. Quia sapientiam mentis demonstrat in bene dictis: unde, <quote xml:id="gom-sir20-Qd1e352" source="http://scta.info/resource/mt12_35@1-6">Bonus homo de bono thesauro cordis sui profert bonum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir20-Dd1e357">
+          <head xml:id="gom-sir20-Hd1e359">Versus 32</head>
+          <p xml:id="gom-sir20-d1e361">
+            <quote xml:id="gom-sir20-Qd1e363" type="lemma" source="http://scta.info/resource/sir20_32@1-2">Sapientia absconsa.</quote>
+            Nulla est utilitas thesauri, qui absconditus est et non scitur, et sapientiae sine discretione absconsae.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

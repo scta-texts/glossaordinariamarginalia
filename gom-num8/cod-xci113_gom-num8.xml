@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0396B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num8">
+        <head xml:id="gom-num8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-num8-Dd1e100">
+          <head xml:id="gom-num8-Hd1e102">Versus 2</head>
+          <p xml:id="gom-num8-d1e104">
+            <quote xml:id="gom-num8-Qd1e106" type="lemma" source="http://scta.info/resource/num8_2@9-10">Septem lucernas.</quote>
+            Septem dona Spiritus sancti, quae in Christo semper manserunt, et in membris pro voluntate ejus distributa sunt.
+          </p>
+          <p xml:id="gom-num8-d1e110">
+            <ref xml:id="gom-num8-Rd1e112" type="lemma" subtype="implied" target="http://scta.info/resource/num8_2@9-10"/>
+            <ref xml:id="gom-num8-Rd1e114"><name xml:id="gom-num8-Nd1e115" ref="#Bede">BEDA</name>, in Num.</ref>
+            <quote xml:id="gom-num8-Qd1e119"><seg type="qs">Mensa et candelabrum</seg>, etc., usque ad <seg type="qs">prohibens ei testimonium.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e128">
+          <head xml:id="gom-num8-Hd1e130">Versus 3</head>
+          <p xml:id="gom-num8-d1e132">
+            <quote xml:id="gom-num8-Qd1e134" type="lemma" source="http://scta.info/resource/num8_3@6-7">Super candelabrum.</quote>
+            Christum, scilicet, primogenitum de radice Jesse, <quote xml:id="gom-num8-Qd1e137" source="http://scta.info/resource/is11_2@7-14">super quem requievit spiritus sapientiae et intellectus, spiritus consilii et fortitudinis</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e142">
+          <head xml:id="gom-num8-Hd1e144">Versus 4</head>
+          <p xml:id="gom-num8-d1e146">
+            <quote xml:id="gom-num8-Qd1e148" type="lemma" source="http://scta.info/resource/num8_4@6-7">Ex auro.</quote>
+            Quia Christus specialiter <pb ed="#P" n="0396C"/> immunis a peccato, et operibus justitiae praeclarus, et membra ejus innocentiam et justitiam, quantum valent imitantur, in futuro perficientur.
+          </p>
+          <p xml:id="gom-num8-d1e154">
+            <quote xml:id="gom-num8-Qd1e156" type="lemma" source="http://scta.info/resource/num8_4@8-8">Ductili.</quote>
+            Quia Christus ex conceptione et nativitate perfectus Deus et homo exstitit, passionum dolores pertulit <!--<note>(II Tim. III)</note>-->, et sic ad resurrectionis gloriam pervenit, et omnes qui pie volunt vivere in ipso quasi metallum feriendo dilatatum per passionis contumelias ad immortalitatis gratiam perveniunt.
+          </p>
+          <p xml:id="gom-num8-d1e162">
+            <quote xml:id="gom-num8-Qd1e164" type="lemma" source="http://scta.info/resource/num8_4@11-11">Stipes.</quote>
+            Christus scilicet, de quo procedunt calami, quia ab ipso accipiunt justi quidquid habent boni; unde: <quote xml:id="gom-num8-Qd1e167" source="http://scta.info/resource/io15_5@19-23">Sine me nihil potestis facere</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e172">
+          <head xml:id="gom-num8-Hd1e174">Versus 6</head>
+          <p xml:id="gom-num8-d1e176">
+            <quote xml:id="gom-num8-Qd1e178" type="lemma" source="http://scta.info/resource/num8_6@1-3">Tolle Levitas de me.</quote>
+            Mystice. Ordinem ecclesiasticum instruit, quomodo rite provehatur ad <pb ed="#P" n="0396D"/> dignitatem sacerdotii.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e186">
+          <head xml:id="gom-num8-Hd1e188">Versus 7</head>
+          <p xml:id="gom-num8-d1e190">
+            <quote xml:id="gom-num8-Qd1e192" type="lemma" source="http://scta.info/resource/num8_7@10-12">Pilos carnis suae.</quote>
+            <ref xml:id="gom-num8-Rd1e195"><name xml:id="gom-num8-Nd1e196" ref="#GregoryGreat">GREG.</name>, lib. V Moral., cap. 23.</ref>
+            <quote xml:id="gom-num8-Qd1e200"><seg type="qs">Pili carnis sunt quaelibet superflua humanae carnis</seg>, etc., usque ad <seg type="qs">cum speculationis alta penetramus.</seg></quote>
+          </p>
+          <p xml:id="gom-num8-d1e208">
+            <quote xml:id="gom-num8-Qd1e210" type="lemma" source="http://scta.info/resource/num8_7@14-14">Laverint.</quote>
+            Mundaverint, scilicet opera, ut in conspectu Dei sit eorum conversatio munda, et coram hominibus irreprehensibilis.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e215">
+          <head xml:id="gom-num8-Hd1e217">Versus 8</head>
+          <p xml:id="gom-num8-d1e219">
+            <quote xml:id="gom-num8-Qd1e221" type="lemma" source="http://scta.info/resource/num8_8@2-2">Bovem.</quote>
+            Mediatorem Dei et hominum: cujus immolatione peccata nostra deleta sunt. In utroque bove incarnatio ejus significatur. Una est enim passio Christi, sed duo nobis impetravit, expiationem scilicet a peccatis et sanctificationem, ut nos offerret Deo <quote xml:id="gom-num8-Qd1e224" source="http://scta.info/resource/Ipetr3_18@16-20">Mortificatos, quidem carne, vivificatos <pb ed="#P" n="0397A"/> autem spiritu.</quote> Unde Paulus: <quote xml:id="gom-num8-Qd1e229" source="http://scta.info/resource/Icor6_11@5-18">Sed abluti estis, sed sanctificati estis in nomine Domini Jesu</quote>. Possunt autem per hos duos boves, quorum unus pro peccato, alter offertur in holocaustum, duae actionum species exprimi, quarum una quae male gessimus, per poenitentiae lamentum abluimus; altera bonorum operum et virtutum fructibus gratiam Dei et praemium beatitudinis promeremur.
+          </p>
+          <p xml:id="gom-num8-d1e233">
+            <quote xml:id="gom-num8-Qd1e235" type="lemma" source="http://scta.info/resource/num8_8@6-6">Libamentum.</quote>
+            Sacramentum passionis, quod spiritali scientia intellectum atque tractatum, fidelibus saluberrimum et Deo gratissimum est. Si tamen talibus mysteriis percipiendis minister Domini intus forisque se mundum et dignum praebuerit.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e240">
+          <head xml:id="gom-num8-Hd1e242">Versus 9</head>
+          <p xml:id="gom-num8-d1e244">
+            <quote xml:id="gom-num8-Qd1e246" type="lemma" source="http://scta.info/resource/num8_9@1-2">Et applicabis.</quote>
+            Applicantur Levitae coram tabernaculo foederis, cum electi ad officium altaris <pb ed="#P" n="0397B"/> secundum apostolicam doctrinam perducuntur: qua in verum tabernaculum intratur <!--<note>(I Tim. III)</note>-->, si juxta doctrinam et exempla sanctorum bene incoeperint, et usque ad finem perseveraverint.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e255">
+          <head xml:id="gom-num8-Hd1e257">Versus 10</head>
+          <p xml:id="gom-num8-d1e259">
+            <quote xml:id="gom-num8-Qd1e261" type="lemma" source="http://scta.info/resource/num8_10@6-7">Ponent filii.</quote>
+            Quia assensum devotionis suae electioni debent praebere, et ad imperium eorum bonis operibus instare.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e266">
+          <head xml:id="gom-num8-Hd1e268">Versus 11</head>
+          <p xml:id="gom-num8-d1e270">
+            <quote xml:id="gom-num8-Qd1e272" type="lemma" source="http://scta.info/resource/num8_11@9-11">A filiis Israel.</quote>
+            <ref xml:id="gom-num8-Rd1e275"><name xml:id="gom-num8-Nd1e276" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-num8-Qd1e279">Sub multorum scilicet testimonio et cognitione facienda est electio, ut examinatio digna celebretur, ut nemo reprehendere possit. Debent enim testimonium habere bonum etiam ab his qui foris sunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e283">
+          <head xml:id="gom-num8-Hd1e285">Versus 12</head>
+          <p xml:id="gom-num8-d1e287">
+            <quote xml:id="gom-num8-Qd1e289" type="lemma" source="http://scta.info/resource/num8_12@1-2">Levitae quoque,</quote>
+            etc. Quia ministri Domini proprio labore initia bonorum operum Domino consecrare festinant, ut sive poenitentia si <pb ed="#P" n="0397C"/> agenda, sive studia virtutum exercenda, efficaciter perficiant.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e297">
+          <head xml:id="gom-num8-Hd1e299">Versus 14</head>
+          <p xml:id="gom-num8-d1e301">
+            <quote xml:id="gom-num8-Qd1e303" type="lemma" source="http://scta.info/resource/num8_14@2-2">Separabis.</quote>
+            Non debet minister Domini contentus esse populari disciplina: moribus et doctrina separatus et spectabilis debet esse.
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e308">
+          <head xml:id="gom-num8-Hd1e310">Versus 17</head>
+          <p xml:id="gom-num8-d1e312">
+            <quote xml:id="gom-num8-Qd1e314" type="lemma" source="http://scta.info/resource/num8_17@17-20">Omne primogenitum in terra.</quote>
+            <ref xml:id="gom-num8-Rd1e317"><name xml:id="gom-num8-Nd1e318" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num8-Qd1e321"><seg type="qs">Primogenita Aegyptiorum</seg>, etc., usque ad <seg type="qs">et divinis mysteriis verus Levita digne possit aptari.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e330">
+          <head xml:id="gom-num8-Hd1e332">Versus 19</head>
+          <p xml:id="gom-num8-d1e334">
+            <quote xml:id="gom-num8-Qd1e336" type="lemma" source="http://scta.info/resource/num8_19@11-12">Ut serviant.</quote>
+            Videant ministri Domini quam necessarium sit eis officii sui jura custodire; nec terrenis lucris vel voluptatibus inhiare, quibus proprium est tabernaculo deservire, et pro populo orare, ne sit in eo plaga disperdens: alioquin et se et populum in perditionem praecipitant, et dicitur eis: <quote xml:id="gom-num8-Qd1e339" source="http://scta.info/resource/mal1_10@23-28">Munus non suscipiam de manu vestra.</quote> <pb ed="#P" n="0397D"/> .
+          </p>
+        </div>
+        <div xml:id="gom-num8-Dd1e346">
+          <head xml:id="gom-num8-Hd1e348">Versus 24</head>
+          <p xml:id="gom-num8-d1e350">
+            <quote xml:id="gom-num8-Qd1e352" type="lemma" source="http://scta.info/resource/num8_24@5-7">A viginti quinque.</quote>
+            <ref xml:id="gom-num8-Rd1e355"><name xml:id="gom-num8-Nd1e356" ref="#IsidoreOfSeville">ISID.</name>, quaest. in Num. tom. V.</ref>
+            <quote xml:id="gom-num8-Qd1e360"><seg type="qs">A vigesimo et quinto anno mandantur Levitae</seg>, etc., usque ad <seg type="qs">in illis omnimodo exstinguitur, ne subsistant.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

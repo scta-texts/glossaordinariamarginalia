@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0217D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex12">
+        <head xml:id="gom-ex12-Hd1e98">Caput 12</head>
+        <div xml:id="gom-ex12-Dd1e100">
+          <head xml:id="gom-ex12-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ex12-d1e104">
+            <pb ed="#P" n="0217D"/>
+            <quote xml:id="gom-ex12-Qd1e108" type="lemma" source="http://scta.info/resource/ex12_2@1-2">Mensis iste,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e111"><name xml:id="gom-ex12-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex12-Qd1e115">Hic est Aprilis, qui apud Hebraeos Nisam, apud Macedones <foreign xml:lang="greek">Ξανθικός</foreign> dicitur, et dicitur Aprilis quasi aperilis, quia tunc aperitur terra proferendis virgultis herbis ac floribus: vel Aprilis a Venere, quasi Aphroditis; Venus enim Graece <mentioned>Aphrodite</mentioned> dicitur. Hunc Hebraei primum habent, quia XV Kalendarum ejus prima dies saeculi fuit: quarta decima vero, dies secunda; tertia decima, tertia: duodecima, quarta: qua sol et luna condita sunt, et tunc primum aequinoctium fuit; sol enim in oriente, luna in occidente, sphaeram mundi ex aequo dividebant.</quote>
+          </p>
+          <p xml:id="gom-ex12-d1e124">
+            <ref xml:id="gom-ex12-Rd1e126" type="lemma" subtype="implied" target="http://scta.info/resource/ex12_2@1-2"/>
+            <ref xml:id="gom-ex12-Rd1e128"><name xml:id="gom-ex12-Nd1e129">STRAB.</name></ref>
+            <quote xml:id="gom-ex12-Qd1e131">Hic est Nisan, secundum Hebraeos, in quo factus est mundus, cujus plenilunium post aequinoctium <pb ed="#P" n="0218A"/> vernale semper est attendendum: in quo populus Israel a servitute Aegypti liberatur, et genus humanum sanguine Christi a potestate diaboli eripitur. Decima die mensis tollitur agnus, quarto decimo immolatur: quia in lege passio Christi figuratur, Evangelii gratia coruscante impletur; denarius enim, propter decalogum, legem significat; quaternarius vero, quatuor evangelia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e138">
+          <head xml:id="gom-ex12-Hd1e140">Versus 5</head>
+          <p xml:id="gom-ex12-d1e142">
+            <quote xml:id="gom-ex12-Qd1e144" type="lemma" source="http://scta.info/resource/ex12_5@1-2">Erit autem,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e147"><name xml:id="gom-ex12-Nd1e148" ref="#Augustine">AUG.</name>, quaest. 42 in Exod., tom. III.</ref>
+            <quote xml:id="gom-ex12-Qd1e152"><seg type="qs">Movere potest illa locutio</seg>, etc., usque ad <seg type="qs">quid illo praecepto figuratum sit.</seg></quote>
+          </p>
+          <p xml:id="gom-ex12-d1e160">
+            <quote xml:id="gom-ex12-Qd1e162" type="lemma" source="http://scta.info/resource/ex12_5@8-10">Juxta quem ritum,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-ex12-d1e166">
+            Allegorice.
+          </p>
+          <p xml:id="gom-ex12-d1e168">
+            <ref xml:id="gom-ex12-Rd1e170" type="lemma" subtype="implied" target="http://scta.info/resource/ex12_5@8-10"/>
+            Quia de justis et peccatoribus Christus carnem assumpsit, ut nemo de venia desperaret. Vel quia Christus Judaeis haedus erat, dicentibus: <quote xml:id="gom-ex12-Qd1e172" source="http://scta.info/resource/io9_24@17-20">Hic homo peccator est (Joan. <pb ed="#P" n="0218B"/> IX)</quote>, nobis autem agnus absque macula. Vel quia <quote xml:id="gom-ex12-Qd1e177" source="http://scta.info/resource/rom8_3@15-18">in similitudine carnis peccati</quote> apparuit et <quote xml:id="gom-ex12-Qd1e180" source="http://scta.info/resource/Ipetr2">pro peccato mortuus est, cum peccatum non haberet<!-- check: cited chapter given; verse not identified --></quote>.
+          </p>
+          <p xml:id="gom-ex12-d1e186">
+            <ref xml:id="gom-ex12-Rd1e188" type="lemma" subtype="implied" target="http://scta.info/resource/ex12_5@8-10"/>
+            <ref xml:id="gom-ex12-Rd1e190"><name xml:id="gom-ex12-Nd1e191">STRAB.</name></ref>
+            <quote xml:id="gom-ex12-Qd1e193">Decima die Aprilis Hierosolymam venit, sequenti vero die exceptus est a turbis cum ramis palmarum et divinis laudibus. Tribus reliquis custoditus est a Judaeis usque ad quartam decimam diem, id est, usque ad quintam feriam, qua cum apostolis coenavit, et post traditus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e197">
+          <head xml:id="gom-ex12-Hd1e199">Versus 7</head>
+          <p xml:id="gom-ex12-d1e201">
+            <quote xml:id="gom-ex12-Qd1e203" type="lemma" source="http://scta.info/resource/ex12_7@1-4">Et sument de sanguine ejus,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e206"><name xml:id="gom-ex12-Nd1e207" ref="#GregoryGreat">GREG.</name>, homil. 22 in Evang., tom. II.</ref>
+            <quote xml:id="gom-ex12-Qd1e211"><seg type="qs">Sanguis ponitur, quando non solum ore corporis, sed etiam ore cordis hauritur</seg>, etc., usque ad <seg type="qs">quia crucem passionis ejus in fronte portamus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e220">
+          <head xml:id="gom-ex12-Hd1e222">Versus 8</head>
+          <p xml:id="gom-ex12-d1e224">
+            <quote xml:id="gom-ex12-Qd1e226" type="lemma" source="http://scta.info/resource/ex12_8@1-3">Et edent carnes,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e229"><name xml:id="gom-ex12-Nd1e230" ref="#GregoryGreat">GREG.</name>, ibid.</ref>
+            <quote xml:id="gom-ex12-Qd1e234"><seg type="qs"><pb ed="#P" n="0218C"/> Nocte agnum comedimus</seg>, etc., usque ad <seg type="qs">de fermento enim laudem immolat, qui Deo sacrificium de rapina parat.</seg></quote>
+          </p>
+          <p xml:id="gom-ex12-d1e243">
+            <quote xml:id="gom-ex12-Qd1e245" type="lemma" source="http://scta.info/resource/ex12_8@11-12">Cum lactucis,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e248"><name xml:id="gom-ex12-Nd1e249" ref="#GregoryGreat">GREG.</name>, ibid.</ref>
+            <quote xml:id="gom-ex12-Qd1e253"><seg type="qs">Lactucae agrestes valde amarae sunt</seg>, etc., usque ad <seg type="qs">ut dispensari omnia per Spiritus sancti potentiam sciat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e263">
+          <head xml:id="gom-ex12-Hd1e265">Versus 9</head>
+          <p xml:id="gom-ex12-d1e267">
+            <quote xml:id="gom-ex12-Qd1e269" type="lemma" source="http://scta.info/resource/ex12_9@14-16">Caput cum pedibus,</quote>
+            <quote xml:id="gom-ex12-Qd1e272"><seg type="qs">etc. <quote xml:id="gom-ex12-Qd1e275" source="http://scta.info/resource/Icor11_3@15-18">Caput Christi Deus</quote><ref xml:id="gom-ex12-Rd1e277"><name xml:id="gom-ex12-Nd1e278" ref="#GregoryGreat">GREG.</name>, ibid.</ref><!-- check: attribution inside gloss body -->. Caput ergo agni vorare</seg>, etc., usque ad <seg type="qs">nemo in hujus vitae itinere torpeat, ne in patria locum perdat.</seg></quote>
+          </p>
+          <p xml:id="gom-ex12-d1e288">
+            <ref xml:id="gom-ex12-Rd1e290" type="lemma" subtype="implied" target="http://scta.info/resource/ex12_9@14-16"/>
+            <ref xml:id="gom-ex12-Rd1e292"><name xml:id="gom-ex12-Nd1e293" ref="#GregoryGreat">GREG.</name> NYSS., de Vita Mosis.</ref>
+            <quote xml:id="gom-ex12-Qd1e297">Illis rerum involucris monet ut per haec aenigmata considerare et intelligere velimus transitum quemdam esse hanc vitam nostram. Nam postea quam ingressi ad eam sumus, necessitate quadam ad exitum semper compellimur, <pb ed="#P" n="0218D"/> ad quem paratos nos esse vult manibus et pedibus reliquoque ad iter apparatu. Ne igitur spinis in hoc arduo vivendi itinere pedes laedantur, non nudis pedibus, sed durioribus calceis communiti itinerare debemus. Spinae autem, quae pedibus infixae non solum retinent retardantque, verum etiam enecant, peccata sunt, a quibus durities calceorum defendit, continens videlicet, tenuis ac dura vita, quae debilitat atque frangit spinarum acumina, quibus a parvo tenuique principio ad anteriora, usque peccata sic ingrediuntur, ut poenitus occidant. Ad hanc vitam faciendam talaris vestis et effusa, id est voluptuosa et vitiosa vivendi ratio, quae latissime patet, impedimento est: quare cingulo quodam trahenda <pb ed="#P" n="0219A"/> est et coarctanda, ne huc atque illuc circumfluat. Cingulus vero modestia est et diligens vivendi ratio, quae nos monet ad necessitatem, non ad voluptatem, rebus uti. Baculus quo feras repellimus, et nonnunquam sustentamur, spes est. Ex igne autem solum cibus nobis propositus est, quoniam fides, quae per cibum illum significatur, ardentissima esse debet, nihil humidum aut labile possidens.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e306">
+          <head xml:id="gom-ex12-Hd1e308">Versus 11</head>
+          <p xml:id="gom-ex12-d1e310">
+            <quote xml:id="gom-ex12-Qd1e312" type="lemma" source="http://scta.info/resource/ex12_11@21-21">Phase.</quote>
+            Hebraice est <quote xml:id="gom-ex12-Qd1e315">Pesach</quote> , Graece <foreign xml:lang="greek">Πάσχα,</foreign> id est, <quote xml:id="gom-ex12-Qd1e320" source="http://scta.info/resource/ex12_11@24-24">transitus;</quote> quia a filiis Israel ex Aegypto migrantibus primum celebratum est: nobis quoque migrandum est de transitoriis ad aeterna, de terrenis ad coelestia.
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e325">
+          <head xml:id="gom-ex12-Hd1e327">Versus 12</head>
+          <p xml:id="gom-ex12-d1e329">
+            <quote xml:id="gom-ex12-Qd1e331" type="lemma" source="http://scta.info/resource/ex12_12@20-22">In cunctis diis,</quote>
+            etc. Ferunt Hebraei quia omnia idola Aegypti confracta sunt nocte <pb ed="#P" n="0219B"/> illa et templa, vel motu terrae, vel fluminis Nili inundatione. Allegorice vero nobis egredientibus ex Aegypto errorum idola corruunt, et omnis perversorum dogmatum cultura quatitur.
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e338">
+          <head xml:id="gom-ex12-Hd1e340">Versus 14</head>
+          <p xml:id="gom-ex12-d1e342">
+            <quote xml:id="gom-ex12-Qd1e344" type="lemma" source="http://scta.info/resource/ex12_14@1-4">Habebitis autem hanc diem,</quote>
+            <quote xml:id="gom-ex12-Qd1e347"><seg type="qs">etc. <quote xml:id="gom-ex12-Qd1e350">Et facietis diem hunc in progenies vestras legitimum, aeternum</quote><ref xml:id="gom-ex12-Rd1e351"><name xml:id="gom-ex12-Nd1e352" ref="#Augustine">AUG.</name>, in Exod. quaest. 43, tom. III.</ref><!-- check: attribution inside gloss body --> vel <quote xml:id="gom-ex12-Qd1e357">aeternalem;</quote> quod Graece dicitur <foreign xml:lang="greek">αἰὼνιον,</foreign> non sic accipiendum est</seg>, etc., usque ad <seg type="qs">omni tempore praesentis vitae simplicitas servanda, malitia cavenda.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e368">
+          <head xml:id="gom-ex12-Hd1e370">Versus 18</head>
+          <p xml:id="gom-ex12-d1e372">
+            <quote xml:id="gom-ex12-Qd1e374" type="lemma" source="http://scta.info/resource/ex12_18@1-3">Primo mense quarta decima,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e377"><name xml:id="gom-ex12-Nd1e378" ref="#RabanusMaurus">RAB.</name></ref>
+          </p>
+          <p xml:id="gom-ex12-d1e382">
+            Mystice.
+          </p>
+          <p xml:id="gom-ex12-d1e384">
+            <ref xml:id="gom-ex12-Rd1e386" type="lemma" subtype="implied" target="http://scta.info/resource/ex12_18@1-3"/>
+            Vespera quarti decimi diei primi mensis, in quo Pascha celebratur, et agni immolatio perficitur, depositionem veteris hominis significat, et initium novi, qui in baptismo Christi mortem <pb ed="#P" n="0219C"/> figurante inchoatur. Unde: <quote xml:id="gom-ex12-Qd1e390" source="http://scta.info/resource/rom6_3@4-14">Quicunque baptizati sumus in Christo Jesu, in mortem ipsius baptizati sumus,</quote> etc. <!--<note>(Gal. III)</note>-->. A vespera ergo quarti decimi diei primi mensis usque ad vesperam vicesimi primi integram, scilicet septimanam, azyma jubemur [jubentur] comedere, quia a perceptione baptismi usque ad finem vitae simpliciter et sine dolo debemus vivere. Unde Petrus: <quote xml:id="gom-ex12-Qd1e395" source="http://scta.info/resource/Ipetr2_1@1-9">Deponentes omnem malitiam et omnem dolum et simulationem, sicut modo geniti infantes,</quote> etc. <!--<note>(I Petr. II)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e402">
+          <head xml:id="gom-ex12-Hd1e404">Versus 21</head>
+          <p xml:id="gom-ex12-d1e406">
+            <quote xml:id="gom-ex12-Qd1e408" type="lemma" source="http://scta.info/resource/ex12_21@5-5">Seniores.</quote>
+            Nota quod non pueris, non juvenibus, mandata Dei primo communicat, sed senioribus, quia in senibus est sapientia, et in multo tempore prudentia.
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e414">
+          <head xml:id="gom-ex12-Hd1e416">Versus 22</head>
+          <p xml:id="gom-ex12-d1e418">
+            <quote xml:id="gom-ex12-Qd1e420" type="lemma" source="http://scta.info/resource/ex12_22@1-2">Fasciculumque hyssopi,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e423"><name xml:id="gom-ex12-Nd1e424">STRAB.</name></ref>
+            <quote xml:id="gom-ex12-Qd1e426"><pb ed="#P" n="0219D"/> Hyssopus herba est humilis, nascens in petris, purgans pectus et pulmonem: et significat veram humilitatem, cujus exemplum Christus nobis in semetipso praebuit. Fasciculum ergo hyssopi sanguine tingimus, quando, memores humilitatis Christi, eum imitari studemus.</quote>
+          </p>
+          <p xml:id="gom-ex12-d1e431">
+            <quote xml:id="gom-ex12-Qd1e433" type="lemma" source="http://scta.info/resource/ex12_22@3-4">Tingite in sanguine,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e436"><name xml:id="gom-ex12-Nd1e437" ref="#Augustine">AUG.</name>, quaest. 46 in Exod.</ref>
+            <quote xml:id="gom-ex12-Qd1e441">Quaeritur quem sanguinem dicat juxta ostium, cum illius agni sanguinem velit intelligi, cujus immolatione Pascha fit. An praecipit eo modo consequenter fieri, quamvis hoc tacuerit, ut idem agnus juxta ostium occidatur? An, quod est credibilius, ideo dixit <quote xml:id="gom-ex12-Qd1e443">ex sanguine qui est juxta ostium,</quote> quia ille qui liniturus est, vas ipsum in quo sanguinem excepit, <pb ed="#P" n="0220A"/> juxta ostium positurus est, ut ad manum habeat dum tingit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e450">
+          <head xml:id="gom-ex12-Hd1e452">Versus 23</head>
+          <p xml:id="gom-ex12-d1e454">
+            <quote xml:id="gom-ex12-Qd1e456" type="lemma" source="http://scta.info/resource/ex12_23@17-20">Et non sinet percussorem,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e459"><name xml:id="gom-ex12-Nd1e460">STRAB.</name></ref>
+            <quote xml:id="gom-ex12-Qd1e462">Utrum percussor bonus angelus an malus fuerit, non necesse est inquiri: quicunque enim fuit, praecepto Domini obedivit. Sciendum tamen quod tales pestes mali angeli facere solent, permissione Dei.</quote>
+          </p>
+          <p xml:id="gom-ex12-d1e465">
+            <ref xml:id="gom-ex12-Rd1e467" type="lemma" subtype="implied" target="http://scta.info/resource/ex12_23@17-20"/>
+            Decimum praeceptum est: <quote xml:id="gom-ex12-Qd1e469" source="http://scta.info/resource/ex20_17@1-5">Non concupisces rem proximi tui,</quote> etc. Huic contraria est decima plaga, mors primogenitorum. Alio praecepto furtum prohibetur, quo et rapina damnatur: pejus enim est eripere violenter quam latenter. Auferre ergo volens aperte vel occulte praeceptum suum habet: concupiscere autem rem proximi, etiamsi justa successione <pb ed="#P" n="0220B"/> quaeras, non licet. Qui enim volunt res alienas tanquam juste possidere, et haeredes quaerunt morientibus illis esse. Cum laudas rem relictam quasi jure possidentem, Deus damnat injuste cupientem. Qui enim quaeris ab aliquo haeres fieri, non vis ut habeat haeredes, in quibus nihil charius primogenitis est. Jure ergo in primogenitis tuis puniris, qui cupiendo res alienas, quasi juris umbram perquiris, et, quae meliora sunt, cordis primogenita perdis. Primogenita quidem fides est. Nemo enim bona facit, in quo fides non praecessit. Omnia opera bona sunt filii spirituales, sed inter hos primogenita fides. Quisquis ergo rem occulte cupis alienam, interius fidem perdis. Servis enim non charitate, sed fraude, velut amans eum quem mori desideras, ut succedas.
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e476">
+          <head xml:id="gom-ex12-Hd1e478">Versus 30</head>
+          <p xml:id="gom-ex12-d1e480">
+            <pb ed="#P" n="0220C"/>
+            <quote xml:id="gom-ex12-Qd1e484" type="lemma" source="http://scta.info/resource/ex12_30@17-20">Neque enim erat domus,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e487"><name xml:id="gom-ex12-Nd1e488" ref="#Augustine">AUG.</name>, quaest. 44 in Exod.</ref>
+            <quote xml:id="gom-ex12-Qd1e492">Cum primogeniti tantum morerentur, quomodo nulla erat domus in qua non esset mortuus? An et hoc divinitus fuerat procuratum, ut in omnibus domibus essent primogeniti, in quibus percuterentur Aegyptii, etiam qui habitabant in terra Gessen? Hominum quippe erant hic, vel animalium, non terrae; id est, homines et animalia primogenita moriebantur, occulto et angelico percussu: non aliquid in terra vel in coelo factum erat, sicut rana, vel locusta, vel tenebrae. A talibus enim plagis cum terra Gessen fuisset aliena, perveniebat beneficium ad Aegyptios qui in ea cum Hebraeis morabantur: hac vero omnes percussi sunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e496">
+          <head xml:id="gom-ex12-Hd1e498">Versus 34</head>
+          <p xml:id="gom-ex12-d1e500">
+            <quote xml:id="gom-ex12-Qd1e502" type="lemma" source="http://scta.info/resource/ex12_34@4-5">Conspersam farinam,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e505"><name xml:id="gom-ex12-Nd1e506" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ex12-Qd1e509"><pb ed="#P" n="0220D"/></quote>
+          </p>
+          <p xml:id="gom-ex12-d1e513">
+            Mystice.
+          </p>
+          <p xml:id="gom-ex12-d1e515">
+            <ref xml:id="gom-ex12-Rd1e517" type="lemma" subtype="implied" target="http://scta.info/resource/ex12_34@4-5"/>
+            Sine fermento proficiscuntur filii Israel de Aegypto; ut exeuntes de hoc saeculo abjiciamus fermentum malitiae et nequitiae, et epulemur in azymis sinceritatis et veritatis.
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e521">
+          <head xml:id="gom-ex12-Hd1e523">Versus 35</head>
+          <p xml:id="gom-ex12-d1e525">
+            <quote xml:id="gom-ex12-Qd1e527" type="lemma" source="http://scta.info/resource/ex12_35@7-8">Et petierunt,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e530"><name xml:id="gom-ex12-Nd1e531" ref="#Augustine">AUG.</name>, quaest. 45.</ref>
+            <quote xml:id="gom-ex12-Qd1e535">Hoc jam factum fuerat ante mortes primogenitorum. Sed nunc per recapitulationem repetitur, nam narratum est quando factum est. Modo enim quomodo posset fieri ut in tanto luctu ista accommodarentur: nisi forte quis dicat etiam ista plaga non fuisse percussos Aegyptios qui cum Hebraeis habitabant.</quote>
+          </p>
+          <p xml:id="gom-ex12-d1e538">
+            <quote xml:id="gom-ex12-Qd1e540" type="lemma" source="http://scta.info/resource/ex12_35@11-14">Vasa aurea,</quote>
+            etc. Haec doctrinas significant, quae ex ipsa consuetudine gentium non inutili studio discuntur; vel animas pretiosas ex gentibus, tanquam <pb ed="#P" n="0221A"/> vasa aurea et argentea; cum vestibus, id est, corporibus: quae se adjungunt populo Dei, ut semel de hoc saeculo tanquam de Aegypto liberentur.
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e547">
+          <head xml:id="gom-ex12-Hd1e549">Versus 37</head>
+          <p xml:id="gom-ex12-d1e551">
+            <quote xml:id="gom-ex12-Qd1e553" type="lemma" source="http://scta.info/resource/ex12_37@1-2">Profectique sunt,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e556"><name xml:id="gom-ex12-Nd1e557" ref="#Origen">ORIG.</name> hom. 5 in Exod.</ref>
+            <quote xml:id="gom-ex12-Qd1e561">. Qui de Aegypto parat proficisci, qui cupit obscuros mundi actus et errorum tenebras relinquere, primo ei ex Ramesse proficiscendum est, quae interpretatur <mentioned>commotio tineae</mentioned>. Si vis venire in hoc ut Deus sit tibi dux, et sequatur petra, quae escam spiritalem et potum tribuat, exi de Ramesse, ne thesaurizes ubi tinea exterminat, et fures effodiunt, etc.</quote>
+          </p>
+          <p xml:id="gom-ex12-d1e567">
+            <ref xml:id="gom-ex12-Rd1e569" type="lemma" subtype="implied" target="http://scta.info/resource/ex12_37@1-2"/>
+            <quote xml:id="gom-ex12-Qd1e571" source="http://scta.info/resource/mt19_21@4-23">Si vis perfectus esse, vade et vende omnia quae habes, et da pauperibus, et habebis thesaurum in coelo, et veni, sequere me<!-- check: Migne cites mt6; text matches mt19_21 --></quote>, hoc est proficisci de Ramesse, et sequi Christum.
+          </p>
+          <p xml:id="gom-ex12-d1e576">
+            <pb ed="#P" n="0221B"/>
+            <quote xml:id="gom-ex12-Qd1e580" type="lemma" source="http://scta.info/resource/ex12_37@5-8">De Ramesse in Socoth,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e583"><name xml:id="gom-ex12-Nd1e584" ref="#Origen">ORIG.</name> ibid.</ref>
+            <quote xml:id="gom-ex12-Qd1e588">Videamus quis sit castrorum locus ad quem venitur. De Ramesse venerunt in Socoth, quod interpretatur <mentioned>tabernacula</mentioned>. Cum ergo, relinquens Aegyptum, discusseris tineas totius corruptelae, et vitiorum incitamenta rejeceris, habitabis in tabernaculis, quibus scilicet nolumus exspoliari sed supervestiri. Habitatio autem tabernaculorum expeditum indicat esse eum qui festinat ad Deum. Sed nec in hoc standum est: movenda sunt etiam castra de Socoth, et festinandum est in Othon, quod interpretatur <mentioned>signa eis</mentioned>, quia hic scilicet audies quod Deus antecedat eos per diem in columna nubis, et per noctem in columna ignis; non hoc in Ramesse, nec in Socoth, quae secunda sunt castra. Tertia sunt in quibus fiunt signa divina: hoc <pb ed="#P" n="0221C"/> erat triduum ad quod festinabant Moses et Aaron, et contradicebat Pharao dicens: <quote xml:id="gom-ex12-Qd1e596">Non eatis longius.</quote> Nolebat ad locum signorum pervenire filios Israel, ut possent tertii diei frui mysteriis. Unde Ose. VI: <quote xml:id="gom-ex12-Qd1e598" source="http://scta.info/resource/os6_3@2-15">Resuscitabit nos Deus post biduum, et in die tertia resurgemus, et vivemus in conspectu ejus.</quote> Prima dies nobis Christi passio; secunda, qua in infernum descendit; tertia, qua resurrexit: ideo in tertia die antecedebat eos per diem in columna nubis; per noctem vero, in columna ignis. <quote xml:id="gom-ex12-Qd1e602" source="http://scta.info/resource/rom6">Necessarium est ergo ut qui baptizantur in Christo, in morte ipsius baptizentur, et cum ipso sepeliantur, et die tertia resurgant, quos scilicet secum suscitavit et fecit consedere in coelestibus<!-- check: cited chapter given; verse not identified --></quote>.</quote>
+          </p>
+          <p xml:id="gom-ex12-d1e608">
+            <quote xml:id="gom-ex12-Qd1e610" type="lemma" source="http://scta.info/resource/ex12_37@9-11">Sexcenta fere millia,</quote>
+            etc.
+            <ref xml:id="gom-ex12-Rd1e613"><name xml:id="gom-ex12-Nd1e614" ref="#Augustine">AUG.</name>, quaest. 47.</ref>
+            <quote xml:id="gom-ex12-Qd1e618"><seg type="qs">Quaeritur <pb ed="#P" n="0221D"/> utrum ad tantum numerum pervenerunt Hebraei per eos annos in Aegypto</seg>, etc., usque ad <seg type="qs">id est, post mortem Joseph dura servitute oppressi sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex12-Dd1e630">
+          <head xml:id="gom-ex12-Hd1e632">Versus 46</head>
+          <p xml:id="gom-ex12-d1e634">
+            <quote xml:id="gom-ex12-Qd1e636" type="lemma" source="http://scta.info/resource/ex12_46@11-13">Nec illius,</quote>
+            etc. Os Christi in cruce non est confractum, quia videntes eum jam mortuum, non fregerunt ejus crura: vel robur divinitatis in carne per blasphemiam non corrumpitur, quia non est purus homo, sed verus Deus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

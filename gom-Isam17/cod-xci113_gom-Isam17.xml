@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 17</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 17</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0556A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam17">
+        <head xml:id="gom-Isam17-Hd1e98">Caput 17</head>
+        <div xml:id="gom-Isam17-Dd1e100">
+          <head xml:id="gom-Isam17-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Isam17-d1e104">
+            <quote xml:id="gom-Isam17-Qd1e106" type="lemma" source="http://scta.info/resource/Isam17_1">Congregantes. Azeca.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-Isam17-Rd1e111"><name xml:id="gom-Isam17-Nd1e112" ref="#RabanusMaurus">RAB.</name> in lib. Reg.</ref>
+            <quote xml:id="gom-Isam17-Qd1e116">Civitas est Chananaeorum in tribu Juda ad quam usque persecutus est Josue quinque reges, et hodie villa vocatur Azeca inter Eleutheropolim et Heliam, quae <pb ed="#P" n="0556B"/> interpretatur <mentioned>fortitudo et decipula</mentioned>.</quote>
+          </p>
+          <p xml:id="gom-Isam17-d1e124">
+            <quote xml:id="gom-Isam17-Qd1e126" type="lemma" source="http://scta.info/resource/Isam17_1@21-21">Dommim.</quote>
+            Vicus est in tribu Juda in finibus Eleutheropolis, distans ab ea septem et viginti milliaribus. Dommim interpretatur <mentioned>silentium</mentioned> vel <mentioned>gaudium</mentioned>.
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e135">
+          <head xml:id="gom-Isam17-Hd1e137">Versus 2</head>
+          <p xml:id="gom-Isam17-d1e139">
+            <quote xml:id="gom-Isam17-Qd1e141" type="lemma" source="http://scta.info/resource/Isam17_2@10-10">Terebinthi.</quote>
+            Terebinthus est in Sichimis, sub qua abscondit Jacob idola juxta Neapolim.
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e146">
+          <head xml:id="gom-Isam17-Hd1e148">Versus 4</head>
+          <p xml:id="gom-Isam17-d1e150">
+            <quote xml:id="gom-Isam17-Qd1e152" type="lemma" source="http://scta.info/resource/Isam17_4@5-5">Spurius.</quote>
+            Quia ignobili patre, matre vero nobili natus erat.
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e157">
+          <head xml:id="gom-Isam17-Hd1e159">Versus 12</head>
+          <p xml:id="gom-Isam17-d1e161">
+            <quote xml:id="gom-Isam17-Qd1e163" type="lemma" source="http://scta.info/resource/Isam17_12@21-22">Octo filios.</quote>
+            <ref xml:id="gom-Isam17-Rd1e166"><name xml:id="gom-Isam17-Nd1e167" ref="#Jerome">HIERON.</name>, quaest. Hebr., tom. III.</ref>
+            <quote xml:id="gom-Isam17-Qd1e171"><seg type="qs">In Paralipomenon tantum septem dicuntur</seg>, etc., usque ad <seg type="qs">Nathan quoque prophetam dicit Isidorus de Gabaonitis fuisse.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e181">
+          <head xml:id="gom-Isam17-Hd1e183">Versus 14</head>
+          <p xml:id="gom-Isam17-d1e185">
+            <quote xml:id="gom-Isam17-Qd1e187" type="lemma" source="http://scta.info/resource/Isam17_14@1-1">David.</quote>
+            Et octavus qui in regno eligitur, hic est Christus, qui <quote xml:id="gom-Isam17-Qd1e190" source="http://scta.info/resource/phil2_7@2-7">semetipsum exinanivit, formam <pb ed="#P" n="0556C"/> servi accipiens</quote>, quia et per gloriam resurrectionis regnum in gentibus adeptus est.
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e197">
+          <head xml:id="gom-Isam17-Hd1e199">Versus 21</head>
+          <p xml:id="gom-Isam17-d1e201">
+            <quote xml:id="gom-Isam17-Qd1e203" type="lemma" source="http://scta.info/resource/Isam17_21@1-7">Direxerat enim aciem Israel, sed Philisthiim.</quote>
+            Pugna Philisthinorum contra Israel, pugna daemonum contra Ecclesiam accipi potest. Goliath vero superbiam diaboli significat: quam David, id est Christus, singulari certamine prostravit et populum Dei eripuit. Qui leonem et ursum necavit, diabolum scilicet et Antichristum, alterum nunc latenter insidiantem, alterum postea manifeste saevientem. Provocavit superbia humilitatem, diabolus Christum. Accepit arma bellica David quae pro aetate et parva statura portare non potuit, et abjecit. Accepit quinque lapides de flumine et posuit in vase pastorali: his armatus vicit. Sic Christus tempore revelationis <pb ed="#P" n="0556D"/> Novi Testamenti insinuandae et commendandae gratiae, deposuit corporalia sacramenta legis, quae non sunt imposita gentibus, quae in veteri lege legimus et non observamus, sed ad aliquam significationem praemissa et posita intelligimus: haec deposuit tanquam onera legis, et ipsam legem accepit. Quinque enim lapides, quinque libros Mosi significant. Tulit quinque lapides de flumine, id est de hoc saeculo. Labitur enim mortale saeculum. Erant tanquam in flumine lapides in primo populo. Illic vacabant, et nihil proderant. Transibat supra fluvius. Sed David accepit gratiam, ut lex esset utilis quae sine gratia impleri non potest.
+          </p>
+          <p xml:id="gom-Isam17-d1e209">
+            <quote xml:id="gom-Isam17-Qd1e211" type="lemma" source="http://scta.info/resource/Isam17_21">Plenitudo</quote>
+            <!-- check: lemma not matched to verse text -->
+            enim <quote xml:id="gom-Isam17-Qd1e216" source="http://scta.info/resource/rom13_10@8-9">legis charitas est</quote>. Quia ergo legem gratia facit impleri, <pb ed="#P" n="0557A"/> significatur enim gratia lacte, hoc est enim in carne gratuitum; ubi vero mater non quaerit accipere, sed dare, gratis dat, et contristatur si desit qui accipiat. Ostendit David legem sine gratia operari non posse; cum illos quinque lapides, quibus significatur lex in quinque libris, conjungere volens gratiae, posuit in vase pastorali, quo lac solebat mulgeri. His armatus processit contra superbum. Tulit lapidem unum, et dejecit unum, in fronte percussit et cecidit ex eo loco corporis ubi signum Christi non habuit. Quinque accepit, unum misit. Quinque libri electi sunt, sed unitas vincit.
+          </p>
+          <p xml:id="gom-Isam17-d1e222">
+            <quote xml:id="gom-Isam17-Qd1e224" type="lemma" source="http://scta.info/resource/Isam17_21">Plenitudo</quote>
+            <!-- check: lemma not matched to verse text -->
+            ergo <quote xml:id="gom-Isam17-Qd1e229">legis charitas,</quote> ut ait Apostolus. <quote xml:id="gom-Isam17-Qd1e231" source="http://scta.info/resource/eph4_3@1-7">Sufferentes invicem in dilectione, solliciti servare unitatem Spiritus in vinculo pacis</quote>. Illo dejecto, gladium abstulit, caput illi abscidit. <pb ed="#P" n="0557B"/> Christus diabolum de suis membris occidit, quando crediderunt magi, quos ille in manu habebat, et de quibus alios trucidabat, convertentes linguas suas contra diabolum, et sic Goliae gladio suo caput abscinditur.
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e238">
+          <head xml:id="gom-Isam17-Hd1e240">Versus 28</head>
+          <p xml:id="gom-Isam17-d1e242">
+            <quote xml:id="gom-Isam17-Qd1e244" type="lemma" source="http://scta.info/resource/Isam17_28@29-36">Novi superbiam tuam, et nequitiam cordis tui, quia.</quote>
+            <ref xml:id="gom-Isam17-Rd1e247"><name xml:id="gom-Isam17-Nd1e248" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam17-Qd1e251">Putabat in eo tumorem propter Samuelis unctionem, quasi ex ea audaciam sumpsisset, et timebat ne si congrederetur cum Philisthaeo interficeretur. Unde subdit, <quote xml:id="gom-Isam17-Qd1e253" source="http://scta.info/resource/Isam17_28@37-40">ut videres praelium descendisti,</quote> id est, in hoc superbus appares, quod cum non habeas consuetudinem praeliandi, actus praelii quasi miles sciscitaris.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e259">
+          <head xml:id="gom-Isam17-Hd1e261">Versus 29</head>
+          <p xml:id="gom-Isam17-d1e263">
+            <quote xml:id="gom-Isam17-Qd1e265" type="lemma" source="http://scta.info/resource/Isam17_29@6-8">Nunquid non verbum?</quote>
+            <ref xml:id="gom-Isam17-Rd1e268"><name xml:id="gom-Isam17-Nd1e269" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam17-Qd1e272">Quasi diceret, est, quia non est voluntas praeliandi, sed ut <pb ed="#P" n="0557C"/> scirem quod nesciebam. Audaciam tamen ex eo sumpserat, quod Spiritum sanctum acceperat; expertus auxilium Dei in leone et urso, et ideo audacter se obtulit ad singulare certamen, non tam victoriae cupidus, quam ultor blasphemiarum Dei et injuriarum populi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e279">
+          <head xml:id="gom-Isam17-Hd1e281">Versus 41</head>
+          <p xml:id="gom-Isam17-d1e283">
+            <quote xml:id="gom-Isam17-Qd1e285" type="lemma" source="http://scta.info/resource/Isam17_41@1-2">Ibat autem.</quote>
+            <ref xml:id="gom-Isam17-Rd1e288"><name xml:id="gom-Isam17-Nd1e289" ref="#RabanusMaurus">RAB.</name> in lib. Reg.</ref>
+            <quote xml:id="gom-Isam17-Qd1e293"><seg type="qs">Allegorice, Philisthaei daemones</seg>, etc., usque ad <seg type="qs">quasi elatum Goliam gladio suo detruncant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e302">
+          <head xml:id="gom-Isam17-Hd1e304">Versus 51</head>
+          <p xml:id="gom-Isam17-d1e306">
+            <quote xml:id="gom-Isam17-Qd1e308" type="lemma" source="http://scta.info/resource/Isam17_51@6-7">Et tulit.</quote>
+            <ref xml:id="gom-Isam17-Rd1e311"><name xml:id="gom-Isam17-Nd1e312" ref="#RabanusMaurus">RAB.</name> ex Greg.</ref>
+            <quote xml:id="gom-Isam17-Qd1e316"><seg type="qs">Vir quoque catholicus colligit testimonium Scripturae</seg>, etc., usque ad <seg type="qs">haereticos suis sententiis vincimus.</seg></quote>
+          </p>
+          <p xml:id="gom-Isam17-d1e324">
+            <quote xml:id="gom-Isam17-Qd1e326" type="lemma" source="http://scta.info/resource/Isam17_51@19-19">Caput.</quote>
+            David caput Philisthaei tulit in Jerusalem, ut terreret eos, murorum firmitate et altitudine insuperabiles se esse fidentes, ut non discrederent se ab <pb ed="#P" n="0557D"/> illo vincendos esse.
+          </p>
+        </div>
+        <div xml:id="gom-Isam17-Dd1e334">
+          <head xml:id="gom-Isam17-Hd1e336">Versus 55</head>
+          <p xml:id="gom-Isam17-d1e338">
+            <quote xml:id="gom-Isam17-Qd1e340" type="lemma" source="http://scta.info/resource/Isam17_55@16-17">De qua.</quote>
+            <ref xml:id="gom-Isam17-Rd1e343"><name xml:id="gom-Isam17-Nd1e344" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-Isam17-Qd1e347">Quod Saul et Abner ignorant David apud eos diutius commoratum, fecit barba, quae adolescenti creverat dum absens fuerat.</quote>
+          </p>
+          <p xml:id="gom-Isam17-d1e350">
+            <quote xml:id="gom-Isam17-Qd1e352" type="lemma" source="http://scta.info/resource/Isam17_55@25-25">Vivit.</quote>
+            <ref xml:id="gom-Isam17-Rd1e355"><name xml:id="gom-Isam17-Nd1e356" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam17-Qd1e359">Huic simile est illud: <quote xml:id="gom-Isam17-Qd1e361">Benedixit Naboth Deo et regi. Quia non vivat anima tua, rex, si novi,</quote> vel videam mortem tuam si novi.</quote>
+          </p>
+          <p xml:id="gom-Isam17-d1e365">
+            <quote xml:id="gom-Isam17-Qd1e367" type="lemma" source="http://scta.info/resource/Isam17_55@29-29">Si</quote>
+            quoque conjunctio aliquando pro <quote xml:id="gom-Isam17-Qd1e370">non</quote> ponitur, secundum illud: <quote xml:id="gom-Isam17-Qd1e372" source="http://scta.info/resource/hebr4_5@5-9">Si introibunt in requiem meam<!-- check: Migne cites ps92; text matches hebr4_5 --></quote>, id est, non introibunt, unde patet sic exponi: <quote xml:id="gom-Isam17-Qd1e376" source="http://scta.info/resource/Isam17_55@29-30">Si novi,</quote> id est, non novi.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

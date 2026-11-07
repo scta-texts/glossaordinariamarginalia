@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 16</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 16</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0574D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam16">
+        <head xml:id="gom-IIsam16-Hd1e98">Caput 16</head>
+        <div xml:id="gom-IIsam16-Dd1e100">
+          <head xml:id="gom-IIsam16-Hd1e102">Versus 10</head>
+          <p xml:id="gom-IIsam16-d1e104">
+            <quote xml:id="gom-IIsam16-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam16_10@4-5">Quid mihi?</quote>
+            Solus Abisai dixerat: <quote xml:id="gom-IIsam16-Qd1e109" source="http://scta.info/resource/IIsam16_9@15-17">Vadam et amputabo.</quote> Et David Abisai et Joab respondit: <quote xml:id="gom-IIsam16-Qd1e112" source="http://scta.info/resource/IIsam16_10@4-5">Quid mihi?</quote> Nunquid vultis interficere istum sicut interfecistis Abner?
+          </p>
+          <p xml:id="gom-IIsam16-d1e116">
+            <quote xml:id="gom-IIsam16-Qd1e118" type="lemma" source="http://scta.info/resource/IIsam16_10@10-10">Dimittite.</quote>
+            <ref xml:id="gom-IIsam16-Rd1e121"><name xml:id="gom-IIsam16-Nd1e122" ref="#GregoryGreat">GREG.</name> lib. XXX Moral., cap. 9.</ref>
+            <quote xml:id="gom-IIsam16-Qd1e126"><seg type="qs">Qui <pb ed="#P" n="0575A"/> verborum contumeliis pressus virtutem patientiae servare non potest vel sufficit</seg>, etc., usque ad <seg type="qs">quarum interventu, Deo judice, poena gravior declinatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam16-Dd1e137">
+          <head xml:id="gom-IIsam16-Hd1e139">Versus 13</head>
+          <p xml:id="gom-IIsam16-d1e141">
+            <quote xml:id="gom-IIsam16-Qd1e143" type="lemma" source="http://scta.info/resource/IIsam16_13@11-12">Semei autem.</quote>
+            <ref xml:id="gom-IIsam16-Rd1e146"><name xml:id="gom-IIsam16-Nd1e147" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam16-Qd1e150">Hic est Nabath pater Jeroboam secundum Hebraeos, qui filius Jemini dicitur, et in zelo domus Saul maledicit David. Nomen vero avi ejus Jemini fuit. Ipse Semei ex tribu Ephraim filii Joseph exstitit, unde dicit ad David: <quote xml:id="gom-IIsam16-Qd1e152" source="http://scta.info/resource/IIsam19_20@10-15">Primus veni hodie de omni tribu Joseph.</quote> Sed Semei, ut superius legitur, de cognatione Saul fuit. Saul vero de Benjamin. In Esdra Semei filius Cis legitur, quia et Cis et Gera vocabatur, pater ejus filius Jemini, id est Benjamin hic legitur; sed de tribu Joseph primus venisse dicitur, quia in tribu <pb ed="#P" n="0575B"/> Joseph habitavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam16-Dd1e160">
+          <head xml:id="gom-IIsam16-Hd1e162">Versus 15</head>
+          <p xml:id="gom-IIsam16-d1e164">
+            <quote xml:id="gom-IIsam16-Qd1e166" type="lemma" source="http://scta.info/resource/IIsam16_15@12-12">Achitophel.</quote>
+            <ref xml:id="gom-IIsam16-Rd1e169"><name xml:id="gom-IIsam16-Nd1e170" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam16-Qd1e173">Interpretatur <mentioned>ruina fratris</mentioned>. Judas de ruina Christi agens, consilium dedit Judaeis adversus Christum, uterque suspendio interiit.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

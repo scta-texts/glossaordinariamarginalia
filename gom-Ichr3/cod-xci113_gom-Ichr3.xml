@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon I, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon I, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0636D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ichr3">
+        <head xml:id="gom-Ichr3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-Ichr3-Dd1e100">
+          <head xml:id="gom-Ichr3-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ichr3-d1e104">
+            <quote xml:id="gom-Ichr3-Qd1e106" type="lemma" source="http://scta.info/resource/Ichr3_1@1-2">David vero.</quote>
+            Redit ad explicandam progeniem David, quam ante dimisit, cum sobolem Amram filii Hesron enumerans pervenit ad Isai et ad filios ejus, quorum David novissimus.
+          </p>
+          <p xml:id="gom-Ichr3-d1e110">
+            <pb ed="#P" n="0637A"/>
+            <quote xml:id="gom-Ichr3-Qd1e114" type="lemma" source="http://scta.info/resource/Ichr3_1@16-16">Jezraelitide.</quote>
+            <ref xml:id="gom-Ichr3-Rd1e117"><name xml:id="gom-Ichr3-Nd1e118" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr3-Qd1e121">Jezrael civitas est in qua habitavit Naboth, quem occidit Jezabel.</quote>
+          </p>
+          <p xml:id="gom-Ichr3-d1e124">
+            <quote xml:id="gom-Ichr3-Qd1e126" type="lemma" source="http://scta.info/resource/Ichr3_1@18-18">Daniel.</quote>
+            <ref xml:id="gom-Ichr3-Rd1e129"><name xml:id="gom-Ichr3-Nd1e130" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ichr3-Qd1e133">Daniel qui in libro Regum Cheleab, id est, vindicans patrem, quia secundum Hebraeos, disceptans cum Miphiboseth de questionibus legis, victor apparuit et patrem in eo ulcisci visus est, ne irrideretur in disputando ab homine debili vir bellicosus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr3-Dd1e137">
+          <head xml:id="gom-Ichr3-Hd1e139">Versus 3</head>
+          <p xml:id="gom-Ichr3-d1e141">
+            <quote xml:id="gom-Ichr3-Qd1e143" type="lemma" source="http://scta.info/resource/Ichr3_3@7-10">De Egla uxore sua.</quote>
+            <ref xml:id="gom-Ichr3-Rd1e146"><name xml:id="gom-Ichr3-Nd1e147" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-Ichr3-Qd1e150">Quaeritur cur haec Egla sola uxor David dicatur; sed haec est Michol, quae inter multas sola uxor dicitur, quia eam in adolescentia primam accepit uxorem, quae in partu occubuisse dicitur. Egla vero interpretatur vitula, quae significat Synagogam, quae legis jugum suscepit, sed lasciviendo corrupit, unde, <quote xml:id="gom-Ichr3-Qd1e152" source="http://scta.info/resource/os10_11@1-5">Ephraim vitula docta diligere trituram.</quote> Hanc noster <pb ed="#P" n="0637B"/> David accepit, quando eam sibi in testamento dato copulavit. In partu occubuit, quia apparente verbo Dei in carne, et Evangelium praedicante, cum per fidem bonorum operum sobolem gignere debuit, scandalizata in passione ejus sibi mortem aeternam ascivit</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr3-Dd1e160">
+          <head xml:id="gom-Ichr3-Hd1e162">Versus 4</head>
+          <p xml:id="gom-Ichr3-d1e164">
+            <quote xml:id="gom-Ichr3-Qd1e166" type="lemma" source="http://scta.info/resource/Ichr3_4@6-9">In Hebron ubi regnavit,</quote>
+            etc. Quid per regnum David in Hebron vel in Jerusalem accipiatur, librum Regum exponendo perstrinximus. Scriptum est in sequentibus: Omne tempus quo regnavit David quadraginta annis; regnavit in Hebron septem annis, in Jerusalem tribus et triginta, unde quaeritur cur non in summa quadraginta anni et sex menses numerentur; Hebraei autem dicunt quia <pb ed="#P" n="0637C"/> David Absalonem filium suum fugerit sex mensibus, eosque merito a summo regni ejus exclusos. Dicunt etiam quod sex mensibus in Hebron infirmitate corporis laboraverit, et ideo in regno non recte computari. Extunc enim dicunt eum regnavisse in Hebron, ex quo victis Amalecitis de spoliis eorum misit senioribus Juda, his scilicet qui erant Hebron et aliis.
+          </p>
+          <p xml:id="gom-Ichr3-d1e172">
+            <ref xml:id="gom-Ichr3-Rd1e174" type="lemma" subtype="implied" target="http://scta.info/resource/Ichr3_4@6-9"/>
+            VERS 9.-- <quote xml:id="gom-Ichr3-Qd1e176" source="http://scta.info/resource/Ichr3_9@1-4">Omnes hi filii David,</quote> etc. Quia omnes filii Christi aeternam palmam exspectant, sed excipiuntur filii concubinarum, qui nominatim inter caeteros non meruerunt numerari. Judaei enim haeretici vel schismatici hujus societatis consortium habere non possunt: coelestis enim regni gloria filios David de nobili tantum conjugio exspectat. <quote xml:id="gom-Ichr3-Qd1e179" source="http://scta.info/resource/gen21_10@7-14">Non enim haeres erit filius ancillae cum filio liberae</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr3-Dd1e184">
+          <head xml:id="gom-Ichr3-Hd1e186">Versus 15</head>
+          <p xml:id="gom-Ichr3-d1e188">
+            <pb ed="#P" n="0637D"/>
+            <quote xml:id="gom-Ichr3-Qd1e192" type="lemma" source="http://scta.info/resource/Ichr3_15@1-3">Filii autem Josiae.</quote>
+            <ref xml:id="gom-Ichr3-Rd1e195"><name xml:id="gom-Ichr3-Nd1e196" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr3-Qd1e199"><seg type="qs">Quatuor filii Josiae leguntur hic</seg>, etc., usque ad <seg type="qs">qui et similiter translatus est in Chaldaeos.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr3-Dd1e209">
+          <head xml:id="gom-Ichr3-Hd1e211">Versus 18</head>
+          <p xml:id="gom-Ichr3-d1e213">
+            <quote xml:id="gom-Ichr3-Qd1e215" type="lemma" source="http://scta.info/resource/Ichr3_18@1-3">Asir, Salathiel, Melchiram, Phadaia, Senneser,</quote>
+            etc. Haec vero nomina unius hominis sunt, ut Hebraei volunt, ipse est Phadaia pater Zorobabel et Semei. Unde in Esdra et in Matthaeo Zorobabel Salathiel scribitur. Et interpretatur Phadaia <quote xml:id="gom-Ichr3-Qd1e218">redemptus Domini,</quote> Asir <quote xml:id="gom-Ichr3-Qd1e220">carceratus,</quote> Salathiel <quote xml:id="gom-Ichr3-Qd1e222">frutex Domini;</quote> quae omnia conveniunt doctoribus sanctis, quorum officio ecclesiasticus populus generatur, qui diversis afflictionibus castigati per gratiam Domini redempti germina virtutum tam in se quam in subditis proferunt.
+          </p>
+          <p xml:id="gom-Ichr3-d1e225">
+            <pb ed="#P" n="0638A"/>
+            <quote xml:id="gom-Ichr3-Qd1e229" type="lemma" source="http://scta.info/resource/Ichr3_18@3-3">Senneser.</quote>
+            Ipse est Selbasar cui Cyrus annumeravit vasa domus Domini, sicut in Esdra dicitur. Est autem Senneser plasmatus, Sesbasar tribulatus, quae custodibus vasorum Dei congruunt, id est sanctarum animarum quibus Christo, quem Cyrus nomine et absolutione significavit, cui dicitur: <quote xml:id="gom-Ichr3-Qd1e232" source="http://scta.info/resource/ps2_8@1-9">Postula a me et dabo tibi gentes haereditatem tuam</quote>, et qui captivitatem humani generis relaxavit, sanctas animas custodiendas annumeravit, quae sunt vasa Domini numerata, quia <quote xml:id="gom-Ichr3-Qd1e235" source="http://scta.info/resource/IItim2_19@10-13">novit Dominus qui sunt ejus</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

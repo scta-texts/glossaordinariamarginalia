@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1169C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap4">
+        <head xml:id="gom-sap4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-sap4-Dd1e100">
+          <head xml:id="gom-sap4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sap4-d1e104">
+            <quote xml:id="gom-sap4-Qd1e106" type="lemma" source="http://scta.info/resource/sap4_1">O quam pulchra est,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-sap4-Rd1e111"><name xml:id="gom-sap4-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap4-Qd1e115"><seg type="qs">Vituperatis et haereticis et schismaticis laudat catholicos</seg>, etc., usque ad <seg type="qs">et ideo ait: <quote xml:id="gom-sap4-Qd1e121" source="http://scta.info/resource/sap4_1@4-5">Cum claritate,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap4-Dd1e127">
+          <head xml:id="gom-sap4-Hd1e129">Versus 2</head>
+          <p xml:id="gom-sap4-d1e131">
+            <quote xml:id="gom-sap4-Qd1e133" type="lemma" source="http://scta.info/resource/sap4_2@19-20">Praemium vincens.</quote>
+            Praemium datum pro certamine transitorio, quod majus est illis certaminibus et persecutionibus.
+          </p>
+        </div>
+        <div xml:id="gom-sap4-Dd1e138">
+          <head xml:id="gom-sap4-Hd1e140">Versus 3</head>
+          <p xml:id="gom-sap4-d1e142">
+            <quote xml:id="gom-sap4-Qd1e144" type="lemma" source="http://scta.info/resource/sap4_3@1-3">Multigena autem impiorum.</quote>
+            Alternatim de catholicis et haereticis loquitur, ut horum laudabilem sapientiam, illorum vituperabilem demonstret versutiam.
+          </p>
+          <p xml:id="gom-sap4-d1e148">
+            <quote xml:id="gom-sap4-Qd1e150" type="lemma" source="http://scta.info/resource/sap4_3">Plantationes.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Quoniam <foreign xml:lang="greek">μόσχος</foreign> Graece, vitulus Latine dicitur: <foreign xml:lang="greek">μοσκεύματα,</foreign> quidam <pb ed="#P" n="1169D"/> non intellexerunt esse plantationes, et <mentioned>vitulamina</mentioned> interpretati sunt: qui error tam multos codices praeoccupavit, ut vix inveniatur aliter scriptum.
+          </p>
+        </div>
+        <div xml:id="gom-sap4-Dd1e168">
+          <head xml:id="gom-sap4-Hd1e170">Versus 7</head>
+          <p xml:id="gom-sap4-d1e172">
+            <quote xml:id="gom-sap4-Qd1e174" type="lemma" source="http://scta.info/resource/sap4_7@1-1">Justus,</quote>
+            etc.
+            <ref xml:id="gom-sap4-Rd1e177"><name xml:id="gom-sap4-Nd1e178" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap4-Qd1e181"><seg type="qs">Cum dixisset de malorum interitu</seg>, etc., usque ad <seg type="qs">illi de vita ad mortem aeternam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap4-Dd1e191">
+          <head xml:id="gom-sap4-Hd1e193">Versus 10</head>
+          <p xml:id="gom-sap4-d1e195">
+            <quote xml:id="gom-sap4-Qd1e197" type="lemma" source="http://scta.info/resource/sap4_10@1-2">Placens Deo.</quote>
+            <ref xml:id="gom-sap4-Rd1e200"><name xml:id="gom-sap4-Nd1e201" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap4-Qd1e204"><seg type="qs">Non ideo tollit Deus</seg>, etc., usque ad <seg type="qs">unde Petrus, <quote xml:id="gom-sap4-Qd1e210" source="http://scta.info/resource/IIpetr2_9@1-13">Novit Deus pios de tentatione eripere, iniquos vero in diem judicii cruciandos reservare<!-- check: Migne cites Ipetr1; text matches IIpetr2_9 --></quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap4-Dd1e217">
+          <head xml:id="gom-sap4-Hd1e219">Versus 12</head>
+          <p xml:id="gom-sap4-d1e221">
+            <quote xml:id="gom-sap4-Qd1e223" type="lemma" source="http://scta.info/resource/sap4_12@1-1">Fascinatio.</quote>
+            <ref xml:id="gom-sap4-Rd1e226"><name xml:id="gom-sap4-Nd1e227" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sap4-Qd1e230"><seg type="qs">Notatur hac sententia</seg>, etc., usque ad <seg type="qs">Deus enim eos a malorum societate separavit, ut <quote xml:id="gom-sap4-Qd1e236" source="http://scta.info/resource/ps30_21@1-9">absconderet eos in abscondito faciei suae a conturbatione hominum</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap4-Dd1e242">
+          <head xml:id="gom-sap4-Hd1e244">Versus 19</head>
+          <p xml:id="gom-sap4-d1e246">
+            <pb ed="#P" n="1170A"/>
+            <quote xml:id="gom-sap4-Qd1e250" type="lemma" source="http://scta.info/resource/sap4_19@16-20">Disrumpet illos inflatos sine voce,</quote>
+            quia erunt inexcusabiles: <quote xml:id="gom-sap4-Qd1e253" source="http://scta.info/resource/rom1_21@1-16">quia cum cognovissent Deum, non sicut Deum glorificaverunt, aut gratias egerunt, sed evanuerunt in pravis cogitationibus suis</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

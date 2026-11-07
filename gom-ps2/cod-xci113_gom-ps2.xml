@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0846A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps2">
+        <head xml:id="gom-ps2-Hd1e98">Psalmus 2</head>
+        <p xml:id="gom-ps2-d1e100">
+          <quote xml:id="gom-ps2-Qd1e102" type="lemma">Psalmus.</quote>
+          <!-- check: lemma not matched to verse text -->
+          Modulatio quae fit per tactum decem chordarum est bona operatio, quae fit per observantiam decem mandatorum.
+        </p>
+        <p xml:id="gom-ps2-d1e108">
+          <quote xml:id="gom-ps2-Qd1e110" type="lemma">David.</quote>
+          <!-- check: lemma not matched to verse text -->
+          <ref xml:id="gom-ps2-Rd1e115"><name xml:id="gom-ps2-Nd1e116" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-ps2-Qd1e119">Manu fortis vel pulcher aspectu Christus est, qui aereas debellavit potestates, in quem et angeli prospicere desiderant.</quote>
+        </p>
+        <div xml:id="gom-ps2-Dd1e122">
+          <head xml:id="gom-ps2-Hd1e124">Versus 1</head>
+          <p xml:id="gom-ps2-d1e126">
+            <quote xml:id="gom-ps2-Qd1e128" type="lemma" source="http://scta.info/resource/ps2_1@1-3">Quare fremuerunt gentes, etc.</quote>
+            <ref xml:id="gom-ps2-Rd1e131"><name xml:id="gom-ps2-Nd1e132" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e135">Iste psalmus est secundus in ordine, primus in titulo; unde in Actibus apostolorum dicitur primus. Primo increpat persequentes et minatur, <pb ed="#P" n="0846B"/> praedicit quasi propheta.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e141">
+            <quote xml:id="gom-ps2-Qd1e143" type="lemma" source="http://scta.info/resource/ps2_1@8-8">Inania.</quote>
+            <ref xml:id="gom-ps2-Rd1e146"><name xml:id="gom-ps2-Nd1e147" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e150">Detinere eum in morte; vel, ne mundus post eum abiret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e154">
+          <head xml:id="gom-ps2-Hd1e156">Versus 2</head>
+          <p xml:id="gom-ps2-d1e158">
+            <quote xml:id="gom-ps2-Qd1e160" type="lemma" source="http://scta.info/resource/ps2_2@2-2">Reges.</quote>
+            <ref xml:id="gom-ps2-Rd1e163"><name xml:id="gom-ps2-Nd1e164" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e167">Prior qui infantes occidit Herodes, posterior qui Pilato consensit in morte Christi. Reges et principes.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e170">
+            <ref xml:id="gom-ps2-Rd1e172" type="lemma" subtype="implied" target="http://scta.info/resource/ps2_2@2-2"/>
+            <ref xml:id="gom-ps2-Rd1e174"><name xml:id="gom-ps2-Nd1e175" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e178">Potuit etiam secundum Ambrosium de uno pluraliter dicere. Solus enim rex Herodes et princeps Pilatus in apostolorum Actibus adversus Christum conspirasse voce Petri produntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e183">
+          <head xml:id="gom-ps2-Hd1e185">Versus 3</head>
+          <p xml:id="gom-ps2-d1e187">
+            <quote xml:id="gom-ps2-Qd1e189" type="lemma" source="http://scta.info/resource/ps2_3@1-1">Dirumpamus.</quote>
+            <ref xml:id="gom-ps2-Rd1e192"><name xml:id="gom-ps2-Nd1e193" ref="#Ambrose">AMB.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e196">Vel convenerunt, dicentes: Dirumpamus rationes eorum, Domini et Christi, vel Christi et discipulorum, quibus nos sibi astringere volunt.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e199">
+            <ref xml:id="gom-ps2-Rd1e201" type="lemma" subtype="implied" target="http://scta.info/resource/ps2_3@1-1"/>
+            <ref xml:id="gom-ps2-Rd1e203"><name xml:id="gom-ps2-Nd1e204" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e207">Et si aliter posset dici apertius illis convenit qui nolunt jugum Christi sibi imponi.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e210">
+            <quote xml:id="gom-ps2-Qd1e212" type="lemma" source="http://scta.info/resource/ps2_3@2-2">Vincula.</quote>
+            Promissiones vitae aeternae, <pb ed="#P" n="0846C"/> et comminationes gehennae, per quae volunt nos sibi subjugare.
+          </p>
+          <p xml:id="gom-ps2-d1e218">
+            <quote xml:id="gom-ps2-Qd1e220" type="lemma" source="http://scta.info/resource/ps2_3@5-5">Projiciamus.</quote>
+            Destructis rationibus, dominium ipsius a nobis excutiamus.
+          </p>
+          <p xml:id="gom-ps2-d1e225">
+            <ref xml:id="gom-ps2-Rd1e227" type="lemma" subtype="implied" target="http://scta.info/resource/ps2_3@5-5"/>
+            <ref xml:id="gom-ps2-Rd1e229"><name xml:id="gom-ps2-Nd1e230" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e233">Jugum, id est, legem: sed <quote xml:id="gom-ps2-Qd1e235" source="http://scta.info/resource/ps2_4@1-4">qui habitat in coelis.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e240">
+          <head xml:id="gom-ps2-Hd1e242">Versus 4</head>
+          <p xml:id="gom-ps2-d1e244">
+            <quote xml:id="gom-ps2-Qd1e246" type="lemma" source="http://scta.info/resource/ps2_4@5-5">Irridebit.</quote>
+            <ref xml:id="gom-ps2-Rd1e249"><name xml:id="gom-ps2-Nd1e250" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e253">Ut quando positis custodibus surrexit: <quote xml:id="gom-ps2-Qd1e255" source="http://scta.info/resource/ps2_4@9-9">Subsannabit,</quote> quando per mundum dispersi sunt. Irrisio Dei vis est praescientiae quam dat Deus sanctis, ut, videntes nomen Christi futurum in omnibus gentibus, illos inania meditatos intelligant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e261">
+          <head xml:id="gom-ps2-Hd1e263">Versus 5</head>
+          <p xml:id="gom-ps2-d1e265">
+            <quote xml:id="gom-ps2-Qd1e267" type="lemma" source="http://scta.info/resource/ps2_5@2-4">Loquetur ad eos.</quote>
+            <ref xml:id="gom-ps2-Rd1e270"><name xml:id="gom-ps2-Nd1e271" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e274">Planius aperit cum dicit, conturbabit. Ira Dei est motus qui fit in anima quae legem Dei novit, cum videt eam a malo praeteriri per quem motum multa vindicantur: vel, ira Dei est obscuratio mentis transgressorum <pb ed="#P" n="0846D"/> legis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e281">
+          <head xml:id="gom-ps2-Hd1e283">Versus 6</head>
+          <p xml:id="gom-ps2-d1e285">
+            <quote xml:id="gom-ps2-Qd1e287" type="lemma" source="http://scta.info/resource/ps2_6@1-2">Ego autem.</quote>
+            <ref xml:id="gom-ps2-Rd1e290"><name xml:id="gom-ps2-Nd1e291" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e294">Secundo, inducit verba ejus de omnipotenti regno et inenarrabili generatione sua, ubi de divinitate et humanitate ejus discimus.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e297">
+            <quote xml:id="gom-ps2-Qd1e299" type="lemma" source="http://scta.info/resource/ps2_6@5-5">Rex.</quote>
+            <ref xml:id="gom-ps2-Rd1e302"><name xml:id="gom-ps2-Nd1e303" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e306">Sic et reges terrae ab eo constituti.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e309">
+            <quote xml:id="gom-ps2-Qd1e311" type="lemma" source="http://scta.info/resource/ps2_6@8-9">Praedicans super Sion,</quote>
+            sic et prophetae, <quote xml:id="gom-ps2-Qd1e314" source="http://scta.info/resource/ps2_7@6-6">Filius,</quote> sic et Israel, <quote xml:id="gom-ps2-Qd1e317" source="http://scta.info/resource/ps2_7@13-14">Genui te.</quote> Hoc soli Christo.
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e322">
+          <head xml:id="gom-ps2-Hd1e324">Versus 7</head>
+          <p xml:id="gom-ps2-d1e326">
+            <quote xml:id="gom-ps2-Qd1e328" type="lemma" source="http://scta.info/resource/ps2_7@1-2">Dominus dixit.</quote>
+            Persona regnantis.
+          </p>
+          <p xml:id="gom-ps2-d1e332">
+            <quote xml:id="gom-ps2-Qd1e334" type="lemma" source="http://scta.info/resource/ps2_7@6-7">Filius meus.</quote>
+            <ref xml:id="gom-ps2-Rd1e337"><name xml:id="gom-ps2-Nd1e338" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e341">Ideo do tibi gentes haereditatem potius quam alicui obedienti: quia Filius per naturam, et consubstantialis ineffabili genitura.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e344">
+            <quote xml:id="gom-ps2-Qd1e346" type="lemma" source="http://scta.info/resource/ps2_7@12-12">Hodie.</quote>
+            <ref xml:id="gom-ps2-Rd1e349"><name xml:id="gom-ps2-Nd1e350" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e353">Etsi possit accipi de die qua secundum hominem natus est, tamen hodie quia praesentiam <pb ed="#P" n="0847A"/> significat, de sempiterna generatione sapientiae Dei accipiatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e360">
+          <head xml:id="gom-ps2-Hd1e362">Versus 8</head>
+          <p xml:id="gom-ps2-d1e364">
+            <quote xml:id="gom-ps2-Qd1e366" type="lemma" source="http://scta.info/resource/ps2_8@1-1">Postula.</quote>
+            <ref xml:id="gom-ps2-Rd1e369"><name xml:id="gom-ps2-Nd1e370" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e373">Ad susceptionem hominis pertinet: quae pro salute hominum facta, secundum quam interpellat pro nobis.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e376">
+            <quote xml:id="gom-ps2-Qd1e378" type="lemma" source="http://scta.info/resource/ps2_8@8-8">Haereditatem.</quote>
+            <ref xml:id="gom-ps2-Rd1e381"><name xml:id="gom-ps2-Nd1e382" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e385">Haereditas ab hero, quod in ea potestate libera dominetur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e390">
+          <head xml:id="gom-ps2-Hd1e392">Versus 9</head>
+          <p xml:id="gom-ps2-d1e394">
+            <quote xml:id="gom-ps2-Qd1e396" type="lemma" source="http://scta.info/resource/ps2_9@1-2">Reges eos.</quote>
+            <ref xml:id="gom-ps2-Rd1e399"><name xml:id="gom-ps2-Nd1e400" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e403">Partim reges, partim franges, secundum illud: <quote xml:id="gom-ps2-Qd1e405" source="http://scta.info/resource/lc2_34@11-19">Ecce hic positus est in ruinam et in resurrectionem multorum ,</quote> ut qui justus est, justificetur adhuc: et qui in sordibus est, sordescat adhuc <!--<note>(Apoc. XXII)</note>-->. » <quote xml:id="gom-ps2-Qd1e410" source="http://scta.info/resource/ps2_9@4-5">Virga ferrea.</quote></quote>
+          </p>
+          <p xml:id="gom-ps2-d1e414">
+            <ref xml:id="gom-ps2-Rd1e416" type="lemma" subtype="implied" target="http://scta.info/resource/ps2_9@1-2"/>
+            <ref xml:id="gom-ps2-Rd1e418"><name xml:id="gom-ps2-Nd1e419" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e422">Potestas Christi, virga ferrea; peccator, vas figuli, quod et luteum et facile frangitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e426">
+          <head xml:id="gom-ps2-Hd1e428">Versus 10</head>
+          <p xml:id="gom-ps2-d1e430">
+            <quote xml:id="gom-ps2-Qd1e432" type="lemma" source="http://scta.info/resource/ps2_10@1-4">Et nunc, reges, intelligite.</quote>
+            Nunc, <pb ed="#P" n="0847B"/> id est, per ea quae dicta sunt.
+          </p>
+          <p xml:id="gom-ps2-d1e438">
+            <ref xml:id="gom-ps2-Rd1e440" type="lemma" subtype="implied" target="http://scta.info/resource/ps2_10@1-4"/>
+            <ref xml:id="gom-ps2-Rd1e442"><name xml:id="gom-ps2-Nd1e443" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e446">Tertio pro his patefactis admonet omnes humiliter obedire, et suadet ab utili ne pereant, et ab honesto, quia beati qui confidunt in eo. In hoc post Christum quasi Apostolus loquitur.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e449">
+            <ref xml:id="gom-ps2-Rd1e451" type="lemma" subtype="implied" target="http://scta.info/resource/ps2_10@1-4"/>
+            <ref xml:id="gom-ps2-Rd1e453"><name xml:id="gom-ps2-Nd1e454" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e457">Vel, me rege constituto, ne tristemini, reges terrae; expedit enim vobis ut sub illo sitis, a quo est intellectus, et eruditio, ut non temere dominemini, sed Domino omnium serviatis, et in beatitudine exsultetis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e461">
+          <head xml:id="gom-ps2-Hd1e463">Versus 12</head>
+          <p xml:id="gom-ps2-d1e465">
+            <quote xml:id="gom-ps2-Qd1e467" type="lemma" source="http://scta.info/resource/ps2_12@3-4">Nequando irascatur.</quote>
+            <ref xml:id="gom-ps2-Rd1e470"><name xml:id="gom-ps2-Nd1e471" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e474">Dubitatio non secundum prophetam, sed secundum ipsos, qui cum dubitatione cogitant iram Dei.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e477">
+            <quote xml:id="gom-ps2-Qd1e479" type="lemma" source="http://scta.info/resource/ps2_12@8-10">De via justa,</quote>
+            id est, Christo sublati, vel de bona operatione.
+          </p>
+        </div>
+        <div xml:id="gom-ps2-Dd1e484">
+          <head xml:id="gom-ps2-Hd1e486">Versus 13</head>
+          <p xml:id="gom-ps2-d1e488">
+            <pb ed="#P" n="0847C"/>
+            <quote xml:id="gom-ps2-Qd1e492" type="lemma" source="http://scta.info/resource/ps2_13@1-2">Cum exarserit.</quote>
+            <ref xml:id="gom-ps2-Rd1e495"><name xml:id="gom-ps2-Nd1e496" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps2-Qd1e499">Modo non ardet cum castigat, ut pater, sed in futuro ardebit, quia nihil patientiae in futuro erit.</quote>
+          </p>
+          <p xml:id="gom-ps2-d1e502">
+            <quote xml:id="gom-ps2-Qd1e504" type="lemma" source="http://scta.info/resource/ps2_13@3-5">In brevi ira.</quote>
+            Quia non singula horum separatim, sed simul omnia discutit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

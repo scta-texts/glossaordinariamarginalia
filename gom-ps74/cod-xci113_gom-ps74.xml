@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 74</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 74</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0962A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps74">
+        <head xml:id="gom-ps74-Hd1e98">Psalmus 74</head>
+        <div xml:id="gom-ps74-Dd1e100">
+          <head xml:id="gom-ps74-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps74-d1e104">
+            <quote xml:id="gom-ps74-Qd1e106" type="lemma" source="http://scta.info/resource/ps74_1@1-4">In finem, ne corrumpas,</quote>
+            etc.
+            <ref xml:id="gom-ps74-Rd1e109"><name xml:id="gom-ps74-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e113"><seg type="qs">Monet hic psalmus</seg>, etc., usque ad <seg type="qs">ut Judaei credant, non corrumpant fidem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e122">
+          <head xml:id="gom-ps74-Hd1e124">Versus 2</head>
+          <p xml:id="gom-ps74-d1e126">
+            <quote xml:id="gom-ps74-Qd1e128" type="lemma" source="http://scta.info/resource/ps74_2@1-3">Confitebimur tibi, Deus.</quote>
+            <ref xml:id="gom-ps74-Rd1e131"><name xml:id="gom-ps74-Nd1e132" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e135">Certus ergo de praemissis incipit: <quote xml:id="gom-ps74-Qd1e137" source="http://scta.info/resource/ps74_2@1-1">Confitebimur.</quote> Repetitio <pb ed="#P" n="0962B"/> affirmatio est, ne poeniteat te esse confessum: unde et Dominus congeminat.</quote>
+          </p>
+          <p xml:id="gom-ps74-d1e144">
+            <quote xml:id="gom-ps74-Qd1e146" type="lemma" source="http://scta.info/resource/ps74_2">Amen, amen.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Fiat, fiat. Et Joseph de somno Pharaonis, qui vidit septem spicas, et totidem steriles. Et septem boves pingues et totidem macilentas.
+          </p>
+          <p xml:id="gom-ps74-d1e152">
+            <ref xml:id="gom-ps74-Rd1e154" type="lemma" subtype="implied" target="http://scta.info/resource/ps74_2"/>
+            <ref xml:id="gom-ps74-Rd1e156"><name xml:id="gom-ps74-Nd1e157" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e160">Repetitio confirmatio est ad significationem veritatis. Sufficeret unum ad significationem firmitatis, accessit alterum. Confiteri peccata vel semel terreno judici mortem inducit, sed Deo frequens confessio vitam? Inde invocatio, post narratio; unde sequitur: <quote xml:id="gom-ps74-Qd1e162" source="http://scta.info/resource/ps74_2@6-8">Narrabimus. Invocabimus nomen tuum.</quote></quote>
+          </p>
+          <p xml:id="gom-ps74-d1e166">
+            <ref xml:id="gom-ps74-Rd1e168" type="lemma" subtype="implied" target="http://scta.info/resource/ps74_2"/>
+            <ref xml:id="gom-ps74-Rd1e170"><name xml:id="gom-ps74-Nd1e171" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e174">Post confessionem potest invocari Deus, in hominem sic mundatum: et sicut per confessionem evacuatur a malis, sic per invocationem impletur bonis.</quote>
+          </p>
+          <p xml:id="gom-ps74-d1e178">
+            <quote xml:id="gom-ps74-Qd1e180" type="lemma" source="http://scta.info/resource/ps74_2@10-12">Narrabimus mirabilia tua,</quote>
+            etc.
+            <ref xml:id="gom-ps74-Rd1e183"><name xml:id="gom-ps74-Nd1e184" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e187"><seg type="qs">Terretur <pb ed="#P" n="0962C"/> superbus judicio</seg>, etc., usque ad <seg type="qs">in cujus persona subditur:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e198">
+          <head xml:id="gom-ps74-Hd1e200">Versus 3</head>
+          <p xml:id="gom-ps74-d1e202">
+            <quote xml:id="gom-ps74-Qd1e204" type="lemma" source="http://scta.info/resource/ps74_3@1-3">Cum accepero tempus,</quote>
+            secundum hominem accipit, quod ipse Deus dat, id est, potestatem judicium faciendi.
+          </p>
+          <p xml:id="gom-ps74-d1e208">
+            <quote xml:id="gom-ps74-Qd1e210" type="lemma" source="http://scta.info/resource/ps74_3@5-5">Justitias.</quote>
+            Judicandi igitur ante precentur absolvi.
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e215">
+          <head xml:id="gom-ps74-Hd1e217">Versus 4</head>
+          <p xml:id="gom-ps74-d1e219">
+            <quote xml:id="gom-ps74-Qd1e221" type="lemma" source="http://scta.info/resource/ps74_4@1-3">Liquefacta est terra.</quote>
+            <ref xml:id="gom-ps74-Rd1e224"><name xml:id="gom-ps74-Nd1e225" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e228">Ostendit omnes inexcusabiles in judicio, per hoc, quod praemisit Apostolos et Prophetas.</quote>
+          </p>
+          <p xml:id="gom-ps74-d1e231">
+            <quote xml:id="gom-ps74-Qd1e233" type="lemma" source="http://scta.info/resource/ps74_4@3-5">Terra et omnes.</quote>
+            <ref xml:id="gom-ps74-Rd1e236"><name xml:id="gom-ps74-Nd1e237" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e240">Prius firma, in diversas diffluit concupiscentias. Vel, terra prius vitiis constricta, flante Spiritu sancto, liquefacta est, ut germina virtutum emitteret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e245">
+          <head xml:id="gom-ps74-Hd1e247">Versus 5</head>
+          <p xml:id="gom-ps74-d1e249">
+            <quote xml:id="gom-ps74-Qd1e251" type="lemma" source="http://scta.info/resource/ps74_5@5-6">Inique agere.</quote>
+            <ref xml:id="gom-ps74-Rd1e254"><name xml:id="gom-ps74-Nd1e255" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e258">Malum est peccare; pejus est perseverare, perniciosus defendendo <pb ed="#P" n="0962D"/> se, in Deum culpam refundere.</quote>
+          </p>
+          <p xml:id="gom-ps74-d1e264">
+            <quote xml:id="gom-ps74-Qd1e266" type="lemma" source="http://scta.info/resource/ps74_5@11-13">Nolite exaltare cornu.</quote>
+            <ref xml:id="gom-ps74-Rd1e269"><name xml:id="gom-ps74-Nd1e270" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e273">Maximum est vitium excusationis, quasi cornu erigit qui peccata sua per alios nititur excusare, ut per diabolorum persuasiones, vel per necessitatem stellarum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e277">
+          <head xml:id="gom-ps74-Hd1e279">Versus 6</head>
+          <p xml:id="gom-ps74-d1e281">
+            <quote xml:id="gom-ps74-Qd1e283" type="lemma" source="http://scta.info/resource/ps74_6@9-9">Loqui.</quote>
+            Ut qui non sua culpa, sed necessitate stellarum, dicunt se peccasse, ut Deo, non sibi imputetur. Vel, qui sciunt peccata sua, sed impunitatem sibi promittunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e288">
+          <head xml:id="gom-ps74-Hd1e290">Versus 7</head>
+          <p xml:id="gom-ps74-d1e292">
+            <quote xml:id="gom-ps74-Qd1e294" type="lemma" source="http://scta.info/resource/ps74_7@1-4">Quia neque ab oriente.</quote>
+            <ref xml:id="gom-ps74-Rd1e297"><name xml:id="gom-ps74-Nd1e298" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e301">Cur haec? quia judex talis est, qui vitari non potest: quia ubique est; Deus enim est.</quote>
+          </p>
+          <p xml:id="gom-ps74-d1e304">
+            <ref xml:id="gom-ps74-Rd1e306" type="lemma" subtype="implied" target="http://scta.info/resource/ps74_7@1-4"/>
+            <ref xml:id="gom-ps74-Rd1e308"><name xml:id="gom-ps74-Nd1e309" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e312">De nullo loco divisim judicat, qui ubique praesens est ut Deus.</quote>
+          </p>
+          <p xml:id="gom-ps74-d1e315">
+            <ref xml:id="gom-ps74-Rd1e317" type="lemma" subtype="implied" target="http://scta.info/resource/ps74_7@1-4"/>
+            <ref xml:id="gom-ps74-Rd1e319"><name xml:id="gom-ps74-Nd1e320" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e323">Mystice.</quote>
+          </p>
+          <p xml:id="gom-ps74-d1e326">
+            <quote xml:id="gom-ps74-Qd1e328" type="lemma" source="http://scta.info/resource/ps74_7@4-4">Oriens,</quote>
+            <quote xml:id="gom-ps74-Qd1e331"><seg type="qs">quibus sol justitiae <pb ed="#P" n="0963A"/> oritur</seg>, etc., usque ad <seg type="qs">quia Deus praesens et cognitor est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e342">
+          <head xml:id="gom-ps74-Hd1e344">Versus 9</head>
+          <p xml:id="gom-ps74-d1e346">
+            <quote xml:id="gom-ps74-Qd1e348" type="lemma" source="http://scta.info/resource/ps74_9@1-2">Quia calix.</quote>
+            <ref xml:id="gom-ps74-Rd1e351"><name xml:id="gom-ps74-Nd1e352" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e355"><seg type="qs">Calix, lex et omnis Scriptura</seg>, etc., usque ad <seg type="qs">quod ante, <quote xml:id="gom-ps74-Qd1e361" source="http://scta.info/resource/ps74_8@7-9">et hunc exaltat.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps74-d1e365">
+            <ref xml:id="gom-ps74-Rd1e367"><name xml:id="gom-ps74-Nd1e368" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e371" type="lemma" source="http://scta.info/resource/ps74_9@2-2">Calix,</quote>
+            <quote xml:id="gom-ps74-Qd1e374">lex;</quote>
+          </p>
+          <p xml:id="gom-ps74-d1e377">
+            <quote xml:id="gom-ps74-Qd1e379" type="lemma" source="http://scta.info/resource/ps74_9">vinum merum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-ps74-Qd1e384"><seg type="qs">mysterium coeleste</seg>, etc., usque ad <seg type="qs">non solum Judaei.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e393">
+          <head xml:id="gom-ps74-Hd1e395">Versus 10</head>
+          <p xml:id="gom-ps74-d1e397">
+            <quote xml:id="gom-ps74-Qd1e399" type="lemma" source="http://scta.info/resource/ps74_10@1-9">Ego autem annuntiabo in saeculum: cantabo Deo Jacob.</quote>
+            <ref xml:id="gom-ps74-Rd1e402"><name xml:id="gom-ps74-Nd1e403" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps74-Qd1e406">Omnes bibent, sed seorsum: ego, id est Christus, cum corpore, <quote xml:id="gom-ps74-Qd1e408" source="http://scta.info/resource/ps74_10@3-5">annuntiabo in saeculum</quote> quandiu saeculum erit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps74-Dd1e414">
+          <head xml:id="gom-ps74-Hd1e416">Versus 11</head>
+          <p xml:id="gom-ps74-d1e418">
+            <quote xml:id="gom-ps74-Qd1e420" type="lemma" source="http://scta.info/resource/ps74_11@8-9">Cornua justi,</quote>
+            id est, munera Christi, quae sunt sublimitas justi.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

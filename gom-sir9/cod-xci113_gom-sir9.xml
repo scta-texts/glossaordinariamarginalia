@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1194A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir9">
+        <head xml:id="gom-sir9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-sir9-Dd1e100">
+          <head xml:id="gom-sir9-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir9-d1e104">
+            <pb ed="#P" n="1194A"/>
+            <quote xml:id="gom-sir9-Qd1e108" type="lemma" source="http://scta.info/resource/sir9_1@1-3">Non zeles mulierem,</quote>
+            etc.
+            <ref xml:id="gom-sir9-Rd1e111"><name xml:id="gom-sir9-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir9-Qd1e115"><seg type="qs">Docet pudicitiam</seg>, etc., usque ad <seg type="qs">non consentit haereticae pravitati.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir9-Dd1e124">
+          <head xml:id="gom-sir9-Hd1e126">Versus 3</head>
+          <p xml:id="gom-sir9-d1e128">
+            <quote xml:id="gom-sir9-Qd1e130" type="lemma" source="http://scta.info/resource/sir9_3@3-4">Mulierem multivolam.</quote>
+            Haereticorum Synagogam, quae per diversos errores volitat.
+          </p>
+        </div>
+        <div xml:id="gom-sir9-Dd1e135">
+          <head xml:id="gom-sir9-Hd1e137">Versus 4</head>
+          <p xml:id="gom-sir9-d1e139">
+            <quote xml:id="gom-sir9-Qd1e141" type="lemma" source="http://scta.info/resource/sir9_4@1-5">Cum saltatrice ne assiduus sis.</quote>
+            Haereticorum turba, quae per diversos errores dissilit, ut quem eloquentiae suae amatorem conspexerit ad se trahat quasi meretrix; unde: <quote xml:id="gom-sir9-Qd1e144" source="http://scta.info/resource/prov7_21@1-8">Irretivit eum multis sermonibus, et blanditiis labiorum traxit eum</quote>, etc.
+          </p>
+        </div>
+        <div xml:id="gom-sir9-Dd1e149">
+          <head xml:id="gom-sir9-Hd1e151">Versus 5</head>
+          <p xml:id="gom-sir9-d1e153">
+            <quote xml:id="gom-sir9-Qd1e155" type="lemma" source="http://scta.info/resource/sir9_5@1-3">Virginem ne conspicias.</quote>
+            Averte oculos tuos, ne videant vanitatem: ne libeat videre quae non licet concupiscere. Mystice autem non debemus decorem eloquentiae haereticae amare, nec simulatas <pb ed="#P" n="1194B"/> virtutes attendere.
+          </p>
+        </div>
+        <div xml:id="gom-sir9-Dd1e163">
+          <head xml:id="gom-sir9-Hd1e165">Versus 7</head>
+          <p xml:id="gom-sir9-d1e167">
+            <quote xml:id="gom-sir9-Qd1e169" type="lemma" source="http://scta.info/resource/sir9_7@3-5">In vicis civitatis,</quote>
+            etc. Idem sub alia figura. Vici enim civitatis, haereticorum conventicula sunt: quae se a civitate separant, de qua dicitur: <quote xml:id="gom-sir9-Qd1e172" source="http://scta.info/resource/ps86_3@1-7">Gloriosa dicta sunt de te, civitas Dei</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir9-Dd1e177">
+          <head xml:id="gom-sir9-Hd1e179">Versus 14</head>
+          <p xml:id="gom-sir9-d1e181">
+            <quote xml:id="gom-sir9-Qd1e183" type="lemma" source="http://scta.info/resource/sir9_14@1-3">Ne derelinquas amicum.</quote>
+            Major est fiducia ex parte rei cognitae, quam ignotae. Doctrinam quoque sanctorum Patrum non debemus declinare et novellos doctores audire.
+          </p>
+        </div>
+        <div xml:id="gom-sir9-Dd1e188">
+          <head xml:id="gom-sir9-Hd1e190">Versus 15</head>
+          <p xml:id="gom-sir9-d1e192">
+            <quote xml:id="gom-sir9-Qd1e194" type="lemma" source="http://scta.info/resource/sir9_15@1-2">Vinum novum,</quote>
+            etc. Novus doctor studere debet, ut sanam doctrinam et operationem firmiter percipiat: et postea sibi et aliis proficiat.
+          </p>
+        </div>
+        <div xml:id="gom-sir9-Dd1e199">
+          <head xml:id="gom-sir9-Hd1e201">Versus 25</head>
+          <p xml:id="gom-sir9-d1e203">
+            <quote xml:id="gom-sir9-Qd1e205" type="lemma" source="http://scta.info/resource/sir9_25@7-7">Linguosus.</quote>
+            Haereticus, qui semper contentiosus, et ideo odibilis Deo et hominibus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

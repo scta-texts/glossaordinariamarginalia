@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 40</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 40</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0903C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps40">
+        <head xml:id="gom-ps40-Hd1e98">Psalmus 40</head>
+        <div xml:id="gom-ps40-Dd1e100">
+          <head xml:id="gom-ps40-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps40-d1e104">
+            <quote xml:id="gom-ps40-Qd1e106" type="lemma" source="http://scta.info/resource/ps40_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps40-Rd1e109"><name xml:id="gom-ps40-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e113"><seg type="qs"><quote xml:id="gom-ps40-Qd1e115" source="http://scta.info/resource/ps41_1@3-5">Intellectus filiis Core,</quote> ut quamvis pauper et passus</seg>, etc., usque ad <seg type="qs">Apostolo dicente: <quote xml:id="gom-ps40-Qd1e121">Mihi autem,</quote> etc.--<ref xml:id="gom-ps40-Rd1e123"><name xml:id="gom-ps40-Nd1e124" ref="#Augustine">AUG.</name></ref><!-- check: attribution inside gloss body --> Quasi <pb ed="#P" n="0903D"/> unius hominis vox est capitis et corporis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e133">
+          <head xml:id="gom-ps40-Hd1e135">Versus 2</head>
+          <p xml:id="gom-ps40-d1e137">
+            <quote xml:id="gom-ps40-Qd1e139" type="lemma" source="http://scta.info/resource/ps40_2@1-1">Beatus.</quote>
+            Irridetur qui colit pauperem mortuum; sed <quote xml:id="gom-ps40-Qd1e142" source="http://scta.info/resource/ps40_2@1-1">beatus.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e146">
+            <ref xml:id="gom-ps40-Rd1e148" type="lemma" subtype="implied" target="http://scta.info/resource/ps40_2@1-1"/>
+            <ref xml:id="gom-ps40-Rd1e150"><name xml:id="gom-ps40-Nd1e151" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e154">Propheta intelligentem super egenum et pauperem concelebrat.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e157">
+            <ref xml:id="gom-ps40-Rd1e159" type="lemma" subtype="implied" target="http://scta.info/resource/ps40_2@1-1"/>
+            <ref xml:id="gom-ps40-Rd1e161"><name xml:id="gom-ps40-Nd1e162" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e165">Prius Propheta a se, post inducet Christum.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e168">
+            <quote xml:id="gom-ps40-Qd1e170" type="lemma" source="http://scta.info/resource/ps40_2@2-3">Qui intelligit.</quote>
+            <ref xml:id="gom-ps40-Rd1e173"><name xml:id="gom-ps40-Nd1e174" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e177">Nota <quote xml:id="gom-ps40-Qd1e179" source="http://scta.info/resource/ps40_2@2-3">qui intelligit,</quote> ut et non petentibus detur: qui petenti dat bene facit, qui tacentem intelligit, beatus sine dubio est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e185">
+          <head xml:id="gom-ps40-Hd1e187">Versus 3</head>
+          <p xml:id="gom-ps40-d1e189">
+            <quote xml:id="gom-ps40-Qd1e191" type="lemma" source="http://scta.info/resource/ps40_3@1-2">Dominus conservet.</quote>
+            <ref xml:id="gom-ps40-Rd1e194"><name xml:id="gom-ps40-Nd1e195" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e198">Bene optat Propheta intelligenti super egenum et pauperem, quod est certa promissio.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e201">
+            <quote xml:id="gom-ps40-Qd1e203" type="lemma" source="http://scta.info/resource/ps40_3@4-5">Et vivificet.</quote>
+            <ref xml:id="gom-ps40-Rd1e206"><name xml:id="gom-ps40-Nd1e207" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e210">In futura vita, vel, hic per justificationem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e214">
+          <head xml:id="gom-ps40-Hd1e216">Versus 4</head>
+          <p xml:id="gom-ps40-d1e218">
+            <quote xml:id="gom-ps40-Qd1e220" type="lemma" source="http://scta.info/resource/ps40_4@1-2">Dominus opem.</quote>
+            <ref xml:id="gom-ps40-Rd1e223"><name xml:id="gom-ps40-Nd1e224" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e227">Ne putes beatum requiem hic habere: dolores ei mitigat, et precatur <pb ed="#P" n="0904A"/> ne hominis infirmitas duris superetur; quasi, lectus quietis sunt haec bona temporalia: sed Deus facit haec doloribus plena, ne in eis spes habeatur.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e233">
+            <quote xml:id="gom-ps40-Qd1e235" type="lemma" source="http://scta.info/resource/ps40_4@6-6">Lectum.</quote>
+            <ref xml:id="gom-ps40-Rd1e238"><name xml:id="gom-ps40-Nd1e239" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e242"><quote xml:id="gom-ps40-Qd1e243" source="http://scta.info/resource/ps40_4@10-10">Universum</quote> enim <quote xml:id="gom-ps40-Qd1e246" source="http://scta.info/resource/ps40_4@11-11">stratum,</quote> id est, mundanam felicitatem provide convertit Deus in angustias.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e251">
+            <ref xml:id="gom-ps40-Rd1e253" type="lemma" subtype="implied" target="http://scta.info/resource/ps40_4@6-6"/>
+            <ref xml:id="gom-ps40-Rd1e255"><name xml:id="gom-ps40-Nd1e256" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e259">Hic trepidus ipse misericordiam petit: quia qui se peccasse sciebat, his jure tradi timebat: sed ne famuli Dei his afflicti videantur a Deo deserti, cum ipse Deus pertulit talia; unde dicit: <quote xml:id="gom-ps40-Qd1e261" source="http://scta.info/resource/ps40_6@1-3">Inimici mei dixerunt.</quote> Vel, <quote xml:id="gom-ps40-Qd1e264" source="http://scta.info/resource/ps40_4@6-7">lectus doloris.</quote></quote>
+          </p>
+          <p xml:id="gom-ps40-d1e268">
+            <ref xml:id="gom-ps40-Rd1e270" type="lemma" subtype="implied" target="http://scta.info/resource/ps40_4@6-6"/>
+            <ref xml:id="gom-ps40-Rd1e272"><name xml:id="gom-ps40-Nd1e273" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e276"><seg type="qs">Caro, in qua peccatum</seg>, etc., usque ad <seg type="qs">quando Adam infirmatus est praevaricando.</seg></quote>
+          </p>
+          <p xml:id="gom-ps40-d1e285">
+            <quote xml:id="gom-ps40-Qd1e287" type="lemma" source="http://scta.info/resource/ps40_4@2-2">Opem</quote>
+            <ref xml:id="gom-ps40-Rd1e290"><name xml:id="gom-ps40-Nd1e291" ref="#Augustine">AUG.</name>, HIER.</ref>
+            <quote xml:id="gom-ps40-Qd1e295">In infirmitate carnis, quae gravat animam.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e298">
+            <quote xml:id="gom-ps40-Qd1e300" type="lemma" source="http://scta.info/resource/ps40_4@11-11">Stratum.</quote>
+            <ref xml:id="gom-ps40-Rd1e303"><name xml:id="gom-ps40-Nd1e304" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e307"><seg type="qs">Est aliquod terrenum quod infirmus</seg>, etc., usque ad <seg type="qs">pro domo aeternae habitationis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e317">
+          <head xml:id="gom-ps40-Hd1e319">Versus 6</head>
+          <p xml:id="gom-ps40-d1e321">
+            <pb ed="#P" n="0904B"/>
+            <quote xml:id="gom-ps40-Qd1e325" type="lemma" source="http://scta.info/resource/ps40_6@1-2">Inimici mei.</quote>
+            <ref xml:id="gom-ps40-Rd1e328"><name xml:id="gom-ps40-Nd1e329" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e332">Dominus de passione sua, quae secundum egenum fuit.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e335">
+            <ref xml:id="gom-ps40-Rd1e337"><name xml:id="gom-ps40-Nd1e338" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e341" type="lemma" source="http://scta.info/resource/ps40_6@1-2">Inimici mei.</quote>
+            <quote xml:id="gom-ps40-Qd1e344">Haec de Christo specialiter dicta sunt, sed et de membris dici possunt: et hodie fit tribulatio, ut nomen Christi exstinguatur: sed per mortem suam et suorum magis Ecclesia crevit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e348">
+          <head xml:id="gom-ps40-Hd1e350">Versus 7</head>
+          <p xml:id="gom-ps40-d1e352">
+            <quote xml:id="gom-ps40-Qd1e354" type="lemma" source="http://scta.info/resource/ps40_7@1-3">Et si ingrediebatur.</quote>
+            <ref xml:id="gom-ps40-Rd1e357"><name xml:id="gom-ps40-Nd1e358" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e361">Nota tolerandos malos.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e364">
+            <ref xml:id="gom-ps40-Rd1e366" type="lemma" subtype="implied" target="http://scta.info/resource/ps40_7@1-3"/>
+            <ref xml:id="gom-ps40-Rd1e368"><name xml:id="gom-ps40-Nd1e369" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e372">Non solum aperti inimici, sed et qui simulabant se amicos.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e375">
+            <quote xml:id="gom-ps40-Qd1e377" type="lemma" source="http://scta.info/resource/ps40_7@14-15">Egrediebatur foras.</quote>
+            A sinu veritatis, malus ingressus, malus egressus.
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e382">
+          <head xml:id="gom-ps40-Hd1e384">Versus 8</head>
+          <p xml:id="gom-ps40-d1e386">
+            <quote xml:id="gom-ps40-Qd1e388" type="lemma" source="http://scta.info/resource/ps40_8@1-2">In idipsum.</quote>
+            <ref xml:id="gom-ps40-Rd1e391"><name xml:id="gom-ps40-Nd1e392" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e395">Id est, uno consilio omnes adversum me susurrabant.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e398">
+            <quote xml:id="gom-ps40-Qd1e400" type="lemma" source="http://scta.info/resource/ps40_8@5-5">Susurrabant.</quote>
+            <ref xml:id="gom-ps40-Rd1e403"><name xml:id="gom-ps40-Nd1e404" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e407">Non audent detegere consilium, quia in scelere <quote xml:id="gom-ps40-Qd1e409">socii</quote> sunt omnes: cum pauci <pb ed="#P" n="0904C"/> soleant esse <quote xml:id="gom-ps40-Qd1e413">auctores</quote> scelerum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e418">
+          <head xml:id="gom-ps40-Hd1e420">Versus 9</head>
+          <p xml:id="gom-ps40-d1e422">
+            <quote xml:id="gom-ps40-Qd1e424" type="lemma" source="http://scta.info/resource/ps40_9@7-7">Nunquid.</quote>
+            <ref xml:id="gom-ps40-Rd1e427"><name xml:id="gom-ps40-Nd1e428" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e431">Qui habet potestatem ponendi animam, nonne habet et resumendi eam?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e435">
+          <head xml:id="gom-ps40-Hd1e437">Versus 10</head>
+          <p xml:id="gom-ps40-d1e439">
+            <quote xml:id="gom-ps40-Qd1e441" type="lemma" source="http://scta.info/resource/ps40_10@7-7">Speravi.</quote>
+            <ref xml:id="gom-ps40-Rd1e444"><name xml:id="gom-ps40-Nd1e445" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e448">In membris, quia alii fratres in illum aliquid sperabant, quia talis videbatur ut caeteri. Sic et esurire in pauperibus se dicit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e452">
+          <head xml:id="gom-ps40-Hd1e454">Versus 11</head>
+          <p xml:id="gom-ps40-d1e456">
+            <quote xml:id="gom-ps40-Qd1e458" type="lemma" source="http://scta.info/resource/ps40_11@1-3">Tu autem, Domine.</quote>
+            <ref xml:id="gom-ps40-Rd1e461"><name xml:id="gom-ps40-Nd1e462" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e465">De resurrectione, quae est gloria egeni, ad confirmandam spem fidelium.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e468">
+            <quote xml:id="gom-ps40-Qd1e470" type="lemma" source="http://scta.info/resource/ps40_11@10-12">Et retribuam eis.</quote>
+            <ref xml:id="gom-ps40-Rd1e473"><name xml:id="gom-ps40-Nd1e474" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e477">Quia enim dispersi sunt per mundum, ad admonitionem est, nondum ad damnationem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e482">
+          <head xml:id="gom-ps40-Hd1e484">Versus 13</head>
+          <p xml:id="gom-ps40-d1e486">
+            <quote xml:id="gom-ps40-Qd1e488" type="lemma" source="http://scta.info/resource/ps40_13@1-2">Me autem.</quote>
+            <ref xml:id="gom-ps40-Rd1e491"><name xml:id="gom-ps40-Nd1e492" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e495">Affirmat quod oravit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps40-Dd1e499">
+          <head xml:id="gom-ps40-Hd1e501">Versus 14</head>
+          <p xml:id="gom-ps40-d1e503">
+            <quote xml:id="gom-ps40-Qd1e505" type="lemma" source="http://scta.info/resource/ps40_14@1-1">Benedictus.</quote>
+            <ref xml:id="gom-ps40-Rd1e508"><name xml:id="gom-ps40-Nd1e509" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e512">Laudativa conclusio, exposita passione et resurrectione.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e515">
+            <quote xml:id="gom-ps40-Qd1e517" type="lemma" source="http://scta.info/resource/ps40_14">Deus Israel.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <pb ed="#P" n="0904D"/> <ref xml:id="gom-ps40-Rd1e524"><name xml:id="gom-ps40-Nd1e525" ref="#Augustine">AUG.</name></ref><!-- check: attribution inside gloss body --> Judaei sunt capsarii nostri, qui nobis codices portant: nos Israel. Aliter putassent pagani ficta quae dicuntur de Christo et Ecclesia, sed vincuntur testimonio inimicorum.
+          </p>
+          <p xml:id="gom-ps40-d1e530">
+            <quote xml:id="gom-ps40-Qd1e532" type="lemma" source="http://scta.info/resource/ps40_14">A saeculo,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-ps40-Rd1e537"><name xml:id="gom-ps40-Nd1e538" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e541">Ex quo omnia coepta sunt administrari usque in saeculum futurum, ubi omnia aeterna.</quote>
+          </p>
+          <p xml:id="gom-ps40-d1e544">
+            <quote xml:id="gom-ps40-Qd1e546" type="lemma" source="http://scta.info/resource/ps40_14@10-10">Fiat.</quote>
+            <ref xml:id="gom-ps40-Rd1e549"><name xml:id="gom-ps40-Nd1e550" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps40-Qd1e553">Geminatio ostendit hoc ab omnibus esse faciendum. Pro <quote xml:id="gom-ps40-Qd1e555" source="http://scta.info/resource/ps40_14@10-10">fiat,</quote> in Hebraeo scribitur, <quote xml:id="gom-ps40-Qd1e558">amen, amen,</quote> quod Aquila, <quote xml:id="gom-ps40-Qd1e560">vere, vere,</quote> transtulit, vel <quote xml:id="gom-ps40-Qd1e562">fideliter.</quote> Et finit hic primus liber Psalterii secundum Hieronymum.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

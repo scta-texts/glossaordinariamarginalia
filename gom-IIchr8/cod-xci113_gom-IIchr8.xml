@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0677A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr8">
+        <head xml:id="gom-IIchr8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-IIchr8-Dd1e100">
+          <head xml:id="gom-IIchr8-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIchr8-d1e104">
+            <quote xml:id="gom-IIchr8-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr8_1@1-3">Expletis autem viginti,</quote>
+            etc., <quote xml:id="gom-IIchr8-Qd1e109" source="http://scta.info/resource/IIchr8_2@3-4">dederat Hiram,</quote> etc.
+          </p>
+          <p xml:id="gom-IIchr8-d1e113">
+            <ref xml:id="gom-IIchr8-Rd1e115" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr8_1@1-3"/>
+            <ref xml:id="gom-IIchr8-Rd1e117"><name xml:id="gom-IIchr8-Nd1e118" ref="#RabanusMaurus">RAB.</name> in Paral. ex Hieron.</ref>
+            <quote xml:id="gom-IIchr8-Qd1e122">Reddiderat scilicet, quia cum Salomon dedisset non placuerunt. illi. Ideo Salomon propriis utilitatibus eas deputavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr8-Dd1e126">
+          <head xml:id="gom-IIchr8-Hd1e128">Versus 5</head>
+          <p xml:id="gom-IIchr8-d1e130">
+            <quote xml:id="gom-IIchr8-Qd1e132" type="lemma" source="http://scta.info/resource/IIchr8_5@2-2">Bethoron.</quote>
+            <ref xml:id="gom-IIchr8-Rd1e135"><name xml:id="gom-IIchr8-Nd1e136" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr8-Qd1e139"><seg type="qs">Civitas est, ad quam usque Jesus persecutus est inimicos reges in tribu <pb ed="#P" n="0677B"/> Ephraim</seg>, etc., usque ad <seg type="qs">et alius Bethoron inferior datis Levitis in possessionem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr8-Dd1e150">
+          <head xml:id="gom-IIchr8-Hd1e152">Versus 6</head>
+          <p xml:id="gom-IIchr8-d1e154">
+            <quote xml:id="gom-IIchr8-Qd1e156" type="lemma" source="http://scta.info/resource/IIchr8_6@3-4">Et omnes.</quote>
+            Ezer, scilicet, Mageddo et Gazer et Mello, quae omnes Ecclesiae monstrant decorem: quia verus Salomon in jucunditate regni sui ad laudem et laetitiam sibi praeparavit. Interpretatur autem Mello adimpletio; Ezer separatus et sanctificatus; Mageddo coena culum ejus; Gazer praecisio vel divisio; Bethoron domus montium; Balaath ascendens. Sancta autem Ecclesia civitas est Dei vivi, ubi impletur quotidie voluntas Dei, et separata ab omni errore infidelium, sanctificatur fide et bono opere. Ibi est refectio virtutum. Ipsa discernit mundum et immundum, et a virtute vitium: et est domus montium, id est, habitatio <pb ed="#P" n="0677C"/> sanctorum, et fructu justitiae <quote xml:id="gom-IIchr8-Qd1e161" source="http://scta.info/resource/ps83_8@7-16">sicut palma florens ascendit de virtute in virtutem, ut videat Deum deorum in Sion</quote>. Omnes vicos suos munivit Salomon, quia Christus coetus fidelium suorum gratiae suae protectione ita munit, ut hostibus suis spiritualibus resistere possint.
+          </p>
+          <p xml:id="gom-IIchr8-d1e165">
+            <quote xml:id="gom-IIchr8-Qd1e167" type="lemma" source="http://scta.info/resource/IIchr8_6@26-27">In Libano.</quote>
+            <ref xml:id="gom-IIchr8-Rd1e170"><name xml:id="gom-IIchr8-Nd1e171" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-IIchr8-Qd1e174">In templo, scilicet, quod cedrorum decore vestitum erat, unde Zacharias: <quote xml:id="gom-IIchr8-Qd1e176" source="http://scta.info/resource/zac11_1@1-4">Aperi, Libane, portas tuas</quote>; vel regiis aedificiis quae facta erant de lignis Libani.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr8-Dd1e182">
+          <head xml:id="gom-IIchr8-Hd1e184">Versus 10</head>
+          <p xml:id="gom-IIchr8-d1e186">
+            <quote xml:id="gom-IIchr8-Qd1e188" type="lemma" source="http://scta.info/resource/IIchr8_10@8-8">Ducenti.</quote>
+            Centenarius, qui in computu digitorum, de laeva transit in dexteram, vitam significat aeternam. Quinquagenarius vero, peccatorum remissionem, et aeternam requiem, et gratiam sancti Spiritus significat: quia in psalmo ejusdem <pb ed="#P" n="0677D"/> numeri poenitentia, confessio, et remissio peccatorum describitur; et per jubilaeum requies futura. Per pentecosten vero in adventu Spiritus sancti septiformis gratia expressa.
+          </p>
+          <p xml:id="gom-IIchr8-d1e194">
+            <quote xml:id="gom-IIchr8-Qd1e196" type="lemma" source="http://scta.info/resource/IIchr8_10@10-11">Qui erudiebant.</quote>
+            Quia ex utroque populo elegit Ecclesiae rectores, qui spirituali gratia illuminati, et plene edocti, remissionem peccatorum, vitamque aeternae salutis, et beatitudinem perpetuam appetendam, suo docerent exemplo.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr8-Dd1e202">
+          <head xml:id="gom-IIchr8-Hd1e204">Versus 12</head>
+          <p xml:id="gom-IIchr8-d1e206">
+            <quote xml:id="gom-IIchr8-Qd1e208" type="lemma" source="http://scta.info/resource/IIchr8_12@4-4">Holocausta.</quote>
+            <ref xml:id="gom-IIchr8-Rd1e211"><name xml:id="gom-IIchr8-Nd1e212" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr8-Qd1e215">Holocaustum totum incensum dicitur, hoc in altari crematur, cum in corde cujusque electi qui seipsum totum, scilicet, carne et corde Deo vovit, opus bonum fervente charitatis igne succenditur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr8-Dd1e219">
+          <head xml:id="gom-IIchr8-Hd1e221">Versus 14</head>
+          <p xml:id="gom-IIchr8-d1e223">
+            <pb ed="#P" n="0678A"/>
+            <ref xml:id="gom-IIchr8-Rd1e227" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr8_14"/>
+            Secundum convenientiam cujusque temporis omnia in Ecclesia disponit, ut unusquisque ordo officio suo functus digne ministret
+          </p>
+        </div>
+        <div xml:id="gom-IIchr8-Dd1e231">
+          <head xml:id="gom-IIchr8-Hd1e233">Versus 17</head>
+          <p xml:id="gom-IIchr8-d1e235">
+            <quote xml:id="gom-IIchr8-Qd1e237" type="lemma" source="http://scta.info/resource/IIchr8_17@4-5">In Asiongaber.</quote>
+            Insula dicitur esse haud procul ab Ahila in Rubro mari, ubi classis Josaphat periit.
+          </p>
+          <p xml:id="gom-IIchr8-d1e241">
+            <ref xml:id="gom-IIchr8-Rd1e243" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr8_17@4-5"/>
+            <ref xml:id="gom-IIchr8-Rd1e245"><name xml:id="gom-IIchr8-Nd1e246" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr8-Qd1e249"><seg type="qs">Classis quam fecit Salomon</seg> etc., usque ad <seg type="qs">per gratiam Spiritus sancti inveniunt, et eum sapientiae et consilio divina ascribentes tribuunt</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr8-Dd1e258">
+          <head xml:id="gom-IIchr8-Hd1e260">Versus 18</head>
+          <p xml:id="gom-IIchr8-d1e262">
+            <quote xml:id="gom-IIchr8-Qd1e264" type="lemma" source="http://scta.info/resource/IIchr8_18@19-20">In Ophir.</quote>
+            Nomen provinciae Ophir, ab uno posteriorum Heber vocata, ex cujus stirpe venientes, a fluvio Cophene usque ad regionem Indiae quae vocatur Geria habitasse Josephus refert.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

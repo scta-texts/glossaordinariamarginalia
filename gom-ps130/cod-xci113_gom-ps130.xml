@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 130</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 130</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1049D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps130">
+        <head xml:id="gom-ps130-Hd1e98">Psalmus 130</head>
+        <div xml:id="gom-ps130-Dd1e100">
+          <head xml:id="gom-ps130-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps130-d1e104">
+            <quote xml:id="gom-ps130-Qd1e106" type="lemma" source="http://scta.info/resource/ps130_1@1-2">Canticum graduum.</quote>
+            <ref xml:id="gom-ps130-Rd1e109"><name xml:id="gom-ps130-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps130-Qd1e113">Duodecimus gradus est humilitas, quam intus et extra hic <pb ed="#P" n="1050A"/> se habere ostendit. Ad humilitatem ergo monet.</quote>
+          </p>
+          <p xml:id="gom-ps130-d1e119">
+            <quote xml:id="gom-ps130-Qd1e121" type="lemma" source="http://scta.info/resource/ps130_1@4-6">Domine, non est.</quote>
+            <ref xml:id="gom-ps130-Rd1e124"><name xml:id="gom-ps130-Nd1e125" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps130-Qd1e128">Primo proponens se humilem, poenam inducit non humili; secundo, suo exemplo ad spem monet. Ostendens ergo se humilem intus et extra, ait.</quote>
+          </p>
+          <p xml:id="gom-ps130-d1e131">
+            <quote xml:id="gom-ps130-Qd1e133" type="lemma" source="http://scta.info/resource/ps130_1@15-16">Neque ambulavi.</quote>
+            <ref xml:id="gom-ps130-Rd1e136"><name xml:id="gom-ps130-Nd1e137" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps130-Qd1e140"><seg type="qs">Non fui superbus, nolui quasi in mirabilibus</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-ps130-Qd1e145" source="http://scta.info/resource/sir3_20@1-7">Quanto major es, humilia te in omnibus.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps130-Dd1e150">
+          <head xml:id="gom-ps130-Hd1e152">Versus 2</head>
+          <p xml:id="gom-ps130-d1e154">
+            <quote xml:id="gom-ps130-Qd1e156" type="lemma" source="http://scta.info/resource/ps130_2@1-4">Si non humiliter sentiebam.</quote>
+            <ref xml:id="gom-ps130-Rd1e159"><name xml:id="gom-ps130-Nd1e160" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps130-Qd1e163">Nutritus in lacte (quod est Verbum caro factum ut sic crescerem ad panem angelorum, ad Verbum quod apud Deum, sed non.</quote>
+          </p>
+          <p xml:id="gom-ps130-d1e166">
+            <quote xml:id="gom-ps130-Qd1e168" type="lemma" source="http://scta.info/resource/ps130_2@6-6">Exaltavi,</quote>
+            ut haeretici. Qui si utcunque aliquid coeperint, vel visi sunt capere, inde superbiunt; et cum adhuc teneri super matrem sint, et portentur manibus, ut crescant, qui portati fuerunt in utero <pb ed="#P" n="1050B"/> ut nascerentur: a lacte ante tempus separantur, unde exstinguntur.
+          </p>
+          <p xml:id="gom-ps130-d1e174">
+            <quote xml:id="gom-ps130-Qd1e176" type="lemma" source="http://scta.info/resource/ps130_2@16-17">Ita retributio.</quote>
+            <ref xml:id="gom-ps130-Rd1e179"><name xml:id="gom-ps130-Nd1e180" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps130-Qd1e183"><seg type="qs">Obstringit se maledicto</seg>, etc., usque ad <seg type="qs">sic revelabit Deus quod aliter sapit, <quote xml:id="gom-ps130-Qd1e189" source="http://scta.info/resource/Ipetr5_5@11-18">quia superbis resistit, humilibus dat gratiam.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps130-d1e193">
+            <quote xml:id="gom-ps130-Qd1e195" type="lemma" source="http://scta.info/resource/ps130_2@10-12">Sicut ablactatus est.</quote>
+            <quote xml:id="gom-ps130-Qd1e198"><seg type="qs">Sicut enim quinque tempora narrantur</seg>, etc., usque ad <seg type="qs">quia Deus erat homo; sed non mutatus in hominem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps130-Dd1e207">
+          <head xml:id="gom-ps130-Hd1e209">Versus 3</head>
+          <p xml:id="gom-ps130-d1e211">
+            <quote xml:id="gom-ps130-Qd1e213" type="lemma" source="http://scta.info/resource/ps130_3@1-2">Speret Israel.</quote>
+            <ref xml:id="gom-ps130-Rd1e216"><name xml:id="gom-ps130-Nd1e217" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps130-Qd1e220">Secunda pars, ubi concludit suo exemplo caeteros monens.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

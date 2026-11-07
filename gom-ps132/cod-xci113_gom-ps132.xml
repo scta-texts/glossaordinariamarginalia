@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 132</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 132</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1052D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps132">
+        <head xml:id="gom-ps132-Hd1e98">Psalmus 132</head>
+        <div xml:id="gom-ps132-Dd1e100">
+          <head xml:id="gom-ps132-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps132-d1e104">
+            <quote xml:id="gom-ps132-Qd1e106" type="lemma" source="http://scta.info/resource/ps132_1@1-2">Canticum graduum.</quote>
+            <ref xml:id="gom-ps132-Rd1e109"><name xml:id="gom-ps132-Nd1e110" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e113">Quartus decimus gradus: Charitas quae facit fratres habitare in unum, unde benedictio et vita.</quote>
+          </p>
+          <p xml:id="gom-ps132-d1e116">
+            <quote xml:id="gom-ps132-Qd1e118" type="lemma" source="http://scta.info/resource/ps132_1@4-6">Ecce quam bonum.</quote>
+            <quote xml:id="gom-ps132-Qd1e121"><seg type="qs">Et est hic psalmus atomus</seg>, etc., usque ad <seg type="qs">hic ergo vir justus de cohabitatione fratrum exsultans ait: <quote xml:id="gom-ps132-Qd1e127" source="http://scta.info/resource/ps132_1@4-8">Ecce quam. Ecce quam.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps132-d1e131">
+            <ref xml:id="gom-ps132-Rd1e133" type="lemma" subtype="implied" target="http://scta.info/resource/ps132_1@4-6"/>
+            <ref xml:id="gom-ps132-Rd1e135"><name xml:id="gom-ps132-Nd1e136" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e139">Iste versus toto orbe notissimus, ut tuba Spiritus Sancti divisos congregavit: monasteria plurima peperit.</quote>
+          </p>
+          <p xml:id="gom-ps132-d1e142">
+            <ref xml:id="gom-ps132-Rd1e144"><name xml:id="gom-ps132-Nd1e145" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e148" type="lemma" source="http://scta.info/resource/ps132_1@4-4">Ecce.</quote>
+            <quote xml:id="gom-ps132-Qd1e151">Quasi plus ostensione, quam lingua explicetur.</quote>
+          </p>
+          <p xml:id="gom-ps132-d1e155">
+            <quote xml:id="gom-ps132-Qd1e157" type="lemma" source="http://scta.info/resource/ps132_1@10-13">Habitare in <pb ed="#P" n="1053A"/> unum.</quote>
+            <ref xml:id="gom-ps132-Rd1e162"><name xml:id="gom-ps132-Nd1e163" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e166">Hoc de omnibus Christianis, sed proprie convenit monasteriis, a quibus tamen ad caeteros benedictio descendit, ut etiam illis fratribus de Judaea, de quibus dicitur.</quote>
+          </p>
+          <p xml:id="gom-ps132-d1e169">
+            <quote xml:id="gom-ps132-Qd1e171" type="lemma" source="http://scta.info/resource/ps132_1">Erat illis cor unum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            et <quote xml:id="gom-ps132-Qd1e176">anima una.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps132-Dd1e180">
+          <head xml:id="gom-ps132-Hd1e182">Versus 2</head>
+          <p xml:id="gom-ps132-d1e184">
+            <quote xml:id="gom-ps132-Qd1e186" type="lemma" source="http://scta.info/resource/ps132_2@1-2">Sicut unguentum.</quote>
+            <ref xml:id="gom-ps132-Rd1e189"><name xml:id="gom-ps132-Nd1e190">THEOD.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e192"><seg type="qs">Oleum sacerdotale</seg>, etc., usque ad <seg type="qs">perfectae virtutis odorem perficit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps132-d1e200">
+            <quote xml:id="gom-ps132-Qd1e202" type="lemma" source="http://scta.info/resource/ps132_2@8-8">Barbam.</quote>
+            <ref xml:id="gom-ps132-Rd1e205"><name xml:id="gom-ps132-Nd1e206" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e209">Ecce determinatio, id est in apostolos et alios primitivos sanctos, qui primo fide certaverunt, sed vinci non potuerunt, quia jam caput passum praecesserunt.</quote>
+          </p>
+          <p xml:id="gom-ps132-d1e212">
+            <quote xml:id="gom-ps132-Qd1e214" type="lemma" source="http://scta.info/resource/ps132_2@10-10">Aaron.</quote>
+            <quote xml:id="gom-ps132-Qd1e217"><seg type="qs">Sacerdos, qui se ipsum obtulit</seg>, etc., usque ad <seg type="qs">sed vinci non potuerunt. Ab illis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps132-d1e225">
+            <quote xml:id="gom-ps132-Qd1e227" type="lemma" source="http://scta.info/resource/ps132_2@13-14">In oram.</quote>
+            <ref xml:id="gom-ps132-Rd1e230"><name xml:id="gom-ps132-Nd1e231" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e234"><seg type="qs">Vel per <quote xml:id="gom-ps132-Qd1e237" source="http://scta.info/resource/ps132_2@14-14">oram,</quote> quae est finis vestis</seg>, etc., usque ad <seg type="qs">subditos usque concordiae utilitas pervenit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps132-Dd1e246">
+          <head xml:id="gom-ps132-Hd1e248">Versus 3</head>
+          <p xml:id="gom-ps132-d1e250">
+            <quote xml:id="gom-ps132-Qd1e252" type="lemma" source="http://scta.info/resource/ps132_3@1-2">Sicut ros.</quote>
+            <ref xml:id="gom-ps132-Rd1e255"><name xml:id="gom-ps132-Nd1e256" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e259"><quote xml:id="gom-ps132-Qd1e260" source="http://scta.info/resource/ps132_3@2-2">Ros</quote> tenuis aqua, unde terra germinat, et significat gratiam, qua peccatores convertuntur.</quote>
+          </p>
+          <p xml:id="gom-ps132-d1e265">
+            <quote xml:id="gom-ps132-Qd1e267" type="lemma" source="http://scta.info/resource/ps132_3@3-3">Hermon.</quote>
+            <ref xml:id="gom-ps132-Rd1e270"><name xml:id="gom-ps132-Nd1e271" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps132-Qd1e274"><seg type="qs">ad litteram mons trans Jordanem</seg>, etc., usque ad <seg type="qs">caeteri assumuntur, qui <quote xml:id="gom-ps132-Qd1e280" source="http://scta.info/resource/ps132_1@12-13">in unum</quote> corde sunt.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

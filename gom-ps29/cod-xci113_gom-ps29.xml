@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 29</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 29</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0883A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps29">
+        <head xml:id="gom-ps29-Hd1e98">Psalmus 29</head>
+        <div xml:id="gom-ps29-Dd1e100">
+          <head xml:id="gom-ps29-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps29-d1e104">
+            <quote xml:id="gom-ps29-Qd1e106" type="lemma" source="http://scta.info/resource/ps29_1@1-4">Psalmus cantici in dedic.</quote>
+            <ref xml:id="gom-ps29-Rd1e109"><name xml:id="gom-ps29-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e113">Supra de consummatione tabernaculi tempore belli: hic autem est psalmus laetitiae, quia domus dedicatur, id est, confirmatur, quae in aeterna pace manebit: corpore innovato non tantum Christi, sed etiam totius Ecclesiae. Totus Christus loquitur in hoc psalmo, quia quaedam capiti, quaedam corpori, quaedam utrique conveniunt.</quote>
+          </p>
+          <p xml:id="gom-ps29-d1e116">
+            <ref xml:id="gom-ps29-Rd1e118" type="lemma" subtype="implied" target="http://scta.info/resource/ps29_1@1-4"/>
+            <ref xml:id="gom-ps29-Rd1e120"><name xml:id="gom-ps29-Nd1e121" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e124">Psalmus breviter de passione et resurrectione: ut passio non terreat quos spes resurrectionis laetificat.</quote>
+          </p>
+          <p xml:id="gom-ps29-d1e127">
+            <quote xml:id="gom-ps29-Qd1e129" type="lemma" source="http://scta.info/resource/ps29_1@5-6">Domus David.</quote>
+            <ref xml:id="gom-ps29-Rd1e132"><name xml:id="gom-ps29-Nd1e133" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e136"><seg type="qs">Totus Christus sponsus, etc., <pb ed="#P" n="0883B"/></seg> usque ad <seg type="qs">secundum statum futurum quando in ea quiescitur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps29-d1e145">
+            <ref xml:id="gom-ps29-Rd1e147" type="lemma" subtype="implied" target="http://scta.info/resource/ps29_1@5-6"/>
+            <ref xml:id="gom-ps29-Rd1e149"><name xml:id="gom-ps29-Nd1e150" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e153">Primo agit de dedicatione sua: et jubet sanctos idem sperantes laudes dicere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e157">
+          <head xml:id="gom-ps29-Hd1e159">Versus 3</head>
+          <p xml:id="gom-ps29-d1e161">
+            <quote xml:id="gom-ps29-Qd1e163" type="lemma" source="http://scta.info/resource/ps29_3@1-6">Domine, Deus meus, clamavi ad te,</quote>
+            etc.
+            <ref xml:id="gom-ps29-Rd1e166"><name xml:id="gom-ps29-Nd1e167" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e170"><seg type="qs">Christus</seg>, etc., usque ad <seg type="qs">sed non in dedicatione.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e179">
+          <head xml:id="gom-ps29-Hd1e181">Versus 4</head>
+          <p xml:id="gom-ps29-d1e183">
+            <quote xml:id="gom-ps29-Qd1e185" type="lemma" source="http://scta.info/resource/ps29_4@12-13">In lacum.</quote>
+            <ref xml:id="gom-ps29-Rd1e188"><name xml:id="gom-ps29-Nd1e189" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e192">Id est, de lacu inferni, ubi animae peccatorum sunt, ne, sicut illi, praeceps caderem in mortem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e196">
+          <head xml:id="gom-ps29-Hd1e198">Versus 5</head>
+          <p xml:id="gom-ps29-d1e200">
+            <quote xml:id="gom-ps29-Qd1e202" type="lemma" source="http://scta.info/resource/ps29_5@7-7">Confitemini,</quote>
+            etc.
+            <ref xml:id="gom-ps29-Rd1e205"><name xml:id="gom-ps29-Nd1e206" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e209">Quia ex bonitate et sanctitate sua, non nostra memor fuit nostri.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e214">
+          <head xml:id="gom-ps29-Hd1e216">Versus 6</head>
+          <p xml:id="gom-ps29-d1e218">
+            <quote xml:id="gom-ps29-Qd1e220" type="lemma" source="http://scta.info/resource/ps29_6@1-2">Quoniam ira.</quote>
+            <ref xml:id="gom-ps29-Rd1e223"><name xml:id="gom-ps29-Nd1e224" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e227">Id est, vindicta, qua vindicavit in nos primum peccatum, quod morte <pb ed="#P" n="0883C"/> solvistis.</quote>
+          </p>
+          <p xml:id="gom-ps29-d1e233">
+            <quote xml:id="gom-ps29-Qd1e235" type="lemma" source="http://scta.info/resource/ps29_6@12-13">Ad vesperum.</quote>
+            <ref xml:id="gom-ps29-Rd1e238"><name xml:id="gom-ps29-Nd1e239" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e242"><seg type="qs">Quia ira</seg>, etc., usque ad <seg type="qs">id est, tempore gratiae post tempus ante legem, et sub lege.</seg></quote>
+          </p>
+          <p xml:id="gom-ps29-d1e250">
+            <ref xml:id="gom-ps29-Rd1e252"><name xml:id="gom-ps29-Nd1e253" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e256" type="lemma" source="http://scta.info/resource/ps29_6@12-13">Ad vesperum.</quote>
+            <quote xml:id="gom-ps29-Qd1e259">Quia passo et sepulto Domino, Apostoli et mulieres in fletu et gemitu morabantur.</quote>
+          </p>
+          <p xml:id="gom-ps29-d1e262">
+            <quote xml:id="gom-ps29-Qd1e264" type="lemma" source="http://scta.info/resource/ps29_6@16-19">Et ad matutinum laetitia.</quote>
+            Quia mane venientes ad sepulcrum, gloriam resurrectionis ab Angelis acceperunt.
+          </p>
+          <p xml:id="gom-ps29-d1e269">
+            <quote xml:id="gom-ps29-Qd1e271" type="lemma" source="http://scta.info/resource/ps29_6@15-15">Fletus.</quote>
+            <ref xml:id="gom-ps29-Rd1e274"><name xml:id="gom-ps29-Nd1e275" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e278">Demorabitur hominibus respicientibus ad vesperum, quo Adam declinavit, et a paradiso exivit: sed laetitia erit respicientibus ad matutinum, quo Christus surrexit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e282">
+          <head xml:id="gom-ps29-Hd1e284">Versus 7</head>
+          <p xml:id="gom-ps29-d1e286">
+            <quote xml:id="gom-ps29-Qd1e288" type="lemma" source="http://scta.info/resource/ps29_7@1-2">Ego autem.</quote>
+            Quomodo ante dedicationem egerit et eam meruerit.
+          </p>
+          <p xml:id="gom-ps29-d1e292">
+            <ref xml:id="gom-ps29-Rd1e294" type="lemma" subtype="implied" target="http://scta.info/resource/ps29_7@1-2"/>
+            <ref xml:id="gom-ps29-Rd1e296"><name xml:id="gom-ps29-Nd1e297" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps29-Qd1e301">Vespere facit. Sed ego, dum in paradiso esset mihi abundantia, <pb ed="#P" n="0883D"/> dixi: Non movebor ab hoc bono, credens diabolo dicenti: <quote xml:id="gom-ps29-Qd1e305" source="http://scta.info/resource/gen3_4@7-8">Non morte morieris</quote>. Sed, o Domine, in <quote xml:id="gom-ps29-Qd1e308" source="http://scta.info/resource/ps29_8@3-8">voluntate tua praestitisti decori meo virtutem;</quote> quod est, non ex me bonus eram et fortis, sed ex te. Quod ut ostenderes: <quote xml:id="gom-ps29-Qd1e311" source="http://scta.info/resource/ps29_8@10-12">Avertisti faciem tuam,</quote> hoc est, foras misisti me de paradiso: jam vero hic positus <quote xml:id="gom-ps29-Qd1e314" source="http://scta.info/resource/ps29_9@1-2">clamabo ad te,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e320">
+          <head xml:id="gom-ps29-Hd1e322">Versus 8</head>
+          <p xml:id="gom-ps29-d1e324">
+            <quote xml:id="gom-ps29-Qd1e326" type="lemma" source="http://scta.info/resource/ps29_8@10-10">Avertisti.</quote>
+            <ref xml:id="gom-ps29-Rd1e329"><name xml:id="gom-ps29-Nd1e330" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e333">Deus a Christo faciem, exponendo eum passioni et morti; et sic Christus turbatus est: <quote xml:id="gom-ps29-Qd1e335" source="http://scta.info/resource/mc14_34@4-10">Tristis est anima mea usque ad mortem. Conturbatus.<!-- check: Migne cites mt16; text matches mc14_34 --></quote> <ref xml:id="gom-ps29-Rd1e339"><name xml:id="gom-ps29-Nd1e340" ref="#Augustine">AUG.</name></ref><!-- check: attribution inside gloss body --> Quod tempus conturbationis et miseriae recolens, et in eo positus, audio vocem capitis pro me morituri, dicentis: <quote xml:id="gom-ps29-Qd1e344" source="http://scta.info/resource/ps29_9@1-4">Ad te, Domine, clamabo.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e349">
+          <head xml:id="gom-ps29-Hd1e351">Versus 10</head>
+          <p xml:id="gom-ps29-d1e353">
+            <pb ed="#P" n="0884A"/>
+            <quote xml:id="gom-ps29-Qd1e357" type="lemma" source="http://scta.info/resource/ps29_10@1-5">Quae utilitas in sanguine meo.</quote>
+            <ref xml:id="gom-ps29-Rd1e360"><name xml:id="gom-ps29-Nd1e361" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e364">Necessitatem ostendit per quam non sinit eum descendere in corruptionem.</quote>
+          </p>
+          <p xml:id="gom-ps29-d1e367">
+            <quote xml:id="gom-ps29-Qd1e369" type="lemma" source="http://scta.info/resource/ps29_10@6-9">Dum descendo in corruptionem.</quote>
+            Si enim statim non resurgo, et corpus corrumpitur, nemini annuntiabo, nullum lucrabor. Confessio gemina est, nunquam sine ea simus: quando male est nobis in tribulationibus, confiteamur peccata nostra; quando bene est, in exsultatione justitiae confiteamur laudem Deo.
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e374">
+          <head xml:id="gom-ps29-Hd1e376">Versus 11</head>
+          <p xml:id="gom-ps29-d1e378">
+            <quote xml:id="gom-ps29-Qd1e380" type="lemma" source="http://scta.info/resource/ps29_11@1-2">Audivit Dominus.</quote>
+            <ref xml:id="gom-ps29-Rd1e383"><name xml:id="gom-ps29-Nd1e384" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e387">Quomodo eam accepit, scilicet dedicationem, pertractat. Dixit: Clamabo, deprecabor, sed me deprecantem exaudivit Dominus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e391">
+          <head xml:id="gom-ps29-Hd1e393">Versus 12</head>
+          <p xml:id="gom-ps29-d1e395">
+            <quote xml:id="gom-ps29-Qd1e397" type="lemma" source="http://scta.info/resource/ps29_12@8-10">Conscidisti saccum meum.</quote>
+            <ref xml:id="gom-ps29-Rd1e400"><name xml:id="gom-ps29-Nd1e401" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e404">Saccus vestis est aspera, in usum laboris vel tempore <pb ed="#P" n="0884B"/> tristitiae concessa, ut Ninivitis, id est, caro humana, quae scissa est moriendo: et prodiit frumentum gloriosae resurrectionis, vel divinitatis. Vel, poena peccati, qua in resurrectione destructa, prolata est divinitas ante occulta: sicut quod saccus integer celat, scissus aperit.</quote>
+          </p>
+          <p xml:id="gom-ps29-d1e410">
+            <ref xml:id="gom-ps29-Rd1e412" type="lemma" subtype="implied" target="http://scta.info/resource/ps29_12@8-10"/>
+            <ref xml:id="gom-ps29-Rd1e414"><name xml:id="gom-ps29-Nd1e415" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e418">Saccus de capris vel haedis, mortalitas; quam de peccatoribus Christus traxit vel accepit; unde: <quote xml:id="gom-ps29-Qd1e420" source="http://scta.info/resource/ps34_13@4-8">Dum mihi molesti essent, induebar cilicio</quote>, ut quod intus erat, non viderent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps29-Dd1e427">
+          <head xml:id="gom-ps29-Hd1e429">Versus 13</head>
+          <p xml:id="gom-ps29-d1e431">
+            <quote xml:id="gom-ps29-Qd1e433" type="lemma" source="http://scta.info/resource/ps29_13@7-8">Non compungar.</quote>
+            <ref xml:id="gom-ps29-Rd1e436"><name xml:id="gom-ps29-Nd1e437" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps29-Qd1e440">Non moriar jam in finem.</quote>
+          </p>
+          <p xml:id="gom-ps29-d1e443">
+            <quote xml:id="gom-ps29-Qd1e445" type="lemma" source="http://scta.info/resource/ps29_13@9-15">Domine Deus, in aeternum confitebor tibi.</quote>
+            Quid est: <quote xml:id="gom-ps29-Qd1e448" source="http://scta.info/resource/ps29_13@12-15">in aeternum confitebor tibi?</quote> in aeter num laudabo te.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

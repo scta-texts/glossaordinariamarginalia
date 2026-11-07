@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 22</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 22</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0685B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr22">
+        <head xml:id="gom-IIchr22-Hd1e98">Caput 22</head>
+        <div xml:id="gom-IIchr22-Dd1e100">
+          <head xml:id="gom-IIchr22-Hd1e102">Versus 6</head>
+          <p xml:id="gom-IIchr22-d1e104">
+            <quote xml:id="gom-IIchr22-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr22_6@16-18">Azarias filius Joram,</quote>
+            etc.
+            <ref xml:id="gom-IIchr22-Rd1e109"><name xml:id="gom-IIchr22-Nd1e110" ref="#RabanusMaurus">RAB.</name>, ex Hieron.</ref>
+            <quote xml:id="gom-IIchr22-Qd1e114">Qui superius <quote xml:id="gom-IIchr22-Qd1e116" source="http://scta.info/resource/IIchr22_7@6-6">Ochozias,</quote> id est, apprehendens Dominum: Azarias vero adjutorium Domini. Ideoque <pb ed="#P" n="0685C"/> secundum Hebraeos nomen mutatur in melius ei: quia secundum praeceptum Domini infirmum visitavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr22-Dd1e124">
+          <head xml:id="gom-IIchr22-Hd1e126">Versus 7</head>
+          <p xml:id="gom-IIchr22-d1e128">
+            <quote xml:id="gom-IIchr22-Qd1e130" type="lemma" source="http://scta.info/resource/IIchr22_7@17-18">Adversum Jehu,</quote>
+            etc. Jehu significat principatum gentium, quem Christus destinavit in sacrilegam civitatem, quae prophetas et Dominum prophetarum occidit, et apostolos persecuta est; ut eam digna ultione puniret, et phanum sacerdotum post adventum Christi destrueret, templumque subverteret: et impiam synagogam sanguinem eorum sitientem de regni culmine quasi Jezabel praecipitaret, et ipsius rectores interficeret.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr22-Dd1e135">
+          <head xml:id="gom-IIchr22-Hd1e137">Versus 10</head>
+          <p xml:id="gom-IIchr22-d1e139">
+            <quote xml:id="gom-IIchr22-Qd1e141" type="lemma" source="http://scta.info/resource/IIchr22_10">Si quidem Athalia,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Athalia quae semen David conabatur exstinguere, et regiam stirpem delere, significat impietatem Synagogae, quae per nequitiam mentis, semini Christi insidiatur inexorabili <pb ed="#P" n="0685D"/> odio saeviens, quae aliquando regnare videbatur cum legis caeremonias temporalis observabat. Interpretatur Athalia temporalis Domini, sed Josabeth strenuitate (quae interpretatur saturitas Domini, id est Ecclesiae in qua sunt verae deliciae) servatur Joas, qui interpretatur memoria Domini, id est, Christus, in quo est memoria nominis Domini: ne per crudelitatem saevientis interimatur in sanctis, sed nutriatur in domo Joiadae pontificis, qui interpretatur dilectus Domini, id est Christus, de quo Pater ait: <quote xml:id="gom-IIchr22-Qd1e148" source="http://scta.info/resource/mt17_5@15-24">Hic est Filius meus dilectus, in quo mihi complacui</quote>. Cujus domus est Ecclesia, ubi in fide electorum manens quotidie facit augmentum corporis sui, ut in tempore judicii sceptrum regni et potentiam extollat adversum eos qui eum deprimebant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

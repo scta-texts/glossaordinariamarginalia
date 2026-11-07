@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiastes, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiastes, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1124C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-qoh9">
+        <head xml:id="gom-qoh9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-qoh9-Dd1e100">
+          <head xml:id="gom-qoh9-Hd1e102">Versus 1</head>
+          <p xml:id="gom-qoh9-d1e104">
+            <quote xml:id="gom-qoh9-Qd1e106" type="lemma" source="http://scta.info/resource/qoh9_1@10-11">Sunt justi,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-qoh9-Dd1e111">
+          <head xml:id="gom-qoh9-Hd1e113">Versus 4</head>
+          <p xml:id="gom-qoh9-d1e115">
+            <quote xml:id="gom-qoh9-Qd1e117" type="lemma" source="http://scta.info/resource/qoh9_4@12-14">Melior est canis.</quote>
+            <ref xml:id="gom-qoh9-Rd1e120"><name xml:id="gom-qoh9-Nd1e121" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh9-Qd1e124">Canis vivus, pauper justus, leo mortuus, potens <pb ed="#P" n="1124D"/> iniquus, qui nihil secum aufert de mundo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh9-Dd1e131">
+          <head xml:id="gom-qoh9-Hd1e133">Versus 5</head>
+          <p xml:id="gom-qoh9-d1e135">
+            <quote xml:id="gom-qoh9-Qd1e137" type="lemma" source="http://scta.info/resource/qoh9_5@7-8">Mortui vero.</quote>
+            <ref xml:id="gom-qoh9-Rd1e140"><name xml:id="gom-qoh9-Nd1e141" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh9-Qd1e144"><seg type="qs">Quidam asserunt etiam post mortem crescere</seg>, etc., usque ad <seg type="qs">creaturas rationales et promereri.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh9-Dd1e153">
+          <head xml:id="gom-qoh9-Hd1e155">Versus 10</head>
+          <p xml:id="gom-qoh9-d1e157">
+            <quote xml:id="gom-qoh9-Qd1e159" type="lemma" source="http://scta.info/resource/qoh9_10@17-17">Erunt.</quote>
+            Id est, valebunt tibi post mortem.
+          </p>
+        </div>
+        <div xml:id="gom-qoh9-Dd1e165">
+          <head xml:id="gom-qoh9-Hd1e167">Versus 11</head>
+          <p xml:id="gom-qoh9-d1e169">
+            <quote xml:id="gom-qoh9-Qd1e171" type="lemma" source="http://scta.info/resource/qoh9_11@13-13">Bellum.</quote>
+            Victorum vel etiam imitatores belli, secundum illud: <quote xml:id="gom-qoh9-Qd1e174" source="http://scta.info/resource/io15_5@19-23">Sine me nihil potestis facere.</quote>
+          </p>
+          <p xml:id="gom-qoh9-d1e178">
+            <quote xml:id="gom-qoh9-Qd1e180" type="lemma" source="http://scta.info/resource/qoh9_11@19-19">Divitias.</quote>
+            Bonorum operum.
+          </p>
+        </div>
+        <div xml:id="gom-qoh9-Dd1e185">
+          <head xml:id="gom-qoh9-Hd1e187">Versus 12</head>
+          <p xml:id="gom-qoh9-d1e189">
+            <quote xml:id="gom-qoh9-Qd1e191" type="lemma" source="http://scta.info/resource/qoh9_12@6-8">Sicut pisces capientur.</quote>
+            Haeretici quoque habent sagenam suam missam, et laqueos quibus capiant simplices.
+          </p>
+        </div>
+        <div xml:id="gom-qoh9-Dd1e196">
+          <head xml:id="gom-qoh9-Hd1e198">Versus 15</head>
+          <p xml:id="gom-qoh9-d1e200">
+            <quote xml:id="gom-qoh9-Qd1e202" type="lemma" source="http://scta.info/resource/qoh9_15@4-5">Vir pauper.</quote>
+            Christus, de quo Psalmus: <pb ed="#P" n="1125A"/> <quote xml:id="gom-qoh9-Qd1e207" source="http://scta.info/resource/ps68_30@1-5">Ego sum pauper et dolens</quote>. Et in quo omnes thesauri sapientiae et scientiae sunt absconditi <!--<note>(Col. II)</note>-->.
+          </p>
+          <p xml:id="gom-qoh9-d1e213">
+            <quote xml:id="gom-qoh9-Qd1e215" type="lemma" source="http://scta.info/resource/qoh9_15@10-12">Per sapientiam suam.</quote>
+            Non per potentiam.
+          </p>
+        </div>
+        <div xml:id="gom-qoh9-Dd1e220">
+          <head xml:id="gom-qoh9-Hd1e222">Versus 17</head>
+          <p xml:id="gom-qoh9-d1e224">
+            <quote xml:id="gom-qoh9-Qd1e226" type="lemma" source="http://scta.info/resource/qoh9_17@1-2">Verba sapientium.</quote>
+            <ref xml:id="gom-qoh9-Rd1e229"><name xml:id="gom-qoh9-Nd1e230" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh9-Qd1e233">Qui favorem et plausum non quaerunt, sed salutem audientium: nec clamant ut audiantur, sed cupiunt, ut exaudiantur.</quote>
+          </p>
+          <p xml:id="gom-qoh9-d1e236">
+            <quote xml:id="gom-qoh9-Qd1e238" type="lemma" source="http://scta.info/resource/qoh9_17@10-11">Inter stultos.</quote>
+            Stulti qui non quaerunt proficere, sed laudem sibi acquirere.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0848D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps4">
+        <head xml:id="gom-ps4-Hd1e98">Psalmus 4</head>
+        <div xml:id="gom-ps4-Dd1e100">
+          <head xml:id="gom-ps4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps4-d1e104">
+            <pb ed="#P" n="0848D"/>
+            <quote xml:id="gom-ps4-Qd1e108" type="lemma" source="http://scta.info/resource/ps4_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps4-Rd1e111"><name xml:id="gom-ps4-Nd1e112" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e115">Finis duobus dicitur modis, quando aliquid deficit, vel quando perficitur.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e118">
+            <ref xml:id="gom-ps4-Rd1e120" type="lemma" subtype="implied" target="http://scta.info/resource/ps4_1@1-2"/>
+            <ref xml:id="gom-ps4-Rd1e122"><name xml:id="gom-ps4-Nd1e123" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e126">Canticum laetitiam indicat. Psalmi sunt qui cantantur ad psalterium, quo in magno mysterio usus est Propheta.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e129">
+            <quote xml:id="gom-ps4-Qd1e131" type="lemma" source="http://scta.info/resource/ps4_1@5-5">Psalmus,</quote>
+            de moribus ad agendum, ut deserantur falsi dii et vana saeculi;
+          </p>
+          <p xml:id="gom-ps4-d1e135">
+            <quote xml:id="gom-ps4-Qd1e137" type="lemma" source="http://scta.info/resource/ps4_1">Cantici,</quote>
+            <!-- check: lemma not matched to verse text -->
+            quia fit mentio de aeterna jucunditate.
+          </p>
+        </div>
+        <div xml:id="gom-ps4-Dd1e144">
+          <head xml:id="gom-ps4-Hd1e146">Versus 2</head>
+          <p xml:id="gom-ps4-d1e148">
+            <quote xml:id="gom-ps4-Qd1e150" type="lemma" source="http://scta.info/resource/ps4_2@1-2">Cum invocarem, etc.</quote>
+            <ref xml:id="gom-ps4-Rd1e153"><name xml:id="gom-ps4-Nd1e154" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e157">Exemplo sui increpat infideles de falsis.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e160">
+            <quote xml:id="gom-ps4-Qd1e162" type="lemma" source="http://scta.info/resource/ps4_2@10-11">Dilatasti mihi.</quote>
+            <ref xml:id="gom-ps4-Rd1e165"><name xml:id="gom-ps4-Nd1e166" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e169">Ab angustiis tristitiae in latitudine gaudii duxisti. V. <quote xml:id="gom-ps4-Qd1e171" source="http://scta.info/resource/rom5_3@7-11">Gaudemus in tribulationibus scientes quod tribulatio, etc.</quote> Prius indicavit se auditum: jam quasi habens in corde <pb ed="#P" n="0849A"/> Deum, ei loquitur.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e178">
+            <quote xml:id="gom-ps4-Qd1e180" type="lemma" source="http://scta.info/resource/ps4_2@12-13">Miserere mei.</quote>
+            Misertus de justitia et dilatione. Item, miserere contra miserias hujus vitae.
+          </p>
+          <p xml:id="gom-ps4-d1e184">
+            <quote xml:id="gom-ps4-Qd1e186" type="lemma" source="http://scta.info/resource/ps4_2@16-17">Orationem meam.</quote>
+            De petendis bonis. Et cum ita de me, <quote xml:id="gom-ps4-Qd1e189" source="http://scta.info/resource/ps4_3@1-5">Filii hominum, usquequo gravi corde?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps4-Dd1e194">
+          <head xml:id="gom-ps4-Hd1e196">Versus 3</head>
+          <p xml:id="gom-ps4-d1e198">
+            <quote xml:id="gom-ps4-Qd1e200" type="lemma" source="http://scta.info/resource/ps4_3@9-10">Diligitis vanitatem, etc.</quote>
+            <ref xml:id="gom-ps4-Rd1e203"><name xml:id="gom-ps4-Nd1e204" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e207">Voto amplexamini, quaeritis labore vana idola, et mendacia, quae non Deus: vel terrena, quae non faciunt quod promittunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps4-Dd1e211">
+          <head xml:id="gom-ps4-Hd1e213">Versus 4</head>
+          <p xml:id="gom-ps4-d1e215">
+            <quote xml:id="gom-ps4-Qd1e217" type="lemma" source="http://scta.info/resource/ps4_4@1-2">Et scitote, etc.</quote>
+            Proposito novo homine veterem jubet exuere.
+          </p>
+          <p xml:id="gom-ps4-d1e221">
+            <ref xml:id="gom-ps4-Rd1e223" type="lemma" subtype="implied" target="http://scta.info/resource/ps4_4@1-2"/>
+            <ref xml:id="gom-ps4-Rd1e225"><name xml:id="gom-ps4-Nd1e226" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e229">Nota, <quote xml:id="gom-ps4-Qd1e231" source="http://scta.info/resource/ps4_2@14-14">Et</quote> in initiis poni, ut dicta, cum visione quae in corde est conjungat, ita hic, ut: <quote xml:id="gom-ps4-Qd1e234">Nolite diligere vana. Et scitote.</quote> Sed diapsalma sic conjungi vetat. Diapsalma secundum Hieronymum semper, Hebraei <pb ed="#P" n="0849B"/> Sela, id est, semper in confirmatione praecedentis partis. Sympsalma, id est, conjunctio psalmi.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e240">
+            <quote xml:id="gom-ps4-Qd1e242" type="lemma" source="http://scta.info/resource/ps4_4@9-10">Dominus exaudiet.</quote>
+            De requie ita, et vos: et ideo clamate, sic digni auditu.
+          </p>
+        </div>
+        <div xml:id="gom-ps4-Dd1e248">
+          <head xml:id="gom-ps4-Hd1e250">Versus 5</head>
+          <p xml:id="gom-ps4-d1e252">
+            <quote xml:id="gom-ps4-Qd1e254" type="lemma" source="http://scta.info/resource/ps4_5@1-1">Irascimini.</quote>
+            Si motus surgit animi qui non est in potestate, non ei consentiat ratio.
+          </p>
+          <p xml:id="gom-ps4-d1e258">
+            <ref xml:id="gom-ps4-Rd1e260" type="lemma" subtype="implied" target="http://scta.info/resource/ps4_5@1-1"/>
+            <ref xml:id="gom-ps4-Rd1e262"><name xml:id="gom-ps4-Nd1e263" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e266">Motus animi in potestate nostra non est, sed Dei gratia temperare possumus: quod ergo consuetudinis est, permittit; quod culpae, prohibet.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e269">
+            <ref xml:id="gom-ps4-Rd1e271" type="lemma" subtype="implied" target="http://scta.info/resource/ps4_5@1-1"/>
+            <ref xml:id="gom-ps4-Rd1e273"><name xml:id="gom-ps4-Nd1e274" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e277">Hoc docet Apostolus: <quote xml:id="gom-ps4-Qd1e279" source="http://scta.info/resource/eph4_26@5-10">Sol non occidat super iracundiam vestram ,</quote> ut peccatum sit omnino vel leviter irasci: justitia autem, iram celeri poenitudine mitigare.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e284">
+            <quote xml:id="gom-ps4-Qd1e286" type="lemma" source="http://scta.info/resource/ps4_5@8-10">In cordibus vestris.</quote>
+            <ref xml:id="gom-ps4-Rd1e289"><name xml:id="gom-ps4-Nd1e290" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e293">De his quae tractatis in corde, quem novit Deus: id est, de consensu; et de his quae volvitis <pb ed="#P" n="0849C"/> in cubili, id est delectatione carnis, in qua captiva versatur ratio, ut fera in cubili, <quote xml:id="gom-ps4-Qd1e297" source="http://scta.info/resource/ps4_5@14-14">Compungimini,</quote> per poenitentiam; vel cubilia sunt cogitationes ferocium.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e303">
+            <ref xml:id="gom-ps4-Rd1e305" type="lemma" subtype="implied" target="http://scta.info/resource/ps4_5@8-10"/>
+            <ref xml:id="gom-ps4-Rd1e307"><name xml:id="gom-ps4-Nd1e308" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e311">Venialis est ira quae non ducitur ad effectum. Diapsalma.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps4-Dd1e315">
+          <head xml:id="gom-ps4-Hd1e317">Versus 6</head>
+          <p xml:id="gom-ps4-d1e319">
+            <quote xml:id="gom-ps4-Qd1e321" type="lemma" source="http://scta.info/resource/ps4_6@1-1">Sacrificate.</quote>
+            <ref xml:id="gom-ps4-Rd1e324"><name xml:id="gom-ps4-Nd1e325" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e328">Deposito veteri homine, nos in sacrificium jubemur offerri, quia certi de bonis.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e331">
+            <ref xml:id="gom-ps4-Rd1e333"><name xml:id="gom-ps4-Nd1e334" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e337" type="lemma" source="http://scta.info/resource/ps4_6@2-3">Sacrificium justitiae,</quote>
+            <quote xml:id="gom-ps4-Qd1e340">spiritus contribulatus, ut se puniens mactet Deo: vel, opera justa post poenitentiam quod notat diapsalma, ut de veteri vita transeatur ad novam, et sic sperate bona. Sed quia vix est qui diligat interiora bona, subdit:</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e343">
+            <quote xml:id="gom-ps4-Qd1e345" type="lemma" source="http://scta.info/resource/ps4_6@8-14">Multi dicunt: Quis ostendit nobis bona?</quote>
+            Futura, scilicet de quibus dubitant et desperant. Ad quod respondens ostendit breviter quae <pb ed="#P" n="0849D"/> bona sunt quaerenda.
+          </p>
+        </div>
+        <div xml:id="gom-ps4-Dd1e352">
+          <head xml:id="gom-ps4-Hd1e354">Versus 7</head>
+          <p xml:id="gom-ps4-d1e356">
+            <quote xml:id="gom-ps4-Qd1e358" type="lemma" source="http://scta.info/resource/ps4_7@1-5">Signatum est super nos lumen, etc.</quote>
+            <ref xml:id="gom-ps4-Rd1e361"><name xml:id="gom-ps4-Nd1e362" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e365">Hoc lumen est totum, et verum hominis bonum, quo signatur, ut denarius imagine regis.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e368">
+            <quote xml:id="gom-ps4-Qd1e370" type="lemma" source="http://scta.info/resource/ps4_7@5-5">Lumen.</quote>
+            <ref xml:id="gom-ps4-Rd1e373"><name xml:id="gom-ps4-Nd1e374" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e377">Lumen, id est, luminosus vultus, et illuminans nos, imago qua cognosceris.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e380">
+            <ref xml:id="gom-ps4-Rd1e382" type="lemma" subtype="implied" target="http://scta.info/resource/ps4_7@5-5"/>
+            <ref xml:id="gom-ps4-Rd1e384"><name xml:id="gom-ps4-Nd1e385" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e388">Vel: Crux nobis impressa est, in signum regis nostri, quae est lumen vultus: quia in talibus radiat Deus. Imago creationis, ratio; recreationis, gratia; similitudinis, tota Trinitas. « In corde.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e391">
+            <ref xml:id="gom-ps4-Rd1e393" type="lemma" subtype="implied" target="http://scta.info/resource/ps4_7@5-5"/>
+            <ref xml:id="gom-ps4-Rd1e395"><name xml:id="gom-ps4-Nd1e396" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e399">Non foris in vanis, sed intus ubi habitat Deus, quaerenda est laetitia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps4-Dd1e403">
+          <head xml:id="gom-ps4-Hd1e405">Versus 8</head>
+          <p xml:id="gom-ps4-d1e407">
+            <quote xml:id="gom-ps4-Qd1e409" type="lemma" source="http://scta.info/resource/ps4_8@1-2">A fructu.</quote>
+            <ref xml:id="gom-ps4-Rd1e412"><name xml:id="gom-ps4-Nd1e413" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e416">Quia putant in his consummatum bonum. Haec tria tanquam usibus <pb ed="#P" n="0850A"/> humanis magis accommoda pro omnibus divitiis ponit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps4-Dd1e423">
+          <head xml:id="gom-ps4-Hd1e425">Versus 9</head>
+          <p xml:id="gom-ps4-d1e427">
+            <quote xml:id="gom-ps4-Qd1e429" type="lemma" source="http://scta.info/resource/ps4_9@1-4">In pace in idipsum.</quote>
+            <ref xml:id="gom-ps4-Rd1e432"><name xml:id="gom-ps4-Nd1e433" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e436">Ego autem in pace mentis dormiam, hic oblitus mundi, et requiescam in futuro: quia jam in una spe, non in multiplicitate saeculi.</quote>
+          </p>
+          <p xml:id="gom-ps4-d1e439">
+            <quote xml:id="gom-ps4-Qd1e441" type="lemma" source="http://scta.info/resource/ps4_9@1-7">In pace dormiam et requiescam.</quote>
+            <ref xml:id="gom-ps4-Rd1e444"><name xml:id="gom-ps4-Nd1e445" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps4-Qd1e448">Ab omnibus saeculi cum mortale hoc induet immortalitatem: et hoc vere erit, quia jam est spes: et hoc est: <quote xml:id="gom-ps4-Qd1e450" source="http://scta.info/resource/ps4_10@1-3">Quoniam tu, Domine,</quote> et profecto erit quod speratur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

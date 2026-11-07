@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 133</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 133</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1053A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps133">
+        <head xml:id="gom-ps133-Hd1e98">Psalmus 133</head>
+        <div xml:id="gom-ps133-Dd1e100">
+          <head xml:id="gom-ps133-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps133-d1e104">
+            <quote xml:id="gom-ps133-Qd1e106" type="lemma" source="http://scta.info/resource/ps133_1@1-2">Canticum graduum.</quote>
+            <ref xml:id="gom-ps133-Rd1e109"><name xml:id="gom-ps133-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps133-Qd1e113">Quintus decimus gradus: Charitas saeculi. Et est hic tertius psalmus de charitate Dei, de qua hic agit, sicut supra de charitate proximi. Non quod alia gratia sit qua diligitur Deus, et alia qua proximus. Sed quia diversos actus habet gratia, et diversa diliguntur ea. Monet ergo ad diligendum Deum. Primo, invitat pluraliter benedicere Deum; secundo, optat benedici, <ref xml:id="gom-ps133-Rd1e115">ibi, <seg type="incipit">Benedicat</seg>.</ref></quote>
+          </p>
+          <p xml:id="gom-ps133-d1e122">
+            <quote xml:id="gom-ps133-Qd1e124" type="lemma" source="http://scta.info/resource/ps133_1@3-3">Ecce,</quote>
+            demonstrantis est. Et quibus faciat hanc demonstrationem, determinat, vos <quote xml:id="gom-ps133-Qd1e127" source="http://scta.info/resource/ps133_1@8-9">servi Domini.</quote>
+          </p>
+          <p xml:id="gom-ps133-d1e131">
+            <quote xml:id="gom-ps133-Qd1e133" type="lemma" source="http://scta.info/resource/ps133_1@12-12">Statis.</quote>
+            Servorum est, non sedere in domo domini. Vel, de eisdem intelligitur: Et per <quote xml:id="gom-ps133-Qd1e136" source="http://scta.info/resource/ps133_1@6-6">domum,</quote> intelligitur Ecclesia, per <quote xml:id="gom-ps133-Qd1e139">atria,</quote> latitudo charitatis. In charitate enim, quae extenditur usque ad inimicos, latitudo est, in odio angustia. Quasi diceret, vos <quote xml:id="gom-ps133-Qd1e141" source="http://scta.info/resource/ps133_1@11-12">benedicite, qui statis,</quote> id est perseveratis, <quote xml:id="gom-ps133-Qd1e144" source="http://scta.info/resource/ps133_1@13-15">In domo Domini,</quote> id est in Ecclesiis; et <quote xml:id="gom-ps133-Qd1e148" source="http://scta.info/resource/ps133_1@11-20">qui statis, In atriis domus Dei nostri,</quote> id est in latitudine charitatis, ubi nullus angustiatur.
+          </p>
+        </div>
+        <div xml:id="gom-ps133-Dd1e153">
+          <head xml:id="gom-ps133-Hd1e155">Versus 2</head>
+          <p xml:id="gom-ps133-d1e157">
+            <quote xml:id="gom-ps133-Qd1e159" type="lemma" source="http://scta.info/resource/ps133_2@3-5">Extollite manus vestras.</quote>
+            Sicut Moyses manus suas levavit pugnante populo Israel contra Amalec, <quote xml:id="gom-ps133-Qd1e162" source="http://scta.info/resource/ps133_2@3-3">Extollite</quote> dico, <quote xml:id="gom-ps133-Qd1e165" source="http://scta.info/resource/ps133_2@6-7">in sancta:</quote> ut intentione aeternum bonum operemini, aliter enim non valet.
+          </p>
+        </div>
+        <div xml:id="gom-ps133-Dd1e170">
+          <head xml:id="gom-ps133-Hd1e172">Versus 3</head>
+          <p xml:id="gom-ps133-d1e174">
+            <pb ed="#P" n="1053D"/>
+            <quote xml:id="gom-ps133-Qd1e178" type="lemma" source="http://scta.info/resource/ps133_3@1-3">Benedicat te Dominus.</quote>
+            Secunda pars, ubi optat benedici fideles. Quasi diceret, <quote xml:id="gom-ps133-Qd1e181" source="http://scta.info/resource/ps133_1@5-5">benedicite,</quote> et ut hoc possitis, <quote xml:id="gom-ps133-Qd1e184" source="http://scta.info/resource/ps133_3@1-3">Benedicat te Dominus,</quote> benedictione quae est <quote xml:id="gom-ps133-Qd1e187" source="http://scta.info/resource/ps133_3@4-5">ex Sion.</quote> Qui potest, quia ipse est, qui fecit coelum et terram.
+          </p>
+          <p xml:id="gom-ps133-d1e191">
+            <ref xml:id="gom-ps133-Rd1e193"><name xml:id="gom-ps133-Nd1e194" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps133-Qd1e197" type="lemma" source="http://scta.info/resource/ps133_3@1-1">Benedicat.</quote>
+            <quote xml:id="gom-ps133-Qd1e200">Supra hortatur plures benedicere Deum, ipse vero unum benedicit tantum, quia, etsi plures sint, tamen in unum sunt, et unitati convenit benedictio. Unde unus in piscina sanabatur, qui prior descendebat. Esto ergo in uno, et ad te perveniet benedictio.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

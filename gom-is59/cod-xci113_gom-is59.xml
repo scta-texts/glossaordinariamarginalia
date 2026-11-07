@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 59</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 59</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1301C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is59">
+        <head xml:id="gom-is59-Hd1e98">Caput 59</head>
+        <div xml:id="gom-is59-Dd1e100">
+          <head xml:id="gom-is59-Hd1e102">Versus 2</head>
+          <p xml:id="gom-is59-d1e104">
+            <quote xml:id="gom-is59-Qd1e106" type="lemma" source="http://scta.info/resource/is59_2@1-3">Sed iniquitates vestrae.</quote>
+            Ostendit quare non exauditi et in captivitatem ducti.
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e111">
+          <head xml:id="gom-is59-Hd1e113">Versus 3</head>
+          <p xml:id="gom-is59-d1e115">
+            <quote xml:id="gom-is59-Qd1e117" type="lemma" source="http://scta.info/resource/is59_3">Manus ejus.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-is59-Rd1e122"><name xml:id="gom-is59-Nd1e123" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is59-Qd1e126"><seg type="qs">Iniquitates per partes exponit</seg>, etc., usque ad <seg type="qs">et tandem in Filium Dei inclamantes: <quote xml:id="gom-is59-Qd1e132" source="http://scta.info/resource/mt27_25@6-13">Sanguis ejus super nos et super filios nostros.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e137">
+          <head xml:id="gom-is59-Hd1e139">Versus 4</head>
+          <p xml:id="gom-is59-d1e141">
+            <quote xml:id="gom-is59-Qd1e143" type="lemma" source="http://scta.info/resource/is59_4@18-18">Conceperunt,</quote>
+            <ref xml:id="gom-is59-Rd1e146"><name xml:id="gom-is59-Nd1e147" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is59-Qd1e150">Qui exspectant Antichristum. Quem enim multo labore perquirunt in iniquitate suscipient.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e154">
+          <head xml:id="gom-is59-Hd1e156">Versus 5</head>
+          <p xml:id="gom-is59-d1e158">
+            <quote xml:id="gom-is59-Qd1e160" type="lemma" source="http://scta.info/resource/is59_5@1-1">Ova.</quote>
+            <ref xml:id="gom-is59-Rd1e163"><name xml:id="gom-is59-Nd1e164" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is59-Qd1e167">Ex ovo fetus, ex corde <pb ed="#P" n="1301D"/> consilium, ex quo actus. Ova ergo ruperunt, dum corda iniqua et venenosa consilia verbis ostenderunt, dicentes: <quote xml:id="gom-is59-Qd1e171" source="http://scta.info/resource/mt26_66@8-10">Reus est mortis</quote>.</quote>
+          </p>
+          <p xml:id="gom-is59-d1e176">
+            <quote xml:id="gom-is59-Qd1e178" type="lemma" source="http://scta.info/resource/is59_5@2-2">Aspidum.</quote>
+            Aspis ad primam vocem incantatoris alteram aurem terrae infigit, alteram cauda obturat, ne possit incantari: sic Judaei inhaerentes terrenis, ne locum et gentem perderent metuentes, Christi praedicationem repulerunt, venenati venenatorum filii.
+          </p>
+          <p xml:id="gom-is59-d1e182">
+            <quote xml:id="gom-is59-Qd1e184" type="lemma" source="http://scta.info/resource/is59_5@18-20">Erumpet in regulum.</quote>
+            Ex ovis aspidis regulus, qui et basiliscus, ex Judaeis Antichristus. Ex eis enim nascetur, flatu suo, id est sermone venenoso multos occidens volantes ad patriam coelestem. Occidit enim basiliscus flatu suo aves volantes per aera.
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e190">
+          <head xml:id="gom-is59-Hd1e192">Versus 9</head>
+          <p xml:id="gom-is59-d1e194">
+            <quote xml:id="gom-is59-Qd1e196" type="lemma" source="http://scta.info/resource/is59_9@1-2">Propter hoc</quote>
+            <ref xml:id="gom-is59-Rd1e199"><name xml:id="gom-is59-Nd1e200" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is59-Qd1e203">Propheta in persona <pb ed="#P" n="1302A"/> populi poenitentis respondet, post accusationem, quid loqui debeant poenitentes.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e210">
+          <head xml:id="gom-is59-Hd1e212">Versus 11</head>
+          <p xml:id="gom-is59-d1e214">
+            <quote xml:id="gom-is59-Qd1e216" type="lemma" source="http://scta.info/resource/is59_11@1-4">Rugiemus quasi ursi omnes.</quote>
+            Judaeorum meditatio et doctrina in sacra Scriptura rugitui ursi et gemitui columbae comparatur, quasi inutilis et vana, sicut et illa. Contra subjectos quoque saeviunt ut ursi; contra majores vel aequales, gemunt ut columbae.
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e221">
+          <head xml:id="gom-is59-Hd1e223">Versus 15</head>
+          <p xml:id="gom-is59-d1e225">
+            <quote xml:id="gom-is59-Qd1e227" type="lemma" source="http://scta.info/resource/is59_15@4-5">Veritas in.</quote>
+            <ref xml:id="gom-is59-Rd1e230"><name xml:id="gom-is59-Nd1e231" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is59-Qd1e234"><seg type="qs">Christus, qui est via</seg>, etc., usque ad <seg type="qs">ut Christi persona monstretur, quam deserentes, secuti sunt mendacium.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e243">
+          <head xml:id="gom-is59-Hd1e245">Versus 16</head>
+          <p xml:id="gom-is59-d1e247">
+            <quote xml:id="gom-is59-Qd1e249" type="lemma" source="http://scta.info/resource/is59_16@1-2">Et vidit.</quote>
+            <ref xml:id="gom-is59-Rd1e252"><name xml:id="gom-is59-Nd1e253" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is59-Qd1e256">Ostenso, quia poenituerunt, ostendit non placuisse Domino poenitentiam eorum, quia non puro corde plures poenituerunt.</quote>
+          </p>
+          <p xml:id="gom-is59-d1e259">
+            <quote xml:id="gom-is59-Qd1e261" type="lemma" source="http://scta.info/resource/is59_16@3-6">Quia non est vir.</quote>
+            Mente omnes effeminati sunt, <pb ed="#P" n="1302B"/> sicut et illud, <quote xml:id="gom-is59-Qd1e266" source="http://scta.info/resource/is50_2@7-12">Vocavi et non erat qui audiret.</quote>
+          </p>
+          <p xml:id="gom-is59-d1e270">
+            <quote xml:id="gom-is59-Qd1e272" type="lemma" source="http://scta.info/resource/is59_16@15-17">Et salvavit sibi.</quote>
+            Pater, scilicet per Filium gentes, <quote xml:id="gom-is59-Qd1e275" source="http://scta.info/resource/is59_16@20-22">Et justitia ejus,</quote> vel misericordia secundum LXX confirmabit eum qui voluerit converti: non merito, sed misericordia et justitia. Justum enim est ut poenitenti creaturae Creator parcat, quae meritis suis salvari non poterat.
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e280">
+          <head xml:id="gom-is59-Hd1e282">Versus 19</head>
+          <p xml:id="gom-is59-d1e284">
+            <quote xml:id="gom-is59-Qd1e286" type="lemma" source="http://scta.info/resource/is59_19@1-3">Et timebunt qui.</quote>
+            Praemonstrata vindicta Dei in Judaeos per Romanos, describit fidem gentium, de quatuor partibus mundi venientium, audita praedicatione apostolorum
+          </p>
+          <p xml:id="gom-is59-d1e290">
+            <quote xml:id="gom-is59-Qd1e292" type="lemma" source="http://scta.info/resource/is59_19@17-18">Quasi fluvius.</quote>
+            Quia citissime mundum sua praedicatione et fide implevit.
+          </p>
+          <p xml:id="gom-is59-d1e296">
+            <quote xml:id="gom-is59-Qd1e298" type="lemma" source="http://scta.info/resource/is59_19@20-22">Quem Spiritus Domini.</quote>
+            <ref xml:id="gom-is59-Rd1e301"><name xml:id="gom-is59-Nd1e302" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is59-Qd1e305">Ad redimendum genus humanum Spiritus sanctus scilicet. Unde: <quote xml:id="gom-is59-Qd1e307" source="http://scta.info/resource/mt1_20@27-30">Qui <pb ed="#P" n="1302C"/> conceptus est de Spiritu sancto.</quote> Et, <quote xml:id="gom-is59-Qd1e312" source="http://scta.info/resource/is11_2@2-6">Requiescit supereum Spiritus Domini</quote>, etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is59-Dd1e318">
+          <head xml:id="gom-is59-Hd1e320">Versus 21</head>
+          <p xml:id="gom-is59-d1e322">
+            <quote xml:id="gom-is59-Qd1e324" type="lemma" source="http://scta.info/resource/is59_21@1-2">Hoc foedus,</quote>
+            ut scilicet eos sanguine Filii redimam, et ipsi praecepta mea faciant, et me moriter teneant et hoc est, <quote xml:id="gom-is59-Qd1e327" source="http://scta.info/resource/is59_21@8-13">Spiritus meus, qui est in te,</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

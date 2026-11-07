@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 45</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 45</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0173D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen45">
+        <head xml:id="gom-gen45-Hd1e98">Caput 45</head>
+        <div xml:id="gom-gen45-Dd1e100">
+          <head xml:id="gom-gen45-Hd1e102">Versus 7</head>
+          <p xml:id="gom-gen45-d1e104">
+            <pb ed="#P" n="0173D"/>
+            <quote xml:id="gom-gen45-Qd1e108" type="lemma" source="http://scta.info/resource/gen45_7@2-3">Misit me Deus,</quote>
+            etc.
+            <ref xml:id="gom-gen45-Rd1e111"><name xml:id="gom-gen45-Nd1e112" ref="#Augustine">AUG.</name> Quaest. in Gen., tom. III.</ref>
+            <quote xml:id="gom-gen45-Qd1e116"><seg type="qs">Quid est quod juxta alia exemplaria ita legitur: <quote xml:id="gom-gen45-Qd1e119">Misit enim me Deus ante vos, remanere reliquias vestras super terram, et enutrire semen reliquiarum vestrarum magnum?</quote> Hoc enim non usquequaque consonat</seg>, etc., usque ad <seg type="qs"><quote xml:id="gom-gen45-Qd1e123" source="http://scta.info/resource/rom11_26@1-6">et sic omnis Israel salvus fieret.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen45-Dd1e128">
+          <head xml:id="gom-gen45-Hd1e130">Versus 10</head>
+          <p xml:id="gom-gen45-d1e132">
+            <quote xml:id="gom-gen45-Qd1e134" type="lemma" source="http://scta.info/resource/gen45_10@2-5">Habitabis in terra Gessen,</quote>
+            etc.
+            <ref xml:id="gom-gen45-Rd1e137"><name xml:id="gom-gen45-Nd1e138" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen45-Qd1e141">In Hebraeo habetur <quote xml:id="gom-gen45-Qd1e143">Gosen</quote> ( ). Unde error increvit quod terra Gessen in Arabia sit. Porro, sicut in nostris codicibus est, per extremum <mentioned>m</mentioned> scribitur Gessem, quod mihi nequaquam placet terram significare complutam. Gessem enim in <quote xml:id="gom-gen45-Qd1e147">imbrem</quote> <pb ed="#P" n="0174A"/> vertitur, ubi et in plerisque Gessem reperitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen45-Dd1e154">
+          <head xml:id="gom-gen45-Hd1e156">Versus 16</head>
+          <p xml:id="gom-gen45-d1e158">
+            <quote xml:id="gom-gen45-Qd1e160" type="lemma" source="http://scta.info/resource/gen45_16@13-16">Et gavisus est Pharao,</quote>
+            etc. Haec verba Pharaonis quae ad Joseph de Jacob et filiis ejus locutus est, significant gaudia gentilis populi de conversione Judaeorum. Magna enim devotio est Ecclesiae gentium quod Israeliticus populus ad fidem veniat, quibus, si convertantur et fidei participes exstiterint, promittit spirituales opes virtutum, et gratiam Spiritus sancti, quam qui accipit, indigentia boni non laborabit.
+          </p>
+        </div>
+        <div xml:id="gom-gen45-Dd1e165">
+          <head xml:id="gom-gen45-Hd1e167">Versus 22</head>
+          <p xml:id="gom-gen45-d1e169">
+            <quote xml:id="gom-gen45-Qd1e171" type="lemma" source="http://scta.info/resource/gen45_22@6-8">Benjamin vero dedit,</quote>
+            etc. Trecenti argentei dantur Benjamin, quos a Christo accepit qui praedicat Trinitatem, vel Christi crucem. Unde Paulus ait I ad Corinth. II: <quote xml:id="gom-gen45-Qd1e174" source="http://scta.info/resource/Icor2_2@1-14">Non judicavi me <pb ed="#P" n="0174B"/> aliquid scire inter vos, nisi Christum Jesum, et hunc crucifixum.</quote> Quinque stolas accepit, id est sapientiam omnium sensuum. Praecellit ergo Paulus abundantia meritorum: sed et fratres, id est alii praedicatores, habent gratiam suam, id est binas stolas, ut confiteantur Christum Deum et hominem. Unde Prov. XXXI: <quote xml:id="gom-gen45-Qd1e179" source="http://scta.info/resource/prov31_21@9-14">Omnes domestici ejus vestiti duplicibus,</quote> id est mystica et morali intelligentia. Mittuntur et patri munera, et Christus promissis muneribus invitat populum suum. Munera portant asini, id est gentiles, inutiles et laboriosi: nunc autem portant utiles in typo Christi munera, in Evangelio munerum largitore.
+          </p>
+          <p xml:id="gom-gen45-d1e183">
+            <ref xml:id="gom-gen45-Rd1e185" type="lemma" subtype="implied" target="http://scta.info/resource/gen45_22@6-8"/>
+            <ref xml:id="gom-gen45-Rd1e187"><name xml:id="gom-gen45-Nd1e188" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen45-Qd1e191">Expavit Jacob, id est plebs incredula: sed postquam gesta Christi cognovit, revixit spiritus <pb ed="#P" n="0174C"/> ejus, et qui mortuus videbatur, fide resurrectionis Christi vivificatur. Vocatur ergo a filiis suis, id est, a Petro, Paulo et Joanne, populus Judaeorum ad gratiam. Occurrit illi Judas, qui interpretatur <mentioned>confessio</mentioned>, quia praecedit confessio quos ante perfidia possidebat: et sic Joseph, id est Christus, occurrit, qui senem jam aetate suscipiat ultimo tempore populum Judaeorum, non secundum merita, sed secundum electionem gratiae, et imponat manum super oculos ejus, et caecitatem auferat; quod distulit, ut postremus crederet, qui ante non putavit esse credendum. Unde ad Romanos undecimo capite: <quote xml:id="gom-gen45-Qd1e197">Quia caecitas ex parte in Israel facta est, donec plenitudo gentium intraret, et sic omnis Israel salvus fieret.</quote></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

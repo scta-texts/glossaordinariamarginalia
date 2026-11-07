@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iob, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iob, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0781A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iob9">
+        <head xml:id="gom-iob9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-iob9-Dd1e100">
+          <head xml:id="gom-iob9-Hd1e102">Versus 1</head>
+          <p xml:id="gom-iob9-d1e104">
+            <pb ed="#P" n="0781A"/>
+            <quote xml:id="gom-iob9-Qd1e108" type="lemma" source="http://scta.info/resource/iob9_1@1-4">Et respondens Job ait.</quote>
+            <ref xml:id="gom-iob9-Rd1e111"><name xml:id="gom-iob9-Nd1e112" ref="#GregoryGreat">GREG.</name> in Job.</ref>
+            <quote xml:id="gom-iob9-Qd1e116">Perversi, quibus loquens persona displicet, omnia quae dicit, prava seu recta impugnant; sed Job cui non displicet persona, sed culpa, videns Baldath recta dixisse: <quote xml:id="gom-iob9-Qd1e118" source="http://scta.info/resource/iob8_3@1-4">Nunquid Deus supplantat judicium</quote> : et vera contra hypocritas protulisse, audita probat. Vere scio quod homo humilis et Deo suppositus justitiam accipit, compositus perdit, quia qui se ei comparat, quod Dei est sibi arrogans, bono quod accepit, se privat. Sed et omne meritum nostrae virtutis (si districte judicetur) vitium est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e124">
+          <head xml:id="gom-iob9-Hd1e126">Versus 3</head>
+          <p xml:id="gom-iob9-d1e128">
+            <quote xml:id="gom-iob9-Qd1e130" type="lemma" source="http://scta.info/resource/iob9_3@1-5">Si voluerit contendere cum eo,</quote>
+            <ref xml:id="gom-iob9-Rd1e133"><name xml:id="gom-iob9-Nd1e134" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e137">de suis meritis praesumendo, et gloriam <pb ed="#P" n="0781B"/> suae virtutis, non Deo, sed sibi arrogando.</quote>
+          </p>
+          <p xml:id="gom-iob9-d1e143">
+            <quote xml:id="gom-iob9-Qd1e145" type="lemma" source="http://scta.info/resource/iob9_3@6-12">Non poterit ei respondere unum pro mille.</quote>
+            <ref xml:id="gom-iob9-Rd1e148"><name xml:id="gom-iob9-Nd1e149" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e152"><seg type="qs">Id est non poterit se</seg>, etc., usque ad <seg type="qs">ne autem contendat, infirmum terreat visa ejus potentia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e161">
+          <head xml:id="gom-iob9-Hd1e163">Versus 4</head>
+          <p xml:id="gom-iob9-d1e165">
+            <ref xml:id="gom-iob9-Rd1e167" type="lemma" subtype="implied" target="http://scta.info/resource/iob9_4"/>
+            « Quis restitit ei et pacem habuit. Quis creat ut sibi creata conveniant, ordinat in quo sit eis pax, et qui ejus dispositioni repugnare conatur, pacem perdit, ut angelus, qui, sua inquietudine elatus, homo qui carnis molestia vexatur, quia conditori subesse noluit, pacem uterque amisit.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e171">
+          <head xml:id="gom-iob9-Hd1e173">Versus 5</head>
+          <p xml:id="gom-iob9-d1e175">
+            <quote xml:id="gom-iob9-Qd1e177" type="lemma" source="http://scta.info/resource/iob9_5@1-3">Qui transtulit montes,</quote>
+            etc.
+            <ref xml:id="gom-iob9-Rd1e180"><name xml:id="gom-iob9-Nd1e181" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e184">Dicta generaliter confusione superbiae, quae poena maneat elatos in interitu Israel ostendit. Transtulit montes, sanctos praedicatores a Judaeis ad gentes, quod nescierunt Judaei, qui, in hoc subversi sunt, putantes <pb ed="#P" n="0781C"/> sibi gaudium quod lumen perdiderunt. Translatis montibus, commovet terras.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e192">
+          <head xml:id="gom-iob9-Hd1e194">Versus 6</head>
+          <p xml:id="gom-iob9-d1e196">
+            <quote xml:id="gom-iob9-Qd1e198" type="lemma" source="http://scta.info/resource/iob9_6@2-5">Commovet terram de loco.</quote>
+            Quia Judaeos de finibus suis per Romanos extraxit.
+          </p>
+          <p xml:id="gom-iob9-d1e202">
+            <quote xml:id="gom-iob9-Qd1e204" type="lemma" source="http://scta.info/resource/iob9_6@8-8">Columnae.</quote>
+            Sacerdotes, principes, legis doctores. Concussi sunt, quia nec ipsi sibi vivere permissi sunt, unde apostolos expulerunt, praeterea in erroris sui tenebris deserti sunt.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e209">
+          <head xml:id="gom-iob9-Hd1e211">Versus 7</head>
+          <p xml:id="gom-iob9-d1e213">
+            <quote xml:id="gom-iob9-Qd1e215" type="lemma" source="http://scta.info/resource/iob9_7@1-3">Qui praecipit soli.</quote>
+            <ref xml:id="gom-iob9-Rd1e218"><name xml:id="gom-iob9-Nd1e219" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e222"><seg type="qs">Sol per diem lucet</seg>, etc., usque ad <seg type="qs">in omnes gentes dilatatur. Unde:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e231">
+          <head xml:id="gom-iob9-Hd1e233">Versus 8</head>
+          <p xml:id="gom-iob9-d1e235">
+            <quote xml:id="gom-iob9-Qd1e237" type="lemma" source="http://scta.info/resource/iob9_8@1-3">Qui extendit coelos.</quote>
+            <ref xml:id="gom-iob9-Rd1e240"><name xml:id="gom-iob9-Nd1e241" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e244">Id est, apostolos a Judaeis fugatos ubique facit honorari.</quote>
+          </p>
+          <p xml:id="gom-iob9-d1e247">
+            <quote xml:id="gom-iob9-Qd1e249" type="lemma" source="http://scta.info/resource/iob9_8@4-4">Solus.</quote>
+            Qui mire hoc dispensavit, et cum amaritudo mundi in nece bonorum saeviret.
+          </p>
+          <p xml:id="gom-iob9-d1e253">
+            <pb ed="#P" n="0781D"/>
+            <quote xml:id="gom-iob9-Qd1e257" type="lemma" source="http://scta.info/resource/iob9_8@6-8">Graditur super fluctus,</quote>
+            id est, calcat dum mitigat admiratione signorum. Jeremias: <quote xml:id="gom-iob9-Qd1e260" source="http://scta.info/resource/ier5_22@14-17">Posui arenam terminum mari ,</quote> id est, ad frangendam gloriam mundi, abjectos et pauperes elegit; dum autem mare saevit, Ecclesia proficit.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e265">
+          <head xml:id="gom-iob9-Hd1e267">Versus 9</head>
+          <p xml:id="gom-iob9-d1e269">
+            <quote xml:id="gom-iob9-Qd1e271" type="lemma" source="http://scta.info/resource/iob9_9@1-3">Qui facit arcturum.</quote>
+            <ref xml:id="gom-iob9-Rd1e274"><name xml:id="gom-iob9-Nd1e275" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e278"><seg type="qs">Nominibus philosophorum utitur</seg>, etc., usque ad <seg type="qs">imo ut arcturus versatur, erigitur.</seg></quote>
+          </p>
+          <p xml:id="gom-iob9-d1e286">
+            <quote xml:id="gom-iob9-Qd1e288" type="lemma" source="http://scta.info/resource/iob9_9@5-5">Oriona.</quote>
+            <ref xml:id="gom-iob9-Rd1e291"><name xml:id="gom-iob9-Nd1e292" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e295"><seg type="qs">Qui hiemali tempore oriuntur</seg>, etc., usque ad <seg type="qs">sed placidos in eorum necem erexit.</seg></quote>
+          </p>
+          <p xml:id="gom-iob9-d1e303">
+            <quote xml:id="gom-iob9-Qd1e305" type="lemma" source="http://scta.info/resource/iob9_9@7-7">Hyadas.</quote>
+            <quote xml:id="gom-iob9-Qd1e308"><seg type="qs">In fronte Tauri in vere nascuntur</seg>, etc., usque ad <seg type="qs">supernae patriae interna perveniat, unde addit:</seg></quote>
+          </p>
+          <p xml:id="gom-iob9-d1e316">
+            <quote xml:id="gom-iob9-Qd1e318" type="lemma" source="http://scta.info/resource/iob9_9@8-10">Et interiora austri.</quote>
+            <quote xml:id="gom-iob9-Qd1e321"><seg type="qs">Auster fervor Spiritus <pb ed="#P" n="0782A"/> sancti</seg>, etc., usque ad <seg type="qs">melius deficiendo comprehendit, dicens:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e332">
+          <head xml:id="gom-iob9-Hd1e334">Versus 10</head>
+          <p xml:id="gom-iob9-d1e336">
+            <quote xml:id="gom-iob9-Qd1e338" type="lemma" source="http://scta.info/resource/iob9_10@1-2">Qui facit mihi.</quote>
+            Melius explet, qui se non posse explere fatetur, et facundius loquitur qui obstupescendo tacet.
+          </p>
+          <p xml:id="gom-iob9-d1e342">
+            <quote xml:id="gom-iob9-Qd1e344" type="lemma" source="http://scta.info/resource/iob9_10@3-3">Magna</quote>
+            virtute.
+          </p>
+          <p xml:id="gom-iob9-d1e348">
+            <quote xml:id="gom-iob9-Qd1e350" type="lemma" source="http://scta.info/resource/iob9_10@4-5">Et incomprehensibilia</quote>
+            ratione.
+          </p>
+          <p xml:id="gom-iob9-d1e354">
+            <quote xml:id="gom-iob9-Qd1e356" type="lemma" source="http://scta.info/resource/iob9_10@6-9">Et mirabilia quorum non</quote>
+            multiplicitate. Sed quid miremur quae extra nos sunt, cum et hoc quod erga nos agitur, ignoramus? Si venerit ad me.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e361">
+          <head xml:id="gom-iob9-Hd1e363">Versus 11</head>
+          <p xml:id="gom-iob9-d1e365">
+            <quote xml:id="gom-iob9-Qd1e367" type="lemma" source="http://scta.info/resource/iob9_11@1-4">Si venerit ad me.</quote>
+            <ref xml:id="gom-iob9-Rd1e370"><name xml:id="gom-iob9-Nd1e371" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e374"><seg type="qs">Venit, cum dona dat</seg>, etc., usque ad <seg type="qs">et tamen sic caecus homo rationem reddet de actibus Deo.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e384">
+          <head xml:id="gom-iob9-Hd1e386">Versus 12</head>
+          <p xml:id="gom-iob9-d1e388">
+            <quote xml:id="gom-iob9-Qd1e390" type="lemma" source="http://scta.info/resource/iob9_12@1-3">Si repente inter.</quote>
+            <ref xml:id="gom-iob9-Rd1e393"><name xml:id="gom-iob9-Nd1e394" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e397"><seg type="qs">Repente interrogat, cum inopinatos</seg>, etc., usque ad, <seg type="qs">quod planius <pb ed="#P" n="0782B"/> ostenditur dum subditur:</seg></quote>
+          </p>
+          <p xml:id="gom-iob9-d1e407">
+            <quote xml:id="gom-iob9-Qd1e409" type="lemma" source="http://scta.info/resource/iob9_12@8-12">Quis dicere potest, cur ita facis?</quote>
+            <quote xml:id="gom-iob9-Qd1e412"><seg type="qs">Facta Dei debemus venerari</seg>, etc., usque ad <seg type="qs">quam superbus inexstinguibiliter accendit, unde ait:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e421">
+          <head xml:id="gom-iob9-Hd1e423">Versus 13</head>
+          <p xml:id="gom-iob9-d1e425">
+            <quote xml:id="gom-iob9-Qd1e427" type="lemma" source="http://scta.info/resource/iob9_13@1-6">Deus cujus irae resistere nemo potest.</quote>
+            <quote xml:id="gom-iob9-Qd1e430"><seg type="qs">Moyses et Phinees et alii sancti</seg>, etc., usque ad <seg type="qs">ab his reversus ad se humiliter prae potestate Dei sibi vilescit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e439">
+          <head xml:id="gom-iob9-Hd1e441">Versus 14</head>
+          <p xml:id="gom-iob9-d1e443">
+            <quote xml:id="gom-iob9-Qd1e445" type="lemma" source="http://scta.info/resource/iob9_14@1-2">Quantus ergo se.</quote>
+            <ref xml:id="gom-iob9-Rd1e448"><name xml:id="gom-iob9-Nd1e449" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e452">Id est, si angelus hunc considerare non sufficit, qua mente de ejus judiciis disputo qui carne premor? Verba nostra ad Deum sunt opera, sed his quia non potest homo loqui cum Deo, quia in eis apud subtile judicium Dei nulla fiducia est, unde addit:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e456">
+          <head xml:id="gom-iob9-Hd1e458">Versus 15</head>
+          <p xml:id="gom-iob9-d1e460">
+            <quote xml:id="gom-iob9-Qd1e462" type="lemma" source="http://scta.info/resource/iob9_15@1-4">Qui etiam si habuero, etc., deprecabor.</quote>
+            <pb ed="#P" n="0782C"/> Prece post justitiam Dei indiget, ut quae minus ex se, ex pietate judicis valeat. Etsi plena in perfectioribus sit justitia, haberi de illa,
+          </p>
+          <p xml:id="gom-iob9-d1e468">
+            <quote xml:id="gom-iob9-Qd1e470" type="lemma" source="http://scta.info/resource/iob9_15@5-5">Quidpiam,</quote>
+            dicitur, quia mens hominis quae comprehendit vix peragit, et parum est quod comprehendit. Oratio vero, quia multis cogitationibus quatitur, etsi auditur, repelli timet.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e475">
+          <head xml:id="gom-iob9-Hd1e477">Versus 16</head>
+          <p xml:id="gom-iob9-d1e479">
+            <quote xml:id="gom-iob9-Qd1e481" type="lemma" source="http://scta.info/resource/iob9_16@2-6">Cum invocantem exaudierit me non.</quote>
+            <ref xml:id="gom-iob9-Rd1e484"><name xml:id="gom-iob9-Nd1e485" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e488">Cum enim (ut ait David) <quote xml:id="gom-iob9-Qd1e490" source="http://scta.info/resource/ps106_26@1-4">modo ascendunt usque ad coelos ,</quote> cum summa penetrant, modo descendunt in abyssos, per turpia tentamenta, certitudinem exauditionis non habent. Vide quam subtiliter se judicat, infirmitatem suam aperit.</quote>
+          </p>
+          <p xml:id="gom-iob9-d1e495">
+            <quote xml:id="gom-iob9-Qd1e497" type="lemma" source="http://scta.info/resource/iob9_16">Quantus ergo.</quote>
+            <!-- check: lemma not matched to verse text -->
+            In justitia non confidit, sed ad <pb ed="#P" n="0782D"/> precem confugit: qui, etiamsi habuero quidpiam justum, de ipsa quoque prece pavidus ait: <quote xml:id="gom-iob9-Qd1e504" source="http://scta.info/resource/iob9_16@2-3">Cum invocantem.</quote> Ideo sic circumspicit, quia vim judicii se non posse ferre videt, de quo ait:
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e509">
+          <head xml:id="gom-iob9-Hd1e511">Versus 17</head>
+          <p xml:id="gom-iob9-d1e513">
+            <quote xml:id="gom-iob9-Qd1e515" type="lemma" source="http://scta.info/resource/iob9_17@1-5">In turbine etiam conteret me.</quote>
+            Qui in tranquillitate exspectatus contempsit, in turbine conteretur.
+          </p>
+          <p xml:id="gom-iob9-d1e519">
+            <quote xml:id="gom-iob9-Qd1e521" type="lemma" source="http://scta.info/resource/iob9_17@2-2">Turbine:</quote>
+            quia in commotione elementorum ibi districte requiri opera timet: cum et quosdam sine operibus originali reatu damnari videt, quorum voce ait:
+          </p>
+          <p xml:id="gom-iob9-d1e525">
+            <quote xml:id="gom-iob9-Qd1e527" type="lemma" source="http://scta.info/resource/iob9_17@7-9">Multiplicabit vulnera mea.</quote>
+            Quia ipsi nihil egerunt, unde dicitur: <quote xml:id="gom-iob9-Qd1e530">Non est mundus in conspectu ejus, nec infans unius diei.</quote>
+          </p>
+          <p xml:id="gom-iob9-d1e533">
+            <quote xml:id="gom-iob9-Qd1e535" type="lemma" source="http://scta.info/resource/iob9_17@11-12">Sine causa.</quote>
+            Pro aestimatione humani sensus; <pb ed="#P" n="0783A"/> sed apud Deum justum est, ut arbor in ramis amaritudinem servet, quam traxit a radice. Haec etiam spiritualiter de Job, qui flagella Dei in turbine, et metuens praevidit, et praevidens pertulit, unde ait: <quote xml:id="gom-iob9-Qd1e540" source="http://scta.info/resource/iob9_17@6-12">Et multiplicabit vulnera mea sine causa,</quote> quia non pro culpa percussus est, unde <ref xml:id="gom-iob9-Rd1e543">supra, <seg type="incipit">ut affligerem eum frustra</seg>.</ref>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e552">
+          <head xml:id="gom-iob9-Hd1e554">Versus 18</head>
+          <p xml:id="gom-iob9-d1e556">
+            <quote xml:id="gom-iob9-Qd1e558" type="lemma" source="http://scta.info/resource/iob9_18@1-2">Non concedit.</quote>
+            <ref xml:id="gom-iob9-Rd1e561"><name xml:id="gom-iob9-Nd1e562" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e565">Plena probatio: extra lacerant tormenta, intus castigant tentamenta, unde se impletum amaritudinibus dicit, sed mitigat vim doloris aequitas et potentia ferientis. Et hoc est:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e569">
+          <head xml:id="gom-iob9-Hd1e571">Versus 19</head>
+          <p xml:id="gom-iob9-d1e573">
+            <quote xml:id="gom-iob9-Qd1e575" type="lemma" source="http://scta.info/resource/iob9_19@1-3">Si fortitudo quaeritur.</quote>
+            Quasi: nemo audet, quia ille merita examinat, qui per alienum testimonium ea non explorat, sed tacitus <pb ed="#P" n="0783B"/> considerator diu exspectat. Alius non potest mihi esse testis, quia nec ego ipse mihi.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e582">
+          <head xml:id="gom-iob9-Hd1e584">Versus 20</head>
+          <p xml:id="gom-iob9-d1e586">
+            <quote xml:id="gom-iob9-Qd1e588" type="lemma" source="http://scta.info/resource/iob9_20@1-2">Si justificare.</quote>
+            <ref xml:id="gom-iob9-Rd1e591"><name xml:id="gom-iob9-Nd1e592" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e595">Non sufficio esse testis innocentiae, nec scio quod eam habeam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e599">
+          <head xml:id="gom-iob9-Hd1e601">Versus 21</head>
+          <p xml:id="gom-iob9-d1e603">
+            <quote xml:id="gom-iob9-Qd1e605" type="lemma" source="http://scta.info/resource/iob9_21@2-4">Si simplex fuero.</quote>
+            <quote xml:id="gom-iob9-Qd1e608"><seg type="qs">Qui scit bona quae agit</seg>, etc., usque ad <seg type="qs">hoc exsilium caecitatis aegre fert, unde subdit:</seg></quote>
+          </p>
+          <p xml:id="gom-iob9-d1e616">
+            <quote xml:id="gom-iob9-Qd1e618" type="lemma" source="http://scta.info/resource/iob9_21@10-14">Et taedebit me vitae meae.</quote>
+            Sed est consolatio hujus caliginis reducta animo justa potentia Dei: quae et iniquos punit, et justos transcendit.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e623">
+          <head xml:id="gom-iob9-Hd1e625">Versus 22</head>
+          <p xml:id="gom-iob9-d1e627">
+            <quote xml:id="gom-iob9-Qd1e629" type="lemma" source="http://scta.info/resource/iob9_22@1-5">Unum est quod locutus sum.</quote>
+            <ref xml:id="gom-iob9-Rd1e632"><name xml:id="gom-iob9-Nd1e633" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e636"><seg type="qs">Vel <mentioned>innocens</mentioned> consumitur</seg>, etc., usque ad <seg type="qs">nostram duplam carnis et animae destruat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e647">
+          <head xml:id="gom-iob9-Hd1e649">Versus 23</head>
+          <p xml:id="gom-iob9-d1e651">
+            <quote xml:id="gom-iob9-Qd1e653" type="lemma" source="http://scta.info/resource/iob9_23@1-3">Si flagellat, occidat se.</quote>
+            <ref xml:id="gom-iob9-Rd1e656"><name xml:id="gom-iob9-Nd1e657" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e660"><seg type="qs">Ridere <pb ed="#P" n="0783C"/> Dei est afflictioni</seg>, etc., usque ad <seg type="qs">quod solus carnis mortem pertulit, aperit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e672">
+          <head xml:id="gom-iob9-Hd1e674">Versus 24</head>
+          <p xml:id="gom-iob9-d1e676">
+            <quote xml:id="gom-iob9-Qd1e678" type="lemma" source="http://scta.info/resource/iob9_24@1-2">Terra data.</quote>
+            Vel <mentioned>tradita</mentioned>. Terra caro, impius diabolus.
+          </p>
+          <p xml:id="gom-iob9-d1e684">
+            <quote xml:id="gom-iob9-Qd1e686" type="lemma" source="http://scta.info/resource/iob9_24@5-5">Manus</quote>
+            <quote xml:id="gom-iob9-Qd1e689"><seg type="qs">ejus, occisores Christi</seg>, etc., usque ad <seg type="qs">quam Christus venerit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e698">
+          <head xml:id="gom-iob9-Hd1e700">Versus 25</head>
+          <p xml:id="gom-iob9-d1e702">
+            <quote xml:id="gom-iob9-Qd1e704" type="lemma" source="http://scta.info/resource/iob9_25@1-5">Dies mei velociores fuerunt cursore.</quote>
+            <ref xml:id="gom-iob9-Rd1e707"><name xml:id="gom-iob9-Nd1e708" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e711">Cursoris est, secutura nuntiare: sic omnes electi ante adventum nuntiantes Christum cursores fuerunt; sed quia ante moriuntur, transire se velocius cursore dolent, ut non videant praesentem illum qui singulariter bonus dicitur; de quibus etiam addit</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e715">
+          <head xml:id="gom-iob9-Hd1e717">Versus 26</head>
+          <p xml:id="gom-iob9-d1e719">
+            <quote xml:id="gom-iob9-Qd1e721" type="lemma" source="http://scta.info/resource/iob9_26@2-3">Quasi naves.</quote>
+            <quote xml:id="gom-iob9-Qd1e724"><seg type="qs">Qui poma portat <pb ed="#P" n="0783D"/> odore fruitur</seg>, etc., usque ad <seg type="qs">per compassionem ad eorum duritiam quoque sermo vertitur ita.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e735">
+          <head xml:id="gom-iob9-Hd1e737">Versus 27</head>
+          <p xml:id="gom-iob9-d1e739">
+            <quote xml:id="gom-iob9-Qd1e741" type="lemma" source="http://scta.info/resource/iob9_27@1-3">Cum dixero: nequaquam.</quote>
+            <ref xml:id="gom-iob9-Rd1e744"><name xml:id="gom-iob9-Nd1e745" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e748">Israel ut prius noluit loqui, cum quem praedixit negavit: in quo facies ejus interior commutatur sordibus perfidiae ut non agnoscatur a Deo, unde restat torqueri doloribus aeternis.</quote>
+          </p>
+          <p xml:id="gom-iob9-d1e751">
+            <quote xml:id="gom-iob9-Qd1e753" type="lemma" source="http://scta.info/resource/iob9_27">Dies mei velocius transierunt.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-iob9-Rd1e758"><name xml:id="gom-iob9-Nd1e759" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e762">Primus homo sic conditus est, ut vita ejus per tempora possit tendi, non evolvi; sed quia peccavit decursum pertulit, quem homo semper tolerat, et tamen optat, dum vivere appetit. Hujus decursus damna voce humani generis gemit.</quote>
+          </p>
+          <p xml:id="gom-iob9-d1e765">
+            <quote xml:id="gom-iob9-Qd1e767" type="lemma" source="http://scta.info/resource/iob9_27">Fugerunt,</quote>
+            <!-- check: lemma not matched to verse text -->
+            quia ad lucem stare homo noluit, <pb ed="#P" n="0784A"/> fugiendo visum perdidit, ne bonum quod est, videre possit, ad quod conditus fuit.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e776">
+          <head xml:id="gom-iob9-Hd1e778">Versus 26</head>
+          <p xml:id="gom-iob9-d1e780">
+            <quote xml:id="gom-iob9-Qd1e782" type="lemma" source="http://scta.info/resource/iob9_26@2-5">Quasi naves poma portantes.</quote>
+            <ref xml:id="gom-iob9-Rd1e785"><name xml:id="gom-iob9-Nd1e786" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e789"><seg type="qs">Fructus terrae per fluctus</seg>, etc., usque ad <seg type="qs">quae cogitatio ne in superbiam erumpat, humiliter se comprimit dicens:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e798">
+          <head xml:id="gom-iob9-Hd1e800">Versus 27</head>
+          <p xml:id="gom-iob9-d1e802">
+            <quote xml:id="gom-iob9-Qd1e804" type="lemma" source="http://scta.info/resource/iob9_27@3-5">Nequaquam ita loquar.</quote>
+            Sed infirmus a tali inquisitione compescar. In quo facies mentis commutatur, quia quae alta quaerebat, infirmam se videns, veneratur quod ignorat. In qua est dolor, quia valde affligitur qui ad intelligenda quae de se sunt, caecatur. His communibus malis sua propria adjungere metuit: <quote xml:id="gom-iob9-Qd1e807" source="http://scta.info/resource/iob9_28@1-2">Verebar omnia,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e813">
+          <head xml:id="gom-iob9-Hd1e815">Versus 28</head>
+          <p xml:id="gom-iob9-d1e817">
+            <quote xml:id="gom-iob9-Qd1e819" type="lemma" source="http://scta.info/resource/iob9_28@1-3">Verebar omnia opera.</quote>
+            <ref xml:id="gom-iob9-Rd1e822"><name xml:id="gom-iob9-Nd1e823" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e826"><seg type="qs">Bona quidem erant</seg>, etc., usque ad <seg type="qs">quasi nec per labores ad vitam perveniat, unde:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e835">
+          <head xml:id="gom-iob9-Hd1e837">Versus 29</head>
+          <p xml:id="gom-iob9-d1e839">
+            <pb ed="#P" n="0784B"/>
+            <quote xml:id="gom-iob9-Qd1e843" type="lemma" source="http://scta.info/resource/iob9_29@1-6">Si autem et sic impius sum.</quote>
+            Non poenitet laborasse, sed inter labores de praemiis incertum se esse dolet. Ita est incertus justus, ut confidat, ita confidit ne securus torpeat.
+          </p>
+          <p xml:id="gom-iob9-d1e847">
+            <quote xml:id="gom-iob9-Qd1e849" type="lemma" source="http://scta.info/resource/iob9_29@8-8">Frustra:</quote>
+            dico quia.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e854">
+          <head xml:id="gom-iob9-Hd1e856">Versus 30</head>
+          <p xml:id="gom-iob9-d1e858">
+            <quote xml:id="gom-iob9-Qd1e860" type="lemma" source="http://scta.info/resource/iob9_30@1-6">Si lotus fuero quasi aquis nivis.</quote>
+            <quote xml:id="gom-iob9-Qd1e863"><seg type="qs">Qui conterit se ut lamentis</seg>, etc., usque ad <seg type="qs">qui compungitur in prece pro terrenis, aqua terrae.</seg></quote>
+          </p>
+          <p xml:id="gom-iob9-d1e871">
+            <quote xml:id="gom-iob9-Qd1e873" type="lemma" source="http://scta.info/resource/iob9_30@11-11">Manus,</quote>
+            <ref xml:id="gom-iob9-Rd1e876"><name xml:id="gom-iob9-Nd1e877" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e880">sunt opera.</quote>
+          </p>
+          <p xml:id="gom-iob9-d1e883">
+            <quote xml:id="gom-iob9-Qd1e885" type="lemma" source="http://scta.info/resource/iob9_30@9-10">Velut mundissimae,</quote>
+            quasi non vere mundae sub hac corruptione.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e890">
+          <head xml:id="gom-iob9-Hd1e892">Versus 31</head>
+          <p xml:id="gom-iob9-d1e894">
+            <quote xml:id="gom-iob9-Qd1e896" type="lemma" source="http://scta.info/resource/iob9_31@3-3">Intinges</quote>
+            id est, intinctum demonstrabis, quia quanto plus ei approximamus, sordes nostras ex ejus munditia agnoscimus.
+          </p>
+          <p xml:id="gom-iob9-d1e900">
+            <quote xml:id="gom-iob9-Qd1e902" type="lemma" source="http://scta.info/resource/iob9_31@8-8">Vestimenta.</quote>
+            Vestimentum animae est corpus <pb ed="#P" n="0784C"/> quod praecepit Salomon omni tempore candidum esse, et si sit mistum sanguine, id est carnalibus desideriis, dicit Isaias comburendum <!--<note>(Isa. 9)</note>-->.
+          </p>
+          <p xml:id="gom-iob9-d1e910">
+            <quote xml:id="gom-iob9-Qd1e912" type="lemma" source="http://scta.info/resource/iob9_31@6-6">Abominabuntur,</quote>
+            id est, abominabilem reddent, ut de Juda dicitur: <quote xml:id="gom-iob9-Qd1e915" source="http://scta.info/resource/act1_18@4-8">Possedit agrum de mercede iniquitatis,</quote> id est, possideri fecit. In abominatione vestis hoc gravius habet, quod sensum sui reprehensoris ignorat.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e920">
+          <head xml:id="gom-iob9-Hd1e922">Versus 32</head>
+          <p xml:id="gom-iob9-d1e924">
+            <quote xml:id="gom-iob9-Qd1e926" type="lemma" source="http://scta.info/resource/iob9_32@1-2">Neque enim viso.</quote>
+            Inter homines, et audimus objecta, et ad ea respondemus et audimur; sed in judicio Dei, ipse nos audit, quia videt omnia quae agimus, sed non audimus eum, quia quod ei displicet plene non intelligimus. Non ex aequo potest audiri.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e931">
+          <head xml:id="gom-iob9-Hd1e933">Versus 33</head>
+          <p xml:id="gom-iob9-d1e935">
+            <quote xml:id="gom-iob9-Qd1e937" type="lemma" source="http://scta.info/resource/iob9_33@4-5">Utrumque valeat:</quote>
+            id est Deum <pb ed="#P" n="0784D"/> et me possit:
+          </p>
+          <p xml:id="gom-iob9-d1e943">
+            <quote xml:id="gom-iob9-Qd1e945" type="lemma" source="http://scta.info/resource/iob9_33@6-6">Arguere.</quote>
+            <quote xml:id="gom-iob9-Qd1e948"><seg type="qs">Arguit, qui ex auctoritate rationis</seg>, etc., usque ad <seg type="qs">quod corda delinquentium mansuetudine potius quam terrore correxit, unde addit:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e958">
+          <head xml:id="gom-iob9-Hd1e960">Versus 34</head>
+          <p xml:id="gom-iob9-d1e962">
+            <quote xml:id="gom-iob9-Qd1e964" type="lemma" source="http://scta.info/resource/iob9_34@1-4">Auferat a me virgam</quote>
+            legis qua punit; sed eam Christus abstulit, et per mansuetudinem vias vitae ostendit. Voluit ut Deus timeri, sed ut pater amari.
+          </p>
+        </div>
+        <div xml:id="gom-iob9-Dd1e969">
+          <head xml:id="gom-iob9-Hd1e971">Versus 35</head>
+          <p xml:id="gom-iob9-d1e973">
+            <quote xml:id="gom-iob9-Qd1e975" type="lemma" source="http://scta.info/resource/iob9_35@1-5">Loquar et non timebo eum.</quote>
+            <ref xml:id="gom-iob9-Rd1e978"><name xml:id="gom-iob9-Nd1e979" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e982">Jam non habet metum, sed ut ad patrem affectum. Ecce baculus, id est timor legis missus non suscitat puerum; sed ipse Elisaeus, puero contemperatus, et septies aspirans, id est per amorem spiritus.</quote>
+          </p>
+          <p xml:id="gom-iob9-d1e985">
+            <pb ed="#P" n="0785A"/>
+            <ref xml:id="gom-iob9-Rd1e989"><name xml:id="gom-iob9-Nd1e990" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-iob9-Qd1e993" type="lemma" source="http://scta.info/resource/iob9_35@10-10">Respondere</quote>
+            <quote xml:id="gom-iob9-Qd1e996">est factis digna recompensare, sed beneficiis Dei nemo serviliter timens respondet? Tantummodo qui per fiduciam amoris non timet digna ei reddi obsequia. Non est purus, qui mala ageret, si liceret. Amanti autem est taedium hujus vitae, quae prius dulcis erat etiam moerens eam tolerat.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

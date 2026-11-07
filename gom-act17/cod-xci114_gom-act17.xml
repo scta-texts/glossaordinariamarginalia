@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 17</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 17</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0459D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act17">
+        <head xml:id="gom-act17-Hd1e98">Caput 17</head>
+        <div xml:id="gom-act17-Dd1e100">
+          <head xml:id="gom-act17-Hd1e102">Versus 4</head>
+          <p xml:id="gom-act17-d1e104">
+            <quote xml:id="gom-act17-Qd1e106" type="lemma" source="http://scta.info/resource/act17_4@12-15">Et de colentibus gentilibusque.</quote>
+            Id est, et de his qui gentilem ritum Judaismo mutaverunt, et de his qui gentiles permanserant multi ad Christum confluebant.
+          </p>
+          <p xml:id="gom-act17-d1e110">
+            <ref xml:id="gom-act17-Rd1e112" type="lemma" subtype="implied" target="http://scta.info/resource/act17_4@12-15"/>
+            <ref xml:id="gom-act17-Rd1e114"><name xml:id="gom-act17-Nd1e115" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act17-Qd1e118">Prima causa malitiae est quod ii sint de vulgo; secunda quod et mali erant prae vulgo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e122">
+          <head xml:id="gom-act17-Hd1e124">Versus 6</head>
+          <p xml:id="gom-act17-d1e126">
+            <quote xml:id="gom-act17-Qd1e128" type="lemma" source="http://scta.info/resource/act17_6@6-7">Trahebant Jasonem.</quote>
+            <ref xml:id="gom-act17-Rd1e131"><name xml:id="gom-act17-Nd1e132" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-act17-Qd1e135">in Graeco: <quote xml:id="gom-act17-Qd1e137" source="http://scta.info/resource/act17_6@7-10">Jasonem et quosdam alios fratres.</quote> Unde intelligendum est Jasonem fratrem et fidelem fuisse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e143">
+          <head xml:id="gom-act17-Hd1e145">Versus 7</head>
+          <p xml:id="gom-act17-d1e147">
+            <quote xml:id="gom-act17-Qd1e149" type="lemma" source="http://scta.info/resource/act17_7@11-12">Regem alium.</quote>
+            <ref xml:id="gom-act17-Rd1e152"><name xml:id="gom-act17-Nd1e153" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act17-Qd1e156">Praeter Caesarem. Hoc contra decretum Caesaris erat, unde in Evangelio: <pb ed="#P" n="0460A"/> <quote xml:id="gom-act17-Qd1e160" source="http://scta.info/resource/io19_12@17-23">Omnis qui se regem facit, contradicit Caesari<!-- check: Migne cites io18; text matches io19_12 --></quote>. Apostoli vero contradicebant Christum regem esse Judaeorum, id est confitentium, unde et Judaei ipsum Christum accusabant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e167">
+          <head xml:id="gom-act17-Hd1e169">Versus 13</head>
+          <p xml:id="gom-act17-d1e171">
+            <quote xml:id="gom-act17-Qd1e173" type="lemma" source="http://scta.info/resource/act17_13@12-13">A Paulo.</quote>
+            Qui erat dux verbi: et ideo postea solus dimissus est, ut iret de Macedonia ad mare.
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e179">
+          <head xml:id="gom-act17-Hd1e181">Versus 15</head>
+          <p xml:id="gom-act17-d1e183">
+            <quote xml:id="gom-act17-Qd1e185" type="lemma" source="http://scta.info/resource/act17_15@23-23">Profecti.</quote>
+            <ref xml:id="gom-act17-Rd1e188"><name xml:id="gom-act17-Nd1e189" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act17-Qd1e192">Ab Athenis fratres illi qui duxerunt Paulum, profecti sunt. Quidam de Sila dictum putant et Timotheo, quod de Macedonia ad Paulum profecti sint.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e196">
+          <head xml:id="gom-act17-Hd1e198">Versus 18</head>
+          <p xml:id="gom-act17-d1e200">
+            <quote xml:id="gom-act17-Qd1e202" type="lemma" source="http://scta.info/resource/act17_18@3-3">Epicurei.</quote>
+            <ref xml:id="gom-act17-Rd1e205"><name xml:id="gom-act17-Nd1e206" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act17-Qd1e209">Vocantur sic ab auctore suo, qui dicitur voluptatis assertor. Stoici Graece, Latine elementa; qui contendebant paria esse peccata, id est omne peccatum uniforme esse.</quote>
+          </p>
+          <p xml:id="gom-act17-d1e212">
+            <pb ed="#P" n="0460B"/>
+            <quote xml:id="gom-act17-Qd1e216" type="lemma" source="http://scta.info/resource/act17_18@13-15">Quid vult seminiverbius.</quote>
+            Seminiverbius est qui verbum seminat; vel seminiverbius, id est sermologus; quia semen est verbum Dei; unde: Si vobis seminavimus, etc.
+          </p>
+          <p xml:id="gom-act17-d1e220">
+            <ref xml:id="gom-act17-Rd1e222" type="lemma" subtype="implied" target="http://scta.info/resource/act17_18@13-15"/>
+            <ref xml:id="gom-act17-Rd1e224"><name xml:id="gom-act17-Nd1e225" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-act17-Qd1e228">Legimus Paulum apostolum dictum fuisse seminatorem verborum, quod dictum est ab irridentibus, sed non respuendum a credentibus; erat quippe seminator verborum, sed messor morum. Et nos, licet parvuli, nec illi comparandi in agro Dei (quod est cor vestrum) seminamus verbum Dei, exspectantes uberem frugem, vel fructum de moribus vestris.</quote>
+          </p>
+          <p xml:id="gom-act17-d1e231">
+            <quote xml:id="gom-act17-Qd1e233" type="lemma" source="http://scta.info/resource/act17_18@18-19">Alii vero.</quote>
+            <ref xml:id="gom-act17-Rd1e236"><name xml:id="gom-act17-Nd1e237" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act17-Qd1e240">A Judaeis audierunt vocabulum daemoniorum esse abominabile, et ideo huic abominationi comparant doctrinam Pauli; vel Judaei sunt <pb ed="#P" n="0460C"/> qui hoc dicunt, id est sadducaei.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e247">
+          <head xml:id="gom-act17-Hd1e249">Versus 19</head>
+          <p xml:id="gom-act17-d1e251">
+            <quote xml:id="gom-act17-Qd1e253" type="lemma" source="http://scta.info/resource/act17_19@4-5">Ad Areopagum.</quote>
+            <ref xml:id="gom-act17-Rd1e256"><name xml:id="gom-act17-Nd1e257" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act17-Qd1e260">Nomen est curiae apud Athenas, dictum ab idolo Martis, quod apud eos Arios vocatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e264">
+          <head xml:id="gom-act17-Hd1e266">Versus 22</head>
+          <p xml:id="gom-act17-d1e268">
+            <quote xml:id="gom-act17-Qd1e270" type="lemma" source="http://scta.info/resource/act17_22@8-9">Viri Atheniensis,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e275">
+          <head xml:id="gom-act17-Hd1e277">Versus 23</head>
+          <p xml:id="gom-act17-d1e279">
+            <quote xml:id="gom-act17-Qd1e281" type="lemma" source="http://scta.info/resource/act17_23@16-22">Quod ignorantes colitis, hoc annuntio.</quote>
+            Respondet ad hoc quod dixerant vel praemiserant: <quote xml:id="gom-act17-Qd1e284" source="http://scta.info/resource/act17_20@1-4">Nova quaedam infers,</quote> quasi dicat: Nova quae infero inter vetera vestra habetis. Hoc autem dicit ad persuadendum, ne quasi nova refutent sua verba.
+          </p>
+          <p xml:id="gom-act17-d1e288">
+            <quote xml:id="gom-act17-Qd1e290" type="lemma" source="http://scta.info/resource/act17_23@14-15">Ignoto Deo.</quote>
+            <ref xml:id="gom-act17-Rd1e293"><name xml:id="gom-act17-Nd1e294" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act17-Qd1e297"><seg type="qs">Id est, vero Deo, quem nemo novit ut est</seg>, etc., usque ad <seg type="qs">quod tacetur, vel simpliciter scriptum erat: <quote xml:id="gom-act17-Qd1e303" source="http://scta.info/resource/act17_23@14-15">Ignoto Deo.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e308">
+          <head xml:id="gom-act17-Hd1e310">Versus 24</head>
+          <p xml:id="gom-act17-d1e312">
+            <quote xml:id="gom-act17-Qd1e314" type="lemma" source="http://scta.info/resource/act17_24@1-4">Deus, qui fecit mundum.</quote>
+            Nota ordinem hujus disputationis, quia primo unum Deum auctorem <pb ed="#P" n="0460D"/> mundi omnium docet esse, in quo vivimus, movemur, et sumus, cujus et genus sumus: ut non solum pro luce et vita, sed etiam pro cognatione generis, diligendus ostendatur.
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e322">
+          <head xml:id="gom-act17-Hd1e324">Versus 26</head>
+          <p xml:id="gom-act17-d1e326">
+            <quote xml:id="gom-act17-Qd1e328" type="lemma" source="http://scta.info/resource/act17_26@2-6">Ex uno omne genus hominum.</quote>
+            In Graeco: <quote xml:id="gom-act17-Qd1e331" source="http://scta.info/resource/act17_26@2-3">ex uno sanguine,</quote> quia sanguis propaginem carnis designat, et per carnem homo intelligitur.
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e336">
+          <head xml:id="gom-act17-Hd1e338">Versus 28</head>
+          <p xml:id="gom-act17-d1e340">
+            <quote xml:id="gom-act17-Qd1e342" type="lemma" source="http://scta.info/resource/act17_28@1-4">In ipso enim vivimus.</quote>
+            <ref xml:id="gom-act17-Rd1e345"><name xml:id="gom-act17-Nd1e346" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-act17-Qd1e349"><seg type="qs">Quia id operatur in nobis, quod <quote xml:id="gom-act17-Qd1e352" source="http://scta.info/resource/act17_28@4-8">vivimus, movemur et sumus,</quote></seg> etc., usque ad <seg type="qs">quia quid non ex ipso de quo dicitur: <quote xml:id="gom-act17-Qd1e357" source="http://scta.info/resource/rom2_27@4-14">Ex ipso, et per ipsum, et in ipso sunt omnia</quote>?</seg></quote>
+          </p>
+          <p xml:id="gom-act17-d1e362">
+            <quote xml:id="gom-act17-Qd1e364" type="lemma" source="http://scta.info/resource/act17_28@9-13">Sicut et quidam vestrorum poetarum.</quote>
+            His qui prophetas non recipiebant, non Moysi, non Isaiae, vel alicujus prophetarum, sed auctorum suorum loquitur <pb ed="#P" n="0461A"/> testimonium, versum Arati ponens, et de falsis eorum quibus contradicere non poterant, suam veritatem conservat et confirmat.
+          </p>
+          <p xml:id="gom-act17-d1e370">
+            <quote xml:id="gom-act17-Qd1e372" type="lemma" source="http://scta.info/resource/act17_28@15-16">Ipsius enim,</quote>
+            etc. De Arato poeta hoc sumptum est testimonium, non de divina pagina, ne nova videatur inferre.
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e377">
+          <head xml:id="gom-act17-Hd1e379">Versus 29</head>
+          <p xml:id="gom-act17-d1e381">
+            <quote xml:id="gom-act17-Qd1e383" type="lemma" source="http://scta.info/resource/act17_29@1-2">Genus ergo,</quote>
+            etc., <quote xml:id="gom-act17-Qd1e386" source="http://scta.info/resource/act17_29@6-7">non debemus.</quote>
+          </p>
+          <p xml:id="gom-act17-d1e390">
+            <ref xml:id="gom-act17-Rd1e392" type="lemma" subtype="implied" target="http://scta.info/resource/act17_29@1-2"/>
+            <ref xml:id="gom-act17-Rd1e394"><name xml:id="gom-act17-Nd1e395" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act17-Qd1e398">Homo in medio est, habens Deum superiorem, aurum ex argentum, cum caeteris hujusmodi inferiora, quae non debent ei comparari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e402">
+          <head xml:id="gom-act17-Hd1e404">Versus 30</head>
+          <p xml:id="gom-act17-d1e406">
+            <quote xml:id="gom-act17-Qd1e408" type="lemma" source="http://scta.info/resource/act17_30@6-7">Despiciens Deus.</quote>
+            <ref xml:id="gom-act17-Rd1e411"><name xml:id="gom-act17-Nd1e412" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act17-Qd1e415">Id est, ignoscens ut venialia, et tunc despiciens, id est, indigna judicans sua notitia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e419">
+          <head xml:id="gom-act17-Hd1e421">Versus 31</head>
+          <p xml:id="gom-act17-d1e423">
+            <quote xml:id="gom-act17-Qd1e425" type="lemma" source="http://scta.info/resource/act17_31@17-19">Fidem praebens omnibus.</quote>
+            <ref xml:id="gom-act17-Rd1e428"><name xml:id="gom-act17-Nd1e429" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act17-Qd1e432">Resurrectionis suae exemplo: vel statuit judicare, et post sic jungendum est, fidem praebens omnibus quod <pb ed="#P" n="0461B"/> resurgent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act17-Dd1e439">
+          <head xml:id="gom-act17-Hd1e441">Versus 34</head>
+          <p xml:id="gom-act17-d1e443">
+            <quote xml:id="gom-act17-Qd1e445" type="lemma" source="http://scta.info/resource/act17_34@10-10">Dionysius.</quote>
+            <ref xml:id="gom-act17-Rd1e448"><name xml:id="gom-act17-Nd1e449" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-act17-Qd1e452">Hic est Dionysius qui, postea episcopus Corinthiorum ordinatus, bene rexit Ecclesiam, ad cujus utilitatem etiam multa reliquit volumina, cognomen a loco cui praeerat accipiens. Areopagus est Athenarum curia, nomen trahens a Marte, qui Graece Arios dicitur, pagus, villa.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum II, Caput 18</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum II, Caput 18</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0621D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIreg18">
+        <head xml:id="gom-IIreg18-Hd1e98">Caput 18</head>
+        <div xml:id="gom-IIreg18-Dd1e100">
+          <head xml:id="gom-IIreg18-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIreg18-d1e104">
+            <quote xml:id="gom-IIreg18-Qd1e106" type="lemma" source="http://scta.info/resource/IIreg18_1@1-2">Anno tertio. Ezechias.</quote>
+            <ref xml:id="gom-IIreg18-Rd1e109"><name xml:id="gom-IIreg18-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg18-Qd1e113">Apprehendens Dominum vel fortitudo Domini. Nam Redemptor noster Dominus fortis, Dominus potens in praelio, non solum idola gentium contrivit, et cultum idololatriae dissipavit quatenus unius Dei notitiam haberent, <pb ed="#P" n="0622A"/> ejusque cultui digne manciparentur: quin ipsam litteram legis Mosaicae, quam ille populus legalis assidua lectione resonabat ac pro magno habebat, contrivit, ac sensum spiritualem in ea intelligere eos docuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e120">
+          <head xml:id="gom-IIreg18-Hd1e122">Versus 4</head>
+          <p xml:id="gom-IIreg18-d1e124">
+            <quote xml:id="gom-IIreg18-Qd1e126" type="lemma" source="http://scta.info/resource/IIreg18_4@10-10">Confregitque.</quote>
+            Ezechias serpentem confregit, quia in Domino Deo speravit, non in aeneo serpente.
+          </p>
+          <p xml:id="gom-IIreg18-d1e130">
+            <quote xml:id="gom-IIreg18-Qd1e132" type="lemma" source="http://scta.info/resource/IIreg18_4">Nohestan vocavit,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Quod interpretatur aes eorum, ut quem illi pro numine colebant, in dictis ejus metallum eum esse, non Deum, agnoscerent.
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e139">
+          <head xml:id="gom-IIreg18-Hd1e141">Versus 17</head>
+          <p xml:id="gom-IIreg18-d1e143">
+            <quote xml:id="gom-IIreg18-Qd1e145" type="lemma" source="http://scta.info/resource/IIreg18_17@7-7">Rabsacen.</quote>
+            <ref xml:id="gom-IIreg18-Rd1e148"><name xml:id="gom-IIreg18-Nd1e149" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg18-Qd1e152">Quia Hebraice loquitur: filium Isaiae putant qui proditor fuit cum Sobna; vel Samariten, et ideo Hebraicam linguam scivisse. Qui quasi quaedam contraria fortitudo imitabatur <pb ed="#P" n="0622B"/> prophetas sua arrogantia. Prophetae dicunt: Haec dicit Dominus. Iste dixit: <quote xml:id="gom-IIreg18-Qd1e156" source="http://scta.info/resource/IIreg18_19@7-12">Haec dicit rex magnus, rex Assyriorum.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e161">
+          <head xml:id="gom-IIreg18-Hd1e163">Versus 18</head>
+          <p xml:id="gom-IIreg18-d1e165">
+            <quote xml:id="gom-IIreg18-Qd1e167" type="lemma" source="http://scta.info/resource/IIreg18_18@8-8">Eliacim.</quote>
+            <ref xml:id="gom-IIreg18-Rd1e170"><name xml:id="gom-IIreg18-Nd1e171" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg18-Qd1e174">De hoc Eliacim dixit Isaias: <quote xml:id="gom-IIreg18-Qd1e176" source="http://scta.info/resource/is22_20@6-9">Vocabo servum meum Eliacim</quote>, qui fuit pontifex post Sobnam: quem tradunt Hebraei, Rabsacis comminationibus perterritum, prodidisse Jerusalem, et excepta arce sicut et templo, Assyrios totam urbem cepisse; quem etiam Sobnam cum Eliacim ad Rabsacen exisse quidam autumant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e183">
+          <head xml:id="gom-IIreg18-Hd1e185">Versus 21</head>
+          <p xml:id="gom-IIreg18-d1e187">
+            <quote xml:id="gom-IIreg18-Qd1e189" type="lemma" source="http://scta.info/resource/IIreg18_21@1-2">An speras.</quote>
+            Nulla narrat historia quod Ezechias Pharaonis auxilium postulaverit.
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e194">
+          <head xml:id="gom-IIreg18-Hd1e196">Versus 22</head>
+          <p xml:id="gom-IIreg18-d1e198">
+            <quote xml:id="gom-IIreg18-Qd1e200" type="lemma" source="http://scta.info/resource/IIreg18_22@5-6">In Domino.</quote>
+            <ref xml:id="gom-IIreg18-Rd1e203"><name xml:id="gom-IIreg18-Nd1e204" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg18-Qd1e207">Verum est quod in Deo habuerunt fiduciam, sed falsum est Ezechiam abstulisse excelsa Dei et altaria: hoc enim non <pb ed="#P" n="0622C"/> contra Deum, sed pro Deo fecit, ut destructo errore veteri juberet Deum in templo Jerusalem adorari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e214">
+          <head xml:id="gom-IIreg18-Hd1e216">Versus 23</head>
+          <p xml:id="gom-IIreg18-d1e218">
+            <quote xml:id="gom-IIreg18-Qd1e220" type="lemma" source="http://scta.info/resource/IIreg18_23@10-11">Dabo vobis.</quote>
+            <ref xml:id="gom-IIreg18-Rd1e223"><name xml:id="gom-IIreg18-Nd1e224" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg18-Qd1e227">Rabsaces, ut paucitatem obsessorum ostenderet, duo millia equorum pollicetur, quorum ascensores Ezechias non haberet: non de imbecillitate populi venit quasi equitandi ignari, sed quia Deus praecepit ne rex Israel equos et uxores sibi multiplicaret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e231">
+          <head xml:id="gom-IIreg18-Hd1e233">Versus 25</head>
+          <p xml:id="gom-IIreg18-d1e235">
+            <quote xml:id="gom-IIreg18-Qd1e237" type="lemma" source="http://scta.info/resource/IIreg18_25@12-13">Dominus dixit.</quote>
+            <ref xml:id="gom-IIreg18-Rd1e240"><name xml:id="gom-IIreg18-Nd1e241" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg18-Qd1e244">Ad id quod dixit, si dixeritis, In Deo confidimus, callide respondet se non sua voluntate, sed Dei venisse dicentis: <quote xml:id="gom-IIreg18-Qd1e246" source="http://scta.info/resource/IIreg18_23@20-20">Ascende.</quote> Et est argumentum: cum multas urbes ceperim, et pars Jerusalem maneat intacta, manifestum est me Dei venisse voluntate.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e252">
+          <head xml:id="gom-IIreg18-Hd1e254">Versus 26</head>
+          <p xml:id="gom-IIreg18-d1e256">
+            <pb ed="#P" n="0622D"/>
+            <quote xml:id="gom-IIreg18-Qd1e260" type="lemma" source="http://scta.info/resource/IIreg18_26@11-11">Precamur.</quote>
+            <ref xml:id="gom-IIreg18-Rd1e263"><name xml:id="gom-IIreg18-Nd1e264" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg18-Qd1e267"><seg type="qs">Sensus est</seg>, etc., usque ad <seg type="qs">quae terrae Judaeae similitudinem habebat, tam in situ quam in fructibus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg18-Dd1e276">
+          <head xml:id="gom-IIreg18-Hd1e278">Versus 29</head>
+          <p xml:id="gom-IIreg18-d1e280">
+            <quote xml:id="gom-IIreg18-Qd1e282" type="lemma" source="http://scta.info/resource/IIreg18_29@4-5">Non vos,</quote>
+            etc. Rabsacis accusatio Ezechiae testimonium est, quod captis videlicet urbibus in Domino confisus sit: et confortavit populum ut in Domino speraret. Unde Rabsaces destruere vult quae ille construxit, et dicit ad populum: <quote xml:id="gom-IIreg18-Qd1e285">Non seducat vos Ezechias, et non vobis tribuat fiduciam super Domino Deo vestro.</quote>
+          </p>
+          <p xml:id="gom-IIreg18-d1e288">
+            <ref xml:id="gom-IIreg18-Rd1e290" type="lemma" subtype="implied" target="http://scta.info/resource/IIreg18_29@4-5"/>
+            <ref xml:id="gom-IIreg18-Rd1e292"><name xml:id="gom-IIreg18-Nd1e293" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg18-Qd1e296"><seg type="qs">Ostendit harum civitatum sive gentium diis servisse Samaritas</seg>, etc., usque ad <seg type="qs">ut noster vertit interpres.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

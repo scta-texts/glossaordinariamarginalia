@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1255D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is15">
+        <head xml:id="gom-is15-Hd1e98">Caput 15</head>
+        <div xml:id="gom-is15-Dd1e100">
+          <head xml:id="gom-is15-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is15-d1e104">
+            <quote xml:id="gom-is15-Qd1e106" type="lemma" source="http://scta.info/resource/is15_1@1-2">Onus Moab.</quote>
+            Haec est visio Isaiae habita de onere, id est, de destructione Moab. Moab, filius Loth, cujus progenies et provincia Moab vocata est: in ipsa est Ar, quae nunc Ariopolis metropolis.
+          </p>
+          <p xml:id="gom-is15-d1e110">
+            <quote xml:id="gom-is15-Qd1e112" type="lemma" source="http://scta.info/resource/is15_1@1-2">Onus Moab.</quote>
+            <ref xml:id="gom-is15-Rd1e115"><name xml:id="gom-is15-Nd1e116" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is15-Qd1e119"><seg type="qs">Est circumcisio carnalis et spiritualis</seg>, etc., usque ad <seg type="qs">Loth quoque, Sodoma per eunte, venit in Segor, et ortus est sol.</seg></quote>
+          </p>
+          <p xml:id="gom-is15-d1e127">
+            <pb ed="#P" n="1256A"/>
+            <quote xml:id="gom-is15-Qd1e131" type="lemma" source="http://scta.info/resource/is15_1@7-7">Ar,</quote>
+            <quote xml:id="gom-is15-Qd1e134"><seg type="qs">id est adversarius</seg>, etc., usque ad <seg type="qs">post a Chaldaeis vastati sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is15-Dd1e143">
+          <head xml:id="gom-is15-Hd1e145">Versus 2</head>
+          <p xml:id="gom-is15-d1e147">
+            <quote xml:id="gom-is15-Qd1e149" type="lemma" source="http://scta.info/resource/is15_2@1-2">Ascendit domus.</quote>
+            Ad excelsa, in quibus superbierat, ut non immolet, sed ut plangat ubi peccaverat.
+          </p>
+          <p xml:id="gom-is15-d1e153">
+            <quote xml:id="gom-is15-Qd1e155" type="lemma" source="http://scta.info/resource/is15_2@4-4">Dibon.</quote>
+            <ref xml:id="gom-is15-Rd1e158"><name xml:id="gom-is15-Nd1e159" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is15-Qd1e162">Fluxus eorum: Mendacium transit et fluit, et nunquam in eodem statu permanet; sermo autem Domini est compactus et stabilis. Unde manna videtur quasi glacies: non fluit, sed consistit.</quote>
+          </p>
+          <p xml:id="gom-is15-d1e165">
+            <quote xml:id="gom-is15-Qd1e167" type="lemma" source="http://scta.info/resource/is15_2@9-10">Super Nabo.</quote>
+            <ref xml:id="gom-is15-Rd1e170"><name xml:id="gom-is15-Nd1e171" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is15-Qd1e174"><seg type="qs">Quia et omnis prophetiae hujus unus est sensus</seg>, etc., usque ad <seg type="qs">cum anima eorum ululaverit sibi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is15-Dd1e183">
+          <head xml:id="gom-is15-Hd1e185">Versus 3</head>
+          <p xml:id="gom-is15-d1e187">
+            <quote xml:id="gom-is15-Qd1e189" type="lemma" source="http://scta.info/resource/is15_3@14-15">Omnis ululatus.</quote>
+            Alia littera: Omnis ululat, Moab scilicet, et sic descendet in fletum. <pb ed="#P" n="1256B"/> Quasi: Ascendit ad excelsa, ut ante idola ploret. Sed cum ibi nullum auxilium reperiret, descendit ad fletum in terram vel in domum suam.
+          </p>
+        </div>
+        <div xml:id="gom-is15-Dd1e196">
+          <head xml:id="gom-is15-Hd1e198">Versus 4</head>
+          <p xml:id="gom-is15-d1e200">
+            <quote xml:id="gom-is15-Qd1e202" type="lemma" source="http://scta.info/resource/is15_4@1-2">Clamabit Hesebon.</quote>
+            A principio regni quod est in Hesebon, usque Jasa civitatem, ubi finitur, ubique clamor, ubique luctus.
+          </p>
+          <p xml:id="gom-is15-d1e206">
+            <quote xml:id="gom-is15-Qd1e208" type="lemma" source="http://scta.info/resource/is15_4@13-15">Expediti Moab ululabunt.</quote>
+            Ab uxoribus, fortes bellatores. Inde dicitur Abraham vernaculos domus suae elegisse expeditos, id est, sine uxoribus.
+          </p>
+        </div>
+        <div xml:id="gom-is15-Dd1e214">
+          <head xml:id="gom-is15-Hd1e216">Versus 5</head>
+          <p xml:id="gom-is15-d1e218">
+            <quote xml:id="gom-is15-Qd1e220" type="lemma" source="http://scta.info/resource/is15_5@1-4">Cor meum ad Moab.</quote>
+            <quote xml:id="gom-is15-Qd1e223"><seg type="qs">Ut scilicet provocem eos ad poenitentiam</seg>, etc., usque ad <seg type="qs">quod interpretatur <mentioned>leo Dei</mentioned>.</seg></quote>
+          </p>
+          <p xml:id="gom-is15-d1e233">
+            <quote xml:id="gom-is15-Qd1e235" type="lemma" source="http://scta.info/resource/is15_5@9-10">Ad Segor.</quote>
+            <ref xml:id="gom-is15-Rd1e238"><name xml:id="gom-is15-Nd1e239" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is15-Qd1e242"><seg type="qs">Segor est ex quinque urbibus Sodomorum</seg>, etc., usque ad <seg type="qs">si post liberationem non peccasset.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is15-Dd1e251">
+          <head xml:id="gom-is15-Hd1e253">Versus 6</head>
+          <p xml:id="gom-is15-d1e255">
+            <pb ed="#P" n="1256C"/>
+            <quote xml:id="gom-is15-Qd1e259" type="lemma" source="http://scta.info/resource/is15_6@3-3">Nemrim.</quote>
+            <quote xml:id="gom-is15-Qd1e262"><seg type="qs">Nemrim oppidum est super mare</seg>, etc., usque ad <seg type="qs">et ideo arescet herba.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is15-Dd1e271">
+          <head xml:id="gom-is15-Hd1e273">Versus 7</head>
+          <p xml:id="gom-is15-d1e275">
+            <quote xml:id="gom-is15-Qd1e277" type="lemma" source="http://scta.info/resource/is15_7@4-6">Et visitatio eorum.</quote>
+            Visitatio in malo: <quote xml:id="gom-is15-Qd1e280" source="http://scta.info/resource/ps88_33@1-5">Visitabo in virga iniquitates eorum</quote>; visitatio in bono: <quote xml:id="gom-is15-Qd1e283" source="http://scta.info/resource/lc1_78@8-12">Visitavit nos oriens ex alto</quote>.
+          </p>
+          <p xml:id="gom-is15-d1e287">
+            <quote xml:id="gom-is15-Qd1e289" type="lemma" source="http://scta.info/resource/is15_7@7-9">Ad torrentem salicum.</quote>
+            Hactenus de captivitate Moabitarum per Assyrios, modo de illa quae per Chaldaeos.
+          </p>
+        </div>
+        <div xml:id="gom-is15-Dd1e294">
+          <head xml:id="gom-is15-Hd1e296">Versus 8</head>
+          <p xml:id="gom-is15-d1e298">
+            <quote xml:id="gom-is15-Qd1e300" type="lemma" source="http://scta.info/resource/is15_8@9-10">Ululatus ejus.</quote>
+            Quasi, ideo ululabit Moab, quia ubi luxus prius, et delectatio propter irrigua et fontium amoena, ibi modo rivi sanguinis.
+          </p>
+        </div>
+        <div xml:id="gom-is15-Dd1e305">
+          <head xml:id="gom-is15-Hd1e307">Versus 9</head>
+          <p xml:id="gom-is15-d1e309">
+            <quote xml:id="gom-is15-Qd1e311" type="lemma" source="http://scta.info/resource/is15_9">Aqua Dibon.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Dibon, silentium, Dibon flens, et tamen una est civitas.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

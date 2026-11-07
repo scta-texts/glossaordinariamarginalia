@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Prothemata in Psalterium</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Prothemata in Psalterium</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0841A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-psproth">
+        <head xml:id="gom-psproth-Hd1e98">PROTHEMATA IN PSALTERIUM.</head>
+        <p xml:id="gom-psproth-d1e100">
+          <pb ed="#P" n="0841A"/>
+          <ref xml:id="gom-psproth-Rd1e104"><name xml:id="gom-psproth-Nd1e105" ref="#Augustine">AUG.</name></ref>
+          <quote xml:id="gom-psproth-Qd1e108">Liber iste intitulatur apud Hebraeos Liber hymnorum, hac ratione, quia hymnus est ubi habentur verba et laus cum cantico, quod in psalmis invenitur. Intitulatur etiam, secundum quosdam, liber Soliloquiorum: quod ideo videtur fieri, quia illud quod aliquis secum rimatur, et a nullo discit, nisi a veritate sibi interius praesidente, soliloquium dicitur, verbi gratia, quemadmodum beatus Augustinus secum de natura animae, et de natura Dei investigavit, eodem modo potest dici Propheta secum investigasse de incarnatione Filii Dei, et de reparatione humani generis. Rex David et propheta, cum prospere regnaret, volens cultum Dei magnificare, cum arcam a Philisthaeis redditam, longo tempore <pb ed="#P" n="0841B"/> post incertis sedibus vagantem, tandem in Jerusalem reduceret, nudus cum cithara praecedebat <!--<note>(II Reg. VI)</note>-->: sed et quatuor millia virorum elegerat, qui, non solum voce, sed etiam instrumentis musicis, psalmos canerent: quibus praeposuit quatuor, Asaph, Idithun, Eman, Ethan, vel filios Core, qui a patris scelere vel sacrilegio degenerantes quem ignis consumpserat <quote xml:id="gom-psproth-Qd1e114"/><!--<note>([Num. XVI])</note>-->, in cultu Dei devotissimi perstiterunt.</quote>
+        </p>
+        <p xml:id="gom-psproth-d1e119">
+          <ref xml:id="gom-psproth-Rd1e121"><name xml:id="gom-psproth-Nd1e122" ref="#Jerome">HIERON.</name></ref>
+          <quote xml:id="gom-psproth-Qd1e125">Psalterium est quoddam musicum instrumentum in modum <foreign xml:lang="greek">Δ</foreign> litterae compositum: et ab eo musico instrumento (per quod modulatum fuit praesens opus) nomen sibi sumpsit. Psalterium apud Hebraeos vocatur <mentioned>nebel</mentioned> , apud Graecos, <foreign xml:lang="greek">ψαλτήριον,</foreign> apud Latinos vero <mentioned>organum</mentioned>. Multi dicunt David <pb ed="#P" n="0841C"/> non fecisse omnes psalmos, eo quod quidam ex ipsis intitulantur in persona aliorum. Sed, ut dicit beatus Hieronymus, non sunt audiendi in hoc. Nam David composuit omnes psalmos: modo etiam apposuit, in quo multos auxiliatores habuit, quibus praefecit quatuor, videlicet Eman, Ethan, Asaph et Idithun. Divino consilio hoc fuit factum, ut psalmi intitularentur in personis aliorum, vel propter interpretationem nominum tantum, vel propter negotium, vel propter utrumque. Propter interpretationem nominum tantum, ut in persona Idithun; propter negotium, ut in persona Aggaei et Zachariae; propter utrumque, ut in persona Salomonis; Idithun, Asaph, filii Core et caeteri hujusmodi, non fuerunt auctores psalmorum, sed praepositi artificibus qui psalmos <pb ed="#P" n="0841D"/> personabant tribus modis: vel humana voce, vel musicis instrumentis, vel communiter utroque modo. Et hoc dupliciter, vel post vocem instrumento, vel post instrumentum voce: unde nomina illorum ut <pb ed="#P" n="0842A"/> honorem de ministerio sumerent, titulis inseruntur maxime pro significatione rerum. Psalmus vero est instrumenti sonus, canticum humanae vocis cantus in laudem Dei; psalmi canticum, cum post instrumentum vox, psalmus cantici, cum post vocem instrumentum.</quote>
+        </p>
+        <p xml:id="gom-psproth-d1e146">
+          <ref xml:id="gom-psproth-Rd1e148"><name xml:id="gom-psproth-Nd1e149" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-psproth-Qd1e152">Solet quaeri cur prae aliis Scripturis psalmi in Ecclesia legantur? Quod ideo est quia antiquitus apud Hebraeos mos iste in templo Dei erat. Vel, quia psalmi plus mysteriorum quam caeterae Scripturae continent, et breviter multa dicunt, in quibus omnis lex et prophetae et Evangelium constat.</quote>
+        </p>
+        <p xml:id="gom-psproth-d1e155">
+          <ref xml:id="gom-psproth-Rd1e157"><name xml:id="gom-psproth-Nd1e158" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-psproth-Qd1e161">Prophetia est inspiratio vel revelatio divina, quae eventus rerum vel per facta, vel per dicta immobili <pb ed="#P" n="0842B"/> veritate pronuntiat, unde prophetia <quote xml:id="gom-psproth-Qd1e165">visio,</quote> propheta <quote xml:id="gom-psproth-Qd1e167">videns.</quote> Multis autem modis haec gratia data est: vel per operationes hominum, ut fuit arca Noe et sacrificium Abrahae, et transitus maris Rubri; vel per nativitates, ut Esau et Jacob, qui futura significabant; vel per loquentes angelos, sicut locuti sunt Abrahae, Lot et aliis; vel per visiones, sicut Isaiae et Ezechieli, et caeteris; vel per somnia, sicut Salomoni, Joseph et Danieli; vel per nubem et vocem de coelo, ut Moysi; vel adhuc aliis modis. David autem nullo horum, sed coelesti aspiratione intus edoctus, Spiritu in eo loquente, completus est, ut in I Reg.: <quote xml:id="gom-psproth-Qd1e169" source="http://scta.info/resource/Isam16_13@14-19">Directus est Spiritus Domini in David .</quote> Et Dominus: <quote xml:id="gom-psproth-Qd1e172" source="http://scta.info/resource/mt22_45@1-10">Si David in spiritu vocat eum Dominum, quomodo <pb ed="#P" n="0842C"/> filius ejus est?</quote> Spiritus autem sanctus sic datus est prophetis, ut aliquando pro peccatis recederet et placatus rediret; et sicut Petrus ait: <quote xml:id="gom-psproth-Qd1e178" source="http://scta.info/resource/IIpetr1_21@1-17">Non voluntate humana allata est aliquando prophetia, sed, Spiritu sancto inspirati, locuti sunt sancti homines Dei .</quote> Non sunt autem illi a munere prophetiae alieni, quibus data est facultas intelligendi vel interpretandi Scripturas.</quote>
+        </p>
+        <p xml:id="gom-psproth-d1e184">
+          <ref xml:id="gom-psproth-Rd1e186"><name xml:id="gom-psproth-Nd1e187" ref="#Jerome">HIERON.</name></ref>
+          <quote xml:id="gom-psproth-Qd1e190">Multa genera sunt christorum: patriarchae dicti sunt christi, ut: <quote xml:id="gom-psproth-Qd1e192" source="http://scta.info/resource/ps104_15@1-4">Nolite tangere christos meos ;</quote> in Parabolis, dicuntur christi omnes qui de Aegypto egressi sunt. Chrisma in Exodo fit, unde sacerdotes uncti; est aliud unguentum, quo reges inunguntur; sed hoc duobus modis, quia si David est et Salomon, id est, <quote xml:id="gom-psproth-Qd1e195">forti manu</quote> et <pb ed="#P" n="0842D"/> <quote xml:id="gom-psproth-Qd1e199">pacificus,</quote> ungitur cornu; si Jehu et Azahel, lenticula, quod est vas fictile. Sed et Cyrus, rex Persarum et Medorum, qui Israel relaxavit, christus est, secundum illud: <quote xml:id="gom-psproth-Qd1e201" source="http://scta.info/resource/is45_1@1-6">Haec dicit Dominus christo meo <pb ed="#P" n="0843A"/> Cyro ,</quote> quod non sinunt sequentia de Salvatore accipi, ut quidam putant. Est unguentum propheticum, quo praecipitur Eliae ut ungat Elisaeum in prophetam <!--<note>(III Reg. XIX)</note>-->; super omnia est unguentum spirituale, quod dicitur oleum exsultationis, quo Christus unctus est prae participibus, qui habent chrisma baptismi. Quod si perdat quis, non desperet; quia de separando chrismate scribitur in Levitico <!--<note>(Lev. XIII)</note>-->, quod cum lepra alicujus fuerit mundata, mittat ei sacerdos oleum in manu sinistra, et caetera quae ibi dicuntur, et ipse vocetur christus Dei. Hoc autem restat quod idem homo frequenter ungitur, ne sit occasio ruinae negligenti. Sufficit enim leproso ut, post primum unguentum perditum, ungatur secundo; sed ille saepe ungitur qui semper <pb ed="#P" n="0843B"/> proficit: et, de oleo leprosi, venit ad unguentum populi; inde ad sacerdotale; de quo ad chrisma pontificis; a pontifice ad regem; a rege ad patriarchas; a patriarchis ad Christum.</quote>
+        </p>
+        <p xml:id="gom-psproth-d1e215">
+          <ref xml:id="gom-psproth-Rd1e217"><name xml:id="gom-psproth-Nd1e218" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-psproth-Qd1e221">Sicut prophetia fit diversis modis, ita et diversis temporibus. Est igitur alia de praesenti, ut Elisabeth: <quote xml:id="gom-psproth-Qd1e223" source="http://scta.info/resource/lc1_43@2-8">Unde mihi hoc, ut veniat mater Domini? etc.</quote> De praeterito, ut Moyses: <quote xml:id="gom-psproth-Qd1e226" source="http://scta.info/resource/gen1_1@1-7">In principio, creavit Deus coelum et terram .</quote> De futuro, ut: <quote xml:id="gom-psproth-Qd1e229" source="http://scta.info/resource/is7_14@8-10">Ecce Virgo concipiet, etc. .</quote></quote>
+        </p>
+        <p xml:id="gom-psproth-d1e233">
+          Item prophetia alia est secundum praescientiam Dei, quam necesse est omnibus modis impleri, ut: <quote xml:id="gom-psproth-Qd1e235">Ecce Virgo concipiet, etc.</quote> Alia secundum comminationem, ut: <quote xml:id="gom-psproth-Qd1e237">Quadraginta dies, et Ninive subvertetur .</quote><!--<note>(Jonae III)</note>-->
+        </p>
+        <p xml:id="gom-psproth-d1e241">
+          <pb ed="#P" n="0843C"/>
+          Notandum igitur quod propheta aliquando loquitur indiscrete de futuris quasi de praesentibus; aliquando de praeteritis, aliquando etiam proprie de futuris: quod ideo fit, quoniam omnia dictante Spiritu sancto dicit, cui sunt omnia nota, sive praeterita, sive futura, tanquam praesentia.
+        </p>
+        <p xml:id="gom-psproth-d1e246">
+          <!--<note>(REMIG.)</note>--> Liber iste ex centum quinquaginta psalmis, non sine altioris mysterii ratione, consistit. Hic enim numerus mysteriis celeberrimus. Constat enim ex octogenario et septuagenario, quibus ex octonario et septenario principium et significatio est. Octonarius enim octavam resurrectionem significat: quia cum sex sint aetates viventium, septima morientium, octava resurgentium erit. Per septenarium vero, hujus vitae tempus significatur, quod septem dierum <pb ed="#P" n="0843D"/> repetitione agitur. Recte ergo tali psalmorum numero liber iste compositus est, quia sic in hujus vitae septenario operari ac vivere nos docet, ut in octava resurrectionis stolam gloriae consequamur. Vel ideo quia per octonarium Novum Testamentum significatur: octoadi enim patres Novi Testamenti deserviunt, observantes diem octavam resurrectionis Christi, id est, Dominicam, octavas sanctorum, exspectantes octavam resurrectionis mortuorum. Per septenarium vero Vetus Testamentum, quia hebdomadi, id est septenario, patres Veteris Testamenti servierunt, observantes septimum diem, septimam septimanam, septimum annum et quinquagesimum, qui septenis annorum hebdomadibus texitur, id est <pb ed="#P" n="0844A"/> jubilaeum: unde Salomon: <quote xml:id="gom-psproth-Qd1e254" source="http://scta.info/resource/qoh11_2@1-6">Da partes septem, necnon et octo .</quote> Bene igitur hoc numero psalmorum liber iste editus est, cujus partes utriusque Testamenti doctrinam et mandata continent.
+        </p>
+        <p xml:id="gom-psproth-d1e258">
+          <ref xml:id="gom-psproth-Rd1e260"><name xml:id="gom-psproth-Nd1e261" ref="#Augustine">AUG.</name></ref>
+          <quote xml:id="gom-psproth-Qd1e264">Item per tres quinquagenas triplex fit psalmorum distinctio, propter tres status Christianae religionis significandos: primus poenitentiae, in qua et prima psalmorum quinquagena terminatur, scilicet: <quote xml:id="gom-psproth-Qd1e266">Miserere mei Deus;</quote> secundus justitiae, in qua et secunda quinquagena: <quote xml:id="gom-psproth-Qd1e268">Misericordiam et judicium cantabo tibi;</quote> tertius status vitae aeternae, in cujus laudem tertia quinquagena finitur, scilicet: <quote xml:id="gom-psproth-Qd1e270">Omnis spiritus laudet Dominum.</quote></quote>
+        </p>
+        <p xml:id="gom-psproth-d1e274">
+          <ref xml:id="gom-psproth-Rd1e276"><name xml:id="gom-psproth-Nd1e277" ref="#Augustine">ID.</name></ref>
+          <quote xml:id="gom-psproth-Qd1e280">Unus est liber Psalmorum, non quinque, ut in Actibus apostolorum legitur: <quote xml:id="gom-psproth-Qd1e282" source="http://scta.info/resource/act1_20@1-6">Sicut scriptum <pb ed="#P" n="0844B"/> est in libro Psalmorum</quote> . Hieronymus tamen dicit quinque libros, id est, quinque distinctiones quae fiunt per <quote xml:id="gom-psproth-Qd1e287">fiat, fiat.</quote></quote>
+        </p>
+        <p xml:id="gom-psproth-d1e290">
+          Ordo psalmorum ab ordine historiae discordat, quia ante peccavit David cum uxore Uriae, et de poenitentia cecinit: <quote xml:id="gom-psproth-Qd1e292">Miserere mei, Deus,</quote> quam filius ejus eum persequeretur et cecinerit: <quote xml:id="gom-psproth-Qd1e294">Domine, quid multiplicati;</quote> sed ab Esdra propheta instinctu divino ita ordinari creduntur.
+        </p>
+        <p xml:id="gom-psproth-d1e297">
+          Materia est integer Christus, sponsus et sponsa. Intentio, homines in Adam deformatos Christo novo homini conformare. Modus tractandi: Quandoque agit de Christo, secundum quod caput est, aliquando secundum corpus, aliquando secundum utrumque. Secundum quod caput, tripliciter: quia vel secundum <pb ed="#P" n="0844C"/> divinitatem, ut: <quote xml:id="gom-psproth-Qd1e301">Tecum principium, etc.;</quote> aliquando secundum humanitatem, ut: <quote xml:id="gom-psproth-Qd1e303">Ego dormivi, etc.,</quote> aliquando per transsumptionem, ut quando utitur voce membrorum, sicut ibi: <quote xml:id="gom-psproth-Qd1e305">Longe a salute mea, etc.</quote> Item de Ecclesia tribus modis: aliquando secundum perfectos, aliquando secundum imperfectos, aliquando secundum malos: qui sunt in Ecclesia corpore, non mente; numero, non merito; nomine, non numine.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

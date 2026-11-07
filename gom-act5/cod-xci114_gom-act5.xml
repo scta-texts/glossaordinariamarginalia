@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0437C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act5">
+        <head xml:id="gom-act5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-act5-Dd1e100">
+          <head xml:id="gom-act5-Hd1e102">Versus 3</head>
+          <p xml:id="gom-act5-d1e104">
+            <quote xml:id="gom-act5-Qd1e106" type="lemma" source="http://scta.info/resource/act5_3@6-6">Tentavit.</quote>
+            <ref xml:id="gom-act5-Rd1e109"><name xml:id="gom-act5-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e113">Praeteritum <quote xml:id="gom-act5-Qd1e115" source="http://scta.info/resource/act5_3@6-6">tentavit</quote> ponit, quia perfecta erat tentatio. Tribus modis tentatio agitur, suasione, delectatione, consensu: quod totum impletum est in Anania.</quote>
+          </p>
+          <p xml:id="gom-act5-d1e120">
+            <quote xml:id="gom-act5-Qd1e122" type="lemma" source="http://scta.info/resource/act5_3@14-15">Et fraudare.</quote>
+            <ref xml:id="gom-act5-Rd1e125"><name xml:id="gom-act5-Nd1e126" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act5-Qd1e129">In hoc videtur mendacium fuisse, quia totum voverat. Melius est autem non vovere quam post votum non solvere Spiritui sancto.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e133">
+          <head xml:id="gom-act5-Hd1e135">Versus 4</head>
+          <p xml:id="gom-act5-d1e137">
+            <quote xml:id="gom-act5-Qd1e139" type="lemma" source="http://scta.info/resource/act5_4@22-23">Sed Deo.</quote>
+            Supra dixerat: <quote xml:id="gom-act5-Qd1e142" source="http://scta.info/resource/act5_3@12-13">Spiritui sancto:</quote> patet ergo Spiritum sanctum esse Deum.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e147">
+          <head xml:id="gom-act5-Hd1e149">Versus 5</head>
+          <p xml:id="gom-act5-d1e151">
+            <quote xml:id="gom-act5-Qd1e153" type="lemma" source="http://scta.info/resource/act5_5@6-6">Cecidit.</quote>
+            <ref xml:id="gom-act5-Rd1e156"><name xml:id="gom-act5-Nd1e157" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e160">Legum initia semper <pb ed="#P" n="0437D"/> vindictis commendantur. Duo filii Aaron ignem offerentes consumuntur: Oza sustinens arcam mortuus est. Cecidit ille, ut caeteri praevaricatores exemplo ejus terreantur.</quote>
+          </p>
+          <p xml:id="gom-act5-d1e166">
+            <quote xml:id="gom-act5-Qd1e168" type="lemma" source="http://scta.info/resource/act5_5@9-12">Et factus est timor,</quote>
+            etc.
+            <ref xml:id="gom-act5-Rd1e171"><name xml:id="gom-act5-Nd1e172" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act5-Qd1e175">Anticipatio: quoniam solius viri morte ante uxoris exitum pauci audierant, quamvis de paucis dici potuerit, quod timuerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e179">
+          <head xml:id="gom-act5-Hd1e181">Versus 7</head>
+          <p xml:id="gom-act5-d1e183">
+            <quote xml:id="gom-act5-Qd1e185" type="lemma" source="http://scta.info/resource/act5_7@5-5">Horarum,</quote>
+            etc.
+            <ref xml:id="gom-act5-Rd1e188"><name xml:id="gom-act5-Nd1e189" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e192">Parvum tempus poenitentiae datur uxori, cujus culpa magis est venialis quam mariti, utpote quae consensit capiti.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e197">
+          <head xml:id="gom-act5-Hd1e199">Versus 8</head>
+          <p xml:id="gom-act5-d1e201">
+            <quote xml:id="gom-act5-Qd1e203" type="lemma" source="http://scta.info/resource/act5_8@5-6">Dic mihi,</quote>
+            etc.
+            <ref xml:id="gom-act5-Rd1e206"><name xml:id="gom-act5-Nd1e207" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act5-Qd1e210">Culpam uxoris, interrogans, declarat ex ipsius confessione, quam maritus suam monstraverat in opere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e214">
+          <head xml:id="gom-act5-Hd1e216">Versus 9</head>
+          <p xml:id="gom-act5-d1e218">
+            <pb ed="#P" n="0438A"/>
+            <quote xml:id="gom-act5-Qd1e222" type="lemma" source="http://scta.info/resource/act5_9@5-6">Quid utique,</quote>
+            etc. Increpative dictum? vel sic distinguendum: quid? quasi: Quid est hoc: deinde sibi ipse respondet et dicit: Utique convenit inter vos tentare Spiritum Domini?
+          </p>
+          <p xml:id="gom-act5-d1e226">
+            <quote xml:id="gom-act5-Qd1e228" type="lemma" source="http://scta.info/resource/act5_9@9-9">Tentare,</quote>
+            etc.
+            <ref xml:id="gom-act5-Rd1e231"><name xml:id="gom-act5-Nd1e232" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e235">Tentatio Spiritus in hoc erat quod probaverunt quanta sit ejus scientia.</quote>
+          </p>
+          <p xml:id="gom-act5-d1e238">
+            <quote xml:id="gom-act5-Qd1e240" type="lemma" source="http://scta.info/resource/act5_9@16-16">Sepelierunt.</quote>
+            <ref xml:id="gom-act5-Rd1e243"><name xml:id="gom-act5-Nd1e244" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act5-Qd1e247">Ex hoc multi exemplum sumunt, ut uxores ad viros suos sepeliant. Alii indignum putant, ut de praevaricatoribus exempla capiant, quibus in crimine simul et morte et sepultura meritum, aequale fecerat consortium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e251">
+          <head xml:id="gom-act5-Hd1e253">Versus 11</head>
+          <p xml:id="gom-act5-d1e255">
+            <quote xml:id="gom-act5-Qd1e257" type="lemma" source="http://scta.info/resource/act5_11@1-3">Et factus est.</quote>
+            Prius Ananias a Saphira in conspectu Ecclesiae cito mortui sunt, ut apostolica auctoritas, quanta esset, ostenderetur: et quam magnum peccatum esset, quod oblatum est, <pb ed="#P" n="0438B"/> iterum ab Ecclesia retrahere monstraretur, et caeteri hujus exemplo castigarentur.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e264">
+          <head xml:id="gom-act5-Hd1e266">Versus 12</head>
+          <p xml:id="gom-act5-d1e268">
+            <quote xml:id="gom-act5-Qd1e270" type="lemma" source="http://scta.info/resource/act5_12@4-4">Apostolorum.</quote>
+            Dicitur pluraliter apostolorum, quia non per manum solius Petri; licet enim pro honore ejus caeteri taceantur, non tamen facta eorum tacentur.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e275">
+          <head xml:id="gom-act5-Hd1e277">Versus 13</head>
+          <p xml:id="gom-act5-d1e279">
+            <quote xml:id="gom-act5-Qd1e281" type="lemma" source="http://scta.info/resource/act5_13@1-1">Caeterorum,</quote>
+            etc. Exemplo Ananiae et uxoris: poena enim duorum qui fraudulenter eis se conjunxerant, caeteris tribuit exemplum.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e286">
+          <head xml:id="gom-act5-Hd1e288">Versus 14</head>
+          <p xml:id="gom-act5-d1e290">
+            <quote xml:id="gom-act5-Qd1e292" type="lemma" source="http://scta.info/resource/act5_14@3-3">Augebatur,</quote>
+            etc.
+            <ref xml:id="gom-act5-Rd1e295"><name xml:id="gom-act5-Nd1e296" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e299">Tanta erat multitudo credentium, ut fidei crescente fortitudine, sola sufficeret umbra. Vel: Tot erant tunc infirmi a credentibus allati, ut omnes non possent contingere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e304">
+          <head xml:id="gom-act5-Hd1e306">Versus 17</head>
+          <p xml:id="gom-act5-d1e308">
+            <quote xml:id="gom-act5-Qd1e310" type="lemma" source="http://scta.info/resource/act5_17@13-13">Haeresis.</quote>
+            <ref xml:id="gom-act5-Rd1e313"><name xml:id="gom-act5-Nd1e314" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e317">Haeresis <mentioned>scissio</mentioned> interpretatur, quia haereticus, spretis aliorum dictis, <pb ed="#P" n="0438C"/> quod sequendum putat eligit.</quote>
+          </p>
+          <p xml:id="gom-act5-d1e325">
+            <quote xml:id="gom-act5-Qd1e327" type="lemma" source="http://scta.info/resource/act5_17@14-15">Sadducaeorum repleti,</quote>
+            etc. Sadducaei interpretantur <mentioned>justi</mentioned>, dicti a Sadoch sacerdote, vel propter genus, vel propter mores; justificantes autem seipsos vindicabant sibi quod non erant: corporum resurrectionem negantes, animas cum carne perire dicebant: sed nec angelum, neque spirituum ullum esse credebant, omnes Scripturas praeter libros Moysi respuebant: et ideo maxime principibus in persecutione apostolorum consentiebant qui virtute et signis reddebant testimonium resurrectionis Christi.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e334">
+          <head xml:id="gom-act5-Hd1e336">Versus 20</head>
+          <p xml:id="gom-act5-d1e338">
+            <quote xml:id="gom-act5-Qd1e340" type="lemma" source="http://scta.info/resource/act5_20@10-11">Vitae hujus.</quote>
+            <ref xml:id="gom-act5-Rd1e343"><name xml:id="gom-act5-Nd1e344" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e347">Christianae, vel aeternae. Hoc autem ideo non additur, quia famosa erat secta Christianorum, pro qua traditi erant carceri.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e351">
+          <head xml:id="gom-act5-Hd1e353">Versus 23</head>
+          <p xml:id="gom-act5-d1e355">
+            <pb ed="#P" n="0438D"/>
+            <quote xml:id="gom-act5-Qd1e359" type="lemma" source="http://scta.info/resource/act5_23@2-3">Carcerem quidem,</quote>
+            etc. Insani Judaei qui stimulante invidia dicunt furantibus apostolis Jesu de monumento sublatum, cujus furto dicant apostolos de carcere clauso ablatos.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e364">
+          <head xml:id="gom-act5-Hd1e366">Versus 24</head>
+          <p xml:id="gom-act5-d1e368">
+            <quote xml:id="gom-act5-Qd1e370" type="lemma" source="http://scta.info/resource/act5_24@6-6">Magistratus.</quote>
+            Secundum Graecum <quote xml:id="gom-act5-Qd1e373" source="http://scta.info/resource/act5_24@6-6">magistratus</quote> legendum est in singulari numero, sicut et in sequenti ubi dicitur: Tunc abiit magistratus cum ministris.
+          </p>
+          <p xml:id="gom-act5-d1e377">
+            <quote xml:id="gom-act5-Qd1e379" type="lemma" source="http://scta.info/resource/act5_24@11-11">Ambigebant.</quote>
+            Nec sic credunt: malitia enim interior cor perfidum signis etiam manifestis obdurat.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e384">
+          <head xml:id="gom-act5-Hd1e386">Versus 28</head>
+          <p xml:id="gom-act5-d1e388">
+            <quote xml:id="gom-act5-Qd1e390" type="lemma" source="http://scta.info/resource/act5_28@2-2">Praecipiendo</quote>
+            etc. In Graeco: <quote xml:id="gom-act5-Qd1e393" source="http://scta.info/resource/act5_28@2-4">Nonne praecipiendo praecepimus vobis?</quote> Nam sic loqui, magis convenit interroganti.
+          </p>
+          <p xml:id="gom-act5-d1e397">
+            <quote xml:id="gom-act5-Qd1e399" type="lemma" source="http://scta.info/resource/act5_28@12-13">Replestis Jerusalem.</quote>
+            Principem civitatum, in qua etiam nos conversamur. In hoc ignoranter laudant apostolos, qui nec territi minis <pb ed="#P" n="0439A"/> cessant praedicare.
+          </p>
+          <p xml:id="gom-act5-d1e405">
+            <quote xml:id="gom-act5-Qd1e407" type="lemma" source="http://scta.info/resource/act5_28@19-21">Super nos sanguinem.</quote>
+            <ref xml:id="gom-act5-Rd1e410"><name xml:id="gom-act5-Nd1e411" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e414">Patet per antiphrasim dictum esse: <quote xml:id="gom-act5-Qd1e416" source="http://scta.info/resource/mt27_25@6-9">Sanguis ejus super nos.</quote></quote>
+          </p>
+          <p xml:id="gom-act5-d1e420">
+            <ref xml:id="gom-act5-Rd1e422" type="lemma" subtype="implied" target="http://scta.info/resource/act5_28@19-21"/>
+            Temeraria interrogatio pontificis refutatur responsione prudenti.
+          </p>
+          <p xml:id="gom-act5-d1e426">
+            <ref xml:id="gom-act5-Rd1e428" type="lemma" subtype="implied" target="http://scta.info/resource/act5_28@19-21"/>
+            <ref xml:id="gom-act5-Rd1e430"><name xml:id="gom-act5-Nd1e431" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act5-Qd1e434">Interrogant, solet enim in verbis esse dubietas, cum in corde firma teneatur sententia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e438">
+          <head xml:id="gom-act5-Hd1e440">Versus 30</head>
+          <p xml:id="gom-act5-d1e442">
+            <quote xml:id="gom-act5-Qd1e444" type="lemma" source="http://scta.info/resource/act5_30@1-2">Deus patrum.</quote>
+            <ref xml:id="gom-act5-Rd1e447"><name xml:id="gom-act5-Nd1e448" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e451">Non novus, nec a nobis nuper inventus: hoc autem dicit, ut eorum inobedientia sit inexcusabilis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e456">
+          <head xml:id="gom-act5-Hd1e458">Versus 32</head>
+          <p xml:id="gom-act5-d1e460">
+            <quote xml:id="gom-act5-Qd1e462" type="lemma" source="http://scta.info/resource/act5_32@8-9">Spiritus sanctus.</quote>
+            Nos Spiritus sanctus roboravit, ut vobis etiam resistentibus magnalia Dei firmiter praedicemus, in nobis loquens format verba quae auditis.
+          </p>
+          <p xml:id="gom-act5-d1e466">
+            <quote xml:id="gom-act5-Qd1e468" type="lemma" source="http://scta.info/resource/act5_32@13-13">Omnibus.</quote>
+            <ref xml:id="gom-act5-Rd1e471"><name xml:id="gom-act5-Nd1e472" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e475">Non nobis solis, sed omnibus <pb ed="#P" n="0439B"/> obedientibus, etiam vobis, si velitis accipere. In hoc ad poenitentiam provocat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e482">
+          <head xml:id="gom-act5-Hd1e484">Versus 34</head>
+          <p xml:id="gom-act5-d1e486">
+            <quote xml:id="gom-act5-Qd1e488" type="lemma" source="http://scta.info/resource/act5_34@8-8">Gamaliel.</quote>
+            Hic erat discipulus apostolorum, ut putatur, remanens apud Judaeos consilio Apostolorum, ut pessima destrueret consilia, et furorem eorum mitigaret.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e493">
+          <head xml:id="gom-act5-Hd1e495">Versus 36</head>
+          <p xml:id="gom-act5-d1e497">
+            <quote xml:id="gom-act5-Qd1e499" type="lemma" source="http://scta.info/resource/act5_36@6-6">Theodas.</quote>
+            <ref xml:id="gom-act5-Rd1e502"><name xml:id="gom-act5-Nd1e503" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act5-Qd1e506">Theodas persuasit multis sublatis ex urbe facultatibus suis ripas Jordanis obsidere, et cum esset magus, prophetam se dicebat, et diviso fluvio se praebere transitum promittebat. Cui jussu Fadi procuratoris equitum turba superveniens, multis peremptis aut captis, ipsius caput Hierosolymam revexit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e510">
+          <head xml:id="gom-act5-Hd1e512">Versus 37</head>
+          <p xml:id="gom-act5-d1e514">
+            <quote xml:id="gom-act5-Qd1e516" type="lemma" source="http://scta.info/resource/act5_37@4-5">Judas Galilaeus,</quote>
+            etc. De hoc Josephus dicit quia cogebat populum ne tributa solvendo <pb ed="#P" n="0439C"/> Romanis libertatem amitteret: proferens ex lege soli Deo serviendum, et eos qui decimas dabant, tributa non dare debere. Quae haeresis intantum crevit, ut Pharisaei et multa pars populi Christum interrogarent, an liceret tributa dare Caesari.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e523">
+          <head xml:id="gom-act5-Hd1e525">Versus 40</head>
+          <p xml:id="gom-act5-d1e527">
+            <quote xml:id="gom-act5-Qd1e529" type="lemma" source="http://scta.info/resource/act5_40@4-4">Caesis,</quote>
+            etc.
+            <ref xml:id="gom-act5-Rd1e532"><name xml:id="gom-act5-Nd1e533" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act5-Qd1e536">Ecce fortitudo fidei patet, quae nec verbis cohiberi poterat, nec flagellis. Prius sunt sermone prohibiti, modo flagellis caesi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e540">
+          <head xml:id="gom-act5-Hd1e542">Versus 41</head>
+          <p xml:id="gom-act5-d1e544">
+            <quote xml:id="gom-act5-Qd1e546" type="lemma" source="http://scta.info/resource/act5_41@9-10">Quoniam digni.</quote>
+            Non putabant se laborare, sed maximum munus percipere: quia <quote xml:id="gom-act5-Qd1e549" source="http://scta.info/resource/mt5_10@1-5">Beati qui persecutionem patiuntur propter Deum<!-- check: Migne cites mt6; text matches mt5_10 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-act5-Dd1e556">
+          <head xml:id="gom-act5-Hd1e558">Versus 42</head>
+          <p xml:id="gom-act5-d1e560">
+            <quote xml:id="gom-act5-Qd1e562" type="lemma" source="http://scta.info/resource/act5_42@1-3">Omni autem die,</quote>
+            etc. Saepe talia interponuntur capitula, breviter multa colligentia, ut quasi finis praeterito sermoni, et fundamentum statuatur <pb ed="#P" n="0439D"/> sequenti.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

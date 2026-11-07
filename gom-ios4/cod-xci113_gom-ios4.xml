@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0508C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios4">
+        <head xml:id="gom-ios4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-ios4-Dd1e100">
+          <head xml:id="gom-ios4-Hd1e102">Versus 7</head>
+          <p xml:id="gom-ios4-d1e104">
+            <quote xml:id="gom-ios4-Qd1e106" type="lemma" source="http://scta.info/resource/ios4_7@23-24">In aeternum.</quote>
+            <ref xml:id="gom-ios4-Rd1e109"><name xml:id="gom-ios4-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ios4-Qd1e113">Quomodo in aeternum, cum coelum et terra transeant? An quoniam aeternum aliquid significat, cum ipsi aeterni esse non possint? Quamvis possit quod in Graeco est Latine dici usque in saeculum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios4-Dd1e117">
+          <head xml:id="gom-ios4-Hd1e119">Versus 10</head>
+          <p xml:id="gom-ios4-d1e121">
+            <quote xml:id="gom-ios4-Qd1e123" type="lemma" source="http://scta.info/resource/ios4_10@25-28">Festinavitque populus et transiit,</quote>
+            etc.
+            <ref xml:id="gom-ios4-Rd1e126"><name xml:id="gom-ios4-Nd1e127" ref="#Origen">ADAM.</name>, hom. 2.</ref>
+            <quote xml:id="gom-ios4-Qd1e131"><seg type="qs">Qui mare Rubrum transierunt, <pb ed="#P" n="0508D"/> baptizati sunt in Moyse</seg>, etc., usque ad <seg type="qs">cum jam non sit qui exterreat filios Israel.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios4-Dd1e142">
+          <head xml:id="gom-ios4-Hd1e144">Versus 14</head>
+          <p xml:id="gom-ios4-d1e146">
+            <quote xml:id="gom-ios4-Qd1e148" type="lemma" source="http://scta.info/resource/ios4_14@1-3">In die illo,</quote>
+            etc. Semper exaltatus est Jesus apud Patrem; sed opus est ut in conspectu nostro exaltet illum Deus, id est, ut altitudinem divinitatis ejus cognoscamus. Hoc autem fit, si Jordanem transierimus, et variis sacramentorum munimentis ad futura bella armemur.
+          </p>
+        </div>
+        <div xml:id="gom-ios4-Dd1e153">
+          <head xml:id="gom-ios4-Hd1e155">Versus 16</head>
+          <p xml:id="gom-ios4-d1e157">
+            <quote xml:id="gom-ios4-Qd1e159" type="lemma" source="http://scta.info/resource/ios4_16@1-2">Praecipe sacerdotibus.</quote>
+            <ref xml:id="gom-ios4-Rd1e162"><name xml:id="gom-ios4-Nd1e163" ref="#Augustine">AUG.</name>, in Josue.</ref>
+            <quote xml:id="gom-ios4-Qd1e167"><seg type="qs">Manda sacerdotibus portantibus arcam testamenti</seg>, etc., usque ad <seg type="qs">quia in rei venturae testimonium datum fuit Vetus Testamentum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios4-Dd1e177">
+          <head xml:id="gom-ios4-Hd1e179">Versus 19</head>
+          <p xml:id="gom-ios4-d1e181">
+            <quote xml:id="gom-ios4-Qd1e183" type="lemma" source="http://scta.info/resource/ios4_19@1-2">Populus autem.</quote>
+            <ref xml:id="gom-ios4-Rd1e186"><name xml:id="gom-ios4-Nd1e187" ref="#Origen">ADAMANT.</name>, hom. 2.</ref>
+            <quote xml:id="gom-ios4-Qd1e191"><seg type="qs">Non sine causa signatur quando veniunt ad Jordanem, etc., <pb ed="#P" n="0509A"/></seg> usque ad <seg type="qs">ut multas perfectiones ad unum diem pendere significent</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios4-Dd1e201">
+          <head xml:id="gom-ios4-Hd1e203">Versus 20</head>
+          <p xml:id="gom-ios4-d1e205">
+            <quote xml:id="gom-ios4-Qd1e207" type="lemma" source="http://scta.info/resource/ios4_20@1-2">Duodecim quoque,</quote>
+            scilicet mysterium agni in Aegypto praeceptum est, quia eodem die quo errores mundi fugimus, terram promissionis ingredimur. Tota enim vita praesens una dies est : hodie ergo, id est, dum vivimus, ad perfectionem festinemus, nec in crastinum differamus.
+          </p>
+          <p xml:id="gom-ios4-d1e211">
+            <quote xml:id="gom-ios4-Qd1e213" type="lemma" source="http://scta.info/resource/ios4_20@1-2">Duodecim quoque.</quote>
+            <ref xml:id="gom-ios4-Rd1e216"><name xml:id="gom-ios4-Nd1e217" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-ios4-Qd1e220">Transeuntes filii Israel Jordanem sustulerunt de medio fluminis duodecim lapides quos pro testimonio posuerunt in loco secundae circumcisionis, ad signandum nobis, ut dum de lavacro consurgimus, apostolicae vitae exempla firmissima nobiscum portare debeamus, quorum semper testimonium ad imitamenta virtutum intueamur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

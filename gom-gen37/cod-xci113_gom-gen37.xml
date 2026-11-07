@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 37</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 37</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0164C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen37">
+        <head xml:id="gom-gen37-Hd1e98">Caput 37</head>
+        <div xml:id="gom-gen37-Dd1e100">
+          <head xml:id="gom-gen37-Hd1e102">Versus 2</head>
+          <p xml:id="gom-gen37-d1e104">
+            <quote xml:id="gom-gen37-Qd1e106" type="lemma" source="http://scta.info/resource/gen37_2@6-10">Joseph cum sedecim esset annorum,</quote>
+            etc.,
+            <ref xml:id="gom-gen37-Rd1e109"><name xml:id="gom-gen37-Nd1e110" ref="#Augustine">AUG.</name> in Q. super Genesin.</ref>
+          </p>
+          <p xml:id="gom-gen37-d1e115">
+            Historice.
+          </p>
+          <p xml:id="gom-gen37-d1e117">
+            <ref xml:id="gom-gen37-Rd1e119" type="lemma" subtype="implied" target="http://scta.info/resource/gen37_2@6-10"/>
+            <quote xml:id="gom-gen37-Qd1e121"><seg type="qs">Quomodo poterit mors Isaac</seg>, etc., usque ad <seg type="qs">vivo tamen Isaac decem et septem annorum coepit esse Joseph.</seg></quote>
+          </p>
+          <p xml:id="gom-gen37-d1e129">
+            <quote xml:id="gom-gen37-Qd1e131" type="lemma" source="http://scta.info/resource/gen37_2@18-22">Et erat cum filiis Balae,</quote>
+            etc. Joseph unus ex <pb ed="#P" n="0164D"/> duodecim filiis Jacob, prae caeteris patri dilectus, Christum significavit, quem Deus Pater secundum carnem natum caeteris fratribus ex Abrahae stirpe progenitis praetulit. Unde amabat eum Jacob, <quote xml:id="gom-gen37-Qd1e136" source="http://scta.info/resource/gen37_3@9-14">eo quod in senectute genuisset eum.</quote> Senescente enim mundo, Filius Dei de Virgine natus fuit, tanquam filius senectutis.
+          </p>
+          <p xml:id="gom-gen37-d1e141">
+            <quote xml:id="gom-gen37-Qd1e143" type="lemma" source="http://scta.info/resource/gen37_2@18-20">Et erat cum,</quote>
+            etc. In primitiva Ecclesia nec abjiciebat sibi adhaerentes per praedicationem pseudoapostolorum, quos significant ancillae Jacob, quos et noluit prohibere, cum in nomine ejus miracula facerent.
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e148">
+          <head xml:id="gom-gen37-Hd1e150">Versus 3</head>
+          <p xml:id="gom-gen37-d1e152">
+            <quote xml:id="gom-gen37-Qd1e154" type="lemma" source="http://scta.info/resource/gen37_3@15-18">Fecitque ei tunicam polymitam.</quote>
+            <ref xml:id="gom-gen37-Rd1e157"><name xml:id="gom-gen37-Nd1e158" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-gen37-Qd1e161">Pro <quote xml:id="gom-gen37-Qd1e163">tunica varia</quote> Aquila interpretatus est <pb ed="#P" n="0165A"/> <foreign xml:lang="greek">ἀστραγάλον,</foreign> id est <quote xml:id="gom-gen37-Qd1e170">talarem,</quote> Symmachus <quote xml:id="gom-gen37-Qd1e172">manicatam,</quote> sive quod ad talos usque descenderet et manibus artificis mira esset varietate distincta, sive quod haberet manicas: antiqui enim magis colobiis, id est vestibus sine manicis utebantur.</quote>
+          </p>
+          <p xml:id="gom-gen37-d1e176">
+            <ref xml:id="gom-gen37-Rd1e178" type="lemma" subtype="implied" target="http://scta.info/resource/gen37_3@15-18"/>
+            <ref xml:id="gom-gen37-Rd1e180"><name xml:id="gom-gen37-Nd1e181" ref="#GregoryGreat">GREG.</name>, hom. XXV in Evang.</ref>
+            <quote xml:id="gom-gen37-Qd1e185">Quia Joseph inter fratres usque ad finem vitae justus perseverasse describitur, solus talarem tunicam habuisse perhibetur. Quid est talaris tunica, nisi actio consummata? Quasi enim protensa tunica talum corporis operuit, cum bona actio ante oculos Dei usque ad terminos vitae nos regit. Unde Moyses caudam hostiae offerri praecepit, ut opus bonum quod incipimus perseveranti fine compleamus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e189">
+          <head xml:id="gom-gen37-Hd1e191">Versus 4</head>
+          <p xml:id="gom-gen37-d1e193">
+            <quote xml:id="gom-gen37-Qd1e195" type="lemma" source="http://scta.info/resource/gen37_4@1-4">Videntes autem fratres ejus,</quote>
+            <pb ed="#P" n="0165B"/> etc. Fratres Christi secundum carnem Judaei, de quorum cognatione carnem suscepit. Sed quia videbant quod gratia virtutum in eo fiebat, quod testabatur Patris praecipuam dilectionem, invidebant, nec poterant ei quidquam pacifice loqui, et saepius insidias tentabant, et Patremfamilias in Beelzebub principe daemoniorum daemonia ejicere blasphemabant.
+          </p>
+          <p xml:id="gom-gen37-d1e201">
+            <ref xml:id="gom-gen37-Rd1e203" type="lemma" subtype="implied" target="http://scta.info/resource/gen37_4@1-4"/>
+            <ref xml:id="gom-gen37-Rd1e205"><name xml:id="gom-gen37-Nd1e206" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen37-Qd1e209"><seg type="qs">Hoc spiritualiter in Christo impletum est</seg>, etc., usque ad <seg type="qs">in stellarum figura.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e218">
+          <head xml:id="gom-gen37-Hd1e220">Versus 10</head>
+          <p xml:id="gom-gen37-d1e222">
+            <quote xml:id="gom-gen37-Qd1e224" type="lemma" source="http://scta.info/resource/gen37_10@20-21">Num ego,</quote>
+            etc. Quaeri potest secundum litteram quando a patre adoratus sit, qui per solem; et a matre, quae per lunam designatur. Neque enim Jacob, quando descendit in Aegyptum, legitur adorasse eum: mater vero jam defuncta erat: <pb ed="#P" n="0165C"/> sed ad allegoriam recurramus, quae in Christo impletur.
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e232">
+          <head xml:id="gom-gen37-Hd1e234">Versus 12</head>
+          <p xml:id="gom-gen37-d1e236">
+            <quote xml:id="gom-gen37-Qd1e238" type="lemma" source="http://scta.info/resource/gen37_12@1-3">Cumque fratres illius,</quote>
+            <quote xml:id="gom-gen37-Qd1e241"><seg type="qs">etc., <quote xml:id="gom-gen37-Qd1e244" source="http://scta.info/resource/gen37_12@4-6">in pascendis gregibus,</quote></seg> usque <seg type="qs"><quote xml:id="gom-gen37-Qd1e248" source="http://scta.info/resource/gen37_14@17-18">Renuntia mihi,</quote> etc.</seg></quote>
+          </p>
+          <p xml:id="gom-gen37-d1e253">
+            <ref xml:id="gom-gen37-Rd1e255" type="lemma" subtype="implied" target="http://scta.info/resource/gen37_12@1-3"/>
+            <ref xml:id="gom-gen37-Rd1e257"><name xml:id="gom-gen37-Nd1e258" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen37-Qd1e261">Jacob mittit filium ut de fratribus curam gereret; et Deus Pater Filium unigenitum, ut genus humanum peccatis languidum visitaret. Unde Galat. capite quarto: <quote xml:id="gom-gen37-Qd1e263" source="http://scta.info/resource/rom8_3@11-18">Misit Deus Filium suum in similitudinem carnis peccati.</quote> Missus est Joseph ut videret si cuncta prospera essent erga oves: et Christus ait Matthaei decimo quinto: <quote xml:id="gom-gen37-Qd1e266" source="http://scta.info/resource/mt15_24@5-14">Non veni nisi ad oves quae perierant domus Israel.</quote></quote>
+          </p>
+          <p xml:id="gom-gen37-d1e270">
+            <quote xml:id="gom-gen37-Qd1e272" type="lemma" source="http://scta.info/resource/gen37_12">In Dothaim.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-gen37-Qd1e277">Defectionem.</quote> In grandi enim defectione erant, qui de fratricidio cogitabant.
+          </p>
+          <p xml:id="gom-gen37-d1e280">
+            <quote xml:id="gom-gen37-Qd1e282" type="lemma" source="http://scta.info/resource/gen37_12">Ruben.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Praevidens hoc sermo propheticus, quem <pb ed="#P" n="0165D"/> Ruben significat (qui interpretatur <mentioned>visio filii</mentioned> ), propheticis comminationibus deterrebat, ut innocentes se servarent a sanguine Christi, fratris sui secundum carnem.
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e293">
+          <head xml:id="gom-gen37-Hd1e295">Versus 23</head>
+          <p xml:id="gom-gen37-d1e297">
+            <quote xml:id="gom-gen37-Qd1e299" type="lemma" source="http://scta.info/resource/gen37_23@7-8">Nudaverunt eum,</quote>
+            etc.
+            <ref xml:id="gom-gen37-Rd1e302"><name xml:id="gom-gen37-Nd1e303" ref="#IsidoreOfSeville">ISID.</name></ref>
+          </p>
+          <p xml:id="gom-gen37-d1e307">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen37-d1e309">
+            <ref xml:id="gom-gen37-Rd1e311" type="lemma" subtype="implied" target="http://scta.info/resource/gen37_23@7-8"/>
+            Et Judaei Christum per mortem exspoliaverunt tunica corporali et polimyta, id est, decorata omnium virtutum diversitate. Resperserunt autem tunicam sanguine haedi: quia falsis testimoniis eum accusantes, in invidiam peccati duxerunt. Joseph mittitur in cisternam, id est in lacum: et Christus exspolitus carne humana descendit ad infernum.
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e315">
+          <head xml:id="gom-gen37-Hd1e317">Versus 25</head>
+          <p xml:id="gom-gen37-d1e319">
+            <quote xml:id="gom-gen37-Qd1e321" type="lemma" source="http://scta.info/resource/gen37_25@6-8">Viderunt viatores Ismaelitas.</quote>
+            <ref xml:id="gom-gen37-Rd1e324"><name xml:id="gom-gen37-Nd1e325" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen37-Qd1e328"><seg type="qs">Quaeritur quare Ismaelitas Scriptura, etc., <pb ed="#P" n="0166A"/></seg> usque ad <seg type="qs">qui dicunt Agar et Ceturam unam fuisse?</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e338">
+          <head xml:id="gom-gen37-Hd1e340">Versus 28</head>
+          <p xml:id="gom-gen37-d1e342">
+            <quote xml:id="gom-gen37-Qd1e344" type="lemma" source="http://scta.info/resource/gen37_28@5-5">Extrahentes.</quote>
+            <ref xml:id="gom-gen37-Rd1e347"><name xml:id="gom-gen37-Nd1e348" ref="#IsidoreOfSeville">ISID.</name></ref>
+          </p>
+          <p xml:id="gom-gen37-d1e352">
+            Allegorice.
+          </p>
+          <p xml:id="gom-gen37-d1e354">
+            <ref xml:id="gom-gen37-Rd1e356" type="lemma" subtype="implied" target="http://scta.info/resource/gen37_28@5-5"/>
+            Joseph de cisterna levatus Ismaelitis venditis venditur: et Christus ab inferno regressus ab omnibus gentibus fidei commercio comparatur. Ille per Judae consilium triginta argenteis distrahitur, et hic per consilium Judae Iscariotae numero eodem venundatur.
+          </p>
+          <p xml:id="gom-gen37-d1e359">
+            <quote xml:id="gom-gen37-Qd1e361" type="lemma" source="http://scta.info/resource/gen37_28@9-9">Vendiderunt.</quote>
+            <ref xml:id="gom-gen37-Rd1e364"><name xml:id="gom-gen37-Nd1e365" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen37-Qd1e368">Hebraica veritas habet <quote xml:id="gom-gen37-Qd1e370" source="http://scta.info/resource/gen37_28@12-12">argenteis.</quote> neque enim viliori metallo Dominus vendi debuit quam Joseph.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e376">
+          <head xml:id="gom-gen37-Hd1e378">Versus 34</head>
+          <p xml:id="gom-gen37-d1e380">
+            <quote xml:id="gom-gen37-Qd1e382" type="lemma" source="http://scta.info/resource/gen37_34@1-2">Scissisque vestibus,</quote>
+            etc.
+            <ref xml:id="gom-gen37-Rd1e385"><name xml:id="gom-gen37-Nd1e386" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen37-Qd1e389">Jacob, posteritatis suae plorans dispendia, quasi pater filium lugebat amissum, et quasi propheta interitum Judaeorum <!--<note>(Matth. XXVI)</note>-->. Scidit vestimentum: <pb ed="#P" n="0166B"/> quod in passione Domini fecit princeps sacerdotum <!--<note>(Luc. XXIII)</note>-->. Sed et velum templi scissum est, ut prophetaret nudatum populum suum, et divisum ostenderet regnum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen37-Dd1e400">
+          <head xml:id="gom-gen37-Hd1e402">Versus 35</head>
+          <p xml:id="gom-gen37-d1e404">
+            <quote xml:id="gom-gen37-Qd1e406" type="lemma" source="http://scta.info/resource/gen37_35@15-18">Descendam ad filium meum.</quote>
+            etc. Quaeritur quomodo hoc intelligatur, utrum mali tantum, an etiam boni in infernum descendant? Si tantum mali, quomodo iste ad filium suum dicit se lugentem descendere velle? Non enim in poenis inferni credibile est eum esse. An perturbati, et dolentis verba sunt, mala sua etiam hic exaggerantis? an credibile est apud infernum quaedam loca secreta, et minus poenalia ante passionem Domini fuisse, ad quae etiam sancti descendebant? quia nullus paradisum ingredi poterat, donec Christus rhomphaeam <pb ed="#P" n="0166C"/> igneam amoveret.
+          </p>
+          <p xml:id="gom-gen37-d1e412">
+            <ref xml:id="gom-gen37-Rd1e414" type="lemma" subtype="implied" target="http://scta.info/resource/gen37_35@15-18"/>
+            <ref xml:id="gom-gen37-Rd1e416"><name xml:id="gom-gen37-Nd1e417" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen37-Qd1e420">Madianei autem vendiderunt Joseph in Aegypto Putiphari eunucho, Pharaonis archimagiro. Plerumque <foreign xml:lang="greek">sb;αρχιμαγείρους,</foreign> id est, coquorum principes, pro magistris exercitus Scriptura ponit; <foreign xml:lang="greek">μάγειρος</foreign> enim Graece est <quote xml:id="gom-gen37-Qd1e428">coquus,</quote> et dicitur <foreign xml:lang="greek">μαγειρειύεν,</foreign> quod est <quote xml:id="gom-gen37-Qd1e433">occidere:</quote> eo quod coqui occidant coquendas pecudes. Venditus est igitur Joseph principi laniorum, non Petefre, ut in Latino scriptum est, sed Putiphari eunucho. Ubi quaeritur quomodo postea uxorem habere dicatur? Tradunt Hebraei emptum ab hoc Joseph ob nimiam pulchritudinem in turpe ministerium, et a domino, virilibus ejus arefactis, postea electum esse juxta morem hierophantarum, id est, sacra loquentium in pontificatu Heliopoleos: <pb ed="#P" n="0166D"/> et hujus filiam esse Aseneth, quam postea Joseph acceperit uxorem.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

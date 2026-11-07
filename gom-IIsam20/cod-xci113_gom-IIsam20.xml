@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 20</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 20</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0576B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam20">
+        <head xml:id="gom-IIsam20-Hd1e98">Caput 20</head>
+        <div xml:id="gom-IIsam20-Dd1e100">
+          <head xml:id="gom-IIsam20-Hd1e102">Versus 9</head>
+          <p xml:id="gom-IIsam20-d1e104">
+            <quote xml:id="gom-IIsam20-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam20_9@9-10">Et tenuit,</quote>
+            etc. Dextera mentum tenere, est quasi ex benignitate blandiri. Sed sinistram ad gladium mittit, qui latenter ex malitia percutit.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam20-Dd1e111">
+          <head xml:id="gom-IIsam20-Hd1e113">Versus 19</head>
+          <p xml:id="gom-IIsam20-d1e115">
+            <quote xml:id="gom-IIsam20-Qd1e117" type="lemma" source="http://scta.info/resource/IIsam20_19@1-1">Nonne.</quote>
+            <ref xml:id="gom-IIsam20-Rd1e120"><name xml:id="gom-IIsam20-Nd1e121" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam20-Qd1e124">Iste est sermo legis, in qua jubetur ut filii Israel ingressi terram Chanaan prius pacem offerant, et eos qui pacem susceperint, tributarios faciant; eos vero qui non susceperint, deleant: ideo mulier sapiens exclamasse dicitur <mentioned>Nonne</mentioned>. Quasi: Cur destruis hanc civitatem antequam pacem offeras secundum legem? cur non servas legem Israelitis, quae olim servata est alienigenis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam20-Dd1e131">
+          <head xml:id="gom-IIsam20-Hd1e133">Versus 22</head>
+          <p xml:id="gom-IIsam20-d1e135">
+            <quote xml:id="gom-IIsam20-Qd1e137" type="lemma" source="http://scta.info/resource/IIsam20_22@12-13">Qui abscissum.</quote>
+            <ref xml:id="gom-IIsam20-Rd1e140"><name xml:id="gom-IIsam20-Nd1e141" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam20-Qd1e144"><seg type="qs">Reditus populi <pb ed="#P" n="0576C"/> ad David post interfectionem Absalon</seg>, etc., usque ad <seg type="qs">id est Christum Filium Dei rediit</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

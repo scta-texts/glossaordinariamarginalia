@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 97</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 97</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1007C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps97">
+        <head xml:id="gom-ps97-Hd1e98">Psalmus 97</head>
+        <div xml:id="gom-ps97-Dd1e100">
+          <head xml:id="gom-ps97-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps97-d1e104">
+            <pb ed="#P" n="1007C"/>
+            <quote xml:id="gom-ps97-Qd1e108" type="lemma" source="http://scta.info/resource/ps97_1@1-3">Psalmus David.</quote>
+            <ref xml:id="gom-ps97-Rd1e111"><name xml:id="gom-ps97-Nd1e112" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e115">Tertius psalmus eorum qui de utroque adventu agunt: in quibus est causa spei per misericordiam primi adventus, et timoris per judicium secundi: haec, etsi saepe iterentur, tamen semper nova pro verborum et sententiarum varia descriptione.</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e118">
+            <quote xml:id="gom-ps97-Qd1e120" type="lemma" source="http://scta.info/resource/ps97_1@4-5">Cantate Domino.</quote>
+            <ref xml:id="gom-ps97-Rd1e123"><name xml:id="gom-ps97-Nd1e124" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e127">Primo ait de ostensione salvatricis dexterae.</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e130">
+            <quote xml:id="gom-ps97-Qd1e132" type="lemma" source="http://scta.info/resource/ps97_1@11-11">Salvavit.</quote>
+            <ref xml:id="gom-ps97-Rd1e135"><name xml:id="gom-ps97-Nd1e136" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e139">Majus est quod totum orbem a morte aeterna erexit, quam quod mortuos suscitavit.</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e142">
+            <quote xml:id="gom-ps97-Qd1e144" type="lemma" source="http://scta.info/resource/ps97_1@12-12">Sibi.</quote>
+            Multi salvantur corporaliter, sed sibi, non ei: qui accepta corporali sanitate lasciviunt, sed qui per fidem intus sanantur, ei sanantur, vel se salvant.
+          </p>
+        </div>
+        <div xml:id="gom-ps97-Dd1e149">
+          <head xml:id="gom-ps97-Hd1e151">Versus 2</head>
+          <p xml:id="gom-ps97-d1e153">
+            <quote xml:id="gom-ps97-Qd1e155" type="lemma" source="http://scta.info/resource/ps97_2">Salutare . . . justitiam.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps97-Rd1e160"><name xml:id="gom-ps97-Nd1e161" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e164">Qui salvat et justificat.</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e167">
+            <quote xml:id="gom-ps97-Qd1e169" type="lemma" source="http://scta.info/resource/ps97_2@10-10">Revelavit.</quote>
+            Futura sub velamine praedixerunt <pb ed="#P" n="1007D"/> prophetae: sed velamen ablatum est, cum <quote xml:id="gom-ps97-Qd1e174" source="http://scta.info/resource/ps97_4@2-7">veritas de terra orta est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps97-Dd1e179">
+          <head xml:id="gom-ps97-Hd1e181">Versus 3</head>
+          <p xml:id="gom-ps97-d1e183">
+            <quote xml:id="gom-ps97-Qd1e185" type="lemma" source="http://scta.info/resource/ps97_3@3-6">Misericordiae et veritatis.</quote>
+            <ref xml:id="gom-ps97-Rd1e188"><name xml:id="gom-ps97-Nd1e189" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e192"><quote xml:id="gom-ps97-Qd1e193" source="http://scta.info/resource/ps97_3@3-3">Misericordia</quote> est quo promisit, hanc sequitur <quote xml:id="gom-ps97-Qd1e196" source="http://scta.info/resource/ps97_3@6-6">veritas,</quote> quia reddidit. Sed cui?</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e201">
+            <quote xml:id="gom-ps97-Qd1e203" type="lemma" source="http://scta.info/resource/ps97_3">Israeli,</quote>
+            <!-- check: lemma not matched to verse text -->
+            id est, qui modo per fidem videt veritatem, post per speciem.
+          </p>
+        </div>
+        <div xml:id="gom-ps97-Dd1e210">
+          <head xml:id="gom-ps97-Hd1e212">Versus 4</head>
+          <p xml:id="gom-ps97-d1e214">
+            <quote xml:id="gom-ps97-Qd1e216" type="lemma" source="http://scta.info/resource/ps97_4@3-3">Omnes.</quote>
+            <ref xml:id="gom-ps97-Rd1e219"><name xml:id="gom-ps97-Nd1e220" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e223">Quia non quibusdam tantum datus est Christus.</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e226">
+            <quote xml:id="gom-ps97-Qd1e228" type="lemma" source="http://scta.info/resource/ps97_4@1-1">Jubilate.</quote>
+            <ref xml:id="gom-ps97-Rd1e231"><name xml:id="gom-ps97-Nd1e232" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e235">Secundo dicit omnibus modis laudandum esse et annuntiandum, quia venit judex.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps97-Dd1e240">
+          <head xml:id="gom-ps97-Hd1e242">Versus 6</head>
+          <p xml:id="gom-ps97-d1e244">
+            <quote xml:id="gom-ps97-Qd1e246" type="lemma" source="http://scta.info/resource/ps97_6@1-7">In tubis ductilibus et voce tubae corneae.</quote>
+            <ref xml:id="gom-ps97-Rd1e249"><name xml:id="gom-ps97-Nd1e250" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e253"><seg type="qs">Aeris, quae tundendo producuntur</seg>, etc., usque ad <seg type="qs">ut cornu carni haeret, et eam superat. <pb ed="#P" n="1008A"/></seg></quote>
+          </p>
+          <p xml:id="gom-ps97-d1e262">
+            <ref xml:id="gom-ps97-Rd1e264" type="lemma" subtype="implied" target="http://scta.info/resource/ps97_6@1-7"/>
+            <ref xml:id="gom-ps97-Rd1e266"><name xml:id="gom-ps97-Nd1e267" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e270">In tubis ductilibus, argenteis, more Judaeorum. Mystice, productis sub malleo universae terrae, id est diabolo.</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e273">
+            <ref xml:id="gom-ps97-Rd1e275" type="lemma" subtype="implied" target="http://scta.info/resource/ps97_6@1-7"/>
+            <ref xml:id="gom-ps97-Rd1e277"><name xml:id="gom-ps97-Nd1e278" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e281">Tribulatio, tunsio est; profectus, productio: talis tuba erat Job, unde quasi tuba insonuit, dicens: <quote xml:id="gom-ps97-Qd1e283" source="http://scta.info/resource/iob1_21@14-17">Dominus dedit, Dominus abstulit.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps97-Dd1e288">
+          <head xml:id="gom-ps97-Hd1e290">Versus 7</head>
+          <p xml:id="gom-ps97-d1e292">
+            <quote xml:id="gom-ps97-Qd1e294" type="lemma" source="http://scta.info/resource/ps97_7@1-1">Moveatur.</quote>
+            <ref xml:id="gom-ps97-Rd1e297"><name xml:id="gom-ps97-Nd1e298" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e301">Id est, indulcetur mare legis, ligno crucis in eo posito.</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e304">
+            <quote xml:id="gom-ps97-Qd1e306" type="lemma" source="http://scta.info/resource/ps97_7@3-5">Et plenitudo ejus.</quote>
+            <quote xml:id="gom-ps97-Qd1e309"><seg type="qs">Universa legis sacramenta</seg>, etc., usque ad <seg type="qs">sed <quote xml:id="gom-ps97-Qd1e315" source="http://scta.info/resource/ps97_8@1-1">flumina,</quote> etc.</seg></quote>
+          </p>
+          <p xml:id="gom-ps97-d1e320">
+            <quote xml:id="gom-ps97-Qd1e322" type="lemma" source="http://scta.info/resource/ps97_7@8-8">Terram.</quote>
+            <ref xml:id="gom-ps97-Rd1e325"><name xml:id="gom-ps97-Nd1e326" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e329">Id est, omnem peccatorem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps97-Dd1e333">
+          <head xml:id="gom-ps97-Hd1e335">Versus 9</head>
+          <p xml:id="gom-ps97-d1e337">
+            <quote xml:id="gom-ps97-Qd1e339" type="lemma" source="http://scta.info/resource/ps97_9@10-11">Orbem terrarum.</quote>
+            Omnes terrenos.
+          </p>
+          <p xml:id="gom-ps97-d1e343">
+            <quote xml:id="gom-ps97-Qd1e345" type="lemma" source="http://scta.info/resource/ps97_9@12-13">In justitia.</quote>
+            <ref xml:id="gom-ps97-Rd1e348"><name xml:id="gom-ps97-Nd1e349" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e352">Quia non meruerunt misericordiam.</quote>
+          </p>
+          <p xml:id="gom-ps97-d1e355">
+            <quote xml:id="gom-ps97-Qd1e357" type="lemma" source="http://scta.info/resource/ps97_9@15-15">Populos.</quote>
+            <ref xml:id="gom-ps97-Rd1e360"><name xml:id="gom-ps97-Nd1e361" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps97-Qd1e364">Fideles de Judaeis et gentibus, qui capient aequa meritis.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

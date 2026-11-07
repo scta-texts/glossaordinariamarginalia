@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1186B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir2">
+        <head xml:id="gom-sir2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-sir2-Dd1e100">
+          <head xml:id="gom-sir2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir2-d1e104">
+            <quote xml:id="gom-sir2-Qd1e106" type="lemma" source="http://scta.info/resource/sir2_1@1-2">Fili, accedens,</quote>
+            etc. Demonstravit quid sit vitandum, nunc demonstrat quid sit agendum, dicens: <quote xml:id="gom-sir2-Qd1e109" source="http://scta.info/resource/sir2_1@1-9">Fili, accedens ad servitutem Dei sta in justitia et timore.</quote> Qui enim vult ab illecebris mundi se abstinere, et in Christo pie vivere, persecutionem patitur. Dum enim accingi divino servitio praeparat, bellum diaboli contra se excitat, et dum alia vitia subdit, aliis reluctatur, et divina dispensatione agitur, ut superet et superetur, ne extollatur. Sed <pb ed="#P" n="1186C"/> quia humilitas et patientia illi necessaria est, sequitur, <quote xml:id="gom-sir2-Qd1e114" source="http://scta.info/resource/sir2_2@1-5">Deprime cor tuum, et sustine,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e119">
+          <head xml:id="gom-sir2-Hd1e121">Versus 4</head>
+          <p xml:id="gom-sir2-d1e123">
+            <quote xml:id="gom-sir2-Qd1e125" type="lemma" source="http://scta.info/resource/sir2_4">Patientiam habe.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Quasi: <quote xml:id="gom-sir2-Qd1e130" source="http://scta.info/resource/lc21_19@1-6">In patientia vestra possidebitis animas vestras</quote>, quia scilicet radix et custos omnium virtutum patientia est. Sciendum autem est, quod patientia tribus modis exercetur. A Deo enim flagellamur, sed cavendum est ne murmuremus; a proximo persecutiones, et damna, et contumelias sustinemus, et cavendum est ne mala pro malis retribuamus; ab adversario tentamur, sed prospiciendum est ne ad delectationem peccati vel consensum flectamur, vel pro his praesentia quaeramus, sed futura exspectemus.
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e135">
+          <head xml:id="gom-sir2-Hd1e137">Versus 6</head>
+          <p xml:id="gom-sir2-d1e139">
+            <quote xml:id="gom-sir2-Qd1e141" type="lemma" source="http://scta.info/resource/sir2_6@1-5">Crede Deo et recuperabit te.</quote>
+            <ref xml:id="gom-sir2-Rd1e144"><name xml:id="gom-sir2-Nd1e145" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir2-Qd1e148"><pb ed="#P" n="1186D"/> Credere oportet afflictum, et dirigere gressus operum in Dei conspectum, et sperare in illum; unde: <quote xml:id="gom-sir2-Qd1e151" source="http://scta.info/resource/ps36_5@1-11">Revela Domino viam tuam, et spera in eo, et ipse faciet.</quote>. Hinc Jeremias ait: <quote xml:id="gom-sir2-Qd1e154" source="http://scta.info/resource/ier17_7@3-11">Beatus qui confidit in Domino, et erit Deus fiducia ejus</quote>, etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e160">
+          <head xml:id="gom-sir2-Hd1e162">Versus 7</head>
+          <p xml:id="gom-sir2-d1e164">
+            <quote xml:id="gom-sir2-Qd1e166" type="lemma" source="http://scta.info/resource/sir2_7">Metuentes Dominum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. <quote xml:id="gom-sir2-Qd1e171" source="http://scta.info/resource/ps146_11@1-14">Beneplacitum est Domino super timentes eum, et in eis qui sperant super misericordia ejus</quote>. Qui enim veraciter metuit, patienter sustinet miserationem ejus: <quote xml:id="gom-sir2-Qd1e174" source="http://scta.info/resource/ier17_13@5-12">Qui autem dereliquerint Deum, confundentur et in terra scribentur</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e180">
+          <head xml:id="gom-sir2-Hd1e182">Versus 8</head>
+          <p xml:id="gom-sir2-d1e184">
+            <quote xml:id="gom-sir2-Qd1e186" type="lemma" source="http://scta.info/resource/sir2_8@1-5">Qui timetis Dominum, credite illi.</quote>
+            Hortatur timentes Dominum ut credant illi, qui ad certam mercedem perveniant; unde: <quote xml:id="gom-sir2-Qd1e189" source="http://scta.info/resource/rom1_17@14-18">Justus enim ex <pb ed="#P" n="1187A"/> fide vivit</quote>; unde: <quote xml:id="gom-sir2-Qd1e194" source="http://scta.info/resource/mt9_2@16-21">Confide, fili, remittuntur tibi peccata tua</quote>. Et alibi: <quote xml:id="gom-sir2-Qd1e197" source="http://scta.info/resource/lc17_19@7-11">Fides tua te salvum fecit<!-- check: Migne cites mt10; text matches lc17_19 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e203">
+          <head xml:id="gom-sir2-Hd1e205">Versus 9</head>
+          <p xml:id="gom-sir2-d1e207">
+            <quote xml:id="gom-sir2-Qd1e209" type="lemma" source="http://scta.info/resource/sir2_9@1-6">Qui timetis Dominum, sperate in illum.</quote>
+            Tria commendat timentibus Deum: credere, sperare, diligere; quia fide, spe et charitate vere colitur Deus, et ad contemplationem pervenitur, quae est beatitudo aeterna.
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e214">
+          <head xml:id="gom-sir2-Hd1e216">Versus 11</head>
+          <p xml:id="gom-sir2-d1e218">
+            <quote xml:id="gom-sir2-Qd1e220" type="lemma" source="http://scta.info/resource/sir2_11@1-1">Respicite,</quote>
+            etc.
+            <ref xml:id="gom-sir2-Rd1e223"><name xml:id="gom-sir2-Nd1e224" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir2-Qd1e227"><seg type="qs">Hic quoque tria dicit</seg>, etc., usque ad <seg type="qs">quia <quote xml:id="gom-sir2-Qd1e233" source="http://scta.info/resource/ps50_19@1-4">sacrificium Deo spiritus contribulatus</quote>, etc. Et, <quote xml:id="gom-sir2-Qd1e236" source="http://scta.info/resource/ps144_18@1-11">Prope est Deus omnibus invocantibus se in veritate</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e242">
+          <head xml:id="gom-sir2-Hd1e244">Versus 14</head>
+          <p xml:id="gom-sir2-d1e246">
+            <quote xml:id="gom-sir2-Qd1e248" type="lemma" source="http://scta.info/resource/sir2_14@1-3">Vae duplici corde,</quote>
+            etc. Admonuit, ne quis duplici corde accederet ad Deum; nunc autem dicit, <quote xml:id="gom-sir2-Qd1e251" source="http://scta.info/resource/sir2_14@1-6">Vae duplici corde et labiis scelestis.</quote> Qui enim <pb ed="#P" n="1187B"/> prava cogitat, et loquitur, et pravis insistit operibus, nisi poenituerit, in aeternum peribit.
+          </p>
+          <p xml:id="gom-sir2-d1e257">
+            <quote xml:id="gom-sir2-Qd1e259" type="lemma" source="http://scta.info/resource/sir2_14">Duabus viis terram ingredientis</quote>
+            <!-- check: lemma not matched to verse text -->
+            qui facit mala, et sperat bona; vel, qui carnis sectatur opera, et spiritus sanctificationem se arbitratur perficere in timore; vel, quod Dei est opere exhibet, et quod mundi est, cogitatione quaerit. Tales vero inconstantes sunt in omnibus viis suis, quia facile in adversis terrentur, et prosperis irretiuntur.
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e266">
+          <head xml:id="gom-sir2-Hd1e268">Versus 15</head>
+          <p xml:id="gom-sir2-d1e270">
+            <quote xml:id="gom-sir2-Qd1e272" type="lemma" source="http://scta.info/resource/sir2_15@2-3">Dissolutis corde,</quote>
+            etc.
+            <ref xml:id="gom-sir2-Rd1e275"><name xml:id="gom-sir2-Nd1e276" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir2-Qd1e279"><seg type="qs">Adhuc docet errorem cavere</seg>, etc., usque ad <seg type="qs">his, qui non acquiescunt veritati, credunt autem iniquitati, ira et indignatio, etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e288">
+          <head xml:id="gom-sir2-Hd1e290">Versus 17</head>
+          <p xml:id="gom-sir2-d1e292">
+            <quote xml:id="gom-sir2-Qd1e294" type="lemma" source="http://scta.info/resource/sir2_17@5-5">Inspicere,</quote>
+            etc. Licet omni tempore inspiciat omnia Deus, tunc tamen inspicere dicitur, <pb ed="#P" n="1187C"/> cum probare vel improbare aliquid dignoscitur.
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e302">
+          <head xml:id="gom-sir2-Hd1e304">Versus 18</head>
+          <p xml:id="gom-sir2-d1e306">
+            <quote xml:id="gom-sir2-Qd1e308" type="lemma" source="http://scta.info/resource/sir2_18@1-6">Qui timent Dominum, non erunt incredibiles,</quote>
+            etc. Alternando de amore et dilectione Dei agit, <quote xml:id="gom-sir2-Qd1e311" source="http://scta.info/resource/ps18_10@1-7">quia timor Domini sanctus, permanens in saeculum saeculi</quote>, <quote xml:id="gom-sir2-Qd1e314" source="http://scta.info/resource/Iio4_7@9-19">et omnis qui diligit, ex Deo natus est, et cognoscit Deum</quote>. Qui vero timet Deum, et diligit, et credit Scripturis, servat operando praecepta Dei, et semper meditando quaerit quae beneplacita sunt illi, replebitur ergo sapientia et charitate Dei. <quote xml:id="gom-sir2-Qd1e317">Finis enim praecepti charitas, et qui diligit proximum, legem implevit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir2-Dd1e321">
+          <head xml:id="gom-sir2-Hd1e323">Versus 20</head>
+          <p xml:id="gom-sir2-d1e325">
+            <quote xml:id="gom-sir2-Qd1e327" type="lemma" source="http://scta.info/resource/sir2_20@1-4">Qui timent Dominum praeparabunt,</quote>
+            etc. Felix anima, quae quotidie mundat cor suum ut suscipiat habitatorem Deum, cujus possessor nullo eget bono, quia omnium bonorum auctorem in se <pb ed="#P" n="1187D"/> habet. Et quia ad hoc necessaria est mandatorum custodia, et boni operis patientia, qua pervenitur ad agnitionem veritatis, sequitur: <quote xml:id="gom-sir2-Qd1e332" source="http://scta.info/resource/sir2_21@1-6">Qui timent Dominum custodiunt mandata illius,</quote> etc. Justus in primis accusator est sui. Sicut enim humilitati praemium, sic superbiae restat supplicium; unde Joannes: <quote xml:id="gom-sir2-Qd1e335" source="http://scta.info/resource/Iio1_8@1-9">Si dixerimus quoniam peccatum non habemus, ipsi nos seducimus<!-- check: Migne cites IIio1; text matches Iio1_8 --></quote>. Qui vere sapiens est, verus justitiae cultor est, quia sapientia dictat justitiae normam.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1245A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is7">
+        <head xml:id="gom-is7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-is7-Dd1e100">
+          <head xml:id="gom-is7-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is7-d1e104">
+            <quote xml:id="gom-is7-Qd1e106" type="lemma" source="http://scta.info/resource/is7_1@1-6">Et factum est in diebus Achaz,</quote>
+            etc.
+            <ref xml:id="gom-is7-Rd1e109"><name xml:id="gom-is7-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is7-Qd1e113">Quae scripta sunt usque ad hunc locum sub Ozia et Joathan filio ejus, visa sunt; sequuntur sub Achaz rege impiissimo, qui a Deo derelictus ab inimicis expugnatur.</quote>
+          </p>
+          <p xml:id="gom-is7-d1e116">
+            <quote xml:id="gom-is7-Qd1e118" type="lemma" source="http://scta.info/resource/is7_1@6-6">Achaz.</quote>
+            Qui clausit januas templi et Baalim adoravit, filium suum idolo consecravit, altare aeneum abstulit, et altare idolorum in templo posuit. Jure ergo a Domino derelictus est: <quote xml:id="gom-is7-Qd1e121" source="http://scta.info/resource/IIchr28_20@8-10">Et surrexerunt adversus eum inimici</quote>.
+          </p>
+          <p xml:id="gom-is7-d1e125">
+            <quote xml:id="gom-is7-Qd1e127" type="lemma" source="http://scta.info/resource/is7_1@13-13">Ascendit,</quote>
+            <quote xml:id="gom-is7-Qd1e130"><seg type="qs">secundo. Primo enim Assyrii de tribu <pb ed="#P" n="1245B"/> Juda</seg>, etc., usque ad <seg type="qs">facti sunt amici Herodes et Pilatus in passione Christi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e141">
+          <head xml:id="gom-is7-Hd1e143">Versus 3</head>
+          <p xml:id="gom-is7-d1e145">
+            <quote xml:id="gom-is7-Qd1e147" type="lemma" source="http://scta.info/resource/is7_3@13-14">Derelictus est.</quote>
+            A fratre suo Rabsace, qui ad Assyrios transierat, ut tradunt Hebraei.
+          </p>
+          <p xml:id="gom-is7-d1e151">
+            <quote xml:id="gom-is7-Qd1e153" type="lemma" source="http://scta.info/resource/is7_3@15-17">Jasub filius tuus.</quote>
+            <ref xml:id="gom-is7-Rd1e156"><name xml:id="gom-is7-Nd1e157" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e160">Qui interpretatur <quote xml:id="gom-is7-Qd1e162">reliquus comes et convertens,</quote> qui populus Juda de manibus duorum regum liberandus erat.</quote>
+          </p>
+          <p xml:id="gom-is7-d1e166">
+            <quote xml:id="gom-is7-Qd1e168" type="lemma" source="http://scta.info/resource/is7_3@23-24">In via.</quote>
+            Ibi Rabsaces, postea ex praecepto Sennacherib, Dei populum blasphemavit.
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e173">
+          <head xml:id="gom-is7-Hd1e175">Versus 4</head>
+          <p xml:id="gom-is7-d1e177">
+            <quote xml:id="gom-is7-Qd1e179" type="lemma" source="http://scta.info/resource/is7_4@16-17">Duabus caudis.</quote>
+            <quote xml:id="gom-is7-Qd1e182"><seg type="qs">Duae caudae</seg>, etc., usque ad <seg type="qs">et ductus cum decem tribubus in montes Medorum et Persarum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e191">
+          <head xml:id="gom-is7-Hd1e193">Versus 6</head>
+          <p xml:id="gom-is7-d1e195">
+            <quote xml:id="gom-is7-Qd1e197" type="lemma" source="http://scta.info/resource/is7_6@19-19">Tabeel.</quote>
+            <ref xml:id="gom-is7-Rd1e200"><name xml:id="gom-is7-Nd1e201" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e204">Tabeel bonus Deus, quasi dicat: Ibi ponamus idolum Dei nostri, vel ad litteram, Filium hominis sic vocat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e209">
+          <head xml:id="gom-is7-Hd1e211">Versus 8</head>
+          <p xml:id="gom-is7-d1e213">
+            <pb ed="#P" n="1245C"/>
+            <quote xml:id="gom-is7-Qd1e217" type="lemma" source="http://scta.info/resource/is7_8@10-11">Adhuc sexaginta,</quote>
+            etc. Quasi diceret: Interim contenti erunt finibus suis, et Damasco tanquam metropoli Syriae imperabit Rasim, et caput civitatum Ephraim Samaria erit, et in ea interim regnabit filius Romeliae.
+          </p>
+          <p xml:id="gom-is7-d1e221">
+            <quote xml:id="gom-is7-Qd1e223" type="lemma" source="http://scta.info/resource/is7_8@11-14">Sexaginta quinque anni.</quote>
+            A vicesimo sexto anno regni Oziae, quando lepra percussus est, ex tunc Joathan filius ejus regnavit septem et viginti annis, patre adhuc vivente. Post mortem ejus annis sexdecim, post quem Achaz aliis sexdecim, postea regnante Ezechia sex annis. Ephraim, id est, decem tribus in captivitatem ductae, cessarunt esse populus.
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e228">
+          <head xml:id="gom-is7-Hd1e230">Versus 11</head>
+          <p xml:id="gom-is7-d1e232">
+            <quote xml:id="gom-is7-Qd1e234" type="lemma" source="http://scta.info/resource/is7_11@1-3">Pete tibi signum.</quote>
+            <ref xml:id="gom-is7-Rd1e237"><name xml:id="gom-is7-Nd1e238" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e241">Ut qui prophetae non credidit, Domini auctoritate terreatur; <pb ed="#P" n="1245D"/> quasi diceret: Difficile videtur tibi quod regna potentissima brevi finiantur, et tu libereris et populus tuus, sed pete tibi signum.</quote>
+          </p>
+          <p xml:id="gom-is7-d1e247">
+            <quote xml:id="gom-is7-Qd1e249" type="lemma" source="http://scta.info/resource/is7_11@1-3">Pete tibi signum.</quote>
+            <quote xml:id="gom-is7-Qd1e252"><seg type="qs">Moyses accepit signum de terra</seg>, etc., usque ad <seg type="qs">utrumque mortem Domini et ascensionem respicit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e261">
+          <head xml:id="gom-is7-Hd1e263">Versus 12</head>
+          <p xml:id="gom-is7-d1e265">
+            <quote xml:id="gom-is7-Qd1e267" type="lemma" source="http://scta.info/resource/is7_12@4-5">Non petam.</quote>
+            Non humiliter, sed superbe. Multi enim leguntur a Domino signa petivisse et accepisse, sed Achaz ita respondit, tanquam auctoritatatem habens: <quote xml:id="gom-is7-Qd1e270" source="http://scta.info/resource/deut6_16@1-5">Non tentabis Dominum Deum tuum.</quote> Vel, timuit quod in signo Deus glorificaretur et idola vilificarentur.
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e275">
+          <head xml:id="gom-is7-Hd1e277">Versus 14</head>
+          <p xml:id="gom-is7-d1e279">
+            <quote xml:id="gom-is7-Qd1e281" type="lemma" source="http://scta.info/resource/is7_14@8-10">Ecce virgo concipiet.</quote>
+            <ref xml:id="gom-is7-Rd1e284"><name xml:id="gom-is7-Nd1e285" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e288"><seg type="qs">Hebraice <mentioned>alma</mentioned>, Latine quoque alma dicitur sancta</seg>, etc., usque ad <seg type="qs">quod violenter esse exortum etiam stultis patet.</seg></quote>
+          </p>
+          <p xml:id="gom-is7-d1e298">
+            <quote xml:id="gom-is7-Qd1e300" type="lemma" source="http://scta.info/resource/is7_14@18-18">Emmanuel.</quote>
+            <ref xml:id="gom-is7-Rd1e303"><name xml:id="gom-is7-Nd1e304" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e307"><seg type="qs">Quidam Isaiam duos filios habuisse dicunt</seg>, etc., usque ad <seg type="qs">propter quam Verbum caro factum est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e316">
+          <head xml:id="gom-is7-Hd1e318">Versus 15</head>
+          <p xml:id="gom-is7-d1e320">
+            <quote xml:id="gom-is7-Qd1e322" type="lemma" source="http://scta.info/resource/is7_15@7-8">Reprobare malum.</quote>
+            <ref xml:id="gom-is7-Rd1e325"><name xml:id="gom-is7-Nd1e326" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e329">Quasi diceret: In pannis infantiae positus habebit boni malique discretionem. His verbis percipimus Salvatoris, infantiam divinam in eo non minuisse sapientiam, quamvis dicatur: <quote xml:id="gom-is7-Qd1e331" source="http://scta.info/resource/Isam2_26@1-7">Puer autem proficiebat aetate et sapientia,</quote> ut veritas humani corporis probaretur: infantia enim non praejudicat divinae sapientiae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e337">
+          <head xml:id="gom-is7-Hd1e339">Versus 16</head>
+          <p xml:id="gom-is7-d1e341">
+            <quote xml:id="gom-is7-Qd1e343" type="lemma" source="http://scta.info/resource/is7_16@10-10">Derelinquetur,</quote>
+            etc.
+            <ref xml:id="gom-is7-Rd1e346"><name xml:id="gom-is7-Nd1e347" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e350">quasi diceret: Terra Syriae et Samariae ab invocatione nominis ejus vastabitur, et domus Juda a duobus regibus liberabitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e355">
+          <head xml:id="gom-is7-Hd1e357">Versus 18</head>
+          <p xml:id="gom-is7-d1e359">
+            <pb ed="#P" n="1246B"/>
+            <quote xml:id="gom-is7-Qd1e363" type="lemma" source="http://scta.info/resource/is7_18@8-8">Muscae.</quote>
+            <ref xml:id="gom-is7-Rd1e366"><name xml:id="gom-is7-Nd1e367" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e370">Id est Aegyptiis, populo imbelli et idololatria sordenti. Legimus ab Aegyptiis Josiam occisum et populum Israel subjugatum, nec multo post tempore Nabuchodonosor cum innumerabili exercitu cepit Jerusalem, templum succendit, et habitatores Assyrios in Judaea posuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e374">
+          <head xml:id="gom-is7-Hd1e376">Versus 20</head>
+          <p xml:id="gom-is7-d1e378">
+            <quote xml:id="gom-is7-Qd1e380" type="lemma" source="http://scta.info/resource/is7_20@7-7">Novacula.</quote>
+            <ref xml:id="gom-is7-Rd1e383"><name xml:id="gom-is7-Nd1e384" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e387">Rex Assyriorum (qui in Jeremia columba Dei vocatur) in eo tanquam in novacula acutissima et in his qui trans flumen, scilicet Assyriis, sunt, radet Dominus in Judaea caput et pilos pedum, scilicet omnem fortitudinem regum et principum, et subjectorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e391">
+          <head xml:id="gom-is7-Hd1e393">Versus 22</head>
+          <p xml:id="gom-is7-d1e395">
+            <quote xml:id="gom-is7-Qd1e397" type="lemma" source="http://scta.info/resource/is7_22@5-6">Comedet butyrum.</quote>
+            Delectabitur in <pb ed="#P" n="1246C"/> passione Christi vel sua. Butyrum enim ex multis confectionibus efficitur.
+          </p>
+        </div>
+        <div xml:id="gom-is7-Dd1e404">
+          <head xml:id="gom-is7-Hd1e406">Versus 25</head>
+          <p xml:id="gom-is7-d1e408">
+            <quote xml:id="gom-is7-Qd1e410" type="lemma" source="http://scta.info/resource/is7_25@1-7">Et omnes montes qui in sarculo sarrientur.</quote>
+            <ref xml:id="gom-is7-Rd1e413"><name xml:id="gom-is7-Nd1e414" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is7-Qd1e417">Relictis campestribus metu hostium ad montana confugient, aspera montium manu propria excolentes, vitam miseram sustentabunt. Caetera erunt in pascua.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

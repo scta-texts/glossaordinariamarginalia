@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1176C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap13">
+        <head xml:id="gom-sap13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-sap13-Dd1e100">
+          <head xml:id="gom-sap13-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sap13-d1e104">
+            <quote xml:id="gom-sap13-Qd1e106" type="lemma" source="http://scta.info/resource/sap13_1@9-9">Scientia.</quote>
+            Timor scilicet et reverentia. Unde: Ecce timor Domini, ipse est sapientia, et recedere a malo intelligentia. Recedit enim a malo, qui recedit a cultura idolorum: Deum timet, qui mandata ejus custodit: quia <quote xml:id="gom-sap13-Qd1e109" source="http://scta.info/resource/ps110_10@1-10">Initium sapientiae timor Domini. Intellectus bonus omnibus facientibus eum</quote>.
+          </p>
+          <p xml:id="gom-sap13-d1e113">
+            <quote xml:id="gom-sap13-Qd1e115" type="lemma" source="http://scta.info/resource/sap13_1@12-13">De his</quote>
+            operibus, scilicet hominis, potuerunt cognoscere bonum artificem, qui proprie est, quia immutabilis, et semper idem, semper in se manens, regit omnia. Vanissima ergo vanitas hominum, qui pro Creatore creaturas venerantur.
+          </p>
+          <p xml:id="gom-sap13-d1e119">
+            <quote xml:id="gom-sap13-Qd1e121" type="lemma" source="http://scta.info/resource/sap13_1@23-24">Neque <pb ed="#P" n="1176D"/> operibus.</quote>
+            Alii ignem colebant, quem Vulcanum vocabant; alii aetherem vel aerem, quem Jovem et Junonem dicebant; alii nimiam aquam, id est Neptunum; alii gyrum stellarum, qui diversis figuris animalium, positiones et cursum distribuebant astrorum; alii solem, quem Phoebum vocabant; alii lunam, id est, Dianam.
+          </p>
+          <p xml:id="gom-sap13-d1e127">
+            <ref xml:id="gom-sap13-Rd1e129" type="lemma" subtype="implied" target="http://scta.info/resource/sap13_1@23-24"/>
+            <ref xml:id="gom-sap13-Rd1e131"><name xml:id="gom-sap13-Nd1e132" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap13-Qd1e135"><seg type="qs">Dupliciter peccant</seg>, etc., usque ad <seg type="qs">in quibus cupiditas hominis damnatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap13-Dd1e144">
+          <head xml:id="gom-sap13-Hd1e146">Versus 6</head>
+          <p xml:id="gom-sap13-d1e148">
+            <quote xml:id="gom-sap13-Qd1e150" type="lemma" source="http://scta.info/resource/sap13_6@1-2">Sed tamen,</quote>
+            etc. Hinc Paulus ait: <quote xml:id="gom-sap13-Qd1e153" source="http://scta.info/resource/rom1_18@1-18">Revelatur enim ira Dei de coelo super omnem impietatem eorum, qui veritatem Dei in injustitia detinent; quia quod nolum est Dei, manifestum est in illis</quote>, etc. Notitia Dei ex mundi fabrica percipitur. Ut enim Deus invisibilis ex invisibilibus cognosceretur, <pb ed="#P" n="1177A"/> opus ab eo factum est, quod opificem manifestaret, ut Deus omnium intelligeretur, qui hoc fecit, quod non possunt alii. Sed <quote xml:id="gom-sap13-Qd1e158" source="http://scta.info/resource/rom1_21@2-16">cum cognovissent, non sicut Deum glorificaverunt, sed evanuerunt in cogitationibus suis</quote> <ref xml:id="gom-sap13-Rd1e161"><name xml:id="gom-sap13-Nd1e162" ref="#RabanusMaurus">RAB.</name></ref><!-- check: attribution inside gloss body -->
+          </p>
+        </div>
+        <div xml:id="gom-sap13-Dd1e168">
+          <head xml:id="gom-sap13-Hd1e170">Versus 10</head>
+          <p xml:id="gom-sap13-d1e172">
+            <quote xml:id="gom-sap13-Qd1e174" type="lemma" source="http://scta.info/resource/sap13_10@1-1">Infelices,</quote>
+            etc. Qui scilicet Deos honorant, ut aurum oculis hauriant, et nitorem levigati marmoris vel eboris, aut insignes gemmis et coloribus vestes: et quanto ornatiora sunt templa, et pulchriora simulacra, tanto plus majestatis habent, vel habere dicuntur. Religio ergo est, vel creditur, quod cupiditas humana miratur.
+          </p>
+        </div>
+        <div xml:id="gom-sap13-Dd1e179">
+          <head xml:id="gom-sap13-Hd1e181">Versus 11</head>
+          <p xml:id="gom-sap13-d1e183">
+            <quote xml:id="gom-sap13-Qd1e185" type="lemma" source="http://scta.info/resource/sap13_11@1-4">Aut si quis artifex.</quote>
+            <ref xml:id="gom-sap13-Rd1e188"><name xml:id="gom-sap13-Nd1e189" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap13-Qd1e192">Insultat sapientia his, etc., <quote xml:id="gom-sap13-Qd1e194" source="http://scta.info/resource/phil3_19@4-10">usque ad Quorum Deus venter est, et gloria in confusione eorum</quote>.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

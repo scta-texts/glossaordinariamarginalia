@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 82</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 82</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0982C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps82">
+        <head xml:id="gom-ps82-Hd1e98">Psalmus 82</head>
+        <div xml:id="gom-ps82-Dd1e100">
+          <head xml:id="gom-ps82-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps82-d1e104">
+            <quote xml:id="gom-ps82-Qd1e106" type="lemma" source="http://scta.info/resource/ps82_1@1-2">Canticum psalmi.</quote>
+            <ref xml:id="gom-ps82-Rd1e109"><name xml:id="gom-ps82-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e113">Quia in rebus actualibus, habenda est divina contemplatio. Deterret autem iniquos a persecutione populi Dei: bonos vero monet ad patientiam. Psalmus de adventu Christi ad judicium, ubi boni, qui hic patiuntur, coronabuntur: mali vero, qui eos persequuntur, torquebuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e117">
+          <head xml:id="gom-ps82-Hd1e119">Versus 2</head>
+          <p xml:id="gom-ps82-d1e121">
+            <quote xml:id="gom-ps82-Qd1e123" type="lemma" source="http://scta.info/resource/ps82_2@1-3">Deus quis similis?</quote>
+            <ref xml:id="gom-ps82-Rd1e126"><name xml:id="gom-ps82-Nd1e127" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e130">Proposito timore futuri judicis, describit malitiam inimicorum.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e133">
+            <ref xml:id="gom-ps82-Rd1e135"><name xml:id="gom-ps82-Nd1e136" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e139" type="lemma" source="http://scta.info/resource/ps82_2@1-3">Deus quis similis?</quote>
+            <quote xml:id="gom-ps82-Qd1e142">Etsi homo, ut alii; etsi <pb ed="#P" n="0982D"/> judicatus, cum iniquis deputaris: quis similis, cum in claritate judicabis? ideo tunc ne taceas, qui primo tacuisti, et potestatem compescuisti, ut posses teneri et perimi.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e148">
+            <quote xml:id="gom-ps82-Qd1e150" type="lemma" source="http://scta.info/resource/ps82_2@1-3">Deus quis similis?</quote>
+            Non ad divinitatem hoc refertur, cui nullum hominem comparandum cogitavit. Ideo non ait: <quote xml:id="gom-ps82-Qd1e153" source="http://scta.info/resource/ps82_2@2-5">Quis similis est tibi?</quote> quod utique ad divinitatem referretur; sed dicit, <quote xml:id="gom-ps82-Qd1e156" source="http://scta.info/resource/ps82_2@2-5">Quis similis erit tibi?</quote> hoc ad formam servi referens, qua tunc caeteris dissimilis hominibus erit, quando judex in gloria apparebit; vel potest hoc referri ad divinitatem secundum quod dicit: <quote xml:id="gom-ps82-Qd1e159" source="http://scta.info/resource/ps82_2@1-5">O Deus, quis similis tibi?</quote> in potentia Deitatis: Christum enim, quem mali viderunt extra, iste videt intra, scilicet omnipotentem.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e164">
+          <head xml:id="gom-ps82-Hd1e166">Versus 3</head>
+          <p xml:id="gom-ps82-d1e168">
+            <pb ed="#P" n="0983A"/>
+            <quote xml:id="gom-ps82-Qd1e172" type="lemma" source="http://scta.info/resource/ps82_3@1-2">Quoniam ecce,</quote>
+            etc.
+            <ref xml:id="gom-ps82-Rd1e175"><name xml:id="gom-ps82-Nd1e176" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e179">Novissima tempora Antichristi designat, quando quae modo premuntur metu, in liberam vocem erumpent: quae vox quia irrationabilis erat, magis sonitus, quam locutio dicitur.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e182">
+            <quote xml:id="gom-ps82-Qd1e184" type="lemma" source="http://scta.info/resource/ps82_3@7-8">Qui oderunt.</quote>
+            <ref xml:id="gom-ps82-Rd1e187"><name xml:id="gom-ps82-Nd1e188" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e191">Plures, sed unum caput Antichristus: quod elatum est, ut Deus dicatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e195">
+          <head xml:id="gom-ps82-Hd1e197">Versus 4</head>
+          <p xml:id="gom-ps82-d1e199">
+            <quote xml:id="gom-ps82-Qd1e201" type="lemma" source="http://scta.info/resource/ps82_4@1-3">Super populum tuum.</quote>
+            Caput suum extulerunt, sed non populum tuum depresserunt.
+          </p>
+          <p xml:id="gom-ps82-d1e205">
+            <ref xml:id="gom-ps82-Rd1e207"><name xml:id="gom-ps82-Nd1e208" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e211" type="lemma" source="http://scta.info/resource/ps82_4@1-3">Super populum tuum.</quote>
+            <quote xml:id="gom-ps82-Qd1e214">Irridenter hoc dicit: Non enim possunt nocere populo Dei pro quo est Deus, unde Apostolus: <quote xml:id="gom-ps82-Qd1e216" source="http://scta.info/resource/rom8_31@6-12">Si Deus pro nobis, quis contra nos?</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e222">
+          <head xml:id="gom-ps82-Hd1e224">Versus 5</head>
+          <p xml:id="gom-ps82-d1e226">
+            <quote xml:id="gom-ps82-Qd1e228" type="lemma" source="http://scta.info/resource/ps82_5@1-3">Dixerunt venite.</quote>
+            <ref xml:id="gom-ps82-Rd1e231"><name xml:id="gom-ps82-Nd1e232" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e235">Ecce consilium, quo <quote xml:id="gom-ps82-Qd1e237" source="http://scta.info/resource/ps2_1@6-8">meditati sunt inania.</quote> Iste est ille sonus, <pb ed="#P" n="0983B"/> qui non est sermo, sed inaniter strepit.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e244">
+            <quote xml:id="gom-ps82-Qd1e246" type="lemma" source="http://scta.info/resource/ps82_5@7-8">De gente.</quote>
+            <ref xml:id="gom-ps82-Rd1e249"><name xml:id="gom-ps82-Nd1e250" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e253">Singulariter, quia omnes Christiani una gens, cum ex uno fonte baptismatis nati; vel omnes boni, quos ille Antichristus vocat unam gentem: ecce persecutio Antichristi, qui nomen Christianum quasi malum intendit tollere funditus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e257">
+          <head xml:id="gom-ps82-Hd1e259">Versus 6</head>
+          <p xml:id="gom-ps82-d1e261">
+            <quote xml:id="gom-ps82-Qd1e263" type="lemma" source="http://scta.info/resource/ps82_6@8-9">Testamentum disposuerunt.</quote>
+            <ref xml:id="gom-ps82-Rd1e266"><name xml:id="gom-ps82-Nd1e267" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e270">Testamentum, quippe in Scripturis non illud solum dicitur, quod non valet, nisi testatore mortuo, sed etiam omne pactum, et placitum quod inter vivos valet, testamentum vocatur, sicut Laban et Jacob testamentum fecerunt. Ita et mali inter se quasi pactum fecerunt, quod unanimiter bonos persequerentur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e274">
+          <head xml:id="gom-ps82-Hd1e276">Versus 7</head>
+          <p xml:id="gom-ps82-d1e278">
+            <quote xml:id="gom-ps82-Qd1e280" type="lemma" source="http://scta.info/resource/ps82_7@1-2">Tabernacula Idumaeorum.</quote>
+            Exposuit <pb ed="#P" n="0983C"/> quo studio malignaverunt: ostendit deinde jam qui sint malignantes, dicens: <quote xml:id="gom-ps82-Qd1e285" source="http://scta.info/resource/ps82_7@1-2">Tabernacula Idumaeorum,</quote> etc.
+          </p>
+          <p xml:id="gom-ps82-d1e289">
+            <quote xml:id="gom-ps82-Qd1e291" type="lemma" source="http://scta.info/resource/ps82_7@2-4">Idumaeorum, et Ismaelitae.</quote>
+            <ref xml:id="gom-ps82-Rd1e294"><name xml:id="gom-ps82-Nd1e295" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e298">Per haec nomina, Christi inimicos declarat, qui temporibus Antichristi tot malis similantur: quia sicut isti contra Israel, ita illi contra Christianos tunc bellabunt.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e301">
+            <quote xml:id="gom-ps82-Qd1e303" type="lemma" source="http://scta.info/resource/ps82_7">Moabitae</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps82-Rd1e308"><name xml:id="gom-ps82-Nd1e309" ref="#Augustine">AUG.</name>, HIER.</ref>
+            <quote xml:id="gom-ps82-Qd1e313">Unde Moabitae, quem Lot ebrius de majore filia sua genuit.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e316">
+            <quote xml:id="gom-ps82-Qd1e318" type="lemma" source="http://scta.info/resource/ps82_7@7-7">Agareni.</quote>
+            Ab Agar, qui et <mentioned>proselyti</mentioned> interpretantur.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e325">
+          <head xml:id="gom-ps82-Hd1e327">Versus 8</head>
+          <p xml:id="gom-ps82-d1e329">
+            <quote xml:id="gom-ps82-Qd1e331" type="lemma" source="http://scta.info/resource/ps82_8@1-1">Gebal.</quote>
+            <ref xml:id="gom-ps82-Rd1e334"><name xml:id="gom-ps82-Nd1e335" ref="#Augustine">AUG.</name>, HIER.</ref>
+            <quote xml:id="gom-ps82-Qd1e339">Vallis vana.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e342">
+            <quote xml:id="gom-ps82-Qd1e344" type="lemma" source="http://scta.info/resource/ps82_8">Ge</quote>
+            <!-- check: lemma not matched to verse text -->
+            enim vallis, <quote xml:id="gom-ps82-Qd1e349">Bal,</quote> vana.
+          </p>
+          <p xml:id="gom-ps82-d1e352">
+            <quote xml:id="gom-ps82-Qd1e354" type="lemma" source="http://scta.info/resource/ps82_8@3-3">Ammon.</quote>
+            Unde Ammonitae, genuit Lot ebrius de filia sua minore.
+          </p>
+          <p xml:id="gom-ps82-d1e358">
+            <quote xml:id="gom-ps82-Qd1e360" type="lemma" source="http://scta.info/resource/ps82_8@5-5">Amalec.</quote>
+            Filius Eliphaz primogeniti Esau, a quo Amalecitae.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e365">
+          <head xml:id="gom-ps82-Hd1e367">Versus 9</head>
+          <p xml:id="gom-ps82-d1e369">
+            <quote xml:id="gom-ps82-Qd1e371" type="lemma" source="http://scta.info/resource/ps82_9@2-2">Assur.</quote>
+            <ref xml:id="gom-ps82-Rd1e374"><name xml:id="gom-ps82-Nd1e375" ref="#Augustine">AUG.</name>, HIER.</ref>
+            <quote xml:id="gom-ps82-Qd1e379">Ad litteram Nabuchodonosor, <pb ed="#P" n="0983D"/> qui fuit rex Assyriorum.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e385">
+            <quote xml:id="gom-ps82-Qd1e387" type="lemma" source="http://scta.info/resource/ps82_9">Idumaei.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Terreni vel sanguinei.
+          </p>
+          <p xml:id="gom-ps82-d1e393">
+            <quote xml:id="gom-ps82-Qd1e395" type="lemma" source="http://scta.info/resource/ps82_9">Ismaelitae.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Obedientes sibi, non Deo, quia pravas cogitationes suas sequuntur.
+          </p>
+          <p xml:id="gom-ps82-d1e401">
+            <quote xml:id="gom-ps82-Qd1e403" type="lemma" source="http://scta.info/resource/ps82_9">Moab,</quote>
+            <!-- check: lemma not matched to verse text -->
+            ex patre, quod in malo. Bonus, quidem pater, quo filia illicite usa est, sicut et lex bona est, si quis ea legitime utatur, non inceste.
+          </p>
+          <p xml:id="gom-ps82-d1e410">
+            <quote xml:id="gom-ps82-Qd1e412" type="lemma" source="http://scta.info/resource/ps82_9">Agareni.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Proselyti, id est, advenae, qui non cives, sed alieno animo subintrant, et inventa occasione nocendi se ostendunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e419">
+          <head xml:id="gom-ps82-Hd1e421">Versus 8</head>
+          <p xml:id="gom-ps82-d1e423">
+            <quote xml:id="gom-ps82-Qd1e425" type="lemma" source="http://scta.info/resource/ps82_8@1-1">Gebal.</quote>
+            Vallis vana, id est fallaciter humilis.
+          </p>
+          <p xml:id="gom-ps82-d1e429">
+            <quote xml:id="gom-ps82-Qd1e431" type="lemma" source="http://scta.info/resource/ps82_8@3-3">Ammon.</quote>
+            Populus turbidus, vel moeroris.
+          </p>
+          <p xml:id="gom-ps82-d1e435">
+            <quote xml:id="gom-ps82-Qd1e437" type="lemma" source="http://scta.info/resource/ps82_8@5-5">Amalec.</quote>
+            Populus lingens terram.
+          </p>
+          <p xml:id="gom-ps82-d1e441">
+            <quote xml:id="gom-ps82-Qd1e443" type="lemma" source="http://scta.info/resource/ps82_8@7-7">Alienigenae.</quote>
+            Licet latino nomine se indicent alienos, et ob hoc inimicos, tamen hebraice dicuntur <mentioned>Philisthiim</mentioned>, id est, cadentes potione, ut ebrii luxuria saeculari.
+          </p>
+          <p xml:id="gom-ps82-d1e450">
+            <quote xml:id="gom-ps82-Qd1e452" type="lemma" source="http://scta.info/resource/ps82_8@10-10">Tyrus.</quote>
+            Hebraice <mentioned>sor</mentioned>, tribulatio vel angustia, secundum <pb ed="#P" n="0984A"/> illud. <quote xml:id="gom-ps82-Qd1e459" source="http://scta.info/resource/rom2_9@1-9">Tribulatio vel angustia in omnem animam hominis operantis malum. Assur.</quote> Deprimens, vel elatus.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e465">
+          <head xml:id="gom-ps82-Hd1e467">Versus 9</head>
+          <p xml:id="gom-ps82-d1e469">
+            <quote xml:id="gom-ps82-Qd1e471" type="lemma" source="http://scta.info/resource/ps82_9@12-12">Lot.</quote>
+            Declinans, angeli apostatae, filii declinationis, quia a veritate declinando in satellitium diaboli discesserunt, unde in Apocalypsi: Draco cecidit, et traxit secum tertiam partem stellarum, de quibus Apostolus: <quote xml:id="gom-ps82-Qd1e474" source="http://scta.info/resource/eph6_12@2-14">Non est nobis colluctatio adversus carnem et sanguinem, sed adversus principatus et potestates</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e479">
+          <head xml:id="gom-ps82-Hd1e481">Versus 10</head>
+          <p xml:id="gom-ps82-d1e483">
+            <quote xml:id="gom-ps82-Qd1e485" type="lemma" source="http://scta.info/resource/ps82_10@4-4">Madian.</quote>
+            Declinans judicium.
+          </p>
+          <p xml:id="gom-ps82-d1e489">
+            <quote xml:id="gom-ps82-Qd1e491" type="lemma" source="http://scta.info/resource/ps82_10@6-6">Sisara,</quote>
+            exclusio gaudii.
+          </p>
+          <p xml:id="gom-ps82-d1e495">
+            <quote xml:id="gom-ps82-Qd1e497" type="lemma" source="http://scta.info/resource/ps82_10@8-8">Jabin,</quote>
+            sapiens, de quo: <quote xml:id="gom-ps82-Qd1e500" source="http://scta.info/resource/Icor1_20@1-4">Ubi sapiens? ubi scriba? Cison,</quote> ubi victi fuerunt, duritia interpretatur.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e505">
+          <head xml:id="gom-ps82-Hd1e507">Versus 11</head>
+          <p xml:id="gom-ps82-d1e509">
+            <quote xml:id="gom-ps82-Qd1e511" type="lemma" source="http://scta.info/resource/ps82_11@3-3">Endor,</quote>
+            ubi perierunt, fons generationis. Et intelligitur generatio carnalis, non aqua baptismi regenerati.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e516">
+          <head xml:id="gom-ps82-Hd1e518">Versus 12</head>
+          <p xml:id="gom-ps82-d1e520">
+            <quote xml:id="gom-ps82-Qd1e522" type="lemma" source="http://scta.info/resource/ps82_12@5-5">Oreb,</quote>
+            siccitas, <quote xml:id="gom-ps82-Qd1e525" source="http://scta.info/resource/ps82_12@7-7">Zeb,</quote> lupus, <quote xml:id="gom-ps82-Qd1e528" source="http://scta.info/resource/ps82_12@9-9">Zebee,</quote> victima <pb ed="#P" n="0984B"/> lupi, non Dei.
+          </p>
+          <p xml:id="gom-ps82-d1e534">
+            <quote xml:id="gom-ps82-Qd1e536" type="lemma" source="http://scta.info/resource/ps82_12@11-11">Salmana,</quote>
+            umbra commotionis. Haec omnia congruunt malis, quos in bono vicit populus Dei. <quote xml:id="gom-ps82-Qd1e539" source="http://scta.info/resource/ps82_10@1-10">Fac illis sicut Madian, et Sisarae, sicut Jabin in torrente.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e543">
+            <ref xml:id="gom-ps82-Rd1e545" type="lemma" subtype="implied" target="http://scta.info/resource/ps82_12@11-11"/>
+            <ref xml:id="gom-ps82-Rd1e547"><name xml:id="gom-ps82-Nd1e548" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e551">De vindicta iniquorum; sicut omnes illi victi sunt in figura a populo Dei, sic istos precatur in veritate superari.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e554">
+            <quote xml:id="gom-ps82-Qd1e556" type="lemma" source="http://scta.info/resource/ps82_12">Sicut Madian.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps82-Rd1e561"><name xml:id="gom-ps82-Nd1e562" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e565">Utpote illi, qui declinant judicium, se judicandos non putantes: et qui excludunt futurum judicium, et hi omnes in Cison, et in fonte Endor perierunt.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e569">
+            <quote xml:id="gom-ps82-Qd1e571" type="lemma" source="http://scta.info/resource/ps82_12@1-4">Pone principes eorum sicut,</quote>
+            etc. Haec omnibus communiter. Sed specialiter, <quote xml:id="gom-ps82-Qd1e574" source="http://scta.info/resource/ps82_12@1-3">pone principes eorum:</quote> hoc optat militibus Antichristi, qui non sunt convertendi.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e579">
+          <head xml:id="gom-ps82-Hd1e581">Versus 13</head>
+          <p xml:id="gom-ps82-d1e583">
+            <quote xml:id="gom-ps82-Qd1e585" type="lemma" source="http://scta.info/resource/ps82_13@4-7">Haereditate possideamus sanctuarium Dei.</quote>
+            <ref xml:id="gom-ps82-Rd1e588"><name xml:id="gom-ps82-Nd1e589" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e592">Dei, invadunt ut suam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e596">
+          <head xml:id="gom-ps82-Hd1e598">Versus 14</head>
+          <p xml:id="gom-ps82-d1e600">
+            <pb ed="#P" n="0984C"/>
+            <quote xml:id="gom-ps82-Qd1e604" type="lemma" source="http://scta.info/resource/ps82_14@5-12">Ut rotam, et sicut stipulam ante faciem venti.</quote>
+            <ref xml:id="gom-ps82-Rd1e607"><name xml:id="gom-ps82-Nd1e608" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e611">Per hanc similitudinem, multas praedicit eorum calamitates.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e614">
+            <quote xml:id="gom-ps82-Qd1e616" type="lemma" source="http://scta.info/resource/ps82_14@12-12">Venti.</quote>
+            Levitas peccantium vento comparatur, quia huc et illuc volitat.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e622">
+          <head xml:id="gom-ps82-Hd1e624">Versus 15</head>
+          <p xml:id="gom-ps82-d1e626">
+            <quote xml:id="gom-ps82-Qd1e628" type="lemma" source="http://scta.info/resource/ps82_15@2-10">Ignis et flamma comburens montes.</quote>
+            <ref xml:id="gom-ps82-Rd1e631"><name xml:id="gom-ps82-Nd1e632" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e635">Congrue in judicio esse dicuntur, quando et densae silvae peccatorum, et montes superbiae cremabuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e639">
+          <head xml:id="gom-ps82-Hd1e641">Versus 17</head>
+          <p xml:id="gom-ps82-d1e643">
+            <quote xml:id="gom-ps82-Qd1e645" type="lemma" source="http://scta.info/resource/ps82_17@1-2">Imple facies.</quote>
+            <ref xml:id="gom-ps82-Rd1e648"><name xml:id="gom-ps82-Nd1e649" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e652">Poenis contumacium prophetatis, orat pro credituris, qui non habent scelerum laudatores, sed culpatores, quos saepe opprobrium corrigit.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e655">
+            <ref xml:id="gom-ps82-Rd1e657" type="lemma" subtype="implied" target="http://scta.info/resource/ps82_17@1-2"/>
+            <ref xml:id="gom-ps82-Rd1e659"><name xml:id="gom-ps82-Nd1e660" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e663">Melius est ruere ut poeniteat, quam sub spe religionis superbire: unde Propheta ait: <quote xml:id="gom-ps82-Qd1e665" source="http://scta.info/resource/mic4_8@1-11">Et tu, filia Sion, usque ad Babylonem venies, <pb ed="#P" n="0984D"/> ibique liberaberis</quote>.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e672">
+            <quote xml:id="gom-ps82-Qd1e674" type="lemma" source="http://scta.info/resource/ps82_17@1-2">Imple facies.</quote>
+            Hoc bonum et optabile eis non prophetaretur, nisi inter eos inimicos essent tales, quibus hoc ante judicium praestabitur: quia et nunc idem corpus sanat, et lavat caput, sed particulatim, non universaliter ut in fine: et tamen inde aliqui convertentur, pro quibus hic orat.
+          </p>
+        </div>
+        <div xml:id="gom-ps82-Dd1e679">
+          <head xml:id="gom-ps82-Hd1e681">Versus 18</head>
+          <p xml:id="gom-ps82-d1e683">
+            <quote xml:id="gom-ps82-Qd1e685" type="lemma" source="http://scta.info/resource/ps82_18@1-3">Erubescant et conturbentur,</quote>
+            etc.
+            <ref xml:id="gom-ps82-Rd1e688"><name xml:id="gom-ps82-Nd1e689" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e692">Hic de malis, qui non convertentur, <quote xml:id="gom-ps82-Qd1e694" source="http://scta.info/resource/ps82_18@1-1">Erubescant,</quote> in futuro de malis quae fecerunt.</quote>
+          </p>
+          <p xml:id="gom-ps82-d1e699">
+            <quote xml:id="gom-ps82-Qd1e701" type="lemma" source="http://scta.info/resource/ps82_18@2-3">Et conturbentur,</quote>
+            de poenis quas patientur. Et hoc <quote xml:id="gom-ps82-Qd1e704" source="http://scta.info/resource/ps82_18@4-6">in saeculum saeculi,</quote> id est in aeternum.
+          </p>
+          <p xml:id="gom-ps82-d1e708">
+            <quote xml:id="gom-ps82-Qd1e710" type="lemma" source="http://scta.info/resource/ps82_18@2-3">Et conturbentur.</quote>
+            Rursus redit ad eos qui in praesenti confundentur ne confundantur in aeternum; quasi dicat: Illi conturbentur in aeternum: quaerentes <pb ed="#P" n="0985A"/> autem nomen Domini modo, et confundantur de peccatis salubriter, et pereant, inquantum mali sunt. Et sic cognoscant, vel, tunc confundantur mali, anima et corpore, et pereant omnino irreparabiliter. Et nunc cognoscant, quod modo nolunt.
+          </p>
+          <p xml:id="gom-ps82-d1e716">
+            <ref xml:id="gom-ps82-Rd1e718" type="lemma" subtype="implied" target="http://scta.info/resource/ps82_18@2-3"/>
+            <ref xml:id="gom-ps82-Rd1e720"><name xml:id="gom-ps82-Nd1e721" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps82-Qd1e724">Notandum, quia undecim superioribus psalmis introductus est Asaph, ut duritia Judaeorum, frequenti voce ipsius Synagogae mollesceret, vel ipsi nomini, cui devoti esse videbantur, crederent. Egit autem in praedictis psalmis de Domini incarnatione, et gentium fide, et de judicio, de quibus transgressio Judaeorum redarguitur. Unde congrue undecim sunt: undenarius enim numerus transgressionis est, quia et denarium transit, et ad duodenarium non pervenit, unde undecim etiam erant vela capillacea in tabernaculo <pb ed="#P" n="0985B"/> Domini, et in undenario fuerunt Apostoli, rejecto infelicissimo Juda tempore passionis, quando a fide defecerunt, unde: <quote xml:id="gom-ps82-Qd1e728" source="http://scta.info/resource/ps103_20@1-6">Posuisti tenebras et facta est nox</quote>.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 11</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 11</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0513C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios11">
+        <head xml:id="gom-ios11-Hd1e98">Caput 11</head>
+        <div xml:id="gom-ios11-Dd1e100">
+          <head xml:id="gom-ios11-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ios11-d1e104">
+            <quote xml:id="gom-ios11-Qd1e106" type="lemma" source="http://scta.info/resource/ios11_1@1-4">Quae cum audisset Jabin,</quote>
+            etc.
+            <ref xml:id="gom-ios11-Rd1e109"><name xml:id="gom-ios11-Nd1e110" ref="#Origen">ADAMANT.</name>, hom. 24 in Jos.</ref>
+            <quote xml:id="gom-ios11-Qd1e114"><seg type="qs">Has scripturas ante adventum Christi cum legeret Israel secundum carnem</seg> etc., usque ad <seg type="qs">ut expugnent nos, qui sequimur Jesum Salvatorem nostrum, sed Dominus ait: <quote xml:id="gom-ios11-Qd1e120" source="http://scta.info/resource/ier1_8@1-5">Ne verearis a facie eorum,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios11-Dd1e126">
+          <head xml:id="gom-ios11-Hd1e128">Versus 11</head>
+          <p xml:id="gom-ios11-d1e130">
+            <quote xml:id="gom-ios11-Qd1e132" type="lemma" source="http://scta.info/resource/ios11_11">Cras enim eadem hora.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ios11-Rd1e137"><name xml:id="gom-ios11-Nd1e138" ref="#Origen">ADAMAN.</name>, hom. 14 in Jos.</ref>
+            <quote xml:id="gom-ios11-Qd1e142">Video quod hodie omnes illos non possumus opprimere, nec cunctos interficere: in crastino perimentur, id est post consummationem <pb ed="#P" n="0513D"/> mundi, cum dicetur eis: <quote xml:id="gom-ios11-Qd1e146" source="http://scta.info/resource/mt25_41@13-22">Ite in ignem aeternum quem praeparavit Deus diabolo et angelis ejus</quote>. Tunc enim si vicerimus sequentes Jesum ducem, percipiemus regnum quod praeparavit Deus sanctis suis per Jesum Christum.</quote>
+          </p>
+          <p xml:id="gom-ios11-d1e151">
+            <ref xml:id="gom-ios11-Rd1e153" type="lemma" subtype="implied" target="http://scta.info/resource/ios11_11"/>
+            <ref xml:id="gom-ios11-Rd1e155"><name xml:id="gom-ios11-Nd1e156" ref="#Origen">ID.</name>, hom. 15.</ref>
+            <quote xml:id="gom-ios11-Qd1e160"><seg type="qs">Nisi haec bella figuram spiritualium gererent</seg>, etc., usque ad <seg type="qs">fecit ergo Jesus sicut praeceperat ei Dominus.</seg></quote>
+          </p>
+          <p xml:id="gom-ios11-d1e168">
+            <ref xml:id="gom-ios11-Rd1e170" type="lemma" subtype="implied" target="http://scta.info/resource/ios11_11"/>
+            <ref xml:id="gom-ios11-Rd1e172"><name xml:id="gom-ios11-Nd1e173" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-ios11-Qd1e176"><seg type="qs">Hoc ergo secundum mandatum Dei Jesus implevit</seg>, etc., usque ad <seg type="qs">quae est Christus, et ipso jubente jugulandae, ut nihil in nobis resideat quod respiret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios11-Dd1e185">
+          <head xml:id="gom-ios11-Hd1e187">Versus 12</head>
+          <p xml:id="gom-ios11-d1e189">
+            <quote xml:id="gom-ios11-Qd1e191" type="lemma" source="http://scta.info/resource/ios11_12@1-2">Et omnes,</quote>
+            etc.
+            <ref xml:id="gom-ios11-Rd1e194"><name xml:id="gom-ios11-Nd1e195" ref="#Origen">ADAM.</name></ref>
+            <quote xml:id="gom-ios11-Qd1e198"><seg type="qs">In omnibus nobis regnavit peccatum et fuit in omnibus, etc., <pb ed="#P" n="0514A"/></seg> usque ad <seg type="qs">nec imples praeceptum quod dedit Dominus Jesus.</seg></quote>
+          </p>
+          <p xml:id="gom-ios11-d1e207">
+            <quote xml:id="gom-ios11-Qd1e209" type="lemma" source="http://scta.info/resource/ios11_12@12-15">Sicut praeceperat ei Moses,</quote>
+            etc. Hic est sermo legis secundum illud: <quote xml:id="gom-ios11-Qd1e212" source="http://scta.info/resource/lc16_29@5-10">Habent Mosen et prophetas, audiant illos</quote>. Lex ergo praecepit nobis omnes reges peccati interficere, qui nos provocant ad peccatum. Sic fecit Jesus, nec quidquam transgressus est. Ipse est enim qui perimit vitia in nobis et regna peccati. Ipse etiam Christus omnia quae praecepit Moses in lege fecit, unde: <quote xml:id="gom-ios11-Qd1e215" source="http://scta.info/resource/gal4_4@6-12">Misit Deus Filium suum factum ex muliere</quote>, etc. Omnia enim, quae lex mandavit, implevit, ut nos redimeret a maledicto legis, qui ait: <quote xml:id="gom-ios11-Qd1e218" source="http://scta.info/resource/mt5_17@9-13">Non veni solvere legem, sed adimplere</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-ios11-Dd1e223">
+          <head xml:id="gom-ios11-Hd1e225">Versus 15</head>
+          <p xml:id="gom-ios11-d1e227">
+            <quote xml:id="gom-ios11-Qd1e229" type="lemma" source="http://scta.info/resource/ios11_15@1-9">Sicut praeceperat Dominus Mosi servo <pb ed="#P" n="0514B"/> suo, ita praecepit Moses.</quote>
+            <ref xml:id="gom-ios11-Rd1e234"><name xml:id="gom-ios11-Nd1e235" ref="#Augustine">AUG.</name>, quaest. 16 in Jos.</ref>
+            <quote xml:id="gom-ios11-Qd1e239">Non putanda est crudelitas, quod nullum vivum in civitatibus sibi traditis dimisit Jesus, quia Deus haec jusserat. Qui autem hic existimant ipsum Deum fuisse crudelem, et ideo Veteris Testamenti verum Deum fuisse auctorem credere nolunt, tam per verse de operibus Dei quam de peccatis hominum judicant, nescientes quo quisque dignus sit, et magnum putantes malum, cum casuri dejiciuntur et nortales moriuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios11-Dd1e244">
+          <head xml:id="gom-ios11-Hd1e246">Versus 19</head>
+          <p xml:id="gom-ios11-d1e248">
+            <quote xml:id="gom-ios11-Qd1e250" type="lemma" source="http://scta.info/resource/ios11_19@1-2">Non fuit.</quote>
+            <ref xml:id="gom-ios11-Rd1e253"><name xml:id="gom-ios11-Nd1e254" ref="#Augustine">AUG.</name>, quaest. 17.</ref>
+            <quote xml:id="gom-ios11-Qd1e258">Quaeritur quomodo hoc verum sit, cum nec postea a tempore judicum nec regum omnes omnino illarum septem gentium civitates capere potuerint Hebraei? Sed aut sic intelligendum est quod ad nullam civitatem bellando <pb ed="#P" n="0514C"/> accessit Jesus quam non ceperit, aut certe nulla earum capta, sed earum quae in regionibus supra memoratis fuerunt. Enumeratae sunt enim regiones in quibus fuerunt civitates de quibus facta est ista conclusio, et omnes cepit bello.</quote>
+          </p>
+          <p xml:id="gom-ios11-d1e264">
+            <ref xml:id="gom-ios11-Rd1e266" type="lemma" subtype="implied" target="http://scta.info/resource/ios11_19@1-2"/>
+            <ref xml:id="gom-ios11-Rd1e268"><name xml:id="gom-ios11-Nd1e269" ref="#Origen">ADAM.</name>, hom. 15.</ref>
+            <quote xml:id="gom-ios11-Qd1e273"><seg type="qs">Et accepit Jesus omnes in bello qui exierant ad bellum</seg>, etc., usque ad <seg type="qs">cum opera eorum non facimus.</seg></quote>
+          </p>
+          <p xml:id="gom-ios11-d1e281">
+            <ref xml:id="gom-ios11-Rd1e283" type="lemma" subtype="implied" target="http://scta.info/resource/ios11_19@1-2"/>
+            <ref xml:id="gom-ios11-Rd1e285"><name xml:id="gom-ios11-Nd1e286" ref="#Augustine">AUG.</name>, quaest. 18 in Jos.</ref>
+            <quote xml:id="gom-ios11-Qd1e290"><seg type="qs">Quia per Dominum factum est confortari cor eorum</seg>, etc., usque ad <seg type="qs">partim pugnando caperent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios11-Dd1e299">
+          <head xml:id="gom-ios11-Hd1e301">Versus 23</head>
+          <p xml:id="gom-ios11-d1e303">
+            <quote xml:id="gom-ios11-Qd1e305" type="lemma" source="http://scta.info/resource/ios11_23@24-24">Quievitque.</quote>
+            <ref xml:id="gom-ios11-Rd1e308"><name xml:id="gom-ios11-Nd1e309" ref="#Origen">ORIG.</name>, homil. 15.</ref>
+            <quote xml:id="gom-ios11-Qd1e313">Non sub Jesu filio Nave, sub quo nunquam fere cessavit a bellis, sed sub Jesu Christo. Venisti enim ad Jesum, et in baptismo peccatorum remissionem consecutus <pb ed="#P" n="0514D"/> es; jam in te non pugnat caro adversus spiritum et spiritus adversus carnem <!--<note>(Galat. V)</note>-->. Cessavit ergo terra tua a bellis, si tam mortem Jesu in corpore tuo circumferas, ut cessantibus omnibus in te praeliis, verus pacificus efficiaris, et voceris filius Dei. Sed hoc fiet cum bella transegeris, et adversarios subegeris: tunc requiesces sub vite tua, quae est Christus, et sub ficu tua, quae est Spiritus sanctus.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

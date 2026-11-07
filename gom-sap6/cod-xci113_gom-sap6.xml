@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1170C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap6">
+        <head xml:id="gom-sap6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-sap6-Dd1e100">
+          <head xml:id="gom-sap6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sap6-d1e104">
+            <quote xml:id="gom-sap6-Qd1e106" type="lemma" source="http://scta.info/resource/sap6_1@1-3">Melior est sapientia,</quote>
+            etc.
+            <ref xml:id="gom-sap6-Rd1e109"><name xml:id="gom-sap6-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap6-Qd1e113"><seg type="qs">Monet rectores Ecclesiae</seg>, etc., usque ad <seg type="qs">non solum opera, sed cognitiones et voluntates judicabit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e122">
+          <head xml:id="gom-sap6-Hd1e124">Versus 7</head>
+          <p xml:id="gom-sap6-d1e126">
+            <quote xml:id="gom-sap6-Qd1e128" type="lemma" source="http://scta.info/resource/sap6_7@1-4">Exiguo enim conceditur misericordia.</quote>
+            His scilicet, qui per ignorantiam, vel fragilitatem, vel necessitatem peccaverunt, et humili poenitentia <pb ed="#P" n="1170D"/> deleverunt.
+          </p>
+          <p xml:id="gom-sap6-d1e134">
+            <quote xml:id="gom-sap6-Qd1e136" type="lemma" source="http://scta.info/resource/sap6_7@5-7">Potentes autem potenter,</quote>
+            etc., qui, scilicet, mandata Dei contemnendo, gravia peccata commiserunt, nec poenituerunt. Sicut enim potentiores fuerunt in impietate, fortiora sustinebunt tormenta gehennae. <!--<note>(ANAST.)</note>--> Quamnam ob causam, etc., <quote xml:id="gom-sap6-Qd1e141">usque ad cui autem multum, multum quoque exigetur ab eo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e145">
+          <head xml:id="gom-sap6-Hd1e147">Versus 8</head>
+          <p xml:id="gom-sap6-d1e149">
+            <quote xml:id="gom-sap6-Qd1e151" type="lemma" source="http://scta.info/resource/sap6_8@1-4">Non enim subtrahet personam.</quote>
+            Unde: <quote xml:id="gom-sap6-Qd1e154" source="http://scta.info/resource/act10_34@10-14">Non est personarum acceptor Deus, unumquemque juxta vias suas judicat</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e159">
+          <head xml:id="gom-sap6-Hd1e161">Versus 10</head>
+          <p xml:id="gom-sap6-d1e163">
+            <quote xml:id="gom-sap6-Qd1e165" type="lemma" source="http://scta.info/resource/sap6_10@1-4">Ad vos ergo reges,</quote>
+            etc. Finito sermone ad potentes, et eorum duritia duris sermonibus increpata; ad rectores Ecclesiae exhortationem convertit, et sapientiam miris praeconiis extollit.
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e171">
+          <head xml:id="gom-sap6-Hd1e173">Versus 12</head>
+          <p xml:id="gom-sap6-d1e175">
+            <quote xml:id="gom-sap6-Qd1e177" type="lemma" source="http://scta.info/resource/sap6_12@5-5">Diligite,</quote>
+            etc., <quote xml:id="gom-sap6-Qd1e180" source="http://scta.info/resource/sap6_12@7-9">et habebitis disciplinam.</quote> Qui diligit sapientiam, servat in moribus disciplinam. Non enim amat sapientiam, qui non servat disciplinam. Unde: <quote xml:id="gom-sap6-Qd1e183" source="http://scta.info/resource/io14_15@1-6">Si diligitis me, mandata mea servate</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e188">
+          <head xml:id="gom-sap6-Hd1e190">Versus 14</head>
+          <p xml:id="gom-sap6-d1e192">
+            <quote xml:id="gom-sap6-Qd1e194" type="lemma" source="http://scta.info/resource/sap6_14@1-4">Praeoccupat qui se concupiscunt.</quote>
+            Gratis se offerens. Ipse enim est <quote xml:id="gom-sap6-Qd1e197" source="http://scta.info/resource/io14_6@6-10">via, veritas, et vita</quote>: per ipsum itur, in ipsum tenditur, ad ipsum pervenitur.
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e202">
+          <head xml:id="gom-sap6-Hd1e204">Versus 15</head>
+          <p xml:id="gom-sap6-d1e206">
+            <quote xml:id="gom-sap6-Qd1e208" type="lemma" source="http://scta.info/resource/sap6_15@9-11">Assidentem illam,</quote>
+            etc. Semper paratam, scilicet auxiliari, unde: <quote xml:id="gom-sap6-Qd1e211" source="http://scta.info/resource/ap3_20@1-24">Ecce ego sto ad ostium, et pulso, si quis aperuerit mihi, introibo ad eum et coenabo cum illo, et ipse mecum</quote>. In praesenti studendum est sapientiae, et secundum normam disciplinae ejus vivendum.
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e216">
+          <head xml:id="gom-sap6-Hd1e218">Versus 22</head>
+          <p xml:id="gom-sap6-d1e220">
+            <pb ed="#P" n="1171B"/>
+            <quote xml:id="gom-sap6-Qd1e224" type="lemma" source="http://scta.info/resource/sap6_22@1-3">Si ergo delectamini.</quote>
+            <ref xml:id="gom-sap6-Rd1e227"><name xml:id="gom-sap6-Nd1e228" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap6-Qd1e231"><seg type="qs">Reges admonet</seg>, etc., usque ad <seg type="qs">regni coelestis coronam assequetur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e240">
+          <head xml:id="gom-sap6-Hd1e242">Versus 25</head>
+          <p xml:id="gom-sap6-d1e244">
+            <quote xml:id="gom-sap6-Qd1e246" type="lemma" source="http://scta.info/resource/sap6_25@1-4">Neque cum invidia tabescente.</quote>
+            Invidia non communicat sapientiae, quia per invidiam diaboli introivit mors in mundum, et per sapientiam liberatur ab ea genus humanum.
+          </p>
+        </div>
+        <div xml:id="gom-sap6-Dd1e251">
+          <head xml:id="gom-sap6-Hd1e253">Versus 27</head>
+          <p xml:id="gom-sap6-d1e255">
+            <quote xml:id="gom-sap6-Qd1e257" type="lemma" source="http://scta.info/resource/sap6_27@1-2">Ergo accipite.</quote>
+            <ref xml:id="gom-sap6-Rd1e260"><name xml:id="gom-sap6-Nd1e261" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap6-Qd1e264"><seg type="qs">Ostensura sapientia</seg>, etc., usque ad <seg type="qs">perfectiores et sanativi et vitales esse dicuntur.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

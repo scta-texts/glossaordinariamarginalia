@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 112</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 112</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1033D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps112">
+        <head xml:id="gom-ps112-Hd1e98">Psalmus 112</head>
+        <div xml:id="gom-ps112-Dd1e100">
+          <head xml:id="gom-ps112-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps112-d1e104">
+            <quote xml:id="gom-ps112-Qd1e106" type="lemma" source="http://scta.info/resource/ps112_1@1-1">Alleluia</quote>
+            <ref xml:id="gom-ps112-Rd1e109"><name xml:id="gom-ps112-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps112-Qd1e113">Quia merito laudandus, qui merito humilitatis gentes assumit, titulum psalmi exponit. <pb ed="#P" n="1034A"/> Alleluia enim, ut diximus, interpretatur laudate Dominum, qualiter et psalmus incipit.</quote>
+          </p>
+          <p xml:id="gom-ps112-d1e119">
+            <quote xml:id="gom-ps112-Qd1e121" type="lemma" source="http://scta.info/resource/ps112_1@2-2">Laudate.</quote>
+            <ref xml:id="gom-ps112-Rd1e124"><name xml:id="gom-ps112-Nd1e125" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps112-Qd1e128">Primo monet Propheta devotos, ut laudent jugiter, et ubique praedicent. Secundo ipse facit, quod monet alios, id est, laudat Deum ibi: <quote xml:id="gom-ps112-Qd1e130" source="http://scta.info/resource/Icor14_3@2-4">Quis sicut Dominus</quote>? Ad laudem ergo monens ostendit, qui et quem, et quandiu, et ubi, et quare laudent, dicit.</quote>
+          </p>
+          <p xml:id="gom-ps112-d1e135">
+            <quote xml:id="gom-ps112-Qd1e137" type="lemma" source="http://scta.info/resource/ps112_1@3-3">Pueri.</quote>
+            Non sensu, sed malitia, maxime superbia, id est, humiles, unde, <quote xml:id="gom-ps112-Qd1e140" source="http://scta.info/resource/Icor14_20@2-12">Nolite pueri effici sensibus, sed malitia parvuli estote, ut mentibus perfecti sitis.</quote>
+          </p>
+          <p xml:id="gom-ps112-d1e144">
+            <ref xml:id="gom-ps112-Rd1e146" type="lemma" subtype="implied" target="http://scta.info/resource/ps112_1@3-3"/>
+            <ref xml:id="gom-ps112-Rd1e148"><name xml:id="gom-ps112-Nd1e149" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps112-Qd1e153">Laudate Dominum, pueri, simplices et puri, qui debent laudare.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps112-Dd1e157">
+          <head xml:id="gom-ps112-Hd1e159">Versus 2</head>
+          <p xml:id="gom-ps112-d1e161">
+            <quote xml:id="gom-ps112-Qd1e163" type="lemma" source="http://scta.info/resource/ps112_2@1-2">Sit nomen.</quote>
+            <ref xml:id="gom-ps112-Rd1e166"><name xml:id="gom-ps112-Nd1e167" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps112-Qd1e170">Ecce dixit, qui, et quem laudare debeant, deinde subdit: Quandiu laudandus sit, scilicet semper.</quote>
+          </p>
+          <p xml:id="gom-ps112-d1e173">
+            <quote xml:id="gom-ps112-Qd1e175" type="lemma" source="http://scta.info/resource/ps112_2@1-3">Sit nomen Domini:</quote>
+            <quote xml:id="gom-ps112-Qd1e178"><seg type="qs"><pb ed="#P" n="1034B"/> ne ad horam putetis me imperare laudem</seg>, etc., usque ad <seg type="qs">per gentes carnales, per coelos spirituales.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps112-Dd1e188">
+          <head xml:id="gom-ps112-Hd1e190">Versus 3</head>
+          <p xml:id="gom-ps112-d1e192">
+            <quote xml:id="gom-ps112-Qd1e194" type="lemma" source="http://scta.info/resource/ps112_3@1-3">A solis ortu.</quote>
+            <ref xml:id="gom-ps112-Rd1e197"><name xml:id="gom-ps112-Nd1e198" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps112-Qd1e201">Hic dicit quod ubique debeat laudari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps112-Dd1e205">
+          <head xml:id="gom-ps112-Hd1e207">Versus 4</head>
+          <p xml:id="gom-ps112-d1e209">
+            <quote xml:id="gom-ps112-Qd1e211" type="lemma" source="http://scta.info/resource/ps112_4@7-8">Super coelos.</quote>
+            <ref xml:id="gom-ps112-Rd1e214"><name xml:id="gom-ps112-Nd1e215" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps112-Qd1e218">Apostolos, per quos regnat in gentibus, et est; ideo ad laudes invito, quia super omnes est regnaturus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps112-Dd1e223">
+          <head xml:id="gom-ps112-Hd1e225">Versus 5</head>
+          <p xml:id="gom-ps112-d1e227">
+            <quote xml:id="gom-ps112-Qd1e229" type="lemma" source="http://scta.info/resource/ps112_5@1-2">Quis sicut.</quote>
+            <ref xml:id="gom-ps112-Rd1e232"><name xml:id="gom-ps112-Nd1e233" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps112-Qd1e236">Secundo ipse facit, quod alios monet, ut et facto alios doceat.</quote>
+          </p>
+          <p xml:id="gom-ps112-d1e239">
+            <quote xml:id="gom-ps112-Qd1e241" type="lemma" source="http://scta.info/resource/ps112_5@1-1">Quis?</quote>
+            Nullus qui per se possit.
+          </p>
+          <p xml:id="gom-ps112-d1e245">
+            <quote xml:id="gom-ps112-Qd1e247" type="lemma" source="http://scta.info/resource/ps112_5@7-8">In altis,</quote>
+            etc. Angelis et sanctis: et licet altus, non despicit humiles.
+          </p>
+        </div>
+        <div xml:id="gom-ps112-Dd1e252">
+          <head xml:id="gom-ps112-Hd1e254">Versus 6</head>
+          <p xml:id="gom-ps112-d1e256">
+            <quote xml:id="gom-ps112-Qd1e258" type="lemma" source="http://scta.info/resource/ps112_6@2-2">Humilia.</quote>
+            Hi sunt qui dono ejus alti fiunt, et in eis sedet.
+          </p>
+          <p xml:id="gom-ps112-d1e262">
+            <quote xml:id="gom-ps112-Qd1e264" type="lemma" source="http://scta.info/resource/ps112_6@3-3">Respicit,</quote>
+            humiles singulos.
+          </p>
+          <p xml:id="gom-ps112-d1e268">
+            <quote xml:id="gom-ps112-Qd1e270" type="lemma" source="http://scta.info/resource/ps112_6@7-8">In terra,</quote>
+            sanctos quos ita respicit, sicut e converso odit superbos.
+          </p>
+        </div>
+        <div xml:id="gom-ps112-Dd1e275">
+          <head xml:id="gom-ps112-Hd1e277">Versus 7</head>
+          <p xml:id="gom-ps112-d1e279">
+            <pb ed="#P" n="1034C"/>
+            <quote xml:id="gom-ps112-Qd1e283" type="lemma" source="http://scta.info/resource/ps112_7@1-3">Suscitans a terra:</quote>
+            de labore corporis.
+          </p>
+          <p xml:id="gom-ps112-d1e287">
+            <quote xml:id="gom-ps112-Qd1e289" type="lemma" source="http://scta.info/resource/ps112_7@6-7">De stercore,</quote>
+            erigitur cui carnis vitia non dominantur.
+          </p>
+        </div>
+        <div xml:id="gom-ps112-Dd1e294">
+          <head xml:id="gom-ps112-Hd1e296">Versus 9</head>
+          <p xml:id="gom-ps112-d1e298">
+            <quote xml:id="gom-ps112-Qd1e300" type="lemma" source="http://scta.info/resource/ps112_9@1-2">Qui habitare.</quote>
+            <ref xml:id="gom-ps112-Rd1e303"><name xml:id="gom-ps112-Nd1e304" ref="#Cassiodorus">CASS.</name>, AUG.</ref>
+            <quote xml:id="gom-ps112-Qd1e308"><seg type="qs">Exponit, ubi suscitat et erigit</seg>, etc., usque ad <seg type="qs">de mammona iniquitatis per opera misericordiae.</seg></quote>
+          </p>
+          <p xml:id="gom-ps112-d1e316">
+            <quote xml:id="gom-ps112-Qd1e318" type="lemma" source="http://scta.info/resource/ps112_9@4-4">Sterilem.</quote>
+            <ref xml:id="gom-ps112-Rd1e321"><name xml:id="gom-ps112-Nd1e322" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps112-Qd1e325">Scilicet, Saram, id est, Ecclesiam gentilem, quae prius sterilis fuit, unde per Saram significatur. Eam, inquam, facit habitare in domo, id est, in Ecclesia Judaeorum, inter ipsos Judaeos, ut in lapide angulari duo parietes conjungantur, et fiat unum ovile.</quote>
+          </p>
+          <p xml:id="gom-ps112-d1e328">
+            <quote xml:id="gom-ps112-Qd1e330" type="lemma" source="http://scta.info/resource/ps112_9@8-8">Filiorum.</quote>
+            <ref xml:id="gom-ps112-Rd1e333"><name xml:id="gom-ps112-Nd1e334" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps112-Qd1e337"><seg type="qs">Ex persona quorum haec dicuntur</seg>, etc., usque ad <seg type="qs">cum sciam me esse sine filiis, et viduam.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

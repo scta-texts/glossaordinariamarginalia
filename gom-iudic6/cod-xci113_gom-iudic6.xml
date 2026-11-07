@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0526B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudic6">
+        <head xml:id="gom-iudic6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-iudic6-Dd1e100">
+          <head xml:id="gom-iudic6-Hd1e102">Versus 3</head>
+          <p xml:id="gom-iudic6-d1e104">
+            <quote xml:id="gom-iudic6-Qd1e106" type="lemma" source="http://scta.info/resource/iudic6_3@1-2">Cumque sevisset.</quote>
+            <ref xml:id="gom-iudic6-Rd1e109"><name xml:id="gom-iudic6-Nd1e110" ref="#Origen">ID.</name>, hom. 7.</ref>
+            <quote xml:id="gom-iudic6-Qd1e114"><seg type="qs">Haec patiebatur Israel</seg>, etc., usque ad <seg type="qs">morte sua clarificatam, sanguine lotam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic6-Dd1e123">
+          <head xml:id="gom-iudic6-Hd1e125">Versus 8</head>
+          <p xml:id="gom-iudic6-d1e127">
+            <quote xml:id="gom-iudic6-Qd1e129" type="lemma" source="http://scta.info/resource/iudic6_8@1-11">Qui misit ad eos prophetam, locutus est: Haec dicit,</quote>
+            etc.
+            <ref xml:id="gom-iudic6-Rd1e132"><name xml:id="gom-iudic6-Nd1e133" ref="#Augustine">AUG.</name>, quaest. 31 in Jud.</ref>
+            <quote xml:id="gom-iudic6-Qd1e137"><seg type="qs">Cur non dicatur nomen hujus prophetae</seg>, etc., usque ad: <seg type="qs">cur non possit angelus propheta dici?</seg></quote>
+          </p>
+          <p xml:id="gom-iudic6-d1e145">
+            <ref xml:id="gom-iudic6-Rd1e147" type="lemma" subtype="implied" target="http://scta.info/resource/iudic6_8@1-11"/>
+            <ref xml:id="gom-iudic6-Rd1e149"><name xml:id="gom-iudic6-Nd1e150" ref="#IsidoreOfSeville">ISID.</name>, in Jud., tom. V.</ref>
+            <quote xml:id="gom-iudic6-Qd1e154">Gedeon Christum significat: qui sub umbra sacrae crucis praedestinato incarnationis futurae mysterio constitutus, rectitudine <pb ed="#P" n="0526C"/> judicii quasi virga electionem sanctorum a vitiorum paleis sequestrabat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic6-Dd1e161">
+          <head xml:id="gom-iudic6-Hd1e163">Versus 17</head>
+          <p xml:id="gom-iudic6-d1e165">
+            <quote xml:id="gom-iudic6-Qd1e167" type="lemma" source="http://scta.info/resource/iudic6_17@9-11">Da mihi signum.</quote>
+            <ref xml:id="gom-iudic6-Rd1e170"><name xml:id="gom-iudic6-Nd1e171" ref="#Origen">ADAM.</name>, hom. 8.</ref>
+            <quote xml:id="gom-iudic6-Qd1e175">Vir eruditus, et habens Jesu praedecessoris exemplum, cautius agit. Sciebat enim posse angelos tenebrarum transfigurare se in angelos lucis: ideo examinat spiritum, si a Deo sit. Spiritualis enim omnia examinat. Sic praedecessor ejus Jesu Nave cum principem coelestis militiae vidisset, inquirit: <quote xml:id="gom-iudic6-Qd1e177" source="http://scta.info/resource/ios5_13@26-29">si noster es, an adversariorum?</quote> Ideo Gedeon discutit angelicam visionem, diversitate et mutatione signorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic6-Dd1e183">
+          <head xml:id="gom-iudic6-Hd1e185">Versus 18</head>
+          <p xml:id="gom-iudic6-d1e187">
+            <quote xml:id="gom-iudic6-Qd1e189" type="lemma" source="http://scta.info/resource/iudic6_18@8-8">Portans.</quote>
+            <ref xml:id="gom-iudic6-Rd1e192"><name xml:id="gom-iudic6-Nd1e193" ref="#Augustine">AUG.</name>, quaest. 35 in Jud.</ref>
+            <quote xml:id="gom-iudic6-Qd1e197"><seg type="qs">Advertendum est</seg>, etc., usque ad <seg type="qs">velut adjuvandus praesentia sanctitatis ejus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic6-Dd1e207">
+          <head xml:id="gom-iudic6-Hd1e209">Versus 19</head>
+          <p xml:id="gom-iudic6-d1e211">
+            <quote xml:id="gom-iudic6-Qd1e213" type="lemma" source="http://scta.info/resource/iudic6_19">Ingressus. (Greg., lib. III Moral., cap. <pb ed="#P" n="0526D"/> 17.)</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-iudic6-Qd1e220"><seg type="qs">Gedeon cum a paleis frumenta excuteret</seg>, etc., usque ad <seg type="qs">sed omne etiam quod in se per cogitationes turpiter ligatur, tergat.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic6-d1e228">
+            <ref xml:id="gom-iudic6-Rd1e230" type="lemma" subtype="implied" target="http://scta.info/resource/iudic6_19"/>
+            <ref xml:id="gom-iudic6-Rd1e232"><name xml:id="gom-iudic6-Nd1e233" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-iudic6-Qd1e236">Quem pater dolis deputavit, hunc Gedeon occidit, et alium septennem immolavit Deo; in quo ostendit, post adventum Christi, omnia Gentilitatis sacrificia abolenda, solumque jam sacrificium passionis Christi pro redemptione populi Deo offerendum. Ipse enim est vitulus septennis, plenus scilicet spiritu septiformi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic6-Dd1e240">
+          <head xml:id="gom-iudic6-Hd1e242">Versus 33</head>
+          <p xml:id="gom-iudic6-d1e244">
+            <quote xml:id="gom-iudic6-Qd1e246" type="lemma" source="http://scta.info/resource/iudic6_33@1-1">Igitur.</quote>
+            <ref xml:id="gom-iudic6-Rd1e249"><name xml:id="gom-iudic6-Nd1e250" ref="#Origen">ADAM.</name></ref>
+            <quote xml:id="gom-iudic6-Qd1e253"><seg type="qs">Convenerunt adversum Israel Madianitae</seg>, etc., usque ad <seg type="qs">expugnant populum Dei, cum paganis scilicet et Judaeis.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic6-d1e261">
+            <quote xml:id="gom-iudic6-Qd1e263" type="lemma" source="http://scta.info/resource/iudic6_33@17-19">In valle Jezrael.</quote>
+            <ref xml:id="gom-iudic6-Rd1e266"><name xml:id="gom-iudic6-Nd1e267" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-iudic6-Qd1e270"><seg type="qs">Quae interpretatur semen <pb ed="#P" n="0527A"/> Dei. Non enim audent adversarii illuc ire</seg>, etc., usque ad <seg type="qs">quia constitutus est in vertice intelligentiae spiritualis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic6-Dd1e281">
+          <head xml:id="gom-iudic6-Hd1e283">Versus 36</head>
+          <p xml:id="gom-iudic6-d1e285">
+            <quote xml:id="gom-iudic6-Qd1e287" type="lemma" source="http://scta.info/resource/iudic6_36@5-7">Si salvum facis.</quote>
+            <ref xml:id="gom-iudic6-Rd1e290"><name xml:id="gom-iudic6-Nd1e291" ref="#Origen">ADAM.</name>, homil. 8 in Jud.</ref>
+            <quote xml:id="gom-iudic6-Qd1e295"><seg type="qs">Cum multa sint et innumera signa</seg>, etc., usque ad <seg type="qs">quas nullus humor divini verbi infundebat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic6-Dd1e304">
+          <head xml:id="gom-iudic6-Hd1e306">Versus 37</head>
+          <p xml:id="gom-iudic6-d1e308">
+            <quote xml:id="gom-iudic6-Qd1e310" type="lemma" source="http://scta.info/resource/iudic6_37@5-6">In area.</quote>
+            <ref xml:id="gom-iudic6-Rd1e313"><name xml:id="gom-iudic6-Nd1e314" ref="#Origen">Orig.</name>, homil. 8.</ref>
+            <quote xml:id="gom-iudic6-Qd1e318"><seg type="qs">Non ubicunque, non in campo, nec in saltu, sed in area ubi messis est</seg>, etc., usque ad <seg type="qs">mundo corde recumbamus in convivio sponsi Jesu Christi.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic6-d1e326">
+            <quote xml:id="gom-iudic6-Qd1e328" type="lemma" source="http://scta.info/resource/iudic6_37@7-11">Si ros in solo vellere,</quote>
+            etc.
+            <ref xml:id="gom-iudic6-Rd1e331"><name xml:id="gom-iudic6-Nd1e332" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-iudic6-Qd1e335">In tentatione Gedeonis quod praenuntiare Dominus volebat, ostendit in compluto scilicet vellere et area tota circumquaque sicca figurare primum populum Israel, ubi erant sancti cum gratia coelesti tanquam pluvia spirituali, <pb ed="#P" n="0527B"/> et postea compluta area, siccato vellere figurare Ecclesiam Dei toto orbe diffusam, habentem non in vellere tanquam in velamine, sed in aperto coelestem gratiam, priore populo velut ab ejusdem gratiae rore alienato atque siccato.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic6-Dd1e342">
+          <head xml:id="gom-iudic6-Hd1e344">Versus 39</head>
+          <p xml:id="gom-iudic6-d1e346">
+            <quote xml:id="gom-iudic6-Qd1e348" type="lemma" source="http://scta.info/resource/iudic6_39@19-19">Oro,</quote>
+            etc.
+            <ref xml:id="gom-iudic6-Rd1e351"><name xml:id="gom-iudic6-Nd1e352" ref="#Origen">ADAM.</name>, homil. 8.</ref>
+            <quote xml:id="gom-iudic6-Qd1e356"><seg type="qs">In secundi quoque signi ratione</seg>, etc., usque ad <seg type="qs">universa terra divini roris gratia infunditur.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

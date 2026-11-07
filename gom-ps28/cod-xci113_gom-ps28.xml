@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 28</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 28</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0882B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps28">
+        <head xml:id="gom-ps28-Hd1e98">Psalmus 28</head>
+        <div xml:id="gom-ps28-Dd1e100">
+          <head xml:id="gom-ps28-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps28-d1e104">
+            <quote xml:id="gom-ps28-Qd1e106" type="lemma" source="http://scta.info/resource/ps28_1@1-4">Psalmus David in consummatione.</quote>
+            <ref xml:id="gom-ps28-Rd1e109"><name xml:id="gom-ps28-Nd1e110" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps28-Qd1e113"><seg type="qs">Arca a Philistaeis reducta</seg>, etc., usque ad <seg type="qs">ut se offerant tali consummatori.</seg></quote>
+          </p>
+          <p xml:id="gom-ps28-d1e121">
+            <quote xml:id="gom-ps28-Qd1e123" type="lemma" source="http://scta.info/resource/ps28_1@6-7">Afferte Domino.</quote>
+            <ref xml:id="gom-ps28-Rd1e126"><name xml:id="gom-ps28-Nd1e127" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps28-Qd1e130">Prius monet sacrificia offerre.</quote>
+          </p>
+          <p xml:id="gom-ps28-d1e133">
+            <pb ed="#P" n="0882C"/>
+            <quote xml:id="gom-ps28-Qd1e137" type="lemma" source="http://scta.info/resource/ps28_1@12-13">Filios arietum.</quote>
+            <ref xml:id="gom-ps28-Rd1e140"><name xml:id="gom-ps28-Nd1e141" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps28-Qd1e144"><seg type="qs">Quia non deest impugnatio</seg>, etc., usque ad <seg type="qs">et septuaginta duo discipuli ad praedicandum missi significantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps28-Dd1e153">
+          <head xml:id="gom-ps28-Hd1e155">Versus 3</head>
+          <p xml:id="gom-ps28-d1e157">
+            <quote xml:id="gom-ps28-Qd1e159" type="lemma" source="http://scta.info/resource/ps28_3@1-2">Vox Domini.</quote>
+            <ref xml:id="gom-ps28-Rd1e162"><name xml:id="gom-ps28-Nd1e163" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps28-Qd1e166">Praedicatio Christi intus mentes terruit, quod est, spiritum timoris dedit Judaeis et gentibus.</quote>
+          </p>
+          <p xml:id="gom-ps28-d1e169">
+            <ref xml:id="gom-ps28-Rd1e171" type="lemma" subtype="implied" target="http://scta.info/resource/ps28_3@1-2"/>
+            <ref xml:id="gom-ps28-Rd1e173"><name xml:id="gom-ps28-Nd1e174" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-ps28-Qd1e177"><seg type="qs">Iste ab imo ascendit, id est, spiritu timoris ad spiritum sapientiae</seg>, etc., usque ad <seg type="qs">id est, spiritualem intellectum, hos Dominus concutit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps28-d1e185">
+            <ref xml:id="gom-ps28-Rd1e187" type="lemma" subtype="implied" target="http://scta.info/resource/ps28_3@1-2"/>
+            <ref xml:id="gom-ps28-Rd1e189"><name xml:id="gom-ps28-Nd1e190" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps28-Qd1e193"><seg type="qs">Ut agricola sterilem terram</seg>, etc., usque ad <seg type="qs">et dabit virtutem, et eamdem benedicet in pace aeterna.</seg></quote>
+          </p>
+          <p xml:id="gom-ps28-d1e201">
+            <quote xml:id="gom-ps28-Qd1e203" type="lemma" source="http://scta.info/resource/ps28_3@1-4">Vox Domini super aquas,</quote>
+            etc.
+            <ref xml:id="gom-ps28-Rd1e206"><name xml:id="gom-ps28-Nd1e207" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps28-Qd1e210">De constitutione Ecclesiae, ubi virtutes Spiritus sancti <pb ed="#P" n="0882D"/> cum magno praeconio enumerat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps28-Dd1e217">
+          <head xml:id="gom-ps28-Hd1e219">Versus 5</head>
+          <p xml:id="gom-ps28-d1e221">
+            <quote xml:id="gom-ps28-Qd1e223" type="lemma" source="http://scta.info/resource/ps28_5@9-9">Libani.</quote>
+            Libanus interpretatur candidatio.
+          </p>
+          <p xml:id="gom-ps28-d1e227">
+            <quote xml:id="gom-ps28-Qd1e229" type="lemma" source="http://scta.info/resource/ps28_5">Cedri Libani,</quote>
+            <!-- check: lemma not matched to verse text -->
+            id est, alti homines in terrenis elati, quos Deus confringendo comminuet, id est, de superbia ad se per dilectum filium reducet: et hoc spiritu fortitudinis comminuet, sicut unicornis captus comminuitur.
+          </p>
+        </div>
+        <div xml:id="gom-ps28-Dd1e236">
+          <head xml:id="gom-ps28-Hd1e238">Versus 8</head>
+          <p xml:id="gom-ps28-d1e240">
+            <quote xml:id="gom-ps28-Qd1e242" type="lemma" source="http://scta.info/resource/ps28_8@4-4">Desertum.</quote>
+            <ref xml:id="gom-ps28-Rd1e245"><name xml:id="gom-ps28-Nd1e246" ref="#Cassiodorus">CASS.</name>, AUG.</ref>
+            <quote xml:id="gom-ps28-Qd1e250"><seg type="qs">Judaicum populum</seg>, etc., usque ad <seg type="qs">unde emanat aqua viva.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps28-Dd1e260">
+          <head xml:id="gom-ps28-Hd1e262">Versus 10</head>
+          <p xml:id="gom-ps28-d1e264">
+            <quote xml:id="gom-ps28-Qd1e266" type="lemma" source="http://scta.info/resource/ps28_10@1-1">Dominus.</quote>
+            Quid constitutae Ecclesiae fiat ostendit.
+          </p>
+          <p xml:id="gom-ps28-d1e270">
+            <quote xml:id="gom-ps28-Qd1e272" type="lemma" source="http://scta.info/resource/ps28_10">Dedi,</quote>
+            <!-- check: lemma not matched to verse text -->
+            enim ait, <quote xml:id="gom-ps28-Qd1e277" source="http://scta.info/resource/lc10_19@3-7">vobis potestatem conculcare super serpentes.</quote> Ut autem est inauditum, ut cervi omne genus ferarum cornu feriant; sic ut Apostoli omnem philosophiam illiterati redarguerent.
+          </p>
+          <p xml:id="gom-ps28-d1e281">
+            <pb ed="#P" n="0883A"/>
+            <quote xml:id="gom-ps28-Qd1e285" type="lemma" source="http://scta.info/resource/ps28_10@2-2">Diluvium.</quote>
+            <ref xml:id="gom-ps28-Rd1e288"><name xml:id="gom-ps28-Nd1e289" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps28-Qd1e292">Aquas baptismi, qui purgat crimina mundi.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

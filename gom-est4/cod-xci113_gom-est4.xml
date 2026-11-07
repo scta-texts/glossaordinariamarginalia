@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Esther, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Esther, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0744A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-est4">
+        <head xml:id="gom-est4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-est4-Dd1e100">
+          <head xml:id="gom-est4-Hd1e102">Versus 2</head>
+          <p xml:id="gom-est4-d1e104">
+            <pb ed="#P" n="0744A"/>
+            <quote xml:id="gom-est4-Qd1e108" type="lemma" source="http://scta.info/resource/est4_2@4-6">Usque ad fores.</quote>
+            Sic magister Ecclesiae intercessione reginae, de qua dicitur: <quote xml:id="gom-est4-Qd1e111" source="http://scta.info/resource/ps44_10@6-10">Astitit regina a dextris tuis ,<!-- check: Migne cites ps14; text matches ps44_10 --></quote> etc., quae partim peregrinatur in mundo, et partim regnat cum Domino, a rege omnium saeculorum desiderat exaudiri.
+          </p>
+          <p xml:id="gom-est4-d1e116">
+            <quote xml:id="gom-est4-Qd1e118" type="lemma" source="http://scta.info/resource/est4_2@9-10">Non enim.</quote>
+            Nullus cum corruptione praesentis vitae potest aulam coelestem intrare, sed ante obitum suum debet quisque corporis castigatione et cordis compunctione regni pulsare introitum, ut post laetabundus supernum intret palatium. Si quis quaerat quomodo rex justissimus tormenta inferat innocentibus, sciat hoc non esse ex voto malitiae, sed ex summi consilii nutu procedere. <quote xml:id="gom-est4-Qd1e121" source="http://scta.info/resource/sap7_30@5-9">Sapientia enim vincit malitiam ,</quote> <quote xml:id="gom-est4-Qd1e124" source="http://scta.info/resource/sap8_1@1-12">attingit a fine usque <pb ed="#P" n="0744B"/> ad finem fortiter: et disponit omnia suaviter .</quote> <quote xml:id="gom-est4-Qd1e129" source="http://scta.info/resource/ps113_11@7-10">Omnia quaecunque voluit fecit in coelo et omnibus abyssis .</quote> Cujus justo judicio agitur, ut fideles in manu persecutorum tradantur vel ad purgationem, vel ad correptionem, vel ad meritorum augmentationem: sic Job Satanae traditur; Paulus ab angelo Satanae colaphizatur.
+          </p>
+          <p xml:id="gom-est4-d1e133">
+            <quote xml:id="gom-est4-Qd1e135" type="lemma" source="http://scta.info/resource/est4_2">Rursumque.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Orant pro se invicem Mardochaeus et Esther, id est magistri et discipuli, sicut Paulus pro discipulis orat, et pro se orari obsecrat, ut in Actibus apostolorum ab Ecclesia fiebat oratio sine intermissione pro Petro.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

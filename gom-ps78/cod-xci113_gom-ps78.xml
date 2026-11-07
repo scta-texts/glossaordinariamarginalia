@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 78</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 78</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0974C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps78">
+        <head xml:id="gom-ps78-Hd1e98">Psalmus 78</head>
+        <div xml:id="gom-ps78-Dd1e100">
+          <head xml:id="gom-ps78-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps78-d1e104">
+            <quote xml:id="gom-ps78-Qd1e106" type="lemma" source="http://scta.info/resource/ps78_1@1-2">Psalmus Asaph.</quote>
+            <ref xml:id="gom-ps78-Rd1e109"><name xml:id="gom-ps78-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e113">Psalmus secundus de lamentatione. Genti pro duritia sua, graviter <pb ed="#P" n="0974D"/> affligendae precatur Christum subvenire. Monemur bonis proximorum laetari, calamitatibus affligi.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e119">
+            <quote xml:id="gom-ps78-Qd1e121" type="lemma" source="http://scta.info/resource/ps78_1@3-5">Deus venerunt gentes.</quote>
+            <ref xml:id="gom-ps78-Rd1e124"><name xml:id="gom-ps78-Nd1e125" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e128">Prima est conquestio, et enumerantur quanta tulerit Jerusalem temporibus Antiochi, ubi non destructa fuit, propter quae signatur Ecclesiae persecutio.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e131">
+            <ref xml:id="gom-ps78-Rd1e133"><name xml:id="gom-ps78-Nd1e134" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e137" type="lemma" source="http://scta.info/resource/ps78_1@4-4">Venerunt.</quote>
+            <quote xml:id="gom-ps78-Qd1e140"><seg type="qs">Non dicit quasi nescienti</seg>, etc., usque ad <seg type="qs">jam vero evidenter sunt impleta.</seg></quote>
+          </p>
+          <p xml:id="gom-ps78-d1e148">
+            <quote xml:id="gom-ps78-Qd1e150" type="lemma" source="http://scta.info/resource/ps78_1@6-8">In haereditatem tuam.</quote>
+            <ref xml:id="gom-ps78-Rd1e153"><name xml:id="gom-ps78-Nd1e154" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e157">De populo Israel; haereditas Dei sunt electi, sed non excaecati; ergo possunt haec dici de temporibus post ascensionem Christi; sed antequam Christus venisset, et tunc enim haereditas, ubi Prophetae, et sancti conducti in Babylone; vel sub Antiocho maxime.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e161">
+            <ref xml:id="gom-ps78-Rd1e163" type="lemma" subtype="implied" target="http://scta.info/resource/ps78_1@6-8"/>
+            <ref xml:id="gom-ps78-Rd1e165"><name xml:id="gom-ps78-Nd1e166" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e169"><seg type="qs">Quod si <pb ed="#P" n="0975A"/> quis</seg>, etc., usque ad <seg type="qs">cujus circumitus per totum orbem, ubi et persecutio fit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e180">
+          <head xml:id="gom-ps78-Hd1e182">Versus 2</head>
+          <p xml:id="gom-ps78-d1e184">
+            <quote xml:id="gom-ps78-Qd1e186" type="lemma" source="http://scta.info/resource/ps78_2@2-2">Morticina.</quote>
+            <ref xml:id="gom-ps78-Rd1e189"><name xml:id="gom-ps78-Nd1e190" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e193">Cadavera, quasi non modo in viventes saeviunt. Sepelire pietatis est, abjicere crudelitatis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e197">
+          <head xml:id="gom-ps78-Hd1e199">Versus 3</head>
+          <p xml:id="gom-ps78-d1e201">
+            <quote xml:id="gom-ps78-Qd1e203" type="lemma" source="http://scta.info/resource/ps78_3@1-1">Effuderunt.</quote>
+            <ref xml:id="gom-ps78-Rd1e206"><name xml:id="gom-ps78-Nd1e207" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e210">Exaggerat, ut judicem moveat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e214">
+          <head xml:id="gom-ps78-Hd1e216">Versus 4</head>
+          <p xml:id="gom-ps78-d1e218">
+            <quote xml:id="gom-ps78-Qd1e220" type="lemma" source="http://scta.info/resource/ps78_4@1-1">Facti.</quote>
+            <ref xml:id="gom-ps78-Rd1e223"><name xml:id="gom-ps78-Nd1e224" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e227">Gloria Jerusalem toto orbe mirabilis versa est in <quote xml:id="gom-ps78-Qd1e229" source="http://scta.info/resource/ps78_4@3-4">opprobrium vicinis,</quote> quod gravius est quam si remotis, quia hi sunt assidui. Vel, vicini, affectiones, propinquis jam volentibus credere, ut martyres hoc dicant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e236">
+          <head xml:id="gom-ps78-Hd1e238">Versus 5</head>
+          <p xml:id="gom-ps78-d1e240">
+            <quote xml:id="gom-ps78-Qd1e242" type="lemma" source="http://scta.info/resource/ps78_5@1-2">Usquequo, Domine?</quote>
+            <ref xml:id="gom-ps78-Rd1e245"><name xml:id="gom-ps78-Nd1e246" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e249">Deprecatio pro parte sua contra inimicos et insultantes vicinos; quasi illi ita saeviunt: Sed, o Domine, usquequo?</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e252">
+            <ref xml:id="gom-ps78-Rd1e254" type="lemma" subtype="implied" target="http://scta.info/resource/ps78_5@1-2"/>
+            <ref xml:id="gom-ps78-Rd1e256"><name xml:id="gom-ps78-Nd1e257" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e260">Rogat ne usque in finem irascatur, id est, ne <pb ed="#P" n="0975B"/> illa vastatio perseveret, sed temperet correctionem. Nomine <quote xml:id="gom-ps78-Qd1e264">irae,</quote> vindicta iniquitatis accipitur, nomine <quote xml:id="gom-ps78-Qd1e266">zeli,</quote> exactio castitatis, ne anima a Deo fornicetur. Nota, hoc pro peccatis evenire hominibus, licet justis, sicut tres pueri, et Prophetae in captivitate testantur.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e270">
+            <quote xml:id="gom-ps78-Qd1e272" type="lemma" source="http://scta.info/resource/ps78_5@8-9">Velut ignis.</quote>
+            <ref xml:id="gom-ps78-Rd1e275"><name xml:id="gom-ps78-Nd1e276" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e279">Ure tandiu, donec aurum virtutum perfecte purgetur, ligna, id est vitia, cinerentur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e283">
+          <head xml:id="gom-ps78-Hd1e285">Versus 7</head>
+          <p xml:id="gom-ps78-d1e287">
+            <quote xml:id="gom-ps78-Qd1e289" type="lemma" source="http://scta.info/resource/ps78_7@2-2">Comederunt.</quote>
+            <ref xml:id="gom-ps78-Rd1e292"><name xml:id="gom-ps78-Nd1e293" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e296">Ferarum dentibus tradendo.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e299">
+            <quote xml:id="gom-ps78-Qd1e301" type="lemma" source="http://scta.info/resource/ps78_7@7-7">Desolaverunt,</quote>
+            eversione civitatis, quae civibus suis nudata est, vel, quia occiderunt substitutos loco civium occisorum; Jacob pro homine, homo, scilicet pro gente, quae offendit. Gratus patriarcha, ut ejus memoria peccata populi mitiget.
+          </p>
+          <p xml:id="gom-ps78-d1e305">
+            <quote xml:id="gom-ps78-Qd1e307" type="lemma" source="http://scta.info/resource/ps78_7@3-3">Jacob.</quote>
+            <ref xml:id="gom-ps78-Rd1e310"><name xml:id="gom-ps78-Nd1e311" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e314">Haec est supra dicta haereditas.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e317">
+            <quote xml:id="gom-ps78-Qd1e319" type="lemma" source="http://scta.info/resource/ps78_7@5-5">Locus.</quote>
+            <ref xml:id="gom-ps78-Rd1e322"><name xml:id="gom-ps78-Nd1e323" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e326">Civitas, ubi templum, quo congregabantur ad festa.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e330">
+          <head xml:id="gom-ps78-Hd1e332">Versus 8</head>
+          <p xml:id="gom-ps78-d1e334">
+            <pb ed="#P" n="0975C"/>
+            <quote xml:id="gom-ps78-Qd1e338" type="lemma" source="http://scta.info/resource/ps78_8@3-4">Iniquitatum nostrarum.</quote>
+            <ref xml:id="gom-ps78-Rd1e341"><name xml:id="gom-ps78-Nd1e342" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e345">Id est, quas a patribus contraximus, quibus scilicet jam non debetur correctio, sed damnatio, nisi adsit gratiae tuae miseratio. Scriptum est enim: <quote xml:id="gom-ps78-Qd1e347" source="http://scta.info/resource/ez18_4@15-19">Anima quae peccaverit ipsa morietur.</quote> Et, <quote xml:id="gom-ps78-Qd1e350" source="http://scta.info/resource/num14_18@14-23">Visitabo peccata patrum in filios, usque in tertiam et quartam generationem Antiquarum.<!-- check: Migne cites ez18; text matches num14_18 --></quote> (CASS) Non dicit de praeteritis tantum, cum et hoc tempore quidam Judaei idola sequerentur; sed similium antiquis, quibus innumeris annis peccaverunt.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e356">
+            <quote xml:id="gom-ps78-Qd1e358" type="lemma" source="http://scta.info/resource/ps78_8@8-8">Anticipent.</quote>
+            <ref xml:id="gom-ps78-Rd1e361"><name xml:id="gom-ps78-Nd1e362" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e365">Ante judicium quod timet omnis homo, quia nisi indulgentia praeveniat in judicio, non absolvitur reus.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e368">
+            <quote xml:id="gom-ps78-Qd1e370" type="lemma" source="http://scta.info/resource/ps78_8@16-16">Nimis.</quote>
+            Ne quis de actibus praesumat.
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e375">
+          <head xml:id="gom-ps78-Hd1e377">Versus 9</head>
+          <p xml:id="gom-ps78-d1e379">
+            <quote xml:id="gom-ps78-Qd1e381" type="lemma" source="http://scta.info/resource/ps78_9@1-1">Adjuva.</quote>
+            <ref xml:id="gom-ps78-Rd1e384"><name xml:id="gom-ps78-Nd1e385" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e388">In bello defensionis legum, quia non in suis, sed in virtutibus Dei confidunt. <pb ed="#P" n="0975D"/></quote>
+          </p>
+          <p xml:id="gom-ps78-d1e393">
+            <quote xml:id="gom-ps78-Qd1e395" type="lemma" source="http://scta.info/resource/ps78_9@7-8">Propter gloriam.</quote>
+            Non propter meritum ut erepti, tuo nomini honorem reddamus.
+          </p>
+          <p xml:id="gom-ps78-d1e399">
+            <quote xml:id="gom-ps78-Qd1e401" type="lemma" source="http://scta.info/resource/ps78_9@7-10">Propter gloriam nominis tui.</quote>
+            Pietati sancti nominis tribuatur, non nobis, quod actibus nostris non potest haberi.
+          </p>
+          <p xml:id="gom-ps78-d1e405">
+            <quote xml:id="gom-ps78-Qd1e407" type="lemma" source="http://scta.info/resource/ps78_9@1-3">Adjuva nos, Deus.</quote>
+            Per hoc nec ingratus est gratiae, nec tollit liberum arbitrium. Qui enim adjuvatur, etiam per seipsum aliquid agit.
+          </p>
+          <p xml:id="gom-ps78-d1e412">
+            <quote xml:id="gom-ps78-Qd1e414" type="lemma" source="http://scta.info/resource/ps78_9@12-13">Libera nos.</quote>
+            <ref xml:id="gom-ps78-Rd1e417"><name xml:id="gom-ps78-Nd1e418" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e421">Liberat, id est, eruit a malis, cum et adjuvat ad faciendam justitiam, et propitius est peccatis, sine quibus hic non vivitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e425">
+          <head xml:id="gom-ps78-Hd1e427">Versus 10</head>
+          <p xml:id="gom-ps78-d1e429">
+            <quote xml:id="gom-ps78-Qd1e431" type="lemma" source="http://scta.info/resource/ps78_10@1-2">Ne forte.</quote>
+            <ref xml:id="gom-ps78-Rd1e434"><name xml:id="gom-ps78-Nd1e435" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e438">Illud usitatum a perfidis: Ubi est? Vel non est, vel non potest; insultatio non ferenda.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e441">
+            <quote xml:id="gom-ps78-Qd1e443" type="lemma" source="http://scta.info/resource/ps78_10@13-13">Innotescat.</quote>
+            Vel hic in conversis perimitur iniquitas, quod ante optaverat, vel, in fine <pb ed="#P" n="0976A"/> pereunt, quod hic dicit non optando, sed prophetizando.
+          </p>
+          <p xml:id="gom-ps78-d1e449">
+            <ref xml:id="gom-ps78-Rd1e451" type="lemma" subtype="implied" target="http://scta.info/resource/ps78_10@13-13"/>
+            <ref xml:id="gom-ps78-Rd1e453"><name xml:id="gom-ps78-Nd1e454" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e457">Quia justus non delectatur de poena inimici, quia non eum odit, sed de divina justitia, quia Deum diligit, econtra injustus facit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e461">
+          <head xml:id="gom-ps78-Hd1e463">Versus 11</head>
+          <p xml:id="gom-ps78-d1e465">
+            <quote xml:id="gom-ps78-Qd1e467" type="lemma" source="http://scta.info/resource/ps78_11@6-6">Compeditorum.</quote>
+            <ref xml:id="gom-ps78-Rd1e470"><name xml:id="gom-ps78-Nd1e471" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e474">Corruptibilitate carnis, quae aggravat animam, per quam praevalet aliquando persecutor: has compedes non sentiunt nisi illi, qui ingemiscunt gravati; ab his cupiebat dissolvi Apostolus, et esse cum Christo. Vel, compedes sunt praecepta Dei, quibus colligantur sancti, quae patienter sustentata in ornamenta vertuntur, unde: <quote xml:id="gom-ps78-Qd1e476" source="http://scta.info/resource/sir6_25@1-5">Injice pedem tuum in compedes ejus</quote>.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e481">
+            <ref xml:id="gom-ps78-Rd1e483"><name xml:id="gom-ps78-Nd1e484" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e487" type="lemma" source="http://scta.info/resource/ps78_11@6-6">Compeditorum,</quote>
+            <quote xml:id="gom-ps78-Qd1e490">ad litteram de his dicit, quos gentiles vinxerunt: qui cum gemitu orant, ut Ecclesia in fratribus non deficiat, et sic <pb ed="#P" n="0976B"/> eos poena consumit.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e496">
+            <quote xml:id="gom-ps78-Qd1e498" type="lemma" source="http://scta.info/resource/ps78_11@8-9">Secundum magnitudinem.</quote>
+            <ref xml:id="gom-ps78-Rd1e501"><name xml:id="gom-ps78-Nd1e502" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e505">Res enim tam magna in Christianis secuta est, quam nunquam crederent inimici.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e508">
+            <quote xml:id="gom-ps78-Qd1e510" type="lemma" source="http://scta.info/resource/ps78_11@13-13">Filios,</quote>
+            quia accensi sunt exemplo, non territi.
+          </p>
+          <p xml:id="gom-ps78-d1e515">
+            <quote xml:id="gom-ps78-Qd1e517" type="lemma" source="http://scta.info/resource/ps78_11@12-14">Posside filios mortificatorum.</quote>
+            <ref xml:id="gom-ps78-Rd1e520"><name xml:id="gom-ps78-Nd1e521" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e524">Hoc semper oraverunt sancti martyres, ne infructuosus esset posteris sanguis eorum, ut inde cresceret seges, unde putabatur peritura.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e527">
+            <ref xml:id="gom-ps78-Rd1e529" type="lemma" subtype="implied" target="http://scta.info/resource/ps78_11@12-14"/>
+            <ref xml:id="gom-ps78-Rd1e531"><name xml:id="gom-ps78-Nd1e532" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e535">Pia precatio, ne filios eorum projiciat, qui pro eo puniti sunt.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e538">
+            <quote xml:id="gom-ps78-Qd1e540" type="lemma" source="http://scta.info/resource/ps78_11@12-12">Posside,</quote>
+            ne quo errore maculentur.
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e546">
+          <head xml:id="gom-ps78-Hd1e548">Versus 12</head>
+          <p xml:id="gom-ps78-d1e550">
+            <quote xml:id="gom-ps78-Qd1e552" type="lemma" source="http://scta.info/resource/ps78_12@1-2">Et redde.</quote>
+            <ref xml:id="gom-ps78-Rd1e555"><name xml:id="gom-ps78-Nd1e556" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e559">Etsi corporaliter reddit, salus est tamen animae eorum.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e562">
+            <quote xml:id="gom-ps78-Qd1e564" type="lemma" source="http://scta.info/resource/ps78_12@5-5">Septuplum,</quote>
+            perfectionem doni coelestis significat, quando Spiritu sancto replemur.
+          </p>
+          <p xml:id="gom-ps78-d1e568">
+            <quote xml:id="gom-ps78-Qd1e570" type="lemma" source="http://scta.info/resource/ps78_12@6-7">In sinu.</quote>
+            In secreto animorum, ubi fit conversio.
+          </p>
+          <p xml:id="gom-ps78-d1e574">
+            <quote xml:id="gom-ps78-Qd1e576" type="lemma" source="http://scta.info/resource/ps78_12@10-10">Improperium,</quote>
+            pro injuriis reddant laudes: gloriosa vindicatio, quando inimicorum ore <pb ed="#P" n="0976C"/> laudatur Deus. Vel <quote xml:id="gom-ps78-Qd1e581" source="http://scta.info/resource/ps78_12@5-5">septuplum.</quote> Septupla retributione perfectionem poenae significat, sicut et de bonis, cum dicitur septuplum accipiet in hoc saeculo: quod positum est pro omnibus bonis, quasi nihil habentes, et omnia possidentes; quia in hoc numero plenitudo significatur. Vel <quote xml:id="gom-ps78-Qd1e584" source="http://scta.info/resource/ps78_12@5-5">septuplum,</quote> pro infinito.
+          </p>
+          <p xml:id="gom-ps78-d1e589">
+            <quote xml:id="gom-ps78-Qd1e591" type="lemma" source="http://scta.info/resource/ps78_12@10-10">Improperium,</quote>
+            <ref xml:id="gom-ps78-Rd1e594"><name xml:id="gom-ps78-Nd1e595" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e598">Hoc redde, id est, pro isto opprobrio da eos in reprobum sensum. Homo namque, cum datur in reprobum sensum, id est, in interiori sensu, accipit suppliciorum meritum futurorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps78-Dd1e602">
+          <head xml:id="gom-ps78-Hd1e604">Versus 13</head>
+          <p xml:id="gom-ps78-d1e606">
+            <quote xml:id="gom-ps78-Qd1e608" type="lemma" source="http://scta.info/resource/ps78_13@1-2">Nos autem.</quote>
+            <ref xml:id="gom-ps78-Rd1e611"><name xml:id="gom-ps78-Nd1e612" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e615">Conclusio exsultativa, non victorum, sed patientium. Et suavis conclusio lamentationis.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e618">
+            <ref xml:id="gom-ps78-Rd1e620"><name xml:id="gom-ps78-Nd1e621" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e624" type="lemma" source="http://scta.info/resource/ps78_13@1-2">Nos autem.</quote>
+            <quote xml:id="gom-ps78-Qd1e627">Hae sunt reliquiae a Matathia congregatae. Vel, generaliter, de omni genere piorum ac verorum Christianorum <pb ed="#P" n="0976D"/> accipiendum est, ut etiam Christianus populus ibi sit mistus; hic est grex pro quo oravit, ne diutius irasceretur.</quote>
+          </p>
+          <p xml:id="gom-ps78-d1e633">
+            <ref xml:id="gom-ps78-Rd1e635" type="lemma" subtype="implied" target="http://scta.info/resource/ps78_13@1-2"/>
+            <ref xml:id="gom-ps78-Rd1e637"><name xml:id="gom-ps78-Nd1e638" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps78-Qd1e641">Vel, <quote xml:id="gom-ps78-Qd1e643" source="http://scta.info/resource/ps78_13@14-15">in generatione,</quote> id est, in futuro saeculo annuntiabimus, non pro aliorum instructione, sed pro debito honore.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

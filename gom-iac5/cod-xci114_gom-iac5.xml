@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iacobi, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iacobi, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0678C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iac5">
+        <head xml:id="gom-iac5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-iac5-Dd1e100">
+          <head xml:id="gom-iac5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-iac5-d1e104">
+            <pb ed="#P" n="0678C"/>
+            <quote xml:id="gom-iac5-Qd1e108" type="lemma" source="http://scta.info/resource/iac5_1">Agite nunc.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Tempore accepto et in die salutis, futuras poenas fletibus et eleemosynis redimite.
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e115">
+          <head xml:id="gom-iac5-Hd1e117">Versus 3</head>
+          <p xml:id="gom-iac5-d1e119">
+            <quote xml:id="gom-iac5-Qd1e121" type="lemma" source="http://scta.info/resource/iac5_3@6-7">Et aerugo.</quote>
+            <ref xml:id="gom-iac5-Rd1e124"><name xml:id="gom-iac5-Nd1e125" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac5-Qd1e128"><seg type="qs">Non solum immisericordes divites visibilis genennae ignis cruciabit</seg>, etc., usque ad <seg type="qs">et propterea gravius punietur.</seg></quote>
+          </p>
+          <p xml:id="gom-iac5-d1e136">
+            <quote xml:id="gom-iac5-Qd1e138" type="lemma" source="http://scta.info/resource/iac5_3@9-10">In testimonium.</quote>
+            Id est ad augmentum poenarum, id est ut hanc visibiliter intuendo, majores cruciatus sustineatis.
+          </p>
+          <p xml:id="gom-iac5-d1e142">
+            <quote xml:id="gom-iac5-Qd1e144" type="lemma" source="http://scta.info/resource/iac5_3@14-15">Manducabit carnes.</quote>
+            Id est corpora vel carnales concupiscentias, quia luxuriosas animas, et exterius saeviens flamma cruciabit, et interius pungens dolor suae tenaciae accusabit.
+          </p>
+          <p xml:id="gom-iac5-d1e148">
+            <quote xml:id="gom-iac5-Qd1e150" type="lemma" source="http://scta.info/resource/iac5_3@17-18">Sicut ignis,</quote>
+            qui consumit metalla et caeteras res, sic aerugo vestras carnes.
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e155">
+          <head xml:id="gom-iac5-Hd1e157">Versus 4</head>
+          <p xml:id="gom-iac5-d1e159">
+            <pb ed="#P" n="0678D"/>
+            <quote xml:id="gom-iac5-Qd1e163" type="lemma" source="http://scta.info/resource/iac5_4@1-2">Ecce merces.</quote>
+            <ref xml:id="gom-iac5-Rd1e166"><name xml:id="gom-iac5-Nd1e167" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac5-Qd1e170">Magna est hominum iniquitas, qui pauperes nolunt suscipere; sed major est quando mercenariis, et famulis debitam laboris mercedem nolunt reddere. Unde Job: <quote xml:id="gom-iac5-Qd1e172" source="http://scta.info/resource/iob31_38@1-12">Si adversum me terra mea clamat et sulci ejus deflent? si fructus ejus comedi absque pecunia?</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e177">
+          <head xml:id="gom-iac5-Hd1e179">Versus 5</head>
+          <p xml:id="gom-iac5-d1e181">
+            <quote xml:id="gom-iac5-Qd1e183" type="lemma" source="http://scta.info/resource/iac5_5@1-1">Epulati.</quote>
+            <ref xml:id="gom-iac5-Rd1e186"><name xml:id="gom-iac5-Nd1e187" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-iac5-Qd1e190"><seg type="qs">Nec tantum peccastis superflue congregando</seg>, etc., usque ad <seg type="qs">et caeterorum scelerum quae fecerant Judaei.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e200">
+          <head xml:id="gom-iac5-Hd1e202">Versus 7</head>
+          <p xml:id="gom-iac5-d1e204">
+            <quote xml:id="gom-iac5-Qd1e206" type="lemma" source="http://scta.info/resource/iac5_7@1-1">Patientes</quote>
+            <ref xml:id="gom-iac5-Rd1e209"><name xml:id="gom-iac5-Nd1e210" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-iac5-Qd1e213"><seg type="qs">Increpatis superbis et incredulis</seg>, etc., usque ad <seg type="qs">unde Apostolus: <quote xml:id="gom-iac5-Qd1e219" source="http://scta.info/resource/rom6_22@10-18">Habetis fructum vestrum in sanctificatione, finem vero vitam aeternam</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e225">
+          <head xml:id="gom-iac5-Hd1e227">Versus 10</head>
+          <p xml:id="gom-iac5-d1e229">
+            <quote xml:id="gom-iac5-Qd1e231" type="lemma" source="http://scta.info/resource/iac5_10@7-7">Prophetas.</quote>
+            <ref xml:id="gom-iac5-Rd1e234"><name xml:id="gom-iac5-Nd1e235" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-iac5-Qd1e238"><seg type="qs">Prophetae, qui tam <pb ed="#P" n="0679A"/> sancti erant ut Dei Spiritus per eos sua mysteria loqueretur</seg>, etc., usque ad <seg type="qs">de Domino quantum ad exitum mortis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e249">
+          <head xml:id="gom-iac5-Hd1e251">Versus 11</head>
+          <p xml:id="gom-iac5-d1e253">
+            <quote xml:id="gom-iac5-Qd1e255" type="lemma" source="http://scta.info/resource/iac5_11@5-6">Sufferentiam Job.</quote>
+            Non dicit: <quote xml:id="gom-iac5-Qd1e258">finem Job,</quote> cui temporalia sunt restituta, sed <quote xml:id="gom-iac5-Qd1e260" source="http://scta.info/resource/iac5_11@5-10">sufferentiam Job. Et finem Domini,</quote> quia ad patiendum exemplo Job invitat, et tamen non ut temporalia recipiant, sicut Job vetus homo, sed aeterna sicut Christus novus homo.
+          </p>
+          <p xml:id="gom-iac5-d1e264">
+            <quote xml:id="gom-iac5-Qd1e266" type="lemma" source="http://scta.info/resource/iac5_11@8-10">Et finem Domini.</quote>
+            <ref xml:id="gom-iac5-Rd1e269"><name xml:id="gom-iac5-Nd1e270" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac5-Qd1e273">Audistis lectione, vidistis oculis in cruce longaminiter patientem, sed et gloriam resurrectionis et ascensionis Evangelica praedicatione didicistis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e277">
+          <head xml:id="gom-iac5-Hd1e279">Versus 13</head>
+          <p xml:id="gom-iac5-d1e281">
+            <quote xml:id="gom-iac5-Qd1e283" type="lemma" source="http://scta.info/resource/iac5_13@4-4">Oret.</quote>
+            Ne murmuret, nec judicia Dei vituperet, sed ad Ecclesiam currat flexis genibus, <pb ed="#P" n="0679B"/> ut Deus consolationem mittat.
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e290">
+          <head xml:id="gom-iac5-Hd1e292">Versus 15</head>
+          <p xml:id="gom-iac5-d1e294">
+            <quote xml:id="gom-iac5-Qd1e296" type="lemma" source="http://scta.info/resource/iac5_15@10-13">Et si in peccatis.</quote>
+            <ref xml:id="gom-iac5-Rd1e299"><name xml:id="gom-iac5-Nd1e300" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac5-Qd1e303"><seg type="qs">Multi propter peccata etiam corporis plectuntur morte</seg>, etc., usque ad <seg type="qs">unde recte subditur: <quote xml:id="gom-iac5-Qd1e309" source="http://scta.info/resource/iac5_16@1-1">Confitemini,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e315">
+          <head xml:id="gom-iac5-Hd1e317">Versus 17</head>
+          <p xml:id="gom-iac5-d1e319">
+            <quote xml:id="gom-iac5-Qd1e321" type="lemma" source="http://scta.info/resource/iac5_17@8-9">Oratione oravit.</quote>
+            Astruit exemplo quantum valeat justi deprecatio assidua cum Elias tantum <pb ed="#P" n="0680A"/> una oratione orando tam longo tempore continuerit coelos, terris imbres averterit, fructus mortalibus negaverit.
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e329">
+          <head xml:id="gom-iac5-Hd1e331">Versus 18</head>
+          <p xml:id="gom-iac5-d1e333">
+            <quote xml:id="gom-iac5-Qd1e335" type="lemma" source="http://scta.info/resource/iac5_18@1-2">Et rursum.</quote>
+            <ref xml:id="gom-iac5-Rd1e338"><name xml:id="gom-iac5-Nd1e339" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac5-Qd1e342"><seg type="qs">Ubi Elias tempus perspexit</seg>, etc., usque ad <seg type="qs">quid ergo multi fideles multis orationibus?</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e351">
+          <head xml:id="gom-iac5-Hd1e353">Versus 19</head>
+          <p xml:id="gom-iac5-d1e355">
+            <quote xml:id="gom-iac5-Qd1e357" type="lemma" source="http://scta.info/resource/iac5_19@3-6">Si quis ex vobis.</quote>
+            Ostensa efficacia orationis, ostendit quanti sit meriti pro fratribus orare, et ad sospitatem revocare, ut qui in superiori parte a lingua nostra malignam et otiosam locutionem removit, in fine Epistolae quid loqui debeamus, ostenderet. Oremus, et psallamus, quoties adversis pulsamur, peccata confiteamur, pro invicem oremus ut salvemur: pro salute proximorum non solum temporali, sed potius aeterna. Si enim magnae mercedis est a morte eripere corpus quandoque <pb ed="#P" n="0680B"/> moriturum, quanti meriti est a morte animam liberare in coelesti patria sine fine victuram?
+          </p>
+        </div>
+        <div xml:id="gom-iac5-Dd1e364">
+          <head xml:id="gom-iac5-Hd1e366">Versus 20</head>
+          <p xml:id="gom-iac5-d1e368">
+            <quote xml:id="gom-iac5-Qd1e370" type="lemma" source="http://scta.info/resource/iac5_20@12-12">Salvabit.</quote>
+            Quidam codices habent: <quote xml:id="gom-iac5-Qd1e373" source="http://scta.info/resource/iac5_20@12-16">Salvabit animam suam a morte.</quote> Et vere qui errantem corrigit, per hoc ampliora gaudia vitae coelestis sibi conquirit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

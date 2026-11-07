@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 23</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 23</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0560B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam23">
+        <head xml:id="gom-Isam23-Hd1e98">Caput 23</head>
+        <div xml:id="gom-Isam23-Dd1e100">
+          <head xml:id="gom-Isam23-Hd1e102">Versus 11</head>
+          <p xml:id="gom-Isam23-d1e104">
+            <quote xml:id="gom-Isam23-Qd1e106" type="lemma" source="http://scta.info/resource/Isam23_11@11-11">Descendet.</quote>
+            <ref xml:id="gom-Isam23-Rd1e109"><name xml:id="gom-Isam23-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam23-Qd1e113">Si hic steteris descendet Saul, et tradent te viri Ceilae in manus ejus: ergo voluntatem eorum indicavit. Viri autem Ceilae ingrati beneficiis David, quos de manibus Philisthinorum liberavit, Judaeorum infidelitatem significant et inconstantiam qui Redemptori suo ingrati apud saeculi potestates insidiantur. Ceila autem interpretatur <mentioned>ad fundam jacta</mentioned>, vel <quote xml:id="gom-Isam23-Qd1e117" source="http://scta.info/resource/ps11_9@1-4">excellens sibimet. In circuitu impii ambulant</quote>. Et, <quote xml:id="gom-Isam23-Qd1e120" source="http://scta.info/resource/sir27_12@9-12">Stultus ut luna mutatur</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam23-Dd1e126">
+          <head xml:id="gom-Isam23-Hd1e128">Versus 14</head>
+          <p xml:id="gom-Isam23-d1e130">
+            <pb ed="#P" n="0560C"/>
+            <quote xml:id="gom-Isam23-Qd1e134" type="lemma" source="http://scta.info/resource/Isam23_14@13-13">Ziph.</quote>
+            <ref xml:id="gom-Isam23-Rd1e137"><name xml:id="gom-Isam23-Nd1e138" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam23-Qd1e141">Apud se latitantem David Sauli prodiderunt, et cum eo de morte ejus tractaverunt. Ziphaei autem <mentioned>florentes</mentioned> vel <mentioned>germinantes</mentioned> interpretantur, et significant eos Judaeos, qui florem terreni regni appetentes, cum principibus suis de nece Christi tractaverunt, quomodo eum per discipulum suum perditum apprehenderent, et praesidi ad interficiendum traderent; et florentes saeculi Christum in membris, potestates scilicet hujus mundi produnt.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 30</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 30</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0432B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num30">
+        <head xml:id="gom-num30-Hd1e98">Caput 30</head>
+        <div xml:id="gom-num30-Dd1e100">
+          <head xml:id="gom-num30-Hd1e102">Versus 3</head>
+          <p xml:id="gom-num30-d1e104">
+            <quote xml:id="gom-num30-Qd1e106" type="lemma" source="http://scta.info/resource/num30_3@1-2">Si quis.</quote>
+            Animae quae in perfectum virum occurrit, nemo dominatur in votis, sed libertatem suam habet in illis.
+          </p>
+          <p xml:id="gom-num30-d1e110">
+            <ref xml:id="gom-num30-Rd1e112" type="lemma" subtype="implied" target="http://scta.info/resource/num30_3@1-2"/>
+            <ref xml:id="gom-num30-Rd1e114"><name xml:id="gom-num30-Nd1e115" ref="#Origen">ORIG.</name>, hom. 24 in Num.</ref>
+            <quote xml:id="gom-num30-Qd1e119"><seg type="qs">Votorum lex ponitur, etc., <pb ed="#P" n="0432C"/></seg> usque ad <seg type="qs">ut facias tantum quod pertinet ad divinum cultum.</seg></quote>
+          </p>
+          <p xml:id="gom-num30-d1e128">
+            <ref xml:id="gom-num30-Rd1e130" type="lemma" subtype="implied" target="http://scta.info/resource/num30_3@1-2"/>
+            <ref xml:id="gom-num30-Rd1e132"><name xml:id="gom-num30-Nd1e133" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num30-Qd1e136"><seg type="qs">Animarum, quae in Ecclesia Dei sunt</seg>, etc., usque ad <seg type="qs">nec necesse sit nobis sub tutoribus et procuratoribus derelinqui a Patre.</seg></quote>
+          </p>
+          <p xml:id="gom-num30-d1e144">
+            <quote xml:id="gom-num30-Qd1e146" type="lemma" source="http://scta.info/resource/num30_3">Juramento constrinxerit,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-num30-Rd1e151"><name xml:id="gom-num30-Nd1e152" ref="#Augustine">AUG.</name>, quaest. 56 in Num.</ref>
+            <quote xml:id="gom-num30-Qd1e156"><seg type="qs">Non hoc ad omnem</seg>, etc., usque ad <seg type="qs">sed per votum ipse sibi efficit non licere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num30-Dd1e165">
+          <head xml:id="gom-num30-Hd1e167">Versus 4</head>
+          <p xml:id="gom-num30-d1e169">
+            <quote xml:id="gom-num30-Qd1e171" type="lemma" source="http://scta.info/resource/num30_4@1-2">Mulier si,</quote>
+            etc. Id est, si femina, et adhuc tenera fuerit anima, cui vir, vel pater dominatur in votis: non semper in ipsa est culpa, sed interdum redit ad viros vel parentes.
+          </p>
+          <p xml:id="gom-num30-d1e175">
+            <quote xml:id="gom-num30-Qd1e177" type="lemma" source="http://scta.info/resource/num30_4@27-28">Et juramentum;</quote>
+            LXX: <quote xml:id="gom-num30-Qd1e180">Et definitiones quas definivit adversus animam suam.</quote> Non quod talibus votis noceant animae suae: sed adversus animam, dicitur <pb ed="#P" n="0432D"/> adversus animalem delectationem, sicut <ref xml:id="gom-num30-Rd1e184">ibi: <seg type="incipit">Affligetis animas vestras</seg>.</ref>
+          </p>
+          <p xml:id="gom-num30-d1e191">
+            <ref xml:id="gom-num30-Rd1e193" type="lemma" subtype="implied" target="http://scta.info/resource/num30_4@27-28"/>
+            <ref xml:id="gom-num30-Rd1e195"><name xml:id="gom-num30-Nd1e196" ref="#Augustine">AUG.</name>, quaest. 57</ref>
+            <quote xml:id="gom-num30-Qd1e200">Merito quaeritur in hoc loco etiam de voto virginitatis: mulieres enim, etiam virgines, in Scriptura solent appellari; et videtur Apostolus de patre loqui, cum dicit: <quote xml:id="gom-num30-Qd1e202">Servet virginem suam, et det virginem suam,</quote> etc. <!--<note>(I Cor. VII)</note>-->. Hoc modo, <quote xml:id="gom-num30-Qd1e206">nuptum</quote> ubi nonnulli intellexerunt virginem suam, id est virginitatem suam: nulla tamen hoc simili Scripturarum locutione demonstrant, cum sit inusitatissima.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num30-Dd1e211">
+          <head xml:id="gom-num30-Hd1e213">Versus 6</head>
+          <p xml:id="gom-num30-d1e215">
+            <quote xml:id="gom-num30-Qd1e217" type="lemma" source="http://scta.info/resource/num30_6@15-17">Nec obnoxia tenebitur.</quote>
+            LXX: <quote xml:id="gom-num30-Qd1e220">Dominus mundabit eam, quia abnuit pater ejus.</quote> Id est mundam habebit, et judicabit, sicut dicitur: <quote xml:id="gom-num30-Qd1e222">Mundabit eum sacerdos, et mundatione non mundabis reum (Levit. <pb ed="#P" n="0433A"/> XIII)</quote>. Id est non dices mundum eum qui immundus est.
+          </p>
+        </div>
+        <div xml:id="gom-num30-Dd1e229">
+          <head xml:id="gom-num30-Hd1e231">Versus 7</head>
+          <p xml:id="gom-num30-d1e233">
+            <quote xml:id="gom-num30-Qd1e235" type="lemma" source="http://scta.info/resource/num30_7@1-2">Si maritum.</quote>
+            Id est, si adulta et viripotens fuerit ad concipiendum semen verbi Dei, et doctrinae spiritalis capienda secreta; unde: <quote xml:id="gom-num30-Qd1e238" source="http://scta.info/resource/IIcor11_2@8-14">Volo autem omnes vos uni viro virginem castam exhibere Christo</quote>.
+          </p>
+          <p xml:id="gom-num30-d1e242">
+            <ref xml:id="gom-num30-Rd1e244" type="lemma" subtype="implied" target="http://scta.info/resource/num30_7@1-2"/>
+            <ref xml:id="gom-num30-Rd1e246"><name xml:id="gom-num30-Nd1e247" ref="#Augustine">AUG.</name> quaest. 59</ref>
+            <quote xml:id="gom-num30-Qd1e251"><seg type="qs">Quia Dominus mandavit</seg>, etc., usque ad <seg type="qs">cum ipse Deus hoc praeceperit, et hoc voluerit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num30-Dd1e261">
+          <head xml:id="gom-num30-Hd1e263">Versus 11</head>
+          <p xml:id="gom-num30-d1e265">
+            <quote xml:id="gom-num30-Qd1e267" type="lemma" source="http://scta.info/resource/num30_11@1-3">Uxor in domo.</quote>
+            <ref xml:id="gom-num30-Rd1e270"><name xml:id="gom-num30-Nd1e271" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-num30-Qd1e274"><seg type="qs">De illa prius dixit, quae in domo patris sui vovit</seg>, etc., usque ad <seg type="qs">sic tamen, ut non nisi rationi motio illa consentiat.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

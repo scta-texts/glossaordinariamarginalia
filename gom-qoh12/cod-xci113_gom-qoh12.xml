@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiastes, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiastes, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1126A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-qoh12">
+        <head xml:id="gom-qoh12-Hd1e98">Caput 12</head>
+        <p xml:id="gom-qoh12-d1e100">
+          Hinc usque ad finem capituli legitur tribus modis, scilicet de judicio, senectute, captivitate, et serviunt quaedam glossae quandoque duabus sententiis, quandoque vero inveniuntur secundum omnes sententias.
+        </p>
+        <div xml:id="gom-qoh12-Dd1e102">
+          <head xml:id="gom-qoh12-Hd1e104">Versus 2</head>
+          <p xml:id="gom-qoh12-d1e106">
+            <quote xml:id="gom-qoh12-Qd1e108" type="lemma" source="http://scta.info/resource/qoh12_2@1-10">Antequam tenebrescant sol et lumen, et stellae et luna,</quote>
+            etc.
+            <ref xml:id="gom-qoh12-Rd1e111"><name xml:id="gom-qoh12-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh12-Qd1e115"><seg type="qs">Sol convertetur in tenebras</seg>, etc., usque ad <seg type="qs">nubes et pluviae cessant ei.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh12-Dd1e124">
+          <head xml:id="gom-qoh12-Hd1e126">Versus 4</head>
+          <p xml:id="gom-qoh12-d1e128">
+            <pb ed="#P" n="1126B"/>
+            <quote xml:id="gom-qoh12-Qd1e132" type="lemma" source="http://scta.info/resource/qoh12_4@1-5">Et claudent ostia in platea,</quote>
+            ne videant lusus juvenum: omnia enim talia sunt eis importabilia.
+          </p>
+          <p xml:id="gom-qoh12-d1e136">
+            <quote xml:id="gom-qoh12-Qd1e138" type="lemma" source="http://scta.info/resource/qoh12_4@10-11">Et consurgent.</quote>
+            Quia non possunt dormire refrigescente sanguine, siccato humore quibus alitur sopor.
+          </p>
+        </div>
+        <div xml:id="gom-qoh12-Dd1e143">
+          <head xml:id="gom-qoh12-Hd1e145">Versus 5</head>
+          <p xml:id="gom-qoh12-d1e147">
+            <quote xml:id="gom-qoh12-Qd1e149" type="lemma" source="http://scta.info/resource/qoh12_5@13-14">Dissipabitur capparis.</quote>
+            <ref xml:id="gom-qoh12-Rd1e152"><name xml:id="gom-qoh12-Nd1e153" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh12-Qd1e156"><seg type="qs">Capparis renibus valet</seg>, etc., usque ad <seg type="qs">in adversitate vero desistunt a bono.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh12-Dd1e166">
+          <head xml:id="gom-qoh12-Hd1e168">Versus 6</head>
+          <p xml:id="gom-qoh12-d1e170">
+            <quote xml:id="gom-qoh12-Qd1e172" type="lemma" source="http://scta.info/resource/qoh12_6@1-2">Antequam rumpatur funiculus.</quote>
+            Redit ad superiora, ubi ait: <quote xml:id="gom-qoh12-Qd1e175" source="http://scta.info/resource/qoh12_1@1-3">Memento Creatoris tui,</quote> etc., simili fine sententiam concludit.
+          </p>
+        </div>
+        <div xml:id="gom-qoh12-Dd1e180">
+          <head xml:id="gom-qoh12-Hd1e182">Versus 7</head>
+          <p xml:id="gom-qoh12-d1e184">
+            <quote xml:id="gom-qoh12-Qd1e186" type="lemma" source="http://scta.info/resource/qoh12_7@1-2">Et revertatur.</quote>
+            Antequam revertaris in Babyloniam unde es egressus in lumbis Abrahae, <pb ed="#P" n="1126C"/> et incipias in Mesopotamia conteri, unde profectus es.
+          </p>
+        </div>
+        <div xml:id="gom-qoh12-Dd1e193">
+          <head xml:id="gom-qoh12-Hd1e195">Versus 8</head>
+          <p xml:id="gom-qoh12-d1e197">
+            <quote xml:id="gom-qoh12-Qd1e199" type="lemma" source="http://scta.info/resource/qoh12_8@1-2">Vanitas vanitatum.</quote>
+            Post descriptionem humanae fragilitatis et mortis, pulchre quod proposuerat concludit: <quote xml:id="gom-qoh12-Qd1e202" source="http://scta.info/resource/qoh12_8@1-2">Vanitas vanitatum.</quote> Quasi, noli luxuriari, noli delicias quaerere, cum scias te celeri fine transire et ad judicium festinare.
+          </p>
+        </div>
+        <div xml:id="gom-qoh12-Dd1e207">
+          <head xml:id="gom-qoh12-Hd1e209">Versus 11</head>
+          <p xml:id="gom-qoh12-d1e211">
+            <quote xml:id="gom-qoh12-Qd1e213" type="lemma" source="http://scta.info/resource/qoh12_11@1-2">Verba sapientium.</quote>
+            <ref xml:id="gom-qoh12-Rd1e216"><name xml:id="gom-qoh12-Nd1e217" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh12-Qd1e220">Ne videatur temere post legem per Moysen, ipso Deo praemonente, datam, nova praecepta cudere, dicit haec verba sapientium esse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh12-Dd1e224">
+          <head xml:id="gom-qoh12-Hd1e226">Versus 13</head>
+          <p xml:id="gom-qoh12-d1e228">
+            <quote xml:id="gom-qoh12-Qd1e230" type="lemma" source="http://scta.info/resource/qoh12_13@1-2">Finem loquendi.</quote>
+            Quia diversorum diversas sententias, tanquam concionator, induxerat: hoc fine omnes conciliat, scilicet <quote xml:id="gom-qoh12-Qd1e233" source="http://scta.info/resource/qoh12_13@6-7">Deum time.</quote> Hoc solum aiunt Hebraei in auctoritate habitum, <pb ed="#P" n="1126D"/> quia hic intentionem suam ostendit, cum videatur in multis ad voluptates hortari.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

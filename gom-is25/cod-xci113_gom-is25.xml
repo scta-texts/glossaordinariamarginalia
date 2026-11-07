@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 25</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 25</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1269A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is25">
+        <head xml:id="gom-is25-Hd1e98">Caput 25</head>
+        <div xml:id="gom-is25-Dd1e100">
+          <head xml:id="gom-is25-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is25-d1e104">
+            <quote xml:id="gom-is25-Qd1e106" type="lemma" source="http://scta.info/resource/is25_1@17-17">Amen.</quote>
+            <ref xml:id="gom-is25-Rd1e109"><name xml:id="gom-is25-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is25-Qd1e113">Hebraeum, quo saepe Dominus utitur in Evangelio: <quote xml:id="gom-is25-Qd1e115">Amen amen,</quote> id est vere vere <quote xml:id="gom-is25-Qd1e117">dico vobis.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is25-Dd1e121">
+          <head xml:id="gom-is25-Hd1e123">Versus 2</head>
+          <p xml:id="gom-is25-d1e125">
+            <quote xml:id="gom-is25-Qd1e127" type="lemma" source="http://scta.info/resource/is25_2@3-3">Civitas.</quote>
+            Eversa a Nabuchodonosor, restituta est a Neemia, et a Jesu summo sacerdote. Eversa a Romanis, restituta est ab Aelio Adriano; sed non in eodem loco, nec in statum pristinum.
+          </p>
+          <p xml:id="gom-is25-d1e131">
+            <quote xml:id="gom-is25-Qd1e133" type="lemma" source="http://scta.info/resource/is25_2@16-18">Et in sempiternum.</quote>
+            <ref xml:id="gom-is25-Rd1e136"><name xml:id="gom-is25-Nd1e137" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is25-Qd1e140">Ut mille annorum regnum <pb ed="#P" n="1269B"/> et aureae Jerusalem et gemmatae fabula quiescat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is25-Dd1e147">
+          <head xml:id="gom-is25-Hd1e149">Versus 10</head>
+          <p xml:id="gom-is25-d1e151">
+            <quote xml:id="gom-is25-Qd1e153" type="lemma" source="http://scta.info/resource/is25_10@8-10">Et triturabitur Moab,</quote>
+            etc.
+            <ref xml:id="gom-is25-Rd1e156"><name xml:id="gom-is25-Nd1e157" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is25-Qd1e160"><seg type="qs">Licet generaliter de consummatione mundi loqueretur</seg>, etc., usque ad <seg type="qs">per Moab igitur recte intelligimus diabolum filiis Dei semper adversarium.</seg></quote>
+          </p>
+          <p xml:id="gom-is25-d1e168">
+            <quote xml:id="gom-is25-Qd1e170" type="lemma" source="http://scta.info/resource/is25_10@15-17">Paleae in plaustro.</quote>
+            Ferratis plaustris teruntur paleae, ut eas facilius animalia et pascant et ruminent.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

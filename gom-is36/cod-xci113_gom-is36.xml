@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 36</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 36</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1277C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is36">
+        <head xml:id="gom-is36-Hd1e98">Caput 36</head>
+        <div xml:id="gom-is36-Dd1e100">
+          <head xml:id="gom-is36-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is36-d1e104">
+            <quote xml:id="gom-is36-Qd1e106" type="lemma" source="http://scta.info/resource/is36_1@1-3">Et factum est.</quote>
+            <ref xml:id="gom-is36-Rd1e109"><name xml:id="gom-is36-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is36-Qd1e113"><seg type="qs">Libri Regum et Paralipomenorum consentiunt</seg>, etc., usque ad <seg type="qs">Jerusalem obsedit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is36-Dd1e122">
+          <head xml:id="gom-is36-Hd1e124">Versus 3</head>
+          <p xml:id="gom-is36-d1e126">
+            <quote xml:id="gom-is36-Qd1e128" type="lemma" source="http://scta.info/resource/is36_3@14-14">Sobna.</quote>
+            <ref xml:id="gom-is36-Rd1e131"><name xml:id="gom-is36-Nd1e132" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is36-Qd1e135">Sobna scriba, alius, non superbus, qui, ut tradunt Haebraei, comminatione Rabsacis perterritus, inferiorem partem civitatis <pb ed="#P" n="1277D"/> tradidit, arce remanente et templo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is36-Dd1e142">
+          <head xml:id="gom-is36-Hd1e144">Versus 4</head>
+          <p xml:id="gom-is36-d1e146">
+            <quote xml:id="gom-is36-Qd1e148" type="lemma" source="http://scta.info/resource/is36_4@8-9">Haec dicit.</quote>
+            Sicut forsan a patre audierat, haec dicit Dominus: et ut verba ejus habeant majus pondus, notat arrogantiam: Haec dicit rex magnus, quasi contraria fortitudo.
+          </p>
+        </div>
+        <div xml:id="gom-is36-Dd1e153">
+          <head xml:id="gom-is36-Hd1e155">Versus 6</head>
+          <p xml:id="gom-is36-d1e157">
+            <quote xml:id="gom-is36-Qd1e159" type="lemma" source="http://scta.info/resource/is36_6@1-2">Ecce confidis.</quote>
+            <ref xml:id="gom-is36-Rd1e162"><name xml:id="gom-is36-Nd1e163" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is36-Qd1e166">Mentitur plane. Nusquam enim legitur Ezechiam in Aegypto spem posuisse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is36-Dd1e171">
+          <head xml:id="gom-is36-Hd1e173">Versus 8</head>
+          <p xml:id="gom-is36-d1e175">
+            <quote xml:id="gom-is36-Qd1e177" type="lemma" source="http://scta.info/resource/is36_8@15-16">Nec poteris.</quote>
+            Non ex imbecillitate, sed praeceptorum Domini observatione, qui per Moysen de rege Israel praecepit, dicens: <quote xml:id="gom-is36-Qd1e180">Non multiplicabis tibi equos, et currus, nec uxores plurimas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is36-Dd1e184">
+          <head xml:id="gom-is36-Hd1e186">Versus 16</head>
+          <p xml:id="gom-is36-d1e188">
+            <quote xml:id="gom-is36-Qd1e190" type="lemma" source="http://scta.info/resource/is36_16@9-11">Facite mecum benedictionem,</quote>
+            etc. Laudate me, benedicite me. Vel sicut habet alia <pb ed="#P" n="1278A"/> editio: Facite quod vobis utile est, ut me recipiatis et pax maneat vobiscum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

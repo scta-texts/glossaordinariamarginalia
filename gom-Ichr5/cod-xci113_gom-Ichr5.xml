@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon I, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon I, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0641C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ichr5">
+        <head xml:id="gom-Ichr5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-Ichr5-Dd1e100">
+          <head xml:id="gom-Ichr5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ichr5-d1e104">
+            <quote xml:id="gom-Ichr5-Qd1e106" type="lemma" source="http://scta.info/resource/Ichr5_1@11-13">Sed cum violas,</quote>
+            etc.
+            <ref xml:id="gom-Ichr5-Rd1e109"><name xml:id="gom-Ichr5-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr5-Qd1e113">Ideo ablata sunt Ruben primogenita, quia dormivit cum Bala, concubina patris sui, et data sunt Joseph filio juniori, cujus progenies multiplicatur et excedit potentiam regni inter decem tribus.</quote>
+          </p>
+          <p xml:id="gom-Ichr5-d1e116">
+            <ref xml:id="gom-Ichr5-Rd1e118" type="lemma" subtype="implied" target="http://scta.info/resource/Ichr5_1@11-13"/>
+            Mystice autem significat ruinam prioris populi, qui ut primogenitus debebat sacerdotium et regnum accipere; sed quia maculavit stratum patris sui, id est corpus Christi, in quo erat plenitudo divinitatis, in cruce suspendit et occidit: primogeniti dignitas ad spiritualem Joseph, id est Christum et Ecclesiae <pb ed="#P" n="0641D"/> populum translata est; ad quem pater: <quote xml:id="gom-Ichr5-Qd1e122" source="http://scta.info/resource/hebr7_17@4-11">Tu es sacerdos in aeternum secundum ordinem Melchisedech,</quote> etc. <!--<note>(Psal. CIX.)</note>-->
+          </p>
+        </div>
+        <div xml:id="gom-Ichr5-Dd1e129">
+          <head xml:id="gom-Ichr5-Hd1e131">Versus 10</head>
+          <p xml:id="gom-Ichr5-d1e133">
+            <quote xml:id="gom-Ichr5-Qd1e135" type="lemma" source="http://scta.info/resource/Ichr5_10@7-8">Contra Agarenos.</quote>
+            <ref xml:id="gom-Ichr5-Rd1e138"><name xml:id="gom-Ichr5-Nd1e139" ref="#Jerome">HIERON.</name> in Paral.</ref>
+            <quote xml:id="gom-Ichr5-Qd1e143">Verisimile est Agar fuisse Cethuram, cum in sequentibus dicat Rubenitas et Gaaditas et dimidiam tribum Manasse cum Agarenis pugnasse et praebuisse Israel auxilium Ituraeos, Naphaeos et Nodab filios Ismaelis. Nodab autem est, ut videtur, qui in Genesi Cedma dicitur, id est antiquorum vel antecedens.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr5-Dd1e147">
+          <head xml:id="gom-Ichr5-Hd1e149">Versus 26</head>
+          <p xml:id="gom-Ichr5-d1e151">
+            <quote xml:id="gom-Ichr5-Qd1e153" type="lemma" source="http://scta.info/resource/Ichr5_26@1-2">Et suscitavit.</quote>
+            Notandum est quod in Regum dicitur Phul regem Assyriorum a Manahem filio Gaddi rege Israel accepisse mille talenta argenti <pb ed="#P" n="0642A"/> <!--<note>(IV Reg. XV)</note>-->, ut esset ei auxilio et firmaret regnum ejus, non quod eum transtulerit in Assyrios, sed quod Teglathphalnasar rex Assur in diebus Phacee regis Israel cepit Ahion, et Abel domum Maacha, et Ianoe et Cedes et Asor et Galaad et Galilaeam et universam terram Nephthali, et transtulit eos in Assyrios. Postremo narrat quod Salmanasar rex Assyriorum Osee filium Ela regem Israel obsidendo tribus annis Samariam cepit, et transtulit Israel in Assyrios et posuit eos in Ahila et in Abor, juxta fluvium Gozam in civitatibus Medorum. Unde quaeritur: quomodo in Paralipomenis dicamus Phul et Theglathphalnasar reges Assyriorum transtulisse Ruben et Gad, et dimidiam tribum Manasse in Ahilam et Abor et Aram et fluvium Gozan; cum Malachim <pb ed="#P" n="0642B"/> narret hoc Salmanasar fecisse qui transtulit Israel in Assyrios, et posuit in locis supradictis? Sed reges Assyriorum priores hoc fecisse dicuntur, quia coeperunt cum gente Assyriorum quod eadem gens in posteris perfecit. Aram quam Paralipomenon memorat, Malachim praetermittit. Autumant Hebraei esse Rages civitatem Medorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

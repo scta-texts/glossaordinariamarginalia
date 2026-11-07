@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nehemiae, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Nehemiae, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0719C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-neh6">
+        <head xml:id="gom-neh6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-neh6-Dd1e100">
+          <head xml:id="gom-neh6-Hd1e102">Versus 2</head>
+          <p xml:id="gom-neh6-d1e104">
+            <quote xml:id="gom-neh6-Qd1e106" type="lemma" source="http://scta.info/resource/neh6_2@8-11">Veni, et percutiamus foedus,</quote>
+            etc.
+            <ref xml:id="gom-neh6-Rd1e109"><name xml:id="gom-neh6-Nd1e110" ref="#Bede">BEDA</name>, in Esdr., lib. III, cap. 23, tom. II.</ref>
+            <quote xml:id="gom-neh6-Qd1e114"><seg type="qs">Hostes sanctae civitatis persuadebant Nehemiae in campestria descendere</seg>, etc., usque ad <seg type="qs">quia versutus hostis semper manus nostras tentat impedire, curemus eas semper divino auxilio confortare.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh6-Dd1e123">
+          <head xml:id="gom-neh6-Hd1e125">Versus 10</head>
+          <p xml:id="gom-neh6-d1e127">
+            <quote xml:id="gom-neh6-Qd1e129" type="lemma" source="http://scta.info/resource/neh6_10@1-2">Et ingressus.</quote>
+            Pulsatus insidiis hostium Nehemias domum Samariae quasi amici et fratris ingreditur, sed ipsum insidiatorem et hostem invenit, tanquam externorum donis et amicitia corruptum. Semper enim electi habent foris pugnas, intus timores, nec solum apostoli, sed et prophetae periculis <pb ed="#P" n="0719D"/> ex genere, periculis ex gentibus, periculis ex falsis fratribus suspectam vitam agebant.
+          </p>
+        </div>
+        <div xml:id="gom-neh6-Dd1e136">
+          <head xml:id="gom-neh6-Hd1e138">Versus 15</head>
+          <p xml:id="gom-neh6-d1e140">
+            <quote xml:id="gom-neh6-Qd1e142" type="lemma" source="http://scta.info/resource/neh6_15">Mensis Eliud.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-neh6-Rd1e147"><name xml:id="gom-neh6-Nd1e148" ref="#Bede">BEDA</name>, ubi supra.</ref>
+            <quote xml:id="gom-neh6-Qd1e152"><seg type="qs">Qui secundum Hebraeos sextus est</seg>, etc., usque ad <seg type="qs">et deinceps se in Dei et proximi dilectione in bonis operibus adornent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh6-Dd1e161">
+          <head xml:id="gom-neh6-Hd1e163">Versus 16</head>
+          <p xml:id="gom-neh6-d1e165">
+            <quote xml:id="gom-neh6-Qd1e167" type="lemma" source="http://scta.info/resource/neh6_16@11-12">Universae gentes.</quote>
+            <ref xml:id="gom-neh6-Rd1e170"><name xml:id="gom-neh6-Nd1e171" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh6-Qd1e175"><seg type="qs">Qui autem structores sanctae civitatis terrere volebant</seg>, etc., usque ad <seg type="qs">et ab Ecclesia expulsi.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

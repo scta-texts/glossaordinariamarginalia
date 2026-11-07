@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0865A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps15">
+        <head xml:id="gom-ps15-Hd1e98">Psalmus 15</head>
+        <div xml:id="gom-ps15-Dd1e100">
+          <head xml:id="gom-ps15-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps15-d1e104">
+            <quote xml:id="gom-ps15-Qd1e106" type="lemma" source="http://scta.info/resource/ps15_1@1-2">Tituli inscriptio.</quote>
+            <ref xml:id="gom-ps15-Rd1e109"><name xml:id="gom-ps15-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e113">Hic titulus de Evangelio, non de Veteri Testamento, sumitur. Quod titulus notavit, id est, victoria et regnum, convenit Christo, quod hic agitur.</quote>
+          </p>
+          <p xml:id="gom-ps15-d1e116">
+            <quote xml:id="gom-ps15-Qd1e118" type="lemma" source="http://scta.info/resource/ps15_1@5-5">Conserva,</quote>
+            etc. Psalmus secundus, qui breviter de passione et resurrectione tangit; primo, unam hominis naturam Christus ostendens, petit se servari, dicens omnia quae pertulit ad gloriam haereditatis suae perducta.
+          </p>
+          <p xml:id="gom-ps15-d1e122">
+            <ref xml:id="gom-ps15-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/ps15_1@5-5"/>
+            <ref xml:id="gom-ps15-Rd1e126"><name xml:id="gom-ps15-Nd1e127" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e130">Christus secundum hominem hic loquitur, de quo titulus regalis in passione eminuit: <quote xml:id="gom-ps15-Qd1e132" source="http://scta.info/resource/io19_19@13-16">Jesus Nazarenus rex Judaeorum.--Bonorum <pb ed="#P" n="0865B"/> meorum,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps15-d1e139">
+            <ref xml:id="gom-ps15-Rd1e141" type="lemma" subtype="implied" target="http://scta.info/resource/ps15_1@5-5"/>
+            <ref xml:id="gom-ps15-Rd1e143"><name xml:id="gom-ps15-Nd1e144" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e147">Si Christi hominis bonis non eget Deus, sed ab ipso habet omnia, destruitur arrogantia hominum et haeresis Pelagianorum, qui putant aliquid bonis suis viribus fieri.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps15-Dd1e151">
+          <head xml:id="gom-ps15-Hd1e153">Versus 3</head>
+          <p xml:id="gom-ps15-d1e155">
+            <quote xml:id="gom-ps15-Qd1e157" type="lemma" source="http://scta.info/resource/ps15_3@1-5">Sanctis qui sunt in terra.</quote>
+            <ref xml:id="gom-ps15-Rd1e160"><name xml:id="gom-ps15-Nd1e161" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e164">Exposuit jam Christus qualiter oravit, narrat nunc quae bona fecit illi Deus.</quote>
+          </p>
+          <p xml:id="gom-ps15-d1e167">
+            <ref xml:id="gom-ps15-Rd1e169"><name xml:id="gom-ps15-Nd1e170" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e173" type="lemma" source="http://scta.info/resource/ps15_3@1-1">Sanctis,</quote>
+            <quote xml:id="gom-ps15-Qd1e176">etc., usque ad <seg type="qs">et potentia ut resurgerem.</seg></quote>
+          </p>
+          <p xml:id="gom-ps15-d1e182">
+            <quote xml:id="gom-ps15-Qd1e184" type="lemma" source="http://scta.info/resource/ps15_3@7-7">Mirificavit.</quote>
+            <ref xml:id="gom-ps15-Rd1e187"><name xml:id="gom-ps15-Nd1e188" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e191">Quasi, haec dixi Domino: Dominus autem mirificavit, id est, fecit miras voluntates, hae sunt mirae dum eis obedientes, fiunt de terrenis coelestes.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps15-Dd1e195">
+          <head xml:id="gom-ps15-Hd1e197">Versus 4</head>
+          <p xml:id="gom-ps15-d1e199">
+            <quote xml:id="gom-ps15-Qd1e201" type="lemma" source="http://scta.info/resource/ps15_4@1-1">Multiplicatae.</quote>
+            <ref xml:id="gom-ps15-Rd1e204"><name xml:id="gom-ps15-Nd1e205" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e208"><seg type="qs">Qua mirificavit, <pb ed="#P" n="0865C"/></seg> etc., usque ad <seg type="qs">quae in uno sono consonant, quibus voluntates ejus ostenduntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps15-Dd1e218">
+          <head xml:id="gom-ps15-Hd1e220">Versus 5</head>
+          <p xml:id="gom-ps15-d1e222">
+            <quote xml:id="gom-ps15-Qd1e224" type="lemma" source="http://scta.info/resource/ps15_5@2-3">Pars haereditatis.</quote>
+            <ref xml:id="gom-ps15-Rd1e227"><name xml:id="gom-ps15-Nd1e228" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e231"><seg type="qs">Eligant alii alia</seg>, etc., usque ad <seg type="qs">sed qui Deum eligunt partem.</seg></quote>
+          </p>
+          <p xml:id="gom-ps15-d1e239">
+            <ref xml:id="gom-ps15-Rd1e241" type="lemma" subtype="implied" target="http://scta.info/resource/ps15_5@2-3"/>
+            <ref xml:id="gom-ps15-Rd1e243"><name xml:id="gom-ps15-Nd1e244" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e247">Vel, <quote xml:id="gom-ps15-Qd1e249" source="http://scta.info/resource/ps15_5@1-1">Dominus</quote> est <quote xml:id="gom-ps15-Qd1e252" source="http://scta.info/resource/ps15_5@2-2">pars,</quote> id est, portio et praemium, <quote xml:id="gom-ps15-Qd1e255" source="http://scta.info/resource/ps15_5@3-4">haereditatis meae,</quote> id est, sanctorum. Et <quote xml:id="gom-ps15-Qd1e258" source="http://scta.info/resource/ps15_5@2-7">pars calicis mei,</quote> id est, merces passionis. Haereditas enim ad gentes, calix ad passionem pertinet, qui bibitus dat resurrectionem. Sed nemo se putet haeredem nisi praeclarus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps15-Dd1e265">
+          <head xml:id="gom-ps15-Hd1e267">Versus 6</head>
+          <p xml:id="gom-ps15-d1e269">
+            <quote xml:id="gom-ps15-Qd1e271" type="lemma" source="http://scta.info/resource/ps15_6@1-1">Funes,</quote>
+            etc.
+            <ref xml:id="gom-ps15-Rd1e274"><name xml:id="gom-ps15-Nd1e275" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e278">Quasi forte, in qua est divina electio, ut et sors cecidit super Matthiam, et quisque capit ad mensuram suam.</quote>
+          </p>
+          <p xml:id="gom-ps15-d1e281">
+            <quote xml:id="gom-ps15-Qd1e283" type="lemma" source="http://scta.info/resource/ps15_6@4-5">In praeclaris.</quote>
+            Id est, in sanctis.
+          </p>
+        </div>
+        <div xml:id="gom-ps15-Dd1e288">
+          <head xml:id="gom-ps15-Hd1e290">Versus 7</head>
+          <p xml:id="gom-ps15-d1e292">
+            <quote xml:id="gom-ps15-Qd1e294" type="lemma" source="http://scta.info/resource/ps15_7@1-2">Benedicam Dominum.</quote>
+            <ref xml:id="gom-ps15-Rd1e297"><name xml:id="gom-ps15-Nd1e298" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e301">Gratias <pb ed="#P" n="0865D"/> agit Patri de intellectu, et passione, in qua eo favente vincit, et de resurrectione, et confessione, et haec sunt, per quae haereditas restituitur ut sit rex Judaeorum, ut titulus dicit.</quote>
+          </p>
+          <p xml:id="gom-ps15-d1e307">
+            <quote xml:id="gom-ps15-Qd1e309" type="lemma" source="http://scta.info/resource/ps15_7@6-6">Intellectum,</quote>
+            etc.
+            <ref xml:id="gom-ps15-Rd1e312"><name xml:id="gom-ps15-Nd1e313" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e316">Quo haec haereditas videri et possideri potest.</quote>
+          </p>
+          <p xml:id="gom-ps15-d1e319">
+            <quote xml:id="gom-ps15-Qd1e321" type="lemma" source="http://scta.info/resource/ps15_7@8-8">Insuper,</quote>
+            etc. Id est, super intellectum.
+          </p>
+          <p xml:id="gom-ps15-d1e325">
+            <quote xml:id="gom-ps15-Qd1e327" type="lemma" source="http://scta.info/resource/ps15_7@10-12">Usque ad noctem,</quote>
+            etc. Id est, mortem, erudivit me, inferior pars mea carnis assumptio, ut expelleret tenebras mortalitatis quas ille intellectus non habet, quia pro eis nec turbari nec deficere potuit.
+          </p>
+          <p xml:id="gom-ps15-d1e332">
+            <quote xml:id="gom-ps15-Qd1e334" type="lemma" source="http://scta.info/resource/ps15_7@15-15">Renes.</quote>
+            Ex quibus secundum carnem exivi, scilicet parentela: increpuerunt injuriis, tentatione et passione.
+          </p>
+        </div>
+        <div xml:id="gom-ps15-Dd1e339">
+          <head xml:id="gom-ps15-Hd1e341">Versus 8</head>
+          <p xml:id="gom-ps15-d1e343">
+            <quote xml:id="gom-ps15-Qd1e345" type="lemma" source="http://scta.info/resource/ps15_8@1-2">Providebam Dominum.</quote>
+            <ref xml:id="gom-ps15-Rd1e348"><name xml:id="gom-ps15-Nd1e349" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps15-Qd1e352">Hinc trahe exemplum, quo peccata vitentur: qui enim <pb ed="#P" n="0866A"/> Deum semper acie mentis intuetur, non peccatis inclinatur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

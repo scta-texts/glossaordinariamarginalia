@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 11</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 11</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0552C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam11">
+        <head xml:id="gom-Isam11-Hd1e98">Caput 11</head>
+        <div xml:id="gom-Isam11-Dd1e100">
+          <head xml:id="gom-Isam11-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Isam11-d1e104">
+            <ref xml:id="gom-Isam11-Rd1e106" type="lemma" subtype="implied" target="http://scta.info/resource/Isam11_1"/>
+            <ref xml:id="gom-Isam11-Rd1e108"><name xml:id="gom-Isam11-Nd1e109" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam11-Qd1e112">Jabes sensus: Galaad acervus testimonii. Naas, id est serpens, scilicet diabolus ascendit contra sensum testimonii Scripturae eruditum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam11-Dd1e116">
+          <head xml:id="gom-Isam11-Hd1e118">Versus 2</head>
+          <p xml:id="gom-Isam11-d1e120">
+            <quote xml:id="gom-Isam11-Qd1e122" type="lemma" source="http://scta.info/resource/Isam11_2@1-2">Et respondit.</quote>
+            Bellum Naas, bellum haereticorum contra Ecclesiam significat. Naas interpretatur serpens, Ammon comprimens vel coangustans, <pb ed="#P" n="0552D"/> vel populus moeroris. Jabes exsiccata; Galaad acervus testimonii; Naas ergo significat serpentem antiquum, qui est princeps Ammonitarum, id est haereticorum. Hic est enim populus moeroris, qui non habet gaudium Spiritus sancti, qui disponit foedus cum populo Ecclesiae, ut eruat oculos dextros, visum scilicet sanae orthodoxae fidei. Sinistrum relinquit oculum, ut scilicet prava tantum sentiat. Sed mens fidelium exsiccata a sorde vitiorum, acervum testimonii, id est, scientias sanctae Scripturae congerit, quibus viriliter resistat hosti.
+          </p>
+        </div>
+        <div xml:id="gom-Isam11-Dd1e129">
+          <head xml:id="gom-Isam11-Hd1e131">Versus 8</head>
+          <p xml:id="gom-Isam11-d1e133">
+            <quote xml:id="gom-Isam11-Qd1e135" type="lemma" source="http://scta.info/resource/Isam11_8@4-5">In Bezech.</quote>
+            <ref xml:id="gom-Isam11-Rd1e138"><name xml:id="gom-Isam11-Nd1e139" ref="#RabanusMaurus">RAB.</name>, in lib., Reg., tom. II.</ref>
+            <quote xml:id="gom-Isam11-Qd1e143"><seg type="qs">Urbe, scilicet Adonibezec</seg>, etc., usque ad <seg type="qs">per totum orbem Ecclesia diffundat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam11-Dd1e152">
+          <head xml:id="gom-Isam11-Hd1e154">Versus 11</head>
+          <p xml:id="gom-Isam11-d1e156">
+            <pb ed="#P" n="0553A"/>
+            <quote xml:id="gom-Isam11-Qd1e160" type="lemma" source="http://scta.info/resource/Isam11_11@31-32">Dispersi sunt.</quote>
+            Quia congregatio pravorum, charitatis et fidei unitate non jungitur, abinvicem dissensione separatur; unde: <quote xml:id="gom-Isam11-Qd1e163" source="http://scta.info/resource/ps91_10@3-13">Inimici tui, Domine, peribunt et dispergentur</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

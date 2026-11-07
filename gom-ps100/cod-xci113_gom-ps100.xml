@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 100</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 100</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1010A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps100">
+        <head xml:id="gom-ps100-Hd1e98">Psalmus 100</head>
+        <div xml:id="gom-ps100-Dd1e100">
+          <head xml:id="gom-ps100-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps100-d1e104">
+            <pb ed="#P" n="1010A"/>
+            <quote xml:id="gom-ps100-Qd1e108" type="lemma" source="http://scta.info/resource/ps100_1@1-3">Psalmus ipsi David.</quote>
+            <ref xml:id="gom-ps100-Rd1e111"><name xml:id="gom-ps100-Nd1e112" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e115">Psalmus iste continet formam perfectae sanctitatis, ut centesimus numerus perfectus est.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e118">
+            <quote xml:id="gom-ps100-Qd1e120" type="lemma" source="http://scta.info/resource/ps100_1@2-3">Ipsi David.</quote>
+            Ut totum quod hic docetur, virtutibus Christi applicetur, nihil terreno regi. Hic docemur bona appetere, mala renuere, quae est perfecta conversatio vitae.
+          </p>
+          <p xml:id="gom-ps100-d1e124">
+            <quote xml:id="gom-ps100-Qd1e126" type="lemma" source="http://scta.info/resource/ps100_1@4-7">Misericordiam et judicium cantabo.</quote>
+            <ref xml:id="gom-ps100-Rd1e129"><name xml:id="gom-ps100-Nd1e130" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e133">Cantat hic Christus, et nos in illo. Prius de misericordia et judicio proponit.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e136">
+            <quote xml:id="gom-ps100-Qd1e138" type="lemma" source="http://scta.info/resource/ps100_1@4-7">Misericordiam et judicium cantabo.</quote>
+            Haec duo mutua societate junguntur: in his breviter omnia opera Dei includit. Et hic est praemissa causa quare sic se habet, sicut postea subdit.
+          </p>
+          <p xml:id="gom-ps100-d1e143">
+            <ref xml:id="gom-ps100-Rd1e145" type="lemma" subtype="implied" target="http://scta.info/resource/ps100_1@4-7"/>
+            <ref xml:id="gom-ps100-Rd1e147"><name xml:id="gom-ps100-Nd1e148" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e151">Nemo de misericordia praesumat ad impunitatem, <pb ed="#P" n="1010B"/> quia est ei judicium; nemo immutatus in melius judicium timeat, quia praecedit misericordia. Semper haec simul in eo sunt: sed per tempora secundum effectus distinguuntur, misericordia nunc, judicium in futuro.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps100-Dd1e158">
+          <head xml:id="gom-ps100-Hd1e160">Versus 2</head>
+          <p xml:id="gom-ps100-d1e162">
+            <quote xml:id="gom-ps100-Qd1e164" type="lemma" source="http://scta.info/resource/ps100_2@1-2">Psallam et intelligam.</quote>
+            <ref xml:id="gom-ps100-Rd1e167"><name xml:id="gom-ps100-Nd1e168" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e171">Hoc dat psallere, ut intelligam mente, quod oculis non patet, id est, credam quod Dominus veniet, quem iste tantum desiderat, qui veniet in via immaculata.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e174">
+            <ref xml:id="gom-ps100-Rd1e176" type="lemma" subtype="implied" target="http://scta.info/resource/ps100_2@1-2"/>
+            <ref xml:id="gom-ps100-Rd1e178"><name xml:id="gom-ps100-Nd1e179" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e182">Quia mundum transivit sine peccato; vel, ego psallam et intelligam existens in via immaculata, quando, etc. Vel, <quote xml:id="gom-ps100-Qd1e184" source="http://scta.info/resource/ps100_1@11-11">psallam,</quote> hilariter operabor, et per hoc intelligam.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e189">
+            <quote xml:id="gom-ps100-Qd1e191" type="lemma" source="http://scta.info/resource/ps100_2@7-10">Quando venies ad me.</quote>
+            In secundo adventu, vel obitu cujusque. Vel, <quote xml:id="gom-ps100-Qd1e194" source="http://scta.info/resource/ps100_2@7-10">quando venies ad me,</quote> per carnem in primo adventu, quia in <pb ed="#P" n="1010C"/> via immaculata.
+          </p>
+          <p xml:id="gom-ps100-d1e200">
+            <quote xml:id="gom-ps100-Qd1e202" type="lemma" source="http://scta.info/resource/ps100_2@12-12">Perambulabam.</quote>
+            <ref xml:id="gom-ps100-Rd1e205"><name xml:id="gom-ps100-Nd1e206" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e209">Secundo, quae sit via immaculata exponit.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e213">
+            <ref xml:id="gom-ps100-Rd1e215"><name xml:id="gom-ps100-Nd1e216" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e219" type="lemma" source="http://scta.info/resource/ps100_2@12-12">Perambulabam.</quote>
+            <quote xml:id="gom-ps100-Qd1e222">Quae est via immaculata? Ea ab innocentia incipit, et in illa consummatur; et non est opus multis verbis: Innocens esto, et perfecisti justitiam. Sed duobus modis nocet homo, videlicet si facit miserum, et si deserit miserum. Innocens est qui nec sibi nec alii nocet.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e225">
+            <ref xml:id="gom-ps100-Rd1e227"><name xml:id="gom-ps100-Nd1e228" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e231" type="lemma" source="http://scta.info/resource/ps100_2@12-12">Perambulabam.</quote>
+            <quote xml:id="gom-ps100-Qd1e234">Quasi dicat: Transitoria non quaesivi, sed cucurri viam mundi, existens in medio domus tuae. Innocentia hoc potest, ut faciat habitare in medio domus Dei, quasi honorabile exemplum aliorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps100-Dd1e238">
+          <head xml:id="gom-ps100-Hd1e240">Versus 3</head>
+          <p xml:id="gom-ps100-d1e242">
+            <quote xml:id="gom-ps100-Qd1e244" type="lemma" source="http://scta.info/resource/ps100_3@1-2">Non proponebam.</quote>
+            <ref xml:id="gom-ps100-Rd1e247"><name xml:id="gom-ps100-Nd1e248" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e251">Innocentiam per partes exponit. Primo, quia nihil habet cum malis, dicit: <quote xml:id="gom-ps100-Qd1e253" source="http://scta.info/resource/ps100_3@1-2">Non proponebam,</quote> usque, <quote xml:id="gom-ps100-Qd1e256">oculi <pb ed="#P" n="1010D"/> mei.</quote> Post quod pars ei cum justis, et quod versutias diaboli de corde fugat, <ref xml:id="gom-ps100-Rd1e261">ibi, <seg type="incipit">in matutinis</seg>.</ref></quote>
+          </p>
+          <p xml:id="gom-ps100-d1e268">
+            <ref xml:id="gom-ps100-Rd1e270"><name xml:id="gom-ps100-Nd1e271" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e274" type="lemma" source="http://scta.info/resource/ps100_3@1-2">Non proponebam.</quote>
+            <quote xml:id="gom-ps100-Qd1e277">Quasi: <quote xml:id="gom-ps100-Qd1e279" source="http://scta.info/resource/ps100_2@12-14">Perambulabam in innocentia:</quote> hac utique (dicit totus Christus,) quod <quote xml:id="gom-ps100-Qd1e282" source="http://scta.info/resource/ps100_3@1-2">non proponebam,</quote> id est, non diligebam rem injustam.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e287">
+            <quote xml:id="gom-ps100-Qd1e289" type="lemma" source="http://scta.info/resource/ps100_3@13-14">Non adhaesit.</quote>
+            <ref xml:id="gom-ps100-Rd1e292"><name xml:id="gom-ps100-Nd1e293" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e296">Exponit praevaricationes.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps100-Dd1e300">
+          <head xml:id="gom-ps100-Hd1e302">Versus 4</head>
+          <p xml:id="gom-ps100-d1e304">
+            <quote xml:id="gom-ps100-Qd1e306" type="lemma" source="http://scta.info/resource/ps100_4@1-2">Cor pravum,</quote>
+            qui praevaricatur corde; declinantem, haereticum qui a catholicis dissentit: et qui a rectis semitis deviat non agnoscebam, quia etsi signati nobiscum sacramentis, non tamen veri sunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps100-Dd1e312">
+          <head xml:id="gom-ps100-Hd1e314">Versus 5</head>
+          <p xml:id="gom-ps100-d1e316">
+            <quote xml:id="gom-ps100-Qd1e318" type="lemma" source="http://scta.info/resource/ps100_5@8-8">Superbo.</quote>
+            <ref xml:id="gom-ps100-Rd1e321"><name xml:id="gom-ps100-Nd1e322" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e325"><seg type="qs">Et Jesus convivatus</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-ps100-Qd1e331" source="http://scta.info/resource/mt5_6@1-6">Beati qui esuriunt et sitiunt justitiam<!-- check: Migne cites mt8; text matches mt5_6 --></quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps100-Dd1e338">
+          <head xml:id="gom-ps100-Hd1e340">Versus 6</head>
+          <p xml:id="gom-ps100-d1e342">
+            <quote xml:id="gom-ps100-Qd1e344" type="lemma" source="http://scta.info/resource/ps100_6@1-2">Oculi mei.</quote>
+            Hic alteram partem innocentiae exsequitur, scilicet, quod cum justis habet partem. Quasi dicat: Cum talibus non edebas, unde ergo pascebaris?
+          </p>
+          <p xml:id="gom-ps100-d1e348">
+            <quote xml:id="gom-ps100-Qd1e350" type="lemma" source="http://scta.info/resource/ps100_6@5-5">Terrae.</quote>
+            <ref xml:id="gom-ps100-Rd1e353"><name xml:id="gom-ps100-Nd1e354" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e357">Degentes in terra, ubi tot illecebrae, unde major corona. Vel <ref xml:id="gom-ps100-Rd1e359"><name xml:id="gom-ps100-Nd1e360" ref="#Cassiodorus">CASS.</name></ref><!-- check: attribution inside gloss body --> qui per totum mundum sunt.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e366">
+            <quote xml:id="gom-ps100-Qd1e368" type="lemma" source="http://scta.info/resource/ps100_6@6-8">Ut sedeant mecum.</quote>
+            <ref xml:id="gom-ps100-Rd1e371"><name xml:id="gom-ps100-Nd1e372" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e375">In veritate fidei mecum permaneant, vel participent mecum regno aeterno, vel judicent mecum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps100-Dd1e379">
+          <head xml:id="gom-ps100-Hd1e381">Versus 7</head>
+          <p xml:id="gom-ps100-d1e383">
+            <quote xml:id="gom-ps100-Qd1e385" type="lemma" source="http://scta.info/resource/ps100_7@1-6">Non habitabit in medio domus meae.</quote>
+            <ref xml:id="gom-ps100-Rd1e388"><name xml:id="gom-ps100-Nd1e389" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e392">Id est, Ecclesiae. Etsi aliquandiu toleretur gratia correctionis, non praeeminet meritis, nihil potest; non est in populo meo granum, sed palea.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e395">
+            <quote xml:id="gom-ps100-Qd1e397" type="lemma" source="http://scta.info/resource/ps100_7@1-2">Non habitabit,</quote>
+            hoc maxime convenit sacerdotibus, ut pravis non cohabitent.
+          </p>
+        </div>
+        <div xml:id="gom-ps100-Dd1e402">
+          <head xml:id="gom-ps100-Hd1e404">Versus 8</head>
+          <p xml:id="gom-ps100-d1e406">
+            <quote xml:id="gom-ps100-Qd1e408" type="lemma" source="http://scta.info/resource/ps100_8@1-2">In matutino.</quote>
+            <ref xml:id="gom-ps100-Rd1e411"><name xml:id="gom-ps100-Nd1e412" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e415">Tertia pars, ubi ostendit <pb ed="#P" n="1011B"/> quis finis sit malorum. Et loquitur hic Christus.</quote>
+          </p>
+          <p xml:id="gom-ps100-d1e421">
+            <quote xml:id="gom-ps100-Qd1e423" type="lemma" source="http://scta.info/resource/ps100_8@1-2">In matutino.</quote>
+            Post vitatos malos, justus ad se reversus, addit quod suggestiones daemonum de corde expulit <quote xml:id="gom-ps100-Qd1e426" source="http://scta.info/resource/ps100_8@1-2">in matutino,</quote> id est, quando in initio tentationis, quasi in crepusculo incipiunt apparere.
+          </p>
+          <p xml:id="gom-ps100-d1e430">
+            <quote xml:id="gom-ps100-Qd1e432" type="lemma" source="http://scta.info/resource/ps100_8@3-3">Interficiebam.</quote>
+            Oratione, qua debent ejici, ne crescant.
+          </p>
+          <p xml:id="gom-ps100-d1e436">
+            <quote xml:id="gom-ps100-Qd1e438" type="lemma" source="http://scta.info/resource/ps100_8@5-5">Peccatores.</quote>
+            Daemones, qui omnem carnem faciunt peccare.
+          </p>
+          <p xml:id="gom-ps100-d1e443">
+            <quote xml:id="gom-ps100-Qd1e445" type="lemma" source="http://scta.info/resource/ps100_8@10-11">Civitate Domini.</quote>
+            Anima justi, unde diabolus dispergitur et removetur.
+          </p>
+          <p xml:id="gom-ps100-d1e449">
+            <quote xml:id="gom-ps100-Qd1e451" type="lemma" source="http://scta.info/resource/ps100_8@12-14">Omnes operantes iniquitatem.</quote>
+            Id est, submissiones vel immissiones diaboli.
+          </p>
+          <p xml:id="gom-ps100-d1e455">
+            <ref xml:id="gom-ps100-Rd1e457" type="lemma" subtype="implied" target="http://scta.info/resource/ps100_8@12-14"/>
+            <ref xml:id="gom-ps100-Rd1e459"><name xml:id="gom-ps100-Nd1e460" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps100-Qd1e463"><seg type="qs">Jam enumeravit quod ei non adhaeserunt nisi boni</seg>, etc., usque ad <seg type="qs">hoc et justo convenit, qui praevidet hoc futurum, et ideo se sic habet.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

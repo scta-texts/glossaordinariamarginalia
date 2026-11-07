@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieremias, Caput 33</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieremias, Caput 33</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0049C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ier33">
+        <head xml:id="gom-ier33-Hd1e98">Caput 33</head>
+        <div xml:id="gom-ier33-Dd1e100">
+          <head xml:id="gom-ier33-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ier33-d1e104">
+            <quote xml:id="gom-ier33-Qd1e106" type="lemma" source="http://scta.info/resource/ier33_1@1-3">Et factum est.</quote>
+            <quote xml:id="gom-ier33-Qd1e109"><seg type="qs">Praedicit quod sicut peccatoribus vindicta</seg>, etc., usque ad <seg type="qs">donec a Romanis per totum orbem dispersi sint.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier33-Dd1e118">
+          <head xml:id="gom-ier33-Hd1e120">Versus 3</head>
+          <p xml:id="gom-ier33-d1e122">
+            <quote xml:id="gom-ier33-Qd1e124" type="lemma" source="http://scta.info/resource/ier33_3@1-5">Clama ad me, et ego exaudiam eum.</quote>
+            Ostendit quod per orationes prophetarum et sanctorum, qui fuerunt in plebe, Dominus placatus sit et revelaverit eis reversionem in terram suam, quae adhuc occulta latebat.
+          </p>
+          <p xml:id="gom-ier33-d1e128">
+            <ref xml:id="gom-ier33-Rd1e130" type="lemma" subtype="implied" target="http://scta.info/resource/ier33_3@1-5"/>
+            Nunc autem dicitur: <quote xml:id="gom-ier33-Qd1e132" source="http://scta.info/resource/ier33_3@1-6">Clama ad me, et exaudiam te.</quote> Quia imminentem captivitatem Dominus avertere noluit, ut primum solverent poenam peccati sui; postea vero reversionem non negavit, quam modo <pb ed="#P" n="0049D"/> promittit.
+          </p>
+        </div>
+        <div xml:id="gom-ier33-Dd1e139">
+          <head xml:id="gom-ier33-Hd1e141">Versus 10</head>
+          <p xml:id="gom-ier33-d1e143">
+            <quote xml:id="gom-ier33-Qd1e145" type="lemma" source="http://scta.info/resource/ier33_10@4-8">Adhuc audietur in loco isto,</quote>
+            etc. Ne desperent Judaei propter minas et captivitates futuras, restaurationis bona promittit, ut locus, qui desertus fuerat propter scelera habitatorum, propter correctionem et emendationem habitetur.
+          </p>
+        </div>
+        <div xml:id="gom-ier33-Dd1e150">
+          <head xml:id="gom-ier33-Hd1e152">Versus 12</head>
+          <p xml:id="gom-ier33-d1e154">
+            <quote xml:id="gom-ier33-Qd1e156" type="lemma" source="http://scta.info/resource/ier33_12@23-24">Accubantium gregum.</quote>
+            <quote xml:id="gom-ier33-Qd1e159"><seg type="qs">Greges Ecclesiae, scilicet de gentibus congregatae</seg>, etc., usque ad <seg type="qs">multi sunt qui ad fidem Christi et ovium suarum numerum pertinent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier33-Dd1e169">
+          <head xml:id="gom-ier33-Hd1e171">Versus 14</head>
+          <p xml:id="gom-ier33-d1e173">
+            <quote xml:id="gom-ier33-Qd1e175" type="lemma" source="http://scta.info/resource/ier33_14@13-15">Ad domum Israel:</quote>
+            De quibus Isaias: erit in novissimis diebus praeparatus mons domus Domini in vertice montium, etc.
+          </p>
+        </div>
+        <div xml:id="gom-ier33-Dd1e180">
+          <head xml:id="gom-ier33-Hd1e182">Versus 17</head>
+          <p xml:id="gom-ier33-d1e184">
+            <quote xml:id="gom-ier33-Qd1e186" type="lemma" source="http://scta.info/resource/ier33_17@2-4">Haec dicit Dominus.</quote>
+            <quote xml:id="gom-ier33-Qd1e189"><seg type="qs">Supra dixerat <pb ed="#P" n="0050A"/> de creatione solis et lunae et stellarum</seg>, etc., usque ad <seg type="qs">Christi regnum et sacerdotium in aeternum manebit.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

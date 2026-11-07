@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum I, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum I, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0581A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ireg1">
+        <head xml:id="gom-Ireg1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-Ireg1-Dd1e100">
+          <head xml:id="gom-Ireg1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ireg1-d1e104">
+            <pb ed="#P" n="0581A"/>
+            <quote xml:id="gom-Ireg1-Qd1e108" type="lemma" source="http://scta.info/resource/Ireg1_1@1-4">Et rex David senuerat.</quote>
+            <ref xml:id="gom-Ireg1-Rd1e111"><name xml:id="gom-Ireg1-Nd1e112" ref="#Jerome">HIERON.</name>, epist. ad Nepotianum, tom. I.</ref>
+            <quote xml:id="gom-Ireg1-Qd1e116"><seg type="qs">Nonne tibi videtur si occidentem sequaris litteram, figmentum esse vel atellanarum ludicra? Frigidus senex obvolvitur vestimentis, et nisi complexu adolescentulae non tepescit. Vivebat adhuc Bethsabee</seg>, etc., usque ad <seg type="qs">et Raab meretrix in typo Ecclesiae reticulam mysterium sanguinis continentem, ut Jericho pereunte domus ejus salvaretur, appendit, unde de sanctis dicitur: <quote xml:id="gom-Ireg1-Qd1e122" source="http://scta.info/resource/Ichr2_55@15-23">Hi sunt qui venerunt de calore domus Rechab</quote>. Et alibi: <quote xml:id="gom-Ireg1-Qd1e125" source="http://scta.info/resource/lc12_49@1-5">Ignem veni mittere in terram</quote>, etc., qui scilicet in discipulorum corde succensus cogebat eos dicere: <quote xml:id="gom-Ireg1-Qd1e128" source="http://scta.info/resource/lc24_32@5-9">Nonne cor nostrum ardens erat</quote>?</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg1-d1e133">
+            <quote xml:id="gom-Ireg1-Qd1e135" type="lemma" source="http://scta.info/resource/Ireg1_1@9-10">Cumque operiretur,</quote>
+            etc. David nimium frigus pertulit, <pb ed="#P" n="0581B"/> vel quia de senioribus natus est parentibus, vel quia multum in praelio sanguinem fuderat, vel potius ex quo angelum caedentem populum vidit, pavore vehementi contabuit, unde in incommoditate frigoris usque ad mortem permansit.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg1-Dd1e142">
+          <head xml:id="gom-Ireg1-Hd1e144">Versus 5</head>
+          <p xml:id="gom-Ireg1-d1e146">
+            <quote xml:id="gom-Ireg1-Qd1e148" type="lemma" source="http://scta.info/resource/Ireg1_5@1-2">Adonias autem.</quote>
+            Judaicum populum significat, qui major filius esse videtur, quia prior legem suscepit, et gentilem populum, qui per gratiam Dei posterior vocatus est, spernens, se solum cum Domino regnare putavit. Adonias enim <mentioned>dominator dominus</mentioned> interpretatur. Sed Ecclesiae populus cum vero Salomone, id est pacifico nostro, cujus ipse corpus est, per divinam ordinationem in regnum substituitur, de quo merito perfidiae major filius, id est prior populus, praecipitatur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

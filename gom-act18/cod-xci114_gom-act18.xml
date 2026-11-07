@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 18</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 18</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0461B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act18">
+        <head xml:id="gom-act18-Hd1e98">Caput 18</head>
+        <div xml:id="gom-act18-Dd1e100">
+          <head xml:id="gom-act18-Hd1e102">Versus 2</head>
+          <p xml:id="gom-act18-d1e104">
+            <quote xml:id="gom-act18-Qd1e106" type="lemma" source="http://scta.info/resource/act18_2@18-23">Eo quod praecepisset Claudius discedere omnes.</quote>
+            <ref xml:id="gom-act18-Rd1e109"><name xml:id="gom-act18-Nd1e110" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-act18-Qd1e113">Hoc Josephus nono anno Claudii factum narrat. Suetonius dicit quod Claudius Judaeos Roma expulit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act18-Dd1e117">
+          <head xml:id="gom-act18-Hd1e119">Versus 3</head>
+          <p xml:id="gom-act18-d1e121">
+            <quote xml:id="gom-act18-Qd1e123" type="lemma" source="http://scta.info/resource/act18_3@13-14">Sceno factoriae artis.</quote>
+            <ref xml:id="gom-act18-Rd1e126"><name xml:id="gom-act18-Nd1e127" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-act18-Qd1e130"><seg type="qs">Quasi exsules et peregrini tentoria sibi quibus in via utantur aedificant, <pb ed="#P" n="0461C"/></seg> etc., usque ad <seg type="qs">et a ventis insidiarum verbo et opere defendit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act18-Dd1e140">
+          <head xml:id="gom-act18-Hd1e142">Versus 6</head>
+          <p xml:id="gom-act18-d1e144">
+            <quote xml:id="gom-act18-Qd1e146" type="lemma" source="http://scta.info/resource/act18_6@11-12">Sanguis vester.</quote>
+            <ref xml:id="gom-act18-Rd1e149"><name xml:id="gom-act18-Nd1e150" ref="#JohnChrysostom">CHRYS.</name></ref>
+            <quote xml:id="gom-act18-Qd1e153">Hoc facit, ut non solo verbo terreat, et vehementius disserit, utpote multis persuasis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act18-Dd1e157">
+          <head xml:id="gom-act18-Hd1e159">Versus 7</head>
+          <p xml:id="gom-act18-d1e161">
+            <quote xml:id="gom-act18-Qd1e163" type="lemma" source="http://scta.info/resource/act18_7@9-12">Titi Justi, colentis Deum.</quote>
+            Titus Justus aut proprium nomen viro fuit, aut merito justitiae sic cognominatus est. Non fuit hic Titus discipulus Pauli cui ipse Epistolam scripsit, et Cretae episcopum ordinavit; cum quo et Barnabas ascendens Jerosolymam, contulit Evangelium cum apostolis, inquirens in concilio eorum an recte praedicaret per baptisma fidei gentes sine circumcisione salvari, non quia ipse de hoc dubitaret, sed ut mentes dubitantium apostolorum auctoritate confirmaret.
+          </p>
+        </div>
+        <div xml:id="gom-act18-Dd1e169">
+          <head xml:id="gom-act18-Hd1e171">Versus 15</head>
+          <p xml:id="gom-act18-d1e173">
+            <pb ed="#P" n="0461D"/>
+            <quote xml:id="gom-act18-Qd1e177" type="lemma" source="http://scta.info/resource/act18_15@1-6">Si vero quaestiones sunt de verbo.</quote>
+            Nunc nimirum declarato et narrato, id est Evangelio: <quote xml:id="gom-act18-Qd1e180" source="http://scta.info/resource/act18_15@7-8">et nominibus</quote> (Jesus) et (Dei) vel (Dei Patris). In Graeco: <quote xml:id="gom-act18-Qd1e183" source="http://scta.info/resource/act18_17@1-4">Apprehendentes omnes Graeci Sosthenem,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-act18-Dd1e188">
+          <head xml:id="gom-act18-Hd1e190">Versus 18</head>
+          <p xml:id="gom-act18-d1e192">
+            <quote xml:id="gom-act18-Qd1e194" type="lemma" source="http://scta.info/resource/act18_18@18-20">Qui sibi totonderat.</quote>
+            <ref xml:id="gom-act18-Rd1e197"><name xml:id="gom-act18-Nd1e198" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act18-Qd1e201">Qui sibi totonderint caput est incertum, fuere tamen Paulus vel Aquila; vel timore Judaeorum, vel aviditate convertendi eos? Ambigue tamen hoc dictum est, sed secundum Hieronymum, de Paulo est intelligendum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act18-Dd1e205">
+          <head xml:id="gom-act18-Hd1e207">Versus 22</head>
+          <p xml:id="gom-act18-d1e209">
+            <quote xml:id="gom-act18-Qd1e211" type="lemma" source="http://scta.info/resource/act18_22@3-3">Caesaream.</quote>
+            <ref xml:id="gom-act18-Rd1e214"><name xml:id="gom-act18-Nd1e215" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act18-Qd1e218">Caesarea metropolis est Cappadociae. Nondum enim in Syriam Phoenicis venerat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act18-Dd1e222">
+          <head xml:id="gom-act18-Hd1e224">Versus 27</head>
+          <p xml:id="gom-act18-d1e226">
+            <quote xml:id="gom-act18-Qd1e228" type="lemma" source="http://scta.info/resource/act18_27@16-17">Contulit multum.</quote>
+            Alia translatio: <pb ed="#P" n="0462A"/> <quote xml:id="gom-act18-Qd1e233">Profuit multum credentibus,</quote> per gratiam, hoc est quod Apostolus scribit: <quote xml:id="gom-act18-Qd1e235" source="http://scta.info/resource/Icor3_6@1-4">Ego plantavi, Apollo rigavit</quote>, etc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

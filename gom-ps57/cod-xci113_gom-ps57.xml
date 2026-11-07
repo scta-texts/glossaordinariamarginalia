@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 57</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 57</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0928A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps57">
+        <head xml:id="gom-ps57-Hd1e98">Psalmus 57</head>
+        <div xml:id="gom-ps57-Dd1e100">
+          <head xml:id="gom-ps57-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps57-d1e104">
+            <quote xml:id="gom-ps57-Qd1e106" type="lemma" source="http://scta.info/resource/ps57_1@1-7">In finem ne disperdas David in tituli,</quote>
+            etc.
+            <ref xml:id="gom-ps57-Rd1e109"><name xml:id="gom-ps57-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e113">Monet ne quis Christi regno contradicat. Prima est exprobratio Judaeorum, ne similia faciamus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e117">
+          <head xml:id="gom-ps57-Hd1e119">Versus 2</head>
+          <p xml:id="gom-ps57-d1e121">
+            <quote xml:id="gom-ps57-Qd1e123" type="lemma" source="http://scta.info/resource/ps57_2@1-5">Si vere utique justitiam loquimini.</quote>
+            <ref xml:id="gom-ps57-Rd1e126"><name xml:id="gom-ps57-Nd1e127" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e130"><seg type="qs">Omnibus facile est loqui justitiam</seg>, etc., usque ad <seg type="qs">quia rex vester sum, ut titulus ait: <quote xml:id="gom-ps57-Qd1e136" source="http://scta.info/resource/ps57_2@6-6">Recte.</quote> Judaei sic de Christo judicaverunt, ut ficte de eo locuti probentur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e142">
+          <head xml:id="gom-ps57-Hd1e144">Versus 3</head>
+          <p xml:id="gom-ps57-d1e146">
+            <quote xml:id="gom-ps57-Qd1e148" type="lemma" source="http://scta.info/resource/ps57_3@10-11">Manus vestrae.</quote>
+            Cor sequitur manus: <pb ed="#P" n="0928B"/> quidquid vis, et non potes, Deus factum putat.
+          </p>
+          <p xml:id="gom-ps57-d1e154">
+            <quote xml:id="gom-ps57-Qd1e156" type="lemma" source="http://scta.info/resource/ps57_3@12-12">Concinnant.</quote>
+            <quote xml:id="gom-ps57-Qd1e159"><seg type="qs">Vel connectunt, scilicet, aliud alii adjungentes</seg>, etc., usque ad <seg type="qs">unde flagello de resticulis cecidit Dominus ementes et vendentes in templo.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e168">
+          <head xml:id="gom-ps57-Hd1e170">Versus 4</head>
+          <p xml:id="gom-ps57-d1e172">
+            <quote xml:id="gom-ps57-Qd1e174" type="lemma" source="http://scta.info/resource/ps57_4@1-5">Alienati sunt peccatores a vulva.</quote>
+            <quote xml:id="gom-ps57-Qd1e177"><seg type="qs">Vel, alienati sunt a vulva Ecclesiae</seg>, etc., usque ad <seg type="qs">abortivi excutiuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e187">
+          <head xml:id="gom-ps57-Hd1e189">Versus 5</head>
+          <p xml:id="gom-ps57-d1e191">
+            <quote xml:id="gom-ps57-Qd1e193" type="lemma" source="http://scta.info/resource/ps57_5@1-2">Furor illis.</quote>
+            <ref xml:id="gom-ps57-Rd1e196"><name xml:id="gom-ps57-Nd1e197" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e200">Non laudatur ipsa res a Scriptura, undecunque datur similitudo, ut de iniquo judice, qui rogantem viduam vix audivit.</quote>
+          </p>
+          <p xml:id="gom-ps57-d1e203">
+            <quote xml:id="gom-ps57-Qd1e205" type="lemma" source="http://scta.info/resource/ps57_5@8-10">Surdae et obturantis.</quote>
+            <ref xml:id="gom-ps57-Rd1e208"><name xml:id="gom-ps57-Nd1e209" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e212">Non solum non faciunt, sed nec audire volunt.</quote>
+          </p>
+          <p xml:id="gom-ps57-d1e215">
+            <ref xml:id="gom-ps57-Rd1e217" type="lemma" subtype="implied" target="http://scta.info/resource/ps57_5@8-10"/>
+            <ref xml:id="gom-ps57-Rd1e219"><name xml:id="gom-ps57-Nd1e220" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e223"><quote xml:id="gom-ps57-Qd1e224" source="http://scta.info/resource/ps57_3@8-8">Terra,</quote> praesentia, quibus delectatur homo;</quote>
+          </p>
+          <p xml:id="gom-ps57-d1e229">
+            <quote xml:id="gom-ps57-Qd1e231" type="lemma" source="http://scta.info/resource/ps57_5">cauda,</quote>
+            <!-- check: lemma not matched to verse text -->
+            praeterita.
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e238">
+          <head xml:id="gom-ps57-Hd1e240">Versus 6</head>
+          <p xml:id="gom-ps57-d1e242">
+            <quote xml:id="gom-ps57-Qd1e244" type="lemma" source="http://scta.info/resource/ps57_6@7-8">Venefici incantantis.</quote>
+            <ref xml:id="gom-ps57-Rd1e247"><name xml:id="gom-ps57-Nd1e248" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e251"><seg type="qs">Vel secundum aliam litteram: <quote xml:id="gom-ps57-Qd1e254">Medicamenti medicati a <pb ed="#P" n="0928C"/> sapiente.</quote> Medicamentum medicatum</seg>, etc., usque ad <seg type="qs">hic est ergo sapiens a quo medicatur medicamentum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e265">
+          <head xml:id="gom-ps57-Hd1e267">Versus 7</head>
+          <p xml:id="gom-ps57-d1e269">
+            <quote xml:id="gom-ps57-Qd1e271" type="lemma" source="http://scta.info/resource/ps57_7@1-2">Deus conteret.</quote>
+            <ref xml:id="gom-ps57-Rd1e274"><name xml:id="gom-ps57-Nd1e275" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e278">Quae eis retributio.</quote>
+          </p>
+          <p xml:id="gom-ps57-d1e281">
+            <ref xml:id="gom-ps57-Rd1e283" type="lemma" subtype="implied" target="http://scta.info/resource/ps57_7@1-2"/>
+            <ref xml:id="gom-ps57-Rd1e285"><name xml:id="gom-ps57-Nd1e286" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e289">Aspides, Judaei, dum insidiosa tentabant; leones, dum mortem inclamaverunt; horum <quote xml:id="gom-ps57-Qd1e291">Molae fractae,</quote> quando surrexit Christus.</quote>
+          </p>
+          <p xml:id="gom-ps57-d1e295">
+            <quote xml:id="gom-ps57-Qd1e297" type="lemma" source="http://scta.info/resource/ps57_7@3-3">Dentes.</quote>
+            Dolosa verba.
+          </p>
+          <p xml:id="gom-ps57-d1e301">
+            <quote xml:id="gom-ps57-Qd1e303" type="lemma" source="http://scta.info/resource/ps57_7@5-6">In ore.</quote>
+            Verbis suis capiet eos. <quote xml:id="gom-ps57-Qd1e306">Molas leonum confringet Dominus. Ad nihilum devenient:</quote> Inclamationes mortis.
+          </p>
+          <p xml:id="gom-ps57-d1e310">
+            <quote xml:id="gom-ps57-Qd1e312" type="lemma" source="http://scta.info/resource/ps57_7@11-11">Confringet,</quote>
+            ne ad effectum veniant; quod exponit.
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e317">
+          <head xml:id="gom-ps57-Hd1e319">Versus 8</head>
+          <p xml:id="gom-ps57-d1e321">
+            <quote xml:id="gom-ps57-Qd1e323" type="lemma" source="http://scta.info/resource/ps57_8@1-2">Ad nihilum,</quote>
+            dicens.
+          </p>
+          <p xml:id="gom-ps57-d1e327">
+            <quote xml:id="gom-ps57-Qd1e329" type="lemma" source="http://scta.info/resource/ps57_8@4-5">Tanquam aqua.</quote>
+            <ref xml:id="gom-ps57-Rd1e332"><name xml:id="gom-ps57-Nd1e333" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e336">Torrentibus etiam comparantur, quia sonantes ad saxa superbiae improvisi sunt et praecipites, sed cito transeunt. Tot malis comparantur.</quote>
+          </p>
+          <p xml:id="gom-ps57-d1e339">
+            <quote xml:id="gom-ps57-Qd1e341" type="lemma" source="http://scta.info/resource/ps57_8@8-9">Intendit arcum.</quote>
+            Vindicta donec <pb ed="#P" n="0928D"/> intus et extra infirmentur, et auferantur, a conspectu Dei, missi in gehennam, hic in praesenti, a terra sua.
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e348">
+          <head xml:id="gom-ps57-Hd1e350">Versus 10</head>
+          <p xml:id="gom-ps57-d1e352">
+            <quote xml:id="gom-ps57-Qd1e354" type="lemma" source="http://scta.info/resource/ps57_10@1-3">Priusquam spinae.</quote>
+            <ref xml:id="gom-ps57-Rd1e357"><name xml:id="gom-ps57-Nd1e358" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e361">Id est, peccata intelligant.</quote>
+          </p>
+          <p xml:id="gom-ps57-d1e364">
+            <quote xml:id="gom-ps57-Qd1e366" type="lemma" source="http://scta.info/resource/ps57_10@5-5">Rhamnum,</quote>
+            id est, acutam damnationem, in extremo ignis vitiorum absorbet eos, id est, devorat.
+          </p>
+          <p xml:id="gom-ps57-d1e370">
+            <quote xml:id="gom-ps57-Qd1e372" type="lemma" source="http://scta.info/resource/ps57_10@5-5">Rhamnum.</quote>
+            Genus herbae prius mollis, sed quae post in spinas vertitur: sic et peccata modo delectant, sed post pungunt.
+          </p>
+          <p xml:id="gom-ps57-d1e376">
+            <quote xml:id="gom-ps57-Qd1e378" type="lemma" source="http://scta.info/resource/ps57_10@6-8">Sicut viventes, sic,</quote>
+            etc. Quia non vera, sed falsa est impiorum vita: videntur vivere, nec vivunt.
+          </p>
+          <p xml:id="gom-ps57-d1e383">
+            <quote xml:id="gom-ps57-Qd1e385" type="lemma" source="http://scta.info/resource/ps57_10@8-12">Sic in ira absorbet eos,</quote>
+            quia Deus tranquillus judicat, vel quia non est ira comparatione futurae.
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e390">
+          <head xml:id="gom-ps57-Hd1e392">Versus 11</head>
+          <p xml:id="gom-ps57-d1e394">
+            <quote xml:id="gom-ps57-Qd1e396" type="lemma" source="http://scta.info/resource/ps57_11@1-5">Laetabitur justus cum viderit vindictam</quote>
+            <ref xml:id="gom-ps57-Rd1e399"><name xml:id="gom-ps57-Nd1e400" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e403">Correctio justorum de ultione iniquorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps57-Dd1e408">
+          <head xml:id="gom-ps57-Hd1e410">Versus 12</head>
+          <p xml:id="gom-ps57-d1e412">
+            <pb ed="#P" n="0929A"/>
+            <quote xml:id="gom-ps57-Qd1e416" type="lemma" source="http://scta.info/resource/ps57_12@1-3">Et dicet homo.</quote>
+            <ref xml:id="gom-ps57-Rd1e419"><name xml:id="gom-ps57-Nd1e420" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps57-Qd1e423"><seg type="qs">Sicut justo Dei judicio fit</seg>, etc., usque ad <seg type="qs">et quia ignis absorbet malos, ergo est <quote xml:id="gom-ps57-Qd1e429" source="http://scta.info/resource/ps57_12@12-14">Deus judicans eos</quote> in terra.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

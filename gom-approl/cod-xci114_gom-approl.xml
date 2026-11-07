@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apocalypsis, Prologus Hieronymi</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Apocalypsis, Prologus Hieronymi</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0709C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-approl">
+        <head xml:id="gom-approl-Hd1e98">PROLOGUS HIERONYMI.</head>
+        <p xml:id="gom-approl-d1e100">
+          <pb ed="#P" n="0709C"/>
+          Joannes apostolus et evangelista, a Christo electus atque dilectus, in tanto amore dilectionis uberior habitus est, ut in coena super pectus ejus recumberet, et ad crucem astanti soli matrem propriam commendasset, ut quem nubere volentem ad amplexum virginitatis asciverat, ipsi etiam custodiendam virginem tradidisset. Hic itaque cum propter verbum Dei et testimonium Jesu Christi in Pathmos insulam sortiretur exsilium, illic ab eodem Apocalypsis praeostensa describitur, ut sicut in principio canonis, id est libri Geneseos, incorruptibile principium praenotatur, ita etiam incorruptibilis finis per virginem in Apocalypsi redderetur, dicens: <pb ed="#P" n="0709D"/> Ego sum Alpha et Omega, initium et finis. Hic est Joannes, qui sciens supervenisse sibi diem egressionis de corpore, convocatis in Epheso discipulis, descendit in defossum sepulturae suae locum, orationeque completa, reddidit spiritum tam a dolore mortis factus extraneus, quam a corruptione carnis noscitur alienus. Cujus tamen Scripturae dispositio, vel libri ordinatio, ideo a nobis per singula non exponitur, ut nescientibus inquirendi desiderium collocetur et quaerentibus laboris fructus, et Deo magisterii doctrina servetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

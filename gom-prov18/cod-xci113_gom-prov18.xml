@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proverbia, Caput 18</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proverbia, Caput 18</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1101A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-prov18">
+        <head xml:id="gom-prov18-Hd1e98">Caput 18</head>
+        <div xml:id="gom-prov18-Dd1e100">
+          <head xml:id="gom-prov18-Hd1e102">Versus 1</head>
+          <p xml:id="gom-prov18-d1e104">
+            <quote xml:id="gom-prov18-Qd1e106" type="lemma" source="http://scta.info/resource/prov18_1">Impius cum in profundum venerit,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Qui longis peccatorum tenebris involutus semel de luce desperat, ex desperatione sibi peccandi frena relaxat; sed opprobrium futurae damnationis nulla ratione evadit, quem nulla divini timoris memoria <pb ed="#P" n="1101B"/> cohibuit.
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e115">
+          <head xml:id="gom-prov18-Hd1e117">Versus 4</head>
+          <p xml:id="gom-prov18-d1e119">
+            <quote xml:id="gom-prov18-Qd1e121" type="lemma" source="http://scta.info/resource/prov18_4@1-2">Aqua profunda.</quote>
+            Quia Dominus et apostoli palam utriusque Testamenti sacramenta mundo reserabant, de quibus subdit: <quote xml:id="gom-prov18-Qd1e124" source="http://scta.info/resource/prov18_4@7-11">Et torrens redundans fons sapientiae.</quote> Aqua profunda, id est, verba sapientium lavant mentes et rigant, ne peccatorum sorde deformes remaneant aut ariditate deficiant.
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e129">
+          <head xml:id="gom-prov18-Hd1e131">Versus 9</head>
+          <p xml:id="gom-prov18-d1e133">
+            <quote xml:id="gom-prov18-Qd1e135" type="lemma" source="http://scta.info/resource/prov18_9@1-4">Qui mollis et dissolutus.</quote>
+            Qui enim coepta bona districte non exsequitur, dissolutione negligentiae manum destruentis imitatur.
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e140">
+          <head xml:id="gom-prov18-Hd1e142">Versus 11</head>
+          <p xml:id="gom-prov18-d1e144">
+            <quote xml:id="gom-prov18-Qd1e146" type="lemma" source="http://scta.info/resource/prov18_11@1-5">Substantia divitis urbs roboris ejus.</quote>
+            <quote xml:id="gom-prov18-Qd1e149"><seg type="qs">Substantia terrena</seg>, etc., usque ad <seg type="qs">quasi inexpugnabili muro cunctas hostium arcet insidias.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e159">
+          <head xml:id="gom-prov18-Hd1e161">Versus 13</head>
+          <p xml:id="gom-prov18-d1e163">
+            <pb ed="#P" n="1101C"/>
+            <quote xml:id="gom-prov18-Qd1e167" type="lemma" source="http://scta.info/resource/prov18_13@1-5">Qui prius respondet quam audiat.</quote>
+            Qui prius magister esse desiderat, quam discat, stultitiae noxam non declinat. Qui judicare proximorum facta, prius quam utriusque plene causam noverit, inordinate festinat, se dignum confusione monstrat.
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e172">
+          <head xml:id="gom-prov18-Hd1e174">Versus 14</head>
+          <p xml:id="gom-prov18-d1e176">
+            <quote xml:id="gom-prov18-Qd1e178" type="lemma" source="http://scta.info/resource/prov18_14@1-4">Spiritus viri sustentat imbecillitatem.</quote>
+            <quote xml:id="gom-prov18-Qd1e181"><seg type="qs">Et ipse autem vir</seg>, etc., usque ad <seg type="qs">mentis fortitudine sustentat.</seg></quote>
+          </p>
+          <p xml:id="gom-prov18-d1e189">
+            <quote xml:id="gom-prov18-Qd1e191" type="lemma" source="http://scta.info/resource/prov18_14@6-9">Spiritum vero ad irascendum.</quote>
+            Dicit enim saepe iratus ea quae placatus, quia dixit, poeniteat, et plerumque an dixerit, ignoret: cujus tamen vesania per sapientium modestiam facillime suffertur atque sopitur.
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e196">
+          <head xml:id="gom-prov18-Hd1e198">Versus 16</head>
+          <p xml:id="gom-prov18-d1e200">
+            <quote xml:id="gom-prov18-Qd1e202" type="lemma" source="http://scta.info/resource/prov18_16@1-2">Donum hominis.</quote>
+            <quote xml:id="gom-prov18-Qd1e205"><seg type="qs">Donum charitatis</seg>, etc., usque ad <seg type="qs"><pb ed="#P" n="1101D"/> ac sibi libenter obtemperare faceret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e215">
+          <head xml:id="gom-prov18-Hd1e217">Versus 17</head>
+          <p xml:id="gom-prov18-d1e219">
+            <quote xml:id="gom-prov18-Qd1e221" type="lemma" source="http://scta.info/resource/prov18_17@1-2">Justus prior.</quote>
+            <quote xml:id="gom-prov18-Qd1e224"><seg type="qs">Omnis qui vere justus est</seg>, etc., usque ad <seg type="qs">ejus humilitatem digna mercede remunerat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e233">
+          <head xml:id="gom-prov18-Hd1e235">Versus 19</head>
+          <p xml:id="gom-prov18-d1e237">
+            <quote xml:id="gom-prov18-Qd1e239" type="lemma" source="http://scta.info/resource/prov18_19@1-3">Frater qui adjuvatur.</quote>
+            <quote xml:id="gom-prov18-Qd1e242"><seg type="qs">Cum populus Judaeorum et gentium</seg>, etc., usque ad <seg type="qs">ab infidelium incursione defendunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e251">
+          <head xml:id="gom-prov18-Hd1e253">Versus 23</head>
+          <p xml:id="gom-prov18-d1e255">
+            <quote xml:id="gom-prov18-Qd1e257" type="lemma" source="http://scta.info/resource/prov18_23@1-4">Cum obsecrationibus loquetur pauper.</quote>
+            Humiles spiritu humiliter Dominum adorant, ut Publicanus: superbi sua merita jactant, ut Pharisaeus.
+          </p>
+        </div>
+        <div xml:id="gom-prov18-Dd1e263">
+          <head xml:id="gom-prov18-Hd1e265">Versus 24</head>
+          <p xml:id="gom-prov18-d1e267">
+            <quote xml:id="gom-prov18-Qd1e269" type="lemma" source="http://scta.info/resource/prov18_24">Vir amabilis.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Gentilis conversus magis amatur a Domino, quam Judaeus infidelis perdurans, de quo secundum carnem natus est. Potest et de apostolis, de Judaea natis, intelligi; quia magis <pb ed="#P" n="1102A"/> amarent credentes ex gentibus, quam suae gentis incredulos.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

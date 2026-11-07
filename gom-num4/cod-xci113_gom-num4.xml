@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0388D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num4">
+        <head xml:id="gom-num4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-num4-Dd1e100">
+          <head xml:id="gom-num4-Hd1e102">Versus 2</head>
+          <p xml:id="gom-num4-d1e104">
+            <quote xml:id="gom-num4-Qd1e106" type="lemma" source="http://scta.info/resource/num4_2@1-2">Tolle summam.</quote>
+            <ref xml:id="gom-num4-Rd1e109"><name xml:id="gom-num4-Nd1e110" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num4-Qd1e113"><seg type="qs">Cum in tres ordines dividantur filii Levi</seg>, etc., usque ad <seg type="qs">et purioribus sensibus et liberis a saecularibus indicamus.</seg></quote>
+          </p>
+          <p xml:id="gom-num4-d1e121">
+            <ref xml:id="gom-num4-Rd1e123" type="lemma" subtype="implied" target="http://scta.info/resource/num4_2@1-2"/>
+            <ref xml:id="gom-num4-Rd1e125"><name xml:id="gom-num4-Nd1e126" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num4-Qd1e129"><seg type="qs">Alia littera</seg>, etc., usque ad <seg type="qs">ut faciat opera in tabernaculo testimonii.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e138">
+          <head xml:id="gom-num4-Hd1e140">Versus 3</head>
+          <p xml:id="gom-num4-d1e142">
+            <quote xml:id="gom-num4-Qd1e144" type="lemma" source="http://scta.info/resource/num4_3@17-18">In taber.</quote>
+            <ref xml:id="gom-num4-Rd1e147"><name xml:id="gom-num4-Nd1e148" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num4-Qd1e151"><seg type="qs">Tabernaculum testimonii</seg>, etc., usque ad <seg type="qs">non ab Israelitis sed a Levitis. <pb ed="#P" n="0389A"/></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e161">
+          <head xml:id="gom-num4-Hd1e163">Versus 5</head>
+          <p xml:id="gom-num4-d1e165">
+            <quote xml:id="gom-num4-Qd1e167" type="lemma" source="http://scta.info/resource/num4_5@17-19">Invoiventque eo arcam.</quote>
+            Ne forte aliqui videant nudam et moriantur. Exterminatur enim qui ineffabilia sacramenta contingit, nisi meritis et scientia in sacerdotii gradum promotus fuerit.
+          </p>
+          <p xml:id="gom-num4-d1e171">
+            <ref xml:id="gom-num4-Rd1e173" type="lemma" subtype="implied" target="http://scta.info/resource/num4_5@17-19"/>
+            <ref xml:id="gom-num4-Rd1e175"><name xml:id="gom-num4-Nd1e176" ref="#Origen">ORIG.</name>, hom. 4 in Num.</ref>
+            <quote xml:id="gom-num4-Qd1e180"><seg type="qs">Septem quaedam species numerantur</seg>, etc., usque ad <seg type="qs">alii autem haec operta videant, imo velata in humeris portent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e189">
+          <head xml:id="gom-num4-Hd1e191">Versus 6</head>
+          <p xml:id="gom-num4-d1e193">
+            <quote xml:id="gom-num4-Qd1e195" type="lemma" source="http://scta.info/resource/num4_6@1-2">Et operient.</quote>
+            Filii Aaron sacerdotes, quibus omnia nuda et aperta videre concessum est.
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e201">
+          <head xml:id="gom-num4-Hd1e203">Versus 7</head>
+          <p xml:id="gom-num4-d1e205">
+            <quote xml:id="gom-num4-Qd1e207" type="lemma" source="http://scta.info/resource/num4_7">Panes semper. Et panes qui semper super eam erunt.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-num4-Rd1e212"><name xml:id="gom-num4-Nd1e213" ref="#Augustine">AUG.</name>, quaest. 7 in Num.</ref>
+            <quote xml:id="gom-num4-Qd1e217">Non utique iidem semper, sed similes eorum, quia illi auferebantur, et recentes quotidie ponebantur, dum tamen sine panibus mensa non relinqueretur. Ideo dixit, qui semper super eam erunt, id est, quia semper <pb ed="#P" n="0389B"/> panes, non quia illi semper.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e224">
+          <head xml:id="gom-num4-Hd1e226">Versus 11</head>
+          <p xml:id="gom-num4-d1e228">
+            <quote xml:id="gom-num4-Qd1e230" type="lemma" source="http://scta.info/resource/num4_11@1-4">Nec non et altare.</quote>
+            Alia littera: <quote xml:id="gom-num4-Qd1e233">et super altare aureum adoperient vestimentum hyacinthinum: et adoperient illud operimento pelliceo ianthino.</quote> Posset ista locutio videri, quam velut absurdam et non integram Latini interpretes transferre voluerunt, id est super altare aureum adoperient vestimentum hyacinthinum, tanquam debuerit dici, et altare aureum adoperient vestimento hyacinthino: non adoperient vestimentum hyacinthinum. Hoc videtur significare quod ipsum vestimentum hyacinthinum aliunde adoperiretur. Sed mihi videtur non tam genus locutionis esse, quam subobscurus sensus; hoc enim intelligi potest: super altare aureum adoperient vestimentum hyacinthinum, ut ipsum <pb ed="#P" n="0389C"/> vestimentum hyacinthinum alia re operiendum praeceperit, quod vestimentum jam super altare esset, ac si breviter utrumque complecteretur, ut vestimento hyacinthino altare operiendum, et vestimentum hyacinthinum alio tegmine operiendum. Subjunxit denique unde operiri vellet vestimentum hyacinthinum, cum adjecit: et adoperient illud operimento pelliceo ianthino.
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e239">
+          <head xml:id="gom-num4-Hd1e241">Versus 15</head>
+          <p xml:id="gom-num4-d1e243">
+            <quote xml:id="gom-num4-Qd1e245" type="lemma" source="http://scta.info/resource/num4_15@15-18">Tunc intrabunt filii Caath.</quote>
+            <ref xml:id="gom-num4-Rd1e248"><name xml:id="gom-num4-Nd1e249" ref="#Origen">ORIG.</name>, hom. 4.</ref>
+            <quote xml:id="gom-num4-Qd1e253"><seg type="qs">Qui licet non sint sacerdotes</seg>, etc., usque ad <seg type="qs">cujus haereditatem praestabit nobis Dominus noster Jesus Christus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e262">
+          <head xml:id="gom-num4-Hd1e264">Versus 18</head>
+          <p xml:id="gom-num4-d1e266">
+            <quote xml:id="gom-num4-Qd1e268" type="lemma" source="http://scta.info/resource/num4_18@1-2">Nolite perdere.</quote>
+            <ref xml:id="gom-num4-Rd1e271"><name xml:id="gom-num4-Nd1e272" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num4-Qd1e275"><seg type="qs"><quote xml:id="gom-num4-Qd1e277">Nolite exterminare plebem Caath,</quote> etc. Intellige prius collocationem tabernaculi</seg>, etc., usque ad <seg type="qs">humeri autem <pb ed="#P" n="0389D"/> opera significant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e287">
+          <head xml:id="gom-num4-Hd1e289">Versus 20</head>
+          <p xml:id="gom-num4-d1e291">
+            <quote xml:id="gom-num4-Qd1e293" type="lemma" source="http://scta.info/resource/num4_20@1-2">Alii nulla,</quote>
+            etc.
+            <ref xml:id="gom-num4-Rd1e296"><name xml:id="gom-num4-Nd1e297" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num4-Qd1e300"><seg type="qs">In Ecclesiasticis quoque observationibus</seg>, etc., usque ad <seg type="qs">et in opus proferri ratio poposcerit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e309">
+          <head xml:id="gom-num4-Hd1e311">Versus 23</head>
+          <p xml:id="gom-num4-d1e313">
+            <quote xml:id="gom-num4-Qd1e315" type="lemma" source="http://scta.info/resource/num4_23@1-2">A triginta.</quote>
+            Tricenarius, qui denario ter multiplicato componitur, integritatem fidei et perfectionem operis significat, sine quibus nemo accedere debet ad divina ministeria. Joseph tricenarius Aegypti suscepit gubernacula <!--<note>(Gen. XI)</note>-->, et David regnum, quod septuagenarius, id est, perpetua quiete dignus complevit <!--<note>(III Reg. II)</note>-->. Et Ezechiel prophetiae dona promeruit <!--<note>(Ezech. I)</note>-->. Et quia per fidem adversa debent longanimiter ferri, et praemia sublimiter sperari arcae vel templi altitudo, et tabernaculi <pb ed="#P" n="0390A"/> longitudo triginta cubitis mensurantur.
+          </p>
+          <p xml:id="gom-num4-d1e327">
+            <quote xml:id="gom-num4-Qd1e329" type="lemma" source="http://scta.info/resource/num4_23@9-9">Quinquaginta,</quote>
+            etc.
+            <ref xml:id="gom-num4-Rd1e332"><name xml:id="gom-num4-Nd1e333" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num4-Qd1e336"><seg type="qs">In hoc quoque libro de hostium spoliis</seg>, etc., usque ad <seg type="qs">et tradere filiis Caath portanda humeris, et manibus vehenda.</seg></quote>
+          </p>
+          <p xml:id="gom-num4-d1e344">
+            <quote xml:id="gom-num4-Qd1e346" type="lemma" source="http://scta.info/resource/num4_23@11-13">Omnes qui ingrediuntur,</quote>
+            etc.
+            <ref xml:id="gom-num4-Rd1e349"><name xml:id="gom-num4-Nd1e350" ref="#Origen">ORIG.</name>, hom. 5 in Num.</ref>
+            <quote xml:id="gom-num4-Qd1e354"><seg type="qs">Dicitur de Levitis</seg>, etc., usque ad <seg type="qs">qui omni ex parte multiplicatis et purificatis sensibus invonitur perfectus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num4-Dd1e364">
+          <head xml:id="gom-num4-Hd1e366">Versus 35</head>
+          <p xml:id="gom-num4-d1e368">
+            <quote xml:id="gom-num4-Qd1e370" type="lemma" source="http://scta.info/resource/num4_35@7-9">Ad annum quinquagesimum.</quote>
+            <ref xml:id="gom-num4-Rd1e373"><name xml:id="gom-num4-Nd1e374" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num4-Qd1e377"><seg type="qs">Quinquagesimus autem annus remissionem et indulgentiam significat</seg>, etc., usque ad <seg type="qs">si addatur unius decadae consummatio, fiunt quingenti.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Romanos, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Romanos, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0499D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom9">
+        <head xml:id="gom-rom9-Hd1e86">Caput 9</head>
+        <div xml:id="gom-rom9-Dd1e88">
+          <head xml:id="gom-rom9-Hd1e90">Versus 1</head>
+          <p xml:id="gom-rom9-d1e92">
+            <quote xml:id="gom-rom9-Qd1e95" type="lemma" source="http://scta.info/resource/rom9_1@1-2">Veritatem dico.</quote>
+            Modo nihil me potest separare, sed olim fui separatus; unde modo doleo, et sic mala jam in bonum convertuntur.
+          </p>
+          <p xml:id="gom-rom9-d1e112">
+            <quote xml:id="gom-rom9-Qd1e114" type="lemma" source="http://scta.info/resource/rom9_1@1-2">Veritatem dico.</quote>
+            <ref xml:id="gom-rom9-Rd1e117"><name xml:id="gom-rom9-Nd1e118" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom9-Qd1e121"><seg type="qs">Quia contra Judaeos loqui visus est</seg>, etc., usque ad <seg type="qs">Job tamen fuit ex filiis Esau quintus, scilicet ab Abraham, hoc est nepos Esau.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e130">
+          <head xml:id="gom-rom9-Hd1e132">Versus 3</head>
+          <p xml:id="gom-rom9-d1e134">
+            <quote xml:id="gom-rom9-Qd1e136" type="lemma" source="http://scta.info/resource/rom9_3@9-10">Pro fratribus.</quote>
+            Judaeis, vel etiam pro his retrahendis qui modo sunt fratres in fide, qui sunt et cognati mei: et ita gravius peccabam.
+          </p>
+          <p xml:id="gom-rom9-d1e140">
+            <pb ed="#P" n="0500A"/>
+            <ref xml:id="gom-rom9-Rd1e144" type="lemma" subtype="implied" target="http://scta.info/resource/rom9_3@9-10"/>
+            <ref xml:id="gom-rom9-Rd1e146"><name xml:id="gom-rom9-Nd1e147" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom9-Qd1e150"><seg type="qs">Tam perfecta hic filii eminentia declaratur</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-rom9-Qd1e155" source="http://scta.info/resource/Itim2_5@6-12">Mediator Dei et hominum, homo Christus Jesus</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e161">
+          <head xml:id="gom-rom9-Hd1e163">Versus 6</head>
+          <p xml:id="gom-rom9-d1e165">
+            <quote xml:id="gom-rom9-Qd1e167" type="lemma" source="http://scta.info/resource/rom9_6@1-4">Non autem quod exciderit.</quote>
+            Consolatur dolorem suum Apostolus. Quis enim plangat eum qui olim mortuus habebatur; hos olim Deus salvandos non decrevit praescius, non personarum acceptor. Nullum enim damnat antequam peccet, nullum coronat antequam vincat; sed praescientia definitum habet, qualis unicuique futura sit voluntas, ex qua damnetur vel coronetur. Quia dolebat de Judaeis, consolatur se, inveniens scriptum: non omnes esse salvandos, sed tantum similes Isaac. In his ostendit quod sola gratia Dei faciet filios Dei.
+          </p>
+          <p xml:id="gom-rom9-d1e171">
+            <quote xml:id="gom-rom9-Qd1e173" type="lemma" source="http://scta.info/resource/rom9_6@1-6">Non autem quod exciderit verbum Dei.</quote>
+            Ex hoc quod dixit quod promissio <pb ed="#P" n="0500B"/> aeternae haereditatis facta est Judaeis, qui ipsi ex magna parte non crediderunt, videbatur verbum Dei non esse impletum. Ad quod respondet: Etsi in quibusdam non est impletum, in aliis tamen, scilicet in gentibus credentibus impletum est, qui modo veri sunt filii Abrahae.
+          </p>
+          <p xml:id="gom-rom9-d1e179">
+            <quote xml:id="gom-rom9-Qd1e181" type="lemma" source="http://scta.info/resource/rom9_6@1-4">Non autem exciderit.</quote>
+            Quasi dicat: Etsi ita laboravit; etsi non omnes credunt, non tamen excidit verbum Dei; vel, non dico quod exciderit. Verbum Dei excidere, est promissa non impleri.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e186">
+          <head xml:id="gom-rom9-Hd1e188">Versus 7</head>
+          <p xml:id="gom-rom9-d1e190">
+            <quote xml:id="gom-rom9-Qd1e192" type="lemma" source="http://scta.info/resource/rom9_7@9-10">In Isaac.</quote>
+            Id est in Christo, vocante gratia, congregantur. In Isaac promissione praefigurati sunt, non qui seipsos justos, sed quos Deus facit; hi sunt filii liberae quae sursum est, quae est mater nostra. Filii carnis sunt terrenae Jerusalem, quae <pb ed="#P" n="0500C"/> servit cum filiis suis. Sicut Isaac non meruit ut nasciturus promitteretur, sic et isti, sed sola gratia promissa est et eis data filiorum adoptio.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e200">
+          <head xml:id="gom-rom9-Hd1e202">Versus 10</head>
+          <p xml:id="gom-rom9-d1e204">
+            <quote xml:id="gom-rom9-Qd1e206" type="lemma" source="http://scta.info/resource/rom9_10@1-3">Non solum autem illa.</quote>
+            Sara habuit promissionem, sed et Rebecca habuit promissionem, habens scilicet duos filios <quote xml:id="gom-rom9-Qd1e209" source="http://scta.info/resource/rom9_10@7-13">ex uno concubitu Isaac patris nostri.</quote> Ex uno concubitu dicit, ne videantur merita parentum differentia in generatis, sed patris, id est institutoris nostri, quem imitemur, si volumus esse filii Dei. Promissio facta Sarae ostendit quod propter genus nullus salvatur. Ista autem promissio facta Rebeccae, ostendit quod propter nullum meritum suum vel parentum aliquis eligutur, sed sola gratia.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e214">
+          <head xml:id="gom-rom9-Hd1e216">Versus 11</head>
+          <p xml:id="gom-rom9-d1e218">
+            <pb ed="#P" n="0500D"/>
+            <quote xml:id="gom-rom9-Qd1e222" type="lemma" source="http://scta.info/resource/rom9_11@1-4">Cum enim nondum nati.</quote>
+            Rebecca habuit promissionem hanc: <quote xml:id="gom-rom9-Qd1e225" source="http://scta.info/resource/rom9_12@11-13">Major serviet minori,</quote> id est Esau, persequendo Jacob, ei proficiet.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e230">
+          <head xml:id="gom-rom9-Hd1e232">Versus 12</head>
+          <p xml:id="gom-rom9-d1e234">
+            <quote xml:id="gom-rom9-Qd1e236" type="lemma" source="http://scta.info/resource/rom9_12@1-3">Non ex operibus.</quote>
+            Futuris quae bona vel mala non erant futura, nisi apposita gratia vel subtracta.
+          </p>
+          <p xml:id="gom-rom9-d1e240">
+            <ref xml:id="gom-rom9-Rd1e242" type="lemma" subtype="implied" target="http://scta.info/resource/rom9_12@1-3"/>
+            <ref xml:id="gom-rom9-Rd1e244"><name xml:id="gom-rom9-Nd1e245" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom9-Qd1e248"><seg type="qs">Quod si futuros eorum mores dicitur divinum discrevisse judicium</seg>, etc., usque ad <seg type="qs">quomodo enim futura dicuntur, quae nulla erunt?</seg></quote>
+          </p>
+          <p xml:id="gom-rom9-d1e256">
+            <quote xml:id="gom-rom9-Qd1e258" type="lemma" source="http://scta.info/resource/rom9_12@11-13">Major serviet minori.</quote>
+            Hoc ad litteram: quia Idumaei qui de Esau (qui et Edom dicitur), subditi fuerunt filiis Israel; sed magis in hac prophetia intenditur, quod populus Judaeorum major, id est in cultu unius Dei prior, minori, id est posteriori Christiano esset serviturus.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e263">
+          <head xml:id="gom-rom9-Hd1e265">Versus 13</head>
+          <p xml:id="gom-rom9-d1e267">
+            <pb ed="#P" n="0501A"/>
+            <quote xml:id="gom-rom9-Qd1e271" type="lemma" source="http://scta.info/resource/rom9_13@4-5">Jacob dilexi,</quote>
+            etc. In Jacob nihil invenit amandum, nisi misericordiae suae donum. In Esau nihil odit, nisi originale peccatum. Sed quo modo hoc recte, cum nihil egissent? Quia res est stupenda, sibi objicit: <quote xml:id="gom-rom9-Qd1e274" source="http://scta.info/resource/rom9_14@1-3">Quid ergo dicemus?</quote> Ex misericordia, est velle et currere; quod apparet in aliis ex eadem massa cui debita est perditio.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e279">
+          <head xml:id="gom-rom9-Hd1e281">Versus 14</head>
+          <p xml:id="gom-rom9-d1e283">
+            <quote xml:id="gom-rom9-Qd1e285" type="lemma" source="http://scta.info/resource/rom9_14@1-2">Quid ergo.</quote>
+            Quia sine merito hunc elegit, hunc reprobavit, dicetur iniquus Deus? Non quia hunc per misericordiam elegit, illum per justitiam reprobavit. In quo neutro est iniquitas; hunc per misericordiam, quia ita dicit Moyses; hunc per justitiam, quia ita dicit Scriptura inducens Deum loquentem Pharaoni.
+          </p>
+          <p xml:id="gom-rom9-d1e289">
+            <quote xml:id="gom-rom9-Qd1e291" type="lemma" source="http://scta.info/resource/rom9_14@8-8">Absit.</quote>
+            Constat quod nullus liberatur, nisi gratuita <pb ed="#P" n="0501B"/> misericordia; nullus damnatur, nisi aequissima justitia. Sed cur potius hunc quam hunc liberet; scrutetur qui potest tam profundum judicium, verumtamen caveat praecipitium.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e298">
+          <head xml:id="gom-rom9-Hd1e300">Versus 15</head>
+          <p xml:id="gom-rom9-d1e302">
+            <quote xml:id="gom-rom9-Qd1e304" type="lemma" source="http://scta.info/resource/rom9_15@4-6">Miserebor cui misertus.</quote>
+            Id est, cui praescio miserendum, et apud me mansurum: hoc est dare illi cui dandum est, non dare illi cui dandum non est; ut eum vocet, quem sciat obaudire; ut David qui post veniam tam bene perstitit. Saul non auditus in prece non perstitit, sed ad idola conversus est; unde juste reprobatus esse a praescio videtur.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e310">
+          <head xml:id="gom-rom9-Hd1e312">Versus 16</head>
+          <p xml:id="gom-rom9-d1e314">
+            <quote xml:id="gom-rom9-Qd1e316" type="lemma" source="http://scta.info/resource/rom9_16@1-3">Igitur non volentis,</quote>
+            etc. Tanquam diceret: Non sufficit sola voluntas hominis, si non sit etiam misericordia Dei. Cui dicitur, econtra: <pb ed="#P" n="0501C"/> Non sufficit etiam misericordia Dei, si non sit voluntas hominis; ac per hoc si recte dictum est illud, cur etiam a contrario non recte dicitur: Non miserentis est Dei, sed volentis est hominis? Restat ergo ut recte dictum hoc intelligatur, ut totum Deo detur: qui hominis voluntatem bonam, et praeparat ad juvandam, et adjuvat praeparatam: volentem praevenit ut velit, volentem subsequitur ne frustra velit.
+          </p>
+          <p xml:id="gom-rom9-d1e322">
+            <ref xml:id="gom-rom9-Rd1e324" type="lemma" subtype="implied" target="http://scta.info/resource/rom9_16@1-3"/>
+            <ref xml:id="gom-rom9-Rd1e326"><name xml:id="gom-rom9-Nd1e327" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom9-Qd1e330"><seg type="qs">Quis porro tam impie desipit, ut dicat Deum malas hominum voluntates</seg>, etc., usque ad <seg type="qs">sicut ex misericordia sua gratiam praestat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e339">
+          <head xml:id="gom-rom9-Hd1e341">Versus 17</head>
+          <p xml:id="gom-rom9-d1e343">
+            <quote xml:id="gom-rom9-Qd1e345" type="lemma" source="http://scta.info/resource/rom9_17@9-9">Excitavi.</quote>
+            Vel suscitavi, vel servavi.
+          </p>
+          <p xml:id="gom-rom9-d1e349">
+            <ref xml:id="gom-rom9-Rd1e351" type="lemma" subtype="implied" target="http://scta.info/resource/rom9_17@9-9"/>
+            <ref xml:id="gom-rom9-Rd1e353"><name xml:id="gom-rom9-Nd1e354" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom9-Qd1e357"><seg type="qs">In hoc ipsum te servavi</seg>, etc., usque ad <seg type="qs">sed ut te indurato ostendam virtutem meam signis <pb ed="#P" n="0501D"/> Aegypti.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e368">
+          <head xml:id="gom-rom9-Hd1e370">Versus 18</head>
+          <p xml:id="gom-rom9-d1e372">
+            <quote xml:id="gom-rom9-Qd1e374" type="lemma" source="http://scta.info/resource/rom9_18@1-3">Ergo cujus vult.</quote>
+            Meritum misericordiae nullum est, meritum obdurationis peccatum massae totius damnatae. Nec obdurat impartiendo malitiam, sed non impartiendo misericordiam, sicut nec digni sunt, quod facit aequitate occulta; et ab humanis sensibus remota, quia non aperit Apostolus, sed miratur: O altitudo divitiarum.
+          </p>
+          <p xml:id="gom-rom9-d1e378">
+            <quote xml:id="gom-rom9-Qd1e380" type="lemma" source="http://scta.info/resource/rom9_18@8-8">Indurat.</quote>
+            <ref xml:id="gom-rom9-Rd1e383"><name xml:id="gom-rom9-Nd1e384" ref="#Augustine">AUG.</name>, epist. CV.</ref>
+            <quote xml:id="gom-rom9-Qd1e388">Non quasi quemquam peccare cogat, sed tantum quia quibusdam peccantibus misericordiam justificationis suae non largitur, ob hoc eos obdurare dicitur, quia eorum non miseretur, non quia impellit ut peccent. Eorum autem non miseretur quibus gratiam non esse praebendam <pb ed="#P" n="0502A"/> aequitate occultissima, et ab humanis sensibus remotissima judicat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e395">
+          <head xml:id="gom-rom9-Hd1e397">Versus 19</head>
+          <p xml:id="gom-rom9-d1e399">
+            <quote xml:id="gom-rom9-Qd1e401" type="lemma" source="http://scta.info/resource/rom9_19@4-5">Quid adhuc.</quote>
+            Postquam constat ex voluntate Dei esse, quare inquiritur unde alius sit bonus, alius sit malus? Non est opus, quia talis erit quisque qualem vult Deus esse, et ideo injuste alium damnat, alium salvat: vel quid queritur, id est cur nititur aliquis bene agere, cum nihil possit, nisi quod Deus velit?
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e406">
+          <head xml:id="gom-rom9-Hd1e408">Versus 20</head>
+          <p xml:id="gom-rom9-d1e410">
+            <quote xml:id="gom-rom9-Qd1e412" type="lemma" source="http://scta.info/resource/rom9_20@1-2">O Homo.</quote>
+            Hoc non ex inopia rationis reddendae, sed hominem ad se revocat.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e417">
+          <head xml:id="gom-rom9-Hd1e419">Versus 21</head>
+          <p xml:id="gom-rom9-d1e421">
+            <quote xml:id="gom-rom9-Qd1e423" type="lemma" source="http://scta.info/resource/rom9_21@7-9">Ex eadem massa.</quote>
+            Sic tota massa humani generis juste corrupta, et lutosa est: si inde vas in honorem, misericordia est; si in contumeliam, justum est, quia hoc erat ex natura: ecce justitia <pb ed="#P" n="0502B"/> in his qui non habent tempus operandi; de his autem qui habent tempus subdit: <quote xml:id="gom-rom9-Qd1e428">quid si Deus volens,</quote> scilicet quid respondeas Deo.
+          </p>
+          <p xml:id="gom-rom9-d1e431">
+            <quote xml:id="gom-rom9-Qd1e433" type="lemma" source="http://scta.info/resource/rom9_21@16-19">Aliud in contumeliam.</quote>
+            Vas in honorem, sed in contumeliam: si vile est; ex se lutum habet, non ex figulo.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e439">
+          <head xml:id="gom-rom9-Hd1e441">Versus 22</head>
+          <p xml:id="gom-rom9-d1e443">
+            <quote xml:id="gom-rom9-Qd1e445" type="lemma" source="http://scta.info/resource/rom9_22@2-4">Quid si Deus,</quote>
+            etc.
+            <ref xml:id="gom-rom9-Rd1e448"><name xml:id="gom-rom9-Nd1e449" ref="#Augustine">AUG.</name>, lib. I, ad Simplicianum, quaest. II.</ref>
+            <quote xml:id="gom-rom9-Qd1e453"><seg type="qs">Quasi dicat: Jam ostensum est; quod etsi Deus nihil boni det, non tamen iniquus est</seg>, etc., usque ad <seg type="qs">sed abusi sunt hac gratia.</seg></quote>
+          </p>
+          <p xml:id="gom-rom9-d1e461">
+            <quote xml:id="gom-rom9-Qd1e463" type="lemma" source="http://scta.info/resource/rom9_22@12-12">Sustinuit.</quote>
+            Sustinet Deus malos ut ordinate disperdat; et utitur illis tanquam instrumento ad salutem bonorum. Nullum enim Deus, vel angelorum, vel hominum crearet, quem malum futurum esse praesciret, nisi pariter nosset eos, quibus bonorum usibus commodaret.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e468">
+          <head xml:id="gom-rom9-Hd1e470">Versus 23</head>
+          <p xml:id="gom-rom9-d1e472">
+            <pb ed="#P" n="0502C"/>
+            <quote xml:id="gom-rom9-Qd1e476" type="lemma" source="http://scta.info/resource/rom9_23@1-2">Ut ostenderet.</quote>
+            Quasi dicat: Ad hoc patitur malos, et praeostendit iram, et ad notitiam sui trahit, ut ostenderet in vasa misericordiae, id est in electis per misericordiam, divitias gloriae, id est quam dives, et quam magna sit et gloriosa misericordia; ob hoc tot bona dat malis, ut convincat eos juste damnari, ut fideles eum magis diligant quibus gratiam ipsam conservavit.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e481">
+          <head xml:id="gom-rom9-Hd1e483">Versus 25</head>
+          <p xml:id="gom-rom9-d1e485">
+            <quote xml:id="gom-rom9-Qd1e487" type="lemma" source="http://scta.info/resource/rom9_25@1-3">Sicut in Osee.</quote>
+            Cum ostensum sit, quod ex sola gratia sint filii, incipit probare per prophetas quod hi sunt ex utroque populo.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e492">
+          <head xml:id="gom-rom9-Hd1e494">Versus 27</head>
+          <p xml:id="gom-rom9-d1e496">
+            <quote xml:id="gom-rom9-Qd1e498" type="lemma" source="http://scta.info/resource/rom9_27@6-7">Si fuerit.</quote>
+            Ecce sic dicitur salus Judeorum, ut major pars sit excaecata.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e503">
+          <head xml:id="gom-rom9-Hd1e505">Versus 28</head>
+          <p xml:id="gom-rom9-d1e507">
+            <quote xml:id="gom-rom9-Qd1e509" type="lemma" source="http://scta.info/resource/rom9_28@1-2">Verbum enim.</quote>
+            Subdit propheta per <pb ed="#P" n="0502D"/> quid salvi fiant, scilicet per verbum Evangelii, ut gloria operum legalium excludatur. Verbum enim Evangelii quod dicitur consummans, ad perfectionem ducit, et omnia legalia in uno Christo abbreviat: tamen aequum est, priori verbo legis; unde additur, <quote xml:id="gom-rom9-Qd1e514" source="http://scta.info/resource/rom9_28@6-7">in aequitate,</quote> id est ut nihil desit ad justitiam de omnibus praefiguratis, vel quia quae aequa sunt retinet, ut moralia; et quae jus est tolli, ut sunt figurae, rescindit.
+          </p>
+          <p xml:id="gom-rom9-d1e518">
+            <quote xml:id="gom-rom9-Qd1e520" type="lemma" source="http://scta.info/resource/rom9_28@4-7">Et abbrevians in aequitate.</quote>
+            Ut compendio fidei per gratiam salvet, non per innumeras observationes. Ne quis autem dubitet, Propheta adjungit:
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e525">
+          <head xml:id="gom-rom9-Hd1e527">Versus 29</head>
+          <p xml:id="gom-rom9-d1e529">
+            <quote xml:id="gom-rom9-Qd1e531" type="lemma" source="http://scta.info/resource/rom9_29@5-7">Nisi Dominus sabaoth.</quote>
+            Dominus fecit verbum, quod tam necessarium erat, quod nisi esset semen, <pb ed="#P" n="0503A"/> id est verbum, etc. Vel per semen intelliguntur reliquiae salvandae, id est apostoli et alii boni, et nisi per illas praedicatum esset verbum Dei, gentes periissent. Et hoc est: Nisi Dominus exercituum, quando alios excaecavit, reliquisset nobis, id est ad nostram utilitatem, semen, id est apostolos, de quibus seges Christi crevit.
+          </p>
+          <p xml:id="gom-rom9-d1e537">
+            <quote xml:id="gom-rom9-Qd1e539" type="lemma" source="http://scta.info/resource/rom9_29@15-18">Et sicut Gomorrha similes.</quote>
+            Utrumque posuit, ut notet similitudinem culpae et poenae, quasi dicat: Pares essemus in poena, quia similes essemus in culpa.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e545">
+          <head xml:id="gom-rom9-Hd1e547">Versus 31</head>
+          <p xml:id="gom-rom9-d1e549">
+            <quote xml:id="gom-rom9-Qd1e551" type="lemma" source="http://scta.info/resource/rom9_31@1-1">Israel.</quote>
+            Israel vero secutus est legem quasi retro, quia nunquam attingit spiritualem intelligentiam.
+          </p>
+          <p xml:id="gom-rom9-d1e555">
+            <quote xml:id="gom-rom9-Qd1e557" type="lemma" source="http://scta.info/resource/rom9_31@3-5">Sectando justitiam.</quote>
+            Lex Moysi est lex justitiae, si bene sit intellecta. Vel sectando justitiam <pb ed="#P" n="0503B"/> legis, id est quae est ex timore poenae, non amore justitiae, non pervenit, etc.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e564">
+          <head xml:id="gom-rom9-Hd1e566">Versus 32</head>
+          <p xml:id="gom-rom9-d1e568">
+            <quote xml:id="gom-rom9-Qd1e570" type="lemma" source="http://scta.info/resource/rom9_32@2-5">Quia non ex fide.</quote>
+            Non enim ex fide quaerebat justificari, et quia justitiam non petivit a Deo, non credidit in eum qui justificat impium, non credens Deum operari in homine quo justificetur. Unde vero contigerit ut non crederent, supponit.
+          </p>
+          <p xml:id="gom-rom9-d1e574">
+            <quote xml:id="gom-rom9-Qd1e576" type="lemma" source="http://scta.info/resource/rom9_32@10-10">Offenderunt.</quote>
+            Ad similitudinem parvi lapidis, a quo non cavetur, Christus habilis fuit offendere, latens in humilitate. Cui attestatur Isaias <!--<note>(cap. VIII)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-rom9-Dd1e583">
+          <head xml:id="gom-rom9-Hd1e585">Versus 33</head>
+          <p xml:id="gom-rom9-d1e587">
+            <quote xml:id="gom-rom9-Qd1e589" type="lemma" source="http://scta.info/resource/rom9_33@4-4">Ecce</quote>
+            in evidenti <quote xml:id="gom-rom9-Qd1e592" source="http://scta.info/resource/rom9_33@5-5">pono,</quote> id est nasci facio, <quote xml:id="gom-rom9-Qd1e595" source="http://scta.info/resource/rom9_33@6-7">in Sion,</quote> id est in Judaeis, Christum <quote xml:id="gom-rom9-Qd1e598" source="http://scta.info/resource/rom9_32@12-13">lapidem offensionis,</quote> a quo parvo non caveatur, et <quote xml:id="gom-rom9-Qd1e601" source="http://scta.info/resource/rom9_33@11-12">petram scandali,</quote> id est ex toto conterentem malos in futuro, et contristantem. Lapis autem offensionis dicitur Christus secundum statum <pb ed="#P" n="0503C"/> quo apparuit hic malis. Petra vero scandali, secundum quod in futuro faciet malis.
+          </p>
+          <p xml:id="gom-rom9-d1e608">
+            <quote xml:id="gom-rom9-Qd1e610" type="lemma" source="http://scta.info/resource/rom9_33@10-12">Et petram scandali.</quote>
+            Petra dicitur ante politionem et lapis post politionem. Politio autem Christi, passio fuit, qua infirmitatis miseriam deposuit. Christus ergo ante passionem fuit petra scandali, quo tempore scandalizati sunt Judaei irascentes et indignantes, quia se Filium Dei faceret. Lapis per politionem, Christus in passione, quando iidem Judaei maxime offenderunt, et excaecati sunt; Deum non esse credentes quem mortuum videbant.
+          </p>
+          <p xml:id="gom-rom9-d1e614">
+            <quote xml:id="gom-rom9-Qd1e616" type="lemma" source="http://scta.info/resource/rom9_33@19-20">Non confundetur.</quote>
+            <ref xml:id="gom-rom9-Rd1e619"><name xml:id="gom-rom9-Nd1e620" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom9-Qd1e623">Qui enim crediderit in eum, non habebit suam justitiam quae ex lege est, quamvis sit bona lex, sed implebit ipsam legem, <pb ed="#P" n="0503D"/> non sua justitia, sed data a Deo. Ita enim non confundetur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

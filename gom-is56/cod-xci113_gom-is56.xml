@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 56</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 56</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1298A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is56">
+        <head xml:id="gom-is56-Hd1e98">Caput 56</head>
+        <div xml:id="gom-is56-Dd1e100">
+          <head xml:id="gom-is56-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is56-d1e104">
+            <quote xml:id="gom-is56-Qd1e106" type="lemma" source="http://scta.info/resource/is56_1@1-5">Haec dicit Dominus. Custodite judicium.</quote>
+            <ref xml:id="gom-is56-Rd1e109"><name xml:id="gom-is56-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is56-Qd1e113">Terminato gentium vaticinio, quae in adventu Christi de saliuncula et urtica in abietem myrtumque mutantur: loquitur ad auditores illius <pb ed="#P" n="1298B"/> temporis, ut se parent ad adventum Salvatoris, qui est misericordia et justitia.</quote>
+          </p>
+          <p xml:id="gom-is56-d1e119">
+            <quote xml:id="gom-is56-Qd1e121" type="lemma" source="http://scta.info/resource/is56_1@4-5">Custodite judicium.</quote>
+            <ref xml:id="gom-is56-Rd1e124"><name xml:id="gom-is56-Nd1e125" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is56-Qd1e128">Non accipientes personam in judicio. Domini enim judicium est, qui judicat judicantes bona.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e132">
+          <head xml:id="gom-is56-Hd1e134">Versus 2</head>
+          <p xml:id="gom-is56-d1e136">
+            <quote xml:id="gom-is56-Qd1e138" type="lemma" source="http://scta.info/resource/is56_2@12-13">Custodiens sabbatum.</quote>
+            <ref xml:id="gom-is56-Rd1e141"><name xml:id="gom-is56-Nd1e142" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is56-Qd1e145">Ne sit, scilicet de sex diebus quibus factus est mundus. De quibus apostoli non erant, quibus dicitur: <quote xml:id="gom-is56-Qd1e147" source="http://scta.info/resource/io15_19@1-9">Si de mundo essetis, mundus quod suum erat diligeret,</quote> etc. <quote xml:id="gom-is56-Qd1e150" source="http://scta.info/resource/io15_19@17-25">Ego elegi vos de mundo, idcirco odit vos mundus</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e156">
+          <head xml:id="gom-is56-Hd1e158">Versus 3</head>
+          <p xml:id="gom-is56-d1e160">
+            <quote xml:id="gom-is56-Qd1e162" type="lemma" source="http://scta.info/resource/is56_3@1-3">Et non dicat.</quote>
+            <ref xml:id="gom-is56-Rd1e165"><name xml:id="gom-is56-Nd1e166" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is56-Qd1e169">Hoc contra Judaeos, qui sibi tantum adventum Christi vendicabant, et alios desperare cogebant. <quote xml:id="gom-is56-Qd1e171" source="http://scta.info/resource/rom10_12@1-7">Sed non est distinctio Judaei et Graeci</quote>.</quote>
+          </p>
+          <p xml:id="gom-is56-d1e176">
+            <quote xml:id="gom-is56-Qd1e178" type="lemma" source="http://scta.info/resource/is56_3@20-20">Eunuchus.</quote>
+            <ref xml:id="gom-is56-Rd1e181"><name xml:id="gom-is56-Nd1e182" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is56-Qd1e185"><seg type="qs">Propter regnum coelorum, qui <pb ed="#P" n="1298C"/> mortificant membra sua super terram</seg>, etc., usque ad <seg type="qs">quod de semine spiritualis operis dicitur, non prolis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e196">
+          <head xml:id="gom-is56-Hd1e198">Versus 4</head>
+          <p xml:id="gom-is56-d1e200">
+            <quote xml:id="gom-is56-Qd1e202" type="lemma" source="http://scta.info/resource/is56_4@1-4">Quia haec dicit Dominus.</quote>
+            <ref xml:id="gom-is56-Rd1e205"><name xml:id="gom-is56-Nd1e206" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is56-Qd1e209"><seg type="qs">Duo proposuit, proselytos scilicet et eunuchos</seg>, etc., usque ad <seg type="qs">ne se putent subjacere maledictioni legis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e219">
+          <head xml:id="gom-is56-Hd1e221">Versus 6</head>
+          <p xml:id="gom-is56-d1e223">
+            <quote xml:id="gom-is56-Qd1e225" type="lemma" source="http://scta.info/resource/is56_6@1-3">Et filios advenae:</quote>
+            post eunuchos ad advenas transit et praemia promittit.
+          </p>
+          <p xml:id="gom-is56-d1e229">
+            <quote xml:id="gom-is56-Qd1e231" type="lemma" source="http://scta.info/resource/is56_6@17-18">In servos.</quote>
+            Qualis Paulus qui de se ait: Paulus servus Christi Jesu, et Moyses famulus Dei.
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e236">
+          <head xml:id="gom-is56-Hd1e238">Versus 7</head>
+          <p xml:id="gom-is56-d1e240">
+            <quote xml:id="gom-is56-Qd1e242" type="lemma" source="http://scta.info/resource/is56_7">Holocausta eorum. Mortificate membra vestra, quae sunt super terram</quote>
+            <!-- check: lemma not matched to verse text -->
+            <!--<note>(Colos. III)</note>-->. Et <quote xml:id="gom-is56-Qd1e249" source="http://scta.info/resource/rom12_1@9-13">Exhibeatis corpora vestra hostiam Deo viventem.</quote> Holocaustum totum offertur Deo, et incenditur. Victimae pars sacerdotibus datur. Holocaustum Deo tribuit, qui mundum relinquit, ut semper vacet orationi. Victimam, <pb ed="#P" n="1298D"/> qui Deo servit et quae mundi sunt disponit juste.
+          </p>
+          <p xml:id="gom-is56-d1e255">
+            <quote xml:id="gom-is56-Qd1e257" type="lemma" source="http://scta.info/resource/is56_7@21-23">Super altari meo.</quote>
+            Fidem super quam omnia offeruntur, sine qua impossibile est Deo placere. Unde: <quote xml:id="gom-is56-Qd1e260" source="http://scta.info/resource/hab2_4@13-18">Justus autem in fide sua vivet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e265">
+          <head xml:id="gom-is56-Hd1e267">Versus 9</head>
+          <p xml:id="gom-is56-d1e269">
+            <quote xml:id="gom-is56-Qd1e271" type="lemma" source="http://scta.info/resource/is56_9@1-2">Omnes bestiae.</quote>
+            Vox prophetae, qui advocat Romanos ad excidium Jerusalem, quibus pene totus orbis serviebat. Vel per bestias, daemones: quibus ad devorandum Judaei traditi sunt.
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e276">
+          <head xml:id="gom-is56-Hd1e278">Versus 10</head>
+          <p xml:id="gom-is56-d1e280">
+            <quote xml:id="gom-is56-Qd1e282" type="lemma" source="http://scta.info/resource/is56_10@3-3">Caeci.</quote>
+            Non habentes Christum verum lumen, vel fidem et alias virtutes.
+          </p>
+          <p xml:id="gom-is56-d1e286">
+            <quote xml:id="gom-is56-Qd1e288" type="lemma" source="http://scta.info/resource/is56_10@7-7">Canes.</quote>
+            <ref xml:id="gom-is56-Rd1e291"><name xml:id="gom-is56-Nd1e292" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is56-Qd1e295">Sicut canes gregem, sic praelati debent custodire plebem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e299">
+          <head xml:id="gom-is56-Hd1e301">Versus 11</head>
+          <p xml:id="gom-is56-d1e303">
+            <quote xml:id="gom-is56-Qd1e305" type="lemma" source="http://scta.info/resource/is56_11@2-3">Canes impudentissimi.</quote>
+            Quod est: Sicut canes sine discretione etiam bonos saepe persequuntur, sic et Judaei impudenter clamaverunt, <pb ed="#P" n="1299A"/> <quote xml:id="gom-is56-Qd1e310" source="http://scta.info/resource/lc23_21@5-6">Crucifige, crucifige eum</quote>, nec Domini saturati sunt opprobriis.
+          </p>
+        </div>
+        <div xml:id="gom-is56-Dd1e315">
+          <head xml:id="gom-is56-Hd1e317">Versus 12</head>
+          <p xml:id="gom-is56-d1e319">
+            <quote xml:id="gom-is56-Qd1e321" type="lemma" source="http://scta.info/resource/is56_12@1-2">Venite sumamus.</quote>
+            Sic pervertebant qui corrigere debuerant. Et quia omnes peccaverunt, traditi sunt in manus Romanorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

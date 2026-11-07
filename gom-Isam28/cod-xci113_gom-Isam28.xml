@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 28</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 28</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0561D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam28">
+        <head xml:id="gom-Isam28-Hd1e98">Caput 28</head>
+        <div xml:id="gom-Isam28-Dd1e100">
+          <head xml:id="gom-Isam28-Hd1e102">Versus 3</head>
+          <p xml:id="gom-Isam28-d1e104">
+            <quote xml:id="gom-Isam28-Qd1e106" type="lemma" source="http://scta.info/resource/Isam28_3@1-2">Samuel autem.</quote>
+            <ref xml:id="gom-Isam28-Rd1e109"><name xml:id="gom-Isam28-Nd1e110" ref="#RabanusMaurus">RAB.</name> in lib. Reg., tom. II.</ref>
+            <quote xml:id="gom-Isam28-Qd1e114">Samuel superius mortuus legitur: sed causa resurrectionis ejus repetitur, ad damnationem Saulis, qui relicto Deo, contra legem, pythonem consulebat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam28-Dd1e118">
+          <head xml:id="gom-Isam28-Hd1e120">Versus 6</head>
+          <p xml:id="gom-Isam28-d1e122">
+            <quote xml:id="gom-Isam28-Qd1e124" type="lemma" source="http://scta.info/resource/Isam28_6@1-2">Consuluitque Dominum.</quote>
+            <ref xml:id="gom-Isam28-Rd1e127"><name xml:id="gom-Isam28-Nd1e128" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam28-Qd1e131">Sicut <pb ed="#P" n="0562A"/> Hebraei tradunt, jejunando et orando a Deo petebatur oraculum: et Deus illis per somnia revelabat futura, quod Saul fecisse non legitur.</quote>
+          </p>
+          <p xml:id="gom-Isam28-d1e137">
+            <quote xml:id="gom-Isam28-Qd1e139" type="lemma" source="http://scta.info/resource/Isam28_6@10-12">Neque per sacerdotes.</quote>
+            <ref xml:id="gom-Isam28-Rd1e142"><name xml:id="gom-Isam28-Nd1e143" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam28-Qd1e146">In Hebr.</quote>
+          </p>
+          <p xml:id="gom-Isam28-d1e149">
+            <quote xml:id="gom-Isam28-Qd1e151" type="lemma" source="http://scta.info/resource/Isam28_6@7-8">Neque per urim,</quote>
+            id est doctrinam, neque per ephod, scilicet quod sacerdos gerebat in pectore, in quo scriptum erat: doctrina et veritas.
+          </p>
+        </div>
+        <div xml:id="gom-Isam28-Dd1e156">
+          <head xml:id="gom-Isam28-Hd1e158">Versus 9</head>
+          <p xml:id="gom-Isam28-d1e160">
+            <quote xml:id="gom-Isam28-Qd1e162" type="lemma" source="http://scta.info/resource/Isam28_9@15-15">Magos.</quote>
+            Magi utuntur sanguine humano, et contactu mortuorum in maleficiis et divinationibus arioli solis verbis, id est incantationibus divinant. Pythius dicitur Apollo harum artium cultor, a quo Pythonissae, id est divini: hos Saul quasi zelo legis delevit, quia, ut aiunt, a daemonibus coacti David regem esse futurum praeconabantur.
+          </p>
+        </div>
+        <div xml:id="gom-Isam28-Dd1e167">
+          <head xml:id="gom-Isam28-Hd1e169">Versus 11</head>
+          <p xml:id="gom-Isam28-d1e171">
+            <quote xml:id="gom-Isam28-Qd1e173" type="lemma" source="http://scta.info/resource/Isam28_11">Quem suscitabo. (AUG., epist. ad <pb ed="#P" n="0562B"/> Simplicianum, tom. II.)</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-Isam28-Qd1e180"><seg type="qs">Quaeris utrum potuerit malignus spiritus excitare animam justi</seg>, etc., usque ad <seg type="qs">ut ad parem conditionem mortis referatur, quod uterque homo fuerit et mori potuerit, jam mortuus mortem vivo praenuntiavit.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

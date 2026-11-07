@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0565A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam3">
+        <head xml:id="gom-IIsam3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-IIsam3-Dd1e100">
+          <head xml:id="gom-IIsam3-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIsam3-d1e104">
+            <quote xml:id="gom-IIsam3-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam3_1@1-3">Facta est ergo.</quote>
+            <ref xml:id="gom-IIsam3-Rd1e109"><name xml:id="gom-IIsam3-Nd1e110" ref="#RabanusMaurus">RAB.</name> in lib. Reg.</ref>
+            <quote xml:id="gom-IIsam3-Qd1e114"><seg type="qs">Domus <pb ed="#P" n="0565B"/> David coelestis Jerusalem</seg>, etc., usque ad <seg type="qs">et tandem secundum merita sua in profundum abyssi submergetur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam3-Dd1e125">
+          <head xml:id="gom-IIsam3-Hd1e127">Versus 2</head>
+          <p xml:id="gom-IIsam3-d1e129">
+            <quote xml:id="gom-IIsam3-Qd1e131" type="lemma" source="http://scta.info/resource/IIsam3_2">Natique.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Sex filii qui nati sunt David in Hebron perfectionem sanctorum significant, qui de spiritali conjugio Christi et Ecclesiae per Spiritus sancti gratiam quotidie oriuntur.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam3-Dd1e138">
+          <head xml:id="gom-IIsam3-Hd1e140">Versus 5</head>
+          <p xml:id="gom-IIsam3-d1e142">
+            <quote xml:id="gom-IIsam3-Qd1e144" type="lemma" source="http://scta.info/resource/IIsam3_5">De Egla.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-IIsam3-Rd1e149"><name xml:id="gom-IIsam3-Nd1e150" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam3-Qd1e153">Haec est Michol, quae sola uxor dicitur, quia eam David in adolescentia sua primam sortitus est uxorem. Haec in partu dicitur occubuisse, unde in sequentibus scriptum est: <quote xml:id="gom-IIsam3-Qd1e155" source="http://scta.info/resource/IIsam6_23@1-13">Igitur Michol filiae Saul non est natus filius, usque ad diem mortis suae,</quote> quia in ipso partu occubuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam3-Dd1e161">
+          <head xml:id="gom-IIsam3-Hd1e163">Versus 17</head>
+          <p xml:id="gom-IIsam3-d1e165">
+            <quote xml:id="gom-IIsam3-Qd1e167" type="lemma" source="http://scta.info/resource/IIsam3_17@1-1">Sermonem.</quote>
+            <ref xml:id="gom-IIsam3-Rd1e170"><name xml:id="gom-IIsam3-Nd1e171" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam3-Qd1e174"><seg type="qs">Abner hortatur universum Israel</seg>, etc., usque ad <seg type="qs">et fidem Christi <pb ed="#P" n="0565C"/> ubique persecuti sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam3-Dd1e186">
+          <head xml:id="gom-IIsam3-Hd1e188">Versus 29</head>
+          <p xml:id="gom-IIsam3-d1e190">
+            <quote xml:id="gom-IIsam3-Qd1e192" type="lemma" source="http://scta.info/resource/IIsam3_29@17-18">Fluxum seminis.</quote>
+            Juxta litteram videtur imprecari effluentiam libidinis, leprae plagam, effeminationem, inimici subjacere gladio, mendicare.
+          </p>
+          <p xml:id="gom-IIsam3-d1e196">
+            <quote xml:id="gom-IIsam3-Qd1e198" type="lemma" source="http://scta.info/resource/IIsam3_29@22-23">Tenens fusum.</quote>
+            <ref xml:id="gom-IIsam3-Rd1e201"><name xml:id="gom-IIsam3-Nd1e202" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-IIsam3-Qd1e205">Per ambitum verborum notantur qui fallaciam suam defendere nituntur.</quote>
+          </p>
+          <p xml:id="gom-IIsam3-d1e208">
+            <ref xml:id="gom-IIsam3-Rd1e210" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam3_29@22-23"/>
+            <quote xml:id="gom-IIsam3-Qd1e212" source="http://scta.info/resource/mt26_52@13-17">Cadens. Qui gladio percutit gladio peribit</quote>. Haeretici gladio oris perfodiunt, prius gladio impietatis confossi.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam3-Dd1e217">
+          <head xml:id="gom-IIsam3-Hd1e219">Versus 39</head>
+          <p xml:id="gom-IIsam3-d1e221">
+            <quote xml:id="gom-IIsam3-Qd1e223" type="lemma" source="http://scta.info/resource/IIsam3_39@4-4">Delicatus.</quote>
+            Antiqui delicata dicebant diis consecrata, quae nunc dicimus dedicata.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

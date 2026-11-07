@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0106D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen7">
+        <head xml:id="gom-gen7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-gen7-Dd1e100">
+          <head xml:id="gom-gen7-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen7-d1e104">
+            <quote xml:id="gom-gen7-Qd1e106" type="lemma" source="http://scta.info/resource/gen7_1@1-2">Dixitque Dominus,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e111">
+          <head xml:id="gom-gen7-Hd1e113">Versus 2</head>
+          <p xml:id="gom-gen7-d1e115">
+            <quote xml:id="gom-gen7-Qd1e117" type="lemma" source="http://scta.info/resource/gen7_2@1-7">Ex omnibus animantibus mundis tolles septena et septena,</quote>
+            etc.
+            <ref xml:id="gom-gen7-Rd1e120"><name xml:id="gom-gen7-Nd1e121" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen7-Qd1e124">Non geminatum septenarium, id est quatuordecim, sed tantum septem debemus <pb ed="#P" n="0107A"/> accipere. Similiter duo et duo, non quatuor, sed tantum duo, masculum et feminam. Et notandum quod munda animalia impari numero, id est septenario introducuntur, immunda vero pari; quia impar numerus virtutis speciem portendit, par vero infirmitatem. Plura sunt munda, ut egressus Noe de arca haberet quid immolaret et manducaret.</quote>
+          </p>
+          <p xml:id="gom-gen7-d1e130">
+            <ref xml:id="gom-gen7-Rd1e132"><name xml:id="gom-gen7-Nd1e133" ref="#IsidoreOfSeville">ISID.</name> in Gen.</ref>
+            <quote xml:id="gom-gen7-Qd1e137" type="lemma" source="http://scta.info/resource/gen7_2@1-3">Ex omnibus animantibus,</quote>
+            <quote xml:id="gom-gen7-Qd1e140"><seg type="qs">etc. Non quod plures sint boni quam mali</seg>, etc., usque ad <seg type="qs">qui dies a passione tertius in numero dierum qui per omne tempus volvuntur, et primus, et octavus.</seg></quote>
+          </p>
+          <p xml:id="gom-gen7-d1e148">
+            <ref xml:id="gom-gen7-Rd1e150" type="lemma" subtype="implied" target="http://scta.info/resource/gen7_2@1-3"/>
+            <ref xml:id="gom-gen7-Rd1e152"><name xml:id="gom-gen7-Nd1e153" ref="#Augustine">AUG.</name> in Gen.</ref>
+            <quote xml:id="gom-gen7-Qd1e157">Quaeritur utrum tam magna arca centum annis potuit fabricari a quatuor hominibus, id est, Noe et filiis ejus tribus? Sed si non potuit, non erat magnum alios fabros adhibere, quamvis, <pb ed="#P" n="0107B"/> operis sui mercede adepta, non curaverunt utrum Noe sapienter an inaniter faceret, et in eam non intraverunt, quia non crediderunt quod ille credidit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e164">
+          <head xml:id="gom-gen7-Hd1e166">Versus 4</head>
+          <p xml:id="gom-gen7-d1e168">
+            <quote xml:id="gom-gen7-Qd1e170" type="lemma" source="http://scta.info/resource/gen7_4@7-8">Ego pluam,</quote>
+            etc.
+            <ref xml:id="gom-gen7-Rd1e173"><name xml:id="gom-gen7-Nd1e174" ref="#IsidoreOfSeville">ISID.</name> Quaest. in Gen., c. 7.</ref>
+            <quote xml:id="gom-gen7-Qd1e178">Quia omnis reatus contra decalogum committitur per universum orbem, qui partibus quatuor dividitur: quater vero decem quadraginta fiunt; sive reatus contrahatur ex prosperitate, quod pertinet ad dies; sive ex adversitate, quod ad noctes, in baptismo abluitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e182">
+          <head xml:id="gom-gen7-Hd1e184">Versus 5</head>
+          <p xml:id="gom-gen7-d1e186">
+            <quote xml:id="gom-gen7-Qd1e188" type="lemma" source="http://scta.info/resource/gen7_5@1-4">Fecit ergo Noe omnia,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e194">
+          <head xml:id="gom-gen7-Hd1e196">Versus 6</head>
+          <p xml:id="gom-gen7-d1e198">
+            <quote xml:id="gom-gen7-Qd1e200" type="lemma" source="http://scta.info/resource/gen7_6@1-3">Eratque sexcentorum annorum,</quote>
+            etc.
+            <ref xml:id="gom-gen7-Rd1e203"><name xml:id="gom-gen7-Nd1e204" ref="#IsidoreOfSeville">ISID.</name>, Ibid</ref>
+            <quote xml:id="gom-gen7-Qd1e208"><seg type="qs">. Quingentorum annorum erat Noe cum praecepit ei Dominus ut arcam faceret</seg>, etc., usque ad <seg type="qs">qui est ternarius quadratus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e217">
+          <head xml:id="gom-gen7-Hd1e219">Versus 7</head>
+          <p xml:id="gom-gen7-d1e221">
+            <pb ed="#P" n="0107C"/>
+            <quote xml:id="gom-gen7-Qd1e225" type="lemma" source="http://scta.info/resource/gen7_7@2-8">Ingressus est Noe et filii ejus, uxor,</quote>
+            etc.
+            <ref xml:id="gom-gen7-Rd1e228"><name xml:id="gom-gen7-Nd1e229" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen7-Qd1e232">Notandum quod seorsum ingreditur in arcam Noe cum filiis suis, et uxores eorum seorsum. Ideo distincte dicitur: <quote xml:id="gom-gen7-Qd1e234" source="http://scta.info/resource/gen7_7@2-7">Ingressus est Noe et filii ejus,</quote> et distincte additur, <quote xml:id="gom-gen7-Qd1e237" source="http://scta.info/resource/gen7_7@8-13">uxor ejus et uxores filiorum ejus.</quote> Mixtim autem viri cum mulieribus egressi sunt, sic enim scriptum est: <quote xml:id="gom-gen7-Qd1e240" source="http://scta.info/resource/sir3">Egressus est Noe et uxor ejus. Tempus enim amplectendi et tempus abstinendi .<!-- check: cited chapter given; verse not identified --></quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e246">
+          <head xml:id="gom-gen7-Hd1e248">Versus 10</head>
+          <p xml:id="gom-gen7-d1e250">
+            <quote xml:id="gom-gen7-Qd1e252" type="lemma" source="http://scta.info/resource/gen7_10@1-2">Cumque transissent,</quote>
+            etc.
+            <ref xml:id="gom-gen7-Rd1e255"><name xml:id="gom-gen7-Nd1e256" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen7-Qd1e259">Quia in spe futurae quietis, quam significat septimus dies, baptizamur, omnis caro extra arcam diluvio consumpta est; quia extra Ecclesiam aqua baptismi, quamvis eadem sit, non valet ad salutem, sed ad perniciem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e263">
+          <head xml:id="gom-gen7-Hd1e265">Versus 11</head>
+          <p xml:id="gom-gen7-d1e267">
+            <pb ed="#P" n="0107D"/>
+            <quote xml:id="gom-gen7-Qd1e271" type="lemma" source="http://scta.info/resource/gen7_11@1-2">Anno sexcentesimo,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-gen7-d1e275">
+            Allegorice.
+          </p>
+          <p xml:id="gom-gen7-d1e277">
+            <ref xml:id="gom-gen7-Rd1e279" type="lemma" subtype="implied" target="http://scta.info/resource/gen7_11@1-2"/>
+            Notandum quod sexcentesimo anno inundaverunt aquae diluvii, quia sexta aetate mundi primo commendatum est sacramentum baptismi, et hoc septima decima die secundi mensis, quia denarius decalogum significat. Septenarius propter Sabbatum septimam requiem significat, et quia in decalogo renuntiatio vitiorum videtur, quicunque in baptismo initiatur, propter aeternam requiem, omnibus vitiis se abrenuntiare profitetur.
+          </p>
+          <p xml:id="gom-gen7-d1e282">
+            <quote xml:id="gom-gen7-Qd1e284" type="lemma" source="http://scta.info/resource/gen7_11@17-17">Cataractae.</quote>
+            Fenestrae, nubes scilicet, quae sunt apertae, ut inde insolitae et majores pluviae funderentur. Cataractae vero proprie sunt ostia Nili, sed abusive pro omnibus fenestris ponuntur.
+          </p>
+          <p xml:id="gom-gen7-d1e289">
+            <pb ed="#P" n="0108A"/>
+            <ref xml:id="gom-gen7-Rd1e293" type="lemma" subtype="implied" target="http://scta.info/resource/gen7_11@17-17"/>
+            <ref xml:id="gom-gen7-Rd1e295"><name xml:id="gom-gen7-Nd1e296" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen7-Qd1e299">De arca solet quaeri utrum tanta capacitate, quanta describitur, animalia omnia quae ingressa dicuntur, et escas eorum ferre potuerit? Quod cubito geometrico solvit Origenes, asserens non frustra dictum esse Mosen in omni sapientia Aegyptiorum fuisse eruditum, qui geometriam dilexerunt, et cubitum geometricum quantum sex nostros continere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e303">
+          <head xml:id="gom-gen7-Hd1e305">Versus 15</head>
+          <p xml:id="gom-gen7-d1e307">
+            <quote xml:id="gom-gen7-Qd1e309" type="lemma" source="http://scta.info/resource/gen7_15@7-9">Bina et bina,</quote>
+            etc.
+            <ref xml:id="gom-gen7-Rd1e312"><name xml:id="gom-gen7-Nd1e313" ref="#Augustine">AUG.</name> ubi supra.</ref>
+            <quote xml:id="gom-gen7-Qd1e317">Praecepit superius septena et septena de mundis, duo et duo tolli de immundis. Quomodo ergo nunc dicit duo et duo intrasse, sive de mundis, sive de immundis? Sed hoc refertur non ad numerum mundorum et immundorum, sed ad masculum et feminam. In omnibus enim duo sunt, masculus et femina.</quote>
+          </p>
+          <p xml:id="gom-gen7-d1e320">
+            <pb ed="#P" n="0108B"/>
+            <ref xml:id="gom-gen7-Rd1e324" type="lemma" subtype="implied" target="http://scta.info/resource/gen7_15@7-9"/>
+            Notandum vero quod dicitur: <quote xml:id="gom-gen7-Qd1e326" source="http://scta.info/resource/gen7_15@13-17">In qua erat spiritus vitae,</quote> non solum de hominibus, sed et de pecoribus dictum: quia quidam de Spiritu sancto volunt intelligi quod scriptum est, <quote xml:id="gom-gen7-Qd1e329" source="http://scta.info/resource/gen2_7@11-15">insufflavit in faciem ejus spiritum vitae;</quote> sed quidam codices habent melius, <quote xml:id="gom-gen7-Qd1e332">flatum vitae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e336">
+          <head xml:id="gom-gen7-Hd1e338">Versus 17</head>
+          <p xml:id="gom-gen7-d1e340">
+            <quote xml:id="gom-gen7-Qd1e342" type="lemma" source="http://scta.info/resource/gen7_17@4-5">Quadraginta diebus,</quote>
+            etc.
+            <ref xml:id="gom-gen7-Rd1e345"><name xml:id="gom-gen7-Nd1e346">ALC.</name></ref>
+            <quote xml:id="gom-gen7-Qd1e348">Quadragenario numero pluvia inundavit, qui tribulationem poenitentiae ostendit. Post quadraginta dies Noe fenestram aperuit, significans jejunantibus coelum aperiri. Unde Moyses, Elias, et ipse Salvator, quadragenario numero jejunia consecravit, tanquam tribus temporibus necessaria, ante legem, sub lege, sub gratia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e353">
+          <head xml:id="gom-gen7-Hd1e355">Versus 20</head>
+          <p xml:id="gom-gen7-d1e357">
+            <quote xml:id="gom-gen7-Qd1e359" type="lemma" source="http://scta.info/resource/gen7_20@1-3">Quindecim cubitis altior,</quote>
+            etc. <pb ed="#P" n="0108C"/>
+          </p>
+          <p xml:id="gom-gen7-d1e365">
+            <ref xml:id="gom-gen7-Rd1e367" type="lemma" subtype="implied" target="http://scta.info/resource/gen7_20@1-3"/>
+            <ref xml:id="gom-gen7-Rd1e369"><name xml:id="gom-gen7-Nd1e370" ref="#Augustine">AUG.</name> in Gen.</ref>
+            <quote xml:id="gom-gen7-Qd1e374"><seg type="qs">Si terra Olympi montis (ut tradit historia) potuit invadere spatium tranquilli aeris</seg>, etc., usque ad <seg type="qs">ad tenendam quietem et fidem resurrectionis.</seg></quote>
+          </p>
+          <p xml:id="gom-gen7-d1e382">
+            <quote xml:id="gom-gen7-Qd1e384" type="lemma" source="http://scta.info/resource/gen7_20@1-1">Quindecim.</quote>
+            Sunt qui putant nec terrae qualitatem, nec altitudinem montium tantam ante diluvium fuisse qualis et quanta est hodie.
+          </p>
+        </div>
+        <div xml:id="gom-gen7-Dd1e389">
+          <head xml:id="gom-gen7-Hd1e391">Versus 23</head>
+          <p xml:id="gom-gen7-d1e393">
+            <quote xml:id="gom-gen7-Qd1e395" type="lemma" source="http://scta.info/resource/gen7_23@20-23">Deleta sunt de terra.</quote>
+            <ref xml:id="gom-gen7-Rd1e398"><name xml:id="gom-gen7-Nd1e399">ALC.</name></ref>
+            <quote xml:id="gom-gen7-Qd1e401">Ideo magis terrena animalia quam aquatilia perierunt, quia de maledicta terra vivunt.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0531A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudic13">
+        <head xml:id="gom-iudic13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-iudic13-Dd1e100">
+          <head xml:id="gom-iudic13-Hd1e102">Versus 3</head>
+          <p xml:id="gom-iudic13-d1e104">
+            <quote xml:id="gom-iudic13-Qd1e106" type="lemma" source="http://scta.info/resource/iudic13_3@14-15">Sed concipies,</quote>
+            etc.
+            <ref xml:id="gom-iudic13-Rd1e109"><name xml:id="gom-iudic13-Nd1e110" ref="#IsidoreOfSeville">ISID.</name>, in Jud.</ref>
+            <quote xml:id="gom-iudic13-Qd1e114"><seg type="qs">Samson habet quaedam in typum Christi</seg>, etc., usque ad <seg type="qs">et de Christo dictum et per prophetam: <quote xml:id="gom-iudic13-Qd1e120" source="http://scta.info/resource/mal4_2@2-13">Orietur vobis sol justitiae, et sanitas in pennis ejus.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic13-Dd1e125">
+          <head xml:id="gom-iudic13-Hd1e127">Versus 4</head>
+          <p xml:id="gom-iudic13-d1e129">
+            <quote xml:id="gom-iudic13-Qd1e131" type="lemma" source="http://scta.info/resource/iudic13_4@8-9">Nec immundum.</quote>
+            <ref xml:id="gom-iudic13-Rd1e134"><name xml:id="gom-iudic13-Nd1e135" ref="#Augustine">AUG.</name>, quaest. 50.</ref>
+            <quote xml:id="gom-iudic13-Qd1e139">Immundum est dissolutio disciplinae quae esse coeperat in Israel, et jam ad ea manducanda eos labefecerat, quae Deus in animalibus prohibuerat: jam enim etiam ad cultum transibant idolorum.</quote>
+          </p>
+          <p xml:id="gom-iudic13-d1e142">
+            <ref xml:id="gom-iudic13-Rd1e144" type="lemma" subtype="implied" target="http://scta.info/resource/iudic13_4@8-9"/>
+            <ref xml:id="gom-iudic13-Rd1e146"><name xml:id="gom-iudic13-Nd1e147" ref="#Augustine">AUG.</name>, quaest. 52 in Jud.</ref>
+            <quote xml:id="gom-iudic13-Qd1e151"><seg type="qs">Quod ait mulier dictum sibi ab angelo</seg>, etc., usque ad <seg type="qs">Nazaraei certis diebus <pb ed="#P" n="0531B"/> observabant voventes votumque reddentes.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic13-Dd1e162">
+          <head xml:id="gom-iudic13-Hd1e164">Versus 19</head>
+          <p xml:id="gom-iudic13-d1e166">
+            <quote xml:id="gom-iudic13-Qd1e168" type="lemma" source="http://scta.info/resource/iudic13_19@1-2">Tulit itaque.</quote>
+            <ref xml:id="gom-iudic13-Rd1e171"><name xml:id="gom-iudic13-Nd1e172" ref="#Augustine">AUG.</name>, quaest. 53.</ref>
+            <quote xml:id="gom-iudic13-Qd1e176"><seg type="qs">Quod dicit Scriptura ignorasse Manue, quod angelus Domini esset</seg>, etc., usque ad <seg type="qs">ut traderetur inimicis per quadraginta annos.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic13-Dd1e185">
+          <head xml:id="gom-iudic13-Hd1e187">Versus 20</head>
+          <p xml:id="gom-iudic13-d1e189">
+            <quote xml:id="gom-iudic13-Qd1e191" type="lemma" source="http://scta.info/resource/iudic13_20@13-13">Quod.</quote>
+            <ref xml:id="gom-iudic13-Rd1e194"><name xml:id="gom-iudic13-Nd1e195" ref="#GregoryGreat">GREG.</name>, lib. V Moral., cap. 23.</ref>
+            <quote xml:id="gom-iudic13-Qd1e199">Quid est quod ad visionem angeli vir est timidus, mulier audax, nisi quando coelestia nobis monstrantur, spiritus quidem pavore se concutit, sed tamen spes praesumit. Inde enim spes ad majora audenda se erigit, unde turbatur spiritus qui ea quae superna sunt prior videt, quia cum altiora secretorum coelestium sic levata mens conspicit, cuncta humanarum virium soliditas contremiscit.</quote>
+          </p>
+          <p xml:id="gom-iudic13-d1e202">
+            <pb ed="#P" n="0531C"/>
+            <ref xml:id="gom-iudic13-Rd1e206" type="lemma" subtype="implied" target="http://scta.info/resource/iudic13_20@13-13"/>
+            <ref xml:id="gom-iudic13-Rd1e208"><name xml:id="gom-iudic13-Nd1e209" ref="#Augustine">AUG.</name>, quaest. 54 in Jud.</ref>
+            <quote xml:id="gom-iudic13-Qd1e213"><seg type="qs">Quid est quod postquam manifestatus est Manue et uxori ejus angelus</seg>, etc., usque ad <seg type="qs">non accepturum sacrificium, sed ipsum sacrificium futurum.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

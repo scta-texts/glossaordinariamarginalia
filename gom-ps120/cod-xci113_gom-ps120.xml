@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 120</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 120</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1042D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps120">
+        <head xml:id="gom-ps120-Hd1e98">Psalmus 120</head>
+        <div xml:id="gom-ps120-Dd1e100">
+          <head xml:id="gom-ps120-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps120-d1e104">
+            <quote xml:id="gom-ps120-Qd1e106" type="lemma" source="http://scta.info/resource/ps120_1@1-2">Canticum graduum.</quote>
+            <ref xml:id="gom-ps120-Rd1e109"><name xml:id="gom-ps120-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e113">Secundus gradus petere divinam defensionem, cui nihil posse obviare monstratur.</quote>
+          </p>
+          <p xml:id="gom-ps120-d1e116">
+            <ref xml:id="gom-ps120-Rd1e118" type="lemma" subtype="implied" target="http://scta.info/resource/ps120_1@1-2"/>
+            <ref xml:id="gom-ps120-Rd1e120"><name xml:id="gom-ps120-Nd1e121" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e124"><seg type="qs">Cui enim de mundo exeunti pericula occurrunt, exposcere debet divinum auxilium</seg>, etc., usque ad <seg type="qs">Talis est iste, qui oculos ad Deum levat.</seg></quote>
+          </p>
+          <p xml:id="gom-ps120-d1e132">
+            <ref xml:id="gom-ps120-Rd1e134" type="lemma" subtype="implied" target="http://scta.info/resource/ps120_1@1-2"/>
+            <ref xml:id="gom-ps120-Rd1e136"><name xml:id="gom-ps120-Nd1e137" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e140">Primo levat oculos et orat: secundo quod oravit affirmat, ostendens virtutem auxilii impetrati.</quote>
+          </p>
+          <p xml:id="gom-ps120-d1e143">
+            <quote xml:id="gom-ps120-Qd1e145" type="lemma" source="http://scta.info/resource/ps120_1@3-4">Levavi oculos.</quote>
+            <ref xml:id="gom-ps120-Rd1e148"><name xml:id="gom-ps120-Nd1e149" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e152">Qui quasi inclinatus clamavit, <pb ed="#P" n="1043A"/> jam respirans, oculos ad intercessores sanctos levat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps120-Dd1e159">
+          <head xml:id="gom-ps120-Hd1e161">Versus 3</head>
+          <p xml:id="gom-ps120-d1e163">
+            <quote xml:id="gom-ps120-Qd1e165" type="lemma" source="http://scta.info/resource/ps120_3@7-8">Neque dormitet.</quote>
+            <ref xml:id="gom-ps120-Rd1e168"><name xml:id="gom-ps120-Nd1e169" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e172">Si dormit in te fides, dormit in te Christus.</quote>
+          </p>
+          <p xml:id="gom-ps120-d1e175">
+            <ref xml:id="gom-ps120-Rd1e177" type="lemma" subtype="implied" target="http://scta.info/resource/ps120_3@7-8"/>
+            <ref xml:id="gom-ps120-Rd1e179"><name xml:id="gom-ps120-Nd1e180" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e183">Dicitur hoc humana consuetudine; ut quando fessus custos dormitat, furtum patitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps120-Dd1e187">
+          <head xml:id="gom-ps120-Hd1e189">Versus 4</head>
+          <p xml:id="gom-ps120-d1e191">
+            <ref xml:id="gom-ps120-Rd1e193"><name xml:id="gom-ps120-Nd1e194" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e197" type="lemma" source="http://scta.info/resource/ps120_4@1-3">Ecce non dormitabit.</quote>
+            <quote xml:id="gom-ps120-Qd1e200"><seg type="qs">Dormitat Christus</seg>, etc., usque ad <seg type="qs">sed ne adhuc putes hoc de aliquo hominum, subdit, <quote xml:id="gom-ps120-Qd1e206" source="http://scta.info/resource/ps120_5@1-2">Dominus custodit.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps120-d1e210">
+            <quote xml:id="gom-ps120-Qd1e212" type="lemma" source="http://scta.info/resource/ps120_4@6-7">Qui custodit Israel.</quote>
+            <ref xml:id="gom-ps120-Rd1e215"><name xml:id="gom-ps120-Nd1e216" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e219"><seg type="qs">Qui non potest videre faciem</seg>, etc., usque ad <seg type="qs">et huic non dormit Christus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps120-Dd1e228">
+          <head xml:id="gom-ps120-Hd1e230">Versus 5</head>
+          <p xml:id="gom-ps120-d1e232">
+            <quote xml:id="gom-ps120-Qd1e234" type="lemma" source="http://scta.info/resource/ps120_5@1-2">Dominus custodit.</quote>
+            <ref xml:id="gom-ps120-Rd1e237"><name xml:id="gom-ps120-Nd1e238" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e241">Secunda pars, ubi quod oraverat affirmat. Et quasi quis quaereret, Quis est ille custos? subdit, <quote xml:id="gom-ps120-Qd1e243" source="http://scta.info/resource/ps120_5@1-2">Dominus custodit,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps120-d1e248">
+            <ref xml:id="gom-ps120-Rd1e250" type="lemma" subtype="implied" target="http://scta.info/resource/ps120_5@1-2"/>
+            <ref xml:id="gom-ps120-Rd1e252"><name xml:id="gom-ps120-Nd1e253" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e256"><seg type="qs">Non sine causa est</seg>, etc., usque ad <seg type="qs">dilectio Dei scilicet, et proximi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps120-Dd1e266">
+          <head xml:id="gom-ps120-Hd1e268">Versus 6</head>
+          <p xml:id="gom-ps120-d1e270">
+            <pb ed="#P" n="1043B"/>
+            <quote xml:id="gom-ps120-Qd1e274" type="lemma" source="http://scta.info/resource/ps120_6@1-10">Per diem sol non uret te, neque luna per noctem,</quote>
+            etc.
+            <ref xml:id="gom-ps120-Rd1e277"><name xml:id="gom-ps120-Nd1e278" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e281"><seg type="qs">Deus est sol</seg>, etc., usque ad <seg type="qs">vel <quote xml:id="gom-ps120-Qd1e287" source="http://scta.info/resource/ps120_6@8-8">luna,</quote> id est Ecclesia, non permittet uri nocte tribulationis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps120-d1e292">
+            <ref xml:id="gom-ps120-Rd1e294" type="lemma" subtype="implied" target="http://scta.info/resource/ps120_6@1-10"/>
+            <ref xml:id="gom-ps120-Rd1e296"><name xml:id="gom-ps120-Nd1e297" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e300"><seg type="qs">Vel <mentioned>per diem</mentioned> accipiuntur prospera</seg>, etc., usque ad <seg type="qs">ita nunc in prosperis et in adversis nos servat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps120-Dd1e311">
+          <head xml:id="gom-ps120-Hd1e313">Versus 8</head>
+          <p xml:id="gom-ps120-d1e315">
+            <quote xml:id="gom-ps120-Qd1e317" type="lemma" source="http://scta.info/resource/ps120_8@1-4">Dominus custodiat introitum tuum.</quote>
+            <ref xml:id="gom-ps120-Rd1e320"><name xml:id="gom-ps120-Nd1e321" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e324">Cuncta concludit, bonis initiis bonos exitus adjungat.</quote>
+          </p>
+          <p xml:id="gom-ps120-d1e327">
+            <ref xml:id="gom-ps120-Rd1e329"><name xml:id="gom-ps120-Nd1e330" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps120-Qd1e333" type="lemma" source="http://scta.info/resource/ps120_8@1-4">Dominus custodiat introitum tuum.</quote>
+            <quote xml:id="gom-ps120-Qd1e336"><seg type="qs">Intrantes custodit</seg>, etc., usque ad <seg type="qs">jam in aeternum nihil nocebit.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

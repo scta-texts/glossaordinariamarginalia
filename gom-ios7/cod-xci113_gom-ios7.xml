@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0511B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios7">
+        <head xml:id="gom-ios7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-ios7-Dd1e100">
+          <head xml:id="gom-ios7-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ios7-d1e104">
+            <quote xml:id="gom-ios7-Qd1e106" type="lemma" source="http://scta.info/resource/ios7_1@26-28">Iratusque est Dominus,</quote>
+            etc.
+            <ref xml:id="gom-ios7-Rd1e109"><name xml:id="gom-ios7-Nd1e110" ref="#Origen">ADAM.</name>, hom. 7.</ref>
+            <quote xml:id="gom-ios7-Qd1e114"><seg type="qs">Non otiose transcurrendum est</seg>, etc., usque ad <seg type="qs">quam mecum ire in gehennam.</seg></quote>
+          </p>
+          <p xml:id="gom-ios7-d1e122">
+            <ref xml:id="gom-ios7-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/ios7_1@26-28"/>
+            <ref xml:id="gom-ios7-Rd1e126"><name xml:id="gom-ios7-Nd1e127" ref="#Augustine">AUG.</name>, quaest. 8 in Josue.</ref>
+            <quote xml:id="gom-ios7-Qd1e131"><seg type="qs">Quaeri solet quomodo juste pro peccatis alterius in alios vindicetur</seg>, etc., usque ad <seg type="qs">quod in suo judicio facit ipse, quo potestas humana non aspirat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios7-Dd1e140">
+          <head xml:id="gom-ios7-Hd1e142">Versus 21</head>
+          <p xml:id="gom-ios7-d1e144">
+            <quote xml:id="gom-ios7-Qd1e146" type="lemma" source="http://scta.info/resource/ios7_21@13-13">Regulamque.</quote>
+            <ref xml:id="gom-ios7-Rd1e149"><name xml:id="gom-ios7-Nd1e150" ref="#Origen">ADAM.</name>, hom. 7.</ref>
+            <quote xml:id="gom-ios7-Qd1e154"><seg type="qs">Furatus est autem linguam auream</seg>, etc., usque ad <seg type="qs">quod furanti exstitit causa peccati.</seg></quote>
+          </p>
+          <p xml:id="gom-ios7-d1e162">
+            <quote xml:id="gom-ios7-Qd1e164" type="lemma" source="http://scta.info/resource/ios7_21@13-13">Regulamque.</quote>
+            LXX: <quote xml:id="gom-ios7-Qd1e167">Linguam,</quote> haereticorum scilicet dogmata, vel superstitiosa saecularium litterarum studia. Haec enim est lingua aurea, luculento sermone aptata. Hanc furati sunt haeretici de Jericho, quasi auream regulam, qui philosophorum sectam conati sunt inducere in Ecclesiam: quorum anathemate <pb ed="#P" n="0511D"/> multi perduntur, et quasi acervo lapidum multitudine peccatorum exstinguuntur: quorum ductor diabolus, qui per illorum impietatem fidelium quosdam vicerat, rursus superatus vincitur, et a populo Dei suspensus, crucis virtute necatur.
+          </p>
+          <p xml:id="gom-ios7-d1e172">
+            <ref xml:id="gom-ios7-Rd1e174" type="lemma" subtype="implied" target="http://scta.info/resource/ios7_21@13-13"/>
+            <ref xml:id="gom-ios7-Rd1e176"><name xml:id="gom-ios7-Nd1e177" ref="#IsidoreOfSeville">ISID.</name>, in Jos.</ref>
+            <quote xml:id="gom-ios7-Qd1e181">Jericho mundum significat: de anathemate ejus in tabernaculo suo abscondit, qui saeculares mores Ecclesiae secretis inserit; qui sub cultu Dei manens, solemnitates saeculi vel spectacula diligit; qui sortilegos aruspices et augures inquirit, vel caetera facit quae in Jericho, id est in saeculo habebantur.</quote>
+          </p>
+          <p xml:id="gom-ios7-d1e184">
+            <quote xml:id="gom-ios7-Qd1e186" type="lemma" source="http://scta.info/resource/ios7_21">Lapidavitque eum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ios7-Rd1e191"><name xml:id="gom-ios7-Nd1e192" ref="#Augustine">AUG.</name>, quaest. in Jos.</ref>
+            <quote xml:id="gom-ios7-Qd1e196"><seg type="qs">Quaeritur eum Dominus eum qui furtum fecerat</seg>, etc., usque ad <seg type="qs">peccato suo secum consumptis mori.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

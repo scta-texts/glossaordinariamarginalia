@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Romanos, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Romanos, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0484A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom5">
+        <head xml:id="gom-rom5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-rom5-Dd1e100">
+          <head xml:id="gom-rom5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-rom5-d1e104">
+            <quote xml:id="gom-rom5-Qd1e106" type="lemma" source="http://scta.info/resource/rom5_1@3-4">Ex fide.</quote>
+            Superius dixit, justificati gratis per gratiam, ne ipsa fides superba sit. Non dicat fidelis: ut merear justificationem, habeo fidem: respondetur enim ei: quid habes quod non accepisti?
+          </p>
+          <p xml:id="gom-rom5-d1e110">
+            <quote xml:id="gom-rom5-Qd1e112" type="lemma" source="http://scta.info/resource/rom5_1@5-6">Pacem habeamus,</quote>
+            qui ei reconciliati per ministrum gratiae Christum.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e117">
+          <head xml:id="gom-rom5-Hd1e119">Versus 2</head>
+          <p xml:id="gom-rom5-d1e121">
+            <quote xml:id="gom-rom5-Qd1e123" type="lemma" source="http://scta.info/resource/rom5_2@1-2">Per quem.</quote>
+            Enumerat beneficia quae a <pb ed="#P" n="0484B"/> Christo habentur.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e130">
+          <head xml:id="gom-rom5-Hd1e132">Versus 3</head>
+          <p xml:id="gom-rom5-d1e134">
+            <quote xml:id="gom-rom5-Qd1e136" type="lemma" source="http://scta.info/resource/rom5_3@8-8">Tribulatio.</quote>
+            Quod tribulatio non tollit patientiam, facit charitas quae est proprium donum Spiritus sancti.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e141">
+          <head xml:id="gom-rom5-Hd1e143">Versus 4</head>
+          <p xml:id="gom-rom5-d1e145">
+            <quote xml:id="gom-rom5-Qd1e147" type="lemma" source="http://scta.info/resource/rom5_4@6-6">Spem.</quote>
+            Id est certitudinem gloriae futurae, quae humanae rationi vana videtur: sed testimonio virtutis, id est patientiae vel miraculorum, firmatur.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e153">
+          <head xml:id="gom-rom5-Hd1e155">Versus 5</head>
+          <p xml:id="gom-rom5-d1e157">
+            <quote xml:id="gom-rom5-Qd1e159" type="lemma" source="http://scta.info/resource/rom5_5@1-2">Spes autem.</quote>
+            Quia est in Deo qui non fallit, non in homine mendace, cujus spei pignus est Spiritus: legitur enim: <quote xml:id="gom-rom5-Qd1e162" source="http://scta.info/resource/sir5">Fons aquae tuae sit tibi proprius, et nemo alienus communicet tibi<!-- check: cited chapter given; verse not identified --></quote>; ipse est Spiritus, quem non possunt accipere mali, et charitas est, quam habere et malus esse non potest aliquis. Sed nomen Christi habere et baptismum, corpus Domini sumere, et caetera sacramenta <pb ed="#P" n="0484C"/> habere, et malus esse potest. Charitas ergo est proprium donum Spiritus, et singularis fons.
+          </p>
+          <p xml:id="gom-rom5-d1e169">
+            <quote xml:id="gom-rom5-Qd1e171" type="lemma" source="http://scta.info/resource/rom5_5@6-7">Charitas Dei.</quote>
+            Vel Deus late nos diligit: et hoc habemus in cordibus nostris per Spiritum qui facit nos intelligere charitatem Dei erga nos.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e176">
+          <head xml:id="gom-rom5-Hd1e178">Versus 6</head>
+          <p xml:id="gom-rom5-d1e180">
+            <quote xml:id="gom-rom5-Qd1e182" type="lemma" source="http://scta.info/resource/rom5_6@1-3">Ut quid enim.</quote>
+            Cum Deus nos diligat, vel nos eum per Spiritum, spes implebitur: quia nisi ita sit, frustra est passus Christus. Et hoc est cur Christus pro impiis, id est pro dilectione impiorum vel pro vice eorum, pro impiis, non qui olim fuissent, et non tunc, sed cum essemus infirmi in peccatis.
+          </p>
+          <p xml:id="gom-rom5-d1e186">
+            <quote xml:id="gom-rom5-Qd1e188" type="lemma" source="http://scta.info/resource/rom5_6@9-10">Secundum tempus,</quote>
+            id est, per triduum tantum, ne desperes de ejus potentia cujus apparet in morte benevolentia: a quo tales arrhas accipimus, quod donavit <pb ed="#P" n="0484D"/> impiis mortem suam, qui servat justis vitam suam. Mortuus est pro te, o homo mortalis, ut vivas cum illo. Suscepit mortem nostram, ut donaret nobis vitam suam: accepit ex te, unde moreretur pro te. Induit se, ubi pro te moreretur: induet te, ubi cum illo vivas. Induit se carne mortali in virginitate matris: induet te vita perenni in aequalitate Patris.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e195">
+          <head xml:id="gom-rom5-Hd1e197">Versus 7</head>
+          <p xml:id="gom-rom5-d1e199">
+            <quote xml:id="gom-rom5-Qd1e201" type="lemma" source="http://scta.info/resource/rom5_7@1-1">Vix.</quote>
+            Dicit, <quote xml:id="gom-rom5-Qd1e204" source="http://scta.info/resource/rom5_7@3-4">pro justo.</quote> Forsitan pro bono: ostendit utrumque difficile et rarum, sed alterum difficilius et rarius.
+          </p>
+          <p xml:id="gom-rom5-d1e208">
+            <quote xml:id="gom-rom5-Qd1e210" type="lemma" source="http://scta.info/resource/rom5_7@3-4">Pro justo,</quote>
+            etc. Justus pro exercitio, qui et bonus; sed est et bonus qui non justus, id est qui natus est in simplicitate: innocens qui nondum laboravit, <pb ed="#P" n="0485A"/> ut amplificaret se bonis, ut sunt parvuli in baptismo mundati; et licet justus melior, causa tamen innocentiae miserabilior quam justitiae, quia non est hujusmodi justitia sine severitate.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e217">
+          <head xml:id="gom-rom5-Hd1e219">Versus 8</head>
+          <p xml:id="gom-rom5-d1e221">
+            <quote xml:id="gom-rom5-Qd1e223" type="lemma" source="http://scta.info/resource/rom5_8@9-10">Cum adhuc.</quote>
+            Ecce dum oderat secundum peccata, amabat secundum quod opus ejus: quod et fecit ante mundi constitutionem. Dicendum erat quantum nos dilexit, ne desperaremus; et quales, ne superbiremus. Fuit et alius modus possibilis Deo qui omnia potest, sed nullus nostrae miseriae sanandae convenientior. Quid enim nos tantum erigit, et a desperatione immortalitatis liberat, quam quod tanti nos fecit, ut homo pro nobis moreretur?
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e228">
+          <head xml:id="gom-rom5-Hd1e230">Versus 9</head>
+          <p xml:id="gom-rom5-d1e232">
+            <quote xml:id="gom-rom5-Qd1e234" type="lemma" source="http://scta.info/resource/rom5_9@6-7">Multo igitur.</quote>
+            Gravius est pro peccato <pb ed="#P" n="0485B"/> mori et peccatum tollere, quam jam justos etiam cooperantes salvare.
+          </p>
+          <p xml:id="gom-rom5-d1e240">
+            <quote xml:id="gom-rom5-Qd1e242" type="lemma" source="http://scta.info/resource/rom5_9@11-12">In sanguine.</quote>
+            Quia sic superatur justitia diabolus, non potentia. Justitia, quia immeritum, scilicet Christum diabolus occidit: unde et alios jure perdit. Non potentia, quia diabolus amator potentiae, desertor justitiae est, in quo homines magis eum imitantur. Placuit igitur Deo ut non potentia, sed justitia vincens hominem erueret, in quo homo eum imitaretur: postea vero in resurrectione secuta est potentia, quia revixit mortuus, nunquam postea moriturus.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e247">
+          <head xml:id="gom-rom5-Hd1e249">Versus 10</head>
+          <p xml:id="gom-rom5-d1e251">
+            <quote xml:id="gom-rom5-Qd1e253" type="lemma" source="http://scta.info/resource/rom5_10@4-5">Inimici essemus.</quote>
+            Non quoquomodo peccatores.
+          </p>
+          <p xml:id="gom-rom5-d1e257">
+            <quote xml:id="gom-rom5-Qd1e259" type="lemma" source="http://scta.info/resource/rom5_10@6-7">Reconciliati sumus.</quote>
+            Quia prius juste eramus sub potestate diaboli natura depravata peccato.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e265">
+          <head xml:id="gom-rom5-Hd1e267">Versus 12</head>
+          <p xml:id="gom-rom5-d1e269">
+            <pb ed="#P" n="0485C"/>
+            <quote xml:id="gom-rom5-Qd1e273" type="lemma" source="http://scta.info/resource/rom5_12@1-1">Propterea.</quote>
+            Dixit per Christum esse justitiam et vitam. Et quod possit esse per eum, per similitudinem in minori probare intendit.
+          </p>
+          <p xml:id="gom-rom5-d1e277">
+            <quote xml:id="gom-rom5-Qd1e279" type="lemma" source="http://scta.info/resource/rom5_12@3-4">Per unum.</quote>
+            Adam scilicet non unam Evam dixit Apostolus: consuetudinem tenens, dum successionem posteritatis humanae (quae peccato et morti ex eo venienti succumbit) non mulieri, sed viro attribuit. Non enim ex muliere posteritas, sed ex viro nominari solet. Vel, quia mulier de viro est, et utriusque una caro. Sive ergo ab Eva, sive ab Adam dicatur, utrumque ad primum hominem pertinet: et per hoc Apostolus peccatum originale propagationis intelligi voluit cujus princeps Adam, non imitationis, cujus princeps diabolus; unde: <quote xml:id="gom-rom5-Qd1e282" source="http://scta.info/resource/sap2_24@1-6">Invidia diaboli mors intravit in hunc mundum.</quote>
+          </p>
+          <p xml:id="gom-rom5-d1e286">
+            <pb ed="#P" n="0485D"/>
+            <quote xml:id="gom-rom5-Qd1e290" type="lemma" source="http://scta.info/resource/rom5_12@17-19">In omnes homines.</quote>
+            Quia etiam ante legem, cum non ita videretur lege non docente; imputa batur quidem peccatum apud homines, sed non apud Deum ut putabant peccatores apud quem putabatur impune futurum, cum nesciretur judicaturus: sed ubi lex data est, noverunt Deum curare humana et judicare. Ante non imputabatur, sed regnavit mors secure, possidente homines diabolo pro impunitate credita usque ad Moysen per quem rediit cognitio unius Dei. Regnavit ergo mors (ut habet alia littera), non tamen in omnes, sed in similes praevaricatori Adae, qui, neglecto Deo, creaturae servierunt, sicut ille loco Dei, diabolo consensit. Tales erant fere omnes usque ad legem. Perpauci, <pb ed="#P" n="0486A"/> ut Abraham, uni Deo servierunt, et in eos non regnavit mors, imo sub spe servati sunt in adventu Christi liberandi.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e297">
+          <head xml:id="gom-rom5-Hd1e299">Versus 13</head>
+          <p xml:id="gom-rom5-d1e301">
+            <quote xml:id="gom-rom5-Qd1e303" type="lemma" source="http://scta.info/resource/rom5_13@1-3">Usque ad legem,</quote>
+            etc. Id est quia nec lex potuit auferre peccatum, sed auxit, sive naturalis, sive scripta: sed non imputabatur, id est ignorabatur: regnavit tamen usque ad Moysen, id est legem: quia nec ipsa potuit regnum mortis auferre, quae regnat dum non sinit reatus peccati ad vitam aeternam venire, sed ad gehennam trahit. Hoc regnum sola gratia Christi destruxit etiam in antiquis: praeter quos in omnes regnavit: etiam in eos qui non sua propria voluntate peccaverunt, sicut Adam, sed originali vitio tenebantur ut pueri.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e308">
+          <head xml:id="gom-rom5-Hd1e310">Versus 14</head>
+          <p xml:id="gom-rom5-d1e312">
+            <quote xml:id="gom-rom5-Qd1e314" type="lemma" source="http://scta.info/resource/rom5_14@1-2">Sed regnavit.</quote>
+            Non imputabatur, sed <pb ed="#P" n="0486B"/> effectus indicabat, quia mors corporalis regnavit quotidie per aliquas passiones, tandem dissolvendo usque ad Moysen, cum minus videretur.
+          </p>
+          <p xml:id="gom-rom5-d1e320">
+            <quote xml:id="gom-rom5-Qd1e322" type="lemma" source="http://scta.info/resource/rom5_14@19-21">Qui est forma.</quote>
+            Adam est forma Christi: quia sicut ille est pater omnium secundum carnem, sic Christus secundum fidem; et sicut ex latere illius formata est Eva, sic ex hujus latere profluxerunt sacramenta, per quae salvatur Ecclesia. Ideoque sicut ille communicare potuit filiis suis peccatum et mortem, sic iste suis justitiam suam et vitam, et etiam iste plus boni suis confert, quam ille mali: et ideo magis potest salvare quam ille perdere.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e327">
+          <head xml:id="gom-rom5-Hd1e329">Versus 15</head>
+          <p xml:id="gom-rom5-d1e331">
+            <quote xml:id="gom-rom5-Qd1e333" type="lemma" source="http://scta.info/resource/rom5_15@1-3">Sed non sicut,</quote>
+            etc. Forma est in hoc, quod unus emendat, unus peccavit, sed causa Adae non talis est qualis Christi: quia unum est <pb ed="#P" n="0486C"/> delictum Adae, quo multi, id est similiter praevaricantes mortui sunt, sed Christi gratia in plures: quia et in hos, et in non similiter praevaricantes.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e340">
+          <head xml:id="gom-rom5-Hd1e342">Versus 17</head>
+          <p xml:id="gom-rom5-d1e344">
+            <quote xml:id="gom-rom5-Qd1e346" type="lemma" source="http://scta.info/resource/rom5_17@1-2">Si enim.</quote>
+            <ref xml:id="gom-rom5-Rd1e349"><name xml:id="gom-rom5-Nd1e350" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom5-Qd1e353"><seg type="qs">Mors regnavit, non regnat, quia qui per legem</seg>, etc., usque ad <seg type="qs">non enim generalis damnatio vel justificatio in omnibus.</seg></quote>
+          </p>
+          <p xml:id="gom-rom5-d1e361">
+            <quote xml:id="gom-rom5-Qd1e363" type="lemma" source="http://scta.info/resource/rom5_17@8-9">Per unum regnavit,</quote>
+            etc. Quia quas vires in illo habuit, in omnes posteriores exercuit, quorum materia fuit: sicut et culpa, quae ejus solius fuit; in omnes transfusa est.
+          </p>
+          <p xml:id="gom-rom5-d1e367">
+            <quote xml:id="gom-rom5-Qd1e369" type="lemma" source="http://scta.info/resource/rom5_17@10-11">Multo magis,</quote>
+            etc. Quia aeternaliter, cum in eis regnaverit mors temporaliter et cum fine.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e374">
+          <head xml:id="gom-rom5-Hd1e376">Versus 18</head>
+          <p xml:id="gom-rom5-d1e378">
+            <quote xml:id="gom-rom5-Qd1e380" type="lemma" source="http://scta.info/resource/rom5_18@13-15">Per unius justitiam,</quote>
+            etc. Non quod omnes geniti ab Adam regenerentur per Christum, sed sicut nullius carnalis generatio est nisi per <pb ed="#P" n="0486D"/> Adam, sic spiritualis nullius nisi per Christum. Si qui essent praeter Adam generati, et si qui praeter Christum regenerati, non diceret <quote xml:id="gom-rom5-Qd1e385" source="http://scta.info/resource/rom5_18@7-7">omnes</quote> et <quote xml:id="gom-rom5-Qd1e388" source="http://scta.info/resource/rom5_18@7-7">omnes.</quote> Sicut autem nullus homo praeter illam generationem, sic nullus justus praeter istam. Eosdem post dicit <quote xml:id="gom-rom5-Qd1e391" source="http://scta.info/resource/rom5_16@19-19">multos.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e397">
+          <head xml:id="gom-rom5-Hd1e399">Versus 19</head>
+          <p xml:id="gom-rom5-d1e401">
+            <quote xml:id="gom-rom5-Qd1e403" type="lemma" source="http://scta.info/resource/rom5_19@1-2">Sicut enim,</quote>
+            etc. Determinat delictum unius et justitiam unius, ut sicut ille merito peccati perdidit, ita iste merito justitiae nos liberasse videatur.
+          </p>
+          <p xml:id="gom-rom5-d1e407">
+            <quote xml:id="gom-rom5-Qd1e409" type="lemma" source="http://scta.info/resource/rom5_19@11-14">Ita et per unius,</quote>
+            etc. Hominis ait, non, Dei vel Verbi fidem, ne putes antiquos justos in solo Verbo Dei, id est solius Verbi fide sine fide incarnationis liberari.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e414">
+          <head xml:id="gom-rom5-Hd1e416">Versus 20</head>
+          <p xml:id="gom-rom5-d1e418">
+            <quote xml:id="gom-rom5-Qd1e420" type="lemma" source="http://scta.info/resource/rom5_20@1-2">Lex autem,</quote>
+            etc. Ostenderat Christum <pb ed="#P" n="0487A"/> dimittere omnia peccata tam originalia quam actualia: hic addit quod et a peccato legis liberat, id est praevaricatione, ut Judaei Christo magis sint obnoxii; quasi dicat: Prima est justificatio, lex autem latenter intravit.
+          </p>
+          <p xml:id="gom-rom5-d1e426">
+            <ref xml:id="gom-rom5-Rd1e428" type="lemma" subtype="implied" target="http://scta.info/resource/rom5_20@1-2"/>
+            <ref xml:id="gom-rom5-Rd1e430"><name xml:id="gom-rom5-Nd1e431" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom5-Qd1e434"><seg type="qs">Dicit hic Apostolus quid provenerit data lege</seg>, etc., usque ad <seg type="qs">Deus omnia dimisit.</seg></quote>
+          </p>
+          <p xml:id="gom-rom5-d1e442">
+            <quote xml:id="gom-rom5-Qd1e444" type="lemma" source="http://scta.info/resource/rom5_20@1-3">Lex autem subintravit.</quote>
+            Natis in peccatis datur lex ad domandam superbiam quasi: Non deest qui jubeat, sed deest qui impleat, quia in peccato natus implere non potest: ideo natus est Christus, id est gratia quae sanaret.
+          </p>
+          <p xml:id="gom-rom5-d1e448">
+            <quote xml:id="gom-rom5-Qd1e450" type="lemma" source="http://scta.info/resource/rom5_20@4-6">Ut abundaret delictum.</quote>
+            Ut scilicet qui in sordibus erat praevaricando magis sordesceret, ut mediocris paedagogum haberet, perfectus signum, et durus sentiret <pb ed="#P" n="0487B"/> flagellum.
+          </p>
+          <p xml:id="gom-rom5-d1e457">
+            <quote xml:id="gom-rom5-Qd1e459" type="lemma" source="http://scta.info/resource/rom5_20@11-11">Superabundavit.</quote>
+            Quia et gratia Christi etiam his proficit quos diabolus vincere non potuit: et quia peccatum ad tempus regnavit, gratia in aeternum.
+          </p>
+        </div>
+        <div xml:id="gom-rom5-Dd1e464">
+          <head xml:id="gom-rom5-Hd1e466">Versus 21</head>
+          <p xml:id="gom-rom5-d1e468">
+            <quote xml:id="gom-rom5-Qd1e470" type="lemma" source="http://scta.info/resource/rom5_21@2-6">Sicut regnavit peccatum in mortem.</quote>
+            Non addit, per unum vel per Adam: quia non de illo solum agit quod ex Adam traxerunt homines, sed et de eo quod sua voluntate addiderunt. Sed cum dicit: <quote xml:id="gom-rom5-Qd1e473" source="http://scta.info/resource/rom5_21@9-10">Gratia regnet,</quote> addit, <quote xml:id="gom-rom5-Qd1e476" source="http://scta.info/resource/rom5_21@16-18">per Jesum Christum,</quote> etc., quia per eum non tantum originalis, sed et voluntariorum fit remissio peccatorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 104</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 104</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1018D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps104">
+        <head xml:id="gom-ps104-Hd1e98">Psalmus 104</head>
+        <div xml:id="gom-ps104-Dd1e100">
+          <head xml:id="gom-ps104-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps104-d1e104">
+            <pb ed="#P" n="1018D"/>
+            <quote xml:id="gom-ps104-Qd1e108" type="lemma" source="http://scta.info/resource/ps104_1@1-1">Alleluia.</quote>
+            <ref xml:id="gom-ps104-Rd1e111"><name xml:id="gom-ps104-Nd1e112" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e115">Hic primo <quote xml:id="gom-ps104-Qd1e117" source="http://scta.info/resource/ps104_1@1-1">alleluia,</quote> nec ante a quoquam situm est, quod nulla lingua praesumpsit mutare.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e122">
+            <quote xml:id="gom-ps104-Qd1e124" type="lemma" source="http://scta.info/resource/ps104_1@1-1">Alleluia,</quote>
+            laudate.
+          </p>
+          <p xml:id="gom-ps104-d1e128">
+            <quote xml:id="gom-ps104-Qd1e130" type="lemma" source="http://scta.info/resource/ps104_1">Ia</quote>
+            <!-- check: lemma not matched to verse text -->
+            nomen Dei invisibilis, quod ei tantum convenit. Per viginti psalmos, quibus hic titulus est, magnalia Dei dicuntur, et magna in eis est exsultatio.
+          </p>
+          <p xml:id="gom-ps104-d1e136">
+            <ref xml:id="gom-ps104-Rd1e138" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_1"/>
+            <ref xml:id="gom-ps104-Rd1e140"><name xml:id="gom-ps104-Nd1e141" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e144">Hic commendat propheta bonos in illo populo Israel, qui cum aliis fidelibus sunt verum semen Abrahae, filii promissionis.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e148">
+            <quote xml:id="gom-ps104-Qd1e150" type="lemma" source="http://scta.info/resource/ps104_1@2-3">Confitemini Domino.</quote>
+            <ref xml:id="gom-ps104-Rd1e153"><name xml:id="gom-ps104-Nd1e154" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e157"><seg type="qs">Primus psalmus cui praenotatur alleluia</seg>, etc., usque ad <seg type="qs">quae temporalia misericordia Dei eis dedit, supponit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e166">
+          <head xml:id="gom-ps104-Hd1e168">Versus 2</head>
+          <p xml:id="gom-ps104-d1e170">
+            <quote xml:id="gom-ps104-Qd1e172" type="lemma" source="http://scta.info/resource/ps104_2@8-8">Omnia:</quote>
+            <ref xml:id="gom-ps104-Rd1e175"><name xml:id="gom-ps104-Nd1e176" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e179">omnia; nihil est pudore <pb ed="#P" n="1019A"/> silendum. Vel omnia, quae dicent, mirabilia sunt, nullus enim potest omnia narrare.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e186">
+          <head xml:id="gom-ps104-Hd1e188">Versus 3</head>
+          <p xml:id="gom-ps104-d1e190">
+            <quote xml:id="gom-ps104-Qd1e192" type="lemma" source="http://scta.info/resource/ps104_3@1-3">Laudamini in nomine,</quote>
+            id est, gaudete Christiani dici a Christo.
+          </p>
+          <p xml:id="gom-ps104-d1e196">
+            <ref xml:id="gom-ps104-Rd1e198" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_3@1-3"/>
+            <ref xml:id="gom-ps104-Rd1e200"><name xml:id="gom-ps104-Nd1e201" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e204">Laudamini, non vetat laudari, si boni; si non, nisi in Domino, qui bonos facit. Laudamini in nomine. Quod alibi, <quote xml:id="gom-ps104-Qd1e206" source="http://scta.info/resource/ps33_3@1-5">In Domino laudabitur anima mea:</quote> quod ibi addit, <quote xml:id="gom-ps104-Qd1e209" source="http://scta.info/resource/ps33_3@7-10">audiant mansueti et laetentur:</quote> hic quoque quodammodo, <quote xml:id="gom-ps104-Qd1e212" source="http://scta.info/resource/ps104_3@7-8">laetetur cor,</quote> quasi dicat,</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e218">
+          <head xml:id="gom-ps104-Hd1e220">Versus 4</head>
+          <p xml:id="gom-ps104-d1e222">
+            <quote xml:id="gom-ps104-Qd1e224" type="lemma" source="http://scta.info/resource/ps104_4@7-7">Faciem,</quote>
+            etc.
+            <ref xml:id="gom-ps104-Rd1e227"><name xml:id="gom-ps104-Nd1e228" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e231"><seg type="qs">Id est praesentiam</seg>, etc., usque ad <seg type="qs">malus timere potest praesentiam, quam bonus amat.</seg></quote>
+          </p>
+          <p xml:id="gom-ps104-d1e239">
+            <ref xml:id="gom-ps104-Rd1e241" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_4@7-7"/>
+            <ref xml:id="gom-ps104-Rd1e243"><name xml:id="gom-ps104-Nd1e244" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e247"><seg type="qs">A martyre Hyppolito</seg>, etc., usque ad <seg type="qs">ibi ex gentibus sumpturus Ecclesiam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e257">
+          <head xml:id="gom-ps104-Hd1e259">Versus 5</head>
+          <p xml:id="gom-ps104-d1e261">
+            <quote xml:id="gom-ps104-Qd1e263" type="lemma" source="http://scta.info/resource/ps104_5">Mementote et caetera.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps104-Rd1e268"><name xml:id="gom-ps104-Nd1e269" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e272"><seg type="qs">Quaerite <pb ed="#P" n="1019B"/> ipsum</seg>, etc., usque ad <seg type="qs">si id quod Deus est, magnum est quaerere, vel quae fecit videte.</seg></quote>
+          </p>
+          <p xml:id="gom-ps104-d1e282">
+            <quote xml:id="gom-ps104-Qd1e284" type="lemma" source="http://scta.info/resource/ps104_5@7-7">Prodigia,</quote>
+            etc.
+            <ref xml:id="gom-ps104-Rd1e287"><name xml:id="gom-ps104-Nd1e288" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e291">Paulatim ascendit de prodigiis visibilibus ad judicia: inde ad aeternum testamentum, ubi et praeceptum et promissum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e295">
+          <head xml:id="gom-ps104-Hd1e297">Versus 7</head>
+          <p xml:id="gom-ps104-d1e299">
+            <quote xml:id="gom-ps104-Qd1e301" type="lemma" source="http://scta.info/resource/ps104_7@6-8">In universa terra.</quote>
+            <ref xml:id="gom-ps104-Rd1e304"><name xml:id="gom-ps104-Nd1e305" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e308">Non putes filios Abrahae in una gente secundum carnem, quia in universa terra sunt Jacob et Israel, quibus judicia sua manifestat, sed non alii genti.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e312">
+          <head xml:id="gom-ps104-Hd1e314">Versus 8</head>
+          <p xml:id="gom-ps104-d1e316">
+            <quote xml:id="gom-ps104-Qd1e318" type="lemma" source="http://scta.info/resource/ps104_8@3-4">In saeculum,</quote>
+            <ref xml:id="gom-ps104-Rd1e321"><name xml:id="gom-ps104-Nd1e322" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e325">id est, in aeternum, unde post, in testamentum aeternum. Quod testamentum si Vetus accipitur propter terram Chanaam, de qua sequitur. Quomodo aeternum est, cum illa terrena haereditas non possit esse aeterna?</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e328">
+            <quote xml:id="gom-ps104-Qd1e330" type="lemma" source="http://scta.info/resource/ps104_8@5-5">Testamenti.</quote>
+            Dicitur enim testamentum illud quod <pb ed="#P" n="1019C"/> promittitur, et doctrina, in qua promissio declaratur, et pro qua servata redditur.
+          </p>
+          <p xml:id="gom-ps104-d1e336">
+            <ref xml:id="gom-ps104-Rd1e338" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_8@5-5"/>
+            <ref xml:id="gom-ps104-Rd1e340"><name xml:id="gom-ps104-Nd1e341" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e344">Promissum est quod accipere debemus: Mandatum quod facere. Haec est fides, ut justus ex fide vivat, et huic fidei promittitur haereditas.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e347">
+            <quote xml:id="gom-ps104-Qd1e349" type="lemma" source="http://scta.info/resource/ps104_8">Abraham, Isaac et Jacob.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Ecce tres patriarchae, quorum specialiter se dicit Deum: <quote xml:id="gom-ps104-Qd1e354" source="http://scta.info/resource/ex3_6@3-13">Ego sum Deus Abraham, Deus Isaac, Deus Jacob.</quote> Ecce triplex auctoritas.
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e359">
+          <head xml:id="gom-ps104-Hd1e361">Versus 10</head>
+          <p xml:id="gom-ps104-d1e363">
+            <quote xml:id="gom-ps104-Qd1e365" type="lemma" source="http://scta.info/resource/ps104_10@9-11">In testamentum aeternum,</quote>
+            <ref xml:id="gom-ps104-Rd1e368"><name xml:id="gom-ps104-Nd1e369" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e372"><seg type="qs">id est, quod ex ipso verbo impleto</seg>, etc., usque ad <seg type="qs">et manet filius in domo in aeternum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e381">
+          <head xml:id="gom-ps104-Hd1e383">Versus 11</head>
+          <p xml:id="gom-ps104-d1e385">
+            <quote xml:id="gom-ps104-Qd1e387" type="lemma" source="http://scta.info/resource/ps104_11@5-6">Terram Chanaan,</quote>
+            <ref xml:id="gom-ps104-Rd1e390"><name xml:id="gom-ps104-Nd1e391" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e394">id est, quod ab ea significatur: dedit enim etiam hanc terram in figuram aeternae haereditatis <!--<note>(I Joan. IV)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e400">
+            <ref xml:id="gom-ps104-Rd1e402" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_11@5-6"/>
+            <ref xml:id="gom-ps104-Rd1e404"><name xml:id="gom-ps104-Nd1e405" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e408">Congrue haereditas aeterna dicitur terra Chanaam, <pb ed="#P" n="1019D"/> quia ab ea servi repelluntur et filii recipiuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e415">
+          <head xml:id="gom-ps104-Hd1e417">Versus 12</head>
+          <p xml:id="gom-ps104-d1e419">
+            <quote xml:id="gom-ps104-Qd1e421" type="lemma" source="http://scta.info/resource/ps104_12@1-3">Cum essent numero.</quote>
+            <ref xml:id="gom-ps104-Rd1e424"><name xml:id="gom-ps104-Nd1e425" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e428">Quae subsidia temporalis vitae praestitit patribus et filiis eorum tam carne, quam fide, non ut his haereant, sed ea ad bonum aeternum referant, quod est, ut his allecti, justificationes et legem Dei requirant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e433">
+          <head xml:id="gom-ps104-Hd1e435">Versus 13</head>
+          <p xml:id="gom-ps104-d1e437">
+            <quote xml:id="gom-ps104-Qd1e439" type="lemma" source="http://scta.info/resource/ps104_13@8-9">De regno.</quote>
+            <ref xml:id="gom-ps104-Rd1e442"><name xml:id="gom-ps104-Nd1e443" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e446">Non quod tunc esset, sed quod futurum esset regnum Israel.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e450">
+          <head xml:id="gom-ps104-Hd1e452">Versus 15</head>
+          <p xml:id="gom-ps104-d1e454">
+            <quote xml:id="gom-ps104-Qd1e456" type="lemma" source="http://scta.info/resource/ps104_15@1-2">Nolite tangere.</quote>
+            <ref xml:id="gom-ps104-Rd1e459"><name xml:id="gom-ps104-Nd1e460" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e463">Haec verba, licet in historia non sint, tamen vel latenter dixit ea Deus in cordibus hominum, vel per angelum.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e466">
+            <quote xml:id="gom-ps104-Qd1e468" type="lemma" source="http://scta.info/resource/ps104_15@3-3">Christos,</quote>
+            <ref xml:id="gom-ps104-Rd1e471"><name xml:id="gom-ps104-Nd1e472" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e475">quia jam tunc Christiani, etsi latenter, unde <quote xml:id="gom-ps104-Qd1e477" source="http://scta.info/resource/io8_56@1-13">Abraham exsultavit, ut videret diem meum, vidit et <pb ed="#P" n="1020A"/> gavisus est</quote>. Nullus enim praeter hanc fidem, vel ante, vel post, Deo reconciliatus est, <quote xml:id="gom-ps104-Qd1e482" source="http://scta.info/resource/Itim2_5@1-6">unus enim mediator Christus</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e488">
+          <head xml:id="gom-ps104-Hd1e490">Versus 16</head>
+          <p xml:id="gom-ps104-d1e492">
+            <quote xml:id="gom-ps104-Qd1e494" type="lemma" source="http://scta.info/resource/ps104_16@1-2">Et vocavit.</quote>
+            <ref xml:id="gom-ps104-Rd1e497"><name xml:id="gom-ps104-Nd1e498" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e501"><seg type="qs">Quarta pars ubi incipit narrare</seg>, etc., usque ad <seg type="qs">jussit esse quae jam erat in dispositione. <quote xml:id="gom-ps104-Qd1e507" source="http://scta.info/resource/ps104_16@2-10">Ita vocavit, et omne firmamentum panis contritum<!-- check: Migne cites gen37; text matches ps104_16 --></quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e514">
+          <head xml:id="gom-ps104-Hd1e516">Versus 17</head>
+          <p xml:id="gom-ps104-d1e518">
+            <quote xml:id="gom-ps104-Qd1e520" type="lemma" source="http://scta.info/resource/ps104_17@4-4">Virum.</quote>
+            <ref xml:id="gom-ps104-Rd1e523"><name xml:id="gom-ps104-Nd1e524" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e527">Joseph venditus a fratribus, postea in Aegypto pro justitia sublimatus est.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e530">
+            <quote xml:id="gom-ps104-Qd1e532" type="lemma" source="http://scta.info/resource/ps104_17@10-10">Joseph.</quote>
+            <ref xml:id="gom-ps104-Rd1e535"><name xml:id="gom-ps104-Nd1e536" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e539"><seg type="qs">Si Joseph et humiliatus et exaltatus</seg>, etc., usque ad <seg type="qs">sed <quote xml:id="gom-ps104-Qd1e545" source="http://scta.info/resource/lc12_31@2-8">primum quaerite regnum Dei, et omnia adjicientur.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e550">
+          <head xml:id="gom-ps104-Hd1e552">Versus 18</head>
+          <p xml:id="gom-ps104-d1e554">
+            <quote xml:id="gom-ps104-Qd1e556" type="lemma" source="http://scta.info/resource/ps104_18@2-3">In compedibus.</quote>
+            <ref xml:id="gom-ps104-Rd1e559"><name xml:id="gom-ps104-Nd1e560" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e563">Non legimus de compedibus Joseph in Genesi, sed credendum est quod ibi praetermissum, dicit Spiritus in psalmo. <pb ed="#P" n="1020B"/></quote>
+          </p>
+          <p xml:id="gom-ps104-d1e568">
+            <ref xml:id="gom-ps104-Rd1e570" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_18@2-3"/>
+            <ref xml:id="gom-ps104-Rd1e572"><name xml:id="gom-ps104-Nd1e573" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e576">Et si gratiam habuerit apud custodem carceris, tamen prius anxiatus. Sequitur.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e579">
+            <quote xml:id="gom-ps104-Qd1e581" type="lemma" source="http://scta.info/resource/ps104_18@7-8">Ferrum pertransiit,</quote>
+            etc. Quasi praeter mala corporis, <quote xml:id="gom-ps104-Qd1e584" source="http://scta.info/resource/ps104_18@7-7">ferrum,</quote> id est tribulatio durae necessitatis, quae in aestuante et sollicita anima erat, <quote xml:id="gom-ps104-Qd1e587" source="http://scta.info/resource/ps104_18@8-8">pertransiit,</quote> etc. Vel secundum aliam litteram, <quote xml:id="gom-ps104-Qd1e590">anima ejus pertransiit ferrum,</quote> id est tribulationem durae necessitatis. Idem sensus cum priore.
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e594">
+          <head xml:id="gom-ps104-Hd1e596">Versus 23</head>
+          <p xml:id="gom-ps104-d1e598">
+            <quote xml:id="gom-ps104-Qd1e600" type="lemma" source="http://scta.info/resource/ps104_23@10-12">In terra Cham,</quote>
+            etc.
+            <ref xml:id="gom-ps104-Rd1e603"><name xml:id="gom-ps104-Nd1e604" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e607">Cham pater Chanaan, de quo Aegyptii trahunt originem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e612">
+          <head xml:id="gom-ps104-Hd1e614">Versus 24</head>
+          <p xml:id="gom-ps104-d1e616">
+            <quote xml:id="gom-ps104-Qd1e618" type="lemma" source="http://scta.info/resource/ps104_24@1-4">Et auxit populum suum,</quote>
+            etc.
+            <ref xml:id="gom-ps104-Rd1e621"><name xml:id="gom-ps104-Nd1e622" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e625">Quinta pars. Ecce quae in Aegypto gesta, breviter proponit, quae postea pleniter narrat. Dicit etiam, quomodo firmavit populum suum super inimicos suos.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e628">
+            <pb ed="#P" n="1020C"/>
+            <quote xml:id="gom-ps104-Qd1e632" type="lemma" source="http://scta.info/resource/ps104_24@6-8">Et firmavit eum.</quote>
+            Per signa Moysi scilicet, ante enim masculini fetus filiorum Israel necabantur, et ipsi in faciendis lateribus conterebantur. Sed postea in manu potenti, et per signa et portenta Domini, metuendi et honorandi facti sunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e637">
+          <head xml:id="gom-ps104-Hd1e639">Versus 25</head>
+          <p xml:id="gom-ps104-d1e641">
+            <quote xml:id="gom-ps104-Qd1e643" type="lemma" source="http://scta.info/resource/ps104_25@1-1">Convertit.</quote>
+            <ref xml:id="gom-ps104-Rd1e646"><name xml:id="gom-ps104-Nd1e647" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e650">Quomodo hoc factum sit narrare incipit. Convertit, non quod Deus sit auctor mali, sed malis bene utitur, dum auxit felicitatem Israel, illi ad invidendum conversi sunt, quia jam mali erant.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e653">
+            <quote xml:id="gom-ps104-Qd1e655" type="lemma" source="http://scta.info/resource/ps104_25@4-5">Ut odirent.</quote>
+            Invidia est odium felicitatis alienae.
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e660">
+          <head xml:id="gom-ps104-Hd1e662">Versus 26</head>
+          <p xml:id="gom-ps104-d1e664">
+            <quote xml:id="gom-ps104-Qd1e666" type="lemma" source="http://scta.info/resource/ps104_26@1-1">Misit.</quote>
+            Qui omnia per se poterat ut doceret, qua moderatione haec egisset.
+          </p>
+          <p xml:id="gom-ps104-d1e670">
+            <quote xml:id="gom-ps104-Qd1e672" type="lemma" source="http://scta.info/resource/ps104_26@7-9">Quem elegit ipsum.</quote>
+            <ref xml:id="gom-ps104-Rd1e675"><name xml:id="gom-ps104-Nd1e676" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e679">Sufficeret dicere, quem elegit: sed nihil <pb ed="#P" n="1020D"/> quaerendum est in eo, quod addidit, <quote xml:id="gom-ps104-Qd1e683" source="http://scta.info/resource/ps104_26@9-9">ipsum,</quote> sed consuetudo divinae locutionis est ad explanationem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e689">
+          <head xml:id="gom-ps104-Hd1e691">Versus 27</head>
+          <p xml:id="gom-ps104-d1e693">
+            <quote xml:id="gom-ps104-Qd1e695" type="lemma" source="http://scta.info/resource/ps104_27@4-6">Verba signorum suorum.</quote>
+            <ref xml:id="gom-ps104-Rd1e698"><name xml:id="gom-ps104-Nd1e699" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e702"><seg type="qs">Quibus ab eis praedicabatur</seg>, etc., usque ad <seg type="qs">verba ergo non vocum, sed signorum, vel prodigiorum per eos fecit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e711">
+          <head xml:id="gom-ps104-Hd1e713">Versus 28</head>
+          <p xml:id="gom-ps104-d1e715">
+            <ref xml:id="gom-ps104-Rd1e717" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_28"/>
+            <ref xml:id="gom-ps104-Rd1e719"><name xml:id="gom-ps104-Nd1e720" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e723">Vel: <quote xml:id="gom-ps104-Qd1e725" source="http://scta.info/resource/ps104_28@8-9">Exacerbaverunt sermones ejus,</quote> quod apertum est. Vel, non exacerbaverunt Moyses et Aaron sermones ejus, quia illos, scilicet Aegyptios, etiam durissimos, patienter tulerunt, propter mandatum Domini, donec omnia in eis, quae Dominus disposuit, fierent.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e730">
+            <quote xml:id="gom-ps104-Qd1e732" type="lemma" source="http://scta.info/resource/ps104_28@2-2">Tenebras,</quote>
+            etc.
+            <ref xml:id="gom-ps104-Rd1e735"><name xml:id="gom-ps104-Nd1e736" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e739">Inter plagas passi sunt. Sed hic dicit corda eorum <quote xml:id="gom-ps104-Qd1e741" source="http://scta.info/resource/ps104_28@4-4">obscurata,</quote> qui praecepta Dei spernebant. Competens <pb ed="#P" n="1021A"/> initium plagarum caecitas, sine qua non incurrissent caetera.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e749">
+          <head xml:id="gom-ps104-Hd1e751">Versus 29</head>
+          <p xml:id="gom-ps104-d1e753">
+            <quote xml:id="gom-ps104-Qd1e755" type="lemma" source="http://scta.info/resource/ps104_29@1-2">Convertit aquas.</quote>
+            <ref xml:id="gom-ps104-Rd1e758"><name xml:id="gom-ps104-Nd1e759" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e762">Secunda plaga, quae in Exodo prima, quae signabat, quod aquas maris Rubri verteret et eis in mortem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e767">
+          <head xml:id="gom-ps104-Hd1e769">Versus 30</head>
+          <p xml:id="gom-ps104-d1e771">
+            <quote xml:id="gom-ps104-Qd1e773" type="lemma" source="http://scta.info/resource/ps104_30@1-2">Edidit terra.</quote>
+            <ref xml:id="gom-ps104-Rd1e776"><name xml:id="gom-ps104-Nd1e777" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e780">Terram eorum convertit in ranas, quia tot fuerunt, ut hoc congrue per hyperbolen dicatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e784">
+          <head xml:id="gom-ps104-Hd1e786">Versus 31</head>
+          <p xml:id="gom-ps104-d1e788">
+            <quote xml:id="gom-ps104-Qd1e790" type="lemma" source="http://scta.info/resource/ps104_31@1-4">Dixit, et venit cynomya,</quote>
+            etc.
+            <ref xml:id="gom-ps104-Rd1e793"><name xml:id="gom-ps104-Nd1e794" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e797">In verbo enim ejus erant sine tempore, antequam fierent in tempore per ipsum verbum: vel per angelos, vel per Moysen quodammodo dixit, ut fieret tunc, cum fuerat faciendum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e801">
+          <head xml:id="gom-ps104-Hd1e803">Versus 32</head>
+          <p xml:id="gom-ps104-d1e805">
+            <quote xml:id="gom-ps104-Qd1e807" type="lemma" source="http://scta.info/resource/ps104_32@1-3">Posuit pluvias eorum,</quote>
+            etc.
+            <ref xml:id="gom-ps104-Rd1e810"><name xml:id="gom-ps104-Nd1e811" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e814">Simile est illi, <quote xml:id="gom-ps104-Qd1e816" source="http://scta.info/resource/ps104_30@2-4">et dedit terra eorum ranas.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e821">
+          <head xml:id="gom-ps104-Hd1e823">Versus 34</head>
+          <p xml:id="gom-ps104-d1e825">
+            <pb ed="#P" n="1021B"/>
+            <quote xml:id="gom-ps104-Qd1e829" type="lemma" source="http://scta.info/resource/ps104_34@4-6">Locusta et bruchus.</quote>
+            <ref xml:id="gom-ps104-Rd1e832"><name xml:id="gom-ps104-Nd1e833" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e836">Una plaga locusta et bruchus, quia altera est parens, altera fetus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e840">
+          <head xml:id="gom-ps104-Hd1e842">Versus 36</head>
+          <p xml:id="gom-ps104-d1e844">
+            <quote xml:id="gom-ps104-Qd1e846" type="lemma" source="http://scta.info/resource/ps104_36@1-2">Et percussit.</quote>
+            <ref xml:id="gom-ps104-Rd1e849"><name xml:id="gom-ps104-Nd1e850" ref="#Augustine">Id.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e853"><seg type="qs">Cum sint decem plagae</seg>, etc., usque ad <seg type="qs">qui non possent spernere laborum suorum mercedem, licet temporalem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e862">
+          <head xml:id="gom-ps104-Hd1e864">Versus 37</head>
+          <p xml:id="gom-ps104-d1e866">
+            <quote xml:id="gom-ps104-Qd1e868" type="lemma" source="http://scta.info/resource/ps104_37@1-3">Et eduxit eos,</quote>
+            etc. Sexta pars secundum Cassiodorum et Augustinum. Superius, quae mala intulit inimicis Israelitarum justitia Dei dixit: nunc quae bona eis temporalia misericordia Dei dedit, supponit ut his adjuti legem Dei quaerant.
+          </p>
+          <p xml:id="gom-ps104-d1e872">
+            <ref xml:id="gom-ps104-Rd1e874"><name xml:id="gom-ps104-Nd1e875" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e878" type="lemma" source="http://scta.info/resource/ps104_37@1-2">Et eduxit:</quote>
+            <quote xml:id="gom-ps104-Qd1e881"><seg type="qs">Abrahae dixit Deus</seg>, etc., usque ad <seg type="qs">deinde sequitur secundum beneficium, <quote xml:id="gom-ps104-Qd1e887" source="http://scta.info/resource/ps104_37@8-14">Et non erat infirmus, et caetera.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e893">
+          <head xml:id="gom-ps104-Hd1e895">Versus 38</head>
+          <p xml:id="gom-ps104-d1e897">
+            <quote xml:id="gom-ps104-Qd1e899" type="lemma" source="http://scta.info/resource/ps104_38@7-12">Quia incubuit timor eorum super <pb ed="#P" n="1021C"/> eos.</quote>
+            Timebat Israel, ne reliquias eorum consumeret.
+          </p>
+          <p xml:id="gom-ps104-d1e905">
+            <ref xml:id="gom-ps104-Rd1e907" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_38@7-12"/>
+            <ref xml:id="gom-ps104-Rd1e909"><name xml:id="gom-ps104-Nd1e910" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e913">Hic impletum est quod superius ait, et firmavit eum super inimicum ejus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e917">
+          <head xml:id="gom-ps104-Hd1e919">Versus 39</head>
+          <p xml:id="gom-ps104-d1e921">
+            <quote xml:id="gom-ps104-Qd1e923" type="lemma" source="http://scta.info/resource/ps104_39@1-5">Expandit nubem in protectione eorum.</quote>
+            Et haec est secunda pars, secundum Augustinum, ubi supponit quae temporalia bona misericordia Dei eis dedit, dictis superius malis quae inimicis eorum justitia Dei intulit.
+          </p>
+          <p xml:id="gom-ps104-d1e927">
+            <ref xml:id="gom-ps104-Rd1e929" type="lemma" subtype="implied" target="http://scta.info/resource/ps104_39@1-5"/>
+            <ref xml:id="gom-ps104-Rd1e931"><name xml:id="gom-ps104-Nd1e932" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e935">Jam incipit beneficia, quae iter agentibus in eremo facta sunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e939">
+          <head xml:id="gom-ps104-Hd1e941">Versus 40</head>
+          <p xml:id="gom-ps104-d1e943">
+            <quote xml:id="gom-ps104-Qd1e945" type="lemma" source="http://scta.info/resource/ps104_40@1-1">Petierunt,</quote>
+            <ref xml:id="gom-ps104-Rd1e948"><name xml:id="gom-ps104-Nd1e949" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e952">boni ad sustentationem infirmorum.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e955">
+            <quote xml:id="gom-ps104-Qd1e957" type="lemma" source="http://scta.info/resource/ps104_40@4-9">Coturnix: et pane coeli saturavit eos:</quote>
+            quae est et caro, quia hic non de amaricatione iniquorum, sed de fide electorum loquitur: ipsi intelligendi <pb ed="#P" n="1021D"/> sunt petisse, unde amaricantium murmura premerentur.
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e964">
+          <head xml:id="gom-ps104-Hd1e966">Versus 42</head>
+          <p xml:id="gom-ps104-d1e968">
+            <quote xml:id="gom-ps104-Qd1e970" type="lemma" source="http://scta.info/resource/ps104_42@1-6">Quoniam memor fuit verbi sancti sui.</quote>
+            <ref xml:id="gom-ps104-Rd1e973"><name xml:id="gom-ps104-Nd1e974" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e977">His omnibus beneficiis Deus commendat in Abraham meritum fidei, unde subdit: <quote xml:id="gom-ps104-Qd1e979" source="http://scta.info/resource/ps104_42@1-3">quoniam memor fuit.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e984">
+          <head xml:id="gom-ps104-Hd1e986">Versus 44</head>
+          <p xml:id="gom-ps104-d1e988">
+            <quote xml:id="gom-ps104-Qd1e990" type="lemma" source="http://scta.info/resource/ps104_44@1-3">Et dedit illis.</quote>
+            <ref xml:id="gom-ps104-Rd1e993"><name xml:id="gom-ps104-Nd1e994" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e997">Non ut propter ista eum colant, sed ut ea ad bonum aeternum referant, id est, <quote xml:id="gom-ps104-Qd1e999" source="http://scta.info/resource/ps104_45@1-4">ut custodiant justificationes ejus. Possederunt,</quote> etc., non ut haec habenda sint pro summo bono, sed ut eis vacent unde summum et aeternum bonum possit acquiri, non ut in eis luxu defluant vel torpescant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps104-Dd1e1005">
+          <head xml:id="gom-ps104-Hd1e1007">Versus 45</head>
+          <p xml:id="gom-ps104-d1e1009">
+            <quote xml:id="gom-ps104-Qd1e1011" type="lemma" source="http://scta.info/resource/ps104_45@3-3">Justificationes,</quote>
+            etc.
+            <ref xml:id="gom-ps104-Rd1e1014"><name xml:id="gom-ps104-Nd1e1015" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps104-Qd1e1018">Sunt, ubi <pb ed="#P" n="1022A"/> est evidens et absoluta praeceptio, ut, <quote xml:id="gom-ps104-Qd1e1022" source="http://scta.info/resource/sir13_18@4-6">Diligas Deum et proximum,</quote> quae custodienda. Lex de his, quae non corporaliter sed spiritualiter: et ideo quaerenda, quia umbra futurorum.</quote>
+          </p>
+          <p xml:id="gom-ps104-d1e1027">
+            <quote xml:id="gom-ps104-Qd1e1029" type="lemma" source="http://scta.info/resource/ps104_45@6-6">Legem.</quote>
+            Ut de circumcisione ejus et de aliis, quae diligenter investiganda sunt, quia mystice dicuntur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

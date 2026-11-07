@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 34</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 34</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0690A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr34">
+        <head xml:id="gom-IIchr34-Hd1e98">Caput 34</head>
+        <div xml:id="gom-IIchr34-Dd1e100">
+          <head xml:id="gom-IIchr34-Hd1e102">Versus 5</head>
+          <p xml:id="gom-IIchr34-d1e104">
+            <pb ed="#P" n="0690A"/>
+            <quote xml:id="gom-IIchr34-Qd1e108" type="lemma" source="http://scta.info/resource/IIchr34_5@1-2">Ossa praeterea.</quote>
+            <ref xml:id="gom-IIchr34-Rd1e111"><name xml:id="gom-IIchr34-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr34-Qd1e115">Ideo combussit sacerdotes in altaribus idolorum, ut ostenderet, quia funesta erant eorum sacrificia qui non solum pecudum hostias daemoniis offerebant, sed et ipsos idololatriae tradebant. Hic significat omnes qui diaboli servitio mancipati vitam sacrilegam temporaliter finierant aeternis cruciatibus consumendos pro cujusque merito.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr34-Dd1e119">
+          <head xml:id="gom-IIchr34-Hd1e121">Versus 22</head>
+          <p xml:id="gom-IIchr34-d1e123">
+            <quote xml:id="gom-IIchr34-Qd1e125" type="lemma" source="http://scta.info/resource/IIchr34_22@12-14">Ad Oldam prophetidem,</quote>
+            etc.
+            <ref xml:id="gom-IIchr34-Rd1e128"><name xml:id="gom-IIchr34-Nd1e129" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-IIchr34-Qd1e132">Oldam uxor fuit Sellum avunculi patris Jeremiae, et patris Ananeel. Habitabat in secunda. Locus erat Jerosolymitanus extra murum civitatis et antemurale, qui vocabatur secunda: cujus mentio fit in Sophonia propheta.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

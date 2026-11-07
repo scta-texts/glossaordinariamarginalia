@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Romanos, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Romanos, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0474B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom2">
+        <head xml:id="gom-rom2-Hd1e93">Caput 2</head>
+        <!-- cod-BBaBB4 ids without a counterpart here: gom-rom2-d1e119: verse 1 entry (lemma 'Qui iudicas.'): no PL entry with that lemma; gom-rom2-Dd1e133: verse 2: no PL verse div; gom-rom2-d1e180: verse 4 entry (lemma 'Patientiae et longanimitatis'): no PL entry with that lemma; gom-rom2-d1e193: verse 4 entry (lemma 'Ignoras'): no PL entry with that lemma; gom-rom2-d1e205: verse 5 entry (lemma 'maior est iniquitas mea'): no PL entry with that lemma; gom-rom2-d1e213: verse 5 entry (lemma ''): no PL entry with that lemma; gom-rom2-d1e218: verse 5 entry (lemma 'Thesaurizas'): no PL entry with that lemma; gom-rom2-d1e225: verse 5 entry (lemma ''): no PL entry with that lemma; gom-rom2-d1e236: verse 5 entry (lemma ''): no PL entry with that lemma; gom-rom2-d1e241: verse 5 entry (lemma ''): no PL entry with that lemma -->
+        <div xml:id="gom-rom2-Dd1e96">
+          <head xml:id="gom-rom2-Hd1e98">Versus 1</head>
+          <p xml:id="gom-rom2-d1e101">
+            <quote xml:id="gom-rom2-Qd1e103" type="lemma" source="http://scta.info/resource/rom2_1@1-2">Propter quod,</quote>
+            etc. Hoc communiter de gentibus et Judaeis. Judaeus judicabat gentilem, propter priorem statum: gentilis Judaeum: uterque homo, non spiritus. Si Judaeus judicat gentilem de idololatria, et ipsi idololatrae. Si gentilis Judaeum de legis praevaricatione, et ipse praevaricator naturalis legis. <pb ed="#P" n="0474C"/>
+          </p>
+          <p xml:id="gom-rom2-d1e107">
+            <quote xml:id="gom-rom2-Qd1e109" type="lemma" source="http://scta.info/resource/rom2_1@3-3">Inexcusabilis.</quote>
+            Quia tu ipse testis es damnationis tuae, dum alium judicas: quare hoc? quia eadem agis.
+          </p>
+          <p xml:id="gom-rom2-d1e113">
+            <quote xml:id="gom-rom2-Qd1e115" type="lemma" source="http://scta.info/resource/rom2_1@8-9">Qui judicas.</quote>
+            In quo ostendit se esse quod non est, id est justum.
+          </p>
+          <p xml:id="gom-rom2-d1e126">
+            <quote xml:id="gom-rom2-Qd1e128" type="lemma" source="http://scta.info/resource/rom2_1@18-20">Eadem enim agis.</quote>
+            Inanem excusationem gentium et Judaeorum sua auctoritate destruit Apostolus: posset enim excusationem peccati sui dicere Judaeus: Etsi agam eadem, tamen me Judaeum defendit genus et lex, me gentilem ignorantia. Contra Apostolus, <quote xml:id="gom-rom2-Qd1e133" source="http://scta.info/resource/rom2_1@8-9">Qui judicas,</quote> etc.
+          </p>
+          <p xml:id="gom-rom2-d1e138">
+            <ref xml:id="gom-rom2-Rd1e140" type="lemma" subtype="implied" target="http://scta.info/resource/rom2_1@18-20"/>
+            <ref xml:id="gom-rom2-Rd1e142"><name xml:id="gom-rom2-Nd1e143">THEOD.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e145">Est autem manifestum iis qui sapiunt, quod qui se inique gerunt, divina sententia puniuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e152">
+          <head xml:id="gom-rom2-Hd1e154">Versus 3</head>
+          <p xml:id="gom-rom2-d1e151">
+            <quote xml:id="gom-rom2-Qd1e153" type="lemma" source="http://scta.info/resource/rom2_3@1-2">Existimas autem.</quote>
+            Communiter legitur hoc capitulum contra Judaeos et gentiles; potest tamen et specialiter legi contra superciliosum quemlibet <pb ed="#P" n="0474D"/> Ecclesiae praelatum.
+          </p>
+          <p xml:id="gom-rom2-d1e160">
+            <quote xml:id="gom-rom2-Qd1e162" type="lemma" source="http://scta.info/resource/rom2_3@15-17">Quia tu effugies.</quote>
+            Peccas, dum tibi impunitatem promittis, gravius: quia contemnis bonum Dei, et ignoras te contemnere, et hoc facis? Increpatio, quasi diceret: Mirum est.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e173">
+          <head xml:id="gom-rom2-Hd1e175">Versus 4</head>
+          <p xml:id="gom-rom2-d1e166">
+            <quote xml:id="gom-rom2-Qd1e168" type="lemma" source="http://scta.info/resource/rom2_4@1-3">An divitias bonitatis.</quote>
+            <ref xml:id="gom-rom2-Rd1e171"><name xml:id="gom-rom2-Nd1e180" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e175"><seg type="qs">Copiosa est bonitas quae multa et multis</seg>, etc., usque ad <seg type="qs">sed ad impunitatem vertit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e212">
+          <head xml:id="gom-rom2-Hd1e214">Versus 5</head>
+          <p xml:id="gom-rom2-d1e199">
+            <quote xml:id="gom-rom2-Qd1e201" type="lemma" source="http://scta.info/resource/rom2_5@1-3">Secundum autem.</quote>
+            Sunt enim quidam quibus mala quae agunt displicent, et ducti poenitentia cordis, quatenus eis datur ex eis exire, laborant: de quibus hic non loquitur. Sunt alii quibus placent mala, et de misericordia Dei nimis praesumentes in eis pertinaciter perdurant, in quo illius ostendunt patientiam, et suam cumulant sarcinam deterius peccando. <pb ed="#P" n="0475A"/> Sunt et alii quibus displicent quidem mala, sed quoniam gravia esse intelligunt, putant sibi jam non posse ignosci, sicut ille qui dixit: <quote xml:id="gom-rom2-Qd1e205" source="http://scta.info/resource/gen4_13@5-8">Major est iniquitas mea</quote>, etc. Illi ergo nimia spe Deum non justum autumant: isti vero desperatione Deum non bonum aestimant. Ex utroque ergo periclitabuntur, et sperando et desperando, contrariis rebus et contrariis affectionibus laborantes, peribunt.
+          </p>
+          <p xml:id="gom-rom2-d1e209">
+            <quote xml:id="gom-rom2-Qd1e211" type="lemma" source="http://scta.info/resource/rom2_5@16-17">Justi judicii.</quote>
+            <ref xml:id="gom-rom2-Rd1e214"><name xml:id="gom-rom2-Nd1e215" ref="#Cyprian">CYPR.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e218"><seg type="qs">Justum judicium Dei dixit esse</seg>, etc., usque ad <seg type="qs">non potest poenitentia prodesse peccanti.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e227">
+          <head xml:id="gom-rom2-Hd1e229">Versus 6</head>
+          <p xml:id="gom-rom2-d1e231">
+            <quote xml:id="gom-rom2-Qd1e233" type="lemma" source="http://scta.info/resource/rom2_6@1-3">Qui reddet unicuique.</quote>
+            Qui modo illis quos liberat, non reddit, quoniam erga iniquos modo larga est ejus bonitas. In futuro autem reddet mala pro malis, quoniam justus: bona pro malis, quoniam <pb ed="#P" n="0475B"/> bonus et justus. Tantum mala pro bonis non reddet, quoniam injustus non est.
+          </p>
+          <p xml:id="gom-rom2-d1e239">
+            <ref xml:id="gom-rom2-Rd1e241" type="lemma" subtype="implied" target="http://scta.info/resource/rom2_6@1-3"/>
+            <ref xml:id="gom-rom2-Rd1e243"><name xml:id="gom-rom2-Nd1e244" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e247"><seg type="qs">Ad justitiam pertinet, ut nunquam supplicio careant, quorum mens</seg>, etc., usque ad <seg type="qs">aeternaliter puniri hominem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e256">
+          <head xml:id="gom-rom2-Hd1e258">Versus 8</head>
+          <p xml:id="gom-rom2-d1e260">
+            <quote xml:id="gom-rom2-Qd1e262" type="lemma" source="http://scta.info/resource/rom2_8@16-16">Indignatio.</quote>
+            Ne videatur irasci, et non vindicare: unde tribulatio et angustia.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e267">
+          <head xml:id="gom-rom2-Hd1e269">Versus 9</head>
+          <p xml:id="gom-rom2-d1e271">
+            <quote xml:id="gom-rom2-Qd1e273" type="lemma" source="http://scta.info/resource/rom2_9@1-3">Tribulatio et angustia.</quote>
+            Interim in anima sola ante judicium, post judicium autem ira et indignatio.
+          </p>
+          <p xml:id="gom-rom2-d1e277">
+            <quote xml:id="gom-rom2-Qd1e279" type="lemma" source="http://scta.info/resource/rom2_9@4-5">In omnem.</quote>
+            Quod supra indefinite, <ref xml:id="gom-rom2-Rd1e282">ibi: <seg type="incipit">His autem qui</seg>,</ref> hic universaliter, ut includat Judaeum et gentilem.
+          </p>
+          <p xml:id="gom-rom2-d1e289">
+            <quote xml:id="gom-rom2-Qd1e291" type="lemma" source="http://scta.info/resource/rom2_9@6-6">Animam</quote>
+            dicit, quia de incredulo agit anima, pro cujus perfidia arctabitur spirituali poena.
+          </p>
+          <p xml:id="gom-rom2-d1e295">
+            <quote xml:id="gom-rom2-Qd1e297" type="lemma" source="http://scta.info/resource/rom2_9@10-11">Judaei primum.</quote>
+            <ref xml:id="gom-rom2-Rd1e300"><name xml:id="gom-rom2-Nd1e301" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e304">Judaeum semper anteponit: quia sicut credens honorificentior est propter <pb ed="#P" n="0475C"/> Abraham, ita diffidens pejus tractandus est, quia promissa patribus refutavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e311">
+          <head xml:id="gom-rom2-Hd1e313">Versus 11</head>
+          <p xml:id="gom-rom2-d1e315">
+            <quote xml:id="gom-rom2-Qd1e317" type="lemma" source="http://scta.info/resource/rom2_11@1-3">Non est enim,</quote>
+            etc. Coaequat Judaeum et gentilem in poena et gloria: quia Deus judicat non secundum personas, sed secundum merita: quia utrosque secundum modum peccati damnat.
+          </p>
+          <p xml:id="gom-rom2-d1e321">
+            <ref xml:id="gom-rom2-Rd1e323" type="lemma" subtype="implied" target="http://scta.info/resource/rom2_11@1-3"/>
+            <ref xml:id="gom-rom2-Rd1e325"><name xml:id="gom-rom2-Nd1e326" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e329">Praerogativam generis non sequitur Deus ut suscipiat, causa patrum, diffidentem, vel abjiciat a se, propter indignitatem parentum, credentem, sed unumquemque proprio merito aut remunerat, aut condemnat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e333">
+          <head xml:id="gom-rom2-Hd1e335">Versus 12</head>
+          <p xml:id="gom-rom2-d1e337">
+            <quote xml:id="gom-rom2-Qd1e339" type="lemma" source="http://scta.info/resource/rom2_12@3-4">Sine lege.</quote>
+            <ref xml:id="gom-rom2-Rd1e342"><name xml:id="gom-rom2-Nd1e343" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e346">Ideo Apostolus gentiles sine lege dixit, quia Moysi legem scriptam non acceperant, quam se accepisse gloriabantur Judaei.</quote>
+          </p>
+          <p xml:id="gom-rom2-d1e349">
+            <quote xml:id="gom-rom2-Qd1e351" type="lemma" source="http://scta.info/resource/rom2_12@12-13">In lege.</quote>
+            <ref xml:id="gom-rom2-Rd1e354"><name xml:id="gom-rom2-Nd1e355" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e358"><seg type="qs">Qui noverunt divina mandata, aufertur <pb ed="#P" n="0475D"/> ab eis excusatio</seg>, etc., usque ad <seg type="qs">vel additamento propriae voluntatis.</seg></quote>
+          </p>
+          <p xml:id="gom-rom2-d1e368">
+            <quote xml:id="gom-rom2-Qd1e370" type="lemma" source="http://scta.info/resource/rom2_12@17-17">Judicabuntur.</quote>
+            Non ut quasi per ignem salvi fiant, ut quidam dicunt, sed prorsus peribunt. Dicit enim Christus quod tolerabilius erit Sodomae in judicio, quam Judaeis in Christum non credentibus. Et item dicit quod excusationem non habebunt de peccato infidelitatis, quia venit et locutus est eis: de quo habent excusationem illi, quibus nec per se nec per suos locutus est, qui tamen non effugient damnationem: quia <quote xml:id="gom-rom2-Qd1e373" source="http://scta.info/resource/rom2_12@3-4">qui sine lege,</quote> etc. Leviora tamen passuri quia cui plus committitur, plus ab eo exigitur.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e379">
+          <head xml:id="gom-rom2-Hd1e381">Versus 13</head>
+          <p xml:id="gom-rom2-d1e383">
+            <quote xml:id="gom-rom2-Qd1e385" type="lemma" source="http://scta.info/resource/rom2_13@1-3">Non enim auditores.</quote>
+            Nonne sola lex sulvat? Non, quia non facit justos, et hoc est: Non <pb ed="#P" n="0476A"/> enim pro auditu, sed factores quicunque, quod quidem est per gratiam.
+          </p>
+          <p xml:id="gom-rom2-d1e391">
+            <quote xml:id="gom-rom2-Qd1e393" type="lemma" source="http://scta.info/resource/rom2_13@9-10">Sed factores,</quote>
+            id est, qui credunt in Christum, quem lex promisit, quicunque sint, quod non est nisi per gratiam.
+          </p>
+          <p xml:id="gom-rom2-d1e397">
+            <quote xml:id="gom-rom2-Qd1e399" type="lemma" source="http://scta.info/resource/rom2_13@10-12">Factores legis justificabuntur,</quote>
+            <ref xml:id="gom-rom2-Rd1e402"><name xml:id="gom-rom2-Nd1e403" ref="#Augustine">AUG.</name>, lib. de Spir. et lit., c. 26.</ref>
+            <quote xml:id="gom-rom2-Qd1e407">id est, justi deputabuntur, vel justi fient non qui ante erant factores justificabuntur, quia etiam gentes.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e270">
+          <head xml:id="gom-rom2-Hd1e272">Versus 14</head>
+          <p xml:id="gom-rom2-d1e275">
+            <quote xml:id="gom-rom2-Qd1e277" type="lemma" source="http://scta.info/resource/rom2_14@1-2">Cum enim,</quote>
+            etc. Supra dixerat gentilem damnari, si male operaretur; salvari, si bene: sed cum legem non habeat, quasi nesciat quid sit bonum quidve malum, videtur sibi neutrum debere imputari. Contra Apostolus: Etsi non habeat scriptam legem, habet tamen naturalem: qua intelligit et sibi conscius est quid sit bonum et quid sit malum, <pb ed="#P" n="0476B"/> vitium quippe contra naturam est, quod utique sanat gratia. Non enim usque adeo in humana anima imago terrenorum affectuum labe detrita est, ut nulla in ea lineamenta remanserint. Non omnino deletum est quod ibi per imaginem Dei, cum homo crearetur, impressum est. Proinde vitio sanato per gratiam, naturaliter fiunt ea quae legis sunt. Non quod per naturam negata sit gratia, sed potius per gratiam reparata natura: qua gratia in interiori homine renovato lex justitiae rescribitur, quam deleverat culpa.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e425">
+          <head xml:id="gom-rom2-Hd1e427">Versus 15</head>
+          <p xml:id="gom-rom2-d1e429">
+            <quote xml:id="gom-rom2-Qd1e431" type="lemma" source="http://scta.info/resource/rom2_15@3-4">Opus legis.</quote>
+            Est fides, quam ultro habent in cordibus, id est, intimo affectu, ubi fides per dilectionem operatur.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e436">
+          <head xml:id="gom-rom2-Hd1e438">Versus 17</head>
+          <p xml:id="gom-rom2-d1e440">
+            <quote xml:id="gom-rom2-Qd1e442" type="lemma" source="http://scta.info/resource/rom2_17@1-3">Si autem tu,</quote>
+            etc. Hic Judaeos aggreditur, <pb ed="#P" n="0476C"/> gravius accusans eos de peccatis, eo quod plura haberent auxilia.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e449">
+          <head xml:id="gom-rom2-Hd1e451">Versus 19</head>
+          <p xml:id="gom-rom2-d1e453">
+            <quote xml:id="gom-rom2-Qd1e455" type="lemma" source="http://scta.info/resource/rom2_19@4-5">Decem esse.</quote>
+            Caecos et in tenebris existentes dicit gentiles, qui et ratione privati caeci sunt; et si quid sciunt, tamen in tenebris sunt.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e460">
+          <head xml:id="gom-rom2-Hd1e462">Versus 20</head>
+          <p xml:id="gom-rom2-d1e464">
+            <quote xml:id="gom-rom2-Qd1e466" type="lemma" source="http://scta.info/resource/rom2_20@5-6">Habentem formam.</quote>
+            Ut aliis exemplum scientiae legis sis et veritatis. Quidam enim scientiam et intellectum alicujus libri habent et ita sentiunt sicut auctor ipse sensit, non tamen habent inde veritatem: quia nesciunt quomodo sit verum, nec etiam esse verum: sed Judaeus jactat se habere sensum legis, et scire verum esse sensum illum legis, ita ut aliis scire volentibus sit exemplar.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e472">
+          <head xml:id="gom-rom2-Hd1e474">Versus 24</head>
+          <p xml:id="gom-rom2-d1e476">
+            <quote xml:id="gom-rom2-Qd1e478" type="lemma" source="http://scta.info/resource/rom2_24@1-3">Nomen enim Dei.</quote>
+            Inter gentes blasphematur nomen Dei per Judaeos: quia credentibus <pb ed="#P" n="0476D"/> Judaei suadere nitebantur Christum non esse Deum dicendum. Vel quia olim gentes non animadvertebant Judaeos sibi traditos pro noxis suis, sed idolis suis dabant gloriam de victoria sua, quasi Judaeorum Deum vicissent in Judaeis.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e485">
+          <head xml:id="gom-rom2-Hd1e487">Versus 25</head>
+          <p xml:id="gom-rom2-d1e489">
+            <quote xml:id="gom-rom2-Qd1e491" type="lemma" source="http://scta.info/resource/rom2_25@1-2">Circumcisio quidem.</quote>
+            Ostendit supra legem non juvare eos, modo circumcisionem non juvare ad obtinendam justitiam.
+          </p>
+          <p xml:id="gom-rom2-d1e495">
+            <quote xml:id="gom-rom2-Qd1e497" type="lemma" source="http://scta.info/resource/rom2_25@3-5">Prodest, si legem,</quote>
+            etc. Quia obediendo Deo, signum facit veritatis, dum populus rudis sub timore Dei custoditur.
+          </p>
+          <p xml:id="gom-rom2-d1e501">
+            <quote xml:id="gom-rom2-Qd1e503" type="lemma" source="http://scta.info/resource/rom2_25@3-3">Prodest.</quote>
+            Quaeritur quomodo hic dicit circumcisionem prodesse, cum in sequentibus dicat: Si circumcidamini, Christus nihil vobis proderit? Respondetur: Secundum statum diversorum temporum hoc <pb ed="#P" n="0477A"/> vult intelligi. Nam secundum statum veteris legis olim profuit circumcisio, sed non profuit ad salutem sine spirituali legis observantia, de quo hic. Modo autem, scilicet tempore gratiae, postquam exhibita est veritas, non modo non prodest, sed etiam obest, de quo in sequentibus.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e510">
+          <head xml:id="gom-rom2-Hd1e512">Versus 26</head>
+          <p xml:id="gom-rom2-d1e514">
+            <quote xml:id="gom-rom2-Qd1e516" type="lemma" source="http://scta.info/resource/rom2_26@7-7">Nonne.</quote>
+            Gentilis comparatione sui te, o Judaee, damnabilem ostendit, qui non per naturam, neque per circumcisionem, sed per legem novisti, quod ille per naturam, id est Christum?
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e521">
+          <head xml:id="gom-rom2-Hd1e523">Versus 27</head>
+          <p xml:id="gom-rom2-d1e525">
+            <quote xml:id="gom-rom2-Qd1e527" type="lemma" source="http://scta.info/resource/rom2_27@2-2">Judicabit,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e532">
+          <head xml:id="gom-rom2-Hd1e534">Versus 28</head>
+          <p xml:id="gom-rom2-d1e536">
+            <quote xml:id="gom-rom2-Qd1e538" type="lemma" source="http://scta.info/resource/rom2_28@12-14">In carne est circumcisio.</quote>
+            <ref xml:id="gom-rom2-Rd1e541"><name xml:id="gom-rom2-Nd1e542" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e545"><seg type="qs">Circumcidere est ex genitali membro</seg>, etc., usque ad <seg type="qs">in quibus non carnis circumcisio, sed legis observatio est.</seg></quote>
+          </p>
+          <p xml:id="gom-rom2-d1e553">
+            <quote xml:id="gom-rom2-Qd1e555" type="lemma" source="http://scta.info/resource/rom2_28@1-2">Non enim.</quote>
+            Quasi: bene potest fieri <pb ed="#P" n="0477B"/> Judaeus gentilis, et gentilis Judaeus, sicut dictum est.
+          </p>
+          <p xml:id="gom-rom2-d1e561">
+            <quote xml:id="gom-rom2-Qd1e563" type="lemma" source="http://scta.info/resource/rom2_28@6-6">Judaeus.</quote>
+            Interpretatur <mentioned>confitens</mentioned>: qui enim vere credit et recte confitetur, vere est Judaeus.
+          </p>
+        </div>
+        <div xml:id="gom-rom2-Dd1e570">
+          <head xml:id="gom-rom2-Hd1e572">Versus 29</head>
+          <p xml:id="gom-rom2-d1e574">
+            <quote xml:id="gom-rom2-Qd1e576" type="lemma" source="http://scta.info/resource/rom2_29@7-8">Circumcisio cordis.</quote>
+            <ref xml:id="gom-rom2-Rd1e579"><name xml:id="gom-rom2-Nd1e580" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e583">Est quae purificat animam, et vitiorum maculas abscindit.</quote>
+          </p>
+          <p xml:id="gom-rom2-d1e586">
+            <quote xml:id="gom-rom2-Qd1e588" type="lemma" source="http://scta.info/resource/rom2_29@13-14">Cujus laus.</quote>
+            <ref xml:id="gom-rom2-Rd1e591"><name xml:id="gom-rom2-Nd1e592" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e595"><seg type="qs">Laudat Deus credentem</seg>, etc., usque ad <seg type="qs">quod coram hominibus apparebat in opere.</seg></quote>
+          </p>
+          <p xml:id="gom-rom2-d1e603">
+            <quote xml:id="gom-rom2-Qd1e605" type="lemma" source="http://scta.info/resource/rom2_29@15-17">Non ex hominibus.</quote>
+            <ref xml:id="gom-rom2-Rd1e608"><name xml:id="gom-rom2-Nd1e609" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom2-Qd1e612">Circumcisionem autem cordis dicit, puram scilicet ab omni illicita concupiscentia voluntatem: quod non fit littera docente et minante, sed spiritu adjuvante atque sanante.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

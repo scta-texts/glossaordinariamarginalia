@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 29</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 29</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0689A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr29">
+        <head xml:id="gom-IIchr29-Hd1e98">Caput 29</head>
+        <div xml:id="gom-IIchr29-Dd1e100">
+          <head xml:id="gom-IIchr29-Hd1e102">Versus 3</head>
+          <p xml:id="gom-IIchr29-d1e104">
+            <quote xml:id="gom-IIchr29-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr29_3">In ipso anno,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-IIchr29-Rd1e111"><name xml:id="gom-IIchr29-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr29-Qd1e115">Non aliter imitaretur David patrem suum, qui ab infantia Deo deditus in principio regni sui cultum Dei magnificavit.</quote>
+          </p>
+          <p xml:id="gom-IIchr29-d1e118">
+            <ref xml:id="gom-IIchr29-Rd1e120" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr29_3"/>
+            Moraliter autem admonet rectores Ecclesiae, ne sint desidiosi in officio sibi commisso, sed omnia diligenter agant.
+          </p>
+          <p xml:id="gom-IIchr29-d1e123">
+            <ref xml:id="gom-IIchr29-Rd1e125" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr29_3"/>
+            Mystice Ezechias, qui non tantum per se vel per suos opus Dei strenue gessit, imo per nuntios ad simile studium alios provocavit, Christum significat, <pb ed="#P" n="0689B"/> quod etiam nominis interpretatio testatur. Ezechias enim apprehendens Dominum, vel fortitudo Domini. Christus autem Dei virtus et Dei sapientia, qui omnes patrum praevaricationes, quae sub lege fuerant, sanguine suo diluit, et cultum pietatis in Ecclesia plane instauravit. Ipse legatos ad convocandas gentes ad fidem misit. Primum prophetas, deinde apostolos, et eorum successores: hic secundo mense pascha celebrare instituit; quia umbra legis cessante, verum pascha servare docuit, de quo Paulus ait: <quote xml:id="gom-IIchr29-Qd1e129" source="http://scta.info/resource/Icor5_7@11-16">Etenim pascha nostrum immolatus est Christus</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr29-Dd1e134">
+          <head xml:id="gom-IIchr29-Hd1e136">Versus 6</head>
+          <p xml:id="gom-IIchr29-d1e138">
+            <quote xml:id="gom-IIchr29-Qd1e140" type="lemma" source="http://scta.info/resource/IIchr29_6@1-3">Peccaverunt patres nostri,</quote>
+            etc.
+            <ref xml:id="gom-IIchr29-Rd1e143"><name xml:id="gom-IIchr29-Nd1e144" ref="#Jerome">HIERON.</name>, quaest. in Paral., tom. III.</ref>
+            <quote xml:id="gom-IIchr29-Qd1e148"><seg type="qs">Hoc plene scribitur</seg>, etc., usque ad <seg type="qs">et adorabant ad ortum solis.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

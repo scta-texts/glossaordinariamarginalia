@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 47</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 47</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0913C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps47">
+        <head xml:id="gom-ps47-Hd1e98">Psalmus 47</head>
+        <div xml:id="gom-ps47-Dd1e100">
+          <head xml:id="gom-ps47-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps47-d1e104">
+            <pb ed="#P" n="0913C"/>
+            <quote xml:id="gom-ps47-Qd1e108" type="lemma" source="http://scta.info/resource/ps47_1@1-5">Psalmus vel laus cantici filiis Core secunda,</quote>
+            etc.
+            <ref xml:id="gom-ps47-Rd1e111"><name xml:id="gom-ps47-Nd1e112" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e115"><seg type="qs">Primo die, fecit Deus lucem</seg>, etc., usque ad <seg type="qs">de qua hic cantatur filiis Core.</seg></quote>
+          </p>
+          <p xml:id="gom-ps47-d1e123">
+            <ref xml:id="gom-ps47-Rd1e125" type="lemma" subtype="implied" target="http://scta.info/resource/ps47_1@1-5"/>
+            <ref xml:id="gom-ps47-Rd1e127"><name xml:id="gom-ps47-Nd1e128" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e131">De fundatione civitatis, quam commendative describit.</quote>
+          </p>
+          <p xml:id="gom-ps47-d1e134">
+            <ref xml:id="gom-ps47-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/ps47_1@1-5"/>
+            <ref xml:id="gom-ps47-Rd1e138"><name xml:id="gom-ps47-Nd1e139" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e142"><seg type="qs">Commendat civitatem</seg>, etc., usque ad <seg type="qs">a stabilitate aeterna.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e151">
+          <head xml:id="gom-ps47-Hd1e153">Versus 2</head>
+          <p xml:id="gom-ps47-d1e155">
+            <quote xml:id="gom-ps47-Qd1e157" type="lemma" source="http://scta.info/resource/ps47_2@10-12">In monte sancto,</quote>
+            etc.
+            <ref xml:id="gom-ps47-Rd1e160"><name xml:id="gom-ps47-Nd1e161" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e164"><seg type="qs">Hic est mons ille</seg>, etc., usque ad <seg type="qs">super quem fundata est Ecclesia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e173">
+          <head xml:id="gom-ps47-Hd1e175">Versus 3</head>
+          <p xml:id="gom-ps47-d1e177">
+            <quote xml:id="gom-ps47-Qd1e179" type="lemma" source="http://scta.info/resource/ps47_3@1-2">Fundatur exsultatione.</quote>
+            <ref xml:id="gom-ps47-Rd1e182"><name xml:id="gom-ps47-Nd1e183" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e186"><seg type="qs">Quasi dicat, quae prius maledictionibus subjecta</seg>, etc., usque ad <seg type="qs">ipse est Christus, qui per universam Ecclesiam gaudia dilatat.</seg></quote>
+          </p>
+          <p xml:id="gom-ps47-d1e194">
+            <quote xml:id="gom-ps47-Qd1e196" type="lemma" source="http://scta.info/resource/ps47_3@5-8">Mons Sion latera.</quote>
+            <ref xml:id="gom-ps47-Rd1e199"><name xml:id="gom-ps47-Nd1e200" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e203"><seg type="qs">Quicunque <pb ed="#P" n="0913D"/> alicui haerent, latera ejus dicuntur</seg>, etc., usque ad <seg type="qs">item <quote xml:id="gom-ps47-Qd1e211" source="http://scta.info/resource/ier1_14@6-9">ab aquilone pandetur omne malum,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e217">
+          <head xml:id="gom-ps47-Hd1e219">Versus 4</head>
+          <p xml:id="gom-ps47-d1e221">
+            <quote xml:id="gom-ps47-Qd1e223" type="lemma" source="http://scta.info/resource/ps47_4@2-3">In domibus.</quote>
+            Vel, in gradibus, id est, secundum gradus meritorum, quia in singulis distinctim dabit cognitionem sui.
+          </p>
+          <p xml:id="gom-ps47-d1e227">
+            <quote xml:id="gom-ps47-Qd1e229" type="lemma" source="http://scta.info/resource/ps47_4@6-7">Cum suscipiet eam.</quote>
+            Tutandam, et quid opus est?
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e235">
+          <head xml:id="gom-ps47-Hd1e237">Versus 5</head>
+          <p xml:id="gom-ps47-d1e239">
+            <quote xml:id="gom-ps47-Qd1e241" type="lemma" source="http://scta.info/resource/ps47_5@1-3">Quoniam reges contra.</quote>
+            Sed videntes per fidem, sic scilicet quod tam digna est haec civitas admirati sunt, etc.
+          </p>
+          <p xml:id="gom-ps47-d1e245">
+            <quote xml:id="gom-ps47-Qd1e247" type="lemma" source="http://scta.info/resource/ps47_5@3-3">Reges.</quote>
+            <ref xml:id="gom-ps47-Rd1e250"><name xml:id="gom-ps47-Nd1e251" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps47-Qd1e255">Principes Judaeorum.</quote>
+          </p>
+          <p xml:id="gom-ps47-d1e258">
+            <quote xml:id="gom-ps47-Qd1e260" type="lemma" source="http://scta.info/resource/ps47_5@5-5">Congregati.</quote>
+            Ab Herode sciscitante locum nativitatis.
+          </p>
+          <p xml:id="gom-ps47-d1e264">
+            <quote xml:id="gom-ps47-Qd1e266" type="lemma" source="http://scta.info/resource/ps47_5@8-8">Convenerunt.</quote>
+            Concorditer dicendo: <quote xml:id="gom-ps47-Qd1e269">In Bethlehem Judae secundum Scripturas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e273">
+          <head xml:id="gom-ps47-Hd1e275">Versus 6</head>
+          <p xml:id="gom-ps47-d1e277">
+            <quote xml:id="gom-ps47-Qd1e279" type="lemma" source="http://scta.info/resource/ps47_6@2-2">Videntes.</quote>
+            Quae in prophetis legerant.
+          </p>
+          <p xml:id="gom-ps47-d1e283">
+            <quote xml:id="gom-ps47-Qd1e285" type="lemma" source="http://scta.info/resource/ps47_6@4-5">Admirati sunt.</quote>
+            De tanta gloria, non leviter vel otiose. <pb ed="#P" n="0914A"/>
+          </p>
+          <p xml:id="gom-ps47-d1e291">
+            <quote xml:id="gom-ps47-Qd1e293" type="lemma" source="http://scta.info/resource/ps47_6">Sed conturbati.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Pro peccato, et <quote xml:id="gom-ps47-Qd1e298" source="http://scta.info/resource/ps47_6@8-9">Commoti sunt.</quote> Ad fidem, et tantus fuit pavor, ut corpus tremeret.
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e303">
+          <head xml:id="gom-ps47-Hd1e305">Versus 7</head>
+          <p xml:id="gom-ps47-d1e307">
+            <quote xml:id="gom-ps47-Qd1e309" type="lemma" source="http://scta.info/resource/ps47_7@5-8">Ibi dolores ut parturientis,</quote>
+            Poenitentiae, videntes ita; sed:
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e314">
+          <head xml:id="gom-ps47-Hd1e316">Versus 8</head>
+          <p xml:id="gom-ps47-d1e318">
+            <quote xml:id="gom-ps47-Qd1e320" type="lemma" source="http://scta.info/resource/ps47_8@1-3">In spiritu vehementi,</quote>
+            Herodis.
+          </p>
+          <p xml:id="gom-ps47-d1e324">
+            <quote xml:id="gom-ps47-Qd1e326" type="lemma" source="http://scta.info/resource/ps47_8@4-5">Conteres naves-Tharsis.</quote>
+            Quia, in Tharso, Ciliciae naves quae Magos transposuisse in patriam suam credebantur, confractae sunt ab Herode.
+          </p>
+          <p xml:id="gom-ps47-d1e330">
+            <quote xml:id="gom-ps47-Qd1e332" type="lemma" source="http://scta.info/resource/ps47_8@6-6">Tharsis.</quote>
+            <ref xml:id="gom-ps47-Rd1e335"><name xml:id="gom-ps47-Nd1e336" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e339"><seg type="qs">Cilicia regio a Tharso</seg>, etc., usque ad <seg type="qs">decursis omnibus concludit. Ergo:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e348">
+          <head xml:id="gom-ps47-Hd1e350">Versus 9</head>
+          <p xml:id="gom-ps47-d1e352">
+            <quote xml:id="gom-ps47-Qd1e354" type="lemma" source="http://scta.info/resource/ps47_9@1-8">Sicut audivimus. In civitate Domini virtutum,</quote>
+            quia ibi custodes angelos deputat. Repetit.
+          </p>
+          <p xml:id="gom-ps47-d1e358">
+            <quote xml:id="gom-ps47-Qd1e360" type="lemma" source="http://scta.info/resource/ps47_9@5-12">In civitate Domini virtutum, in civitate Dei nostri.</quote>
+            Id est, Catholica Ecclesia, ne sibi hoc nomen conventus haereticorum usurpet. Ne autem putetur temporalis, <pb ed="#P" n="0914B"/> addit: <quote xml:id="gom-ps47-Qd1e365" source="http://scta.info/resource/ps47_9@14-18">Deus fundavit eam in aeternum.</quote> Non ad horam, ut prius tabernaculum Moysi
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e370">
+          <head xml:id="gom-ps47-Hd1e372">Versus 10</head>
+          <p xml:id="gom-ps47-d1e374">
+            <quote xml:id="gom-ps47-Qd1e376" type="lemma" source="http://scta.info/resource/ps47_10@1-4">Suscepimus, Deus, misericordiam tuam.</quote>
+            <ref xml:id="gom-ps47-Rd1e379"><name xml:id="gom-ps47-Nd1e380" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e383">Agens gratias de adventu Christi, monet de gradibus Ecclesiae distribuendis, per quos Salvator possit agnosci.</quote>
+          </p>
+          <p xml:id="gom-ps47-d1e386">
+            <quote xml:id="gom-ps47-Qd1e388" type="lemma" source="http://scta.info/resource/ps47_10@5-6">In medio templi.</quote>
+            Jerusalem: gravius accusantur, qui contemnunt eum, qui in medio eorum conspectus est. Per hoc notatur incarnatio Christi, qui secundum quod homo, praesentatus est in templo.
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e394">
+          <head xml:id="gom-ps47-Hd1e396">Versus 11</head>
+          <p xml:id="gom-ps47-d1e398">
+            <quote xml:id="gom-ps47-Qd1e400" type="lemma" source="http://scta.info/resource/ps47_11@16-16">Dextera.</quote>
+            <ref xml:id="gom-ps47-Rd1e403"><name xml:id="gom-ps47-Nd1e404" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e407">Hac parte justi locantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e411">
+          <head xml:id="gom-ps47-Hd1e413">Versus 10</head>
+          <p xml:id="gom-ps47-d1e415">
+            <ref xml:id="gom-ps47-Rd1e417"><name xml:id="gom-ps47-Nd1e418" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e421" type="lemma" source="http://scta.info/resource/ps47_10@1-2">Suscepimus, Deus.</quote>
+            <quote xml:id="gom-ps47-Qd1e424">Quo ordine fundata, vel quod audivimus et vidimus.</quote>
+          </p>
+          <p xml:id="gom-ps47-d1e427">
+            <quote xml:id="gom-ps47-Qd1e429" type="lemma" source="http://scta.info/resource/ps47_10@6-7">Templi tui.</quote>
+            <ref xml:id="gom-ps47-Rd1e432"><name xml:id="gom-ps47-Nd1e433" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e436">Id est, populi non sucipientis misericordiam, qui multis: <pb ed="#P" n="0914C"/> ut nulla videantur esse grana, sed tamen nonnulla, quia secundum nomen.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e443">
+          <head xml:id="gom-ps47-Hd1e445">Versus 11</head>
+          <p xml:id="gom-ps47-d1e447">
+            <quote xml:id="gom-ps47-Qd1e449" type="lemma" source="http://scta.info/resource/ps47_11@1-2">Secundum nomen.</quote>
+            <ref xml:id="gom-ps47-Rd1e452"><name xml:id="gom-ps47-Nd1e453" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e456">Quod ubique diffusum est, quia nullus est, et si nesciat cultum, qui huic nomini non se subjiciat.</quote>
+          </p>
+          <p xml:id="gom-ps47-d1e459">
+            <quote xml:id="gom-ps47-Qd1e461" type="lemma" source="http://scta.info/resource/ps47_11@1-2">Vel secundum nomen.</quote>
+            <quote xml:id="gom-ps47-Qd1e464"><seg type="qs">Hoc est, sicut reverentia tui nominis</seg>, etc., usque ad <seg type="qs">tua propitiatio justificavit multos, qui omnes laudant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e473">
+          <head xml:id="gom-ps47-Hd1e475">Versus 12</head>
+          <p xml:id="gom-ps47-d1e477">
+            <quote xml:id="gom-ps47-Qd1e479" type="lemma" source="http://scta.info/resource/ps47_12@1-1">Laetetur.</quote>
+            <ref xml:id="gom-ps47-Rd1e482"><name xml:id="gom-ps47-Nd1e483" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e486"><seg type="qs">Etsi laborent justi inter spinas</seg>, etc., usque ad <seg type="qs">eorum est modo colligere, Dei est separare.</seg></quote>
+          </p>
+          <p xml:id="gom-ps47-d1e494">
+            <quote xml:id="gom-ps47-Qd1e496" type="lemma" source="http://scta.info/resource/ps47_12@2-5">Mons Sion et exsultent.</quote>
+            <ref xml:id="gom-ps47-Rd1e499"><name xml:id="gom-ps47-Nd1e500" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e503">Ecclesia, quae est in speculatione populi.</quote>
+          </p>
+          <p xml:id="gom-ps47-d1e506">
+            <quote xml:id="gom-ps47-Qd1e508" type="lemma" source="http://scta.info/resource/ps47_12@6-11">Filiae Judae propter judicia tua, Domine.</quote>
+            Sanctae feminae. Per Judam, gens earum ostenditur, quae est propter Christum, qui de Juda, et hae exsultent, ut in utroque sexu Ecclesia sit.
+          </p>
+          <p xml:id="gom-ps47-d1e512">
+            <ref xml:id="gom-ps47-Rd1e514" type="lemma" subtype="implied" target="http://scta.info/resource/ps47_12@6-11"/>
+            <ref xml:id="gom-ps47-Rd1e516"><name xml:id="gom-ps47-Nd1e517" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e520">Causa laetitiae judicia <pb ed="#P" n="0914D"/> futura, ubi se sciunt ad beatitudinem venturas. Qui intus sunt, laetentur; vos qui extra, circumdate.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e527">
+          <head xml:id="gom-ps47-Hd1e529">Versus 13</head>
+          <p xml:id="gom-ps47-d1e531">
+            <quote xml:id="gom-ps47-Qd1e533" type="lemma" source="http://scta.info/resource/ps47_13@1-1">Circumdate.</quote>
+            Honores exhibendo.
+          </p>
+          <p xml:id="gom-ps47-d1e537">
+            <quote xml:id="gom-ps47-Qd1e539" type="lemma" source="http://scta.info/resource/ps47_13@4-5">Complectimini eam.</quote>
+            Charitate. <quote xml:id="gom-ps47-Qd1e542">Narrate in turribus ejus. Ponite corda vestra.</quote>
+          </p>
+          <p xml:id="gom-ps47-d1e545">
+            <ref xml:id="gom-ps47-Rd1e547" type="lemma" subtype="implied" target="http://scta.info/resource/ps47_13@4-5"/>
+            <ref xml:id="gom-ps47-Rd1e549"><name xml:id="gom-ps47-Nd1e550" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e553"><seg type="qs">Praedicate aliis in concordia Apostolorum</seg>, etc., usque ad <seg type="qs">ne per laetitiam remissi lentescant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e562">
+          <head xml:id="gom-ps47-Hd1e564">Versus 14</head>
+          <p xml:id="gom-ps47-d1e566">
+            <quote xml:id="gom-ps47-Qd1e568" type="lemma" source="http://scta.info/resource/ps47_14@5-6">Virtute ejus.</quote>
+            <ref xml:id="gom-ps47-Rd1e571"><name xml:id="gom-ps47-Nd1e572" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e575">Virtus civitatis charitas est, quam nihil vincit; unde Salomon: <quote xml:id="gom-ps47-Qd1e577" source="http://scta.info/resource/cant8_6@14-17">Dilectio fortis est ut mors.</quote></quote>
+          </p>
+          <p xml:id="gom-ps47-d1e581">
+            <ref xml:id="gom-ps47-Rd1e583" type="lemma" subtype="implied" target="http://scta.info/resource/ps47_14@5-6"/>
+            <ref xml:id="gom-ps47-Rd1e585"><name xml:id="gom-ps47-Nd1e586" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps47-Qd1e589">In virtute Ecclesiae monet ponere corda.</quote>
+          </p>
+          <p xml:id="gom-ps47-d1e592">
+            <quote xml:id="gom-ps47-Qd1e594" type="lemma" source="http://scta.info/resource/ps47_14@8-15">Distribuite domos ejus, ut enarretis in progenie altera.</quote>
+            <quote xml:id="gom-ps47-Qd1e597"><seg type="qs">Id est, officia distincta</seg>, etc., usque ad <seg type="qs">quem primum Dominus elegit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps47-Dd1e607">
+          <head xml:id="gom-ps47-Hd1e609">Versus 15</head>
+          <p xml:id="gom-ps47-d1e611">
+            <quote xml:id="gom-ps47-Qd1e613" type="lemma" source="http://scta.info/resource/ps47_15@1-3">Quoniam hic est,</quote>
+            etc. Hoc est quod <pb ed="#P" n="0915A"/> narrandum est, brevis sententia, sed quae omnia concludit.
+          </p>
+          <p xml:id="gom-ps47-d1e619">
+            <quote xml:id="gom-ps47-Qd1e621" type="lemma" source="http://scta.info/resource/ps47_15@7-8">In aeternum,</quote>
+            contra illos qui temporales homines Deos faciebant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

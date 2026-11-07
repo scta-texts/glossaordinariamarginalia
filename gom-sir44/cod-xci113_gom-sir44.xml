@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 44</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 44</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1226B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir44">
+        <head xml:id="gom-sir44-Hd1e98">Caput 44</head>
+        <div xml:id="gom-sir44-Dd1e100">
+          <head xml:id="gom-sir44-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir44-d1e104">
+            <pb ed="#P" n="1226B"/>
+            <quote xml:id="gom-sir44-Qd1e108" type="lemma" source="http://scta.info/resource/sir44_1@3-4">Laudemus viros,</quote>
+            etc. Moraliter disputando, allegoriamque et anagogem in plerisque tangendo, mysteria divini sacramenti edidit; nunde sanctis patribus narrare incipit.
+          </p>
+          <p xml:id="gom-sir44-d1e112">
+            <quote xml:id="gom-sir44-Qd1e114" type="lemma" source="http://scta.info/resource/sir44_1@7-8">Parentes nostros.</quote>
+            Patriarchas, qui divina locutione et visione fruebantur; et Prophetas, qui, Spiritu sancto repleti, multa Christi et Ecclesiae mysteria praecinuerunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir44-Dd1e119">
+          <head xml:id="gom-sir44-Hd1e121">Versus 12</head>
+          <p xml:id="gom-sir44-d1e123">
+            <quote xml:id="gom-sir44-Qd1e125" type="lemma" source="http://scta.info/resource/sir44_12@5-7">In Testamentis stetit,</quote>
+            etc.
+            <ref xml:id="gom-sir44-Rd1e128"><name xml:id="gom-sir44-Nd1e129" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir44-Qd1e132"><seg type="qs">Haec juxta historiam de patriarchis</seg>, etc., usque ad <seg type="qs">quando semen bonorum operum coelesti mercede compensabitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir44-Dd1e141">
+          <head xml:id="gom-sir44-Hd1e143">Versus 16</head>
+          <p xml:id="gom-sir44-d1e145">
+            <quote xml:id="gom-sir44-Qd1e147" type="lemma" source="http://scta.info/resource/sir44_16@1-3">Henoch placuit Deo.</quote>
+            <quote xml:id="gom-sir44-Qd1e150"><seg type="qs">Non ab Adam</seg>, etc., usque ad <seg type="qs">ut det hominibus consilium poenitendi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir44-Dd1e159">
+          <head xml:id="gom-sir44-Hd1e161">Versus 17</head>
+          <p xml:id="gom-sir44-d1e163">
+            <quote xml:id="gom-sir44-Qd1e165" type="lemma" source="http://scta.info/resource/sir44_17@1-3">Noe inventus est,</quote>
+            etc. Quando pereunte <pb ed="#P" n="1226C"/> mundo diluvio reservatus est, ut poenitentiam gentibus praedicaret, et exemplo demonstraret quod qui Deo devote serviunt, ab aeterno interitu liberantur. Cum eo Deus pactum statuit, ne ultra perderet aquis diluvii omnem carnem <!--<note>(Gen. XVII)</note>-->. Significat autem rectores, qui inter fluctus saeculi arcam, id est Ecclesiam, regunt, et praedicant baptismum poenitentiae, orationibus et sacrificiis Deum placantes humano generi.
+          </p>
+        </div>
+        <div xml:id="gom-sir44-Dd1e175">
+          <head xml:id="gom-sir44-Hd1e177">Versus 21</head>
+          <p xml:id="gom-sir44-d1e179">
+            <quote xml:id="gom-sir44-Qd1e181" type="lemma" source="http://scta.info/resource/sir44_21@1-6">In carne ejus facit stare testamentum,</quote>
+            etc.
+            <ref xml:id="gom-sir44-Rd1e184"><name xml:id="gom-sir44-Nd1e185" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir44-Qd1e188">Ut significaretur renovata natura nostra per baptismum Christi, post exspoliationem veteris hominis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir44-Dd1e192">
+          <head xml:id="gom-sir44-Hd1e194">Versus 22</head>
+          <p xml:id="gom-sir44-d1e196">
+            <quote xml:id="gom-sir44-Qd1e198" type="lemma" source="http://scta.info/resource/sir44_22@1-2">Ideo jurejarando,</quote>
+            etc. Duplex est promissio Abrahae. In arena maris exprimuntur steriles <pb ed="#P" n="1226D"/> Judaei; in similitudine stellarum, fideles Christiani, qui resurrectionis lumine coruscabunt sicut astra coeli.
+          </p>
+        </div>
+        <div xml:id="gom-sir44-Dd1e205">
+          <head xml:id="gom-sir44-Hd1e207">Versus 26</head>
+          <p xml:id="gom-sir44-d1e209">
+            <quote xml:id="gom-sir44-Qd1e211" type="lemma" source="http://scta.info/resource/sir44_26@6-9">Et dedit illi haereditatem,</quote>
+            etc. Gentilis populi, qui posterior ad gratiam fidei et baptismi regenerationem accessit, cui plenitudo paternae benedictionis provenit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

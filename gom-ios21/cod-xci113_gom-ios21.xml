@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 21</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 21</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0519D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios21">
+        <head xml:id="gom-ios21-Hd1e98">Caput 21</head>
+        <div xml:id="gom-ios21-Dd1e100">
+          <head xml:id="gom-ios21-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ios21-d1e104">
+            <pb ed="#P" n="0519D"/>
+            <quote xml:id="gom-ios21-Qd1e108" type="lemma" source="http://scta.info/resource/ios21_1@1-1">Accesserunt.</quote>
+            <ref xml:id="gom-ios21-Rd1e111"><name xml:id="gom-ios21-Nd1e112" ref="#Origen">ADAM.</name>, hom. 25 in Jos.</ref>
+            <quote xml:id="gom-ios21-Qd1e116"><seg type="qs">Omnes filii Israel acceperunt sortes suas in terra</seg>, etc., usque ad <seg type="qs">et recumbet cum Abraham, cum Isaac et Jacob in regno coelorum.</seg></quote>
+          </p>
+          <p xml:id="gom-ios21-d1e124">
+            <ref xml:id="gom-ios21-Rd1e126" type="lemma" subtype="implied" target="http://scta.info/resource/ios21_1@1-1"/>
+            <ref xml:id="gom-ios21-Rd1e128"><name xml:id="gom-ios21-Nd1e129" ref="#Origen">ADAMANT.</name> hom. 26.</ref>
+            <quote xml:id="gom-ios21-Qd1e133"><seg type="qs">Supra dictum est</seg>, etc., usque ad <seg type="qs">orbem terrae implevit, et dona spiritalia credentibus tribuit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios21-Dd1e142">
+          <head xml:id="gom-ios21-Hd1e144">Versus 39</head>
+          <p xml:id="gom-ios21-d1e146">
+            <quote xml:id="gom-ios21-Qd1e148" type="lemma" source="http://scta.info/resource/ios21_39@1-1">Itaque.</quote>
+            <ref xml:id="gom-ios21-Rd1e151"><name xml:id="gom-ios21-Nd1e152" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-ios21-Qd1e155">Quod quadraginta duae urbes accipiunt Levitae, praedicatio significatur sanctorum. Ipsi enim possident doctrinam, quae constat <pb ed="#P" n="0520A"/> ex decalogo legis, et quadrifario numero Evangelii, quasi quaterdenas urbes habentes: quibus etiam adduntur duae; quia cuncta quae praedicant, morali et mystico sensu annuntiant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios21-Dd1e162">
+          <head xml:id="gom-ios21-Hd1e164">Versus 41</head>
+          <p xml:id="gom-ios21-d1e166">
+            <quote xml:id="gom-ios21-Qd1e168" type="lemma" source="http://scta.info/resource/ios21_41@1-2">Deditque Dominus.</quote>
+            <ref xml:id="gom-ios21-Rd1e171"><name xml:id="gom-ios21-Nd1e172" ref="#Augustine">AUG.</name>, quaest. 21.</ref>
+            <quote xml:id="gom-ios21-Qd1e176"><seg type="qs">Quaeritur cum Israel non solum usque ad diem mortis Jesu</seg>, etc., usque ad <seg type="qs">jam data fuerat in quamdam exercitationis utilitatem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios21-Dd1e185">
+          <head xml:id="gom-ios21-Hd1e187">Versus 42</head>
+          <p xml:id="gom-ios21-d1e189">
+            <quote xml:id="gom-ios21-Qd1e191" type="lemma" source="http://scta.info/resource/ios21_42@11-12">Nullusque eis.</quote>
+            <ref xml:id="gom-ios21-Rd1e194"><name xml:id="gom-ios21-Nd1e195" ref="#Augustine">ID.</name>, quaest. 22.</ref>
+            <quote xml:id="gom-ios21-Qd1e199"><seg type="qs">Quod ait</seg>, etc., usque ad <seg type="qs">antequam singulis tribubus sua loca defendenda dividerentur.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

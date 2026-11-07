@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 115</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 115</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1037C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps115">
+        <head xml:id="gom-ps115-Hd1e98">Psalmus 115</head>
+        <div xml:id="gom-ps115-Dd1e100">
+          <head xml:id="gom-ps115-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps115-d1e104">
+            <quote xml:id="gom-ps115-Qd1e106" type="lemma" source="http://scta.info/resource/ps115_1@1-1">Alleluia.</quote>
+            Voce laudis congrue praetitulatur hic psalmus, quia in hoc psalmo verba sunt martyrum, qui confessione viguerunt et praemia Dei consecuti sunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps115-Dd1e111">
+          <head xml:id="gom-ps115-Hd1e113">Versus 10</head>
+          <p xml:id="gom-ps115-d1e115">
+            <quote xml:id="gom-ps115-Qd1e117" type="lemma" source="http://scta.info/resource/ps115_10">Credidi,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-ps115-Rd1e122"><name xml:id="gom-ps115-Nd1e123" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e126">Primo memorantur beneficia Dei, quibus quid dignum redderent cum dubitent, occurrit calix passionis, qui a Deo datur. Secundo, servos se dicunt, et filios ancillae, id est Ecclesiae, <ref xml:id="gom-ps115-Rd1e128">ibi: <seg type="incipit">O Domine, quia ego</seg>,</ref> etc. Verus et congruus ordo, prius credere, post loqui: ne nondum credens audeat loqui, sed fidem sequatur confessio. Ne vero confessio viribus hominis detur, dicit <pb ed="#P" n="1037D"/> proprium hominis quod mendax: quod non facile sciret, nisi excessu mentis ad superna vectus esset. Magnum enim est si quis se imprudentem attendit. Et cum homo nihil boni proprium habeat, quid retribuendum?</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e138">
+            <quote xml:id="gom-ps115-Qd1e140" type="lemma" source="http://scta.info/resource/ps115_10">Credidi.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps115-Rd1e145"><name xml:id="gom-ps115-Nd1e146" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e149">Non ait: <quote xml:id="gom-ps115-Qd1e151" source="http://scta.info/resource/ps39_6@20-22">Credidi et locutus sum,</quote> quia non tantum credidit caetera quae fides exigit, sed et simul cum illis credidit, et quod praemium loquendo sperare, et quod poenam tacendo timere deberet; unde loquendi quidem amor ex praemio immittitur, et necessitas ex poena indicitur.</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e156">
+            <quote xml:id="gom-ps115-Qd1e158" type="lemma" source="http://scta.info/resource/ps115_10">Propter quod.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Non enim perfecte credit, qui quod credit non loquitur; piger est ille servus, vel timidus, sed fidelis: quod accepit, impendit, et lucratur, et ideo intrat in gaudium Domini sui, dicentis: <quote xml:id="gom-ps115-Qd1e163" source="http://scta.info/resource/mt25_23@5-23">Euge, <pb ed="#P" n="1038A"/> serve bone et fidelis, intra in gaudium Domini tui</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-ps115-Dd1e170">
+          <head xml:id="gom-ps115-Hd1e172">Versus 11</head>
+          <p xml:id="gom-ps115-d1e174">
+            <quote xml:id="gom-ps115-Qd1e176" type="lemma" source="http://scta.info/resource/ps115_11">In excessu meo.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Vel, exstasi mea.
+          </p>
+          <p xml:id="gom-ps115-d1e182">
+            <ref xml:id="gom-ps115-Rd1e184" type="lemma" subtype="implied" target="http://scta.info/resource/ps115_11"/>
+            <ref xml:id="gom-ps115-Rd1e186"><name xml:id="gom-ps115-Nd1e187" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e190"><seg type="qs">Et dicitur hic exstasis</seg>, etc., usque ad <seg type="qs">quod <quote xml:id="gom-ps115-Qd1e196" source="http://scta.info/resource/ps63_10@1-4">est omnis homo mendax.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps115-Dd1e201">
+          <head xml:id="gom-ps115-Hd1e203">Versus 12</head>
+          <p xml:id="gom-ps115-d1e205">
+            <quote xml:id="gom-ps115-Qd1e207" type="lemma" source="http://scta.info/resource/ps115_12">Quid retribuam Domino.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps115-Rd1e212"><name xml:id="gom-ps115-Nd1e213" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e216">? Territus iste respicit infirmitatem suam, et videt non esse praesumendum de se. Ex se enim homo mendax, ut et Petrus, dum praesumpsit, inventus est mendax: sed virtus Dei est, si non credit. Quod videns iste factum in se gratia Dei, subdit, <quote xml:id="gom-ps115-Qd1e218" source="http://scta.info/resource/ps115_3@5-7">quae retribuit mihi.</quote> Non ait, pro omnibus quae tribuit. Quae igitur praecesserunt hominis bona, ut omnium donorum Dei non tributio, sed retributio vocari possit? Quae praecesserant nisi peccata? Retribuit ergo Deus hominibus <pb ed="#P" n="1038B"/> bona pro malis, passus pro eis, cum homines retribuunt mala pro bonis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps115-Dd1e227">
+          <head xml:id="gom-ps115-Hd1e229">Versus 13</head>
+          <p xml:id="gom-ps115-d1e231">
+            <quote xml:id="gom-ps115-Qd1e233" type="lemma" source="http://scta.info/resource/ps115_13">Calicem salutaris.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps115-Rd1e238"><name xml:id="gom-ps115-Nd1e239" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e242"><seg type="qs">Passionem a simili</seg>, etc., usque ad <seg type="qs">quod post dicitur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps115-d1e250">
+            <ref xml:id="gom-ps115-Rd1e252" type="lemma" subtype="implied" target="http://scta.info/resource/ps115_13"/>
+            <ref xml:id="gom-ps115-Rd1e254"><name xml:id="gom-ps115-Nd1e255" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e258"><quote xml:id="gom-ps115-Qd1e259">Calicem,</quote> quia sub mensura bibitur. Unde, <quote xml:id="gom-ps115-Qd1e261" source="http://scta.info/resource/Icor10_13@7-18">Fidelis Deus, qui non patitur vos tentari supra id quod potestis</quote>.</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e266">
+            <quote xml:id="gom-ps115-Qd1e268" type="lemma" source="http://scta.info/resource/ps115_13">Salutaris,</quote>
+            <!-- check: lemma not matched to verse text -->
+            quia in aeternam salutem propitiatur.
+          </p>
+        </div>
+        <div xml:id="gom-ps115-Dd1e275">
+          <head xml:id="gom-ps115-Hd1e277">Versus 15</head>
+          <p xml:id="gom-ps115-d1e279">
+            <quote xml:id="gom-ps115-Qd1e281" type="lemma" source="http://scta.info/resource/ps115_15">Pretiosa in conspectu Domini mors sanctorum ejus.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps115-Rd1e286"><name xml:id="gom-ps115-Nd1e287" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e290">Qui prior passus est, dat imitari passiones suas; et ideo: <quote xml:id="gom-ps115-Qd1e292" source="http://scta.info/resource/ps115_6@1-7">Pretiosa in conspectu Domini mors sanctorum ejus.</quote> Emit eam sanguine quem pro eis fudit, ne dubitarent pro eo mori. Hoc ergo pretio comparatus, confitetur conditionem suam: <quote xml:id="gom-ps115-Qd1e295" source="http://scta.info/resource/ps115_7@1-4">O Domine, quia ego,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps115-Dd1e301">
+          <head xml:id="gom-ps115-Hd1e303">Versus 16</head>
+          <p xml:id="gom-ps115-d1e305">
+            <pb ed="#P" n="1038C"/>
+            <quote xml:id="gom-ps115-Qd1e309" type="lemma" source="http://scta.info/resource/ps115_16">O Domine, quia,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-ps115-Rd1e314"><name xml:id="gom-ps115-Nd1e315" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e318">Secundo servos se dicunt, et filios Ecclesiae, quia non est locus veri sacrificii extra catholicam Ecclesiam, ne quis haereticorum martyrium Deo placere putet.</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e321">
+            <quote xml:id="gom-ps115-Qd1e323" type="lemma" source="http://scta.info/resource/ps115_16">O Domine.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Admiratur se talia accepisse, qualia Dominus pro mundi redemptione. Et ut augeat admirationem repetit: <quote xml:id="gom-ps115-Qd1e328" source="http://scta.info/resource/ps115_7@8-13">Ego servus tuus. Filius ancillae.</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e332">
+            <ref xml:id="gom-ps115-Rd1e334" type="lemma" subtype="implied" target="http://scta.info/resource/ps115_16"/>
+            <ref xml:id="gom-ps115-Rd1e336"><name xml:id="gom-ps115-Nd1e337" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e340">Jerusalem coelestis, liberae a peccatis, ancillae justitiae. Qui autem sunt praeter Ecclesiam, non sunt filii ancillae, etsi servos se dicunt (quia habent nomen Christi) et martyres, ut haeretici.</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e343">
+            <quote xml:id="gom-ps115-Qd1e345" type="lemma" source="http://scta.info/resource/ps115_16">Filius ancillae,</quote>
+            <!-- check: lemma not matched to verse text -->
+            Non schismaticus. Vel ut ancilla, non sibi, sed Domino; ita et ego in morte mea aliquos tibi parturiam, sicut et in vita.
+          </p>
+        </div>
+        <div xml:id="gom-ps115-Dd1e352">
+          <head xml:id="gom-ps115-Hd1e354">Versus 17</head>
+          <p xml:id="gom-ps115-d1e356">
+            <quote xml:id="gom-ps115-Qd1e358" type="lemma" source="http://scta.info/resource/ps115_17">Dirupisti vincula mea.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps115-Rd1e363"><name xml:id="gom-ps115-Nd1e364" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e367">Virtute <pb ed="#P" n="1038D"/> martyrii vincula peccatorum rumpuntur, quia omnia sanguine abluuntur. Hic versus tantae virtutis a quibusdam creditur, ut peccata homini dimittantur, si in fine vitae trina confessione dicatur.</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e373">
+            <ref xml:id="gom-ps115-Rd1e375" type="lemma" subtype="implied" target="http://scta.info/resource/ps115_17"/>
+            <ref xml:id="gom-ps115-Rd1e377"><name xml:id="gom-ps115-Nd1e378" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e381">Qui <quote xml:id="gom-ps115-Qd1e383">pretiosa. O Domine, tibi sacrificabo;</quote> loquens Deo, affirmat, quod supra dixerat.</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e387">
+            <quote xml:id="gom-ps115-Qd1e389" type="lemma" source="http://scta.info/resource/ps115_17">Sacrificabo.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps115-Rd1e394"><name xml:id="gom-ps115-Nd1e395" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps115-Qd1e399">Et quia dirupisti, tibi sacrificabo, ut gratus, <quote xml:id="gom-ps115-Qd1e401">Hostiam laudis.</quote> Sic quod:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps115-Dd1e406">
+          <head xml:id="gom-ps115-Hd1e408">Versus 18</head>
+          <p xml:id="gom-ps115-d1e410">
+            <quote xml:id="gom-ps115-Qd1e412" type="lemma" source="http://scta.info/resource/ps115_18">Vota mea reddam.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Non ubique, sed, <quote xml:id="gom-ps115-Qd1e417">in atriis,</quote> id est, in catholica Ecclesia, non haereticorum.
+          </p>
+          <p xml:id="gom-ps115-d1e420">
+            <quote xml:id="gom-ps115-Qd1e422" type="lemma" source="http://scta.info/resource/ps115_18">Domus Domini.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Quae sit, ostendit.
+          </p>
+          <p xml:id="gom-ps115-d1e428">
+            <quote xml:id="gom-ps115-Qd1e430" type="lemma" source="http://scta.info/resource/ps115_18">In conspectu omnis populi.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps115-Rd1e435"><name xml:id="gom-ps115-Nd1e436" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e439">Publice debet laudari, qui pro omnibus pati voluit, ut plures aedificentur.</quote>
+          </p>
+          <p xml:id="gom-ps115-d1e442">
+            <quote xml:id="gom-ps115-Qd1e444" type="lemma" source="http://scta.info/resource/ps115_18">Vota mea reddam.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-ps115-Qd1e449"><seg type="qs">Meipsum, qui sum imago <pb ed="#P" n="1039A"/> Dei quae reddenda est Deo</seg>, etc., usque ad <seg type="qs">et apertius hic nominat Jerusalem.</seg></quote>
+          </p>
+          <p xml:id="gom-ps115-d1e460">
+            <ref xml:id="gom-ps115-Rd1e462" type="lemma" subtype="implied" target="http://scta.info/resource/ps115_18"/>
+            <ref xml:id="gom-ps115-Rd1e464"><name xml:id="gom-ps115-Nd1e465" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps115-Qd1e468">Sed ne quis putet per Jerusalem Judaeos solos significari, qui hoc nomine gloriantur, audiat sequentem Psalmum: <quote xml:id="gom-ps115-Qd1e470" source="http://scta.info/resource/ps116_1@2-5">Laudate Dominum, omnes gentes.</quote> Haec sunt atria Domini, ille enim populus.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

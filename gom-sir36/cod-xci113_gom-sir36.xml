@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 36</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 36</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1218D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir36">
+        <head xml:id="gom-sir36-Hd1e98">Caput 36</head>
+        <div xml:id="gom-sir36-Dd1e100">
+          <head xml:id="gom-sir36-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir36-d1e104">
+            <quote xml:id="gom-sir36-Qd1e106" type="lemma" source="http://scta.info/resource/sir36_1@1-2">Miserere nostri.</quote>
+            <ref xml:id="gom-sir36-Rd1e109"><name xml:id="gom-sir36-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir36-Qd1e113">Ex persona fidelium dirigit orationem ad Deum, ut illos defendat et inimicos deprimat, ut digne correcti Deum iterum agnoscant, et idola deserant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e117">
+          <head xml:id="gom-sir36-Hd1e119">Versus 7</head>
+          <p xml:id="gom-sir36-d1e121">
+            <quote xml:id="gom-sir36-Qd1e123" type="lemma" source="http://scta.info/resource/sir36_7@1-2">Glorifica manum,</quote>
+            etc.
+            <ref xml:id="gom-sir36-Rd1e126"><name xml:id="gom-sir36-Nd1e127" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir36-Qd1e130">Optat, ut divina majestas per manum et dextrum brachium, id est, per Christum, per quem antiqua miracula facta sunt, innovet tempore gratiae, ut veteris legis et novae idem intelligatur esse Deus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e134">
+          <head xml:id="gom-sir36-Hd1e136">Versus 15</head>
+          <p xml:id="gom-sir36-d1e138">
+            <pb ed="#P" n="1219A"/>
+            <quote xml:id="gom-sir36-Qd1e142" type="lemma" source="http://scta.info/resource/sir36_15">Extolle adversarium,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-sir36-Rd1e147"><name xml:id="gom-sir36-Nd1e148" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir36-Qd1e151"><seg type="qs">Significat per adventum Christi</seg>, etc., usque ad <seg type="qs">pro statu Ecclesiae et fidelium salute.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e160">
+          <head xml:id="gom-sir36-Hd1e162">Versus 16</head>
+          <p xml:id="gom-sir36-d1e164">
+            <quote xml:id="gom-sir36-Qd1e166" type="lemma" source="http://scta.info/resource/sir36_16@2-2">Sion,</quote>
+            etc. Notitia Scripturae, in qua praedicatur inenarrabilis virtus Dei.
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e172">
+          <head xml:id="gom-sir36-Hd1e174">Versus 17</head>
+          <p xml:id="gom-sir36-d1e176">
+            <quote xml:id="gom-sir36-Qd1e178" type="lemma" source="http://scta.info/resource/sir36_17@9-10">Et suscita,</quote>
+            etc., Omnes prophetae incarnationi Christi dant testimonium, quod Deus homo factus Ecclesiam sibi desponsaret.
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e183">
+          <head xml:id="gom-sir36-Hd1e185">Versus 19</head>
+          <p xml:id="gom-sir36-d1e187">
+            <quote xml:id="gom-sir36-Qd1e189" type="lemma" source="http://scta.info/resource/sir36_19@1-2">Secundum benedictionem,</quote>
+            etc.
+            <ref xml:id="gom-sir36-Rd1e192"><name xml:id="gom-sir36-Nd1e193" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir36-Qd1e196"><seg type="qs">Ordinem scilicet, et ritum sacerdotii</seg>, etc., usque ad <seg type="qs">quod Aaron figuravit in temporalibus sacrificiis, hoc impleat in spiritualibus Evangelii.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e205">
+          <head xml:id="gom-sir36-Hd1e207">Versus 20</head>
+          <p xml:id="gom-sir36-d1e209">
+            <quote xml:id="gom-sir36-Qd1e211" type="lemma" source="http://scta.info/resource/sir36_20@1-2">Omnem escam.</quote>
+            <ref xml:id="gom-sir36-Rd1e214"><name xml:id="gom-sir36-Nd1e215" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir36-Qd1e218"><seg type="qs">Postquam praedixit vocationem gentium</seg>, etc., usque ad <seg type="qs">sic veracem doctrinam discernamus, et fallacem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e227">
+          <head xml:id="gom-sir36-Hd1e229">Versus 24</head>
+          <p xml:id="gom-sir36-d1e231">
+            <pb ed="#P" n="1219B"/>
+            <quote xml:id="gom-sir36-Qd1e235" type="lemma" source="http://scta.info/resource/sir36_24@1-2">Species mulieris.</quote>
+            Christi gratia, quae per praedicationem animas curat, et carnis concupiscentiam mitigat. Haec in Ecclesia abundat, cujus desiderium est super omnem concupiscentiam hominis, quia in ea decor virtutum et pulchritudo doctrinae.
+          </p>
+          <p xml:id="gom-sir36-d1e239">
+            <quote xml:id="gom-sir36-Qd1e241" type="lemma" source="http://scta.info/resource/sir36_24@8-9">Super omnem.</quote>
+            Nulla concupiscentia hominis huic desiderio potest comparari: quia, <quote xml:id="gom-sir36-Qd1e244" source="http://scta.info/resource/prov31_30@2-12">Fallax gratia et vana est pulchritudo; mulier timens Deum ipsa laudabitur</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e249">
+          <head xml:id="gom-sir36-Hd1e251">Versus 25</head>
+          <p xml:id="gom-sir36-d1e253">
+            <quote xml:id="gom-sir36-Qd1e255" type="lemma" source="http://scta.info/resource/sir36_25@8-10">Non est vir.</quote>
+            Christus qui excedit humanam naturam. Unde, <quote xml:id="gom-sir36-Qd1e258" source="http://scta.info/resource/ps44_3@1-5">Speciosus forma prae filiis hominum</quote>. Hic enim peccatum non fecit, nec est inventus dolus in ore ejus.
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e263">
+          <head xml:id="gom-sir36-Hd1e265">Versus 26</head>
+          <p xml:id="gom-sir36-d1e267">
+            <quote xml:id="gom-sir36-Qd1e269" type="lemma" source="http://scta.info/resource/sir36_26@6-6">Adjutorium.</quote>
+            Adjutorium Ecclesiae est secundum dispensationem Christi. Unde, <quote xml:id="gom-sir36-Qd1e272" source="http://scta.info/resource/ps7_11@1-5">Justum adjutorium <pb ed="#P" n="1219C"/> meum a Domino</quote>, etc. Ipse est infinitatis ejus columna, et laboris requies.
+          </p>
+        </div>
+        <div xml:id="gom-sir36-Dd1e280">
+          <head xml:id="gom-sir36-Hd1e282">Versus 28</head>
+          <p xml:id="gom-sir36-d1e284">
+            <quote xml:id="gom-sir36-Qd1e286" type="lemma" source="http://scta.info/resource/sir36_28@3-6">Qui non habet nidum.</quote>
+            Id est, Ecclesiam, ubi electorum animae filios bonorum operum nutriunt. Unde, <quote xml:id="gom-sir36-Qd1e289" source="http://scta.info/resource/ps83_4@3-13">Invenit sibi passer domum, et turtur nidum, ubi reponat pullos suos.</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

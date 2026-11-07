@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1247C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is9">
+        <head xml:id="gom-is9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-is9-Dd1e100">
+          <head xml:id="gom-is9-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is9-d1e104">
+            <quote xml:id="gom-is9-Qd1e106" type="lemma" source="http://scta.info/resource/is9_1@1-2">Primo tempore,</quote>
+            <ref xml:id="gom-is9-Rd1e109"><name xml:id="gom-is9-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is9-Qd1e113"><seg type="qs">Hae duae tribus ab Assyriis in captivitatem ductae sunt</seg>, etc., usque ad <seg type="qs">vidit prius lucem praedicantis Christi.</seg></quote>
+          </p>
+          <p xml:id="gom-is9-d1e121">
+            <quote xml:id="gom-is9-Qd1e123" type="lemma" source="http://scta.info/resource/is9_1@5-6">Terra Zabulon.</quote>
+            <ref xml:id="gom-is9-Rd1e126"><name xml:id="gom-is9-Nd1e127" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e130">In qua Christus primum praedicavit et miracula fecit: ibi enim aquas in vinum convertit, apostolos elegit.</quote>
+          </p>
+          <p xml:id="gom-is9-d1e133">
+            <quote xml:id="gom-is9-Qd1e135" type="lemma" source="http://scta.info/resource/is9_1@14-15">Via maris.</quote>
+            Mare in hoc loco lacus Genezareth, qui Jordane influente efficitur. In cujus littore est Capharnaum, <pb ed="#P" n="1247D"/> Tiberias, Bethsaida et Corozain, in quibus Dominus maxime commoratus est, et sic: <quote xml:id="gom-is9-Qd1e140" source="http://scta.info/resource/is9_2@1-8">Populus qui ambulabat in tenebris vidit lucem magnam.</quote>
+          </p>
+          <p xml:id="gom-is9-d1e144">
+            <quote xml:id="gom-is9-Qd1e146" type="lemma" source="http://scta.info/resource/is9_1@18-19">Galilaeae gentium.</quote>
+            Galilaeae duae sunt: una gentium, vicina Tyriis in tribu Nephtali; altera circa Tiberiadem et stagnum Genesareth, in tribu Zabulon.
+          </p>
+        </div>
+        <div xml:id="gom-is9-Dd1e151">
+          <head xml:id="gom-is9-Hd1e153">Versus 2</head>
+          <p xml:id="gom-is9-d1e155">
+            <quote xml:id="gom-is9-Qd1e157" type="lemma" source="http://scta.info/resource/is9_2@10-13">In regione umbrae mortis.</quote>
+            <ref xml:id="gom-is9-Rd1e160"><name xml:id="gom-is9-Nd1e161" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e164">In umbra mortis sunt, qui in peccatis adhuc vivunt: <quote xml:id="gom-is9-Qd1e166" source="http://scta.info/resource/is9_2@10-13">In regione umbrae mortis,</quote> qui jam mortuis operibus ad inferna descenderunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is9-Dd1e172">
+          <head xml:id="gom-is9-Hd1e174">Versus 3</head>
+          <p xml:id="gom-is9-d1e176">
+            <quote xml:id="gom-is9-Qd1e178" type="lemma" source="http://scta.info/resource/is9_3@3-5">Non magnificasti laetitiam.</quote>
+            Nobis de salute Judaeorum; quamvis enim gaudeant de gentium conversione, dolent tamen de Judaeorum repulsione.
+          </p>
+          <p xml:id="gom-is9-d1e182">
+            <pb ed="#P" n="1248A"/>
+            <quote xml:id="gom-is9-Qd1e186" type="lemma" source="http://scta.info/resource/is9_3@6-8">Laetabuntur coram te,</quote>
+            etc. Propheta ad Christum de discipulis.
+          </p>
+        </div>
+        <div xml:id="gom-is9-Dd1e191">
+          <head xml:id="gom-is9-Hd1e193">Versus 4</head>
+          <p xml:id="gom-is9-d1e195">
+            <quote xml:id="gom-is9-Qd1e197" type="lemma" source="http://scta.info/resource/is9_4@1-2">Jugum enim.</quote>
+            <ref xml:id="gom-is9-Rd1e200"><name xml:id="gom-is9-Nd1e201" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e204">Habet Christus jugum, sed suave; et diabolus, sed importabile onere. Et Christus principatum super humerum, in quo crucem portavit, et diabolus in humero virgam, qua superbit.</quote>
+          </p>
+          <p xml:id="gom-is9-d1e207">
+            <quote xml:id="gom-is9-Qd1e209" type="lemma" source="http://scta.info/resource/is9_4@11-11">Exactoris.</quote>
+            Ipsius, scilicet exigentis. Quotidie enim nummum peccati quem primo homini commisit, a posteris cum usura exigit.
+          </p>
+        </div>
+        <div xml:id="gom-is9-Dd1e215">
+          <head xml:id="gom-is9-Hd1e217">Versus 5</head>
+          <p xml:id="gom-is9-d1e219">
+            <quote xml:id="gom-is9-Qd1e221" type="lemma" source="http://scta.info/resource/is9_5@1-4">Quia omnis violenta praedatio.</quote>
+            <ref xml:id="gom-is9-Rd1e224"><name xml:id="gom-is9-Nd1e225" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e228">Acsi dicat: Genus humanum quod diabolus depraedatus est, auferet ei Dominus violenter, id est, potenter, et ipsum cum tumultu detrudet in infernum. Unde tam de ipso quam de membris ejus dicitur: <pb ed="#P" n="1248B"/> <quote xml:id="gom-is9-Qd1e232" source="http://scta.info/resource/ps9_7@10-14">Periit memoria eorum cum sonitu</quote>.</quote>
+          </p>
+          <p xml:id="gom-is9-d1e237">
+            <quote xml:id="gom-is9-Qd1e239" type="lemma" source="http://scta.info/resource/is9_5@8-9">Vestimentum mistum.</quote>
+            <ref xml:id="gom-is9-Rd1e242"><name xml:id="gom-is9-Nd1e243" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e246">Diabolus qui plenus omnium sanguine, qui homicida ab initio; vel homines, quibus diabolus tanquam veste circumdatur, quorum manus plenae sunt sanguine.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is9-Dd1e250">
+          <head xml:id="gom-is9-Hd1e252">Versus 6</head>
+          <p xml:id="gom-is9-d1e254">
+            <quote xml:id="gom-is9-Qd1e256" type="lemma" source="http://scta.info/resource/is9_6@3-5">Puer natus est nobis.</quote>
+            <quote xml:id="gom-is9-Qd1e259"><seg type="qs">Non Judaeis, nobis</seg>, etc., usque ad <seg type="qs">sed oriri non videntibus non videtur.</seg></quote>
+          </p>
+          <p xml:id="gom-is9-d1e267">
+            <quote xml:id="gom-is9-Qd1e269" type="lemma" source="http://scta.info/resource/is9_6@13-15">Principatus super humerum.</quote>
+            <ref xml:id="gom-is9-Rd1e272"><name xml:id="gom-is9-Nd1e273" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e276">Dum duceretur ad patibulum, portavit crucem, in qua meruit principatum.</quote>
+          </p>
+          <p xml:id="gom-is9-d1e279">
+            <ref xml:id="gom-is9-Rd1e281" type="lemma" subtype="implied" target="http://scta.info/resource/is9_6@13-15"/>
+            <ref xml:id="gom-is9-Rd1e283"><name xml:id="gom-is9-Nd1e284" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e287">Septuaginta: <quote xml:id="gom-is9-Qd1e289">Magni consilii angelus.</quote> Quod in Hebraeo non habetur, sed nominum majestate perterriti, non ausi sunt de puero dicere, quod aperte Deus appellandus sit. Ideo pro his sex nominibus <pb ed="#P" n="1248C"/> hoc posuerunt, <quote xml:id="gom-is9-Qd1e293">magni consilii angelus.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is9-Dd1e297">
+          <head xml:id="gom-is9-Hd1e299">Versus 7</head>
+          <p xml:id="gom-is9-d1e301">
+            <quote xml:id="gom-is9-Qd1e303" type="lemma" source="http://scta.info/resource/is9_7@30-31">Zelus Domini.</quote>
+            <ref xml:id="gom-is9-Rd1e306"><name xml:id="gom-is9-Nd1e307" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e310">Coepit ab Emmanuel prophetia, ubi dicitur: <quote xml:id="gom-is9-Qd1e312" source="http://scta.info/resource/is7_11@1-6">Pete tibi signum a Deo.</quote> Hic finitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is9-Dd1e318">
+          <head xml:id="gom-is9-Hd1e320">Versus 8</head>
+          <p xml:id="gom-is9-d1e322">
+            <quote xml:id="gom-is9-Qd1e324" type="lemma" source="http://scta.info/resource/is9_8@1-3">Verbum misit Dominus.</quote>
+            <ref xml:id="gom-is9-Rd1e327"><name xml:id="gom-is9-Nd1e328" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e331"><seg type="qs">Verbum Hebraicum <quote xml:id="gom-is9-Qd1e334">Dabar,</quote></seg> etc., usque ad <seg type="qs">despiciunt Ecclesiam, et simplicitatem ejus putant imperitiam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is9-Dd1e341">
+          <head xml:id="gom-is9-Hd1e343">Versus 10</head>
+          <p xml:id="gom-is9-d1e345">
+            <quote xml:id="gom-is9-Qd1e347" type="lemma" source="http://scta.info/resource/is9_10@1-2">Lateres ceciderunt.</quote>
+            <ref xml:id="gom-is9-Rd1e350"><name xml:id="gom-is9-Nd1e351" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is9-Qd1e354"><seg type="qs">Dicebant superius</seg>, etc., usque ad <seg type="qs">ex fortibus et bellicosis principibus populum muniemus.</seg></quote>
+          </p>
+          <p xml:id="gom-is9-d1e362">
+            <quote xml:id="gom-is9-Qd1e364" type="lemma" source="http://scta.info/resource/is9_10@10-10">Cedros.</quote>
+            Id est, invincibiles ex nobis principes praeficiemus eis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 36</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 36</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0163C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen36">
+        <head xml:id="gom-gen36-Hd1e98">Caput 36</head>
+        <div xml:id="gom-gen36-Dd1e100">
+          <head xml:id="gom-gen36-Hd1e102">Versus 6</head>
+          <p xml:id="gom-gen36-d1e104">
+            <quote xml:id="gom-gen36-Qd1e106" type="lemma" source="http://scta.info/resource/gen36_6@28-31">Abiit in alteram regionem.</quote>
+            (STRAB) Quaeri potest cur Esau post mortem patris dicatur abiisse in Seir, et recessisse a fratre, cum jam quando venit Jacob, in Seir dicatur habitasse? <pb ed="#P" n="0163D"/> Sed fieri potuit ut Jacob fugiente in Mesopotamiam, Esau, dolore praereptae benedictionis, a parente recesserit, et habitaverit in Seir viginti annis quibus Jacob abfuit. Cui reverso conciliatus, rursus de Seir reversus, cum fratre suo, donec pater viveret habitavit: quo mortuo, a fratre recessit, quia divites erant, et simul habitare non poterant.
+          </p>
+        </div>
+        <div xml:id="gom-gen36-Dd1e113">
+          <head xml:id="gom-gen36-Hd1e115">Versus 20</head>
+          <p xml:id="gom-gen36-d1e117">
+            <quote xml:id="gom-gen36-Qd1e119" type="lemma" source="http://scta.info/resource/gen36_20@1-3">Isti filii Seir,</quote>
+            etc.
+            <ref xml:id="gom-gen36-Rd1e122"><name xml:id="gom-gen36-Nd1e123" ref="#Jerome">HIERON.</name> in Q. Hebr. tom. III.</ref>
+            <quote xml:id="gom-gen36-Qd1e127">Postquam enumeravit filios Esau, altius repetit qui ante Esau in terra Edom principes exstiterunt ex genere Horraeorum, qui <mentioned>liberi</mentioned> interpretantur. In Deuteronomio manifestius scribitur quomodo venerunt filii Esau, et interfectis Horraeis terram eorum haereditaverunt.</quote>
+          </p>
+          <p xml:id="gom-gen36-d1e133">
+            <pb ed="#P" n="0164A"/>
+            <quote xml:id="gom-gen36-Qd1e137" type="lemma" source="http://scta.info/resource/gen36_20@2-3">Filii Seir,</quote>
+            etc.
+            <ref xml:id="gom-gen36-Rd1e140"><name xml:id="gom-gen36-Nd1e141">STRAB.</name></ref>
+            <quote xml:id="gom-gen36-Qd1e143">Id est <quote xml:id="gom-gen36-Qd1e145">liberi</quote> qui, sicut in Paralipomenis legitur, primo habitaverunt in monte Seir; quibus expulsis. Idumaei habitaverunt pro illis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen36-Dd1e150">
+          <head xml:id="gom-gen36-Hd1e152">Versus 22</head>
+          <p xml:id="gom-gen36-d1e154">
+            <quote xml:id="gom-gen36-Qd1e156" type="lemma" source="http://scta.info/resource/gen36_22@9-11">Erat autem soror,</quote>
+            etc.
+            <ref xml:id="gom-gen36-Rd1e159"><name xml:id="gom-gen36-Nd1e160" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-gen36-Qd1e163">Haec est Thamna, de qua supra dictum est: Et Thamna erat concubina Eliphaz, primogeniti Esau, etc. Ideo Horraeorum recordatur, quia primogenitus filiorum Esau ex filiabus eorum accepit concubinam. Quia autem dicitur Theman, et Cenez, et Amalec, et reliqua, sciamus postea regionibus et gentibus Idumaeorum ex his vocabula imposita.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen36-Dd1e167">
+          <head xml:id="gom-gen36-Hd1e169">Versus 24</head>
+          <p xml:id="gom-gen36-d1e171">
+            <quote xml:id="gom-gen36-Qd1e173" type="lemma" source="http://scta.info/resource/gen36_24@8-10">Iste est Ana.</quote>
+            etc.
+            <ref xml:id="gom-gen36-Rd1e176"><name xml:id="gom-gen36-Nd1e177">STRAB.</name></ref>
+            <quote xml:id="gom-gen36-Qd1e179">Quidam simpliciter aquas calidas hunc in deserto reperisse dicunt, quas vocamus thermas.</quote>
+          </p>
+          <p xml:id="gom-gen36-d1e182">
+            <pb ed="#P" n="0164B"/>
+            <quote xml:id="gom-gen36-Qd1e186" type="lemma" source="http://scta.info/resource/gen36_24@8-10">Iste est Ana,</quote>
+            etc.
+            <ref xml:id="gom-gen36-Rd1e189"><name xml:id="gom-gen36-Nd1e190" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen36-Qd1e193"><seg type="qs">Varia apud Hebraeos de hoc capitulo disputantur</seg>, etc., usque ad <seg type="qs">ut muli contra naturam nascerentur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen36-Dd1e203">
+          <head xml:id="gom-gen36-Hd1e205">Versus 29</head>
+          <p xml:id="gom-gen36-d1e207">
+            <quote xml:id="gom-gen36-Qd1e209" type="lemma" source="http://scta.info/resource/gen36_29@1-2">Isti duces.</quote>
+            De praecedentibus ait, qui de Seir; non de his quos incipit numerare, qui de Esau sunt.
+          </p>
+        </div>
+        <div xml:id="gom-gen36-Dd1e214">
+          <head xml:id="gom-gen36-Hd1e216">Versus 31</head>
+          <p xml:id="gom-gen36-d1e218">
+            <quote xml:id="gom-gen36-Qd1e220" type="lemma" source="http://scta.info/resource/gen36_31@1-2">Reges autem.</quote>
+            Sciendum quod non omnes reges commemorat qui fuerunt antequam haberent reges filii Ismael, quorum primus Saul, sed hos omnes tantum qui regnaverunt antequam moreretur Moses.
+          </p>
+          <p xml:id="gom-gen36-d1e224">
+            <quote xml:id="gom-gen36-Qd1e226" type="lemma" source="http://scta.info/resource/gen36_31@1-2">Reges autem.</quote>
+            Secundum tempus quo vivebat scriptor commemorat, cum autem Seir, qui istos genuit, ibi habitaret, nondum veniente Esau in terram illam, ab eo vocabatur terra Edom.
+          </p>
+          <p xml:id="gom-gen36-d1e230">
+            <ref xml:id="gom-gen36-Rd1e232" type="lemma" subtype="implied" target="http://scta.info/resource/gen36_31@1-2"/>
+            <ref xml:id="gom-gen36-Rd1e234"><name xml:id="gom-gen36-Nd1e235" ref="#Augustine">AUG.</name>, Q. in Gen., t. III.</ref>
+            <quote xml:id="gom-gen36-Qd1e239"><seg type="qs">Non mirum quod numerantibus <pb ed="#P" n="0164C"/> ab Abraham per Esau patrem gentis Edom</seg>, etc., usque ad <seg type="qs">in illo enim ordine ubi plures numerantur, citius mortui sunt, quam hic ubi pauciores.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen36-Dd1e250">
+          <head xml:id="gom-gen36-Hd1e252">Versus 34</head>
+          <p xml:id="gom-gen36-d1e254">
+            <quote xml:id="gom-gen36-Qd1e256" type="lemma" source="http://scta.info/resource/gen36_34@8-8">Husan.</quote>
+            <ref xml:id="gom-gen36-Rd1e259"><name xml:id="gom-gen36-Nd1e260" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-gen36-Qd1e263">Quem quidam suspicantur esse Job, ut in fine voluminis ipsius additum est; sed Hebraei asserunt eum de stirpe Nachor generatum, ut jam supra dictum est.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

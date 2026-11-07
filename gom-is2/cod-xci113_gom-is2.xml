@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1236D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is2">
+        <head xml:id="gom-is2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-is2-Dd1e100">
+          <head xml:id="gom-is2-Hd1e102">Versus 2</head>
+          <p xml:id="gom-is2-d1e104">
+            <pb ed="#P" n="1236D"/>
+            <quote xml:id="gom-is2-Qd1e108" type="lemma" source="http://scta.info/resource/is2_2@3-4">In novissimis.</quote>
+            <ref xml:id="gom-is2-Rd1e111"><name xml:id="gom-is2-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is2-Qd1e115"><seg type="qs">De quibus Jacob</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-is2-Qd1e120" source="http://scta.info/resource/ap21_10@6-8">crevit in montem magnum.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-is2-d1e124">
+            <quote xml:id="gom-is2-Qd1e126" type="lemma" source="http://scta.info/resource/is2_2">Mons. Montes,</quote>
+            <!-- check: lemma not matched to verse text -->
+            angeli, prophetae, patriarchae, apostoli, martyres, et alii qui miraculis effulserunt.
+          </p>
+          <p xml:id="gom-is2-d1e132">
+            <quote xml:id="gom-is2-Qd1e134" type="lemma" source="http://scta.info/resource/is2_2@16-16">Colles,</quote>
+            minores, a majoribus lumen accipientes.
+          </p>
+          <p xml:id="gom-is2-d1e138">
+            <quote xml:id="gom-is2-Qd1e140" type="lemma" source="http://scta.info/resource/is2_2@13-14">Et elevabitur.</quote>
+            <ref xml:id="gom-is2-Rd1e143"><name xml:id="gom-is2-Nd1e144" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e147">Super omnes sanctos, quia de plenitudine ejus omnes accipiunt (de quibus: <quote xml:id="gom-is2-Qd1e149" source="http://scta.info/resource/is37_33@25-27">Montes in circumitu ejus</quote> ) qui a monte Christo montes dicuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e155">
+          <head xml:id="gom-is2-Hd1e157">Versus 3</head>
+          <p xml:id="gom-is2-d1e159">
+            <quote xml:id="gom-is2-Qd1e161" type="lemma" source="http://scta.info/resource/is2_3@15-15">Domum.</quote>
+            <ref xml:id="gom-is2-Rd1e164"><name xml:id="gom-is2-Nd1e165" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e168">Quod ideo dicitur, ut Vetus Testamentum suscipiamus, non secundum Manichaeum aliam quam domum Dei Jacob quaeramus.</quote>
+          </p>
+          <p xml:id="gom-is2-d1e171">
+            <pb ed="#P" n="1237A"/>
+            <quote xml:id="gom-is2-Qd1e175" type="lemma" source="http://scta.info/resource/is2_3@21-22">Vias suas,</quote>
+            quas alii triverunt. Dominus quoque ascendens in montem docebat discipulos suos. Prius ergo discendae viae, post ambulandum in semitis.
+          </p>
+          <p xml:id="gom-is2-d1e179">
+            <quote xml:id="gom-is2-Qd1e181" type="lemma" source="http://scta.info/resource/is2_3@29-30">De Sion.</quote>
+            <ref xml:id="gom-is2-Rd1e184"><name xml:id="gom-is2-Nd1e185" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is2-Qd1e188">Non de Sina petra, sed de monte Sion, in quo Jerusalem, in qua templum et religio Dei. Dominus quoque in templo docuit quod non oportuit Propheta mori extra Jerusalem.</quote>
+          </p>
+          <p xml:id="gom-is2-d1e191">
+            <quote xml:id="gom-is2-Qd1e193" type="lemma" source="http://scta.info/resource/is2_3@32-34">Lex et verbum.</quote>
+            Sicut supra, verbum et legem simul posuit, ut principes audirent verbum, legem populus aure perciperet. Qui enim fecerit legem, perveniet ad verbum Dei; exibit lex de verbo quasi de fonte, ut alios irriget.
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e198">
+          <head xml:id="gom-is2-Hd1e200">Versus 4</head>
+          <p xml:id="gom-is2-d1e202">
+            <quote xml:id="gom-is2-Qd1e204" type="lemma" source="http://scta.info/resource/is2_4@8-11">Et constabunt gladios suos.</quote>
+            <ref xml:id="gom-is2-Rd1e207"><name xml:id="gom-is2-Nd1e208" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e211"><seg type="qs">Omne studium bellandi vertetur in pacem</seg>, etc., usque ad <seg type="qs">manducemus in tempore messionis, scilicet <pb ed="#P" n="1237B"/> mortis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e222">
+          <head xml:id="gom-is2-Hd1e224">Versus 5</head>
+          <p xml:id="gom-is2-d1e226">
+            <quote xml:id="gom-is2-Qd1e228" type="lemma" source="http://scta.info/resource/is2_5@1-2">Domus Jacob,</quote>
+            etc.
+            <ref xml:id="gom-is2-Rd1e231"><name xml:id="gom-is2-Nd1e232" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e235">Post vocationem gentium et ostensionem montis Dei, invitat populum suum, qui est de Jacob, ut, exiens de tenebris infidelitatis, suscipiat lumen Christi.</quote>
+          </p>
+          <p xml:id="gom-is2-d1e238">
+            <quote xml:id="gom-is2-Qd1e240" type="lemma" source="http://scta.info/resource/is2_5@6-7">In lumine.</quote>
+            <ref xml:id="gom-is2-Rd1e243"><name xml:id="gom-is2-Nd1e244" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e247"><quote xml:id="gom-is2-Qd1e248">Dum lucem habetis, credite in lucem. Accedite ad eum, et illuminamini,</quote> etc. Quasi dicet: <quote xml:id="gom-is2-Qd1e250">Qui male agit, odit lucem: sed venite mecum, ambulemus in luce Domini, qui dicit: Ego sum lux mundi,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-is2-d1e254">
+            <ref xml:id="gom-is2-Rd1e256" type="lemma" subtype="implied" target="http://scta.info/resource/is2_5@6-7"/>
+            Vers. 6.-- <quote xml:id="gom-is2-Qd1e258" source="http://scta.info/resource/is2_6@1-2">Projecisti enim.</quote> Postquam exhortatus est, vidit in spiritu duritiam eorum, et subito oculos mentis ad Dominum convertens, ait: <quote xml:id="gom-is2-Qd1e261" source="http://scta.info/resource/is2_6@1-2">Projecisti enim,</quote> etc., quasi dicat, et ideo hortandi, quia <quote xml:id="gom-is2-Qd1e264" source="http://scta.info/resource/is2_6@1-1">projecisti,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e270">
+          <head xml:id="gom-is2-Hd1e272">Versus 6</head>
+          <p xml:id="gom-is2-d1e274">
+            <pb ed="#P" n="1237C"/>
+            <quote xml:id="gom-is2-Qd1e278" type="lemma" source="http://scta.info/resource/is2_6@7-11">Quia repleti sunt, ut olim,</quote>
+            etc.
+            <ref xml:id="gom-is2-Rd1e281"><name xml:id="gom-is2-Nd1e282" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e285">Romanis, scilicet ejicientibus, Judaeos in Judaea habitaverunt alienigenae, undecunque adducti a Tito et Vespasiano, vel caeteris principibus. Vel priusquam a Babyloniis vastarentur, haec commiserunt sub impiis regibus.</quote>
+          </p>
+          <p xml:id="gom-is2-d1e288">
+            <quote xml:id="gom-is2-Qd1e290" type="lemma" source="http://scta.info/resource/is2_6@15-16">Ut Philisthiim.</quote>
+            <ref xml:id="gom-is2-Rd1e293"><name xml:id="gom-is2-Nd1e294" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e297">Philisthiim qui hodie Palaestini, quia <mentioned>p</mentioned>. litteram sermo Hebraeus non habet, sed pro ea <foreign xml:lang="greek">φ</foreign> Graeco utitur.</quote>
+          </p>
+          <p xml:id="gom-is2-d1e306">
+            <quote xml:id="gom-is2-Qd1e308" type="lemma" source="http://scta.info/resource/is2_6@18-18">Pueris,</quote>
+            etc. Victorum significat libidinem in Judaeam gentem. Graeci enim et Latini diu hoc vitio laboraverunt: sed sub Constantino imperatore, et coruscante Evangelio, cum caeteris delata est turpitudo haec.
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e313">
+          <head xml:id="gom-is2-Hd1e315">Versus 7</head>
+          <p xml:id="gom-is2-d1e317">
+            <quote xml:id="gom-is2-Qd1e319" type="lemma" source="http://scta.info/resource/is2_7@1-3">Repleta est terra.</quote>
+            <ref xml:id="gom-is2-Rd1e322"><name xml:id="gom-is2-Nd1e323" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e326">Et Romanorum et Judaeorum avaritia suggillatur; Graecae enim <pb ed="#P" n="1237D"/> et Latinae testantur historiae nihil utraque gente avarius esse: inter idola, avaritia condemnatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e333">
+          <head xml:id="gom-is2-Hd1e335">Versus 8</head>
+          <p xml:id="gom-is2-d1e337">
+            <quote xml:id="gom-is2-Qd1e339" type="lemma" source="http://scta.info/resource/is2_8@6-8">Equis et innumerabiles.</quote>
+            <ref xml:id="gom-is2-Rd1e342"><name xml:id="gom-is2-Nd1e343" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e346">Et hoc contra Dominum, qui multiplicari currus prohibuit et equos: haec enim animalia data sunt ad adjuvandum, non ad superbiendum, unde et jumenta dicuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e350">
+          <head xml:id="gom-is2-Hd1e352">Versus 9</head>
+          <p xml:id="gom-is2-d1e354">
+            <quote xml:id="gom-is2-Qd1e356" type="lemma" source="http://scta.info/resource/is2_9@2-3">Incurvavit se.</quote>
+            Ubi quondam templum et religio Dei, ibi statua Adriani et idolum Jovis.
+          </p>
+          <p xml:id="gom-is2-d1e360">
+            <quote xml:id="gom-is2-Qd1e362" type="lemma" source="http://scta.info/resource/is2_9">Non ergo.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-is2-Qd1e367"><seg type="qs">Non maledicit Isaias, sed benedicit</seg>, etc., usque ad <seg type="qs">et repleti sunt idolis, etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e376">
+          <head xml:id="gom-is2-Hd1e378">Versus 10</head>
+          <p xml:id="gom-is2-d1e380">
+            <quote xml:id="gom-is2-Qd1e382" type="lemma" source="http://scta.info/resource/is2_10@7-10">A facie timoris Domini.</quote>
+            Ab ira judicii.
+          </p>
+          <p xml:id="gom-is2-d1e386">
+            <quote xml:id="gom-is2-Qd1e388" type="lemma" source="http://scta.info/resource/is2_10@11-15">Et a gloria majestatis ejus.</quote>
+            Quia <quote xml:id="gom-is2-Qd1e391" source="http://scta.info/resource/lc21_27@6-13">veniet cum potestate magna et majestate.</quote>
+          </p>
+          <p xml:id="gom-is2-d1e395">
+            <pb ed="#P" n="1238A"/>
+            <ref xml:id="gom-is2-Rd1e399" type="lemma" subtype="implied" target="http://scta.info/resource/is2_10@11-15"/>
+            VERS 11.-- <quote xml:id="gom-is2-Qd1e401" source="http://scta.info/resource/is2_11@1-2">Oculi sublimis,</quote> etc.
+          </p>
+          <p xml:id="gom-is2-d1e405">
+            <ref xml:id="gom-is2-Rd1e407" type="lemma" subtype="implied" target="http://scta.info/resource/is2_10@11-15"/>
+            <ref xml:id="gom-is2-Rd1e409"><name xml:id="gom-is2-Nd1e410" ref="#Jerome">Hier.</name></ref>
+            <quote xml:id="gom-is2-Qd1e413">Nec divitiae, nec potentia, nec nobilitas generis quemquam salvabit, omnibus superveniet una captivitas. Possunt et de judicii die haec accipi, cum omnis creatura in conspectu Dei humiliabitur, et nihil se esse sentiet comparatione ejus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e417">
+          <head xml:id="gom-is2-Hd1e419">Versus 11</head>
+          <p xml:id="gom-is2-d1e421">
+            <quote xml:id="gom-is2-Qd1e423" type="lemma" source="http://scta.info/resource/is2_11@10-16">Exaltabitur autem solus Dominus in die illa.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e429">
+          <head xml:id="gom-is2-Hd1e431">Versus 12</head>
+          <p xml:id="gom-is2-d1e433">
+            <quote xml:id="gom-is2-Qd1e435" type="lemma" source="http://scta.info/resource/is2_12@3-4">Domini exercituum.</quote>
+            Ubicunque de victoria, vel vindicta Domini loquitur; Dominum exercituum eum commemorat, ne dubitemus de ejus victoria, cujus tanta est potentia.
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e440">
+          <head xml:id="gom-is2-Hd1e442">Versus 14</head>
+          <p xml:id="gom-is2-d1e444">
+            <quote xml:id="gom-is2-Qd1e446" type="lemma" source="http://scta.info/resource/is2_14@4-5">Montes excelsos.</quote>
+            <ref xml:id="gom-is2-Rd1e449"><name xml:id="gom-is2-Nd1e450" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is2-Qd1e453">Pro varietate virtutum, alii bonorum montes, alii colles appellantur. Pro diversitate vitiorum, alii impiorum montes, allii colles, quibus dicitur: <quote xml:id="gom-is2-Qd1e455" source="http://scta.info/resource/ez6_3@20-24">Ego inducam super <pb ed="#P" n="1238B"/> vos gladium,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e463">
+          <head xml:id="gom-is2-Hd1e465">Versus 15</head>
+          <p xml:id="gom-is2-d1e467">
+            <quote xml:id="gom-is2-Qd1e469" type="lemma" source="http://scta.info/resource/is2_15@1-4">Et super omnem turrim.</quote>
+            <ref xml:id="gom-is2-Rd1e472"><name xml:id="gom-is2-Nd1e473" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e476"><seg type="qs">Ad litteram: venientibus Romanis, et turres et muri funditus eversi sunt</seg>, etc., usque ad <seg type="qs">ne dogma perversum praevaleat veritati.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e485">
+          <head xml:id="gom-is2-Hd1e487">Versus 16</head>
+          <p xml:id="gom-is2-d1e489">
+            <quote xml:id="gom-is2-Qd1e491" type="lemma" source="http://scta.info/resource/is2_16@4-4">Naves.</quote>
+            <ref xml:id="gom-is2-Rd1e494"><name xml:id="gom-is2-Nd1e495" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e498"><seg type="qs">Habuit Josaphat naves quas mittebat in Tharsis</seg>, etc., usque ad <seg type="qs">sunt et naves bonae de quibus dicitur: <quote xml:id="gom-is2-Qd1e504" source="http://scta.info/resource/ps106_23@1-4">Qui descendunt mare in navi,</quote> etc.</seg></quote>
+          </p>
+          <p xml:id="gom-is2-d1e509">
+            <quote xml:id="gom-is2-Qd1e511" type="lemma" source="http://scta.info/resource/is2_16@5-5">Tharsis.</quote>
+            <ref xml:id="gom-is2-Rd1e514"><name xml:id="gom-is2-Nd1e515" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e518"><seg type="qs">Cujuslibet maris</seg>, etc., usque ad <seg type="qs">si aliter dicitur, Syrum est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e527">
+          <head xml:id="gom-is2-Hd1e529">Versus 17</head>
+          <p xml:id="gom-is2-d1e531">
+            <quote xml:id="gom-is2-Qd1e533" type="lemma" source="http://scta.info/resource/is2_17">Incurvabitur omnis.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-is2-Rd1e538"><name xml:id="gom-is2-Nd1e539" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is2-Qd1e542"><seg type="qs">Allegorice: humanus sermo rationabilis videtur</seg>, etc., usque ad <seg type="qs">ab eo quoque quo conficta erant penitus conterentur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e551">
+          <head xml:id="gom-is2-Hd1e553">Versus 18</head>
+          <p xml:id="gom-is2-d1e555">
+            <pb ed="#P" n="1238C"/>
+            <quote xml:id="gom-is2-Qd1e559" type="lemma" source="http://scta.info/resource/is2_18@1-3">Et idola penitus.</quote>
+            <quote xml:id="gom-is2-Qd1e562"><seg type="qs">Hoc in captivitate Chaldaeorum</seg>, etc., usque ad <seg type="qs">hoc specialiter ad priorem sensum referendum est.</seg></quote>
+          </p>
+          <p xml:id="gom-is2-d1e570">
+            <ref xml:id="gom-is2-Rd1e572" type="lemma" subtype="implied" target="http://scta.info/resource/is2_18@1-3"/>
+            <ref xml:id="gom-is2-Rd1e574"><name xml:id="gom-is2-Nd1e575" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-is2-Qd1e578">Aedificavit Salomon rem in Jerusalem Astaroth idolum Sydoniorum, etc., ubi (ni fallor) ostenditur quia Salomon nunquam perfecte poenituit, quia idola quae aedificaverat non delevit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e583">
+          <head xml:id="gom-is2-Hd1e585">Versus 20</head>
+          <p xml:id="gom-is2-d1e587">
+            <quote xml:id="gom-is2-Qd1e589" type="lemma" source="http://scta.info/resource/is2_20@16-18">Ut adoraret talpas.</quote>
+            <ref xml:id="gom-is2-Rd1e592"><name xml:id="gom-is2-Nd1e593" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is2-Qd1e596"><seg type="qs">Non in re, sed sicut talpae</seg>, etc., usque ad <seg type="qs">quibus ad veritatem pervenitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is2-Dd1e605">
+          <head xml:id="gom-is2-Hd1e607">Versus 22</head>
+          <p xml:id="gom-is2-d1e609">
+            <quote xml:id="gom-is2-Qd1e611" type="lemma" source="http://scta.info/resource/is2_22@1-2">Quiescite ergo.</quote>
+            Quia haec evenient nisi quiescatis. Quiescite ergo ne saeviatis in Christum, qui purus homo videtur: quia spirat naribus et vivit sicut alii homines.
+          </p>
+          <p xml:id="gom-is2-d1e615">
+            <ref xml:id="gom-is2-Rd1e617" type="lemma" subtype="implied" target="http://scta.info/resource/is2_22@1-2"/>
+            <quote xml:id="gom-is2-Qd1e619" source="http://scta.info/resource/ps112_4@1-6">Excelsus. Excelsus super omnes gentes Dominus. <pb ed="#P" n="1238D"/> Et ipse fundavit eam Altissimus</quote>. Hebraeum tamen <quote xml:id="gom-is2-Qd1e624" source="http://scta.info/resource/is2_22@11-11">excelsum</quote> significat, non <quote xml:id="gom-is2-Qd1e627" source="http://scta.info/resource/is2_22@11-11">excelsus.</quote> Ipse est enim ipsa altitudo, non tantummodo altus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

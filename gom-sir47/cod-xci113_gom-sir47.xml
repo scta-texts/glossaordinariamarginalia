@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 47</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 47</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1227D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir47">
+        <head xml:id="gom-sir47-Hd1e98">Caput 47</head>
+        <div xml:id="gom-sir47-Dd1e100">
+          <head xml:id="gom-sir47-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir47-d1e104">
+            <pb ed="#P" n="1227D"/>
+            <quote xml:id="gom-sir47-Qd1e108" type="lemma" source="http://scta.info/resource/sir47_1@1-4">Post haec surrexit Nathan.</quote>
+            Ad litteram, facta David commemorat, de quibus liber Regum et Paralipomenon plenissime narrant.
+          </p>
+        </div>
+        <div xml:id="gom-sir47-Dd1e113">
+          <head xml:id="gom-sir47-Hd1e115">Versus 2</head>
+          <p xml:id="gom-sir47-d1e117">
+            <quote xml:id="gom-sir47-Qd1e119" type="lemma" source="http://scta.info/resource/sir47_2@2-3">Quasi adeps.</quote>
+            Significat eum gratia Spiritus sancti repletum, a carnalium consortio vita et moribus separatum.
+          </p>
+        </div>
+        <div xml:id="gom-sir47-Dd1e124">
+          <head xml:id="gom-sir47-Hd1e126">Versus 3</head>
+          <p xml:id="gom-sir47-d1e128">
+            <quote xml:id="gom-sir47-Qd1e130" type="lemma" source="http://scta.info/resource/sir47_3@1-3">Cum leonibus lusit.</quote>
+            <ref xml:id="gom-sir47-Rd1e133"><name xml:id="gom-sir47-Nd1e134" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir47-Qd1e137"><seg type="qs">David significat Christum</seg>, etc., usque ad <seg type="qs">et dedit illi nomen, quod est super omne nomen.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir47-Dd1e146">
+          <head xml:id="gom-sir47-Hd1e148">Versus 14</head>
+          <p xml:id="gom-sir47-d1e150">
+            <quote xml:id="gom-sir47-Qd1e152" type="lemma" source="http://scta.info/resource/sir47_14@1-5">Post ipsum surrexit filius sensatus.</quote>
+            <ref xml:id="gom-sir47-Rd1e155"><name xml:id="gom-sir47-Nd1e156" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir47-Qd1e159"><seg type="qs">Mystice, Salomon</seg>, etc., usque ad <seg type="qs">sicut in una area bonos significant grana, malos vero palea.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir47-Dd1e169">
+          <head xml:id="gom-sir47-Hd1e171">Versus 23</head>
+          <p xml:id="gom-sir47-d1e173">
+            <quote xml:id="gom-sir47-Qd1e175" type="lemma" source="http://scta.info/resource/sir47_23@1-3">Ut faceres imperium,</quote>
+            etc.
+            <ref xml:id="gom-sir47-Rd1e178"><name xml:id="gom-sir47-Nd1e179" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir47-Qd1e182">Quia <pb ed="#P" n="1228A"/> decem tribus secutae sunt Jeroboam, et duae Roboam; de Ephraim fuit Jeroboam, qui primus in decem tribubus crudeliter regnavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir47-Dd1e189">
+          <head xml:id="gom-sir47-Hd1e191">Versus 27</head>
+          <p xml:id="gom-sir47-d1e193">
+            <quote xml:id="gom-sir47-Qd1e195" type="lemma" source="http://scta.info/resource/sir47_27@1-4">Et dereliquit post se,</quote>
+            etc.
+            <ref xml:id="gom-sir47-Rd1e198"><name xml:id="gom-sir47-Nd1e199" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir47-Qd1e202"><seg type="qs">Mystice, Roboam, qui interpretatur <mentioned>latitudo populi</mentioned></seg>, etc., usque ad <seg type="qs">in regula catholicae fidei permansit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir47-Dd1e212">
+          <head xml:id="gom-sir47-Hd1e214">Versus 28</head>
+          <p xml:id="gom-sir47-d1e216">
+            <quote xml:id="gom-sir47-Qd1e218" type="lemma" source="http://scta.info/resource/sir47_28@6-9">Avertit gentem consilio suo.</quote>
+            Credens scilicet consilio juvenum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

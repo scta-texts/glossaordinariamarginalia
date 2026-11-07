@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0528A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudic8">
+        <head xml:id="gom-iudic8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-iudic8-Dd1e100">
+          <head xml:id="gom-iudic8-Hd1e102">Versus 27</head>
+          <p xml:id="gom-iudic8-d1e104">
+            <quote xml:id="gom-iudic8-Qd1e106" type="lemma" source="http://scta.info/resource/iudic8_27@1-5">Fecitque ex eo Gedeon ephod,</quote>
+            etc.,
+            <ref xml:id="gom-iudic8-Rd1e109"><name xml:id="gom-iudic8-Nd1e110" ref="#Augustine">AUG.</name>, quaest. 41 in Jud.</ref>
+            <quote xml:id="gom-iudic8-Qd1e114"><seg type="qs">Quaeritur quid sit Ephod vel Ephot</seg>, etc., usque ad <seg type="qs">ut sic interiret filiorum proles numerosa, sicut postea testatur Scriptura.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic8-d1e122">
+            <ref xml:id="gom-iudic8-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/iudic8_27@1-5"/>
+            <ref xml:id="gom-iudic8-Rd1e126"><name xml:id="gom-iudic8-Nd1e127" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-iudic8-Qd1e130">Intelligendum est per prolepsim dictum esse quod fecerit Gedeon Ephod contra legem Dei ex auro quod devictis hostibus erat ablatum, ut simul diceretur unde erat aurum et quid de illo sit factum. Factum est enim hoc peccatum in fine dierum Gedeon: quando consecuta sunt mala quae annectit Scriptura, postquam dixit quot annis in diebus Gedeon terra quievit.</quote>
+          </p>
+          <p xml:id="gom-iudic8-d1e133">
+            <pb ed="#P" n="0528B"/>
+            <quote xml:id="gom-iudic8-Qd1e137" type="lemma" source="http://scta.info/resource/iudic8_27">Postquam. Et factum est cum mortuus esset Gedeon, et aversi sunt filii Israel, fornicati sunt post Baalim, et posuerunt ipsi sibi Baalberith testamentum ut esset eis in Deum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-iudic8-Rd1e142"><name xml:id="gom-iudic8-Nd1e143" ref="#Augustine">ID.</name>, quaest. 43.</ref>
+            <quote xml:id="gom-iudic8-Qd1e147">etc. Et Baalim, et Baalberith idola intelligenda sunt. Major ergo transgressio et fornicatio est a populo post mortem Gedeon, quam illo vivo propter Ephod. Quod et si illicite factum erat, tamen de sacramentis tabernaculi erat: haec vero idololatria non habet falsam paternae religionis defensionem. Unde etiam si non in fine temporis Gedeon Ephod factum est, sed ante factum est, ita Deus patienter tulit, ut pax in terra perseveraret, quia licet factum erat quod prohibuerat, non tamen longe recessum erat ab illo qui tale aliquid in tabernaculo suo in honorem suum fieri <pb ed="#P" n="0528C"/> jusserat. Nunc vero graviora commissa, et apertam post idola fornicationem populi noluit esse impunitam.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

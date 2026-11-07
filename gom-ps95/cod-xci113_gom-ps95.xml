@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 95</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 95</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1005A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps95">
+        <head xml:id="gom-ps95-Hd1e98">Psalmus 95</head>
+        <p xml:id="gom-ps95-d1e100">
+          <pb ed="#P" n="1005A"/>
+          <quote xml:id="gom-ps95-Qd1e104" type="lemma">Psalmus David.</quote>
+          <!-- check: lemma not matched to verse text -->
+          <ref xml:id="gom-ps95-Rd1e109"><name xml:id="gom-ps95-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-ps95-Qd1e113"><seg type="qs">In Veteri Testamento legitur</seg>, etc., usque ad <seg type="qs">non illa actuali agit hic psalmus.</seg></quote>
+        </p>
+        <div xml:id="gom-ps95-Dd1e121">
+          <head xml:id="gom-ps95-Hd1e123">Versus 1</head>
+          <p xml:id="gom-ps95-d1e125">
+            <quote xml:id="gom-ps95-Qd1e127" type="lemma" source="http://scta.info/resource/ps95_1@9-10">Cantate Domino.</quote>
+            <ref xml:id="gom-ps95-Rd1e130"><name xml:id="gom-ps95-Nd1e131" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e134">Praemonuit Judaeos in praecedenti psalmo ut, deposita duritia, Christum crederent; sed quia erat mansura, nunc omnes gentes monet. Secundus psalmus de utroque adventu. Primum ad praelatos loquitur, ut ipsi cantent et annuntient.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e137">
+            <quote xml:id="gom-ps95-Qd1e139" type="lemma" source="http://scta.info/resource/ps95_1@11-12">Canticum novum.</quote>
+            <ref xml:id="gom-ps95-Rd1e142"><name xml:id="gom-ps95-Nd1e143" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e146"><seg type="qs"><quote xml:id="gom-ps95-Qd1e148">Vetus</quote> cantat cupiditas</seg>, etc., usque ad <seg type="qs">quisquis intraverit, foris est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e156">
+          <head xml:id="gom-ps95-Hd1e158">Versus 2</head>
+          <p xml:id="gom-ps95-d1e160">
+            <quote xml:id="gom-ps95-Qd1e162" type="lemma" source="http://scta.info/resource/ps95_2@2-4">Domino et benedicite.</quote>
+            <ref xml:id="gom-ps95-Rd1e165"><name xml:id="gom-ps95-Nd1e166" ref="#Jerome">HIER.</name>, CASS.</ref>
+            <quote xml:id="gom-ps95-Qd1e170">Ter Domino, ad distinguendam personarum trinitatem; quia laus Christi honor est Trinitatis. Et est <pb ed="#P" n="1005B"/> figura epimone, id est, crebra repetitio sententiae, quae exaggerat in laudem vel vituperationem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e177">
+          <head xml:id="gom-ps95-Hd1e179">Versus 3</head>
+          <p xml:id="gom-ps95-d1e181">
+            <quote xml:id="gom-ps95-Qd1e183" type="lemma" source="http://scta.info/resource/ps95_3@1-1">Annuntiate.</quote>
+            Ad praelatos loquitur, annuntiate, quia sic crescit aedificatio domus.
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e189">
+          <head xml:id="gom-ps95-Hd1e191">Versus 2</head>
+          <p xml:id="gom-ps95-d1e193">
+            <quote xml:id="gom-ps95-Qd1e195" type="lemma" source="http://scta.info/resource/ps95_2@9-12">De die in diem.</quote>
+            <ref xml:id="gom-ps95-Rd1e198"><name xml:id="gom-ps95-Nd1e199" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e202">Vetus et Novum Testamentum dies sunt, qui aeterno sole clarescunt, illud praenuntiat, hoc factum indicat.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e205">
+            <ref xml:id="gom-ps95-Rd1e207" type="lemma" subtype="implied" target="http://scta.info/resource/ps95_2@9-12"/>
+            <ref xml:id="gom-ps95-Rd1e209"><name xml:id="gom-ps95-Nd1e210" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e213"><seg type="qs">Annuntiat ergo de die in diem</seg>, etc., usque ad <seg type="qs">quibus affectuum nostrorum pedes a vitiorum spinis muniuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e222">
+          <head xml:id="gom-ps95-Hd1e224">Versus 4</head>
+          <p xml:id="gom-ps95-d1e226">
+            <quote xml:id="gom-ps95-Qd1e228" type="lemma" source="http://scta.info/resource/ps95_4@2-3">Magnus Dominus.</quote>
+            <ref xml:id="gom-ps95-Rd1e231"><name xml:id="gom-ps95-Nd1e232" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e235">Parvulus factus, quia vos parvi, intelligite magnum, et eritis in illo magni.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e239">
+          <head xml:id="gom-ps95-Hd1e241">Versus 5</head>
+          <p xml:id="gom-ps95-d1e243">
+            <quote xml:id="gom-ps95-Qd1e245" type="lemma" source="http://scta.info/resource/ps95_5@9-10">Coelos fecit.</quote>
+            <ref xml:id="gom-ps95-Rd1e248"><name xml:id="gom-ps95-Nd1e249" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e252">Apostolos et angelos, unde si coelos fecit et angelos, tunc et apostolos, qui daemonibus imperant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e256">
+          <head xml:id="gom-ps95-Hd1e258">Versus 6</head>
+          <p xml:id="gom-ps95-d1e260">
+            <pb ed="#P" n="1005C"/>
+            <quote xml:id="gom-ps95-Qd1e264" type="lemma" source="http://scta.info/resource/ps95_6@4-5">In conspectu.</quote>
+            Tales enim, confitentes scilicet et justi, ipsum conspiciunt, et conspiciuntur ab eo.
+          </p>
+          <p xml:id="gom-ps95-d1e268">
+            <quote xml:id="gom-ps95-Qd1e270" type="lemma" source="http://scta.info/resource/ps95_6@8-10">Sanctimonia et magnificentia.</quote>
+            <ref xml:id="gom-ps95-Rd1e273"><name xml:id="gom-ps95-Nd1e274" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e277">Quasi diceret: Qui vult esse magnificus et potens, ut sunt angeli, prius sit sanctus, quod fit ex eo sanctificante: non enim per te potes esse sanctus. Eo ergo sanctificante, aliquis fit sanctus, et ita magnificus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e281">
+          <head xml:id="gom-ps95-Hd1e283">Versus 7</head>
+          <p xml:id="gom-ps95-d1e285">
+            <quote xml:id="gom-ps95-Qd1e287" type="lemma" source="http://scta.info/resource/ps95_7@1-3">Afferte Domino patriae.</quote>
+            <ref xml:id="gom-ps95-Rd1e290"><name xml:id="gom-ps95-Nd1e291" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e294"><seg type="qs">Secunda pars, ubi ad subditos loquitur</seg>, etc., usque ad <seg type="qs">ut nullus excipiatur, indigena, vel peregrinus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps95-d1e302">
+            <quote xml:id="gom-ps95-Qd1e304" type="lemma" source="http://scta.info/resource/ps95_7@7-7">Gloriam.</quote>
+            <ref xml:id="gom-ps95-Rd1e307"><name xml:id="gom-ps95-Nd1e308" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e311">Quoniam bene conversatur homo, in quo glorificatur Deus.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e314">
+            <quote xml:id="gom-ps95-Qd1e316" type="lemma" source="http://scta.info/resource/ps95_7@9-9">Honorem.</quote>
+            Cum de bonis gratia refertur, unde, <quote xml:id="gom-ps95-Qd1e319" source="http://scta.info/resource/lc17_18@1-12">Non est inventus qui daret honorem Deo, nisi hic alienigena. In atria.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e323">
+            <ref xml:id="gom-ps95-Rd1e325"><name xml:id="gom-ps95-Nd1e326" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e329" type="lemma" source="http://scta.info/resource/ps95_7@3-3">Atria,</quote>
+            <quote xml:id="gom-ps95-Qd1e332">prophetae vel apostoli, quibus itur ad Dominum; de <pb ed="#P" n="1005D"/> atriis, prophetis vel apostolis, venitur in atrium catholicae Ecclesiae, ubi majestas adoratur.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e339">
+            <ref xml:id="gom-ps95-Rd1e341" type="lemma" subtype="implied" target="http://scta.info/resource/ps95_7@3-3"/>
+            <ref xml:id="gom-ps95-Rd1e343"><name xml:id="gom-ps95-Nd1e344" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e347">Vel, Introite in atrio, id est, in doctrinam prophetarum et apostolorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e351">
+          <head xml:id="gom-ps95-Hd1e353">Versus 9</head>
+          <p xml:id="gom-ps95-d1e355">
+            <quote xml:id="gom-ps95-Qd1e357" type="lemma" source="http://scta.info/resource/ps95_9@1-4">Adorate Dominum in atrio,</quote>
+            etc. Id est, in Ecclesia catholica, vel per <quote xml:id="gom-ps95-Qd1e360" source="http://scta.info/resource/ps95_7@3-3">atria,</quote> prophetiam; per <quote xml:id="gom-ps95-Qd1e363">atrium</quote> Evangelium.
+          </p>
+          <p xml:id="gom-ps95-d1e366">
+            <quote xml:id="gom-ps95-Qd1e368" type="lemma" source="http://scta.info/resource/ps95_9@7-7">Commoveatur.</quote>
+            Omnibus admonitis moveri optat. Quasi diceret, introite et adorate vos, boni.
+          </p>
+          <p xml:id="gom-ps95-d1e372">
+            <quote xml:id="gom-ps95-Qd1e374" type="lemma" source="http://scta.info/resource/ps95_9">Terra autem,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+          </p>
+          <p xml:id="gom-ps95-d1e380">
+            <quote xml:id="gom-ps95-Qd1e382" type="lemma" source="http://scta.info/resource/ps95_9@11-12">Universa terra.</quote>
+            <ref xml:id="gom-ps95-Rd1e385"><name xml:id="gom-ps95-Nd1e386" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e389">Non pars aliqua; ne quis ergo dicat: <quote xml:id="gom-ps95-Qd1e391" source="http://scta.info/resource/mc13_21@7-12">Ecce hic Christus, ecce illic,</quote> subdit, <quote xml:id="gom-ps95-Qd1e394" source="http://scta.info/resource/ps95_10@7-10">Etenim correxit orbem terrae,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e401">
+          <head xml:id="gom-ps95-Hd1e403">Versus 10</head>
+          <p xml:id="gom-ps95-d1e405">
+            <quote xml:id="gom-ps95-Qd1e407" type="lemma" source="http://scta.info/resource/ps95_10@1-3">Dicite in gentibus.</quote>
+            <ref xml:id="gom-ps95-Rd1e410"><name xml:id="gom-ps95-Nd1e411" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e414">Quod regnavit et correxit, et judicavit.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e417">
+            <quote xml:id="gom-ps95-Qd1e419" type="lemma" source="http://scta.info/resource/ps95_10@6-6">Regnavit.</quote>
+            Alia littera: <pb ed="#P" n="1006A"/> <quote xml:id="gom-ps95-Qd1e424" source="http://scta.info/resource/mt13">Regnavit a ligno<!-- check: cited chapter given; verse not identified --></quote>.
+          </p>
+          <p xml:id="gom-ps95-d1e429">
+            <ref xml:id="gom-ps95-Rd1e431" type="lemma" subtype="implied" target="http://scta.info/resource/ps95_10@6-6"/>
+            <ref xml:id="gom-ps95-Rd1e433"><name xml:id="gom-ps95-Nd1e434" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e437">Crucis, quo transit homo <quote xml:id="gom-ps95-Qd1e439" source="http://scta.info/resource/ps95_11@8-8">mare,</quote> et fit <quote xml:id="gom-ps95-Qd1e442">orbis</quote> qui non movetur.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e446">
+            <quote xml:id="gom-ps95-Qd1e448" type="lemma" source="http://scta.info/resource/ps95_10@16-18">Populos in aequitate,</quote>
+            etc. Alii addunt, <quote xml:id="gom-ps95-Qd1e451" source="http://scta.info/resource/ps82_16@7-10">Et gentes in ira tua.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e456">
+            <ref xml:id="gom-ps95-Rd1e458" type="lemma" subtype="implied" target="http://scta.info/resource/ps95_10@16-18"/>
+            <ref xml:id="gom-ps95-Rd1e460"><name xml:id="gom-ps95-Nd1e461" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e464">Populos ergo, id est, bonos judicabit in aequitate, gentes vero, id est, malos in ira sua.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e468">
+          <head xml:id="gom-ps95-Hd1e470">Versus 12</head>
+          <p xml:id="gom-ps95-d1e472">
+            <quote xml:id="gom-ps95-Qd1e474" type="lemma" source="http://scta.info/resource/ps95_12@9-10">Tunc exsultabunt.</quote>
+            <ref xml:id="gom-ps95-Rd1e477"><name xml:id="gom-ps95-Nd1e478" ref="#Cassiodorus">CASS.</name>, HIERON.</ref>
+            <quote xml:id="gom-ps95-Qd1e482"><seg type="qs"><quote xml:id="gom-ps95-Qd1e484" source="http://scta.info/resource/ps95_12@9-9">Tunc,</quote> quando corriget</seg>, etc., usque ad <seg type="qs">quoniam venit, id est, veniet judicare terram.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps95-Dd1e493">
+          <head xml:id="gom-ps95-Hd1e495">Versus 13</head>
+          <p xml:id="gom-ps95-d1e497">
+            <quote xml:id="gom-ps95-Qd1e499" type="lemma" source="http://scta.info/resource/ps95_13@6-7">Quoniam venit.</quote>
+            <ref xml:id="gom-ps95-Rd1e502"><name xml:id="gom-ps95-Nd1e503" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e506">Primo venit in Ecclesia, in nubibus, id est, apostolis, et implevit totum orbem; unde: <quote xml:id="gom-ps95-Qd1e508" source="http://scta.info/resource/mt26_64@9-20">Amodo videbitis Filium hominis venientem in nubibus</quote>: cui adventui qui credit, exsultabit in ultimo adventu.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e513">
+            <quote xml:id="gom-ps95-Qd1e515" type="lemma" source="http://scta.info/resource/ps95_13@10-11">Judicabit orbem.</quote>
+            <ref xml:id="gom-ps95-Rd1e518"><name xml:id="gom-ps95-Nd1e519" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e522">Omnem <pb ed="#P" n="1006B"/> hominem generaliter includit, secundum aequitatem Dei judicandum. Sed quomodo judicetur exponit, dicendo, <quote xml:id="gom-ps95-Qd1e526" source="http://scta.info/resource/ps95_13@16-18">populos in veritate,</quote> quia in separatione duo erunt populi, quibus dabit sententiam veritatis, ut alii in vitam, alii in poenas eant.</quote>
+          </p>
+          <p xml:id="gom-ps95-d1e531">
+            <ref xml:id="gom-ps95-Rd1e533"><name xml:id="gom-ps95-Nd1e534" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps95-Qd1e537" type="lemma" source="http://scta.info/resource/ps95_13@11-11">Orbem</quote>
+            <quote xml:id="gom-ps95-Qd1e540"><seg type="qs">dicit omnes filios Adam</seg>, etc., usque ad <seg type="qs">meridiem.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

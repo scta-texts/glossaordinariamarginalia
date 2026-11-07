@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 37</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 37</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0292D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex37">
+        <head xml:id="gom-ex37-Hd1e98">Caput 37</head>
+        <div xml:id="gom-ex37-Dd1e100">
+          <head xml:id="gom-ex37-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ex37-d1e104">
+            <pb ed="#P" n="0292D"/>
+            <quote xml:id="gom-ex37-Qd1e108" type="lemma" source="http://scta.info/resource/ex37_1@1-5">Fecit autem Beseleel arcam.</quote>
+            <ref xml:id="gom-ex37-Rd1e111"><name xml:id="gom-ex37-Nd1e112" ref="#IsidoreOfSeville">ISID.</name> in Exod., tom. V.</ref>
+            <quote xml:id="gom-ex37-Qd1e116"><seg type="qs">In arca testamenti fuit urna aurea</seg>, etc., usque ad <seg type="qs">immortalis memoriae semper viriditate florentem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex37-Dd1e125">
+          <head xml:id="gom-ex37-Hd1e127">Versus 2</head>
+          <p xml:id="gom-ex37-d1e129">
+            <quote xml:id="gom-ex37-Qd1e131" type="lemma" source="http://scta.info/resource/ex37_2@4-5">Coronam auream,</quote>
+            etc. Quia in eo quod Ecclesia per quatuor mundi partes dilatatur, quatuor sancti Evangelii libris accincta praedicatur, quae tamen intra unius coronae ambitum, id est intra ejusdem fidei firmitatem, id est unitatem, concluditur.
+          </p>
+        </div>
+        <div xml:id="gom-ex37-Dd1e136">
+          <head xml:id="gom-ex37-Hd1e138">Versus 4</head>
+          <p xml:id="gom-ex37-d1e140">
+            <quote xml:id="gom-ex37-Qd1e142" type="lemma" source="http://scta.info/resource/ex37_4@1-2">Vectes quoque.</quote>
+            <ref xml:id="gom-ex37-Rd1e145"><name xml:id="gom-ex37-Nd1e146" ref="#IsidoreOfSeville">ISID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex37-Qd1e150">Quia fortes perseverantesque doctores velut imputribilia ligna quaerendi sunt, qui instructioni sacrorum voluminum <pb ed="#P" n="0293A"/> semper inhaerentes, Ecclesiae unitatem denuntient, et quasi intromissis circulis arcam portent; qui auro quoque jubentur operiri, ut cum sermone aliis insonant, ipsi etiam vitae splendore fulgescant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex37-Dd1e157">
+          <head xml:id="gom-ex37-Hd1e159">Versus 6</head>
+          <p xml:id="gom-ex37-d1e161">
+            <quote xml:id="gom-ex37-Qd1e163" type="lemma" source="http://scta.info/resource/ex37_6@1-3">Fecit et propitiatorium,</quote>
+            etc.
+            <ref xml:id="gom-ex37-Rd1e166"><name xml:id="gom-ex37-Nd1e167" ref="#IsidoreOfSeville">ISID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex37-Qd1e171"><seg type="qs">Propitiatorium super arcam testamenti</seg>, etc., usque ad <seg type="qs">quia Christus est Ecclesiae caput.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex37-Dd1e181">
+          <head xml:id="gom-ex37-Hd1e183">Versus 17</head>
+          <p xml:id="gom-ex37-d1e185">
+            <quote xml:id="gom-ex37-Qd1e187" type="lemma" source="http://scta.info/resource/ex37_17@1-3">Fecitque candelabrum,</quote>
+            etc. Quod Spiritum sanctum significat, qui septiformi gratia illustrat Ecclesiam in unitate fidei consistentem, vel Christum portantem ecclesias septem, in quibus septiformis Spiritus splendor emicat.
+          </p>
+        </div>
+        <div xml:id="gom-ex37-Dd1e192">
+          <head xml:id="gom-ex37-Hd1e194">Versus 23</head>
+          <p xml:id="gom-ex37-d1e196">
+            <quote xml:id="gom-ex37-Qd1e198" type="lemma" source="http://scta.info/resource/ex37_23@5-6">Cum emunctoriis.</quote>
+            Quae in Isaia forcipes appellantur, duo Testamenta, scilicet quibus peccata purgantur, quaeque intra se sancti Spiritus <pb ed="#P" n="0293B"/> unione sociantur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Hebraeos, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Hebraeos, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0648C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-hebr3">
+        <head xml:id="gom-hebr3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-hebr3-Dd1e100">
+          <head xml:id="gom-hebr3-Hd1e102">Versus 1</head>
+          <p xml:id="gom-hebr3-d1e104">
+            <quote xml:id="gom-hebr3-Qd1e106" type="lemma" source="http://scta.info/resource/hebr3_1@1-2">Unde fratres.</quote>
+            Ex omnibus superioribus infert; quasi: Quia potens, quia passus pro nobis, et potest auxiliari.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e111">
+          <head xml:id="gom-hebr3-Hd1e113">Versus 2</head>
+          <p xml:id="gom-hebr3-d1e115">
+            <quote xml:id="gom-hebr3-Qd1e117" type="lemma" source="http://scta.info/resource/hebr3_2@1-2">Qui fidelis.</quote>
+            Incipit Christum comparare Moysi, sicut supra prophetis et angelis, ita ut sit prae Moyse fidelis, quia non suam, sed Patris gloriam <pb ed="#P" n="0648D"/> quaesivit, nec ejus mandata abscondit. Qui Christus fidelis est Patri (sicut Moyses) in omni domo Judaeorum et gentium.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e124">
+          <head xml:id="gom-hebr3-Hd1e126">Versus 3</head>
+          <p xml:id="gom-hebr3-d1e128">
+            <quote xml:id="gom-hebr3-Qd1e130" type="lemma" source="http://scta.info/resource/hebr3_3@1-1">Amplioris.</quote>
+            Quasi: Quod fidelis fuerit, ipse effectus indicat: quia dignus est gloria, ut Moyses: et quidem ampliore prae Moyse, id est, quam Moyses, vel prae Moyse exsistens in merendo.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e135">
+          <head xml:id="gom-hebr3-Hd1e137">Versus 4</head>
+          <p xml:id="gom-hebr3-d1e139">
+            <quote xml:id="gom-hebr3-Qd1e141" type="lemma" source="http://scta.info/resource/hebr3_4@1-3">Omnis namque domus,</quote>
+            etc. Fabricavit dico, per se enim non potest fieri, sed ab aliquo. An ideo a Christo? Vere, quia Deus est qui facit domum, et omnia.
+          </p>
+          <p xml:id="gom-hebr3-d1e145">
+            <quote xml:id="gom-hebr3-Qd1e147" type="lemma" source="http://scta.info/resource/hebr3_4@7-10">Qui autem omnia creavit,</quote>
+            et domum.
+          </p>
+          <p xml:id="gom-hebr3-d1e151">
+            <quote xml:id="gom-hebr3-Qd1e153" type="lemma" source="http://scta.info/resource/hebr3_4">Deus est.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Utriusque enim domus tam ejus quam rexit Moyses, quam ejus quam erexit Christus, factor est Deus.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e161">
+          <head xml:id="gom-hebr3-Hd1e163">Versus 5</head>
+          <p xml:id="gom-hebr3-d1e165">
+            <pb ed="#P" n="0649A"/>
+            <quote xml:id="gom-hebr3-Qd1e169" type="lemma" source="http://scta.info/resource/hebr3_5@1-2">Et Moyses.</quote>
+            Ostendit Christum dignum ampliori gloria quam Moysen, quia Christus fabricator est domus, non autem Moyses. Hic aliam rationem etiam ostendit, quia scilicet Christus filius, Moyses famulus est, qui et carnalia carnalibus tradebat, Christus vero spiritualia.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e174">
+          <head xml:id="gom-hebr3-Hd1e176">Versus 7</head>
+          <p xml:id="gom-hebr3-d1e178">
+            <quote xml:id="gom-hebr3-Qd1e180" type="lemma" source="http://scta.info/resource/hebr3_7@1-1">Quapropter.</quote>
+            Cum supra prae angelis et prophetis Christum commendasset in multis, subintulit nos oportere observare quae ab illo audivimus; ita et nunc commendato ipso prae Moyse, incipit eos terrere, ne sint increduli Christo, per patrum similitudinem; et ne amittant requiem, blanditur, per opportunitatem temporis.
+          </p>
+          <p xml:id="gom-hebr3-d1e184">
+            <quote xml:id="gom-hebr3-Qd1e186" type="lemma" source="http://scta.info/resource/hebr3_7@6-6">Hodie.</quote>
+            Modo, per se loquitur, qui prius per praecones: si tunc duri modo estote molles.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e191">
+          <head xml:id="gom-hebr3-Hd1e193">Versus 8</head>
+          <p xml:id="gom-hebr3-d1e195">
+            <pb ed="#P" n="0649B"/>
+            <quote xml:id="gom-hebr3-Qd1e199" type="lemma" source="http://scta.info/resource/hebr3_8@1-4">Nolite obdurare corda vestra;</quote>
+            id est, nolite Deo rebelles et contumaces esse, sed obsequentes.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e204">
+          <head xml:id="gom-hebr3-Hd1e206">Versus 9</head>
+          <p xml:id="gom-hebr3-d1e208">
+            <quote xml:id="gom-hebr3-Qd1e210" type="lemma" source="http://scta.info/resource/hebr3_9@6-6">Probaverunt;</quote>
+            id est, curiositatis causa exquisierunt.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e215">
+          <head xml:id="gom-hebr3-Hd1e217">Versus 10</head>
+          <p xml:id="gom-hebr3-d1e219">
+            <quote xml:id="gom-hebr3-Qd1e221" type="lemma" source="http://scta.info/resource/hebr3_10">Offensus.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Valde et implacabiliter iratus.
+          </p>
+          <p xml:id="gom-hebr3-d1e227">
+            <quote xml:id="gom-hebr3-Qd1e229" type="lemma" source="http://scta.info/resource/hebr3_10@5-5">Infensus.</quote>
+            Vel <mentioned>proximus</mentioned> adhibendo correctionis flagella.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e236">
+          <head xml:id="gom-hebr3-Hd1e238">Versus 11</head>
+          <p xml:id="gom-hebr3-d1e240">
+            <quote xml:id="gom-hebr3-Qd1e242" type="lemma" source="http://scta.info/resource/hebr3_11@3-5">In ira mea.</quote>
+            Irasci dicitur Deus per figuram anthropopathos.
+          </p>
+          <p xml:id="gom-hebr3-d1e246">
+            <quote xml:id="gom-hebr3-Qd1e248" type="lemma" source="http://scta.info/resource/hebr3_11@6-10">Si introibunt in requiem meam.</quote>
+            Aposiopesis est, id est non introibunt.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e254">
+          <head xml:id="gom-hebr3-Hd1e256">Versus 12</head>
+          <p xml:id="gom-hebr3-d1e258">
+            <quote xml:id="gom-hebr3-Qd1e260" type="lemma" source="http://scta.info/resource/hebr3_12@9-11">Cor malum incredulitatis.</quote>
+            Ut putetis Christum non sufficere sine lege, quod est malum, quia sic ruit homo in multa peccata. Nec hoc leve, quia hoc est cor discedendi a Deo vivo.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e265">
+          <head xml:id="gom-hebr3-Hd1e267">Versus 13</head>
+          <p xml:id="gom-hebr3-d1e269">
+            <pb ed="#P" n="0649C"/>
+            <quote xml:id="gom-hebr3-Qd1e273" type="lemma" source="http://scta.info/resource/hebr3_13@8-9">Donec hodie;</quote>
+            id est, tempus gratiae, et de quo aiebat propheta superius in psalmis, quia non minus modo praestatur credentibus gratia ad salutem, quam ipso Christo praesente corporaliter.
+          </p>
+          <p xml:id="gom-hebr3-d1e277">
+            <quote xml:id="gom-hebr3-Qd1e279" type="lemma" source="http://scta.info/resource/hebr3_13@17-18">Fallacia peccati,</quote>
+            id est diaboli, qui est causa peccati.
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e284">
+          <head xml:id="gom-hebr3-Hd1e286">Versus 14</head>
+          <p xml:id="gom-hebr3-d1e288">
+            <quote xml:id="gom-hebr3-Qd1e290" type="lemma" source="http://scta.info/resource/hebr3_14@1-3">Participes enim Christi.</quote>
+            Debetis hortari, et non esse duri, quia quod non eramus, facti sumus per gratiam, habentes partem cum Christo in haereditate: hac tamen conditione, <quote xml:id="gom-hebr3-Qd1e293" source="http://scta.info/resource/hebr3_14@6-9">si initium substantiae,</quote> id est fidei, quae est initium bonorum, per quam Deus existit, in nobis, et per quam deificamur, et divinae substantiae participamus, <quote xml:id="gom-hebr3-Qd1e296" source="http://scta.info/resource/hebr3_14@10-14">usque ad finem, firmum retineamus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-hebr3-Dd1e301">
+          <head xml:id="gom-hebr3-Hd1e303">Versus 16</head>
+          <p xml:id="gom-hebr3-d1e305">
+            <quote xml:id="gom-hebr3-Qd1e307" type="lemma" source="http://scta.info/resource/hebr3_16@1-3">Quidam enim audientes.</quote>
+            Hoc ideo dicit, ne quis putet satis esse audire de requie, quia <pb ed="#P" n="0649D"/> et illi omnes audierunt, sed non omnes audierunt, sed non omnes pervenerunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

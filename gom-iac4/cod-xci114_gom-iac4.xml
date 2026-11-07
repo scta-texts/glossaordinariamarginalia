@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iacobi, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iacobi, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0677C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iac4">
+        <head xml:id="gom-iac4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-iac4-Dd1e100">
+          <head xml:id="gom-iac4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-iac4-d1e104">
+            <quote xml:id="gom-iac4-Qd1e106" type="lemma" source="http://scta.info/resource/iac4_1@1-2">Unde bella,</quote>
+            etc.
+            <ref xml:id="gom-iac4-Rd1e109"><name xml:id="gom-iac4-Nd1e110" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac4-Qd1e113">Prohibuerat zelum et contentionem, unde etiam latius disputat, addens alia vitia quae inde sequuntur: ex contentione concupiscentia, ex concupiscentiis bella et lites. Qui enim cupit praeferri, vel temporalibus abundare, odit, invidet, occidit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac4-Dd1e117">
+          <head xml:id="gom-iac4-Hd1e119">Versus 2</head>
+          <p xml:id="gom-iac4-d1e121">
+            <quote xml:id="gom-iac4-Qd1e123" type="lemma" source="http://scta.info/resource/iac4_2@17-18">Propter quod.</quote>
+            Propter haec, scilicet quod Deum digne postulatis; si enim illum pia intercessione postularetis etiam temporalia ad usum necessaria, et non solum sempiterna daret.
+          </p>
+        </div>
+        <div xml:id="gom-iac4-Dd1e128">
+          <head xml:id="gom-iac4-Hd1e130">Versus 4</head>
+          <p xml:id="gom-iac4-d1e132">
+            <quote xml:id="gom-iac4-Qd1e134" type="lemma" source="http://scta.info/resource/iac4_4@1-2">Adulteri, nescitis,</quote>
+            etc.
+            <ref xml:id="gom-iac4-Rd1e137"><name xml:id="gom-iac4-Nd1e138" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac4-Qd1e141"><seg type="qs">Dixerat supra de apertis inimicis Dei</seg>, etc., usque ad <seg type="qs">et per <pb ed="#P" n="0677D"/> hoc inimici Dei constituimini.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac4-Dd1e152">
+          <head xml:id="gom-iac4-Hd1e154">Versus 5</head>
+          <p xml:id="gom-iac4-d1e156">
+            <quote xml:id="gom-iac4-Qd1e158" type="lemma" source="http://scta.info/resource/iac4_5">An putatis?</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Non debetis litigare: nam spiritus, qui in vobis est, non concupiscit ad invidiam, sed potius facit concordes, et hoc dicit Scriptura: <quote xml:id="gom-iac4-Qd1e163" source="http://scta.info/resource/iac4_5@7-14">Ad invidiam concupiscit spiritus qui habitat in vobis.</quote> Vel: <quote xml:id="gom-iac4-Qd1e166">spiritus concupiscit ad,</quote> id est <quote xml:id="gom-iac4-Qd1e168">contra invidiam,</quote> id est hoc desiderat, ut invidia tollatur; vel, cupit ut invideatis mundo, nec ametis eum; vel, spiritus cujuslibet hominis cupit temporalia ad invidiam, quia invidet aliis quod non habet.
+          </p>
+        </div>
+        <div xml:id="gom-iac4-Dd1e173">
+          <head xml:id="gom-iac4-Hd1e175">Versus 6</head>
+          <p xml:id="gom-iac4-d1e177">
+            <quote xml:id="gom-iac4-Qd1e179" type="lemma" source="http://scta.info/resource/iac4_6@1-4">Majorem autem dat gratiam.</quote>
+            Spiritus gratiae non facit invidere, imo dat gratiam, id est gratuita dona, majora quam sunt divitiae saeculi. Propter quod, id est ut sciamus, dat, et quibus non <pb ed="#P" n="0678A"/> det, dicit Scriptura: <quote xml:id="gom-iac4-Qd1e184" source="http://scta.info/resource/iac4_6@9-14">Superbis resistit, humilibus autem dat gratiam,</quote> etc. Malos omnes punit Deus, sed superbis specialiter resistere dicitur, quia majori poena plectuntur, qui Deo subdi poenitendo negligunt Sed humilibus dat gratiam, qui in suorum plagis vitiorum manibus veri medici se subdunt.
+          </p>
+        </div>
+        <div xml:id="gom-iac4-Dd1e189">
+          <head xml:id="gom-iac4-Hd1e191">Versus 11</head>
+          <p xml:id="gom-iac4-d1e193">
+            <quote xml:id="gom-iac4-Qd1e195" type="lemma" source="http://scta.info/resource/iac4_11@14-18">Detrahit legi, judicat legem.</quote>
+            Quae detractionem prohibuit. Quasi dicat, lex non fecit. Vel, qui detrahit fratri legem facienti, detrahit et judicat legem quare talia jussa dederit, quae injurias fratrum jubet oblivisci.
+          </p>
+        </div>
+        <div xml:id="gom-iac4-Dd1e200">
+          <head xml:id="gom-iac4-Hd1e202">Versus 12</head>
+          <p xml:id="gom-iac4-d1e204">
+            <quote xml:id="gom-iac4-Qd1e206" type="lemma" source="http://scta.info/resource/iac4_12@11-12">Tu autem.</quote>
+            Non solum ideo debes vitare detractionem, ne ut transgressor a Deo judiceris, sed ideo etiam quia fortasse in nullo praecellis illos quos vituperas.
+          </p>
+        </div>
+        <div xml:id="gom-iac4-Dd1e211">
+          <head xml:id="gom-iac4-Hd1e213">Versus 13</head>
+          <p xml:id="gom-iac4-d1e215">
+            <quote xml:id="gom-iac4-Qd1e217" type="lemma" source="http://scta.info/resource/iac4_13@1-4">Ecce nunc, qui dicitis.</quote>
+            Post increpationem <pb ed="#P" n="0678B"/> detractionis, arguit illorum temeritatem qui, non habentes certitudinem vitae, cupiditate temporalium vitam et lucrum promittunt sibi in futurum.
+          </p>
+          <p xml:id="gom-iac4-d1e223">
+            <quote xml:id="gom-iac4-Qd1e225" type="lemma" source="http://scta.info/resource/iac4_13@13-18">Faciemus ibi quidem annum, et mercabimur,</quote>
+            etc. Multimodam stultitiam notat eorum qui et de lucrorum augmento agunt, et se multo tempore victuros arbitrantur, et suae potestatis aestimant, ut annum faciant, et in his omnibus superni judicis examen ad mentem revocare contemnunt.
+          </p>
+        </div>
+        <div xml:id="gom-iac4-Dd1e230">
+          <head xml:id="gom-iac4-Hd1e232">Versus 14</head>
+          <p xml:id="gom-iac4-d1e234">
+            <quote xml:id="gom-iac4-Qd1e236" type="lemma" source="http://scta.info/resource/iac4_14@7-11">Quae est enim vita vestra?</quote>
+            etc. Non consentit illis qui dicunt post mortem nihil esse, et mortem ipsam nihil esse. Sed ita loquitur ut doceat quod vita pravorum brevis est in praesenti: quam tamen in futuro mors aeterna sequetur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

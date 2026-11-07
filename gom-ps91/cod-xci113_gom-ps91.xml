@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 91</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 91</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1000C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps91">
+        <head xml:id="gom-ps91-Hd1e98">Psalmus 91</head>
+        <div xml:id="gom-ps91-Dd1e100">
+          <head xml:id="gom-ps91-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps91-d1e104">
+            <quote xml:id="gom-ps91-Qd1e106" type="lemma" source="http://scta.info/resource/ps91_1@1-2">Psalmus cantici.</quote>
+            <ref xml:id="gom-ps91-Rd1e109"><name xml:id="gom-ps91-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e113"><seg type="qs">Propter fastidium animorum</seg>, etc., usque ad <seg type="qs">gloriam Dei quaerens, non tuam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e122">
+          <head xml:id="gom-ps91-Hd1e124">Versus 2</head>
+          <p xml:id="gom-ps91-d1e126">
+            <quote xml:id="gom-ps91-Qd1e128" type="lemma" source="http://scta.info/resource/ps91_2@1-3">Bonum est confiteri.</quote>
+            <ref xml:id="gom-ps91-Rd1e131"><name xml:id="gom-ps91-Nd1e132" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e135">Primo, agit quomodo bonus imperturbatus agit sabbatum mentis, sentiens omnia bene agi a Deo, quod non novit stultus.</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e138">
+            <ref xml:id="gom-ps91-Rd1e140" type="lemma" subtype="implied" target="http://scta.info/resource/ps91_2@1-3"/>
+            <ref xml:id="gom-ps91-Rd1e142"><name xml:id="gom-ps91-Nd1e143" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e146">Bona praesentia a Deo nobis donata, consolatio sunt: cum desunt, justitia est. Consolatur enim nos Deus, et emendat: in utroque ergo simus <pb ed="#P" n="1000D"/> ei grati, dicentes: <quote xml:id="gom-ps91-Qd1e150" source="http://scta.info/resource/ps91_2@1-3">Bonum est confiteri,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e156">
+          <head xml:id="gom-ps91-Hd1e158">Versus 4</head>
+          <p xml:id="gom-ps91-d1e160">
+            <quote xml:id="gom-ps91-Qd1e162" type="lemma" source="http://scta.info/resource/ps91_4@1-2">In decachordo.</quote>
+            <ref xml:id="gom-ps91-Rd1e165"><name xml:id="gom-ps91-Nd1e166" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e169">Psallit, qui cum hilaritate bene facit. Qui cum tristitia de eo fit, non ipse facit: et portat psalterium, non cantat in eo.</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e172">
+            <quote xml:id="gom-ps91-Qd1e174" type="lemma" source="http://scta.info/resource/ps91_4@1-2">In decachordo.</quote>
+            Si bene loqueris tantum, canticum est sine cithara; si operaris, et non loqueris, cithara est sine cantico; et ideo bene loquere et benefac.
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e179">
+          <head xml:id="gom-ps91-Hd1e181">Versus 5</head>
+          <p xml:id="gom-ps91-d1e183">
+            <quote xml:id="gom-ps91-Qd1e185" type="lemma" source="http://scta.info/resource/ps91_5@1-2">Quia delectasti.</quote>
+            <ref xml:id="gom-ps91-Rd1e188"><name xml:id="gom-ps91-Nd1e189" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e192"><seg type="qs">Unde Apostolus: <quote xml:id="gom-ps91-Qd1e195">Ipsius figmentum sumus,</quote></seg> etc., usque ad: <seg type="qs"><quote xml:id="gom-ps91-Qd1e198" source="http://scta.info/resource/ps91_6@1-5">Quam magnificata sunt. In factura tua.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps91-d1e202">
+            <ref xml:id="gom-ps91-Rd1e204" type="lemma" subtype="implied" target="http://scta.info/resource/ps91_5@1-2"/>
+            <ref xml:id="gom-ps91-Rd1e206"><name xml:id="gom-ps91-Nd1e207" ref="#Cassiodorus">CASS.</name>, HIER.</ref>
+            <quote xml:id="gom-ps91-Qd1e211">Et in decore ipsius mundialis fabricae, et in obedientia, et in dispositione, et in causis, et in effectibus, et in operibus manuum, quibus utor, vel quae miror.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e216">
+          <head xml:id="gom-ps91-Hd1e218">Versus 6</head>
+          <p xml:id="gom-ps91-d1e220">
+            <pb ed="#P" n="1001A"/>
+            <quote xml:id="gom-ps91-Qd1e224" type="lemma" source="http://scta.info/resource/ps91_6@1-3">Quam magnificata sunt.</quote>
+            <ref xml:id="gom-ps91-Rd1e227"><name xml:id="gom-ps91-Nd1e228" ref="#Cassiodorus">CASS.</name>, HIER.</ref>
+            <quote xml:id="gom-ps91-Qd1e232">In substantia, et in forma, et in vi, et in caeteris.</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e235">
+            <quote xml:id="gom-ps91-Qd1e237" type="lemma" source="http://scta.info/resource/ps91_6@8-13">Nimis profundae sunt cogitationes tuae,</quote>
+            quibus talia fecisti et regis.
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e242">
+          <head xml:id="gom-ps91-Hd1e244">Versus 7</head>
+          <p xml:id="gom-ps91-d1e246">
+            <quote xml:id="gom-ps91-Qd1e248" type="lemma" source="http://scta.info/resource/ps91_7@1-2">Vir insipiens,</quote>
+            etc.
+            <ref xml:id="gom-ps91-Rd1e251"><name xml:id="gom-ps91-Nd1e252" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e255">Me delectasti in operibus, sed <quote xml:id="gom-ps91-Qd1e257" source="http://scta.info/resource/ps91_7@1-4">vir insipiens non cognoscet,</quote> et stultus, qui, si scit, non cavet sibi, <quote xml:id="gom-ps91-Qd1e260" source="http://scta.info/resource/ps91_7@7-9">non intelliget haec,</quote> quae dixit, vel quae dicit post. Summum genus scientiae est scire Deum tanta praestare, quae humanus sensus non valet attingere.</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e265">
+            <quote xml:id="gom-ps91-Qd1e267" type="lemma" source="http://scta.info/resource/ps91_7@2-2">Insipiens</quote>
+            est, qui coelesti sapientia vacuus, humanis versutiis plenus est; qui non scit opera Dei, quia casu putat omnia agi;
+          </p>
+          <p xml:id="gom-ps91-d1e271">
+            <quote xml:id="gom-ps91-Qd1e273" type="lemma" source="http://scta.info/resource/ps91_7@6-6">Stultus</quote>
+            est brutus, qui nec saecularia novit.
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e278">
+          <head xml:id="gom-ps91-Hd1e280">Versus 8</head>
+          <p xml:id="gom-ps91-d1e282">
+            <quote xml:id="gom-ps91-Qd1e284" type="lemma" source="http://scta.info/resource/ps91_8@1-3">Cum exorti fuerunt.</quote>
+            <ref xml:id="gom-ps91-Rd1e287"><name xml:id="gom-ps91-Nd1e288" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e291"><seg type="qs">Malos asserit <pb ed="#P" n="1001B"/> perituros</seg>, etc., usque ad <seg type="qs">Judaei putaverunt te communi scilicet sorte mori.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e302">
+          <head xml:id="gom-ps91-Hd1e304">Versus 9</head>
+          <p xml:id="gom-ps91-d1e306">
+            <quote xml:id="gom-ps91-Qd1e308" type="lemma" source="http://scta.info/resource/ps91_9@1-3">Tu autem Altissimus.</quote>
+            <ref xml:id="gom-ps91-Rd1e311"><name xml:id="gom-ps91-Nd1e312" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e315"><seg type="qs">Exspectas desuper ex aeterno</seg>, etc., usque ad <seg type="qs">non longanimis, ex verbo aeternus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e324">
+          <head xml:id="gom-ps91-Hd1e326">Versus 11</head>
+          <p xml:id="gom-ps91-d1e328">
+            <quote xml:id="gom-ps91-Qd1e330" type="lemma" source="http://scta.info/resource/ps91_11@1-2">Et exaltabitur.</quote>
+            <ref xml:id="gom-ps91-Rd1e333"><name xml:id="gom-ps91-Nd1e334" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e337"><seg type="qs">Etsi ipsi peribunt</seg>, etc., usque ad <seg type="qs">omnes haereses peribunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e346">
+          <head xml:id="gom-ps91-Hd1e348">Versus 12</head>
+          <p xml:id="gom-ps91-d1e350">
+            <quote xml:id="gom-ps91-Qd1e352" type="lemma" source="http://scta.info/resource/ps91_12@1-2">Et despexit.</quote>
+            <ref xml:id="gom-ps91-Rd1e355"><name xml:id="gom-ps91-Nd1e356" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e359">Et ideo jam nunc despexit, et audiet a veritate intus.</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e362">
+            <quote xml:id="gom-ps91-Qd1e364" type="lemma" source="http://scta.info/resource/ps91_12@7-9">Et ab insurgentibus.</quote>
+            <ref xml:id="gom-ps91-Rd1e367"><name xml:id="gom-ps91-Nd1e368" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e371">Vel, insurgentes in me, malignantes audiet in novissimo: quando se increpabunt, dicentes, <quote xml:id="gom-ps91-Qd1e373" source="http://scta.info/resource/sap5_8@1-7">Quid nobis profuit superbia et divitiae? Auris mea.</quote></quote>
+          </p>
+          <p xml:id="gom-ps91-d1e377">
+            <ref xml:id="gom-ps91-Rd1e379" type="lemma" subtype="implied" target="http://scta.info/resource/ps91_12@7-9"/>
+            <ref xml:id="gom-ps91-Rd1e381"><name xml:id="gom-ps91-Nd1e382" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e385">Stantis ad dexteram, audiet in futuro, hoc scilicet, <quote xml:id="gom-ps91-Qd1e387" source="http://scta.info/resource/mt25_41@12-15">Ite, maledicti, in ignem aeternum.</quote> A quo malo auditu justus non timebit. Ecce hoc <pb ed="#P" n="1001C"/> istis, <quote xml:id="gom-ps91-Qd1e392" source="http://scta.info/resource/mt25">Quid de justis?<!-- check: cited chapter given; verse not identified --></quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e399">
+          <head xml:id="gom-ps91-Hd1e401">Versus 13</head>
+          <p xml:id="gom-ps91-d1e403">
+            <quote xml:id="gom-ps91-Qd1e405" type="lemma" source="http://scta.info/resource/ps91_13@1-3">Justus ut palma.</quote>
+            Illi ut fenum. Justus ut palma, pro altitudine, et quia radix aspera, pulchra coma in summo et fine, et tarde fructum facit; ita et justum hic asperat labor, quem in supernis pulchritudo immortalitatis coronabit, et quasi tarde post longos labores mercedem operum recipiet.
+          </p>
+          <p xml:id="gom-ps91-d1e409">
+            <quote xml:id="gom-ps91-Qd1e411" type="lemma" source="http://scta.info/resource/ps91_13@1-3">Justus ut palma.</quote>
+            <ref xml:id="gom-ps91-Rd1e414"><name xml:id="gom-ps91-Nd1e415" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e418">Tertia pars. Justos florere, ut hac promissione devote gaudeant.</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e421">
+            <quote xml:id="gom-ps91-Qd1e423" type="lemma" source="http://scta.info/resource/ps91_13@7-7">Cedrus.</quote>
+            <ref xml:id="gom-ps91-Rd1e426"><name xml:id="gom-ps91-Nd1e427" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e430">Palma et cedrus, hae arbores non arescunt aestate, ut fenum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e434">
+          <head xml:id="gom-ps91-Hd1e436">Versus 14</head>
+          <p xml:id="gom-ps91-d1e438">
+            <quote xml:id="gom-ps91-Qd1e440" type="lemma" source="http://scta.info/resource/ps91_14@5-7">In atriis domus.</quote>
+            <ref xml:id="gom-ps91-Rd1e443"><name xml:id="gom-ps91-Nd1e444" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e447"><quote xml:id="gom-ps91-Qd1e448">Atrium,</quote> initium mansionis;</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e452">
+            <quote xml:id="gom-ps91-Qd1e454" type="lemma" source="http://scta.info/resource/ps91_14@7-7">domus</quote>
+            interior.
+          </p>
+          <p xml:id="gom-ps91-d1e458">
+            <quote xml:id="gom-ps91-Qd1e460" type="lemma" source="http://scta.info/resource/ps91_14@5-6">In atriis</quote>
+            ergo <quote xml:id="gom-ps91-Qd1e463" source="http://scta.info/resource/ps91_13@4-4">florebunt,</quote> id est, in ipso resurrectionis initio, dum audient: <quote xml:id="gom-ps91-Qd1e466" source="http://scta.info/resource/mt25_34@10-13">Venite, benedicti Patris mei</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e471">
+          <head xml:id="gom-ps91-Hd1e473">Versus 15</head>
+          <p xml:id="gom-ps91-d1e475">
+            <quote xml:id="gom-ps91-Qd1e477" type="lemma" source="http://scta.info/resource/ps91_15@1-2">Adhuc multiplicabuntur.</quote>
+            <ref xml:id="gom-ps91-Rd1e480"><name xml:id="gom-ps91-Nd1e481" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e484">Ecclesia <pb ed="#P" n="1001D"/> magis incipiet esse uberrima, cum ad finem saeculi erit perducta: tunc enim passionibus electorum cito implebitur numerus beatorum. Et accipitur hic aliter <quote xml:id="gom-ps91-Qd1e488" source="http://scta.info/resource/ps91_15@4-4">senectus,</quote> quam supra.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps91-Dd1e494">
+          <head xml:id="gom-ps91-Hd1e496">Versus 16</head>
+          <p xml:id="gom-ps91-d1e498">
+            <quote xml:id="gom-ps91-Qd1e500" type="lemma" source="http://scta.info/resource/ps91_16@2-2">Annuntient.</quote>
+            <ref xml:id="gom-ps91-Rd1e503"><name xml:id="gom-ps91-Nd1e504" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e507">Hic, vel, dum praemium capient annuntiabunt, quod justus, qui suis promissa complet.</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e510">
+            <quote xml:id="gom-ps91-Qd1e512" type="lemma" source="http://scta.info/resource/ps91_16@8-13">Et non est iniquitas in eo.</quote>
+            <ref xml:id="gom-ps91-Rd1e515"><name xml:id="gom-ps91-Nd1e516" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps91-Qd1e519">Ut hic permittat pati pro se, quos non ibi ornet.</quote>
+          </p>
+          <p xml:id="gom-ps91-d1e522">
+            <quote xml:id="gom-ps91-Qd1e524" type="lemma" source="http://scta.info/resource/ps91_16">Et rectus,</quote>
+            <!-- check: lemma not matched to verse text -->
+            qui remunerat, non iniquus ut fraudet praemio, sed benignus ut accumulet.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

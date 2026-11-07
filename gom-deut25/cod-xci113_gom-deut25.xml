@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium, Caput 25</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Deuteronomium, Caput 25</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0480C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-deut25">
+        <head xml:id="gom-deut25-Hd1e98">Caput 25</head>
+        <div xml:id="gom-deut25-Dd1e100">
+          <head xml:id="gom-deut25-Hd1e102">Versus 1</head>
+          <p xml:id="gom-deut25-d1e104">
+            <quote xml:id="gom-deut25-Qd1e106" type="lemma" source="http://scta.info/resource/deut25_1@1-3">Si fuerit causa.</quote>
+            <ref xml:id="gom-deut25-Rd1e109"><name xml:id="gom-deut25-Nd1e110" ref="#Augustine">AUG.</name>, quaest. 45</ref>
+            <quote xml:id="gom-deut25-Qd1e114"><seg type="qs">LXX: <quote xml:id="gom-deut25-Qd1e117" source="http://scta.info/resource/Icor14_28@1-5">Si autem fuerit altercatio inter homines,</quote></seg> etc., usque ad <seg type="qs">sic et peccata quae non in Deum, sed in hominem videntur admitti, quaedam sunt digna morte, quaedam verbere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut25-Dd1e125">
+          <head xml:id="gom-deut25-Hd1e127">Versus 3</head>
+          <p xml:id="gom-deut25-d1e129">
+            <quote xml:id="gom-deut25-Qd1e131" type="lemma" source="http://scta.info/resource/deut25_3@4-4">Quadragenarium.</quote>
+            Quadragenarius denario quater ducto perficitur. Nos vero de quatuor <pb ed="#P" n="0480D"/> elementis secundum corpus consistimus: praecepta decalogi per denarium accipiuntur. Jubet ergo judicium vel vindictam, in qua carnis peccatum plectitur, secundum praecepta ordinari, et omnia praecepta in decalogo vult intelligi.
+          </p>
+          <p xml:id="gom-deut25-d1e137">
+            <ref xml:id="gom-deut25-Rd1e139" type="lemma" subtype="implied" target="http://scta.info/resource/deut25_3@4-4"/>
+            <ref xml:id="gom-deut25-Rd1e141"><name xml:id="gom-deut25-Nd1e142" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-deut25-Qd1e145"><seg type="qs">In quadragenario hoc tempus figuratur</seg>, etc., usque ad <seg type="qs">illic sine peccato invenimur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut25-Dd1e154">
+          <head xml:id="gom-deut25-Hd1e156">Versus 4</head>
+          <p xml:id="gom-deut25-d1e158">
+            <quote xml:id="gom-deut25-Qd1e160" type="lemma" source="http://scta.info/resource/deut25_4@3-4">Os bovis triturantis.</quote>
+            <ref xml:id="gom-deut25-Rd1e163"><name xml:id="gom-deut25-Nd1e164" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-deut25-Qd1e167">In bove vita operantium exprimitur, de quo dicitur: <quote xml:id="gom-deut25-Qd1e169" source="http://scta.info/resource/lc10_7@13-18">Dignus est enim operarius mercede sua</quote>. Vult ergo Scriptura praestari carnalia iis a quibus accipimus spiritualia, qui occupati in doctrina non possunt sibi providere necessaria.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut25-Dd1e175">
+          <head xml:id="gom-deut25-Hd1e177">Versus 5</head>
+          <p xml:id="gom-deut25-d1e179">
+            <quote xml:id="gom-deut25-Qd1e181" type="lemma" source="http://scta.info/resource/deut25_5@1-1">Quando.</quote>
+            <ref xml:id="gom-deut25-Rd1e184"><name xml:id="gom-deut25-Nd1e185" ref="#Augustine">AUG.</name>, quaest. 46.</ref>
+            <quote xml:id="gom-deut25-Qd1e189"><seg type="qs">LXX <quote xml:id="gom-deut25-Qd1e192">Si <pb ed="#P" n="0481A"/> ante habitaverunt fratres,</quote></seg> etc., usque ad <seg type="qs">aut adoptio fecit alterum patrem quem posset habere Joseph.</seg></quote>
+          </p>
+          <p xml:id="gom-deut25-d1e201">
+            <quote xml:id="gom-deut25-Qd1e203" type="lemma" source="http://scta.info/resource/deut25_5@11-12">Mortuus fuerit.</quote>
+            Passus est et ascendit in coelum adhuc synagoga sterili permanente.
+          </p>
+          <p xml:id="gom-deut25-d1e207">
+            <quote xml:id="gom-deut25-Qd1e209" type="lemma" source="http://scta.info/resource/deut25_5@18-19">Sed accipiet,</quote>
+            etc. Qui regere valet, cui nolenti in faciem mulier exspuit. Qui enim donis spiritalibus non curat prodesse aliis, hujus etiam bonis Ecclesia exprobrans quasi in faciem jactat salivam.
+          </p>
+        </div>
+        <div xml:id="gom-deut25-Dd1e215">
+          <head xml:id="gom-deut25-Hd1e217">Versus 9</head>
+          <p xml:id="gom-deut25-d1e219">
+            <quote xml:id="gom-deut25-Qd1e221" type="lemma" source="http://scta.info/resource/deut25_9@9-9">Calceamentum.</quote>
+            De quo dicitur: <quote xml:id="gom-deut25-Qd1e224" source="http://scta.info/resource/eph6_15@3-7">Catceati pedes in praeparatione Evangelii pacis<!-- check: Migne cites ez6; text matches eph6_15 --></quote>. Si ut nostram, sic curam proximi gerimus, utrumque pedem calceamento munimus; qui vero suam cogitans utilitatem proximorum negligit, quasi unius pedis calceamentum cum dedecore amittit.
+          </p>
+          <p xml:id="gom-deut25-d1e229">
+            <pb ed="#P" n="0481B"/>
+            <quote xml:id="gom-deut25-Qd1e233" type="lemma" source="http://scta.info/resource/deut25_9@10-11">De pede,</quote>
+            id est mercede praedicationis privatum ostendet. Doctorum enim pedes calceati sunt, quia exemplis praecedentium patrum muniti gressus praedicationis eorum imitati sunt. Utroque pede calceatus est, qui sibi et aliis prodest.
+          </p>
+        </div>
+        <div xml:id="gom-deut25-Dd1e238">
+          <head xml:id="gom-deut25-Hd1e240">Versus 11</head>
+          <p xml:id="gom-deut25-d1e242">
+            <quote xml:id="gom-deut25-Qd1e244" type="lemma" source="http://scta.info/resource/deut25_11@7-10">Et unus contra alterum.</quote>
+            Catholicus haereticusque quorum perpetua contentio, quia dispar intentio: alter enim falsitatem, alter defendit veritatem, et resistere oportet errori, ne sibi stultus sapiens videatur.
+          </p>
+          <p xml:id="gom-deut25-d1e248">
+            <quote xml:id="gom-deut25-Qd1e250" type="lemma" source="http://scta.info/resource/deut25_11@22-22">Miseritque.</quote>
+            Per falsam ignominiam vel actionem abominandam voluerit catholici conversationem maculare vel doctrinam diffamare.
+          </p>
+          <p xml:id="gom-deut25-d1e254">
+            <quote xml:id="gom-deut25-Qd1e256" type="lemma" source="http://scta.info/resource/deut25_11@26-26">Verenda.</quote>
+            Infirmiora membra Ecclesiae, scilicet volent blandiendo decipere vel insultando deridere.
+          </p>
+        </div>
+        <div xml:id="gom-deut25-Dd1e261">
+          <head xml:id="gom-deut25-Hd1e263">Versus 13</head>
+          <p xml:id="gom-deut25-d1e265">
+            <pb ed="#P" n="0481C"/>
+            <quote xml:id="gom-deut25-Qd1e269" type="lemma" source="http://scta.info/resource/deut25_13@1-4">Non habebis in sacculo.</quote>
+            In Levitico idem interdicitur. Salomon quoque ait: <quote xml:id="gom-deut25-Qd1e272" source="http://scta.info/resource/prov20_10@1-11">Pondus magnum et pusillium, et mensurae duplices, immundae sunt apud Deum</quote>.
+          </p>
+          <p xml:id="gom-deut25-d1e276">
+            <ref xml:id="gom-deut25-Rd1e278"><name xml:id="gom-deut25-Nd1e279" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-deut25-Qd1e282" type="lemma" source="http://scta.info/resource/deut25_13@1-4">Non habebis in sacculo.</quote>
+            <quote xml:id="gom-deut25-Qd1e285">Spiritualiter quo que studendum est, ne diversa pondera in corde habeamus, id est, districtionis regulam nobis mollientes, eos quibus verbum Dei praedicamus districtioribus praeceptis quasi gravioribus ponderibus obruamus. Quod cum facimus, diverso pondere praeceptorum Domini mercedem frugemque appendimus, unde: <quote xml:id="gom-deut25-Qd1e287" source="http://scta.info/resource/prov20_23@1-5">Abominatio est Domino pondus duplex</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut25-Dd1e293">
+          <head xml:id="gom-deut25-Hd1e295">Versus 17</head>
+          <p xml:id="gom-deut25-d1e297">
+            <quote xml:id="gom-deut25-Qd1e299" type="lemma" source="http://scta.info/resource/deut25_17@1-2">Memento quae.</quote>
+            Tradunt Hebraei quod <pb ed="#P" n="0481D"/> leprosos et semine fluentes, et alios extra castra positos interfecerit Amalec, et hos dicunt esse extremos agminis Domini. Amalec lingens sanguinem. Hi sunt daemones qui nobis per baptismum de spiritali Aegypto exeuntibus adversantur, et in virtutibus extremos, et in itinere hujus vitae lassatos peccata suggerendo student occidere. Hos cum Dominus facultatem dederit, omnino debemus subvertere et suggestiones eorum omni modo ejicere atque delere, ne si aliquas reliquias, sicut Saul, servaverimus, quasi inobedientes cum eis subvertamur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

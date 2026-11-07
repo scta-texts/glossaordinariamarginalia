@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 50</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 50</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0180D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen50">
+        <head xml:id="gom-gen50-Hd1e98">Caput 50</head>
+        <div xml:id="gom-gen50-Dd1e100">
+          <head xml:id="gom-gen50-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen50-d1e104">
+            <quote xml:id="gom-gen50-Qd1e106" type="lemma" source="http://scta.info/resource/gen50_1">Quod cernens Joseph, ruit. . . . transierunt quadraginta dies.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-gen50-Rd1e111"><name xml:id="gom-gen50-Nd1e112">STRAB.</name></ref>
+            <quote xml:id="gom-gen50-Qd1e114">Qui numerus poenitentiae et humilitati convenit. Unde in lege et in Evangelio a prophetis et ab ipso Domino observatus est.</quote>
+          </p>
+          <p xml:id="gom-gen50-d1e117">
+            <ref xml:id="gom-gen50-Rd1e119" type="lemma" subtype="implied" target="http://scta.info/resource/gen50_1"/>
+            <ref xml:id="gom-gen50-Rd1e121"><name xml:id="gom-gen50-Nd1e122" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen50-Qd1e125">Quadraginta dies sepulturae, quos memorat Scriptura, forte poenitentiam significant, qua sepeliuntur peccata. Non enim frustra quadraginta dies <pb ed="#P" n="0181A"/> jejuniorum sunt constituti, quibus Moyses, et Elias, et ipse Dominus jejunavit, et Ecclesia praecipuam observationem jejuniorum Quadragesimam vocat. Unde et apud Jonam de Ninivitis scriptum est: « Adhuc quadraginta dies, et Ninive subvertetur <!--<note>(Jon. III)</note>-->, ut per tot dies, accommodatos scilicet humiliationi poenitentium, intelligantur in jejuniis sua flevisse peccata, et impetrasse misericordiam. Nec tantum luctui poenitentium hic numerus convenit. Quadraginta enim dies post resurrectionem fuit Dominus cum discipulis suis intrans et exiens, manducans et bibens, qui dies laetitiae fuerunt. Nec septuaginta Interpretes errasse credendi sunt qui dixerunt: <quote xml:id="gom-gen50-Qd1e131">Triduum, et Ninive subvertetur:</quote> majore enim auctoritate praediti quam interpretum <pb ed="#P" n="0181B"/> officium est, prophetico spiritu (quo etiam ore uno in suis interpretationibus, quod magnum miraculum fuit, consonuisse firmantur) <quote xml:id="gom-gen50-Qd1e135">triduum,</quote> posuerunt, quamvis non ignorarent quod <quote xml:id="gom-gen50-Qd1e138" source="http://scta.info/resource/gen50_3@5-6">quadraginta dies</quote> in Hebraeo legerentur; ut in Christi clarificatione intelligerentur dissolvi et aboleri peccata, <quote xml:id="gom-gen50-Qd1e141" source="http://scta.info/resource/rom4_25@1-11">qui traditus est propter delicta nostra, et resurrexit propter justificationem nostram.</quote> Clarificatio autem Domini in resurrectione et ascensione cognoscitur. Unde hic quamvis unum et eumdem spiritum dedit: primo postquam resurrexit, secundo postquam ascendit; et quia post triduum resurrexit, post quadraginta autem dies ascendit: unum horum, quod posterius factum est, per numerum quadraginta dierum Hebraei significant; alterum vero de triduo, quod ad <pb ed="#P" n="0181C"/> eamdem rem pertinet, Septuaginta memorant, non interpretationis servitute, sed prophetiae auctoritate. Non ergo dicamus unum horum falsum esse, et pro aliis interpretibus contra alios litigemus; cum illi qui ex Hebraeo interpretantur, probent scriptum esse quod interpretantur; et Septuaginta auctoritas, quae tanto divinitus facto miraculo commendatur, tanta in Ecclesiis vetustate firmetur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen50-Dd1e149">
+          <head xml:id="gom-gen50-Hd1e151">Versus 3</head>
+          <p xml:id="gom-gen50-d1e153">
+            <quote xml:id="gom-gen50-Qd1e155" type="lemma" source="http://scta.info/resource/gen50_3@16-17">Septuaginta diebus.</quote>
+            <ref xml:id="gom-gen50-Rd1e158"><name xml:id="gom-gen50-Nd1e159">STRAB.</name></ref>
+            <quote xml:id="gom-gen50-Qd1e161">Ethnici novem diebus mortuos suos flebant. Unde et novendialis nona dies vocabatur, quando sepeliebantur. Dei cultores septem diebus exsequias celebrabant. Unde Eccli. XXII: <quote xml:id="gom-gen50-Qd1e163" source="http://scta.info/resource/sir22_13@1-11">Luctus mortui septem dies: luctus autem fatui omne tempus vitae ejus.</quote> Septenarius enim requiem significat. Unde septima dies sabbatum, <pb ed="#P" n="0181D"/> id est <mentioned>requies</mentioned> dicitur. Celebrant ergo septimam diem mortuorum, optantes illos cum Domino requiescere a laboribus praesentis vitae. Hinc ergo dicitur: <quote xml:id="gom-gen50-Qd1e170" source="http://scta.info/resource/gen50_3@13-17">Flevit eum Aegyptus septuaginta diebus,</quote> qui est decuplatus septenarius. Septies enim deni, septuaginta sunt. Potest etiam dici quia sicut tertia dies mortui agitur a fidelibus, ut anima, quae est triplicis naturae, requiescat; ita septimus dies celebratur, ut anima corpori reconcilietur, quae carne illiciente peccavit. In septenario etiam tria sunt et <pb ed="#P" n="0182A"/> quatuor; ternarius pertinet ad animam, quae irascibilis, et concupiscibilis, et rationalis est; quaternarius ad corpus, qui quatuor constat elementis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen50-Dd1e178">
+          <head xml:id="gom-gen50-Hd1e180">Versus 4</head>
+          <p xml:id="gom-gen50-d1e182">
+            <quote xml:id="gom-gen50-Qd1e184" type="lemma" source="http://scta.info/resource/gen50_4@1-4">Et expleto planctus tempore,</quote>
+            etc.
+            <ref xml:id="gom-gen50-Rd1e187"><name xml:id="gom-gen50-Nd1e188" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen50-Qd1e191">Quod mandavit Joseph potentibus Aegypti, ut dicerent Pharaoni nomine ejus: <quote xml:id="gom-gen50-Qd1e193" source="http://scta.info/resource/gen50_5@3-24">Pater meus adjuravit me dicens: In monumento quod ego feci mihi in terra Chanaan, ibi me sepelies;</quote> quaeritur quomodo verum sit, cum haec verba patris ejus, cum de sepultura mandaret, non legantur. Sed ad sententiam verba sunt referenda, sicut supra alia similiter iterata. Voluntati enim enuntiandae et in notitiam perferendae, oportet verba servire. Fodisse autem sibi Jacob sepulcrum nusquam superius legitur, sed certe, nisi fodisset, non modo diceretur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen50-Dd1e199">
+          <head xml:id="gom-gen50-Hd1e201">Versus 10</head>
+          <p xml:id="gom-gen50-d1e203">
+            <pb ed="#P" n="0182B"/>
+            <quote xml:id="gom-gen50-Qd1e207" type="lemma" source="http://scta.info/resource/gen50_10@1-4">Veneruntque ad aream Atad,</quote>
+            etc. Hic locus trans Jordanem est, et distat ab Hebron septuaginta passuum millibus. Praetergressi sunt ergo locum in quo debebant sepelire eum, et postea transito Jordane redierunt ad locum duplicis speluncae. Unde quaeri potest quare hoc fecerint. Si dicit aliquis quia bella timebant, sicut filii Israel circumducti per desertum quadraginta annis, donec transmisso Jordane venerunt ad terram promissionis. Sed majoris significantiae causa factum est hoc. In loco enim quae area Arad dicitur, postea multitudo filiorum Israel murmurans contra Dominum, divino igne consumpta est. Tanto ergo luctu non tam mors Jacob, quam ruina populi futura lugebatur.
+          </p>
+        </div>
+        <div xml:id="gom-gen50-Dd1e213">
+          <head xml:id="gom-gen50-Hd1e215">Versus 22</head>
+          <p xml:id="gom-gen50-d1e217">
+            <quote xml:id="gom-gen50-Qd1e219" type="lemma" source="http://scta.info/resource/gen50_22@10-13">Vixitque centum decem annis.</quote>
+            <quote xml:id="gom-gen50-Qd1e222"><seg type="qs"><pb ed="#P" n="0182C"/> <ref xml:id="gom-gen50-Rd1e226"><name xml:id="gom-gen50-Nd1e227" ref="#Augustine">AUG.</name>, in Gen., tom. III.</ref><!-- check: attribution inside gloss body --> Cum hos filios filiorum vel nepotes filiorum dicat Scriptura Joseph vivendo vidisse, quomodo jungit eos sexaginta quinque animabus cum quibus Jacob Aegyptum dicit intrasse</seg>, etc., usque ad <seg type="qs">quae illo vivo propagabatur, per quem factum est ut ingrederetur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen50-Dd1e238">
+          <head xml:id="gom-gen50-Hd1e240">Versus 24</head>
+          <p xml:id="gom-gen50-d1e242">
+            <quote xml:id="gom-gen50-Qd1e244" type="lemma" source="http://scta.info/resource/gen50_24@9-11">Asportate ossa,</quote>
+            etc.
+            <ref xml:id="gom-gen50-Rd1e247"><name xml:id="gom-gen50-Nd1e248">STRAB.</name></ref>
+            <quote xml:id="gom-gen50-Qd1e250">Joseph, sicut pater ejus, terram promissionis tota mente desiderabat, et incolatum Aegypti detestabatur. Nos quosque moraliter instruit, ut quandiu sumus in hoc mundo, terram promissionis, id est viventium, semper desideremus, et ibi requiescere optemus: quod bene fit, si numerum annorum Joseph moribus imitemur. Centum enim et decem vitae annis expletis mortuus est: nos quoque studeamus <pb ed="#P" n="0182D"/> per decalogi observantiam ad aeternam beatitudinem quam centenarius significat, pervenire.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen50-Dd1e257">
+          <head xml:id="gom-gen50-Hd1e259">Versus 25</head>
+          <p xml:id="gom-gen50-d1e261">
+            <quote xml:id="gom-gen50-Qd1e263" type="lemma" source="http://scta.info/resource/gen50_25@10-11">Conditus aromatibus.</quote>
+            <ref xml:id="gom-gen50-Rd1e266"><name xml:id="gom-gen50-Nd1e267">STRAB.</name></ref>
+            <quote xml:id="gom-gen50-Qd1e269">Felix est anima quae, aromatibus virtutum condita in loculo corporis degens, quotidie proficiendo perenni vitae reservatur. Siquidem in fide, spe et charitate custodita fuerit, per gratiam Christi pervenire merebitur ad speciem divinae contemplationis, cujus adoptio perfecta est laetitia; unde psal. XV: <quote xml:id="gom-gen50-Qd1e271" source="http://scta.info/resource/ps15_10@20-25">Adimplebis me laetitia cum vultu tuo.</quote></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

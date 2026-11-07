@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tobiae, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Tobiae, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0728B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-tob6">
+        <head xml:id="gom-tob6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-tob6-Dd1e100">
+          <head xml:id="gom-tob6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-tob6-d1e104">
+            <quote xml:id="gom-tob6-Qd1e106" type="lemma" source="http://scta.info/resource/tob6_1@1-2">Profectus est,</quote>
+            etc.
+            <ref xml:id="gom-tob6-Rd1e109"><name xml:id="gom-tob6-Nd1e110" ref="#Bede">BEDA</name>, in Esdr., tom. II.</ref>
+            <quote xml:id="gom-tob6-Qd1e114"><seg type="qs">Domino veniente ad gentes salvandas</seg>, etc., usque ad <seg type="qs">et oves spirituales a furibus et bestialibus spiritibus et haereticis defendunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob6-Dd1e123">
+          <head xml:id="gom-tob6-Hd1e125">Versus 2</head>
+          <p xml:id="gom-tob6-d1e127">
+            <quote xml:id="gom-tob6-Qd1e129" type="lemma" source="http://scta.info/resource/tob6_2@7-9">Et ecce piscis,</quote>
+            etc.
+            <ref xml:id="gom-tob6-Rd1e132"><name xml:id="gom-tob6-Nd1e133" ref="#Bede">BEDA</name>, ubi supra.</ref>
+            <quote xml:id="gom-tob6-Qd1e137"><seg type="qs">Dominicae passionis sacramentum manifeste significatur</seg>, etc., usque ad <seg type="qs">nec in eo princeps mundi veniens quidquam habuit.</seg></quote>
+          </p>
+          <p xml:id="gom-tob6-d1e145">
+            <quote xml:id="gom-tob6-Qd1e147" type="lemma" source="http://scta.info/resource/tob6_2@2-2">Exivit.</quote>
+            <ref xml:id="gom-tob6-Rd1e150"><name xml:id="gom-tob6-Nd1e151" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob6-Qd1e155">Christus mortem cui nil debebat accepit, ut pedes, scilicet suos, id est membra sua a contagione peccati et mortis ablueret. Occurrit <pb ed="#P" n="0728C"/> piscis eum devorare cupiens, et Domino in cruce passo diabolus, quo movente crucifixus erat, advenit, quaerens si quid peccati in eo invenisset.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob6-Dd1e162">
+          <head xml:id="gom-tob6-Hd1e164">Versus 3</head>
+          <p xml:id="gom-tob6-d1e166">
+            <quote xml:id="gom-tob6-Qd1e168" type="lemma" source="http://scta.info/resource/tob6_3@1-2">Quem expavescens,</quote>
+            etc. Christus imminente mortis articulo coepit pavere et taedere, non diabolum, sed mortem, quae invidia diaboli intravit in orbem, naturali carnis fragilitate perhorrescens; unde: <quote xml:id="gom-tob6-Qd1e171" source="http://scta.info/resource/mc14_36@9-13">Pater, transfer calicem hunc a me .</quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob6-Dd1e176">
+          <head xml:id="gom-tob6-Hd1e178">Versus 4</head>
+          <p xml:id="gom-tob6-d1e180">
+            <quote xml:id="gom-tob6-Qd1e182" type="lemma" source="http://scta.info/resource/tob6_4@5-6">Apprehende branchiam,</quote>
+            etc.
+            <ref xml:id="gom-tob6-Rd1e185"><name xml:id="gom-tob6-Nd1e186" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-tob6-Qd1e190">Apprehendit Christus di bolum qui eum capere in cruce voluit, et moriendo vicit. Apprehendit ergo branchiam, ut caput nequissimum a corpore, potentiae suae dextera separaret, id est nequitiam antiqui hostis ab his, quos sibi corpus fecerat, auferret, et <pb ed="#P" n="0728D"/> hos corpori suo, id est Ecclesiae inferret. Branchiam enim habet piscis in confinio capitis et corporis, est autem Christus caput Ecclesiae, quae est corpus ejus, et diabolus caput iniquorum, qui sunt corpus ejus.</quote>
+          </p>
+          <p xml:id="gom-tob6-d1e196">
+            <quote xml:id="gom-tob6-Qd1e198" type="lemma" source="http://scta.info/resource/tob6_4@13-15">Quod cum fecisset.</quote>
+            Quia cum Dominus nequitiam diaboli manifestaret, molitus est adhuc electis suis persecutionem commovere: hi enim sunt pedes ejus per quos ambulat in terra qui per omnia regnat in coelo.
+          </p>
+        </div>
+        <div xml:id="gom-tob6-Dd1e204">
+          <head xml:id="gom-tob6-Hd1e206">Versus 5</head>
+          <p xml:id="gom-tob6-d1e208">
+            <quote xml:id="gom-tob6-Qd1e210" type="lemma" source="http://scta.info/resource/tob6_5@5-7">Exentera hunc piscem.</quote>
+            Dominus piscem exenteravit, cum nequitiam diaboli latius sanctis aperuit: et quasi arcana insidiarum ejus reseravit. Reposuit sibi cor ejus, quia calliditatem ejus <pb ed="#P" n="0729A"/> in Scripturis indicavit, de quo dicitur: <quote xml:id="gom-tob6-Qd1e215" source="http://scta.info/resource/gen3_1@3-8">Serpens erat callidior cunctis animantibus terrae ,</quote> et alibi: <quote xml:id="gom-tob6-Qd1e218" source="http://scta.info/resource/IIcor2_11@8-10">Num ignoramus astutius ejus .</quote> Fel quoque reposuit, quia quanto malitiae furore contra genus humanum saeviat, ad cautelae studium scribi et conservari voluit. Jecur reposuit, quia maligna ejus consilia adversum nos per doctores veritatis insinuavit: Aiunt enim physici: quia calore et occulta virtute jecoris excoquantur et digerantur cibi. Cum vero quae agere disponimus, sedula cogitatione, quo ordine sint agenda requirimus, quasi acceptos in stomacho cibos, ardore jecoris excoquimus.
+          </p>
+          <p xml:id="gom-tob6-d1e222">
+            <quote xml:id="gom-tob6-Qd1e224" type="lemma" source="http://scta.info/resource/tob6_5@18-21">Sunt enim haec necessaria.</quote>
+            Astutia diaboli et nequitia cognita nobis ad medelam proficiunt: <pb ed="#P" n="0729B"/> quanto enim ea certius exploramus, tanto certius declinamus
+          </p>
+        </div>
+        <div xml:id="gom-tob6-Dd1e231">
+          <head xml:id="gom-tob6-Hd1e233">Versus 6</head>
+          <p xml:id="gom-tob6-d1e235">
+            <quote xml:id="gom-tob6-Qd1e237" type="lemma" source="http://scta.info/resource/tob6_6@4-6">Assavit carnes ejus,</quote>
+            etc.
+            <ref xml:id="gom-tob6-Rd1e240"><name xml:id="gom-tob6-Nd1e241" ref="#Bede">BEDA</name>, ubi supra.</ref>
+            <quote xml:id="gom-tob6-Qd1e245"><seg type="qs">Quidquid sibi ex hoc pisce assumpserit</seg>, etc., usque ad <seg type="qs">donec in gentibus Ecclesiae fundamenta locarentur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob6-Dd1e254">
+          <head xml:id="gom-tob6-Hd1e256">Versus 12</head>
+          <p xml:id="gom-tob6-d1e258">
+            <quote xml:id="gom-tob6-Qd1e260" type="lemma" source="http://scta.info/resource/tob6_12@6-7">Et oportet.</quote>
+            <ref xml:id="gom-tob6-Rd1e263"><name xml:id="gom-tob6-Nd1e264" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob6-Qd1e268"><seg type="qs">Raguel populum gentium signat</seg>, etc., usque ad <seg type="qs">et qui audire dignus sit: « Jam non dicam vos servos, sed amicos meos <!--<note>(Joan. XV)</note>-->.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

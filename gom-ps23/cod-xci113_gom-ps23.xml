@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 23</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 23</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0876C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps23">
+        <head xml:id="gom-ps23-Hd1e98">Psalmus 23</head>
+        <div xml:id="gom-ps23-Dd1e100">
+          <head xml:id="gom-ps23-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps23-d1e104">
+            <quote xml:id="gom-ps23-Qd1e106" type="lemma" source="http://scta.info/resource/ps23_1@3-4">Psalmus David.</quote>
+            <ref xml:id="gom-ps23-Rd1e109"><name xml:id="gom-ps23-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps23-Qd1e113">In prima sabbati mundus conditus, in eadem homo restauratus per resurrectionem Christi: <ref xml:id="gom-ps23-Rd1e115"><name xml:id="gom-ps23-Nd1e116" ref="#Cassiodorus">CASS.</name></ref><!-- check: attribution inside gloss body --> unde monet victorem cum triumpho suscipere.</quote>
+          </p>
+          <p xml:id="gom-ps23-d1e122">
+            <quote xml:id="gom-ps23-Qd1e124" type="lemma" source="http://scta.info/resource/ps23_1@5-7">Domini est terra.</quote>
+            <quote xml:id="gom-ps23-Qd1e127"><seg type="qs">Primo dicit totum orbem esse Dei</seg>, etc., usque ad <seg type="qs"><pb ed="#P" n="0876D"/> sed quis in monte ejus, nisi innocens?</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps23-Dd1e137">
+          <head xml:id="gom-ps23-Hd1e139">Versus 2</head>
+          <p xml:id="gom-ps23-d1e141">
+            <quote xml:id="gom-ps23-Qd1e143" type="lemma" source="http://scta.info/resource/ps23_2@7-9">Et super flumina.</quote>
+            <ref xml:id="gom-ps23-Rd1e146"><name xml:id="gom-ps23-Nd1e147" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps23-Qd1e150">Ut flumina in mare, ita cupidi labuntur in saeculum; et eos etiam superat Ecclesia, quae victis cupiditatibus ad immortalitatem paratur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps23-Dd1e154">
+          <head xml:id="gom-ps23-Hd1e156">Versus 3</head>
+          <p xml:id="gom-ps23-d1e158">
+            <quote xml:id="gom-ps23-Qd1e160" type="lemma" source="http://scta.info/resource/ps23_3@1-2">Quis ascendet?</quote>
+            Determinat quibus virtutibus praediti sunt in Ecclesia.
+          </p>
+          <p xml:id="gom-ps23-d1e164">
+            <quote xml:id="gom-ps23-Qd1e166" type="lemma" source="http://scta.info/resource/ps23_3@8-9">Quis stabit?</quote>
+            <ref xml:id="gom-ps23-Rd1e169"><name xml:id="gom-ps23-Nd1e170" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps23-Qd1e173">Multi enim ascendunt, qui non permanent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps23-Dd1e177">
+          <head xml:id="gom-ps23-Hd1e179">Versus 4</head>
+          <p xml:id="gom-ps23-d1e181">
+            <ref xml:id="gom-ps23-Rd1e183"><name xml:id="gom-ps23-Nd1e184" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ps23-Qd1e187" type="lemma" source="http://scta.info/resource/ps23_4@1-1">Innocens:</quote>
+            <quote xml:id="gom-ps23-Qd1e190"><seg type="qs">ad proximum, manu et corde, et qui sibi innocens</seg>, etc., usque ad <seg type="qs">praesentiam et cognitionem desiderent.</seg></quote>
+          </p>
+          <p xml:id="gom-ps23-d1e198">
+            <quote xml:id="gom-ps23-Qd1e200" type="lemma" source="http://scta.info/resource/ps23_4@6-8">Qui non accepit.</quote>
+            <ref xml:id="gom-ps23-Rd1e203"><name xml:id="gom-ps23-Nd1e204" ref="#Augustine">AUG.</name>, HIER.</ref>
+            <quote xml:id="gom-ps23-Qd1e208">Id est, qui non deputavit animam rebus non permanentibus, sed eam sentiens immortalem aeterna desiderabit, et ideo <pb ed="#P" n="0877A"/> non juravit in dolo.</quote>
+          </p>
+          <p xml:id="gom-ps23-d1e214">
+            <quote xml:id="gom-ps23-Qd1e216" type="lemma" source="http://scta.info/resource/ps23_4@9-10">In vano.</quote>
+            <ref xml:id="gom-ps23-Rd1e219"><name xml:id="gom-ps23-Nd1e220" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps23-Qd1e223">Id est, qui nullis eam fecibus peccaminum post baptismum maculavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps23-Dd1e228">
+          <head xml:id="gom-ps23-Hd1e230">Versus 7</head>
+          <p xml:id="gom-ps23-d1e232">
+            <quote xml:id="gom-ps23-Qd1e234" type="lemma" source="http://scta.info/resource/ps23_7@1-1">Attollite.</quote>
+            <quote xml:id="gom-ps23-Qd1e237"><seg type="qs">Diapsalmus. Christiana religione declarata</seg>, etc., usque ad <seg type="qs">quae a principe diabolo positae sunt.</seg></quote>
+          </p>
+          <p xml:id="gom-ps23-d1e245">
+            <quote xml:id="gom-ps23-Qd1e247" type="lemma" source="http://scta.info/resource/ps23_7@5-6">Et elevamini.</quote>
+            Contra portas mortis.
+          </p>
+          <p xml:id="gom-ps23-d1e251">
+            <quote xml:id="gom-ps23-Qd1e253" type="lemma" source="http://scta.info/resource/ps23_7@7-8">Portae aeternales:</quote>
+            omnis gratia quae, veniente Christo, data est.
+          </p>
+        </div>
+        <div xml:id="gom-ps23-Dd1e258">
+          <head xml:id="gom-ps23-Hd1e260">Versus 8</head>
+          <p xml:id="gom-ps23-d1e262">
+            <quote xml:id="gom-ps23-Qd1e264" type="lemma" source="http://scta.info/resource/ps23_8@1-2">Quis est?</quote>
+            interrogat. Propheta ad convincendam Judaeorum perfidiam, et ut amplius eum commmendando alios invitet.
+          </p>
+        </div>
+        <div xml:id="gom-ps23-Dd1e269">
+          <head xml:id="gom-ps23-Hd1e271">Versus 10</head>
+          <p xml:id="gom-ps23-d1e273">
+            <quote xml:id="gom-ps23-Qd1e275" type="lemma" source="http://scta.info/resource/ps23_10">Dominus fortis</quote>
+            <!-- check: lemma not matched to verse text -->
+            per virtutes describitur quasi proprio nomine.
+          </p>
+          <p xml:id="gom-ps23-d1e281">
+            <quote xml:id="gom-ps23-Qd1e283" type="lemma" source="http://scta.info/resource/ps23_10">Fortis,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps23-Rd1e288"><name xml:id="gom-ps23-Nd1e289" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps23-Qd1e292">etsi cum gladiis cepistis.</quote>
+          </p>
+          <p xml:id="gom-ps23-d1e295">
+            <quote xml:id="gom-ps23-Qd1e297" type="lemma" source="http://scta.info/resource/ps23_10">Potens,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etsi Pilato tradidistis.
+          </p>
+          <p xml:id="gom-ps23-d1e303">
+            <pb ed="#P" n="0877B"/>
+            <quote xml:id="gom-ps23-Qd1e307" type="lemma" source="http://scta.info/resource/ps23_10">Potens in praelio,</quote>
+            <!-- check: lemma not matched to verse text -->
+            ne in pugna vos superasse putetis.
+          </p>
+          <p xml:id="gom-ps23-d1e314">
+            <quote xml:id="gom-ps23-Qd1e316" type="lemma" source="http://scta.info/resource/ps23_10@8-8">Virtutes.</quote>
+            <ref xml:id="gom-ps23-Rd1e319"><name xml:id="gom-ps23-Nd1e320" ref="#Jerome">Hier.</name>, AUG.</ref>
+            <quote xml:id="gom-ps23-Qd1e324">Ministrae praecedentes Christum in ascensione ad alias coelestes clamant, ut viam Domino venienti aperiant: quae novo mysterio carne induti stupefactae, quaerunt, quis est?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps23-Dd1e328">
+          <head xml:id="gom-ps23-Hd1e330">Versus 9</head>
+          <p xml:id="gom-ps23-d1e332">
+            <quote xml:id="gom-ps23-Qd1e334" type="lemma" source="http://scta.info/resource/ps23_9@1-1">Attollite.</quote>
+            <ref xml:id="gom-ps23-Rd1e337"><name xml:id="gom-ps23-Nd1e338" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps23-Qd1e341"><seg type="qs">Congeminatio</seg>, etc., usque ad <seg type="qs">qui omnibus omnia dat bona, vel coelestium virtutum, id est, angelorum.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

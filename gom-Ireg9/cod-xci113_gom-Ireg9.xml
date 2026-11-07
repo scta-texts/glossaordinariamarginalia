@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum I, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum I, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0601A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ireg9">
+        <head xml:id="gom-Ireg9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-Ireg9-Dd1e100">
+          <head xml:id="gom-Ireg9-Hd1e102">Versus 11</head>
+          <p xml:id="gom-Ireg9-d1e104">
+            <pb ed="#P" n="0601A"/>
+            <quote xml:id="gom-Ireg9-Qd1e108" type="lemma" source="http://scta.info/resource/Ireg9_11">Praebente regi.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-Ireg9-Rd1e113"><name xml:id="gom-Ireg9-Nd1e114" ref="#RabanusMaurus">RAB.</name> ubi supra.</ref>
+            <quote xml:id="gom-Ireg9-Qd1e118"><seg type="qs">Multum auri et argenti</seg>, etc., usque ad <seg type="qs">quia germen cum plenitudine fructuum non afferrent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg9-Dd1e127">
+          <head xml:id="gom-Ireg9-Hd1e129">Versus 17</head>
+          <p xml:id="gom-Ireg9-d1e131">
+            <quote xml:id="gom-Ireg9-Qd1e133" type="lemma" source="http://scta.info/resource/Ireg9_17@1-1">Aedificavit.</quote>
+            <ref xml:id="gom-Ireg9-Rd1e136"><name xml:id="gom-Ireg9-Nd1e137" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg9-Qd1e140"><seg type="qs">Urbes quas aedificasse dicitur</seg>, etc., usque ad <seg type="qs">ut hostibus spiritualibus insuperabiles exsistant.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg9-d1e148">
+            <ref xml:id="gom-Ireg9-Rd1e150" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg9_17@1-1"/>
+            <ref xml:id="gom-Ireg9-Rd1e152"><name xml:id="gom-Ireg9-Nd1e153" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg9-Qd1e156">Civitates quas Salomon aedificavit de reliquiis Amorrhaeorum fuerunt, quas non potuerunt filii Israel delere, sicut in Jesu Nave legitur <!--<note>(Jos. IX)</note>-->: has postea rex Aegypti subvertit et dedit in dotem filiae suae uxori Salomonis, et idcirco reaedificavit eas Salomon.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg9-Dd1e163">
+          <head xml:id="gom-Ireg9-Hd1e165">Versus 18</head>
+          <p xml:id="gom-Ireg9-d1e167">
+            <quote xml:id="gom-Ireg9-Qd1e169" type="lemma" source="http://scta.info/resource/Ireg9_18@3-4">Et Palmiram.</quote>
+            Inhabitabilis regio eo <pb ed="#P" n="0601B"/> quod nusquam aqua inveniretur; sed illo loco ubi aedificata est civitas, fontes abundant, et palma, quae Graece vocantur Palmira, ipsa est Emath, sive Epiphania vel Antiochia.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg9-Dd1e176">
+          <head xml:id="gom-Ireg9-Hd1e178">Versus 20</head>
+          <p xml:id="gom-Ireg9-d1e180">
+            <quote xml:id="gom-Ireg9-Qd1e182" type="lemma" source="http://scta.info/resource/Ireg9_20@1-1">Universum.</quote>
+            <ref xml:id="gom-Ireg9-Rd1e185"><name xml:id="gom-Ireg9-Nd1e186" ref="#RabanusMaurus">RAB.</name> ubi supra.</ref>
+            <quote xml:id="gom-Ireg9-Qd1e190">Qui non fuerat de filiis Israel, fecit Pacificus noster tributarios, cum eis qui non sunt in filiorum numero; sed in servili conditione utitur ad proprium servitium. Tales licet in multis adversentur, tamen frequenter usibus serviunt Ecclesiae, cum in praesenti tempore de rebus suis solatia praebent.</quote>
+          </p>
+          <p xml:id="gom-Ireg9-d1e193">
+            <quote xml:id="gom-Ireg9-Qd1e195" type="lemma" source="http://scta.info/resource/Ireg9_20@18-19">De filiis.</quote>
+            <ref xml:id="gom-Ireg9-Rd1e198"><name xml:id="gom-Ireg9-Nd1e199" ref="#RabanusMaurus">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg9-Qd1e203"><seg type="qs">Eos qui non ancillae filii sunt, sed liberae</seg>, etc., usque ad <seg type="qs">et in semitas justitiae ducant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg9-Dd1e213">
+          <head xml:id="gom-Ireg9-Hd1e215">Versus 23</head>
+          <p xml:id="gom-Ireg9-d1e217">
+            <quote xml:id="gom-Ireg9-Qd1e219" type="lemma" source="http://scta.info/resource/Ireg9_23@10-10">Quinquaginta.</quote>
+            <ref xml:id="gom-Ireg9-Rd1e222"><name xml:id="gom-Ireg9-Nd1e223" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg9-Qd1e226">Quinquagesimo <pb ed="#P" n="0601C"/> die post Pascha et lex in monte Sina tributa est, et Spiritus paracletus super discipulos venit. Quid ergo significat iste praepositorum numerus, nisi quod hi qui Spiritus sancti gratia legis Domini scientiam habere merentur, ipsi et se et alios bene regere possunt?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg9-Dd1e233">
+          <head xml:id="gom-Ireg9-Hd1e235">Versus 25</head>
+          <p xml:id="gom-Ireg9-d1e237">
+            <quote xml:id="gom-Ireg9-Qd1e239" type="lemma" source="http://scta.info/resource/Ireg9_25@1-2">Offerebat quoque.</quote>
+            <ref xml:id="gom-Ireg9-Rd1e242"><name xml:id="gom-Ireg9-Nd1e243" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg9-Qd1e246"><seg type="qs">Offert Pacificus noster</seg>, etc., usque ad <seg type="qs">et ea quae sunt Deo placita postulat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg9-Dd1e255">
+          <head xml:id="gom-Ireg9-Hd1e257">Versus 26</head>
+          <p xml:id="gom-Ireg9-d1e259">
+            <quote xml:id="gom-Ireg9-Qd1e261" type="lemma" source="http://scta.info/resource/Ireg9_26@1-1">Classem.</quote>
+            <ref xml:id="gom-Ireg9-Rd1e264"><name xml:id="gom-Ireg9-Nd1e265" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg9-Qd1e268"><seg type="qs">Classis est Ecclesia</seg>, etc., usque ad <seg type="qs">historiam, allegoriam, tropologiam, anagogen in duobus Testamentis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg9-Dd1e277">
+          <head xml:id="gom-Ireg9-Hd1e279">Versus 28</head>
+          <p xml:id="gom-Ireg9-d1e281">
+            <ref xml:id="gom-Ireg9-Rd1e283" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg9_28"/>
+            .
+          </p>
+          <p xml:id="gom-Ireg9-d1e286">
+            <quote xml:id="gom-Ireg9-Qd1e288" type="lemma" source="http://scta.info/resource/Ireg9_28@4-5">In Ophir.</quote>
+            <ref xml:id="gom-Ireg9-Rd1e291"><name xml:id="gom-Ireg9-Nd1e292" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg9-Qd1e295">Ophir nomen est provinciae in India. Ab Ophir uno de posteris Heber nominatur, quae et terra aurea appellatur, eo quod montes <pb ed="#P" n="0601D"/> aureos habeat, qui a leonibus et saevissimis bestiis incoluntur. Ad quos nullus aliter accedere audet, nisi qui in navi stantes juxta littus, terram quam unguibus leonum effossam invenerint, in suam navem recipiunt, ut si bestiae eos senserint, facile in mare recipiantur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

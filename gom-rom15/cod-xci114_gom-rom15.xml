@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Romanos, Caput 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Romanos, Caput 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0516C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom15">
+        <head xml:id="gom-rom15-Hd1e98">Caput 15</head>
+        <div xml:id="gom-rom15-Dd1e100">
+          <head xml:id="gom-rom15-Hd1e102">Versus 5</head>
+          <p xml:id="gom-rom15-d1e104">
+            <quote xml:id="gom-rom15-Qd1e106" type="lemma" source="http://scta.info/resource/rom15_5@9-10">Idipsum sapere.</quote>
+            Quasi dicat: Nisi idem sapiatis, Deum honorare non poteritis.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e111">
+          <head xml:id="gom-rom15-Hd1e113">Versus 8</head>
+          <p xml:id="gom-rom15-d1e115">
+            <pb ed="#P" n="0516D"/>
+            <quote xml:id="gom-rom15-Qd1e119" type="lemma" source="http://scta.info/resource/rom15_8@7-7">Circumcisionis.</quote>
+            Id est Judaeorum ad quos corporaliter venit; unde: <quote xml:id="gom-rom15-Qd1e122" source="http://scta.info/resource/mt15_24@5-14">Non sum missus nisi ad oves quae perierunt domus Israel</quote>.
+          </p>
+          <p xml:id="gom-rom15-d1e126">
+            <quote xml:id="gom-rom15-Qd1e128" type="lemma" source="http://scta.info/resource/rom15_8@8-9">Propter veritatem.</quote>
+            Non repulit Judaeos, quibus proprie veritas, gentibus misericordia, quibus nulla promissio facta erat.
+          </p>
+          <p xml:id="gom-rom15-d1e132">
+            <quote xml:id="gom-rom15-Qd1e134" type="lemma" source="http://scta.info/resource/rom15_8@13-13">Promissiones.</quote>
+            Promiserat enim Abrahae: <quote xml:id="gom-rom15-Qd1e137" source="http://scta.info/resource/gen22_18@3-7">In semine tuo benedicentur omnes gentes</quote>. Et David: <quote xml:id="gom-rom15-Qd1e140" source="http://scta.info/resource/ps131_11@10-16">De fructu ventris tui ponam super sedem tuam</quote>. Et item Jacob dixit: <quote xml:id="gom-rom15-Qd1e143" source="http://scta.info/resource/num24_17@11-14">Orietur stella ex Jacob</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e148">
+          <head xml:id="gom-rom15-Hd1e150">Versus 9</head>
+          <p xml:id="gom-rom15-d1e152">
+            <quote xml:id="gom-rom15-Qd1e154" type="lemma" source="http://scta.info/resource/rom15_9@12-12">Confitebor.</quote>
+            Confessio autem non tantum peccatorum est, sed et laudis.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e159">
+          <head xml:id="gom-rom15-Hd1e161">Versus 12</head>
+          <p xml:id="gom-rom15-d1e163">
+            <quote xml:id="gom-rom15-Qd1e165" type="lemma" source="http://scta.info/resource/rom15_12@5-7">Erit radix Jesse.</quote>
+            Et ex hac radice erit ille qui exsurget, etc. Jesse, radix: David, arbor, <pb ed="#P" n="0517A"/> quae per ramum, id est Mariam, fecit fructum, id est Christum.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e173">
+          <head xml:id="gom-rom15-Hd1e175">Versus 13</head>
+          <p xml:id="gom-rom15-d1e177">
+            <quote xml:id="gom-rom15-Qd1e179" type="lemma" source="http://scta.info/resource/rom15_13@8-9">Et pace.</quote>
+            Ut possitis gaudere, det pacem et concordiam ad invicem; et hoc erit, si sit sana fides.
+          </p>
+          <p xml:id="gom-rom15-d1e183">
+            <quote xml:id="gom-rom15-Qd1e185" type="lemma" source="http://scta.info/resource/rom15_13@12-13">Ut abundetis.</quote>
+            Id est, ut per ista habita certiores sitis de aeterna beatitudine, et abundetis in virtute Spiritu sancti, id est, fortitudine bonae operationis, quae datur per Spiritum sanctum.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e190">
+          <head xml:id="gom-rom15-Hd1e192">Versus 14</head>
+          <p xml:id="gom-rom15-d1e194">
+            <quote xml:id="gom-rom15-Qd1e196" type="lemma" source="http://scta.info/resource/rom15_14@1-2">Certus sum.</quote>
+            Ne videretur Apostolus omnes intelligere discordes et ad corrigendum insipientes, removet quod ideo incipit, ut admoneat perfectiores de correctione minorum; et inde praeponit se exemplum qui laborat de aliis, et opus est ut isti hoc faciant, cum ipse aliis impeditus ad eos venire non possit.
+          </p>
+          <p xml:id="gom-rom15-d1e200">
+            <quote xml:id="gom-rom15-Qd1e202" type="lemma" source="http://scta.info/resource/rom15_14@17-19">Repleti omni sapientia.</quote>
+            Per hanc laudem provocat <pb ed="#P" n="0517B"/> ad meliora, more exhortantis. Unde nec dicit docere, sed monere; quasi dicat quod sciatur, sed subterfugit animo. Hoc enim solet moneri, quod cum sciatur, aliquando subterfugit animo, aut negligenter habetur.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e209">
+          <head xml:id="gom-rom15-Hd1e211">Versus 15</head>
+          <p xml:id="gom-rom15-d1e213">
+            <quote xml:id="gom-rom15-Qd1e215" type="lemma" source="http://scta.info/resource/rom15_15@13-14">Propter gratiam.</quote>
+            Non temere scribit; sed Apostolus gentium audet scribere omnibus gentibus auctoritate sibi tradita per gratiam.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e220">
+          <head xml:id="gom-rom15-Hd1e222">Versus 17</head>
+          <p xml:id="gom-rom15-d1e224">
+            <quote xml:id="gom-rom15-Qd1e226" type="lemma" source="http://scta.info/resource/rom15_17@1-2">Habeo igitur.</quote>
+            Sic et vos si de fratribus laboratis. Hoc ideo dicit ut nihil minus se posse probet quam apostolos qui cum Christo fuerant.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e231">
+          <head xml:id="gom-rom15-Hd1e233">Versus 20</head>
+          <p xml:id="gom-rom15-d1e235">
+            <quote xml:id="gom-rom15-Qd1e237" type="lemma" source="http://scta.info/resource/rom15_20@6-8">Non ubi nominatus,</quote>
+            etc. Quia sciebat pseudoapostolos et alios sub nomine Christi falsa docere, quod postea corrigere maximi erat laboris; ideo sollicitus erat praevenire, et veritatem integre tradere, ubi nondum erat nuntiatus Christus; quod <pb ed="#P" n="0517C"/> testimonio prophetae probat.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e244">
+          <head xml:id="gom-rom15-Hd1e246">Versus 21</head>
+          <p xml:id="gom-rom15-d1e248">
+            <quote xml:id="gom-rom15-Qd1e250" type="lemma" source="http://scta.info/resource/rom15_21@12-15">Et qui non audierunt,</quote>
+            etc. Ut verus esset et inviolabilis de verbo Dei intellectus, festinavit gentes veritate imbuere.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e256">
+          <head xml:id="gom-rom15-Hd1e258">Versus 26</head>
+          <p xml:id="gom-rom15-d1e260">
+            <quote xml:id="gom-rom15-Qd1e262" type="lemma" source="http://scta.info/resource/rom15_26@1-2">Probaverunt enim.</quote>
+            Ad hujusmodi opera Romanos invitat, quia qui per misericordiam Dei vivit, pius debet esse confratri.
+          </p>
+          <p xml:id="gom-rom15-d1e266">
+            <quote xml:id="gom-rom15-Qd1e268" type="lemma" source="http://scta.info/resource/rom15_26@9-10">In pauperes.</quote>
+            Hi totos se dederunt divinis obsequiis, nihil mundanum curantes, exemplum bonae conversationis daban fidelibus.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e273">
+          <head xml:id="gom-rom15-Hd1e275">Versus 30</head>
+          <p xml:id="gom-rom15-d1e277">
+            <quote xml:id="gom-rom15-Qd1e279" type="lemma" source="http://scta.info/resource/rom15_30@14-15">Ut adjuvetis.</quote>
+            Multi minimi dum congregantur unanimes, fiunt magni, et multorum preces impossibile est ut non impetrent. Si ergo eum videre cupiunt, orent ut liberatum eum recipiant cum gaudio charitatis; unde sequitur <quote xml:id="gom-rom15-Qd1e282" source="http://scta.info/resource/rom15_31@1-2">ut liberer.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e287">
+          <head xml:id="gom-rom15-Hd1e289">Versus 31</head>
+          <p xml:id="gom-rom15-d1e291">
+            <pb ed="#P" n="0517D"/>
+            <quote xml:id="gom-rom15-Qd1e295" type="lemma" source="http://scta.info/resource/rom15_31@13-13">Accepta.</quote>
+            Ut illi intellecta charitate illius erga se, cum illo unanimes Deo gratias agant. Magnus enim profectus est ei, cujus ministerio multi facti laeti Deum laudant.
+          </p>
+        </div>
+        <div xml:id="gom-rom15-Dd1e300">
+          <head xml:id="gom-rom15-Hd1e302">Versus 33</head>
+          <p xml:id="gom-rom15-d1e304">
+            <quote xml:id="gom-rom15-Qd1e306" type="lemma" source="http://scta.info/resource/rom15_33@1-3">Deus autem pacis.</quote>
+            Christus, qui ait: <quote xml:id="gom-rom15-Qd1e309" source="http://scta.info/resource/io14_27@4-7">Pacem meam do vobis, et pacem meam relinquo vobis</quote>; qui cum suis est usque ad consummationem saeculi, ita et sit vobiscum; ipse enim est qui ait: <quote xml:id="gom-rom15-Qd1e312" source="http://scta.info/resource/mt28_20@11-18">Vobiscum sum omnibus diebus usque ad consumationem saeculi</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

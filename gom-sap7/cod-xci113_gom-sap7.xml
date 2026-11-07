@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1171B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap7">
+        <head xml:id="gom-sap7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-sap7-Dd1e100">
+          <head xml:id="gom-sap7-Hd1e102">Versus 5</head>
+          <p xml:id="gom-sap7-d1e104">
+            <quote xml:id="gom-sap7-Qd1e106" type="lemma" source="http://scta.info/resource/sap7_5@1-4">Nemo enim ex regibus.</quote>
+            <ref xml:id="gom-sap7-Rd1e109"><name xml:id="gom-sap7-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap7-Qd1e113"><seg type="qs">Ostendit quod omnis homo</seg>, etc., usque ad <seg type="qs">sicut perfectus Deus, ita et perfectus homo est Jesus Christus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap7-Dd1e122">
+          <head xml:id="gom-sap7-Hd1e124">Versus 9</head>
+          <p xml:id="gom-sap7-d1e126">
+            <quote xml:id="gom-sap7-Qd1e128" type="lemma" source="http://scta.info/resource/sap7_9@1-2">Nec comparavi,</quote>
+            etc. Unde: Inventa <pb ed="#P" n="1171C"/> una pretiosa margarita, vendit omnia, et emit eam. Qui enim coelestem sapientiam veraciter invenit, id est verbum Dei, despicit omnia emolumenta praesentis vitae, philosophiam, eloquentiam, et divinae theoricae vacare contendit.
+          </p>
+        </div>
+        <div xml:id="gom-sap7-Dd1e135">
+          <head xml:id="gom-sap7-Hd1e137">Versus 11</head>
+          <p xml:id="gom-sap7-d1e139">
+            <quote xml:id="gom-sap7-Qd1e141" type="lemma" source="http://scta.info/resource/sap7_11@1-1">Venerunt,</quote>
+            etc.
+            <ref xml:id="gom-sap7-Rd1e144"><name xml:id="gom-sap7-Nd1e145" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap7-Qd1e148"><seg type="qs">Hoc expertus Salomon</seg>, etc., usque ad <seg type="qs">unde et sol, quia solus in die inter astra luceat, sic nominatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap7-Dd1e157">
+          <head xml:id="gom-sap7-Hd1e159">Versus 15</head>
+          <p xml:id="gom-sap7-d1e161">
+            <quote xml:id="gom-sap7-Qd1e163" type="lemma" source="http://scta.info/resource/sap7_15@15-18">Ipsae sapientiae dux.</quote>
+            <ref xml:id="gom-sap7-Rd1e166"><name xml:id="gom-sap7-Nd1e167" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap7-Qd1e170">Deus Pater incarnati Filii, cui dedit omnem potestatem in coelo et in terra.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap7-Dd1e175">
+          <head xml:id="gom-sap7-Hd1e177">Versus 17</head>
+          <p xml:id="gom-sap7-d1e179">
+            <quote xml:id="gom-sap7-Qd1e181" type="lemma" source="http://scta.info/resource/sap7_17@1-2">Ipse enim.</quote>
+            <ref xml:id="gom-sap7-Rd1e184"><name xml:id="gom-sap7-Nd1e185" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap7-Qd1e188"><seg type="qs">De Salomone dicit Scriptura, Deus dedit</seg>, etc., usque ad <seg type="qs">ipse enim illuminat omnem hominem venientem in hunc mundum, <quote xml:id="gom-sap7-Qd1e194" source="http://scta.info/resource/io8_12@12-18">quem qui sequitur, non ambulat in tenebris<!-- check: Migne cites io1; text matches io8_12 --></quote> <pb ed="#P" n="1171D"/></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap7-Dd1e202">
+          <head xml:id="gom-sap7-Hd1e204">Versus 22</head>
+          <p xml:id="gom-sap7-d1e206">
+            <quote xml:id="gom-sap7-Qd1e208" type="lemma" source="http://scta.info/resource/sap7_22@1-7">Est enim in illa spiritus intelligentiae sanctus,</quote>
+            etc.
+            <ref xml:id="gom-sap7-Rd1e211"><name xml:id="gom-sap7-Nd1e212" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap7-Qd1e215">Ut Isaias ostendit, omnia dona Spiritus sancti in humanitate Salvatoris existunt, in quo sunt omnes thesauri sapientiae et scientiae absconditi, et plenitudo Divinitatis, cui non datur spiritus ad mensuram.</quote>
+          </p>
+          <p xml:id="gom-sap7-d1e218">
+            <ref xml:id="gom-sap7-Rd1e220" type="lemma" subtype="implied" target="http://scta.info/resource/sap7_22@1-7"/>
+            <ref xml:id="gom-sap7-Rd1e222"><name xml:id="gom-sap7-Nd1e223" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sap7-Qd1e226">Spiritus qui implet omnia, mobilis simul et stabilis dicitur.</quote>
+          </p>
+          <p xml:id="gom-sap7-d1e229">
+            <quote xml:id="gom-sap7-Qd1e231" type="lemma" source="http://scta.info/resource/sap7_22">Homo</quote>
+            <!-- check: lemma not matched to verse text -->
+            enim ubique discurrit, ubique obviam venit, et repente, ubi non creditur, invenitur. Omnipotens ergo Spiritus, ut ubique praesens signetur, stabilis simul et mobilis dicitur.
+          </p>
+          <p xml:id="gom-sap7-d1e237">
+            <ref xml:id="gom-sap7-Rd1e239" type="lemma" subtype="implied" target="http://scta.info/resource/sap7_22"/>
+            <ref xml:id="gom-sap7-Rd1e241"><name xml:id="gom-sap7-Nd1e242" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sap7-Qd1e245"><seg type="qs">Unde: <quote xml:id="gom-sap7-Qd1e248" source="http://scta.info/resource/hebr1_3@4-9">Splendor gloriae et figura substantiae ejus</quote>, regens omnia verbo</seg>, etc., usque ad <seg type="qs">in tempore Verbum caro factum est, et habitavit in nobis.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

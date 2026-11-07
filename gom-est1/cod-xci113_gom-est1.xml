@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Esther, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Esther, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0739C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-est1">
+        <head xml:id="gom-est1-Hd1e98">Caput 1</head>
+        <p xml:id="gom-est1-d1e100">
+          <pb ed="#P" n="0739C"/>
+          <ref xml:id="gom-est1-Rd1e104"><name xml:id="gom-est1-Nd1e105" ref="#RabanusMaurus">RAB.</name>, expos. in lib. Esther, tom. III.</ref>
+          <quote xml:id="gom-est1-Qd1e109"><seg type="qs">Liber Esther quem Hebraei inter hagiographa numerant, Christi et Ecclesiae continet sacramenta</seg>, etc., usque ad <seg type="qs">qui regnavit post Darium patruum cognomento Nochum annis quadraginta.</seg></quote>
+        </p>
+        <div xml:id="gom-est1-Dd1e117">
+          <head xml:id="gom-est1-Hd1e119">Versus 2</head>
+          <p xml:id="gom-est1-d1e121">
+            <quote xml:id="gom-est1-Qd1e123" type="lemma" source="http://scta.info/resource/est1_2@7-8">Susan civitas,</quote>
+            etc. Susan metropolis est in Perside, quam aiunt historici Memnonis fratrem constituisse, et a Susi fluvio nomen accepisse. Ibi est regia domus Cyri lapide candido et vario, columnis aureis, et laquearibus gemmisque distincta: coeli continens simulacrum stellis micantibus insignitum, et incredibilia multa. Ibi Assuerus convivium maximum divitiis, et copiosum deliciis celebravit. Virtus namque sacri eloquii, sic aliquando <pb ed="#P" n="0739D"/> transacta narrat, ut ventura exprimat: sic factorem approbat, ut ei in ministerio contradicat: sic gesta damnat, ut haec mystice gerenda suadeat.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e130">
+          <head xml:id="gom-est1-Hd1e132">Versus 3</head>
+          <p xml:id="gom-est1-d1e134">
+            <quote xml:id="gom-est1-Qd1e136" type="lemma" source="http://scta.info/resource/est1_3@1-3">Tertio igitur anno.</quote>
+            Tempore, scilicet, istius saeculi incarnationis suae sacramentum patefecit, et spirituales epulas praedicationis, et corporis et sanguinis sui abundantissime ministravit. Primum tempus ante legem, secundum sub lege, tertium sub gratia.
+          </p>
+          <p xml:id="gom-est1-d1e140">
+            <quote xml:id="gom-est1-Qd1e142" type="lemma" source="http://scta.info/resource/est1_3@7-10">Grande convivium cunctis principibus.</quote>
+            -- <quote xml:id="gom-est1-Qd1e145" source="http://scta.info/resource/mt22_2@1-12">Simile est regnum coelorum homini regi qui fecit <pb ed="#P" n="0740C"/> nuptias filio suo .</quote> Et alibi: <quote xml:id="gom-est1-Qd1e150" source="http://scta.info/resource/lc14_16@5-12">Homo quidam fecit coenam magnam: et vocavit multos .</quote> Hujus convivii historia, pompam divitiarum, et luxum regis ostendit: sed Christi spirituales delicias quas unicuique dispensat, allegorice significat. Christus enim est ille ditissimus rex, qui uxoris suae, id est Ecclesiae, precibus exoratus, Judaeos, id est confessores suos, de manu inimicorum liberat, atque ipsos juste condemnat. Neque enim necesse est, ut si aliquorum bona Christum significant, eorum quoque mala ipsi, scilicet Christo conveniant. Moyses enim in multis Christum significavit; sed non in hoc, quod ad aquas contradictionis dubitavit. Sed nec Aaron factura vituli. Nec Salomon in sorde libidinis. Sic Assuerus in isto judicio, <pb ed="#P" n="0740D"/> ut in liberali convivio Christum significat, sicut Isaias in Cyro rege Persarum Christum signat, de quo postea subjungit: <quote xml:id="gom-est1-Qd1e155" source="http://scta.info/resource/is45_5@12-17">Accinxi te et non cognovisti me ,</quote> etc. Si enim reges iniqui in malefactis diabolum significant; cur non reges justi in benefactis, Christum demonstrant? Nabuchodonosor jussit populos audita symphoniarum et musicorum voce prostratos statuam adorare. Et diabolus saeculari dulcedine genus humanum inflectit a mentis rectitudine ad sequendam avaritiam quae est simulacrorum servitus.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e160">
+          <head xml:id="gom-est1-Hd1e162">Versus 5</head>
+          <p xml:id="gom-est1-d1e164">
+            <quote xml:id="gom-est1-Qd1e166" type="lemma" source="http://scta.info/resource/est1_5@3-4">Dies convivii.</quote>
+            Magnatum vel primitivorum <pb ed="#P" n="0741A"/> fidelium primi refecti sunt, secundum illud: <quote xml:id="gom-est1-Qd1e171" source="http://scta.info/resource/mt15_24@5-14">Non sum missus nisi ad oves, quae perierunt domus Israel .</quote> In circumcisionis sacramento Dominicae resurrectionis, et Novi Testamenti et verae circumcisionis: et octo sunt beatitudines, ad quas istud convivium perducit, quod fit tantum diebus; mali autem convivabantur in noctibus.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e177">
+          <head xml:id="gom-est1-Hd1e179">Versus 6</head>
+          <p xml:id="gom-est1-d1e181">
+            <quote xml:id="gom-est1-Qd1e183" type="lemma" source="http://scta.info/resource/est1_6@1-2">Et pendebant.</quote>
+            Byssus mortificationem carnis significat. Purpura sanguinem martyrii. Columnae marmoreae, firmitatem doctorum. Bene ergo dicitur quod tentoria diversi coloris byssinis et purpureis funibus per circulos eburneos in columnis marmoreis suspendebantur; quia decor Ecclesiae in sapientiae meditatione et in virtutum <pb ed="#P" n="0741B"/> ascensione per carnis mortificationem et castitatem cum martyrii dignitate in doctoribus debet effulgere; et ipsorum verbo et exemplo ad aliorum notitiam pervenire: ut ab his instructi et confortati, aulam paradisi mereantur introire.
+          </p>
+          <p xml:id="gom-est1-d1e189">
+            <quote xml:id="gom-est1-Qd1e191" type="lemma" source="http://scta.info/resource/est1_6@23-26">Et columnis marmoreis fulciebantur.</quote>
+            Id est, doctoribus de quibus dicitur: <quote xml:id="gom-est1-Qd1e194" source="http://scta.info/resource/ps74_4@11-14">Ego confirmavi columnas ejus .</quote> Ex alibi: <quote xml:id="gom-est1-Qd1e197" source="http://scta.info/resource/cant3_10@1-6">Columnas fecit argenteas, reclinatorium aureum .</quote>
+          </p>
+          <p xml:id="gom-est1-d1e201">
+            <quote xml:id="gom-est1-Qd1e203" type="lemma" source="http://scta.info/resource/est1_6@32-33">Super pavimentum.</quote>
+            Smaragdus a nimia viriditate sui sic vocatur. Parium, genus marmoris candidissimum. Per virorem enim fidei et candorem castitatis construitur fundamentum humilitatis. <quote xml:id="gom-est1-Qd1e206" source="http://scta.info/resource/mt5_3@1-8">Beati enim pauperes spiritu, quoniam ipsorum est regnum coelorum. .</quote> Et: « Qui se humiliat <pb ed="#P" n="0741C"/> exaltabitur <!--<note>(Luc. X)</note>-->. Et alibi: <quote xml:id="gom-est1-Qd1e213" source="http://scta.info/resource/mt11_29@7-12">Discite a me, quia mitis sum ,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e218">
+          <head xml:id="gom-est1-Hd1e220">Versus 7</head>
+          <p xml:id="gom-est1-d1e222">
+            <quote xml:id="gom-est1-Qd1e224" type="lemma" source="http://scta.info/resource/est1_7@15-15">Vinum.</quote>
+            Secundum illud: <quote xml:id="gom-est1-Qd1e227" source="http://scta.info/resource/rom5_5@6-12">Charitas Dei diffusa est in cordibus nostris ,</quote> etc. Alii datur sermo scientiae, alii sapientiae, alii fides, alii gratia sanitatum.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e232">
+          <head xml:id="gom-est1-Hd1e234">Versus 8</head>
+          <p xml:id="gom-est1-d1e236">
+            <quote xml:id="gom-est1-Qd1e238" type="lemma" source="http://scta.info/resource/est1_8@4-7">Nolentes cogeret ad bibendum,</quote>
+            etc. Nemo cogitur spirituale donum accipere: filios vult Deus, non servos: voluntatem vult, non necessitatem, secundum illud: <quote xml:id="gom-est1-Qd1e241" source="http://scta.info/resource/mt19_12@29-32">Qui potest capere capiat .</quote> Item. <quote xml:id="gom-est1-Qd1e244" source="http://scta.info/resource/mt19_17@13-20">Si vis ad vitam ingredi, serva mandata .</quote>
+          </p>
+          <p xml:id="gom-est1-d1e248">
+            <ref xml:id="gom-est1-Rd1e250" type="lemma" subtype="implied" target="http://scta.info/resource/est1_8@4-7"/>
+            <ref xml:id="gom-est1-Rd1e252"><name xml:id="gom-est1-Nd1e253" ref="#RabanusMaurus">Ibid.</name></ref>
+            <quote xml:id="gom-est1-Qd1e256">Et: <quote xml:id="gom-est1-Qd1e258" source="http://scta.info/resource/mt19_21@4-11">Si vis perfectus esse, vade et vende omnia quae habes ,</quote><ref xml:id="gom-est1-Rd1e260"><name xml:id="gom-est1-Nd1e261" ref="#RabanusMaurus">Ibid.</name></ref><!-- check: attribution inside gloss body --> etc.</quote>
+          </p>
+          <p xml:id="gom-est1-d1e267">
+            <ref xml:id="gom-est1-Rd1e269" type="lemma" subtype="implied" target="http://scta.info/resource/est1_8@4-7"/>
+            Unusquisque quod vellet, » etc. Secundum velocitatem et capacitatem et utilitatem <pb ed="#P" n="0741D"/> singulorum. Sic enim temperanda est praedicatio, ut in omnibus utilis fiat, nulli noceat, et inter omnium vitia, quasi gladius anceps transeat. Sic per superbiam rescindens auferat, ut non augeat timiditatem. Sic otiosis et torpentibus sollicitudinem operis imponens, ut inquietis et curiosis non augeat importunam actionem, et sic de caeteris.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e275">
+          <head xml:id="gom-est1-Hd1e277">Versus 9</head>
+          <p xml:id="gom-est1-d1e279">
+            <quote xml:id="gom-est1-Qd1e281" type="lemma" source="http://scta.info/resource/est1_9@7-11">In palatio, ubi rex Assuerus,</quote>
+            etc. Hierusalem, ubi templum et sancta sanctorum, vel in sanctae Scripturae meditatione; in qua divinitas, potentiae suae tribuit notitiam.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e286">
+          <head xml:id="gom-est1-Hd1e288">Versus 11</head>
+          <p xml:id="gom-est1-d1e290">
+            <quote xml:id="gom-est1-Qd1e292" type="lemma" source="http://scta.info/resource/est1_11">Ut ostenderet,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. <quote xml:id="gom-est1-Qd1e297" source="http://scta.info/resource/gal4_4@2-8">Ubi venit plenitudo temporis, misit Deus Filium ,</quote> etc. Tunc enim Dei Filius incarnatus legis mysteria <pb ed="#P" n="0742A"/> quibus ante fideles paverat, abundantiori gratia manifestavit.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e304">
+          <head xml:id="gom-est1-Hd1e306">Versus 12</head>
+          <p xml:id="gom-est1-d1e308">
+            <ref xml:id="gom-est1-Rd1e310" type="lemma" subtype="implied" target="http://scta.info/resource/est1_12"/>
+            Quae renuit. » Non solum legatores despiciens, sed et regis imperium; unde in Evangelio, senior filius a patre rogatus ad convivium noluit introire: et qui ad coenam vocati, aliis rebus occupati, noluerunt venire, juxta indignationem patrisfamilias, rejecti sunt et alii loco illorum constituti.
+          </p>
+        </div>
+        <div xml:id="gom-est1-Dd1e315">
+          <head xml:id="gom-est1-Hd1e317">Versus 16</head>
+          <p xml:id="gom-est1-d1e319">
+            <quote xml:id="gom-est1-Qd1e321" type="lemma" source="http://scta.info/resource/est1_16@1-11">Responditque Mamuchan audiente rege atque principibus: Non solum regem laesit regina,</quote>
+            etc. Hic novissimus in ordine septem sapientum numeratus, sententiam promulgat, et Paulum apostolum significat qui dicit: <quote xml:id="gom-est1-Qd1e324" source="http://scta.info/resource/Icor15_9@1-11">Ego sum minimus apostolorum, qui non sum dignus vocari apostolus <pb ed="#P" n="0742B"/> .</quote> Et contradicentibus Judaeis et zelo repletis ait: <quote xml:id="gom-est1-Qd1e329" source="http://scta.info/resource/act13_46@19-26">Quia vos indignos judicatis vitae aeternae, ecce convertimur ad gentes .</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 111</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 111</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1032D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps111">
+        <head xml:id="gom-ps111-Hd1e98">Psalmus 111</head>
+        <div xml:id="gom-ps111-Dd1e100">
+          <head xml:id="gom-ps111-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps111-d1e104">
+            <quote xml:id="gom-ps111-Qd1e106" type="lemma" source="http://scta.info/resource/ps111_1@1-2">Alleluia reversionis.</quote>
+            <ref xml:id="gom-ps111-Rd1e109"><name xml:id="gom-ps111-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e113"><seg type="qs">Aggaeus et Zacharias longe post David fuerunt</seg>, etc., usque ad <seg type="qs">aeternaliter solidetur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps111-d1e121">
+            <ref xml:id="gom-ps111-Rd1e123" type="lemma" subtype="implied" target="http://scta.info/resource/ps111_1@1-2"/>
+            <ref xml:id="gom-ps111-Rd1e125"><name xml:id="gom-ps111-Nd1e126" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e129"><seg type="qs">Perfectio hujus aedificii</seg>, etc., usque ad <seg type="qs">tanquam a captivitate liberati et hilares de bonis quae habent.</seg></quote>
+          </p>
+          <p xml:id="gom-ps111-d1e137">
+            <quote xml:id="gom-ps111-Qd1e139" type="lemma" source="http://scta.info/resource/ps111_1@6-7">Beatus vir.</quote>
+            <ref xml:id="gom-ps111-Rd1e142"><name xml:id="gom-ps111-Nd1e143" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e146"><seg type="qs">Ostendit hic Psalmista post liberationem</seg>, etc., usque ad <seg type="qs">tertio impiis adversa provenire asserit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps111-d1e154">
+            <quote xml:id="gom-ps111-Qd1e156" type="lemma" source="http://scta.info/resource/ps111_1@8-10">Qui timet Dominum.</quote>
+            Timor mundi miseros facit, sed timor Dei ea appetere facit, per quae homo beatus est.
+          </p>
+          <p xml:id="gom-ps111-d1e161">
+            <quote xml:id="gom-ps111-Qd1e163" type="lemma" source="http://scta.info/resource/ps111_1@12-13">In mandatis.</quote>
+            <quote xml:id="gom-ps111-Qd1e166"><seg type="qs">Hoc timor Dei, ut velit. Et non ait faciet</seg>, etc., usque ad <seg type="qs">et <quote xml:id="gom-ps111-Qd1e172" source="http://scta.info/resource/sap9_15@9-13">terrena inhabitatio deprimit sensum multa cogitantem.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps111-Dd1e177">
+          <head xml:id="gom-ps111-Hd1e179">Versus 2</head>
+          <p xml:id="gom-ps111-d1e181">
+            <quote xml:id="gom-ps111-Qd1e183" type="lemma" source="http://scta.info/resource/ps111_2@1-1">Potens.</quote>
+            <ref xml:id="gom-ps111-Rd1e186"><name xml:id="gom-ps111-Nd1e187" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps111-Qd1e191">Ecce praemia illius beati.</quote>
+          </p>
+          <p xml:id="gom-ps111-d1e194">
+            <quote xml:id="gom-ps111-Qd1e196" type="lemma" source="http://scta.info/resource/ps111_2@5-6">Semen ejus.</quote>
+            Id est, merces boni operis;
+          </p>
+          <p xml:id="gom-ps111-d1e200">
+            <quote xml:id="gom-ps111-Qd1e202" type="lemma" source="http://scta.info/resource/ps111_2@1-3">Erit potens in terra,</quote>
+            non hac, ubi derisui, sed coelesti. Vel etiam hic in isto tempore, quo minus videtur.
+          </p>
+          <p xml:id="gom-ps111-d1e206">
+            <quote xml:id="gom-ps111-Qd1e208" type="lemma" source="http://scta.info/resource/ps111_2@5-5">Semen,</quote>
+            opera misericordiae unde messis aeterna.
+          </p>
+          <p xml:id="gom-ps111-d1e213">
+            <quote xml:id="gom-ps111-Qd1e215" type="lemma" source="http://scta.info/resource/ps111_2@1-1">Potens,</quote>
+            quia re minima, etiam ut magna, regnum coelorum <pb ed="#P" n="1033B"/> emitur.
+          </p>
+          <p xml:id="gom-ps111-d1e221">
+            <quote xml:id="gom-ps111-Qd1e223" type="lemma" source="http://scta.info/resource/ps111_2@8-8">Generatio.</quote>
+            Non carnis sed imitationis. Vel opera rectorum.
+          </p>
+        </div>
+        <div xml:id="gom-ps111-Dd1e228">
+          <head xml:id="gom-ps111-Hd1e230">Versus 4</head>
+          <p xml:id="gom-ps111-d1e232">
+            <quote xml:id="gom-ps111-Qd1e234" type="lemma" source="http://scta.info/resource/ps111_4@6-6">Recti</quote>
+            sunt, qui non resistunt Patri emendanti, et credunt promittenti, non credunt perisse opera sua, cum non eis temporaliter retribuitur. Sunt enim qui bona illa agunt, mercedem hic a Deo sperantes, vel hominibus placere volentes, quod non beatus vir: et tamen,
+          </p>
+        </div>
+        <div xml:id="gom-ps111-Dd1e239">
+          <head xml:id="gom-ps111-Hd1e241">Versus 3</head>
+          <p xml:id="gom-ps111-d1e243">
+            <quote xml:id="gom-ps111-Qd1e245" type="lemma" source="http://scta.info/resource/ps111_3@1-6">Gloria et divitiae in domo ejus.</quote>
+            Id est, in cordis secreto, ubi habitat cum spe vitae aeternae, ubi divitiae sanctae, et gloria aeterna reponuntur.
+          </p>
+          <p xml:id="gom-ps111-d1e249">
+            <quote xml:id="gom-ps111-Qd1e251" type="lemma" source="http://scta.info/resource/ps111_3@8-8">Justitia.</quote>
+            Haec est gloria ejus, hae divitiae ejus, quam tamen habet a Deo.
+          </p>
+          <p xml:id="gom-ps111-d1e255">
+            <quote xml:id="gom-ps111-Qd1e257" type="lemma" source="http://scta.info/resource/ps111_3@10-12">Manet in saeculum.</quote>
+            Quasi non temporaliter beatus.
+          </p>
+        </div>
+        <div xml:id="gom-ps111-Dd1e263">
+          <head xml:id="gom-ps111-Hd1e265">Versus 4</head>
+          <p xml:id="gom-ps111-d1e267">
+            <quote xml:id="gom-ps111-Qd1e269" type="lemma" source="http://scta.info/resource/ps111_4@1-2">Exortum est.</quote>
+            <ref xml:id="gom-ps111-Rd1e272"><name xml:id="gom-ps111-Nd1e273" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e276"><seg type="qs">Secundo agit de adventu Domini</seg>, etc., usque ad <seg type="qs">ut eam firmis allegationibus <pb ed="#P" n="1033C"/> et assertionibus in judicio praemuniat. Vel,</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps111-Dd1e287">
+          <head xml:id="gom-ps111-Hd1e289">Versus 5</head>
+          <p xml:id="gom-ps111-d1e291">
+            <quote xml:id="gom-ps111-Qd1e293" type="lemma" source="http://scta.info/resource/ps111_5@4-4">Miseretur.</quote>
+            <ref xml:id="gom-ps111-Rd1e296"><name xml:id="gom-ps111-Nd1e297" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e300">Qui dat egentibus, <quote xml:id="gom-ps111-Qd1e302" source="http://scta.info/resource/ps111_5@6-6">Commodat,</quote> qui mutuum praestat, post tantumdem recepturus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps111-Dd1e308">
+          <head xml:id="gom-ps111-Hd1e310">Versus 7</head>
+          <p xml:id="gom-ps111-d1e312">
+            <quote xml:id="gom-ps111-Qd1e314" type="lemma" source="http://scta.info/resource/ps111_7">Paratum cor ejus sperare in Domino, confirmatum est cor ejus, manet,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-ps111-Rd1e319"><name xml:id="gom-ps111-Nd1e320" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e323">Patet itaque, quod hic non sua quaerit, sed quae sunt Christi, labores patienter sustinet, promissa fidenter exspectat.</quote>
+          </p>
+          <p xml:id="gom-ps111-d1e326">
+            <ref xml:id="gom-ps111-Rd1e328" type="lemma" subtype="implied" target="http://scta.info/resource/ps111_7"/>
+            <ref xml:id="gom-ps111-Rd1e330"><name xml:id="gom-ps111-Nd1e331" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e334">Vel, si quis mala minatur, non timet, sed paratum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps111-Dd1e338">
+          <head xml:id="gom-ps111-Hd1e340">Versus 9</head>
+          <p xml:id="gom-ps111-d1e342">
+            <quote xml:id="gom-ps111-Qd1e344" type="lemma" source="http://scta.info/resource/ps111_9@1-1">Dispersit.</quote>
+            Sperat non timere, quia dispersit.
+          </p>
+          <p xml:id="gom-ps111-d1e348">
+            <quote xml:id="gom-ps111-Qd1e350" type="lemma" source="http://scta.info/resource/ps111_9@2-3">Dedit pauperibus.</quote>
+            <ref xml:id="gom-ps111-Rd1e353"><name xml:id="gom-ps111-Nd1e354" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e357">Ecce iste emebat quod non videbat, sed ille thesaurum in coelo servabat, qui esurire et sitire in pauperibus dignatur in terris.</quote>
+          </p>
+          <p xml:id="gom-ps111-d1e360">
+            <quote xml:id="gom-ps111-Qd1e362" type="lemma" source="http://scta.info/resource/ps111_9@5-10">Justitia ejus manet in saeculum saeculi.</quote>
+            <ref xml:id="gom-ps111-Rd1e365"><name xml:id="gom-ps111-Nd1e366" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e369"><pb ed="#P" n="1033D"/> Sua dedit, et juste et pie vixit, vel, qui dat sua, justitiam operatur.</quote>
+          </p>
+          <p xml:id="gom-ps111-d1e374">
+            <quote xml:id="gom-ps111-Qd1e376" type="lemma" source="http://scta.info/resource/ps111_9@12-16">Cornu ejus exaltabitur in gloria.</quote>
+            Quia hic humilis, ibi potestatem habebit.
+          </p>
+        </div>
+        <div xml:id="gom-ps111-Dd1e381">
+          <head xml:id="gom-ps111-Hd1e383">Versus 10</head>
+          <p xml:id="gom-ps111-d1e385">
+            <quote xml:id="gom-ps111-Qd1e387" type="lemma" source="http://scta.info/resource/ps111_10@1-2">Peccator videbit.</quote>
+            <ref xml:id="gom-ps111-Rd1e390"><name xml:id="gom-ps111-Nd1e391" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps111-Qd1e394">Tertio contraria impiis provenire asserit. Bonis beatorum hortatur, malis inimicorum terret, et est iste psalmus institutorius fidelium.</quote>
+          </p>
+          <p xml:id="gom-ps111-d1e397">
+            <quote xml:id="gom-ps111-Qd1e399" type="lemma" source="http://scta.info/resource/ps111_10@4-14">Irascetur, dentibus suis fremet et tabescet, desiderium peccatorum peribit,</quote>
+            dicens: <quote xml:id="gom-ps111-Qd1e402" source="http://scta.info/resource/sap5_8@1-8">Quid nobis profuit superbia et divitiarum jactantia?</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

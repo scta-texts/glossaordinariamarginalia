@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 21</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 21</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0576C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam21">
+        <head xml:id="gom-IIsam21-Hd1e98">Caput 21</head>
+        <div xml:id="gom-IIsam21-Dd1e100">
+          <head xml:id="gom-IIsam21-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIsam21-d1e104">
+            <quote xml:id="gom-IIsam21-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam21_1@1-2">Facta est.</quote>
+            <ref xml:id="gom-IIsam21-Rd1e109"><name xml:id="gom-IIsam21-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam21-Qd1e113"><seg type="qs">Fames facta in Israel propter Gabaonitas</seg>, etc., usque ad <seg type="qs">ne vitam eorum prave suggerendo corrumpant ulterius.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam21-Dd1e122">
+          <head xml:id="gom-IIsam21-Hd1e124">Versus 8</head>
+          <p xml:id="gom-IIsam21-d1e126">
+            <quote xml:id="gom-IIsam21-Qd1e128" type="lemma" source="http://scta.info/resource/IIsam21_8@1-4">Tulit itaque rex duos.</quote>
+            Qui cum Doeg Idumaeo adhuc pueri sacerdotes et Gabaonitas occiderunt, Armoni scilicet et Miphiboseth
+          </p>
+          <p xml:id="gom-IIsam21-d1e132">
+            <quote xml:id="gom-IIsam21-Qd1e134" type="lemma" source="http://scta.info/resource/IIsam21_8@17-19">Filios Michol filiae,</quote>
+            etc. Quos scilicet Michol, uxor David, quae et Egla dicitur, adoptavit sibi inter filios, quos Merob soror ejus de filio Berzellai suscepit.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam21-Dd1e139">
+          <head xml:id="gom-IIsam21-Hd1e141">Versus 18</head>
+          <p xml:id="gom-IIsam21-d1e143">
+            <quote xml:id="gom-IIsam21-Qd1e145" type="lemma" source="http://scta.info/resource/IIsam21_18@6-6">Gob.</quote>
+            Quod interpretatur <mentioned>lacus</mentioned>, quia sicut in lacu leonum quis mittitur, ita semetipsum <pb ed="#P" n="0576D"/> misit David contra Goliam.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam21-Dd1e154">
+          <head xml:id="gom-IIsam21-Hd1e156">Versus 19</head>
+          <p xml:id="gom-IIsam21-d1e158">
+            <quote xml:id="gom-IIsam21-Qd1e160" type="lemma" source="http://scta.info/resource/IIsam21_19@1-1">Tertium.</quote>
+            <ref xml:id="gom-IIsam21-Rd1e163"><name xml:id="gom-IIsam21-Nd1e164" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam21-Qd1e167"><seg type="qs">Josephus de tertio praelio ita dicit</seg>, etc., usque ad <seg type="qs">Adeodatum appellaverit vel quemlibet alium etiam, incertum est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam21-Dd1e177">
+          <head xml:id="gom-IIsam21-Hd1e179">Versus 20</head>
+          <p xml:id="gom-IIsam21-d1e181">
+            <quote xml:id="gom-IIsam21-Qd1e183" type="lemma" source="http://scta.info/resource/IIsam21_20@1-1">Quartum,</quote>
+            Goliath iteratur, quod egit David primitus tempore Saulis. Nam in Paralipomenis non nisi tertio principaliter pugnasse contra Philisthaeos legitur.
+          </p>
+          <p xml:id="gom-IIsam21-d1e187">
+            <ref xml:id="gom-IIsam21-Rd1e189" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam21_20@1-1"/>
+            <ref xml:id="gom-IIsam21-Rd1e191"><name xml:id="gom-IIsam21-Nd1e192" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam21-Qd1e195"><seg type="qs">Quatuor bella David et servorum ejus</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-IIsam21-Qd1e201" source="http://scta.info/resource/ps107_14@1-9">Vana salus hominum. In Deo faciemus virtutem, et ipse ad nihilum reducit tribulantes nos</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam21-Dd1e207">
+          <head xml:id="gom-IIsam21-Hd1e209">Versus 19</head>
+          <p xml:id="gom-IIsam21-d1e211">
+            <quote xml:id="gom-IIsam21-Qd1e213" type="lemma" source="http://scta.info/resource/IIsam21_19@16-16">Bethlehemites,</quote>
+            etc. Quia Noemi et Ruth ex quibus ortus est, tempore ubertatis reversae sunt in Bethlehem, <pb ed="#P" n="0577A"/> et quia causa panis Ruth nota est, locus ille Domus panis vocatus est. Vel quia Noemi cum nuru illuc reversa panis abundantiam in domo Booz consecuta est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

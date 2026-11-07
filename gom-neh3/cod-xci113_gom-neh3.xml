@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nehemiae, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Nehemiae, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0714C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-neh3">
+        <head xml:id="gom-neh3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-neh3-Dd1e100">
+          <head xml:id="gom-neh3-Hd1e102">Versus 1</head>
+          <p xml:id="gom-neh3-d1e104">
+            <pb ed="#P" n="0714C"/>
+            <quote xml:id="gom-neh3-Qd1e108" type="lemma" source="http://scta.info/resource/neh3_1@1-4">Et surrexit Eliasib sacerdos.</quote>
+            <ref xml:id="gom-neh3-Rd1e111"><name xml:id="gom-neh3-Nd1e112" ref="#Bede">BEDA</name> in Esdram, tom. II, lib. III.</ref>
+            <quote xml:id="gom-neh3-Qd1e116">Id est, pontifex temporis illius filius Joachim, qui post patrem suum Jesum filium Josedec, non parvo tempore pontificatum tenuit. Et recte restauratio civitatis a sacerdote magno et fratribus ejus coepit: ut qui gradu praecesserant ordinis, exemplum fierent aliis in bonis operibus. Et bene aedificantibus sacerdotibus adjungitur: <quote xml:id="gom-neh3-Qd1e118" source="http://scta.info/resource/neh3_1@21-32">Et usque ad turrim centum cubitorum sanctificaverunt eam usque ad turrim Hananael.</quote> Aedificant enim sacerdotes in centenario numero cubitorum, cum omnes quos erudiunt, amore et desiderio aeternorum incendunt. Nam centum, quae in computo digitorum <pb ed="#P" n="0714D"/> de laeva transeunt in dexteram, coelestia bona figurant, quae comparatio terrenorum quasi dextera ad sinistram sunt.</quote>
+          </p>
+          <p xml:id="gom-neh3-d1e125">
+            <quote xml:id="gom-neh3-Qd1e127" type="lemma" source="http://scta.info/resource/neh3_1@10-11">Et aedificaverunt.</quote>
+            <ref xml:id="gom-neh3-Rd1e130"><name xml:id="gom-neh3-Nd1e131" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e135"><seg type="qs">Vetus translatio habet</seg>, etc., usque ad <seg type="qs">et in illa laventur.</seg></quote>
+          </p>
+          <p xml:id="gom-neh3-d1e143">
+            <ref xml:id="gom-neh3-Rd1e145" type="lemma" subtype="implied" target="http://scta.info/resource/neh3_1@10-11"/>
+            <ref xml:id="gom-neh3-Rd1e147"><name xml:id="gom-neh3-Nd1e148" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e152"><seg type="qs">Videtur juxta litteram</seg>; etc., usque ad <seg type="qs">sola internae retributionis intentione protendunt.</seg></quote>
+          </p>
+          <p xml:id="gom-neh3-d1e160">
+            <quote xml:id="gom-neh3-Qd1e162" type="lemma" source="http://scta.info/resource/neh3_1@12-13">Portam gregis.</quote>
+            Quae, scilicet, respicit Joppen et <pb ed="#P" n="0715A"/> Diospolim, id est, Lyddam, vicinior mari inter cunctas vias Jerusalem; quae nunc porta David fertur appellari, et esse prima portarum ad occidentem montis Sion. Huic opinioni consentire videntur Verba dierum, ubi scriptum est de Manasse rege Juda: <quote xml:id="gom-neh3-Qd1e167" source="http://scta.info/resource/IIchr33_14@1-7">Post hoc aedificavit murum extra civitatem David,</quote> etc. <!--<note>(II Par. XII.)</note>-->
+          </p>
+          <p xml:id="gom-neh3-d1e174">
+            <ref xml:id="gom-neh3-Rd1e176" type="lemma" subtype="implied" target="http://scta.info/resource/neh3_1@12-13"/>
+            <ref xml:id="gom-neh3-Rd1e178"><name xml:id="gom-neh3-Nd1e179" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e183"><seg type="qs">Typice autem, sicut grex significat Domini fideles</seg>, etc., usque ad <seg type="qs">temporibus autem Ezechiae duplicatum fuisse murum civitatis Verba dierum sic ostendunt: <quote xml:id="gom-neh3-Qd1e189" source="http://scta.info/resource/IIchr32_5@1-6">Aedificavit quoque agens industrie omnem murum,</quote> etc. <!--<note>(II Par. XXIII.)</note>--></seg></quote>
+          </p>
+          <p xml:id="gom-neh3-d1e195">
+            <ref xml:id="gom-neh3-Rd1e197" type="lemma" subtype="implied" target="http://scta.info/resource/neh3_1@12-13"/>
+            Typice autem iste Sophonias vocem clamoris a porta piscium et ululatum audivit a secunda: quia ab hostibus utramque dejiciendam praecognovit. Fidem <pb ed="#P" n="0715B"/> enim et opera doctorum per quae ab undis vitae corruptibilis caeteros erui, et in Ecclesiam oportebat induci, vidit diaboli insidiis terrae esse sternenda, id est, per appetitum terrenae voluptatis coelestibus gaudiis esse privandos. Bene autem ab utraque porta, prima, scilicet, et secunda, interiori et exteriori, vocem clamoris et ululatus audivit: quia exterius opera, et intus corda diabolo impugnante vidit subvertenda. Sed quia Dominus erigit elisos, Nehemias portam piscium post ruinam narrat instauratam: quia si aliqui praedicatorum peccando corruerint, non deerunt usque in finem saeculi, qui succedentes portas justitiae Domino adjuvante fidelibus bene vivendo et praedicando aperiant.
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e203">
+          <head xml:id="gom-neh3-Hd1e205">Versus 3</head>
+          <p xml:id="gom-neh3-d1e207">
+            <quote xml:id="gom-neh3-Qd1e209" type="lemma" source="http://scta.info/resource/neh3_3@7-8">Ipsi texerunt.</quote>
+            <ref xml:id="gom-neh3-Rd1e212"><name xml:id="gom-neh3-Nd1e213" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e217"><seg type="qs">Hic versus etiam de caeteris <pb ed="#P" n="0715C"/> portis</seg>, etc., usque ad <seg type="qs">qui plus periculi nobis laudando afferant, quam salutaris adminiculi a nobis videndo referant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e228">
+          <head xml:id="gom-neh3-Hd1e230">Versus 6</head>
+          <p xml:id="gom-neh3-d1e232">
+            <quote xml:id="gom-neh3-Qd1e234" type="lemma" source="http://scta.info/resource/neh3_6@2-3">Ad portam veterem.</quote>
+            De qua dicit Joannes: <quote xml:id="gom-neh3-Qd1e237" source="http://scta.info/resource/Iio2_7@1-13">Charissimi, non mandatum novum scribo vobis, sed vetus quod habuistis ab initio</quote>. <quote xml:id="gom-neh3-Qd1e240" source="http://scta.info/resource/Iio2_7@14-19">Mandatum vetus est verbum quod audistis.</quote> Porta vero vetus aedificatur in Jerusalem, cum verbum fidei et dilectionis quod ab initio Ecclesiae traditum est, vel recuperatur in errantibus, vel in nuper credentibus instituitur.
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e245">
+          <head xml:id="gom-neh3-Hd1e247">Versus 8</head>
+          <p xml:id="gom-neh3-d1e249">
+            <quote xml:id="gom-neh3-Qd1e251" type="lemma" source="http://scta.info/resource/neh3_8@20-21">Ad murum.</quote>
+            Firmitatem scilicet et munimentum perfectae dilectionis in cordibus electorum, ad quam instructores ejus aedificando perveniunt, cum in operibus charitatis proficiendo dicunt: <pb ed="#P" n="0715D"/> <quote xml:id="gom-neh3-Qd1e256" source="http://scta.info/resource/ps118_32@1-4">Viam mandatorum tuorum cucurri,</quote> etc. <!--<note>(Psal. CXVIII)</note>-->, illa, scilicet dilatatione mentis illustratae, quae et amicum in Deo et inimicum diligunt propter Deum.
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e264">
+          <head xml:id="gom-neh3-Hd1e266">Versus 13</head>
+          <p xml:id="gom-neh3-d1e268">
+            <quote xml:id="gom-neh3-Qd1e270" type="lemma" source="http://scta.info/resource/neh3_13@1-3">Et portam vallis.</quote>
+            <ref xml:id="gom-neh3-Rd1e273"><name xml:id="gom-neh3-Nd1e274" ref="#Bede">BEDA</name>, ubi supra.</ref>
+            <quote xml:id="gom-neh3-Qd1e278"><seg type="qs">Vallis Josaphat, quae et Gehennon</seg>, etc., usque ad <seg type="qs">id est humiles dono supernae refectionis.</seg></quote>
+          </p>
+          <p xml:id="gom-neh3-d1e286">
+            <quote xml:id="gom-neh3-Qd1e288" type="lemma" source="http://scta.info/resource/neh3_13@1-3">Et portam vallis.</quote>
+            <ref xml:id="gom-neh3-Rd1e291"><name xml:id="gom-neh3-Nd1e292" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e296">Bene post portam veterem et murum latioris plateae aedificatur porta vallis, quia post rudimenta catholicae fidei quae per dilectionem operatur, necesse est ut humilitas nobis quasi custos virtutum tenenda insinuetur, ut quanto magni sumus, humiliemur in omnibus.</quote>
+          </p>
+          <p xml:id="gom-neh3-d1e299">
+            <quote xml:id="gom-neh3-Qd1e301" type="lemma" source="http://scta.info/resource/neh3_13@20-21">Et mille.</quote>
+            <ref xml:id="gom-neh3-Rd1e304"><name xml:id="gom-neh3-Nd1e305" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e309"><seg type="qs">Ferunt quia situs urbis Jerusalem, <pb ed="#P" n="0716A"/></seg> etc., usque ad <seg type="qs">ut omnia a se rudera actionis noxiae inutilis locutionis et etiam superfluae cogitationis ejiciant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e319">
+          <head xml:id="gom-neh3-Hd1e321">Versus 15</head>
+          <p xml:id="gom-neh3-d1e323">
+            <quote xml:id="gom-neh3-Qd1e325" type="lemma" source="http://scta.info/resource/neh3_15@1-6">Et portam fontis aedificavit Sellum filius,</quote>
+            etc.
+            <ref xml:id="gom-neh3-Rd1e328"><name xml:id="gom-neh3-Nd1e329" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e333"><seg type="qs">Narrant scriptores</seg>, etc., usque ad <seg type="qs">gradus ipsius Ecclesiae incrementis et profectibus bonorum operum, quae per humilitatem fiunt comparans.</seg></quote>
+          </p>
+          <p xml:id="gom-neh3-d1e341">
+            <quote xml:id="gom-neh3-Qd1e343" type="lemma" source="http://scta.info/resource/neh3_15@37-39">De civitate David,</quote>
+            etc. Civitas David juxta litteram mons Sion appellatur, qui a meridie positus pro arce urbi supereminet, et major pars civitatis infra montem jacet in planitie humilioris collis sita. Unde in libro Regum: <quote xml:id="gom-neh3-Qd1e346" source="http://scta.info/resource/IIsam5_7@1-9">Cepit autem David arcem Sion, haec est civitas David</quote>. Et paulo post: <quote xml:id="gom-neh3-Qd1e349" source="http://scta.info/resource/IIsam5_9@1-10">Habitavit autem David in arce, et <pb ed="#P" n="0716B"/> vocavit eam civitatem David</quote><ref xml:id="gom-neh3-Rd1e353"><name xml:id="gom-neh3-Nd1e354" ref="#Bede">Ibid.</name></ref><!-- check: attribution inside gloss body -->.
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e360">
+          <head xml:id="gom-neh3-Hd1e362">Versus 16</head>
+          <p xml:id="gom-neh3-d1e364">
+            <quote xml:id="gom-neh3-Qd1e366" type="lemma" source="http://scta.info/resource/neh3_16@3-5">Aedificavit Nehemias filius Asboth,</quote>
+            etc.
+            <ref xml:id="gom-neh3-Rd1e369"><name xml:id="gom-neh3-Nd1e370" ref="#Bede">BEDA</name>, ubi supra.</ref>
+            <quote xml:id="gom-neh3-Qd1e374"><seg type="qs">Post portam fontis et muros piscinae Siloe</seg>, etc., usque ad <seg type="qs">et ad regnum coeleste ascensuros cognoscant.</seg></quote>
+          </p>
+          <p xml:id="gom-neh3-d1e382">
+            <quote xml:id="gom-neh3-Qd1e384" type="lemma" source="http://scta.info/resource/neh3_16@13-15">Contra sepulcrum David,</quote>
+            etc.
+            <ref xml:id="gom-neh3-Rd1e387"><name xml:id="gom-neh3-Nd1e388" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e392">Nota David non in Bethlehem, ut quidam putant, sed in Jerusalem esse sepultum certa ratione mysterii. Sicut enim in Bethlehem natus et in regem unctus Christum ibidem nasciturum de suo semine, et a magis sub persona regis adorandum figuravit; ita in Jerusalem defunctus et sepultus ipsum in eadem civitate passurum ac sepeliendum.</quote>
+          </p>
+          <p xml:id="gom-neh3-d1e395">
+            <quote xml:id="gom-neh3-Qd1e397" type="lemma" source="http://scta.info/resource/neh3_16@18-19">Ad piscinam, etc.</quote>
+            <ref xml:id="gom-neh3-Rd1e400"><name xml:id="gom-neh3-Nd1e401" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e405"><seg type="qs">Piscinam, Scripturam scilicet divinam</seg>, etc., usque ad <seg type="qs">et si hostis antiquus <pb ed="#P" n="0716C"/> fontem nobis abstulerit verbi Dei, continuo in arcem mentis irrumpit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e416">
+          <head xml:id="gom-neh3-Hd1e418">Versus 19</head>
+          <p xml:id="gom-neh3-d1e420">
+            <quote xml:id="gom-neh3-Qd1e422" type="lemma" source="http://scta.info/resource/neh3_19@1-2">Et aedificavit,</quote>
+            etc.
+            <ref xml:id="gom-neh3-Rd1e425"><name xml:id="gom-neh3-Nd1e426" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e430"><seg type="qs">Hucusque primus civitatis murus exstruitur</seg>, etc., usque ad <seg type="qs">in quo interni arbitrii oculos offendamus.</seg></quote>
+          </p>
+          <p xml:id="gom-neh3-d1e438">
+            <quote xml:id="gom-neh3-Qd1e440" type="lemma" source="http://scta.info/resource/neh3_19@12-13">Contra ascensum,</quote>
+            etc. Hic est Christus qui in fide sua et dilectione Judaeorum populum adunavit et gentium: unde lapis angularis dicitur. Contra cujus ascensum mensura secunda aedificatur, cum per munditiam piae cogitationis ad visionem ejus tendimus, cum etiam in hac vita retenti crebro visionis ejus desiderio suspiramus. Sequuntur plurimi structorum ordines, qui mensuram secundam aedificasse narrantur: quia maxima Ecclesiae structura est in <pb ed="#P" n="0716D"/> munimine interioris virtutis, cum scilicet omni custodia munimus cor nostrum, quoniam ex ipso vita procedit. Singula vero ad intelligentiam spiritualem trahere nimis longum est.
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e447">
+          <head xml:id="gom-neh3-Hd1e449">Versus 26</head>
+          <p xml:id="gom-neh3-d1e451">
+            <quote xml:id="gom-neh3-Qd1e453" type="lemma" source="http://scta.info/resource/neh3_26@1-1">Nathinaei.</quote>
+            Dicuntur Gabaonitae, qui in ministerium domus Domini juxta dispositionem Josue filii Nun fideli devotione serviebant.
+          </p>
+          <p xml:id="gom-neh3-d1e457">
+            <quote xml:id="gom-neh3-Qd1e459" type="lemma" source="http://scta.info/resource/neh3_26">In Ophel.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-neh3-Rd1e464"><name xml:id="gom-neh3-Nd1e465" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e469">Turris erat non longe a templo altitudine enormi. Unde Ophel, id est, tenebrarum vel nubili nomen accepit, quia nubibus caput inseruit. Denique ubi in Michaea scriptum est: <quote xml:id="gom-neh3-Qd1e471" source="http://scta.info/resource/mic4_8@1-5">Et tu turris gregis nebulosa</quote>, benedicitur turris Ophel. Haec turris in qua parte sit civitatis, liber Paralipomenon ostendit, dicens quod <quote xml:id="gom-neh3-Qd1e474" source="http://scta.info/resource/IIchr33_14@3-21">Manasses aedificavit murum extra civitatem David ad occidentem <pb ed="#P" n="0717A"/> Gihon in convalle, ab introitu portae piscium per circuitum usque ad Ophel</quote>. Conveniebat ergo juxta situm loci, ut ministri templi in vicina templo turre habitarent.</quote>
+          </p>
+          <p xml:id="gom-neh3-d1e481">
+            <ref xml:id="gom-neh3-Rd1e483" type="lemma" subtype="implied" target="http://scta.info/resource/neh3_26"/>
+            Mystice autem Nathinaei habitant in Ophel, id est, in turre nebulosa, cum hi qui professione perfectioris vitae dicati sunt Deo, et in munimento et altitudine virtutum actione semper et cogitatione morantur, et conversatio eorum in coelis est, quos admirans vulgus ait: <quote xml:id="gom-neh3-Qd1e485" source="http://scta.info/resource/is60_8@1-7">Qui sunt isti qui ut nubes volant</quote>, etc. Item Thecueni habitant in Ophel, cum quique religionis habitu insignes abdita Scripturarum de quibus scriptum est: <quote xml:id="gom-neh3-Qd1e488" source="http://scta.info/resource/ps17_12@12-15">Tenebrosa aqua in nubibus aeris</quote>, id est, mystica scientia in prophetis, illustrato corde penetrant, et assidue legunt, <pb ed="#P" n="0717B"/> et meditantur.
+          </p>
+          <p xml:id="gom-neh3-d1e494">
+            <quote xml:id="gom-neh3-Qd1e496" type="lemma" source="http://scta.info/resource/neh3_26@7-7">Contra.</quote>
+            <ref xml:id="gom-neh3-Rd1e499"><name xml:id="gom-neh3-Nd1e500" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e504"><seg type="qs">Dominum scilicet, qui quotidie nos misericordiae suae gratia, ne in aerumnis vitae labamur praesentis et deficiamus, irrigat</seg>, etc., usque ad <seg type="qs">et quia post praesentia virtutum dona ad videndam claritatem Domini ascenditur, recte infertur: <quote xml:id="gom-neh3-Qd1e510" source="http://scta.info/resource/neh3_27@1-4">Post eum aedificaverunt Thecueni,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e516">
+          <head xml:id="gom-neh3-Hd1e518">Versus 27</head>
+          <p xml:id="gom-neh3-d1e520">
+            <quote xml:id="gom-neh3-Qd1e522" type="lemma" source="http://scta.info/resource/neh3_27@9-10">A turre.</quote>
+            A turre magna et eminenti usque ad murum templi pervenit structura civitatis, cum justi ab altitudine contemplationis, quae mentem in hac vita despectis temporalibus ad coelestia desideria suspendunt, veraciter in illa vita ad claritatem Dominicae incarnationis intuendam, patefacta etiam divinae aeternitatis gloria ascendunt. Et quia Thecua buccina vel tuba, Thecueni buccinatores interpretantur, <pb ed="#P" n="0717C"/> apte dicitur quod Thecueni hoc aedificaverint. Doctorum enim est quorum sonus exit in omnem terram, praesentia Dei dona vel futura in civitate ejus, id est, fidelibus patefacere.
+          </p>
+          <p xml:id="gom-neh3-d1e528">
+            <quote xml:id="gom-neh3-Qd1e530" type="lemma" source="http://scta.info/resource/neh3_27@15-17">Ad murum templi.</quote>
+            Corpus scilicet Christi: de quo dicitur Joan. II: <quote xml:id="gom-neh3-Qd1e533" source="http://scta.info/resource/io2_19@6-14">Solvite templum hoc, et in tribus diebus excitabo illud:</quote> quod scilicet persecutores in morte solverant, sed excitatum et ad coelos exaltatum amatores videre non cessant in gloria.
+          </p>
+        </div>
+        <div xml:id="gom-neh3-Dd1e539">
+          <head xml:id="gom-neh3-Hd1e541">Versus 28</head>
+          <p xml:id="gom-neh3-d1e543">
+            <quote xml:id="gom-neh3-Qd1e545" type="lemma" source="http://scta.info/resource/neh3_28@1-2">Sursum autem,</quote>
+            etc.
+            <ref xml:id="gom-neh3-Rd1e548"><name xml:id="gom-neh3-Nd1e549" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e553"><seg type="qs">Hanc portam significat Jeremias esse in orientali plaga civitatis</seg>, etc., usque ad <seg type="qs">equi cum in bono accipiuntur, sicut asini, cameli, et muli, conversos ad Dominum populos Gentilium, vel curas rerum temporalium, Domino scilicet animae subjugatas ostendunt.</seg></quote>
+          </p>
+          <p xml:id="gom-neh3-d1e561">
+            <pb ed="#P" n="0717D"/>
+            <quote xml:id="gom-neh3-Qd1e565" type="lemma" source="http://scta.info/resource/neh3_28@6-7">Aedificaverunt sacerdotes,</quote>
+            etc. Sacerdotes vero civitatis Dei murum ad portam aquarum aedificant, cum doctores post vocationem Judaeorum ad inducendos in Ecclesiam Gentiles, verbum Dei seminando perveniunt.
+          </p>
+          <p xml:id="gom-neh3-d1e569">
+            <ref xml:id="gom-neh3-Rd1e571" type="lemma" subtype="implied" target="http://scta.info/resource/neh3_28@6-7"/>
+            <ref xml:id="gom-neh3-Rd1e573"><name xml:id="gom-neh3-Nd1e574" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-neh3-Qd1e578"><seg type="qs">Longum est de singulis aedificiis vel aedificatoribus mystice disserere</seg>, etc., usque ad <seg type="qs">nomina conscribit in coelo.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

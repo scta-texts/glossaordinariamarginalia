@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ioannis II, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ioannis II, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0704D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIio1">
+        <head xml:id="gom-IIio1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-IIio1-Dd1e100">
+          <head xml:id="gom-IIio1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIio1-d1e104">
+            <pb ed="#P" n="0704D"/>
+            <quote xml:id="gom-IIio1-Qd1e108" type="lemma" source="http://scta.info/resource/IIio1_1@13-14">Non ego.</quote>
+            Scripturus contra haereticos qui a veritate exciderunt, dicit omnium qui veritatem noverunt, unam esse dilectionem in sanctos ut similitudine catholicorum ab haereticorum deterreat <pb ed="#P" n="0705A"/> societate. Omnes enim fideles in una veritate consentiunt, haeretici in erroribus se invicem impugnant.
+          </p>
+        </div>
+        <div xml:id="gom-IIio1-Dd1e115">
+          <head xml:id="gom-IIio1-Hd1e117">Versus 4</head>
+          <p xml:id="gom-IIio1-d1e119">
+            <quote xml:id="gom-IIio1-Qd1e121" type="lemma" source="http://scta.info/resource/IIio1_4@1-3">Gavisus sum valde.</quote>
+            Quasi dicat: Quod tenetis, tenete. Nihil aliud ab haereticis recipite, quia in his quae habetis gaudeo; nihil aliud ad salutem vobis superaddi expeto. Cum ergo gaudeam de vestro bono principio, ne me faciatis dolere defectu vestro, quia ut sollicitus custos, omnia quae circa vos fiunt cognosco.
+          </p>
+          <p xml:id="gom-IIio1-d1e125">
+            <quote xml:id="gom-IIio1-Qd1e127" type="lemma" source="http://scta.info/resource/IIio1_4@9-11">Ambulantes in veritate.</quote>
+            Positus est Adam in paradiso, ut operaretur et custodiret illud. Operatio, effectus provectionem: custodia, perfectionis ipsius statum atque constantiam designat.
+          </p>
+        </div>
+        <div xml:id="gom-IIio1-Dd1e132">
+          <head xml:id="gom-IIio1-Hd1e134">Versus 8</head>
+          <p xml:id="gom-IIio1-d1e136">
+            <quote xml:id="gom-IIio1-Qd1e138" type="lemma" source="http://scta.info/resource/IIio1_8">Videte vos,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Istis talibus ne consentiatis, sed potius attendite qualiter sitis perfecte <pb ed="#P" n="0705B"/> instructi ad fidem et constantiam.
+          </p>
+          <p xml:id="gom-IIio1-d1e146">
+            <quote xml:id="gom-IIio1-Qd1e148" type="lemma" source="http://scta.info/resource/IIio1_8@9-13">Sed ut mercedem plenam accipiatis,</quote>
+            id est verum Deum plena cum jucunditate capiatis, perseverando in doctrina vobis tradita, et non consentiendo eorum errori.
+          </p>
+        </div>
+        <div xml:id="gom-IIio1-Dd1e153">
+          <head xml:id="gom-IIio1-Hd1e155">Versus 9</head>
+          <p xml:id="gom-IIio1-d1e157">
+            <quote xml:id="gom-IIio1-Qd1e159" type="lemma" source="http://scta.info/resource/IIio1_9@4-5">Et non permanet.</quote>
+            Si quis separat se a <pb ed="#P" n="0706A"/> divina doctrina, ut extra rectam fidem conversationemque mandatorum Dei sit, separat se a Deo ne habeat Deum. Per actualem et contemplativam vitam fit alicujus Deus ei manifestando qui est Creator omnium.
+          </p>
+          <p xml:id="gom-IIio1-d1e165">
+            <quote xml:id="gom-IIio1-Qd1e167" type="lemma" source="http://scta.info/resource/IIio1_9@13-14">Qui permanet.</quote>
+            Manet in evangelica doctrina, qui secundum eam sapit et agit; separat se ab illa is qui aliter sapit et agit.
+          </p>
+        </div>
+        <div xml:id="gom-IIio1-Dd1e173">
+          <head xml:id="gom-IIio1-Hd1e175">Versus 10</head>
+          <p xml:id="gom-IIio1-d1e177">
+            <quote xml:id="gom-IIio1-Qd1e179" type="lemma" source="http://scta.info/resource/IIio1_10@16-19">Nec Ave ei dixeritis.</quote>
+            Quia signum videtur consensus erroris, hoc enim dicimus amicis quorum opera nobis placent, et vos si forte decepti non essetis, alii tamen per talem vestram familiaritatem possent decipi, qui crederent illos placere vobis, et sic crederent illis.
+          </p>
+        </div>
+        <div xml:id="gom-IIio1-Dd1e184">
+          <head xml:id="gom-IIio1-Hd1e186">Versus 12</head>
+          <p xml:id="gom-IIio1-d1e188">
+            <quote xml:id="gom-IIio1-Qd1e190" type="lemma" source="http://scta.info/resource/IIio1_12@1-2">Plura habens.</quote>
+            Intelligite hanc admonitionem vobis fore perutilem, quia ad confirmationem <pb ed="#P" n="0706B"/> illius, decrevi etiam venire ad vos, nec tamen ex toto interim potui silere.
+          </p>
+        </div>
+        <div xml:id="gom-IIio1-Dd1e197">
+          <head xml:id="gom-IIio1-Hd1e199">Versus 13</head>
+          <p xml:id="gom-IIio1-d1e201">
+            <quote xml:id="gom-IIio1-Qd1e203" type="lemma" source="http://scta.info/resource/IIio1_13@1-2">Salutant te.</quote>
+            Sicut adversariis veritatis prohibet dicere: Ave, ita econtra electos ex persona electorum salutat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

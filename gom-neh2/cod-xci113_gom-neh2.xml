@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nehemiae, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Nehemiae, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0713D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-neh2">
+        <head xml:id="gom-neh2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-neh2-Dd1e100">
+          <head xml:id="gom-neh2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-neh2-d1e104">
+            <pb ed="#P" n="0713D"/>
+            <quote xml:id="gom-neh2-Qd1e108" type="lemma" source="http://scta.info/resource/neh2_1@1-3">Factum est autem.</quote>
+            <ref xml:id="gom-neh2-Rd1e111"><name xml:id="gom-neh2-Nd1e112" ref="#Bede">BED.</name> in Esdram.</ref>
+            <quote xml:id="gom-neh2-Qd1e116"><seg type="qs">Qui scilicet est primus mensis anni</seg>, etc., usque ad <seg type="qs">suum intimare. Erat quidem princeps vinarius, regi poculum porrigebat, officium laetitiae foris agebat, sed interius lugebat: quia civitatem sanctam dirutam, etc. Unde: <quote xml:id="gom-neh2-Qd1e122" source="http://scta.info/resource/ps136_1@4-8">Super flumina Babylonis illic sedimus,</quote> etc. <!--<note>(Psal. CXXVI.)</note>--></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh2-Dd1e129">
+          <head xml:id="gom-neh2-Hd1e131">Versus 5</head>
+          <p xml:id="gom-neh2-d1e133">
+            <quote xml:id="gom-neh2-Qd1e135" type="lemma" source="http://scta.info/resource/neh2_5@5-6">Si videtur,</quote>
+            etc.
+            <ref xml:id="gom-neh2-Rd1e138"><name xml:id="gom-neh2-Nd1e139" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh2-Qd1e143"><seg type="qs">Sicut per <pb ed="#P" n="0714A"/> Cyrum primum Persarum regem Christus significatur</seg>, etc., usque ad <seg type="qs">de qua tota prophetae sententia plenissime, prout potui, in libro temporum edisserere curavi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh2-Dd1e154">
+          <head xml:id="gom-neh2-Hd1e156">Versus 10</head>
+          <p xml:id="gom-neh2-d1e158">
+            <quote xml:id="gom-neh2-Qd1e160" type="lemma" source="http://scta.info/resource/neh2_10@1-2">Et audierunt.</quote>
+            <quote xml:id="gom-neh2-Qd1e163"><seg type="qs">Contristantur haeretici</seg>, etc., usque ad <seg type="qs">et eos, qui peccando erraverunt, poenitendo redire cognoscunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh2-Dd1e172">
+          <head xml:id="gom-neh2-Hd1e174">Versus 15</head>
+          <p xml:id="gom-neh2-d1e176">
+            <quote xml:id="gom-neh2-Qd1e178" type="lemma" source="http://scta.info/resource/neh2_15@7-8">Considerabam murum Jerusalem.</quote>
+            Diversa destructae urbis loca lustrando pervagatur; et singula quomodo debeant reparari, sollicite scrutatur. Doctorum quoque spiritualium est saepius noctu surgere, et solerti indagine statum Ecclesiae quiescentibus caeteris inspicere, ut vigilanter inquirant, quomodo ea quae vitiorum bellis sordidata vel dejecta sunt, corrigant et erigant. Murus autem <pb ed="#P" n="0714B"/> Jerusalem dissipatus jacet, et conversatio fidelium terrenis et infirmis sordet affectibus. Portae sunt igni consumptae, cum hi qui aliis introitum vitae pandere debuerant, relicto veritatis magistro communi, cum caeteris ignavia torpent, et temporalibus curis inserviunt.
+          </p>
+        </div>
+        <div xml:id="gom-neh2-Dd1e186">
+          <head xml:id="gom-neh2-Hd1e188">Versus 17</head>
+          <p xml:id="gom-neh2-d1e190">
+            <quote xml:id="gom-neh2-Qd1e192" type="lemma" source="http://scta.info/resource/neh2_17@10-13">Quia Jerusalem deserta est.</quote>
+            <ref xml:id="gom-neh2-Rd1e195"><name xml:id="gom-neh2-Nd1e196" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-neh2-Qd1e200">Plana sunt haec et spirituali sensu congrua: quia doctores, imo omnes qui zelo Dei fervent, in afflictione maxima sunt, quandiu Jerusalem, id est visionem pacis, quam nobis Deus reliquit et commendavit, bellis dissensionum cernunt esse desertam: et portas virtutum, quas juxta Isaiam laudatio occupare debuerat, praevalentibus inferorum portis dejectas, et opprobrio habitas.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0397D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num9">
+        <head xml:id="gom-num9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-num9-Dd1e100">
+          <head xml:id="gom-num9-Hd1e102">Versus 12</head>
+          <p xml:id="gom-num9-d1e104">
+            <quote xml:id="gom-num9-Qd1e106" type="lemma" source="http://scta.info/resource/num9_12">Faciant filii Israel phase in tempore suo, quartadecima die mensis hujus,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-num9-Rd1e111"><name xml:id="gom-num9-Nd1e112" ref="#RabanusMaurus">RAB.</name>-BED.</ref>
+            <quote xml:id="gom-num9-Qd1e116"><seg type="qs">Cum in veteri Testamento</seg>, etc., usque ad <seg type="qs">Et: <quote xml:id="gom-num9-Qd1e122" source="http://scta.info/resource/ap21_5@7-10">Ecce nova facio omnia</quote></seg></quote>
+          </p>
+          <p xml:id="gom-num9-d1e126">
+            <ref xml:id="gom-num9-Rd1e128" type="lemma" subtype="implied" target="http://scta.info/resource/num9_12"/>
+            <ref xml:id="gom-num9-Rd1e130"><name xml:id="gom-num9-Nd1e131" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-num9-Qd1e134"><seg type="qs">Deinde tertiam septimanam</seg>, etc., usque ad <seg type="qs">extrema charismate spiritali per seipsum illustravit.</seg></quote>
+          </p>
+          <p xml:id="gom-num9-d1e142">
+            <ref xml:id="gom-num9-Rd1e144" type="lemma" subtype="implied" target="http://scta.info/resource/num9_12"/>
+            <ref xml:id="gom-num9-Rd1e146"><name xml:id="gom-num9-Nd1e147" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-num9-Qd1e150"><seg type="qs">Ipsa quoque lunae conversio</seg>, etc., usque ad <seg type="qs"><pb ed="#P" n="0398A"/> praecepit eos dispensationis suae testes esse usque ad ultimum terrae <!--<note>(Act. I)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-num9-d1e161">
+            <ref xml:id="gom-num9-Rd1e163" type="lemma" subtype="implied" target="http://scta.info/resource/num9_12"/>
+            <ref xml:id="gom-num9-Rd1e165"><name xml:id="gom-num9-Nd1e166" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-num9-Qd1e169"><seg type="qs">Bene autem luna</seg>, etc., usque ad <seg type="qs">merito quintadecima paschali gaudio adaptatur.</seg></quote>
+          </p>
+          <p xml:id="gom-num9-d1e178">
+            <ref xml:id="gom-num9-Rd1e180" type="lemma" subtype="implied" target="http://scta.info/resource/num9_12"/>
+            <ref xml:id="gom-num9-Rd1e182"><name xml:id="gom-num9-Nd1e183" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-num9-Qd1e186">His quidem paschae vel phase a lege assumptis indiciis, haeredes Novi Testamenti etiam diem Dominicam annectimus, quia et conditione primitivae lucis excellit, et triumpho Dominicae resurrectionis.</quote>
+          </p>
+          <p xml:id="gom-num9-d1e189">
+            <ref xml:id="gom-num9-Rd1e191" type="lemma" subtype="implied" target="http://scta.info/resource/num9_12"/>
+            <ref xml:id="gom-num9-Rd1e193"><name xml:id="gom-num9-Nd1e194" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-num9-Qd1e197"><seg type="qs">Septem quoque dies lunae</seg>, usque ad <seg type="qs">quasi: <quote xml:id="gom-num9-Qd1e203" source="http://scta.info/resource/mc13_37@1-6">Quod uni dico, omnibus dico</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-num9-d1e208">
+            <ref xml:id="gom-num9-Rd1e210" type="lemma" subtype="implied" target="http://scta.info/resource/num9_12"/>
+            <ref xml:id="gom-num9-Rd1e212"><name xml:id="gom-num9-Nd1e213" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-num9-Qd1e216"><seg type="qs">In nomine quoque paschae</seg>, etc., usque ad <seg type="qs">per singulos gradus spiritalis transitus largitori illius vicem tendamus.</seg></quote>
+          </p>
+          <p xml:id="gom-num9-d1e224">
+            <ref xml:id="gom-num9-Rd1e226" type="lemma" subtype="implied" target="http://scta.info/resource/num9_12"/>
+            <ref xml:id="gom-num9-Rd1e228"><name xml:id="gom-num9-Nd1e229" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-num9-Qd1e232"><seg type="qs">Vel in crescente ad homines luna, etc., <pb ed="#P" n="0398B"/></seg> usque ad <seg type="qs">convenienter intelligi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e242">
+          <head xml:id="gom-num9-Hd1e244">Versus 6</head>
+          <p xml:id="gom-num9-d1e246">
+            <quote xml:id="gom-num9-Qd1e248" type="lemma" source="http://scta.info/resource/num9_6@1-7">Ecce autem quidam immundi super anima hominis,</quote>
+            etc.
+            <ref xml:id="gom-num9-Rd1e251"><name xml:id="gom-num9-Nd1e252" ref="#Augustine">AUG.</name>, quaest. 15 in Num.</ref>
+            <quote xml:id="gom-num9-Qd1e256"><seg type="qs">Cumque paschae tempore quidam immundi essent super anima hominis</seg>, etc., usque ad <seg type="qs">aut forte si pascha non egissent, ad culpam non pertineret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e265">
+          <head xml:id="gom-num9-Hd1e267">Versus 8</head>
+          <p xml:id="gom-num9-d1e269">
+            <quote xml:id="gom-num9-Qd1e271" type="lemma" source="http://scta.info/resource/num9_8@4-6">State ut consulam.</quote>
+            <ref xml:id="gom-num9-Rd1e274"><name xml:id="gom-num9-Nd1e275" ref="#GregoryGreat">GREG.</name>, lib. XXXIII Moral., cap. 21, tom. II.</ref>
+            <quote xml:id="gom-num9-Qd1e279"><seg type="qs">Moyses crebro de rebus dubiis ad tabernaculum recurrit relictis turbis</seg>, etc., usque ad <seg type="qs">dum in meditatione mentis a carnalibus sensibus abstrahuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e288">
+          <head xml:id="gom-num9-Hd1e290">Versus 10</head>
+          <p xml:id="gom-num9-d1e292">
+            <quote xml:id="gom-num9-Qd1e294" type="lemma" source="http://scta.info/resource/num9_10@4-9">Homo qui fuerit immundus super anima,</quote>
+            etc.
+            <ref xml:id="gom-num9-Rd1e297"><name xml:id="gom-num9-Nd1e298" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-num9-Qd1e301">Praecipitur ut qui longius habitabant, vel immundi in anima fuerant, in secundo mense pascha faciant, quia Gentiles cum omnibus <pb ed="#P" n="0398C"/> daemonibus fornicati, immundi erant et a Deo remoti. Sed salubri confessione mundati ad Christi nativitatem quasi ad secundum mensem transire praecipiuntur.</quote>
+          </p>
+          <p xml:id="gom-num9-d1e307">
+            <ref xml:id="gom-num9-Rd1e309" type="lemma" subtype="implied" target="http://scta.info/resource/num9_10@4-9"/>
+            <ref xml:id="gom-num9-Rd1e311"><name xml:id="gom-num9-Nd1e312" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num9-Qd1e315"><seg type="qs">Immundus est in anima</seg>, etc., usque ad <seg type="qs">ad vesperam mundi cum azymis et lactucis agrestibus agnum comedit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e325">
+          <head xml:id="gom-num9-Hd1e327">Versus 11</head>
+          <p xml:id="gom-num9-d1e329">
+            <quote xml:id="gom-num9-Qd1e331" type="lemma" source="http://scta.info/resource/num9_11@9-9">Azymis.</quote>
+            <ref xml:id="gom-num9-Rd1e334"><name xml:id="gom-num9-Nd1e335" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num9-Qd1e338">Azyma comedit, qui recta, opera sine corruptione vanae gloriae facit, et mandata misericordiae sine peccati admixtione.</quote>
+          </p>
+          <p xml:id="gom-num9-d1e341">
+            <quote xml:id="gom-num9-Qd1e343" type="lemma" source="http://scta.info/resource/num9_11@12-12">Agrestibus.</quote>
+            Quia cum corpus Christi accipimus pro peccatis compungi debemus, ut amaritudo poenitentiae abstergat amorem perversae vitae.
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e348">
+          <head xml:id="gom-num9-Hd1e350">Versus 12</head>
+          <p xml:id="gom-num9-d1e352">
+            <quote xml:id="gom-num9-Qd1e354" type="lemma" source="http://scta.info/resource/num9_12@13-14">Omnem ritum.</quote>
+            Quidquid in lege historialiter praeceptum est, in celebratione paschae <pb ed="#P" n="0398D"/> Ecclesia spiritualiter observat.
+          </p>
+          <p xml:id="gom-num9-d1e360">
+            <quote xml:id="gom-num9-Qd1e362" type="lemma" source="http://scta.info/resource/num9_12@16-16">Observabunt.</quote>
+            Quia ejus dicta sollicite sunt discutienda, ut in praesenti vita intelligendo et operando penetrentur.
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e367">
+          <head xml:id="gom-num9-Hd1e369">Versus 13</head>
+          <p xml:id="gom-num9-d1e371">
+            <quote xml:id="gom-num9-Qd1e373" type="lemma" source="http://scta.info/resource/num9_13@17-17">Exterminabitur.</quote>
+            Eos qui sub lege erant, comminando instruit, ne tempus paschae observare negligant. Nos quoque admonet, ut spirituale pascha suo tempore faciamus, de quo Paulus ait: <quote xml:id="gom-num9-Qd1e376" source="http://scta.info/resource/IIcor6_2@13-16">Ecce nunc tempus acceptabile,</quote> etc. <!--<note>(II Cor. VI)</note>-->. Quia quisquis redemptionem humani generis, quae veri agni immolatione facta est, fide digna non celebraverit, et vitam suam in meliora non converterit, et a vitiis ad virtutes non transierit tempore hujus mortalitatis: ad resurrectionis gloriam in fine <pb ed="#P" n="0399A"/> veris cultoribus Christi tribuendam non pertinebit, sed exterminabitur a consortio sanctorum.
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e385">
+          <head xml:id="gom-num9-Hd1e387">Versus 14</head>
+          <p xml:id="gom-num9-d1e389">
+            <quote xml:id="gom-num9-Qd1e391" type="lemma" source="http://scta.info/resource/num9_14@1-8">Peregrinus quoque et advena si fuerint apud vos,</quote>
+            etc.
+            <ref xml:id="gom-num9-Rd1e394"><name xml:id="gom-num9-Nd1e395" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num9-Qd1e398">Ostendit nullam distantiam esse personarum apud Deum. Quicunque enim ad fidem catholicam conversus, et Christi baptismate ablutus, Ecclesiae unitatem intraverit, ecclesiasticis poterit communicari mysteriis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e402">
+          <head xml:id="gom-num9-Hd1e404">Versus 15</head>
+          <p xml:id="gom-num9-d1e406">
+            <quote xml:id="gom-num9-Qd1e408" type="lemma" source="http://scta.info/resource/num9_15@9-9">Nubes.</quote>
+            <ref xml:id="gom-num9-Rd1e411"><name xml:id="gom-num9-Nd1e412" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-num9-Qd1e415">Christus est columna, qui rectus et firmus, qui fulciens infirmitatem nostram, per noctem lucens, per diem non lucens, ut qui non vident videant, et qui vident caeci fiant. Christi quoque sacramentum tanquam in die manifestum est, in carne, velut in nube: in judicio vero tanquam in terrore nocturno. Quia tunc erit tribulatio <pb ed="#P" n="0399B"/> magna tanquam ignis, et lucebit justis, et ardebit injustis <!--<note>(Exod. XII)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-num9-d1e423">
+            <quote xml:id="gom-num9-Qd1e425" type="lemma" source="http://scta.info/resource/num9_15">Mystice,</quote>
+            <!-- check: lemma not matched to verse text -->
+            incarnatio Christi, cujus clementia tabernaculum Ecclesiae protegit, bonitas statum disponit, prudentia in via hujus saeculi transitum dirigit.
+          </p>
+          <p xml:id="gom-num9-d1e431">
+            <ref xml:id="gom-num9-Rd1e433" type="lemma" subtype="implied" target="http://scta.info/resource/num9_15"/>
+            <ref xml:id="gom-num9-Rd1e435"><name xml:id="gom-num9-Nd1e436" ref="#GregoryGreat">GREG.</name>, hom. 21 in Evang., tom. III.</ref>
+            <quote xml:id="gom-num9-Qd1e440"><seg type="qs">In igne terror</seg>, etc., usque ad <seg type="qs">peccatorum suorum tenebras agnoscentibus igne sui amoris infulsit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num9-Dd1e449">
+          <head xml:id="gom-num9-Hd1e451">Versus 23</head>
+          <p xml:id="gom-num9-d1e453">
+            <quote xml:id="gom-num9-Qd1e455" type="lemma" source="http://scta.info/resource/num9_23@1-5">Per verbum Domini figebant tentoria.</quote>
+            Significatione nubis, quae erat signum divinae voluntatis, sicut vox loquentis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

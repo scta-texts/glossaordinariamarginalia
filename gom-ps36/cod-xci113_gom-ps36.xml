@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 36</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 36</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0896B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps36">
+        <head xml:id="gom-ps36-Hd1e98">Psalmus 36</head>
+        <p xml:id="gom-ps36-d1e100">
+          <ref xml:id="gom-ps36-Rd1e102"><name xml:id="gom-ps36-Nd1e103" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-ps36-Qd1e106">Psalmus tertius, alphabeti imperfectio: totus de correctione morum.</quote>
+        </p>
+        <div xml:id="gom-ps36-Dd1e109">
+          <head xml:id="gom-ps36-Hd1e111">Versus 1</head>
+          <p xml:id="gom-ps36-d1e113">
+            <quote xml:id="gom-ps36-Qd1e115" type="lemma" source="http://scta.info/resource/ps36_1@1-3">Psalmus David.</quote>
+            Psalmus hic est quasi vestis Christi, quae totum corpus ejus operiat praeceptis, et protegat ab adversis, et quasi sinu consilii foveat. Potio contra illos qui murmurant de flore malorum, labore bonorum, quasi omnia casu agantur, ut mundo, spreto Deo, adhaereant. Monet igitur Ecclesia ne quis malignantes imitetur, sed quidquid boni speratur, a Domino postuletur, qui profutura et <pb ed="#P" n="0896C"/> aeterna dat.
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e122">
+          <head xml:id="gom-ps36-Hd1e124">Versus 2</head>
+          <p xml:id="gom-ps36-d1e126">
+            <quote xml:id="gom-ps36-Qd1e128" type="lemma" source="http://scta.info/resource/ps36_2@8-9">Olera herbarum.</quote>
+            <ref xml:id="gom-ps36-Rd1e131"><name xml:id="gom-ps36-Nd1e132" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e135"><seg type="qs">Modo est hiems</seg>, etc., usque ad <seg type="qs">quia nondum apparuit quod erimus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps36-d1e143">
+            <ref xml:id="gom-ps36-Rd1e145" type="lemma" subtype="implied" target="http://scta.info/resource/ps36_2@8-9"/>
+            <ref xml:id="gom-ps36-Rd1e147"><name xml:id="gom-ps36-Nd1e148" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps36-Qd1e152">Olera non hortorum, sed herbarum, id est, vilissima, quae per agros sponte nascuntur.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e155">
+            <quote xml:id="gom-ps36-Qd1e157" type="lemma" source="http://scta.info/resource/ps36_2@3-3">Fenum,</quote>
+            nobiles, qui facile proficiunt; olera, mediocres: sed et illi cito arescunt, et hi decidunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e162">
+          <head xml:id="gom-ps36-Hd1e164">Versus 8</head>
+          <p xml:id="gom-ps36-d1e166">
+            <quote xml:id="gom-ps36-Qd1e168" type="lemma" source="http://scta.info/resource/ps36_8@1-1">Desine.</quote>
+            <ref xml:id="gom-ps36-Rd1e171"><name xml:id="gom-ps36-Nd1e172" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e175">Ira subita, furor diutinus; sed utraque deserenda, per quae peccatur.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e178">
+            <ref xml:id="gom-ps36-Rd1e180" type="lemma" subtype="implied" target="http://scta.info/resource/ps36_8@1-1"/>
+            <ref xml:id="gom-ps36-Rd1e182"><name xml:id="gom-ps36-Nd1e183" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e186"><seg type="qs">Hoc dicitur ei qui adhuc infirmus</seg>, etc., usque ad <seg type="qs">faciendo ad tempus floret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e196">
+          <head xml:id="gom-ps36-Hd1e198">Versus 10</head>
+          <p xml:id="gom-ps36-d1e200">
+            <quote xml:id="gom-ps36-Qd1e202" type="lemma" source="http://scta.info/resource/ps36_10@1-3">Et adhuc pusillum,</quote>
+            etc.
+            <ref xml:id="gom-ps36-Rd1e205"><name xml:id="gom-ps36-Nd1e206" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e209"><seg type="qs">Post istam vitam parvam</seg>, etc., usque ad <seg type="qs">nec vermem conscientiae corrodentis sentiebat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e218">
+          <head xml:id="gom-ps36-Hd1e220">Versus 12</head>
+          <p xml:id="gom-ps36-d1e222">
+            <pb ed="#P" n="0896D"/>
+            <quote xml:id="gom-ps36-Qd1e226" type="lemma" source="http://scta.info/resource/ps36_12@1-1">Observabit,</quote>
+            etc.
+            <ref xml:id="gom-ps36-Rd1e229"><name xml:id="gom-ps36-Nd1e230" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e233"><seg type="qs">Dicto, quod boni non debent malos aemulari</seg>, etc., usque ad <seg type="qs">conatur occidere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e242">
+          <head xml:id="gom-ps36-Hd1e244">Versus 13</head>
+          <p xml:id="gom-ps36-d1e246">
+            <quote xml:id="gom-ps36-Qd1e248" type="lemma" source="http://scta.info/resource/ps36_13@1-2">Dominus autem,</quote>
+            etc.
+            <ref xml:id="gom-ps36-Rd1e251"><name xml:id="gom-ps36-Nd1e252" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e255">Sic et nos videntes perituros, irrideamus et praesentes, grandis consolatio.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e259">
+          <head xml:id="gom-ps36-Hd1e261">Versus 14</head>
+          <p xml:id="gom-ps36-d1e263">
+            <quote xml:id="gom-ps36-Qd1e265" type="lemma" source="http://scta.info/resource/ps36_14@1-1">Gladium,</quote>
+            etc.
+            <ref xml:id="gom-ps36-Rd1e268"><name xml:id="gom-ps36-Nd1e269" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e272">Si neque blanditiis neque minis aget, poena aggreditur. Si nec sic proficit, insidiatur dolis, quando bene loquendo mala intendit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e276">
+          <head xml:id="gom-ps36-Hd1e278">Versus 16</head>
+          <p xml:id="gom-ps36-d1e280">
+            <quote xml:id="gom-ps36-Qd1e282" type="lemma" source="http://scta.info/resource/ps36_16@1-2">Melius est,</quote>
+            etc.
+            <ref xml:id="gom-ps36-Rd1e285"><name xml:id="gom-ps36-Nd1e286" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e289">Paulo ante de malitia et sustinentia: hic de divitiis et paupertate.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e293">
+          <head xml:id="gom-ps36-Hd1e295">Versus 17</head>
+          <p xml:id="gom-ps36-d1e297">
+            <quote xml:id="gom-ps36-Qd1e299" type="lemma" source="http://scta.info/resource/ps36_17@6-7">Confirmat autem,</quote>
+            etc.
+            <ref xml:id="gom-ps36-Rd1e302"><name xml:id="gom-ps36-Nd1e303" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e306">Maxime per exemplum crucis suae. Crux enim Christi finita <pb ed="#P" n="0897A"/> est in poena, et manet in gloria: a locis enim suppliciorum transit ad frontes imperatorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e314">
+          <head xml:id="gom-ps36-Hd1e316">Versus 19</head>
+          <p xml:id="gom-ps36-d1e318">
+            <quote xml:id="gom-ps36-Qd1e320" type="lemma" source="http://scta.info/resource/ps36_19@7-9">In diebus famis.</quote>
+            <ref xml:id="gom-ps36-Rd1e323"><name xml:id="gom-ps36-Nd1e324" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e327"><seg type="qs">Id est, in hac vita</seg>, etc., usque ad <seg type="qs">quanto plus elevantur, tanto citius ut fumus deficient.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e336">
+          <head xml:id="gom-ps36-Hd1e338">Versus 21</head>
+          <p xml:id="gom-ps36-d1e340">
+            <quote xml:id="gom-ps36-Qd1e342" type="lemma" source="http://scta.info/resource/ps36_21@1-1">Mutuabitur.</quote>
+            <ref xml:id="gom-ps36-Rd1e345"><name xml:id="gom-ps36-Nd1e346" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e349">Audit verbum Dei, non reddit operibus.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e352">
+            <quote xml:id="gom-ps36-Qd1e354" type="lemma" source="http://scta.info/resource/ps36_21@3-5">Et non solvet.</quote>
+            Id est, non reddit operibus quod auditu percepit.
+          </p>
+          <p xml:id="gom-ps36-d1e358">
+            <quote xml:id="gom-ps36-Qd1e360" type="lemma" source="http://scta.info/resource/ps36_21@9-11">Miseretur et retribuet,</quote>
+            etc. <quote xml:id="gom-ps36-Qd1e363"><seg type="qs">De his quae accipit</seg>, etc., usque ad <seg type="qs">sequitur largitas.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e372">
+          <head xml:id="gom-ps36-Hd1e374">Versus 23</head>
+          <p xml:id="gom-ps36-d1e376">
+            <quote xml:id="gom-ps36-Qd1e378" type="lemma" source="http://scta.info/resource/ps36_23@3-3">Gressus.</quote>
+            <ref xml:id="gom-ps36-Rd1e381"><name xml:id="gom-ps36-Nd1e382" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e385">Qui per se tortuosi, quia in peccatis nati.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e388">
+            <quote xml:id="gom-ps36-Qd1e390" type="lemma" source="http://scta.info/resource/ps36_23@7-8">Viam ejus.</quote>
+            <ref xml:id="gom-ps36-Rd1e393"><name xml:id="gom-ps36-Nd1e394" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e397">Via terrae non dura, sed latronibus plena est: vel, viam hominis volet Deus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e401">
+          <head xml:id="gom-ps36-Hd1e403">Versus 25</head>
+          <p xml:id="gom-ps36-d1e405">
+            <quote xml:id="gom-ps36-Qd1e407" type="lemma" source="http://scta.info/resource/ps36_25@1-2">Junior fui,</quote>
+            etc.
+            <ref xml:id="gom-ps36-Rd1e410"><name xml:id="gom-ps36-Nd1e411" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e414">Tractat hic <pb ed="#P" n="0897B"/> justum nunquam deseri, praemia bonorum et poenas malorum commiscens cum interjectis adhortationibus.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e420">
+            <ref xml:id="gom-ps36-Rd1e422" type="lemma" subtype="implied" target="http://scta.info/resource/ps36_25@1-2"/>
+            <ref xml:id="gom-ps36-Rd1e424"><name xml:id="gom-ps36-Nd1e425" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e428">Ecclesia quasi unus homo loquitur, quae in primis temporibus junior fuit, in fine saeculi senuit, <quote xml:id="gom-ps36-Qd1e430" source="http://scta.info/resource/ps91_15@3-5">in senecta uberi,</quote> quia per omnes gentes dilatata.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e435">
+            <ref xml:id="gom-ps36-Rd1e437"><name xml:id="gom-ps36-Nd1e438" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e441" type="lemma" source="http://scta.info/resource/ps36_25@1-2">Junior fui.</quote>
+            <quote xml:id="gom-ps36-Qd1e444">Puer in Abel; in prophetis et patriarchis juvenis; tempore martyrum quasi senex; in fine mundi quasi in decrepita aetate.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e447">
+            <ref xml:id="gom-ps36-Rd1e449"><name xml:id="gom-ps36-Nd1e450" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e453" type="lemma" source="http://scta.info/resource/ps36_25@1-1">Junior,</quote>
+            <quote xml:id="gom-ps36-Qd1e456">quando initia legis in Adam suscepi;</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e460">
+            <quote xml:id="gom-ps36-Qd1e462" type="lemma" source="http://scta.info/resource/ps36_25@4-4">senui,</quote>
+            cum in honorabili aetate ad ultimum suscepi Christum.
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e467">
+          <head xml:id="gom-ps36-Hd1e469">Versus 26</head>
+          <p xml:id="gom-ps36-d1e471">
+            <quote xml:id="gom-ps36-Qd1e473" type="lemma" source="http://scta.info/resource/ps36_26@1-3">Tota die miseretur.</quote>
+            Vel, de eleemosyna dicit, quae a misericordia incipit, et post manum aperit: vel, de spiritualibus.
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e478">
+          <head xml:id="gom-ps36-Hd1e480">Versus 28</head>
+          <p xml:id="gom-ps36-d1e482">
+            <quote xml:id="gom-ps36-Qd1e484" type="lemma" source="http://scta.info/resource/ps36_28@3-9">Amat judicium et non derelinquet <pb ed="#P" n="0897C"/> sanctos suos.</quote>
+            <ref xml:id="gom-ps36-Rd1e489"><name xml:id="gom-ps36-Nd1e490" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e493">Ideo: et tu ama, ut bonis tuis gaudeas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e498">
+          <head xml:id="gom-ps36-Hd1e500">Versus 31</head>
+          <p xml:id="gom-ps36-d1e502">
+            <quote xml:id="gom-ps36-Qd1e504" type="lemma" source="http://scta.info/resource/ps36_31@9-9">Supplantabuntur.</quote>
+            <ref xml:id="gom-ps36-Rd1e507"><name xml:id="gom-ps36-Nd1e508" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e511">Supplantare, est plantis foveas insidiarum praetendere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e515">
+          <head xml:id="gom-ps36-Hd1e517">Versus 33</head>
+          <p xml:id="gom-ps36-d1e519">
+            <quote xml:id="gom-ps36-Qd1e521" type="lemma" source="http://scta.info/resource/ps36_33@1-2">Dominus autem</quote>
+            <ref xml:id="gom-ps36-Rd1e524"><name xml:id="gom-ps36-Nd1e525" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e528">Consolatio justi.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e531">
+            <quote xml:id="gom-ps36-Qd1e533" type="lemma" source="http://scta.info/resource/ps36_33@6-8">In manibus ejus.</quote>
+            <ref xml:id="gom-ps36-Rd1e536"><name xml:id="gom-ps36-Nd1e537" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e540">Job terra tradita est in manus impii, id est, caro: sed animam invictam educit Deus, ne cedat.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e543">
+            <quote xml:id="gom-ps36-Qd1e545" type="lemma" source="http://scta.info/resource/ps36_33@12-13">Cum judicabitur.</quote>
+            <ref xml:id="gom-ps36-Rd1e548"><name xml:id="gom-ps36-Nd1e549" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e552">Vel, non permittit damnari justum cum judicabitur ille ab impio; vel, illi impio, scilicet ad malum ejus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e556">
+          <head xml:id="gom-ps36-Hd1e558">Versus 34</head>
+          <p xml:id="gom-ps36-d1e560">
+            <quote xml:id="gom-ps36-Qd1e562" type="lemma" source="http://scta.info/resource/ps36_34@7-8">Et exaltabit.</quote>
+            <ref xml:id="gom-ps36-Rd1e565"><name xml:id="gom-ps36-Nd1e566" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e569">Quia non nisi exaltatus coelestem potest habitare.</quote>
+          </p>
+          <p xml:id="gom-ps36-d1e572">
+            <quote xml:id="gom-ps36-Qd1e574" type="lemma" source="http://scta.info/resource/ps36_34@18-18">Videbis</quote>
+            <ref xml:id="gom-ps36-Rd1e577"><name xml:id="gom-ps36-Nd1e578" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e581">Quod modo credis; dupliciter notat gaudia bonorum; <pb ed="#P" n="0897D"/> primo, quia tunc sentient in quantis sint jucunditatibus. Inde, quia videbunt poenas iniquorum, unde gratior est beatitudo liberatis ab hujusmodi malo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e588">
+          <head xml:id="gom-ps36-Hd1e590">Versus 35</head>
+          <p xml:id="gom-ps36-d1e592">
+            <quote xml:id="gom-ps36-Qd1e594" type="lemma" source="http://scta.info/resource/ps36_35@1-3">Vidi impium superexaltatum.</quote>
+            <ref xml:id="gom-ps36-Rd1e597"><name xml:id="gom-ps36-Nd1e598" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e601"><seg type="qs">Contra hoc</seg>, etc., usque ad <seg type="qs">cui religato locus nocendi est ablatus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e610">
+          <head xml:id="gom-ps36-Hd1e612">Versus 36</head>
+          <p xml:id="gom-ps36-d1e614">
+            <quote xml:id="gom-ps36-Qd1e616" type="lemma" source="http://scta.info/resource/ps36_36@2-2">Transivi.</quote>
+            Mundum, meliori conversatione ad Deum tendens: et vidi nihil posse, cum nihil omnia sint in quibus homo gloriatur.
+          </p>
+          <p xml:id="gom-ps36-d1e620">
+            <quote xml:id="gom-ps36-Qd1e622" type="lemma" source="http://scta.info/resource/ps36_36@9-9">Quaesivi.</quote>
+            In memoriam reduxi: quia boni tunc magis dolent de impiis, quod ab eis sunt separati, cum in melius immutantur.
+          </p>
+          <p xml:id="gom-ps36-d1e626">
+            <quote xml:id="gom-ps36-Qd1e628" type="lemma" source="http://scta.info/resource/ps36_36@15-15">Locus.</quote>
+            Eorum mundus est, qui et dissolvetur.
+          </p>
+          <p xml:id="gom-ps36-d1e632">
+            <quote xml:id="gom-ps36-Qd1e634" type="lemma" source="http://scta.info/resource/ps36_36@2-2">Transivi.</quote>
+            <ref xml:id="gom-ps36-Rd1e637"><name xml:id="gom-ps36-Nd1e638" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps36-Qd1e641"><seg type="qs">Transit, qui praesentiam non <pb ed="#P" n="0898A"/> attendit, sed novissima</seg>, etc., usque ad <seg type="qs">cui haec virtus est, loco beati ponitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e652">
+          <head xml:id="gom-ps36-Hd1e654">Versus 37</head>
+          <p xml:id="gom-ps36-d1e656">
+            <quote xml:id="gom-ps36-Qd1e658" type="lemma" source="http://scta.info/resource/ps36_37@8-8">Reliquiae.</quote>
+            Bona quae post hanc vitam relinquentur, vel memoria bona post obitum.
+          </p>
+        </div>
+        <div xml:id="gom-ps36-Dd1e664">
+          <head xml:id="gom-ps36-Hd1e666">Versus 39</head>
+          <p xml:id="gom-ps36-d1e668">
+            <quote xml:id="gom-ps36-Qd1e670" type="lemma" source="http://scta.info/resource/ps36_39@1-5">Salus autem justorum a Domino.</quote>
+            Haec omnia justis, totum tamen a Deo, et colligit summatim.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

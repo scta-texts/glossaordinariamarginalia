@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum II, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum II, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0613A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIreg4">
+        <head xml:id="gom-IIreg4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-IIreg4-Dd1e100">
+          <head xml:id="gom-IIreg4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIreg4-d1e104">
+            <quote xml:id="gom-IIreg4-Qd1e106" type="lemma" source="http://scta.info/resource/IIreg4_1@1-1">Mulier,</quote>
+            etc.
+            <ref xml:id="gom-IIreg4-Rd1e109"><name xml:id="gom-IIreg4-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg4-Qd1e113"><seg type="qs">Sancta Ecclesia duorum populorum, id est Judaici et Gentilis est mater, <pb ed="#P" n="0613B"/></seg> etc., usque ad <seg type="qs">Nam Abraham et Sara tres viros suscepit et pavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg4-Dd1e123">
+          <head xml:id="gom-IIreg4-Hd1e125">Versus 18</head>
+          <p xml:id="gom-IIreg4-d1e127">
+            <quote xml:id="gom-IIreg4-Qd1e129" type="lemma" source="http://scta.info/resource/IIreg4_18@1-2">Crevit autem.</quote>
+            <ref xml:id="gom-IIreg4-Rd1e132"><name xml:id="gom-IIreg4-Nd1e133" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg4-Qd1e136">Sic populus Israeliticus postquam in Aegypto excrevit, et per Moysen in desertum eductus Domini vocem audierat, quando lumine sententiae debuit illustrari, mox animo ad idololatriam recurrens mortuus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg4-Dd1e140">
+          <head xml:id="gom-IIreg4-Hd1e142">Versus 29</head>
+          <p xml:id="gom-IIreg4-d1e144">
+            <quote xml:id="gom-IIreg4-Qd1e146" type="lemma" source="http://scta.info/resource/IIreg4_29@1-2">Et ille.</quote>
+            <ref xml:id="gom-IIreg4-Rd1e149"><name xml:id="gom-IIreg4-Nd1e150" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIreg4-Qd1e153"><seg type="qs">Dum Dominus</seg>, etc., usque ad <seg type="qs">per amoris spiritum puer ad vitam rediit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg4-Dd1e162">
+          <head xml:id="gom-IIreg4-Hd1e164">Versus 38</head>
+          <p xml:id="gom-IIreg4-d1e166">
+            <quote xml:id="gom-IIreg4-Qd1e168" type="lemma" source="http://scta.info/resource/IIreg4_38@13-14">Filii prophetarum.</quote>
+            Id est praedicatorum qui ambulant in lege Domini, et scrutantur testimonia ejus, in praesentia Salvatoris semper vivunt.
+          </p>
+        </div>
+        <div xml:id="gom-IIreg4-Dd1e174">
+          <head xml:id="gom-IIreg4-Hd1e176">Versus 39</head>
+          <p xml:id="gom-IIreg4-d1e178">
+            <quote xml:id="gom-IIreg4-Qd1e180" type="lemma" source="http://scta.info/resource/IIreg4_39@27-27">Concidit.</quote>
+            <ref xml:id="gom-IIreg4-Rd1e183"><name xml:id="gom-IIreg4-Nd1e184" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg4-Qd1e187">Qui litterae legis intentus vel philosophiae studiosus amaritudinem de <pb ed="#P" n="0613C"/> lege vel mortiferum de philosophis sumens intermiscet veritati evangelicae, et in olla cordis coquens tale pulmentum, hoc est documentum praeparat auditoribus suis. Dicit enim Apostolus: <quote xml:id="gom-IIreg4-Qd1e191" source="http://scta.info/resource/IIcor3_6@13-18">Littera occidit, spiritus autem vivificat</quote>. Et: <quote xml:id="gom-IIreg4-Qd1e194" source="http://scta.info/resource/rom8_6@2-8">Prudentia carnis mors est; prudentia autem spiritus, vita</quote>. Hoc sentientes fideles, mortem in olla clamant; sed farina in olla mittitur, cum scientia spiritualis in tale condimentum intromittitur, ut exclusa amaritudine, pastus fiat salubris.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg4-Dd1e200">
+          <head xml:id="gom-IIreg4-Hd1e202">Versus 42</head>
+          <p xml:id="gom-IIreg4-d1e204">
+            <quote xml:id="gom-IIreg4-Qd1e206" type="lemma" source="http://scta.info/resource/IIreg4_42@1-2">Vir autem.</quote>
+            <ref xml:id="gom-IIreg4-Rd1e209"><name xml:id="gom-IIreg4-Nd1e210" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg4-Qd1e213">Vir coetus est patrum: qui de Baalalisa est, quia ternarium in confessione Trinitatis servat. Baalalisa enim tertium habens interpretatur. Hic vir viro Dei panes primitiarum offert; cum Redemptori gratia ejus inspiratus <pb ed="#P" n="0613D"/> offert libros de origine creaturarum compositos. Offert frumentum novum in pera; cum novum testamentum in Evangelii et apostolorum scriptis profert. Jubet Elisaeus noster ministris, id est praedicatoribus ut haec fidelibus dispensent, et de thesauro suo, proferant nova et vetera, quod mysterium in Evangelio legimus in fractione quinque et septem panum, ubi satiatis turbis collegerunt duodecim cophinos, sive septem sportas fragmentorum, quia nullus sacramenta Scripturae per omnia capit, quando sibi satiato supererit juxta verbum Domini.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

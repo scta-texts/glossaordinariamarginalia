@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieremias, Caput 49</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieremias, Caput 49</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0056A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ier49">
+        <head xml:id="gom-ier49-Hd1e98">Caput 49</head>
+        <div xml:id="gom-ier49-Dd1e100">
+          <head xml:id="gom-ier49-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ier49-d1e104">
+            <quote xml:id="gom-ier49-Qd1e106" type="lemma" source="http://scta.info/resource/ier49_1@1-2">Ad filios.</quote>
+            Post Moab ad filios Ammon verba vertuntur, et increpantur, quod ausi sunt terram Israel invadere, unde et eis ultio digna praenuntiatur, et Israel possessores suos praedicitur possessurus.
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e111">
+          <head xml:id="gom-ier49-Hd1e113">Versus 3</head>
+          <p xml:id="gom-ier49-d1e115">
+            <quote xml:id="gom-ier49-Qd1e117" type="lemma" source="http://scta.info/resource/ier49_3@8-9">Filiae Rabbath.</quote>
+            Metropolis Moabitarum, quae nunc Ariopolis dicitur, composito nomine ex Hebraeo et Graeco, quod <foreign xml:lang="greek">ἄρκος,</foreign> id est, Martis civitas vocetur.
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e125">
+          <head xml:id="gom-ier49-Hd1e127">Versus 6</head>
+          <p xml:id="gom-ier49-d1e129">
+            <pb ed="#P" n="0056B"/>
+            <quote xml:id="gom-ier49-Qd1e133" type="lemma" source="http://scta.info/resource/ier49_6@1-3">Et post haec.</quote>
+            Quia post conversionem haereticorum ad fidem rectam, captivitas peccati dissolvetur, recipientur in communionem Ecclesiae, unde exierant.
+          </p>
+          <p xml:id="gom-ier49-d1e137">
+            <quote xml:id="gom-ier49-Qd1e139" type="lemma" source="http://scta.info/resource/ier49_6">Et captivos.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Possumus per filios Ammon, qui de Loth in spelunca, et in ebrietate, et incestu generati sunt haereticos accipere, secundum illud, <quote xml:id="gom-ier49-Qd1e144" source="http://scta.info/resource/Iio2_19@1-8">Ex nobis exierunt, sed ex nobis non erant<!-- check: Migne cites io2; text matches Iio2_19 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e150">
+          <head xml:id="gom-ier49-Hd1e152">Versus 7</head>
+          <p xml:id="gom-ier49-d1e154">
+            <quote xml:id="gom-ier49-Qd1e156" type="lemma" source="http://scta.info/resource/ier49_7@1-2">Ad Idumaeam.</quote>
+            <ref xml:id="gom-ier49-Rd1e159"><name xml:id="gom-ier49-Nd1e160" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ier49-Qd1e163"><seg type="qs">Tropologice Idumaea terrena et carnea delectatio, quae consurgit adversus spiritum, ut non faciamus ea quae sunt spiritus, et animam</seg>, etc., usque ad <seg type="qs">Cum enim spiritui caro subjecta fuerit, Idumaea transibit in Judaeam, et caro serviet rationi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e173">
+          <head xml:id="gom-ier49-Hd1e175">Versus 9</head>
+          <p xml:id="gom-ier49-d1e177">
+            <quote xml:id="gom-ier49-Qd1e179" type="lemma" source="http://scta.info/resource/ier49_9@9-10">Si fures.</quote>
+            Haeretici qui furantur sufficientiam sibi, et quotidie aliquos de Ecclesia rapiunt, <pb ed="#P" n="0056C"/> ingredientes vineam Domini, quam de Aegypto transtulit, cupiunt universa populari, ut vix racemum in ea relinquant. Sed Dominus e contra omnia secreta eorum, et patriarcharum Esau (qui primas scilicet haereses invenerunt) viros ecclesiasticos et doctores profert in medium. Et prima illius victoria est patefacere quae tegebantur.
+          </p>
+          <p xml:id="gom-ier49-d1e185">
+            <quote xml:id="gom-ier49-Qd1e187" type="lemma" source="http://scta.info/resource/ier49_9">(HIER)</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-ier49-Qd1e192"><seg type="qs">. Contra Judaeos factus est sermo, qui Christianis invident</seg>, etc., usque ad <seg type="qs">ut mortificantes membra nostra (fornicationem, scilicet immunditiam, et hujusmodi) aeternam in Christo victoriam consequamur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e201">
+          <head xml:id="gom-ier49-Hd1e203">Versus 14</head>
+          <p xml:id="gom-ier49-d1e205">
+            <quote xml:id="gom-ier49-Qd1e207" type="lemma" source="http://scta.info/resource/ier49_14@2-2">Audivi.</quote>
+            Haec sententia in Abdia pene eisdem verbis continetur, et multa hujus capituli.
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e212">
+          <head xml:id="gom-ier49-Hd1e214">Versus 15</head>
+          <p xml:id="gom-ier49-d1e216">
+            <pb ed="#P" n="0056D"/>
+            <quote xml:id="gom-ier49-Qd1e220" type="lemma" source="http://scta.info/resource/ier49_15@1-2">Ecce enim.</quote>
+            <ref xml:id="gom-ier49-Rd1e223"><name xml:id="gom-ier49-Nd1e224" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ier49-Qd1e227"><seg type="qs">Quasi dicat: O Edom, qui minor es inter omnes in circuitu nationes</seg>, etc., usque ad <seg type="qs">inde te detraherem, et ad terram reducerem caeterarum gentium.</seg></quote>
+          </p>
+          <p xml:id="gom-ier49-d1e235">
+            <quote xml:id="gom-ier49-Qd1e237" type="lemma" source="http://scta.info/resource/ier49_15@3-7">Parvulum dedi te in gentibus.</quote>
+            O haeretice, licet magnus tibi videaris, et contemnas parvitatem Ecclesiae, parvus tamen es et contemptibilis.
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e242">
+          <head xml:id="gom-ier49-Hd1e244">Versus 16</head>
+          <p xml:id="gom-ier49-d1e246">
+            <quote xml:id="gom-ier49-Qd1e248" type="lemma" source="http://scta.info/resource/ier49_16@19-20">Cum exaltaveris,</quote>
+            etc.
+            <ref xml:id="gom-ier49-Rd1e251"><name xml:id="gom-ier49-Nd1e252" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ier49-Qd1e255"><seg type="qs">Quia haeretici altitudinem et similitudinem aquilarum pollicentur sibi, quae ad cadaver Dominicum congregantur</seg>, etc., usque ad <seg type="qs">Quod autem contra haereticos et carnem dictum est, contra Judaeos quoque intelligi potest.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e264">
+          <head xml:id="gom-ier49-Hd1e266">Versus 19</head>
+          <p xml:id="gom-ier49-d1e268">
+            <quote xml:id="gom-ier49-Qd1e270" type="lemma" source="http://scta.info/resource/ier49_19@1-3">Ecce quasi leo.</quote>
+            <ref xml:id="gom-ier49-Rd1e273"><name xml:id="gom-ier49-Nd1e274" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-ier49-Qd1e277"><seg type="qs">Sicut Dominus castigavit superbiam Judaeorum, quos per Jordanem, <pb ed="#P" n="0057A"/></seg> etc., usque ad <seg type="qs">sed leo saevissimus in tartarum eos perpetuo cruciandos detrudet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e287">
+          <head xml:id="gom-ier49-Hd1e289">Versus 21</head>
+          <p xml:id="gom-ier49-d1e291">
+            <quote xml:id="gom-ier49-Qd1e293" type="lemma" source="http://scta.info/resource/ier49_21@1-3">A voce ruinae,</quote>
+            etc. Veniente vastatore, strepitus ruinae eorum longe lateque resonabit, terrorem incutiens vicinis provinciis.
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e299">
+          <head xml:id="gom-ier49-Hd1e301">Versus 23</head>
+          <p xml:id="gom-ier49-d1e303">
+            <quote xml:id="gom-ier49-Qd1e305" type="lemma" source="http://scta.info/resource/ier49_23@3-4">Confusa est.</quote>
+            <ref xml:id="gom-ier49-Rd1e308"><name xml:id="gom-ier49-Nd1e309" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ier49-Qd1e312"><seg type="qs">Post Philisthaeos, Moabitas, Ammonitas quoque et Idumaeos, ad Damascum, id est, Arabiam</seg>, etc., usque ad <seg type="qs">cum enim captus est populus Judaeorum, Damascus, cui imperabat Aretha, similiter capta est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e321">
+          <head xml:id="gom-ier49-Hd1e323">Versus 24</head>
+          <p xml:id="gom-ier49-d1e325">
+            <quote xml:id="gom-ier49-Qd1e327" type="lemma" source="http://scta.info/resource/ier49_24@1-1">Dissoluta.</quote>
+            <quote xml:id="gom-ier49-Qd1e330"><seg type="qs">Damascus interpretatur <mentioned>poculum sanguinis</mentioned>, aut <mentioned>sanguinem bibens</mentioned>, aut <mentioned>sanguis cilicii</mentioned>; quae omnia ethnicis conveniunt</seg>, etc., usque ad <seg type="qs">Quomodo enim acervus lapidum de dispersis lapidibus cumulatur: sic de omnibus nationibus <pb ed="#P" n="0057B"/> acervus credentium congregatur in ruina Judaeorum cadentium dum gentes surgunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e347">
+          <head xml:id="gom-ier49-Hd1e349">Versus 28</head>
+          <p xml:id="gom-ier49-d1e351">
+            <quote xml:id="gom-ier49-Qd1e353" type="lemma" source="http://scta.info/resource/ier49_28@1-2">Ad Cedar.</quote>
+            Hi Agareni sunt, sed usurpato nomine Saraceni vocantur, et habitant per solitudinem totam, de quibus poeta dicit: <quote xml:id="gom-ier49-Qd1e356">Lateque vagantes Agi.</quote>
+          </p>
+          <p xml:id="gom-ier49-d1e359">
+            <quote xml:id="gom-ier49-Qd1e361" type="lemma" source="http://scta.info/resource/ier49_28">(RAB)</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-ier49-Qd1e366"><seg type="qs">. Mystice. Cedar, quod interpretatur <mentioned>tenebrae</mentioned>, et Asor</seg>, etc., usque ad <seg type="qs">qui se simulant filios Orientis, cum sint tenebrarum filii.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e377">
+          <head xml:id="gom-ier49-Hd1e379">Versus 29</head>
+          <p xml:id="gom-ier49-d1e381">
+            <quote xml:id="gom-ier49-Qd1e383" type="lemma" source="http://scta.info/resource/ier49_29@1-1">Tabernacula.</quote>
+            Haec omnia Saracenorum proprie gentem significant, qui in tentoriis manent, et ubi nox coegerit sedes habent, et armenta multa, et pecora, camelorumque greges; sed non habent ostia, nec vectes, non enim versantur in urbibus, sed in solitudine. Hi omnes a Babyloniis <pb ed="#P" n="0057C"/> sunt deleti.
+          </p>
+        </div>
+        <div xml:id="gom-ier49-Dd1e390">
+          <head xml:id="gom-ier49-Hd1e392">Versus 35</head>
+          <p xml:id="gom-ier49-d1e394">
+            <quote xml:id="gom-ier49-Qd1e396" type="lemma" source="http://scta.info/resource/ier49_35@5-7">Ecce ego confringam,</quote>
+            etc.
+            <ref xml:id="gom-ier49-Rd1e399"><name xml:id="gom-ier49-Nd1e400" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ier49-Qd1e403"><seg type="qs">Elam regio Persidis, unde Elamitae. Praedicit enim propheta</seg>, etc., usque ad <seg type="qs">Elamitae quoque <mentioned>despicientes</mentioned> vel <mentioned>tentantes</mentioned> interpretantur, et significant persecutores Ecclesiae.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

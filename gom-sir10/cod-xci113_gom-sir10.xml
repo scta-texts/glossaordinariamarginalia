@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1194C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir10">
+        <head xml:id="gom-sir10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-sir10-Dd1e100">
+          <head xml:id="gom-sir10-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir10-d1e104">
+            <pb ed="#P" n="1194C"/>
+            <quote xml:id="gom-sir10-Qd1e108" type="lemma" source="http://scta.info/resource/sir10_1@1-2">Judex sapiens,</quote>
+            etc.
+            <ref xml:id="gom-sir10-Rd1e111"><name xml:id="gom-sir10-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir10-Qd1e115">Factus est principatus super humerum ejus. Unde: <quote xml:id="gom-sir10-Qd1e117" source="http://scta.info/resource/qoh10_16@1-8">Vae terrae cujus rex puer est<!-- check: Migne cites is9; text matches qoh10_16 --></quote>, diabolus, scilicet qui semper diligit novitates, et principes cujus primo mane comedunt, id est, ante diem mortis, dicentes: <quote xml:id="gom-sir10-Qd1e121" source="http://scta.info/resource/is22_13@17-21">Manducemus et bibamus, cras enim moriemur</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e127">
+          <head xml:id="gom-sir10-Hd1e129">Versus 5</head>
+          <p xml:id="gom-sir10-d1e131">
+            <quote xml:id="gom-sir10-Qd1e133" type="lemma" source="http://scta.info/resource/sir10_5@7-9">Super faciem scribae.</quote>
+            <ref xml:id="gom-sir10-Rd1e136"><name xml:id="gom-sir10-Nd1e137" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir10-Qd1e140">Lingua mea calamus scribae, velociter scribentis, quia vice sua mittit ad praedicandum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e144">
+          <head xml:id="gom-sir10-Hd1e146">Versus 8</head>
+          <p xml:id="gom-sir10-d1e148">
+            <quote xml:id="gom-sir10-Qd1e150" type="lemma" source="http://scta.info/resource/sir10_8@1-3">Regnum a gente.</quote>
+            <ref xml:id="gom-sir10-Rd1e153"><name xml:id="gom-sir10-Nd1e154" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir10-Qd1e157"><seg type="qs">Hoc fere omnes</seg> etc., usque ad: <seg type="qs"><quote xml:id="gom-sir10-Qd1e162" source="http://scta.info/resource/mt21_43@5-15">auferetur a vobis regnum Dei, et dabitur genti facienti fructum ejus</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e168">
+          <head xml:id="gom-sir10-Hd1e170">Versus 9</head>
+          <p xml:id="gom-sir10-d1e172">
+            <pb ed="#P" n="1194D"/>
+            <quote xml:id="gom-sir10-Qd1e176" type="lemma" source="http://scta.info/resource/sir10_9@1-1">Avaro.</quote>
+            Post mutationem regni agit de avaritia, pro qua vis regiminis maxime negligitur: <quote xml:id="gom-sir10-Qd1e179" source="http://scta.info/resource/Itim6_10@1-6">Radix enim omnium malorum cupiditas</quote>. Avaritiam autem superbia comitatur, unde, <quote xml:id="gom-sir10-Qd1e182">Praecipe divitibus non altum sapere</quote><ref xml:id="gom-sir10-Rd1e183"><name xml:id="gom-sir10-Nd1e184" ref="#RabanusMaurus">Ibid.</name></ref><!-- check: attribution inside gloss body -->.
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e191">
+          <head xml:id="gom-sir10-Hd1e193">Versus 12</head>
+          <p xml:id="gom-sir10-d1e195">
+            <quote xml:id="gom-sir10-Qd1e197" type="lemma" source="http://scta.info/resource/sir10_12@6-9">Et rex hodie est.</quote>
+            Potestas et divitiae non possunt prolongare vitam. Positus est terminus qui praeteriri non potest. Jucunditas carnis convertetur in putredinem et foetores, et tandem in vermes. Mystice autem homo, qui in peccatis vivit et non resipiscit, morietur aeterna morte: et diabolum serpentem antiquum et bestias ejus, id est, daemones non evadet.
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e202">
+          <head xml:id="gom-sir10-Hd1e204">Versus 14</head>
+          <p xml:id="gom-sir10-d1e206">
+            <quote xml:id="gom-sir10-Qd1e208" type="lemma" source="http://scta.info/resource/sir10_14@1-2">Initium superbiae.</quote>
+            Non est enim major <pb ed="#P" n="1195A"/> apostasia quam creaturam a Creatore recedere, quae merito ascribitur superbiae. Superbia enim est si creatura velit aequari Creatori. Haec et diabolo et homini fuit initium perditionis: unde, <quote xml:id="gom-sir10-Qd1e213" source="http://scta.info/resource/sir10_15@10-14">Quoniam initium omnis peccati est superbia.</quote> Quamvis alibi dicatur: <quote xml:id="gom-sir10-Qd1e216" source="http://scta.info/resource/Itim6_10@1-6">Radix omnium malorum cupiditas</quote>. Non est cupiditas sine superbia, nemo enim superbus nisi cupidus et econverso. De superbia nascuntur haereses, schismata, detractiones, invidia, verbositas, jactantia, contentiones et hujusmodi, quae ex cupiditate procedunt. Gulosos vero, intemperantes, ebriosos, fornicarios et hujusmodi cupiditas facit, quae sine superbia esse non possunt. Caveamus ergo cupiditatem et superbiam, non duo mala, sed unum a quo omnia trahunt initium.
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e221">
+          <head xml:id="gom-sir10-Hd1e223">Versus 19</head>
+          <p xml:id="gom-sir10-d1e225">
+            <pb ed="#P" n="1195B"/>
+            <quote xml:id="gom-sir10-Qd1e229" type="lemma" source="http://scta.info/resource/sir10_19@1-1">Terras.</quote>
+            <ref xml:id="gom-sir10-Rd1e232"><name xml:id="gom-sir10-Nd1e233" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir10-Qd1e236"><seg type="qs">Quando Jerusalem per Romanos</seg>, etc., usque ad <seg type="qs">deleta est posteritas eorum, et gloria martyrum exaltata est; unde: <quote xml:id="gom-sir10-Qd1e242" source="http://scta.info/resource/ps144_20@1-9">Custodit Dominus omnes diligentes se, et omnes peccatores disperdet</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e248">
+          <head xml:id="gom-sir10-Hd1e250">Versus 22</head>
+          <p xml:id="gom-sir10-d1e252">
+            <quote xml:id="gom-sir10-Qd1e254" type="lemma" source="http://scta.info/resource/sir10_22@1-3">Non est creata.</quote>
+            <ref xml:id="gom-sir10-Rd1e257"><name xml:id="gom-sir10-Nd1e258" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir10-Qd1e261"><seg type="qs">Vitia non sunt creata</seg>, etc., usque ad <seg type="qs">surgit iracundia, quam virtutis superat constantia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e270">
+          <head xml:id="gom-sir10-Hd1e272">Versus 23</head>
+          <p xml:id="gom-sir10-d1e274">
+            <quote xml:id="gom-sir10-Qd1e276" type="lemma" source="http://scta.info/resource/sir10_23@1-3">Semen hominum honorabitur.</quote>
+            Doctores sancti in honore sunt apud bonos, maxime qui timent Dominum: unde, <quote xml:id="gom-sir10-Qd1e279" source="http://scta.info/resource/Itim5_17@1-8">Qui bene praesunt presbyteri, duplici honore digni habeantur</quote>, etc.
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e284">
+          <head xml:id="gom-sir10-Hd1e286">Versus 25</head>
+          <p xml:id="gom-sir10-d1e288">
+            <quote xml:id="gom-sir10-Qd1e290" type="lemma" source="http://scta.info/resource/sir10_25@1-2">Gloria divitum,</quote>
+            etc. Vere gloria est timere Deum. Qui eum timet, justitiam servat in omnibus: unde, <quote xml:id="gom-sir10-Qd1e293" source="http://scta.info/resource/iac2_1@3-8">Nolite in personarum acceptione Jesu <pb ed="#P" n="1195C"/> fidem habere</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e301">
+          <head xml:id="gom-sir10-Hd1e303">Versus 27</head>
+          <p xml:id="gom-sir10-d1e305">
+            <quote xml:id="gom-sir10-Qd1e307" type="lemma" source="http://scta.info/resource/sir10_27@1-3">Magnus est judex.</quote>
+            Licet potestas terrena magna sit, timentem Dominum praecellere non valet: timentibus enim Deum, nihil deest, <quote xml:id="gom-sir10-Qd1e310" source="http://scta.info/resource/ps33_11@1-4">Divites autem eguerunt et esurierunt</quote>, etc.
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e315">
+          <head xml:id="gom-sir10-Hd1e317">Versus 28</head>
+          <p xml:id="gom-sir10-d1e319">
+            <quote xml:id="gom-sir10-Qd1e321" type="lemma" source="http://scta.info/resource/sir10_28@1-2">Servo sensato.</quote>
+            Hoc ad litteram saepe evenit, ut ignobilis genere nobilitatis scientia et fide, nobilibus praeferatur: unde, <quote xml:id="gom-sir10-Qd1e324" source="http://scta.info/resource/prov17_2@1-5">Servus sapiens dominabitur filiis stultis</quote>. Mystice autem servus ecclesiasticus, qui devote servat religionem Christianam, praeponitur Synagogae; unde, <quote xml:id="gom-sir10-Qd1e327" source="http://scta.info/resource/rom9_12@11-13">Major serviet minori.</quote> Et, <quote xml:id="gom-sir10-Qd1e330" source="http://scta.info/resource/rom9_13@4-9">Jacob dilexi, Esau autem odio habui<!-- check: Migne cites gen25; text matches rom9_13 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir10-Dd1e336">
+          <head xml:id="gom-sir10-Hd1e338">Versus 30</head>
+          <p xml:id="gom-sir10-d1e340">
+            <quote xml:id="gom-sir10-Qd1e342" type="lemma" source="http://scta.info/resource/sir10_30@1-2">Melior est.</quote>
+            Quasi dicat: Melius est, ut studeas semper in bono opere laborare, unde <pb ed="#P" n="1195D"/> reddatur tibi merces justitiae, quam ut consumas dies tuos in vanitate, et egeas illo pane, qui de coelo descendit. Qui in timore Dei, et observantia religionis, statuet gloriam suam: unde, <quote xml:id="gom-sir10-Qd1e347" source="http://scta.info/resource/IIcor10_17@1-6">Qui gloriatur, in Domino glorietur</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

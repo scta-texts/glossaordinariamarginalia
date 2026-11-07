@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 16</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 16</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0866A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps16">
+        <head xml:id="gom-ps16-Hd1e98">Psalmus 16</head>
+        <div xml:id="gom-ps16-Dd1e100">
+          <head xml:id="gom-ps16-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps16-d1e104">
+            <quote xml:id="gom-ps16-Qd1e106" type="lemma" source="http://scta.info/resource/ps16_1@1-2">Oratio David.</quote>
+            <ref xml:id="gom-ps16-Rd1e109"><name xml:id="gom-ps16-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e113">Oratio personae Domini convenit, adjuncta Ecclesia, quae ejus corpus est.</quote>
+          </p>
+          <p xml:id="gom-ps16-d1e116">
+            <quote xml:id="gom-ps16-Qd1e118" type="lemma" source="http://scta.info/resource/ps16_1@3-4">Exaudi, Domine.</quote>
+            <ref xml:id="gom-ps16-Rd1e121"><name xml:id="gom-ps16-Nd1e122" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e125">Iste psalmus veram naturam humanitatis facit attendere. Oratio Christi institutio est fidelium: sicut flendo Lazarum charitatem proximi habere nos docuit; persecutores fugit, ut inconsideratae temeritatis nobis auferret audaciam. Primo, petit secundum justitiam sibi retribui.</quote>
+          </p>
+          <p xml:id="gom-ps16-d1e128">
+            <quote xml:id="gom-ps16-Qd1e130" type="lemma" source="http://scta.info/resource/ps16_1@15-18">Non in labiis dolosis.</quote>
+            Ut qui inique damnatur; vel, ut qui dicit: Domine, Domine, et non facit opera.
+          </p>
+          <p xml:id="gom-ps16-d1e134">
+            <ref xml:id="gom-ps16-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/ps16_1@15-18"/>
+            <ref xml:id="gom-ps16-Rd1e138"><name xml:id="gom-ps16-Nd1e139" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e142">Vel, non in labiis dolosis de vultu tuo judicium meum prodeat, ut judicans non proferam <pb ed="#P" n="0866B"/> aliud quam intelligo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e149">
+          <head xml:id="gom-ps16-Hd1e151">Versus 2</head>
+          <p xml:id="gom-ps16-d1e153">
+            <quote xml:id="gom-ps16-Qd1e155" type="lemma" source="http://scta.info/resource/ps16_2@1-3">De vultu tuo.</quote>
+            <ref xml:id="gom-ps16-Rd1e158"><name xml:id="gom-ps16-Nd1e159" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e162">Id est, secundum ea quae in me cognoscis, qui nullum habeo peccatum.</quote>
+          </p>
+          <p xml:id="gom-ps16-d1e165">
+            <quote xml:id="gom-ps16-Qd1e167" type="lemma" source="http://scta.info/resource/ps16_2@4-4">Judicium.</quote>
+            Quo sui judicatus videatur prodisse.
+          </p>
+          <p xml:id="gom-ps16-d1e171">
+            <quote xml:id="gom-ps16-Qd1e173" type="lemma" source="http://scta.info/resource/ps16_2@1-3">De vultu tuo,</quote>
+            non de dispositione Judaeorum, quod factum patet in resurrectione. Vel, <quote xml:id="gom-ps16-Qd1e176" source="http://scta.info/resource/ps16_2@4-4">judicium,</quote> quo discernit omnia.
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e181">
+          <head xml:id="gom-ps16-Hd1e183">Versus 3</head>
+          <p xml:id="gom-ps16-d1e185">
+            <quote xml:id="gom-ps16-Qd1e187" type="lemma" source="http://scta.info/resource/ps16_3@1-1">Probasti.</quote>
+            <ref xml:id="gom-ps16-Rd1e190"><name xml:id="gom-ps16-Nd1e191" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e194"><seg type="qs">A similitudine fornacis</seg>, etc., usque ad <seg type="qs">tu scis me purum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e203">
+          <head xml:id="gom-ps16-Hd1e205">Versus 4</head>
+          <p xml:id="gom-ps16-d1e207">
+            <quote xml:id="gom-ps16-Qd1e209" type="lemma" source="http://scta.info/resource/ps16_4@15-16">Vias duras.</quote>
+            <ref xml:id="gom-ps16-Rd1e212"><name xml:id="gom-ps16-Nd1e213" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e216">Scilicet opera hominum: quas scilicet merentur opera hominum. Vel quas debent imitari homines, quibus iter vitiorum leve est, virtutum difficile. Vel, non est inventa, ita ut non loquatur, id est, ut non jactanter haec dicam, vel, ut non peccem in lingua, quod est opus hominum. <pb ed="#P" n="0866C"/></quote>
+          </p>
+          <p xml:id="gom-ps16-d1e221">
+            <ref xml:id="gom-ps16-Rd1e223" type="lemma" subtype="implied" target="http://scta.info/resource/ps16_4@15-16"/>
+            <ref xml:id="gom-ps16-Rd1e225"><name xml:id="gom-ps16-Nd1e226" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e229"><seg type="qs">Vel, vias duras latronis</seg>, etc., usque ad <seg type="qs">postquam perrexi vias duras et perfeci gressus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e239">
+          <head xml:id="gom-ps16-Hd1e241">Versus 5</head>
+          <p xml:id="gom-ps16-d1e243">
+            <quote xml:id="gom-ps16-Qd1e245" type="lemma" source="http://scta.info/resource/ps16_5@1-1">Perfice.</quote>
+            <ref xml:id="gom-ps16-Rd1e248"><name xml:id="gom-ps16-Nd1e249" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e252">Usque in finem: ante non est nisi inchoatio. Gressus, id est, humanas actiones, ut qui volunt imitari non moveantur a te, vel vestigia ab eis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e256">
+          <head xml:id="gom-ps16-Hd1e258">Versus 6</head>
+          <p xml:id="gom-ps16-d1e260">
+            <quote xml:id="gom-ps16-Qd1e262" type="lemma" source="http://scta.info/resource/ps16_6@1-2">Ego clamavi.</quote>
+            <ref xml:id="gom-ps16-Rd1e265"><name xml:id="gom-ps16-Nd1e266" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e269">Secundo, precatur ut a Judaeorum insidiis ejus puritas liberetur. Ego etiam clamavi, quasi diceres, hoc non nisi justo convenit, qui confidenter orat, quia scit audiri.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e273">
+          <head xml:id="gom-ps16-Hd1e275">Versus 7</head>
+          <p xml:id="gom-ps16-d1e277">
+            <quote xml:id="gom-ps16-Qd1e279" type="lemma" source="http://scta.info/resource/ps16_7@1-1">Mirifica.</quote>
+            <ref xml:id="gom-ps16-Rd1e282"><name xml:id="gom-ps16-Nd1e283" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e286">Mira, sunt quae nova sunt: haec sunt quae in carne cessit mirantibus Judaeis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e290">
+          <head xml:id="gom-ps16-Hd1e292">Versus 8</head>
+          <p xml:id="gom-ps16-d1e294">
+            <quote xml:id="gom-ps16-Qd1e296" type="lemma" source="http://scta.info/resource/ps16_8@7-7">Pupillam.</quote>
+            Perexigua est, et tamen per eam acies luminis dirigitur, quo lux et tenebrae dijudicantur, <pb ed="#P" n="0866D"/> sicut per humanitatem Christi divinitas discernens est inter bonos et malos.
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e303">
+          <head xml:id="gom-ps16-Hd1e305">Versus 10</head>
+          <p xml:id="gom-ps16-d1e307">
+            <quote xml:id="gom-ps16-Qd1e309" type="lemma" source="http://scta.info/resource/ps16_10@1-1">Adipem.</quote>
+            <ref xml:id="gom-ps16-Rd1e312"><name xml:id="gom-ps16-Nd1e313" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e316">A similitudine animalium, quae ex adipe inflantur, id est, superbiam retinuerunt, non macri, id est, non humiles, vel adipem, id est, carnalem sensum retinuerunt, vel sceleribus saginati veram intelligentiam perdiderunt, unde restat superba loqui.</quote>
+          </p>
+          <p xml:id="gom-ps16-d1e319">
+            <quote xml:id="gom-ps16-Qd1e321" type="lemma" source="http://scta.info/resource/ps16_10@5-9">Os eorum locutum est superbiam.</quote>
+            Non cor, quia saepe iniqui quod ore defendunt, corde damnant.
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e326">
+          <head xml:id="gom-ps16-Hd1e328">Versus 12</head>
+          <p xml:id="gom-ps16-d1e330">
+            <quote xml:id="gom-ps16-Qd1e332" type="lemma" source="http://scta.info/resource/ps16_12@1-2">Susceperunt me,</quote>
+            etc.
+            <ref xml:id="gom-ps16-Rd1e335"><name xml:id="gom-ps16-Nd1e336" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e339">Unde eis haec opportunitas? Respondeo susceperunt a Deo cujus dispositio est, vel, a traditore, vel, a judice acceperunt avide.</quote>
+          </p>
+          <p xml:id="gom-ps16-d1e342">
+            <quote xml:id="gom-ps16-Qd1e344" type="lemma" source="http://scta.info/resource/ps16_12@3-5">Sicut leo paratus,</quote>
+            etc.
+            <ref xml:id="gom-ps16-Rd1e347"><name xml:id="gom-ps16-Nd1e348" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps16-Qd1e352"><pb ed="#P" n="0867A"/> Principes comparandi leoni diabolo, quo auctore faciunt: Populus <quote xml:id="gom-ps16-Qd1e355" source="http://scta.info/resource/ps16_12@10-11">catulus leonis,</quote> id est, filius diaboli, <quote xml:id="gom-ps16-Qd1e358" source="http://scta.info/resource/ps16_12@12-12">habitans,</quote> permanens in insidiis, quia mos est malis vota tegere, ut latenter possint perficere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e365">
+          <head xml:id="gom-ps16-Hd1e367">Versus 13</head>
+          <p xml:id="gom-ps16-d1e369">
+            <quote xml:id="gom-ps16-Qd1e371" type="lemma" source="http://scta.info/resource/ps16_13@1-2">Exsurge, Domine.</quote>
+            <ref xml:id="gom-ps16-Rd1e374"><name xml:id="gom-ps16-Nd1e375" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e378">De retributionibus oratio.</quote>
+          </p>
+          <p xml:id="gom-ps16-d1e381">
+            <quote xml:id="gom-ps16-Qd1e383" type="lemma" source="http://scta.info/resource/ps16_13@4-4">Praeveni,</quote>
+            etc.
+            <ref xml:id="gom-ps16-Rd1e386"><name xml:id="gom-ps16-Nd1e387" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e390">A similitudine currentis: nemo non prius in se quam in alium peccat.</quote>
+          </p>
+          <p xml:id="gom-ps16-d1e393">
+            <quote xml:id="gom-ps16-Qd1e395" type="lemma" source="http://scta.info/resource/ps16_13@7-8">Supplanta eum:</quote>
+            a similitudine luctantis, id est, inefficaces fac et dejice eos.
+          </p>
+          <p xml:id="gom-ps16-d1e399">
+            <quote xml:id="gom-ps16-Qd1e401" type="lemma" source="http://scta.info/resource/ps16_13@10-14">Eripe animam meam ab impio.</quote>
+            <ref xml:id="gom-ps16-Rd1e404"><name xml:id="gom-ps16-Nd1e405" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e408">Resuscitando a morte ab impiis illata.</quote>
+          </p>
+          <p xml:id="gom-ps16-d1e412">
+            <quote xml:id="gom-ps16-Qd1e414" type="lemma" source="http://scta.info/resource/ps16_13@16-16">Frameam.</quote>
+            Anima mea est framea; quam manus, id est, virtus tua assumpsit, ut per eam regna iniquitatis debellet, et justos dividat ab impiis.
+          </p>
+        </div>
+        <div xml:id="gom-ps16-Dd1e419">
+          <head xml:id="gom-ps16-Hd1e421">Versus 14</head>
+          <p xml:id="gom-ps16-d1e423">
+            <quote xml:id="gom-ps16-Qd1e425" type="lemma" source="http://scta.info/resource/ps16_14@10-11">Divide eos,</quote>
+            etc.,
+            <ref xml:id="gom-ps16-Rd1e428"><name xml:id="gom-ps16-Nd1e429" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e432"><seg type="qs">id est, Judaeos divisos</seg>, etc., usque ad <seg type="qs">miseria, quasi merito: quia, de absconditis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps16-d1e440">
+            <quote xml:id="gom-ps16-Qd1e442" type="lemma" source="http://scta.info/resource/ps16_14@16-17">De absconditis</quote>
+            <quote xml:id="gom-ps16-Qd1e445"><seg type="qs"><pb ed="#P" n="0867B"/> <quote xml:id="gom-ps16-Qd1e449" source="http://scta.info/resource/ps16_14@18-18">tuis.</quote> Id est, de immunditiis</seg>, etc., usque ad <seg type="qs">id est, ad satietatem usque malorum participes erunt.</seg></quote>
+          </p>
+          <p xml:id="gom-ps16-d1e457">
+            <quote xml:id="gom-ps16-Qd1e459" type="lemma" source="http://scta.info/resource/ps16_14@16-17">De absconditis.</quote>
+            <ref xml:id="gom-ps16-Rd1e462"><name xml:id="gom-ps16-Nd1e463" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps16-Qd1e466">Non solum eis haec poena visibilis, sed de absconditis, id est, peccatis (quae a lumine veritatis tuae absconduntur) plena est memoria eorum, ut obliviscantur Deum.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

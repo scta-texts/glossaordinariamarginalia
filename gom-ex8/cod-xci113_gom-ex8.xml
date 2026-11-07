@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0205C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex8">
+        <head xml:id="gom-ex8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-ex8-Dd1e100">
+          <head xml:id="gom-ex8-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ex8-d1e104">
+            <quote xml:id="gom-ex8-Qd1e106" type="lemma" source="http://scta.info/resource/ex8_2@5-11">Ecce ego percutiam omnes terminos tuos ranis,</quote>
+            etc.
+            <ref xml:id="gom-ex8-Rd1e109"><name xml:id="gom-ex8-Nd1e110">STRAB.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e112">Tria sunt genera ranarum: unum fluviale et vocale, alterum ejus quae calamita dicitur, de qua fertur quod si in os latrantis canis <pb ed="#P" n="0205D"/> projicitur, statim obmutescit; tertium ejus quae rubeta dicitur, eo quod in vepribus agat.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e118">
+            <ref xml:id="gom-ex8-Rd1e120" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_2@5-11"/>
+            <ref xml:id="gom-ex8-Rd1e122"><name xml:id="gom-ex8-Nd1e123" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e126">Ranae significant carmina poetarum, quae inani et inflata modulatione, velut ranarum sonis et cantibus, mundo deceptionis fabulas intulerunt: ad nihil enim animal illud utile est, nisi quod sonum vocis improbis et importunis clamoribus reddit.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e129">
+            <ref xml:id="gom-ex8-Rd1e131" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_2@5-11"/>
+            <ref xml:id="gom-ex8-Rd1e133"><name xml:id="gom-ex8-Nd1e134" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e137">Secundum praeceptum: <quote xml:id="gom-ex8-Qd1e139" source="http://scta.info/resource/ex20_7@1-8">Non accipies nomen Dei tui in vanum.</quote> Nomen Dei veritas est: ipse enim ait: <quote xml:id="gom-ex8-Qd1e142">Ego sum veritas.</quote> Qui loquitur veritatem, de Deo loquitur;</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e146">
+            <quote xml:id="gom-ex8-Qd1e148" type="lemma" source="http://scta.info/resource/ex8_2">qui</quote>
+            <!-- check: lemma not matched to verse text -->
+            enim <quote xml:id="gom-ex8-Qd1e153" source="http://scta.info/resource/io8_44@29-33">loquitur mendacium, de suo loquitur.</quote> Veritatem enim loqui est rationabiliter loqui: vanitatem loqui, strepere est. Secundum ergo <pb ed="#P" n="0206A"/> praeceptum est de dilectione veritatis, cui contraria est dilectio iniquitatis. Loquitur veritas, perstrepit vanitas. Huic contraria est secunda plaga, ranarum abundantia, quarum loquacitas vanitatem significat. Amatores veritatis non accipiunt nomen Dei in vanum, quia a veritate in vanitatem non recedunt. Qui autem veritati contradicunt, et vanitate decepti decipiunt, ranae sunt, taedium inferentes auribus, non cibum mentibus. Audi homines rationabiliter loquentes psal. XVIII: <quote xml:id="gom-ex8-Qd1e158" source="http://scta.info/resource/ps18_4@1-10">Non sunt loquelae neque sermones quorum non audiantur voces eorum.</quote> Audi ranas: <quote xml:id="gom-ex8-Qd1e162" source="http://scta.info/resource/ps11_3@1-7">Vana locuti sunt unusquisque ad proximum suum,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e167">
+          <head xml:id="gom-ex8-Hd1e169">Versus 7</head>
+          <p xml:id="gom-ex8-d1e171">
+            <quote xml:id="gom-ex8-Qd1e173" type="lemma" source="http://scta.info/resource/ex8_7@1-4">Fecerunt autem malefici,</quote>
+            etc.
+            <ref xml:id="gom-ex8-Rd1e176"><name xml:id="gom-ex8-Nd1e177" ref="#Augustine">AUG.</name>, quaest. 23.</ref>
+            <quote xml:id="gom-ex8-Qd1e181">Quaeritur unde, si jam ubique <pb ed="#P" n="0206B"/> factum erat. Sed similis quaestio est, unde aquam in sanguinem verterint, si jam tota aqua Aegypti in sanguinem versa fuerat? Sed intelligendum est regionem ubi filii Israel habitabant, talibus plagis non fuisse percussam, et inde potuerunt incantatores haurire aquam, quam in sanguinem verterent, vel ranas educere ad ostentationem magicae potentiae; quanquam potuerunt etiam, postquam illa compressa sunt, facere: sed Scriptura narrando conjunxit quod postea fieri potuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e188">
+          <head xml:id="gom-ex8-Hd1e190">Versus 10</head>
+          <p xml:id="gom-ex8-d1e192">
+            <quote xml:id="gom-ex8-Qd1e194" type="lemma" source="http://scta.info/resource/ex8_10@1-1">Qui</quote>
+            respondit: <quote xml:id="gom-ex8-Qd1e197" source="http://scta.info/resource/ex8_10@3-3">Cras.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e201">
+            <ref xml:id="gom-ex8-Rd1e203" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_10@1-1"/>
+            <ref xml:id="gom-ex8-Rd1e205"><name xml:id="gom-ex8-Nd1e206">THEOD.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e208">Pharao cum scire vellet an Moysi et Aaron preces aliquid apud Deum valerent (illos enim per noctem quiescere existimabat), ait: <quote xml:id="gom-ex8-Qd1e210" source="http://scta.info/resource/ex8_10@3-3">Cras,</quote> ut ipsemet ad fluvium profectus, videret an ranae cessassent. <pb ed="#P" n="0206C"/> Quamobrem Deus, ut Mosi crederetur, non tantum eo ipso tempore quo Moses constituerat, ranas cessare fecit, sed et eas quae in terra erant interire jussit, ut ne easdem rediisse existimarent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e218">
+          <head xml:id="gom-ex8-Hd1e220">Versus 15</head>
+          <p xml:id="gom-ex8-d1e222">
+            <quote xml:id="gom-ex8-Qd1e224" type="lemma" source="http://scta.info/resource/ex8_15@1-3">Videns autem Pharao,</quote>
+            etc.
+            <ref xml:id="gom-ex8-Rd1e227"><name xml:id="gom-ex8-Nd1e228" ref="#Augustine">AUG.</name> Quaest. 24.</ref>
+            <quote xml:id="gom-ex8-Qd1e232"><seg type="qs">Hic apparet non ideo tantum Pharaonem obduratum quod incantatores similia fecerunt</seg>, etc., usque ad <seg type="qs">non dixit munera, vel praemia, sed judicia tua.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e242">
+          <head xml:id="gom-ex8-Hd1e244">Versus 16</head>
+          <p xml:id="gom-ex8-d1e246">
+            <quote xml:id="gom-ex8-Qd1e248" type="lemma" source="http://scta.info/resource/ex8_16@8-9">Extende virgam,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-ex8-d1e252">
+            Mystice.
+          </p>
+          <p xml:id="gom-ex8-d1e254">
+            <ref xml:id="gom-ex8-Rd1e256" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_16@8-9"/>
+            Moses virga castigans Aegyptum legem significat, quae mundum decem plagis mandatorum corripit. Virga quoque per quam Aegyptus corrigitur, et Pharao superatur, crux Christi est, per quam mundus vincitur et diabolus superatur vel triumphatur. Virga projecta fit serpens, qui sapientiam significat, secundum <pb ed="#P" n="0206D"/> illud Matth. X: <quote xml:id="gom-ex8-Qd1e260" source="http://scta.info/resource/mt10_16@10-14">Estote prudentes sicut serpentes,</quote> etc. Virga serpentes magorum devoravit, et crux Christi, cujus praedicatio videtur stultitia, omnem sapientiam mundi superat. Unde: <quote xml:id="gom-ex8-Qd1e263" source="http://scta.info/resource/io5_46@9-13">De me enim ille scripsit</quote>. Virga in terram projecta versa est in serpentem, quia cum mysterium crucis ad fidem hominum venit, sapientiam mundi stultam fecit.
+          </p>
+          <p xml:id="gom-ex8-d1e267">
+            <quote xml:id="gom-ex8-Qd1e269" type="lemma" source="http://scta.info/resource/ex8_16@15-17">Et sint sciniphes,</quote>
+            etc.
+            <ref xml:id="gom-ex8-Rd1e272"><name xml:id="gom-ex8-Nd1e273" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e276">Hoc animal pennis suspenditur per aera volitans, sed ita subtile et minutum, ut oculi visum, nisi acute cernentis, effugiat. Corpus tamen cum insederit, acerbissimo terebrat stimulo, ut quem volantem videre quis non valet, sentiat stimulantem. Hoc ergo animal arti dialecticae <pb ed="#P" n="0207A"/> comparatur, quae minutis et subtilibus verborum stimulis animas terebrat, et tanta calliditate circum venit, ut deceptus nec videat nec intelligat unde decipiatur.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e283">
+            <ref xml:id="gom-ex8-Rd1e285" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_16@15-17"/>
+            <ref xml:id="gom-ex8-Rd1e287"><name xml:id="gom-ex8-Nd1e288" ref="#RabanusMaurus">RAB.</name></ref>
+          </p>
+          <p xml:id="gom-ex8-d1e292">
+            Moraliter.
+          </p>
+          <p xml:id="gom-ex8-d1e294">
+            <ref xml:id="gom-ex8-Rd1e296" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_16@15-17"/>
+            Tertium praeceptum: <quote xml:id="gom-ex8-Qd1e298" source="http://scta.info/resource/ex20_8@1-5">Memento diem sabbati sanctificare.</quote> Quo insinuatur vacatio et tranquillitas mentis, quam bona conscientia facit. Ibi sanctificatio, quia ibi Spiritus Dei. Unde: <quote xml:id="gom-ex8-Qd1e301">Super quem requiescet Spiritus meus nisi super humilem et quietum?</quote> etc. <!--<note>(Isa. LXVI)</note>-->. Inquieti ergo a Spiritu sancto resiliunt, provocatores rixarum, amatores calumniarum, nec admittunt quietem sabbati spiritualis. Esto ergo mansuetus, non sit tumultus in corde tuo, volitantibus per corruptionem phantasmatibus et pungentibus te. Audi Deum dicentem psal. XLV: <quote xml:id="gom-ex8-Qd1e305" source="http://scta.info/resource/ps45_11@1-7">Vacate et <pb ed="#P" n="0207B"/> videte quoniam ego sum Deus.</quote> Tu per inquietudinem vacare non vis, et caecatus exigis videre quod non potes. Attende enim contrariam plagam: sciniphes nati sunt in terra Aegypti de limo, muscae scilicet minutissimae inquietissimae, inordinate volantes, in oculos ruentes, et negantes hominibus requiem; dum abiguntur, redeunt; sic phantasmata inquietorum. Praeceptum tene, plagam cave.
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e312">
+          <head xml:id="gom-ex8-Hd1e314">Versus 18</head>
+          <p xml:id="gom-ex8-d1e316">
+            <quote xml:id="gom-ex8-Qd1e318" type="lemma" source="http://scta.info/resource/ex8_18@12-13">Erantque sciniphes.</quote>
+            Sanguis est doctrina philosophorum: ranae, figmenta poetarum; sciniphes, sophismata dialecticorum: quae omnia mundum deceperunt.
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e323">
+          <head xml:id="gom-ex8-Hd1e325">Versus 19</head>
+          <p xml:id="gom-ex8-d1e327">
+            <quote xml:id="gom-ex8-Qd1e329" type="lemma" source="http://scta.info/resource/ex8_19@6-8">Digitus Dei est hic,</quote>
+            etc.
+            <ref xml:id="gom-ex8-Rd1e332"><name xml:id="gom-ex8-Nd1e333" ref="#IsidoreOfSeville">ISID.</name> ex Aug. ep. 119.</ref>
+            <quote xml:id="gom-ex8-Qd1e337">In tertio signo magi deficiunt, dicentes: <quote xml:id="gom-ex8-Qd1e339" source="http://scta.info/resource/ex8_19@6-8">Digitus Dei est:</quote> qui typum haereticorum et animositatem <pb ed="#P" n="0207C"/> habuerunt. Unde: <quote xml:id="gom-ex8-Qd1e344" source="http://scta.info/resource/IItim3_8@3-18">Sicut Jamnes et Mambres restiterunt Moysi, ita et hi resistunt veritati, homines mente corrupti, reprobi circa fidem,</quote> etc. <!--<note>(II Tim. III)</note>-->. Hi autem qui per mentis corruptionem inquieti fuerunt, in tertio signo defecerunt, fatentes sibi adversum Spiritum sanctum, qui erat in Mose. Tertio enim ponitur loco Spiritus, qui est digitus Dei: qui sicut placatus requiem praestat mitibus et humilibus corde, ita iratus immites et superbos per inquietudinem exagitat, quam muscae gravissimae significaverunt, sub quibus magi defecerunt, dicentes: <quote xml:id="gom-ex8-Qd1e349" source="http://scta.info/resource/ex8_19@6-8">Digitus Dei est hic,</quote> ne intelligant unde decipiantur.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e354">
+            <ref xml:id="gom-ex8-Rd1e356" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_19@6-8"/>
+            <ref xml:id="gom-ex8-Rd1e358"><name xml:id="gom-ex8-Nd1e359">STRAB.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e361">Notandum quia tertio signo victi sunt magi, quia omnis perfidia et mundana sapientia, vel philosophia, fide Trinitatis vincitur. Cum enim <pb ed="#P" n="0207D"/> philosophiam invenerint, et de machina totius mundi disputaverint, ad cognitionem Trinitatis pervenire nequiverunt. Per digitum Spiritus sanctus intelligitur, non quod minor sit Patre et Filio, sed quia in digito plurimae divisiones sunt, et per Spiritum sanctum datur divisio gratiarum.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e367">
+            <ref xml:id="gom-ex8-Rd1e369" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_19@6-8"/>
+            <ref xml:id="gom-ex8-Rd1e371"><name xml:id="gom-ex8-Nd1e372" ref="#Augustine">AUG.</name>, quaest. 25 in Exod., tom. III.</ref>
+            <quote xml:id="gom-ex8-Qd1e376"><seg type="qs">Quod dixerunt magi ad Pharaonem</seg>, etc., usque ad, <seg type="qs">quamvis de Filio non tacuerunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e385">
+          <head xml:id="gom-ex8-Hd1e387">Versus 20</head>
+          <p xml:id="gom-ex8-d1e389">
+            <quote xml:id="gom-ex8-Qd1e391" type="lemma" source="http://scta.info/resource/ex8_20@20-22">Haec dicit Dominus,</quote>
+            etc.
+            <ref xml:id="gom-ex8-Rd1e394"><name xml:id="gom-ex8-Nd1e395" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e398">Quartum praeceptum: <quote xml:id="gom-ex8-Qd1e400" source="http://scta.info/resource/ex20_12@1-6">Honora patrem tuum et matrem tuam.</quote> Huic contraria est quarta plaga, scilicet cynomyia, id est, canina musca: caninum est parentes non agnoscere; unde catuli eorum caeci nascuntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e406">
+          <head xml:id="gom-ex8-Hd1e408">Versus 21</head>
+          <p xml:id="gom-ex8-d1e410">
+            <pb ed="#P" n="0208A"/>
+            <quote xml:id="gom-ex8-Qd1e414" type="lemma" source="http://scta.info/resource/ex8_21@23-25">Omne genus muscarum.</quote>
+            <ref xml:id="gom-ex8-Rd1e417"><name xml:id="gom-ex8-Nd1e418" ref="#IsidoreOfSeville">ISID.</name></ref>
+          </p>
+          <p xml:id="gom-ex8-d1e422">
+            Mystice.
+          </p>
+          <p xml:id="gom-ex8-d1e424">
+            <ref xml:id="gom-ex8-Rd1e426" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_21@23-25"/>
+            Quarto loco Aegyptus muscis percutitur. Musca autem insolens et inquietum animal est, in qua insolentes curae carnalium desideriorum figurantur. Aegyptus vero muscis percutitur, quia corda eorum qui saeculum diligunt, desideriorum inquietudinibus feriuntur. LXX: <mentioned>cynomyiam</mentioned>, id est, muscam caninam, posuerunt: per quam canini mores significantur, in quibus humanae mentis voluptas, et libido carnis arguitur. Potest etiam forensis eloquentia hominum significari per muscam caninam, qui velut canes alterutrum se lacerant.
+          </p>
+          <p xml:id="gom-ex8-d1e431">
+            <ref xml:id="gom-ex8-Rd1e433" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_21@23-25"/>
+            <ref xml:id="gom-ex8-Rd1e435"><name xml:id="gom-ex8-Nd1e436">PROCOP.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e438">Deus non magnis belluis utitur in expugnanda Aegypto, sed contemptissimarum bestiolarum et insectorum ministerium accersit: ne scilicet <pb ed="#P" n="0208B"/> illarum potentiae ascriberetur effectus. Abjectis illis et infirmis bestiolis tribuit vires inexpugnabiles, adeo ut desperet Aegyptus se posse illis bestiolis resistere, et clamitet: <quote xml:id="gom-ex8-Qd1e442" source="http://scta.info/resource/ex8_19@6-8">Digitus Dei hic est:</quote> Nam manum Dei non feret universus mundus conglobatus.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e448">
+            <ref xml:id="gom-ex8-Rd1e450" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_21@23-25"/>
+            <ref xml:id="gom-ex8-Rd1e452"><name xml:id="gom-ex8-Nd1e453" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e456">Cynomyia haereticorum [ <quote xml:id="gom-ex8-Qd1e458">Al.,</quote> Cynicorum] secta, qui ad reliquas deceptionis suae improbitates, voluptatem et libidinem summum praedicant bonum. Quoniam igitur per haec singula prius deceptus est mundus, merito adveniens sermo et lex Dei hujusmodi correptionibus arguit, ut ex qualitate poenarum qualitates proprii cognoscant erroris.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e463">
+          <head xml:id="gom-ex8-Hd1e465">Versus 22</head>
+          <p xml:id="gom-ex8-d1e467">
+            <quote xml:id="gom-ex8-Qd1e469" type="lemma" source="http://scta.info/resource/ex8_22@1-2">Faciamque mirabilem,</quote>
+            etc.
+            <ref xml:id="gom-ex8-Rd1e472"><name xml:id="gom-ex8-Nd1e473" ref="#Augustine">AUG.</name>, quaest. 26.</ref>
+            <quote xml:id="gom-ex8-Qd1e477">Hoc in prioribus signis intelligendum est <pb ed="#P" n="0208C"/> factum esse, ut terra in qua habitabat populus Dei nullis talibus plagis vexaretur. Opportunum autem fuit ut ibi hoc aperte poneretur; unde jam incipiunt signa, quibus magi similia non conati sunt facere. Pro certo est enim quia ubique fuerant sciniphes in regno Pharaonis, non autem fuerant in terra Gessen vel Gesen: ibi conati sunt magi similia facere, nec potuerunt: quousque ergo deficerent, nihil de illius terrae separatione dictum est, sed ex quo coeperunt ea fieri quae illi nec auderent conari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e485">
+          <head xml:id="gom-ex8-Hd1e487">Versus 24</head>
+          <p xml:id="gom-ex8-d1e489">
+            <quote xml:id="gom-ex8-Qd1e491" type="lemma" source="http://scta.info/resource/ex8_24@4-7">Et venit musca gravissima,</quote>
+            etc.
+            <ref xml:id="gom-ex8-Rd1e494"><name xml:id="gom-ex8-Nd1e495" ref="#Augustine">AUG.</name>, ibid.</ref>
+            <quote xml:id="gom-ex8-Qd1e499">Musca pro multitudine muscarum posita. Nescio enim quomodo per loquendi consuetudinem imbutis sensibus hominum: saepe plus videtur quod singulariter, quam quod pluraliter, dicitur; <pb ed="#P" n="0208D"/> verbi gratia: Est illic miles, quam sunt milites illic; est illic piscis, plus significat quam sunt illic pisces.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e506">
+          <head xml:id="gom-ex8-Hd1e508">Versus 26</head>
+          <p xml:id="gom-ex8-d1e510">
+            <quote xml:id="gom-ex8-Qd1e512" type="lemma" source="http://scta.info/resource/ex8_26@8-8">Abominationes.</quote>
+            Perversi abominantur bona Aegyptii, id est, cives hujus saeculi abominantur oves, id est, simplicitatem bonorum. Sicut enim boni abominantur mala, ita mali bona. Unde abominantur boni virum impium, et impii eos qui in recta sunt via.
+          </p>
+          <p xml:id="gom-ex8-d1e516">
+            <ref xml:id="gom-ex8-Rd1e518" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_26@8-8"/>
+            <ref xml:id="gom-ex8-Rd1e520"><name xml:id="gom-ex8-Nd1e521" ref="#Augustine">AUG.</name> Quaest. 28.</ref>
+            <quote xml:id="gom-ex8-Qd1e525">In eremum dicebat Moyses se velle ire ubi Aegyptii non viderent abominationes suas. Hoc autem intelligendum est mystice significari, quod de pastoribus diximus, qui erant Aegyptiis abominabiles: et ideo separatam terram Israelitae <pb ed="#P" n="0209A"/> receperunt in Aegypto. Sic enim sacrificia Israelitarum abominationes sunt Aegyptiis, sicut iniquis vita justorum.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e531">
+            Historice.
+          </p>
+          <p xml:id="gom-ex8-d1e533">
+            <ref xml:id="gom-ex8-Rd1e535" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_26@8-8"/>
+            <ref xml:id="gom-ex8-Rd1e537"><name xml:id="gom-ex8-Nd1e538">STRAB.</name></ref>
+            <quote xml:id="gom-ex8-Qd1e540">Aegyptii abominantur oves et eas adorant propter Jovem Ammonem, qui cum capite arietino pingitur. Item: bovem colunt Aegyptii, qui consecratus est Api, sicut vacca Isidi. Apis enim erat maximum numen Aegyptiorum, qui semel in anno certo tempore apparebat sacerdotibus eorum. Illi vero cum hymnis et laudibus eum prosequentes, quasi lymphatici prophetabant.</quote>
+          </p>
+          <p xml:id="gom-ex8-d1e544">
+            <ref xml:id="gom-ex8-Rd1e546" type="lemma" subtype="implied" target="http://scta.info/resource/ex8_26@8-8"/>
+            <ref xml:id="gom-ex8-Rd1e548"><name xml:id="gom-ex8-Nd1e549" ref="#GregoryGreat">GREG.</name>, lib. XVIII Moral., c. 28, tom. II.</ref>
+            <quote xml:id="gom-ex8-Qd1e553">Aegyptus muscis percutitur, etc., <quote xml:id="gom-ex8-Qd1e555" source="http://scta.info/resource/ps45_11@1-7">usque ad Vacate et videte, quoniam ego sum Deus.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex8-Dd1e560">
+          <head xml:id="gom-ex8-Hd1e562">Versus 32</head>
+          <p xml:id="gom-ex8-d1e564">
+            <quote xml:id="gom-ex8-Qd1e566" type="lemma" source="http://scta.info/resource/ex8_32@1-3">Et ingravatum est,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-ex8-d1e570">
+            <quote xml:id="gom-ex8-Qd1e572" type="lemma" source="http://scta.info/resource/ex8_32">(AUG., quaest. <pb ed="#P" n="0209B"/> 29.)</quote>
+            <!-- check: lemma not matched to verse text -->
+            Cum ablata esset locusta, dictum est de Pharaone: <quote xml:id="gom-ex8-Qd1e579">Ingravavit Pharao cor suum etiam in hoc tempore, et noluit dimittere populum.</quote> Certe nunc non dictum est, Ingravatum est cor Pharaonis, sed <quote xml:id="gom-ex8-Qd1e581" source="http://scta.info/resource/ex8_15@8-10">ingravavit Pharao cor suum.</quote> Sic utique in omnibus plagis. A voluntate hominis est origo vitiorum. Moventur autem causis corda hominum, alia sic, alia vero sic, etiam non diversis causis, saepe diverso modo, secundum proprias qualitates, quae ex voluntatibus veniunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

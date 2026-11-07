@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 23</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 23</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0466A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act23">
+        <head xml:id="gom-act23-Hd1e98">Caput 23</head>
+        <div xml:id="gom-act23-Dd1e100">
+          <head xml:id="gom-act23-Hd1e102">Versus 3</head>
+          <p xml:id="gom-act23-d1e104">
+            <quote xml:id="gom-act23-Qd1e106" type="lemma" source="http://scta.info/resource/act23_3@6-7">Percutiet te.</quote>
+            <ref xml:id="gom-act23-Rd1e109"><name xml:id="gom-act23-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act23-Qd1e113"><seg type="qs">Non dicit <quote xml:id="gom-act23-Qd1e116" source="http://scta.info/resource/act23_2@8-8">percutiat,</quote> quia prophetia est, non maledictio</seg>, etc., usque ad <seg type="qs">sed inspiratione divina dixit Apostolus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act23-Dd1e125">
+          <head xml:id="gom-act23-Hd1e127">Versus 5</head>
+          <p xml:id="gom-act23-d1e129">
+            <quote xml:id="gom-act23-Qd1e131" type="lemma" source="http://scta.info/resource/act23_5@4-5">Nesciebam, fratres.</quote>
+            Id est non cognoscebam esse Ananiam; vel subtiliter dicit se nescire principem, quia sacerdotium Judaeorum reprobatum est.
+          </p>
+        </div>
+        <div xml:id="gom-act23-Dd1e136">
+          <head xml:id="gom-act23-Hd1e138">Versus 9</head>
+          <p xml:id="gom-act23-d1e140">
+            <quote xml:id="gom-act23-Qd1e142" type="lemma" source="http://scta.info/resource/act23_9@19-20">Quid si spiritus?</quote>
+            <ref xml:id="gom-act23-Rd1e145"><name xml:id="gom-act23-Nd1e146" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act23-Qd1e149">Hic apparet juxta Hieronymum sadducaeos spiritum non confiteri <pb ed="#P" n="0466B"/> et angelos, et ideo Pharisaei spiritum nominant et angelum, quia hoc noverant contrarium esse illis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act23-Dd1e156">
+          <head xml:id="gom-act23-Hd1e158">Versus 10</head>
+          <p xml:id="gom-act23-d1e160">
+            <quote xml:id="gom-act23-Qd1e162" type="lemma" source="http://scta.info/resource/act23_10@9-13">Ne discerperetur Paulus ab ipsis.</quote>
+            <ref xml:id="gom-act23-Rd1e165"><name xml:id="gom-act23-Nd1e166" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act23-Qd1e169">Sadducaeis volentibus eum rapere, vel ab utrisque simul contendentibus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act23-Dd1e174">
+          <head xml:id="gom-act23-Hd1e176">Versus 12</head>
+          <p xml:id="gom-act23-d1e178">
+            <quote xml:id="gom-act23-Qd1e180" type="lemma" source="http://scta.info/resource/act23_12@10-12">Devoverunt se dicentes.</quote>
+            Graece, anathematizaverunt: hoc verbum quantae sit auctoritatis norunt qui anathemate sacerdotali a societate Christi et Ecclesiae alienantur.
+          </p>
+        </div>
+        <div xml:id="gom-act23-Dd1e185">
+          <head xml:id="gom-act23-Hd1e187">Versus 23</head>
+          <p xml:id="gom-act23-d1e189">
+            <quote xml:id="gom-act23-Qd1e191" type="lemma" source="http://scta.info/resource/act23_23@7-9">Parate milites ducentos,</quote>
+            etc.
+            <ref xml:id="gom-act23-Rd1e194"><name xml:id="gom-act23-Nd1e195" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act23-Qd1e198">Hoc fieri jubet, ne eum Judaei auferrent, et ipse tribunus criminis accusaretur apud praesidem, tanquam accepturus pecuniam a Judaeis, et pretium mortis Pauli.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

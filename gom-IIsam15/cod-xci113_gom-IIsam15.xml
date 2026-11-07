@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0574C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam15">
+        <head xml:id="gom-IIsam15-Hd1e98">Caput 15</head>
+        <div xml:id="gom-IIsam15-Dd1e100">
+          <head xml:id="gom-IIsam15-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIsam15-d1e104">
+            <pb ed="#P" n="0574C"/>
+            <quote xml:id="gom-IIsam15-Qd1e108" type="lemma" source="http://scta.info/resource/IIsam15_1@1-2">Igitur post.</quote>
+            Duobus annis mansit in Hierusalem et regem non vidit, tertio introductus est coram rege, quarto fecit sibi currus et equites: quo transacto expulit patrem de regno. Nec pro seductione et interfectione sacerdotum ejectus est de regno, sed pro adulterio et homicidio, Nathan cuncta praedicente.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam15-Dd1e113">
+          <head xml:id="gom-IIsam15-Hd1e115">Versus 7</head>
+          <p xml:id="gom-IIsam15-d1e117">
+            <quote xml:id="gom-IIsam15-Qd1e119" type="lemma" source="http://scta.info/resource/IIsam15_7@1-4">Post quadraginta autem annos.</quote>
+            <ref xml:id="gom-IIsam15-Rd1e122"><name xml:id="gom-IIsam15-Nd1e123" ref="#Jerome">HIERON.</name>, quaest. in Reg., tom. III.</ref>
+            <quote xml:id="gom-IIsam15-Qd1e127"><seg type="qs">Quadragesimus annus agebatur ex quo Saul Nobe civitatem subvertit</seg>, etc., usque ad <seg type="qs">Isaac et Jacob.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam15-Dd1e136">
+          <head xml:id="gom-IIsam15-Hd1e138">Versus 24</head>
+          <p xml:id="gom-IIsam15-d1e140">
+            <quote xml:id="gom-IIsam15-Qd1e142" type="lemma" source="http://scta.info/resource/IIsam15_24@14-16">Et deposuerunt arcam,</quote>
+            etc. Ut ab Abiathar sacerdote consuleretur Deus, quo deberet ire David.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam15-Dd1e147">
+          <head xml:id="gom-IIsam15-Hd1e149">Versus 25</head>
+          <p xml:id="gom-IIsam15-d1e151">
+            <quote xml:id="gom-IIsam15-Qd1e153" type="lemma" source="http://scta.info/resource/IIsam15_25@5-5">Sadoc.</quote>
+            Justus is gestat personam <pb ed="#P" n="0574D"/> sanctorum, qui tempore passionis Domini corpore quidem discesserunt, verum dilectione separati non sunt.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam15-Dd1e161">
+          <head xml:id="gom-IIsam15-Hd1e163">Versus 32</head>
+          <p xml:id="gom-IIsam15-d1e165">
+            <quote xml:id="gom-IIsam15-Qd1e167" type="lemma" source="http://scta.info/resource/IIsam15_32@14-14">Chusai.</quote>
+            Amicus David. Chusai interpretatur <mentioned>festinans</mentioned>, qui Jerusalem revertens, consilium Achitophel dissipavit, significat discipulos Domini ex Judaeis occultos, Nicodemum, Joseph et similes.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

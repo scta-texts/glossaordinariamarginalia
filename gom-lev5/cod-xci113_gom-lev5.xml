@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Leviticus, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0308D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-lev5">
+        <head xml:id="gom-lev5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-lev5-Dd1e100">
+          <head xml:id="gom-lev5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-lev5-d1e104">
+            <quote xml:id="gom-lev5-Qd1e106" type="lemma" source="http://scta.info/resource/lev5_1@1-3">Si peccaverit anima,</quote>
+            etc.
+            <ref xml:id="gom-lev5-Rd1e109"><name xml:id="gom-lev5-Nd1e110" ref="#Augustine">AUG.</name> quaest. 1 in Levit.</ref>
+            <quote xml:id="gom-lev5-Qd1e114"><seg type="qs">Videtur dicere peccare hominem, etc., <pb ed="#P" n="0309A"/></seg> usque ad <seg type="qs">sed statim subjunxit: <quote xml:id="gom-lev5-Qd1e121" source="http://scta.info/resource/lev5_2@1-5">Anima quae tetigerit aliquid immundum,</quote> etc.</seg></quote>
+          </p>
+          <p xml:id="gom-lev5-d1e126">
+            <ref xml:id="gom-lev5-Rd1e128"><name xml:id="gom-lev5-Nd1e129">ISICH.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e131" type="lemma" source="http://scta.info/resource/lev5_1@1-2">Si peccaverit,</quote>
+            <quote xml:id="gom-lev5-Qd1e134"><seg type="qs">etc. Non repetit quae superius dixit</seg>, etc., usque ad <seg type="qs">quia alterius peccatis vel errori non debemus consentire, sed arguere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e143">
+          <head xml:id="gom-lev5-Hd1e145">Versus 2</head>
+          <p xml:id="gom-lev5-d1e147">
+            <quote xml:id="gom-lev5-Qd1e149" type="lemma" source="http://scta.info/resource/lev5_2@1-3">Anima qui tetigerit.</quote>
+            <ref xml:id="gom-lev5-Rd1e152"><name xml:id="gom-lev5-Nd1e153">ISICH.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e155"><seg type="qs">Non corporis</seg>, etc., usque ad <seg type="qs">sed potest dicere cum David: <quote xml:id="gom-lev5-Qd1e161" source="http://scta.info/resource/ps123_7@1-8">Anima nostra sicut passer erepta est de laqueo venantium</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-lev5-d1e166">
+            <ref xml:id="gom-lev5-Rd1e168" type="lemma" subtype="implied" target="http://scta.info/resource/lev5_2@1-3"/>
+            <ref xml:id="gom-lev5-Rd1e170"><name xml:id="gom-lev5-Nd1e171" ref="#GregoryGreat">GREG.</name> lib. XXXII Moral., cap. 4 tom. II.</ref>
+            <quote xml:id="gom-lev5-Qd1e175"><seg type="qs">Juramentum proferre est voto nos divinae servitutis alligare</seg>, etc., usque ad <seg type="qs">igni doloris ardemus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e184">
+          <head xml:id="gom-lev5-Hd1e186">Versus 4</head>
+          <p xml:id="gom-lev5-d1e188">
+            <quote xml:id="gom-lev5-Qd1e190" type="lemma" source="http://scta.info/resource/lev5_4@1-3">Anima quae juraverit,</quote>
+            etc.
+            <ref xml:id="gom-lev5-Rd1e193"><name xml:id="gom-lev5-Nd1e194" ref="#Augustine">AUG.</name>, quaest. 2 in Levit.</ref>
+            <quote xml:id="gom-lev5-Qd1e198">Quid est quod pro tacito perjurio, vel tacto morticino, vel aliquo immundo nullum sacrificium <pb ed="#P" n="0309B"/> praecipitur? Pro eo vero quod quisque falsum nesciens jurat, agnam vel capram offerri decernit? an pro omnibus supradictis hoc sacrificium oportet intelligi? Omnibus enim enuntiatis intulit sacrificium expiationis.</quote>
+          </p>
+          <p xml:id="gom-lev5-d1e204">
+            <quote xml:id="gom-lev5-Qd1e206" type="lemma" source="http://scta.info/resource/lev5_4@24-25">Intellexerit delictum.</quote>
+            <ref xml:id="gom-lev5-Rd1e209"><name xml:id="gom-lev5-Nd1e210">ISICH.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e212"><seg type="qs">Notandum quod delictum</seg>, etc., usque ad <seg type="qs">sicut sequentia ostendunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e221">
+          <head xml:id="gom-lev5-Hd1e223">Versus 7</head>
+          <p xml:id="gom-lev5-d1e225">
+            <quote xml:id="gom-lev5-Qd1e227" type="lemma" source="http://scta.info/resource/lev5_7@1-4">Sin autem non potuerit,</quote>
+            etc.
+            <ref xml:id="gom-lev5-Rd1e230"><name xml:id="gom-lev5-Nd1e231">ID.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e233">Hoc adjiciamus, ut si quid horum princeps peccaverit, hircum offerat de capris, condignam scilicet poenitentiam sibi, qui nec peccare debuit, nec communicare aliis, nec subditos ad peccandum provocare. Quod ergo evenire non debuit, indiscussum reliquit.</quote>
+          </p>
+          <p xml:id="gom-lev5-d1e236">
+            <quote xml:id="gom-lev5-Qd1e238" type="lemma" source="http://scta.info/resource/lev5_7@1-2">Sin autem,</quote>
+            etc.
+            <ref xml:id="gom-lev5-Rd1e241"><name xml:id="gom-lev5-Nd1e242">ID.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e244"><seg type="qs">Qui non potest affligere se continue</seg>, etc., usque ad <seg type="qs">quia seipsum plenissime <pb ed="#P" n="0309C"/> Deo sacrificat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e256">
+          <head xml:id="gom-lev5-Hd1e258">Versus 8</head>
+          <p xml:id="gom-lev5-d1e260">
+            <quote xml:id="gom-lev5-Qd1e262" type="lemma" source="http://scta.info/resource/lev5_8@9-10">Retorquebit caput</quote>
+            <ref xml:id="gom-lev5-Rd1e265"><name xml:id="gom-lev5-Nd1e266" ref="#GregoryGreat">GREG.</name>, hom. in Ezech.</ref>
+            <quote xml:id="gom-lev5-Qd1e270"><seg type="qs">Mors Christi ad conjunctionem sui corporis</seg>, etc., usque ad <seg type="qs">omnes nos sibi verius in ipsam mortem suam conjunxit.</seg></quote>
+          </p>
+          <p xml:id="gom-lev5-d1e278">
+            <ref xml:id="gom-lev5-Rd1e280"><name xml:id="gom-lev5-Nd1e281" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e284" type="lemma" source="http://scta.info/resource/lev5_8@9-9">Retorquebit,</quote>
+            <quote xml:id="gom-lev5-Qd1e287">etc. In sacrificio Dei turtur esse debemus, ut caput nostrum ad pennulas retorqueatur, id est, sensus ad virtutes. Per caput, mentem intelligimus, quia sicut caput corpus, ita mens actiones regit. Sed caput collo inhaeret, nec funditus abscinditur, quia mens nostra a carnis delectatione est separanda, non a carnis necessaria cura, nec curam carnis faciamus in desideriis <!--<note>(Rom. XIII)</note>-->. Caput ergo turturis partim abscindatur, et partim collo inhaereat.</quote>
+          </p>
+          <p xml:id="gom-lev5-d1e293">
+            <pb ed="#P" n="0309D"/>
+            <quote xml:id="gom-lev5-Qd1e297" type="lemma" source="http://scta.info/resource/lev5_8@21-21">Abrumpatur,</quote>
+            etc. Vult nos non servire corpori, sed abrumpi vel retorqueri, ne lex peccati regnet in membris nostris. Quia vero corpus nostrum non debemus odio habere, nec diaboli facturam secundum haereticos existimare, sed menti supponere, non praecipit separari corpus a collo, utrumque enim unius ejusdemque creatura est.
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e302">
+          <head xml:id="gom-lev5-Hd1e304">Versus 9</head>
+          <p xml:id="gom-lev5-d1e306">
+            <quote xml:id="gom-lev5-Qd1e308" type="lemma" source="http://scta.info/resource/lev5_9@15-15">Fundamentum,</quote>
+            etc. LXX, basim, quod est Evangelium, quia, secundum intentionem sacrificii Christi et Evangelii, debet sacrificium pro peccatis offerri. Unde addit: <quote xml:id="gom-lev5-Qd1e311" source="http://scta.info/resource/lev5_9@17-20">Quia pro peccato est,</quote> nihil enim sic a peccato eripit, quemadmodum imitatio Christi et obedientia Evangelicae praedicationis.
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e316">
+          <head xml:id="gom-lev5-Hd1e318">Versus 11</head>
+          <p xml:id="gom-lev5-d1e320">
+            <pb ed="#P" n="0310A"/>
+            <quote xml:id="gom-lev5-Qd1e324" type="lemma" source="http://scta.info/resource/lev5_11@1-4">Quod si non quiverit.</quote>
+            Quia non omne tempus ad poenitentiam facile, quando scilicet ipsa poenitentia abutimur, et fructum ejus, ad peccatum redeuntes, abolemus, legislator innuit dicens: <quote xml:id="gom-lev5-Qd1e327" source="http://scta.info/resource/lev5_11@1-6">Quod si non quiverit manus ejus,</quote> etc.
+          </p>
+          <p xml:id="gom-lev5-d1e331">
+            <ref xml:id="gom-lev5-Rd1e333" type="lemma" subtype="implied" target="http://scta.info/resource/lev5_11@1-4"/>
+            <ref xml:id="gom-lev5-Rd1e335"><name xml:id="gom-lev5-Nd1e336" ref="#Augustine">AUG.</name> quaest. 8 in Levit., tom. III.</ref>
+            <quote xml:id="gom-lev5-Qd1e340"><seg type="qs">Quaeritur utrum ubique accipiendum sit quod dictum est</seg>, etc., usque ad <seg type="qs">ut caetera omnia ab istis ad illam generalitatem pertinerent.</seg></quote>
+          </p>
+          <p xml:id="gom-lev5-d1e348">
+            <quote xml:id="gom-lev5-Qd1e350" type="lemma" source="http://scta.info/resource/lev5_11@19-19">Ephi.</quote>
+            <ref xml:id="gom-lev5-Rd1e353"><name xml:id="gom-lev5-Nd1e354">ISICH.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e356"><seg type="qs">Mensura est trium mensurarum</seg>, etc., usque ad <seg type="qs">non perire eos qui sub manu ejus fuerint.</seg></quote>
+          </p>
+          <p xml:id="gom-lev5-d1e364">
+            <quote xml:id="gom-lev5-Qd1e366" type="lemma" source="http://scta.info/resource/lev5_11@21-23">Non mittet in eum,</quote>
+            etc. Quasi: non est haec perfecta poenitentia, ideo oleum non habet, id est, spiritualem laetitiam hilaritatis, nec thus, quia nec <pb ed="#P" n="0310B"/> confidendum est ei in orationibus: sed tradat, qui offert oblationem, sacerdoti, id est, spem salutis committat divinae pietati.
+          </p>
+          <p xml:id="gom-lev5-d1e373">
+            <quote xml:id="gom-lev5-Qd1e375" type="lemma" source="http://scta.info/resource/lev5_11@30-32">Qui pro peccato.</quote>
+            Quia nescit utrum boni odoris sit oratio ejus qui frequenter praevaricatur. Unde: <quote xml:id="gom-lev5-Qd1e378" source="http://scta.info/resource/ioel2_14@1-11">Quis scit si convertatur et ignoscat Deus, et relinquat post se benedictionem<!-- check: Migne cites io3; text matches ioel2_14 --></quote>? Non sinit ergo desperare nec tamen praesumere, ne iterum negligentes sint.
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e384">
+          <head xml:id="gom-lev5-Hd1e386">Versus 12</head>
+          <p xml:id="gom-lev5-d1e388">
+            <quote xml:id="gom-lev5-Qd1e390" type="lemma" source="http://scta.info/resource/lev5_12@8-8">Pugillum.</quote>
+            In pugillo Scriptura significatur, quo scribitur. Scriptum est autem: <quote xml:id="gom-lev5-Qd1e393" source="http://scta.info/resource/mt18_22@4-12">Non dico tibi septies, sed usque septuagies septies<!-- check: Migne cites mt28; text matches mt18_22 --></quote>. Per pugillum ergo innuit Deum exorandum esse, ut meminerit scriptae misericordiae suae, ut eam nobis donet: sicut fratribus donari jubet; hoc <pb ed="#P" n="0310C"/> enim orantem mundabit sacerdos magnus.
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e401">
+          <head xml:id="gom-lev5-Hd1e403">Versus 13</head>
+          <p xml:id="gom-lev5-d1e405">
+            <quote xml:id="gom-lev5-Qd1e407" type="lemma" source="http://scta.info/resource/lev5_13">Anima si praevaricans,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-lev5-Rd1e412"><name xml:id="gom-lev5-Nd1e413">ISICH.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e415">Ab omni peccato abstinendum est, sed maxime ab eo quod contra sancta committitur: quantum autem sit horrendum oblatio testatur. Nusquam enim a principio historiae, nisi hoc in loco, aries offerri jubetur, in quo necessitas et utilitas sacrificii perhibetur: non offertur hic hircus, non capra, non ovis, non par turturum, aut duo pulli columbarum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e419">
+          <head xml:id="gom-lev5-Hd1e421">Versus 15</head>
+          <p xml:id="gom-lev5-d1e423">
+            <quote xml:id="gom-lev5-Qd1e425" type="lemma" source="http://scta.info/resource/lev5_15@4-5">Caeremonias per,</quote>
+            etc.
+            <ref xml:id="gom-lev5-Rd1e428"><name xml:id="gom-lev5-Nd1e429" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e432">Multae species sanctificationis sunt. Est oleum, quo ungitur solum tabernaculum; et thymiama, de quo dicitur: <quote xml:id="gom-lev5-Qd1e434" source="http://scta.info/resource/ex30_38@2-12">Quicunque talem compositionem fecerit, peribit de populis suis:</quote> panes quoque propositionis soli mares comedunt, qui sunt de stirpe Aaron. Mystice autem in <pb ed="#P" n="0310D"/> his quae sanctificata sunt, peccat, qui in sacro loco aliquid irreverenter usurpat, vel res divinas indigne tractat.</quote>
+          </p>
+          <p xml:id="gom-lev5-d1e441">
+            <quote xml:id="gom-lev5-Qd1e443" type="lemma" source="http://scta.info/resource/lev5_15@25-26">Duobus siclis.</quote>
+            Duo sicli, duo praecepta charitatis sunt, quibus peccator emit sibi confidentiam remissionis. Nihil enim valet poenitentia sine gratia remissionis; unde juxta LXX aries quinquaginta siclis emitur, quia per poenitentiam et geminae charitatis observantiam perfecta requies acquiritur, quando remissio peccatorum datur. LXX, <quote xml:id="gom-lev5-Qd1e446">argenti quinquaginta siclis, siclo sancto.</quote> Nemo enim acquirit Domini sacrificium nisi per Spiritum sanctum, quia <quote xml:id="gom-lev5-Qd1e448" source="http://scta.info/resource/Icor12_3@15-23">nemo potest dicere Dominus Jesus nisi in Spiritu sancto</quote>. Quinquaginta vero Spiritus sancti adventum <pb ed="#P" n="0311A"/> significat, quia die Pentecostes, id est, quinquagesima ad apostolos venit. LXX: <quote xml:id="gom-lev5-Qd1e453">siclo sancto.</quote> In siclo sancto, Spiritus sancti virtutem et operationem significavit.
+          </p>
+          <p xml:id="gom-lev5-d1e456">
+            <quote xml:id="gom-lev5-Qd1e458" type="lemma" source="http://scta.info/resource/lev5_15">Siculus 20 obolorum est,</quote>
+            <!-- check: lemma not matched to verse text -->
+            vicenarius obnoxius peccati non est: unde qui de Aegypto exierunt, cum essent viginti annorum, peccati populi poenam non susceperunt <!--<note>(Num. XIV)</note>-->; mundus quippe est ab omni peccato spiritualis homo.
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e468">
+          <head xml:id="gom-lev5-Hd1e470">Versus 16</head>
+          <p xml:id="gom-lev5-d1e472">
+            <quote xml:id="gom-lev5-Qd1e474" type="lemma" source="http://scta.info/resource/lev5_16@6-8">Et quintam partem,</quote>
+            etc.
+            <ref xml:id="gom-lev5-Rd1e477"><name xml:id="gom-lev5-Nd1e478">ISICH.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e480"><seg type="qs">Qui vase sancto vel cibo</seg>, etc., usque ad <seg type="qs">sic enim pro peccato nostro deprecabitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e489">
+          <head xml:id="gom-lev5-Hd1e491">Versus 17</head>
+          <p xml:id="gom-lev5-d1e493">
+            <quote xml:id="gom-lev5-Qd1e495" type="lemma" source="http://scta.info/resource/lev5_17@1-3">Anima si peccaverit,</quote>
+            etc.
+            <ref xml:id="gom-lev5-Rd1e498"><name xml:id="gom-lev5-Nd1e499">ID.</name></ref>
+            <quote xml:id="gom-lev5-Qd1e501">. Videtur oblitus quod praeceperat: pro quibus enim peccatis capram vel ovem offerri praecepit, nunc arietem offerri praecipere videtur; sed nec oblitus <pb ed="#P" n="0311B"/> est anteriora, nec contraria praecepit: ibi enim per animam, Gentilem significavit: hic autem eum qui per ignorantiam transgreditur mandata legis.</quote>
+          </p>
+          <p xml:id="gom-lev5-d1e507">
+            <ref xml:id="gom-lev5-Rd1e509" type="lemma" subtype="implied" target="http://scta.info/resource/lev5_17@1-3"/>
+            <ref xml:id="gom-lev5-Rd1e511"><name xml:id="gom-lev5-Nd1e512" ref="#Augustine">AUG.</name> quaest. 7 in Levit.</ref>
+            <quote xml:id="gom-lev5-Qd1e516"><seg type="qs">Quaeritur quomodo discernitur hoc delictum ab eis quae generaliter complexus est</seg>, etc., usque ad <seg type="qs">vel aliqua in sacris servitiis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev5-Dd1e525">
+          <head xml:id="gom-lev5-Hd1e527">Versus 18</head>
+          <p xml:id="gom-lev5-d1e529">
+            <quote xml:id="gom-lev5-Qd1e531" type="lemma" source="http://scta.info/resource/lev5_18@1-2">Offeret arietem,</quote>
+            etc. Superius praecepit ut poenitens capram offerret, hic arietem immolari jubet, quia nihil prodest asperitatem poenitentiae immolare, nisi statueris in Christi immolatione plenam confidentiam habere.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

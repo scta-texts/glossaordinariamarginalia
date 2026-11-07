@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0542A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam2">
+        <head xml:id="gom-Isam2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-Isam2-Dd1e100">
+          <head xml:id="gom-Isam2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Isam2-d1e104">
+            <pb ed="#P" n="0542A"/>
+            <quote xml:id="gom-Isam2-Qd1e108" type="lemma" source="http://scta.info/resource/Isam2_1@12-13">Dilatatum est.</quote>
+            <ref xml:id="gom-Isam2-Rd1e111"><name xml:id="gom-Isam2-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e115">Quia sermo Dei non est alligatus in pressuris, non in praeconibus alligatus.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e118">
+            <ref xml:id="gom-Isam2-Rd1e120" type="lemma" subtype="implied" target="http://scta.info/resource/Isam2_1@12-13"/>
+            <ref xml:id="gom-Isam2-Rd1e122"><name xml:id="gom-Isam2-Nd1e123" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e126">Christo, quem puerum amplectitur senex Simeon et cognoscit magnum dicens: <quote xml:id="gom-Isam2-Qd1e128" source="http://scta.info/resource/lc2_29@1-10">Nunc dimittis servum tuum, Domine, secundum verbum tuum, in pace. Quia viderunt oculi mei salutare tuum</quote>. Si laetatus fuero in salutari Dei, tunc dilatabitur os meum. Per meditationem scilicet verbi Dei, venitur ad elevationem cordis, unde: <quote xml:id="gom-Isam2-Qd1e131" source="http://scta.info/resource/IIcor6_11@1-11">Os nostrum patet ad vos, o Corinthii, cor nostrum dilatavum est<!-- check: Migne cites IIcor5; text matches IIcor6_11 --></quote>. Ex latitudine cordis ministratur sapientia ori.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e138">
+          <head xml:id="gom-Isam2-Hd1e140">Versus 2</head>
+          <p xml:id="gom-Isam2-d1e142">
+            <quote xml:id="gom-Isam2-Qd1e144" type="lemma" source="http://scta.info/resource/Isam2_2@1-3">Non est sanctus.</quote>
+            <ref xml:id="gom-Isam2-Rd1e147"><name xml:id="gom-Isam2-Nd1e148" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e151">Praeter te, Domine, quia nemo fit nisi a te, et si sint, qui dicuntur <pb ed="#P" n="0542B"/> dii multi, et Domini multi, nullus tamen eorum naturaliter est id quod Deus est; quia ipse est solus, qui ait: <quote xml:id="gom-Isam2-Qd1e155" source="http://scta.info/resource/ex3_14@5-8">Ego sum qui sum</quote>. Umbra enim ad comparationem corporis non est, vel fumus ad comparationem ignis.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e160">
+            <quote xml:id="gom-Isam2-Qd1e162" type="lemma" source="http://scta.info/resource/Isam2_2@4-6">Ut est Dominus.</quote>
+            <ref xml:id="gom-Isam2-Rd1e165"><name xml:id="gom-Isam2-Nd1e166" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e169">Non dicit nisi Dominus: <quote xml:id="gom-Isam2-Qd1e171" source="http://scta.info/resource/ex8_10@14-16">Sed nullus est sicut Dominus,</quote> sanctus et sanctificans, justus et justificans.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e177">
+          <head xml:id="gom-Isam2-Hd1e179">Versus 3</head>
+          <p xml:id="gom-Isam2-d1e181">
+            <quote xml:id="gom-Isam2-Qd1e183" type="lemma" source="http://scta.info/resource/Isam2_3@1-1">Nolite.</quote>
+            Redarguit Judaeos et sapientes saeculi, extollentes se contra scientiam Dei. Salomon: <quote xml:id="gom-Isam2-Qd1e186" source="http://scta.info/resource/sir3_22@1-3">Altiora te ne quaesieris,</quote> et alibi: <quote xml:id="gom-Isam2-Qd1e189" source="http://scta.info/resource/qoh5_1@15-27">Deus in coelo, et tu super terram: sint pauci sermones tui.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e193">
+            <quote xml:id="gom-Isam2-Qd1e195" type="lemma" source="http://scta.info/resource/Isam2_3@7-7">Vetera,</quote>
+            etc. Quae ad veterem hominem, id est, carnalem conversationem pertinent, scientiam inquirite, quae non est nisi a Deo: quia ipse est scientiarum <pb ed="#P" n="0542C"/> Dominus, in quo sunt omnes thesauri sapientiae.
+          </p>
+          <p xml:id="gom-Isam2-d1e201">
+            <quote xml:id="gom-Isam2-Qd1e203" type="lemma" source="http://scta.info/resource/Isam2_3@17-18">Ipsi praeparantur.</quote>
+            Quia aufert se a cogitationibus, quae sunt sine intellectu, vel ipsi praeparantur cogitationes, id est manifestantur. Unde: <quote xml:id="gom-Isam2-Qd1e206" source="http://scta.info/resource/Icor3_20@3-5">Dominus novit cogitationes hominum.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e210">
+            <quote xml:id="gom-Isam2-Qd1e212" type="lemma" source="http://scta.info/resource/Isam2_3@12-13">Deus scientiarum.</quote>
+            <ref xml:id="gom-Isam2-Rd1e215"><name xml:id="gom-Isam2-Nd1e216" ref="#RabanusMaurus">RAB.</name>, ubi supra.</ref>
+            <quote xml:id="gom-Isam2-Qd1e220"><seg type="qs">Ipse vos scit</seg>, etc., usque ad <seg type="qs">et ab illo non sunt a quo homines sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e229">
+          <head xml:id="gom-Isam2-Hd1e231">Versus 4</head>
+          <p xml:id="gom-Isam2-d1e233">
+            <ref xml:id="gom-Isam2-Rd1e235" type="lemma" subtype="implied" target="http://scta.info/resource/Isam2_4"/>
+            <ref xml:id="gom-Isam2-Rd1e237"><name xml:id="gom-Isam2-Nd1e238" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e241">Id est, intentio eorum, qui sibi potentes esse videntur, ut sine Dei auxilio divina possint implere mandata.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e244">
+            <quote xml:id="gom-Isam2-Qd1e246" type="lemma" source="http://scta.info/resource/Isam2_4@5-6">Et infirmi.</quote>
+            <ref xml:id="gom-Isam2-Rd1e249"><name xml:id="gom-Isam2-Nd1e250" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e253">Qui in Dei pietate confidunt, dicunt: <quote xml:id="gom-Isam2-Qd1e255" source="http://scta.info/resource/ps6_3@1-6">Miserere mei, Deus, quoniam infirmus sum</quote>. Infirmus erat gentilis populus, quando a testamento Dei alienus, nunc autem praecinctus robore, <pb ed="#P" n="0542D"/> cum indutus scuto fidei et galea salutis, et gladio spiritus, poterit ignea tela diaboli exstinguere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e264">
+          <head xml:id="gom-Isam2-Hd1e266">Versus 5</head>
+          <p xml:id="gom-Isam2-d1e268">
+            <quote xml:id="gom-Isam2-Qd1e270" type="lemma" source="http://scta.info/resource/Isam2_5@1-3">Saturati prius pro panibus.</quote>
+            Repleti prius Judaei, scilicet mysteriis eloquiorum pro panibus se locaverunt, id est, separaverunt a Deo: vel a propriis sedibus evulserunt, ne reciperent Evangelium agens de pane qui de coelo descendit. Repleti iidem, qui et potentes, id est Israelitae quibus credita sunt eloquia Dei, sed ancillae filii, minorati sunt, qui se subtraxerunt, nec in Salvatorem crediderunt, et in ipsis panibus, id est divinis eloquiis tantum terrena senserunt. Gentes autem quibus non est data lex, postquam per Novum Testamentum ad illa eloquia <pb ed="#P" n="0543A"/> venerunt, multum esuriendo terram transierunt, quia in eis non terrena, sed coelestia sapuerunt. In Graeco ita: <quote xml:id="gom-Isam2-Qd1e275">Pleni panibus minorati sunt, et esurientes transierunt terram.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e278">
+            <quote xml:id="gom-Isam2-Qd1e280" type="lemma" source="http://scta.info/resource/Isam2_5@7-8">Et famelici.</quote>
+            Id est, gentiles prius egentes, panem verbi Dei jam gustant, quoniam suavis est. Tandiu pasti sunt scientia Dei.
+          </p>
+          <p xml:id="gom-Isam2-d1e284">
+            <quote xml:id="gom-Isam2-Qd1e286" type="lemma" source="http://scta.info/resource/Isam2_5@12-13">Sterilis peperit.</quote>
+            In septenario universitas Ecclesiae designatur, unde et Joannes scribit septem ecclesiis, ad unius plenitudinem se scribere ostendens; unde: <quote xml:id="gom-Isam2-Qd1e289" source="http://scta.info/resource/prov9_1@1-7">Sapientia aedificavit sibi domum, et suffulsit columnas septem</quote>. Sterilis erat in gentibus Ecclesia, antequam iste fetus quem cernimus oriretur. Cernimus etiam terrenam Jerusalem fecundam, nunc infirmatam: quia quicunque in ea filii liberi erant <pb ed="#P" n="0543B"/> virtutis ejus: nunc vero ibi quoniam littera est, spiritus non est: amissa virtute infirmata est.
+          </p>
+          <p xml:id="gom-Isam2-d1e295">
+            <ref xml:id="gom-Isam2-Rd1e297"><name xml:id="gom-Isam2-Nd1e298" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e301" type="lemma" source="http://scta.info/resource/Isam2_5@14-14">Plurimos</quote>
+            <quote xml:id="gom-Isam2-Qd1e304">in Hebraeo et in LXX habetur <quote xml:id="gom-Isam2-Qd1e306">septem.</quote> Judaei dicunt, quod nato Samuele, mortuus est primogenitus filius Phenennae: et singulis Annae nascentibus filiis, singuli Phenennae sunt mortui. Sed Phenenna habuit septem: Anna vero quinque. Sed Hebraei duos filios Samuelis annumerant Annae filiis.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e311">
+            <ref xml:id="gom-Isam2-Rd1e313" type="lemma" subtype="implied" target="http://scta.info/resource/Isam2_5@14-14"/>
+            <ref xml:id="gom-Isam2-Rd1e315"><name xml:id="gom-Isam2-Nd1e316" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e319"><seg type="qs">Sterilem</seg>, etc., usque ad <seg type="qs">hac ejus paupertate ditati sumus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e328">
+          <head xml:id="gom-Isam2-Hd1e330">Versus 7</head>
+          <p xml:id="gom-Isam2-d1e332">
+            <quote xml:id="gom-Isam2-Qd1e334" type="lemma" source="http://scta.info/resource/Isam2_7@2-2">Pauperem,</quote>
+            etc. Jesum, qui propter nos pauper factus est, et ditat eumdem gloria resurrectionis.
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e339">
+          <head xml:id="gom-Isam2-Hd1e341">Versus 8</head>
+          <p xml:id="gom-Isam2-d1e343">
+            <quote xml:id="gom-Isam2-Qd1e345" type="lemma" source="http://scta.info/resource/Isam2_8@2-3">De pulvere.</quote>
+            De corruptione Christum, unde: <quote xml:id="gom-Isam2-Qd1e348" source="http://scta.info/resource/ps15_10@8-13">Nec dabis sanctum tuum videre corruptionem</quote>.
+          </p>
+          <p xml:id="gom-Isam2-d1e352">
+            <pb ed="#P" n="0543C"/>
+            <quote xml:id="gom-Isam2-Qd1e356" type="lemma" source="http://scta.info/resource/Isam2_8@6-7">De stercore.</quote>
+            <ref xml:id="gom-Isam2-Rd1e359"><name xml:id="gom-Isam2-Nd1e360" ref="#RabanusMaurus">RAB.</name>, ubi supra.</ref>
+            <quote xml:id="gom-Isam2-Qd1e364">Judaico populo, in quo cum se dixisset Apostolus Ecclesiam persecutum, <quote xml:id="gom-Isam2-Qd1e366">quae mihi,</quote> inquit, <quote xml:id="gom-Isam2-Qd1e368" source="http://scta.info/resource/phil3_7@4-11">fuerunt lucra, propter Christum aestimavi stercora [detrimenta]</quote>.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e373">
+            <quote xml:id="gom-Isam2-Qd1e375" type="lemma" source="http://scta.info/resource/Isam2_8@13-13">Principibus.</quote>
+            <ref xml:id="gom-Isam2-Rd1e378"><name xml:id="gom-Isam2-Nd1e379" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e382">Quibus dicitur: <quote xml:id="gom-Isam2-Qd1e384" source="http://scta.info/resource/mt25_31@15-17">Sedebitis super sedes duodecim, judicantes duodecim tribus Israel</quote>.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e389">
+            <quote xml:id="gom-Isam2-Qd1e391" type="lemma" source="http://scta.info/resource/Isam2_8@15-16">Solium gloriae.</quote>
+            In aequitate Patris sedendo, et quia <quote xml:id="gom-Isam2-Qd1e394" source="http://scta.info/resource/io5">Pater omne judicium dedit Filio, et quia regni ejus non erit finis<!-- check: cited chapter given; verse not identified --></quote>.
+          </p>
+          <p xml:id="gom-Isam2-d1e400">
+            <quote xml:id="gom-Isam2-Qd1e402" type="lemma" source="http://scta.info/resource/Isam2_8@21-22">Cardines terrae.</quote>
+            Quatuor scilicet plagae mundi, in quibus dilatavit orbem Ecclesiae, quae <quote xml:id="gom-Isam2-Qd1e405" source="http://scta.info/resource/ps112_3@1-8">a solis ortu usque ad occasum laudant nomen Domini</quote>.
+          </p>
+          <p xml:id="gom-Isam2-d1e409">
+            <ref xml:id="gom-Isam2-Rd1e411" type="lemma" subtype="implied" target="http://scta.info/resource/Isam2_8@21-22"/>
+            Mystice, praedicatores, super quos orbis, id est, <pb ed="#P" n="0543D"/> Ecclesia, fide eorum stabilitatur, de quibus dicitur: <quote xml:id="gom-Isam2-Qd1e415" source="http://scta.info/resource/iob9_13@8-13">Sub quo curvantur, qui portant orbem</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e420">
+          <head xml:id="gom-Isam2-Hd1e422">Versus 10</head>
+          <p xml:id="gom-Isam2-d1e424">
+            <quote xml:id="gom-Isam2-Qd1e426" type="lemma" source="http://scta.info/resource/Isam2_10@1-2">Dominum formidabunt.</quote>
+            Quia infirmum faciet adversarium ejus. Potest ex ambiguo Graeco intelligi, et adversarium suum. Cum enim Dominus possidere nos incipit, adversarius noster ipsius fit; et vincitur a nobis, non viribus nostris, quia non in virtute propria potens est vir.
+          </p>
+          <p xml:id="gom-Isam2-d1e430">
+            <quote xml:id="gom-Isam2-Qd1e432" type="lemma" source="http://scta.info/resource/Isam2_10@1-2">Dominum formidabunt.</quote>
+            Adversarii Judaei, super quos in coelis, id est apostolis Dominus tonavit, quando eos terruit, gehennam minando, minas signis firmando: unde multi conversi sunt. Vel formidabunt in judicio, quem hic adversantes contempserunt, super quos tonabit, dicens: <quote xml:id="gom-Isam2-Qd1e435" source="http://scta.info/resource/mt25_41@13-15">Ite in ignem aeternum</quote>. <pb ed="#P" n="0544A"/> Quod ne omnibus contingat Dominus quotidie in coelis, id est, Scripturis et doctoribus, tonat.
+          </p>
+          <p xml:id="gom-Isam2-d1e441">
+            <quote xml:id="gom-Isam2-Qd1e443" type="lemma" source="http://scta.info/resource/Isam2_10@7-8">In coelis.</quote>
+            <ref xml:id="gom-Isam2-Rd1e446"><name xml:id="gom-Isam2-Nd1e447" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e450">Quia justa retributio futura est in die judicii, sed interim tonat de nubibus suis, quas Spiritu sancto implevit postquam coelos ascendit.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e453">
+            <quote xml:id="gom-Isam2-Qd1e455" type="lemma" source="http://scta.info/resource/Isam2_10@12-12">Fines.</quote>
+            Extrema hominis: quia non judicabuntur, quae in melius vel deterius medio tempore commutantur, sed extrema in quibus fuerit inventus.
+          </p>
+          <p xml:id="gom-Isam2-d1e460">
+            <quote xml:id="gom-Isam2-Qd1e462" type="lemma" source="http://scta.info/resource/Isam2_10@14-15">Et dabit.</quote>
+            Id est, Christo
+          </p>
+          <p xml:id="gom-Isam2-d1e466">
+            <quote xml:id="gom-Isam2-Qd1e468" type="lemma" source="http://scta.info/resource/Isam2_10@16-16">Imperium.</quote>
+            Id est Ecclesiam, unde: <quote xml:id="gom-Isam2-Qd1e471" source="http://scta.info/resource/ps2_8@5-9">Dabo tibi gentes haereditatem tuam.</quote> Vel imperium, id est potestatem judicandi, quia <quote xml:id="gom-Isam2-Qd1e474" source="http://scta.info/resource/io5_22@8-10">omne judicium dedit Filio.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e478">
+            <quote xml:id="gom-Isam2-Qd1e480" type="lemma" source="http://scta.info/resource/Isam2_10@17-17">Regi.</quote>
+            <ref xml:id="gom-Isam2-Rd1e483"><name xml:id="gom-Isam2-Nd1e484" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e487">Christiano populo cui dat virtutem regendi carnem, ut in eo vincat mundum, qui propter eum fudit sanguinem suum.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e490">
+            <pb ed="#P" n="0544B"/>
+            <quote xml:id="gom-Isam2-Qd1e494" type="lemma" source="http://scta.info/resource/Isam2_10@22-23">Christi sui.</quote>
+            <ref xml:id="gom-Isam2-Rd1e497"><name xml:id="gom-Isam2-Nd1e498" ref="#RabanusMaurus">RAB.</name>, in lib. Reg.</ref>
+            <quote xml:id="gom-Isam2-Qd1e502">Christiani populi, chrismate uncti: totum tamen corpus cum capite suo unus est Christus. Haec Anna prophetavit mater Samuelis, in quo tunc figurata est mutatio veteris sacerdotii, et nunc impleta, quando infirmata est fecunda, ut novum haberet sterilis in Christo sacerdotium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e506">
+          <head xml:id="gom-Isam2-Hd1e508">Versus 12</head>
+          <p xml:id="gom-Isam2-d1e510">
+            <quote xml:id="gom-Isam2-Qd1e512" type="lemma" source="http://scta.info/resource/Isam2_12@3-3">Heli.</quote>
+            <ref xml:id="gom-Isam2-Rd1e515"><name xml:id="gom-Isam2-Nd1e516" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e519">Interpretatur extraneus, a Deo enim alienus est, qui subditos non corrigit. Ophni infamia conversionis, merito autem sic vocatur, qui differt converti in melius. Phinees oris obduratio, vel ori parcens. Duos Phinees sacerdotes legimus: alterum justum Eleazari filium, alterum injustum, filium Heli. Sacerdotes, qui custodiunt os suum, ne exeat inde aliquod pravum, in filio Eleazari <pb ed="#P" n="0544C"/> signantur. Qui autem os habent obturatum, vel imperitia, vel peccatorum conscientia, filio Heli figurantur.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e525">
+            <ref xml:id="gom-Isam2-Rd1e527" type="lemma" subtype="implied" target="http://scta.info/resource/Isam2_12@3-3"/>
+            <ref xml:id="gom-Isam2-Rd1e529"><name xml:id="gom-Isam2-Nd1e530" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e533"><seg type="qs">Refert Josephus</seg>, etc., usque ad <seg type="qs">et subditorum culpa illis imputabitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e542">
+          <head xml:id="gom-Isam2-Hd1e544">Versus 19</head>
+          <p xml:id="gom-Isam2-d1e546">
+            <quote xml:id="gom-Isam2-Qd1e548" type="lemma" source="http://scta.info/resource/Isam2_19@2-2">Tunicam.</quote>
+            Tunica quam faciebat Anna, id est gratia, et puero tradebat; inceptiva doctrina est, qua fideles prima rudimenta accipiunt, unde: <quote xml:id="gom-Isam2-Qd1e551" source="http://scta.info/resource/Icor3_2@1-6">Lac vobis potum dedi, non escam</quote>. Superhumerale vero lineum, castitatem et continentiam cum bonis operibus signat. Qui enim Domino ministrare desiderat, necesse est ut caste et continenter vivat, et bonis operibus se exerceat.
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e557">
+          <head xml:id="gom-Isam2-Hd1e559">Versus 25</head>
+          <p xml:id="gom-Isam2-d1e561">
+            <quote xml:id="gom-Isam2-Qd1e563" type="lemma" source="http://scta.info/resource/Isam2_25@1-2">Si peccaverit.</quote>
+            <ref xml:id="gom-Isam2-Rd1e566"><name xml:id="gom-Isam2-Nd1e567" ref="#Jerome">HIERON.</name>, ubi supra.</ref>
+            <quote xml:id="gom-Isam2-Qd1e571">Non eo modo peccatur in virum, quo peccatur in <pb ed="#P" n="0544D"/> Deum, quia peccare in virum, id est contra proximum, levius est et venialius. In Deum vero peccare, id est a cultu ejus recedere: impietatis peccatum est, quod difficilius punitur, et tardius remittitur. Et cum quis in virum peccat, placato viro facit sibi Deum placabilem. Sed cum quis in Deum peccat, quis orabit pro eo? id est, per quem sibi Deum faciet propitium? Non quod nulla speranda sit venia eis qui in divino peccant officio: sed major est poena, et tardior venia his qui in rebus Deo sacratis offendunt, quam si verbo vel facto laeserint proximum, quia quanto major gloria, tanto gravior offensa</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e578">
+          <head xml:id="gom-Isam2-Hd1e580">Versus 27</head>
+          <p xml:id="gom-Isam2-d1e582">
+            <quote xml:id="gom-Isam2-Qd1e584" type="lemma" source="http://scta.info/resource/Isam2_27@20-21">Patris tui,</quote>
+            etc. Aaron, scilicet. Quis enim alius fuit in Aegyptiaca servitute, qui post liberationem <pb ed="#P" n="0545A"/> electus sit in sacerdotem? Quicunque enim ex ejus genere est, cum videt sacerdotium Christianorum pollere per mundum, sibi autem esse subtractum, dolore et moerore tabescit.
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e591">
+          <head xml:id="gom-Isam2-Hd1e593">Versus 32</head>
+          <p xml:id="gom-Isam2-d1e595">
+            <quote xml:id="gom-Isam2-Qd1e597" type="lemma" source="http://scta.info/resource/Isam2_32@3-3">Aemulum.</quote>
+            <ref xml:id="gom-Isam2-Rd1e600"><name xml:id="gom-Isam2-Nd1e601" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e604">Aemulus domus Heli fuit, Sadoch sacerdos, qui, abjecto Abiathar a Salomone sacerdotium, suscepit. Unde: <quote xml:id="gom-Isam2-Qd1e606" source="http://scta.info/resource/Ireg2_27@3-19">Projecit Salomon Abiathar ne esset sacerdos Domini, ut impleretur verbum Domini, quod locutus est super domum Heli</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e612">
+          <head xml:id="gom-Isam2-Hd1e614">Versus 33</head>
+          <p xml:id="gom-Isam2-d1e616">
+            <quote xml:id="gom-Isam2-Qd1e618" type="lemma" source="http://scta.info/resource/Isam2_33@12-13">Ut deficiant.</quote>
+            <ref xml:id="gom-Isam2-Rd1e621"><name xml:id="gom-Isam2-Nd1e622" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e625">Ut semper scilicet sit de domo Heli in domo Domini, qui in dignitate sacerdotii videns alium substitutum, et se destitutum, deficiat animo et tabescat. Haec autem mutatio sacerdotii, in Christo plene completa est, quae <pb ed="#P" n="0545B"/> a Samuele figurata: post Samuelem enim sacerdotes fuerunt de genere Aaron, Sodoch, et Abiathar, et alii usque ad tempus Christi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e632">
+          <head xml:id="gom-Isam2-Hd1e634">Versus 35</head>
+          <p xml:id="gom-Isam2-d1e636">
+            <quote xml:id="gom-Isam2-Qd1e638" type="lemma" source="http://scta.info/resource/Isam2_35@10-11">Et animam.</quote>
+            <ref xml:id="gom-Isam2-Rd1e641"><name xml:id="gom-Isam2-Nd1e642" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e645"><seg type="qs">Non habet Deus animam, sed tropice dicitur animam habere</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-Isam2-Qd1e651" source="http://scta.info/resource/Isam7_2@19-25">Et requievit domus Israel post Dominum</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam2-Dd1e657">
+          <head xml:id="gom-Isam2-Hd1e659">Versus 36</head>
+          <p xml:id="gom-Isam2-d1e661">
+            <quote xml:id="gom-Isam2-Qd1e663" type="lemma" source="http://scta.info/resource/Isam2_36@1-2">Futurum est.</quote>
+            <ref xml:id="gom-Isam2-Rd1e666"><name xml:id="gom-Isam2-Nd1e667" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e670">Non proprie de domo Heli hoc dicitur, sed de domo Aaron, de cujus genere usque hodie veniunt et convertuntur.</quote>
+          </p>
+          <p xml:id="gom-Isam2-d1e673">
+            <quote xml:id="gom-Isam2-Qd1e675" type="lemma" source="http://scta.info/resource/Isam2_36@32-32">Buccellam.</quote>
+            <ref xml:id="gom-Isam2-Rd1e678"><name xml:id="gom-Isam2-Nd1e679" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam2-Qd1e682"><quote xml:id="gom-Isam2-Qd1e683" source="http://scta.info/resource/io6_52@11-20">Panis quem ego dabo caro mea est pro mundi vita</quote>. Quia dixerat se dedisse cibos domui Aaron de victimis veteris testamenti, quae fuerunt sacrificia Judaeorum, dicit esse postulandam buccellam panis ad comedendum, quod est <pb ed="#P" n="0545C"/> sacrificium Christianorum et pabulum animarum.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

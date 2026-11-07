@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum I, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum I, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0584A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ireg5">
+        <head xml:id="gom-Ireg5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-Ireg5-Dd1e100">
+          <head xml:id="gom-Ireg5-Hd1e102">Versus 3</head>
+          <p xml:id="gom-Ireg5-d1e104">
+            <quote xml:id="gom-Ireg5-Qd1e106" type="lemma" source="http://scta.info/resource/Ireg5_3@7-12">Et quia non potuerit aedificare domum,</quote>
+            etc.
+            <ref xml:id="gom-Ireg5-Rd1e109"><name xml:id="gom-Ireg5-Nd1e110" ref="#Bede">BEDA</name>, quaest. in lib. Reg.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e114"><seg type="qs">Domus quam Salomon aedificavit, Ecclesiae figura fuit</seg>, etc., usque ad <seg type="qs">in quibusdam remunerata cum angelis hominum certamina demonstret.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg5-d1e122">
+            <ref xml:id="gom-Ireg5-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg5_3@7-12"/>
+            <ref xml:id="gom-Ireg5-Rd1e126"><name xml:id="gom-Ireg5-Nd1e127" ref="#Bede">ID.</name>, lib. de templo Salom., cap. 1.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e131"><seg type="qs">Hanc domum spiritualem etiam tabernaculum in eremo factum significat</seg>, etc., usque ad <seg type="qs">et salutem omnium gentium in Christo multis modis ostendat et figuret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg5-Dd1e140">
+          <head xml:id="gom-Ireg5-Hd1e142">Versus 6</head>
+          <p xml:id="gom-Ireg5-d1e144">
+            <pb ed="#P" n="0584B"/>
+            <quote xml:id="gom-Ireg5-Qd1e148" type="lemma" source="http://scta.info/resource/Ireg5_6@1-5">Praecipe igitur ut praecidant mihi,</quote>
+            etc.
+            <ref xml:id="gom-Ireg5-Rd1e151"><name xml:id="gom-Ireg5-Nd1e152" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg5-Qd1e155"><seg type="qs">Servi Hiram praecidentes cedros Salomoni de Libano</seg>, etc., usque ad <seg type="qs">melius gentilium errores noverant, et ideo artificiosius expugnabant.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg5-d1e163">
+            <quote xml:id="gom-Ireg5-Qd1e165" type="lemma" source="http://scta.info/resource/Ireg5_6@24-35">Scis enim quomodo non est in populo meo vir qui noverit ligna,</quote>
+            etc.
+            <ref xml:id="gom-Ireg5-Rd1e168"><name xml:id="gom-Ireg5-Nd1e169" ref="#Bede">BEDA</name>, ut supra.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e173"><seg type="qs">Dicendum est prius de operariis templi, qui vel unde fuerunt, et de ipsa materia</seg>, etc., usque ad <seg type="qs">triticum, scilicet, verbi Dei, oleum charitatis, unctionis et Spiritus sancti illuminationis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg5-Dd1e182">
+          <head xml:id="gom-Ireg5-Hd1e184">Versus 10</head>
+          <p xml:id="gom-Ireg5-d1e186">
+            <quote xml:id="gom-Ireg5-Qd1e188" type="lemma" source="http://scta.info/resource/Ireg5_10@1-11">Itaque Hiram dabat Salomoni ligna cedrina et ligna abiegna, juxta omnem,</quote>
+            etc. Tyrus, unde rex Hiram, insula est dedita negotiationi, ubi erant optimi fabricatores lignorum, qui dabant ligna pretiosa accipientes cibaria. Vivunt enim non agrum <pb ed="#P" n="0584C"/> colendo, sed negotiando. Ibi est mons Libanus, de cujus lignis facta est domus Domini. Unde et Libanus dicitur ibi: <quote xml:id="gom-Ireg5-Qd1e193" source="http://scta.info/resource/zac11_1@1-4">Aperi, Libane, portas tuas</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg5-Dd1e198">
+          <head xml:id="gom-Ireg5-Hd1e200">Versus 13</head>
+          <p xml:id="gom-Ireg5-d1e202">
+            <quote xml:id="gom-Ireg5-Qd1e204" type="lemma" source="http://scta.info/resource/Ireg5_13@1-3">Elegitque rex Salomon.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e207"><name xml:id="gom-Ireg5-Nd1e208" ref="#Bede">BEDA</name>, ut supra, cap. 3.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e212"><seg type="qs">Non frustra operarios de omni Israel elegit</seg>, etc., usque ad <seg type="qs">in qua mens fidelium a Domino quotidiana illustratione quasi luna a sole respicitur.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg5-d1e220">
+            <quote xml:id="gom-Ireg5-Qd1e222" type="lemma" source="http://scta.info/resource/Ireg5_13@4-13">Operarios de omni Israel, et erat indictio triginta millia virorum.</quote>
+            Hi operatores erant proselyti. Horum magistri de Judaeis, quia non fecit quemquam servire de Israel.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg5-Dd1e228">
+          <head xml:id="gom-Ireg5-Hd1e230">Versus 14</head>
+          <p xml:id="gom-Ireg5-d1e232">
+            <quote xml:id="gom-Ireg5-Qd1e234" type="lemma" source="http://scta.info/resource/Ireg5_14@20-24">Adoniram erat super hujuscemodi indictionem.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e237"><name xml:id="gom-Ireg5-Nd1e238" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e242"><seg type="qs">Dominus meus excelsus. Hic est Christus, qui operariis templi praeponitur</seg>, etc., usque ad <seg type="qs">ut orationibus et jejuniis superno inspectore <pb ed="#P" n="0584D"/> et visitatore digna sit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg5-Dd1e253">
+          <head xml:id="gom-Ireg5-Hd1e255">Versus 15</head>
+          <p xml:id="gom-Ireg5-d1e257">
+            <quote xml:id="gom-Ireg5-Qd1e259" type="lemma" source="http://scta.info/resource/Ireg5_15@1-15">Fuerunt itaque Salomoni septuaginta millia eorum, qui onera portabant, et octoginta millia latomorum in monte.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e262"><name xml:id="gom-Ireg5-Nd1e263" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e267"><seg type="qs">Nec praetereundum quod septuaginta et octoginta millia portantium onera et latomorum cum praepositis suis non fuerunt Israelitae</seg>, etc., usque ad <seg type="qs">Quidam utraque virtute praediti ad opus domus Domini conveniunt; unde: <quote xml:id="gom-Ireg5-Qd1e273" source="http://scta.info/resource/Ith5_14@5-8">Corripite inquietos, consolamini pusillanimes,</quote> etc. <!--<note>(I Thes. V)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg5-d1e280">
+            <quote xml:id="gom-Ireg5-Qd1e282" type="lemma" source="http://scta.info/resource/Ireg5_15@13-13">Latomorum.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e285"><name xml:id="gom-Ireg5-Nd1e286" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e290"><seg type="qs">Latomi sunt caesores lapidum</seg>, etc., usque ad <seg type="qs">quia eruti de potestate tenebrarum ad arcem virtutum quae est in unitate Ecclesiae pervenimus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg5-Dd1e299">
+          <head xml:id="gom-Ireg5-Hd1e301">Versus 16</head>
+          <p xml:id="gom-Ireg5-d1e303">
+            <pb ed="#P" n="0585A"/>
+            <quote xml:id="gom-Ireg5-Qd1e307" type="lemma" source="http://scta.info/resource/Ireg5_16@1-2">Absque praepositis.</quote>
+            Praepositi autem sunt sacrae Scripturae conditores quorum magisterio crudimur inscios docere, contemptores corripere, et invicem onera nostra portare.
+          </p>
+          <p xml:id="gom-Ireg5-d1e311">
+            <quote xml:id="gom-Ireg5-Qd1e313" type="lemma" source="http://scta.info/resource/Ireg5_16@8-9">Trium millium.</quote>
+            Propter fidem Trinitatis, quam sancta eloquia praedicant. Quod in Paralipomenis tria millia sexcenti scripti sunt, ad perfectionem eorum respicit. Senarius enim, in quo mundi completus est ornatus, perfecta bonorum opera significat: et quia sancta Scriptura cum fide veritatis opera justitiae docet habenda, recte praepositi operum templi tria millia et sexcenti fuerunt.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg5-Dd1e318">
+          <head xml:id="gom-Ireg5-Hd1e320">Versus 17</head>
+          <p xml:id="gom-Ireg5-d1e322">
+            <quote xml:id="gom-Ireg5-Qd1e324" type="lemma" source="http://scta.info/resource/Ireg5_17@1-4">Praecepitque rex ut tollerent.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e327"><name xml:id="gom-Ireg5-Nd1e328" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e332"><seg type="qs">Ad aedificandum domum Domini primo ligna et lapides de monte caeduntur</seg>, etc., usque ad <seg type="qs">unde: <pb ed="#P" n="0585B"/> <quote xml:id="gom-Ireg5-Qd1e340" source="http://scta.info/resource/eph2_20@1-6">Superaedificati super fundamentum apostolorum et prophetarum</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg5-d1e345">
+            <quote xml:id="gom-Ireg5-Qd1e347" type="lemma" source="http://scta.info/resource/Ireg5_17@5-6">Lapides grandes.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e350"><name xml:id="gom-Ireg5-Nd1e351" ref="#Bede">BEDA</name>, ibid., cap. 4.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e355">Vel lapides pretiosi, grandes, quadrati, primi sunt magistri, qui ab ipso Domino audiere verbum salutis. Superpositi vero ordines lapidum vel lignorum sequentes sacerdotes vel doctores, quorum praedicatione crescit Ecclesia et ornatur virtutibus.</quote>
+          </p>
+          <p xml:id="gom-Ireg5-d1e358">
+            <ref xml:id="gom-Ireg5-Rd1e360" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg5_17@5-6"/>
+            <ref xml:id="gom-Ireg5-Rd1e362"><name xml:id="gom-Ireg5-Nd1e363" ref="#RabanusMaurus">RAB.</name> ex Bed.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e367"><seg type="qs">Quali autem colore fuerunt lapides</seg>, etc., usque ad <seg type="qs">marmor candidum ex quo constructa est domus electorum, actionem mundam et conscientiam ab omni naevo corruptionis castigatam significat; unde: <quote xml:id="gom-Ireg5-Qd1e373" source="http://scta.info/resource/IIcor7_1@6-10">Mundemus nos ab omni inquinamento,</quote> etc. <!--<note>(II Cor. VII)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg5-d1e380">
+            <quote xml:id="gom-Ireg5-Qd1e382" type="lemma" source="http://scta.info/resource/Ireg5_17@9-11">In fundamentum templi.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e385"><name xml:id="gom-Ireg5-Nd1e386" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e390"><seg type="qs">Fundamentum <pb ed="#P" n="0585C"/> est Christus</seg>, etc., usque ad <seg type="qs">ut abjectis verbis, factis cogitationibusque supervacuis, ad portandum onus Ecclesiae digni fiant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg5-Dd1e401">
+          <head xml:id="gom-Ireg5-Hd1e403">Versus 18</head>
+          <p xml:id="gom-Ireg5-d1e405">
+            <quote xml:id="gom-Ireg5-Qd1e407" type="lemma" source="http://scta.info/resource/Ireg5_18@8-13">Porro Giblii praeparaverunt ligna et lapides.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e410"><name xml:id="gom-Ireg5-Nd1e411" ref="#RabanusMaurus">RAB.</name> ex Bed., ibid.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e415"><seg type="qs">Giblos est civitas Phoenicis.</seg> etc., usque ad <seg type="qs">nec sanctuarium Domino, sed ruinam sibi aedificat, qui docere praesumit quod ipse non didicit.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg5-d1e423">
+            <quote xml:id="gom-Ireg5-Qd1e425" type="lemma" source="http://scta.info/resource/Ireg5_18@14-16">Ad aedificandum domum.</quote>
+            <ref xml:id="gom-Ireg5-Rd1e428"><name xml:id="gom-Ireg5-Nd1e429" ref="#RabanusMaurus">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-Ireg5-Qd1e433">Post fundamentum de talibus compositum, aedificanda est domus praeparatis lignis et lapidibus, et ordine collocatis, qui de suo situ vel abstracti sunt, quia post prima fidei rudimenta, post collata in nobis juxta exemplum sublimium virorum fundamenta humilitatis, addendus est in altum paries bonorum operum, <pb ed="#P" n="0585D"/> et quasi superpositis sibi invicem ordinibus lapidum proficiendum de virtute in virtutem.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

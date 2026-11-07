@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieremias, Caput 45</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieremias, Caput 45</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0052A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ier45">
+        <head xml:id="gom-ier45-Hd1e98">Caput 45</head>
+        <div xml:id="gom-ier45-Dd1e100">
+          <head xml:id="gom-ier45-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ier45-d1e104">
+            <quote xml:id="gom-ier45-Qd1e106" type="lemma" source="http://scta.info/resource/ier45_1@1-5">Verbum quod locutus est Jeremias,</quote>
+            etc. Rudis adhuc in tolerantia passionum quas exsperturus erat Baruch, expavit captivitatis calamitatem quae tempore Joachim filii Josiae regis Juda imminebat, unde conqueritur dolorem additum dolori suo, <pb ed="#P" n="0052B"/> cui responsum est a Domino quia superflue quaerat sibi pacem, cum totus populus laboret sub fasce tribulationum. Significat autem eos qui in pressura tribulationum vel persecutionum, quibus in praesenti Ecclesia gravatur, pusillanimitate titubant, quaerentes consolationem, quae in futuro promittitur. Unde: <quote xml:id="gom-ier45-Qd1e111" source="http://scta.info/resource/io16_20@13-21">Vos autem contristabimini, sed tristitia vestra vertetur in gaudium</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

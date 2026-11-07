@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Esdrae, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Esdrae, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0700B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-esd4">
+        <head xml:id="gom-esd4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-esd4-Dd1e100">
+          <head xml:id="gom-esd4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-esd4-d1e104">
+            <quote xml:id="gom-esd4-Qd1e106" type="lemma" source="http://scta.info/resource/esd4_1@1-6">Audierunt autem hostes Judae et Benjamin,</quote>
+            etc.
+            <ref xml:id="gom-esd4-Rd1e109"><name xml:id="gom-esd4-Nd1e110" ref="#Bede">BED.</name> in Esdr.</ref>
+            <quote xml:id="gom-esd4-Qd1e114"><seg type="qs">Hostes Judae et Benjamin Samaritas dicit</seg>, etc., usque ad <seg type="qs">qui ad dexteram judicis benedictionem et regnum aeternum percepturi <pb ed="#P" n="0700C"/> sunt. Dicunt ergo:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e125">
+          <head xml:id="gom-esd4-Hd1e127">Versus 2</head>
+          <p xml:id="gom-esd4-d1e129">
+            <quote xml:id="gom-esd4-Qd1e131" type="lemma" source="http://scta.info/resource/esd4_2@11-12">Aedificemus vobis.</quote>
+            <ref xml:id="gom-esd4-Rd1e134"><name xml:id="gom-esd4-Nd1e135" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd4-Qd1e139"><seg type="qs">Cum affectant haeretici auctoritatem sibi praedicandi inter catholicos tribui</seg>, etc., usque ad <seg type="qs">in aperti persona hostis accerrime impugnavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e148">
+          <head xml:id="gom-esd4-Hd1e150">Versus 3</head>
+          <p xml:id="gom-esd4-d1e152">
+            <quote xml:id="gom-esd4-Qd1e154" type="lemma" source="http://scta.info/resource/esd4_3@12-14">Non est nobis.</quote>
+            Non est haereticorum aedificare Ecclesiam a qua sunt alieni, sed tantum eorum qui Christo vero regi et sacerdoti adhaerentes, principes patrum vocari meruerunt, et pro pia cura quam habent erga eos qui Christum videre desiderant.
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e159">
+          <head xml:id="gom-esd4-Hd1e161">Versus 4</head>
+          <p xml:id="gom-esd4-d1e163">
+            <quote xml:id="gom-esd4-Qd1e165" type="lemma" source="http://scta.info/resource/esd4_4@1-2">Factum est autem.</quote>
+            <ref xml:id="gom-esd4-Rd1e168"><name xml:id="gom-esd4-Nd1e169" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd4-Qd1e173"><seg type="qs">Quoties haeretici non solum in civitatibus, sed etiam in provinciis perverse docendo vel etiam saeviendo dogma confessionis verae impediebant</seg>, etc., usque ad <seg type="qs">sapientibus architectis reaedificandae post captivitatem <pb ed="#P" n="0700D"/> ejusdem domus copia suppeteret.</seg></quote>
+          </p>
+          <p xml:id="gom-esd4-d1e183">
+            <quote xml:id="gom-esd4-Qd1e185" type="lemma" source="http://scta.info/resource/esd4_4@9-10">Populi Judae.</quote>
+            Populum Juda, id est confidentem et glorificantem, dicit eum qui integramente Domino aedificare, id est ad voluntatem ejus faciendam et gloriam quaerendam omnium quos potest animos et ora convertere quaerit.
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e191">
+          <head xml:id="gom-esd4-Hd1e193">Versus 5</head>
+          <p xml:id="gom-esd4-d1e195">
+            <quote xml:id="gom-esd4-Qd1e197" type="lemma" source="http://scta.info/resource/esd4_5@1-1">Conduxerunt.</quote>
+            <ref xml:id="gom-esd4-Rd1e200"><name xml:id="gom-esd4-Nd1e201" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd4-Qd1e205"><seg type="qs">Notanda distinctio verborum</seg>, etc., usque ad <seg type="qs">cum principum terrenorum contra Ecclesiam praesidia acquirunt, quod quantum noceat fidei, tempore Arianae perfidiae luce clarius innotuit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e214">
+          <head xml:id="gom-esd4-Hd1e216">Versus 6</head>
+          <p xml:id="gom-esd4-d1e218">
+            <quote xml:id="gom-esd4-Qd1e220" type="lemma" source="http://scta.info/resource/esd4_6@1-4">In regno autem Assueri.</quote>
+            <ref xml:id="gom-esd4-Rd1e223"><name xml:id="gom-esd4-Nd1e224" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd4-Qd1e228"><seg type="qs">Hunc Artaxerxem</seg>, etc., usque ad <seg type="qs">sed quasi minoris potentiae illum haec tractare et decernere permisit.</seg></quote>
+          </p>
+          <p xml:id="gom-esd4-d1e236">
+            <pb ed="#P" n="0701A"/>
+            <ref xml:id="gom-esd4-Rd1e240" type="lemma" subtype="implied" target="http://scta.info/resource/esd4_6@1-4"/>
+            <ref xml:id="gom-esd4-Rd1e242"><name xml:id="gom-esd4-Nd1e243" ref="#Bede">BEDA.</name>, ibid.</ref>
+            <quote xml:id="gom-esd4-Qd1e247"><seg type="qs">Artaxerxes cui suadetur et suasus praecepit ne Jerusalem aedificetur</seg>, etc., usque ad <seg type="qs">denuo superatis hostibus qui proxima tenebant loca, possederunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e256">
+          <head xml:id="gom-esd4-Hd1e258">Versus 14</head>
+          <p xml:id="gom-esd4-d1e260">
+            <quote xml:id="gom-esd4-Qd1e262" type="lemma" source="http://scta.info/resource/esd4_14@11-11">Laesiones.</quote>
+            Quia nequeunt sufferre, qui regnum diaboli conantur impugnare, timent bella concitari in Ecclesia, ne haereses et fallaciae eorum cum dogmate gentilium debellentur, duce illo qui ait: <quote xml:id="gom-esd4-Qd1e265" source="http://scta.info/resource/mt10_34@9-14">Non veni pacem mittere, sed gladium<!-- check: Migne cites mt16; text matches mt10_34 --></quote>. Et iterum: <quote xml:id="gom-esd4-Qd1e269" source="http://scta.info/resource/lc12_49@1-5">Ignem veni mittere in terram</quote>, etc., gladium, scilicet verbi Dei quo adversarios sternat, ignem charitatis, quo suorum corda accendens omnia contrariae sectae arma et scuta comburat.
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e274">
+          <head xml:id="gom-esd4-Hd1e276">Versus 15</head>
+          <p xml:id="gom-esd4-d1e278">
+            <quote xml:id="gom-esd4-Qd1e280" type="lemma" source="http://scta.info/resource/esd4_15@15-16">Quoniam urbs.</quote>
+            <ref xml:id="gom-esd4-Rd1e283"><name xml:id="gom-esd4-Nd1e284" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-esd4-Qd1e288"><seg type="qs">Ipsi hostes iterum de civitate Domini confitentur</seg>, etc., usque ad <seg type="qs">id est <pb ed="#P" n="0701B"/> inchoationem et perfectionem honorum Deo a quo acceperant bene vivendo et gratias agendo referunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e299">
+          <head xml:id="gom-esd4-Hd1e301">Versus 16</head>
+          <p xml:id="gom-esd4-d1e303">
+            <quote xml:id="gom-esd4-Qd1e305" type="lemma" source="http://scta.info/resource/esd4_16@15-16">Trans fluvium.</quote>
+            Euphratem scilicet, intra quem Syria est, qui baptismum significat, quia unus est de quatuor fluminibus paradisi, qui totum orbem irrigant, sicut quatuor evangelistae ab uno fonte vitae, id est Christo inspirati, consona voce cunctis gentibus lavacrum salutis praedicant, vel quia Euphrates <mentioned>frugifer</mentioned> interpretatur: quod congruit sacramento quo orbis ablutus et sanctificatus fructum animarum, tricesimum, sexagesimum et centesimum Deo gignit.
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e312">
+          <head xml:id="gom-esd4-Hd1e314">Versus 17</head>
+          <p xml:id="gom-esd4-d1e316">
+            <quote xml:id="gom-esd4-Qd1e318" type="lemma" source="http://scta.info/resource/esd4_17@1-6">Verbum misit rex ad Reum Beelteem.</quote>
+            <ref xml:id="gom-esd4-Rd1e321"><name xml:id="gom-esd4-Nd1e322" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-esd4-Qd1e326"><seg type="qs">Quaerit rex Persarum</seg>, etc., usque ad <seg type="qs">qui Ecclesiam persequuntur et prohibent aedificari.</seg></quote>
+          </p>
+          <p xml:id="gom-esd4-d1e334">
+            <pb ed="#P" n="0701C"/>
+            <quote xml:id="gom-esd4-Qd1e338" type="lemma" source="http://scta.info/resource/esd4_17@18-19">Habitatores Samariae.</quote>
+            Habitant hostes Jerosolymorum in Samaria, quae interpretatur custodia, non quod praecepta fidei et veritatis custodiant, qui visioni verae pacis obstinate repugnant, sed quia custodiam virtutum penes se manere jactant, cum adversus moenia pacis per haeresim pugnant.
+          </p>
+        </div>
+        <div xml:id="gom-esd4-Dd1e344">
+          <head xml:id="gom-esd4-Hd1e346">Versus 23</head>
+          <p xml:id="gom-esd4-d1e348">
+            <quote xml:id="gom-esd4-Qd1e350" type="lemma" source="http://scta.info/resource/esd4_23@1-2">Itaque exemplum.</quote>
+            <ref xml:id="gom-esd4-Rd1e353"><name xml:id="gom-esd4-Nd1e354" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-esd4-Qd1e358"><seg type="qs">Patet ordo historiae</seg>, etc., usque ad <seg type="qs">et rex tantum prohibuisset construi civitatem.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

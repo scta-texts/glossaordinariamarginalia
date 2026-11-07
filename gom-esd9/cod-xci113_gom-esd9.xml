@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Esdrae, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Esdrae, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0711A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-esd9">
+        <head xml:id="gom-esd9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-esd9-Dd1e100">
+          <head xml:id="gom-esd9-Hd1e102">Versus 3</head>
+          <p xml:id="gom-esd9-d1e104">
+            <quote xml:id="gom-esd9-Qd1e106" type="lemma" source="http://scta.info/resource/esd9_3@5-6">Scidi pallium.</quote>
+            <ref xml:id="gom-esd9-Rd1e109"><name xml:id="gom-esd9-Nd1e110" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd9-Qd1e114"><seg type="qs">Per vestimenta solent opera designari</seg>, etc., usque ad <seg type="qs">Sedit moerens, ut per lamenta poenitentiae veniam promerendam esse doceret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd9-Dd1e123">
+          <head xml:id="gom-esd9-Hd1e125">Versus 4</head>
+          <p xml:id="gom-esd9-d1e127">
+            <quote xml:id="gom-esd9-Qd1e129" type="lemma" source="http://scta.info/resource/esd9_4@1-1">Convenerunt.</quote>
+            Nota quantum exempla doctorum juvant. Nihil scribitur Esdras locutus esse, sed tantum audito scelere lacrymasse et turbam ad se fidelium non vociferando sed lacrymando traxisse.
+          </p>
+          <p xml:id="gom-esd9-d1e133">
+            <pb ed="#P" n="0711B"/>
+            <quote xml:id="gom-esd9-Qd1e137" type="lemma" source="http://scta.info/resource/esd9_4@1-1">Convenerunt.</quote>
+            Magna mutatio rerum perfidia principum, multi luxuriam secuti, reducti sunt, magno principe moerente, et quid peccatoribus agendum esset innuente: conveniunt ad eum omnes qui timent verbum Dei, quo transgressores puniendos esse minatur.
+          </p>
+        </div>
+        <div xml:id="gom-esd9-Dd1e142">
+          <head xml:id="gom-esd9-Hd1e144">Versus 5</head>
+          <p xml:id="gom-esd9-d1e146">
+            <quote xml:id="gom-esd9-Qd1e148" type="lemma" source="http://scta.info/resource/esd9_5@10-11">Scisso pallio.</quote>
+            <ref xml:id="gom-esd9-Rd1e151"><name xml:id="gom-esd9-Nd1e152" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-esd9-Qd1e156"><seg type="qs">Typice, quod scisso indumento</seg>, etc., usque ad <seg type="qs">etiam ea quae illorum fragilitati veraciter conveniebant, misericorditer in se transferre dignatus est.</seg></quote>
+          </p>
+          <p xml:id="gom-esd9-d1e164">
+            <quote xml:id="gom-esd9-Qd1e166" type="lemma" source="http://scta.info/resource/esd9_5@14-15">Curvavi genua,</quote>
+            etc. Paravit se per compunctionem cordis, et affectionem corporis, ut dignus efficeretur auditu supernae pietatis: et in haec verba orationis prorumpit. Curvat autem genua, expandit manus, et fundit preces in tempore sacrificii <pb ed="#P" n="0711C"/> vespertini, sciens esse gratius quod fit in spiritu humilitatis et in animo contrito, quam quod carnibus et sanguine pecudum offertur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

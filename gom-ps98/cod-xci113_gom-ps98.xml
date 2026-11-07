@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 98</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 98</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1008B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps98">
+        <head xml:id="gom-ps98-Hd1e98">Psalmus 98</head>
+        <div xml:id="gom-ps98-Dd1e100">
+          <head xml:id="gom-ps98-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps98-d1e104">
+            <pb ed="#P" n="1008B"/>
+            <quote xml:id="gom-ps98-Qd1e108" type="lemma" source="http://scta.info/resource/ps98_1@1-3">Psalmus David.</quote>
+            <ref xml:id="gom-ps98-Rd1e111"><name xml:id="gom-ps98-Nd1e112" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e115"><seg type="qs">Propheta describit Christum regem bona dantem</seg>, etc., usque ad <seg type="qs">sed velamen ablatum est, cum <quote xml:id="gom-ps98-Qd1e121" source="http://scta.info/resource/ps84_12@1-10">veritas de terra orta est, et justitia de coelo prospexit<!-- check: Migne cites ps48; text matches ps84_12 --></quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-ps98-d1e127">
+            <quote xml:id="gom-ps98-Qd1e129" type="lemma" source="http://scta.info/resource/ps98_1@4-5">Dominus regnavit</quote>
+            <ref xml:id="gom-ps98-Rd1e132"><name xml:id="gom-ps98-Nd1e133" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e136">De potentia et regno Christi, ut in homine adoretur. Ostendit Christum regnantem, et (quicunque repugnet) altum super omnes, unde ei cedere monet.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e139">
+            <quote xml:id="gom-ps98-Qd1e141" type="lemma" source="http://scta.info/resource/ps98_1@7-8">Irascantur populi.</quote>
+            <ref xml:id="gom-ps98-Rd1e144"><name xml:id="gom-ps98-Nd1e145" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e148">Irrisio. Secure concedi potest, ut irascantur, quia non sunt ultra nocituri: permittendo dicit, non imperando.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e151">
+            <quote xml:id="gom-ps98-Qd1e153" type="lemma" source="http://scta.info/resource/ps98_1@11-13">Sedet super cherubim.</quote>
+            <ref xml:id="gom-ps98-Rd1e156"><name xml:id="gom-ps98-Nd1e157" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e160">Contra eum nihil potest terra, etsi ipse fuit in terra ubi passus est iram populi.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e164">
+            <quote xml:id="gom-ps98-Qd1e166" type="lemma" source="http://scta.info/resource/ps98_1@13-13">Cherubim.</quote>
+            <ref xml:id="gom-ps98-Rd1e169"><name xml:id="gom-ps98-Nd1e170" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e173"><mentioned>Plenitudo scientiae</mentioned> <pb ed="#P" n="1008C"/> interpretatur, quae est charitas. Plenitudo scientiae legis, quae est sedes Dei, erit et in te, si charitatem habueris, contra quam nihil possunt irati. Quid enim terra contra coelum?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps98-Dd1e181">
+          <head xml:id="gom-ps98-Hd1e183">Versus 2</head>
+          <p xml:id="gom-ps98-d1e185">
+            <quote xml:id="gom-ps98-Qd1e187" type="lemma" source="http://scta.info/resource/ps98_2@1-3">Dominus in Sion.</quote>
+            <ref xml:id="gom-ps98-Rd1e190"><name xml:id="gom-ps98-Nd1e191" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e194">Si non intelligis quid est <quote xml:id="gom-ps98-Qd1e196" source="http://scta.info/resource/ps98_1@12-13">super Cherubim,</quote> hoc vide, quia <quote xml:id="gom-ps98-Qd1e199" source="http://scta.info/resource/ps98_2@2-4">in Sion magnus.</quote> Sion est anima quae Deum speculatur.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e204">
+            <quote xml:id="gom-ps98-Qd1e206" type="lemma" source="http://scta.info/resource/ps98_2@2-4">In Sion magnus.</quote>
+            <ref xml:id="gom-ps98-Rd1e209"><name xml:id="gom-ps98-Nd1e210" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e213">Quis Dominus, exponit: <quote xml:id="gom-ps98-Qd1e215" source="http://scta.info/resource/ps98_2@2-3">In Sion</quote> natus.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e220">
+            <quote xml:id="gom-ps98-Qd1e222" type="lemma" source="http://scta.info/resource/ps98_2@4-4">Magnus,</quote>
+            ne pro passione vilescat. Vel, tamen Dominus magnus in Sion Judaeorum, et super populos gentium.
+          </p>
+        </div>
+        <div xml:id="gom-ps98-Dd1e227">
+          <head xml:id="gom-ps98-Hd1e229">Versus 3</head>
+          <p xml:id="gom-ps98-d1e231">
+            <quote xml:id="gom-ps98-Qd1e233" type="lemma" source="http://scta.info/resource/ps98_3@4-4">Magno.</quote>
+            <ref xml:id="gom-ps98-Rd1e236"><name xml:id="gom-ps98-Nd1e237" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e240">Parvum erat quando irascebantur, id est, paucis diffamatum, sed jam in omni terra dilatatum.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e243">
+            <quote xml:id="gom-ps98-Qd1e245" type="lemma" source="http://scta.info/resource/ps98_3@6-6">Terribile.</quote>
+            <ref xml:id="gom-ps98-Rd1e248"><name xml:id="gom-ps98-Nd1e249" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e252">Quia etsi crucifixus praedicatur, judex venturus, et non errabit <pb ed="#P" n="1008D"/> in judicio.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps98-Dd1e259">
+          <head xml:id="gom-ps98-Hd1e261">Versus 4</head>
+          <p xml:id="gom-ps98-d1e263">
+            <quote xml:id="gom-ps98-Qd1e265" type="lemma" source="http://scta.info/resource/ps98_4@1-3">Et honor regis.</quote>
+            <ref xml:id="gom-ps98-Rd1e268"><name xml:id="gom-ps98-Nd1e269" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e272">Exponit quomodo debent confiteri.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e275">
+            <quote xml:id="gom-ps98-Qd1e277" type="lemma" source="http://scta.info/resource/ps98_4@2-3">Honor regis,</quote>
+            est gloriosa praedicatio, <quote xml:id="gom-ps98-Qd1e280" source="http://scta.info/resource/ps98_4@4-4">judicium</quote> discretionem exigit; non levi voluntate colendus est, sed fixa deliberatione, quod ab ipso est; unde subdit: <quote xml:id="gom-ps98-Qd1e283" source="http://scta.info/resource/ps98_4@6-8">Tu parasti directiones.</quote> Vel <quote xml:id="gom-ps98-Qd1e286" source="http://scta.info/resource/ps98_4@2-3">honor regis</quote> est damnatio nocentium, unde regis gloria augetur.
+          </p>
+          <p xml:id="gom-ps98-d1e290">
+            <quote xml:id="gom-ps98-Qd1e292" type="lemma" source="http://scta.info/resource/ps98_4@13-14">In Jacob.</quote>
+            <ref xml:id="gom-ps98-Rd1e295"><name xml:id="gom-ps98-Nd1e296" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e299">Non solum patriarcha, sed populo, quem significat.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e302">
+            <quote xml:id="gom-ps98-Qd1e304" type="lemma" source="http://scta.info/resource/ps98_4@15-16">Tu fecisti.</quote>
+            Haec, quae alius non posset.
+          </p>
+        </div>
+        <div xml:id="gom-ps98-Dd1e310">
+          <head xml:id="gom-ps98-Hd1e312">Versus 5</head>
+          <p xml:id="gom-ps98-d1e314">
+            <quote xml:id="gom-ps98-Qd1e316" type="lemma" source="http://scta.info/resource/ps98_5@1-1">Exaltate.</quote>
+            <ref xml:id="gom-ps98-Rd1e319"><name xml:id="gom-ps98-Nd1e320" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e323">Secunda pars monet adorare eum, quia patres ejus <quote xml:id="gom-ps98-Qd1e325">fuerunt.</quote> Quasi, quia haec facit nobis, ergo <quote xml:id="gom-ps98-Qd1e327" source="http://scta.info/resource/ps98_5@1-1">Exaltate.</quote></quote>
+          </p>
+          <p xml:id="gom-ps98-d1e331">
+            <quote xml:id="gom-ps98-Qd1e333" type="lemma" source="http://scta.info/resource/ps98_5@7-7">Scabellum.</quote>
+            <ref xml:id="gom-ps98-Rd1e336"><name xml:id="gom-ps98-Nd1e337" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e340"><seg type="qs"><quote xml:id="gom-ps98-Qd1e342" source="http://scta.info/resource/ps98_5@7-9">Terra scabellum vedum ejus</quote> dicit <pb ed="#P" n="1009A"/> Scriptura</seg>, etc., usque ad <seg type="qs">in cujus honore scabellum adorat.</seg></quote>
+          </p>
+          <p xml:id="gom-ps98-d1e352">
+            <quote xml:id="gom-ps98-Qd1e354" type="lemma" source="http://scta.info/resource/ps98_5@8-8">Pedum.</quote>
+            <ref xml:id="gom-ps98-Rd1e357"><name xml:id="gom-ps98-Nd1e358" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e361"><quote xml:id="gom-ps98-Qd1e362">Pedes,</quote> indefecta stabilitas deitatis.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e366">
+            <quote xml:id="gom-ps98-Qd1e368" type="lemma" source="http://scta.info/resource/ps98_5@11-11">Sanctum.</quote>
+            Ut discernas corpus a deitate, etsi una persona.
+          </p>
+        </div>
+        <div xml:id="gom-ps98-Dd1e373">
+          <head xml:id="gom-ps98-Hd1e375">Versus 6</head>
+          <p xml:id="gom-ps98-d1e377">
+            <quote xml:id="gom-ps98-Qd1e379" type="lemma" source="http://scta.info/resource/ps98_6@1-1">Moyses.</quote>
+            <ref xml:id="gom-ps98-Rd1e382"><name xml:id="gom-ps98-Nd1e383" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e386">Sacerdos, quia si non hostias, populi vota obtulit, et pro populo supplicavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps98-Dd1e390">
+          <head xml:id="gom-ps98-Hd1e392">Versus 7</head>
+          <p xml:id="gom-ps98-d1e394">
+            <quote xml:id="gom-ps98-Qd1e396" type="lemma" source="http://scta.info/resource/ps98_7@2-2">Columna.</quote>
+            <ref xml:id="gom-ps98-Rd1e399"><name xml:id="gom-ps98-Nd1e400" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e403">Fortitudo et decor domus. In hac specie loquebatur, quae nuntiabat Ecclesiam, vel carnem, sed tunc in nube, modo aperte per Filium: <quote xml:id="gom-ps98-Qd1e405" source="http://scta.info/resource/ps98_7@3-6">Nubis loquebatur ad eos.</quote></quote>
+          </p>
+          <p xml:id="gom-ps98-d1e409">
+            <ref xml:id="gom-ps98-Rd1e411" type="lemma" subtype="implied" target="http://scta.info/resource/ps98_7@2-2"/>
+            <ref xml:id="gom-ps98-Rd1e413"><name xml:id="gom-ps98-Nd1e414" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e417">Ad eos ergo tunc in nube, qui jam nobis loquitur in scabello, id est, in carne assumpta aperte.</quote>
+          </p>
+          <p xml:id="gom-ps98-d1e420">
+            <quote xml:id="gom-ps98-Qd1e422" type="lemma" source="http://scta.info/resource/ps98_7@8-11">Testimonia ejus et praecepta.</quote>
+            <ref xml:id="gom-ps98-Rd1e425"><name xml:id="gom-ps98-Nd1e426" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e429">Testimonium est per signa aliqua praecedentis rei posita significatio: unde saepe in lege dicitur: <quote xml:id="gom-ps98-Qd1e431" source="http://scta.info/resource/ios24_27@9-12">Hoc erit vobis in testimonium.</quote> Praecepta <pb ed="#P" n="1009B"/> sunt sicut praecepta legis per Moysen data.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps98-Dd1e439">
+          <head xml:id="gom-ps98-Hd1e441">Versus 8</head>
+          <p xml:id="gom-ps98-d1e443">
+            <quote xml:id="gom-ps98-Qd1e445" type="lemma" source="http://scta.info/resource/ps98_8@10-12">Propitius fuisti eis.</quote>
+            <ref xml:id="gom-ps98-Rd1e448"><name xml:id="gom-ps98-Nd1e449" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e452">Non dicitur nisi peccatis, propitius ignoscendo, propitius et ulciscendo, ecce etsi tanti essent isti, aliquid tamen habebant peccati; unde addit, <quote xml:id="gom-ps98-Qd1e454" source="http://scta.info/resource/ps98_8@15-17">in omnes adinventiones.</quote></quote>
+          </p>
+          <p xml:id="gom-ps98-d1e458">
+            <quote xml:id="gom-ps98-Qd1e460" type="lemma" source="http://scta.info/resource/ps98_8@14-14">Ulciscens.</quote>
+            Ne humana elatio subriperet; unde: Datus est mihi stimulus carnis meae <quote xml:id="gom-ps98-Qd1e463" source="http://scta.info/resource/IIcor12">Adinventiones.<!-- check: cited chapter given; verse not identified --></quote> Alias affectiones.
+          </p>
+          <p xml:id="gom-ps98-d1e468">
+            <ref xml:id="gom-ps98-Rd1e470" type="lemma" subtype="implied" target="http://scta.info/resource/ps98_8@14-14"/>
+            <ref xml:id="gom-ps98-Rd1e472"><name xml:id="gom-ps98-Nd1e473" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps98-Qd1e476">Quas solus Deus noverat in cordibus eorum; unde poena eis pati eos cum quibus erant, pro quorum peccatis quasi suis dolebant per charitatem. Non enim fuit, ut a plerisque putatur, Moysi poena non intrare in terram promissionis in quam et miseri intraverunt; sed figura, quod qui sub lege essent, et sub gratia esse nollent, non intrarent in requiem.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

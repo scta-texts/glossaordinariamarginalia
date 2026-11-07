@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0524B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudic4">
+        <head xml:id="gom-iudic4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-iudic4-Dd1e100">
+          <head xml:id="gom-iudic4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-iudic4-d1e104">
+            <quote xml:id="gom-iudic4-Qd1e106" type="lemma" source="http://scta.info/resource/iudic4_1@1-2">Addideruntque filii</quote>
+            <ref xml:id="gom-iudic4-Rd1e109"><name xml:id="gom-iudic4-Nd1e110" ref="#Origen">ORIG.</name>, hom. 4 in Jud.</ref>
+            <quote xml:id="gom-iudic4-Qd1e114"><seg type="qs">Quasi pro peccatis populi dux bonus obiit</seg>, etc., usque ad <seg type="qs">et Jabin principi Chananaeorum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic4-Dd1e123">
+          <head xml:id="gom-iudic4-Hd1e125">Versus 2</head>
+          <p xml:id="gom-iudic4-d1e127">
+            <quote xml:id="gom-iudic4-Qd1e129" type="lemma" source="http://scta.info/resource/iudic4_2@5-9">In manus Jabin regis Chanaan.</quote>
+            <ref xml:id="gom-iudic4-Rd1e132"><name xml:id="gom-iudic4-Nd1e133" ref="#Origen">ADAM.</name>, hom. 4 in Jud.</ref>
+            <quote xml:id="gom-iudic4-Qd1e137"><seg type="qs">Princeps militiae Jabin</seg>, etc., usque ad <seg type="qs">vel ecclesiae populus gubernetur, vel cujusque animae sensus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic4-Dd1e146">
+          <head xml:id="gom-iudic4-Hd1e148">Versus 4</head>
+          <p xml:id="gom-iudic4-d1e150">
+            <pb ed="#P" n="0524C"/>
+            <quote xml:id="gom-iudic4-Qd1e154" type="lemma" source="http://scta.info/resource/iudic4_4@1-1">Erat.</quote>
+            <ref xml:id="gom-iudic4-Rd1e157"><name xml:id="gom-iudic4-Nd1e158" ref="#Origen">ADAM.</name>, hom. 5.</ref>
+            <quote xml:id="gom-iudic4-Qd1e162"><seg type="qs">Secundum Apostolum</seg>, etc., usque ad <seg type="qs">quia confert hanc gratiam mentis puritas, non sexus diversitas.</seg></quote>
+          </p>
+          <p xml:id="gom-iudic4-d1e170">
+            <quote xml:id="gom-iudic4-Qd1e172" type="lemma" source="http://scta.info/resource/iudic4_4@3-3">Debbora.</quote>
+            Apis vel loquela, quae prophetam significat; quae suaves coelestis doctrinae favos, et dulcia divini eloquii mella componit. Unde: <quote xml:id="gom-iudic4-Qd1e175" source="http://scta.info/resource/ps118_103@1-11">Quam dulcia faucibus meis eloquia tua super mel et favum ori meo!</quote> Et alibi: <quote xml:id="gom-iudic4-Qd1e178">Judicia Domini,</quote> dicit propheta, <quote xml:id="gom-iudic4-Qd1e180" source="http://scta.info/resource/ps18_11@2-13">pretiosa esse super aurum et lapidem pretiosum nimis, et dulciora super mel et favum.<!-- check: Migne cites ps10; text matches ps18_11 --></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic4-Dd1e186">
+          <head xml:id="gom-iudic4-Hd1e188">Versus 5</head>
+          <p xml:id="gom-iudic4-d1e190">
+            <quote xml:id="gom-iudic4-Qd1e192" type="lemma" source="http://scta.info/resource/iudic4_5@1-4">Et sedebat sub palma,</quote>
+            etc.
+            <ref xml:id="gom-iudic4-Rd1e195"><name xml:id="gom-iudic4-Nd1e196" ref="#Origen">ADAM.</name></ref>
+            <quote xml:id="gom-iudic4-Qd1e199">Vide in quibus locis sedet prophetia, inter excelsa, scilicet, et domum Dei. Nihil humile, nihil vile erga prophetiae sedem reperiri potest. Sicut Salomon dicit: quod in altis, scilicet portis civitatum, assistat, <pb ed="#P" n="0524D"/> vel in murorum moenibus habitet, vel in altis turribus libere agat. Inter domum Dei ergo et excelsa dicitur habitare. Non enim docet quae super terram sunt quaerere, sed quae in coelis, ubi Christus est in dextera Dei sedens. Illuc nos hortatur ascendere: illuc discipulos suos molitur movere prophetia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic4-Dd1e207">
+          <head xml:id="gom-iudic4-Hd1e209">Versus 8</head>
+          <p xml:id="gom-iudic4-d1e211">
+            <quote xml:id="gom-iudic4-Qd1e213" type="lemma" source="http://scta.info/resource/iudic4_8@5-6">Si venis</quote>
+            <ref xml:id="gom-iudic4-Rd1e216"><name xml:id="gom-iudic4-Nd1e217" ref="#Augustine">AUG.</name>, quaest. 29 in Jud.</ref>
+            <quote xml:id="gom-iudic4-Qd1e221"><seg type="qs">Quid est quod respondens Barac Debborae ait</seg>, etc., usque ad: <seg type="qs">id est, facit mecum prospera per angelum?</seg></quote>
+          </p>
+          <p xml:id="gom-iudic4-d1e229">
+            <quote xml:id="gom-iudic4-Qd1e231" type="lemma" source="http://scta.info/resource/iudic4_8">Non ascendam, nisi tu ascenderis mecum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-iudic4-Rd1e236"><name xml:id="gom-iudic4-Nd1e237" ref="#Origen">ADAM.</name>, hom. 5.</ref>
+            <quote xml:id="gom-iudic4-Qd1e241"><seg type="qs">Vides quomodo illis prioribus prophetia detulit eloquia Dei</seg>, etc., usque ad, <seg type="qs">cui nomen Jahel, traditur Sisara.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic4-Dd1e250">
+          <head xml:id="gom-iudic4-Hd1e252">Versus 18</head>
+          <p xml:id="gom-iudic4-d1e254">
+            <pb ed="#P" n="0525A"/>
+            <quote xml:id="gom-iudic4-Qd1e258" type="lemma" source="http://scta.info/resource/iudic4_18@1-2">Egressa igitur</quote>
+            <ref xml:id="gom-iudic4-Rd1e261"><name xml:id="gom-iudic4-Nd1e262" ref="#Origen">ADAM.</name>, hom. 5.</ref>
+            <quote xml:id="gom-iudic4-Qd1e266"><seg type="qs">Jahel mulier alienigena Ecclesiam significat</seg>, etc., usque ad <seg type="qs">aeterno tradidit somno.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic4-Dd1e275">
+          <head xml:id="gom-iudic4-Hd1e277">Versus 19</head>
+          <p xml:id="gom-iudic4-d1e279">
+            <quote xml:id="gom-iudic4-Qd1e281" type="lemma" source="http://scta.info/resource/iudic4_19@12-13">Quae aperuit</quote>
+            <ref xml:id="gom-iudic4-Rd1e284"><name xml:id="gom-iudic4-Nd1e285" ref="#Origen">ADAM.</name>, hom. 5.</ref>
+            <quote xml:id="gom-iudic4-Qd1e289"><seg type="qs">Unaquaeque anima hoc lacte evangelico et apostolico Sisaram in se sopiat et exstinguat</seg>, etc., usque ad <seg type="qs">sed unum primis et novissimis victoriae praemium dabitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic4-Dd1e298">
+          <head xml:id="gom-iudic4-Hd1e300">Versus 22</head>
+          <p xml:id="gom-iudic4-d1e302">
+            <quote xml:id="gom-iudic4-Qd1e304" type="lemma" source="http://scta.info/resource/iudic4_22@7-7">Egressaque,</quote>
+            etc.
+            <ref xml:id="gom-iudic4-Rd1e307"><name xml:id="gom-iudic4-Nd1e308" ref="#Origen">ADAM.</name>, hom. 5 in Jud.</ref>
+            <quote xml:id="gom-iudic4-Qd1e312"><seg type="qs">Occurrit Jahel</seg>, etc., usque ad <seg type="qs">fideli tactu prior consequitur sanitatem.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

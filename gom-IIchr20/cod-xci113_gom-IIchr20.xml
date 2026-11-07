@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 20</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 20</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0684B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr20">
+        <head xml:id="gom-IIchr20-Hd1e98">Caput 20</head>
+        <div xml:id="gom-IIchr20-Dd1e100">
+          <head xml:id="gom-IIchr20-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIchr20-d1e104">
+            <pb ed="#P" n="0684B"/>
+            <quote xml:id="gom-IIchr20-Qd1e108" type="lemma" source="http://scta.info/resource/IIchr20_1@13-14">De Ammonitis.</quote>
+            Idumaeos significat, sed scriptor historiae maluit quod gerebatur associatorum notare vocabulo, quam impietatem impudentium publice divulgare.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr20-Dd1e113">
+          <head xml:id="gom-IIchr20-Hd1e115">Versus 2</head>
+          <p xml:id="gom-IIchr20-d1e117">
+            <quote xml:id="gom-IIchr20-Qd1e119" type="lemma" source="http://scta.info/resource/IIchr20_2@12-14">De his locis,</quote>
+            etc. Illa loca significat quae ultra mare Salinarum sunt, quod alias stagnum Asphaliti vel mare Mortuum nominatur.
+          </p>
+          <p xml:id="gom-IIchr20-d1e123">
+            <quote xml:id="gom-IIchr20-Qd1e125" type="lemma" source="http://scta.info/resource/IIchr20_2@29-29">Engaddi.</quote>
+            Vocatur usque hodie, vicus pergrandis Judaeorum juxta mare Mortuum, unde opobalsamum venit: quas Salomon nuncupat vineas Engaddi.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr20-Dd1e130">
+          <head xml:id="gom-IIchr20-Hd1e132">Versus 16</head>
+          <p xml:id="gom-IIchr20-d1e134">
+            <quote xml:id="gom-IIchr20-Qd1e136" type="lemma" source="http://scta.info/resource/IIchr20_16@5-11">Ascensuri enim per clivum nomine Sis,</quote>
+            etc.
+            <ref xml:id="gom-IIchr20-Rd1e139"><name xml:id="gom-IIchr20-Nd1e140" ref="#RabanusMaurus">RAB.</name> in Paral., ex Hieron.</ref>
+            <quote xml:id="gom-IIchr20-Qd1e144"><seg type="qs">Qui et Jeruel secundum Hebraeos. Dicunt enim quod Sis</seg>, etc., usque ad <seg type="qs">incussus est alienigenis pavor undique.</seg></quote>
+          </p>
+          <p xml:id="gom-IIchr20-d1e152">
+            <ref xml:id="gom-IIchr20-Rd1e154" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr20_16@5-11"/>
+            Mystice, Moabitae, Ammonitae, et Idumaei, paganos, <pb ed="#P" n="0684C"/> Judaeos, et haereticos significant, qui gratis bellum exicitant fidelibus, et religionem Christianam auferre contendunt. Sed Josaphat, id est Christi populus, non armis corporalibus, sed spiritualibus eos aggreditur, intima cordis devotione supernum quaerens auxilium.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr20-Dd1e160">
+          <head xml:id="gom-IIchr20-Hd1e162">Versus 25</head>
+          <p xml:id="gom-IIchr20-d1e164">
+            <quote xml:id="gom-IIchr20-Qd1e166" type="lemma" source="http://scta.info/resource/IIchr20_25@1-3">Venit ergo Josaphat,</quote>
+            etc. Sancti doctores cum turba fidelium colligunt de spoliis hostium quidquid de Physica, Ethica, et Logica legendo, et scribendo, et docendo utiliter crediderunt, per sanctae Trinitatis fidem, in usum totius Ecclesiae convertunt, ut quod illi injuste et inutiliter possidebant, fideles utiliter possidentes, animarum ad salutem possideant.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr20-Dd1e172">
+          <head xml:id="gom-IIchr20-Hd1e174">Versus 26</head>
+          <p xml:id="gom-IIchr20-d1e176">
+            <quote xml:id="gom-IIchr20-Qd1e178" type="lemma" source="http://scta.info/resource/IIchr20_26@17-18">Vallis benedictionis.</quote>
+            Humilitas Ecclesiae, <pb ed="#P" n="0684D"/> ubi digne Deo laudes redduntur. Qui autem quatuor Evangeliorum instructus dogmate per baptismi fidem ad unitatem Ecclesiae pervenit, ibi rite laudans, digne Deo conversans visionem perpetuae pacis, cum laude et laetitia sempiterna introibit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

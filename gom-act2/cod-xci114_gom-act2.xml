@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0430A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act2">
+        <head xml:id="gom-act2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-act2-Dd1e100">
+          <head xml:id="gom-act2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-act2-d1e104">
+            <pb ed="#P" n="0430A"/>
+            <quote xml:id="gom-act2-Qd1e108" type="lemma" source="http://scta.info/resource/act2_1@9-11">In eodem loco.</quote>
+            Coenaculo scilicet, in quod ascenderant. Qui Spiritum desiderat, carnis domicilium mentis contemplatione transcendens calcat.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e113">
+          <head xml:id="gom-act2-Hd1e115">Versus 2</head>
+          <p xml:id="gom-act2-d1e117">
+            <quote xml:id="gom-act2-Qd1e119" type="lemma" source="http://scta.info/resource/act2_2@5-6">De coelo.</quote>
+            Datur Spiritus de coelo, ut diligatur Deus; in terra datur, ut diligatur proximus: bis enim post resurrectionem est datus ad duo praecepta charitatis commendanda.
+          </p>
+          <p xml:id="gom-act2-d1e123">
+            <quote xml:id="gom-act2-Qd1e125" type="lemma" source="http://scta.info/resource/act2_2@7-7">Sonus.</quote>
+            Potest dici locutio linguarum de ore apostolorum sonans.
+          </p>
+          <p xml:id="gom-act2-d1e129">
+            <quote xml:id="gom-act2-Qd1e131" type="lemma" source="http://scta.info/resource/act2_2@10-10">Spiritus.</quote>
+            Ante passionem datus est apostolis Spiritus ad gratiam doctrinae et sanitatum; post resurrectionem insufflavit Jesus spiritum, et ait: <quote xml:id="gom-act2-Qd1e134" source="http://scta.info/resource/io20_23@1-5">Accipite Spiritum sanctum; quorum remiseritis peccata, remittuntur eis</quote>, etc. Quod donum soli Petro <pb ed="#P" n="0430B"/> prius dederat: sed ut creditur tunc per anticipationem, nunc cum caeteris per completionem etiam Petro tribuitur: et potestas data est dimittendi illis quos ad officium mittebat praedicationis.
+          </p>
+          <p xml:id="gom-act2-d1e140">
+            <quote xml:id="gom-act2-Qd1e142" type="lemma" source="http://scta.info/resource/act2_2@11-11">Vehementis.</quote>
+            Comparatione praecedentium vehemens dicitur gratia apostolorum, vel in similitudinem venti vehementis Spiritus venit.
+          </p>
+          <p xml:id="gom-act2-d1e147">
+            <quote xml:id="gom-act2-Qd1e149" type="lemma" source="http://scta.info/resource/act2_2@14-15">Totam domum.</quote>
+            In una domo sedentibus infunditur Spiritus, ut Ecclesiae unitas commendetur, in coenaculo tertia lege incipiente. In datione legis plebs longe stabat prae timore; hic veniente Spiritu congregati erant in unum ex amore.
+          </p>
+          <p xml:id="gom-act2-d1e153">
+            <quote xml:id="gom-act2-Qd1e155" type="lemma" source="http://scta.info/resource/act2_2@18-18">Sedentes.</quote>
+            Ut compleatur quod dictum erat eis: <quote xml:id="gom-act2-Qd1e158" source="http://scta.info/resource/lc24_49@11-13">Sedete hic in civitate.</quote> Sessio est indicium humilitatis et stabilitatis: quibus praeparatur sedes Spiritui sancto, qui super humiles requiescit.
+          </p>
+          <p xml:id="gom-act2-d1e162">
+            <pb ed="#P" n="0430C"/>
+            <ref xml:id="gom-act2-Rd1e166" type="lemma" subtype="implied" target="http://scta.info/resource/act2_2@18-18"/>
+            <ref xml:id="gom-act2-Rd1e168"><name xml:id="gom-act2-Nd1e169" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-act2-Qd1e172"><seg type="qs">In igne apparuit Spiritus, sed per seipsum</seg>, etc., usque ad <seg type="qs">et voce sive sonitu docta sunt corda.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e181">
+          <head xml:id="gom-act2-Hd1e183">Versus 3</head>
+          <p xml:id="gom-act2-d1e185">
+            <quote xml:id="gom-act2-Qd1e187" type="lemma" source="http://scta.info/resource/act2_3@4-4">Dispertitae.</quote>
+            Dispersio linguarum est facta in turre, sed quod dispersit superbia, recolligit humilitas: in superbia dispersio, in humilitate fit concordia. Ecce completur sententia Domini quae ait: <quote xml:id="gom-act2-Qd1e190" source="http://scta.info/resource/io14_18@1-4">Non vos relinquam orphanos, sed mittam Spiritum paracletum</quote>, qui eorum advocatus, pro eis omnibus linguis locutus est. Linguas attulit, qui pro Verbo venit, cognationem enim habet lingua cum verbo, ut ab invicem non possint separari. Sic Verbum Patris, id est Filius, et Spiritus sanctus inseparabiles sunt, imo et unius naturae.
+          </p>
+          <p xml:id="gom-act2-d1e194">
+            <quote xml:id="gom-act2-Qd1e196" type="lemma" source="http://scta.info/resource/act2_3@6-7">Tanquam ignis.</quote>
+            Idem in igne Spiritus venit: quia peccatores <pb ed="#P" n="0430D"/> <quote xml:id="gom-act2-Qd1e201">Spiritus purgat, illuminat, accendit, urit.</quote> Ignis enim quatuor habet naturas, <quote xml:id="gom-act2-Qd1e203">urit, purgat, calefacit, illuminat.</quote> Similiter Spiritus exurit peccata, purgat corda, torporem excutit, ignorantias illustrat. Ignis incorporeus et invisibilis est in sua natura; sed assumpto aliquo corpore videtur, diversi coloris apparens, propter materias in quibus ardet. Sic Spiritus videri non poterit, nisi per creaturas in quibus operatur.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e207">
+          <head xml:id="gom-act2-Hd1e209">Versus 4</head>
+          <p xml:id="gom-act2-d1e211">
+            <quote xml:id="gom-act2-Qd1e213" type="lemma" source="http://scta.info/resource/act2_4@7-8">Et coeperunt.</quote>
+            Ecce signum plenitudinis: plenum vas erumpit. Ignis in sinu non potest occultari.
+          </p>
+          <p xml:id="gom-act2-d1e217">
+            <quote xml:id="gom-act2-Qd1e219" type="lemma" source="http://scta.info/resource/act2_4">Variis linguis.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Quia linguis omnibus loquebantur, vel sua, id est Hebraea lingua, loquentes, ab omnibus ita intelligebantur, ac si propriis singulorum <pb ed="#P" n="0431A"/> loquerentur, secundum illud Prophetae: In aliis linguis, et labiis aliis, loquar populo huic, etc.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e229">
+          <head xml:id="gom-act2-Hd1e231">Versus 5</head>
+          <p xml:id="gom-act2-d1e233">
+            <quote xml:id="gom-act2-Qd1e235" type="lemma" source="http://scta.info/resource/act2_5@9-11">Ex omni natione,</quote>
+            etc.
+            <ref xml:id="gom-act2-Rd1e238"><name xml:id="gom-act2-Nd1e239" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act2-Qd1e242">Ac si diceretur: Ubicunque nati. Judaeos autem in omnibus gentibus nasci captivitas fecit, quae sub Antiocho facta est non multis temporibus ante.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e246">
+          <head xml:id="gom-act2-Hd1e248">Versus 6</head>
+          <p xml:id="gom-act2-d1e250">
+            <quote xml:id="gom-act2-Qd1e252" type="lemma" source="http://scta.info/resource/act2_6@9-9">Confusa.</quote>
+            Confusio ista confusioni linguarum opponitur, a qua Babel vocabulum sortita est. Sic humilitas apostolorum humanae superbiae respondet.
+          </p>
+          <p xml:id="gom-act2-d1e256">
+            <quote xml:id="gom-act2-Qd1e258" type="lemma" source="http://scta.info/resource/act2_6@13-13">Unusquisque.</quote>
+            Linguae omnes dicuntur esse septuaginta duae: unde et discipuli secundi ordinis sub hoc numero sunt electi, ut numerus praedicatorum concordaret numero linguarum.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e263">
+          <head xml:id="gom-act2-Hd1e265">Versus 8</head>
+          <p xml:id="gom-act2-d1e267">
+            <quote xml:id="gom-act2-Qd1e269" type="lemma" source="http://scta.info/resource/act2_8@4-4">Audivimus.</quote>
+            In hoc significabatur unam Ecclesiam omnium gentium linguis locuturam.
+          </p>
+          <p xml:id="gom-act2-d1e273">
+            <pb ed="#P" n="0431B"/>
+            <ref xml:id="gom-act2-Rd1e277" type="lemma" subtype="implied" target="http://scta.info/resource/act2_8@4-4"/>
+            <ref xml:id="gom-act2-Rd1e279"><name xml:id="gom-act2-Nd1e280" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act2-Qd1e283"><seg type="qs">Quaeritur utrum hi qui loquebantur</seg>, etc., usque ad <seg type="qs">magis videbatur audientium esse miraculum quam loquentium.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e292">
+          <head xml:id="gom-act2-Hd1e294">Versus 9</head>
+          <p xml:id="gom-act2-d1e296">
+            <quote xml:id="gom-act2-Qd1e298" type="lemma" source="http://scta.info/resource/act2_9@13-13">Cappadociam,</quote>
+            etc. Istae quinque provinciae quae post Judaeam ponuntur, Graece quidem loquuntur: sed ex patria consuetudine est in sono diversitas. Unde mira fuit in apostolis gratia, quae non solum diversitatem eos docuit, sed etiam distantiam proprietatum in unaquaque linguarum juxta numerum provinciarum in eorum loquela fecit.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e303">
+          <head xml:id="gom-act2-Hd1e305">Versus 10</head>
+          <p xml:id="gom-act2-d1e307">
+            <quote xml:id="gom-act2-Qd1e309" type="lemma" source="http://scta.info/resource/act2_10@13-14">Advenae Romani.</quote>
+            In Graeco, peregrinantes Romani, id est, Judaei qui peregrinam vitam Romae gerebant.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e314">
+          <head xml:id="gom-act2-Hd1e316">Versus 14</head>
+          <p xml:id="gom-act2-d1e318">
+            <quote xml:id="gom-act2-Qd1e320" type="lemma" source="http://scta.info/resource/act2_14@13-14">Viri Judaei.</quote>
+            Id est, duae causae sunt prudentiae, nimirum quod Judaei, et quod habitarent <pb ed="#P" n="0431C"/> Jerusalem, quam decet sobrietas.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e328">
+          <head xml:id="gom-act2-Hd1e330">Versus 17</head>
+          <p xml:id="gom-act2-d1e332">
+            <quote xml:id="gom-act2-Qd1e334" type="lemma" source="http://scta.info/resource/act2_17@8-8">Effundam.</quote>
+            Hoc verbo largitatem muneris ostendit, quia non ut olim prophetis et sacerdotibus tantum, sed omnibus passim in utroque sexu personis Spiritus erat dandus.
+          </p>
+          <p xml:id="gom-act2-d1e338">
+            <quote xml:id="gom-act2-Qd1e340" type="lemma" source="http://scta.info/resource/act2_17@9-10">De Spiritu.</quote>
+            Ad diversa dona respicit dum hoc dicit, non autem ad subtsantiae imminutionem.
+          </p>
+          <p xml:id="gom-act2-d1e344">
+            <quote xml:id="gom-act2-Qd1e346" type="lemma" source="http://scta.info/resource/act2_17@12-14">Super omnem carnem.</quote>
+            Quae sit omnis caro consequenter exponit <ref xml:id="gom-act2-Rd1e349">ibi: <seg type="incipit">Et prophetabunt filii</seg>,</ref> etc.
+          </p>
+          <p xml:id="gom-act2-d1e356">
+            <ref xml:id="gom-act2-Rd1e358" type="lemma" subtype="implied" target="http://scta.info/resource/act2_17@12-14"/>
+            <ref xml:id="gom-act2-Rd1e360"><name xml:id="gom-act2-Nd1e361" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act2-Qd1e364">Super omnem carnem masculi et feminae, vel circumcisi et ethnici, secundum illud: <quote xml:id="gom-act2-Qd1e366" source="http://scta.info/resource/col3_11@2-15">Non est masculus et femina, circumcisio et praeputium, Barbarus et Scytha, servus et liber<!-- check: Migne cites gal3; text matches col3_11 --></quote>.</quote>
+          </p>
+          <p xml:id="gom-act2-d1e373">
+            <quote xml:id="gom-act2-Qd1e375" type="lemma" source="http://scta.info/resource/act2_17@15-16">Et prophetabunt.</quote>
+            Lex et prophetae usque ad Joannem: ex eo regnum evangelizatur. Sed aliud est de <pb ed="#P" n="0431D"/> Christo prophetare, aliud ventura praedicere et docere.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e382">
+          <head xml:id="gom-act2-Hd1e384">Versus 19</head>
+          <p xml:id="gom-act2-d1e386">
+            <quote xml:id="gom-act2-Qd1e388" type="lemma" source="http://scta.info/resource/act2_19@1-2">Et dabo.</quote>
+            Mystice prodigia in coelo, labores sunt in Ecclesia. Signa, super terram. Vindictae, in terrenos. Sanguis, in martyrio. Ignis, Evangelii vel Spiritus sancti. Vapor fumi, animae vel cordis compunctio.
+          </p>
+          <p xml:id="gom-act2-d1e392">
+            <quote xml:id="gom-act2-Qd1e394" type="lemma" source="http://scta.info/resource/act2_19@3-5">Prodigia in coelo.</quote>
+            Etenim Christo nascente, novum sidus apparuit; eo ascendente crucem, sol obscuratus est et coelum tenebris obductum.
+          </p>
+          <p xml:id="gom-act2-d1e398">
+            <quote xml:id="gom-act2-Qd1e400" type="lemma" source="http://scta.info/resource/act2_19@12-12">Sanguinem.</quote>
+            Non solum vulneris, sed etiam sudoris, quando in oratione factus est sudor ejus sicut guttae sanguinis, quod inter signa Deitatis ponitur, quia in humana natura non invenitur. Ergo significat <pb ed="#P" n="0432A"/> orbem universum sanguine Christi abluendum, ut sicut tabernaculum sanguine victimarum fuerat consecratum, ita populus fidelis sanguine ejusdem dedicaretur: et ut non solum Hierosolymis locus esset orationis, sed in omni loco dominationis ejus levarent manus electi per orationes ad Dominum.
+          </p>
+          <p xml:id="gom-act2-d1e406">
+            <quote xml:id="gom-act2-Qd1e408" type="lemma" source="http://scta.info/resource/act2_19@16-17">Vaporem fumi.</quote>
+            Compunctionis et fletuum, scilicet vaporem. Quia sicut fumus ab igne, ita compunctio a Spiritu sancti ardore.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e413">
+          <head xml:id="gom-act2-Hd1e415">Versus 20</head>
+          <p xml:id="gom-act2-d1e417">
+            <quote xml:id="gom-act2-Qd1e419" type="lemma" source="http://scta.info/resource/act2_20@1-2">Sol convertetur,</quote>
+            etc. Hoc in passione Christi partim factum partim ante judicii diem creditur venturum. Tunc enim sol obscuratus est, sed luna in sanguinem versa hominibus apparere non potuit: quia tunc (utpote in Pascha) quintadecima exsistens, interdiu fuerat visibus humanis objectu terrae occultata.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e424">
+          <head xml:id="gom-act2-Hd1e426">Versus 23</head>
+          <p xml:id="gom-act2-d1e428">
+            <pb ed="#P" n="0432B"/>
+            <quote xml:id="gom-act2-Qd1e432" type="lemma" source="http://scta.info/resource/act2_23@2-3">Definito consilio.</quote>
+            <ref xml:id="gom-act2-Rd1e435"><name xml:id="gom-act2-Nd1e436" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act2-Qd1e439">In hoc solo Judaei fuere notabiles, quia non obedienti animo fecerunt.</quote>
+          </p>
+          <p xml:id="gom-act2-d1e442">
+            <quote xml:id="gom-act2-Qd1e444" type="lemma" source="http://scta.info/resource/act2_23@4-6">Et praescientia Dei,</quote>
+            etc.
+            <ref xml:id="gom-act2-Rd1e447"><name xml:id="gom-act2-Nd1e448" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act2-Qd1e451">In Graeco sic est: <quote xml:id="gom-act2-Qd1e453">Praescientia sic traditum accipientes.</quote> Traditus est enim a praeside in potestatem illorum, ut ipsum sive latronem eligerent, sed latroni concessa vita, Jesum per manus militum occiderunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e458">
+          <head xml:id="gom-act2-Hd1e460">Versus 24</head>
+          <p xml:id="gom-act2-d1e462">
+            <quote xml:id="gom-act2-Qd1e464" type="lemma" source="http://scta.info/resource/act2_24@3-3">Suscitavit.</quote>
+            Non usitata cum caeteris, atque communi resurrectione quae in finem differtur, sed quae die tertia celebraretur, ut assertio hujus resurrectionis testimonium esset Deitatis.
+          </p>
+          <p xml:id="gom-act2-d1e468">
+            <ref xml:id="gom-act2-Rd1e470" type="lemma" subtype="implied" target="http://scta.info/resource/act2_24@3-3"/>
+            <ref xml:id="gom-act2-Rd1e472"><name xml:id="gom-act2-Nd1e473" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act2-Qd1e476">Suscitavit, secundum humanitatem, quam maxime oderant Judaei.</quote>
+          </p>
+          <p xml:id="gom-act2-d1e479">
+            <quote xml:id="gom-act2-Qd1e481" type="lemma" source="http://scta.info/resource/act2_24@4-5">Solutis doloribus.</quote>
+            Videtur esse sensus hujus sententiae, <pb ed="#P" n="0432C"/> quod Domino ad inferos descendente dolores poenarum soluti sint, quia eum tangere non potuerunt, sed juxta Graecum in quo scriptum est: <quote xml:id="gom-act2-Qd1e486" source="http://scta.info/resource/act2_24@5-14">Solvens per ipsum mortis dolores, juxta quod impossibile erat teneri illum ab eo,</quote> patet, quia per descensum ejus liberati sunt sancti a locis infernorum; qui licet in sinu Abrahae, id est in consolatione quietis essent, a dolore tamen mortis sive inferi non erant soluti ex toto, quia non meruerant gaudia coeli intrare, donec fieret illud Prophetae: <quote xml:id="gom-act2-Qd1e489" source="http://scta.info/resource/zac9_11@3-16">In sanguine testamenti eduxisti vinctos tuos de lacu, in quo non est aqua<!-- check: Migne cites zac5; text matches zac9_11 --></quote>. Vincti enim erant antequam educerentur.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e495">
+          <head xml:id="gom-act2-Hd1e497">Versus 25</head>
+          <p xml:id="gom-act2-d1e499">
+            <quote xml:id="gom-act2-Qd1e501" type="lemma" source="http://scta.info/resource/act2_25@6-7">Providebam Dominum.</quote>
+            Vox Christi post resurrectionem exsultantis ad dexteram. Sinistra, est praesens vita; dextera, aeterna.
+          </p>
+          <p xml:id="gom-act2-d1e505">
+            <quote xml:id="gom-act2-Qd1e507" type="lemma" source="http://scta.info/resource/act2_25@16-17">Ne commovear.</quote>
+            <pb ed="#P" n="0432D"/> Post resurrectionem omnia erunt immobilia.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e515">
+          <head xml:id="gom-act2-Hd1e517">Versus 26</head>
+          <p xml:id="gom-act2-d1e519">
+            <quote xml:id="gom-act2-Qd1e521" type="lemma" source="http://scta.info/resource/act2_26@7-9">Et exsultavit lingua.</quote>
+            Quia requies post laborem data est: laboravit enim in spe vitae aeternae.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e526">
+          <head xml:id="gom-act2-Hd1e528">Versus 27</head>
+          <p xml:id="gom-act2-d1e530">
+            <quote xml:id="gom-act2-Qd1e532" type="lemma" source="http://scta.info/resource/act2_27@2-3">Non derelinques.</quote>
+            Non iterum movear corruptione iteratae crucis et mortis.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e537">
+          <head xml:id="gom-act2-Hd1e539">Versus 28</head>
+          <p xml:id="gom-act2-d1e541">
+            <quote xml:id="gom-act2-Qd1e543" type="lemma" source="http://scta.info/resource/act2_28@1-3">Notas mihi fecisti.</quote>
+            Scio me semper esse victurum.
+          </p>
+          <p xml:id="gom-act2-d1e547">
+            <quote xml:id="gom-act2-Qd1e549" type="lemma" source="http://scta.info/resource/act2_28@6-7">Replebis me</quote>
+            plena laetitia, id est, iterum non moriar.
+          </p>
+          <p xml:id="gom-act2-d1e553">
+            <quote xml:id="gom-act2-Qd1e555" type="lemma" source="http://scta.info/resource/act2_28">Quoniam a dextris.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Causa quare non moveatur, est quia Dominus a dextris opitulatur, sinistra non praevalente. Si enim a dextris non fuerit, illam partem diabolus occupat, sicut de Juda dicitur: <quote xml:id="gom-act2-Qd1e560" source="http://scta.info/resource/ps108_6@5-10">Et diabolus stet a dextris ejus</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e565">
+          <head xml:id="gom-act2-Hd1e567">Versus 26</head>
+          <p xml:id="gom-act2-d1e569">
+            <quote xml:id="gom-act2-Qd1e571" type="lemma" source="http://scta.info/resource/act2_26@7-8">Et exsultavit.</quote>
+            In passione dixit: <quote xml:id="gom-act2-Qd1e574" source="http://scta.info/resource/mt26_38@4-10">Tristis est anima mea usque ad mortem</quote>: et coepit pavere et taedere: ut se verum hominem <pb ed="#P" n="0433A"/> in anima et corpore, et veraciter passibilem monstraret. Exsultavit vero postea anima et lingua, quia passione sua genus humanum salvandum erat.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e581">
+          <head xml:id="gom-act2-Hd1e583">Versus 27</head>
+          <p xml:id="gom-act2-d1e585">
+            <quote xml:id="gom-act2-Qd1e587" type="lemma" source="http://scta.info/resource/act2_27@6-7">In inferno.</quote>
+            Constat animam non derelictam in inferno, quae, ablatis illis pro quibus descenderat, mox ad superna rediit, nec caro est corrupta, sed veloci resurrectione glorificata.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e592">
+          <head xml:id="gom-act2-Hd1e594">Versus 28</head>
+          <p xml:id="gom-act2-d1e596">
+            <quote xml:id="gom-act2-Qd1e598" type="lemma" source="http://scta.info/resource/act2_28@1-3">Notas mihi fecisti.</quote>
+            Non solum haec de illo intelliguntur, qui semel accepta plenitudine divinae virtutis et sapientiae, per se mortem destruxit, resurgens ad vitam; sed et de justis qui per eum via veritatis inventa ad vitam redibunt et jucundabuntur videntes faciem ejus: quia ille visus est super omnia et beatitudo perfecta.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e604">
+          <head xml:id="gom-act2-Hd1e606">Versus 33</head>
+          <p xml:id="gom-act2-d1e608">
+            <quote xml:id="gom-act2-Qd1e610" type="lemma" source="http://scta.info/resource/act2_33@6-9">Promissione Spiritus sancti accepta.</quote>
+            <pb ed="#P" n="0433B"/> Christus eam accepit sicut verus homo, et tanquam Deus effundit Spiritum, sicut Joel dicit: <quote xml:id="gom-act2-Qd1e615">Effundam,</quote> etc. Item accipiunt apostoli ab ipso promissionem Spiritus qui dicitur a Patre mittendus in Evangelio.
+          </p>
+          <p xml:id="gom-act2-d1e618">
+            <quote xml:id="gom-act2-Qd1e620" type="lemma" source="http://scta.info/resource/act2_33@12-13">Effudit hunc,</quote>
+            etc. Qui prius Jesum suscitatum a Deo dixit, nunc fidem auditorum altius erigens, hunc esse Dominum assignat, quem effudisse Spiritum confirmat: hoc enim est signum. Et pulchre verbo effusionis usus est: quod prophetam Joel posuisse supra memoravit, ut ex hoc etiam constet ipsum esse Dominum Jesum, qui ante assumptionem carnis loqui consuevit in prophetis, qui signa et prodigia dat in coelo et in terra, qui omnes invocantes se salvat. Et caetera quae propheta describit, quasi verus Deus, explet.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e625">
+          <head xml:id="gom-act2-Hd1e627">Versus 34</head>
+          <p xml:id="gom-act2-d1e629">
+            <pb ed="#P" n="0433C"/>
+            <quote xml:id="gom-act2-Qd1e633" type="lemma" source="http://scta.info/resource/act2_34@14-16">Sede a dextris.</quote>
+            <ref xml:id="gom-act2-Rd1e636"><name xml:id="gom-act2-Nd1e637" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act2-Qd1e640"><seg type="qs">Manifeste Petrus ex hoc psalmo regnum Christi non terrenum, sed coeleste</seg>, etc., usque ad <seg type="qs">in altera, ejusdem est Dominus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e649">
+          <head xml:id="gom-act2-Hd1e651">Versus 36</head>
+          <p xml:id="gom-act2-d1e653">
+            <quote xml:id="gom-act2-Qd1e655" type="lemma" source="http://scta.info/resource/act2_36@9-10">Dominum eum.</quote>
+            Ponens nomen majestatis et potestatis, ostendit eum esse cui omnis creatura debet subjici. Christus regiae sive pontificalis dignitatis nomen est. In lege ungebantur reges et pontifices, in figura illius.
+          </p>
+          <p xml:id="gom-act2-d1e659">
+            <quote xml:id="gom-act2-Qd1e661" type="lemma" source="http://scta.info/resource/act2_36@11-12">Et Christum.</quote>
+            Ille vere est Christus omni plenitudine Spiritus sancti unctus, qui de eodem Spiritu potentialiter dedit quibus voluit.
+          </p>
+          <p xml:id="gom-act2-d1e665">
+            <quote xml:id="gom-act2-Qd1e667" type="lemma" source="http://scta.info/resource/act2_36@16-17">Jesum quem,</quote>
+            etc. Jesus est Dominus et Christus, una in duabus naturis exsistente persona, quia in Divinitate aeternaliter ex Patre natus in humanitate temporaliter factus, cum operante Spiritu <pb ed="#P" n="0433D"/> sancto in utero virginis est incarnatus.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e674">
+          <head xml:id="gom-act2-Hd1e676">Versus 37</head>
+          <p xml:id="gom-act2-d1e678">
+            <quote xml:id="gom-act2-Qd1e680" type="lemma" source="http://scta.info/resource/act2_37@3-3">Compuncti.</quote>
+            Impletur prophetia Joelis, quia post ignem Spiritus sancti sequitur vapor compunctionis. Fumus lacrymas excutere solet, incipiunt flere qui irriserant, tundunt pectus, dant Deo precem sicut sacrificium, ut sanguinem illum gustare valeant, per eum salvandi, quem super se et super filios suos prius fuerant imprecati.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e685">
+          <head xml:id="gom-act2-Hd1e687">Versus 38</head>
+          <p xml:id="gom-act2-d1e689">
+            <quote xml:id="gom-act2-Qd1e691" type="lemma" source="http://scta.info/resource/act2_38@12-13">In nomine.</quote>
+            In honore, vel in hac forma, quia in uno trium fides continetur.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e696">
+          <head xml:id="gom-act2-Hd1e698">Versus 39</head>
+          <p xml:id="gom-act2-d1e700">
+            <quote xml:id="gom-act2-Qd1e702" type="lemma" source="http://scta.info/resource/act2_39@8-9">Et omnibus.</quote>
+            Hoc ad illud testimonium prophetiae respicitur, quod ultimum posuit, scilicet <quote xml:id="gom-act2-Qd1e705" source="http://scta.info/resource/act2_21@3-9">Omnis quicunque invocaverit nomen Domini salvus erit:</quote> quod ad Gentium vocationem pertinet specialiter; <pb ed="#P" n="0434A"/> quae a filiis Israel longe factae, per invocationem nominis Domini salvandae erant.
+          </p>
+        </div>
+        <div xml:id="gom-act2-Dd1e713">
+          <head xml:id="gom-act2-Hd1e715">Versus 40</head>
+          <p xml:id="gom-act2-d1e717">
+            <quote xml:id="gom-act2-Qd1e719" type="lemma" source="http://scta.info/resource/act2_40@5-6">Testificatus est,</quote>
+            etc., id est testificatio et exhortatio.
+          </p>
+          <p xml:id="gom-act2-d1e723">
+            <quote xml:id="gom-act2-Qd1e725" type="lemma" source="http://scta.info/resource/act2_40@11-11">Salvamini.</quote>
+            Haec est testificationis qualitas et exhortationis, sed Lucas plurima verba Petri brevi conclusit sententia.
+          </p>
+          <p xml:id="gom-act2-d1e729">
+            <quote xml:id="gom-act2-Qd1e731" type="lemma" source="http://scta.info/resource/act2_40@12-13">A generatione.</quote>
+            Duae sunt generationes, una bonorum, alia malorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

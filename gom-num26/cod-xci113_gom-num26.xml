@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 26</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 26</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0428C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num26">
+        <head xml:id="gom-num26-Hd1e98">Caput 26</head>
+        <div xml:id="gom-num26-Dd1e100">
+          <head xml:id="gom-num26-Hd1e102">Versus 1</head>
+          <p xml:id="gom-num26-d1e104">
+            <quote xml:id="gom-num26-Qd1e106" type="lemma" source="http://scta.info/resource/num26_1@1-2">Postquam noxiorum,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-num26-d1e110">
+            <quote xml:id="gom-num26-Qd1e112" type="lemma" source="http://scta.info/resource/num26_1">(ORIG., hom. <pb ed="#P" n="0428D"/> 21 in Num)</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-num26-Qd1e119"><seg type="qs">. Quia illi qui primo asciti fuerant pro peccato ceciderunt</seg>, etc., usque ad <seg type="qs">his autem cuncta quae promittuntur impleta sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num26-Dd1e128">
+          <head xml:id="gom-num26-Hd1e130">Versus 2</head>
+          <p xml:id="gom-num26-d1e132">
+            <quote xml:id="gom-num26-Qd1e134" type="lemma" source="http://scta.info/resource/num26_2@1-2">Numerate omnem.</quote>
+            Iterum populus numeratur et Levitae, ut interfectis primis carnalibus, novus populus Dei censeatur, qui per Jordanis baptismum transeat, et coelestis haereditatis repromissionem accipiat.
+          </p>
+        </div>
+        <div xml:id="gom-num26-Dd1e139">
+          <head xml:id="gom-num26-Hd1e141">Versus 53</head>
+          <p xml:id="gom-num26-d1e143">
+            <quote xml:id="gom-num26-Qd1e145" type="lemma" source="http://scta.info/resource/num26_53@1-3">Istis dividetur terra.</quote>
+            <ref xml:id="gom-num26-Rd1e148"><name xml:id="gom-num26-Nd1e149" ref="#Origen">ORIG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-num26-Qd1e153"><seg type="qs">Reprobatur prior populus qui est in circumcisione</seg>, etc., usque ad <seg type="qs">et merae divinitatis capaces per puritatem effecti.</seg></quote>
+          </p>
+          <p xml:id="gom-num26-d1e161">
+            <ref xml:id="gom-num26-Rd1e163" type="lemma" subtype="implied" target="http://scta.info/resource/num26_53@1-3"/>
+            <ref xml:id="gom-num26-Rd1e165"><name xml:id="gom-num26-Nd1e166" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num26-Qd1e169"><seg type="qs">Terrae hujus divisio</seg>, etc., usque ad <seg type="qs">sed illius quae urbibus contigua est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num26-Dd1e178">
+          <head xml:id="gom-num26-Hd1e180">Versus 54</head>
+          <p xml:id="gom-num26-d1e182">
+            <pb ed="#P" n="0429A"/>
+            <quote xml:id="gom-num26-Qd1e186" type="lemma" source="http://scta.info/resource/num26_54@1-2">Pluribus majorem.</quote>
+            Ut scilicet numerosior tribus majora spatia terrae sortiatur; quae minor autem fuerit, hominum numero minorem.
+          </p>
+          <p xml:id="gom-num26-d1e190">
+            <ref xml:id="gom-num26-Rd1e192" type="lemma" subtype="implied" target="http://scta.info/resource/num26_54@1-2"/>
+            Unus justus, secundum quod Deo acceptus, pro pluribus habetur; unde: <quote xml:id="gom-num26-Qd1e194" source="http://scta.info/resource/sir16">Per unum sapientem habitabitur civitas, tribus autem iniquorum desolabitur; et unus justus pro toto mundo. Iniqui autem, etsi multi sint, exigui et pro nihilo ducuntur apud Deum<!-- check: cited chapter given; verse not identified --></quote>. Est ergo multitudo laudabilis; unde Abrahae quem eduxit foras, ait: <quote xml:id="gom-num26-Qd1e198" source="http://scta.info/resource/gen15_5@8-20">Respice coelum si potes dinumerare stellas, ita erit semen tuum,</quote> etc. <!--<note>(Gen. XV)</note>-->. In quo notandum quia justus in interioribus semper consistit, quia in abscondito orat Patrem, et omnis gloria filiae regis, id est, regalis animae, intrinsecus est: sed Deus educit eum foras, cum res postulat et rerum visibilium ratio.
+          </p>
+        </div>
+        <div xml:id="gom-num26-Dd1e206">
+          <head xml:id="gom-num26-Hd1e208">Versus 55</head>
+          <p xml:id="gom-num26-d1e210">
+            <pb ed="#P" n="0429B"/>
+            <quote xml:id="gom-num26-Qd1e214" type="lemma" source="http://scta.info/resource/num26_55@3-5">Ut sors terram.</quote>
+            Per sortem praecipitur dividi haereditas, sed video ipsummet Moysen cui ista mandantur, non sorte dividere haereditatem Ruben, Gad, et dimidiae tribui Manasse <!--<note>(Josue XV)</note>-->: Jesus quoque Nave, extra sortem dat haereditatem tribui Judae et Caleb et tribui Ephraim, et dimidiae tribui Manasse. In caeteris sors mittitur: unde puto, quod in coelesti haereditate aliqui non venient ad sortem, neque cum caeteris (quamvis sancti sint) numerabuntur, sed erit egregia eorum haereditas, sicut fuit Caleb, et tribui Judae, et Jesu filio Nave. Sicut enim cum adepta victoria dividuntur spolia, egregii bellatores cum caeteris non ducuntur ad sortem, sed optima quaeque virtutum merito percipiunt, <pb ed="#P" n="0429C"/> caeteri sorte utuntur jure victoriae: ita videtur mihi Christus Dominus meus facturus. Illis enim praecipuos et sublimes decernet honores, quorum facta magnifica et sublimes cognoscit virtutes, unde ait: <quote xml:id="gom-num26-Qd1e221" source="http://scta.info/resource/io17_24@5-13">Volo, Pater, ut ubi ego sum, illic et isti mecum sint.</quote>. Et alibi, <quote xml:id="gom-num26-Qd1e225" source="http://scta.info/resource/mt19_28@24-32">Sedebitis et vos super duodecim thronos, judicantes duodecim tribus,</quote> etc. <!--<note>(Matth. XIX)</note>-->. Et alibi, <quote xml:id="gom-num26-Qd1e230" source="http://scta.info/resource/io17_21@5-20">Sicut tu in me, Pater, et ego in te, ita et isti in nobis unum sint</quote>. Haec omnia non sorte descendunt, sed dilectionis praerogativa.
+          </p>
+        </div>
+        <div xml:id="gom-num26-Dd1e235">
+          <head xml:id="gom-num26-Hd1e237">Versus 65</head>
+          <p xml:id="gom-num26-d1e239">
+            <quote xml:id="gom-num26-Qd1e241" type="lemma" source="http://scta.info/resource/num26_65@13-20">Nisi Caleb filius Jephone, et Josue filius Nun.</quote>
+            <ref xml:id="gom-num26-Rd1e244"><name xml:id="gom-num26-Nd1e245" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-num26-Qd1e248">Sexcenta millia armatorum de Aegypto dicuntur egressa, et duo tantum in terram promissionis ingressi. Multi enim per baptismum ad fidem transeunt, sed ad coelestem patriam paucissimi <pb ed="#P" n="0429D"/> perveniunt, secundum illud: <quote xml:id="gom-num26-Qd1e252" source="http://scta.info/resource/mt20_16@8-14">Multi enim sunt vocati, pauci vero electi</quote>. Duo tantum ingrediuntur, propter eos qui ex utroque populo coeleste regnum adipiscuntur, vel qui per actionem et contemplationem ad aeternam beatitudinem praedestinantur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

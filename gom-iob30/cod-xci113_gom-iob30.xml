@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iob, Caput 30</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iob, Caput 30</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0833A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iob30">
+        <head xml:id="gom-iob30-Hd1e98">Caput 30</head>
+        <div xml:id="gom-iob30-Dd1e100">
+          <head xml:id="gom-iob30-Hd1e102">Versus 1</head>
+          <p xml:id="gom-iob30-d1e104">
+            <quote xml:id="gom-iob30-Qd1e106" type="lemma" source="http://scta.info/resource/iob30_1@1-5">Nunc autem me juniores.</quote>
+            <ref xml:id="gom-iob30-Rd1e109"><name xml:id="gom-iob30-Nd1e110" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-iob30-Qd1e113">Juniores tempore Ecclesiam irrident, cum hi qui ab ea egressi sunt, doctrinae ejus verba despiciunt.</quote>
+          </p>
+          <p xml:id="gom-iob30-d1e116">
+            <quote xml:id="gom-iob30-Qd1e118" type="lemma" source="http://scta.info/resource/iob30_1@7-9">Quorum patres non dignabar,</quote>
+            etc. <quote xml:id="gom-iob30-Qd1e121"><seg type="qs">Igitur grex Ecclesiae</seg>, etc., usque ad <seg type="qs">eosque inter veros patres numerare contemnit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e130">
+          <head xml:id="gom-iob30-Hd1e132">Versus 2</head>
+          <p xml:id="gom-iob30-d1e134">
+            <quote xml:id="gom-iob30-Qd1e136" type="lemma" source="http://scta.info/resource/iob30_2@1-4">Quocum virtus manuum erat.</quote>
+            <quote xml:id="gom-iob30-Qd1e139"><seg type="qs">Virtus manuum est magnitudo</seg>, etc., usque ad <seg type="qs">de proximo <pb ed="#P" n="0833B"/> vero meliora quam de se ipso sentire.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e150">
+          <head xml:id="gom-iob30-Hd1e152">Versus 3</head>
+          <p xml:id="gom-iob30-d1e154">
+            <quote xml:id="gom-iob30-Qd1e156" type="lemma" source="http://scta.info/resource/iob30_3@1-1">Egestate.</quote>
+            Immoderatis namque lusibus cognitionem supernae scientiae quo plus appetunt, plus amittunt.
+          </p>
+          <p xml:id="gom-iob30-d1e160">
+            <quote xml:id="gom-iob30-Qd1e162" type="lemma" source="http://scta.info/resource/iob30_3@2-4">Et fame steriles.</quote>
+            Quia desiderant scire, unde docti et loquaces sint, non moribus compositi; unde vix exteriora capiunt, qui secreta putant se penetrasse.
+          </p>
+          <p xml:id="gom-iob30-d1e166">
+            <ref xml:id="gom-iob30-Rd1e168" type="lemma" subtype="implied" target="http://scta.info/resource/iob30_3@2-4"/>
+            <quote xml:id="gom-iob30-Qd1e170"><seg type="qs">« Qui rodebant in solitudine, etc. Haeretici qui ab universalis</seg>, etc., usque ad <seg type="qs">Lambunt vero qui blandimento linguae tollunt.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e178">
+            <quote xml:id="gom-iob30-Qd1e180" type="lemma" source="http://scta.info/resource/iob30_3@9-10">Squalentes calamitate.</quote>
+            Calamitate et miseria squalidi perhibentur, quia et morum sunt pernicie et sensuum pravitate despecti. Calamitas est quasi aegritudo: miseria est illius negligentia, unde gravior <pb ed="#P" n="0833C"/> fit. Nullus squaleret, si in suis necessitatibus miseriam voluptatis non adderet.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e187">
+          <head xml:id="gom-iob30-Hd1e189">Versus 4</head>
+          <p xml:id="gom-iob30-d1e191">
+            <quote xml:id="gom-iob30-Qd1e193" type="lemma" source="http://scta.info/resource/iob30_4@1-3">Et mandebant herbas,</quote>
+            etc. <quote xml:id="gom-iob30-Qd1e196"><seg type="qs">Herbas mandere</seg>, etc., usque ad <seg type="qs">sed intentionem rectam in eisdem operibus non tenere.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e204">
+            <ref xml:id="gom-iob30-Rd1e206" type="lemma" subtype="implied" target="http://scta.info/resource/iob30_4@1-3"/>
+            <ref xml:id="gom-iob30-Rd1e208"><name xml:id="gom-iob30-Nd1e209" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob30-Qd1e212"><seg type="qs">Quid enim per herbas</seg>, etc., usque ad <seg type="qs">quoniam soli avaritiae deserviunt, radice juniperi replentur, et hoc est.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e220">
+            <quote xml:id="gom-iob30-Qd1e222" type="lemma" source="http://scta.info/resource/iob30_4@7-9">Et radix juniperorum.</quote>
+            <quote xml:id="gom-iob30-Qd1e225"><seg type="qs">Juniperi pro foliis quasi spinas habent</seg>, etc., usque ad <seg type="qs">qui plerumque sola in verbis suis exteriora lucra sectantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e235">
+          <head xml:id="gom-iob30-Hd1e237">Versus 5</head>
+          <p xml:id="gom-iob30-d1e239">
+            <quote xml:id="gom-iob30-Qd1e241" type="lemma" source="http://scta.info/resource/iob30_5@1-5">Qui de convallibus ista rapientes.</quote>
+            <quote xml:id="gom-iob30-Qd1e244"><seg type="qs">De convallibus illa rapiunt</seg>, etc., usque ad <seg type="qs">carnalibus quae intus premunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e253">
+          <head xml:id="gom-iob30-Hd1e255">Versus 6</head>
+          <p xml:id="gom-iob30-d1e257">
+            <quote xml:id="gom-iob30-Qd1e259" type="lemma" source="http://scta.info/resource/iob30_6@1-4">In desertis habitant torrentium.</quote>
+            <quote xml:id="gom-iob30-Qd1e262"><seg type="qs"><pb ed="#P" n="0833D"/> <ref xml:id="gom-iob30-Rd1e266"><name xml:id="gom-iob30-Nd1e267" ref="#GregoryGreat">Ibid.</name></ref><!-- check: attribution inside gloss body --> Inventores perversorum</seg>, etc., usque ad <seg type="qs">sunt terrena quae mali amant.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e276">
+            <quote xml:id="gom-iob30-Qd1e278" type="lemma" source="http://scta.info/resource/iob30_6@5-8">Et in cavernis terrae.</quote>
+            <ref xml:id="gom-iob30-Rd1e281"><name xml:id="gom-iob30-Nd1e282" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob30-Qd1e285"><seg type="qs">Haeretici enim clandestinis</seg>, etc., usque ad <seg type="qs">usque ad mala descendit.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e293">
+            <quote xml:id="gom-iob30-Qd1e295" type="lemma" source="http://scta.info/resource/iob30_6@9-11">Vel super glaream.</quote>
+            Glaream munitissimos lapides dicimus, quos aqua fluvialis trahit: haeretici super glaream habitant, quia illas hominum mentes trahunt, quae nulla stabilitatis gravitate solidantur.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e300">
+          <head xml:id="gom-iob30-Hd1e302">Versus 7</head>
+          <p xml:id="gom-iob30-d1e304">
+            <quote xml:id="gom-iob30-Qd1e306" type="lemma" source="http://scta.info/resource/iob30_7@1-3">Qui inter hujuscemodi laeta.</quote>
+            <quote xml:id="gom-iob30-Qd1e309"><seg type="qs">Nomine <quote xml:id="gom-iob30-Qd1e312" source="http://scta.info/resource/iob30_7@8-8">sentium,</quote></seg> etc., usque ad <seg type="qs">unde et aperte subjungitur:</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e319">
+            <quote xml:id="gom-iob30-Qd1e321" type="lemma" source="http://scta.info/resource/iob30_7@5-8">Et esse sub sentibus,</quote>
+            etc. <quote xml:id="gom-iob30-Qd1e324"><seg type="qs">De rebus quidem temporalibus gaudent</seg>, etc., usque ad <seg type="qs">a jugo servitutis <pb ed="#P" n="0834A"/> mundanae cessare non libeat, etiam si liceat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e335">
+          <head xml:id="gom-iob30-Hd1e337">Versus 8</head>
+          <p xml:id="gom-iob30-d1e339">
+            <quote xml:id="gom-iob30-Qd1e341" type="lemma" source="http://scta.info/resource/iob30_8@1-4">Filii stultorum et ignobilium.</quote>
+            <quote xml:id="gom-iob30-Qd1e344"><seg type="qs">Eorum filii qui fuerunt</seg>, etc., usque ad <seg type="qs">qui a terra viventium extorres facti sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e353">
+          <head xml:id="gom-iob30-Hd1e355">Versus 9</head>
+          <p xml:id="gom-iob30-d1e357">
+            <quote xml:id="gom-iob30-Qd1e359" type="lemma" source="http://scta.info/resource/iob30_9@1-4">Nunc in eorum canticum,</quote>
+            etc. Ecclesiae tempus exprimitur, quo publice a reprobis irridetur.
+          </p>
+          <p xml:id="gom-iob30-d1e363">
+            <quote xml:id="gom-iob30-Qd1e365" type="lemma" source="http://scta.info/resource/iob30_9@7-11">Et factus sum eis proverbium.</quote>
+            Pravis proverbium efficietur, quia cum bonos mori per tormenta conspiciunt, ab eis similitudinem maledictionis sumunt, dicentes: Sic veniat tibi sicut illi trucidato.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e370">
+          <head xml:id="gom-iob30-Hd1e372">Versus 10</head>
+          <p xml:id="gom-iob30-d1e374">
+            <quote xml:id="gom-iob30-Qd1e376" type="lemma" source="http://scta.info/resource/iob30_10@1-7">Abominantur me, et longe fugiunt a me.</quote>
+            <quote xml:id="gom-iob30-Qd1e379"><seg type="qs">Longe ab Ecclesia fugiunt iniqui</seg>, etc., usque ad <seg type="qs">scit mala sua justitiae judicis tribuere. Sequitur:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e389">
+          <head xml:id="gom-iob30-Hd1e391">Versus 11</head>
+          <p xml:id="gom-iob30-d1e393">
+            <quote xml:id="gom-iob30-Qd1e395" type="lemma" source="http://scta.info/resource/iob30_11@1-4">Pharetram enim suam aperuit.</quote>
+            <quote xml:id="gom-iob30-Qd1e398"><seg type="qs"><pb ed="#P" n="0834B"/> Per pharetram occultum Dei judicium designatur. Cum ergo Dominus peccata videt</seg>, etc., usque ad <seg type="qs">sed in correptione virtus consilii aperitur.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e407">
+            <quote xml:id="gom-iob30-Qd1e409" type="lemma" source="http://scta.info/resource/iob30_11@8-12">Et frenum posuit in os me.</quote>
+            Sancti quippe doctores, dum corda resistentium relicta divinitus vident, afflicti gementesque conticescunt, ne loquantur indignis, qui et deteriores fierent. Parcit malis tacendo, quibus tamen vitam suam per patientiam suadet.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e414">
+          <head xml:id="gom-iob30-Hd1e416">Versus 12</head>
+          <p xml:id="gom-iob30-d1e418">
+            <quote xml:id="gom-iob30-Qd1e420" type="lemma" source="http://scta.info/resource/iob30_12@1-4">Ad dexteram Orientis calamitates.</quote>
+            <ref xml:id="gom-iob30-Rd1e423"><name xml:id="gom-iob30-Nd1e424" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob30-Qd1e427"><seg type="qs">Redemptor noster Oriens dicitur</seg>, etc., usque ad <seg type="qs">quia erumpente persecutione pravorum impetus justi patiuntur.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e435">
+            <quote xml:id="gom-iob30-Qd1e437" type="lemma" source="http://scta.info/resource/iob30_12@8-10">Pedes meos subverterunt.</quote>
+            Per pedes Ecclesiae, extrema illius membra signantur, quae dum ad opera <pb ed="#P" n="0834C"/> terrena deserviunt, tanto celerius falli possunt, quanto sublimia minus intelligunt.
+          </p>
+          <p xml:id="gom-iob30-d1e443">
+            <quote xml:id="gom-iob30-Qd1e445" type="lemma" source="http://scta.info/resource/iob30_12@11-15">Et oppresserunt quasi fluctibus semitis.</quote>
+            Adversariorum semita fluctibus comparatur, quia vita pravorum insolenti inquietudine molesta, ad obruendam (ut ita dixerim) navem cordis, quasi tempestas illabitur.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e450">
+          <head xml:id="gom-iob30-Hd1e452">Versus 13</head>
+          <p xml:id="gom-iob30-d1e454">
+            <quote xml:id="gom-iob30-Qd1e456" type="lemma" source="http://scta.info/resource/iob30_13@1-3">Dissipaverunt itinera mea.</quote>
+            Dicat hoc beatus Job de malignis spiritibus; dicat Ecclesia de persequentibus, qui ejus itinera dissipant, dum in quorumdam infirmorum mentibus veritatis viam squalida persuasione perturbant.
+          </p>
+          <p xml:id="gom-iob30-d1e460">
+            <quote xml:id="gom-iob30-Qd1e462" type="lemma" source="http://scta.info/resource/iob30_13@4-8">Insidiati sunt mihi et praevaluerunt.</quote>
+            Insidiantes praevalent, cum eos quos aperte ad malum trahere <pb ed="#P" n="0834D"/> nequeunt, simulando bona pervertunt.
+          </p>
+          <p xml:id="gom-iob30-d1e468">
+            <quote xml:id="gom-iob30-Qd1e470" type="lemma" source="http://scta.info/resource/iob30_13@9-14">Et non fuit qui ferret auxilium.</quote>
+            Plerumque justi tribulatione deprehensi tardari manum subvenientis aestimant, cum se persequentium immanitas paulo longius angustiat; et concita quidem sunt ereptoris remedia, sed tarda dolori videntur.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e475">
+          <head xml:id="gom-iob30-Hd1e477">Versus 14</head>
+          <p xml:id="gom-iob30-d1e479">
+            <quote xml:id="gom-iob30-Qd1e481" type="lemma" source="http://scta.info/resource/iob30_14@1-3">Quasi rupto muro.</quote>
+            <quote xml:id="gom-iob30-Qd1e484"><seg type="qs">Redemptor nobis est murus</seg>, etc., usque ad <seg type="qs">quod quidem fit, quia datur a Deo potestas inimicis.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e492">
+            <quote xml:id="gom-iob30-Qd1e494" type="lemma" source="http://scta.info/resource/iob30_14@4-9">Et aperta janua irruerunt super me.</quote>
+            <quote xml:id="gom-iob30-Qd1e497"><seg type="qs">Cum perversis in hac vita</seg>, etc., usque ad <seg type="qs">destruere munimina fidei conantur.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e505">
+            <quote xml:id="gom-iob30-Qd1e507" type="lemma" source="http://scta.info/resource/iob30_14@10-15">Et ad meas miserias devoluti sunt.</quote>
+            Reprobi per suas, et ad nostras miserias revolvuntur, quando <pb ed="#P" n="0835A"/> ad ea mala, in quibus ipsi implicati sunt, etiam quosdam nobis unitos trahunt.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e514">
+          <head xml:id="gom-iob30-Hd1e516">Versus 15</head>
+          <p xml:id="gom-iob30-d1e518">
+            <quote xml:id="gom-iob30-Qd1e520" type="lemma" source="http://scta.info/resource/iob30_15@1-3">Redactus sum in nihilum.</quote>
+            <quote xml:id="gom-iob30-Qd1e523"><seg type="qs">Apud aestimationem malorum</seg>, etc., usque ad <seg type="qs">et secundum historiam accipienda sunt, quod est planum.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e531">
+            <quote xml:id="gom-iob30-Qd1e533" type="lemma" source="http://scta.info/resource/iob30_15@5-9">Abstulisti quasi ventus desiderium meum.</quote>
+            Fidelis populus se pati denuntiat, quod eos quos diligit, pati dolet. Ventus ergo desiderium tollit, cum res quaelibet transitoria aeternitatis appetitum destruit.
+          </p>
+          <p xml:id="gom-iob30-d1e537">
+            <quote xml:id="gom-iob30-Qd1e539" type="lemma" source="http://scta.info/resource/iob30_15@11-13">Velut nubes pertransiit.</quote>
+            Nubes in alto eminet, sed hanc ad cursum flatus impellit: salus ergo ut nubes transiit, quia perversorum gloria, quo alta est, fixa non est. Expletis desideriis et actibus infirmantium, ad vocem electorum redit.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e544">
+          <head xml:id="gom-iob30-Hd1e546">Versus 16</head>
+          <p xml:id="gom-iob30-d1e548">
+            <quote xml:id="gom-iob30-Qd1e550" type="lemma" source="http://scta.info/resource/iob30_16@1-4">Nunc autem in memetipso.</quote>
+            <quote xml:id="gom-iob30-Qd1e553"><seg type="qs">In <pb ed="#P" n="0835B"/> nobismet ipsis nunc anima</seg>, etc., usque ad <seg type="qs">unde mox ad corruentes redit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e565">
+          <head xml:id="gom-iob30-Hd1e567">Versus 17</head>
+          <p xml:id="gom-iob30-d1e569">
+            <quote xml:id="gom-iob30-Qd1e571" type="lemma" source="http://scta.info/resource/iob30_17@1-5">Nocte os meum perforatur doloribus.</quote>
+            <quote xml:id="gom-iob30-Qd1e574"><seg type="qs">Sic sua dicit, ut et cadentibus congruant</seg>, etc., usque ad <seg type="qs">quasi jam quoddam habeant foramen timoris.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e582">
+            <quote xml:id="gom-iob30-Qd1e584" type="lemma" source="http://scta.info/resource/iob30_17@6-9">Et qui me comedunt.</quote>
+            <ref xml:id="gom-iob30-Rd1e587"><name xml:id="gom-iob30-Nd1e588" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-iob30-Qd1e591">Quia maligni spiritus, qui carnales de Ecclesia consumunt, tanto magis quiescere a tentatione nesciunt, quanto nullo carnis pondere gravantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e595">
+          <head xml:id="gom-iob30-Hd1e597">Versus 18</head>
+          <p xml:id="gom-iob30-d1e599">
+            <quote xml:id="gom-iob30-Qd1e601" type="lemma" source="http://scta.info/resource/iob30_18@1-2">In multitudine.</quote>
+            <quote xml:id="gom-iob30-Qd1e604"><seg type="qs">Quid aliud vestimentum Job</seg>, etc., usque ad <seg type="qs">qui ei connexione amoris inhaerebant.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e612">
+            <quote xml:id="gom-iob30-Qd1e614" type="lemma" source="http://scta.info/resource/iob30_18@7-10">Et quasi capitio tunicae.</quote>
+            <quote xml:id="gom-iob30-Qd1e617"><seg type="qs">Tunicae capitium collum circumdat</seg>, etc., usque ad <seg type="qs">praedicationis vocem <pb ed="#P" n="0835C"/> exstinguere conantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e628">
+          <head xml:id="gom-iob30-Hd1e630">Versus 19</head>
+          <p xml:id="gom-iob30-d1e632">
+            <quote xml:id="gom-iob30-Qd1e634" type="lemma" source="http://scta.info/resource/iob30_19@1-3">Comparatus sum luto.</quote>
+            In reproborum judicio, electorum Ecclesia luto comparatur, quia temporaliter conculcata despicitur, favillae assimilatur et cineri, quia ad sola hanc mala pervenisse aestimant, quae in ea exhiberi corporaliter vident.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e639">
+          <head xml:id="gom-iob30-Hd1e641">Versus 20</head>
+          <p xml:id="gom-iob30-d1e643">
+            <quote xml:id="gom-iob30-Qd1e645" type="lemma" source="http://scta.info/resource/iob30_20@1-3">Clamo ad te.</quote>
+            <quote xml:id="gom-iob30-Qd1e648"><seg type="qs">Ecclesia persecutionis suae tempore</seg>, etc., usque ad <seg type="qs">et dilati ut proficiant, timent ne deficiant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e657">
+          <head xml:id="gom-iob30-Hd1e659">Versus 21</head>
+          <p xml:id="gom-iob30-d1e661">
+            <quote xml:id="gom-iob30-Qd1e663" type="lemma" source="http://scta.info/resource/iob30_21@1-5">Mutatus es mihi in crudelem.</quote>
+            <quote xml:id="gom-iob30-Qd1e666"><seg type="qs">In Deo nec crudelitas nec mutabilitas venit</seg>, etc., usque ad <seg type="qs">Nihil autem de eo dignum dici potest.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e674">
+            <quote xml:id="gom-iob30-Qd1e676" type="lemma" source="http://scta.info/resource/iob30_21@6-10">Et in duritia manus tuae.</quote>
+            Manus Dei dicitur tunc voluntati nostrae contraria, cum quod ei in nobis displicet, feriendo persequitur.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e681">
+          <head xml:id="gom-iob30-Hd1e683">Versus 22</head>
+          <p xml:id="gom-iob30-d1e685">
+            <pb ed="#P" n="0835D"/>
+            <quote xml:id="gom-iob30-Qd1e689" type="lemma" source="http://scta.info/resource/iob30_22@1-4">Elevasti me et quasi.</quote>
+            <quote xml:id="gom-iob30-Qd1e692"><seg type="qs">Quia praesentis vitae gloria quasi in alto cernitur</seg>, etc., usque ad <seg type="qs">eorum protinus elevatio corruit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e702">
+          <head xml:id="gom-iob30-Hd1e704">Versus 23</head>
+          <p xml:id="gom-iob30-d1e706">
+            <quote xml:id="gom-iob30-Qd1e708" type="lemma" source="http://scta.info/resource/iob30_23@1-5">Scio quia morti trades me.</quote>
+            <quote xml:id="gom-iob30-Qd1e711"><seg type="qs">Nullus enim huc venit</seg>, etc., usque ad <seg type="qs">ideo apte subjungitur:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e720">
+          <head xml:id="gom-iob30-Hd1e722">Versus 24</head>
+          <p xml:id="gom-iob30-d1e724">
+            <quote xml:id="gom-iob30-Qd1e726" type="lemma" source="http://scta.info/resource/iob30_24@1-5">Verumtamen non ad consumptionem eorum.</quote>
+            <quote xml:id="gom-iob30-Qd1e729"><seg type="qs">Manum suam Dominus</seg>, etc., usque ad <seg type="qs">qui stantes exterius ab statu mentis jacebant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e738">
+          <head xml:id="gom-iob30-Hd1e740">Versus 25</head>
+          <p xml:id="gom-iob30-d1e742">
+            <quote xml:id="gom-iob30-Qd1e744" type="lemma" source="http://scta.info/resource/iob30_25@1-2">Flebam quondam.</quote>
+            <quote xml:id="gom-iob30-Qd1e747"><seg type="qs">Plus est compassio quam datum</seg>, etc., usque ad <seg type="qs">suos eis oratione continua fletus jungit.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e755">
+            <ref xml:id="gom-iob30-Rd1e757" type="lemma" subtype="implied" target="http://scta.info/resource/iob30_25@1-2"/>
+            <ref xml:id="gom-iob30-Rd1e759"><name xml:id="gom-iob30-Nd1e760" ref="#GregoryGreat">Ibid.</name></ref>
+            <quote xml:id="gom-iob30-Qd1e763">Tempore ultimae persecutionis Ecclesiae, ad memoriam reducit bona, quae gessit tempore pacis. <pb ed="#P" n="0836A"/> Quae aeterna gaudia desiderans, sed dum differuntur mala pressa, subdit:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e770">
+          <head xml:id="gom-iob30-Hd1e772">Versus 26</head>
+          <p xml:id="gom-iob30-d1e774">
+            <quote xml:id="gom-iob30-Qd1e776" type="lemma" source="http://scta.info/resource/iob30_26@1-6">Exspectabam bona, et venerunt mihi mala.</quote>
+            Fidelis populus exspectat bona, sed mala suscipit.
+          </p>
+          <p xml:id="gom-iob30-d1e780">
+            <quote xml:id="gom-iob30-Qd1e782" type="lemma" source="http://scta.info/resource/iob30_26@7-11">Praestolabar lucem, et eruperunt tenebrae.</quote>
+            Praestolatur lucem, et tenebras incurrit, quia pro remunerationis gratia interesse jam gaudiis angelorum sperat, et tamen hic diutius dilatus, manus persequentium tolerat, ut Tobias.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e787">
+          <head xml:id="gom-iob30-Hd1e789">Versus 27</head>
+          <p xml:id="gom-iob30-d1e791">
+            <quote xml:id="gom-iob30-Qd1e793" type="lemma" source="http://scta.info/resource/iob30_27@1-6">Interiora mea efferbuerunt absque ulla requie.</quote>
+            <quote xml:id="gom-iob30-Qd1e796"><seg type="qs">Sanctae Ecclesiae interiora effervescere</seg>, etc., usque ad <seg type="qs">et hoc est, <quote xml:id="gom-iob30-Qd1e802" source="http://scta.info/resource/iob30_27@1-3">interiora ejus efferbuerunt.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e806">
+            <quote xml:id="gom-iob30-Qd1e808" type="lemma" source="http://scta.info/resource/iob30_27@7-10">Praevenerunt me dies afflictionis.</quote>
+            Scit namque <pb ed="#P" n="0836B"/> Ecclesia electorum quod persecutione ultima mala multa passura sit. Sed hanc afflictionis suae dies praeveniunt, quia malorum vitam inter se graviter etiam tempore pacis portat, qui jam in pravis moribus ostendunt, quid sit futurum.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e815">
+          <head xml:id="gom-iob30-Hd1e817">Versus 28</head>
+          <p xml:id="gom-iob30-d1e819">
+            <quote xml:id="gom-iob30-Qd1e821" type="lemma" source="http://scta.info/resource/iob30_28@1-2">Moerens incedebam.</quote>
+            <quote xml:id="gom-iob30-Qd1e824"><seg type="qs">Vir sanctus elevatus</seg>, etc., usque ad <seg type="qs">hic per asperum iter venit ad patriam.</seg></quote>
+          </p>
+          <p xml:id="gom-iob30-d1e832">
+            <quote xml:id="gom-iob30-Qd1e834" type="lemma" source="http://scta.info/resource/iob30_28@3-5">Sine furore consurgens.</quote>
+            Saepe seditiosorum tumultus hominum praepositorum suorum mentes lacessunt: qui, si boni sunt, contra tumultus insolentium clamorem habent, et furorem non habent quoniam quos clementer tolerant, docere non cessant.
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e840">
+          <head xml:id="gom-iob30-Hd1e842">Versus 29</head>
+          <p xml:id="gom-iob30-d1e844">
+            <quote xml:id="gom-iob30-Qd1e846" type="lemma" source="http://scta.info/resource/iob30_29@1-3">Frater fui draconum.</quote>
+            <quote xml:id="gom-iob30-Qd1e849"><seg type="qs">Draconum <pb ed="#P" n="0836C"/> nomine malitiosi</seg>, etc., usque ad <seg type="qs">sed a terra minime penna virtutis levat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e860">
+          <head xml:id="gom-iob30-Hd1e862">Versus 30</head>
+          <p xml:id="gom-iob30-d1e864">
+            <quote xml:id="gom-iob30-Qd1e866" type="lemma" source="http://scta.info/resource/iob30_30@1-4">Cutis mea denigrata est.</quote>
+            <quote xml:id="gom-iob30-Qd1e869"><seg type="qs">Cutis nomine Ecclesiae infirmi</seg>, etc., usque ad <seg type="qs">qui in ea sunt, zelo fidei cruciantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iob30-Dd1e878">
+          <head xml:id="gom-iob30-Hd1e880">Versus 31</head>
+          <p xml:id="gom-iob30-d1e882">
+            <quote xml:id="gom-iob30-Qd1e884" type="lemma" source="http://scta.info/resource/iob30_31@1-5">Versa est in luctum cithara.</quote>
+            <quote xml:id="gom-iob30-Qd1e887"><seg type="qs">Ac si diceret Pacis meae tempore</seg>, etc., usque ad <seg type="qs">quia vitia exstinguenda sunt, non caro.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

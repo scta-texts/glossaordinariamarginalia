@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 34</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 34</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0160D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen34">
+        <head xml:id="gom-gen34-Hd1e98">Caput 34</head>
+        <div xml:id="gom-gen34-Dd1e100">
+          <head xml:id="gom-gen34-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen34-d1e104">
+            <quote xml:id="gom-gen34-Qd1e106" type="lemma" source="http://scta.info/resource/gen34_1@1-4">Egressa est autem Dina,</quote>
+            etc.
+            <ref xml:id="gom-gen34-Rd1e109"><name xml:id="gom-gen34-Nd1e110" ref="#GregoryGreat">GREG.</name> in Pastor., c. 30.</ref>
+            <quote xml:id="gom-gen34-Qd1e114">Dina, ut mulieres extraneae regionis videat, egreditur, cum mens sua studia negligens, actiones alienas curans, extra ordinem proprium evagatur. Quam Sichem, princeps terrae, opprimit, quia inventam in curis exterioribus <pb ed="#P" n="0161A"/> diabolus corrumpit. Et conglutinata est anima ejus cum ea, quia unitam sibi per iniquitatem respicit. Et quia mens a culpa resipiscens afficitur, et admissum flere conatur: corruptor spem ac securitatem vacuam ante oculos vocat, quatenus utilitatem tristitiae subtrahat. Unde additur: <quote xml:id="gom-gen34-Qd1e118" source="http://scta.info/resource/gen34_3@8-10">Tristemque blanditus delinivit.</quote> Modo enim, aliorum facta graviora; modo nihil esse quod factum est; modo misericordem Deum loquitur, et tempus ad poenitentiam pollicetur: ut dum per haec decepta mens ducitur, poenitentia differatur, ut tunc bona nulla percipiat, quam nunc mala contristant: et tunc plenius absorbeatur suppliciis, quae nunc gaudet in deliciis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen34-Dd1e124">
+          <head xml:id="gom-gen34-Hd1e126">Versus 2</head>
+          <p xml:id="gom-gen34-d1e128">
+            <quote xml:id="gom-gen34-Qd1e130" type="lemma" source="http://scta.info/resource/gen34_2@1-17">Quam cum vidisset Sichem. . . . <pb ed="#P" n="0161B"/> et dormivit cum illa,</quote>
+            etc.
+            <ref xml:id="gom-gen34-Rd1e135"><name xml:id="gom-gen34-Nd1e136" ref="#Augustine">AUG.</name> Quaest. in Gen., tom. III.</ref>
+            <quote xml:id="gom-gen34-Qd1e140">Et intendit animae Dinae filiae Jacob et adamavit virginem, et locutus est secundum sensum virginis. Quomodo virgo dicitur, si jam dormivit cum ea? nisi forte virgo nomen aetatis est secundum Hebraeum eloquium, an potius per recapitulationem post commemoratur quod ante factum est. Prius enim potuit intendere animae ipsius, et amare virginem, et loqui secundum sensum virginis, deinde dormire cum illa.</quote>
+          </p>
+          <p xml:id="gom-gen34-d1e143">
+            <quote xml:id="gom-gen34-Qd1e145" type="lemma" source="http://scta.info/resource/gen34_2">Pacifici.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Ubi Septuaginta interpretati sunt <quote xml:id="gom-gen34-Qd1e150">pacificos,</quote> Aquila transtulit <quote xml:id="gom-gen34-Qd1e152">consummatos, atque perfectos</quote> pro quo in Hebraeo legitur: <quote xml:id="gom-gen34-Qd1e154">Selemim.</quote> Ex quo apparet illud esse verum quod supra de Salem diximus.
+          </p>
+          <p xml:id="gom-gen34-d1e157">
+            <pb ed="#P" n="0161C"/>
+            <quote xml:id="gom-gen34-Qd1e161" type="lemma" source="http://scta.info/resource/gen34_2">Assensi,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-gen34-Rd1e166"><name xml:id="gom-gen34-Nd1e167" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen34-Qd1e170"><seg type="qs">Paulo ante Jacob loquens cum Esau, filios suos infantes esse significat</seg>, etc., usque ad <seg type="qs">sed filii ejus in hoc facto nominantur quasi principes et auctores.</seg></quote>
+          </p>
+          <p xml:id="gom-gen34-d1e178">
+            <quote xml:id="gom-gen34-Qd1e180" type="lemma" source="http://scta.info/resource/gen34_2">Arreptis,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-gen34-Rd1e185"><name xml:id="gom-gen34-Nd1e186">STRAB.</name></ref>
+            <quote xml:id="gom-gen34-Qd1e188">Sic pastores Ecclesiae peccatum carnis vel animae ulcisci debent gladio spiritus, qui est verbum Dei: parati ulcisci omnem inobedientiam.</quote>
+          </p>
+          <p xml:id="gom-gen34-d1e192">
+            <quote xml:id="gom-gen34-Qd1e194" type="lemma" source="http://scta.info/resource/gen34_2">Nos pauci sumus,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-gen34-Rd1e199"><name xml:id="gom-gen34-Nd1e200" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen34-Qd1e203">Hoc dicit, quia plurimum bella poterant surgere, non quod multo minus haberet quam possent expugnationi civitatis sufficere.</quote>
+          </p>
+          <p xml:id="gom-gen34-d1e206">
+            <quote xml:id="gom-gen34-Qd1e208" type="lemma" source="http://scta.info/resource/gen34_2">Nunquid ut scorto,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-gen34-Rd1e213"><name xml:id="gom-gen34-Nd1e214" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen34-Qd1e217">Zelus filiorum Jacob in ultionem sororis moraliter commonet pastores fidelium, curam habere animarum sibi commissarum, <pb ed="#P" n="0161D"/> ne violenter corporali delicto, aut fornicatione spirituali succumbant. <quote xml:id="gom-gen34-Qd1e221" source="http://scta.info/resource/IIcor10_6@5-7">Paratique sint ulcisci omnem inobedientiam,</quote> et excommunicationis gladio feriant stupratorem, ne impunitus evadat.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

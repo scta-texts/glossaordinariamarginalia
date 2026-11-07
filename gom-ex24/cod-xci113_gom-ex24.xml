@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 24</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 24</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0264D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex24">
+        <head xml:id="gom-ex24-Hd1e98">Caput 24</head>
+        <div xml:id="gom-ex24-Dd1e100">
+          <head xml:id="gom-ex24-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ex24-d1e104">
+            <quote xml:id="gom-ex24-Qd1e106" type="lemma" source="http://scta.info/resource/ex24_1@1-9">Moysi quoque dixit: Ascende ad Dominum, tu et Aaron,</quote>
+            etc.
+            <ref xml:id="gom-ex24-Rd1e109"><name xml:id="gom-ex24-Nd1e110" ref="#Augustine">AUG.</name>, quaest. 85 in Exod., tom. III.</ref>
+            <quote xml:id="gom-ex24-Qd1e114"><seg type="qs">Usque ad hunc locum Scripturae justificationes intelliguntur</seg>, etc., usque ad <seg type="qs">justificationes vero Latini eas esse dicunt quae Graeci <foreign xml:lang="greek">δικαιώματα</foreign> dicunt.</seg></quote>
+          </p>
+          <p xml:id="gom-ex24-d1e125">
+            <quote xml:id="gom-ex24-Qd1e127" type="lemma" source="http://scta.info/resource/ex24_1@7-9">Tu et Aaron,</quote>
+            etc.
+            <ref xml:id="gom-ex24-Rd1e130"><name xml:id="gom-ex24-Nd1e131">STRAB.</name></ref>
+            <quote xml:id="gom-ex24-Qd1e133">Moyses et Aaron et Nadab et Abiu. Per hos quatuor viri evangelici significantur, qui scilicet evangelica praecepta sequuntur. <pb ed="#P" n="0265A"/> Per septuaginta vero (qui constat ex septenario decies scilicet ducto, vel ex denario septies multiplicato) significantur illi qui Spiritus sancti gratia adjuti, adimplentes denarium legis, tendunt ad contemplationem Conditoris. Vel ad litteram de quibus dicitur Num. XI: <quote xml:id="gom-ex24-Qd1e137">Assume tibi septuaginta viros,</quote> etc., de quibus Heldad et Meldad fuerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e142">
+          <head xml:id="gom-ex24-Hd1e144">Versus 2</head>
+          <p xml:id="gom-ex24-d1e146">
+            <quote xml:id="gom-ex24-Qd1e148" type="lemma" source="http://scta.info/resource/ex24_2@1-5">Solusque Moyses ascendet ad Dominum.</quote>
+            <ref xml:id="gom-ex24-Rd1e151"><name xml:id="gom-ex24-Nd1e152" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex24-Qd1e155">Prius praecipitur ut Moyses et Aaron, Nadab et Abiu, et septuaginta seniores, ascendant ad Dominum. Et statim subjungitur quod solus Moyses ascendat ad Dominum, caeteri non appropinquent, sed adorent procul. Ubi moraliter instruimur vires nostras perpendere, nec ultra posse nostrum arcem contemplationis attingere, sed quantum divina clementia <pb ed="#P" n="0265B"/> vocat, et regula Scripturae provocat.</quote>
+          </p>
+          <p xml:id="gom-ex24-d1e161">
+            <ref xml:id="gom-ex24-Rd1e163" type="lemma" subtype="implied" target="http://scta.info/resource/ex24_2@1-5"/>
+            <ref xml:id="gom-ex24-Rd1e165"><name xml:id="gom-ex24-Nd1e166" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-ex24-Qd1e169">Moyses ut sublimia Dei praecepta perciperet, alta conscendit; et ut interna penetret, ab externis tumultibus occultatur: quia viri sancti qui exterioribus officiis deservire necessitate coguntur, studiose semper ad cordis secreta confugiunt, ibique cogitationis intimae cacumen ascendunt, et legem quasi in monte percipiunt, dum, postpositis tumultibus actionum temporalium, in contemplationis suae vertice supernae voluntatis sententiam perscrutantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e173">
+          <head xml:id="gom-ex24-Hd1e175">Versus 3</head>
+          <p xml:id="gom-ex24-d1e177">
+            <quote xml:id="gom-ex24-Qd1e179" type="lemma" source="http://scta.info/resource/ex24_3@23-23">Faciemus</quote>
+            <ref xml:id="gom-ex24-Rd1e182"><name xml:id="gom-ex24-Nd1e183" ref="#Augustine">AUG.</name>, quaest. 95.</ref>
+            <quote xml:id="gom-ex24-Qd1e187"><seg type="qs">Notandum quod iterum populus</seg>, etc., usque ad <seg type="qs">apprehenderunt justitiam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e196">
+          <head xml:id="gom-ex24-Hd1e198">Versus 6</head>
+          <p xml:id="gom-ex24-d1e200">
+            <quote xml:id="gom-ex24-Qd1e202" type="lemma" source="http://scta.info/resource/ex24_6@1-2">Tulit itaque,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-ex24-d1e206">
+            <quote xml:id="gom-ex24-Qd1e208" type="lemma" source="http://scta.info/resource/ex24_6">[ID., quaest. 98.]</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-ex24-Qd1e213"><seg type="qs"><pb ed="#P" n="0265C"/> Notandum est nunc primum sacrificasse Mosem</seg>, etc., usque ad <seg type="qs">nam decalogum in tabulis lapideis fuisse scriptum postea patet.</seg></quote>
+          </p>
+          <p xml:id="gom-ex24-d1e222">
+            <quote xml:id="gom-ex24-Qd1e224" type="lemma" source="http://scta.info/resource/ex24_6@10-10">Crateras.</quote>
+            Cratera, sive crater, dicitur <foreign xml:lang="greek">ἀπὸ τοῦ κρατεῖν,</foreign> quod est <quote xml:id="gom-ex24-Qd1e230">capere,</quote> eo quod sit multi vini capax.
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e235">
+          <head xml:id="gom-ex24-Hd1e237">Versus 10</head>
+          <p xml:id="gom-ex24-d1e239">
+            <quote xml:id="gom-ex24-Qd1e241" type="lemma" source="http://scta.info/resource/ex24_10@5-6">Sub pedibus.</quote>
+            Deus non loco continetur, nec situ corporis membra ponit, sicut est nostri corporis sedere, et jacere, stare, et hujusmodi, quae tantum corporis sunt. Deus autem spiritus est. Quod ergo se ostendit specie corporali, vel signis corporaliter expressis, non substantia ejus apparet, quae est quod ipse est, sed assumptio formarum visibilium ejus omni potentiae subjacet.
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e246">
+          <head xml:id="gom-ex24-Hd1e248">Versus 12</head>
+          <p xml:id="gom-ex24-d1e250">
+            <quote xml:id="gom-ex24-Qd1e252" type="lemma" source="http://scta.info/resource/ex24_12@6-8">Ascende ad me,</quote>
+            <quote xml:id="gom-ex24-Qd1e255"><seg type="qs">etc. <quote xml:id="gom-ex24-Qd1e258">(BED., lib. I de <pb ed="#P" n="0265D"/> Tabarnac., cap. 11, tom. II.)</quote> Locuturi de figura tabernaculi</seg>, etc., usque ad <seg type="qs">ut Ecclesia per orbem cunctarum gentium linguis locutura designaretur.</seg></quote>
+          </p>
+          <p xml:id="gom-ex24-d1e268">
+            <quote xml:id="gom-ex24-Qd1e270" type="lemma" source="http://scta.info/resource/ex24_12@14-15">Daboque tibi.</quote>
+            <ref xml:id="gom-ex24-Rd1e273"><name xml:id="gom-ex24-Nd1e274" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ex24-Qd1e277">Huic simile est illud: <quote xml:id="gom-ex24-Qd1e279" source="http://scta.info/resource/mt28_20@1-7">Docentes eos servare omnia quaecunque mandavi vobis</quote>. Non ergo Moyses, non apostoli, vel quilibet, alia debet docere quam quae Dominus docuit, et consilii decreto observanda praescripsit, in quibus vitam aeternam nos habere voluit, sicut de his praeteriri quidquam non oportet: sed omnia quae mandavit, auditoribus committere necesse est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e285">
+          <head xml:id="gom-ex24-Hd1e287">Versus 13</head>
+          <p xml:id="gom-ex24-d1e289">
+            <quote xml:id="gom-ex24-Qd1e291" type="lemma" source="http://scta.info/resource/ex24_13@1-4">Surrexerunt Moyses et Josue.</quote>
+            <ref xml:id="gom-ex24-Rd1e294"><name xml:id="gom-ex24-Nd1e295" ref="#Augustine">AUG.</name>, quaest. 103 in Exod.</ref>
+            <quote xml:id="gom-ex24-Qd1e299"><seg type="qs">Josue non commemoratus in illis quatuor subito cum Moyse apparet</seg>, etc., usque ad <seg type="qs">quod modo memoratur nondum vocabatur Jesus, sed quando scriptum est.</seg></quote>
+          </p>
+          <p xml:id="gom-ex24-d1e307">
+            <ref xml:id="gom-ex24-Rd1e309" type="lemma" subtype="implied" target="http://scta.info/resource/ex24_13@1-4"/>
+            <ref xml:id="gom-ex24-Rd1e311"><name xml:id="gom-ex24-Nd1e312" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-ex24-Qd1e315">Josue Christum nomine et actione significat; qui minister Moysi dicitur, quia Christus <quote xml:id="gom-ex24-Qd1e317" source="http://scta.info/resource/mt5_17@9-13">non venit legem solvere, sed adimplere</quote>. Moysi vestigia in omnibus sequitur, quia in cunctis quae scripsit Moyses, typice designatur, quasi comes individuus, si bene quaeritur, invenitur. Unde Joan. V: <quote xml:id="gom-ex24-Qd1e320" source="http://scta.info/resource/io5_46@1-8">Si crederetis Moysi, forsitan crederetis et mihi.</quote></quote>
+          </p>
+          <p xml:id="gom-ex24-d1e324">
+            <ref xml:id="gom-ex24-Rd1e326" type="lemma" subtype="implied" target="http://scta.info/resource/ex24_13@1-4"/>
+            <ref xml:id="gom-ex24-Rd1e328"><name xml:id="gom-ex24-Nd1e329" ref="#Bede">BED.</name>, de Tabernac., lib. I, cap. 1, tom. II.</ref>
+            <quote xml:id="gom-ex24-Qd1e333"><seg type="qs">Aaron ( ) <quote xml:id="gom-ex24-Qd1e336">mons fortitudinis,</quote> Hur ( ) interpretatur <mentioned>ignis</mentioned> vel <mentioned>lumen</mentioned></seg>, etc., usque ad <seg type="qs">et ad dilectionem Conditoris animus inardescit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e347">
+          <head xml:id="gom-ex24-Hd1e349">Versus 15</head>
+          <p xml:id="gom-ex24-d1e351">
+            <quote xml:id="gom-ex24-Qd1e353" type="lemma" source="http://scta.info/resource/ex24_15@1-3">Cumque ascendisset Moyses,</quote>
+            <ref xml:id="gom-ex24-Rd1e356"><name xml:id="gom-ex24-Nd1e357" ref="#Bede">BEDA.</name>, ibid.</ref>
+            <quote xml:id="gom-ex24-Qd1e361"><seg type="qs">Sicut mons altitudinem perfectionis</seg>, etc., usque ad <seg type="qs">coelesti benedictione protegit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e370">
+          <head xml:id="gom-ex24-Hd1e372">Versus 16</head>
+          <p xml:id="gom-ex24-d1e374">
+            <quote xml:id="gom-ex24-Qd1e376" type="lemma" source="http://scta.info/resource/ex24_16@1-4">Et habitavit gloria Domini.</quote>
+            <ref xml:id="gom-ex24-Rd1e379"><name xml:id="gom-ex24-Nd1e380" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex24-Qd1e384"><seg type="qs">Non modo sublimitas, sed et nomen montis</seg>, etc., usque ad <seg type="qs">in septimo quiescere jubemur.</seg></quote>
+          </p>
+          <p xml:id="gom-ex24-d1e392">
+            <quote xml:id="gom-ex24-Qd1e394" type="lemma" source="http://scta.info/resource/ex24_16@7-9">Tegens illum nube.</quote>
+            <ref xml:id="gom-ex24-Rd1e397"><name xml:id="gom-ex24-Nd1e398" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex24-Qd1e402"><seg type="qs">Sex diebus nube et gloria Domini tegitur</seg>, etc., usque ad <seg type="qs">ut ad sublimiora divinae visionis et collocutionis dona perveniret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e411">
+          <head xml:id="gom-ex24-Hd1e413">Versus 17</head>
+          <p xml:id="gom-ex24-d1e415">
+            <quote xml:id="gom-ex24-Qd1e417" type="lemma" source="http://scta.info/resource/ex24_17@1-3">Erat autem species,</quote>
+            etc.
+            <ref xml:id="gom-ex24-Rd1e420"><name xml:id="gom-ex24-Nd1e421" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex24-Qd1e425"><seg type="qs">Quasi ignis ardens species gloriae Domini apparuit</seg>, etc., usque ad <seg type="qs">tametsi plene illos sequi non valeant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex24-Dd1e435">
+          <head xml:id="gom-ex24-Hd1e437">Versus 18</head>
+          <p xml:id="gom-ex24-d1e439">
+            <quote xml:id="gom-ex24-Qd1e441" type="lemma" source="http://scta.info/resource/ex24_18@1-2">Ingressusque Moyses,</quote>
+            etc.
+            <ref xml:id="gom-ex24-Rd1e444"><name xml:id="gom-ex24-Nd1e445" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-ex24-Qd1e449"><seg type="qs">Moyses medium nebulae ingressus ascendit in montem</seg>, etc., usque ad <seg type="qs">ut per eorum observantiam ad salutem veniant aeternam.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

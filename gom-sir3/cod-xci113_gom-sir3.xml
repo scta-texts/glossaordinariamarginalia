@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1187D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir3">
+        <head xml:id="gom-sir3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-sir3-Dd1e100">
+          <head xml:id="gom-sir3-Hd1e102">Versus 2</head>
+          <p xml:id="gom-sir3-d1e104">
+            <quote xml:id="gom-sir3-Qd1e106" type="lemma" source="http://scta.info/resource/sir3_2@1-2">Judicium patris.</quote>
+            Dei, <quote xml:id="gom-sir3-Qd1e109" source="http://scta.info/resource/eph3_15@1-9">ex quo omnis paternitas in coelo et in terra.</quote> Quia ex ipsa sunt omnia. Qui diligit ea, quae fecit, et ut in eo maneant, <pb ed="#P" n="1188A"/> quo facta sunt, cujus judicium, qui audierit, et praecepta ejus fecerit, salvus erit: cujus mandatum est, ut etiam patri temporali, et matri reverentia exhibeatur; unde: <quote xml:id="gom-sir3-Qd1e114" source="http://scta.info/resource/deut5_16@1-3">Honora patrem tuum</quote>, etc.; unde sequitur: <quote xml:id="gom-sir3-Qd1e117" source="http://scta.info/resource/sir3_7@1-4">Qui honorat patrem suum.</quote> Cui Deum honorem constituit, non debet a filiis inhonorari: quia Deus judicio suo exquiret qualiter praeceptum suum servetur.
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e122">
+          <head xml:id="gom-sir3-Hd1e124">Versus 4</head>
+          <p xml:id="gom-sir3-d1e126">
+            <quote xml:id="gom-sir3-Qd1e128" type="lemma" source="http://scta.info/resource/sir3_4@1-2">Qui diligit.</quote>
+            Qui scilicet mandata servat, et abstinet a peccatis, et tamen pro excessoribus orare non desinit, quia scit misericordem judicem omni tempore preces exaudire.
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e133">
+          <head xml:id="gom-sir3-Hd1e135">Versus 6</head>
+          <p xml:id="gom-sir3-d1e137">
+            <quote xml:id="gom-sir3-Qd1e139" type="lemma" source="http://scta.info/resource/sir3_6@5-6">In filiis.</quote>
+            <ref xml:id="gom-sir3-Rd1e142"><name xml:id="gom-sir3-Nd1e143" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir3-Qd1e146"><seg type="qs">In sobole vel in discipulis</seg>, etc., usque ad <seg type="qs">honorare parentes primum mandatum est in promissione.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e155">
+          <head xml:id="gom-sir3-Hd1e157">Versus 9</head>
+          <p xml:id="gom-sir3-d1e159">
+            <pb ed="#P" n="1188B"/>
+            <quote xml:id="gom-sir3-Qd1e163" type="lemma" source="http://scta.info/resource/sir3_9@1-4">In opere et sermone,</quote>
+            non in vulva scilicet unde ostenditur, et spiritualis pater maxime dignus honore; unde Paulus: <quote xml:id="gom-sir3-Qd1e166" source="http://scta.info/resource/Icor4_15@17-21">Per Evangelium ego vos genui</quote>. Et alibi: <quote xml:id="gom-sir3-Qd1e169" source="http://scta.info/resource/Itim5_17@1-14">Qui bene praesunt presbyteri, duplici honore digni habeantur, maxime qui laborant in doctrina et verbo</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e175">
+          <head xml:id="gom-sir3-Hd1e177">Versus 11</head>
+          <p xml:id="gom-sir3-d1e179">
+            <quote xml:id="gom-sir3-Qd1e181" type="lemma" source="http://scta.info/resource/sir3_11@1-2">Benedictio patris,</quote>
+            etc.
+            <ref xml:id="gom-sir3-Rd1e184"><name xml:id="gom-sir3-Nd1e185" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir3-Qd1e188"><seg type="qs">Benedixerunt patriarchae filiis</seg>, etc., usque ad <seg type="qs">illusores saevissime laniaverunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e197">
+          <head xml:id="gom-sir3-Hd1e199">Versus 15</head>
+          <p xml:id="gom-sir3-d1e201">
+            <quote xml:id="gom-sir3-Qd1e203" type="lemma" source="http://scta.info/resource/sir3_15@14-14">Eleemosyna.</quote>
+            Scilicet quae peccatum delet. Hostia enim quae pro peccato, peccatum vocatur. Qui autem parentibus, vel caeteris pauperibus miseretur, justitiae praemium recipiet a peccatis absolutus. <quote xml:id="gom-sir3-Qd1e206" source="http://scta.info/resource/mt5_3@1-4">Beati misericordes, quoniam</quote>, etc. Et alibi: <quote xml:id="gom-sir3-Qd1e209" source="http://scta.info/resource/prov19_17@1-5">Feneratur Domino, qui miseretur pauperis.</quote> <pb ed="#P" n="1188C"/> . Hinc Daniel ad Nabuchodonosor: <quote xml:id="gom-sir3-Qd1e214" source="http://scta.info/resource/dan4_24@5-18">Consilium meum, o rex, placeat tibi: peccata tua eleemosynis redime, et iniquitates tuas misericordiis pauperum</quote>, si forsitan ignoscat Deus delictis tuis. Hinc Dominus ait: <quote xml:id="gom-sir3-Qd1e218" source="http://scta.info/resource/lc11_41@4-11">Date eleemosynam, et omnia munda sunt vobis</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e223">
+          <head xml:id="gom-sir3-Hd1e225">Versus 19</head>
+          <p xml:id="gom-sir3-d1e227">
+            <quote xml:id="gom-sir3-Qd1e229" type="lemma" source="http://scta.info/resource/sir3_19@1-3">Fili in mansuetudine.</quote>
+            Mansuetudo et humilitas gratiam, superbia et furor pariunt ruinam; unde: <quote xml:id="gom-sir3-Qd1e232" source="http://scta.info/resource/mt11_29@7-15">Discite a me, quia mitis sum et humilis corde</quote>, etc. Et alibi: <quote xml:id="gom-sir3-Qd1e235" source="http://scta.info/resource/lc14_11@3-6">Qui se exaltat, humiliabitur</quote>, etc.
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e240">
+          <head xml:id="gom-sir3-Hd1e242">Versus 20</head>
+          <p xml:id="gom-sir3-d1e244">
+            <quote xml:id="gom-sir3-Qd1e246" type="lemma" source="http://scta.info/resource/sir3_20@1-3">Quanto magnus es,</quote>
+            etc.
+            <ref xml:id="gom-sir3-Rd1e249"><name xml:id="gom-sir3-Nd1e250" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir3-Qd1e253"><seg type="qs">Docuit superius mansuetudinem</seg>, etc., usque ad <seg type="qs">sufficit homini ea pie cogitare, et opere implere, quae praecepit Deus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e262">
+          <head xml:id="gom-sir3-Hd1e264">Versus 24</head>
+          <p xml:id="gom-sir3-d1e266">
+            <pb ed="#P" n="1188D"/>
+            <quote xml:id="gom-sir3-Qd1e270" type="lemma" source="http://scta.info/resource/sir3_24@1-3">In supervacuis rebus,</quote>
+            etc.
+            <ref xml:id="gom-sir3-Rd1e273"><name xml:id="gom-sir3-Nd1e274" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir3-Qd1e277"><seg type="qs">Id est, ne scruteris supervacue</seg>, etc., usque ad <seg type="qs">disputantes in errores incidunt, et a veritate recedunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e286">
+          <head xml:id="gom-sir3-Hd1e288">Versus 27</head>
+          <p xml:id="gom-sir3-d1e290">
+            <quote xml:id="gom-sir3-Qd1e292" type="lemma" source="http://scta.info/resource/sir3_27@1-2">Cor durum.</quote>
+            Quia <quote xml:id="gom-sir3-Qd1e295" source="http://scta.info/resource/rom2_5@1-12">secundum duritiam tuam thesaurizas tibi iram in die judicii</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir3-Dd1e301">
+          <head xml:id="gom-sir3-Hd1e303">Versus 28</head>
+          <p xml:id="gom-sir3-d1e305">
+            <quote xml:id="gom-sir3-Qd1e307" type="lemma" source="http://scta.info/resource/sir3_28@1-2">Cor ingrediens.</quote>
+            Quod non curat, nec studet vitare, et quod ea diligit, quae ducunt ad interitum, ut haereses et profanae novitates; unde sequitur: <quote xml:id="gom-sir3-Qd1e310" source="http://scta.info/resource/sir3_28@1-7">Cor ingrediens duas vias, non habebit successus,</quote> etc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

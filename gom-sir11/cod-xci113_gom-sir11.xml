@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 11</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 11</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1195D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir11">
+        <head xml:id="gom-sir11-Hd1e98">Caput 11</head>
+        <div xml:id="gom-sir11-Dd1e100">
+          <head xml:id="gom-sir11-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir11-d1e104">
+            <quote xml:id="gom-sir11-Qd1e106" type="lemma" source="http://scta.info/resource/sir11_1@1-4">Sapientia humiliati exaltabit caput.</quote>
+            Sequitur: <quote xml:id="gom-sir11-Qd1e109" source="http://scta.info/resource/sir11_2@1-3">Non laudes virum,</quote> etc. Quasi: Ne juxta speciem corporis aestimes qualitatem mentis: unde, <quote xml:id="gom-sir11-Qd1e112" source="http://scta.info/resource/Isam16_7@7-21">Non respicias vultum ejus nec altitudinem staturae ejus, quoniam abjeci eum, nec juxta intuitum hominis judico</quote>. Homo enim videt ea quae patent. Dominus autem intuetur cor. In honoribus <pb ed="#P" n="1196A"/> mundanis non est superbiendum, quia transit mundus et concupiscentia ejus.
+          </p>
+        </div>
+        <div xml:id="gom-sir11-Dd1e119">
+          <head xml:id="gom-sir11-Hd1e121">Versus 5</head>
+          <p xml:id="gom-sir11-d1e123">
+            <quote xml:id="gom-sir11-Qd1e125" type="lemma" source="http://scta.info/resource/sir11_5@1-2">Multi tyranni.</quote>
+            <ref xml:id="gom-sir11-Rd1e128"><name xml:id="gom-sir11-Nd1e129" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir11-Qd1e132"><seg type="qs">Divina dispensatione fit</seg>, etc., usque ad <seg type="qs">benedictionem patriarcharum haereditavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir11-Dd1e141">
+          <head xml:id="gom-sir11-Hd1e143">Versus 8</head>
+          <p xml:id="gom-sir11-d1e145">
+            <quote xml:id="gom-sir11-Qd1e147" type="lemma" source="http://scta.info/resource/sir11_8@1-2">Priusquam audias.</quote>
+            Qui prius respondet quam audiat, id est, qui doctor esse desiderat antequam discat; vel, aliorum causas judicare, priusquam dignoscat: stultum se esse demonstrat.
+          </p>
+        </div>
+        <div xml:id="gom-sir11-Dd1e152">
+          <head xml:id="gom-sir11-Hd1e154">Versus 10</head>
+          <p xml:id="gom-sir11-d1e156">
+            <quote xml:id="gom-sir11-Qd1e158" type="lemma" source="http://scta.info/resource/sir11_10@1-4">Fili, ne in multis,</quote>
+            etc. Quasi diceret: De superfluis ne sis curiosus, et peccantium pravitati non consentias. Non solum enim qui faciunt mala, sed qui consentiunt facientibus digni sunt morte.
+          </p>
+          <p xml:id="gom-sir11-d1e162">
+            <quote xml:id="gom-sir11-Qd1e164" type="lemma" source="http://scta.info/resource/sir11_10@1-4">Fili, ne in multis,</quote>
+            etc. Multi sunt actus haereticorum, qui unitatem fidei, et tramitem veritatis <pb ed="#P" n="1196B"/> non custodiunt, et laborem unum in libris componendis expendunt. Rhetorica et dialectica arte copiosi: nec immunes sunt a dilecto, quia meditatio eorum est in dolo. Unde Ecclesiasticus: <quote xml:id="gom-sir11-Qd1e169">Fili, ne facias multos libros, quibus non est finis.</quote> Omnes autem libri divinae Scripturae (quia consentiunt) unus liber sunt: unde, <quote xml:id="gom-sir11-Qd1e171" source="http://scta.info/resource/ps39_8@6-12">In capite libri scriptum est de me<!-- check: Migne cites ps36; text matches ps39_8 --></quote>, etc.
+          </p>
+          <p xml:id="gom-sir11-d1e176">
+            <quote xml:id="gom-sir11-Qd1e178" type="lemma" source="http://scta.info/resource/sir11_10@1-4">Fili, ne in multis,</quote>
+            terrenis lucris, vel quibuslibet negotiis, quia pluribus intentus minor est ad singula sensus. Suscepta cura regiminis impar invenitur quisque ad singula, dum dividitur ad multa: nec sua damna considerat, dum aliena pertractat.
+          </p>
+        </div>
+        <div xml:id="gom-sir11-Dd1e184">
+          <head xml:id="gom-sir11-Hd1e186">Versus 11</head>
+          <p xml:id="gom-sir11-d1e188">
+            <quote xml:id="gom-sir11-Qd1e190" type="lemma" source="http://scta.info/resource/sir11_11@1-2">Est homo laborans.</quote>
+            Christiana opera designat, in quibus pauperes spiritu abundant omnibus <pb ed="#P" n="1196C"/> bonis, et egent qui laborant in acquirendis divitiis: unde, <quote xml:id="gom-sir11-Qd1e195" source="http://scta.info/resource/ps33_11@1-4">Divites eguerunt, et esurierunt,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-sir11-Dd1e200">
+          <head xml:id="gom-sir11-Hd1e202">Versus 18</head>
+          <p xml:id="gom-sir11-d1e204">
+            <quote xml:id="gom-sir11-Qd1e206" type="lemma" source="http://scta.info/resource/sir11_18@1-3">Est qui locupletatur,</quote>
+            etc.
+            <ref xml:id="gom-sir11-Rd1e209"><name xml:id="gom-sir11-Nd1e210" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir11-Qd1e213"><seg type="qs">Thesaurizat, et ignorat</seg>, etc., usque ad <seg type="qs">sed aliis relinquunt qui veritatem et falsitatem dignoscunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir11-Dd1e222">
+          <head xml:id="gom-sir11-Hd1e224">Versus 30</head>
+          <p xml:id="gom-sir11-d1e226">
+            <quote xml:id="gom-sir11-Qd1e228" type="lemma" source="http://scta.info/resource/sir11_30@1-2">Ante mortem,</quote>
+            etc.
+            <ref xml:id="gom-sir11-Rd1e231"><name xml:id="gom-sir11-Nd1e232" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir11-Qd1e235"><seg type="qs">Stultum est laudare</seg>, etc., usque ad <seg type="qs">qui veniunt in vestimentis ovium, intrinsecus autem sunt lupi rapaces.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir11-Dd1e244">
+          <head xml:id="gom-sir11-Hd1e246">Versus 32</head>
+          <p xml:id="gom-sir11-d1e248">
+            <quote xml:id="gom-sir11-Qd1e250" type="lemma" source="http://scta.info/resource/sir11_32@1-3">Sicut enim eructant,</quote>
+            etc.
+            <ref xml:id="gom-sir11-Rd1e253"><name xml:id="gom-sir11-Nd1e254" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir11-Qd1e257"><seg type="qs">Similitudinem sagaciorum animalium</seg>, etc., usque ad <seg type="qs">in caveam erroris et laqueum deceptionis praecipitent.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

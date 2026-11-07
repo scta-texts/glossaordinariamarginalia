@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 125</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 125</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1046A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps125">
+        <head xml:id="gom-ps125-Hd1e98">Psalmus 125</head>
+        <div xml:id="gom-ps125-Dd1e100">
+          <head xml:id="gom-ps125-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps125-d1e104">
+            <pb ed="#P" n="1046A"/>
+            <quote xml:id="gom-ps125-Qd1e108" type="lemma" source="http://scta.info/resource/ps125_1@1-2">Canticum graduum.</quote>
+            <ref xml:id="gom-ps125-Rd1e111"><name xml:id="gom-ps125-Nd1e112" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e115">Septimus gradus in figura Veteris Testamenti per venturum Christum, reversionem de captivitate, quasi de Babylonia prophetat: unde jam consolatio, et seminatio ut plus metatur.</quote>
+          </p>
+          <p xml:id="gom-ps125-d1e118">
+            <ref xml:id="gom-ps125-Rd1e120" type="lemma" subtype="implied" target="http://scta.info/resource/ps125_1@1-2"/>
+            <ref xml:id="gom-ps125-Rd1e122"><name xml:id="gom-ps125-Nd1e123" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e126">Redempti sanguine Christi et conversi a captivitate, haec cantant, dum peregrini, gementes in via. Sion est Jerusalem in angelis aeterna, in hominibus captiva.</quote>
+          </p>
+          <p xml:id="gom-ps125-d1e129">
+            <quote xml:id="gom-ps125-Qd1e131" type="lemma" source="http://scta.info/resource/ps125_1@3-4">In convertendo.</quote>
+            <ref xml:id="gom-ps125-Rd1e134"><name xml:id="gom-ps125-Nd1e135" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e138">Primum magnitudo facti, cum magnitudine gaudii ostenditur: secundo precatur conversionem a captivitate adhuc futura, <ref xml:id="gom-ps125-Rd1e140">ibi, <seg type="incipit">Converte, Domine. In convertendo</seg>.</ref></quote>
+          </p>
+          <p xml:id="gom-ps125-d1e147">
+            <ref xml:id="gom-ps125-Rd1e149" type="lemma" subtype="implied" target="http://scta.info/resource/ps125_1@3-4"/>
+            <ref xml:id="gom-ps125-Rd1e151"><name xml:id="gom-ps125-Nd1e152" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e155">Vel, cum converterit, etc., <quote xml:id="gom-ps125-Qd1e157" source="http://scta.info/resource/ps125_4@1-5">usque ad converte, Domine, captivitatem nostram. Sicut.</quote></quote>
+          </p>
+          <p xml:id="gom-ps125-d1e162">
+            <ref xml:id="gom-ps125-Rd1e164" type="lemma" subtype="implied" target="http://scta.info/resource/ps125_1@3-4"/>
+            <ref xml:id="gom-ps125-Rd1e166"><name xml:id="gom-ps125-Nd1e167" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e170">Non semper ad similitudinem ponitur, sed <pb ed="#P" n="1046B"/> ad proprietatem, ut hic; unde etiam dicitur: Fecit ut justus, quod vere est, ita facti fiunt isti <quote xml:id="gom-ps125-Qd1e174" source="http://scta.info/resource/ps125_1@10-11">sicut consolati,</quote> id est, gavisi sunt, ut consolationem accipientes in resurrectione Christi, qui praecessit ut consequamur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps125-Dd1e180">
+          <head xml:id="gom-ps125-Hd1e182">Versus 2</head>
+          <p xml:id="gom-ps125-d1e184">
+            <quote xml:id="gom-ps125-Qd1e186" type="lemma" source="http://scta.info/resource/ps125_2@5-6">Os nostrum.</quote>
+            <ref xml:id="gom-ps125-Rd1e189"><name xml:id="gom-ps125-Nd1e190" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e193">Cordis arcanum, ubi primum gaudia, quae post officio linguae erumpunt.</quote>
+          </p>
+          <p xml:id="gom-ps125-d1e196">
+            <ref xml:id="gom-ps125-Rd1e198"><name xml:id="gom-ps125-Nd1e199" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e202" type="lemma" source="http://scta.info/resource/ps125_2@5-6">Os nostrum.</quote>
+            <quote xml:id="gom-ps125-Qd1e205">Cordis, inde procedit malum bonum, quod nos mundat, vel inquinat; unde non: <quote xml:id="gom-ps125-Qd1e207" source="http://scta.info/resource/mt4_4@16-19">Quod procedit de ore, inquinat<!-- check: Migne cites mc7; text matches mt4_4 --></quote>. Non de ore carnis, sed cordis. Non enim si nominas furta et alia mala, immundus es: sed dum cogitas, et si sileas.</quote>
+          </p>
+          <p xml:id="gom-ps125-d1e213">
+            <quote xml:id="gom-ps125-Qd1e215" type="lemma" source="http://scta.info/resource/ps125_2@13-14">Inter gentes.</quote>
+            <ref xml:id="gom-ps125-Rd1e218"><name xml:id="gom-ps125-Nd1e219" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e222">Non gentes, quia non omnes credunt.</quote>
+          </p>
+          <p xml:id="gom-ps125-d1e225">
+            <quote xml:id="gom-ps125-Qd1e227" type="lemma" source="http://scta.info/resource/ps125_2@16-16">Magnificavit,</quote>
+            quia vident eos etiam virtutes operari; firmum testimonium ab adversario. <pb ed="#P" n="1046C"/>
+          </p>
+          <p xml:id="gom-ps125-d1e234">
+            <ref xml:id="gom-ps125-Rd1e236" type="lemma" subtype="implied" target="http://scta.info/resource/ps125_2@16-16"/>
+            <ref xml:id="gom-ps125-Rd1e238"><name xml:id="gom-ps125-Nd1e239" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e242">Et vere magnificavit, ne dubites de verbis gentium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps125-Dd1e246">
+          <head xml:id="gom-ps125-Hd1e248">Versus 4</head>
+          <p xml:id="gom-ps125-d1e250">
+            <quote xml:id="gom-ps125-Qd1e252" type="lemma" source="http://scta.info/resource/ps125_4@1-2">Converte, Domine.</quote>
+            <ref xml:id="gom-ps125-Rd1e255"><name xml:id="gom-ps125-Nd1e256" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e259">Secunda pars. Precatur conversionem, quae futura est, in qua fiet seminatio spe gaudii.</quote>
+          </p>
+          <p xml:id="gom-ps125-d1e262">
+            <ref xml:id="gom-ps125-Rd1e264" type="lemma" subtype="implied" target="http://scta.info/resource/ps125_4@1-2"/>
+            <ref xml:id="gom-ps125-Rd1e266"><name xml:id="gom-ps125-Nd1e267" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e270">Aventus Domini redemptione praedicta, precantur iterum peccata sua dimitti. In generali remissione gaudent, et sibi veniam precantur.</quote>
+          </p>
+          <p xml:id="gom-ps125-d1e273">
+            <quote xml:id="gom-ps125-Qd1e275" type="lemma" source="http://scta.info/resource/ps125_4@1-4">Converte, Domine, Captivitatem nostram.</quote>
+            <ref xml:id="gom-ps125-Rd1e278"><name xml:id="gom-ps125-Nd1e279" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e282"><seg type="qs">Nulla ad litteram in diebus David, sed sub diabolo mundus captivus</seg>, etc., usque ad <seg type="qs">non ideo desistendum, quia <quote xml:id="gom-ps125-Qd1e288" source="http://scta.info/resource/ps125_5@1-4">qui seminat in lacrymis.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps125-d1e292">
+            <ref xml:id="gom-ps125-Rd1e294" type="lemma" subtype="implied" target="http://scta.info/resource/ps125_4@1-4"/>
+            <ref xml:id="gom-ps125-Rd1e296"><name xml:id="gom-ps125-Nd1e297">THEOD.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e299"><seg type="qs">Austrum Hierosolymam vocat</seg>, etc., usque ad <seg type="qs">ut cogantur, et torrentis instar iter faciant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps125-Dd1e308">
+          <head xml:id="gom-ps125-Hd1e310">Versus 5</head>
+          <p xml:id="gom-ps125-d1e312">
+            <quote xml:id="gom-ps125-Qd1e314" type="lemma" source="http://scta.info/resource/ps125_5@3-4">In lacrymis.</quote>
+            <ref xml:id="gom-ps125-Rd1e317"><name xml:id="gom-ps125-Nd1e318" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e321">Spiritualis seminatio semper in lacrymis, unde: <quote xml:id="gom-ps125-Qd1e323" source="http://scta.info/resource/mt5_5@1-3">Beati qui lugent.</quote> Qui <pb ed="#P" n="1046D"/> vero seminant in carne, cum laetitia seminant: sed post fletus: quia <quote xml:id="gom-ps125-Qd1e328" source="http://scta.info/resource/prov14_13@5-8">extrema gaudii luctus occupat.</quote></quote>
+          </p>
+          <p xml:id="gom-ps125-d1e332">
+            <ref xml:id="gom-ps125-Rd1e334" type="lemma" subtype="implied" target="http://scta.info/resource/ps125_5@3-4"/>
+            <ref xml:id="gom-ps125-Rd1e336"><name xml:id="gom-ps125-Nd1e337" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e340"><seg type="qs">Zachaeus, <quote xml:id="gom-ps125-Qd1e343">Ecce dimidium,</quote></seg> etc., usque ad: <seg type="qs"><quote xml:id="gom-ps125-Qd1e346" source="http://scta.info/resource/mt10_42@9-21">Qui dederit calicem aquae frigidae, non perdet mercedem</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps125-Dd1e353">
+          <head xml:id="gom-ps125-Hd1e355">Versus 6</head>
+          <p xml:id="gom-ps125-d1e357">
+            <quote xml:id="gom-ps125-Qd1e359" type="lemma" source="http://scta.info/resource/ps125_6@1-1">Euntes.</quote>
+            <ref xml:id="gom-ps125-Rd1e362"><name xml:id="gom-ps125-Nd1e363" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e366">Provectu melioris vitae.</quote>
+          </p>
+          <p xml:id="gom-ps125-d1e369">
+            <quote xml:id="gom-ps125-Qd1e371" type="lemma" source="http://scta.info/resource/ps125_6@5-5">Mittentes,</quote>
+            ante se praemittentes in illo saeculo.
+          </p>
+          <p xml:id="gom-ps125-d1e375">
+            <quote xml:id="gom-ps125-Qd1e377" type="lemma" source="http://scta.info/resource/ps125_6@7-7">Sua,</quote>
+            non de rapina, sed de proprio labore;
+          </p>
+          <p xml:id="gom-ps125-d1e381">
+            <quote xml:id="gom-ps125-Qd1e383" type="lemma" source="http://scta.info/resource/ps125_6@8-8">venientes,</quote>
+            ad judicium. Hoc commune omnium, sed ad gaudium non nisi boni veniunt.
+          </p>
+          <p xml:id="gom-ps125-d1e388">
+            <quote xml:id="gom-ps125-Qd1e390" type="lemma" source="http://scta.info/resource/ps125_6@3-4">Et flebant.</quote>
+            <ref xml:id="gom-ps125-Rd1e393"><name xml:id="gom-ps125-Nd1e394" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps125-Qd1e397"><seg type="qs">Quia miseri erant</seg>, etc., usque ad <seg type="qs">optat multos esse aegros.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

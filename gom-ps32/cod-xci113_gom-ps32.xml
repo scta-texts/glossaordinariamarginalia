@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 32</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 32</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0888B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps32">
+        <head xml:id="gom-ps32-Hd1e93">Psalmus 32</head>
+        <!-- cod-BBaBB2 ids without a counterpart here: gom-ps32-Qd1e104: verse 1 lemma 'Rectos': PL glosses this under 'Exsultate,'; gom-ps32-d1e123: verse 1 entry (lemma ''): no PL entry with that lemma or gloss -->
+        <p xml:id="gom-ps32-d1e103">
+          <quote xml:id="gom-ps32-Qd1e105" type="lemma">In finem.</quote>
+          <!-- check: lemma not matched to verse text -->
+          <ref xml:id="gom-ps32-Rd1e110"><name xml:id="gom-ps32-Nd1e111" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-ps32-Qd1e114">Hic propheta potentiam et facta Dei enumerat, et sic ad laudem Dei invitat; primo, justos et rectos monet laudare, quia exsultare in illo nisi laudando non possumus: rectos, inquit, decet collaudatio.</quote>
+        </p>
+        <div xml:id="gom-ps32-Dd1e98">
+          <head xml:id="gom-ps32-Hd1e100">Versus 1</head>
+          <p xml:id="gom-ps32-d1e101">
+            <quote xml:id="gom-ps32-Qd1e124" type="lemma" source="http://scta.info/resource/ps32_1@3-3">Exsultate,</quote>
+            etc.
+            <ref xml:id="gom-ps32-Rd1e107"><name xml:id="gom-ps32-Nd1e108" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e112">Curvus laudat Deum quando sibi bene est; blasphemat quando male: rectus semper ut Job.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e136">
+          <head xml:id="gom-ps32-Hd1e138">Versus 2</head>
+          <p xml:id="gom-ps32-d1e140">
+            <quote xml:id="gom-ps32-Qd1e142" type="lemma" source="http://scta.info/resource/ps32_2@4-4">Cithara.</quote>
+            <ref xml:id="gom-ps32-Rd1e145"><name xml:id="gom-ps32-Nd1e146" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e149">Ab inferiori sonat, et ex terra est, unde laudemus, id est, prosperitas et adversitas, quae ab eo sunt nobis.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e152">
+            <quote xml:id="gom-ps32-Qd1e154" type="lemma" source="http://scta.info/resource/ps32_2@6-7">In psalterio.</quote>
+            Dum attendis superiora quae tibi dedit, coelestem doctrinam. <pb ed="#P" n="0888C"/> Per <quote xml:id="gom-ps32-Qd1e159" source="http://scta.info/resource/ps32_2@4-4">citharam</quote> caro, per <quote xml:id="gom-ps32-Qd1e162" source="http://scta.info/resource/ps32_2@7-7">psalterium</quote> charitas intelligitur: ad quae decem praecepta legis pertinent: tria in prima tabula ad Deum, septem in secunda ad proximum.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e168">
+          <head xml:id="gom-ps32-Hd1e170">Versus 3</head>
+          <p xml:id="gom-ps32-d1e172">
+            <quote xml:id="gom-ps32-Qd1e174" type="lemma" source="http://scta.info/resource/ps32_3@1-2">Cantate ei,</quote>
+            etc. Quasi, quid plus dicam? de incarnatione specialiter laetamini.
+          </p>
+          <p xml:id="gom-ps32-d1e178">
+            <quote xml:id="gom-ps32-Qd1e180" type="lemma" source="http://scta.info/resource/ps32_3@3-4">Canticum novum.</quote>
+            <ref xml:id="gom-ps32-Rd1e183"><name xml:id="gom-ps32-Nd1e184" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e187">Quia non sufficit, nisi abundet justitia vestra plus quam Scribarum et Pharisaeorum <!--<note>(Matth. V)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e193">
+            <quote xml:id="gom-ps32-Qd1e195" type="lemma" source="http://scta.info/resource/ps32_3@1-4">Cantate canticum novum.</quote>
+            De incarnatione, de qua mundus exsultat, de qua Angeli cantaverunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e200">
+          <head xml:id="gom-ps32-Hd1e202">Versus 4</head>
+          <p xml:id="gom-ps32-d1e204">
+            <quote xml:id="gom-ps32-Qd1e206" type="lemma" source="http://scta.info/resource/ps32_4@1-3">Quia rectum est.</quote>
+            Modum laudis exposuit: nunc cur sit laudandus?
+          </p>
+          <p xml:id="gom-ps32-d1e210">
+            <quote xml:id="gom-ps32-Qd1e212" type="lemma" source="http://scta.info/resource/ps32_4@6-8">Et omnia opera.</quote>
+            <ref xml:id="gom-ps32-Rd1e215"><name xml:id="gom-ps32-Nd1e216" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e219"><seg type="qs">Ne quis putet se meritis ad fidem venisse, cum in fide sint omnia opera quae diligit Deus, id est, <pb ed="#P" n="0888D"/> remunerat, <ref xml:id="gom-ps32-Rd1e224"><name xml:id="gom-ps32-Nd1e225" ref="#Augustine">ID.</name></ref><!-- check: attribution inside gloss body --> quia non nisi in fidelibus operatur; unde: <quote xml:id="gom-ps32-Qd1e229" source="http://scta.info/resource/lc17_19@7-11">Fides tua te salvum fecit<!-- check: Migne cites mt10; text matches lc17_19 --></quote>. Vel, omnia opera sunt recta</seg>, etc., usque ad <seg type="qs">quia remanet iniquus, et ideo nequior, quia justum favere sibi videt.</seg></quote>
+          </p>
+          <p xml:id="gom-ps32-d1e238">
+            <quote xml:id="gom-ps32-Qd1e240" type="lemma" source="http://scta.info/resource/ps32_4@10-11">In fide.</quote>
+            Quasi exterioribus, si causa justitiae fuerit fidelis, interiorem fidem adjiciet ille, quem non cognoscens timuit; unde: quis non dabit ei quae sua sunt, qui in alieno fidelis fuit?
+          </p>
+          <p xml:id="gom-ps32-d1e244">
+            <ref xml:id="gom-ps32-Rd1e246" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_4@10-11"/>
+            <ref xml:id="gom-ps32-Rd1e248"><name xml:id="gom-ps32-Nd1e249" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e252">Fidelis est Deus dans homini quod promisit: fidelis est homo credens promittenti, ex promisso vero Deus est nobis debitor.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e256">
+          <head xml:id="gom-ps32-Hd1e258">Versus 5</head>
+          <p xml:id="gom-ps32-d1e260">
+            <quote xml:id="gom-ps32-Qd1e262" type="lemma" source="http://scta.info/resource/ps32_5@10-10">Terra.</quote>
+            <ref xml:id="gom-ps32-Rd1e265"><name xml:id="gom-ps32-Nd1e266" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e269">Ecclesia ubique terrarum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e273">
+          <head xml:id="gom-ps32-Hd1e275">Versus 6</head>
+          <p xml:id="gom-ps32-d1e277">
+            <quote xml:id="gom-ps32-Qd1e279" type="lemma" source="http://scta.info/resource/ps32_6@1-1">Verbo.</quote>
+            Id est sapientia Dei Patris, <pb ed="#P" n="0889A"/> <quote xml:id="gom-ps32-Qd1e284" source="http://scta.info/resource/ps32_6@3-3">Coeli.</quote> Apostoli instructi sunt plene, cum eo etiam corporaliter conversando: et post, <quote xml:id="gom-ps32-Qd1e287" source="http://scta.info/resource/ps32_6@10-12">omnis virtus eorum</quote> habita roborata est spiritu Filii, per coelos firmatos congregat et consolidat in unitate fidei, spei et charitatis.
+          </p>
+          <p xml:id="gom-ps32-d1e291">
+            <quote xml:id="gom-ps32-Qd1e293" type="lemma" source="http://scta.info/resource/ps32_6">Uter,</quote>
+            <!-- check: lemma not matched to verse text -->
+            Ecclesia, in qua est caro mortua.
+          </p>
+          <p xml:id="gom-ps32-d1e299">
+            <quote xml:id="gom-ps32-Qd1e301" type="lemma" source="http://scta.info/resource/ps32_6">Etiam abyssos,</quote>
+            <!-- check: lemma not matched to verse text -->
+            id est, profundos tenebris vitiorum, ponit inter eos, qui sunt thesaurus, unde alios ditat sapientia.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e308">
+          <head xml:id="gom-ps32-Hd1e310">Versus 8</head>
+          <p xml:id="gom-ps32-d1e312">
+            <ref xml:id="gom-ps32-Rd1e314"><name xml:id="gom-ps32-Nd1e315" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e318" type="lemma" source="http://scta.info/resource/ps32_8@4-4">Terra.</quote>
+            <quote xml:id="gom-ps32-Qd1e321"><seg type="qs">Coeli non indigent misericordia</seg>, etc., usque ad <seg type="qs">quod operatur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps32-d1e329">
+            <quote xml:id="gom-ps32-Qd1e331" type="lemma" source="http://scta.info/resource/ps32_8">Virtus eorum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-ps32-Qd1e336"><seg type="qs">Cum inter lupos essent</seg>, etc., usque ad <seg type="qs">licentia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e345">
+          <head xml:id="gom-ps32-Hd1e347">Versus 7</head>
+          <p xml:id="gom-ps32-d1e349">
+            <quote xml:id="gom-ps32-Qd1e351" type="lemma" source="http://scta.info/resource/ps32_7@2-4">Sicut in utre.</quote>
+            <ref xml:id="gom-ps32-Rd1e354"><name xml:id="gom-ps32-Nd1e355" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e358">Ad litteram: sicut littoribus mare, claudit in Ecclesia fluctuantes populos; et in thesauris sapientiae suae ponit profundas altitudines, ut probet quis Scripturas pietatis studio inquirat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e363">
+          <head xml:id="gom-ps32-Hd1e365">Versus 8</head>
+          <p xml:id="gom-ps32-d1e367">
+            <pb ed="#P" n="0889B"/>
+            <quote xml:id="gom-ps32-Qd1e371" type="lemma" source="http://scta.info/resource/ps32_8@1-4">Timeat omnis terra.</quote>
+            <ref xml:id="gom-ps32-Rd1e374"><name xml:id="gom-ps32-Nd1e375" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e378"><seg type="qs">Ecclesia de mari</seg>, etc., usque ad <seg type="qs">sed Dominum timeat terra. Timeat, imo commoveantur manu misericordiae a similitudine dormientis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps32-d1e386">
+            <quote xml:id="gom-ps32-Qd1e388" type="lemma" source="http://scta.info/resource/ps32_8@6-7">Ab eo,</quote>
+            quia ipse creavit: et ideo utiliter administrat, quia et a diabolo aliquid commovetur, sed quod a Deo utiliter, ideo <quote xml:id="gom-ps32-Qd1e391" source="http://scta.info/resource/ps32_8@6-9">ab eo. Commoveantur.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e395">
+            <ref xml:id="gom-ps32-Rd1e397" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_8@6-7"/>
+            <ref xml:id="gom-ps32-Rd1e399"><name xml:id="gom-ps32-Nd1e400" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e403"><seg type="qs">Non terroribus hominum</seg>, etc., usque ad <seg type="qs">potestatem non nisi a Deo.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e412">
+          <head xml:id="gom-ps32-Hd1e414">Versus 9</head>
+          <p xml:id="gom-ps32-d1e416">
+            <quote xml:id="gom-ps32-Qd1e418" type="lemma" source="http://scta.info/resource/ps32_9@3-6">Dixit et facta sunt.</quote>
+            Creationem simul et formationem notat. Mandavit recreationem.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e423">
+          <head xml:id="gom-ps32-Hd1e425">Versus 10</head>
+          <p xml:id="gom-ps32-d1e427">
+            <quote xml:id="gom-ps32-Qd1e429" type="lemma" source="http://scta.info/resource/ps32_10@2-3">Dissipat consilia.</quote>
+            <ref xml:id="gom-ps32-Rd1e432"><name xml:id="gom-ps32-Nd1e433" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e436">Ne habeant effectum consilia contra se, ut Judaeorum, et contra suos.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e439">
+            <quote xml:id="gom-ps32-Qd1e441" type="lemma" source="http://scta.info/resource/ps32_10@4-4">Gentium.</quote>
+            Dum idololatriam destruxit.
+          </p>
+          <p xml:id="gom-ps32-d1e445">
+            <quote xml:id="gom-ps32-Qd1e447" type="lemma" source="http://scta.info/resource/ps32_10@9-9">Populorum.</quote>
+            Judaeorum, quorum voluntas, etsi impleta, tamen resurrectione est reprobata.
+          </p>
+          <p xml:id="gom-ps32-d1e451">
+            <quote xml:id="gom-ps32-Qd1e453" type="lemma" source="http://scta.info/resource/ps32_10@13-13">Principum.</quote>
+            Tyrannorum <pb ed="#P" n="0889C"/> vel daemonum.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e460">
+          <head xml:id="gom-ps32-Hd1e462">Versus 11</head>
+          <p xml:id="gom-ps32-d1e464">
+            <quote xml:id="gom-ps32-Qd1e466" type="lemma" source="http://scta.info/resource/ps32_11@1-3">Consilium autem Domini,</quote>
+            etc.
+            <ref xml:id="gom-ps32-Rd1e469"><name xml:id="gom-ps32-Nd1e470" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e473">Incarnationis arcanum in quo consuluit homini.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e476">
+            <quote xml:id="gom-ps32-Qd1e478" type="lemma" source="http://scta.info/resource/ps32_11@4-5">Manet in aeternum.</quote>
+            Quia ad aeternam salutem nobis obtinendam.
+          </p>
+          <p xml:id="gom-ps32-d1e482">
+            <quote xml:id="gom-ps32-Qd1e484" type="lemma" source="http://scta.info/resource/ps32_11@8-8">Cogitationes.</quote>
+            Praedestinatio, in qua omnia reposita sunt, quae et sic permanent, ut praevisa sunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e489">
+          <head xml:id="gom-ps32-Hd1e491">Versus 12</head>
+          <p xml:id="gom-ps32-d1e493">
+            <quote xml:id="gom-ps32-Qd1e495" type="lemma" source="http://scta.info/resource/ps32_12@1-2">Beata gens.</quote>
+            <ref xml:id="gom-ps32-Rd1e498"><name xml:id="gom-ps32-Nd1e499" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e502">Beatum dicit, qui ad cultum Dei pervenit: quod fit temporibus Christianis, in quibus gentes conversae, hi sunt justi et recti quos decet laudatio.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e505">
+            <ref xml:id="gom-ps32-Rd1e507" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_12@1-2"/>
+            <ref xml:id="gom-ps32-Rd1e509"><name xml:id="gom-ps32-Nd1e510" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e513"><seg type="qs">Beatitudo omnis in animo</seg>, etc., usque ad <seg type="qs">beatus populus de Deo possessore.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e522">
+          <head xml:id="gom-ps32-Hd1e524">Versus 13</head>
+          <p xml:id="gom-ps32-d1e526">
+            <quote xml:id="gom-ps32-Qd1e528" type="lemma" source="http://scta.info/resource/ps32_13@1-2">De coelo.</quote>
+            <ref xml:id="gom-ps32-Rd1e531"><name xml:id="gom-ps32-Nd1e532" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e535">Homine Christo. Prospexit in adventu Filii et vidit misericorditer, <pb ed="#P" n="0889D"/> non peccata, <ref xml:id="gom-ps32-Rd1e539"><name xml:id="gom-ps32-Nd1e540" ref="#Cassiodorus">CASS.</name></ref><!-- check: attribution inside gloss body --> a quibus faciem avertit; sed vidit omnes filios hominum, id est, omnes qui ad novam vitam volunt renasci.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e546">
+            <ref xml:id="gom-ps32-Rd1e548" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_13@1-2"/>
+            <ref xml:id="gom-ps32-Rd1e550"><name xml:id="gom-ps32-Nd1e551" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e554"><seg type="qs">Quomodo elegit?</seg> etc., usque ad <seg type="qs">inspiravit omnem bonam voluntatem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e564">
+          <head xml:id="gom-ps32-Hd1e566">Versus 15</head>
+          <p xml:id="gom-ps32-d1e568">
+            <quote xml:id="gom-ps32-Qd1e570" type="lemma" source="http://scta.info/resource/ps32_15@2-2">Finxit.</quote>
+            <ref xml:id="gom-ps32-Rd1e573"><name xml:id="gom-ps32-Nd1e574" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e577">Manu gratiae formavit.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e580">
+            <quote xml:id="gom-ps32-Qd1e582" type="lemma" source="http://scta.info/resource/ps32_15@3-3">Sigillatim,</quote>
+            singulis singula quaedam dans.
+          </p>
+          <p xml:id="gom-ps32-d1e586">
+            <ref xml:id="gom-ps32-Rd1e588" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_15@3-3"/>
+            <ref xml:id="gom-ps32-Rd1e590"><name xml:id="gom-ps32-Nd1e591" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e594">Unde tamen unitas corporis, id est, Ecclesiae fiat.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e597">
+            <quote xml:id="gom-ps32-Qd1e599" type="lemma" source="http://scta.info/resource/ps32_15@3-3">Sigillatim,</quote>
+            id est, non ex Adam, ut quidam dicunt animam ex anima, et simul omnes cognoscit, et omnes actus earum.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e604">
+          <head xml:id="gom-ps32-Hd1e606">Versus 16</head>
+          <p xml:id="gom-ps32-d1e608">
+            <quote xml:id="gom-ps32-Qd1e610" type="lemma" source="http://scta.info/resource/ps32_16@1-3">Non salvatur rex.</quote>
+            Sic fiunt justi, sed nec facti sua virtute salvantur. Non modo spiritualia sunt a Deo, sed et exteriora.
+          </p>
+          <p xml:id="gom-ps32-d1e614">
+            <ref xml:id="gom-ps32-Rd1e616" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_16@1-3"/>
+            <ref xml:id="gom-ps32-Rd1e618"><name xml:id="gom-ps32-Nd1e619" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e622"><seg type="qs">Nemo quidquam habet nisi ab eo, quia nec potens ut rex, nec fortis, <pb ed="#P" n="0890A"/></seg> etc., usque ad <seg type="qs">etiam si sit in multa abundantia virtutis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e632">
+          <head xml:id="gom-ps32-Hd1e634">Versus 17</head>
+          <p xml:id="gom-ps32-d1e636">
+            <quote xml:id="gom-ps32-Qd1e638" type="lemma" source="http://scta.info/resource/ps32_17@1-2">Fallax equus.</quote>
+            <ref xml:id="gom-ps32-Rd1e641"><name xml:id="gom-ps32-Nd1e642" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e645">Animal, in cujus velocitate vel virtute confiditur, figurate quaelibet amplitudo saeculi unde superbitur: sed quanto in eo altius erigeris, tanto gravius cadis.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e648">
+            <ref xml:id="gom-ps32-Rd1e650" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_17@1-2"/>
+            <ref xml:id="gom-ps32-Rd1e652"><name xml:id="gom-ps32-Nd1e653" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e656">Vel, <quote xml:id="gom-ps32-Qd1e658" source="http://scta.info/resource/ps32_17@2-2">equus</quote> est corpus hominis quantumcunque speciosum et bene formatum, tamen fallax est ad salutem corporalem, spiritualem.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e663">
+            <ref xml:id="gom-ps32-Rd1e665" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_17@1-2"/>
+            <ref xml:id="gom-ps32-Rd1e667"><name xml:id="gom-ps32-Nd1e668" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e671">Vel, <quote xml:id="gom-ps32-Qd1e673" source="http://scta.info/resource/ps32_17@2-2">equus</quote> mundana felicitas, quae homines vehit, et dum nimis properat, cadit equus et sessorem perdit.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e678">
+            <quote xml:id="gom-ps32-Qd1e680" type="lemma" source="http://scta.info/resource/ps32_17@2-2">Equus,</quote>
+            humana sapientia.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e685">
+          <head xml:id="gom-ps32-Hd1e687">Versus 16</head>
+          <p xml:id="gom-ps32-d1e689">
+            <quote xml:id="gom-ps32-Qd1e691" type="lemma" source="http://scta.info/resource/ps32_16@8-8">Gigas,</quote>
+            superbus aliquis extollens se contra Deum.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e696">
+          <head xml:id="gom-ps32-Hd1e698">Versus 18</head>
+          <p xml:id="gom-ps32-d1e700">
+            <quote xml:id="gom-ps32-Qd1e702" type="lemma" source="http://scta.info/resource/ps32_18@1-2">Ecce oculi.</quote>
+            In sua in virtute nullus salvatur, sed: Ecce unde est salus, <quote xml:id="gom-ps32-Qd1e705" source="http://scta.info/resource/ps32_18@2-2">oculi,</quote> etc.
+          </p>
+          <p xml:id="gom-ps32-d1e709">
+            <quote xml:id="gom-ps32-Qd1e711" type="lemma" source="http://scta.info/resource/ps32_18@2-2">Oculi,</quote>
+            <pb ed="#P" n="0890B"/> respectus divinitatis quae proteget eos.
+          </p>
+          <p xml:id="gom-ps32-d1e717">
+            <quote xml:id="gom-ps32-Qd1e719" type="lemma" source="http://scta.info/resource/ps32_18@5-6">Metuentes eum.</quote>
+            <ref xml:id="gom-ps32-Rd1e722"><name xml:id="gom-ps32-Nd1e723" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e726">Timere Dominum, et semper sperare conjuncta sunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e730">
+          <head xml:id="gom-ps32-Hd1e732">Versus 19</head>
+          <p xml:id="gom-ps32-d1e734">
+            <quote xml:id="gom-ps32-Qd1e736" type="lemma" source="http://scta.info/resource/ps32_19@1-2">Ut eruat,</quote>
+            etc.
+            <ref xml:id="gom-ps32-Rd1e739"><name xml:id="gom-ps32-Nd1e740" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e743">Haec duo sunt vota fidelis: ut in judicio eripiatur a morte, et hic spiritualibus alatur, ubi est indigentia eorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e748">
+          <head xml:id="gom-ps32-Hd1e750">Versus 20</head>
+          <p xml:id="gom-ps32-d1e752">
+            <quote xml:id="gom-ps32-Qd1e754" type="lemma" source="http://scta.info/resource/ps32_20@1-4">Anima nostra sustinet Dominum.</quote>
+            Quid de praedictis sentiat, quasi conclusio.
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e759">
+          <head xml:id="gom-ps32-Hd1e761">Versus 21</head>
+          <p xml:id="gom-ps32-d1e763">
+            <quote xml:id="gom-ps32-Qd1e765" type="lemma" source="http://scta.info/resource/ps32_21@1-3">Quia in eo.</quote>
+            <ref xml:id="gom-ps32-Rd1e768"><name xml:id="gom-ps32-Nd1e769" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e772">Quia absentibus per fidem misit nomen suum.</quote>
+          </p>
+          <p xml:id="gom-ps32-d1e775">
+            <quote xml:id="gom-ps32-Qd1e777" type="lemma" source="http://scta.info/resource/ps32_21@12-12">Speravimus.</quote>
+            Nos venturos ad Deum, non meritis nostris.
+          </p>
+          <p xml:id="gom-ps32-d1e781">
+            <ref xml:id="gom-ps32-Rd1e783" type="lemma" subtype="implied" target="http://scta.info/resource/ps32_21@12-12"/>
+            <ref xml:id="gom-ps32-Rd1e785"><name xml:id="gom-ps32-Nd1e786" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps32-Qd1e789">Quia in eo ne quis mussitet de patientia, subjicit munus, scilicet quod laetatur hic in Domino. Et speramus in nomine Christi, quem patienter Propheta laetus venturum sustinuit: <quote xml:id="gom-ps32-Qd1e791" source="http://scta.info/resource/ps32_21@12-12">Speravimus.</quote> <pb ed="#P" n="0890C"/> Continuum tempus notat, quia non est fas desinere, unde semper potest anima fessa recreari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps32-Dd1e799">
+          <head xml:id="gom-ps32-Hd1e801">Versus 22</head>
+          <p xml:id="gom-ps32-d1e803">
+            <quote xml:id="gom-ps32-Qd1e805" type="lemma" source="http://scta.info/resource/ps32_22@1-6">Fiat misericordia tua, Domine, super nos,</quote>
+            etc. Incarnationem compleri desiderat, ut perfectus possit esse.
+          </p>
+          <p xml:id="gom-ps32-d1e809">
+            <quote xml:id="gom-ps32-Qd1e811" type="lemma" source="http://scta.info/resource/ps32_22@9-10">In te.</quote>
+            Hoc dicit ideo ut omnis superstitio et pravitas excludatur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

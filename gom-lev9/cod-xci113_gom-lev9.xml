@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus, Caput 9</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Leviticus, Caput 9</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0323D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-lev9">
+        <head xml:id="gom-lev9-Hd1e98">Caput 9</head>
+        <div xml:id="gom-lev9-Dd1e100">
+          <head xml:id="gom-lev9-Hd1e102">Versus 1</head>
+          <p xml:id="gom-lev9-d1e104">
+            <quote xml:id="gom-lev9-Qd1e106" type="lemma" source="http://scta.info/resource/lev9_1@3-4">Octava die,</quote>
+            etc. Octava dies post dedicationem significat diem Pentecostes, quo Spiritus sanctus advenit <!--<note>(Act. II)</note>-->. Septem vero a dedicatione dies innuunt septies septem dies, qui fuerunt a resurrectione usque ad Pentecosten, scilicet 49, addito quasi octavo ipso die Pentecostes.
+          </p>
+          <p xml:id="gom-lev9-d1e112">
+            <ref xml:id="gom-lev9-Rd1e114" type="lemma" subtype="implied" target="http://scta.info/resource/lev9_1@3-4"/>
+            Pentecoste quae contigit die resurrectionis, <pb ed="#P" n="0324A"/> gerit figuram futuri, et consummationis saeculi praesentis, quia septem volvitur diebus. Oportebat enim ut eadem die adveniret Spiritus, qua resurrexit Christus. Tunc ait vocari Aaron et filios ejus, et majores natu: tunc enim convocatum est Ecclesiae spectaculum, in qua est Aaron, id est, Christus et filii ejus qui altae sunt conversationis, et ideo sacerdotii ministri, et majores natu, id est, presbyteri: ex his enim corpus Ecclesiae consistit.
+          </p>
+        </div>
+        <div xml:id="gom-lev9-Dd1e120">
+          <head xml:id="gom-lev9-Hd1e122">Versus 2</head>
+          <p xml:id="gom-lev9-d1e124">
+            <quote xml:id="gom-lev9-Qd1e126" type="lemma" source="http://scta.info/resource/lev9_2@1-2">Tolle de,</quote>
+            etc. Accipit Aaron vitulum in holocaustum et arietem, et offert Domino. Tunc enim Christus sacrificium suum notificavit, cum Spiritus adveniens Parthos, Medos, Elamitas, et omnium gentium primitias ad apostolorum coenaculum colligit <!--<note>(Act. II)</note>-->.
+          </p>
+          <p xml:id="gom-lev9-d1e132">
+            <pb ed="#P" n="0324B"/>
+            <ref xml:id="gom-lev9-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/lev9_2@1-2"/>
+            Vitulum offert Aaron et arietem, quando doctores Ecclesiae mysteria passionis annuntiant, et pro salute humani generis celebrata insinuant.
+          </p>
+          <p xml:id="gom-lev9-d1e139">
+            <quote xml:id="gom-lev9-Qd1e141" type="lemma" source="http://scta.info/resource/lev9_2@1-1">Tollite.</quote>
+            Hircum obtulerunt apostoli die Pentecostes quando Petrus poenitentiam annuntians inquit: <quote xml:id="gom-lev9-Qd1e144" source="http://scta.info/resource/ez18_30@12-15">Convertimini et agite poenitentiam.</quote>
+          </p>
+          <p xml:id="gom-lev9-d1e148">
+            <ref xml:id="gom-lev9-Rd1e150" type="lemma" subtype="implied" target="http://scta.info/resource/lev9_2@1-1"/>
+            <ref xml:id="gom-lev9-Rd1e152"><name xml:id="gom-lev9-Nd1e153" ref="#Augustine">AUG.</name>, quaest. 26 in Levit.</ref>
+            <quote xml:id="gom-lev9-Qd1e157"><seg type="qs">Accipite hircum ex capris unum</seg>, etc., usque ad <seg type="qs">ubi autem universi, ibi et singuli, sed non convertitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev9-Dd1e166">
+          <head xml:id="gom-lev9-Hd1e168">Versus 6</head>
+          <p xml:id="gom-lev9-d1e170">
+            <quote xml:id="gom-lev9-Qd1e172" type="lemma" source="http://scta.info/resource/lev9_6@3-5">Iste sermo,</quote>
+            etc. Sermonem, scilicet rem imperatam. <quote xml:id="gom-lev9-Qd1e175" source="http://scta.info/resource/lc22_19@20-24">Hoc facite in meam commemorationem</quote>. Sermonem autem dicit, quia plus in sermone consideratur vel constitit hujus dispensatio mysterii, et maxime Dominico verbo ea quae <pb ed="#P" n="0324C"/> apparent in aliud majus et intelligibile tranferente. Unde et de manna ait: <quote xml:id="gom-lev9-Qd1e180" source="http://scta.info/resource/ex16_15@24-30">Hic est panis quem dedit vobis Dominus ad comedendum, hic est sermo quem constituit Dominus</quote>. In his ergo significat quia sanctum mysterium illis agentibus et Dominicam coenam celebrantibus advenit Spiritus sanctus. Erat enim dies Dominicus, in quo oportebat apostolos sacra celebrare mysteria: quorum sequentes traditiones Dominicam diem divinis conventibus deputamus. Similiter et Christum post resurrectionem per mysticam coenam et panis fractionem invenimus manifestum.
+          </p>
+        </div>
+        <div xml:id="gom-lev9-Dd1e185">
+          <head xml:id="gom-lev9-Hd1e187">Versus 7</head>
+          <p xml:id="gom-lev9-d1e189">
+            <quote xml:id="gom-lev9-Qd1e191" type="lemma" source="http://scta.info/resource/lev9_7@8-11">Et immola pro peccato,</quote>
+            etc.
+            <ref xml:id="gom-lev9-Rd1e194"><name xml:id="gom-lev9-Nd1e195" ref="#Augustine">AUG.</name>, quaest. 27 in Levit.</ref>
+            <quote xml:id="gom-lev9-Qd1e199"><seg type="qs">. Alia littera</seg>, etc., usque ad <seg type="qs">non est necesse super holocaustum imponi.</seg></quote>
+          </p>
+          <p xml:id="gom-lev9-d1e207">
+            <pb ed="#P" n="0324D"/>
+            <quote xml:id="gom-lev9-Qd1e211" type="lemma" source="http://scta.info/resource/lev9_7@13-14">Offer holocaustum,</quote>
+            etc. Non dicit holocaustum consummationis, ut supra, quando oblatum est ut sanctificatione consummaretur, ut sacerdotio fungeretur, quo fungebatur. Notandum sane cum pro populo offeruntur sacrificia et pro peccato sacrificia esse jussa offerri, et holocaustum et sacrificium salutaris. Pro sacerdote vero oblatum fuisse pro peccato, et holocaustum consummationis, non salutaris. Sed consummationis oblatum est, quando sanctificati sunt sacerdotes. Et haec obtulit Moyses pro Aaron et filiis suis, postea vero Aaron jam sacerdotio fungens praecipitur pro se offerre vitulum pro peccato, et arietem in holocaustum non consummationis; tunc enim offerebatur ut sanctificatione consummaretur, et sacerdotio <pb ed="#P" n="0325A"/> fungi posset, quo cum fungebatur, non erat necesse iterum consummare.
+          </p>
+        </div>
+        <div xml:id="gom-lev9-Dd1e219">
+          <head xml:id="gom-lev9-Hd1e221">Versus 8</head>
+          <p xml:id="gom-lev9-d1e223">
+            <quote xml:id="gom-lev9-Qd1e225" type="lemma" source="http://scta.info/resource/lev9_8@1-1">Statimque,</quote>
+            etc.
+            <ref xml:id="gom-lev9-Rd1e228"><name xml:id="gom-lev9-Nd1e229">ISICH.</name></ref>
+            <quote xml:id="gom-lev9-Qd1e231"><seg type="qs">Qua causa haec etiam hic sacrificia peragantur superius diximus</seg>, etc. usque ad <seg type="qs">unde in persona sacerdotis utrumque perspicimus oblatum.</seg></quote>
+          </p>
+          <p xml:id="gom-lev9-d1e239">
+            <ref xml:id="gom-lev9-Rd1e241" type="lemma" subtype="implied" target="http://scta.info/resource/lev9_8@1-1"/>
+            <ref xml:id="gom-lev9-Rd1e243"><name xml:id="gom-lev9-Nd1e244" ref="#Augustine">AUG.</name>, ubi supra</ref>
+            <quote xml:id="gom-lev9-Qd1e248"><seg type="qs">Movet etiam quod cum faceret Aaron dona populi quae supra memorantur</seg>, etc. usque ad <seg type="qs">utrumque ex utroque animante, quasi pectuscula dixerit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev9-Dd1e257">
+          <head xml:id="gom-lev9-Hd1e259">Versus 15</head>
+          <p xml:id="gom-lev9-d1e261">
+            <quote xml:id="gom-lev9-Qd1e263" type="lemma" source="http://scta.info/resource/lev9_15@1-3">Et pro peccato,</quote>
+            etc.
+            <ref xml:id="gom-lev9-Rd1e266"><name xml:id="gom-lev9-Nd1e267">ISICH.</name></ref>
+            <quote xml:id="gom-lev9-Qd1e269"><seg type="qs">Cujus haec figuram habeant</seg>, etc., usque ad <seg type="qs">et quae docerent Ecclesiam meditari non cessabant.</seg></quote>
+          </p>
+          <p xml:id="gom-lev9-d1e277">
+            <quote xml:id="gom-lev9-Qd1e279" type="lemma" source="http://scta.info/resource/lev9_15">Extendens manum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-lev9-Rd1e284"><name xml:id="gom-lev9-Nd1e285" ref="#Augustine">AUG.</name>, Quaest. 28 in Levit.</ref>
+            <quote xml:id="gom-lev9-Qd1e289"><seg type="qs">Ad altare stans deserviebat</seg>, etc., usque ad <seg type="qs">qui ibi <pb ed="#P" n="0325B"/> gradus prohibuit esse.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev9-Dd1e300">
+          <head xml:id="gom-lev9-Hd1e302">Versus 22</head>
+          <p xml:id="gom-lev9-d1e304">
+            <quote xml:id="gom-lev9-Qd1e306" type="lemma" source="http://scta.info/resource/lev9_22@8-13">Sicque completis et caetera.</quote>
+            <ref xml:id="gom-lev9-Rd1e309"><name xml:id="gom-lev9-Nd1e310">ISICH.</name></ref>
+            <quote xml:id="gom-lev9-Qd1e312"><seg type="qs">Evidenter omnem figuram Ecclesiae vult exponere</seg>, etc., usque ad <seg type="qs">sequentia demonstrant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev9-Dd1e321">
+          <head xml:id="gom-lev9-Hd1e323">Versus 23</head>
+          <p xml:id="gom-lev9-d1e325">
+            <quote xml:id="gom-lev9-Qd1e327" type="lemma" source="http://scta.info/resource/lev9_23@1-7">Ingressi autem Moyses et Aaron tabernaculum testimonii,</quote>
+            etc.
+            <ref xml:id="gom-lev9-Rd1e330"><name xml:id="gom-lev9-Nd1e331">ID.</name></ref>
+            <quote xml:id="gom-lev9-Qd1e333"><seg type="qs">Quia de intelligibili tabernaculo</seg>, etc., usque ad <seg type="qs">idoneus est ut praestet benedictionem.</seg></quote>
+          </p>
+          <p xml:id="gom-lev9-d1e341">
+            <quote xml:id="gom-lev9-Qd1e343" type="lemma" source="http://scta.info/resource/lev9_23@1-2">Ingressi autem.</quote>
+            Praemisit <quote xml:id="gom-lev9-Qd1e346" source="http://scta.info/resource/lev9_23@1-1">ingressi,</quote> et subdit <quote xml:id="gom-lev9-Qd1e349" source="http://scta.info/resource/lev9_23@1-1">egressi,</quote> quia sacerdos ingreditur tabernaculum, quando pro se vel pro populo orat, vel divinae contemplationi vacat; egreditur cum docet, vel benedicit populo, vel cum ad conscientiam redit perscrutando se, ne forte in praedicatione offendat.
+          </p>
+          <p xml:id="gom-lev9-d1e353">
+            <quote xml:id="gom-lev9-Qd1e355" type="lemma" source="http://scta.info/resource/lev9_23@13-15">Apparuitque gloria Domini.</quote>
+            In specie ignis, sicut <pb ed="#P" n="0325C"/> in die Pentecostes, unde subdit: <quote xml:id="gom-lev9-Qd1e360" source="http://scta.info/resource/lev9_24@1-6">Et egressus est ignis a Domino.</quote> Unde et Lucas: <quote xml:id="gom-lev9-Qd1e363" source="http://scta.info/resource/act2_3@2-7">Apparuerunt illis dispertitae linguae, tanquam ignis.</quote>
+          </p>
+          <p xml:id="gom-lev9-d1e367">
+            <quote xml:id="gom-lev9-Qd1e369" type="lemma" source="http://scta.info/resource/lev9_23@16-17">Omni multitudini,</quote>
+            etc. Cui simile Lucas ait: <quote xml:id="gom-lev9-Qd1e372" source="http://scta.info/resource/act2_6@1-10">Facta autem hac voce convenit multitudo, et mente confusa est</quote>; non solum convenit, sed expavit. Unde hic sequitur: Obstupebant autem et mirabantur, etc.
+          </p>
+        </div>
+        <div xml:id="gom-lev9-Dd1e377">
+          <head xml:id="gom-lev9-Hd1e379">Versus 24</head>
+          <p xml:id="gom-lev9-d1e381">
+            <quote xml:id="gom-lev9-Qd1e383" type="lemma" source="http://scta.info/resource/lev9_24@11-14">Qui erant super altare.</quote>
+            Invenit quia necesse sit praedicta sacrificia, et eorum expositiones superponere intelligibili altari corporis Christi, ut illuc suspiret nostra intentio, et tunc nutrimenta intelligibilis ignis, id est Spiritus sancti, aderunt, de quo dictum est: <quote xml:id="gom-lev9-Qd1e386" source="http://scta.info/resource/deut4_24@2-7">Dominus Deus noster ignis consumens est</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

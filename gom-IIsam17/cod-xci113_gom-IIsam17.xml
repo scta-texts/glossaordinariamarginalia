@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 17</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 17</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0575B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam17">
+        <head xml:id="gom-IIsam17-Hd1e98">Caput 17</head>
+        <div xml:id="gom-IIsam17-Dd1e100">
+          <head xml:id="gom-IIsam17-Hd1e102">Versus 10</head>
+          <p xml:id="gom-IIsam17-d1e104">
+            <quote xml:id="gom-IIsam17-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam17_10@1-2">Et fortissimus.</quote>
+            <ref xml:id="gom-IIsam17-Rd1e109"><name xml:id="gom-IIsam17-Nd1e110" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-IIsam17-Qd1e113">In Hebraeo: <quote xml:id="gom-IIsam17-Qd1e115" source="http://scta.info/resource/IIsam17_10@2-10">Fortissimus ipse cujus est cor quasi leo pavore solvetur,</quote> subaudis non fortissimus iste David intelligitur. Unde: <quote xml:id="gom-IIsam17-Qd1e118" source="http://scta.info/resource/IIsam17_10@11-12">Scit enim.</quote></quote>
+          </p>
+          <p xml:id="gom-IIsam17-d1e122">
+            <ref xml:id="gom-IIsam17-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam17_10@1-2"/>
+            <ref xml:id="gom-IIsam17-Rd1e126"><name xml:id="gom-IIsam17-Nd1e127" ref="#IsidoreOfSeville">ISID.</name> in lib. I Reg.</ref>
+            <quote xml:id="gom-IIsam17-Qd1e131"><seg type="qs">Secundum allegoriam considerare oportet</seg>, etc., usque ad <seg type="qs">a cujus facie fugit Christus quando eam deseruit et ad gentes transiit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam17-Dd1e140">
+          <head xml:id="gom-IIsam17-Hd1e142">Versus 14</head>
+          <p xml:id="gom-IIsam17-d1e144">
+            <quote xml:id="gom-IIsam17-Qd1e146" type="lemma" source="http://scta.info/resource/IIsam17_14@2-2">Absalom.</quote>
+            Alii Absalom Judam traditorem accipiunt, quem Christus pertulit tanquam ejus <pb ed="#P" n="0575C"/> cogitationes ignoraverit, et convivium participavit ei, in quo corporis et sanguinis figuram discipulis commendavit. In ipsa vero traditione ab ipso osculum accepit, ideo Absalom <mentioned>pax pacis</mentioned> dicitur, quia pacem pater habuit quam ille non habuit.
+          </p>
+          <p xml:id="gom-IIsam17-d1e154">
+            <quote xml:id="gom-IIsam17-Qd1e156" type="lemma" source="http://scta.info/resource/IIsam17_14@12-12">Achitophel.</quote>
+            <ref xml:id="gom-IIsam17-Rd1e159"><name xml:id="gom-IIsam17-Nd1e160" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam17-Qd1e163"><seg type="qs">Qui recedens a David</seg>, etc., usque ad <seg type="qs">sicut Achitophel in propria domo suspendio interiit, qui in aliena vitae David insidiatus est. <quote xml:id="gom-IIsam17-Qd1e169" source="http://scta.info/resource/prov11_6@5-10">Qui enim fodit foveam, incidit in eam. Et insidiis suis capientur iniqui</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-IIsam17-d1e174">
+            <quote xml:id="gom-IIsam17-Qd1e176" type="lemma" source="http://scta.info/resource/IIsam17_14@9-9">Chusai.</quote>
+            <ref xml:id="gom-IIsam17-Rd1e179"><name xml:id="gom-IIsam17-Nd1e180" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam17-Qd1e183"><seg type="qs">Arachites antiquus amicus David</seg>, etc., usque ad <seg type="qs">ut convertantur beneficiorum occasione.</seg></quote>
+          </p>
+          <p xml:id="gom-IIsam17-d1e191">
+            <ref xml:id="gom-IIsam17-Rd1e193" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam17_14@9-9"/>
+            <ref xml:id="gom-IIsam17-Rd1e195"><name xml:id="gom-IIsam17-Nd1e196" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam17-Qd1e199"><seg type="qs">Quod autem Jonathan, qui interpretatur <mentioned>columbae domum</mentioned>, et Achimaas frater ejus, ad explorandum factum Absalom et David renuntiandum <pb ed="#P" n="0575D"/> decreti fugientes Absalom</seg>, etc., usque ad <seg type="qs">et homines a persecutione hostis protecti liberantur.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

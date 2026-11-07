@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Esdrae, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Esdrae, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0705D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-esd7">
+        <head xml:id="gom-esd7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-esd7-Dd1e100">
+          <head xml:id="gom-esd7-Hd1e102">Versus 1</head>
+          <p xml:id="gom-esd7-d1e104">
+            <quote xml:id="gom-esd7-Qd1e106" type="lemma" source="http://scta.info/resource/esd7_1@1-3">Post haec autem.</quote>
+            <ref xml:id="gom-esd7-Rd1e109"><name xml:id="gom-esd7-Nd1e110" ref="#Bede">Beda</name> in Esdram, tom. II.</ref>
+            <quote xml:id="gom-esd7-Qd1e114"><seg type="qs">Hucusque reditus populi de Babylone in Jerusalem</seg>, etc., usque ad <seg type="qs">haberent unde ipsi moniti intus discerent restaurari, unde sequitur:</seg></quote>
+          </p>
+          <p xml:id="gom-esd7-d1e122">
+            <quote xml:id="gom-esd7-Qd1e124" type="lemma" source="http://scta.info/resource/esd7_1@1-2">Post haec.</quote>
+            <ref xml:id="gom-esd7-Rd1e127"><name xml:id="gom-esd7-Nd1e128" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-esd7-Qd1e132">Hunc Artaxerxem sub quo Esdras de Babylonia Jerosolymam ascendit, Josephus putat esse Xerxem filium Darii, qui post illum regnavit: sed chronicorum libri successorem ejusdem Xerxis. Regnavit autem Darius, sub quo aedificatum est templum, annos sex et trigenta, post quem Xerxes annos viginti, post quem Archabanus menses septem <pb ed="#P" n="0706A"/> quos chronographi pro anno posuere: post hunc Artaxerxes annis quadraginta.</quote>
+          </p>
+          <p xml:id="gom-esd7-d1e138">
+            <ref xml:id="gom-esd7-Rd1e140" type="lemma" subtype="implied" target="http://scta.info/resource/esd7_1@1-2"/>
+            <ref xml:id="gom-esd7-Rd1e142"><name xml:id="gom-esd7-Nd1e143" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd7-Qd1e147"><seg type="qs">Scriba velox in lege Moysi appellatur Esdras</seg>, etc., usque ad <seg type="qs">priores autem litterae remanserunt apud Samaritas, quibus illos quinque libros Mosi quos solos de Scriptura sancta receperant, scribere solebant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e156">
+          <head xml:id="gom-esd7-Hd1e158">Versus 7</head>
+          <p xml:id="gom-esd7-d1e160">
+            <quote xml:id="gom-esd7-Qd1e162" type="lemma" source="http://scta.info/resource/esd7_7@1-2">Et ascenderunt.</quote>
+            <ref xml:id="gom-esd7-Rd1e165"><name xml:id="gom-esd7-Nd1e166" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd7-Qd1e170"><seg type="qs">Notandum quod in capite hujus libri scriptum est quod ad permissionem Cyri ascenderunt de Babylone Zorobabel et Josue</seg>, etc., usque ad <seg type="qs">perpetuam ad coelestem patriam pervenientibus do.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e179">
+          <head xml:id="gom-esd7-Hd1e181">Versus 9</head>
+          <p xml:id="gom-esd7-d1e183">
+            <quote xml:id="gom-esd7-Qd1e185" type="lemma" source="http://scta.info/resource/esd7_9@1-3">Quia in primo.</quote>
+            <ref xml:id="gom-esd7-Rd1e188"><name xml:id="gom-esd7-Nd1e189" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd7-Qd1e193"><seg type="qs">Prima die mensis coepit ascendere de Babylone</seg>, etc., usque ad <seg type="qs">velut post quatuor menses lucidae actionis, quos in via pergimus, <pb ed="#P" n="0706B"/> quintum mensem perpetuae remunerationis in luce patriae coelestis agimus.</seg></quote>
+          </p>
+          <p xml:id="gom-esd7-d1e203">
+            <ref xml:id="gom-esd7-Rd1e205" type="lemma" subtype="implied" target="http://scta.info/resource/esd7_9@1-3"/>
+            <ref xml:id="gom-esd7-Rd1e207"><name xml:id="gom-esd7-Nd1e208" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd7-Qd1e212"><seg type="qs">Primo mense coepit Esdras ascendere de Babylone</seg>, etc., usque ad <seg type="qs">superna promissa veniamus.</seg></quote>
+          </p>
+          <p xml:id="gom-esd7-d1e220">
+            <quote xml:id="gom-esd7-Qd1e222" type="lemma" source="http://scta.info/resource/esd7_9@19-21">Juxta manum Dei.</quote>
+            Confirmatus scilicet gratia et protectione divina, qua prospere coepta perficeret. Sic et Christus, quia Deus erat in Christo mundum reconcilians sibi, manus quoque Dei super ejus humanitatem fuit, qua in passione exaltatus, et ad moenia supernae civitatis ascendit, et fidelibus suis iter patefecit.
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e227">
+          <head xml:id="gom-esd7-Hd1e229">Versus 10</head>
+          <p xml:id="gom-esd7-d1e231">
+            <quote xml:id="gom-esd7-Qd1e233" type="lemma" source="http://scta.info/resource/esd7_10">Esdras autem paravit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Magna virtus hominis parare cor suum ad obsequium divinae voluntatis, et dicere posse: <quote xml:id="gom-esd7-Qd1e238" source="http://scta.info/resource/ps56_8@1-7">Paratum cor meum, Deus, paratum cor meum</quote>.
+          </p>
+          <p xml:id="gom-esd7-d1e242">
+            <ref xml:id="gom-esd7-Rd1e244" type="lemma" subtype="implied" target="http://scta.info/resource/esd7_10"/>
+            <ref xml:id="gom-esd7-Rd1e246"><name xml:id="gom-esd7-Nd1e247" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-esd7-Qd1e251">Christus quoque paravit cor suum, ut <pb ed="#P" n="0706C"/> investigaret legem Domini, quia talem sibi hominem suscipere divinitus praevidit, qui non solum sine peccato, sed etiam plenus esset gratia et veritate: qui nulla sibi repugnante lege peccati, legem Dei absque ulla mentis vel carnis contradictione servet; unde: <quote xml:id="gom-esd7-Qd1e255" source="http://scta.info/resource/ps39_8@6-12">In capite libri scriptum est de me,</quote> etc. <!--<note>(Psal. XXXIX.)</note>--> Item Dominus investigavit legem Dei, quia abjectis Pharisaeorum traditionibus Scripturam sanctam mystice intelligere docuit, et decreta Evangelii quae attulit magis perfecta et Deo accepta quam ea quae per Moysen praemiserat, ostendit. Unde: <quote xml:id="gom-esd7-Qd1e260">Audistis quia dictum est antiquis: Diliges amicum tuum, et odio habetis inimicum tuum. Ego autem dico vobis: Diligite inimicos vestros,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e266">
+          <head xml:id="gom-esd7-Hd1e268">Versus 12</head>
+          <p xml:id="gom-esd7-d1e270">
+            <quote xml:id="gom-esd7-Qd1e272" type="lemma" source="http://scta.info/resource/esd7_12">Artaxerxes rex.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Artaxerxes qui devota <pb ed="#P" n="0706D"/> mente templum et sacerdotes Domini venerabatur, eique famulabatur, Christianos principes, sicut Darius significat. Nec mirum si successores Cyri qui templum et civitatem fecerunt aedificari, qui servos ejus ac legem dilexerunt atque juverunt, Christianos reges figurant; cum ipse Dominus per prophetam Cyrum significare Filium suum dixit: et ejus nomine illum honorificaverit, dicens: <quote xml:id="gom-esd7-Qd1e279" source="http://scta.info/resource/is45_1@1-6">Haec dicit Dominus Christo meo Cyro</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e284">
+          <head xml:id="gom-esd7-Hd1e286">Versus 13</head>
+          <p xml:id="gom-esd7-d1e288">
+            <quote xml:id="gom-esd7-Qd1e290" type="lemma" source="http://scta.info/resource/esd7_13@1-3">A me decretum.</quote>
+            Quia ad regem pervenerat fama divinae virtutis, per quam ille incensam a Chaldaeis legem (eisdem quibus prius propriis sermonibus, quamvis alio litterarum caractere) novaverit.
+          </p>
+          <p xml:id="gom-esd7-d1e294">
+            <quote xml:id="gom-esd7-Qd1e296" type="lemma" source="http://scta.info/resource/esd7_13@5-6">Ut cuicunque.</quote>
+            Omnibus licentiam eundi <pb ed="#P" n="0707A"/> tribuit, nullum ire compellit. Christiani principes nullum cogentes, ne sit incerta voluntas fidei, omnibus quibus placuerit in regno suo Christum colere permittunt.
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e303">
+          <head xml:id="gom-esd7-Hd1e305">Versus 14</head>
+          <p xml:id="gom-esd7-d1e307">
+            <quote xml:id="gom-esd7-Qd1e309" type="lemma" source="http://scta.info/resource/esd7_14@5-7">Et septem consiliatorum.</quote>
+            In libro Esther legitur moris fuisse Persarum regibus, ut in cunctis agendis vel discernendis septem consilio uterentur. Septem consiliariis utuntur fideles cum in omnibus quae faciunt praecepta divinae Scripturae sequuntur. De qua dicitur: <quote xml:id="gom-esd7-Qd1e312" source="http://scta.info/resource/ps11_7@1-12">Eloquia Domini eloquia casta, argentum igne examinatum, probatum terrae, purgatum septuplum</quote>, id est sancta illustratione septiformis spiritus perfectum.
+          </p>
+          <p xml:id="gom-esd7-d1e316">
+            <quote xml:id="gom-esd7-Qd1e318" type="lemma" source="http://scta.info/resource/esd7_14@9-10">Missus es.</quote>
+            Mittitur Esdras a facie regis et septem consiliatorum ejus, ut visitet Indiam et Jerusalem <pb ed="#P" n="0707B"/> et conversi ad fidem principes saeculi et Scripturarum persuasionibus roborati, Christum ad salvandam Ecclesiam et congregandam de gentibus quotidiano auxilio, quod Esdrae nomen significat, venire desiderant, dicentes: <quote xml:id="gom-esd7-Qd1e323" source="http://scta.info/resource/ps79_15@1-6">Domine Deus virtutum, convertere, respice de coelo,</quote> etc. <!--<note>(Psal. LXXIX.)</note>-->
+          </p>
+          <p xml:id="gom-esd7-d1e329">
+            <quote xml:id="gom-esd7-Qd1e331" type="lemma" source="http://scta.info/resource/esd7_14@20-23">Quae est in manu.</quote>
+            Mirum quod invenitur verbum in epistola Artaxerxis quo prophetae solent uti: cum dicit legem Dei esse in manu servi illius, scriptum est enim: Factum est verbum in manu Aggaei prophetae. Et Dominus fecit quod locutus est in manu servi sui Eliae; et testificatus est Dominus in Israel et in Juda per manus omnium prophetarum: quia scilicet prophetae non minus operando quam loquendo quae Dei sunt, praedicabant.
+          </p>
+          <p xml:id="gom-esd7-d1e335">
+            <pb ed="#P" n="0707C"/>
+            <ref xml:id="gom-esd7-Rd1e339" type="lemma" subtype="implied" target="http://scta.info/resource/esd7_14@20-23"/>
+            Christus legem in manu habuit: quia eam quondam per Moysen prout voluit, statuit; et nunc eamdem per semetipsum immutans ad perfectiora transtulit.
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e343">
+          <head xml:id="gom-esd7-Hd1e345">Versus 15</head>
+          <p xml:id="gom-esd7-d1e347">
+            <quote xml:id="gom-esd7-Qd1e349" type="lemma" source="http://scta.info/resource/esd7_15@1-3">Et ut feras.</quote>
+            Notanda fides et sapientia regis et consiliatorum ejus qui dona sua magis per illum qui legem Dei in manu habebat, id est opere complebat, offerenda esse intellexerunt.
+          </p>
+          <p xml:id="gom-esd7-d1e353">
+            <quote xml:id="gom-esd7-Qd1e355" type="lemma" source="http://scta.info/resource/esd7_15@16-18">Cujus in Jerusalem.</quote>
+            <ref xml:id="gom-esd7-Rd1e358"><name xml:id="gom-esd7-Nd1e359" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-esd7-Qd1e363"><seg type="qs">Fideliter et docte eum in Jerusalem habere tabernaculum dicit</seg>, etc., usque ad <seg type="qs">et de illo Joannes ait: <quote xml:id="gom-esd7-Qd1e369" source="http://scta.info/resource/Iio2_2@2-7">Ipse est propitiatio pro peccatis nostris</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e375">
+          <head xml:id="gom-esd7-Hd1e377">Versus 16</head>
+          <p xml:id="gom-esd7-d1e379">
+            <quote xml:id="gom-esd7-Qd1e381" type="lemma" source="http://scta.info/resource/esd7_16@1-3">Et omne argentum.</quote>
+            De hac pecunia fideles in Ecclesia sua bona opera clarere cupiunt: ut per hoc patrem cum sanctis habeant: et alii ipsorum <pb ed="#P" n="0707D"/> exemplis proficiant. Nam quasi de argento et auro nostro sacrificia, libamina, et hostiae ad offerendum Domino comparantur: cum visa operum nostrorum claritate proximi convertuntur ad officium pietatis: quo et ipsi bene vivendo Domino consecrantur; sunt autem quaedam sanctorum clarissimae virtutes: quae non omnibus in exempla operis possunt ostendi: sed tantum ad glorificandam Dei gratiam recitari, ut est illud quod Daniel et Jeremias pueri prophetaverunt: quod Joannes nondum natus: quod Cornelius cum domo sua nondum baptizatus Spiritum sanctum accepit, et innumera miracula instar argenti in domo Domini. Nec tantum ex hoc argento vel auro oblationes quae super altare ponuntur, <pb ed="#P" n="0708A"/> emi possunt, quia talia cum audimus, mirari quidem velut divina debemus: sed quasi possibilia imitari non valemus.
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e390">
+          <head xml:id="gom-esd7-Hd1e392">Versus 19</head>
+          <p xml:id="gom-esd7-d1e394">
+            <quote xml:id="gom-esd7-Qd1e396" type="lemma" source="http://scta.info/resource/esd7_19@1-2">Vasa quoque.</quote>
+            Verus Esdras vasa misericordiae quae sibi traduntur ab hominibus in conspectu Patris in supernam Jerusalem tradidit. De quibus dicitur: <quote xml:id="gom-esd7-Qd1e399" source="http://scta.info/resource/mc3_27@6-12">Quomodo poterit quisquam intrare in domum fortis, et vasa ejus diripere, nisi prius alligaverit fortem?</quote> Fortis enim erat rex Babylonis, id est diabolus: sed vinctus et ligatus a Domino, ea quae injuste possidebat vasa, id est delectorum corda amisit: neque auferenti et ad supernam civitatem cujus erant propria reducenti contradicere potuit.
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e405">
+          <head xml:id="gom-esd7-Hd1e407">Versus 21</head>
+          <p xml:id="gom-esd7-d1e409">
+            <quote xml:id="gom-esd7-Qd1e411" type="lemma" source="http://scta.info/resource/esd7_21@1-3">Et a me.</quote>
+            Principes Christiani subjectis <pb ed="#P" n="0708B"/> suis imperant, ut quidquid petierit Christus pontifex noster, absque mora tribuant: nihil omnino retractantes, dent aurum in confessione verae fidei, frumentum in ostensione bonae operationis; vinum in fervore dilectionis; oleum in hilaritate misericordiae: et haec omnia sub centenario numero sacerdoti magno et scribae legis Dei coeli dari jubentur, id est Christo, qui coelestia nobis mandata a Patre deferens, coelestia obedientibus in domo Patris praemia promisit. Centenarius enim, qui in computo digitorum a laeva transit in dexteram: ea quae in dextra indicis (id est vita aeterna) sunt gaudia, designat. Talentum autem triplicis mensurae traditur. Minimum, librarum quinquaginta medium, librarum sexaginta duo summum, librarum centum et viginti. <pb ed="#P" n="0708C"/> Corus triginta modii: batos, qui et ephi decima pars cori, id est tres modii.
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e420">
+          <head xml:id="gom-esd7-Hd1e422">Versus 22</head>
+          <p xml:id="gom-esd7-d1e424">
+            <quote xml:id="gom-esd7-Qd1e426" type="lemma" source="http://scta.info/resource/esd7_22@24-25">Sal vero.</quote>
+            <ref xml:id="gom-esd7-Rd1e429"><name xml:id="gom-esd7-Nd1e430" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-esd7-Qd1e434"><seg type="qs">Sal sapientiam significat</seg>, etc., usque ad <seg type="qs">dum per adversarios expugnant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e443">
+          <head xml:id="gom-esd7-Hd1e445">Versus 24</head>
+          <p xml:id="gom-esd7-d1e447">
+            <quote xml:id="gom-esd7-Qd1e449" type="lemma" source="http://scta.info/resource/esd7_24">Vobis quoque.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Hoc privilegio ostenditur, quod caetera plebs filiorum Israel ad patriam perveniens tributa regis pendebat, quod discreta provisione rex fecisse cognoscitur ut qui divino servitio supererant occupati, a suo famulatu essent liberi, et qui in terra nihil proprium possidebant, sed ex decimis populi vivebant, nemo ex eis tributum exigeret. His omnibus probatur, non solum dilexisse, sed etiam optime didicisse quae divinae servitutis posceret cultus.
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e456">
+          <head xml:id="gom-esd7-Hd1e458">Versus 25</head>
+          <p xml:id="gom-esd7-d1e460">
+            <pb ed="#P" n="0708D"/>
+            <quote xml:id="gom-esd7-Qd1e464" type="lemma" source="http://scta.info/resource/esd7_25@1-2">Tu autem.</quote>
+            <ref xml:id="gom-esd7-Rd1e467"><name xml:id="gom-esd7-Nd1e468" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-esd7-Qd1e472"><seg type="qs">Repetit rex quae supra dixerat</seg>, etc., usque ad <seg type="qs">quibus saepe reges et principes litteras pro statu fidelium miserunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd7-Dd1e481">
+          <head xml:id="gom-esd7-Hd1e483">Versus 28</head>
+          <p xml:id="gom-esd7-d1e485">
+            <quote xml:id="gom-esd7-Qd1e487" type="lemma" source="http://scta.info/resource/esd7_28@16-18">Et ego confortatus.</quote>
+            Sic quisque ad alios congregandos idoneus per doctrinam suam efficitur: ebrius per gratiam Dei contra omnia quae sanctorum opus impediunt, mente roboratur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

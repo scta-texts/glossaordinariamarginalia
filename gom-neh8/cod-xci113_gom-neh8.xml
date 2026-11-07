@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nehemiae, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Nehemiae, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0720D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-neh8">
+        <head xml:id="gom-neh8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-neh8-Dd1e100">
+          <head xml:id="gom-neh8-Hd1e102">Versus 1</head>
+          <p xml:id="gom-neh8-d1e104">
+            <quote xml:id="gom-neh8-Qd1e106" type="lemma" source="http://scta.info/resource/neh8_1@1-4">Et venerat mensis septimus.</quote>
+            <ref xml:id="gom-neh8-Rd1e109"><name xml:id="gom-neh8-Nd1e110" ref="#Bede">BEDA</name>, in Esdr., lib. III, cap. 26, tom. II.</ref>
+            <quote xml:id="gom-neh8-Qd1e114">Qui non longe aberat. Cum enim murus esset vicesima quinta die sexti mensis completus quinque tantum dies ad exordium septimi mensis supererant, qui a prima die usque ad vicesimam secundam totus legitimis caeremoniis consecratus est, quibus ita rite celebratis, deinde ad disponendos urbis mansores cum principibus et plebe reversus est.</quote>
+          </p>
+          <p xml:id="gom-neh8-d1e117">
+            <quote xml:id="gom-neh8-Qd1e119" type="lemma" source="http://scta.info/resource/neh8_1@12-21">Congregatusque omnis populus quasi vir unus ad <pb ed="#P" n="0721A"/> plateam quae,</quote>
+            etc.
+            <ref xml:id="gom-neh8-Rd1e124"><name xml:id="gom-neh8-Nd1e125" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-neh8-Qd1e129"><seg type="qs">Notanda devotio populi et concordia</seg>, etc., usque ad <seg type="qs">quarum cantu populus inter orationes et hostias ardentius ad legis memoriam excitaretur.</seg></quote>
+          </p>
+          <p xml:id="gom-neh8-d1e137">
+            <ref xml:id="gom-neh8-Rd1e139" type="lemma" subtype="implied" target="http://scta.info/resource/neh8_1@12-21"/>
+            Mystice quoque aedificata civitate oportet sequi lectionem divinam, et tubas sonare crebriores, ut populus, sacramentis coelestibus initiatus etiam sacris eloquiis ex tempore solertius qualiter vivere debeat, instruatur.
+          </p>
+          <p xml:id="gom-neh8-d1e142">
+            <quote xml:id="gom-neh8-Qd1e144" type="lemma" source="http://scta.info/resource/neh8_1@23-25">Ante portam aquarum.</quote>
+            <ref xml:id="gom-neh8-Rd1e147"><name xml:id="gom-neh8-Nd1e148" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh8-Qd1e152"><seg type="qs">Portam aquarum reor dici in atrio sacerdotum</seg>, etc., usque ad <seg type="qs">bene ergo ante portam aquarum collectus est populus tanquam per antistitem suum fluentis Scripturarum spiritualiter potandus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh8-Dd1e161">
+          <head xml:id="gom-neh8-Hd1e163">Versus 4</head>
+          <p xml:id="gom-neh8-d1e165">
+            <quote xml:id="gom-neh8-Qd1e167" type="lemma" source="http://scta.info/resource/neh8_4@1-6">Stetit autem Esdras scriba super gradum.</quote>
+            <quote xml:id="gom-neh8-Qd1e170"><seg type="qs"><pb ed="#P" n="0721B"/> <ref xml:id="gom-neh8-Rd1e174"><name xml:id="gom-neh8-Nd1e175" ref="#Bede">ID.</name>, ibid.</ref><!-- check: attribution inside gloss body --> Videtur meminisse</seg>, etc., usque ad <seg type="qs">ut timidus et erubescens quae ipse non fecit, aliis faciendo praedicit, etc.</seg></quote>
+          </p>
+          <p xml:id="gom-neh8-d1e185">
+            <ref xml:id="gom-neh8-Rd1e187" type="lemma" subtype="implied" target="http://scta.info/resource/neh8_4@1-6"/>
+            Cum praesules quantum honore, tantum opere subditos antecellunt, ipsi eorum exemplis incitati vitae suae gradum exsequuntur devoti, et ab eis pie admoniti pro peccatis vel desiderio patriae coelestis lacrymas profundere delectantur. Unde bene subditur, flebat enim omnis populus, cum audiret verba legis, etc.
+          </p>
+        </div>
+        <div xml:id="gom-neh8-Dd1e191">
+          <head xml:id="gom-neh8-Hd1e193">Versus 10</head>
+          <p xml:id="gom-neh8-d1e195">
+            <quote xml:id="gom-neh8-Qd1e197" type="lemma" source="http://scta.info/resource/neh8_10@4-5">Ite et comedite,</quote>
+            etc.
+            <ref xml:id="gom-neh8-Rd1e200"><name xml:id="gom-neh8-Nd1e201" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh8-Qd1e205">Ut infirmiores conscientias proximorum exemplo piae actionis, et suavitate devotae admonitionis confortemus, praecipit, quatenus sicut adipe et pinguedine repleantur, aliisque exsultationis laudent nomen <pb ed="#P" n="0721C"/> Domini. Juxta litteram quoque cum in festis diebus post orationem lectionem et psalmorum studia completa carnem reficimus, pauperum et peregrinorum meminisse debemus.</quote>
+          </p>
+          <p xml:id="gom-neh8-d1e211">
+            <quote xml:id="gom-neh8-Qd1e213" type="lemma" source="http://scta.info/resource/neh8_10@24-25">Nolite contristari.</quote>
+            Doctores qui mentes auditorum sacris lectionibus ad lacrymas excitant, et iidem consolantur, dum gaudia secutura promittunt.
+          </p>
+        </div>
+        <div xml:id="gom-neh8-Dd1e218">
+          <head xml:id="gom-neh8-Hd1e220">Versus 11</head>
+          <p xml:id="gom-neh8-d1e222">
+            <quote xml:id="gom-neh8-Qd1e224" type="lemma" source="http://scta.info/resource/neh8_11@10-13">Quia dies sanctus est.</quote>
+            Dum scilicet verbis Domini audiendis et implendis operam damus, in quo die quamvis exterius adversa patientes, nos in spe gaudere oportet. Unde: <quote xml:id="gom-neh8-Qd1e227" source="http://scta.info/resource/IIcor6_10@1-5">Quasi tristes, semper autem gaudentes</quote>, etc.
+          </p>
+        </div>
+        <div xml:id="gom-neh8-Dd1e233">
+          <head xml:id="gom-neh8-Hd1e235">Versus 14</head>
+          <p xml:id="gom-neh8-d1e237">
+            <quote xml:id="gom-neh8-Qd1e239" type="lemma" source="http://scta.info/resource/neh8_14@1-2">Et invenerunt,</quote>
+            etc.
+            <ref xml:id="gom-neh8-Rd1e242"><name xml:id="gom-neh8-Nd1e243" ref="#Bede">BEDA</name>, ubi supra.</ref>
+            <quote xml:id="gom-neh8-Qd1e247"><seg type="qs">Haec in Levitico plenius scripta sunt</seg>, etc., usque ad <seg type="qs">meminisse nos oportet, quia <quote xml:id="gom-neh8-Qd1e253" source="http://scta.info/resource/ps38_13@21-25">incolae sumus in terra, <pb ed="#P" n="0721D"/> et peregrim sicut patres nostri</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh8-Dd1e261">
+          <head xml:id="gom-neh8-Hd1e263">Versus 15</head>
+          <p xml:id="gom-neh8-d1e265">
+            <quote xml:id="gom-neh8-Qd1e267" type="lemma" source="http://scta.info/resource/neh8_15@24-25">Ligni pulcherrimi,</quote>
+            etc.
+            <ref xml:id="gom-neh8-Rd1e270"><name xml:id="gom-neh8-Nd1e271" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh8-Qd1e275">Quod scilicet Hebraei vocant cedrum. Frondes vero myrti et obumbraculum sibi affert qui dicere potest, <quote xml:id="gom-neh8-Qd1e277" source="http://scta.info/resource/IIcor2_15@2-7">Christi bonus odor sumus Deo in omni loco</quote>.</quote>
+          </p>
+          <p xml:id="gom-neh8-d1e282">
+            <quote xml:id="gom-neh8-Qd1e284" type="lemma" source="http://scta.info/resource/neh8_15@23-27">Frondes ligni pulcherrimi et frondes myrti,</quote>
+            etc. Fructus charitatis quae inter omnes virtutes pulcherrima, per quam et Christus lignum crucis pro nostra salute ascendit, cujus passionem dum quantam possumus, imitamur, frondibus profecto ligni pulcherrimi et myrti in mortificationem vitiorum et libidinum protegimur. Magi enim Domino myrrham offerentes docuerunt, quia qui Christ sunt, carnem suam cum vitiis et concupiscentiis crucifigunt.
+          </p>
+          <p xml:id="gom-neh8-d1e288">
+            <pb ed="#P" n="0722A"/>
+            <quote xml:id="gom-neh8-Qd1e292" type="lemma" source="http://scta.info/resource/neh8_15@29-30">Ramos palmarum.</quote>
+            <ref xml:id="gom-neh8-Rd1e295"><name xml:id="gom-neh8-Nd1e296" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh8-Qd1e300">Ramos palmarum afferimus, quod est manus victricis ornatus, cum mentem vitiorum victricem gerimus, et invictam cunctis hostibus, ut stemus <quote xml:id="gom-neh8-Qd1e302" source="http://scta.info/resource/ap7_9@20-32">ante thronum in conspectu Agni, amicti stolis albis, et palmae in manibus nostris</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh8-Dd1e308">
+          <head xml:id="gom-neh8-Hd1e310">Versus 16</head>
+          <p xml:id="gom-neh8-d1e312">
+            <quote xml:id="gom-neh8-Qd1e314" type="lemma" source="http://scta.info/resource/neh8_16@10-12">Unusquisque in domate.</quote>
+            <ref xml:id="gom-neh8-Rd1e317"><name xml:id="gom-neh8-Nd1e318" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh8-Qd1e322"><seg type="qs">In domate suo</seg>, etc., usque ad <seg type="qs">et in majoribus bonae actionis frugibus abundare mereamur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh8-Dd1e331">
+          <head xml:id="gom-neh8-Hd1e333">Versus 18</head>
+          <p xml:id="gom-neh8-d1e335">
+            <quote xml:id="gom-neh8-Qd1e337" type="lemma" source="http://scta.info/resource/neh8_18@20-21">Septem diebus.</quote>
+            <ref xml:id="gom-neh8-Rd1e340"><name xml:id="gom-neh8-Nd1e341" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh8-Qd1e345"><seg type="qs">Scenopegia septem diebus agebatur</seg>, etc., usque ad <seg type="qs">in conspectu Dei congregatus, et nunquam segregandus exsultaverit.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 18</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 18</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0125C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen18">
+        <head xml:id="gom-gen18-Hd1e98">Caput 18</head>
+        <div xml:id="gom-gen18-Dd1e100">
+          <head xml:id="gom-gen18-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen18-d1e104">
+            <quote xml:id="gom-gen18-Qd1e106" type="lemma" source="http://scta.info/resource/gen18_1@1-7">Apparuit autem ei Dominus in convalle Mambre.</quote>
+            <ref xml:id="gom-gen18-Rd1e109"><name xml:id="gom-gen18-Nd1e110" ref="#IsidoreOfSeville">ISID.</name> in Gen.</ref>
+            <quote xml:id="gom-gen18-Qd1e114">Abraham triplicem figuram gerit: primam, Salvatoris, qui relicta cognatione venit in mundum; alteram, Patris, quia Filium unicum immolavit; tertiam (quae in hoc loco apparet), sanctorum qui adventum Christi cum gaudio <pb ed="#P" n="0125D"/> susceperunt. Tabernaculum Abrahae Hierusalem significat, ubi pro tempore prophetae et apostoli habitaverunt, et Christus adveniens a credentibus exceptus, ab incredulis in ligno suspensus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e121">
+          <head xml:id="gom-gen18-Hd1e123">Versus 2</head>
+          <p xml:id="gom-gen18-d1e125">
+            <quote xml:id="gom-gen18-Qd1e127" type="lemma" source="http://scta.info/resource/gen18_2@6-7">Tres viri.</quote>
+            Tres viri Christi pronuntiant adventum, quem duo angeli comitantur, Moses secundum quosdam, et Elias; unus legislator, qui in lege adventum Domini indicavit: alter, qui in fine venturus est, secundum adventum Christi nuntiaturus, et Evangelium ejus praedicaturus. Unde transfigurato Domino in monte cum eo videntur. <quote xml:id="gom-gen18-Qd1e130">Tres vidit, et unum adoravit,</quote> Salvatorem scilicet ostendens, cujus adventum praestolabatur. Unde: <quote xml:id="gom-gen18-Qd1e132" source="http://scta.info/resource/io8_56@7-13">Abraham vidit diem meum et gavisus <pb ed="#P" n="0126A"/> est .</quote> Praevidit enim mysterium futuri sacramenti. Unde pedes eorum lavit, ut in fine mundi purificationem lavacri futuram monstraret; pedes enim novissima significant.
+          </p>
+          <p xml:id="gom-gen18-d1e138">
+            <quote xml:id="gom-gen18-Qd1e140" type="lemma" source="http://scta.info/resource/gen18_2@11-13">Quos cum vidisset.</quote>
+          </p>
+          <p xml:id="gom-gen18-d1e144">
+            Moraliter.
+          </p>
+          <p xml:id="gom-gen18-d1e146">
+            <ref xml:id="gom-gen18-Rd1e148" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_2@11-13"/>
+            <ref xml:id="gom-gen18-Rd1e150"><name xml:id="gom-gen18-Nd1e151" ref="#GregoryGreat">GREG.</name>, lib. IX Moral., c. 51.</ref>
+            <quote xml:id="gom-gen18-Qd1e155">Abraham tribus angelis occurrit, quia vir et dominus domus, scilicet spiritualis intellectus, debet in cognitione Trinitatis claustra carnis excedere, et quasi habitationis infimae januam exire. Cura carnis, quam Sara significat, foris ad jactantiam non appareat, sed post tergum viri, id est, sub discretione spiritus, solis necessariis intenta, nesciat procaciter detegi, sed verecunde moderari.</quote>
+          </p>
+          <p xml:id="gom-gen18-d1e159">
+            <ref xml:id="gom-gen18-Rd1e161" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_2@11-13"/>
+            <ref xml:id="gom-gen18-Rd1e163"><name xml:id="gom-gen18-Nd1e164" ref="#GregoryGreat">Ibid.</name>, lib. XXVIII, c. 4</ref>
+            <quote xml:id="gom-gen18-Qd1e168">Abraham non potuisset angelos videre, hospitio suscipere et cibos adhibere, <pb ed="#P" n="0126B"/> nisi corpus ex aere assumpsissent: non enim apparerent, non cibos sumerent, nisi solidum corpus ex coelesti elemento haberent. Nec mirum quod modo angeli, modo Dominus vocantur, quia angeli vocantur, qui exterius ministrant, et Dominus ostenditur, qui eis interius imperat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e175">
+          <head xml:id="gom-gen18-Hd1e177">Versus 4</head>
+          <p xml:id="gom-gen18-d1e179">
+            <quote xml:id="gom-gen18-Qd1e181" type="lemma" source="http://scta.info/resource/gen18_4@1-2">Sed afferam.</quote>
+            Ad hospitalitatis officia revertitur, quae etiam angelis exhiberi possunt, cum ex elementis corpoream formam assumunt: quod Abraham intelligens, deitatem in unitate adorabat, et dispensationi angelicae in forma visibili ministrabat.
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e186">
+          <head xml:id="gom-gen18-Hd1e188">Versus 6</head>
+          <p xml:id="gom-gen18-d1e190">
+            <quote xml:id="gom-gen18-Qd1e192" type="lemma" source="http://scta.info/resource/gen18_6@10-11">Tria sata.</quote>
+            Haec in typum Ecclesiae dicuntur, quae de tribus mundi partibus in unitatem fidei congregata est, et quasi panis sine fermento <pb ed="#P" n="0126C"/> igne Spiritus sancti decocta est.
+          </p>
+          <p xml:id="gom-gen18-d1e198">
+            <ref xml:id="gom-gen18-Rd1e200" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_6@10-11"/>
+            <ref xml:id="gom-gen18-Rd1e202"><name xml:id="gom-gen18-Nd1e203">STRAB.</name></ref>
+            <quote xml:id="gom-gen18-Qd1e205">Satum genus est mensurae. Tria sata tres filios Noe significant, ex quibus omne genus hominum disseminatum est. Significatur ergo Ecclesia, vel evangelica doctrina per totum mundum disseminanda, et in tribus mundi partibus, Asia, Africa et Europa, multiplicanda.</quote>
+          </p>
+          <p xml:id="gom-gen18-d1e208">
+            <quote xml:id="gom-gen18-Qd1e210" type="lemma" source="http://scta.info/resource/gen18_6@10-11">Tria sata,</quote>
+            de quibus Sara subcinericios panes facit, tres filios significant Noe, ex quibus omne genus hominum natum est: qui divinae Trinitati credentes aqua baptismatis per Saram, id est Ecclesiam, conspersi sunt, et in unum panem corporis Christi redacti. Haec sunt tria sata farinae, quae mulier in Evangelio fermentavit: azymi sunt panes, quia sine fermento malitiae, et angore [ <quote xml:id="gom-gen18-Qd1e213">Al.,</quote> rancore] <pb ed="#P" n="0126D"/> nequitiae, et fervore perversae doctrinae, oportet esse credentium unitatem.
+          </p>
+          <p xml:id="gom-gen18-d1e218">
+            <quote xml:id="gom-gen18-Qd1e220" type="lemma" source="http://scta.info/resource/gen18_6@16-16">Subcinericios.</quote>
+            Subcinericii sunt, ut per poenitentiam delictorum Spiritus sancti vapore decocti, esca Deo acceptabilis efficiantur.
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e226">
+          <head xml:id="gom-gen18-Hd1e228">Versus 7</head>
+          <p xml:id="gom-gen18-d1e230">
+            <quote xml:id="gom-gen18-Qd1e232" type="lemma" source="http://scta.info/resource/gen18_7@9-10">Vitulum tenerrimum.</quote>
+            Vitulus tener et saginatus Christi corpus est, quod pro salute mundi ad arborem crucis immolatum est. Hic est vitulus qui prodigo filio occiditur.
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e237">
+          <head xml:id="gom-gen18-Hd1e239">Versus 8</head>
+          <p xml:id="gom-gen18-d1e241">
+            <quote xml:id="gom-gen18-Qd1e243" type="lemma" source="http://scta.info/resource/gen18_8@3-5">Butyrum et lac</quote>
+            cum carne vituli apposuit, quia lac veterem legem signat; unde I Cor. III: <quote xml:id="gom-gen18-Qd1e246" source="http://scta.info/resource/Icor3_2@1-6">Lac potum dedi vobis, non escam,</quote> etc. Tradiderat enim illis legis mandatum, quasi lac de duarum tabularum expressum uberibus, hoc est <pb ed="#P" n="0127A"/> testamentum fidei, quia nondum poterant evangelicae doctrinae solidam escam sumere. Butyrum uberrimum et pinguissimum evangelicum est testimonium, quod velut oleum fidelibus in signum datur. Vitulum cum lacte et butyro apposuit, quia nec corpus Domini sine lacte legis, nec hoc sine Evangelio esse potest. Sub arbore autem sederunt in Dominicae passionis signum, cujus praedicatores sunt.
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e253">
+          <head xml:id="gom-gen18-Hd1e255">Versus 9</head>
+          <p xml:id="gom-gen18-d1e257">
+            <quote xml:id="gom-gen18-Qd1e259" type="lemma" source="http://scta.info/resource/gen18_9@13-16">Ecce in tabernaculo est,</quote>
+            etc.
+            <ref xml:id="gom-gen18-Rd1e262"><name xml:id="gom-gen18-Nd1e263">STRAB.</name></ref>
+            <quote xml:id="gom-gen18-Qd1e265">Abraham foris cum angelis, Sara in tabernaculo est: quia fortium et doctorum est aperte praedicare, exemplis instruere: infirmorum et insipientium, discere et subditos esse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e269">
+          <head xml:id="gom-gen18-Hd1e271">Versus 10</head>
+          <p xml:id="gom-gen18-d1e273">
+            <quote xml:id="gom-gen18-Qd1e275" type="lemma" source="http://scta.info/resource/gen18_10@11-13">VERS. 10.--Et habebit filium,</quote>
+            etc. Promittit Deus Sarae sterili filium, dicens: Circa hoc tempus <pb ed="#P" n="0127B"/> veniam; non tempus, sed qualitatem sui adventus significat, quoniam per filium repromissum fidelis populus erat nasciturus. Unde Isa. LIV et Gal. IV: <quote xml:id="gom-gen18-Qd1e280" source="http://scta.info/resource/gal4_27@4-7">Laetare sterilis, quae non parturis,</quote> etc.
+          </p>
+          <p xml:id="gom-gen18-d1e284">
+            <ref xml:id="gom-gen18-Rd1e286" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_10@11-13"/>
+            « Quo audito, etc.
+          </p>
+          <p xml:id="gom-gen18-d1e289">
+            <ref xml:id="gom-gen18-Rd1e291" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_10@11-13"/>
+            <ref xml:id="gom-gen18-Rd1e293"><name xml:id="gom-gen18-Nd1e294" ref="#Augustine">AUG.</name> Quaest in Gen.</ref>
+            <quote xml:id="gom-gen18-Qd1e298">Arguitur Sara quia risit, et non Abraham, cum similiter riserit; quia illius risus admirationis fuit, hujus dubitationis, quod dijudicare potuit qui corda novit. Negat Sara se risisse cum Deum non possit latere, sed forte homines putabat. Abraham vero Deum intelligebat, sed humanitatis officia praebendo, quae tantum infirmae carni necessaria sunt; mirum est: nisi homines prius arbitratus est, sed in quibus Deum loqui intelligeret, quibusdam signis divinae majestatis apparentibus: sicut in hominibus Deum <pb ed="#P" n="0127C"/> apparuisse saepe Scriptura testatur, sed postea angelos fuisse cognoverunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e305">
+          <head xml:id="gom-gen18-Hd1e307">Versus 11</head>
+          <p xml:id="gom-gen18-d1e309">
+            <quote xml:id="gom-gen18-Qd1e311" type="lemma" source="http://scta.info/resource/gen18_11@1-2">Erant autem,</quote>
+            etc. Seniorum aetas minor est quam senum, etsi senes appellentur seniores. Unde, secundum medicos, senior vir de muliere seniore filios facere non potest, etiamsi adhuc muliebria fluant. Secundum hoc Abraham miratur Dei potentiam de promissione filii, et hoc miraculum posuisse Apostolum accipere possumus. Emortuum enim corpus non omnino ad generationem erat, si mulier juvenilis aetatis fuisset: sed de provecta aetate generare non poterat: de Cethura enim postea generavit, quia juvencula fuit. Tradunt enim medici quia senex de femina provectioris aetatis (etsi muliebria contingant ei) generare non possit, <pb ed="#P" n="0127D"/> de juvencula autem possit. Rursus mulier provectae aetatis, etsi adhuc muliebria contingant ei, de seniore parere non potest, de juvene potest. Miraculum ergo fuit, quia uterque senex et provectae aetatis, et desierant muliebria Sarae.
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e318">
+          <head xml:id="gom-gen18-Hd1e320">Versus 12</head>
+          <p xml:id="gom-gen18-d1e322">
+            <quote xml:id="gom-gen18-Qd1e324" type="lemma" source="http://scta.info/resource/gen18_12@12-14">Voluptati operam dabo?</quote>
+            etc.
+            <ref xml:id="gom-gen18-Rd1e327"><name xml:id="gom-gen18-Nd1e328" ref="#GregoryGreat">GREG.</name> lib. IX Moral., c. 51.</ref>
+            <quote xml:id="gom-gen18-Qd1e332"><seg type="qs">Cura carnis</seg>, etc., usque ad <seg type="qs">quid mens nostra aliud quam gaudium parit?</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e342">
+          <head xml:id="gom-gen18-Hd1e344">Versus 15</head>
+          <p xml:id="gom-gen18-d1e346">
+            <ref xml:id="gom-gen18-Rd1e348" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_15"/>
+            « Non risi, etc.
+          </p>
+          <p xml:id="gom-gen18-d1e351">
+            <ref xml:id="gom-gen18-Rd1e353" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_15"/>
+            <ref xml:id="gom-gen18-Rd1e355"><name xml:id="gom-gen18-Nd1e356" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-gen18-Qd1e359">Vel ideo negavit se risisse, quia ignoravit; ideo risit, quia prophetavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e363">
+          <head xml:id="gom-gen18-Hd1e365">Versus 17</head>
+          <p xml:id="gom-gen18-d1e367">
+            <ref xml:id="gom-gen18-Rd1e369" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_17"/>
+            « Num celare potero Abrahae quae <quote xml:id="gom-gen18-Qd1e371" source="http://scta.info/resource/gen18_17@8-9">gessurus sum.</quote> Bene Dominus Abrahae secreta sua <pb ed="#P" n="0128A"/> committit, quem voluntatis suae et secretorum fidelem exsecutorem cognovit; de quo ipse carne nasciturus erat <quote xml:id="gom-gen18-Qd1e376" source="http://scta.info/resource/col2_3@1-9">in quo sunt omnes thesauri sapientiae et scientiae absconditi .<!-- check: Migne cites IIcor2; text matches col2_3 --></quote> Promittit quoque Abrahae non solum praemia, sed obedientiae filiorum ejus justitiam, et circa eos promissa compleri. Rursumque promittitur Isaac, <quote xml:id="gom-gen18-Qd1e380" source="http://scta.info/resource/gen18_18@4-6">in gentem magnam futurus,</quote> et quod <quote xml:id="gom-gen18-Qd1e384" source="http://scta.info/resource/gen22_18@2-8">in eo benedicentur omnes gentes terrae.</quote> Quibus verbis duo illi promittuntur: gens Judaeorum secundum carnem, et omnes gentes per fidem.
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e389">
+          <head xml:id="gom-gen18-Hd1e391">Versus 20</head>
+          <p xml:id="gom-gen18-d1e393">
+            <quote xml:id="gom-gen18-Qd1e395" type="lemma" source="http://scta.info/resource/gen18_20@4-7">Clamor Sodomorum et Gomorrhae,</quote>
+            etc.
+            <ref xml:id="gom-gen18-Rd1e398"><name xml:id="gom-gen18-Nd1e399" ref="#Augustine">AUG.</name> Q. in Gen.</ref>
+            <quote xml:id="gom-gen18-Qd1e403">Si haec verba non dubitantis, sed irascentis et minantis accipiamus, nulla est quaestio. Humano enim more ad homines loquitur <pb ed="#P" n="0128B"/> Deus, et ira ejus sine perturbatione est, quia immutabilis est. Saepe autem sic minando dicimus: Videamus si non tibi facio, et si non potero tibi facere; vel sciam, id est experiar utrum non possim. Sed perturbatio non cadit in Deum. Mos autem humanae locutionis est, cui Deus se coaptat, ut humanae infirmitati conveniat.</quote>
+          </p>
+          <p xml:id="gom-gen18-d1e409">
+            <ref xml:id="gom-gen18-Rd1e411" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_20@4-7"/>
+            <ref xml:id="gom-gen18-Rd1e413"><name xml:id="gom-gen18-Nd1e414" ref="#GregoryGreat">GREG.</name> lib. V Moral., cap. 7.</ref>
+            <quote xml:id="gom-gen18-Qd1e418">Peccatum vero cum voce, culpa est in actione. Peccatum vero cum clamore, culpa cum libertate.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e422">
+          <head xml:id="gom-gen18-Hd1e424">Versus 21</head>
+          <p xml:id="gom-gen18-d1e426">
+            <quote xml:id="gom-gen18-Qd1e428" type="lemma" source="http://scta.info/resource/gen18_21@1-3">Descendam et videbo,</quote>
+            etc.
+            <ref xml:id="gom-gen18-Rd1e431"><name xml:id="gom-gen18-Nd1e432" ref="#GregoryGreat">GREG.</name>, Moral., c. 33.</ref>
+            <quote xml:id="gom-gen18-Qd1e436">Mala hominum non ante credamus quam probemus. Et ecce per angelos ad cognoscenda mala descendit, et tanto crimine involutos <pb ed="#P" n="0128C"/> inveniens, quasi patientiam praetermisit, et eos igne judicii ante judicii diem praevenit: qui cum tranquillitate judicat, ut majora crimina tarde credantur, et veraciter agnita citius puniantur.</quote>
+          </p>
+          <p xml:id="gom-gen18-d1e442">
+            <ref xml:id="gom-gen18-Rd1e444" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_21@1-3"/>
+            <ref xml:id="gom-gen18-Rd1e446"><name xml:id="gom-gen18-Nd1e447" ref="#GregoryGreat">GREG.</name>, lib. I Reg., c. 178, tom. I.</ref>
+            <quote xml:id="gom-gen18-Qd1e451">Quo descenderet Deus, ut quae essent facta cognosceret? Aut quod non is, qui ubique est, sciret? Sed ut nostrae ignorantiae exemplum discretionis daret, quatenus debeamus mala gravia audita non credere, ipse se dicit ad cognoscendum descendere, de quo omnibus liquet quia et non descendens omnia sciret.</quote>
+          </p>
+          <p xml:id="gom-gen18-d1e454">
+            <ref xml:id="gom-gen18-Rd1e456" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_21@1-3"/>
+            <ref xml:id="gom-gen18-Rd1e458"><name xml:id="gom-gen18-Nd1e459" ref="#HilaryOfPoitiers">HILAR.</name>, lib. IX, de Trin.</ref>
+            <quote xml:id="gom-gen18-Qd1e463">Habemus nescientem Deum, quod tamen non nesciat. Nam cum peccata magna valde sciat esse, rursum descendit ut videat an consummati sunt; et si nondum consummati <pb ed="#P" n="0128D"/> sunt, ut sciat: intelligimus eum non ea tunc scire, quia prius nesciat; sed tunc scire, quia tempus ad agendum sit. Nescire ergo Deum, non est ignorantiae diminutio, sed temporis plenitudo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e470">
+          <head xml:id="gom-gen18-Hd1e472">Versus 24</head>
+          <p xml:id="gom-gen18-d1e474">
+            <quote xml:id="gom-gen18-Qd1e476" type="lemma" source="http://scta.info/resource/gen18_24@1-4">Si fuerint quinquaginta justi,</quote>
+            etc.
+            <ref xml:id="gom-gen18-Rd1e479"><name xml:id="gom-gen18-Nd1e480" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen18-Qd1e483">Quinquagenarius numerus, a quo usque ad decem descendit, poenitentiam significat. Unde et quinquagesimus psalmus poenitentialis est. Si ergo converterentur, salvarentur. Sed cum Deus aspicit delinquentes nolle ad poenitentiam converti, illico ardorem immoderatae luxuriae igne gehennae compescit. Usque ad decem justos non perire Sodomam dixit, quia si in quolibet per decem praeceptorum custodiam Christi nomen inveniatur, non per <pb ed="#P" n="0129A"/> ibit. Denarii enim numeri figura et crucem Christi significat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e490">
+          <head xml:id="gom-gen18-Hd1e492">Versus 27</head>
+          <p xml:id="gom-gen18-d1e494">
+            <quote xml:id="gom-gen18-Qd1e496" type="lemma" source="http://scta.info/resource/gen18_27@7-9">Loquar ad Dominum,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-gen18-d1e500">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen18-d1e502">
+            <ref xml:id="gom-gen18-Rd1e504" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_27@7-9"/>
+            <ref xml:id="gom-gen18-Rd1e506"><name xml:id="gom-gen18-Nd1e507" ref="#GregoryGreat">GREG.</name> lib. XVIII Moral., c. 33.</ref>
+            <quote xml:id="gom-gen18-Qd1e511">Sancti quanto magis divinitatis interna prospiciunt, tanto magis se nihil esse conspiciunt. Nusquam legitur Abraham se cinerem et pulverem professum esse, nisi cum meruit Dei locutionem habere. Et ait: <quote xml:id="gom-gen18-Qd1e513" source="http://scta.info/resource/gen18_27@7-13">Loquar ad Dominum meum, cum sim pulvis,</quote> etc. Fortasse enim aliquid se esse crederet, si veram essentiam, quae super ipsum est, non sensisset. Unde et David exclamat: <quote xml:id="gom-gen18-Qd1e516" source="http://scta.info/resource/ps6_3@3-6">Memento, Domine, quoniam pulvis sum ,<!-- check: Migne cites ps10; text matches ps6_3 --></quote> etc.</quote>
+          </p>
+          <p xml:id="gom-gen18-d1e522">
+            Moraliter.
+          </p>
+          <p xml:id="gom-gen18-d1e525">
+            <ref xml:id="gom-gen18-Rd1e527" type="lemma" subtype="implied" target="http://scta.info/resource/gen18_27@7-9"/>
+            Quosdam per tumorem sensus non elevat, sed per misericordiae opera; quidam dum se <pb ed="#P" n="0129B"/> terrenis abundare conspiciunt, veras divitias non requirunt, et aeternum regnum non amant, quia temporalia sufficere putant. Non est ergo sensus in crimine, sed affectus. Cuncta enim quae Deus condidit bona sunt. Sed qui bonis male utitur, hic agit ut per edacitatis ingluviem eo, quo vivere debuit, pane moriatur. Pauper ad requiem Lazarus venerat, superbum divitem cruciabant tormenta <!--<note>(Luc. XVI)</note>-->: dives tamen Abraham fuerat, qui Lazarum in sinu tenebat. Ait tamen: <quote xml:id="gom-gen18-Qd1e533" source="http://scta.info/resource/gen18_27@7-15">Loquar ad Dominum meum cum sim pulvis et cinis,</quote> etc. Quid divitias suas aestimabat, qui seipsum pulverem cineremque putabat? Aperte cernimus in quo loco se posuerat, qui se pulverem et cinerem, etiam cum Deo loqueretur, aestimabat. Qua ergo poena feriendi sunt, qui <pb ed="#P" n="0129C"/> ad summa non proficiunt et de minimis se extollunt?
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e541">
+          <head xml:id="gom-gen18-Hd1e543">Versus 28</head>
+          <p xml:id="gom-gen18-d1e545">
+            <quote xml:id="gom-gen18-Qd1e547" type="lemma" source="http://scta.info/resource/gen18_28@6-7">Quinque fuerint.</quote>
+            Quinque civitates igneis imbribus combustae. Omnes enim qui quinque corporis sensus libidinose tractaverunt, futuro incendio sunt cremandi.
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e552">
+          <head xml:id="gom-gen18-Hd1e554">Versus 30</head>
+          <p xml:id="gom-gen18-d1e556">
+            <quote xml:id="gom-gen18-Qd1e558" type="lemma" source="http://scta.info/resource/gen18_30@8-10">Quid si inventi,</quote>
+            etc.
+            <ref xml:id="gom-gen18-Rd1e561"><name xml:id="gom-gen18-Nd1e562">ALC.</name></ref>
+            <quote xml:id="gom-gen18-Qd1e564">Non necesse est hoc de omni loco accipere. De Sodomis autem potuit dici, quia sciebat Deus nec decem esse ibi, et ideo sic respondebatur Abrahae ad exaggerationem iniquitatis Sodomorum</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen18-Dd1e568">
+          <head xml:id="gom-gen18-Hd1e570">Versus 32</head>
+          <p xml:id="gom-gen18-d1e572">
+            <quote xml:id="gom-gen18-Qd1e574" type="lemma" source="http://scta.info/resource/gen18_32@15-15">Decem.</quote>
+            Denarius crucem Christi designat quia X littera, qua denarius exprimitur, in figura crucis formatur.
+          </p>
+          <p xml:id="gom-gen18-d1e578">
+            <quote xml:id="gom-gen18-Qd1e580" type="lemma" source="http://scta.info/resource/gen18_32@16-16">Dixit.</quote>
+            Sciebat enim nec unum ibi esse praeter <pb ed="#P" n="0129D"/> Lot; ad exaggerandam iniquitatem hoc dicitur, sicut apud Jeremiam: « Videte si inveniatis hominem facientem justitiam <!--<note>(Jer. V)</note>-->; quasi: Invenite vel unum, et parco eis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

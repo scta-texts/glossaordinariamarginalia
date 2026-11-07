@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0116A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen12">
+        <head xml:id="gom-gen12-Hd1e98">Caput 12</head>
+        <div xml:id="gom-gen12-Dd1e100">
+          <head xml:id="gom-gen12-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen12-d1e104">
+            <quote xml:id="gom-gen12-Qd1e106" type="lemma" source="http://scta.info/resource/gen12_1@6-8">Egredere de terra,</quote>
+            etc.
+            <ref xml:id="gom-gen12-Rd1e109"><name xml:id="gom-gen12-Nd1e110" ref="#Augustine">AUG.</name> ubi supra.</ref>
+            <quote xml:id="gom-gen12-Qd1e114"><seg type="qs">Consideranda est narratio Stephani de hac re</seg>, etc., usque ad <seg type="qs">sic igitur locatus est in terra illa Abram, quando ibi vixit usque ad nativitatem Jacob.</seg></quote>
+          </p>
+          <p xml:id="gom-gen12-d1e122">
+            <ref xml:id="gom-gen12-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/gen12_1@6-8"/>
+            <ref xml:id="gom-gen12-Rd1e126"><name xml:id="gom-gen12-Nd1e127">STRAB.</name></ref>
+            <quote xml:id="gom-gen12-Qd1e129">Notandum quod jam egressus fuerat de terra sua, sed tunc egressus fuerat corpore, non <pb ed="#P" n="0116B"/> mente et voluntate; habebat enim animum forsitan revertendi, quando dictum est ei: <quote xml:id="gom-gen12-Qd1e133" source="http://scta.info/resource/gen12_1@6-6">Egredere,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-gen12-d1e138">
+            <ref xml:id="gom-gen12-Rd1e140" type="lemma" subtype="implied" target="http://scta.info/resource/gen12_1@6-8"/>
+            <ref xml:id="gom-gen12-Rd1e142"><name xml:id="gom-gen12-Nd1e143" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen12-Qd1e146">Reliquit terram Christus et cognationem Judaeorum, et magnificatus est in populis gentium. Nobis quoque exeundum est de terra nostra, id est, de facultatibus et opibus terrenis, et cognatione, id est conversatione vitiorum, quae, nobis a nativitate cohaerentia, quasi affinitates consanguinitatis sunt conjuncta; et <quote xml:id="gom-gen12-Qd1e148" source="http://scta.info/resource/gen12_1@15-17">de domo patris,</quote> id est de memoria mundi, ut ei renuntiantes possimus cum populo Dei dilatari, et in terram promissionis coelestis, cum tempus venerit, introduci.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen12-Dd1e154">
+          <head xml:id="gom-gen12-Hd1e156">Versus 2</head>
+          <p xml:id="gom-gen12-d1e158">
+            <ref xml:id="gom-gen12-Rd1e160" type="lemma" subtype="implied" target="http://scta.info/resource/gen12_2"/>
+            Faciamque te in gentem magnam, » etc.
+          </p>
+          <p xml:id="gom-gen12-d1e163">
+            <ref xml:id="gom-gen12-Rd1e165" type="lemma" subtype="implied" target="http://scta.info/resource/gen12_2"/>
+            <ref xml:id="gom-gen12-Rd1e167"><name xml:id="gom-gen12-Nd1e168" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen12-Qd1e171">Duo promittuntur Abrae, quod scilicet terram Chanaan semen ejus possidebit, cum dicitur: <pb ed="#P" n="0116C"/> <quote xml:id="gom-gen12-Qd1e175" source="http://scta.info/resource/gen12_1@19-23">Et veni in terram quam monstrabo tibi.</quote> Aliud autem longe praestantius, non de carnali, sed de spirituali semine, quo pater futurus est, non tantum gentis Judaicae, sed omnium gentium fidem suam sequentium; quod ita promittitur: <quote xml:id="gom-gen12-Qd1e178" source="http://scta.info/resource/gen22_18@1-8">Et benedicentur in te omnes gentes terrae.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen12-Dd1e183">
+          <head xml:id="gom-gen12-Hd1e185">Versus 4</head>
+          <p xml:id="gom-gen12-d1e187">
+            <quote xml:id="gom-gen12-Qd1e189" type="lemma" source="http://scta.info/resource/gen12_4@14-16">Septuaginta quinque annorum.</quote>
+            <ref xml:id="gom-gen12-Rd1e192"><name xml:id="gom-gen12-Nd1e193" ref="#Jerome">HIERON.</name> in Q. Hebr.</ref>
+            <quote xml:id="gom-gen12-Qd1e197"><seg type="qs">Si Thare pater Abrae in regione Chaldaea</seg>, etc., usque ad <seg type="qs">et ibi diutius moratus sit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen12-Dd1e206">
+          <head xml:id="gom-gen12-Hd1e208">Versus 8</head>
+          <p xml:id="gom-gen12-d1e210">
+            <quote xml:id="gom-gen12-Qd1e212" type="lemma" source="http://scta.info/resource/gen12_8@10-10">Bethel.</quote>
+            <ref xml:id="gom-gen12-Rd1e215"><name xml:id="gom-gen12-Nd1e216" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen12-Qd1e219">Interpretatur <mentioned>domus Dei</mentioned>, quae post Bethaven vocata est, id est <mentioned>domus idoli</mentioned>.</quote>
+          </p>
+          <p xml:id="gom-gen12-d1e227">
+            <quote xml:id="gom-gen12-Qd1e229" type="lemma" source="http://scta.info/resource/gen12_8@22-22">Hai.</quote>
+          </p>
+          <p xml:id="gom-gen12-d1e233">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen12-d1e235">
+            <ref xml:id="gom-gen12-Rd1e237" type="lemma" subtype="implied" target="http://scta.info/resource/gen12_8@22-22"/>
+            Hai <mentioned>oculus</mentioned> vel <mentioned>fons</mentioned> interpretatur. Patriarcha ergo tendens ad terram promissionis, tetendit tabernaculum inter Bethel <pb ed="#P" n="0116D"/> et Hai, quia sancti fonte baptismi regenerati, in cursu hujus vitae circumspecti, ad Dei tabernaculum, id est, coelestem properant civitatem.
+          </p>
+        </div>
+        <div xml:id="gom-gen12-Dd1e248">
+          <head xml:id="gom-gen12-Hd1e250">Versus 13</head>
+          <p xml:id="gom-gen12-d1e252">
+            <quote xml:id="gom-gen12-Qd1e254" type="lemma" source="http://scta.info/resource/gen12_13@1-3">Dic ergo, obsecro,</quote>
+            etc.
+            <ref xml:id="gom-gen12-Rd1e257"><name xml:id="gom-gen12-Nd1e258" ref="#Augustine">AUG.</name> lib. XVI de Civ., c. 19.</ref>
+            <quote xml:id="gom-gen12-Qd1e262"><seg type="qs">Quaeritur cur patriarcha voluit mentiri</seg>, etc., usque ad <seg type="qs">et vitam suam et uxoris pudicitiam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen12-Dd1e271">
+          <head xml:id="gom-gen12-Hd1e273">Versus 15</head>
+          <p xml:id="gom-gen12-d1e275">
+            <quote xml:id="gom-gen12-Qd1e277" type="lemma" source="http://scta.info/resource/gen12_15@11-13">Sublata est mulier.</quote>
+            <ref xml:id="gom-gen12-Rd1e280"><name xml:id="gom-gen12-Nd1e281" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen12-Qd1e284">Excusatur Sarai, quae in domum Pharaonis transfertur invita, non solum in hoc quod non inquinatur corpus nec anima nisi mentis consensu, sed etiam in hoc quod conveniente et permittente viro suo factum est.</quote>
+          </p>
+          <p xml:id="gom-gen12-d1e287">
+            <ref xml:id="gom-gen12-Rd1e289" type="lemma" subtype="implied" target="http://scta.info/resource/gen12_15@11-13"/>
+            <ref xml:id="gom-gen12-Rd1e291"><name xml:id="gom-gen12-Nd1e292" ref="#Augustine">AUG.</name> Quaest. in Gen.</ref>
+            <quote xml:id="gom-gen12-Qd1e296">Apud Pharaonem tandiu <pb ed="#P" n="0117A"/> potuit esse intacta, quia in Esther legitur quod puellae non statim ad reges introducebantur, sed uno anno custodiebantur, et sex mensibus oleo myrrhino ungebantur, et aliis sex mensibus in diversis odoramentis erant. Potuit ergo per has inducias temporis intacta manere. Et interim bene usi sunt Abram Aegyptii, donec Pharao a Deo flagellatus, et cognoscens quod esset uxor ejus, redderet intactam.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

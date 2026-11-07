@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 43</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 43</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0172C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen43">
+        <head xml:id="gom-gen43-Hd1e98">Caput 43</head>
+        <div xml:id="gom-gen43-Dd1e100">
+          <head xml:id="gom-gen43-Hd1e102">Versus 11</head>
+          <p xml:id="gom-gen43-d1e104">
+            <quote xml:id="gom-gen43-Qd1e106" type="lemma" source="http://scta.info/resource/gen43_11@27-32">Modicum resinae et mellis et storacis,</quote>
+            etc.
+            <ref xml:id="gom-gen43-Rd1e109"><name xml:id="gom-gen43-Nd1e110" ref="#Jerome">HIER.</name> Quaest. Hebr., tom. III.</ref>
+            <quote xml:id="gom-gen43-Qd1e114"><seg type="qs">Aliquid resinae, et mellis</seg>, etc., usque ad <seg type="qs">eo quod in illo sunt aromata diversa condita.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen43-Dd1e123">
+          <head xml:id="gom-gen43-Hd1e125">Versus 23</head>
+          <p xml:id="gom-gen43-d1e127">
+            <quote xml:id="gom-gen43-Qd1e129" type="lemma" source="http://scta.info/resource/gen43_23@8-16">Deus vester et Deus patris vestri dedit vobis thesauros,</quote>
+            etc.
+            <ref xml:id="gom-gen43-Rd1e132"><name xml:id="gom-gen43-Nd1e133" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen43-Qd1e136">Mendacium videtur, sed aliquid significare credendum est. Argentum enim, quod datur et non minuitur, quod et probatum appellatum est, illud forte est de quo dicitur psalmo XI: <quote xml:id="gom-gen43-Qd1e138" source="http://scta.info/resource/ps11_7@1-12">Eloquia Domini eloquia casta, argentum igne examinatum, probatum terrae, purgatum <pb ed="#P" n="0172D"/> septuplum,</quote> id est probatum perfecte.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen43-Dd1e146">
+          <head xml:id="gom-gen43-Hd1e148">Versus 29</head>
+          <p xml:id="gom-gen43-d1e150">
+            <quote xml:id="gom-gen43-Qd1e152" type="lemma" source="http://scta.info/resource/gen43_29@1-6">Attollens autem Joseph oculos vidit Benjamin,</quote>
+            etc.
+            <ref xml:id="gom-gen43-Rd1e155"><name xml:id="gom-gen43-Nd1e156" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen43-Qd1e159">Act. IX Paulum quasi lux circumfulsit, qui parvulus, quia nondum maturam fidei aetatem gerebat. Unde etiam adolescens legitur, dum lapidantium Stephanum vestimenta servabat. Flevit Joseph; caecitas Pauli fletus est Christi; lavit faciem Christus, cum baptizatur Paulus, per quem a plurimis videndus est Christus.</quote>
+          </p>
+          <p xml:id="gom-gen43-d1e162">
+            <ref xml:id="gom-gen43-Rd1e164" type="lemma" subtype="implied" target="http://scta.info/resource/gen43_29@1-6"/>
+            <ref xml:id="gom-gen43-Rd1e166"><name xml:id="gom-gen43-Nd1e167" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen43-Qd1e170">Affectus boni animi semper proclivis est ad pietatem. Unde in Joseph virtutum possumus considerare copiam. Castus erat, cum sprevit impudicitiam dominae; sapiens, cum diligenti investigatione fratrum animos explorabat, qualiter sentirent <pb ed="#P" n="0173A"/> de fratre suo uterino; justus erat in adhibitione disciplinae delinquentibus; pius, in conversione poenitentium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen43-Dd1e177">
+          <head xml:id="gom-gen43-Hd1e179">Versus 32</head>
+          <p xml:id="gom-gen43-d1e181">
+            <quote xml:id="gom-gen43-Qd1e183" type="lemma" source="http://scta.info/resource/gen43_32@1-2">Quibus appositis,</quote>
+            etc. Seorsum appositi sunt cibi Joseph quasi advenae, et scorsum fratribus, quasi exteris natione: Aegyptiis quoque seorsum, quasi indigenis, qui putabant profanum esse cum peregrinis convivium.
+          </p>
+        </div>
+        <div xml:id="gom-gen43-Dd1e189">
+          <head xml:id="gom-gen43-Hd1e191">Versus 34</head>
+          <p xml:id="gom-gen43-d1e193">
+            <quote xml:id="gom-gen43-Qd1e195" type="lemma" source="http://scta.info/resource/gen43_34@16-19">Biberuntque et inebriati sunt,</quote>
+            etc.
+            <ref xml:id="gom-gen43-Rd1e198"><name xml:id="gom-gen43-Nd1e199" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen43-Qd1e202">Solent ebriosi hoc testimonium adhibere sibi in patrocinium propter Joseph, qui valde sapiens commendatur. Sed hoc verbum pro saturitate ponitur in Scripturis, unde psalmo LXIV: <quote xml:id="gom-gen43-Qd1e204" source="http://scta.info/resource/ps64_10@1-5">Visitasti terram et inebriasti eam,</quote> quia in laude benedictionis hoc positum est, et donum Dei commemoratur; apparet <pb ed="#P" n="0173B"/> hanc ebrietatem saturitatem significare: nam ita inebriari ut inebriantur ebriosi, nec ipsi terrae utile est; quoniam majore humore quam sufficit, corrumpitur; sicut vita ebriosi, qui non satietate se replet, sed mergit diluvio.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

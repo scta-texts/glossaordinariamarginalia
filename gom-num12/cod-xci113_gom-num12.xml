@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0401B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num12">
+        <head xml:id="gom-num12-Hd1e98">Caput 12</head>
+        <div xml:id="gom-num12-Dd1e100">
+          <head xml:id="gom-num12-Hd1e102">Versus 1</head>
+          <p xml:id="gom-num12-d1e104">
+            <quote xml:id="gom-num12-Qd1e106" type="lemma" source="http://scta.info/resource/num12_1@1-3">Locutaque est Maria,</quote>
+            etc.
+            <ref xml:id="gom-num12-Rd1e109"><name xml:id="gom-num12-Nd1e110" ref="#Origen">ORIG.</name>, hom. 7 in Num.</ref>
+            <quote xml:id="gom-num12-Qd1e114"><seg type="qs">Maria, plebs Judaica; Moyses lex Domini <pb ed="#P" n="0401C"/> est</seg>, etc., usque ad <seg type="qs">cum fiet unus grex et unus pastor <!--<note>(Joan. X)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-num12-d1e126">
+            <ref xml:id="gom-num12-Rd1e128" type="lemma" subtype="implied" target="http://scta.info/resource/num12_1@1-3"/>
+            <ref xml:id="gom-num12-Rd1e130"><name xml:id="gom-num12-Nd1e131" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num12-Qd1e134"><seg type="qs">Quia detraxerunt Aaron et Maria Moysi, correpti sunt</seg>, etc., usque ad <seg type="qs">lepra enim consequitur detrectantes et cacologos.</seg></quote>
+          </p>
+          <p xml:id="gom-num12-d1e142">
+            <ref xml:id="gom-num12-Rd1e144" type="lemma" subtype="implied" target="http://scta.info/resource/num12_1@1-3"/>
+            <ref xml:id="gom-num12-Rd1e146"><name xml:id="gom-num12-Nd1e147" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num12-Qd1e150">Omnis etiam qui scripta Moysi male intelligit, et spiritalem legem carnaliter suscipit, detrahit ei, quia de verbis spiritus carnaliter sentit.</quote>
+          </p>
+          <p xml:id="gom-num12-d1e153">
+            <ref xml:id="gom-num12-Rd1e155" type="lemma" subtype="implied" target="http://scta.info/resource/num12_1@1-3"/>
+            Mystice, non solum Judaei haeretici, qui non recipiunt legem et prophetas, detrahunt Moysi. Qui impingunt etiam ei quod homicida fuit, quia Aegyptium interfecit, et alia multa etiam in alios prophetas blasphemo ore concinnant: ideo sunt in anima leprosi, et ejiciuntur ab ecclesia Dei. Vel, haeretici, qui detrahunt proximis.
+          </p>
+          <p xml:id="gom-num12-d1e159">
+            <pb ed="#P" n="0401D"/>
+            <quote xml:id="gom-num12-Qd1e163" type="lemma" source="http://scta.info/resource/num12_1@11-11">Aethiopissam.</quote>
+            <ref xml:id="gom-num12-Rd1e166"><name xml:id="gom-num12-Nd1e167" ref="#Augustine">AUG.</name>, quae est. 20.</ref>
+            <quote xml:id="gom-num12-Qd1e171"><seg type="qs">De uxore Moysi</seg> etc., usque ad <seg type="qs">sicut solent locorum et gentium nomina plerumque vetustate mutari.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num12-Dd1e180">
+          <head xml:id="gom-num12-Hd1e182">Versus 6</head>
+          <p xml:id="gom-num12-d1e184">
+            <quote xml:id="gom-num12-Qd1e186" type="lemma" source="http://scta.info/resource/num12_6@7-8">Si quis.</quote>
+            <ref xml:id="gom-num12-Rd1e189"><name xml:id="gom-num12-Nd1e190" ref="#Origen">ORIG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-num12-Qd1e194"><seg type="qs">Audite quantum beneficii conferunt obtrectantes</seg>, etc., usque ad <seg type="qs">vel ad ipsum Deus non loquitur in aenigmate, sed in specie.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num12-Dd1e203">
+          <head xml:id="gom-num12-Hd1e205">Versus 8</head>
+          <p xml:id="gom-num12-d1e207">
+            <quote xml:id="gom-num12-Qd1e209" type="lemma" source="http://scta.info/resource/num12_8@14-14">Dominum.</quote>
+            <ref xml:id="gom-num12-Rd1e212"><name xml:id="gom-num12-Nd1e213" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num12-Qd1e216">Alia littera: <quote xml:id="gom-num12-Qd1e218" source="http://scta.info/resource/num12_8@12-15">Et gloriam Domini videt.</quote> Vidit Moyses gloriam Domini, quando transformatus est Dominus in monte, et aderat ei Moyses cum Elia, et colloquebatur <!--<note>(Luc. IX)</note>-->. Ideo recte addit:</quote>
+          </p>
+          <p xml:id="gom-num12-d1e225">
+            <quote xml:id="gom-num12-Qd1e227" type="lemma" source="http://scta.info/resource/num12_8@16-17">Quare igitur.</quote>
+            <ref xml:id="gom-num12-Rd1e230"><name xml:id="gom-num12-Nd1e231" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num12-Qd1e234"><seg type="qs">Quod ad eos dicitur</seg>, etc., usque ad <seg type="qs">sed pro magnitudine sensuum eum glorificemus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num12-Dd1e243">
+          <head xml:id="gom-num12-Hd1e245">Versus 10</head>
+          <p xml:id="gom-num12-d1e247">
+            <pb ed="#P" n="0402A"/>
+            <quote xml:id="gom-num12-Qd1e251" type="lemma" source="http://scta.info/resource/num12_10@1-3">Nubes quoque recessit.</quote>
+            <ref xml:id="gom-num12-Rd1e254"><name xml:id="gom-num12-Nd1e255" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num12-Qd1e258"><seg type="qs"><quote xml:id="gom-num12-Qd1e260" source="http://scta.info/resource/num12_10@1-7">Et nubes recessit de tabernaculo,</quote> etc. Prius recessit nubes</seg>, etc., usque ad <seg type="qs">et appareat in nobis lepra peccati.</seg></quote>
+          </p>
+          <p xml:id="gom-num12-d1e268">
+            <quote xml:id="gom-num12-Qd1e270" type="lemma" source="http://scta.info/resource/num12_10@16-17">Cumque respexisset.</quote>
+            <ref xml:id="gom-num12-Rd1e273"><name xml:id="gom-num12-Nd1e274" ref="#Origen">ORIG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-num12-Qd1e278"><seg type="qs">Alia littera: <quote xml:id="gom-num12-Qd1e281">Et respexit Aaron ad Mariam, et ecce Maria erat leprosa.</quote> Vult in hoc ostendere</seg>, etc., usque ad <seg type="qs">ad perfectae nativitatis instituta revocat Apostolus: <quote xml:id="gom-num12-Qd1e286" source="http://scta.info/resource/gal4_19@1-10">Filioli mei, quos iterum parturio, donec formetur Christus in vobis,</quote> etc. <!--<note>(Gal. IV.)</note>--></seg></quote>
+          </p>
+          <p xml:id="gom-num12-d1e292">
+            <ref xml:id="gom-num12-Rd1e294" type="lemma" subtype="implied" target="http://scta.info/resource/num12_10@16-17"/>
+            VERS.-- <quote xml:id="gom-num12-Qd1e296" source="http://scta.info/resource/num12_13@1-9">Clamavitque Moyses ad Dominum dicens: Deus, obsecro, sana eam. Cui respondit Dominus.</quote>
+          </p>
+          <p xml:id="gom-num12-d1e300">
+            <ref xml:id="gom-num12-Rd1e302" type="lemma" subtype="implied" target="http://scta.info/resource/num12_10@16-17"/>
+            <ref xml:id="gom-num12-Rd1e304"><name xml:id="gom-num12-Nd1e305" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num12-Qd1e308">Alia littera: <quote xml:id="gom-num12-Qd1e310">Et proclamavit Moyses ad Dominum dicens: Domine, precor te, sana eam,</quote> etc. Quem oportebat orare pro sanitate populi sui, nisi Moysen? Forte hoc erat quod cum Domino loquebatur in <pb ed="#P" n="0402B"/> monte transformato <!--<note>(Matth. XVII)</note>-->, petens ut cum plenitudo gentium introisset omnis Israel salvus fieret <!--<note>(Rom. XI)</note>-->.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num12-Dd1e322">
+          <head xml:id="gom-num12-Hd1e324">Versus 14</head>
+          <p xml:id="gom-num12-d1e326">
+            <quote xml:id="gom-num12-Qd1e328" type="lemma" source="http://scta.info/resource/num12_14@7-13">Spuisset in faciem illius, nonne debuerat saltem,</quote>
+            etc. Signum repudii est in faciem conspui. Unde proximus qui repudiat conjugium, discalciatus in faciem conspuitur. Hinc Isaias: <quote xml:id="gom-num12-Qd1e331" source="http://scta.info/resource/is40_15@2-11">Omnes gentes sicut gutta situlae, et sicut sputum reputatae sunt</quote>. Ostenditur ergo quod etiam ille populus, sicut caeterae gentes, quae ut sputum reputantur, abjectus est. Si enim consideres priorem honorem, pontificalem ordinem, insignia sacerdotum, Levitica ministeria, majestatem templi, et eos cum coelestibus in terris habere consortia, qui fuit ille honor, quae gloria? <!--<note>(Rom. V.)</note>--> Nunc autem <pb ed="#P" n="0402C"/> multo dedecore horrescunt sine templo, sine altari, sine sacrificio, sine propheta, sine sacerdotio, et sine coelesti visitatione. Unde patet quod pater conspuens perfudit vultus eorum ignominia. Septem ergo diebus separantur extra castra, id est per septimam hujus mundi; in septimana autem dierum totius creaturae visibilis videntur productae esse substantiae; tunc enim quae non erant, facta sunt. In septimanam totius mundi quaedam secreta et Deo soli cognita dispensatione quae tunc producta sunt, explicantur: in hac septimana (quia sequestrata est Maria) non moventur castra filiorum Israel, sed stant in uno conclusi, et nullus ex eis profectus est, donec mundaretur Maria a lepra sua.
+          </p>
+        </div>
+        <div xml:id="gom-num12-Dd1e340">
+          <head xml:id="gom-num12-Hd1e342">Versus 15</head>
+          <p xml:id="gom-num12-d1e344">
+            <quote xml:id="gom-num12-Qd1e346" type="lemma" source="http://scta.info/resource/num12_15@7-16">Septem diebus: et populus non est motus de loco <pb ed="#P" n="0402D"/> illo.</quote>
+            <ref xml:id="gom-num12-Rd1e351"><name xml:id="gom-num12-Nd1e352" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num12-Qd1e355">Maria quidem interveniente Aaron pontifice septimo die curatur. Nos autem obtrectantes usque ad finem septimanae mundi, id est usque ad resurrectionem permanebimus leprosi, nisi, dum poenitendi tempus est, corrigamur conversi ad Jesum et per poenitentiam supplicantes ei.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

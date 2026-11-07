@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Deuteronomium, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0461A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-deut8">
+        <head xml:id="gom-deut8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-deut8-Dd1e100">
+          <head xml:id="gom-deut8-Hd1e102">Versus 2</head>
+          <p xml:id="gom-deut8-d1e104">
+            <quote xml:id="gom-deut8-Qd1e106" type="lemma" source="http://scta.info/resource/deut8_2@12-13">Quadraginta annis.</quote>
+            Ideo enim per quadraginta annos permisit eos affligi, ut cognoscerent <pb ed="#P" n="0461B"/> quantae fragilitatis essent.
+          </p>
+          <p xml:id="gom-deut8-d1e112">
+            <quote xml:id="gom-deut8-Qd1e114" type="lemma" source="http://scta.info/resource/deut8_2@16-18">Ut affligeret te.</quote>
+            <ref xml:id="gom-deut8-Rd1e117"><name xml:id="gom-deut8-Nd1e118" ref="#Augustine">AUG.</name>, quaest. 13.</ref>
+            <quote xml:id="gom-deut8-Qd1e122"><seg type="qs">Hic apertius dictum est</seg>, etc., usque ad <seg type="qs">quod si dixisset, intelligendum erat, cognita faceret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut8-Dd1e131">
+          <head xml:id="gom-deut8-Hd1e133">Versus 3</head>
+          <p xml:id="gom-deut8-d1e135">
+            <quote xml:id="gom-deut8-Qd1e137" type="lemma" source="http://scta.info/resource/deut8_3@8-8">Manna.</quote>
+            Carnem Christi, qua refecti ad veram promissionis terram veniamus. Quadraginta annis manna comedimus, id est, toto tempore nostro, quod quatuor vicissitudinibus volvitur, Dominici corporis sacramento pascimur.
+          </p>
+          <p xml:id="gom-deut8-d1e141">
+            <quote xml:id="gom-deut8-Qd1e143" type="lemma" source="http://scta.info/resource/deut8_3@19-27">Non in solo pane vivit homo, sed in omni,</quote>
+            etc. Spiritalis cibus commendatur, unde animae in aeternum victurae satiantur. Manna de coelo datum carnem Christi significat, qui ait: <quote xml:id="gom-deut8-Qd1e146" source="http://scta.info/resource/io6_41@8-14">Ego sum panis vitae, hic est panis qui de coelo descendit</quote>, quia Verbum caro factum est, et habitavit in nobis. <quote xml:id="gom-deut8-Qd1e149" source="http://scta.info/resource/io6_55@1-11">Qui manducat <pb ed="#P" n="0461C"/> hanc carnem, habet vitam aeternam.</quote>
+          </p>
+          <p xml:id="gom-deut8-d1e155">
+            <quote xml:id="gom-deut8-Qd1e157" type="lemma" source="http://scta.info/resource/deut8_3@19-22">Non in solo pane,</quote>
+            etc. Significat geminam naturae nostrae substantiam. Homo enim ex anima et corpore constat: corpus, quod ex terra est, terreno alitur cibo; anima vero vivit de verbo Dei; spiritum vero hominis vivificat spiritus Dei, si tamen homo est in corpore Ecclesiae, id est Christi, et in fide Filii Dei. Ideo addit: <quote xml:id="gom-deut8-Qd1e160">Vestimentum ejus vetustate non deficere;</quote> quia novi hominis conversatio in novitate vitae debet permanere, cujus pes non est subtritus, quia gressus operum ejus servatur illaesus: <quote xml:id="gom-deut8-Qd1e162" source="http://scta.info/resource/ps1_6@2-9">Quia novit Dominus viam justorum, et iter impiorum peribit</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-deut8-Dd1e167">
+          <head xml:id="gom-deut8-Hd1e169">Versus 11</head>
+          <p xml:id="gom-deut8-d1e171">
+            <quote xml:id="gom-deut8-Qd1e173" type="lemma" source="http://scta.info/resource/deut8_11@14-14">Judicia.</quote>
+            Quae per Moysen post legem datam diversis temporibus populo praecepta sunt, <pb ed="#P" n="0461D"/> quae in Exodo justificationes appellantur.
+          </p>
+          <p xml:id="gom-deut8-d1e179">
+            <quote xml:id="gom-deut8-Qd1e181" type="lemma" source="http://scta.info/resource/deut8_11@15-16">Et caeremonias.</quote>
+            Circumcisionem, ritus sacrificiorum. Unde Ambrosius super Epistolam ad Romanos: Triplex (inquit) lex est, prima pars de sacramento divinitatis; secunda congruit legi naturali, quae peccatum interdicit; tertia festorum legis, id est, sabbata, neomeniae, et circumcisio.
+          </p>
+        </div>
+        <div xml:id="gom-deut8-Dd1e186">
+          <head xml:id="gom-deut8-Hd1e188">Versus 15</head>
+          <p xml:id="gom-deut8-d1e190">
+            <quote xml:id="gom-deut8-Qd1e192" type="lemma" source="http://scta.info/resource/deut8_15@18-19">Ac dipsas.</quote>
+            Genus aspidis quae Latine dicitur situla, quemcunque momorderit, siti perit; adeo parva ut cum calcatur non videatur. Cujus venenum ante exstinguit, quam sentiatur, nec tristitiam sentit moriturus.
+          </p>
+          <p xml:id="gom-deut8-d1e196">
+            <ref xml:id="gom-deut8-Rd1e198" type="lemma" subtype="implied" target="http://scta.info/resource/deut8_15@18-19"/>
+            Mystice. Varii serpentes haereses sunt inter se quidem diversae, sed omnes mortiferae.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

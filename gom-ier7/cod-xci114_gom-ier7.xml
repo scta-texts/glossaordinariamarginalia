@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieremias, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieremias, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0020B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ier7">
+        <head xml:id="gom-ier7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-ier7-Dd1e100">
+          <head xml:id="gom-ier7-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ier7-d1e104">
+            <quote xml:id="gom-ier7-Qd1e106" type="lemma" source="http://scta.info/resource/ier7_2@1-5">Sta in porta domus Domini,</quote>
+            etc.,
+            <ref xml:id="gom-ier7-Rd1e109"><name xml:id="gom-ier7-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e113"><seg type="qs">Per quam multitudo populi ad rogandum Dominum ingreditur</seg>, etc., usque ad <seg type="qs">et per occasionem <pb ed="#P" n="0020C"/> et celebritatem loci audire coguntur verbum Domini.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e124">
+          <head xml:id="gom-ier7-Hd1e126">Versus 4</head>
+          <p xml:id="gom-ier7-d1e128">
+            <quote xml:id="gom-ier7-Qd1e130" type="lemma" source="http://scta.info/resource/ier7_4@7-8">Templum Domini.</quote>
+            <ref xml:id="gom-ier7-Rd1e133"><name xml:id="gom-ier7-Nd1e134" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e137"><seg type="qs">Potest hoc convenire illis virginibus</seg>, etc., usque ad <seg type="qs">in quo fides vera, conversatio sancta et omnium virtutum chorus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e146">
+          <head xml:id="gom-ier7-Hd1e148">Versus 8</head>
+          <p xml:id="gom-ier7-d1e150">
+            <quote xml:id="gom-ier7-Qd1e152" type="lemma" source="http://scta.info/resource/ier7_8@1-5">Ecce vos confiditis in vobis.</quote>
+            <ref xml:id="gom-ier7-Rd1e155"><name xml:id="gom-ier7-Nd1e156" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e159"><seg type="qs">Frustra eos in templo habere fiduciam haec peccata demonstrant</seg>, etc., usque ad <seg type="qs">et in tantam prorumpunt amentiam, ut liberatos se jactent, quia a cultu Dei recesserunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e168">
+          <head xml:id="gom-ier7-Hd1e170">Versus 11</head>
+          <p xml:id="gom-ier7-d1e172">
+            <quote xml:id="gom-ier7-Qd1e174" type="lemma" source="http://scta.info/resource/ier7_11@2-3">Spelunca latronum,</quote>
+            etc.
+            <ref xml:id="gom-ier7-Rd1e177"><name xml:id="gom-ier7-Nd1e178" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e181"><seg type="qs">De hoc loco sumptum puto quod dicitur in Evangelio</seg>, etc., usque ad <seg type="qs">oculi mei contemplati sunt quod vos putatis occultum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e191">
+          <head xml:id="gom-ier7-Hd1e193">Versus 12</head>
+          <p xml:id="gom-ier7-d1e195">
+            <pb ed="#P" n="0020D"/>
+            <quote xml:id="gom-ier7-Qd1e199" type="lemma" source="http://scta.info/resource/ier7_12@1-6">Ite ad locum meum in Silo,</quote>
+            etc.
+            <ref xml:id="gom-ier7-Rd1e202"><name xml:id="gom-ier7-Nd1e203" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e206">Ubi scilicet fuit primum tabernaculum meum, etc., <quote xml:id="gom-ier7-Qd1e208" source="http://scta.info/resource/lc18_8@9-16">usque ad Cum venerit Filius hominis putas inveniet fidem super terram</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e214">
+          <head xml:id="gom-ier7-Hd1e216">Versus 13</head>
+          <p xml:id="gom-ier7-d1e218">
+            <quote xml:id="gom-ier7-Qd1e220" type="lemma" source="http://scta.info/resource/ier7_13@13-16">Ad vos mane consurgens,</quote>
+            etc.
+            <ref xml:id="gom-ier7-Rd1e223"><name xml:id="gom-ier7-Nd1e224" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e227"><seg type="qs">Non quod ei tempus absque diluculo sit</seg>, etc., usque ad <seg type="qs">filii lucis dicuntur et non noctis neque tenebrarum, nec dormientes, qui scilicet mandata Dei conservant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e236">
+          <head xml:id="gom-ier7-Hd1e238">Versus 14</head>
+          <p xml:id="gom-ier7-d1e240">
+            <quote xml:id="gom-ier7-Qd1e242" type="lemma" source="http://scta.info/resource/ier7_14@24-26">Sicut feci Silo.</quote>
+            Abjeci Silo, abjecturus et templum: abjeci decem tribus, abjecturus et duas tribus. Quidquid illi populo minatur, timeamus et nobis, ne similia faciamus.
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e247">
+          <head xml:id="gom-ier7-Hd1e249">Versus 16</head>
+          <p xml:id="gom-ier7-d1e251">
+            <quote xml:id="gom-ier7-Qd1e253" type="lemma" source="http://scta.info/resource/ier7_16@1-3">Tu ergo noli,</quote>
+            etc.
+            <ref xml:id="gom-ier7-Rd1e256"><name xml:id="gom-ier7-Nd1e257" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e260"><seg type="qs">Ne videatur <pb ed="#P" n="0021A"/> propheta rogans non impetrare quod postulat, praecipit Dominus</seg>, etc., usque ad <seg type="qs">haec impoenitentia, haec blasphemia, vel verbum in Spiritum sanctum remissionem non habet in aeternum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e271">
+          <head xml:id="gom-ier7-Hd1e273">Versus 17</head>
+          <p xml:id="gom-ier7-d1e275">
+            <quote xml:id="gom-ier7-Qd1e277" type="lemma" source="http://scta.info/resource/ier7_17@1-2">Nonne vides.</quote>
+            Ne putemus crudelem Deum: qui nec rogari patiatur, causam reddit quare non audiat, <quote xml:id="gom-ier7-Qd1e280" source="http://scta.info/resource/ier7_17@1-2">Nonne vides?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e285">
+          <head xml:id="gom-ier7-Hd1e287">Versus 20</head>
+          <p xml:id="gom-ier7-d1e289">
+            <quote xml:id="gom-ier7-Qd1e291" type="lemma" source="http://scta.info/resource/ier7_20@12-12">Conflatur.</quote>
+            <ref xml:id="gom-ier7-Rd1e294"><name xml:id="gom-ier7-Nd1e295" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e298">Quasi dicat: Quod diu facere nolui, vestrorum peccatorum multitudine facere compellor super viros et super jumenta. Cum irascitur Deus, etiam homines, et quae sunt hominis, similem severitatem sentiunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e303">
+          <head xml:id="gom-ier7-Hd1e305">Versus 22</head>
+          <p xml:id="gom-ier7-d1e307">
+            <quote xml:id="gom-ier7-Qd1e309" type="lemma" source="http://scta.info/resource/ier7_22@1-4">Quia non sum locutus.</quote>
+            <ref xml:id="gom-ier7-Rd1e312"><name xml:id="gom-ier7-Nd1e313" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e316"><seg type="qs">Manifeste ostendit, quia primum decalogum dederit</seg>, etc., usque ad <seg type="qs">necessaria ergo fuit gratia evangelica, quae <pb ed="#P" n="0021B"/> eos non merito suo, sed Dei misericordia conservaret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e327">
+          <head xml:id="gom-ier7-Hd1e329">Versus 27</head>
+          <p xml:id="gom-ier7-d1e331">
+            <quote xml:id="gom-ier7-Qd1e333" type="lemma" source="http://scta.info/resource/ier7_27@1-4">Et loqueris ad eos.</quote>
+            <ref xml:id="gom-ier7-Rd1e336"><name xml:id="gom-ier7-Nd1e337" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e340"><seg type="qs">Ne dubitetis indurare cervices</seg>, etc., usque ad <seg type="qs">nunc saltem loquere eis verbis meis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e349">
+          <head xml:id="gom-ier7-Hd1e351">Versus 28</head>
+          <p xml:id="gom-ier7-d1e353">
+            <quote xml:id="gom-ier7-Qd1e355" type="lemma" source="http://scta.info/resource/ier7_28@5-7">Haec est gens.</quote>
+            Hoc in tempore prophetarum factum est, et in umbra praecessit. In Christo plene completum est, cujus disciplinam noluerunt audire, unde eleganter infertur: <quote xml:id="gom-ier7-Qd1e358" source="http://scta.info/resource/ier7_28@18-22">Periit fides et ablata est.</quote> Quae proprie Christianorum est.
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e363">
+          <head xml:id="gom-ier7-Hd1e365">Versus 29</head>
+          <p xml:id="gom-ier7-d1e367">
+            <quote xml:id="gom-ier7-Qd1e369" type="lemma" source="http://scta.info/resource/ier7_29@1-2">Tonde capillum.</quote>
+            Apud veteres consuetudo fuit lugentium tondere caesariem, nunc e contra comam dimittere luctus indicium est.
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e374">
+          <head xml:id="gom-ier7-Hd1e376">Versus 31</head>
+          <p xml:id="gom-ier7-d1e378">
+            <quote xml:id="gom-ier7-Qd1e380" type="lemma" source="http://scta.info/resource/ier7_31@3-4">Excelsa Tophet.</quote>
+            <ref xml:id="gom-ier7-Rd1e383"><name xml:id="gom-ier7-Nd1e384" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e387"><seg type="qs">Tophet Hebraice, latitudo Latine, qui locus est</seg>, etc., usque ad <seg type="qs"><pb ed="#P" n="0021C"/> neque enim si canis aut asinus aut immundum quod tibet animal primum occurrisset domino, offerre debuisset.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e397">
+          <head xml:id="gom-ier7-Hd1e399">Versus 32</head>
+          <p xml:id="gom-ier7-d1e401">
+            <quote xml:id="gom-ier7-Qd1e403" type="lemma" source="http://scta.info/resource/ier7_32@2-4">Ecce dies venient.</quote>
+            <ref xml:id="gom-ier7-Rd1e406"><name xml:id="gom-ier7-Nd1e407" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier7-Qd1e410">Quando recessit a fidelitate Domini sui, tunc incoepit obsidio. Sed cum rex Aegypti veniret et liberaret Jerusalem, Nabuchodonosor illum fugavit. Postea Nabuzardan obsedit eam, et cepit, et duxit Sedeciam in Antiochiam, et ibi orbatus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier7-Dd1e415">
+          <head xml:id="gom-ier7-Hd1e417">Versus 34</head>
+          <p xml:id="gom-ier7-d1e419">
+            <quote xml:id="gom-ier7-Qd1e421" type="lemma" source="http://scta.info/resource/ier7_34@1-3">Et quiescere faciam.</quote>
+            Cum locus idololatriae versus fuerit in sepulcra, ut ubi Deum offenderant, ibi cadavera eorum inhumata jacerent.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

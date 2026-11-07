@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0567C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam6">
+        <head xml:id="gom-IIsam6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-IIsam6-Dd1e100">
+          <head xml:id="gom-IIsam6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIsam6-d1e104">
+            <quote xml:id="gom-IIsam6-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam6_1@1-1">Congregavit.</quote>
+            <ref xml:id="gom-IIsam6-Rd1e109"><name xml:id="gom-IIsam6-Nd1e110" ref="#RabanusMaurus">RAB.</name>, ex Euch.</ref>
+            <quote xml:id="gom-IIsam6-Qd1e114"><seg type="qs">David Christum</seg>, etc., usque ad <seg type="qs">qui descendentes de Judaea docebant fratres: <quote xml:id="gom-IIsam6-Qd1e120" source="http://scta.info/resource/act15_1@9-17">Nisi circumcidamini secundum morem Moysi, non potestis salvi fieri</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam6-Dd1e126">
+          <head xml:id="gom-IIsam6-Hd1e128">Versus 2</head>
+          <p xml:id="gom-IIsam6-d1e130">
+            <quote xml:id="gom-IIsam6-Qd1e132" type="lemma" source="http://scta.info/resource/IIsam6_2@25-25">Sedentis.</quote>
+            Super arcam erat tabula quam alis duo cherubim tegebant, inter quos Dominus apparebat et loquebatur.
+          </p>
+          <p xml:id="gom-IIsam6-d1e136">
+            <ref xml:id="gom-IIsam6-Rd1e138" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam6_2@25-25"/>
+            <ref xml:id="gom-IIsam6-Rd1e140"><name xml:id="gom-IIsam6-Nd1e141" ref="#RabanusMaurus">RAB.</name>, ex Greg.</ref>
+            <quote xml:id="gom-IIsam6-Qd1e145">In historia regis David et prophetae qua arcam Dei adduxisse dicitur, humilitas approbata, superbia damnata, et temeritas vindicata monstratur. David enim, qui coram arca humiliter saltare non erubuit, mox promissionem Filii Dei de <pb ed="#P" n="0567D"/> sua stirpe nascituri suscipere meruit, et conjux, quae humilitatem despexit, perpetuae sterilitatis poenas luit. Sacerdos quoque qui arcam temerarie tetigit, reatum sui ausus immatura morte purgavit. Ubi intuendum est quantum delinquat qui ad corpus Domini reus accedit, si ille morte multatur qui arcam, Dominici corporis figuram, minori quam debuit veneratione corripuit.</quote>
+          </p>
+          <p xml:id="gom-IIsam6-d1e151">
+            <ref xml:id="gom-IIsam6-Rd1e153" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam6_2@25-25"/>
+            <ref xml:id="gom-IIsam6-Rd1e155"><name xml:id="gom-IIsam6-Nd1e156" ref="#GregoryGreat">GREG.</name>, l. V Moral., cap. 10.</ref>
+            <quote xml:id="gom-IIsam6-Qd1e160"><seg type="qs">Saepe quia intelligi non valent</seg>, etc., usque ad <seg type="qs">non meliorum facta vel dicta velut infirma judicarent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam6-Dd1e169">
+          <head xml:id="gom-IIsam6-Hd1e171">Versus 7</head>
+          <p xml:id="gom-IIsam6-d1e173">
+            <quote xml:id="gom-IIsam6-Qd1e175" type="lemma" source="http://scta.info/resource/IIsam6_7@12-13">Qui mortuus.</quote>
+            <ref xml:id="gom-IIsam6-Rd1e178"><name xml:id="gom-IIsam6-Nd1e179" ref="#RabanusMaurus">RAB.</name>, ex Euch.</ref>
+            <quote xml:id="gom-IIsam6-Qd1e183"><seg type="qs">Mortuo sacerdote non ausus est arcam divertere</seg>, etc., usque ad <seg type="qs">Aqua Gethaeus populus potest appellari, qui dicit, <pb ed="#P" n="0568A"/> <quote xml:id="gom-IIsam6-Qd1e191" source="http://scta.info/resource/gal6_14@1-8">Mihi autem absit gloriari nisi in cruce Domini</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam6-Dd1e197">
+          <head xml:id="gom-IIsam6-Hd1e199">Versus 11</head>
+          <p xml:id="gom-IIsam6-d1e201">
+            <quote xml:id="gom-IIsam6-Qd1e203" type="lemma" source="http://scta.info/resource/IIsam6_11@9-10">Tribus mensibus.</quote>
+            <ref xml:id="gom-IIsam6-Rd1e206"><name xml:id="gom-IIsam6-Nd1e207" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam6-Qd1e210"><seg type="qs">Quibus scilicet fides, spes et charitas significantur</seg>, etc., usque ad <seg type="qs">et ovium ducatum gerunt in martyrii sanguine coronans.</seg></quote>
+          </p>
+          <p xml:id="gom-IIsam6-d1e218">
+            <quote xml:id="gom-IIsam6-Qd1e220" type="lemma" source="http://scta.info/resource/IIsam6_11">In organis.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Id est, ad armum ligatis, dum manibus ferentis tanguntur. Aliud genus organi est quod cum aqua fit.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam6-Dd1e228">
+          <head xml:id="gom-IIsam6-Hd1e230">Versus 14</head>
+          <p xml:id="gom-IIsam6-d1e232">
+            <quote xml:id="gom-IIsam6-Qd1e234" type="lemma" source="http://scta.info/resource/IIsam6_14">Ephod lineo, et David,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-IIsam6-Rd1e239"><name xml:id="gom-IIsam6-Nd1e240" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIsam6-Qd1e243"><seg type="qs">Non pontificali, sed linea veste, causa humilitatis</seg>, etc., usque ad <seg type="qs">inter flagella triumphavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam6-Dd1e252">
+          <head xml:id="gom-IIsam6-Hd1e254">Versus 16</head>
+          <p xml:id="gom-IIsam6-d1e256">
+            <quote xml:id="gom-IIsam6-Qd1e258" type="lemma" source="http://scta.info/resource/IIsam6_16@1-3">Cumque intrasset arcam.</quote>
+            <ref xml:id="gom-IIsam6-Rd1e261"><name xml:id="gom-IIsam6-Nd1e262" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-IIsam6-Qd1e265"><seg type="qs">Cunctis exsultantibus et ad arcis coelestis introitum hymnos resonantibus</seg>, etc., usque ad <seg type="qs">quia qui verbum Dei <pb ed="#P" n="0568B"/> aure tenus percipiunt, absque boni operis proli diem perpetuae mortis exspectant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam6-Dd1e276">
+          <head xml:id="gom-IIsam6-Hd1e278">Versus 20</head>
+          <p xml:id="gom-IIsam6-d1e280">
+            <quote xml:id="gom-IIsam6-Qd1e282" type="lemma" source="http://scta.info/resource/IIsam6_20@10-16">Egressa Michol filia Saul in occursum David,</quote>
+            etc.
+            <ref xml:id="gom-IIsam6-Rd1e285"><name xml:id="gom-IIsam6-Nd1e286" ref="#GregoryGreat">GREG.</name>, lib. XXVII Moral., cap. 27.</ref>
+            <quote xml:id="gom-IIsam6-Qd1e290"><seg type="qs">Intueri libet quanta virtutum munera David perceperat</seg>, etc., usque ad <seg type="qs">tamen in se cervicem cordis valida discretionis calce deprimebat dicens: <quote xml:id="gom-IIsam6-Qd1e296" source="http://scta.info/resource/IIsam6_22@12-14">Eroque humilis in oculis.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-IIsam6-d1e300">
+            <quote xml:id="gom-IIsam6-Qd1e302" type="lemma" source="http://scta.info/resource/IIsam6_20@19-19">Gloriosus.</quote>
+            David cum arcam in Jerusalem transferret, a Michol subsannatus est. Et Christus cum Testamentum Novum in Ecclesiam suam transferret, Judaeis in cruce ludibrium fuit, nudus apparuit dum potentiam illis abscondens, carnis infirmitatem quasi ephod lineum ostendit. Ancillae servorum personam gestant sanctorum, inter quos per crucis <pb ed="#P" n="0568C"/> triumphum gloriosior effectus est: quem dum Michol irridet, gloriosior ancillis apparet, quae in typo Synagogae sterilis permansit.
+          </p>
+          <p xml:id="gom-IIsam6-d1e308">
+            <quote xml:id="gom-IIsam6-Qd1e310" type="lemma" source="http://scta.info/resource/IIsam6_20@30-31">Et nudatus.</quote>
+            Nudatus non omnino, sed regalibus indumentis: et quia se coram Domino humiliare non erubuit, mox promissionem Filii Dei ex sua stirpe nascituri suscipere meruit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

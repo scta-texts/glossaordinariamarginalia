@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0851D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps6">
+        <head xml:id="gom-ps6-Hd1e98">Psalmus 6</head>
+        <div xml:id="gom-ps6-Dd1e100">
+          <head xml:id="gom-ps6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps6-d1e104">
+            <pb ed="#P" n="0851D"/>
+            <quote xml:id="gom-ps6-Qd1e108" type="lemma" source="http://scta.info/resource/ps6_1@8-8">Octava</quote>
+            est adventus Domini, in qua peccator timet argui, et ideo poenitet.
+          </p>
+          <p xml:id="gom-ps6-d1e112">
+            <ref xml:id="gom-ps6-Rd1e114" type="lemma" subtype="implied" target="http://scta.info/resource/ps6_1@8-8"/>
+            <ref xml:id="gom-ps6-Rd1e116"><name xml:id="gom-ps6-Nd1e117" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e120"><seg type="qs">Octavam dicunt aliqui adventum Domini</seg>, etc., usque ad <seg type="qs">unde timens Ecclesia hic orat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e129">
+          <head xml:id="gom-ps6-Hd1e131">Versus 2</head>
+          <p xml:id="gom-ps6-d1e133">
+            <quote xml:id="gom-ps6-Qd1e135" type="lemma" source="http://scta.info/resource/ps6_2@1-4">Domine, ne in furore.</quote>
+            <ref xml:id="gom-ps6-Rd1e138"><name xml:id="gom-ps6-Nd1e139" ref="#BasilOfCasarea">BASIL.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e142">Confessio est deprecativa, quae apud Deum valet. Primo est exordium, in quo captat benevolentiam, per potestatem judicis, per infirmitatem suam, per consuetudinem parcendi: quia non vult a mortuis, sed a vivis rogari.</quote>
+          </p>
+          <p xml:id="gom-ps6-d1e145">
+            <quote xml:id="gom-ps6-Qd1e147" type="lemma" source="http://scta.info/resource/ps6_2@6-6">Arguas.</quote>
+            <ref xml:id="gom-ps6-Rd1e150"><name xml:id="gom-ps6-Nd1e151" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e154">Argui gravius est quam accusari, unde damnatio timetur. Corripi mitius, id est, emendari vel erudiri. Arguuntur in judicio, qui sine fundamento. Emendantur, id est, purgantur, qui supra illud lignum, fenum, stipulam <pb ed="#P" n="0852A"/> aedificaverunt. Dicit ergo hic: <quote xml:id="gom-ps6-Qd1e158" source="http://scta.info/resource/ps6_3@8-8">Sana,</quote> ne ibi sit opus, unde subdit: <quote xml:id="gom-ps6-Qd1e161" source="http://scta.info/resource/ps6_3@1-1">Miserere.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e166">
+          <head xml:id="gom-ps6-Hd1e168">Versus 3</head>
+          <p xml:id="gom-ps6-d1e170">
+            <quote xml:id="gom-ps6-Qd1e172" type="lemma" source="http://scta.info/resource/ps6_3@5-5">Infirmus</quote>
+            <ref xml:id="gom-ps6-Rd1e175"><name xml:id="gom-ps6-Nd1e176" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e179">Reatu infirmatur anima, a quo sana, quia ossa, id est, mens conturbatur ad praesentiam, et anima, id est, sensualitas: ergo usquequo differs, quasi dicat: Quid restat quin sanes?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e183">
+          <head xml:id="gom-ps6-Hd1e185">Versus 4</head>
+          <p xml:id="gom-ps6-d1e187">
+            <quote xml:id="gom-ps6-Qd1e189" type="lemma" source="http://scta.info/resource/ps6_4@11-11">Usquequo.</quote>
+            <ref xml:id="gom-ps6-Rd1e192"><name xml:id="gom-ps6-Nd1e193" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e196">Innuit se diu luctari cum vitiis. Non est autem crudelitas dilatio Dei, sed ut persuadeat animae, in quae mala se praecipitavit. Nondum enim tam perfecte orat, ut ei dicatur: <quote xml:id="gom-ps6-Qd1e198" source="http://scta.info/resource/is65">Adhuc te loquente dicam, ecce adsum .<!-- check: cited chapter given; verse not identified --></quote> Ut ex difficultate sanationis inde magis caveat sibi, et ut ostendatur quae poena sit non conversis, si tanta difficultas sit conversis, unde: <quote xml:id="gom-ps6-Qd1e202" source="http://scta.info/resource/Ipetr4_18@2-10">Si justus vix salvabitur, impius ubi apparebit?</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e208">
+          <head xml:id="gom-ps6-Hd1e210">Versus 5</head>
+          <p xml:id="gom-ps6-d1e212">
+            <pb ed="#P" n="0852B"/>
+            <quote xml:id="gom-ps6-Qd1e216" type="lemma" source="http://scta.info/resource/ps6_5@1-1">Convertere.</quote>
+            <ref xml:id="gom-ps6-Rd1e219"><name xml:id="gom-ps6-Nd1e220" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e223">Qui aversus eras, vel a vindicta.</quote>
+          </p>
+          <p xml:id="gom-ps6-d1e226">
+            <quote xml:id="gom-ps6-Qd1e228" type="lemma" source="http://scta.info/resource/ps6_5@4-4">Eripe,</quote>
+            ab imminente morte. Vel eripe animam peccatis ligatam.
+          </p>
+          <p xml:id="gom-ps6-d1e232">
+            <quote xml:id="gom-ps6-Qd1e234" type="lemma" source="http://scta.info/resource/ps6_5@8-10">Salvum me fac, etc.,</quote>
+            dando virtutes.
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e239">
+          <head xml:id="gom-ps6-Hd1e241">Versus 6</head>
+          <p xml:id="gom-ps6-d1e243">
+            <quote xml:id="gom-ps6-Qd1e245" type="lemma" source="http://scta.info/resource/ps6_6@1-3">Quoniam non est.</quote>
+            <ref xml:id="gom-ps6-Rd1e248"><name xml:id="gom-ps6-Nd1e249" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e252">Ideo hic festino dimitti, quia post mortem et in inferno non accipitur confessio. « In inferno.</quote>
+          </p>
+          <p xml:id="gom-ps6-d1e255">
+            <ref xml:id="gom-ps6-Rd1e257" type="lemma" subtype="implied" target="http://scta.info/resource/ps6_6@1-3"/>
+            <ref xml:id="gom-ps6-Rd1e259"><name xml:id="gom-ps6-Nd1e260" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e263">Confessus est dives, qui Lazarum vidit, etsi de profundo, cujus comparatione coactus est confiteri mala sua, usque adeo, ut et fratres roget ab his praemoneri: sed post judicium in profundioribus tenebris nullam lucem Dei videbunt, cui confiteantur. Vel, mortem dicit peccatum in quo immemor est Dei qui mandata ejus contemnit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e267">
+          <head xml:id="gom-ps6-Hd1e269">Versus 7</head>
+          <p xml:id="gom-ps6-d1e271">
+            <quote xml:id="gom-ps6-Qd1e273" type="lemma" source="http://scta.info/resource/ps6_7@1-1">Laboravi.</quote>
+            <ref xml:id="gom-ps6-Rd1e276"><name xml:id="gom-ps6-Nd1e277" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e280">Narrat aerumnas <pb ed="#P" n="0852C"/> quibus poenitentes avertitur; gemit dum videt quid egit, et quae poena futura.</quote>
+          </p>
+          <p xml:id="gom-ps6-d1e286">
+            <quote xml:id="gom-ps6-Qd1e288" type="lemma" source="http://scta.info/resource/ps6_7@10-10">Lectum.</quote>
+            Conscientiam, quae quibusdam quies, quibusdam tormentum. Stratum, sensualitatem; fertilem faciam, quae erat arida. Vel, lectus delectatio corporis, in qua homo resolvitur. Stratus, cumulus peccatorum ut vestium, quo resoluto, imbre lacrymarum, nova messis virtutum crescat.
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e293">
+          <head xml:id="gom-ps6-Hd1e295">Versus 8</head>
+          <p xml:id="gom-ps6-d1e297">
+            <quote xml:id="gom-ps6-Qd1e299" type="lemma" source="http://scta.info/resource/ps6_8@3-4">A furore.</quote>
+            <ref xml:id="gom-ps6-Rd1e302"><name xml:id="gom-ps6-Nd1e303" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e306"><seg type="qs">Ab ira, vel Dei, quae in judicio</seg>, etc., usque ad <seg type="qs">ne quis desperet de gravitate peccatorum, subdit: <quote xml:id="gom-ps6-Qd1e312">Discedite, etc.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps6-d1e315">
+            <ref xml:id="gom-ps6-Rd1e317" type="lemma" subtype="implied" target="http://scta.info/resource/ps6_8@3-4"/>
+            <ref xml:id="gom-ps6-Rd1e319"><name xml:id="gom-ps6-Nd1e320" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e323">Correptio, ut separetur ab illis, quorum collegio peccavit, et insistat mandatis Dei.</quote>
+          </p>
+          <p xml:id="gom-ps6-d1e326">
+            <quote xml:id="gom-ps6-Qd1e328" type="lemma" source="http://scta.info/resource/ps6_8@11-11">Inimicos,</quote>
+            <ref xml:id="gom-ps6-Rd1e331"><name xml:id="gom-ps6-Nd1e332" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e335">id est, vitia, vel malos homines, qui vere sunt inimici ad Deum se convertentium, a quibus <pb ed="#P" n="0852D"/> separatur omnis bonus, non loco, sed animo. Quia vero non est inanis tantus labor poenitentiae, exauditum se significans, subdit: <quote xml:id="gom-ps6-Qd1e339" source="http://scta.info/resource/ps6_9@1-1">Discedite.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e344">
+          <head xml:id="gom-ps6-Hd1e346">Versus 9</head>
+          <p xml:id="gom-ps6-d1e348">
+            <quote xml:id="gom-ps6-Qd1e350" type="lemma" source="http://scta.info/resource/ps6_9@10-10">Dominus.</quote>
+            Ter Dominus, quia Trinitatem affuisse precibus ostendit: Incepit a lacrymis, exauditus exsultat.
+          </p>
+          <p xml:id="gom-ps6-d1e354">
+            <quote xml:id="gom-ps6-Qd1e356" type="lemma" source="http://scta.info/resource/ps6_9@9-10">Exaudivit Dominus.</quote>
+            <ref xml:id="gom-ps6-Rd1e359"><name xml:id="gom-ps6-Nd1e360" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e363">Dat exemplum fideliter orantes audiri.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps6-Dd1e367">
+          <head xml:id="gom-ps6-Hd1e369">Versus 11</head>
+          <p xml:id="gom-ps6-d1e371">
+            <quote xml:id="gom-ps6-Qd1e373" type="lemma" source="http://scta.info/resource/ps6_11@1-3">Erubescant et conturbentur.</quote>
+            <ref xml:id="gom-ps6-Rd1e376"><name xml:id="gom-ps6-Nd1e377" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e380">Quasi in conclusione, jam liber a peccatis, exsultans, pro inimicis, ut convertantur, orat, ut, sicut ipse, habeant veniam.</quote>
+          </p>
+          <p xml:id="gom-ps6-d1e383">
+            <ref xml:id="gom-ps6-Rd1e385"><name xml:id="gom-ps6-Nd1e386" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps6-Qd1e389" type="lemma" source="http://scta.info/resource/ps6_11@1-1">Erubescant.</quote>
+            <quote xml:id="gom-ps6-Qd1e392">Hoc non hic (ubi potius irrident eos qui omnia relinquunt, et infirmos erubescere faciunt), sed in judicio.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

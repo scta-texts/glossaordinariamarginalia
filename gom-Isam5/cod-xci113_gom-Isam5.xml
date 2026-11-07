@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0547C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam5">
+        <head xml:id="gom-Isam5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-Isam5-Dd1e100">
+          <head xml:id="gom-Isam5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Isam5-d1e104">
+            <pb ed="#P" n="0547C"/>
+            <ref xml:id="gom-Isam5-Rd1e108" type="lemma" subtype="implied" target="http://scta.info/resource/Isam5_1"/>
+            <ref xml:id="gom-Isam5-Rd1e110"><name xml:id="gom-Isam5-Nd1e111" ref="#RabanusMaurus">RAB.</name>, ubi supra.</ref>
+            <quote xml:id="gom-Isam5-Qd1e115">Quae et Asdor, una de quinque urbibus Palaestinorum, decreta quidem tribui Judae, sed non retenta, quia non potuit indigenas expellere. Interpretatur autem <quote xml:id="gom-Isam5-Qd1e117">ignis patris</quote> vel incendium. Bene autem sic vocatur locus ubi erat idolum Dagon, quia adventus arcae in Azotum erat incendium diaboli, patris omnium inimicorum vel iniquorum. Dagon, qui interpretatur <mentioned>piscis tristitiae</mentioned>, significat diabolum qui in mari hujus saeculi devorat peccatores, qui et in Job Leviathan et Beemoth nuncupatur <!--<note>(Job. XL)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-Isam5-d1e125">
+            <quote xml:id="gom-Isam5-Qd1e127" type="lemma" source="http://scta.info/resource/Isam5_1@13-13">Azotum.</quote>
+            Locus est in quo posuit Samuel lapidem <!--<note>(I Reg. VII)</note>-->, sicut in sequentibus demonstratur.
+          </p>
+        </div>
+        <div xml:id="gom-Isam5-Dd1e134">
+          <head xml:id="gom-Isam5-Hd1e136">Versus 4</head>
+          <p xml:id="gom-Isam5-d1e138">
+            <quote xml:id="gom-Isam5-Qd1e140" type="lemma" source="http://scta.info/resource/Isam5_4@17-17">Caput.</quote>
+            Superbia diaboli, qui est initium omnis peccati <!--<note>(Eccle. X)</note>-->.
+          </p>
+          <p xml:id="gom-Isam5-d1e146">
+            <pb ed="#P" n="0547D"/>
+            <quote xml:id="gom-Isam5-Qd1e150" type="lemma" source="http://scta.info/resource/Isam5_4@9-9">Super.</quote>
+            <ref xml:id="gom-Isam5-Rd1e153"><name xml:id="gom-Isam5-Nd1e154" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam5-Qd1e157">Finem praefinitum significat, in quo cessaret idololatria. Limen enim finis est itineris.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam5-Dd1e161">
+          <head xml:id="gom-Isam5-Hd1e163">Versus 5</head>
+          <p xml:id="gom-Isam5-d1e165">
+            <quote xml:id="gom-Isam5-Qd1e167" type="lemma" source="http://scta.info/resource/Isam5_5@3-3">Truncus.</quote>
+            Dorsum tantum invenerunt fractis omnibus membris, quod idololatriae fugam exprimit. Qui enim fugit, dorsum dat fuganti, unde: <quote xml:id="gom-Isam5-Qd1e170" source="http://scta.info/resource/ps20_13@1-4">Quoniam pones eos dorsum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Isam5-Dd1e175">
+          <head xml:id="gom-Isam5-Hd1e177">Versus 7</head>
+          <p xml:id="gom-Isam5-d1e179">
+            <quote xml:id="gom-Isam5-Qd1e181" type="lemma" source="http://scta.info/resource/Isam5_7">Et per.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Qui testamentum Dei suscipiunt et posteriora hujus vitae diligunt, ex ipsis juste in posteriora cruciabuntur, quae debent aestimare sicut stercora. Qui enim testamentum Dei assumunt, et in posteriora respicientes, veteri se vanitate non exuunt, similes sunt eis qui arcam testamenti juxta idola sua posuerunt. Et vetera quidem <pb ed="#P" n="0548A"/> illis etiam nolentibus cadunt, quia <quote xml:id="gom-Isam5-Qd1e188" source="http://scta.info/resource/is40_6@8-10">omnis caro fenum.</quote> Arca autem manet in aeternum, securum scilicet testamentum regni coelorum, ubi est verbum Dei in aeternum.
+          </p>
+        </div>
+        <div xml:id="gom-Isam5-Dd1e194">
+          <head xml:id="gom-Isam5-Hd1e196">Versus 8</head>
+          <p xml:id="gom-Isam5-d1e198">
+            <quote xml:id="gom-Isam5-Qd1e200" type="lemma" source="http://scta.info/resource/Isam5_8@19-19">Circumducatur.</quote>
+            Ut si quocunque eat, percussio comitetur, sciamus esse plagam a Deo quod voluntate Dei consilio eorum actum est, ut plaga communis esset, quoniam culpa communis erat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

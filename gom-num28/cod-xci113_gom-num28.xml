@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 28</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 28</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0431A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num28">
+        <head xml:id="gom-num28-Hd1e98">Caput 28</head>
+        <div xml:id="gom-num28-Dd1e100">
+          <head xml:id="gom-num28-Hd1e102">Versus 1</head>
+          <p xml:id="gom-num28-d1e104">
+            <quote xml:id="gom-num28-Qd1e106" type="lemma" source="http://scta.info/resource/num28_1@1-2">Dixit quoque.</quote>
+            <ref xml:id="gom-num28-Rd1e109"><name xml:id="gom-num28-Nd1e110" ref="#Origen">ORIG.</name>, hom. 23 in Num.</ref>
+            <quote xml:id="gom-num28-Qd1e114"><seg type="qs">Alia littera</seg>, etc., usque ad <seg type="qs">qui putat aliquid se Deo praestare velut indigenti.</seg></quote>
+          </p>
+          <p xml:id="gom-num28-d1e122">
+            <pb ed="#P" n="0431B"/>
+            <ref xml:id="gom-num28-Rd1e126" type="lemma" subtype="implied" target="http://scta.info/resource/num28_1@1-2"/>
+            <ref xml:id="gom-num28-Rd1e128"><name xml:id="gom-num28-Nd1e129" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num28-Qd1e132"><seg type="qs"><quote xml:id="gom-num28-Qd1e134" source="http://scta.info/resource/bar4_20@14-16">In diebus festis meis.</quote> Habet Deus dies festos suos</seg>, etc., usque ad <seg type="qs">ubi adhuc nulla sunt peccata, dies festos meos dicit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num28-Dd1e143">
+          <head xml:id="gom-num28-Hd1e145">Versus 3</head>
+          <p xml:id="gom-num28-d1e147">
+            <quote xml:id="gom-num28-Qd1e149" type="lemma" source="http://scta.info/resource/num28_3@1-3">Haec sunt sacrificia.</quote>
+            <quote xml:id="gom-num28-Qd1e152"><seg type="qs">Quaeramus ergo diligenter</seg>, etc., usque ad <seg type="qs">sed sunt alii dies festi his qui non possunt indesinenter immolare sacrificium castitatis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num28-Dd1e161">
+          <head xml:id="gom-num28-Hd1e163">Versus 9</head>
+          <p xml:id="gom-num28-d1e165">
+            <quote xml:id="gom-num28-Qd1e167" type="lemma" source="http://scta.info/resource/num28_9@1-3">Die autem Sabbati.</quote>
+            <ref xml:id="gom-num28-Rd1e170"><name xml:id="gom-num28-Nd1e171" ref="#RabanusMaurus">RAB.</name> in Num.</ref>
+            <quote xml:id="gom-num28-Qd1e175"><seg type="qs">Secunda ergo festivitas est</seg>, etc., usque ad <seg type="qs">qui sacerdos est in aeternum secundum ordinem Melchisedech <!--<note>(Hebr. V)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-num28-d1e185">
+            <quote xml:id="gom-num28-Qd1e187" type="lemma" source="http://scta.info/resource/num28_9@9-14">Et duas decimas similae oleo conspersae.</quote>
+            <ref xml:id="gom-num28-Rd1e190"><name xml:id="gom-num28-Nd1e191" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num28-Qd1e194">Haec offert qui spirituali gratia repletus scientiam duorum testamentorum, docente Spiritu sancto, verbis et exemplis docet auditores suos, non pro temporali <pb ed="#P" n="0431C"/> lucro, sed pro vitae aeternae praemio.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num28-Dd1e201">
+          <head xml:id="gom-num28-Hd1e203">Versus 11</head>
+          <p xml:id="gom-num28-d1e205">
+            <quote xml:id="gom-num28-Qd1e207" type="lemma" source="http://scta.info/resource/num28_11@1-2">In Kalendis.</quote>
+            Id est in neomeniis, cum Ecclesia vel quaelibet anima soli justitiae sic propinquat, ut unus spiritus cum eo fiat, et per ipsum innovata veterem hominem abjiciat.
+          </p>
+          <p xml:id="gom-num28-d1e211">
+            <ref xml:id="gom-num28-Rd1e213" type="lemma" subtype="implied" target="http://scta.info/resource/num28_11@1-2"/>
+            <ref xml:id="gom-num28-Rd1e215"><name xml:id="gom-num28-Nd1e216" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num28-Qd1e219"><seg type="qs">Tertia festivitas neomeniae dies</seg>, etc., usque ad <seg type="qs">innovata jugulat.</seg></quote>
+          </p>
+          <p xml:id="gom-num28-d1e227">
+            <quote xml:id="gom-num28-Qd1e229" type="lemma" source="http://scta.info/resource/num28_11@12-14">Vitulos de armento.</quote>
+            Potest in duobus vitulis jucunditas boni operis in anima vel in corpore signari: quae secundum duo Testamenta offertur Domino in duobus praeceptis charitatis.
+          </p>
+          <p xml:id="gom-num28-d1e233">
+            <quote xml:id="gom-num28-Qd1e235" type="lemma" source="http://scta.info/resource/num28_11@16-17">Arietem unum.</quote>
+            In ariete regimen disciplinae forte et immobile secundum unitatem fidei catholicae.
+          </p>
+          <p xml:id="gom-num28-d1e240">
+            <quote xml:id="gom-num28-Qd1e242" type="lemma" source="http://scta.info/resource/num28_11@18-20">Agnos anniculos septem.</quote>
+            Simplicitatem et mansuetudinem morum pro coelesti requie per gratiam septiformis <pb ed="#P" n="0431D"/> Spiritus.
+          </p>
+        </div>
+        <div xml:id="gom-num28-Dd1e250">
+          <head xml:id="gom-num28-Hd1e252">Versus 12</head>
+          <p xml:id="gom-num28-d1e254">
+            <quote xml:id="gom-num28-Qd1e256" type="lemma" source="http://scta.info/resource/num28_12@1-4">Et tres decimas similae.</quote>
+            Haec offert qui scientiam spiritualem in sanctae Trinitatis fide, oleo laetitiae illuminatus exhibet cum bono opere.
+          </p>
+          <p xml:id="gom-num28-d1e260">
+            <quote xml:id="gom-num28-Qd1e262" type="lemma" source="http://scta.info/resource/num28_12@12-14">Et duas decimas.</quote>
+            Hoc facit, qui decalogum legis in duobus praeceptis charitatis ad suam et proximorum utilitatem studet convertere, et sic totam vitam suam in suavem odorem Domino dedicare.
+          </p>
+        </div>
+        <div xml:id="gom-num28-Dd1e267">
+          <head xml:id="gom-num28-Hd1e269">Versus 13</head>
+          <p xml:id="gom-num28-d1e271">
+            <quote xml:id="gom-num28-Qd1e273" type="lemma" source="http://scta.info/resource/num28_13@1-3">Et decimam decimae,</quote>
+            etc., <quote xml:id="gom-num28-Qd1e276" source="http://scta.info/resource/num28_13@9-11">per agnos singulos.</quote> Hoc fit cum simplicitas morum secundum Scripturarum regulam gratia Spiritus sancti cooperante instituitur et ornatur. Bene autem haec omnia in holocaustum Domino jubentur offerri, quia haec agere debemus, non ut humanam laudem, vel praesentem <pb ed="#P" n="0432A"/> retributionem quaeramus, sed omnium bonorum datori Deo per omnia placeamus, et aeternae vitae retributionem mereamur.
+          </p>
+        </div>
+        <div xml:id="gom-num28-Dd1e283">
+          <head xml:id="gom-num28-Hd1e285">Versus 16</head>
+          <p xml:id="gom-num28-d1e287">
+            <quote xml:id="gom-num28-Qd1e289" type="lemma" source="http://scta.info/resource/num28_16@1-1">Mense.</quote>
+            <ref xml:id="gom-num28-Rd1e292"><name xml:id="gom-num28-Nd1e293" ref="#Origen">ORIG.</name>, hom. 23 in Num.</ref>
+            <quote xml:id="gom-num28-Qd1e297"><seg type="qs">Quarto loco ponitur inter festivitates</seg>, etc., usque ad <seg type="qs">et diem festum agit cum Deo et angelis ejus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num28-Dd1e306">
+          <head xml:id="gom-num28-Hd1e308">Versus 17</head>
+          <p xml:id="gom-num28-d1e310">
+            <quote xml:id="gom-num28-Qd1e312" type="lemma" source="http://scta.info/resource/num28_17@2-3">Quintadecima die.</quote>
+            <ref xml:id="gom-num28-Rd1e315"><name xml:id="gom-num28-Nd1e316" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num28-Qd1e319"><seg type="qs">Sequitur huic continua festivitas</seg>, etc., usque ad <seg type="qs">efficitur nequior et deterior.</seg></quote>
+          </p>
+          <p xml:id="gom-num28-d1e327">
+            <ref xml:id="gom-num28-Rd1e329" type="lemma" subtype="implied" target="http://scta.info/resource/num28_17@2-3"/>
+            <ref xml:id="gom-num28-Rd1e331"><name xml:id="gom-num28-Nd1e332" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num28-Qd1e335"><seg type="qs">Omnes qui imbuendi sunt altioribus disciplinis</seg>, etc., usque ad <seg type="qs">sacrificiis spiritalibus in purificatione mentis oblatis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num28-Dd1e344">
+          <head xml:id="gom-num28-Hd1e346">Versus 26</head>
+          <p xml:id="gom-num28-d1e348">
+            <quote xml:id="gom-num28-Qd1e350" type="lemma" source="http://scta.info/resource/num28_26@1-7">Dies etiam primitivorum quando offeretis novas fruges,</quote>
+            etc.
+            <ref xml:id="gom-num28-Rd1e353"><name xml:id="gom-num28-Nd1e354" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num28-Qd1e357"><seg type="qs">Sexta festivitas dicitur novorum</seg>, etc., usque ad <seg type="qs">bonitatem, mansuetudinem <pb ed="#P" n="0432B"/> et similia.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

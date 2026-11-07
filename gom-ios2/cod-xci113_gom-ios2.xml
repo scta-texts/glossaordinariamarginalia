@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0507C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios2">
+        <head xml:id="gom-ios2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-ios2-Dd1e100">
+          <head xml:id="gom-ios2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ios2-d1e104">
+            <quote xml:id="gom-ios2-Qd1e106" type="lemma" source="http://scta.info/resource/ios2_1@1-2">Misit ergo,</quote>
+            etc.
+            <ref xml:id="gom-ios2-Rd1e109"><name xml:id="gom-ios2-Nd1e110" ref="#Bede">BEDA</name> in Josue.</ref>
+            <quote xml:id="gom-ios2-Qd1e114">Jericho civitas mundus est, ad quem Dominus Christus ad perscrutandos mores hominum duo Testamenta direxit. Nam in eo ut credentium fidem aut rebellium pervicaciam plenius comprobaret, ante adventum judicii sui, quasi exploratores duos, Legem et Evangelium destinavit.</quote>
+          </p>
+          <p xml:id="gom-ios2-d1e117">
+            <ref xml:id="gom-ios2-Rd1e119" type="lemma" subtype="implied" target="http://scta.info/resource/ios2_1@1-2"/>
+            <ref xml:id="gom-ios2-Rd1e121"><name xml:id="gom-ios2-Nd1e122" ref="#Origen">ADAM.</name>, hom. 3.</ref>
+            <quote xml:id="gom-ios2-Qd1e126"><seg type="qs">Mittuntur a Jesu exploratores in Jericho</seg>, etc., usque ad <seg type="qs">si in misericordia Domini sui intellexerit bonitatem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios2-Dd1e135">
+          <head xml:id="gom-ios2-Hd1e137">Versus 16</head>
+          <p xml:id="gom-ios2-d1e139">
+            <quote xml:id="gom-ios2-Qd1e141" type="lemma" source="http://scta.info/resource/ios2_16@4-6">Ad montana conscendite,</quote>
+            etc.
+            <ref xml:id="gom-ios2-Rd1e144"><name xml:id="gom-ios2-Nd1e145" ref="#Origen">ADAM.</name>, hom. 3.</ref>
+            <quote xml:id="gom-ios2-Qd1e149"><seg type="qs">Dat sapiens meretrix consilium mysticum et coeleste</seg>, etc., usque ad <seg type="qs">quae aliquando meretrix erat, mundata est in aqua et Spiritu sancto et in sanguine Christi.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

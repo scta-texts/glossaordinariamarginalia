@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 24</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 24</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1267A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is24">
+        <head xml:id="gom-is24-Hd1e98">Caput 24</head>
+        <div xml:id="gom-is24-Dd1e100">
+          <head xml:id="gom-is24-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is24-d1e104">
+            <quote xml:id="gom-is24-Qd1e106" type="lemma" source="http://scta.info/resource/is24_1@1-6">Ecce Dominus nudabit,</quote>
+            etc.
+            <ref xml:id="gom-is24-Rd1e109"><name xml:id="gom-is24-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is24-Qd1e113"><seg type="qs"><pb ed="#P" n="1267B"/> Post specialem gentium singularum correptionem</seg>, etc., usque ad <seg type="qs">Aegyptiorum et multorum aliorum ad generale onus judicii extremi transit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e123">
+          <head xml:id="gom-is24-Hd1e125">Versus 2</head>
+          <p xml:id="gom-is24-d1e127">
+            <quote xml:id="gom-is24-Qd1e129" type="lemma" source="http://scta.info/resource/is24_2@2-2">Erit.</quote>
+            <ref xml:id="gom-is24-Rd1e132"><name xml:id="gom-is24-Nd1e133" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is24-Qd1e136">Omnes similiter vel pro bonis remunerabuntur, vel pro malis damnabuntur. Nulla diversitas erit inter nobilem et ignobilem, sacerdotem et laicum, servum et dominum, etc. Omnes enim exaequo stabunt ante tribunal Christi; nec erit acceptio personarum apud Deum.</quote>
+          </p>
+          <p xml:id="gom-is24-d1e139">
+            <quote xml:id="gom-is24-Qd1e141" type="lemma" source="http://scta.info/resource/is24_2@5-6">Sic sacerdos.</quote>
+            Bonus populus cum bono sacerdote percipiet coronam vitae; mali simul sustinebunt tormenta gehennae sine acceptione personae.
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e146">
+          <head xml:id="gom-is24-Hd1e148">Versus 3</head>
+          <p xml:id="gom-is24-d1e150">
+            <quote xml:id="gom-is24-Qd1e152" type="lemma" source="http://scta.info/resource/is24_3@3-3">Terra.</quote>
+            <ref xml:id="gom-is24-Rd1e155"><name xml:id="gom-is24-Nd1e156" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is24-Qd1e159">Terrena opera ad nihilum redigentur, ut abolita imagine terreni hominis permaneat imago coelestis. Caro enim et sanguis regnum Dei <pb ed="#P" n="1267C"/> non possidebunt, quia mortale hoc induet immortalitatem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e166">
+          <head xml:id="gom-is24-Hd1e168">Versus 6</head>
+          <p xml:id="gom-is24-d1e170">
+            <quote xml:id="gom-is24-Qd1e172" type="lemma" source="http://scta.info/resource/is24_6@3-5">Maledictio vorabit terram.</quote>
+            Sicut in principio benedixit Deus omni creaturae, sic in fine maledicit his qui terreni sunt; nec peregrini, sed habitatores terrae: et qui in ea peccant, obliti conditionis suae contra se mutuo debacchantes. Et pauci remanebunt, qui habeant imaginem coelestis.
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e178">
+          <head xml:id="gom-is24-Hd1e180">Versus 7</head>
+          <p xml:id="gom-is24-d1e182">
+            <quote xml:id="gom-is24-Qd1e184" type="lemma" source="http://scta.info/resource/is24_7@1-5">Luxit vindemia, infirmata vitis est.</quote>
+            <ref xml:id="gom-is24-Rd1e187"><name xml:id="gom-is24-Nd1e188" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is24-Qd1e191">In consummatione, mundi praeteritarum deliciarum recordatio erit materia cruciatuum; unde, purpuratus dives qui receperat bona in vita sua, elevans oculos de inferno, cernit Lazarum in requie <!--<note>(Luc. XIX)</note>-->; unde: <quote xml:id="gom-is24-Qd1e195" source="http://scta.info/resource/lc6_25@1-7">Vae vobis qui saturati estis, quia esurietis</quote>.</quote>
+          </p>
+          <p xml:id="gom-is24-d1e200">
+            <quote xml:id="gom-is24-Qd1e202" type="lemma" source="http://scta.info/resource/is24_7@6-9">Ingemuerunt omnes qui laetabuntur,</quote>
+            etc. Hoc testimonium <pb ed="#P" n="1267D"/> ingerimus eis qui in conviviis non solum gula et ebrietate, sed auribus luxuriantur, ut per omnes sensus animae fortitudo mollescat.
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e209">
+          <head xml:id="gom-is24-Hd1e211">Versus 10</head>
+          <p xml:id="gom-is24-d1e213">
+            <quote xml:id="gom-is24-Qd1e215" type="lemma" source="http://scta.info/resource/is24_10@1-4">Attrita est civitas vanitatis.</quote>
+            Mundus in quo omnia vana, vanitas vanitatum et omnia vanitas.
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e220">
+          <head xml:id="gom-is24-Hd1e222">Versus 11</head>
+          <p xml:id="gom-is24-d1e224">
+            <quote xml:id="gom-is24-Qd1e226" type="lemma" source="http://scta.info/resource/is24_11@1-4">Clamor erit super vino.</quote>
+            Per vinum, errorem; ebrii enim errant. Per plateas (quae Graece a latitudine dicuntur) spatiosam et latam viam, quae ducit ad mortem, accipimus. Super his ergo qui erraverunt in lata et spatiosa via hujus saeculi, in die judicii clamor doloris erit.
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e231">
+          <head xml:id="gom-is24-Hd1e233">Versus 13</head>
+          <p xml:id="gom-is24-d1e235">
+            <quote xml:id="gom-is24-Qd1e237" type="lemma" source="http://scta.info/resource/is24_13@4-6">In medio terrae.</quote>
+            Jerusalem, quae est (ut aiunt) umbilicus terrae. Et, autumant multi, quia Dominus judicaturus super montem Sion, <pb ed="#P" n="1268A"/> ex quo ascendit, in aere sedebit, in nube veniet.
+          </p>
+          <p xml:id="gom-is24-d1e243">
+            <quote xml:id="gom-is24-Qd1e245" type="lemma" source="http://scta.info/resource/is24_13@10-13">Quomodo si paucae olivae,</quote>
+            etc. <quote xml:id="gom-is24-Qd1e248"><seg type="qs">Paucis relictis, cum persecutio voraverit terram</seg>, etc., usque ad <seg type="qs">collectis quoque racemis vix pauci remanent in vitibus vacuis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e257">
+          <head xml:id="gom-is24-Hd1e259">Versus 14</head>
+          <p xml:id="gom-is24-d1e261">
+            <quote xml:id="gom-is24-Qd1e263" type="lemma" source="http://scta.info/resource/is24_14@5-10">Atque laudabunt: cum glorificatus fuerit Dominus.</quote>
+            <ref xml:id="gom-is24-Rd1e266"><name xml:id="gom-is24-Nd1e267" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is24-Qd1e270">Laudabunt qui poterunt remanere et pressuram Antichristi fugere, vel ardorem imminentis gehennae.</quote>
+          </p>
+          <p xml:id="gom-is24-d1e273">
+            <quote xml:id="gom-is24-Qd1e275" type="lemma" source="http://scta.info/resource/is24_14@11-11">Hinnient.</quote>
+            Equorum similitudine, laetitiae gestientes magnitudinem.
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e280">
+          <head xml:id="gom-is24-Hd1e282">Versus 16</head>
+          <p xml:id="gom-is24-d1e284">
+            <quote xml:id="gom-is24-Qd1e286" type="lemma" source="http://scta.info/resource/is24_16@1-7">A finibus terrae, laudes audivimus, gloriam justi.</quote>
+            In Hebraeo, <quote xml:id="gom-is24-Qd1e289">alis terrae.</quote> Alae autem vel fines terrae, prophetae sunt et apostoli, qui de terrenis ad coelestia volant, et quibusdam praeceptorum finibus vivendi modum terminant. Dicunt ergo sancti: <pb ed="#P" n="1268B"/> <quote xml:id="gom-is24-Qd1e293">Sicut</quote> a prophetis et apostolis <quote xml:id="gom-is24-Qd1e295">audivimus, sic</quote> modo impletum <quote xml:id="gom-is24-Qd1e298">videmus.</quote>
+          </p>
+          <p xml:id="gom-is24-d1e301">
+            <quote xml:id="gom-is24-Qd1e303" type="lemma" source="http://scta.info/resource/is24_16@10-12">Secretum meum mihi.</quote>
+            <ref xml:id="gom-is24-Rd1e306"><name xml:id="gom-is24-Nd1e307" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is24-Qd1e310">Nec potest plene enarrare praemia bonorum, nec poenas malorum, quae praevidet per spiritum; et inde dolet, dicens: <quote xml:id="gom-is24-Qd1e312" source="http://scta.info/resource/is24_16@16-17">Vae mihi.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e318">
+          <head xml:id="gom-is24-Hd1e320">Versus 17</head>
+          <p xml:id="gom-is24-d1e322">
+            <quote xml:id="gom-is24-Qd1e324" type="lemma" source="http://scta.info/resource/is24_17@1-3">Formido et fovea.</quote>
+            <quote xml:id="gom-is24-Qd1e327"><seg type="qs">Possunt haec tam ad tempora martyrum</seg>, etc., usque ad <seg type="qs">sic etiam fiet in tempore Antichristi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e336">
+          <head xml:id="gom-is24-Hd1e338">Versus 18</head>
+          <p xml:id="gom-is24-d1e340">
+            <quote xml:id="gom-is24-Qd1e342" type="lemma" source="http://scta.info/resource/is24_18@23-24">Apertae sunt,</quote>
+            etc. Ut videat Deus iniquitates Antichristi et judicet. Dum enim non punit peccata, se videre ea dissimulat.
+          </p>
+          <p xml:id="gom-is24-d1e346">
+            <quote xml:id="gom-is24-Qd1e348" type="lemma" source="http://scta.info/resource/is24_18@27-28">Fundamenta terrae.</quote>
+            Principes saeculi, terrena opera.
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e353">
+          <head xml:id="gom-is24-Hd1e355">Versus 19</head>
+          <p xml:id="gom-is24-d1e357">
+            <quote xml:id="gom-is24-Qd1e359" type="lemma" source="http://scta.info/resource/is24_19@1-2">Confractione confringetur.</quote>
+            Non quod terra redigatur in pulverem, vel nihilum, sed quia omnia terrena transibunt. Et quomodo ebrius nescit <pb ed="#P" n="1268C"/> quid agat, sic omnes qui versantur in terra malorum magnitudine ebrii erunt et stupebunt ad omnia.
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e366">
+          <head xml:id="gom-is24-Hd1e368">Versus 20</head>
+          <p xml:id="gom-is24-d1e370">
+            <quote xml:id="gom-is24-Qd1e372" type="lemma" source="http://scta.info/resource/is24_20@9-11">Tabernaculum unius noctis.</quote>
+            <ref xml:id="gom-is24-Rd1e375"><name xml:id="gom-is24-Nd1e376" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is24-Qd1e379">Quod a viatore transfertur, ut nullum remaneat vestigium, sic transibit figura hujus mundi <!--<note>(I Cor. VII)</note>-->, et erit terra deserta ut non sit habitatio amplius hominum in ea.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e386">
+          <head xml:id="gom-is24-Hd1e388">Versus 21</head>
+          <p xml:id="gom-is24-d1e390">
+            <quote xml:id="gom-is24-Qd1e392" type="lemma" source="http://scta.info/resource/is24_21@1-2">Et erit,</quote>
+            etc. Quasi diceret: Fenestrae coeli apertae sunt, ut prospiciente Domino terrena peccata, omnis figura terrenorum operum praetereat et corruat, neque in pristina statura resurgat. Visitabit ergo Dominus in die illa super militiam coeli, ut non solum terrena, sed coelestia judicet.
+          </p>
+          <p xml:id="gom-is24-d1e396">
+            <quote xml:id="gom-is24-Qd1e398" type="lemma" source="http://scta.info/resource/is24_21@8-9">Super militiam.</quote>
+            <ref xml:id="gom-is24-Rd1e401"><name xml:id="gom-is24-Nd1e402" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is24-Qd1e405"><quote xml:id="gom-is24-Qd1e406" source="http://scta.info/resource/is34">Inebriatus est in coelo gladius meus. Astra non sunt munda in conspectu ejus. Et in angelis suis reperit pravitatem<!-- check: cited chapter given; verse not identified --></quote>.</quote>
+          </p>
+          <p xml:id="gom-is24-d1e412">
+            <pb ed="#P" n="1268D"/>
+            <quote xml:id="gom-is24-Qd1e416" type="lemma" source="http://scta.info/resource/is24_21@15-16">Reges terrae.</quote>
+            <ref xml:id="gom-is24-Rd1e419"><name xml:id="gom-is24-Nd1e420" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is24-Qd1e423"><quote xml:id="gom-is24-Qd1e424" source="http://scta.info/resource/eph6_12@17-24">Rectores tenebrarum, contra spiritualia nequitiae in coelestibus</quote>; unde in Daniel: <quote xml:id="gom-is24-Qd1e427" source="http://scta.info/resource/dan10_13@1-8">Exiit in occursum mihi princeps regni Persarum, et princeps regni Medorum</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e432">
+          <head xml:id="gom-is24-Hd1e434">Versus 22</head>
+          <p xml:id="gom-is24-d1e436">
+            <quote xml:id="gom-is24-Qd1e438" type="lemma" source="http://scta.info/resource/is24_22@1-2">Et congregabuntur.</quote>
+            <ref xml:id="gom-is24-Rd1e441"><name xml:id="gom-is24-Nd1e442" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is24-Qd1e445">Origenes dicit quod, post hanc sententiam: <quote xml:id="gom-is24-Qd1e447" source="http://scta.info/resource/mt25_41@12-15">Ite, maledicti, in ignem aeternum</quote>, post multos dies, id est post mille annos visitandi et liberandi sunt. Sed hoc Ecclesia non recipit. Dictum est enim: <quote xml:id="gom-is24-Qd1e450" source="http://scta.info/resource/mt25_46@2-11">Ibunt impii in supplicium aeternum, justi autem in vitam aeternam<!-- check: Migne cites mt13; text matches mt25_46 --></quote>. Quod autem aeternum est omni fine caret, et sicut gaudium aeternum, ita et supplicium.</quote>
+          </p>
+          <p xml:id="gom-is24-d1e456">
+            <quote xml:id="gom-is24-Qd1e458" type="lemma" source="http://scta.info/resource/is24_22@5-8">Unus fascis in lacum.</quote>
+            Unde: <quote xml:id="gom-is24-Qd1e461" source="http://scta.info/resource/mt13_30@17-21">Alligate ea per fasciculos ad comburendum.</quote>
+          </p>
+          <p xml:id="gom-is24-d1e465">
+            <pb ed="#P" n="1269A"/>
+            <quote xml:id="gom-is24-Qd1e469" type="lemma" source="http://scta.info/resource/is24_22@14-16">Et post multos.</quote>
+            <quote xml:id="gom-is24-Qd1e472"><seg type="qs">Notandum quod non addit: a Domino vel ab angelis</seg>, etc., usque ad <seg type="qs">quod Domini arbitrio derelictum est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is24-Dd1e482">
+          <head xml:id="gom-is24-Hd1e484">Versus 23</head>
+          <p xml:id="gom-is24-d1e486">
+            <quote xml:id="gom-is24-Qd1e488" type="lemma" source="http://scta.info/resource/is24_23@1-2">Et erubescet.</quote>
+            <quote xml:id="gom-is24-Qd1e491"><seg type="qs">Unde creatura ingemiscit et parturit</seg>, etc., usque ad <seg type="qs">qualis fuit Abraham mortuus in senectute bona.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

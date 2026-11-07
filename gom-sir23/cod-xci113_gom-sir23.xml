@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 23</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 23</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1207B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir23">
+        <head xml:id="gom-sir23-Hd1e98">Caput 23</head>
+        <div xml:id="gom-sir23-Dd1e100">
+          <head xml:id="gom-sir23-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir23-d1e104">
+            <quote xml:id="gom-sir23-Qd1e106" type="lemma" source="http://scta.info/resource/sir23_1@1-2">Domine pater.</quote>
+            <ref xml:id="gom-sir23-Rd1e109"><name xml:id="gom-sir23-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir23-Qd1e113">Quasi: Tuo munere <pb ed="#P" n="1207C"/> defendar a voragine vitiorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e120">
+          <head xml:id="gom-sir23-Hd1e122">Versus 2</head>
+          <p xml:id="gom-sir23-d1e124">
+            <quote xml:id="gom-sir23-Qd1e126" type="lemma" source="http://scta.info/resource/sir23_2@1-2">Quis superponet.</quote>
+            Desiderat in cogitatu suo flagella disciplinae, et in corde doctrinam sapientiae: ne forte per ignorantiam non agnoscat delictorum pericula, et multiplicentur ei crimina, pro quibus cadat in manus adversariorum.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e131">
+          <head xml:id="gom-sir23-Hd1e133">Versus 8</head>
+          <p xml:id="gom-sir23-d1e135">
+            <quote xml:id="gom-sir23-Qd1e137" type="lemma" source="http://scta.info/resource/sir23_8@1-2">In vanitate.</quote>
+            <ref xml:id="gom-sir23-Rd1e140"><name xml:id="gom-sir23-Nd1e141" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir23-Qd1e144">Quia illam praeponit amori Dei et desiderio aeternae beatitudinis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e148">
+          <head xml:id="gom-sir23-Hd1e150">Versus 9</head>
+          <p xml:id="gom-sir23-d1e152">
+            <quote xml:id="gom-sir23-Qd1e154" type="lemma" source="http://scta.info/resource/sir23_9@1-1">Jurationi,</quote>
+            etc. Vetat juramentum, ne fiat perjurium; unde: <quote xml:id="gom-sir23-Qd1e157" source="http://scta.info/resource/iac5_12@6-13">Nolite jurare, neque per coelum neque per terram</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e163">
+          <head xml:id="gom-sir23-Hd1e165">Versus 13</head>
+          <p xml:id="gom-sir23-d1e167">
+            <quote xml:id="gom-sir23-Qd1e169" type="lemma" source="http://scta.info/resource/sir23_13@13-13">Dupliciter.</quote>
+            <ref xml:id="gom-sir23-Rd1e172"><name xml:id="gom-sir23-Nd1e173" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir23-Qd1e176">Quia per simulationem celat veritatem, et alios per falsitatem mittit in errorem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e180">
+          <head xml:id="gom-sir23-Hd1e182">Versus 15</head>
+          <p xml:id="gom-sir23-d1e184">
+            <quote xml:id="gom-sir23-Qd1e186" type="lemma" source="http://scta.info/resource/sir23_15@2-4">Est alia loquela.</quote>
+            Blasphemia, quae <pb ed="#P" n="1207D"/> supradictis pejor est: unde oportet ut non inveniatur <quote xml:id="gom-sir23-Qd1e191" source="http://scta.info/resource/sir23_15@9-11">in haereditate Jacob,</quote> id est, populo Ecclesiae, qui supplantat vitia, et in virtutibus servit Deo.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e196">
+          <head xml:id="gom-sir23-Hd1e198">Versus 17</head>
+          <p xml:id="gom-sir23-d1e200">
+            <quote xml:id="gom-sir23-Qd1e202" type="lemma" source="http://scta.info/resource/sir23_17@1-1">Indisciplinatae.</quote>
+            Quasi: Disciplinam ne deseras, et indisciplinato ore sermones tuos ne proferas.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e207">
+          <head xml:id="gom-sir23-Hd1e209">Versus 22</head>
+          <p xml:id="gom-sir23-d1e211">
+            <quote xml:id="gom-sir23-Qd1e213" type="lemma" source="http://scta.info/resource/sir23_22@1-2">Anima callida.</quote>
+            <ref xml:id="gom-sir23-Rd1e216"><name xml:id="gom-sir23-Nd1e217" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir23-Qd1e220"><seg type="qs">Haeretici et schismatici ardentem animam habent</seg>, etc., usque ad <seg type="qs">sed virum priorem relinquentes, cum idolis fornicati sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e229">
+          <head xml:id="gom-sir23-Hd1e231">Versus 26</head>
+          <p xml:id="gom-sir23-d1e233">
+            <quote xml:id="gom-sir23-Qd1e235" type="lemma" source="http://scta.info/resource/sir23_26@1-2">Tenebrae circumdant.</quote>
+            <ref xml:id="gom-sir23-Rd1e238"><name xml:id="gom-sir23-Nd1e239" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir23-Qd1e242"><seg type="qs">Qui castitatis virtutem perdit</seg>, etc., usque ad <seg type="qs">cum vultus Domini sit super facientes mala.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e251">
+          <head xml:id="gom-sir23-Hd1e253">Versus 28</head>
+          <p xml:id="gom-sir23-d1e255">
+            <quote xml:id="gom-sir23-Qd1e257" type="lemma" source="http://scta.info/resource/sir23_28@5-6">Oculi Domini.</quote>
+            Quia illi nihil praeteritum, <pb ed="#P" n="1208A"/> et nihil futurum est: omnia praesentia sunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e265">
+          <head xml:id="gom-sir23-Hd1e267">Versus 30</head>
+          <p xml:id="gom-sir23-d1e269">
+            <quote xml:id="gom-sir23-Qd1e271" type="lemma" source="http://scta.info/resource/sir23_30@1-3">Hic in plateis.</quote>
+            Adulter libidinosus, de quo superius dictum est, qui quasi equus et mulus lasciviendo discurrit per latam et spatiosam viam, quae ducit ad mortem.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e276">
+          <head xml:id="gom-sir23-Hd1e278">Versus 32</head>
+          <p xml:id="gom-sir23-d1e280">
+            <quote xml:id="gom-sir23-Qd1e282" type="lemma" source="http://scta.info/resource/sir23_32@1-3">Sic et mulier.</quote>
+            Aequaliter et in viro et in femina damnatur adulterium, et germen hujus copulae abominabile est Deo. Mystice autem haereticorum Synagoga, vel anima haeretica pravitate decepta, abominabilis est Deo, quia relinquit virum priorem, qui sibi eam in baptismate copulavit, et ornamento virtutum decoravit.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e287">
+          <head xml:id="gom-sir23-Hd1e289">Versus 34</head>
+          <p xml:id="gom-sir23-d1e291">
+            <quote xml:id="gom-sir23-Qd1e293" type="lemma" source="http://scta.info/resource/sir23_34@1-3">Haec in Ecclesia.</quote>
+            Quia ejus perversitas in conventu fidelium, per solertiam doctorum declaratur.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e298">
+          <head xml:id="gom-sir23-Hd1e300">Versus 35</head>
+          <p xml:id="gom-sir23-d1e302">
+            <pb ed="#P" n="1208B"/>
+            <quote xml:id="gom-sir23-Qd1e306" type="lemma" source="http://scta.info/resource/sir23_35@6-7">Et rami.</quote>
+            Quia secta illius fundamentum veritatis non habet, fructum bonorum operum gignere non potest.
+          </p>
+        </div>
+        <div xml:id="gom-sir23-Dd1e311">
+          <head xml:id="gom-sir23-Hd1e313">Versus 38</head>
+          <p xml:id="gom-sir23-d1e315">
+            <quote xml:id="gom-sir23-Qd1e317" type="lemma" source="http://scta.info/resource/sir23_38@7-7">Longitudo,</quote>
+            etc. Quia in aeterna beatitudine in aeternum permanebunt qui sequuntur Deum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

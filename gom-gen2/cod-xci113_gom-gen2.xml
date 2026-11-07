@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0082A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen2">
+        <head xml:id="gom-gen2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-gen2-Dd1e100">
+          <head xml:id="gom-gen2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen2-d1e104">
+            <quote xml:id="gom-gen2-Qd1e106" type="lemma" source="http://scta.info/resource/gen2_1@1-6">Igitur perfecti sunt coeli et terra,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e109"><name xml:id="gom-gen2-Nd1e110">ALCUIN.</name>, in Gen. tom. I, col. 517.</ref>
+            <quote xml:id="gom-gen2-Qd1e113"><seg type="qs">Nullo modo dici potest quomodo fecit Deus coelum et terram. Sed haec expositio per ordinem dierum indicat tanquam historiam factarum rerum, sed maxime observat praedicationem futurorum</seg>, etc., usque ad <seg type="qs">quem Dominus utiliter latere monstravit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e121">
+            <pb ed="#P" n="0082B"/>
+            <quote xml:id="gom-gen2-Qd1e125" type="lemma" source="http://scta.info/resource/gen2_1@1-10">Igitur perfecti sunt coeli, et terra, et omnis ornatus eorum.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e129">
+            Allegorice.
+          </p>
+          <p xml:id="gom-gen2-d1e131">
+            <ref xml:id="gom-gen2-Rd1e133" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_1@1-10"/>
+            <ref xml:id="gom-gen2-Rd1e135"><name xml:id="gom-gen2-Nd1e136" ref="#Augustine">AUG.</name>, de Gen. contra Manich., lib. I, c. ult.</ref>
+            <quote xml:id="gom-gen2-Qd1e140">Post illorum quasi sex dierum opera valde bona speret homo requiem perpetuam, et intelligat quid sit, » et requievit Deus die septimo ab operibus suis: » quia et ipse in nobis haec bona operatur, qui jubet ut operemur. Et recte quiescere dicitur: quia post haec omnia opera requiem nobis praestabit, quomodo paterfamilias domum aedificat, cum servientibus facere imperat; et post ab operibus requiescere, cum, perfecta fabrica, jubet quiescere.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e144">
+            <ref xml:id="gom-gen2-Rd1e146" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_1@1-10"/>
+            <ref xml:id="gom-gen2-Rd1e148"><name xml:id="gom-gen2-Nd1e149" ref="#Augustine">AUG.</name>, ibid.</ref>
+            <quote xml:id="gom-gen2-Qd1e153">Habet unusquisque nostrum in suis operibus et recta vita tanquam distinctos istos sex dies, post quos debeat quietem sperare: primo die <pb ed="#P" n="0082C"/> lucem fidei, quando primum visibilibus credit, propter quam fidem Dominus visibiliter apparere dignatus est. Secundo die factum est tanquam firmamentum disciplinae, quod discernit inter carnalia et spiritualia opera, sicut firmamentum inter inferiores aquas et superiores. Tertio die quo mentem suam ad proferendos bonorum operum fructus praeparat, et erigit, separata labe et fluctibus tentationum carnalium, tanquam aridam habet mentem a perturbationibus maris, ut jam possit dicere: <quote xml:id="gom-gen2-Qd1e157" source="http://scta.info/resource/rom7_25@11-14">Mente servio legi Dei ,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e163">
+          <head xml:id="gom-gen2-Hd1e165">Versus 2</head>
+          <p xml:id="gom-gen2-d1e167">
+            <quote xml:id="gom-gen2-Qd1e169" type="lemma" source="http://scta.info/resource/gen2_2@1-2">Complevitque Deus,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e172"><name xml:id="gom-gen2-Nd1e173" ref="#Bede">BEDA</name>, in Hexaem.</ref>
+            <quote xml:id="gom-gen2-Qd1e177"><seg type="qs">Alia translatio: <quote xml:id="gom-gen2-Qd1e180">Consummavit Deus die sexto opera quae fecit,</quote> quae nihil quaestionis affert, quia manifesta sunt quae in eo facta sunt, etc., <pb ed="#P" n="0082D"/></seg> usque ad <seg type="qs">aliquid enim operis fecit Salomon cum templum dedicavit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e188">
+            <ref xml:id="gom-gen2-Rd1e190" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@1-2"/>
+            <ref xml:id="gom-gen2-Rd1e192"><name xml:id="gom-gen2-Nd1e193" ref="#Jerome">HIER.</name>, Quaest. Hebr. in Gen., tom. III, col. 935.</ref>
+            <quote xml:id="gom-gen2-Qd1e197">In Hebraeo habetur <quote xml:id="gom-gen2-Qd1e199" source="http://scta.info/resource/gen2_2@3-4">die septima.</quote> Arctabimus ergo Judaeos, qui de otio sabbati gloriantur, quia jam tunc in principio sabbatum solutum est, dum Deus operatur in sabbato, complens opera sua in eo.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e204">
+            <quote xml:id="gom-gen2-Qd1e206" type="lemma" source="http://scta.info/resource/gen2_2@1-2">Complevitque Deus,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e209"><name xml:id="gom-gen2-Nd1e210" ref="#Augustine">AUG.</name>, lib. IV de Gen. ad litt., c. 4, tom. III.</ref>
+            <quote xml:id="gom-gen2-Qd1e214"><seg type="qs">Quaeritur utrum</seg>, etc., usque ad <seg type="qs">secundum eum perfecta non fierent.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e222">
+            <ref xml:id="gom-gen2-Rd1e224" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@1-2"/>
+            « Et requievit Deus, etc.
+          </p>
+          <p xml:id="gom-gen2-d1e228">
+            <ref xml:id="gom-gen2-Rd1e230" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@1-2"/>
+            <ref xml:id="gom-gen2-Rd1e232"><name xml:id="gom-gen2-Nd1e233" ref="#Bede">BEDA</name>, in Hexaem.</ref>
+            <quote xml:id="gom-gen2-Qd1e237">Non quasi operando lassus, sed ab universo opere quievit, quia novam creaturam facere cessavit. Requiescere enim cessare dicitur, ut in Apocalypsis IV: <pb ed="#P" n="0083A"/> <quote xml:id="gom-gen2-Qd1e241" source="http://scta.info/resource/ap4_8@18-27">Requiem non habebant, dicentia: Sanctus, sanctus, sanctus,</quote> id est, dicere non cessabant.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e246">
+            <ref xml:id="gom-gen2-Rd1e248" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@1-2"/>
+            <ref xml:id="gom-gen2-Rd1e250"><name xml:id="gom-gen2-Nd1e251" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-gen2-Qd1e255"><seg type="qs">Altius quoque intelligetur requievisse ab universo opere suo</seg>, etc., usque ad <seg type="qs">sed creaturis rationalibus in se requiem dedit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e263">
+            <quote xml:id="gom-gen2-Qd1e265" type="lemma" source="http://scta.info/resource/gen2_2@9-10">Et requievit Deus,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e268"><name xml:id="gom-gen2-Nd1e269" ref="#Augustine">AUG.</name>, ubi supra, c. 8.</ref>
+            <quote xml:id="gom-gen2-Qd1e273">Non laboravit Deus in operando qui solo verbo fecit, dicendo: <quote xml:id="gom-gen2-Qd1e275">Fiat.</quote> Nec homo dicendo, <quote xml:id="gom-gen2-Qd1e277">Fiat,</quote> laborat. Sed forte dicitur laborasse cogitando quid fieret. A qua cura, perfectis rebus, quievisse dicitur. Sed hoc sapere desipere est. Deum ergo requievisse, est creaturae rationali in se requiem praestitisse; ut illuc scilicet desiderio feramur, quo requiescamus, id est nihil amplius requiramus. Sicut enim facere dicitur, quod ipso in nobis operante facimus, <pb ed="#P" n="0083B"/> et cognoscere cum cognoscimus, sic requiescere, cum ejus munere requiescimus.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e283">
+            <ref xml:id="gom-gen2-Rd1e285" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e287"><name xml:id="gom-gen2-Nd1e288" ref="#Augustine">Ibid.</name>, c. 11.</ref>
+            <quote xml:id="gom-gen2-Qd1e292">Non est mirum si diem quo Christus erat in sepulcro quieturus hoc modo praenuntians dixit: <quote xml:id="gom-gen2-Qd1e294" source="http://scta.info/resource/gen2_2@3-4">Die septimo requievit,</quote> deinceps operaturus ordines saeculorum.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e299">
+            <ref xml:id="gom-gen2-Rd1e301" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e303"><name xml:id="gom-gen2-Nd1e304" ref="#Augustine">Ibid.</name>, c. 12.</ref>
+            <quote xml:id="gom-gen2-Qd1e308"><seg type="qs">Potest autem intelligi Deum requievisse a faciendis generibus creaturae</seg>, etc., usque ad <seg type="qs">et gubernare non cesset.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e316">
+            <ref xml:id="gom-gen2-Rd1e318" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e320"><name xml:id="gom-gen2-Nd1e321" ref="#Augustine">Ibid.</name>, c. 14.</ref>
+            <quote xml:id="gom-gen2-Qd1e325">Deus autem nec creando defessus, nec cessando refectus est: sed per Scripturam suam ad quietis desiderium nos hortatur, dicendo se diem sanctificasse in quo requievit. Caeteros enim dies operis sui non legitur sanctificasse, tanquam apud ipsum plus quies quam operatio valeat.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e329">
+            <pb ed="#P" n="0083C"/>
+            <ref xml:id="gom-gen2-Rd1e333" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e335"><name xml:id="gom-gen2-Nd1e336" ref="#Augustine">Ibid.</name>, c. 15.</ref>
+            <quote xml:id="gom-gen2-Qd1e340"><seg type="qs">Vitium quoque animae est ita suis operibus delectari</seg>, etc., usque ad <seg type="qs">ea requie a qua nunquam recessit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e348">
+            <ref xml:id="gom-gen2-Rd1e350" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e352"><name xml:id="gom-gen2-Nd1e353" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e356"><seg type="qs">Si autem diceretur requievisse a faciendis</seg>, etc., usque ad <seg type="qs">sed ipso benedicti sumus.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e364">
+            <ref xml:id="gom-gen2-Rd1e366" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e368"><name xml:id="gom-gen2-Nd1e369" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e372">In se autem requievit Deus semper: in diebus vero quibus rerum consummatio narratur, in septimo tantum requievit, qui rerum sequitur perfectionem; a perfectis enim requiescit, qui perfectis non eget ut beatior sit.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e375">
+            <ref xml:id="gom-gen2-Rd1e377" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e379"><name xml:id="gom-gen2-Nd1e380" ref="#Augustine">Ibid.</name>, c. 17.</ref>
+            <quote xml:id="gom-gen2-Qd1e384">Opera ejus videmus bona: quietem vero ejus post bona opera nostra videbimus. Ob quam significandam, unam diem sabbati praecepit observari: quod in tempore gratiae sublatum est, in <pb ed="#P" n="0083D"/> qua perpetuum observat sabbatum, qui spe futuri omnia bona operatur, nec in bonis operibus suis, quasi non acceperit, gloriatur.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e390">
+            <ref xml:id="gom-gen2-Rd1e392" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e394"><name xml:id="gom-gen2-Nd1e395" ref="#Augustine">Ibid.</name>, c. 18.</ref>
+            <quote xml:id="gom-gen2-Qd1e399">Apud illum quieti ejus nec mane nec vespera est, quia nec aperitur initio, nec clauditur fine. In perfectis autem operibus mane habet, et non vesperam; quia perfecta creatura incipit converti ad quietem Creatoris, sed illa non habet finem suae perfectionis, et sic requies Dei non ipsi Deo, sed rerum perfectioni inchoatur, et habet in eo mane quod ab ipso perficitur: sed in suo genere tanquam vespera terminatur, quod in Deo vesperam non habet, quia nihil erit perfectius ipsa perfectione.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e402">
+            <pb ed="#P" n="0084A"/>
+            <ref xml:id="gom-gen2-Rd1e406" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e408"><name xml:id="gom-gen2-Nd1e409" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e412"><seg type="qs">In illis autem diebus</seg>, etc., usque ad <seg type="qs">qui conditi ante luminaria memorantur.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e421">
+            <ref xml:id="gom-gen2-Rd1e423" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e425"><name xml:id="gom-gen2-Nd1e426" ref="#Augustine">Ibid.</name>, c. 20.</ref>
+            <quote xml:id="gom-gen2-Qd1e430"><seg type="qs">Quaeritur quomodo dicatur in septimo</seg>, etc., usque ad <seg type="qs">nisi illa quae prius condita et dies vocata.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e438">
+            <ref xml:id="gom-gen2-Rd1e440" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e442"><name xml:id="gom-gen2-Nd1e443" ref="#Augustine">Ibid.</name>, c. 21.</ref>
+            <quote xml:id="gom-gen2-Qd1e447"><seg type="qs">Sed quomodo circumire poterat lux</seg>, etc., usque ad <seg type="qs">et reliqua.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e455">
+            <ref xml:id="gom-gen2-Rd1e457" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e459"><name xml:id="gom-gen2-Nd1e460" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e463"><seg type="qs">Sed facilius est ut nos ignorare fateamur</seg>, etc., usque ad <seg type="qs">falsumque erit eum sexta die consummasse omnia opera sua.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e471">
+            <ref xml:id="gom-gen2-Rd1e473" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e475"><name xml:id="gom-gen2-Nd1e476" ref="#Augustine">Ibid.</name>, c. 22.</ref>
+            <quote xml:id="gom-gen2-Qd1e480"><seg type="qs">Sed quoniam lux corporalis</seg>, etc., usque ad <seg type="qs">et illa qua creatura in seipsa noscitur recte vespera dicitur.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e488">
+            <ref xml:id="gom-gen2-Rd1e490" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e492"><name xml:id="gom-gen2-Nd1e493" ref="#Augustine">Ibid.</name>, c. 25.</ref>
+            <quote xml:id="gom-gen2-Qd1e497"><seg type="qs">Quia vero angeli creaturam in seipsa sic sciunt</seg>, etc., usque ad <seg type="qs">Ideo septima die <pb ed="#P" n="0084B"/> nulla vespera accessit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e507">
+            <ref xml:id="gom-gen2-Rd1e509" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e511"><name xml:id="gom-gen2-Nd1e512" ref="#Augustine">Ibid.</name>, c. 28.</ref>
+            <quote xml:id="gom-gen2-Qd1e516"><seg type="qs">Nec putet quis</seg>, etc., usque ad <seg type="qs">et verius mane?</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e525">
+            <ref xml:id="gom-gen2-Rd1e527" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e529"><name xml:id="gom-gen2-Nd1e530" ref="#Augustine">Ibid.</name>, c. 35.</ref>
+            <quote xml:id="gom-gen2-Qd1e534"><seg type="qs">Dies ergo ille primus</seg>, etc., usque ad <seg type="qs">et sanctificari ob hoc meruit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e542">
+            Allegorice.
+          </p>
+          <p xml:id="gom-gen2-d1e544">
+            <ref xml:id="gom-gen2-Rd1e546" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_2@9-10"/>
+            <ref xml:id="gom-gen2-Rd1e548"><name xml:id="gom-gen2-Nd1e549" ref="#Bede">BEDA</name>, in Hexaem., tom. II, col. 13.</ref>
+            <quote xml:id="gom-gen2-Qd1e553"><seg type="qs">Unde dicitur Exod. XX: <quote xml:id="gom-gen2-Qd1e556" source="http://scta.info/resource/ex20_8@1-5">Memento ut diem sabbati sanctifices.</quote> Haec autem benedictio et sanctificatio majorem benedictionem et sanctificationem significat</seg>, etc., usque ad <seg type="qs">Ideo haec dies vesperam habere non scribitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e565">
+          <head xml:id="gom-gen2-Hd1e567">Versus 4</head>
+          <p xml:id="gom-gen2-d1e569">
+            <quote xml:id="gom-gen2-Qd1e571" type="lemma" source="http://scta.info/resource/gen2_4@1-2">Istae sunt generationes.</quote>
+            <ref xml:id="gom-gen2-Rd1e574"><name xml:id="gom-gen2-Nd1e575" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e578">Eos tangit qui mundum sine initio dicunt semper fuisse, vel qui a Deo factum putant, sed ex materia quam non fecerit, sed coaeterna ei.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e581">
+            <pb ed="#P" n="0084C"/>
+            <quote xml:id="gom-gen2-Qd1e585" type="lemma" source="http://scta.info/resource/gen2_4@9-12">In die quo fecit,</quote>
+            etc. <quote xml:id="gom-gen2-Qd1e588"><seg type="qs">Diem ponit pro omni tempore, quo primordialis creatura formata est</seg>, etc., usque ad <seg type="qs">sine pluvia et opere humano.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e596">
+            <quote xml:id="gom-gen2-Qd1e598" type="lemma" source="http://scta.info/resource/gen2_4@1-3">Istae sunt generationes coeli,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e601"><name xml:id="gom-gen2-Nd1e602" ref="#IsidoreOfSeville">ISID.</name>, in Gen., t. V.</ref>
+            <quote xml:id="gom-gen2-Qd1e606"><seg type="qs">Numerati sunt sex dies quibus universitas saeculi a capite usque ad finem</seg>, etc., usque ad <seg type="qs">si non peccasset.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e615">
+          <head xml:id="gom-gen2-Hd1e617">Versus 5</head>
+          <p xml:id="gom-gen2-d1e619">
+            <quote xml:id="gom-gen2-Qd1e621" type="lemma" source="http://scta.info/resource/gen2_5@5-8">Antequam oriretur in terra.</quote>
+            Id est, priusquam peccaret, id est terrenis cupiditatibus se subderet. Unde sequitur: <quote xml:id="gom-gen2-Qd1e624" source="http://scta.info/resource/gen2_5@14-20">Non enim pluerat Deus super terram,</quote> hoc est, nondum propheticis vel evangelicis nubibus, imbre verbi emisso, animam vivere fecerat, et <quote xml:id="gom-gen2-Qd1e627" source="http://scta.info/resource/gen2_5@22-27">homo non erat qui operaretur terram,</quote> quia post peccatum homo laborare coepit in terra, <pb ed="#P" n="0084D"/> necessarias habuit nubes illas, unde virgultum, id est anima virebat. Irrigabat eam fons vitae, id est, inundatio veritatis, loquens in intellectu ejus, ut pluvia de nubibus non egeret antequam peccaret. Hic erat status hominis ante peccatum.
+          </p>
+          <p xml:id="gom-gen2-d1e633">
+            <ref xml:id="gom-gen2-Rd1e635" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_5@5-8"/>
+            <ref xml:id="gom-gen2-Rd1e637"><name xml:id="gom-gen2-Nd1e638" ref="#Augustine">AUG.</name>, l. V, de Genes. ad lit., c. 1, tom. III.</ref>
+            <quote xml:id="gom-gen2-Qd1e642"><seg type="qs">Alia translatio habet: <quote xml:id="gom-gen2-Qd1e645">Hic est liber creaturae coeli et terrae,</quote></seg> etc., usque ad <seg type="qs">magnos veritate, parvulos nutrit affabilitate.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e651">
+            <ref xml:id="gom-gen2-Rd1e653" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_5@5-8"/>
+            <ref xml:id="gom-gen2-Rd1e655"><name xml:id="gom-gen2-Nd1e656" ref="#Augustine">AUG.</name>, ibid., l. VI, c. 10.</ref>
+            <quote xml:id="gom-gen2-Qd1e660"><seg type="qs">In prima mundi conditione</seg>, etc., usque ad <seg type="qs">semen ex herba.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e668">
+            <quote xml:id="gom-gen2-Qd1e670" type="lemma" source="http://scta.info/resource/gen2_5@1-3">Et omne virgultum,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e673"><name xml:id="gom-gen2-Nd1e674" ref="#Augustine">AUG.</name>, ibid., l. V, c. 4.</ref>
+            <quote xml:id="gom-gen2-Qd1e678">Intelligitur terra causaliter produxisse herbam et lignum, id est producendi virtutem accepisse. In ea enim tanquam in radicibus facta <pb ed="#P" n="0085A"/> erant quae per tempora futura erant. Fecit ergo antequam essent super terram secundum formabilitatem materiae, quae formanda erant verbo ejus, praecedens formationem non tempore sed origine.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e685">
+            <quote xml:id="gom-gen2-Qd1e687" type="lemma" source="http://scta.info/resource/gen2_5@14-17">Non enim pluerat Dominus,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e690"><name xml:id="gom-gen2-Nd1e691" ref="#Augustine">AUG.</name>, ibid., c. 5.</ref>
+            <quote xml:id="gom-gen2-Qd1e695"><seg type="qs">Quasi non fecit Deus sic tunc sicut nunc</seg>, etc., usque ad <seg type="qs">nec creatura moveri posset.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e705">
+          <head xml:id="gom-gen2-Hd1e707">Versus 6</head>
+          <p xml:id="gom-gen2-d1e709">
+            <quote xml:id="gom-gen2-Qd1e711" type="lemma" source="http://scta.info/resource/gen2_6@1-2">Sed fons,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e714"><name xml:id="gom-gen2-Nd1e715" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e718">Hujus fontis qualiscunque irrigatione jam terra herbis et lignis vestita supervenit. Fons unus ascendisse dicitur pro aliqua in terrae finibus unitate; vel singularis positus est pro plurali.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e721">
+            <quote xml:id="gom-gen2-Qd1e723" type="lemma" source="http://scta.info/resource/gen2_6@1-2">Sed fons,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e726"><name xml:id="gom-gen2-Nd1e727" ref="#Bede">BEDA</name>, in Gen., c. 2.</ref>
+            <quote xml:id="gom-gen2-Qd1e731"><seg type="qs">Hic intimare videtur quae fiant secundum temporum intervalla</seg>, etc., usque ad <seg type="qs">post per haec quae nota sunt <pb ed="#P" n="0085B"/> utcunque noscenda.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e742">
+          <head xml:id="gom-gen2-Hd1e744">Versus 7</head>
+          <p xml:id="gom-gen2-d1e746">
+            <quote xml:id="gom-gen2-Qd1e748" type="lemma" source="http://scta.info/resource/gen2_7@1-1">Formavit,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e751"><name xml:id="gom-gen2-Nd1e752" ref="#Augustine">AUG.</name></ref>
+          </p>
+          <p xml:id="gom-gen2-d1e756">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen2-d1e758">
+            <ref xml:id="gom-gen2-Rd1e760" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-1"/>
+            <quote xml:id="gom-gen2-Qd1e762"><seg type="qs">Latior de homine figurate explicatur narratio</seg>, etc., usque ad <seg type="qs">ut nec contemnat quod est, nec arroget quod non est.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e770">
+            <quote xml:id="gom-gen2-Qd1e772" type="lemma" source="http://scta.info/resource/gen2_7@1-5">Formavit igitur Dominus Deus hominem,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e775"><name xml:id="gom-gen2-Nd1e776" ref="#Augustine">AUG.</name>, de Gen. lib. III, cap. 20 et 25.</ref>
+            <quote xml:id="gom-gen2-Qd1e780"><seg type="qs">Prius de limo terrae formatum est corpus animale</seg>, etc., usque ad <seg type="qs">habet enim necessitatem moriendi.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e789">
+            <ref xml:id="gom-gen2-Rd1e791" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-5"/>
+            <ref xml:id="gom-gen2-Rd1e793"><name xml:id="gom-gen2-Nd1e794" ref="#Augustine">Ibid.</name> c. 27.</ref>
+            <quote xml:id="gom-gen2-Qd1e798">Stola prima aut justitia est, de qua lapsus est: vel si corporalem immortalitatem signat, hanc amisit, cum peccando ad eam pervenire non potuit. Sic ergo Adam corpus animale habuit, non modo ante paradisum, sed et in paradiso (quamvis in interiori homine fuit spirituale) quod amisit peccando, <pb ed="#P" n="0085C"/> et meruit corporis mortem, qui non peccando mereretur in corpus spirituale mutationem.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e804">
+            <quote xml:id="gom-gen2-Qd1e806" type="lemma" source="http://scta.info/resource/gen2_7@1-1">Formavit,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e809"><name xml:id="gom-gen2-Nd1e810" ref="#Augustine">AUG.</name>, l. VI de Gen. ad litt., c. I, tom. III.</ref>
+            <quote xml:id="gom-gen2-Qd1e814">Videndum est utrum recapitulatio sit, ut dicatur quomodo homo factus sit, quem sexta die factum legimus. An tunc cum fecit omnia simul, et hominem in his fecit, ut accessu temporis etiam hoc modo fieret, quo in hac perspicua forma vitam gerit? sicut fenum factum antequam exoriretur, accedente tempore, et fontis irrigatione, exortum est, ut super terram esset.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e817">
+            <ref xml:id="gom-gen2-Rd1e819" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-1"/>
+            <ref xml:id="gom-gen2-Rd1e821"><name xml:id="gom-gen2-Nd1e822" ref="#Augustine">AUG.</name>, ibid. c. 2, 3.</ref>
+            <quote xml:id="gom-gen2-Qd1e826"><seg type="qs">Secundum recapitulationem prius videamus</seg>, etc., usque ad <seg type="qs">tunc autem invisibiliter, potentialiter et causaliter quomodo fiunt futura, non facta.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e834">
+            <pb ed="#P" n="0085D"/>
+            <quote xml:id="gom-gen2-Qd1e838" type="lemma" source="http://scta.info/resource/gen2_7@1-1">Formavit,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e841"><name xml:id="gom-gen2-Nd1e842" ref="#Bede">BEDA</name>, in Hexaem.</ref>
+            <quote xml:id="gom-gen2-Qd1e846"><seg type="qs">Factura hominis</seg>, etc., usque ad <seg type="qs">in qua viveret, creavit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e854">
+            <ref xml:id="gom-gen2-Rd1e856" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-1"/>
+            <ref xml:id="gom-gen2-Rd1e858"><name xml:id="gom-gen2-Nd1e859" ref="#Augustine">AUG.</name>, de Gen. ad litt., l. VI, c. 13 et 17.</ref>
+            <quote xml:id="gom-gen2-Qd1e863"><seg type="qs">Quaeritur utrum Deus repente hominem in aetate virili fecerit</seg>, etc., usque ad <seg type="qs">et ideo necessario futurum erat.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e871">
+            <ref xml:id="gom-gen2-Rd1e873" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-1"/>
+            <quote xml:id="gom-gen2-Qd1e875"><seg type="qs">Et inspiravit in faciem ejus spiraculum vitae, et factus est homo in animam viventem. » <ref xml:id="gom-gen2-Rd1e878"><name xml:id="gom-gen2-Nd1e879" ref="#Augustine">AUG.</name>, ibid., l. VII, c. 3, 5, 7.</ref><!-- check: attribution inside gloss body --> Sine dubitatione, <quote xml:id="gom-gen2-Qd1e884">flavit, vel sufflavit,</quote> dicendum est</seg>, etc., usque ad <seg type="qs">poenam si contemneret?</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e892">
+            <ref xml:id="gom-gen2-Rd1e894" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-1"/>
+            <ref xml:id="gom-gen2-Rd1e896"><name xml:id="gom-gen2-Nd1e897" ref="#Augustine">Ibid.</name>, c. 26.</ref>
+            <quote xml:id="gom-gen2-Qd1e901"><seg type="qs">Dicendum est</seg>, etc., usque ad <seg type="qs">dubitare fas non est.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e909">
+            <ref xml:id="gom-gen2-Rd1e911" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-1"/>
+            <ref xml:id="gom-gen2-Rd1e913"><name xml:id="gom-gen2-Nd1e914" ref="#Augustine">Ibid.</name>, c. 27.</ref>
+            <quote xml:id="gom-gen2-Qd1e918"><seg type="qs">Quaeri solet utrum, si nolit incorporari, compellatur</seg>, etc., usque ad <seg type="qs">fecit eos.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e926">
+            <pb ed="#P" n="0086A"/>
+            <ref xml:id="gom-gen2-Rd1e930" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-1"/>
+            <ref xml:id="gom-gen2-Rd1e932"><name xml:id="gom-gen2-Nd1e933" ref="#Augustine">Ibid.</name>, l. VI, c. 7.</ref>
+            <quote xml:id="gom-gen2-Qd1e937"><seg type="qs">Sed forte animae sexta die factae, ubi imago Dei relucet</seg>, etc., usque ad <seg type="qs">quae praeponenda est in hujusmodi.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e945">
+            <ref xml:id="gom-gen2-Rd1e947" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_7@1-1"/>
+            <!--<note>(IRENAEUS.)</note>--> Aliud est habitus vitae qui animalem efficit hominem, aliud Spiritus vivificans, qui spiritualem hominem operatur. Unde Isaias: Qui dedit flatum populis super terram, et spiritum calcantibus eam; ut Deus flatum quidem omni populo qui est super terram dederit; spiritum vero his tantum qui terrena desideria calcant: ut flatus ad tempus sit, spiritus vero aeternus, ut pote qui proprie Dei donum sit.
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e953">
+          <head xml:id="gom-gen2-Hd1e955">Versus 8</head>
+          <p xml:id="gom-gen2-d1e957">
+            <quote xml:id="gom-gen2-Qd1e959" type="lemma" source="http://scta.info/resource/gen2_8@1-2">Plantaverat autem,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e962"><name xml:id="gom-gen2-Nd1e963" ref="#Bede">BEDA</name>, in Hexaem., tom. III.</ref>
+            <quote xml:id="gom-gen2-Qd1e967"><seg type="qs">Ab illo principio plantavit paradisum</seg>, etc., usque ad <seg type="qs">et quia de ligno vitae et scientiae <pb ed="#P" n="0086B"/> boni et mali erat specialiter dicturus.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e977">
+            <quote xml:id="gom-gen2-Qd1e979" type="lemma" source="http://scta.info/resource/gen2_8">Plantavit Dominus paradisum in Eden ad Orientem,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-gen2-Rd1e984"><name xml:id="gom-gen2-Nd1e985" ref="#Augustine">AUG.</name>, de Gen. ad litt., lib. VIII, c. 1.</ref>
+            <quote xml:id="gom-gen2-Qd1e989">Tres generales sententiae de paradiso sunt. Una eorum qui corporaliter tantum intelligi volunt, alia eorum qui spiritualiter tantum, tertia vero eorum qui utroque modo paradisum accipiunt. Tertiam mihi placere fateor: ut homo factus ex limo, quod corpus humanum est, in paradiso corporali locatus intelligatur. Adam, etsi aliud significat, quia est forma futuri, in natura propria homo accipitur.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e992">
+            <ref xml:id="gom-gen2-Rd1e994"><name xml:id="gom-gen2-Nd1e995" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e998" type="lemma" source="http://scta.info/resource/gen2_8@1-9">Plantavit autem Dominus paradisum in Eden.</quote>
+            <quote xml:id="gom-gen2-Qd1e1001">Id est in deliciis. Deinde hoc recapitulat ut ostendat quomodo paradisum Deus plantavit. <quote xml:id="gom-gen2-Qd1e1003">Et ejecit Deus de terra omne lignum,</quote> etc. Jam enim <pb ed="#P" n="0086C"/> tunc produxerat terra omne lignum, die scilicet tertio. Sed cum ex his generibus sint ligna instituta in paradiso, produxit in manifesto, et in tempore suo, quae jam causaliter tertio die terra produxerat.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1009">
+            <ref xml:id="gom-gen2-Rd1e1011" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_8@1-9"/>
+            <ref xml:id="gom-gen2-Rd1e1013"><name xml:id="gom-gen2-Nd1e1014">STRAB.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e1016">Quidam codices habent: <quote xml:id="gom-gen2-Qd1e1018">Eden ad Ortum.</quote> Ex quo possumus conjicere paradisum in Oriente situm. Ubicunque autem sit, scimus eum terrenum esse, et interjecto Oceano, et montibus oppositis, remotissimum a nostro orbe, in alto situm, pertingentem usque ad lunarem circulum; unde aquae diluvii illuc minime pervenerunt.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1023">
+            <quote xml:id="gom-gen2-Qd1e1025" type="lemma" source="http://scta.info/resource/gen2_8@9-11">In quo posuit.</quote>
+            <ref xml:id="gom-gen2-Rd1e1028"><name xml:id="gom-gen2-Nd1e1029" ref="#Augustine">AUG.</name>, ubi supra, cap. 5.</ref>
+            <quote xml:id="gom-gen2-Qd1e1033"><seg type="qs">Si quis putat animas corpore exutas locis corporalibus contineri</seg>, etc., usque ad <seg type="qs">cujus una collyride Deus hominem a fame quadraginta diebus liberavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1042">
+          <head xml:id="gom-gen2-Hd1e1044">Versus 9</head>
+          <p xml:id="gom-gen2-d1e1046">
+            <pb ed="#P" n="0086D"/>
+            <quote xml:id="gom-gen2-Qd1e1050" type="lemma" source="http://scta.info/resource/gen2_9@14-16">Produxitque Dominus lignum etiam vitae.</quote>
+            <ref xml:id="gom-gen2-Rd1e1053"><name xml:id="gom-gen2-Nd1e1054" ref="#Augustine">AUG.</name>, Ibid., c. 4.</ref>
+            <quote xml:id="gom-gen2-Qd1e1058"><seg type="qs">De sapientia dicitur: <quote xml:id="gom-gen2-Qd1e1061" source="http://scta.info/resource/prov3_18@1-7">Lignum vitae his est qui apprehenderint eam.</quote> Sed est Hierusalem aeterna in coelis</seg>, etc., usque ad <seg type="qs">quae res suis temporibus gestas narravit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1069">
+            <quote xml:id="gom-gen2-Qd1e1071" type="lemma" source="http://scta.info/resource/gen2_9@14-16">Lignum etiam vitae,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1074"><name xml:id="gom-gen2-Nd1e1075" ref="#Bede">BEDA</name>, in Hexaem., tom. III, col. 13.</ref>
+            <quote xml:id="gom-gen2-Qd1e1079">In altero hominis signum obedientiae quam debebat: in altero sacramentum vitae aeternae, quam obediendo mereretur. Lignum vitae dictum, quia divinitus accepit, ut qui ex eo manducaret, corpus ejus stabili sanitate firmaretur, nec ulla infirmitate vel aetate in deterius vel in occasum laberetur.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1082">
+            <ref xml:id="gom-gen2-Rd1e1084" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_9@14-16"/>
+            <ref xml:id="gom-gen2-Rd1e1086"><name xml:id="gom-gen2-Nd1e1087">STRAB.</name></ref>
+          </p>
+          <p xml:id="gom-gen2-d1e1090">
+            Historice.
+          </p>
+          <p xml:id="gom-gen2-d1e1093">
+            <ref xml:id="gom-gen2-Rd1e1095" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_9@14-16"/>
+            Lignum vitae hanc naturaliter <pb ed="#P" n="0087A"/> virtutem habebat, ut qui ex ejus fructu comederet, perpetua soliditate vestiretur, nulla infirmitate, vel anxietate, vel senii lassitudine, vel imbecillitate fatigandus.
+          </p>
+          <p xml:id="gom-gen2-d1e1100">
+            <quote xml:id="gom-gen2-Qd1e1102" type="lemma" source="http://scta.info/resource/gen2_9@20-24">Lignumque scientiae boni et mali.</quote>
+            <ref xml:id="gom-gen2-Rd1e1105"><name xml:id="gom-gen2-Nd1e1106" ref="#Augustine">AUG.</name> ubi supra, c. 6</ref>
+            <quote xml:id="gom-gen2-Qd1e1110"><seg type="qs">Erat corporale sicut aliae arbores, nec cibo noxium</seg>, etc., usque ad <seg type="qs">quae transgressionem secuta est.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1118">
+            <quote xml:id="gom-gen2-Qd1e1120" type="lemma" source="http://scta.info/resource/gen2_9@20-24">Lignum scientiae boni et mali.</quote>
+            <ref xml:id="gom-gen2-Rd1e1123"><name xml:id="gom-gen2-Nd1e1124" ref="#Augustine">AUG.</name>, lib. II de Gen. contra Manich., c. 10.</ref>
+            <quote xml:id="gom-gen2-Qd1e1128">Animae medietas et ordinata integritas signatur, quod in medio paradisi plantatum, et scientiae boni et mali dictum: quia anima, quae debet in Deum extendi, si Deo deserto ad se conversa fuerit, et potentia sua sine Deo frui voluerit, poena sequente experiendo discit quid <pb ed="#P" n="0087B"/> sit inter bonum quod deseruit, et malum quo cecidit: et hoc erit ei gustasse de ligno scientiae boni et mali.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1135">
+          <head xml:id="gom-gen2-Hd1e1137">Versus 10</head>
+          <p xml:id="gom-gen2-d1e1139">
+            <quote xml:id="gom-gen2-Qd1e1141" type="lemma" source="http://scta.info/resource/gen2_10@1-3">Et fluvius egrediebatur.</quote>
+            <ref xml:id="gom-gen2-Rd1e1144"><name xml:id="gom-gen2-Nd1e1145" ref="#Bede">BED.</name>, ubi supra.</ref>
+            <quote xml:id="gom-gen2-Qd1e1149"><seg type="qs">Ad irrigandum paradisum</seg>, etc., usque ad <seg type="qs">et paulo post emergentia solitum agere cursum.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1157">
+            <ref xml:id="gom-gen2-Rd1e1159" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_10@1-3"/>
+            <ref xml:id="gom-gen2-Rd1e1161"><name xml:id="gom-gen2-Nd1e1162" ref="#Augustine">AUG.</name>, ubi supra, c. 7.</ref>
+            <quote xml:id="gom-gen2-Qd1e1166"><seg type="qs">Alia translatio: <quote xml:id="gom-gen2-Qd1e1169">Fons exiit de Eden, qui irrigat paradisum,</quote> etc. Haec flumina gentibus</seg>, etc., usque ad <seg type="qs">ligna scilicet pulchra et fructuosa.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1176">
+            <ref xml:id="gom-gen2-Rd1e1178" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_10@1-3"/>
+            <ref xml:id="gom-gen2-Rd1e1180"><name xml:id="gom-gen2-Nd1e1181" ref="#IsidoreOfSeville">ISID.</name>, AUG.</ref>
+          </p>
+          <p xml:id="gom-gen2-d1e1186">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen2-d1e1189">
+            <ref xml:id="gom-gen2-Rd1e1191" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_10@1-3"/>
+            <quote xml:id="gom-gen2-Qd1e1193"><seg type="qs">Fluvius de paradiso egrediens, affluentia est aeternae jucunditatis</seg>, etc., usque ad <seg type="qs">adversa tolerando.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1201">
+            <ref xml:id="gom-gen2-Rd1e1203" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_10@1-3"/>
+            <ref xml:id="gom-gen2-Rd1e1205"><name xml:id="gom-gen2-Nd1e1206" ref="#GregoryGreat">GREG.</name></ref>
+          </p>
+          <p xml:id="gom-gen2-d1e1210">
+            Moraliter.
+          </p>
+          <p xml:id="gom-gen2-d1e1212">
+            <ref xml:id="gom-gen2-Rd1e1214" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_10@1-3"/>
+            Quatuor fluminibus de paradiso <pb ed="#P" n="0087C"/> egredientibus terra irrigatur. Solidum rationis nostrae aedificium, prudentia, temperantia, fortitudo, justitia, continent: quia his quatuor virtutibus tota boni operis structura consurgit. Quatuor flumina paradisum irrigant, quia dum his quatuor virtutibus cor infunditur, ab omni desideriorum carnalium aestu temperatur.
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1220">
+          <head xml:id="gom-gen2-Hd1e1222">Versus 11</head>
+          <p xml:id="gom-gen2-d1e1224">
+            <quote xml:id="gom-gen2-Qd1e1226" type="lemma" source="http://scta.info/resource/gen2_11@10-10">Evilath.</quote>
+            Regio Indiae quae post diluvium possessa est ab Evila filio Jectan, filii Heber, patriarchae Hebraeorum. Evilath interpretatur <mentioned>parturiens</mentioned>, quia aliquis loquens veritatem, magis parturit quam pariat. Plinius dicit regiones Indiae prae caeteris, venis aureis abundare.
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1234">
+          <head xml:id="gom-gen2-Hd1e1236">Versus 12</head>
+          <p xml:id="gom-gen2-d1e1238">
+            <quote xml:id="gom-gen2-Qd1e1240" type="lemma" source="http://scta.info/resource/gen2_12@9-9">Bdellium.</quote>
+            Secundum Plinium arbor est aromatica magnitudine oleagina, cujus lacryma lucida, <pb ed="#P" n="0087D"/> gustu amara, boni odoris, sed odoratior infusione vini.
+          </p>
+          <p xml:id="gom-gen2-d1e1246">
+            <quote xml:id="gom-gen2-Qd1e1248" type="lemma" source="http://scta.info/resource/gen2_12">Onyx.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Est lapis pretiosus, sic dictus quia permistum habet candorem ad humani similitudinem unguis, quia unguis Graece dicitur <foreign xml:lang="greek">ὄνυξ.</foreign> Antiqua translatio habet <quote xml:id="gom-gen2-Qd1e1256">carbunculum et prasium.</quote> Carbunculus est ignei coloris, et dicitur illustrare tenebras noctis. Prasius est viridis, unde Graece a porro, quod <foreign xml:lang="greek">πράσον</foreign> dicitur, nomen accepit.
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1263">
+          <head xml:id="gom-gen2-Hd1e1265">Versus 15</head>
+          <p xml:id="gom-gen2-d1e1267">
+            <quote xml:id="gom-gen2-Qd1e1269" type="lemma" source="http://scta.info/resource/gen2_15@1-4">Tulit ergo Dominus Deus,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1272"><name xml:id="gom-gen2-Nd1e1273" ref="#Augustine">AUG.</name>, ubi supra, c. 8.</ref>
+            <quote xml:id="gom-gen2-Qd1e1277"><seg type="qs">Hominem in paradiso positum jam dixit. Nunc recapitulat ad quid positus est, <quote xml:id="gom-gen2-Qd1e1280" source="http://scta.info/resource/gen2_15@12-13">ut operaretur,</quote> etc. Non est enim credibile quod Deus eum ante peccatum ad laborem damnaverit, <pb ed="#P" n="0088A"/></seg> etc., usque ad <seg type="qs">unde Eccli. X: <quote xml:id="gom-gen2-Qd1e1287" source="http://scta.info/resource/sir10_14@1-6">initium enim superbiae hominis est apostatare a Deo.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1291">
+            <quote xml:id="gom-gen2-Qd1e1293" type="lemma" source="http://scta.info/resource/gen2_15@1-5">Tulit ergo Dominus Deus hominem,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1296"><name xml:id="gom-gen2-Nd1e1297" ref="#GregoryGreat">GREG.</name>, lib. XIX Moral., cap. 17, tom. I.</ref>
+            <quote xml:id="gom-gen2-Qd1e1301"><seg type="qs">Pensandum est quia bona prodesse nequeunt, si mala non caventur quae subrepunt</seg>, etc., usque ad <seg type="qs">sed sub ipsis superbiendo succumbunt.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1309">
+            <quote xml:id="gom-gen2-Qd1e1311" type="lemma" source="http://scta.info/resource/gen2_15">Et sumpsit Dominus Deus,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1316"><name xml:id="gom-gen2-Nd1e1317" ref="#Jerome">HIERON.</name> Quaest. Hebr. in Gen., tom. III.</ref>
+            <quote xml:id="gom-gen2-Qd1e1321">Pro <quote xml:id="gom-gen2-Qd1e1323" source="http://scta.info/resource/gen2_15@11-11">voluptate</quote> in Hebraeo habetur <quote xml:id="gom-gen2-Qd1e1326">Eden.</quote> Ipsi ergo LXX nunc <mentioned>Eden</mentioned> interpretati sunt, nunc <mentioned>voluptatem</mentioned>. Symmachus vero, qui « paradisum florentem ante transtulerat, hic <quote xml:id="gom-gen2-Qd1e1332">amoenitatem,</quote> vel <quote xml:id="gom-gen2-Qd1e1335">delicias</quote> posuit.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1339">
+            <quote xml:id="gom-gen2-Qd1e1341" type="lemma" source="http://scta.info/resource/gen2_15@6-8">Et posuit eum,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1344"><name xml:id="gom-gen2-Nd1e1345" ref="#IsidoreOfSeville">ISID.</name></ref>
+          </p>
+          <p xml:id="gom-gen2-d1e1350">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen2-d1e1352">
+            <ref xml:id="gom-gen2-Rd1e1354" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_15@6-8"/>
+            Ex eo quod additum est, « Et custodiret, innuitur qualis operatio <pb ed="#P" n="0088B"/> esset: quia in tranquillitate beatae vitae, ubi mors non est, omnis operatio est custodire quod tenes. Datum est enim praeceptum, ut de omni ligno paradisi sumerent, sed non de ligno scientiae boni et mali: id est non sic eo fruerentur, ut integritatem naturae suae usurpando vetitum violarent.
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1360">
+          <head xml:id="gom-gen2-Hd1e1362">Versus 16</head>
+          <p xml:id="gom-gen2-d1e1364">
+            <quote xml:id="gom-gen2-Qd1e1366" type="lemma" source="http://scta.info/resource/gen2_16@1-2">Praecipitque ei,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1369"><name xml:id="gom-gen2-Nd1e1370" ref="#Augustine">AUG.</name>, ubi supra, c. 13.</ref>
+            <quote xml:id="gom-gen2-Qd1e1374"><seg type="qs">A ligno prohibitus est</seg>, etc., usque ad <seg type="qs">quid sit inter bonum obedientiae et malum inobedientiae.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1382">
+            <ref xml:id="gom-gen2-Rd1e1384" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_16@1-2"/>
+            <ref xml:id="gom-gen2-Rd1e1386"><name xml:id="gom-gen2-Nd1e1387" ref="#Augustine">AUG.</name>, ubi supra, c. 17.</ref>
+            <quote xml:id="gom-gen2-Qd1e1391"><seg type="qs">Quaeritur si viro soli, vel etiam feminae</seg>, etc., usque ad <seg type="qs"><quote xml:id="gom-gen2-Qd1e1396" source="http://scta.info/resource/Icor14_35@6-9">domi viros suos interrogent.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1400">
+            <ref xml:id="gom-gen2-Rd1e1402" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_16@1-2"/>
+            <ref xml:id="gom-gen2-Rd1e1404"><name xml:id="gom-gen2-Nd1e1405">PROCOP.</name> in Gen.</ref>
+            <quote xml:id="gom-gen2-Qd1e1408">Dicunt aliqui: Si immortalitate nos amicire voluit, quid opus erat praecepto, propter <pb ed="#P" n="0088C"/> quod peccaturi eramus et deinde judicii ejus sentire severos aculeos? Respondeo: Cum sit benignus et mansuetus, et vellet in incorruptibilem et immortalem conditionem asserere humanum genus: ne suae vel propriae virtuti beneficium id accepto ferrent, in hunc modum egit, voluit ut gratias ei haberent, his etiam destinavit praesentem vitam, ut palaestram et quasi doctrinam futurae vitae. Deinde inferens mortem ob peccatum, voluit ut agnosceremus nostram infirmitatem, et deinde nos ipsi magis appeteremus futurum donum.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1414">
+            <ref xml:id="gom-gen2-Rd1e1416" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_16@1-2"/>
+            « Praecepitque ei dicens: Ex omni, etc.
+          </p>
+          <p xml:id="gom-gen2-d1e1420">
+            <ref xml:id="gom-gen2-Rd1e1422" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_16@1-2"/>
+            <ref xml:id="gom-gen2-Rd1e1424"><name xml:id="gom-gen2-Nd1e1425" ref="#Augustine">AUG.</name> de Gen. ad litt., l. VIII, 28, tom. III.</ref>
+            <quote xml:id="gom-gen2-Qd1e1429"><seg type="qs">Si quaeritur quomodo ista locutus sit, non proprie a nobis potest comprehendi. Certum est enim aut per suam substantiam <pb ed="#P" n="0088D"/> loqui</seg>, etc., usque ad <seg type="qs">sed per subditam sibi creaturam.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1439">
+            <ref xml:id="gom-gen2-Rd1e1441" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_16@1-2"/>
+            Quaeritur quomodo loqui potuerunt, vel loquentem intelligere, qui non didicerant inter loquentes crescendo, vel magisterio? Sed eos Deus tales fecerat qui possent loqui, et discere ab aliis si essent.
+          </p>
+          <p xml:id="gom-gen2-d1e1444">
+            <ref xml:id="gom-gen2-Rd1e1446" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_16@1-2"/>
+            <ref xml:id="gom-gen2-Rd1e1448"><name xml:id="gom-gen2-Nd1e1449" ref="#Augustine">AUG.</name>, ubi supra, c. 14.</ref>
+            <quote xml:id="gom-gen2-Qd1e1453"><seg type="qs">De Christo dicitur, Isa. VII: <quote xml:id="gom-gen2-Qd1e1456">Priusquam sciat puer bonum aut malum, contemnet malitiam, ut eligat bonum.</quote> Quomodo quod nescit aut contemnit, aut eligit?</seg> etc., usque ad <seg type="qs">quod amittere non debebat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1464">
+          <head xml:id="gom-gen2-Hd1e1466">Versus 17</head>
+          <p xml:id="gom-gen2-d1e1468">
+            <quote xml:id="gom-gen2-Qd1e1470" type="lemma" source="http://scta.info/resource/gen2_17@1-3">De ligno autem,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1473"><name xml:id="gom-gen2-Nd1e1474" ref="#Augustine">AUG.</name>, ubi supra, c. 15.</ref>
+            <quote xml:id="gom-gen2-Qd1e1478"><seg type="qs">Lignum ex eo</seg>, etc., usque ad <seg type="qs">id est, quod amabant non amissuri.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1486">
+            <ref xml:id="gom-gen2-Rd1e1488" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_17@1-3"/>
+            <!--<note>(SEVERIANUS.)</note>--> Tres arborum differentiae erant in <pb ed="#P" n="0089A"/> paradiso. Una quidem data illi erat ut viveret, altera ut bene viveret, tertia ut semper viveret.
+          </p>
+          <p xml:id="gom-gen2-d1e1495">
+            <quote xml:id="gom-gen2-Qd1e1497" type="lemma" source="http://scta.info/resource/gen2_17@10-13">In quocunque enim die,</quote>
+            etc. Non ait, Si comederis, mortalis eris, sed <quote xml:id="gom-gen2-Qd1e1500" source="http://scta.info/resource/gen2_17@17-18">morte morieris.</quote> Mortuus est enim homo in anima cum peccavit, quia recessit ab illo Deus, qui est vita animae: quam secuta est mors corporis, discedente ab illo anima, quae est vita corporis; quae Adae evenit, cum praesentem vitam finivit. Potest ita intelligi quod quando peccaverunt, statim morte illa puniti sunt, de qua dicitur Rom. septimo: <quote xml:id="gom-gen2-Qd1e1503" source="http://scta.info/resource/rom7_24@1-10">Infelix ego homo! quis me liberabit de corpore mortis hujus?</quote> et ibidem octavo: <quote xml:id="gom-gen2-Qd1e1506" source="http://scta.info/resource/rom8_10@7-12">Corpus mortuum est propter peccatum;</quote> non ait mortale, sed <quote xml:id="gom-gen2-Qd1e1509">mortuum,</quote> quamvis mortale, quia moriturum. Non credendum est ante peccatum ita <pb ed="#P" n="0089B"/> fuisse illa corpora, sed animalia nondum spiritualia, non tamen mortua, quae scilicet necesse esset mori, quod in die praevaricationis factum est.
+          </p>
+          <p xml:id="gom-gen2-d1e1515">
+            <quote xml:id="gom-gen2-Qd1e1517" type="lemma" source="http://scta.info/resource/gen2_17@17-18">Morte morieris.</quote>
+            Duplex mors significatur: animae, Domino discedente, qui est ejus vita; vel corporis, quam in fine vitae accepit. Sed statim necessitatem moriendi incurrit.
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1522">
+          <head xml:id="gom-gen2-Hd1e1524">Versus 18</head>
+          <p xml:id="gom-gen2-d1e1526">
+            <quote xml:id="gom-gen2-Qd1e1528" type="lemma" source="http://scta.info/resource/gen2_18@1-3">Dixit quoque Dominus,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1531"><name xml:id="gom-gen2-Nd1e1532" ref="#Augustine">AUG.</name>, l. IX de Gen., c. 8.</ref>
+            <quote xml:id="gom-gen2-Qd1e1536"><seg type="qs">Qui sentiunt ad gignendos filios in paradiso misceri non licere</seg>, etc., usque ad <seg type="qs">anima ex anima, sive alio modo fiat anima.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1545">
+          <head xml:id="gom-gen2-Hd1e1547">Versus 19</head>
+          <p xml:id="gom-gen2-d1e1549">
+            <quote xml:id="gom-gen2-Qd1e1551" type="lemma" source="http://scta.info/resource/gen2_19@14-15">Adduxit ea,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1554"><name xml:id="gom-gen2-Nd1e1555" ref="#Augustine">AUG.</name>, l. IX de Gen. ad litt., c. 14, tom. III.</ref>
+            <quote xml:id="gom-gen2-Qd1e1559"><seg type="qs">Non sicut venatores, vel aucupes; nec jussionis vox de nube facta est, quam rationales animae intelligere solent; hanc enim <pb ed="#P" n="0089C"/> naturaliter non intelligunt bestiae, vel aves</seg>, etc., usque ad <seg type="qs">terra esse creata intelliguntur.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1569">
+            <ref xml:id="gom-gen2-Rd1e1571" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_19@14-15"/>
+            <ref xml:id="gom-gen2-Rd1e1573"><name xml:id="gom-gen2-Nd1e1574" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e1577">Videtur primam linguam humano generi fuisse Hebraeam, quia nomina quae usque ad divisionem linguarum in Genesi legimus, constat esse illius.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1582">
+          <head xml:id="gom-gen2-Hd1e1584">Versus 20</head>
+          <p xml:id="gom-gen2-d1e1586">
+            <quote xml:id="gom-gen2-Qd1e1588" type="lemma" source="http://scta.info/resource/gen2_20@1-1">Appellavitque,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1591"><name xml:id="gom-gen2-Nd1e1592" ref="#Augustine">AUG.</name></ref>
+          </p>
+          <p xml:id="gom-gen2-d1e1596">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen2-d1e1598">
+            <ref xml:id="gom-gen2-Rd1e1600" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_20@1-1"/>
+            Significans gentes quae salvae fierent in Ecclesia per Christum, nomen Christi accepturas, quod prius non habebant; unde, Isa. LXV: <quote xml:id="gom-gen2-Qd1e1602" source="http://scta.info/resource/is65_15@16-19">Vocabo servos meos nomine alio.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1606">
+            <quote xml:id="gom-gen2-Qd1e1608" type="lemma" source="http://scta.info/resource/gen2_20@16-18">Adae vero non inveniebatur,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1611"><name xml:id="gom-gen2-Nd1e1612" ref="#Augustine">AUG.</name>, lib. IX de Gen. ad litt., cap. 15 et seq.</ref>
+            <quote xml:id="gom-gen2-Qd1e1616"><seg type="qs">Videndum est quomodo facta sit mulieris formatio, quae mystice dicitur aedificatio</seg>, etc., usque ad <seg type="qs">ut intelligamus per illam extasim Adam divinitus haec dixisse.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1625">
+            <pb ed="#P" n="0089D"/>
+            <quote xml:id="gom-gen2-Qd1e1629" type="lemma" source="http://scta.info/resource/gen2_20@16-19">Adae vero non inveniebatur adjutor.</quote>
+            Nullus fidelis justus Christo aequari potest. Psalm. XLIV: <quote xml:id="gom-gen2-Qd1e1632" source="http://scta.info/resource/ps44_3@1-5">Speciosus enim forma prae filiis hominum.</quote> Nemo enim poterat genus humanum liberare nisi ipse. Unde Apocalypsis V: <quote xml:id="gom-gen2-Qd1e1635" source="http://scta.info/resource/ap5_2@9-16">Nemo inventus est dignus aperire librum et solvere signacula ejus,</quote> etc.
+          </p>
+          <p xml:id="gom-gen2-d1e1639">
+            <quote xml:id="gom-gen2-Qd1e1641" type="lemma" source="http://scta.info/resource/gen2_20@16-18">Adae vero non inveniebatur,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1644"><name xml:id="gom-gen2-Nd1e1645" ref="#Augustine">AUG.</name>, de Gen. contra Manich., l. II, c. 13.</ref>
+            <quote xml:id="gom-gen2-Qd1e1649"><seg type="qs">Facta est mulier in adjutorium viri</seg>, etc., usque ad <seg type="qs">et dominio rationis cooperante gratia subjugare.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1658">
+          <head xml:id="gom-gen2-Hd1e1660">Versus 21</head>
+          <p xml:id="gom-gen2-d1e1662">
+            <quote xml:id="gom-gen2-Qd1e1664" type="lemma" source="http://scta.info/resource/gen2_21@1-3">Immisit ergo Dominus,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-gen2-d1e1668">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen2-d1e1670">
+            <ref xml:id="gom-gen2-Rd1e1672" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_21@1-3"/>
+            <ref xml:id="gom-gen2-Rd1e1674"><name xml:id="gom-gen2-Nd1e1675" ref="#IsidoreOfSeville">ISID.</name> ex Aug., ut supra, c. 13, 14.</ref>
+            <quote xml:id="gom-gen2-Qd1e1679"><seg type="qs">Non possunt haec corporeis oculis videri. Sed quanto quis a visibilibus ad secreta intelligentiae quasi obdormiendo <pb ed="#P" n="0090A"/> secesserit, melius et sincerius videt</seg>, etc., usque ad <seg type="qs">et Ecclesiae referenda.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1689">
+            <ref xml:id="gom-gen2-Rd1e1691" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_21@1-3"/>
+            <ref xml:id="gom-gen2-Rd1e1693"><name xml:id="gom-gen2-Nd1e1694" ref="#Augustine">AUG.</name>, lib. X de Gen. ad litt., c. I.</ref>
+            <quote xml:id="gom-gen2-Qd1e1698"><seg type="qs">Qui putant animam ex anima</seg>, etc., usque ad <seg type="qs">quam de viro fuerat dictum.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1707">
+            <ref xml:id="gom-gen2-Rd1e1709" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_21@1-3"/>
+            <ref xml:id="gom-gen2-Rd1e1711"><name xml:id="gom-gen2-Nd1e1712" ref="#Augustine">AUG.</name>, ibid., c. 19, 20.</ref>
+            <quote xml:id="gom-gen2-Qd1e1716"><seg type="qs">Si quaeratur unde accepit animam Christus, mallem audire meliores et doctiores</seg>; etc., usque ad <seg type="qs">quibus quid responderi possit, nondum mihi occurrit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1724">
+            <quote xml:id="gom-gen2-Qd1e1726" type="lemma" source="http://scta.info/resource/gen2_21@1-5">Immisit ergo Dominus soporem,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1729"><name xml:id="gom-gen2-Nd1e1730" ref="#GregoryGreat">GREG.</name>, Moral., l. XXX, tom. II.</ref>
+            <quote xml:id="gom-gen2-Qd1e1734">Culmen contemplationis non attingimus, si non ab exterioris curae oppressione cessemus: nec nos ipsos intuemur, ut sciamus in nobis aliud esse rationale quod regit, aliud animale quod regitur, nisi ad secretum silentii recurrentes, <pb ed="#P" n="0090B"/> ab exteriori perturbatione sopiamur. Quod bene Adam dormiens figuravit, de cujus mox latere mulier processit. Qui enim ad interiora intelligenda rapitur, a rebus visibilibus oculos claudit, et tunc intelligit in seipso aliud esse quod regere debeat, tanquam vir; aliud quod regatur, tanquam femina.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1741">
+          <head xml:id="gom-gen2-Hd1e1743">Versus 22</head>
+          <p xml:id="gom-gen2-d1e1745">
+            <quote xml:id="gom-gen2-Qd1e1747" type="lemma" source="http://scta.info/resource/gen2_22">Et aedificavit. . . . Quamobrem relinquet,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1752"><name xml:id="gom-gen2-Nd1e1753" ref="#IsidoreOfSeville">ISID.</name>, in Gen., t. V.</ref>
+            <quote xml:id="gom-gen2-Qd1e1757"><seg type="qs">Quod per historiam completum est in Adam</seg>, etc., usque ad <seg type="qs">Serpens enim haereticorum venena praesignat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen2-Dd1e1766">
+          <head xml:id="gom-gen2-Hd1e1768">Versus 25</head>
+          <p xml:id="gom-gen2-d1e1770">
+            <quote xml:id="gom-gen2-Qd1e1772" type="lemma" source="http://scta.info/resource/gen2_25@1-3">Erat autem uterque nudus.</quote>
+            <ref xml:id="gom-gen2-Rd1e1775"><name xml:id="gom-gen2-Nd1e1776" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen2-Qd1e1779">Si Dei verbis vel cujuslibet prophetae aliquid dicitur, quod ad litteram absurdum videtur et ideo figurate dictum, ob significationem tamen dictum esse non est dubitandum. Corpora vero duorum hominum <pb ed="#P" n="0090C"/> in paradiso nuda erant, nec erubescebant, quia nullam legem in membris senserant legi mentis repugnantem, quae inobedientiam secuta est. Nihil putabant velandum, quia nihil senserant refrenandum.</quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1785">
+            <ref xml:id="gom-gen2-Rd1e1787" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_25@1-3"/>
+            <ref xml:id="gom-gen2-Rd1e1789"><name xml:id="gom-gen2-Nd1e1790" ref="#Augustine">AUG.</name>, de Civ. Dei, l. XIV, c. 17, tom. VII, col. 425.</ref>
+            <quote xml:id="gom-gen2-Qd1e1794"><seg type="qs">Merito libidinis maxime pudet</seg>, etc., usque ad <seg type="qs">reddiditque confusos.</seg></quote>
+          </p>
+          <p xml:id="gom-gen2-d1e1802">
+            <ref xml:id="gom-gen2-Rd1e1804" type="lemma" subtype="implied" target="http://scta.info/resource/gen2_25@1-3"/>
+            <!--<note>(RUPERT.)</note>--> Non erat hoc ignominiae, sed honoris, quod nudi erant: non erat insipientiae, sed securitatis, quod nuditatem suam non erubescebant. Quid enim? nunquid hoc a factore suo accepit, quod confusibilis et verenda est factura Dei? Aut nunquid confusionem hujusmodi natura, et non potius conscientia facit? Est quidem quasi in naturam versum <pb ed="#P" n="0090D"/> hoc tormentum confusionis: verumtamen non ex conditione primaeva, sed ex juniore culpa origo ejus pullulavit. Etenim idcirco nuditatem nostram erubescimus, quia conscii nobis sumus quantam infirmitatem, imo quantam adversum nos rebellionem carnis nostrae portamus. At vero tunc sana erat cordis conscientia, quippe quam nulla sollicitabat oculorum concupiscentia; siquidem concupiscentia carnis poena est peccati, qua praecedens punitur superbia mentis. Deus, inquit Scriptura, fecit hominem rectum. Rectitudo autem hominis in eo est ut carni spiritus, ut pote inferiori superior, praesit et imperet: medius namque inter Deum et carnem suam rationalis spiritus hominis positus est, ut Deo pareret <pb ed="#P" n="0091A"/> et carni imperaret. Quem ordinem quia prior ille turbavit et rupit, abjiciendo praeceptum Dei: subditus est, qui erat superior, spiritus infimae carni, ut justa poena inferiori subjaceat, qui superiori recte subesse contempsit. Hinc illa confusio faciei de conscientiae secretis ad publicos oculos prorumpens, et sub misera velamentorum solatia poenalem ignominiam ire compellens. Haec, inquam, infirmitas vel rebellio carnis nondum erat: bene igitur nudus erat uterque et non erubescebant, quia quod erubescerent non habebant. Illa nuditatis securitate perdita, nos ingemiscimus, eo quod gloria et honore spoliati et panniculis obvoluti simus. Nam ita vestiti vere incedimus nudi, etiamsi, quod impossibile est, sic vestiamur sicut vestiuntur lilia <pb ed="#P" n="0091B"/> agri. Etenim nec Salomon in omni gloria sua vestitus est sicut unum ex his. Si, inquam, vestiri possimus sicut haec vestiuntur, sic quoque spoliati et nudi sumus. Unde Salvatorem exspectamus Dominum nostrum Jesum Christum, qui reformabit corpus humilitatis nostrae, configuratum corpori claritatis suae. Nunquid enim quando fulgebunt justi sicut sol in regno Patris sui, tunicis operientur et palliis? Non utique, sed ad gloriam factoris sui, quaecunque illis fuerint vasa misericordiae, mutuis cum gloriae aspectibus patebunt, foris fulgidi, et intus jucundi; corpore integri, et animo laeti; corpore, inquam, simul et anima beati.
+          </p>
+          <p xml:id="gom-gen2-d1e1815">
+            <quote xml:id="gom-gen2-Qd1e1817" type="lemma" source="http://scta.info/resource/gen2_25@1-3">Erat autem uterque nudus,</quote>
+            etc.
+            <ref xml:id="gom-gen2-Rd1e1820"><name xml:id="gom-gen2-Nd1e1821" ref="#IsidoreOfSeville">ISID.</name>, in Gen., ex Aug. de Gen. contra Manich., lib. II, c. 15.</ref>
+            <quote xml:id="gom-gen2-Qd1e1825"><seg type="qs">Quod <pb ed="#P" n="0091C"/> nudi erant et erubescebant</seg>, etc., usque ad <seg type="qs">quia in consensu rea tenetur conscientia.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

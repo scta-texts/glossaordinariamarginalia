@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 24</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 24</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0877B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps24">
+        <head xml:id="gom-ps24-Hd1e98">Psalmus 24</head>
+        <div xml:id="gom-ps24-Dd1e100">
+          <head xml:id="gom-ps24-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps24-d1e104">
+            <quote xml:id="gom-ps24-Qd1e106" type="lemma" source="http://scta.info/resource/ps24_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps24-Rd1e109"><name xml:id="gom-ps24-Nd1e110" ref="#Jerome">Hier.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e113">Hic flagellatus poenitens praeponitur aliis, ne murmurent in adversis: qui in se expertus per misericordiam blanditur, per justitiam terret.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e116">
+            <pb ed="#P" n="0877C"/>
+            <quote xml:id="gom-ps24-Qd1e120" type="lemma" source="http://scta.info/resource/ps24_1@5-8">Ad te, Domine, levavi.</quote>
+            <ref xml:id="gom-ps24-Rd1e123"><name xml:id="gom-ps24-Nd1e124" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e127"><seg type="qs">Psalmus contra adversa saeculi</seg>, etc., usque ad <seg type="qs">qui non per omnes, minus perfectos.</seg></quote>
+          </p>
+          <p xml:id="gom-ps24-d1e135">
+            <ref xml:id="gom-ps24-Rd1e137" type="lemma" subtype="implied" target="http://scta.info/resource/ps24_1@5-8"/>
+            <ref xml:id="gom-ps24-Rd1e139"><name xml:id="gom-ps24-Nd1e140" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e143">Primo petit doceri vias Domini, quia ad Deum erectus.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e146">
+            <ref xml:id="gom-ps24-Rd1e148" type="lemma" subtype="implied" target="http://scta.info/resource/ps24_1@5-8"/>
+            <ref xml:id="gom-ps24-Rd1e150"><name xml:id="gom-ps24-Nd1e151" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e154">Ad te contemplandum; facile terrena despicit, qui divina conspicit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e158">
+          <head xml:id="gom-ps24-Hd1e160">Versus 2</head>
+          <p xml:id="gom-ps24-d1e162">
+            <quote xml:id="gom-ps24-Qd1e164" type="lemma" source="http://scta.info/resource/ps24_2@5-5">Confido.</quote>
+            <ref xml:id="gom-ps24-Rd1e167"><name xml:id="gom-ps24-Nd1e168" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e171">Expertus in malis meam infirmitatem, non erubescam de inimicis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e175">
+          <head xml:id="gom-ps24-Hd1e177">Versus 3</head>
+          <p xml:id="gom-ps24-d1e179">
+            <quote xml:id="gom-ps24-Qd1e181" type="lemma" source="http://scta.info/resource/ps24_3@1-4">Neque irrideant me inimici:</quote>
+            et certus sum quia in nullo sustinente patienter fallit.
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e186">
+          <head xml:id="gom-ps24-Hd1e188">Versus 4</head>
+          <p xml:id="gom-ps24-d1e190">
+            <quote xml:id="gom-ps24-Qd1e192" type="lemma" source="http://scta.info/resource/ps24_4@5-5">Supervacue.</quote>
+            <ref xml:id="gom-ps24-Rd1e195"><name xml:id="gom-ps24-Nd1e196" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e199">Quia omnia sunt vana et infructuosa quae a Deo sunt aliena.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e202">
+            <quote xml:id="gom-ps24-Qd1e204" type="lemma" source="http://scta.info/resource/ps24_4@6-9">Vias tuas, Domine, demonstra.</quote>
+            <ref xml:id="gom-ps24-Rd1e207"><name xml:id="gom-ps24-Nd1e208" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e211"><seg type="qs">Viae sunt de ordine vitae</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-ps24-Qd1e216" source="http://scta.info/resource/ps24_5@1-1">Dirige,</quote> ad vitam pertinet, <pb ed="#P" n="0877D"/> <quote xml:id="gom-ps24-Qd1e221" source="http://scta.info/resource/ps24_4@14-14">doce</quote> ad scientiam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e228">
+          <head xml:id="gom-ps24-Hd1e230">Versus 5</head>
+          <p xml:id="gom-ps24-d1e232">
+            <quote xml:id="gom-ps24-Qd1e234" type="lemma" source="http://scta.info/resource/ps24_5@7-7">Doce.</quote>
+            <ref xml:id="gom-ps24-Rd1e237"><name xml:id="gom-ps24-Nd1e238" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e241">Ipsam veritatem, ut quod credo intelligam, quia sustinui, et si hoc non sufficit: <quote xml:id="gom-ps24-Qd1e243" source="http://scta.info/resource/ps24_6@1-1">Reminiscere.</quote></quote>
+          </p>
+          <p xml:id="gom-ps24-d1e247">
+            <quote xml:id="gom-ps24-Qd1e249" type="lemma" source="http://scta.info/resource/ps24_5@12-14">Deus salvator meus.</quote>
+            <ref xml:id="gom-ps24-Rd1e252"><name xml:id="gom-ps24-Nd1e253" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e256">Duae res sunt, quae bonos faciunt, ut Deum salvatorem credamus, et patienter ejus retributionem exspectemus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e260">
+          <head xml:id="gom-ps24-Hd1e262">Versus 6</head>
+          <p xml:id="gom-ps24-d1e264">
+            <quote xml:id="gom-ps24-Qd1e266" type="lemma" source="http://scta.info/resource/ps24_6@1-1">Reminiscere.</quote>
+            <ref xml:id="gom-ps24-Rd1e269"><name xml:id="gom-ps24-Nd1e270" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e273">De peccatis prioribus et quae quotidie fiunt, orat per misericordiam antiquis factam, et quia timet verum judicem.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e276">
+            <quote xml:id="gom-ps24-Qd1e278" type="lemma" source="http://scta.info/resource/ps24_6@2-2">Miserationum.</quote>
+            Miseratio proprie in bonorum exhibitione.
+          </p>
+          <p xml:id="gom-ps24-d1e282">
+            <quote xml:id="gom-ps24-Qd1e284" type="lemma" source="http://scta.info/resource/ps24_6@8-10">Quae a saeculo.</quote>
+            <ref xml:id="gom-ps24-Rd1e287"><name xml:id="gom-ps24-Nd1e288" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e291">Id est, ab initio saeculi sunt: non ergo in me fallat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e295">
+          <head xml:id="gom-ps24-Hd1e297">Versus 7</head>
+          <p xml:id="gom-ps24-d1e299">
+            <pb ed="#P" n="0878A"/>
+            <quote xml:id="gom-ps24-Qd1e303" type="lemma" source="http://scta.info/resource/ps24_7@1-1">Delicta.</quote>
+            <ref xml:id="gom-ps24-Rd1e306"><name xml:id="gom-ps24-Nd1e307" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e310">Sunt quando linquitur via aequitatis.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e313">
+            <quote xml:id="gom-ps24-Qd1e315" type="lemma" source="http://scta.info/resource/ps24_7@2-2">Juventutis.</quote>
+            Non pro aetate, sed pro praecipitationis audacia, quae est tunc, cum calor animi modestiam excedit.
+          </p>
+          <p xml:id="gom-ps24-d1e319">
+            <quote xml:id="gom-ps24-Qd1e321" type="lemma" source="http://scta.info/resource/ps24_7@5-5">Ignorantias.</quote>
+            Facimus ea quae mala esse non scimus. Vel delicta ignorantiae in parvulis, qui vel originali peccato tenentur.
+          </p>
+          <p xml:id="gom-ps24-d1e325">
+            <ref xml:id="gom-ps24-Rd1e327" type="lemma" subtype="implied" target="http://scta.info/resource/ps24_7@5-5"/>
+            <ref xml:id="gom-ps24-Rd1e329"><name xml:id="gom-ps24-Nd1e330" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e333">Juventutis. Antequam de domo patris iniqui exirem.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e337">
+            <quote xml:id="gom-ps24-Qd1e339" type="lemma" source="http://scta.info/resource/ps24_7@12-14">Memento mei, tu.</quote>
+            <ref xml:id="gom-ps24-Rd1e342"><name xml:id="gom-ps24-Nd1e343" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e346">Cujus opus est misereri et peccata dimittere.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e349">
+            <quote xml:id="gom-ps24-Qd1e351" type="lemma" source="http://scta.info/resource/ps24_7@9-10">Secundum misericordiam.</quote>
+            Id est, ampla est misericordia tua. Misericordia erga miseros, bonitas erga quoslibet. Facit autem Deus bonum et a miseris <pb ed="#P" n="0878B"/> imploratus, et bonitate ductus: nemo bonus nisi Deus.
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e358">
+          <head xml:id="gom-ps24-Hd1e360">Versus 8</head>
+          <p xml:id="gom-ps24-d1e362">
+            <quote xml:id="gom-ps24-Qd1e364" type="lemma" source="http://scta.info/resource/ps24_8@1-1">Dulcis.</quote>
+            <ref xml:id="gom-ps24-Rd1e367"><name xml:id="gom-ps24-Nd1e368" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e371">Quia omnia priora dimittit, ubi gratia sine meritis.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e374">
+            <quote xml:id="gom-ps24-Qd1e376" type="lemma" source="http://scta.info/resource/ps24_8@3-3">Rectus.</quote>
+            Quia post misericordiam, etc., <quote xml:id="gom-ps24-Qd1e379">usque ad Dulcis,</quote> quia suavia dat;
+          </p>
+          <p xml:id="gom-ps24-d1e382">
+            <quote xml:id="gom-ps24-Qd1e384" type="lemma" source="http://scta.info/resource/ps24_8@3-3">rectus,</quote>
+            quia corrigit.
+          </p>
+          <p xml:id="gom-ps24-d1e388">
+            <quote xml:id="gom-ps24-Qd1e390" type="lemma" source="http://scta.info/resource/ps24_8@6-7">Propter hoc.</quote>
+            <ref xml:id="gom-ps24-Rd1e393"><name xml:id="gom-ps24-Nd1e394" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e397">Quia dulcis et rectus; non ex crudelitate, sed benignitate.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e401">
+            <quote xml:id="gom-ps24-Qd1e403" type="lemma" source="http://scta.info/resource/ps24_8@11-12">In via.</quote>
+            Id est, fide, vel praeceptis Dei. Vel in via hujus vitae, ubi recte vivendum, dabit legem.
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e408">
+          <head xml:id="gom-ps24-Hd1e410">Versus 9</head>
+          <p xml:id="gom-ps24-d1e412">
+            <quote xml:id="gom-ps24-Qd1e414" type="lemma" source="http://scta.info/resource/ps24_9@3-4">In judicio.</quote>
+            Dum punit, diriget ad meliora. Sed mansueti sint, qui corripiuntur: quod ex feris domiti, ut tolerent. Quia si mites, id est, lenis animi quasi naturaliter hoc habentes: docebit eos praecepta, pro quorum neglectu venerunt <pb ed="#P" n="0878C"/> flagella.
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e421">
+          <head xml:id="gom-ps24-Hd1e423">Versus 10</head>
+          <p xml:id="gom-ps24-d1e425">
+            <quote xml:id="gom-ps24-Qd1e427" type="lemma" source="http://scta.info/resource/ps24_10@4-6">Misericordia et veritas.</quote>
+            <ref xml:id="gom-ps24-Rd1e430"><name xml:id="gom-ps24-Nd1e431" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e434"><seg type="qs">Quas autem vias docebit</seg>, etc., usque ad <seg type="qs">et deinde cavet severitatem judicis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps24-d1e442">
+            <quote xml:id="gom-ps24-Qd1e444" type="lemma" source="http://scta.info/resource/ps24_10@8-8">Testamentum.</quote>
+            <ref xml:id="gom-ps24-Rd1e447"><name xml:id="gom-ps24-Nd1e448" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e451">Novum, quod egregie dicitur Testamentum, ubi clara et certa promissio haereditatis quod et morte firmatur.</quote>
+          </p>
+          <p xml:id="gom-ps24-d1e454">
+            <quote xml:id="gom-ps24-Qd1e456" type="lemma" source="http://scta.info/resource/ps24_10@5-8">Et Testamentum.</quote>
+            Legis veteris, ubi fuerunt Prophetae testes promissionum.
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e462">
+          <head xml:id="gom-ps24-Hd1e464">Versus 11</head>
+          <p xml:id="gom-ps24-d1e466">
+            <quote xml:id="gom-ps24-Qd1e468" type="lemma" source="http://scta.info/resource/ps24_11@1-4">Propter nomen tuum, Domine.</quote>
+            <ref xml:id="gom-ps24-Rd1e471"><name xml:id="gom-ps24-Nd1e472" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e475"><seg type="qs">Id est, gloriam tuam</seg>, etc., usque ad <seg type="qs">et interpretantur <mentioned>mundi</mentioned>, qui se ab omni peccato mundos asserunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e486">
+          <head xml:id="gom-ps24-Hd1e488">Versus 12</head>
+          <p xml:id="gom-ps24-d1e490">
+            <quote xml:id="gom-ps24-Qd1e492" type="lemma" source="http://scta.info/resource/ps24_12@1-3">Quis est homo?</quote>
+            <ref xml:id="gom-ps24-Rd1e495"><name xml:id="gom-ps24-Nd1e496" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e499">Hic agit de aeternis; quomodo habentur, laborans et orans, ut et <pb ed="#P" n="0878D"/> ipse, et totus Israel ab his malis liberetur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e506">
+          <head xml:id="gom-ps24-Hd1e508">Versus 13</head>
+          <p xml:id="gom-ps24-d1e510">
+            <quote xml:id="gom-ps24-Qd1e512" type="lemma" source="http://scta.info/resource/ps24_13@1-1">Anima.</quote>
+            <ref xml:id="gom-ps24-Rd1e515"><name xml:id="gom-ps24-Nd1e516" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e519"><seg type="qs">et si non statim</seg>, etc., usque ad <seg type="qs">quidquid alii faciant, etc.</seg></quote>
+          </p>
+          <p xml:id="gom-ps24-d1e527">
+            <quote xml:id="gom-ps24-Qd1e529" type="lemma" source="http://scta.info/resource/ps24_13@7-7">Semen.</quote>
+            <ref xml:id="gom-ps24-Rd1e532"><name xml:id="gom-ps24-Nd1e533" ref="#Jerome">Hier.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e536">Bonum est, unde fructus colligitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e540">
+          <head xml:id="gom-ps24-Hd1e542">Versus 14</head>
+          <p xml:id="gom-ps24-d1e544">
+            <quote xml:id="gom-ps24-Qd1e546" type="lemma" source="http://scta.info/resource/ps24_14@1-2">Firmamentum est.</quote>
+            <ref xml:id="gom-ps24-Rd1e549"><name xml:id="gom-ps24-Nd1e550" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e553">Videtur infirmorum esse timor, sed Dominus est firmamentum timentibus eum, et facit ut Testamentum ejus manifestetur illis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e557">
+          <head xml:id="gom-ps24-Hd1e559">Versus 15</head>
+          <p xml:id="gom-ps24-d1e561">
+            <quote xml:id="gom-ps24-Qd1e563" type="lemma" source="http://scta.info/resource/ps24_15@1-1">Oculi.</quote>
+            Sal. <quote xml:id="gom-ps24-Qd1e566">Oculi sapientis in capite, id est, in corde ejus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e570">
+          <head xml:id="gom-ps24-Hd1e572">Versus 16</head>
+          <p xml:id="gom-ps24-d1e574">
+            <quote xml:id="gom-ps24-Qd1e576" type="lemma" source="http://scta.info/resource/ps24_16@8-8">Unicus.</quote>
+            <ref xml:id="gom-ps24-Rd1e579"><name xml:id="gom-ps24-Nd1e580" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e583">Unicus plus amatur, pauper plus doletur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e588">
+          <head xml:id="gom-ps24-Hd1e590">Versus 17</head>
+          <p xml:id="gom-ps24-d1e592">
+            <quote xml:id="gom-ps24-Qd1e594" type="lemma" source="http://scta.info/resource/ps24_17@7-8">De necessitatibus.</quote>
+            Id est, ab adversis, <pb ed="#P" n="0879A"/> quae necessaria sunt omnibus, qui pie in Christo vivere volunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e601">
+          <head xml:id="gom-ps24-Hd1e603">Versus 19</head>
+          <p xml:id="gom-ps24-d1e605">
+            <quote xml:id="gom-ps24-Qd1e607" type="lemma" source="http://scta.info/resource/ps24_19@1-1">Respice.</quote>
+            <ref xml:id="gom-ps24-Rd1e610"><name xml:id="gom-ps24-Nd1e611" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e614">Tot hominum perditio sine dolore, esse non potest, et ideo pro eis orat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e618">
+          <head xml:id="gom-ps24-Hd1e620">Versus 21</head>
+          <p xml:id="gom-ps24-d1e622">
+            <quote xml:id="gom-ps24-Qd1e624" type="lemma" source="http://scta.info/resource/ps24_21@1-4">Innocentes et recti adhaeserunt.</quote>
+            <ref xml:id="gom-ps24-Rd1e627"><name xml:id="gom-ps24-Nd1e628" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e631">Mali tolerati sunt; non adhaeserunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps24-Dd1e635">
+          <head xml:id="gom-ps24-Hd1e637">Versus 22</head>
+          <p xml:id="gom-ps24-d1e639">
+            <quote xml:id="gom-ps24-Qd1e641" type="lemma" source="http://scta.info/resource/ps24_22">Israel.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps24-Rd1e646"><name xml:id="gom-ps24-Nd1e647" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps24-Qd1e650">Populum, quem ad tuam visionem praeparasti.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

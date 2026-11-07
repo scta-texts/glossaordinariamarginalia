@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum I, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum I, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0604A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ireg13">
+        <head xml:id="gom-Ireg13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-Ireg13-Dd1e100">
+          <head xml:id="gom-Ireg13-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ireg13-d1e104">
+            <quote xml:id="gom-Ireg13-Qd1e106" type="lemma" source="http://scta.info/resource/Ireg13_1@2-3">Ecce vir.</quote>
+            Cujus nomen hic tacetur, in <pb ed="#P" n="0604B"/> Paralipomenis Gaddo vocatur vel nuncupatur. Ipse est Gad qui monuit David ire in terram Juda.
+          </p>
+          <p xml:id="gom-Ireg13-d1e112">
+            <ref xml:id="gom-Ireg13-Rd1e114" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg13_1@2-3"/>
+            <ref xml:id="gom-Ireg13-Rd1e116"><name xml:id="gom-Ireg13-Nd1e117" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg13-Qd1e120"><seg type="qs">Propheta a Deo missus</seg>, etc., usque ad <seg type="qs">poenitenti venia daretur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg13-Dd1e129">
+          <head xml:id="gom-Ireg13-Hd1e131">Versus 11</head>
+          <p xml:id="gom-Ireg13-d1e133">
+            <quote xml:id="gom-Ireg13-Qd1e135" type="lemma" source="http://scta.info/resource/Ireg13_11@1-1">Prophetes.</quote>
+            Iste pseudopropheta princeps erat sacerdotum, et valde a rege colebatur tanquam divinus; timens autem ne per sermonem viri Dei rex a cultura idolorum recederet, et se tanquam maleficum interficeret, excogitavit ut virum Dei deciperet, satis astute agens, ut dum transgrederetur praeceptum Dei, illius iram incurreret, sicut postea fecit, cum magis homini quam Deo credidit. Ac per hoc monstrarentur esse falsa quae praedixit, sicque regi persuadere possent, sicut fecit. Audiens autem rex eventum, putavit irrita quae vir Dei dixerat, et <pb ed="#P" n="0604C"/> non declinavit a via sua mala.
+          </p>
+          <p xml:id="gom-Ireg13-d1e141">
+            <quote xml:id="gom-Ireg13-Qd1e143" type="lemma" source="http://scta.info/resource/Ireg13_11@16-17">Omnia opera,</quote>
+            etc.
+            <ref xml:id="gom-Ireg13-Rd1e146"><name xml:id="gom-Ireg13-Nd1e147" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-Ireg13-Qd1e150">In gestis prophetae mira antecedunt, misera succedunt: qua in re quid colligimus? nisi quod apud se propter magnalia gloriatus ab interna mox soliditate est quassatus, et inde ei in opere culpa subrepit, unde sibi gloria in corde subrepsit, ut a propheta falso disceret deceptus, quia nequaquam propriae fortitudinis fuit quod prius accidisset.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg13-Dd1e154">
+          <head xml:id="gom-Ireg13-Hd1e156">Versus 21</head>
+          <p xml:id="gom-Ireg13-d1e158">
+            <quote xml:id="gom-Ireg13-Qd1e160" type="lemma" source="http://scta.info/resource/Ireg13_21@11-13">Haec dicit Dominus.</quote>
+            <ref xml:id="gom-Ireg13-Rd1e163"><name xml:id="gom-Ireg13-Nd1e164" ref="#GregoryGreat">ID.</name></ref>
+            <quote xml:id="gom-Ireg13-Qd1e167">Bene autem ore ejus sententiam mortis accepit, cujus reductione a vitae praeceptis deviavit, ut inde poenam veraciter sumeret, unde culpam negligenter admisisset.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg13-Dd1e171">
+          <head xml:id="gom-Ireg13-Hd1e173">Versus 24</head>
+          <p xml:id="gom-Ireg13-d1e175">
+            <quote xml:id="gom-Ireg13-Qd1e177" type="lemma" source="http://scta.info/resource/Ireg13_24@23-25">Et leo stabat,</quote>
+            etc.
+            <ref xml:id="gom-Ireg13-Rd1e180"><name xml:id="gom-Ireg13-Nd1e181" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg13-Qd1e184">Hic ostenditur, <pb ed="#P" n="0604D"/> quod peccatum inobedientiae in ipsa morte fuit laxatum, quia iste idem leo, qui viventem praesumpsit occidere, ausus contingere non est occisum. Qui enim occidendi habuit potestatem, de occisi cadavere comedendi licentiam non accepit, quia is cujus culpa in vita fuerat punita, erat jam justus ex morte.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg13-Dd1e192">
+          <head xml:id="gom-Ireg13-Hd1e194">Versus 31</head>
+          <p xml:id="gom-Ireg13-d1e196">
+            <quote xml:id="gom-Ireg13-Qd1e198" type="lemma" source="http://scta.info/resource/Ireg13_31@11-11">Sepelite,</quote>
+            etc. Malus propheta sciens evenire quae vir Dei praedixit, praecepit ut sepeliretur juxta virum Dei, ne quando ossa illius comburenda effoderentur, sed conservarentur, per sanctum prophetam, sicut inferius idem testatur liber impletum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

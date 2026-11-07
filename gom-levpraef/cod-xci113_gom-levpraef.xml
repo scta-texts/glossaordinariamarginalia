@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus, Praefatio</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Leviticus, Praefatio</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0295D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-levpraef">
+        <head xml:id="gom-levpraef-Hd1e98">PRAEFATIO.</head>
+        <p xml:id="gom-levpraef-d1e100">
+          <pb ed="#P" n="0295D"/>
+          <ref xml:id="gom-levpraef-Rd1e104"><name xml:id="gom-levpraef-Nd1e105">ISICHIUS</name> in Levit.</ref>
+          <quote xml:id="gom-levpraef-Qd1e108">Liber iste Leviticus dicitur quia scilicet in hoc nomine totius libri argumentum manifestatur. Tribus Levi tabernaculi ministerium sortita est, in quo sacrificia, et primitias, et primogenitorum <pb ed="#P" n="0296D"/> oblationes offerri praeceptum est, quia omnia sacrificia ad Levitas pertinent <!--<note>(Num. XVIII)</note>-->. A quibus liber iste congruum sortitus est nomen, qui haec omnia digerit per ordinem.</quote>
+        </p>
+        <p xml:id="gom-levpraef-d1e116">
+          Latine <mentioned>Offertorius</mentioned> vel <mentioned>sacrificativus</mentioned> dicitur, quia <pb ed="#P" n="0297A"/> de sacrificiis et caeremoniis agit. Hic bene post Exodum ponitur: in eo enim tabernaculum ordinatur, in hoc ea continentur quae Dominus Moysi de tabernaculo loquebatur, et tabernaculi caeremoniae.
+        </p>
+        <p xml:id="gom-levpraef-d1e125">
+          Si quis autem quaerat quare libri legis divisi sunt, cum historia tempore indivisa sit, respondendum est: ut fastidium scilicet lectori auferret librorum divisio, sicut et viae spatia dividit viator, ut tanquam divisus minuatur labor.
+        </p>
+        <p xml:id="gom-levpraef-d1e127">
+          Rabanus ab Isichio Hierosolymorum episcopo, qui Leviticum satis plene exposuit, multa collegit, et ab aliis quoque Patribus, qui ejus aliquas sententias exposuerunt, quaedam operi suo apposuit, et ex confuso sententiarum ordine quemdam expositionis ordinem multorum doctorum sententias alternando <pb ed="#P" n="0297B"/> composuit.
+        </p>
+        <p xml:id="gom-levpraef-d1e133">
+          <ref xml:id="gom-levpraef-Rd1e135"><name xml:id="gom-levpraef-Nd1e136">ISICHIUS</name> in Levit.</ref>
+          <quote xml:id="gom-levpraef-Qd1e139">Prae omnibus necesse est interpretationem legis ad anagogen trahi, et spiritualem intelligentiam in littera prescrutari. Hoc enim non contradicit legi, sed eam defendit. Spiritualem quippe intellectum diligenter esse inquirendum etiam ipse Christus ostendit, qui in parabolis suis <!--<note>(Matth. XIII)</note>--> agrum, mundum; agricolam seminantem semen bonum, justos; zizania, malignos; messores quoque, angelos; et inimicum superseminantem, diabolum appellavit. Quis ergo vetat bovem eum qui operatur justitiam, appellare; sicut ovem, simplicem; et innocentem, columbam: et turturem sublimius agentes et contemplationi vacantes? Nunquid non Ezechiel Hierusalem leaenam dixit: et catulum ejus, <pb ed="#P" n="0297C"/> Eliachim, qui ductus est in Aegyptum, et alium catulum Joachim in Babylonem ductum? <!--<note>(Ezech. XIX.)</note>--> Non solum quae in parabolis dicta sunt, sed et quae secundum historiam sunt, ad sublimiorem ducenda esse intellectum Paulus ostendit, dicens: <quote xml:id="gom-levpraef-Qd1e147">Scriptum est quoniam Abraham habuit duos filios,</quote> etc.; post quae addidit: <quote xml:id="gom-levpraef-Qd1e149">Quae sunt secundum allegoriam dicta: haec enim sunt duo Testamenta,</quote> etc. <!--<note>(Gal. IV)</note>-->. Fortassis autem noxia erit littera spoliata spirituali intelligentia, et variis reprehensionibus obnoxia. Unde per Ezechielem et bonam legem, et non bonam Dominus appellat, dicens: <quote xml:id="gom-levpraef-Qd1e154">Dedi eis praecepta mea, et judicia mea ostendi eis, quae faciat homo et vivat in eis.</quote> Et alibi: <quote xml:id="gom-levpraef-Qd1e156">Dedi eis mandata non bona, et judicia <pb ed="#P" n="0297D"/> in quibus non vivant.</quote> Patet ergo bona esse et non bona; et in quibus vivant et in quibus non vivant: qui enim custodit sanctum Spiritum, vivit in eis; qui autem secundum carnem, moritur, quia vitam non cognoscit in eis. Deinde legislator non semper, sed certo tempore voluit custodiri legis superficiem, ut reprimeret duram Judaeorum cervicem; unde: <quote xml:id="gom-levpraef-Qd1e161" source="http://scta.info/resource/ex32_9@7-12">Scio quod populus iste durae cervicis sit</quote>; Osee autem vocat Judaeos vitulam consternantem, quae scilicet nullo modo domatur. Et alibi: <quote xml:id="gom-levpraef-Qd1e164">Ephraim vitula docta diligere trituram, transivi super pulchritudinem colli ejus</quote><!--<note>(Osee. X)</note>-->; in quo obedientia significatur. Jugum enim legis imposuit, ut humiliati libenter susciperent leve et suave jugum Evangelii <!--<note>(Matth. XII)</note>-->.</quote>
+        </p>
+        <p xml:id="gom-levpraef-d1e171">
+          <pb ed="#P" n="0298A"/>
+          <ref xml:id="gom-levpraef-Rd1e175"><name xml:id="gom-levpraef-Nd1e176" ref="#Origen">ORIG.</name>, homil. 1, in Levit.</ref>
+          <quote xml:id="gom-levpraef-Qd1e180">Si secundum quosdam etiam nostrorum simplicem intellectum sequamur, et absque ulla, ut ipsi nos ridere solent, stropha verbi et allegoriae nubilo vocem legislatoris excipiamus, ego ecclesiasticus sub fide Christi vivens, et in medio Ecclesiae positus, ad sacrificandum vitulos vel agnos, et ad offerendam similam cum thure et oleo, divini praecepti auctoritate compellor: ipse ergo Dominus, ipse Spiritus sanctus deprecandus est, ut omnem nebulam peccati quae visum cordis nostri obscurat, auferre dignetur, ut spiritualem intelligentiam intueamur, secundum illud: <quote xml:id="gom-levpraef-Qd1e182">Revela oculos meos et considerabo mirabilia,</quote> etc. <!--<note>(Psal. CXVIII)</note>-->.</quote>
+        </p>
+        <p xml:id="gom-levpraef-d1e188">
+          <ref xml:id="gom-levpraef-Rd1e190"><name xml:id="gom-levpraef-Nd1e191" ref="#IsidoreOfSeville">ISID.</name></ref>
+          <quote xml:id="gom-levpraef-Qd1e194">Omnis hostiarum diversitas Christi hostiam praefigurabat. Unde, <quote xml:id="gom-levpraef-Qd1e196" source="http://scta.info/resource/Icor15">veritate oblata, cessavit umbra<!-- check: cited chapter given; verse not identified --></quote> <pb ed="#P" n="0298B"/> , verum sacrificium veri et aeterni sacerdotis praefigurans. Ideo autem hostiis animalium propter emundationem oblatis, una vera hostia Christi promittebatur, in qua fieret remissio peccatorum contractorum de carne et sanguine, qui regnum Dei non possidebunt: quia substantia corporalis in coelestem mutabitur qualitatem. Christus in vitulo propter virtutem crucis offerebatur; in agno, propter innocentiam; in ariete, propter principatum; in hirco, propter similitudinem carnis peccati; in turture et columba, quia Deus et homo. Mediator enim Dei et hominum in duarum substantiarum conjunctione monstrabatur; in similaginis conspersione, credentium per aquam baptismi collectam esse Ecclesiam, id est corpus Christi, ostendebatur. Nos autem moraliter <pb ed="#P" n="0298C"/> offerimus vitulum, cum carnis superbiam vincimus; agnum, cum irrationabiles motus corrigimus; haedum, cum lasciviam superamus; columbam, dum simplices sumus; turturem, dum casti sumus, vel dum castitatem servamus; panes azymos, cum non in fermento malitiae, sed in azymis sinceritatis et veritatis epulamur.</quote>
+        </p>
+        <p xml:id="gom-levpraef-d1e206">
+          <ref xml:id="gom-levpraef-Rd1e208"><name xml:id="gom-levpraef-Nd1e209" ref="#RabanusMaurus">RAB.</name></ref>
+          <quote xml:id="gom-levpraef-Qd1e212">Singula sacrificia, imo singulas pene syllabas, et vestes Aaron, et totum Leviticum ordinem coelestia dicit spirare sacramenta.</quote>
+        </p>
+        <p xml:id="gom-levpraef-d1e215">
+          Origenes quoque ait: Quia sicut in novissimis diebus Verbum Dei ex Maria virgine carne vestitum processit in mundum; cujus caro ab omnibus videbatur, divinitas paucis et electis cognita tegebatur: sic verbum Dei per prophetas profertur ad homines, <pb ed="#P" n="0298D"/> ibi carnis, hic litterae velamine tectum. Littera tanquam caro aspicitur: spiritualis sensus tanquam divinitas sentitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

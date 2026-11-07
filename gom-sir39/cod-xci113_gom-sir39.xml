@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 39</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 39</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1221B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir39">
+        <head xml:id="gom-sir39-Hd1e98">Caput 39</head>
+        <div xml:id="gom-sir39-Dd1e100">
+          <head xml:id="gom-sir39-Hd1e102">Versus 15</head>
+          <p xml:id="gom-sir39-d1e104">
+            <quote xml:id="gom-sir39-Qd1e106" type="lemma" source="http://scta.info/resource/sir39_15">Si permanserit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-sir39-Rd1e111"><name xml:id="gom-sir39-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir39-Qd1e115">Christi, cujus <pb ed="#P" n="1221C"/> sunt membra, a suo habent omnia: qui est virtus et sapientia Patris.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e122">
+          <head xml:id="gom-sir39-Hd1e124">Versus 17</head>
+          <p xml:id="gom-sir39-d1e126">
+            <quote xml:id="gom-sir39-Qd1e128" type="lemma" source="http://scta.info/resource/sir39_17@4-5">Obaudite me.</quote>
+            <ref xml:id="gom-sir39-Rd1e131"><name xml:id="gom-sir39-Nd1e132" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir39-Qd1e135">Intelligite doctrinam meam, mentes electorum per baptismum generatae, et fructum martyrii facite in decursu mortalis vitae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e139">
+          <head xml:id="gom-sir39-Hd1e141">Versus 20</head>
+          <p xml:id="gom-sir39-d1e143">
+            <quote xml:id="gom-sir39-Qd1e145" type="lemma" source="http://scta.info/resource/sir39_20">Et citharis.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-sir39-Rd1e150"><name xml:id="gom-sir39-Nd1e151" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir39-Qd1e154"><seg type="qs">Unde: <quote xml:id="gom-sir39-Qd1e157" source="http://scta.info/resource/ps32_2@1-4">Confitemini Domini in cithara</quote>. Cithara est ligni ventris in imo concavitas</seg>, etc., usque ad <seg type="qs">quae secundum formam psalterii de superius ad nos conveniunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e166">
+          <head xml:id="gom-sir39-Hd1e168">Versus 22</head>
+          <p xml:id="gom-sir39-d1e170">
+            <quote xml:id="gom-sir39-Qd1e172" type="lemma" source="http://scta.info/resource/sir39_22@1-3">In verbo ejus.</quote>
+            <ref xml:id="gom-sir39-Rd1e175"><name xml:id="gom-sir39-Nd1e176" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir39-Qd1e179"><seg type="qs">Quando congregavit aquas</seg>, etc., usque ad <seg type="qs">vel aqua persecutionis, Dei dispensatione restringitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e189">
+          <head xml:id="gom-sir39-Hd1e191">Versus 24</head>
+          <p xml:id="gom-sir39-d1e193">
+            <quote xml:id="gom-sir39-Qd1e195" type="lemma" source="http://scta.info/resource/sir39_24@1-3">Opera omnis carnis.</quote>
+            Praesentia Dei antecedit omnia, et quidquid fit temporaliter ei sine <pb ed="#P" n="1221D"/> tempore praesens est. <quote xml:id="gom-sir39-Qd1e200" source="http://scta.info/resource/act1">Nihil ergo novum, neque mutabile est in conspectu ejus<!-- check: cited chapter given; verse not identified --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e206">
+          <head xml:id="gom-sir39-Hd1e208">Versus 26</head>
+          <p xml:id="gom-sir39-d1e210">
+            <quote xml:id="gom-sir39-Qd1e212" type="lemma" source="http://scta.info/resource/sir39_26@1-3">Non est dicere,</quote>
+            etc. Prohibet nos esse curiosos, et perscrutari quae scire non convenit. Omnia enim in tempore suo manifestabuntur, cum illuminabit Dominus abscondita tenebrarum, et manifestabit consilia cordium.
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e217">
+          <head xml:id="gom-sir39-Hd1e219">Versus 27</head>
+          <p xml:id="gom-sir39-d1e221">
+            <quote xml:id="gom-sir39-Qd1e223" type="lemma" source="http://scta.info/resource/sir39_27@1-1">Benedictio,</quote>
+            etc. Sicut post diluvii effusionem aquae redibant, ut appareret arida et germinaret; sic post exstinctionem impiorum, datur electis facultas fructificandi.
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e228">
+          <head xml:id="gom-sir39-Hd1e230">Versus 31</head>
+          <p xml:id="gom-sir39-d1e232">
+            <quote xml:id="gom-sir39-Qd1e234" type="lemma" source="http://scta.info/resource/sir39_31@1-2">Initium necessariae.</quote>
+            Ante diluvium, fructu terrae naturali cibo nutriebantur homines, nedum erant concessae carnes.
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e239">
+          <head xml:id="gom-sir39-Hd1e241">Versus 35</head>
+          <p xml:id="gom-sir39-d1e243">
+            <pb ed="#P" n="1222A"/>
+            <quote xml:id="gom-sir39-Qd1e247" type="lemma" source="http://scta.info/resource/sir39_35@1-2">Ignis, grando.</quote>
+            <ref xml:id="gom-sir39-Rd1e250"><name xml:id="gom-sir39-Nd1e251" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir39-Qd1e254">Omnia homini ante peccatum obediebant; post peccatum vero pugnat contra eum orbis terrarum. Inde fames et mors, et mille pericula mortis, bestiae quoque contra cum saeviunt, et rhomphaea coelestis vindictae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e258">
+          <head xml:id="gom-sir39-Hd1e260">Versus 37</head>
+          <p xml:id="gom-sir39-d1e262">
+            <quote xml:id="gom-sir39-Qd1e264" type="lemma" source="http://scta.info/resource/sir39_37@1-2">In mandatis.</quote>
+            Quia juxta supernam sententiam, in tempore opportuno digna ultio peccatores vastabit.
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e270">
+          <head xml:id="gom-sir39-Hd1e272">Versus 38</head>
+          <p xml:id="gom-sir39-d1e274">
+            <quote xml:id="gom-sir39-Qd1e276" type="lemma" source="http://scta.info/resource/sir39_38@1-7">Propterea ab initio, confirmatus sum.</quote>
+            Ad superiora respicit, ubi ait: <quote xml:id="gom-sir39-Qd1e279" source="http://scta.info/resource/sir39_40@1-3">Non est dicere,</quote> etc. Videt enim incomprehensibilia Dei judicia, et investigabiles vias, nec audet inde aliquid temere loqui vel scribere: sed temperate de his disputans, non causam, sed modum divino consilio manifestum dimisit.
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e284">
+          <head xml:id="gom-sir39-Hd1e286">Versus 40</head>
+          <p xml:id="gom-sir39-d1e288">
+            <quote xml:id="gom-sir39-Qd1e290" type="lemma" source="http://scta.info/resource/sir39_40@1-3">Non est dicere.</quote>
+            Utile dat consilium, <pb ed="#P" n="1222B"/> ut opera ei non incaute discutiamus, sed Creatorem in omnibus laudemus et benedicamus.
+          </p>
+        </div>
+        <div xml:id="gom-sir39-Dd1e297">
+          <head xml:id="gom-sir39-Hd1e299">Versus 41</head>
+          <p xml:id="gom-sir39-d1e301">
+            <quote xml:id="gom-sir39-Qd1e303" type="lemma" source="http://scta.info/resource/sir39_41@1-4">Et nunc in omni tempore suo.</quote>
+            Quasi dicat: Ne dicas priora tempora meliora fuere quam nunc sunt. Virtutes faciunt dies bonos, vitia malos.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

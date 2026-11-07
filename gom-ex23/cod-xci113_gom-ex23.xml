@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 23</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 23</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0262B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex23">
+        <head xml:id="gom-ex23-Hd1e98">Caput 23</head>
+        <div xml:id="gom-ex23-Dd1e100">
+          <head xml:id="gom-ex23-Hd1e102">Versus 3</head>
+          <p xml:id="gom-ex23-d1e104">
+            <quote xml:id="gom-ex23-Qd1e106" type="lemma" source="http://scta.info/resource/ex23_3@1-5">Pauperis quoque non misereberis in judicio.</quote>
+            <ref xml:id="gom-ex23-Rd1e109"><name xml:id="gom-ex23-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e113">Ne scilicet contra justitiam pauperi faveas causa misericordiae. Bona est misericordia, sed non debet esse contra judicium. Judicium autem dicit Scriptura, quod justum est. Ne quis autem propter hanc sententiam Deum putet prohibere misericordiam, opportune sequitur:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e117">
+          <head xml:id="gom-ex23-Hd1e119">Versus 4</head>
+          <p xml:id="gom-ex23-d1e121">
+            <pb ed="#P" n="0262C"/>
+            <quote xml:id="gom-ex23-Qd1e125" type="lemma" source="http://scta.info/resource/ex23_4@1-5">Si occurreris bovi inimici tui,</quote>
+            etc. Quasi fac misericordiam etiam erga inimicos tuos, cum potestas est a judicando libera; non enim cum reducis errantem bovem inimici et reddis, inter aliquos judex resides.
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e130">
+          <head xml:id="gom-ex23-Hd1e132">Versus 7</head>
+          <p xml:id="gom-ex23-d1e134">
+            <quote xml:id="gom-ex23-Qd1e136" type="lemma" source="http://scta.info/resource/ex23_7@1-2">Mendacium fugies.</quote>
+            <ref xml:id="gom-ex23-Rd1e139"><name xml:id="gom-ex23-Nd1e140" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e143">Veritatem et judicium amat Dominus: et ad haec exsequenda populum suum hortatur, quia non est personarum acceptor.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e147">
+          <head xml:id="gom-ex23-Hd1e149">Versus 10</head>
+          <p xml:id="gom-ex23-d1e151">
+            <quote xml:id="gom-ex23-Qd1e153" type="lemma" source="http://scta.info/resource/ex23_10@1-5">Sex annis seminabis terram tuam.</quote>
+            <ref xml:id="gom-ex23-Rd1e156"><name xml:id="gom-ex23-Nd1e157" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e160"><seg type="qs">Quaeritur quid colligant pauperes, si in septimo anno ita parcitur terrae</seg>, etc., usque ad <seg type="qs">sex annos cum colliguntur quae seminantur.</seg></quote>
+          </p>
+          <p xml:id="gom-ex23-d1e168">
+            <ref xml:id="gom-ex23-Rd1e170" type="lemma" subtype="implied" target="http://scta.info/resource/ex23_10@1-5"/>
+            <ref xml:id="gom-ex23-Rd1e172"><name xml:id="gom-ex23-Nd1e173" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e176">In senario perfectio operum, etc., <quote xml:id="gom-ex23-Qd1e178" source="http://scta.info/resource/IIcor9_6@10-17">usque ad qui seminat in benedictionibus, in benedictionibus et <pb ed="#P" n="0262D"/> metet.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e186">
+          <head xml:id="gom-ex23-Hd1e188">Versus 13</head>
+          <p xml:id="gom-ex23-d1e190">
+            <quote xml:id="gom-ex23-Qd1e192" type="lemma" source="http://scta.info/resource/ex23_13@6-10">Et per nomen externorum deorum,</quote>
+            etc. Per nomen suum jurare permittit, non quod bonum sit jurare; sed quia sciebat homines pronos ad jurandum esse, non vult ut jurent per nomina exteriorum deorum, ne frequenti juramento inducantur ad cultum eorum. Sic et hostias non approbat Deus, mavult tamen sacrificari sibi quam idolis.
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e197">
+          <head xml:id="gom-ex23-Hd1e199">Versus 14</head>
+          <p xml:id="gom-ex23-d1e201">
+            <quote xml:id="gom-ex23-Qd1e203" type="lemma" source="http://scta.info/resource/ex23_14@1-4">Tribus vicibus per singulos a mos,</quote>
+            etc. Fidem scilicet sanctae Trinitatis hic exigit Deus: in Pascha enim immolatur Filius, in Pentecoste datur Spiritus sanctus, in Scenopegia paternae majestatis potentia declaratur.
+          </p>
+          <p xml:id="gom-ex23-d1e207">
+            <quote xml:id="gom-ex23-Qd1e209" type="lemma" source="http://scta.info/resource/ex23_14@1-5">Tribus vicibus per singulos annos,</quote>
+            etc.
+            <ref xml:id="gom-ex23-Rd1e212"><name xml:id="gom-ex23-Nd1e213" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e216">Hoc <pb ed="#P" n="0263A"/> est omni tempore praesentis vitae et in sanctae Trinitatis confessione, per fidem et spem et charitatem bonorum operum obsequia Deo creatori vestro exhibebitis. Pascha enim celebramus mense novorum, cum per sanguinem Agni immaculati ab Aegyptia servitute liberati, per spirituales aquas de veteri homine in novum transimus, non in vetustate litterae, sed in novitate spiritus, quo in terram promissionis per gratiam Christi pervenimus. Solemnitatem vero mensis primitivorum celebramus, cum operum nostrorum, voluntatum, et sermonum primitias Domino consecramus; solemnitatem quoque in exitu anni, quando congregatis frugibus, id est virtutum fructibus, ad finem vitae et introitum regni coelestis pervenire contendimus; in tabernaculis septem diebus <pb ed="#P" n="0263B"/> commemorantes, quia per omne tempus vitae praesentis peregrinos nos esse agnoscimus, nec requiem hic, sed in futuro requirimus, sedulo curantes ne in conspectu Dei vacui appareamus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e225">
+          <head xml:id="gom-ex23-Hd1e227">Versus 16</head>
+          <p xml:id="gom-ex23-d1e229">
+            <quote xml:id="gom-ex23-Qd1e231" type="lemma" source="http://scta.info/resource/ex23_16@11-12">Solemnitatem quoque,</quote>
+            etc.
+            <ref xml:id="gom-ex23-Rd1e234"><name xml:id="gom-ex23-Nd1e235" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e238">Maturis scilicet, frugibus, quando fructus totius anni collecti sunt, in septembri scilicet quem Hebraei Chaldaico vocabulo thisri, Macedones <foreign xml:lang="greek">ὑπερβεραῖον</foreign> vocant. In cujus principio Judaei feriantes amplius tuba canunt quam in caeteris mensibus, et plura offerunt, in quo dies expiationum, et dies scenopegiae quinto decimo die, qui est solemnitas Tabernaculorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e246">
+          <head xml:id="gom-ex23-Hd1e248">Versus 19</head>
+          <p xml:id="gom-ex23-d1e250">
+            <quote xml:id="gom-ex23-Qd1e252" type="lemma" source="http://scta.info/resource/ex23_19@12-13">Non coques haedum,</quote>
+            etc.
+            <ref xml:id="gom-ex23-Rd1e255"><name xml:id="gom-ex23-Nd1e256" ref="#Augustine">AUG.</name>, quaest. 90 in Exod.</ref>
+            <quote xml:id="gom-ex23-Qd1e260"><seg type="qs">Quomodo intelligatur, ad verborum proprietatem nescio utrum possit reperiri, <pb ed="#P" n="0263C"/></seg> etc., usque ad <seg type="qs">postea vero passi sunt non agni in lacte, sed arietes in grege.</seg></quote>
+          </p>
+          <p xml:id="gom-ex23-d1e269">
+            <ref xml:id="gom-ex23-Rd1e271" type="lemma" subtype="implied" target="http://scta.info/resource/ex23_19@12-13"/>
+            <ref xml:id="gom-ex23-Rd1e273"><name xml:id="gom-ex23-Nd1e274">STRAB.</name></ref>
+          </p>
+          <p xml:id="gom-ex23-d1e277">
+            Moraliter.
+          </p>
+          <p xml:id="gom-ex23-d1e279">
+            <ref xml:id="gom-ex23-Rd1e281" type="lemma" subtype="implied" target="http://scta.info/resource/ex23_19@12-13"/>
+            Haedus, id est peccator, non est in lacte matris coquendus, id est blanditiis dissolvendus, sed aspere increpandus et redarguendus.
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e285">
+          <head xml:id="gom-ex23-Hd1e287">Versus 20</head>
+          <p xml:id="gom-ex23-d1e289">
+            <quote xml:id="gom-ex23-Qd1e291" type="lemma" source="http://scta.info/resource/ex23_20@1-4">Ecce ego mittam angelum,</quote>
+            etc.
+            <ref xml:id="gom-ex23-Rd1e294"><name xml:id="gom-ex23-Nd1e295" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e298">Josue significat ducem populi, qui ideo angelus dicitur, quia ad voluntatem Domini annuntiandam mittitur; <foreign xml:lang="greek">ἄγγελος</foreign> enim Graece, <mentioned>nuntius</mentioned> dicitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e308">
+          <head xml:id="gom-ex23-Hd1e310">Versus 22</head>
+          <p xml:id="gom-ex23-d1e312">
+            <quote xml:id="gom-ex23-Qd1e314" type="lemma" source="http://scta.info/resource/ex23_22@11-12">Inimicus ero,</quote>
+            etc.
+            <ref xml:id="gom-ex23-Rd1e317"><name xml:id="gom-ex23-Nd1e318" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e321">Radix cuncti mali superbia est, de qua dicitur Eccli. X: <quote xml:id="gom-ex23-Qd1e323" source="http://scta.info/resource/sir10_15@11-14">Initium omnis peccati superbia.</quote> Sunt autem ejus soboles septem principalia vitia, inanis gloria, invidia, <pb ed="#P" n="0263D"/> ira, tristitia, avaritia, ventris ingluvies, luxuria. Et quia his septem superbiae vitiis nos captos doluit Redemptor noster, ad spirituale liberationis praelium Spiritu septiformis gratiae plenus venit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e332">
+          <head xml:id="gom-ex23-Hd1e334">Versus 23</head>
+          <p xml:id="gom-ex23-d1e336">
+            <quote xml:id="gom-ex23-Qd1e338" type="lemma" source="http://scta.info/resource/ex23_23@1-3">Praecedetque te angelus.</quote>
+            <ref xml:id="gom-ex23-Rd1e341"><name xml:id="gom-ex23-Nd1e342" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e345">Josue populum Israeliticum in terram promissionis induxit, septem gentes ejiciens, idolaque et aras eorum destruens. Mystice verus Jesus has gentes cum simulacris suis exterminat, cum septem principalia vitia et omne idolum inimici de cordibus nostris expellit, ut naturae nostrae terram secure possideamus.</quote>
+          </p>
+          <p xml:id="gom-ex23-d1e348">
+            <quote xml:id="gom-ex23-Qd1e350" type="lemma" source="http://scta.info/resource/ex23_23@19-20">Quos ego conteram.</quote>
+            <ref xml:id="gom-ex23-Rd1e353"><name xml:id="gom-ex23-Nd1e354" ref="#JohnChrysostom">CHRYSOST.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e357">Habet unumquodque vitium in corde nostro propriam mansionem, <pb ed="#P" n="0264A"/> quam sibi vindicans, in animae nostrae recessu exterminat Israelem, id est rerum summarum contemplationem, et adversari non desinit: non enim possunt virtutes cum vitiis morari. Sed cum ab Israelitis, id est a virtutibus, fuerint vitia superata, locum quem concupiscentiae vel fornicationis spiritus possidebat, castitas obtinebit: quem furor ceperat, patientia vindicabit; quem tristitia mortem operans occupaverat, salutaris et plena gaudio laetitia possidebit; quem acedia vastavit, excolet fortitudo; quem superbia conculcabat, humilitas honestabit. Itaque singulis vitiis expulsis, eorum loca, id est affectus, virtutes contrariae possidebunt: quae filii Israelis, id est animae Deum videntis nuncupantur: qui cum universas cordis expulerint passiones, non tam alienas possessiones <pb ed="#P" n="0264B"/> rapuisse quam proprias recuperasse credendi sunt; quia secundum veterem traditionem, terram Chananaeorum filii Sem in divisione orbis sortiti sunt, quam Chananaei violenter possederunt: unde justo, judicio Dei expulsi sunt. Voluntas quoque Domini possessionem cordis nostri non vitiis sed virtutibus deputavit, quae post praevaricationem Adae insolescentibus vitiis, quasi Chananaeis, a propria regione depulsae sunt. Cum vero per Dei gratiam diligentia nostra et labore nostro restituuntur, non tam alienam terram occupant quam recipiunt propriam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e366">
+          <head xml:id="gom-ex23-Hd1e368">Versus 25</head>
+          <p xml:id="gom-ex23-d1e370">
+            <quote xml:id="gom-ex23-Qd1e372" type="lemma" source="http://scta.info/resource/ex23_25@6-8">Benedicam panibus tuis,</quote>
+            etc.
+            <ref xml:id="gom-ex23-Rd1e375"><name xml:id="gom-ex23-Nd1e376" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e379"><seg type="qs">Alia littera: <quote xml:id="gom-ex23-Qd1e382" source="http://scta.info/resource/prov4_17@2-5">Benedicam panem et vinum tuum,</quote> etc. Quamvis hae promissiones possint et spiritualiter intelligi</seg>, etc., usque ad <seg type="qs">quae impii non accipient.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e391">
+          <head xml:id="gom-ex23-Hd1e393">Versus 28</head>
+          <p xml:id="gom-ex23-d1e395">
+            <pb ed="#P" n="0264C"/>
+            <quote xml:id="gom-ex23-Qd1e399" type="lemma" source="http://scta.info/resource/ex23_28@1-2">Emittens crabrones.</quote>
+            <ref xml:id="gom-ex23-Rd1e402"><name xml:id="gom-ex23-Nd1e403" ref="#Augustine">AUG.</name>, quaest. 93.</ref>
+            <quote xml:id="gom-ex23-Qd1e407"><seg type="qs">Emittam vespas, etc. Hoc promittit Deus</seg>, etc., usque ad <seg type="qs">si aliquid a Christo dicitur.</seg></quote>
+          </p>
+          <p xml:id="gom-ex23-d1e415">
+            <ref xml:id="gom-ex23-Rd1e417" type="lemma" subtype="implied" target="http://scta.info/resource/ex23_28@1-2"/>
+            Alia littera. <quote xml:id="gom-ex23-Qd1e419">Emittam vespas ante te, et ejiciet Amorrhaeos,</quote> etc. A plurali ad singularem numerum se convertit. Intelligitur autem <quote xml:id="gom-ex23-Qd1e421">ejiciet Amorrhaeos,</quote> vespa, scilicet sicut locusta, sicut rana, non quod una sit, sed per singularem intelligitur pluralis.
+          </p>
+        </div>
+        <div xml:id="gom-ex23-Dd1e425">
+          <head xml:id="gom-ex23-Hd1e427">Versus 29</head>
+          <p xml:id="gom-ex23-d1e429">
+            <quote xml:id="gom-ex23-Qd1e431" type="lemma" source="http://scta.info/resource/ex23_29@1-5">Non ejiciam eos a facie,</quote>
+            etc.
+            <ref xml:id="gom-ex23-Rd1e434"><name xml:id="gom-ex23-Nd1e435">STRAB.</name></ref>
+            <quote xml:id="gom-ex23-Qd1e437">Gentes istae vitia significant, quae nec simul, nec uno tempore in sanctis exstinguuntur, ne monstra terrae multiplicentur, id est ne in superbiam erigantur et vanam gloriam et hujusmodi. Nam cum sancti contra majora vitia pugnant et vincunt, relinquunt <pb ed="#P" n="0264D"/> minora, et permittuntur dominari, ne per elationem gravius corruant. Unde Paulo datus est stimulus carnis ad custodiam humilitatis <!--<note>(I Cor. XXII)</note>-->.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

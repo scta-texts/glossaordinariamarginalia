@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 123</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 123</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1044C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps123">
+        <head xml:id="gom-ps123-Hd1e98">Psalmus 123</head>
+        <div xml:id="gom-ps123-Dd1e100">
+          <head xml:id="gom-ps123-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps123-d1e104">
+            <quote xml:id="gom-ps123-Qd1e106" type="lemma" source="http://scta.info/resource/ps123_1@3-4">Nisi quia.</quote>
+            <ref xml:id="gom-ps123-Rd1e109"><name xml:id="gom-ps123-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e113">Primo sancti martyres memores quanta evaserunt, soli misericordiae ascribunt; secundo, gratias agunt, quod liberati.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps123-Dd1e117">
+          <head xml:id="gom-ps123-Hd1e119">Versus 3</head>
+          <p xml:id="gom-ps123-d1e121">
+            <quote xml:id="gom-ps123-Qd1e123" type="lemma" source="http://scta.info/resource/ps123_3@1-4">Forte vivos deglutissent nos.</quote>
+            Vivunt qui sciunt idolum nihil esse. Mortui sunt, qui illud putant aliquid esse. Ergo mortui absorbentur, qui <pb ed="#P" n="1044D"/> putant malum faciendum quod faciunt; vivi autem, qui quidem sciunt malum esse quod faciunt, sed persecutione superati in societatem transeunt impiorum, et Deo hujus vitae dulcedinem praeferunt, sicut quidam qui timore mortis idolis sacrificaverunt.
+          </p>
+          <p xml:id="gom-ps123-d1e129">
+            <ref xml:id="gom-ps123-Rd1e131" type="lemma" subtype="implied" target="http://scta.info/resource/ps123_3@1-4"/>
+            <ref xml:id="gom-ps123-Rd1e133"><name xml:id="gom-ps123-Nd1e134" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e137">Attende etiam quod Petrus, id est Ecclesia, absorbet multos, sed non vivos. Cui dicitur: <quote xml:id="gom-ps123-Qd1e139" source="http://scta.info/resource/act10_13@2-3">Macta et manduca.</quote> Nullum enim manducat, id est, membris inserit, nisi mactatum, id est, renuntiantem diabolo. Mactatur ergo in malo, sed vivificatur in bono, qui manducatur a Petro. E contra accidit illi quem deglutit diabolus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps123-Dd1e145">
+          <head xml:id="gom-ps123-Hd1e147">Versus 4</head>
+          <p xml:id="gom-ps123-d1e149">
+            <quote xml:id="gom-ps123-Qd1e151" type="lemma" source="http://scta.info/resource/ps123_4@2-2">Aqua.</quote>
+            <ref xml:id="gom-ps123-Rd1e154"><name xml:id="gom-ps123-Nd1e155" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e158">Peccator populus (et est a similitudine Aegyptiorum): quae aqua torrens fluit <pb ed="#P" n="1045A"/> cum impetu, sed cito transit; unde subdit: <quote xml:id="gom-ps123-Qd1e162">torrentem. --Forsitan</quote> ponunt Latini, ut possunt, pro Graeco <foreign xml:lang="greek">ἄρα</foreign> dubitationis loco, quod intelligibilius dicitur: <quote xml:id="gom-ps123-Qd1e167" source="http://scta.info/resource/ps123_5@2-4">putas, pertransit anima nostra?</quote> id est, magnitudo periculi vix sinit hoc credi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps123-Dd1e173">
+          <head xml:id="gom-ps123-Hd1e175">Versus 5</head>
+          <p xml:id="gom-ps123-d1e177">
+            <quote xml:id="gom-ps123-Qd1e179" type="lemma" source="http://scta.info/resource/ps123_5">Aquam intolerabilem.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps123-Rd1e184"><name xml:id="gom-ps123-Nd1e185" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e188"><seg type="qs">Sine substantia, ut sunt vitia, et peccata, et dulcedo hujus vitae</seg>, etc., usque ad <seg type="qs">prodigumque filium longa necessitate confectum ad patrem reduceret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps123-Dd1e198">
+          <head xml:id="gom-ps123-Hd1e200">Versus 6</head>
+          <p xml:id="gom-ps123-d1e202">
+            <quote xml:id="gom-ps123-Qd1e204" type="lemma" source="http://scta.info/resource/ps123_6@1-2">Benedictus Dominus.</quote>
+            <ref xml:id="gom-ps123-Rd1e207"><name xml:id="gom-ps123-Nd1e208" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e211">Secunda pars, ubi sancti gratias agunt quod liberati et quod laqueus contritus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps123-Dd1e215">
+          <head xml:id="gom-ps123-Hd1e217">Versus 7</head>
+          <p xml:id="gom-ps123-d1e219">
+            <quote xml:id="gom-ps123-Qd1e221" type="lemma" source="http://scta.info/resource/ps123_7@1-2">Anima nostra.</quote>
+            <ref xml:id="gom-ps123-Rd1e224"><name xml:id="gom-ps123-Nd1e225" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e228"><seg type="qs">Vel, sicut aliquo faciente strepitum magnum</seg>, etc., usque ad <seg type="qs">quae est quasi laqueus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps123-d1e236">
+            <quote xml:id="gom-ps123-Qd1e238" type="lemma" source="http://scta.info/resource/ps123_7@8-8">Venantium.</quote>
+            <ref xml:id="gom-ps123-Rd1e241"><name xml:id="gom-ps123-Nd1e242" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e245">Venantes sunt <pb ed="#P" n="1045B"/> persequentes, esca in muscipula, dulcedo hujus vitae.</quote>
+          </p>
+          <p xml:id="gom-ps123-d1e251">
+            <quote xml:id="gom-ps123-Qd1e253" type="lemma" source="http://scta.info/resource/ps123_7@10-11">Laqueus contritus.</quote>
+            <ref xml:id="gom-ps123-Rd1e256"><name xml:id="gom-ps123-Nd1e257" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e260">Occisis martyribus, non restat dulcedo vitae, qua possint iterum capi: sed ipsi non simul contriti sunt, imo liberati.</quote>
+          </p>
+          <p xml:id="gom-ps123-d1e263">
+            <quote xml:id="gom-ps123-Qd1e265" type="lemma" source="http://scta.info/resource/ps123_7@11-11">Contritus.</quote>
+            <ref xml:id="gom-ps123-Rd1e268"><name xml:id="gom-ps123-Nd1e269" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps123-Qd1e272">Quasi diceret: quia ferreus erat; non ruptus, ut stupa, tanta fortitudo passionis, tanta potentia liberantis.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

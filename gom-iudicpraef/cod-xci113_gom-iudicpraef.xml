@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Praefatio</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Praefatio</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0521A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudicpraef">
+        <head xml:id="gom-iudicpraef-Hd1e98">PRAEFATIO.</head>
+        <p xml:id="gom-iudicpraef-d1e100">
+          <pb ed="#P" n="0521A"/>
+          <!--<note>(ATHANAS., in (Synopsi.)</note>--> Vocatur hic liber Judicum, propterea quod post mortem Jesu Nave, populum suum Deus a relictis Chananaeorum gentibus pressum, per judices servavit; quorum hoc volumine singulorum facta et vitae tempus continentur, etc. Fuerunt autem numero tredecim: et anni illorum fuerunt quadringenti et undecim.
+        </p>
+        <p xml:id="gom-iudicpraef-d1e107">
+          <ref xml:id="gom-iudicpraef-Rd1e109"><name xml:id="gom-iudicpraef-Nd1e110" ref="#IsidoreOfSeville">ISID.</name>, in lib. Judic., cap. 1.</ref>
+          <quote xml:id="gom-iudicpraef-Qd1e114">Historia libri Judicum non parva mysteriorum indicat sacramenta. Post Josue enim succedunt Judices, sicut post Christum apostoli et ecclesiarum rectores ad regendos fideles, quos ipse ad spem promissionis aeternae perducit. Per omnia autem in hoc volumine Judaici populi delicta, et servitus clamorque eorum et miseratio <pb ed="#P" n="0521B"/> Dei continentur. Multis enim annis pro peccatis suis servierunt, et conversi liberati sunt: quia peccata nostra vires hostibus praebent; et quando malum facimus in conspectu Domini, confortantur adversarii nostri, id est daemones. Cum autem convertimur, suscitat Deus judices et salvatores, id est principes et doctores quos mittit in auxilium eorum qui toto corde clamant ad Deum.</quote>
+        </p>
+        <p xml:id="gom-iudicpraef-d1e120">
+          <ref xml:id="gom-iudicpraef-Rd1e122"><name xml:id="gom-iudicpraef-Nd1e123" ref="#Augustine">AUG.</name>, quaest. 1 in lib. Judic.</ref>
+          <quote xml:id="gom-iudicpraef-Qd1e127">In fine libri Jesu Nave breviter narrator porrexit historiam quousque filii Israel ad colendos deos alienos declinaverunt. In hoc autem libro ad ordinem reditur, quomodo consequentia gesta fuerint post mortem Jesu Nave. Non ergo ab illo tempore incipit liber, quo populus ad colenda simulacra defluxit: sed a prioribus, interpositis <pb ed="#P" n="0521C"/> temporibus, quibus ea gesta sunt, postquam ad illa pervenit.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

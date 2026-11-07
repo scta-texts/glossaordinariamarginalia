@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 33</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 33</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0160B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen33">
+        <head xml:id="gom-gen33-Hd1e98">Caput 33</head>
+        <div xml:id="gom-gen33-Dd1e100">
+          <head xml:id="gom-gen33-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen33-d1e104">
+            <pb ed="#P" n="0160B"/>
+            <quote xml:id="gom-gen33-Qd1e108" type="lemma" source="http://scta.info/resource/gen33_1@1-18">Elevans autem Jacob oculos. . . . divisitque filios Liae et Rachel,</quote>
+            etc. Aquila <quote xml:id="gom-gen33-Qd1e111">dimidiavit,</quote> ut unum cuneum faceret ancillarum cum parvulis suis, et alterum liberarum cum filiis suis; primasque mitteret ancillas, secundas liberas: ipse ante omnes fratrem adoraturus occurreret.
+          </p>
+        </div>
+        <div xml:id="gom-gen33-Dd1e115">
+          <head xml:id="gom-gen33-Hd1e117">Versus 10</head>
+          <p xml:id="gom-gen33-d1e119">
+            <quote xml:id="gom-gen33-Qd1e121" type="lemma" source="http://scta.info/resource/gen33_10@18-20">Sic enim vidi,</quote>
+            etc.
+            <ref xml:id="gom-gen33-Rd1e124"><name xml:id="gom-gen33-Nd1e125" ref="#Augustine">AUG.</name>, Q. in Gen. tom. III.</ref>
+            <quote xml:id="gom-gen33-Qd1e129"><seg type="qs">Utrum paventis et perturbati animi verba</seg>, etc., usque ad <seg type="qs">qui Graecum audire et intelligere solent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen33-Dd1e138">
+          <head xml:id="gom-gen33-Hd1e140">Versus 14</head>
+          <p xml:id="gom-gen33-d1e142">
+            <quote xml:id="gom-gen33-Qd1e144" type="lemma" source="http://scta.info/resource/gen33_14@7-9">Et ego sequar,</quote>
+            etc.
+            <ref xml:id="gom-gen33-Rd1e147"><name xml:id="gom-gen33-Nd1e148" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen33-Qd1e151">Quaeritur si mendacium fratri promiserit. Hoc enim, sicut Scriptura narrat, non fecit; sed eo perrexit <pb ed="#P" n="0160C"/> itinere quod dirigebat ad suos. An forte veraci animo promisit, sed aliud postea cogitando delegit?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen33-Dd1e158">
+          <head xml:id="gom-gen33-Hd1e160">Versus 17</head>
+          <p xml:id="gom-gen33-d1e162">
+            <quote xml:id="gom-gen33-Qd1e164" type="lemma" source="http://scta.info/resource/gen33_17@5-5">Socoth.</quote>
+            <ref xml:id="gom-gen33-Rd1e167"><name xml:id="gom-gen33-Nd1e168" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen33-Qd1e171">Ubi nos <quote xml:id="gom-gen33-Qd1e173" source="http://scta.info/resource/gen33_17@19-19">tabernacula</quote> habemus, in Hebraeo legitur <quote xml:id="gom-gen33-Qd1e176" source="http://scta.info/resource/gen33_17@5-5">Socoth</quote> Est autem usque hodie civitas trans Jordanem hoc vocabulo, in parte Scytopoleos de qua in libro Locorum scripsimus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen33-Dd1e183">
+          <head xml:id="gom-gen33-Hd1e185">Versus 18</head>
+          <p xml:id="gom-gen33-d1e187">
+            <quote xml:id="gom-gen33-Qd1e189" type="lemma" source="http://scta.info/resource/gen33_18@1-3">Transivitque in Salem,</quote>
+            etc.
+            <ref xml:id="gom-gen33-Rd1e192"><name xml:id="gom-gen33-Nd1e193" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen33-Qd1e196">Quaestio oboritur quomodo Salem Sichen civitas appelletur, cum Hierusalem, in qua regnavit Melchisedech, Salem ante dicta sit. Aut igitur unius utraque urbs nominis est, quod de pluribus Judaeae locis invenimus, ut idem urbs et loci nomen in alia et alia tribu sit. Aut ista Salem, quae pro Sichem <pb ed="#P" n="0160D"/> nunc nominatur, dicemus interpretari <mentioned>consummatam</mentioned> atque <mentioned>perfectam</mentioned>: et illam quae postea Hierusalem dicta est, <mentioned>pacificam</mentioned>. Utrumque accentu paululum declinato, hoc vocabulum sonat. Tradunt Hebraei quod femur claudicantis Jacob ibi sanatum sit: ideoque civitatem <quote xml:id="gom-gen33-Qd1e206">curati</quote> atque <quote xml:id="gom-gen33-Qd1e209">perfecti</quote> vocabulum consecutam.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

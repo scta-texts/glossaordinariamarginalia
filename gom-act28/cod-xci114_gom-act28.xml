@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 28</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 28</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0468D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act28">
+        <head xml:id="gom-act28-Hd1e98">Caput 28</head>
+        <div xml:id="gom-act28-Dd1e100">
+          <head xml:id="gom-act28-Hd1e102">Versus 2</head>
+          <p xml:id="gom-act28-d1e104">
+            <pb ed="#P" n="0468D"/>
+            <quote xml:id="gom-act28-Qd1e108" type="lemma" source="http://scta.info/resource/act28_2@3-3">Pyra.</quote>
+            <ref xml:id="gom-act28-Rd1e111"><name xml:id="gom-act28-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act28-Qd1e115">Quidam dicunt pyram nomen ligni esse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act28-Dd1e119">
+          <head xml:id="gom-act28-Hd1e121">Versus 8</head>
+          <p xml:id="gom-act28-d1e123">
+            <quote xml:id="gom-act28-Qd1e125" type="lemma" source="http://scta.info/resource/act28_8@7-7">Dysenteria</quote>
+            vel <mentioned>dysin</mentioned>.
+          </p>
+          <p xml:id="gom-act28-d1e131">
+            <ref xml:id="gom-act28-Rd1e133" type="lemma" subtype="implied" target="http://scta.info/resource/act28_8@7-7"/>
+            <ref xml:id="gom-act28-Rd1e135"><name xml:id="gom-act28-Nd1e136" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-act28-Qd1e139">Est passio intestinorum.</quote>
+          </p>
+          <p xml:id="gom-act28-d1e142">
+            <quote xml:id="gom-act28-Qd1e144" type="lemma" source="http://scta.info/resource/act28_8@21-22">Salvavit eum.</quote>
+            Cur infidelem infirmum prece salvat, qui Timotheum, Trophimumque infirmos fideles sic tractat, ut unum curet, alterum relinquat? nisi quia ille per miraculum foris sanandus erat, qui interius non vivebat: hoc autem non indigebant, qui intus salubriter vivebant.
+          </p>
+        </div>
+        <div xml:id="gom-act28-Dd1e149">
+          <head xml:id="gom-act28-Hd1e151">Versus 13</head>
+          <p xml:id="gom-act28-d1e153">
+            <quote xml:id="gom-act28-Qd1e155" type="lemma" source="http://scta.info/resource/act28_13@14-14">Puteolos.</quote>
+            Puteoli locus est ultra Romam ubi Virgilius fecit balnea medicinalia, singula propriis inscripta titulis (ut dicitur) contra <pb ed="#P" n="0469A"/> quam, scilicet valerent aegritudinem. Unde Salernitani invidia ducti, supervenientes in manu forti, titulos destruxerunt, et aedificia mutilaverunt.
+          </p>
+        </div>
+        <div xml:id="gom-act28-Dd1e162">
+          <head xml:id="gom-act28-Hd1e164">Versus 15</head>
+          <p xml:id="gom-act28-d1e166">
+            <quote xml:id="gom-act28-Qd1e168" type="lemma" source="http://scta.info/resource/act28_15@4-5">Audissent fratres.</quote>
+            <ref xml:id="gom-act28-Rd1e171"><name xml:id="gom-act28-Nd1e172" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act28-Qd1e175">Christiani Romae habitantes unde? patet Paulum non primo praedicasse Romanis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act28-Dd1e180">
+          <head xml:id="gom-act28-Hd1e182">Versus 30</head>
+          <p xml:id="gom-act28-d1e184">
+            <pb ed="#P" n="0470A"/>
+            <quote xml:id="gom-act28-Qd1e188" type="lemma" source="http://scta.info/resource/act28_30@7-7">Conductu.</quote>
+            Id est in libera custodia per quam conducebatur, vel in sua concione qua contra Judaeos disputabat.
+          </p>
+        </div>
+        <div xml:id="gom-act28-Dd1e193">
+          <head xml:id="gom-act28-Hd1e195">Versus 31</head>
+          <p xml:id="gom-act28-d1e197">
+            <quote xml:id="gom-act28-Qd1e199" type="lemma" source="http://scta.info/resource/act28_31@15-16">Sine prohibitione.</quote>
+            <ref xml:id="gom-act28-Rd1e202"><name xml:id="gom-act28-Nd1e203" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act28-Qd1e206"><seg type="qs">Post passionem Domini vigesimo quinto anno</seg>, etc., usque ad <seg type="qs">Petrus et Paulus martyrio coronati sunt.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

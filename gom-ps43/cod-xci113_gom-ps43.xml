@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 43</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 43</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0907B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps43">
+        <head xml:id="gom-ps43-Hd1e98">Psalmus 43</head>
+        <div xml:id="gom-ps43-Dd1e100">
+          <head xml:id="gom-ps43-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps43-d1e104">
+            <pb ed="#P" n="0907B"/>
+            <quote xml:id="gom-ps43-Qd1e108" type="lemma" source="http://scta.info/resource/ps43_1@5-6">Ad intellectum.</quote>
+            <ref xml:id="gom-ps43-Rd1e111"><name xml:id="gom-ps43-Nd1e112" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e115"><seg type="qs">Non sic quaerant sibi fieri</seg>, etc., usque ad <seg type="qs">et haec non amentur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps43-d1e123">
+            <ref xml:id="gom-ps43-Rd1e125" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_1@5-6"/>
+            <ref xml:id="gom-ps43-Rd1e127"><name xml:id="gom-ps43-Nd1e128" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e131">Distinguit beneficia Dei, quae incipientibus data sunt in mundo, perfectis in coelo.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e134">
+            <ref xml:id="gom-ps43-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_1@5-6"/>
+            Ut magis sit mirum relinqui praesentes, recolit praeterita.
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e140">
+          <head xml:id="gom-ps43-Hd1e142">Versus 2</head>
+          <p xml:id="gom-ps43-d1e144">
+            <quote xml:id="gom-ps43-Qd1e146" type="lemma" source="http://scta.info/resource/ps43_2@1-2">Deus, auribus.</quote>
+            <ref xml:id="gom-ps43-Rd1e149"><name xml:id="gom-ps43-Nd1e150" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps43-Qd1e154">Primum dicit: <quote xml:id="gom-ps43-Qd1e156" source="http://scta.info/resource/ps43_2@1-1">Deus,</quote> quod facere solet laetus vel graviter afflictus.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e161">
+            <quote xml:id="gom-ps43-Qd1e163" type="lemma" source="http://scta.info/resource/ps43_2@4-4">Audivimus.</quote>
+            Ut major fides sit rei, ne putetur ambigua.
+          </p>
+          <p xml:id="gom-ps43-d1e167">
+            <quote xml:id="gom-ps43-Qd1e169" type="lemma" source="http://scta.info/resource/ps43_2@5-5">Patres.</quote>
+            Non juvenes, ut videantur veri nostri, qui suis certa dicerent.
+          </p>
+          <p xml:id="gom-ps43-d1e173">
+            <pb ed="#P" n="0907C"/>
+            <quote xml:id="gom-ps43-Qd1e177" type="lemma" source="http://scta.info/resource/ps43_2@9-10">Opus quod,</quote>
+            etc.
+            <ref xml:id="gom-ps43-Rd1e180"><name xml:id="gom-ps43-Nd1e181" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e184">Et si semper operetur, tamen operari dicitur, quando aliquod signum novitatis ostendit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e188">
+          <head xml:id="gom-ps43-Hd1e190">Versus 4</head>
+          <p xml:id="gom-ps43-d1e192">
+            <quote xml:id="gom-ps43-Qd1e194" type="lemma" source="http://scta.info/resource/ps43_4@15-17">Sed dextera tua.</quote>
+            <ref xml:id="gom-ps43-Rd1e197"><name xml:id="gom-ps43-Nd1e198" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e201">Id est, bonus successus, quem eis dedisti.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e204">
+            <quote xml:id="gom-ps43-Qd1e206" type="lemma" source="http://scta.info/resource/ps43_4@18-20">Et brachium tuum,</quote>
+            etc.
+            <ref xml:id="gom-ps43-Rd1e209"><name xml:id="gom-ps43-Nd1e210" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e213">Id est, fortitudo; et <quote xml:id="gom-ps43-Qd1e215" source="http://scta.info/resource/ps43_4@22-22">illuminatio,</quote> id est, sapiens consilium: quod totum fecisti ex benevolentia tua.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e221">
+          <head xml:id="gom-ps43-Hd1e223">Versus 5</head>
+          <p xml:id="gom-ps43-d1e225">
+            <quote xml:id="gom-ps43-Qd1e227" type="lemma" source="http://scta.info/resource/ps43_5@1-8">Tu es ipse rex meus et Deus meus.</quote>
+            <ref xml:id="gom-ps43-Rd1e230"><name xml:id="gom-ps43-Nd1e231" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e234">Tempora mutata sunt; auctor non mutatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e239">
+          <head xml:id="gom-ps43-Hd1e241">Versus 7</head>
+          <p xml:id="gom-ps43-d1e243">
+            <quote xml:id="gom-ps43-Qd1e245" type="lemma" source="http://scta.info/resource/ps43_7@1-6">Non enim in arcu meo sperabo.</quote>
+            <ref xml:id="gom-ps43-Rd1e248"><name xml:id="gom-ps43-Nd1e249" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e252">Minor virtus hominis, quia minus valet in bello.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e255">
+            <quote xml:id="gom-ps43-Qd1e257" type="lemma" source="http://scta.info/resource/ps43_7@8-8">Gladius.</quote>
+            Major virtus, quae in bello plus creditur valere.
+          </p>
+          <p xml:id="gom-ps43-d1e261">
+            <ref xml:id="gom-ps43-Rd1e263" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_7@8-8"/>
+            <ref xml:id="gom-ps43-Rd1e265"><name xml:id="gom-ps43-Nd1e266" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e269">Vel, <quote xml:id="gom-ps43-Qd1e271" source="http://scta.info/resource/ps43_7@8-12">gladius meus non salvabit me,</quote> sed tu, quia et in hoc saeculo salvasti, ne nos traherent <pb ed="#P" n="0907D"/> post se, et eos pudere fecisti: et ideo tunc <quote xml:id="gom-ps43-Qd1e276" source="http://scta.info/resource/ps43_9@3-3">laudabimur.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e281">
+          <head xml:id="gom-ps43-Hd1e283">Versus 8</head>
+          <p xml:id="gom-ps43-d1e285">
+            <quote xml:id="gom-ps43-Qd1e287" type="lemma" source="http://scta.info/resource/ps43_8@1-1">Salvasti,</quote>
+            etc.
+            <ref xml:id="gom-ps43-Rd1e290"><name xml:id="gom-ps43-Nd1e291" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e294">Nota etiam praeterita dicta, pro futuris esse accipienda.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e298">
+          <head xml:id="gom-ps43-Hd1e300">Versus 10</head>
+          <p xml:id="gom-ps43-d1e302">
+            <quote xml:id="gom-ps43-Qd1e304" type="lemma" source="http://scta.info/resource/ps43_10@1-3">Nunc autem repulisti.</quote>
+            <ref xml:id="gom-ps43-Rd1e307"><name xml:id="gom-ps43-Nd1e308" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e311">Diapsalmus. Enumerat mala quae hic fecerunt boni, non tamen obliti Dei.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e314">
+            <ref xml:id="gom-ps43-Rd1e316" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_10@1-3"/>
+            <ref xml:id="gom-ps43-Rd1e318"><name xml:id="gom-ps43-Nd1e319" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e322">Exaggerat mala, ut benevolentiam judicis impetret.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e325">
+            <quote xml:id="gom-ps43-Qd1e327" type="lemma" source="http://scta.info/resource/ps43_10@5-5">Confudisti,</quote>
+            dum hic ab iniquis habentur opprobrio.
+          </p>
+          <p xml:id="gom-ps43-d1e331">
+            <ref xml:id="gom-ps43-Rd1e333" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_10@5-5"/>
+            <ref xml:id="gom-ps43-Rd1e335"><name xml:id="gom-ps43-Nd1e336" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e339"><seg type="qs">Haec vere futura</seg>, etc., usque ad <seg type="qs">hoc est jejunium non abstinentiae, sed luxuriae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e348">
+          <head xml:id="gom-ps43-Hd1e350">Versus 11</head>
+          <p xml:id="gom-ps43-d1e352">
+            <quote xml:id="gom-ps43-Qd1e354" type="lemma" source="http://scta.info/resource/ps43_11@1-1">Avertisti.</quote>
+            <ref xml:id="gom-ps43-Rd1e357"><name xml:id="gom-ps43-Nd1e358" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e361">Pro deficientibus. Vel, averti, est hostem fugere; unde: <quote xml:id="gom-ps43-Qd1e363" source="http://scta.info/resource/mt10_23@3-10">Si vos persecuti fuerint in una civitate, fugite in aliam.</quote></quote>
+          </p>
+          <p xml:id="gom-ps43-d1e367">
+            <pb ed="#P" n="0908A"/>
+            <quote xml:id="gom-ps43-Qd1e371" type="lemma" source="http://scta.info/resource/ps43_11@11-11">Diripiebant.</quote>
+            Hoc fugatis contingit, ut cadant in praedam, qui hostibus nequeunt resistere.
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e376">
+          <head xml:id="gom-ps43-Hd1e378">Versus 12</head>
+          <p xml:id="gom-ps43-d1e380">
+            <quote xml:id="gom-ps43-Qd1e382" type="lemma" source="http://scta.info/resource/ps43_12@1-5">Dedisti nos tanquam oves escarum.</quote>
+            <ref xml:id="gom-ps43-Rd1e385"><name xml:id="gom-ps43-Nd1e386" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e389">Persistentes in fide. Hic diversi martyres, id est diversa martyrii genera: alii esca feris, alii traditi gentibus in servitutem; unde dicit: <quote xml:id="gom-ps43-Qd1e391" source="http://scta.info/resource/ps43_12@3-5">Tanquam oves escarum,</quote> ubi notatur quorumdam mactatio.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e397">
+          <head xml:id="gom-ps43-Hd1e399">Versus 13</head>
+          <p xml:id="gom-ps43-d1e401">
+            <quote xml:id="gom-ps43-Qd1e403" type="lemma" source="http://scta.info/resource/ps43_13@1-5">Vendidisti populum tuum sine pretio.</quote>
+            <ref xml:id="gom-ps43-Rd1e406"><name xml:id="gom-ps43-Nd1e407" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e410">Dum dantur alienigenis et nullus acquirit: quod fit ad probationem vel correctionem; vel nullus pro eis acquiritur, vel si quis, pauci tamen.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e415">
+          <head xml:id="gom-ps43-Hd1e417">Versus 14</head>
+          <p xml:id="gom-ps43-d1e419">
+            <quote xml:id="gom-ps43-Qd1e421" type="lemma" source="http://scta.info/resource/ps43_14@3-4">Opprobrium vicinis.</quote>
+            <ref xml:id="gom-ps43-Rd1e424"><name xml:id="gom-ps43-Nd1e425" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e428">Gravis afflictio a vicinis ingeritur, quia non transitorie dicitur, quod a circumstantibus irrogat.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e431">
+            <quote xml:id="gom-ps43-Qd1e433" type="lemma" source="http://scta.info/resource/ps43_14@9-14">Derisum his qui in circuitu.</quote>
+            <ref xml:id="gom-ps43-Rd1e436"><name xml:id="gom-ps43-Nd1e437" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e440">Derisus est vox confusa laetitiae, <pb ed="#P" n="0908B"/> insultationem immoderata hilaritate denuntians. Contemptus est abjecta vilitas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e447">
+          <head xml:id="gom-ps43-Hd1e449">Versus 15</head>
+          <p xml:id="gom-ps43-d1e451">
+            <quote xml:id="gom-ps43-Qd1e453" type="lemma" source="http://scta.info/resource/ps43_15@3-5">In similitudinem gentium.</quote>
+            <ref xml:id="gom-ps43-Rd1e456"><name xml:id="gom-ps43-Nd1e457" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e460">In similitudine Christi gentibus sunt appositi, quando eos comparibus poenis affecerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e464">
+          <head xml:id="gom-ps43-Hd1e466">Versus 17</head>
+          <p xml:id="gom-ps43-d1e468">
+            <quote xml:id="gom-ps43-Qd1e470" type="lemma" source="http://scta.info/resource/ps43_17@3-3">Exprobrantis.</quote>
+            <ref xml:id="gom-ps43-Rd1e473"><name xml:id="gom-ps43-Nd1e474" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e477">Exprobrare est in faciem maledicere; obloqui est absenti detrahere, et dolose mordere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e481">
+          <head xml:id="gom-ps43-Hd1e483">Versus 18</head>
+          <p xml:id="gom-ps43-d1e485">
+            <quote xml:id="gom-ps43-Qd1e487" type="lemma" source="http://scta.info/resource/ps43_18@3-5">Venerunt super nos.</quote>
+            <ref xml:id="gom-ps43-Rd1e490"><name xml:id="gom-ps43-Nd1e491" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e494">Quia non erant in nobis per culpam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e498">
+          <head xml:id="gom-ps43-Hd1e500">Versus 19</head>
+          <p xml:id="gom-ps43-d1e502">
+            <quote xml:id="gom-ps43-Qd1e504" type="lemma" source="http://scta.info/resource/ps43_19@2-3">Non recessit.</quote>
+            <ref xml:id="gom-ps43-Rd1e507"><name xml:id="gom-ps43-Nd1e508" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e511">Ita quod retroiret, etsi aliquando descendit contemplatione deitatis.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e514">
+            <quote xml:id="gom-ps43-Qd1e516" type="lemma" source="http://scta.info/resource/ps43_19@9-9">Declinasti.</quote>
+            <ref xml:id="gom-ps43-Rd1e519"><name xml:id="gom-ps43-Nd1e520" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e523">Semitae nostrae erant in voluptatibus et prosperitatibus saeculi: sed tulisti eas de sua via, et ostendisti arctam viam, quae ducit ad <pb ed="#P" n="0908C"/> vitam.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e529">
+            <ref xml:id="gom-ps43-Rd1e531" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_19@9-9"/>
+            <ref xml:id="gom-ps43-Rd1e533"><name xml:id="gom-ps43-Nd1e534" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e537">Vel <mentioned>et declinasti</mentioned>, id est, opera nostra de lege tua pendere fecisti. Vel, <quote xml:id="gom-ps43-Qd1e541">non declinasti</quote> (alia littera), id est, non permisisti declinare et deviare semitas nostras.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e545">
+            <quote xml:id="gom-ps43-Qd1e547" type="lemma" source="http://scta.info/resource/ps43_19@10-10">Semitas,</quote>
+            id est, opera;
+          </p>
+          <p xml:id="gom-ps43-d1e552">
+            <quote xml:id="gom-ps43-Qd1e554" type="lemma" source="http://scta.info/resource/ps43_19@12-14">a via tua,</quote>
+            id est, a lege; ideo quoniam <quote xml:id="gom-ps43-Qd1e557" source="http://scta.info/resource/ps43_20@2-3">humiliasti nos.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e562">
+          <head xml:id="gom-ps43-Hd1e564">Versus 20</head>
+          <p xml:id="gom-ps43-d1e566">
+            <quote xml:id="gom-ps43-Qd1e568" type="lemma" source="http://scta.info/resource/ps43_20@10-11">Umbra mortis.</quote>
+            <ref xml:id="gom-ps43-Rd1e571"><name xml:id="gom-ps43-Nd1e572" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e575">Vel, haec mortalitas, umbra mortis est: vera autem mors est damnatio cum diabolo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e580">
+          <head xml:id="gom-ps43-Hd1e582">Versus 21</head>
+          <p xml:id="gom-ps43-d1e584">
+            <quote xml:id="gom-ps43-Qd1e586" type="lemma" source="http://scta.info/resource/ps43_21@1-5">Si obliti sumus nomen Dei.</quote>
+            <ref xml:id="gom-ps43-Rd1e589"><name xml:id="gom-ps43-Nd1e590" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e593">Iste est intellectus filiorum Core, qui propter haec omnia mala non obliviscuntur Deum, scientes quia Deus requiret ista.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e597">
+          <head xml:id="gom-ps43-Hd1e599">Versus 22</head>
+          <p xml:id="gom-ps43-d1e601">
+            <quote xml:id="gom-ps43-Qd1e603" type="lemma" source="http://scta.info/resource/ps43_22@8-8">Novit.</quote>
+            <ref xml:id="gom-ps43-Rd1e606"><name xml:id="gom-ps43-Nd1e607" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e610">Noscere dicitur Deus et quod novit et quod te facit noscere.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e613">
+            <quote xml:id="gom-ps43-Qd1e615" type="lemma" source="http://scta.info/resource/ps43_22@8-8">Novit,</quote>
+            quoniam requiret propter te, ut tu invenias te, et gratias <pb ed="#P" n="0908D"/> agas ei qui te fecit, ut in Petro actum est, qui probavit quid posset.
+          </p>
+          <p xml:id="gom-ps43-d1e621">
+            <quote xml:id="gom-ps43-Qd1e623" type="lemma" source="http://scta.info/resource/ps43_22@12-14">Propter te mortificamur.</quote>
+            <ref xml:id="gom-ps43-Rd1e626"><name xml:id="gom-ps43-Nd1e627" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e630">Non pro criminibus nostris, sed ut fides tua gentibus augeatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e634">
+          <head xml:id="gom-ps43-Hd1e636">Versus 23</head>
+          <p xml:id="gom-ps43-d1e638">
+            <quote xml:id="gom-ps43-Qd1e640" type="lemma" source="http://scta.info/resource/ps43_23@1-1">Exsurge.</quote>
+            <ref xml:id="gom-ps43-Rd1e643"><name xml:id="gom-ps43-Nd1e644" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e647">Precatur auxilium, ut hic afflictis tempore resurrectionis subveniat.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e650">
+            <ref xml:id="gom-ps43-Rd1e652" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_23@1-1"/>
+            <ref xml:id="gom-ps43-Rd1e654"><name xml:id="gom-ps43-Nd1e655" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e658">Hactenus non obliti; et ut perseveremus: <quote xml:id="gom-ps43-Qd1e660" source="http://scta.info/resource/ps43_22@12-14">Exsurge, quia propter te mortificamur.</quote></quote>
+          </p>
+          <p xml:id="gom-ps43-d1e664">
+            <ref xml:id="gom-ps43-Rd1e666" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_23@1-1"/>
+            <ref xml:id="gom-ps43-Rd1e668"><name xml:id="gom-ps43-Nd1e669" ref="#Augustine">AUG.</name>, HIER.</ref>
+            <quote xml:id="gom-ps43-Qd1e673">Et si sciunt Christum non dormire, et sibi resurrexisse, precantur tamen resurgere per fidem, non sibi, sed gentibus, quae putant mortuum. Si enim et illi crederent surrexisse, credentes in eum non persequerentur, sed et ipsi crederent.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e676">
+            <ref xml:id="gom-ps43-Rd1e678" type="lemma" subtype="implied" target="http://scta.info/resource/ps43_23@1-1"/>
+            <ref xml:id="gom-ps43-Rd1e680"><name xml:id="gom-ps43-Nd1e681" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e684">Vel <mentioned>exsurge</mentioned>, conforta.</quote>
+          </p>
+          <p xml:id="gom-ps43-d1e691">
+            <pb ed="#P" n="0909A"/>
+            <quote xml:id="gom-ps43-Qd1e695" type="lemma" source="http://scta.info/resource/ps43_23@4-4">Obdormis.</quote>
+            Negligere videris. Quare etsi nesciamus, tu scis quare: vel pro culpa, vel pro utilitate. Quod si pro culpa, utinam abesset; si pro utilitate, utinam adesset. Quosdam repellis, quia faciem, id est, cognitionem tuam, ab eis subtrahis: obdormis quibusdam qui gemunt de malis.
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e700">
+          <head xml:id="gom-ps43-Hd1e702">Versus 24</head>
+          <p xml:id="gom-ps43-d1e704">
+            <quote xml:id="gom-ps43-Qd1e706" type="lemma" source="http://scta.info/resource/ps43_24">Quare oblivisceris?</quote>
+            <!-- check: lemma not matched to verse text -->
+            id est, non das spiritum fortitudinis, sine quo inopes.
+          </p>
+          <p xml:id="gom-ps43-d1e712">
+            <quote xml:id="gom-ps43-Qd1e714" type="lemma" source="http://scta.info/resource/ps43_24@9-10">Et tribulationis.</quote>
+            <ref xml:id="gom-ps43-Rd1e717"><name xml:id="gom-ps43-Nd1e718" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e721"><seg type="qs">Quia eam non mitigas</seg>, etc., usque ad <seg type="qs">qui facile cedunt illicitis motibus, et haerent terrenis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e730">
+          <head xml:id="gom-ps43-Hd1e732">Versus 26</head>
+          <p xml:id="gom-ps43-d1e734">
+            <quote xml:id="gom-ps43-Qd1e736" type="lemma" source="http://scta.info/resource/ps43_26@1-2">Exsurge, Domine.</quote>
+            Hic sine dormitione <quote xml:id="gom-ps43-Qd1e739" source="http://scta.info/resource/ps43_26@1-1">exsurge</quote> ponitur, quod ad resurrectionem pertinet, in qua est spes omnium fidelium; in qua humana destruitur captivitas; per quam sumus adjuti <pb ed="#P" n="0909B"/> et liberati.
+          </p>
+        </div>
+        <div xml:id="gom-ps43-Dd1e746">
+          <head xml:id="gom-ps43-Hd1e748">Versus 25</head>
+          <p xml:id="gom-ps43-d1e750">
+            <quote xml:id="gom-ps43-Qd1e752" type="lemma" source="http://scta.info/resource/ps43_25@11-13">In terra venter.</quote>
+            <ref xml:id="gom-ps43-Rd1e755"><name xml:id="gom-ps43-Nd1e756" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps43-Qd1e759">Qui genua figit terrae, habet quo plus humilietur: qui vero plus humiliatur ut et venter haereat terrae, non habet ultra quo plus humilietur. Exprimit ergo nimiam humiliationem, ut quia venit ad summam, jam adsit Dei miseratio. Vel plangit eos qui sunt venter, id est, carnales, et <mentioned>haeserunt</mentioned>, id est consenserunt iniquis.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

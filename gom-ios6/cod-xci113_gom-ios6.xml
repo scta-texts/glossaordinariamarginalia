@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0510C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios6">
+        <head xml:id="gom-ios6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-ios6-Dd1e100">
+          <head xml:id="gom-ios6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ios6-d1e104">
+            <quote xml:id="gom-ios6-Qd1e106" type="lemma" source="http://scta.info/resource/ios6_1@1-2">Jericho autem,</quote>
+            etc.
+            <ref xml:id="gom-ios6-Rd1e109"><name xml:id="gom-ios6-Nd1e110" ref="#IsidoreOfSeville">ISID.</name>, in Jos., cap. 7.</ref>
+            <quote xml:id="gom-ios6-Qd1e114"><seg type="qs">Jericho <quote xml:id="gom-ios6-Qd1e117">luna</quote> interpetratur</seg>, etc., usque ad <seg type="qs">id est, extra Ecclesiam nemo salvatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios6-Dd1e125">
+          <head xml:id="gom-ios6-Hd1e127">Versus 8</head>
+          <p xml:id="gom-ios6-d1e129">
+            <quote xml:id="gom-ios6-Qd1e131" type="lemma" source="http://scta.info/resource/ios6_8@1-2">Cumque Josue.</quote>
+            <ref xml:id="gom-ios6-Rd1e134"><name xml:id="gom-ios6-Nd1e135" ref="#Origen">ADAMAN.</name>, hom. 5 in Jos.</ref>
+            <quote xml:id="gom-ios6-Qd1e139"><seg type="qs">Jericho tubis sacerdotum subruitur</seg>, etc., usque ad <seg type="qs">et philosophorum dogmata.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios6-Dd1e148">
+          <head xml:id="gom-ios6-Hd1e150">Versus 17</head>
+          <p xml:id="gom-ios6-d1e152">
+            <quote xml:id="gom-ios6-Qd1e154" type="lemma" source="http://scta.info/resource/ios6_17@1-2">Sitque civitas</quote>
+            <ref xml:id="gom-ios6-Rd1e157"><name xml:id="gom-ios6-Nd1e158" ref="#Origen">ADAM.</name>, hom. 7.</ref>
+            <quote xml:id="gom-ios6-Qd1e162"><seg type="qs">Custodite vos ab anathemate</seg>, etc., usque ad <seg type="qs">et populum <pb ed="#P" n="0510D"/> Dei vinci faciunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios6-Dd1e173">
+          <head xml:id="gom-ios6-Hd1e175">Versus 20</head>
+          <p xml:id="gom-ios6-d1e177">
+            <quote xml:id="gom-ios6-Qd1e179" type="lemma" source="http://scta.info/resource/ios6_20@1-1">Igitur.</quote>
+            <ref xml:id="gom-ios6-Rd1e182"><name xml:id="gom-ios6-Nd1e183" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-ios6-Qd1e186"><seg type="qs">Omnis populus dicitur ululasse ululatu magno</seg>, etc., usque ad <seg type="qs">homines saeculi nitebantur.</seg></quote>
+          </p>
+          <p xml:id="gom-ios6-d1e194">
+            <quote xml:id="gom-ios6-Qd1e196" type="lemma" source="http://scta.info/resource/ios6_20@5-6">Et clangentibus.</quote>
+            Unusquisque nostrum debet haec in semetipso complere. Habes in te Jesum ducem per fidem. Fac tibi tubas ductiles ex Scripturis sanctis, inde duc sensus, inde sermones; ideo enim tubae ductiles dicuntur. In ipsis cane, id est in psalmis, in hymnis, in canticis spiritualibus. Si in talibus cecineris tubis, et septies arcam testamenti circumtuleris, id est si legis mystica praecepta ab Evangelicis non separes tubis, sic etiam jubilationis consensum de temetipso exigas, id est si cogitationum <pb ed="#P" n="0511A"/> et sensuum tuorum populus concordem semper et consonam proferat vocem; et si non aliquando verum dicas, aliquando adulando mentiaris, si non modo blandus remissionem, modo truculentus iracundia; et si non intra te caro concupiscat adversus spiritum et spiritus adversus carnem, vocem jubilationis emitte, quia tibi victus est mundus. Hinc Paulus dicebat: <quote xml:id="gom-ios6-Qd1e201" source="http://scta.info/resource/gal6_14@1-20">Mihi autem absit gloriari, nisi in cruce Domini nostri Jesu Christi, per quem mihi mundus crucifixus est, et ego mundo<!-- check: Migne cites gal5; text matches gal6_14 --></quote>.
+          </p>
+          <p xml:id="gom-ios6-d1e206">
+            <quote xml:id="gom-ios6-Qd1e208" type="lemma" source="http://scta.info/resource/ios6_20@15-16">Muri illico.</quote>
+            In adventu Jesu muri Jericho subversi sunt, in adventu Christi vincitur mundus. Unde Paulus: <quote xml:id="gom-ios6-Qd1e211" source="http://scta.info/resource/col2_14@8-19">Quod erat contrarium nobis, tulit de medio, affigens illud cruci, et exuens principatus et potestates traduxit libere triumphans eos in ligno crucis</quote>. <pb ed="#P" n="0511B"/> Ex his verbis intelligo quod videntes pugnam Jesu, coelestes virtutes, principatus et potestates, alligatum fortem, et vasa ejus diripi, increpuerunt coelestibus tubis, quia, alligato principe mundi, victus est mundus, et vocem jubilationis, in triumpho Christi, coelestis exercitus dedit <!--<note>(Matth. XII)</note>-->. Vere ergo liberatus est populus gentium qui hanc jubilationem novit, et mysteria agnoscit et credit.
+          </p>
+        </div>
+        <div xml:id="gom-ios6-Dd1e221">
+          <head xml:id="gom-ios6-Hd1e223">Versus 23</head>
+          <p xml:id="gom-ios6-d1e225">
+            <quote xml:id="gom-ios6-Qd1e227" type="lemma" source="http://scta.info/resource/ios6_23@1-3">Ingressique juvenes eduxerunt</quote>
+            <ref xml:id="gom-ios6-Rd1e230"><name xml:id="gom-ios6-Nd1e231" ref="#Origen">ADAM.</name></ref>
+            <quote xml:id="gom-ios6-Qd1e234"><seg type="qs"><quote xml:id="gom-ios6-Qd1e236" source="http://scta.info/resource/ios6_25@1-7">Rahab meretricem, et omnem domum patris ejus vivificavit Jesus,</quote></seg> etc., usque ad <seg type="qs">et qui erant primi facti sunt novissimi.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

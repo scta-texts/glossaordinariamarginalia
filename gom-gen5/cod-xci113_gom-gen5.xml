@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0102C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen5">
+        <head xml:id="gom-gen5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-gen5-Dd1e100">
+          <head xml:id="gom-gen5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen5-d1e104">
+            <quote xml:id="gom-gen5-Qd1e106" type="lemma" source="http://scta.info/resource/gen5_1@1-5">Hic est liber generationis Adam.</quote>
+            Ad similitudinem Dei factus est. Alii, ad similitudinem Adae. Est quasi conclusio a superioribus cum recapitulatione.
+          </p>
+          <p xml:id="gom-gen5-d1e110">
+            <quote xml:id="gom-gen5-Qd1e112" type="lemma" source="http://scta.info/resource/gen5_1@6-11">In die qua creavit Deus hominem.</quote>
+            In die etenim creatus est, quia in claritate divinae contemplationis constitutus.
+          </p>
+          <p xml:id="gom-gen5-d1e116">
+            <quote xml:id="gom-gen5-Qd1e118" type="lemma" source="http://scta.info/resource/gen5_1@12-14">Ad similitudinem Dei.</quote>
+            Quia rationem ei dedit, qua intelligendo bona et mala discerneret, intellecta diligeret, et dilecta oblivioni non traderet, et in hoc Dei similitudinem retineret. Sed postquam per inobedientiam <pb ed="#P" n="0102D"/> hanc similitudinem delevit, factus terrenus terrenos generavit. Unde qualis terrenus, tales et terreni.
+          </p>
+          <p xml:id="gom-gen5-d1e124">
+            <ref xml:id="gom-gen5-Rd1e126" type="lemma" subtype="implied" target="http://scta.info/resource/gen5_1@12-14"/>
+            <ref xml:id="gom-gen5-Rd1e128"><name xml:id="gom-gen5-Nd1e129" ref="#JohnChrysostom">CHRYSOST.</name>, hom. 21 in Gen., tom. IV.</ref>
+            <quote xml:id="gom-gen5-Qd1e133">Considera quomodo iisdem verbis usus fuerit quibus et initio, ut doceret nos quod generationes illas, quasi reprobas factas, neque memoria post hac dignetur; sed ex Seth, qui nunc illis natus est, genealogiam orditur, ut ex hoc discas quantam Deus humani generis rationem habeat, et quomodo illos aversetur quibus sanguinaria mens est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen5-Dd1e137">
+          <head xml:id="gom-gen5-Hd1e139">Versus 3</head>
+          <p xml:id="gom-gen5-d1e141">
+            <quote xml:id="gom-gen5-Qd1e143" type="lemma" source="http://scta.info/resource/gen5_3@1-3">Vixit autem Adam,</quote>
+            etc.
+            <ref xml:id="gom-gen5-Rd1e146"><name xml:id="gom-gen5-Nd1e147" ref="#Jerome">HIERON.</name>, in Quaest. Hebr.</ref>
+            <quote xml:id="gom-gen5-Qd1e151">. Sciendum quod usque ad diluvium, ubi in nostris codicibus <quote xml:id="gom-gen5-Qd1e153">ducentorum</quote> et quod excurrit annorum genuisse quis dicitur, in Hebraeo <pb ed="#P" n="0103A"/> habeat <quote xml:id="gom-gen5-Qd1e157" source="http://scta.info/resource/gen5_3@4-6">centum annos</quote> et reliquos qui sequuntur.</quote>
+          </p>
+          <p xml:id="gom-gen5-d1e162">
+            <quote xml:id="gom-gen5-Qd1e164" type="lemma" source="http://scta.info/resource/gen5_3@7-8">Et genuit,</quote>
+            etc. Quasi et iste portavit imaginem terreni qui pro Abel justo repositus est, et interpretatione nominis <quote xml:id="gom-gen5-Qd1e167">Christum</quote> significat. Sed omnes prius portant imaginem terreni hominis quam coelestis, licet multi ad adventum Christi per fidem eamdem gratiam habuerunt qua salvantur Christiani.
+          </p>
+          <p xml:id="gom-gen5-d1e170">
+            <ref xml:id="gom-gen5-Rd1e172" type="lemma" subtype="implied" target="http://scta.info/resource/gen5_3@7-8"/>
+            <ref xml:id="gom-gen5-Rd1e174"><name xml:id="gom-gen5-Nd1e175">STRAB.</name></ref>
+            <quote xml:id="gom-gen5-Qd1e177">Ferunt post mortem Abel vovisse Adam se uxorem non ultra cogniturum nec filium generaturum. Sed Deo jubente fregit votum, ut Dei Filius de eo nasceretur, et homo redimeretur; stirpe enim Cain nasci non debuit. Unde ante Seth nullum legitur genuisse, post eum vero dicitur; quia <quote xml:id="gom-gen5-Qd1e179" source="http://scta.info/resource/gen5_4@11-14">genuit filios et filias.</quote> Haec computatio genealogiarum, <pb ed="#P" n="0103B"/> quasi ramos spargit historiarum, de quibus suis locis colliguntur fructus mysteriorum. Et notandum quia in generatione Seth nulla femina ponitur nominatim, sicut in generatione Cain: justorum enim est omnia viriliter agere, nihil femineum, nihil fragile usurpare. Procedit etiam haec generatio per denarium usque ad Noe, in quo praeceptorum signatur impletio, sicut per undenarium in generatione Cain transgressio. In generatione injustorum primus Enoch ponitur, qui <mentioned>dedicatio</mentioned> interpretatur, quia reprobi in praesenti vita spei suae radicem figunt, et ab amore immarcescibilis haereditatis arescunt. De quibus dicitur Joan. V: <quote xml:id="gom-gen5-Qd1e186" source="http://scta.info/resource/iob5_3@2-10">Vidit stultum firma radice, et maledixit pulchritudini ejus statim.</quote> In generatione justorum Enoch ab Adam septimus ponitur, quia hic <pb ed="#P" n="0103C"/> manentem civitatem non quaerunt, sed exspectationem usque in finem temporis extendunt, quod septenaria revolutione terminatur, cum aeternitas octava successerit. Unde iste Enoch qui ponitur septimus, et translatus est quia Deo placuit, septimam requiem significat, ad quam post hanc vitam, qui Deo perseveranter adhaeret, sine dilatione transfertur. Interpretatio quoque nominum hujus generationis idem signat: Adam interpretatur <mentioned>homo</mentioned> vel <mentioned>rubra terra</mentioned>; Seth, <mentioned>positio</mentioned> vel <mentioned>resurrectio</mentioned>; Enos, <mentioned>homo</mentioned>; Cainan, <mentioned>lamentatio</mentioned>; Malalehel, <mentioned>laudans Deum</mentioned>; Jared, <mentioned>roboratus</mentioned>; Enoch, <mentioned>dedicatio</mentioned>; Mathusalam, <mentioned>mortis emissio</mentioned>; Lamech, <mentioned>humiliatus</mentioned>; Noe, <mentioned>requies</mentioned>. Procedens ergo homo de terra, resurgens a peccatis, erit homo invocans Deum et deflens peccata pristina: sicque <pb ed="#P" n="0103D"/> laudans Deum, roboratus Spiritu Dei, dedicatur in vitam aeternam. Atque victor mortis Deo subjectus, requiem possidet sempiternam, quam significat Noe qui <mentioned>requies</mentioned> interpretatur, et decimo loco numeratur, quia per impletionem mandatorum possidetur regnum coelorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen5-Dd1e225">
+          <head xml:id="gom-gen5-Hd1e227">Versus 24</head>
+          <p xml:id="gom-gen5-d1e229">
+            <quote xml:id="gom-gen5-Qd1e231" type="lemma" source="http://scta.info/resource/gen5_24@1-3">Ambulavitque cum Deo,</quote>
+            etc.
+            <ref xml:id="gom-gen5-Rd1e234"><name xml:id="gom-gen5-Nd1e235" ref="#IsidoreOfSeville">ISID.</name>, in Gen.</ref>
+            <quote xml:id="gom-gen5-Qd1e239"><seg type="qs">Enoch septimus ab Adam placens Deo</seg>, etc., usque ad <seg type="qs">nam ter quaterni ipsum faciunt.</seg></quote>
+          </p>
+          <p xml:id="gom-gen5-d1e247">
+            <ref xml:id="gom-gen5-Rd1e249" type="lemma" subtype="implied" target="http://scta.info/resource/gen5_24@1-3"/>
+            <ref xml:id="gom-gen5-Rd1e251"><name xml:id="gom-gen5-Nd1e252">ALCUIN.</name></ref>
+            <quote xml:id="gom-gen5-Qd1e254">Enoch tanto tempore servatur a morte, in quo ostenditur quia homo semper viveret si non peccasset.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen5-Dd1e258">
+          <head xml:id="gom-gen5-Hd1e260">Versus 25</head>
+          <p xml:id="gom-gen5-d1e262">
+            <quote xml:id="gom-gen5-Qd1e264" type="lemma" source="http://scta.info/resource/gen5_25@1-3">Vixit quoque Mathusala,</quote>
+            etc.
+            <ref xml:id="gom-gen5-Rd1e267"><name xml:id="gom-gen5-Nd1e268" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen5-Qd1e271">Quaeritur quomodo Mathusala secundum annorum <pb ed="#P" n="0104A"/> computationem post diluvium vivere potuerit, cum omnes, praeter eos qui in arcam ingressi sunt, perierunt. Sed hanc quaestionem codicum mendositas peperit: non solum enim in Hebraeis aliter invenitur, verum etiam in LXX interpretatione, paucis codicibus septem annis ante diluvium Mathusala defunctus reperitur. Quod Mathusala juxta LXX ultra diluvium numerantur anni, inde est quia significat Christum, cujus vita nullam sentit aetatem, ut in majoribus quoque non sensisse diluvium videretur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen5-Dd1e279">
+          <head xml:id="gom-gen5-Hd1e281">Versus 31</head>
+          <p xml:id="gom-gen5-d1e283">
+            <quote xml:id="gom-gen5-Qd1e285" type="lemma" source="http://scta.info/resource/gen5_31@1-5">Et facti sunt omnes dies,</quote>
+            etc.
+            <ref xml:id="gom-gen5-Rd1e288"><name xml:id="gom-gen5-Nd1e289" ref="#Jerome">HIERON.</name>, in Quaest. Hebr., tom. III.</ref>
+            <quote xml:id="gom-gen5-Qd1e293"><seg type="qs"><quote xml:id="gom-gen5-Qd1e295" source="http://scta.info/resource/gen5_27@1-13">Et fuerunt omnes dies Mathusalae quos vixit anni nongenti sexaginta novem, et mortuus est.</quote> Juxta diligentem supputationem quatuordecim annis post diluvium vixis <pb ed="#P" n="0104B"/> se refertur</seg>, etc., usque ad <seg type="qs">eo anno scilicet quo coepit esse diluvium.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen5-Dd1e306">
+          <head xml:id="gom-gen5-Hd1e308">Versus 32</head>
+          <p xml:id="gom-gen5-d1e310">
+            <quote xml:id="gom-gen5-Qd1e312" type="lemma" source="http://scta.info/resource/gen5_32@1-6">Noe vero cum quingentorum esset annorum,</quote>
+            etc.
+            <ref xml:id="gom-gen5-Rd1e315"><name xml:id="gom-gen5-Nd1e316" ref="#Jerome">Ibid.</name></ref>
+          </p>
+          <p xml:id="gom-gen5-d1e320">
+            <ref xml:id="gom-gen5-Rd1e322" type="lemma" subtype="implied" target="http://scta.info/resource/gen5_32@1-6"/>
+            Noe interpretatur <mentioned>requies</mentioned>, quia sub illo omnia retro opera per diluvium quieverunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

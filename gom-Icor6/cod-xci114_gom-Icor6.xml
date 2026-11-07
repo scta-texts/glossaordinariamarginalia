@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Corinthios I, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Corinthios I, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0527D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Icor6">
+        <head xml:id="gom-Icor6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-Icor6-Dd1e100">
+          <head xml:id="gom-Icor6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Icor6-d1e104">
+            <quote xml:id="gom-Icor6-Qd1e106" type="lemma" source="http://scta.info/resource/Icor6_1@1-2">Audet aliquis.</quote>
+            Occasione hujusmodi judicii incipit agere de judiciis, in quibus multis modis <pb ed="#P" n="0528A"/> peccabant Corinthii, velut, quod contemptis fidelibus infideles judices adibant, vel stultos judices constituebant, et litigabant, et fraudabant, et alia hujusmodi faciebant.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e113">
+          <head xml:id="gom-Icor6-Hd1e115">Versus 2</head>
+          <p xml:id="gom-Icor6-d1e117">
+            <quote xml:id="gom-Icor6-Qd1e119" type="lemma" source="http://scta.info/resource/Icor6_2@3-3">Quoniam.</quote>
+            Quia exemplo fidei illorum, perfidia hujusmodi damnabitur.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e124">
+          <head xml:id="gom-Icor6-Hd1e126">Versus 4</head>
+          <p xml:id="gom-Icor6-d1e128">
+            <quote xml:id="gom-Icor6-Qd1e130" type="lemma" source="http://scta.info/resource/Icor6_4@1-3">Saecularia igitur judicia.</quote>
+            Quia dixerat Apostolus eos posse de his minimis judicare, determinat, qui ad hujusmodi negotia definienda sint constituendi, scilicet, contemptibiles qui sunt in Ecclesia. Majores enim spiritualibus intendere debent.
+          </p>
+          <p xml:id="gom-Icor6-d1e134">
+            <ref xml:id="gom-Icor6-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/Icor6_4@1-3"/>
+            <ref xml:id="gom-Icor6-Rd1e138"><name xml:id="gom-Icor6-Nd1e139" ref="#Augustine">AUG.</name>, lib. de opere Monac. c. 20.</ref>
+            <quote xml:id="gom-Icor6-Qd1e143"><seg type="qs">Sapientes igitur qui in locis consistebant fideles</seg>, etc., usque ad <seg type="qs">vel interveniendo praecidendis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e152">
+          <head xml:id="gom-Icor6-Hd1e154">Versus 5</head>
+          <p xml:id="gom-Icor6-d1e156">
+            <quote xml:id="gom-Icor6-Qd1e158" type="lemma" source="http://scta.info/resource/Icor6_5@1-2">Ad verecundiam.</quote>
+            Terrenas causas examinent <pb ed="#P" n="0528B"/> qui exteriorum rerum sapientiam perceperunt. Qui autem spiritualibus donis dotati sunt, terrenis non debent negotiis implicari; ut dum non coguntur inferiora bona disponere, valeant bonis superioribus deservire. Cavendum est tamen, ut hi qui donis spiritualibus emicant, nequaquam proximorum infirmantium negotia funditus deserant, sed vel aliis quibus dignum est tractanda committant, vel per se gerant.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e166">
+          <head xml:id="gom-Icor6-Hd1e168">Versus 8</head>
+          <p xml:id="gom-Icor6-d1e170">
+            <quote xml:id="gom-Icor6-Qd1e172" type="lemma" source="http://scta.info/resource/Icor6_8@9-9">Fratribus.</quote>
+            Quos juvare deberetis, et sic regnum perditis, et pejus, quia scientes.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e177">
+          <head xml:id="gom-Icor6-Hd1e179">Versus 9</head>
+          <p xml:id="gom-Icor6-d1e181">
+            <quote xml:id="gom-Icor6-Qd1e183" type="lemma" source="http://scta.info/resource/Icor6_9@1-2">An nescitis.</quote>
+            Nota quod toties repetit, <quote xml:id="gom-Icor6-Qd1e186" source="http://scta.info/resource/Icor6_9@2-2">Nescitis;</quote> quasi: Me sequendo, hoc scire deberetis; sed sequentes pseudo, stulti facti estis.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e191">
+          <head xml:id="gom-Icor6-Hd1e193">Versus 11</head>
+          <p xml:id="gom-Icor6-d1e195">
+            <quote xml:id="gom-Icor6-Qd1e197" type="lemma" source="http://scta.info/resource/Icor6_11@8-10">Sed sanctificati estis.</quote>
+            Nota <quote xml:id="gom-Icor6-Qd1e200" source="http://scta.info/resource/Icor6_11@5-5">sed,</quote> repetitam conjunctionem, non parvum pondus dare sententiae.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e205">
+          <head xml:id="gom-Icor6-Hd1e207">Versus 12</head>
+          <p xml:id="gom-Icor6-d1e209">
+            <pb ed="#P" n="0528C"/>
+            <quote xml:id="gom-Icor6-Qd1e213" type="lemma" source="http://scta.info/resource/Icor6_12@1-3">Omnia mihi licent.</quote>
+            Quia dixit potius ferendum esse, quam causas male agere, ne quis putet sua nullo modo esse repetenda, supponit: Omnia mea mihi licet repetere, sed tamen non repetam, quia non omnia expediunt ad cursum meum, sed impediunt. Item per aliam causam idem ostendit. Quasi: Licita sunt, sed non repetam, quia cum sim liber, nolo redigi suo potestate judicis: vel, nolo esse sub dominio alicujus rei, ut causa ejus fratrem offendam.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e218">
+          <head xml:id="gom-Icor6-Hd1e220">Versus 13</head>
+          <p xml:id="gom-Icor6-d1e222">
+            <quote xml:id="gom-Icor6-Qd1e224" type="lemma" source="http://scta.info/resource/Icor6_13@1-2">Esca ventri.</quote>
+            Propter haec non sunt repetenda, tamen esca debetur ventri. Per haec nota necessaria naturae, et ideo licet repeti. Sed non multum pro his laborandum, quia destruentur, et ideo licet de his fieri judicium vel praetermitti.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e229">
+          <head xml:id="gom-Icor6-Hd1e231">Versus 15</head>
+          <p xml:id="gom-Icor6-d1e233">
+            <quote xml:id="gom-Icor6-Qd1e235" type="lemma" source="http://scta.info/resource/Icor6_15@3-3">Corpora.</quote>
+            Non potest non esse sanctum <pb ed="#P" n="0528D"/> corpus, quo sanctificatus utitur Spiritus.
+          </p>
+          <p xml:id="gom-Icor6-d1e241">
+            <quote xml:id="gom-Icor6-Qd1e243" type="lemma" source="http://scta.info/resource/Icor6_15@5-7">Membra sunt,</quote>
+            etc. Sicut membra omnia quae una eademque anima reguntur, unum corpus sunt, ita omnes qui eodem Spiritu sancto vivificantur, unum in Christo corpus efficiuntur.
+          </p>
+          <p xml:id="gom-Icor6-d1e247">
+            <quote xml:id="gom-Icor6-Qd1e249" type="lemma" source="http://scta.info/resource/Icor6_15@6-6">Christi.</quote>
+            Quia corpus accepit, et corporum caput est.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e255">
+          <head xml:id="gom-Icor6-Hd1e257">Versus 16</head>
+          <p xml:id="gom-Icor6-d1e259">
+            <quote xml:id="gom-Icor6-Qd1e261" type="lemma" source="http://scta.info/resource/Icor6_16@7-8">Unum corpus.</quote>
+            Tradunt physici, quod adeo uniuntur, quod si sanguis eorum commisceretur, omnino conjungeretur.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e266">
+          <head xml:id="gom-Icor6-Hd1e268">Versus 17</head>
+          <p xml:id="gom-Icor6-d1e270">
+            <quote xml:id="gom-Icor6-Qd1e272" type="lemma" source="http://scta.info/resource/Icor6_17@1-3">Qui autem adhaeret,</quote>
+            etc. Non substantiae identitate sed participatione, cum ei sic adhaeret hic per fidem accedens, ut sit particeps beatitudinis ejus, quod tunc plene erit, cum satiabitur desiderium ejus in bonis immutabilibus, <pb ed="#P" n="0529A"/> scilicet in ipsa Trinitate Domino suo cujus est imago.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e279">
+          <head xml:id="gom-Icor6-Hd1e281">Versus 18</head>
+          <p xml:id="gom-Icor6-d1e283">
+            <quote xml:id="gom-Icor6-Qd1e285" type="lemma" source="http://scta.info/resource/Icor6_18@1-2">Fugite fornicationem.</quote>
+            Cum aliis vitiis potest exspectari conflictus, sed hanc fugite, ne approximetis, quia non aliter potest melius vinci.
+          </p>
+          <p xml:id="gom-Icor6-d1e289">
+            <quote xml:id="gom-Icor6-Qd1e291" type="lemma" source="http://scta.info/resource/Icor6_18@3-4">Omne enim peccatum.</quote>
+            Nullum peccatum intantum dehonestat et coinquinat corpus, ut illud.
+          </p>
+          <p xml:id="gom-Icor6-d1e295">
+            <quote xml:id="gom-Icor6-Qd1e297" type="lemma" source="http://scta.info/resource/Icor6_18@11-13">Qui autem fornicatur.</quote>
+            Non dicitur propter quantitatem fornicationis, quod ipsa sola sit in corpore, et alia extra corpus. Plura enim adeo magna, ut fornicatio, vel majora. Sed propter qualitatem, quia turpius coinquinat corpus quam alia peccata.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e302">
+          <head xml:id="gom-Icor6-Hd1e304">Versus 19</head>
+          <p xml:id="gom-Icor6-d1e306">
+            <quote xml:id="gom-Icor6-Qd1e308" type="lemma" source="http://scta.info/resource/Icor6_19@6-6">Templum.</quote>
+            Ex hoc patet quod Spiritus sanctus est Deus; si enim non esset Deus, templum utique nosipsos non haberet. Non solum autem Spiritus sanctus, sed etiam Pater et Filius templum <pb ed="#P" n="0529B"/> nos habent. Templum ergo Dei, hoc est totius Trinitatis, sancta Ecclesia est.
+          </p>
+        </div>
+        <div xml:id="gom-Icor6-Dd1e315">
+          <head xml:id="gom-Icor6-Hd1e317">Versus 20</head>
+          <p xml:id="gom-Icor6-d1e319">
+            <quote xml:id="gom-Icor6-Qd1e321" type="lemma" source="http://scta.info/resource/Icor6_20@7-9">Et portate Deum.</quote>
+            Portare Deum est imaginem Dei in rebus bene gestis ostendere.
+          </p>
+          <p xml:id="gom-Icor6-d1e325">
+            <quote xml:id="gom-Icor6-Qd1e327" type="lemma" source="http://scta.info/resource/Icor6_20@10-11">In corpore.</quote>
+            Si non parcis tibi propter te, parce vel propter Deum qui te sibi fecit domum. Quam si evertis, peccas in Deum, quod grave est genus peccati; aliud vero genus est peccare in hominem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

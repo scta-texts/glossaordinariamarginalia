@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 146</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 146</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1073C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps146">
+        <head xml:id="gom-ps146-Hd1e98">Psalmus 146</head>
+        <div xml:id="gom-ps146-Dd1e100">
+          <head xml:id="gom-ps146-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps146-d1e104">
+            <quote xml:id="gom-ps146-Qd1e106" type="lemma" source="http://scta.info/resource/ps146_1@1-1">Alleluia.</quote>
+            <ref xml:id="gom-ps146-Rd1e109"><name xml:id="gom-ps146-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e113">Hic item ait de laude Dei, ubi propheta monet laudare colligentem Israel.</quote>
+          </p>
+          <p xml:id="gom-ps146-d1e116">
+            <quote xml:id="gom-ps146-Qd1e118" type="lemma" source="http://scta.info/resource/ps146_1@2-3">Laudate Dominum.</quote>
+            <ref xml:id="gom-ps146-Rd1e121"><name xml:id="gom-ps146-Nd1e122" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e125">Primo ostendit quos colligat, et quomodo. Secundo, post praedicta, quasi adhuc haerentes et dubios increpat, ostendens unde possint laudare Deum, scilicet si fuerint humiles, <ref xml:id="gom-ps146-Rd1e127">ibi, <seg type="incipit">Praecinite.--Laudate Dominum</seg>.</ref></quote>
+          </p>
+          <p xml:id="gom-ps146-d1e134">
+            <ref xml:id="gom-ps146-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/ps146_1@2-3"/>
+            <ref xml:id="gom-ps146-Rd1e138"><name xml:id="gom-ps146-Nd1e139" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e142">Hoc dicitur omnibus gentibus. Et quasi quaereremus qualiter laudabimus, laudis causam attulit, <quote xml:id="gom-ps146-Qd1e144" source="http://scta.info/resource/ps146_1@4-7">quoniam bonus est psalmus.</quote></quote>
+          </p>
+          <p xml:id="gom-ps146-d1e148">
+            <ref xml:id="gom-ps146-Rd1e150" type="lemma" subtype="implied" target="http://scta.info/resource/ps146_1@2-3"/>
+            <ref xml:id="gom-ps146-Rd1e152"><name xml:id="gom-ps146-Nd1e153" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e156">In laude Dei ipse actus est merces quae in futuro erit; ideo laudandus, quia <pb ed="#P" n="1073D"/> aedificat, sic, quia <quote xml:id="gom-ps146-Qd1e160">dispersiones Israel,</quote> id est fidelium, de toto mundo in fine saeculi <quote xml:id="gom-ps146-Qd1e162" source="http://scta.info/resource/ps146_2@6-6">congregabit</quote> ad regnum. Et est hic laus de factis mirabilibus.</quote>
+          </p>
+          <p xml:id="gom-ps146-d1e168">
+            <ref xml:id="gom-ps146-Rd1e170" type="lemma" subtype="implied" target="http://scta.info/resource/ps146_1@2-3"/>
+            <ref xml:id="gom-ps146-Rd1e172"><name xml:id="gom-ps146-Nd1e173" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e176"><seg type="qs">Haec est tota merces laudantium</seg>, etc., usque ad <seg type="qs">modo exerceamur in hac laude bonorum operum.</seg></quote>
+          </p>
+          <p xml:id="gom-ps146-d1e184">
+            <quote xml:id="gom-ps146-Qd1e186" type="lemma" source="http://scta.info/resource/ps146_1@9-12">Deo nostro sit jucunda,</quote>
+            etc. Non est satis psallere ad hoc ut laus Deo placeat, sed opus est ut per vitae quoque munditiem illi placeamus.
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e191">
+          <head xml:id="gom-ps146-Hd1e193">Versus 2</head>
+          <p xml:id="gom-ps146-d1e195">
+            <quote xml:id="gom-ps146-Qd1e197" type="lemma" source="http://scta.info/resource/ps146_2@1-3">Aedificans Jerusalem Dominus.</quote>
+            <ref xml:id="gom-ps146-Rd1e200"><name xml:id="gom-ps146-Nd1e201" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e204"><seg type="qs">Vel, accepit <quote xml:id="gom-ps146-Qd1e207" source="http://scta.info/resource/ps146_2@2-2">Jerusalem</quote> generalem Ecclesiam</seg>, etc., usque ad <seg type="qs">quem Pater misit ad captivitatem nostram redimendam pretio sanguinis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e216">
+          <head xml:id="gom-ps146-Hd1e218">Versus 3</head>
+          <p xml:id="gom-ps146-d1e220">
+            <quote xml:id="gom-ps146-Qd1e222" type="lemma" source="http://scta.info/resource/ps146_3@5-6">Et alligat.</quote>
+            <quote xml:id="gom-ps146-Qd1e225"><seg type="qs">A similitudine medici</seg>, etc., usque ad <seg type="qs">et Dominus alligat contritiones.</seg></quote>
+          </p>
+          <p xml:id="gom-ps146-d1e233">
+            <ref xml:id="gom-ps146-Rd1e235" type="lemma" subtype="implied" target="http://scta.info/resource/ps146_3@5-6"/>
+            <ref xml:id="gom-ps146-Rd1e237"><name xml:id="gom-ps146-Nd1e238" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e241"><pb ed="#P" n="1074A"/> Qualiter Samaritanus ille qui descendebat a Jerusalem in Jericho <!--<note>(Luc. X)</note>-->, quando vidit vulneratum jacentem in itinere, colligavit vulnera ejus. Caeterum de his qui non obtriverunt cor, dicitur per Isaiam: <quote xml:id="gom-ps146-Qd1e246" source="http://scta.info/resource/is1">Non est malagma imponere, neque oleum, neque alligaturas<!-- check: cited chapter given; verse not identified --></quote>. Alligamenta Dei sunt temporalia sacramenta, quibus interim consolationem habemus; quae tunc detrahentur cum erit perfecta sanitas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e253">
+          <head xml:id="gom-ps146-Hd1e255">Versus 4</head>
+          <p xml:id="gom-ps146-d1e257">
+            <quote xml:id="gom-ps146-Qd1e259" type="lemma" source="http://scta.info/resource/ps146_4@1-9">Qui numerat multitudinem stellarum, et omnibus eis nomina vocat.</quote>
+            <ref xml:id="gom-ps146-Rd1e262"><name xml:id="gom-ps146-Nd1e263" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e266">Non aliena ut astrologi qui Jovem et Venerem nominant. Vel, typice, de sanctis, quia cuique proprium donum dat; vel, omnes sunt in familiaritate, a similitudine Domini, qui famulorum suorum nomina novit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e271">
+          <head xml:id="gom-ps146-Hd1e273">Versus 5</head>
+          <p xml:id="gom-ps146-d1e275">
+            <pb ed="#P" n="1074B"/>
+            <quote xml:id="gom-ps146-Qd1e279" type="lemma" source="http://scta.info/resource/ps146_5@9-10">Sapientiae ejus,</quote>
+            etc.,
+            <ref xml:id="gom-ps146-Rd1e282"><name xml:id="gom-ps146-Nd1e283" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e286"><seg type="qs">Ipsam mensuram, et numerum et pondus</seg>, etc., usque ad <seg type="qs">vide quid sequitur, <quote xml:id="gom-ps146-Qd1e292" source="http://scta.info/resource/ps146_6@5-7">humilians autem peccat.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e297">
+          <head xml:id="gom-ps146-Hd1e299">Versus 6</head>
+          <p xml:id="gom-ps146-d1e301">
+            <quote xml:id="gom-ps146-Qd1e303" type="lemma" source="http://scta.info/resource/ps146_6@5-7">Humilians autem peccatores.</quote>
+            <ref xml:id="gom-ps146-Rd1e306"><name xml:id="gom-ps146-Nd1e307" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e310">Qui enim reprehendunt intelligibilia, ideo sentiunt terrena, de Deo incorporeo corporaliter cogitantes. Haec facit his qui volunt irridere legem antequam noscant. Quia ergo magnum est proficere ad intelligibilia et spiritualia, simus mansueti, pulsemus et faciamus quod sequitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e314">
+          <head xml:id="gom-ps146-Hd1e316">Versus 7</head>
+          <p xml:id="gom-ps146-d1e318">
+            <quote xml:id="gom-ps146-Qd1e320" type="lemma" source="http://scta.info/resource/ps146_7@1-1">Praecinite.</quote>
+            Sic pervenietur ad intelligentiam, sic imago Deo reformabitur.
+          </p>
+          <p xml:id="gom-ps146-d1e324">
+            <quote xml:id="gom-ps146-Qd1e326" type="lemma" source="http://scta.info/resource/ps146_7@1-1">Praecinite.</quote>
+            <ref xml:id="gom-ps146-Rd1e329"><name xml:id="gom-ps146-Nd1e330" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e333">Secundo, ex praedictis quasi adhuc haerentes increpat et impellit, ostendens unde possint intelligere, si humiles et non superbi. Quasi: Et ut intelligere <pb ed="#P" n="1074C"/> valeatis, <quote xml:id="gom-ps146-Qd1e337" source="http://scta.info/resource/ps146_7@1-1">praecinite,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e343">
+          <head xml:id="gom-ps146-Hd1e345">Versus 8</head>
+          <p xml:id="gom-ps146-d1e347">
+            <quote xml:id="gom-ps146-Qd1e349" type="lemma" source="http://scta.info/resource/ps146_8@1-3">Qui operit coelum.</quote>
+            <ref xml:id="gom-ps146-Rd1e352"><name xml:id="gom-ps146-Nd1e353" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e356">Memorat opera per quae potestas ostenditur. Ad hoc enim quaedam obscura in Scripturis voluit esse, ut haberent servi Dei quid interpretando influerent super aures et corda hominum, excipientium de nubibus Dei saginem laetitiae spiritualis.</quote>
+          </p>
+          <p xml:id="gom-ps146-d1e359">
+            <quote xml:id="gom-ps146-Qd1e361" type="lemma" source="http://scta.info/resource/ps146_8@17-18">Servituti hominum.</quote>
+            Praedicatoribus, qui hominibus serviunt. Unde Apostolus ait: <quote xml:id="gom-ps146-Qd1e364" source="http://scta.info/resource/IIcor4_5@10-15">Nos autem servos vestros per Jesum Christum</quote>. Hi seminant spiritualia et recipiunt ab <quote xml:id="gom-ps146-Qd1e367" source="http://scta.info/resource/ps146_8@14-16">excelsis saeculi fenum et herbam,</quote> id est temporalia.
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e372">
+          <head xml:id="gom-ps146-Hd1e374">Versus 9</head>
+          <p xml:id="gom-ps146-d1e376">
+            <quote xml:id="gom-ps146-Qd1e378" type="lemma" source="http://scta.info/resource/ps146_9@6-8">Et pullis corvorum.</quote>
+            <ref xml:id="gom-ps146-Rd1e381"><name xml:id="gom-ps146-Nd1e382" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e385">Omnia enim, quae dantur Ecclesiae a divitibus, fenum sunt.</quote>
+          </p>
+          <p xml:id="gom-ps146-d1e388">
+            <pb ed="#P" n="1074D"/>
+            <ref xml:id="gom-ps146-Rd1e392" type="lemma" subtype="implied" target="http://scta.info/resource/ps146_9@6-8"/>
+            <ref xml:id="gom-ps146-Rd1e394"><name xml:id="gom-ps146-Nd1e395" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e398">Judaei, qui se solos justos, omnes gentes dicebant peccatores. Et vere patres nostri <quote xml:id="gom-ps146-Qd1e400">corvi,</quote> nos autem non sic remanemus: tamen recte pulli corvorum dicimur et sumus. Corvus non invocat, nos vero dimissi invocamus.</quote>
+          </p>
+          <p xml:id="gom-ps146-d1e404">
+            <ref xml:id="gom-ps146-Rd1e406" type="lemma" subtype="implied" target="http://scta.info/resource/ps146_9@6-8"/>
+            <ref xml:id="gom-ps146-Rd1e408"><name xml:id="gom-ps146-Nd1e409" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e412">Pulli corvorum dicuntur rore vesci et beneficio aetatis, ignorant paternas escas, id est fetores cadaverum: sic filii paganorum innocentes, qui invocant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e416">
+          <head xml:id="gom-ps146-Hd1e418">Versus 10</head>
+          <p xml:id="gom-ps146-d1e420">
+            <quote xml:id="gom-ps146-Qd1e422" type="lemma" source="http://scta.info/resource/ps146_10@8-10">In tibiis viri.</quote>
+            In composito habitu praesumptuosi et audacis. Per virum enim audacem praesumptorem notat. In tibiis notatur incessus incompositus, <quote xml:id="gom-ps146-Qd1e425" source="http://scta.info/resource/ps146_10@8-10">in tibiis viri.</quote> Vel, secundum aliam litteram, <quote xml:id="gom-ps146-Qd1e428" source="http://scta.info/resource/ps146_10@8-10">in tabernaculis viri,</quote> id est in conventiculis haereticorum, <quote xml:id="gom-ps146-Qd1e431" source="http://scta.info/resource/ps146_10@11-13">beneplacitum erit ei.</quote> Nota quod non <pb ed="#P" n="1075A"/> ait in tabernaculis Dei, sed <quote xml:id="gom-ps146-Qd1e437" source="http://scta.info/resource/ps146_10@10-10">viri,</quote> per hoc designans audaciam haereticorum.
+          </p>
+        </div>
+        <div xml:id="gom-ps146-Dd1e443">
+          <head xml:id="gom-ps146-Hd1e445">Versus 11</head>
+          <p xml:id="gom-ps146-d1e447">
+            <quote xml:id="gom-ps146-Qd1e449" type="lemma" source="http://scta.info/resource/ps146_11@4-5">Super timentes,</quote>
+            etc.
+            <ref xml:id="gom-ps146-Rd1e452"><name xml:id="gom-ps146-Nd1e453" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps146-Qd1e456">Timori spem conjunxit, quia non valet timor sine spe veniae: Judas enim timens, sed desperans, laqueo se suspendit. Qui ergo timet Deum, speret et in eo. Placabis autem si speres in misericordia ejus, atque de caetero ita peccare caveas, ut de praeteritis depreceris ut tibi dimittantur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

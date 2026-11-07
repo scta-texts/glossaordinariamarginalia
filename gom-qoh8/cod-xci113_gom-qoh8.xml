@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiastes, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiastes, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1124B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-qoh8">
+        <head xml:id="gom-qoh8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-qoh8-Dd1e100">
+          <head xml:id="gom-qoh8-Hd1e102">Versus 2</head>
+          <p xml:id="gom-qoh8-d1e104">
+            <quote xml:id="gom-qoh8-Qd1e106" type="lemma" source="http://scta.info/resource/qoh8_2@1-4">Ego os regis observo.</quote>
+            <ref xml:id="gom-qoh8-Rd1e109"><name xml:id="gom-qoh8-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh8-Qd1e113"><seg type="qs">Videtur quidem praecipere juxta Apostolum</seg>, etc., usque ad <seg type="qs">hujus voluntati parendum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh8-Dd1e122">
+          <head xml:id="gom-qoh8-Hd1e124">Versus 4</head>
+          <p xml:id="gom-qoh8-d1e126">
+            <quote xml:id="gom-qoh8-Qd1e128" type="lemma" source="http://scta.info/resource/qoh8_4@7-11">Nec dicere ei quisquam potest,</quote>
+            etc.
+            <ref xml:id="gom-qoh8-Rd1e131"><name xml:id="gom-qoh8-Nd1e132" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh8-Qd1e135">Praecepta Dei non sunt discutienda quare illa praeceperit, sed facienda.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh8-Dd1e139">
+          <head xml:id="gom-qoh8-Hd1e141">Versus 8</head>
+          <p xml:id="gom-qoh8-d1e143">
+            <quote xml:id="gom-qoh8-Qd1e145" type="lemma" source="http://scta.info/resource/qoh8_8@1-5">Non est in hominis ditione.</quote>
+            <ref xml:id="gom-qoh8-Rd1e148"><name xml:id="gom-qoh8-Nd1e149" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh8-Qd1e152">Quasi, <pb ed="#P" n="1124C"/> non debes moleste pati, si futura non scire potes, si a potentioribus impiis saepe opprimeris, quia cito omnia finiuntur, et mors omnia aequaliter rapit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh8-Dd1e159">
+          <head xml:id="gom-qoh8-Hd1e161">Versus 10</head>
+          <p xml:id="gom-qoh8-d1e163">
+            <quote xml:id="gom-qoh8-Qd1e165" type="lemma" source="http://scta.info/resource/qoh8_10@1-3">Vidi impios sepultos,</quote>
+            etc. Nec in morte poenitet, quorum quanto accusatio rarior et difficilior, tanto peccandi libertas videtur eis esse major.
+          </p>
+        </div>
+        <div xml:id="gom-qoh8-Dd1e171">
+          <head xml:id="gom-qoh8-Hd1e173">Versus 14</head>
+          <p xml:id="gom-qoh8-d1e175">
+            <quote xml:id="gom-qoh8-Qd1e177" type="lemma" source="http://scta.info/resource/qoh8_14@9-13">Sunt justi quibus mala proveniunt,</quote>
+            etc. Ut filiis Aaron sacrificantibus secundum Hebraeum, et Manasses post tanta mala a captivitate in regnum reductus feliciter vixit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

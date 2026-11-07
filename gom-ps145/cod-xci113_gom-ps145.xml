@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 145</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 145</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1071C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps145">
+        <head xml:id="gom-ps145-Hd1e98">Psalmus 145</head>
+        <div xml:id="gom-ps145-Dd1e100">
+          <head xml:id="gom-ps145-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps145-d1e104">
+            <quote xml:id="gom-ps145-Qd1e106" type="lemma" source="http://scta.info/resource/ps145_1@1-1">Alleluia.</quote>
+            <ref xml:id="gom-ps145-Rd1e109"><name xml:id="gom-ps145-Nd1e110" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e113">Vox ista, quasi musica salutaris, tanquam harmonia coelestis, quae non solum homines, sed etiam angelos delectat, laudem Dei exprimens. Quae congrue huic psalmo praescribitur, <pb ed="#P" n="1071D"/> ubi vir justus exhortatur animam ad laudem Dei: quia in adversis aliquando, velit nolit, perturbatur anima. Unde <ref xml:id="gom-ps145-Rd1e117">supra: <seg type="incipit">Quare tristis es, anima mea, et quare conturbas me</seg>?</ref> Sed ut auferat ei perturbationem, suggerit gaudium de spe, si non in re: <quote xml:id="gom-ps145-Qd1e123" source="http://scta.info/resource/ps33_9@12-14">Spera in Deo,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e128">
+            <ref xml:id="gom-ps145-Rd1e130" type="lemma" subtype="implied" target="http://scta.info/resource/ps145_1@1-1"/>
+            <ref xml:id="gom-ps145-Rd1e132"><name xml:id="gom-ps145-Nd1e133" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e136">Hac spe erecta anima Deum laudat hic.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e139">
+            <ref xml:id="gom-ps145-Rd1e141" type="lemma" subtype="implied" target="http://scta.info/resource/ps145_1@1-1"/>
+            <ref xml:id="gom-ps145-Rd1e143"><name xml:id="gom-ps145-Nd1e144" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e147">Primo, sibi quasi omnibus consulit laudare, ne in vanis oretur; et quasi acquiescens consilio, asserit se laudaturum ibi ubi poterit plene. Secundo, alios monet non sperare in homine, <ref xml:id="gom-ps145-Rd1e149">ibi: <seg type="incipit">Nolite confidere</seg>.</ref> Tertio, docet omnem spem in Omnipotente ponendam, <ref xml:id="gom-ps145-Rd1e155">ibi: <seg type="incipit">Beatus</seg>,</ref> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e164">
+          <head xml:id="gom-ps145-Hd1e166">Versus 2</head>
+          <p xml:id="gom-ps145-d1e168">
+            <quote xml:id="gom-ps145-Qd1e170" type="lemma" source="http://scta.info/resource/ps145_2@1-4">Lauda, anima mea, Dominum.</quote>
+            Sed <pb ed="#P" n="1072A"/> quaeritur, a quo, cui hoc consulitur? Si dicitur caro consulere animae, non videtur hoc esse verum, cum a meliori et a digniori soleat inferiori dari consilium: caro autem inferior est anima. Anima enim, licet vituperata quia peccatrix, tamen melior dicitur per naturam corpore laudato in suo genere, quia spiritualis natura praestat corpore, quam movet, regit, sensificat, capit: et ipsa infinita, vicina est substantiae Dei. Sic aurum, vituperatum quia sordidum, praeest plumbo in puritate laudato: sic et malus homo optimo equo. Non datur ergo consilium animae a carne, quamvis domita valde et pacata: quae tamen mortua est propter peccatum. Nec etiam caro mortalis immortali consulit animae, quia semper infra animam est; sed superior pars animae, <pb ed="#P" n="1072B"/> scilicet mens, quae cogitat sapientiam divinam, illi inhaerens et in illam suspirans, videt quasdam sui partes perturbari motibus saeculi, cupiditate terrenorum ad exteriora rapi: unde ad interiora et superiora revocat eam. Se ergo secundum sensualitatem exhortans dicit: <quote xml:id="gom-ps145-Qd1e177" source="http://scta.info/resource/ps145_2@1-4">Lauda, anima mea, Dominum.</quote> Quid enim tibi placet in hoc saeculo? Divisa per tot saecularium rerum amores, collige te ad auctorem: hic tibi pax et securitas. Deinde respondet anima menti, quasi hic praegravata non valens desistere, ut dignum est.
+          </p>
+          <p xml:id="gom-ps145-d1e181">
+            <quote xml:id="gom-ps145-Qd1e183" type="lemma" source="http://scta.info/resource/ps145_2@5-8">Laudabo in vita.</quote>
+            Hic in morte laudabo tenuiter, quia corpus <quote xml:id="gom-ps145-Qd1e186" source="http://scta.info/resource/sap9_15@5-13">aggravat animam, et terrena inhabitatio sensum deprimit multa cogitantem</quote>; hic spes pascit, vita in futuro.
+          </p>
+          <p xml:id="gom-ps145-d1e190">
+            <quote xml:id="gom-ps145-Qd1e192" type="lemma" source="http://scta.info/resource/ps145_2@7-9">In vita mea.</quote>
+            <ref xml:id="gom-ps145-Rd1e195"><name xml:id="gom-ps145-Nd1e196" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e199">Cum ei perfecte inhaesero, a <pb ed="#P" n="1072C"/> quo separari, ut modo fit, mors est: sed spes consolatur, in qua quodammodo vivens laudat.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e205">
+            <quote xml:id="gom-ps145-Qd1e207" type="lemma" source="http://scta.info/resource/ps145_2@14-14">Quandiu.</quote>
+            Non quod aliquando non sit, quia in aeternum erit, et ideo vere diu.
+          </p>
+          <p xml:id="gom-ps145-d1e212">
+            <quote xml:id="gom-ps145-Qd1e214" type="lemma" source="http://scta.info/resource/ps145_2@16-17">Nolite confidere,</quote>
+            etc.
+            <ref xml:id="gom-ps145-Rd1e217"><name xml:id="gom-ps145-Nd1e218" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e221">Secunda pars. Dato consilio et affirmato, ubi plene laudare poterit, quasi longe remotos, et interim dum mala sunt (quibus turbatur anima), monet non sperare in homine, sed in Deo.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e224">
+            <ref xml:id="gom-ps145-Rd1e226" type="lemma" subtype="implied" target="http://scta.info/resource/ps145_2@16-17"/>
+            <ref xml:id="gom-ps145-Rd1e228"><name xml:id="gom-ps145-Nd1e229" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e232">Vel quasi in fine saeculi mente positus: cito finienda docet non amare pro aeternis; quasi et meo exemplo, <quote xml:id="gom-ps145-Qd1e234" source="http://scta.info/resource/ps145_2@16-17">nolite confidere,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e240">
+          <head xml:id="gom-ps145-Hd1e242">Versus 3</head>
+          <p xml:id="gom-ps145-d1e244">
+            <quote xml:id="gom-ps145-Qd1e246" type="lemma" source="http://scta.info/resource/ps145_3@1-3">In filiis hominum.</quote>
+            <ref xml:id="gom-ps145-Rd1e249"><name xml:id="gom-ps145-Nd1e250" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e253">In uno filio hominis est salus, et in ipso sperate. Non quia filius hominis est, sed quia Filius Dei est. Non propter illud quod suscepit ex te, sed propter illud quod servavit in se.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e257">
+          <head xml:id="gom-ps145-Hd1e259">Versus 4</head>
+          <p xml:id="gom-ps145-d1e261">
+            <pb ed="#P" n="1072D"/>
+            <quote xml:id="gom-ps145-Qd1e265" type="lemma" source="http://scta.info/resource/ps145_4@1-3">Exibit spiritus ejus,</quote>
+            etc.
+            <ref xml:id="gom-ps145-Rd1e268"><name xml:id="gom-ps145-Nd1e269" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e272">Prius mundat corda prohibendo a noxiis, ut post salutaria intendat monendo salubria.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e277">
+          <head xml:id="gom-ps145-Hd1e279">Versus 5</head>
+          <p xml:id="gom-ps145-d1e281">
+            <quote xml:id="gom-ps145-Qd1e283" type="lemma" source="http://scta.info/resource/ps145_5@1-4">Beatus cujus Deus Jacob.</quote>
+            <ref xml:id="gom-ps145-Rd1e286"><name xml:id="gom-ps145-Nd1e287" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e290">Tertia pars, ubi docet totam spem in Omnipotenti ponendam, quem ex factis describit ut gentilitas tam frequenter convicta quiescat.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e293">
+            <ref xml:id="gom-ps145-Rd1e295" type="lemma" subtype="implied" target="http://scta.info/resource/ps145_5@1-4"/>
+            <ref xml:id="gom-ps145-Rd1e297"><name xml:id="gom-ps145-Nd1e298" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e301">Remotis noxiis, docet quod salutis est, scilicet in quo sperandum sit.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e304">
+            <quote xml:id="gom-ps145-Qd1e306" type="lemma" source="http://scta.info/resource/ps145_5@5-8">Adjutor ejus spes ejus.</quote>
+            <ref xml:id="gom-ps145-Rd1e309"><name xml:id="gom-ps145-Nd1e310" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e313"><seg type="qs">Ipsius Jacob sic fuit adjutor</seg>, etc., usque ad <seg type="qs">id est, hujus veri Jacob, sicut illius.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e322">
+          <head xml:id="gom-ps145-Hd1e324">Versus 6</head>
+          <p xml:id="gom-ps145-d1e326">
+            <quote xml:id="gom-ps145-Qd1e328" type="lemma" source="http://scta.info/resource/ps145_6@1-5">Qui fecit coelum et terram.</quote>
+            <ref xml:id="gom-ps145-Rd1e331"><name xml:id="gom-ps145-Nd1e332" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e335">Quia et cultoribus daemonum spes est in deo suo, determinat in quo debet esse spes, id est in Christo, et hoc <pb ed="#P" n="1073A"/> usque in finem psalmi ostendit, describendo eum per omnia.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e341">
+            <quote xml:id="gom-ps145-Qd1e343" type="lemma" source="http://scta.info/resource/ps145_6@8-12">Omnia quae in eis sunt.</quote>
+            Ne quem alium putes creatorem, vel minutissimarum rerum existere creatorem.
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e348">
+          <head xml:id="gom-ps145-Hd1e350">Versus 7</head>
+          <p xml:id="gom-ps145-d1e352">
+            <quote xml:id="gom-ps145-Qd1e354" type="lemma" source="http://scta.info/resource/ps145_7@1-5">Qui custodit veritatem in saeculum.</quote>
+            <ref xml:id="gom-ps145-Rd1e357"><name xml:id="gom-ps145-Nd1e358" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e361">Christus, qui est veritas, omnis homo mendax.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e364">
+            <quote xml:id="gom-ps145-Qd1e366" type="lemma" source="http://scta.info/resource/ps145_7@7-8">Facit judicium.</quote>
+            Haec duo ad justitiam pertinent. Christus judex vindicat patientes propter nomen suum, et dat escam diligentibus se.
+          </p>
+          <p xml:id="gom-ps145-d1e370">
+            <quote xml:id="gom-ps145-Qd1e372" type="lemma" source="http://scta.info/resource/ps145_7@9-10">Injuriam patientibus.</quote>
+            <ref xml:id="gom-ps145-Rd1e375"><name xml:id="gom-ps145-Nd1e376" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e379">Non omnis molestia est injuria. Quod jure pateris non est injuria, ut quod patitur latro et scelerati alii. Aliud ergo est pati injuriam, aliud supplicium. Supplicium enim jure quis patitur, injuria autem juri contraria est.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e382">
+            <quote xml:id="gom-ps145-Qd1e384" type="lemma" source="http://scta.info/resource/ps145_7@15-17">Dominus solvit compeditos.</quote>
+            <ref xml:id="gom-ps145-Rd1e387"><name xml:id="gom-ps145-Nd1e388" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e391">Hoc <pb ed="#P" n="1073B"/> ad abundantiam suavitatis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e398">
+          <head xml:id="gom-ps145-Hd1e400">Versus 8</head>
+          <p xml:id="gom-ps145-d1e402">
+            <quote xml:id="gom-ps145-Qd1e404" type="lemma" source="http://scta.info/resource/ps145_8@4-6">Dominus erigit elisos.</quote>
+            Quos diabolus elidit, Dominus erigit.
+          </p>
+          <p xml:id="gom-ps145-d1e408">
+            <quote xml:id="gom-ps145-Qd1e410" type="lemma" source="http://scta.info/resource/ps145_8@9-10">Diligi justos.</quote>
+            <ref xml:id="gom-ps145-Rd1e413"><name xml:id="gom-ps145-Nd1e414" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e417">Quos locat in aeterna beatitudine.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e421">
+          <head xml:id="gom-ps145-Hd1e423">Versus 9</head>
+          <p xml:id="gom-ps145-d1e425">
+            <quote xml:id="gom-ps145-Qd1e427" type="lemma" source="http://scta.info/resource/ps145_9@4-7">Pupillum et viduam suscipiet.</quote>
+            <ref xml:id="gom-ps145-Rd1e430"><name xml:id="gom-ps145-Nd1e431" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e434">Omnis Ecclesia gentium adventitia est ad patres, non carne, sed imitando, filia.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e437">
+            <quote xml:id="gom-ps145-Qd1e439" type="lemma" source="http://scta.info/resource/ps145_9@4-4">Pupilli</quote>
+            sunt omnes in peregrinatione, quibus est absens pater; et omnis fidelis anima est <quote xml:id="gom-ps145-Qd1e442" source="http://scta.info/resource/ps145_9@6-6">vidua</quote> sponso absente: unde et magis patrem et sponsum desiderant, et hos protegit Deus non visus, sed desideratus.
+          </p>
+        </div>
+        <div xml:id="gom-ps145-Dd1e447">
+          <head xml:id="gom-ps145-Hd1e449">Versus 10</head>
+          <p xml:id="gom-ps145-d1e451">
+            <quote xml:id="gom-ps145-Qd1e453" type="lemma" source="http://scta.info/resource/ps145_10@1-4">Regnabit Dominus in saecula.</quote>
+            <ref xml:id="gom-ps145-Rd1e456"><name xml:id="gom-ps145-Nd1e457" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps145-Qd1e460">Hoc est de magnificentia.</quote>
+          </p>
+          <p xml:id="gom-ps145-d1e463">
+            <pb ed="#P" n="1073C"/>
+            <ref xml:id="gom-ps145-Rd1e467" type="lemma" subtype="implied" target="http://scta.info/resource/ps145_10@1-4"/>
+            Regnabit in nobis, cum corda nostra erunt in eo firma, quod non modo.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

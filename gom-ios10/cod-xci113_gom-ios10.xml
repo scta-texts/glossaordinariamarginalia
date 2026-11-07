@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0513A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios10">
+        <head xml:id="gom-ios10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-ios10-Dd1e100">
+          <head xml:id="gom-ios10-Hd1e102">Versus 4</head>
+          <p xml:id="gom-ios10-d1e104">
+            <quote xml:id="gom-ios10-Qd1e106" type="lemma" source="http://scta.info/resource/ios10_4@1-2">Ascendite ad.</quote>
+            <ref xml:id="gom-ios10-Rd1e109"><name xml:id="gom-ios10-Nd1e110" ref="#Origen">ORIG.</name>, hom. 11 in Josue.</ref>
+            <quote xml:id="gom-ios10-Qd1e114"><seg type="qs">Cum se anima verbo Dei sociat</seg>, etc., usque ad <seg type="qs">et discutit adventum noctis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios10-Dd1e123">
+          <head xml:id="gom-ios10-Hd1e125">Versus 5</head>
+          <p xml:id="gom-ios10-d1e127">
+            <quote xml:id="gom-ios10-Qd1e129" type="lemma" source="http://scta.info/resource/ios10_5@1-2">Congregati igitur,</quote>
+            etc.
+            <ref xml:id="gom-ios10-Rd1e132"><name xml:id="gom-ios10-Nd1e133" ref="#Augustine">AUG.</name>, quaest. 15 in Jos.</ref>
+            <quote xml:id="gom-ios10-Qd1e137"><seg type="qs">Quaeritur quomodo rex Hierusalem</seg>, etc., usque ad <seg type="qs">et tamen universa terra illa originaliter terra Chanaan vocatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios10-Dd1e146">
+          <head xml:id="gom-ios10-Hd1e148">Versus 7</head>
+          <p xml:id="gom-ios10-d1e150">
+            <quote xml:id="gom-ios10-Qd1e152" type="lemma" source="http://scta.info/resource/ios10_7@1-2">Ascenditque Josue,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-ios10-d1e156">
+            <quote xml:id="gom-ios10-Qd1e158" type="lemma" source="http://scta.info/resource/ios10_7">(AUG. quaest. <pb ed="#P" n="0513B"/> 14.)</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-ios10-Qd1e165"><seg type="qs">Cum obsessi Gabaonitae a regibus Amorrhaeorum misissent ad Jesum</seg>, etc., usque ad <seg type="qs">et hanc eorum fidem quodammodo remuneravit.</seg></quote>
+          </p>
+          <p xml:id="gom-ios10-d1e173">
+            <quote xml:id="gom-ios10-Qd1e175" type="lemma" source="http://scta.info/resource/ios10_7">Fugerant enim quinque reges,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-ios10-Rd1e180"><name xml:id="gom-ios10-Nd1e181" ref="#Origen">ADAM.</name>, hom 11 in Josue.</ref>
+            <quote xml:id="gom-ios10-Qd1e185"><seg type="qs">Quid est quod dicit</seg>, etc., usque ad <seg type="qs">hoc est enim Hierusalem aliquando fuisse sub rege Adonisedec, vel alias civitates sub aliis.</seg></quote>
+          </p>
+          <p xml:id="gom-ios10-d1e193">
+            <ref xml:id="gom-ios10-Rd1e195" type="lemma" subtype="implied" target="http://scta.info/resource/ios10_7"/>
+            <ref xml:id="gom-ios10-Rd1e197"><name xml:id="gom-ios10-Nd1e198" ref="#Origen">ADAM.</name>, ibid.</ref>
+            <quote xml:id="gom-ios10-Qd1e202"><seg type="qs">Jesus interficit inimicos non credulitatem docens</seg>, etc., usque ad <seg type="qs">solus in te regnet Jesus Christus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios10-Dd1e211">
+          <head xml:id="gom-ios10-Hd1e213">Versus 19</head>
+          <p xml:id="gom-ios10-d1e215">
+            <quote xml:id="gom-ios10-Qd1e217" type="lemma" source="http://scta.info/resource/ios10_19@1-4">Vos autem nolite stare.</quote>
+            <ref xml:id="gom-ios10-Rd1e220"><name xml:id="gom-ios10-Nd1e221" ref="#Origen">ADAM.</name>, hom. 12.</ref>
+            <quote xml:id="gom-ios10-Qd1e225"><seg type="qs">Bella Jesu et regum atque hostium strages</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-ios10-Qd1e230">quia Dominus Deus tradidit vobis omnes inimicos in manus.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ios10-d1e233">
+            <ref xml:id="gom-ios10-Rd1e235" type="lemma" subtype="implied" target="http://scta.info/resource/ios10_19@1-4"/>
+            <ref xml:id="gom-ios10-Rd1e237"><name xml:id="gom-ios10-Nd1e238" ref="#Origen">ADAM.</name>, hom. 13.</ref>
+            <quote xml:id="gom-ios10-Qd1e242"><seg type="qs">Omnia haec in figura contingebant <pb ed="#P" n="0513C"/> illis. Scripta sunt autem propter nos</seg>, etc., usque ad <seg type="qs">in haereditatem terrae sanctae in parte Israelitica exstinctis hostibus nostris <!--<note>(Ephes. II)</note>-->.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

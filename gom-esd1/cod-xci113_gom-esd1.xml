@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Esdrae, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Esdrae, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0691D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-esd1">
+        <head xml:id="gom-esd1-Hd1e98">Caput 1</head>
+        <p xml:id="gom-esd1-d1e100">
+          <pb ed="#P" n="0691D"/>
+          <ref xml:id="gom-esd1-Rd1e104"><name xml:id="gom-esd1-Nd1e105" ref="#Bede">BEDA</name> in Esdram, tom. II.</ref>
+          <quote xml:id="gom-esd1-Qd1e109"><seg type="qs">Sicut Cyrus destructo Chaldaeorum imperio populum Dei liberavit</seg>, etc., usque ad <seg type="qs">quibus fidem sui nominis et spem salutis cunctis qui ad regnum suum pertinent, id est, electis, praedicat.</seg></quote>
+        </p>
+        <div xml:id="gom-esd1-Dd1e117">
+          <head xml:id="gom-esd1-Hd1e119">Versus 2</head>
+          <p xml:id="gom-esd1-d1e121">
+            <quote xml:id="gom-esd1-Qd1e123" type="lemma" source="http://scta.info/resource/esd1_2@14-21">Et ipse praecepit mihi ut aedificarem ei domum,</quote>
+            etc.
+            <ref xml:id="gom-esd1-Rd1e126"><name xml:id="gom-esd1-Nd1e127" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-esd1-Qd1e131"><seg type="qs">Domus vel templum Dei in Scripturis sanctis</seg>, etc., usque ad <seg type="qs">et pariter in futuro dedicationis illius solemnia exspectent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd1-Dd1e140">
+          <head xml:id="gom-esd1-Hd1e142">Versus 3</head>
+          <p xml:id="gom-esd1-d1e144">
+            <quote xml:id="gom-esd1-Qd1e146" type="lemma" source="http://scta.info/resource/esd1_3@1-4">Quis est in vobis.</quote>
+            <ref xml:id="gom-esd1-Rd1e149"><name xml:id="gom-esd1-Nd1e150" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e154"><seg type="qs">Magna in <pb ed="#P" n="0692D"/> his verbis fides regis</seg>, etc., usque ad <seg type="qs">eorumque animos et manus ad salutaria dirigeret opera.</seg></quote>
+          </p>
+          <p xml:id="gom-esd1-d1e164">
+            <quote xml:id="gom-esd1-Qd1e166" type="lemma" source="http://scta.info/resource/esd1_3@31-32">Ascendat in Jerusalem.</quote>
+            <ref xml:id="gom-esd1-Rd1e169"><name xml:id="gom-esd1-Nd1e170" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e174">Qui peccant vel saecularia curant in imo sunt: qui Deo placere desiderant, ad coelestia suspirent, omnes pompas mundi et illecebras aeternorum amore transcendant, et aedificent domum Deo in Judaea, in confessione scilicet suae iniquitatis et divinae miserationis, praeparent corda sua quae Deus habitare et illustrare dignetur, et proximos ad idem invitare verbis et exemplis nitantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd1-Dd1e178">
+          <head xml:id="gom-esd1-Hd1e180">Versus 4</head>
+          <p xml:id="gom-esd1-d1e182">
+            <pb ed="#P" n="0693A"/>
+            <quote xml:id="gom-esd1-Qd1e186" type="lemma" source="http://scta.info/resource/esd1_4@1-2">Et omnes.</quote>
+            <ref xml:id="gom-esd1-Rd1e189"><name xml:id="gom-esd1-Nd1e190" ref="#Bede">BEDA.</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e194"><seg type="qs">Notanda distinctio verborum</seg>, etc., usque ad <seg type="qs">unde Joannes: <quote xml:id="gom-esd1-Qd1e200" source="http://scta.info/resource/IIIio1_8@1-9">Nos ergo debemus hujusmodi suscipere, ut cooperatores simus veritatis,</quote> etc. <!--<note>(III Joan. VIII.)</note>--></seg></quote>
+          </p>
+          <p xml:id="gom-esd1-d1e206">
+            <quote xml:id="gom-esd1-Qd1e208" type="lemma" source="http://scta.info/resource/esd1_4@9-9">Adjuvent,</quote>
+            etc. Qui temporalibus abundant, non solum pauperibus Christi necessaria debent ministrare, sed et bona quae possunt pro se libenter operari, ut utroque commodo in templo Dei quod est Ecclesia, partem mereantur habere.
+          </p>
+        </div>
+        <div xml:id="gom-esd1-Dd1e214">
+          <head xml:id="gom-esd1-Hd1e216">Versus 5</head>
+          <p xml:id="gom-esd1-d1e218">
+            <quote xml:id="gom-esd1-Qd1e220" type="lemma" source="http://scta.info/resource/esd1_5@1-2">Et surrexerunt.</quote>
+            <ref xml:id="gom-esd1-Rd1e223"><name xml:id="gom-esd1-Nd1e224" ref="#Bede">BEDA</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e228"><seg type="qs">Cyrus omnia praecepit, imo permisit in Jerusalem ascendere et aedificare domum Domini</seg>, etc., usque ad <seg type="qs">et ideo collatae misericordiae particeps esse meruit.</seg></quote>
+          </p>
+          <p xml:id="gom-esd1-d1e236">
+            <quote xml:id="gom-esd1-Qd1e238" type="lemma" source="http://scta.info/resource/esd1_5@3-3">Principes.</quote>
+            <ref xml:id="gom-esd1-Rd1e241"><name xml:id="gom-esd1-Nd1e242" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e246">Principum enim patrum, id est magistrorum, est opere et doctrina errantium <pb ed="#P" n="0693B"/> mentes, in studio boni operis aedificare. Scribae docti in regno coelorum, qui merita sensusque auditorum solerter examinantes, dijudicare norunt quem in quo grado ministerii ecclesiastici promoveant.</quote>
+          </p>
+          <p xml:id="gom-esd1-d1e252">
+            <quote xml:id="gom-esd1-Qd1e254" type="lemma" source="http://scta.info/resource/esd1_5@18-19">Ut ascenderent.</quote>
+            <ref xml:id="gom-esd1-Rd1e257"><name xml:id="gom-esd1-Nd1e258" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e262">Quotidianis profectibus velut quibusdam gradibus ascendit ad summam virtutum quae sunt in aeternae pacis visione. Primi gradus sunt propriam vitam corrigere. Secundi de proximorum erratibus laborare. Supremi post opera bona et doctrinam gaudia perpetuae remunerationis exspectare.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd1-Dd1e266">
+          <head xml:id="gom-esd1-Hd1e268">Versus 6</head>
+          <p xml:id="gom-esd1-d1e270">
+            <quote xml:id="gom-esd1-Qd1e272" type="lemma" source="http://scta.info/resource/esd1_6@6-10">Adjuverunt manus eorum in vasis.</quote>
+            Manus aedificantium socii, qui aedificare nequeunt datis pecuniis adjuvant cum saeculares praedicatoribus <pb ed="#P" n="0693C"/> liberos suos vel familiam Domino educandam committunt, ut quod per se nequeunt, per eos qui possunt, Domino suae devotionis munus offerant.
+          </p>
+          <p xml:id="gom-esd1-d1e278">
+            <quote xml:id="gom-esd1-Qd1e280" type="lemma" source="http://scta.info/resource/esd1_6">Et jumentis.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-esd1-Rd1e285"><name xml:id="gom-esd1-Nd1e286" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e290"><seg type="qs">Id est, tardioribus</seg>, etc., usque ad <seg type="qs">et quasi suppellex varia ad aedificandam domum Domini principibus patrum tribuantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd1-Dd1e299">
+          <head xml:id="gom-esd1-Hd1e301">Versus 8</head>
+          <p xml:id="gom-esd1-d1e303">
+            <quote xml:id="gom-esd1-Qd1e305" type="lemma" source="http://scta.info/resource/esd1_8@1-2">Protulit autem.</quote>
+            <ref xml:id="gom-esd1-Rd1e308"><name xml:id="gom-esd1-Nd1e309" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e313"><seg type="qs">Diversa vasorum species</seg>, etc., usque ad <seg type="qs">in libro aeternae memoriae scriptam continet in quorum figura apte subditur: <quote xml:id="gom-esd1-Qd1e319" source="http://scta.info/resource/esd1_8@12-13">Et annumeravit,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd1-Dd1e325">
+          <head xml:id="gom-esd1-Hd1e327">Versus 9</head>
+          <p xml:id="gom-esd1-d1e329">
+            <quote xml:id="gom-esd1-Qd1e331" type="lemma" source="http://scta.info/resource/esd1_9@1-3">Et hic est.</quote>
+            <ref xml:id="gom-esd1-Rd1e334"><name xml:id="gom-esd1-Nd1e335" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd1-Qd1e339"><seg type="qs">Quia novit Dominus numerum electorum</seg>, etc., usque ad <seg type="qs">ut priusquam poeniteant, perennem rapiantur ad poenam.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

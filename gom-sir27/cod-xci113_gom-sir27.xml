@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 27</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 27</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1212D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir27">
+        <head xml:id="gom-sir27-Hd1e98">Caput 27</head>
+        <div xml:id="gom-sir27-Dd1e100">
+          <head xml:id="gom-sir27-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir27-d1e104">
+            <quote xml:id="gom-sir27-Qd1e106" type="lemma" source="http://scta.info/resource/sir27_1@1-2">Propter inopiam,</quote>
+            etc.,
+            <ref xml:id="gom-sir27-Rd1e109"><name xml:id="gom-sir27-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir27-Qd1e113"><seg type="qs">Sicut in medio. Hic comparatione</seg>, etc., usque ad <seg type="qs">et in futuro poena aeterna manet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e122">
+          <head xml:id="gom-sir27-Hd1e124">Versus 5</head>
+          <p xml:id="gom-sir27-d1e126">
+            <quote xml:id="gom-sir27-Qd1e128" type="lemma" source="http://scta.info/resource/sir27_5@2-4">Sicut in percussura cribri.</quote>
+            <ref xml:id="gom-sir27-Rd1e131"><name xml:id="gom-sir27-Nd1e132" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir27-Qd1e135"><seg type="qs">Sicut cribrum</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-sir27-Qd1e140" source="http://scta.info/resource/lc22_31@7-13">Satanas expetivit vos, ut cribraret sicut triticum.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e145">
+          <head xml:id="gom-sir27-Hd1e147">Versus 7</head>
+          <p xml:id="gom-sir27-d1e149">
+            <quote xml:id="gom-sir27-Qd1e151" type="lemma" source="http://scta.info/resource/sir27_7@1-4">Sicut rusticatio de ligno.</quote>
+            <ref xml:id="gom-sir27-Rd1e154"><name xml:id="gom-sir27-Nd1e155" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir27-Qd1e158"><seg type="qs">Unaquaeque arbor</seg>, etc., usque ad <seg type="qs">cultura ergo ligni in fructu manifestat qualitatem ejus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e167">
+          <head xml:id="gom-sir27-Hd1e169">Versus 8</head>
+          <p xml:id="gom-sir27-d1e171">
+            <quote xml:id="gom-sir27-Qd1e173" type="lemma" source="http://scta.info/resource/sir27_8@1-2">Ante sermonem.</quote>
+            Quia sermo indicat cogitationem. Quasi dicat: Nemo laudet eum, quem <pb ed="#P" n="1213A"/> manifestis indiciis non cognovit laude dignum. Potest autem sermo pro bono opere accipi, ut neminem ante probationem bonorum operum laudemus. Unde: <quote xml:id="gom-sir27-Qd1e178" source="http://scta.info/resource/sir11_30@1-6">Non laudes ante mortem quemquam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e184">
+          <head xml:id="gom-sir27-Hd1e186">Versus 13</head>
+          <p xml:id="gom-sir27-d1e188">
+            <quote xml:id="gom-sir27-Qd1e190" type="lemma" source="http://scta.info/resource/sir27_13@1-2">In medio.</quote>
+            <ref xml:id="gom-sir27-Rd1e193"><name xml:id="gom-sir27-Nd1e194" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir27-Qd1e197"><seg type="qs">Temperantiam et cautelam loquendi docet</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-sir27-Qd1e202" source="http://scta.info/resource/mt5_19@18-28">Qui autem fecerit et docuerit, hic magnus vocabitur in regno coelorum</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e208">
+          <head xml:id="gom-sir27-Hd1e210">Versus 15</head>
+          <p xml:id="gom-sir27-d1e212">
+            <quote xml:id="gom-sir27-Qd1e214" type="lemma" source="http://scta.info/resource/sir27_15@1-1">Loquela,</quote>
+            etc. Quia sicut actio eorum bonis contraria: et loquela ad mala dicendum prona, ad audiendum gravis.
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e219">
+          <head xml:id="gom-sir27-Hd1e221">Versus 17</head>
+          <p xml:id="gom-sir27-d1e223">
+            <quote xml:id="gom-sir27-Qd1e225" type="lemma" source="http://scta.info/resource/sir27_17@1-2">Qui denudat.</quote>
+            Ostendit in quo maxime laeditur amicitia, in malo, scilicet proditionis, quae fidem, scilicet perdit, nec amicitiae aequitatem custodit, et ideo dissipat charitatem.
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e230">
+          <head xml:id="gom-sir27-Hd1e232">Versus 22</head>
+          <p xml:id="gom-sir27-d1e234">
+            <pb ed="#P" n="1213B"/>
+            <quote xml:id="gom-sir27-Qd1e238" type="lemma" source="http://scta.info/resource/sir27_22@9-10">Quasi caprea.</quote>
+            Caprea, capra sylvestris, dicta quasi capiens ardua. Capreae autem ibices vel avices dicuntur, eo quod ad instar avium alta et excelsa teneant: et in sublimibus habitent, ita ut de sublimitate vix humanis obtutibus pateant. Hae si quando adversitatem ferarum, vel hominum praesenserint: de altis cacuminibus sese praecipitantes, suis se cornibus in ramis arborum recipiunt illaesas.
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e243">
+          <head xml:id="gom-sir27-Hd1e245">Versus 24</head>
+          <p xml:id="gom-sir27-d1e247">
+            <quote xml:id="gom-sir27-Qd1e249" type="lemma" source="http://scta.info/resource/sir27_24@1-2">Denudare autem,</quote>
+            etc.
+            <ref xml:id="gom-sir27-Rd1e252"><name xml:id="gom-sir27-Nd1e253" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir27-Qd1e256"><seg type="qs">Proditoris inconstantiam morum ostendit</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-sir27-Qd1e261" source="http://scta.info/resource/prov6_12@1-7">Homo apostata, vir inutilis graditur ore perverso, annuit oculis, terit pede,</quote> etc. <!--<note>(Prov. VI)</note>-->.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir27-Dd1e269">
+          <head xml:id="gom-sir27-Hd1e271">Versus 30</head>
+          <p xml:id="gom-sir27-d1e273">
+            <quote xml:id="gom-sir27-Qd1e275" type="lemma" source="http://scta.info/resource/sir27_30@1-2">Facienti nequissimum consilium.</quote>
+            Quia non prospicit quod veniat dies ejus. Aestimat enim <pb ed="#P" n="1213C"/> haereticus vel schismaticus, quod melior sit ejus secta quam veritas catholica: unde illudit seipsum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

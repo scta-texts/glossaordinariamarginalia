@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tobiae, Caput 14</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Tobiae, Caput 14</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0732A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-tob14">
+        <head xml:id="gom-tob14-Hd1e98">Caput 14</head>
+        <div xml:id="gom-tob14-Dd1e100">
+          <head xml:id="gom-tob14-Hd1e102">Versus 1</head>
+          <p xml:id="gom-tob14-d1e104">
+            <quote xml:id="gom-tob14-Qd1e106" type="lemma" source="http://scta.info/resource/tob14_1@6-9">Et postquam illuminatus est Tobias,</quote>
+            etc., quadragenarius numerus laboriosus est, jejunii et abstinentiae. Nos autem omnes hujus vitae labores debemus sustinere, cum Dei et proximi <pb ed="#P" n="0732B"/> dilectione, et sic fructificabimus.
+          </p>
+        </div>
+        <div xml:id="gom-tob14-Dd1e113">
+          <head xml:id="gom-tob14-Hd1e115">Versus 3</head>
+          <p xml:id="gom-tob14-d1e117">
+            <quote xml:id="gom-tob14-Qd1e119" type="lemma" source="http://scta.info/resource/tob14_3@1-8">Quinquaginta namque et sex annorum lumen oculorum amisit,</quote>
+            etc. Sacratum numerum quinquagenarium transierat, nec ad sexagenarium, qui perfectionem, propter senarium, in quo omnia facta sunt, significat, pervenerat.
+          </p>
+        </div>
+        <div xml:id="gom-tob14-Dd1e124">
+          <head xml:id="gom-tob14-Hd1e126">Versus 5</head>
+          <p xml:id="gom-tob14-d1e128">
+            <quote xml:id="gom-tob14-Qd1e130" type="lemma" source="http://scta.info/resource/tob14_5@1-9">In hora autem mortis suae vocavit ad se Tobiam.</quote>
+            <ref xml:id="gom-tob14-Rd1e133"><name xml:id="gom-tob14-Nd1e134" ref="#Bede">BEDA</name>, in Esdram.</ref>
+            <quote xml:id="gom-tob14-Qd1e138">Tobias, id est, doctores Judaeorum, qui de hoc mundo exituri propinquis suis annuntiant: quia mundus ad finem appropinquat, et futurae vitae bona in proximo futura.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob14-Dd1e142">
+          <head xml:id="gom-tob14-Hd1e144">Versus 14</head>
+          <p xml:id="gom-tob14-d1e146">
+            <quote xml:id="gom-tob14-Qd1e148" type="lemma" source="http://scta.info/resource/tob14_14@8-17">Tobias abscessit ex Ninive cum uxore sua, et filiis et filiorum filiis,</quote>
+            etc.
+            <ref xml:id="gom-tob14-Rd1e151"><name xml:id="gom-tob14-Nd1e152" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob14-Qd1e156"><seg type="qs">Hoc quotidie facit Christus</seg>, etc., usque ad <seg type="qs">diu vivens animi levitatem non deserit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob14-Dd1e166">
+          <head xml:id="gom-tob14-Hd1e168">Versus 16</head>
+          <p xml:id="gom-tob14-d1e170">
+            <pb ed="#P" n="0732C"/>
+            <quote xml:id="gom-tob14-Qd1e174" type="lemma" source="http://scta.info/resource/tob14_16@12-12">Sepelierunt.</quote>
+            Sepultura Tobiae finem mundi designat, quo Dominus noster cum corpore suo, quod est Ecclesia, in requiem intrat angelis de societate hominum congratulantibus, et singulos per diversas mansiones pro meritorum qualitate collocantibus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1196C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir12">
+        <head xml:id="gom-sir12-Hd1e98">Caput 12</head>
+        <div xml:id="gom-sir12-Dd1e100">
+          <head xml:id="gom-sir12-Hd1e102">Versus 3</head>
+          <p xml:id="gom-sir12-d1e104">
+            <quote xml:id="gom-sir12-Qd1e106" type="lemma" source="http://scta.info/resource/sir12_3@1-2">Non est enim,</quote>
+            etc. Gravissimum peccatum est nolle poenitere, nec peccata eleemosynis <pb ed="#P" n="1196D"/> redimere, sed peccata peccatis addere: unde, <quote xml:id="gom-sir12-Qd1e111" source="http://scta.info/resource/am1_3@4-12">Super tribus sceleribus Damasci, et super quatuor non convertam eam (Amos, I)</quote>. Dubiam et dolosam doctrinam, quam in expositione divinae Scripturae expendunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir12-Dd1e116">
+          <head xml:id="gom-sir12-Hd1e118">Versus 5</head>
+          <p xml:id="gom-sir12-d1e120">
+            <quote xml:id="gom-sir12-Qd1e122" type="lemma" source="http://scta.info/resource/sir12_5@1-2">Da bono,</quote>
+            etc. Simile in Tobia legitur: <quote xml:id="gom-sir12-Qd1e125" source="http://scta.info/resource/tob4_18@1-17">Panem tuum et vinum super sepulturam justi constitue, et noli ex eo manducare et bibere cum peccatoribus</quote>. Id est pro eo quod peccatores sunt, noli communicare; sicut qui nutriunt histriones, cum esuriant Christi pauperes. Qui autem dat indigenti peccatori, non quia peccator est sed quia homo est, non peccatorem sed justum nutrit: quia culpam non diligit, sed naturam. Si peccatorem et impium haereticum <pb ed="#P" n="1197A"/> intelligit dum in errore sunt, non est communicandum cum illis: unde, <quote xml:id="gom-sir12-Qd1e130" source="http://scta.info/resource/mt7_6@1-4">Nolite sanctum dare canibus</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir12-Dd1e135">
+          <head xml:id="gom-sir12-Hd1e137">Versus 8</head>
+          <p xml:id="gom-sir12-d1e139">
+            <quote xml:id="gom-sir12-Qd1e141" type="lemma" source="http://scta.info/resource/sir12_8@1-5">Non agnoscetur in bonis amicus.</quote>
+            Facilius amicus et inimicus in adversitate probantur, quia multi amici mensae, qui non permanent in die necessitatis. Verus igitur erat amicus qui dicebat: <quote xml:id="gom-sir12-Qd1e144" source="http://scta.info/resource/IIcor11_29@1-5">Quis infirmatur, et ego non infirmor?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir12-Dd1e149">
+          <head xml:id="gom-sir12-Hd1e151">Versus 10</head>
+          <p xml:id="gom-sir12-d1e153">
+            <quote xml:id="gom-sir12-Qd1e155" type="lemma" source="http://scta.info/resource/sir12_10@1-3">Non credas inimico.</quote>
+            Historice de falsis amicis agit, a quibus cavere debemus. Mystice vero haereticos notat, qui non vere sunt amici, quorum doctrina plena est rubigine erroris, et nequitiae: quorum sermo serpit ut cancer, quamvis fideles et catholicos se fingunt. Non ergo eis obsentiamus, nec potestatem tribuamus, quam significat <pb ed="#P" n="1197B"/> <quote xml:id="gom-sir12-Qd1e160" source="http://scta.info/resource/sir12_12@9-9">dextera:</quote> ne a loco nostro, id est, statu rectae fidei nos dejiciant. Nituntur enim cathedram nostram, id est doctrinam, malitiose subvertere.
+          </p>
+        </div>
+        <div xml:id="gom-sir12-Dd1e166">
+          <head xml:id="gom-sir12-Hd1e168">Versus 13</head>
+          <p xml:id="gom-sir12-d1e170">
+            <quote xml:id="gom-sir12-Qd1e172" type="lemma" source="http://scta.info/resource/sir12_13@1-2">Quis medebitur.</quote>
+            Haeretico qui officium doctoris gerit, et dicit se medicum animarum: <quote xml:id="gom-sir12-Qd1e175" source="http://scta.info/resource/mt5_13@6-19">Si enim sal infatuatum fuerit, ad nihilum valet ultra, nisi ut mittatur foras</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir12-Dd1e180">
+          <head xml:id="gom-sir12-Hd1e182">Versus 15</head>
+          <p xml:id="gom-sir12-d1e184">
+            <quote xml:id="gom-sir12-Qd1e186" type="lemma" source="http://scta.info/resource/sir12_15@1-3">In labiis suis.</quote>
+            His sententiis notat eos, qui in corde loquuntur et insidiantur ut interficiant innocentem: qui cum aliquem deceperint, movent caput, plaudunt manu, et laetantur cum male fecerint.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

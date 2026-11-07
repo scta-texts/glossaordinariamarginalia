@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 44</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 44</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0173B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen44">
+        <head xml:id="gom-gen44-Hd1e98">Caput 44</head>
+        <div xml:id="gom-gen44-Dd1e100">
+          <head xml:id="gom-gen44-Hd1e102">Versus 5</head>
+          <p xml:id="gom-gen44-d1e104">
+            <quote xml:id="gom-gen44-Qd1e106" type="lemma" source="http://scta.info/resource/gen44_5@1-4">Scyphus quem furati estis,</quote>
+            etc.
+            <ref xml:id="gom-gen44-Rd1e109"><name xml:id="gom-gen44-Nd1e110" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen44-Qd1e113">Quid sibi vult quod inventus est scyphus Joseph in sacculo Benjamin, nisi quia in corde Pauli coelestis doctrinae jam praefulgebat eloquium, dum esset eruditus in lege? Sed quia subjectus non erat Deo, intra saccum erat scyphus, doctrina intra legem, lucerna intra modium. Missus tamen Ananias manum imposuit, marsupium solvit, et argentum <pb ed="#P" n="0173C"/> resplenduit, et decidentibus squamis, quasi vinculis, soluto sacco, id est deposito legis velamine, adeptus est gratiae libertatem, et revelata facie sermonis Evangelium praedicat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen44-Dd1e120">
+          <head xml:id="gom-gen44-Hd1e122">Versus 15</head>
+          <p xml:id="gom-gen44-d1e124">
+            <quote xml:id="gom-gen44-Qd1e126" type="lemma" source="http://scta.info/resource/gen44_15@8-17">An ignoratis quod non sit similis mei in augurandi scientia?</quote>
+            <ref xml:id="gom-gen44-Rd1e129"><name xml:id="gom-gen44-Nd1e130" ref="#Augustine">AUG.</name> Quaest. in Gen., tom. III.</ref>
+            <quote xml:id="gom-gen44-Qd1e134"><seg type="qs">Quid hoc sibi velit quaeri solet. An quia non serio sedjoco dictum est</seg>, etc., usque ad <seg type="qs">cognito fratre, quem a se perditum existimabant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen44-Dd1e143">
+          <head xml:id="gom-gen44-Hd1e145">Versus 16</head>
+          <p xml:id="gom-gen44-d1e147">
+            <quote xml:id="gom-gen44-Qd1e149" type="lemma" source="http://scta.info/resource/gen44_16@1-2">Cui Judas,</quote>
+            etc.
+            <ref xml:id="gom-gen44-Rd1e152"><name xml:id="gom-gen44-Nd1e153" ref="#Augustine">AUG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-gen44-Qd1e157"><seg type="qs">Multa in narratione Judae aliter dicta sunt quam cum illis egerat Joseph</seg>, etc., usque ad <seg type="qs">sed qui noverat eum scire, ut eum flecteret ad misericordiam narrationi inserebat.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

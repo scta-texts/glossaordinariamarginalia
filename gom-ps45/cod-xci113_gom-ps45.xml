@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 45</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 45</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0911C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps45">
+        <head xml:id="gom-ps45-Hd1e98">Psalmus 45</head>
+        <div xml:id="gom-ps45-Dd1e100">
+          <head xml:id="gom-ps45-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps45-d1e104">
+            <quote xml:id="gom-ps45-Qd1e106" type="lemma" source="http://scta.info/resource/ps45_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps45-Rd1e109"><name xml:id="gom-ps45-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e113">Psalmus David, alicujus fidelis de Judaea, ut sit certius testimonium.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e116">
+            <quote xml:id="gom-ps45-Qd1e118" type="lemma" source="http://scta.info/resource/ps45_1@5-6">Pro arcanis.</quote>
+            Pro manifestatione arcanorum, quod Deus sit homo, quod salus promissa utrique populo, quod caecitas contigit in Israel, quod Apostoli transierunt ad gentes, quod pax in terra; unde: <quote xml:id="gom-ps45-Qd1e121" source="http://scta.info/resource/is2_4@9-18">Conflabunt gladios suos in vomeres et lanceas suas in falces</quote> <pb ed="#P" n="0911D"/> .
+          </p>
+          <p xml:id="gom-ps45-d1e127">
+            <quote xml:id="gom-ps45-Qd1e129" type="lemma" source="http://scta.info/resource/ps45_1@3-4">Filiis Core.</quote>
+            <ref xml:id="gom-ps45-Rd1e132"><name xml:id="gom-ps45-Nd1e133" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e136">Filii crucis.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e139">
+            <quote xml:id="gom-ps45-Qd1e141" type="lemma" source="http://scta.info/resource/ps45_1">De arcanis,</quote>
+            <!-- check: lemma not matched to verse text -->
+            id est, de adventu Christi loquitur.
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e148">
+          <head xml:id="gom-ps45-Hd1e150">Versus 2</head>
+          <p xml:id="gom-ps45-d1e152">
+            <quote xml:id="gom-ps45-Qd1e154" type="lemma" source="http://scta.info/resource/ps45_2@1-2">Deus noster.</quote>
+            <ref xml:id="gom-ps45-Rd1e157"><name xml:id="gom-ps45-Nd1e158" ref="#Cassiodorus">CASS.</name>, AUG.</ref>
+            <quote xml:id="gom-ps45-Qd1e162">In adventu Domini omnis spes habenda ostenditur, etiam in transitu Apostolorum ad gentes.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e165">
+            <quote xml:id="gom-ps45-Qd1e167" type="lemma" source="http://scta.info/resource/ps45_2@11-13">Invenerunt nos nimis.</quote>
+            <ref xml:id="gom-ps45-Rd1e170"><name xml:id="gom-ps45-Nd1e171" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e174">Nos enim fugiebamus eas. Vel, <quote xml:id="gom-ps45-Qd1e176" source="http://scta.info/resource/ps45_2@11-12">invenerunt nos</quote> expositos per Adam.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e181">
+            <quote xml:id="gom-ps45-Qd1e183" type="lemma" source="http://scta.info/resource/ps45_2@13-13">Nimis,</quote>
+            tanto potentior qui liberat.
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e188">
+          <head xml:id="gom-ps45-Hd1e190">Versus 3</head>
+          <p xml:id="gom-ps45-d1e192">
+            <quote xml:id="gom-ps45-Qd1e194" type="lemma" source="http://scta.info/resource/ps45_3@5-9">Turbabitur terra, et transferentur montes,</quote>
+            etc.
+            <ref xml:id="gom-ps45-Rd1e197"><name xml:id="gom-ps45-Nd1e198" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e201">Judaea, quasi arida: sine idololatria, amaritudine gentium circumdata. Vel, <quote xml:id="gom-ps45-Qd1e203">mare.</quote></quote>
+          </p>
+          <p xml:id="gom-ps45-d1e206">
+            <ref xml:id="gom-ps45-Rd1e208" type="lemma" subtype="implied" target="http://scta.info/resource/ps45_3@5-9"/>
+            <ref xml:id="gom-ps45-Rd1e210"><name xml:id="gom-ps45-Nd1e211" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e214">saeculum.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e217">
+            <quote xml:id="gom-ps45-Qd1e219" type="lemma" source="http://scta.info/resource/ps45_3@11-12">Cor maris.</quote>
+            Immanitas gentium
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e224">
+          <head xml:id="gom-ps45-Hd1e226">Versus 4</head>
+          <p xml:id="gom-ps45-d1e228">
+            <pb ed="#P" n="0912A"/>
+            <quote xml:id="gom-ps45-Qd1e232" type="lemma" source="http://scta.info/resource/ps45_4@1-3">Sonuerunt et turbatae,</quote>
+            etc. Contradicentes, gentes: vel Apostoli praedicando.
+          </p>
+          <p xml:id="gom-ps45-d1e236">
+            <quote xml:id="gom-ps45-Qd1e238" type="lemma" source="http://scta.info/resource/ps45_4@2-6">Et turbatae sunt aquae eorum.</quote>
+            Ad sensum fit relatio, non ad vocem: id est, aquae maris, scilicet populi, vel doctrinae eorum, quae infatuatae sunt, coruscante doctrina Salvatoris; unde: <quote xml:id="gom-ps45-Qd1e241">Absorpti sunt,</quote> etc. Et haec est virga Moysi, quae devoravit virgas Magorum.
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e246">
+          <head xml:id="gom-ps45-Hd1e248">Versus 5</head>
+          <p xml:id="gom-ps45-d1e250">
+            <quote xml:id="gom-ps45-Qd1e252" type="lemma" source="http://scta.info/resource/ps45_5@1-2">Fluminis impetus.</quote>
+            <ref xml:id="gom-ps45-Rd1e255"><name xml:id="gom-ps45-Nd1e256" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e259">Diapsalmus. Quia Ecclesia in Christo fundatur, cui gentes et regna subjiciuntur.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e262">
+            <ref xml:id="gom-ps45-Rd1e264" type="lemma" subtype="implied" target="http://scta.info/resource/ps45_5@1-2"/>
+            <ref xml:id="gom-ps45-Rd1e266"><name xml:id="gom-ps45-Nd1e267" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e270">Quasi dicat: Ita saevit mare; sed inter hos fluctus et sonitus non timent, qui ad illud refugium confugerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e274">
+          <head xml:id="gom-ps45-Hd1e276">Versus 6</head>
+          <p xml:id="gom-ps45-d1e278">
+            <quote xml:id="gom-ps45-Qd1e280" type="lemma" source="http://scta.info/resource/ps45_6@8-9">Adjuvabit eam.</quote>
+            <ref xml:id="gom-ps45-Rd1e283"><name xml:id="gom-ps45-Nd1e284" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e287">Vel, <quote xml:id="gom-ps45-Qd1e289">vultu,</quote> id est, demonstratione auxilii sui, cum adjuvando se <pb ed="#P" n="0912B"/> indicat.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e295">
+            <quote xml:id="gom-ps45-Qd1e297" type="lemma" source="http://scta.info/resource/ps45_6@11-11">Mane.</quote>
+            In ipso boni operis principio; et hoc, <quote xml:id="gom-ps45-Qd1e300" source="http://scta.info/resource/ps45_6@12-12">diliculo,</quote> id est, per illuminationem sancti Spiritus, qui est lux quasi diei.
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e305">
+          <head xml:id="gom-ps45-Hd1e307">Versus 7</head>
+          <p xml:id="gom-ps45-d1e309">
+            <quote xml:id="gom-ps45-Qd1e311" type="lemma" source="http://scta.info/resource/ps45_7@9-9">Dedit.</quote>
+            Quasi magnum praemium.
+          </p>
+          <p xml:id="gom-ps45-d1e315">
+            <quote xml:id="gom-ps45-Qd1e317" type="lemma" source="http://scta.info/resource/ps45_7@10-10">Vocem.</quote>
+            Praedicationem, ad quam tremuit terrenus. Tremet metu judicis.
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e322">
+          <head xml:id="gom-ps45-Hd1e324">Versus 8</head>
+          <p xml:id="gom-ps45-d1e326">
+            <quote xml:id="gom-ps45-Qd1e328" type="lemma" source="http://scta.info/resource/ps45_8@1-2">Dominus virtutum.</quote>
+            <ref xml:id="gom-ps45-Rd1e331"><name xml:id="gom-ps45-Nd1e332" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e335">Breviter definit quid sit Christus.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e338">
+            <quote xml:id="gom-ps45-Qd1e340" type="lemma" source="http://scta.info/resource/ps45_8@3-3">Nobiscum.</quote>
+            Quasi: Qui misit angelos, jam ipse venit, et est nobiscum, quia nobiscum susceptor; ergo: <quote xml:id="gom-ps45-Qd1e343" source="http://scta.info/resource/ps45_9@1-1">Venite,</quote> quasi jam securos vos invito.
+          </p>
+          <p xml:id="gom-ps45-d1e347">
+            <quote xml:id="gom-ps45-Qd1e349" type="lemma" source="http://scta.info/resource/ps45_8@6-6">Noster.</quote>
+            Non nisi filiorum crucis.
+          </p>
+          <p xml:id="gom-ps45-d1e353">
+            <quote xml:id="gom-ps45-Qd1e355" type="lemma" source="http://scta.info/resource/ps45_8@7-8">Deus Jacob.</quote>
+            Qui tanta nobis dedit quanta dedit Jacob: non enim illius tantum est Deus.
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e360">
+          <head xml:id="gom-ps45-Hd1e362">Versus 9</head>
+          <p xml:id="gom-ps45-d1e364">
+            <quote xml:id="gom-ps45-Qd1e366" type="lemma" source="http://scta.info/resource/ps45_9@1-3">Venite et videte.</quote>
+            <ref xml:id="gom-ps45-Rd1e369"><name xml:id="gom-ps45-Nd1e370" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e373">Diapsalmus. Magnalia incarnationis.</quote>
+          </p>
+          <p xml:id="gom-ps45-d1e376">
+            <quote xml:id="gom-ps45-Qd1e378" type="lemma" source="http://scta.info/resource/ps45_9@7-7">Posuit.</quote>
+            Quasi signa, ad vocandum <pb ed="#P" n="0912C"/> populum.
+          </p>
+          <p xml:id="gom-ps45-d1e384">
+            <quote xml:id="gom-ps45-Qd1e386" type="lemma" source="http://scta.info/resource/ps45_9@8-8">Prodigia.</quote>
+            Ut de partu Virginis, et stella, et caeteris.
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e391">
+          <head xml:id="gom-ps45-Hd1e393">Versus 10</head>
+          <p xml:id="gom-ps45-d1e395">
+            <quote xml:id="gom-ps45-Qd1e397" type="lemma" source="http://scta.info/resource/ps45_10@1-2">Auferens bella.</quote>
+            <ref xml:id="gom-ps45-Rd1e400"><name xml:id="gom-ps45-Nd1e401" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e404">Quia per ejus adventum idololatria et superstitio totius orbis perit, vel, tunc temporis pro ejus praesentia orbis pacatus fuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps45-Dd1e409">
+          <head xml:id="gom-ps45-Hd1e411">Versus 11</head>
+          <p xml:id="gom-ps45-d1e413">
+            <quote xml:id="gom-ps45-Qd1e415" type="lemma" source="http://scta.info/resource/ps45_11@1-1">Vacate.</quote>
+            <ref xml:id="gom-ps45-Rd1e418"><name xml:id="gom-ps45-Nd1e419" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps45-Qd1e422">Si combusta sunt arma, <quote xml:id="gom-ps45-Qd1e424" source="http://scta.info/resource/ps45_11@1-1">vacate,</quote> non habentes unde pugnetis.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0456D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act15">
+        <head xml:id="gom-act15-Hd1e98">Caput 15</head>
+        <div xml:id="gom-act15-Dd1e100">
+          <head xml:id="gom-act15-Hd1e102">Versus 2</head>
+          <p xml:id="gom-act15-d1e104">
+            <quote xml:id="gom-act15-Qd1e106" type="lemma" source="http://scta.info/resource/act15_2@3-3">Seditione.</quote>
+            A Paulo et Barnaba, contra illos, qui haec dicebant.
+          </p>
+          <p xml:id="gom-act15-d1e110">
+            <quote xml:id="gom-act15-Qd1e112" type="lemma" source="http://scta.info/resource/act15_2@11-11">Statuerunt.</quote>
+            <ref xml:id="gom-act15-Rd1e115"><name xml:id="gom-act15-Nd1e116" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e119"><seg type="qs">Scilicet hi qui descenderant de Judaea</seg>, etc., usque ad <seg type="qs">ad fidem venisse probatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e128">
+          <head xml:id="gom-act15-Hd1e130">Versus 6</head>
+          <p xml:id="gom-act15-d1e132">
+            <quote xml:id="gom-act15-Qd1e134" type="lemma" source="http://scta.info/resource/act15_6@1-2">Conveneruntque apostoli.</quote>
+            <ref xml:id="gom-act15-Rd1e137"><name xml:id="gom-act15-Nd1e138" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act15-Qd1e141">Hic datur exemplum faciendi conventus, ad discernenda ea quae fidei sunt necessaria.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e145">
+          <head xml:id="gom-act15-Hd1e147">Versus 7</head>
+          <p xml:id="gom-act15-d1e149">
+            <quote xml:id="gom-act15-Qd1e151" type="lemma" source="http://scta.info/resource/act15_7@23-25">Per os meum.</quote>
+            <ref xml:id="gom-act15-Rd1e154"><name xml:id="gom-act15-Nd1e155" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act15-Qd1e158">Non alterius ex apostolis, quasi dicat: Qui primus praedicavi gentibus, primus ab eis jugum legis excutiam. Nam eunucho nullus apostolorum praedicavit: sed Philippus diaconus, et gratuito impletus est dono.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e162">
+          <head xml:id="gom-act15-Hd1e164">Versus 9</head>
+          <p xml:id="gom-act15-d1e166">
+            <pb ed="#P" n="0457A"/>
+            <quote xml:id="gom-act15-Qd1e170" type="lemma" source="http://scta.info/resource/act15_9@8-9">Fide purificans.</quote>
+            <ref xml:id="gom-act15-Rd1e173"><name xml:id="gom-act15-Nd1e174" ref="#JohnChrysostom">CHRYS.</name></ref>
+            <quote xml:id="gom-act15-Qd1e177">A sola fide, inquit, illa assecuti sunt, et non operibus vel circumcisione. Etenim haec non dicunt solum pro gentibus rationem reddentes, sed etiam illos a lege abducere cupientes: verum jam hoc nondum dicunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e182">
+          <head xml:id="gom-act15-Hd1e184">Versus 12</head>
+          <p xml:id="gom-act15-d1e186">
+            <quote xml:id="gom-act15-Qd1e188" type="lemma" source="http://scta.info/resource/act15_12@1-4">Tacuit autem omnis multitudo.</quote>
+            Notandus ordo loquendi vel loquentium, quia singulis loquentibus tacent, primum Petro.
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e193">
+          <head xml:id="gom-act15-Hd1e195">Versus 13</head>
+          <p xml:id="gom-act15-d1e197">
+            <quote xml:id="gom-act15-Qd1e199" type="lemma" source="http://scta.info/resource/act15_13@1-2">Et postquam,</quote>
+            etc.
+            <ref xml:id="gom-act15-Rd1e202"><name xml:id="gom-act15-Nd1e203" ref="#JohnChrysostom">CHRYS.</name></ref>
+            <quote xml:id="gom-act15-Qd1e206"><seg type="qs">Hic erat episcopus Ecclesiae Hierosolymitanae</seg>, etc., usque ad <seg type="qs">ubi scilicet et finem imponit operibus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e215">
+          <head xml:id="gom-act15-Hd1e217">Versus 16</head>
+          <p xml:id="gom-act15-d1e219">
+            <quote xml:id="gom-act15-Qd1e221" type="lemma" source="http://scta.info/resource/act15_16@3-5">Revertar et reaedificabo,</quote>
+            etc. Revertar ad gentes, quas prius dixerat ingredi vias suas, cui sensui firmando Jacobus testimonium intulit. <pb ed="#P" n="0457B"/> Hoc aperte testimonium concordat verbis Simonis.
+          </p>
+          <p xml:id="gom-act15-d1e227">
+            <ref xml:id="gom-act15-Rd1e229" type="lemma" subtype="implied" target="http://scta.info/resource/act15_16@3-5"/>
+            <ref xml:id="gom-act15-Rd1e231"><name xml:id="gom-act15-Nd1e232" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e235">Umbra legis, quae traditionibus Pharisaeorum corrupta, Domino revelante, id est Domino in carne apparente, per gratiam est erecta, ut non tantum Judaei, sed etiam gentes nomen ejus requirant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e239">
+          <head xml:id="gom-act15-Hd1e241">Versus 17</head>
+          <p xml:id="gom-act15-d1e243">
+            <quote xml:id="gom-act15-Qd1e245" type="lemma" source="http://scta.info/resource/act15_17@9-11">Super quas invocatum.</quote>
+            <ref xml:id="gom-act15-Rd1e248"><name xml:id="gom-act15-Nd1e249" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act15-Qd1e252">Secundum illud: <quote xml:id="gom-act15-Qd1e254" source="http://scta.info/resource/num6_27@1-6">Invocabunt sacerdotes nomen meum super filios Israel</quote>; et alibi: <quote xml:id="gom-act15-Qd1e257" source="http://scta.info/resource/ps98_6@1-6">Moyses et Aaron sacerdotibus ejus</quote>, etc.</quote>
+          </p>
+          <p xml:id="gom-act15-d1e262">
+            <quote xml:id="gom-act15-Qd1e264" type="lemma" source="http://scta.info/resource/act15_17@11-12">Invocatum est.</quote>
+            Pro futuro, more prophetico.
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e269">
+          <head xml:id="gom-act15-Hd1e271">Versus 19</head>
+          <p xml:id="gom-act15-d1e273">
+            <quote xml:id="gom-act15-Qd1e275" type="lemma" source="http://scta.info/resource/act15_19@3-4">Ego judico.</quote>
+            <ref xml:id="gom-act15-Rd1e278"><name xml:id="gom-act15-Nd1e279" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e282">Recte judicandum erat, quod trium testimonio firmatur, duorum apostolorum et prophetarum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e286">
+          <head xml:id="gom-act15-Hd1e288">Versus 20</head>
+          <p xml:id="gom-act15-d1e290">
+            <quote xml:id="gom-act15-Qd1e292" type="lemma" source="http://scta.info/resource/act15_20@13-14">Et suffocatis.</quote>
+            Suffocatum est morticinum, <pb ed="#P" n="0457C"/> de quo Ezechiel dicit: <quote xml:id="gom-act15-Qd1e297" source="http://scta.info/resource/ez4_14@15-21">Omne morticinum et captum a bestia de avibus et pecoribus, sacerdotes non comedant</quote>. Hoc praeceptum convenit servare illis, qui uncti sunt oleo spirituali, ne comedant illud, cujus sanguis non est effusus, quod epistola apostolorum servandum decrevit.
+          </p>
+          <p xml:id="gom-act15-d1e301">
+            <quote xml:id="gom-act15-Qd1e303" type="lemma" source="http://scta.info/resource/act15_20@15-16">Et sanguine.</quote>
+            <ref xml:id="gom-act15-Rd1e306"><name xml:id="gom-act15-Nd1e307" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e310"><seg type="qs">Effusione humani sanguinis</seg>, etc., usque ad <seg type="qs">sed ut casti sint et abstineant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e320">
+          <head xml:id="gom-act15-Hd1e322">Versus 22</head>
+          <p xml:id="gom-act15-d1e324">
+            <quote xml:id="gom-act15-Qd1e326" type="lemma" source="http://scta.info/resource/act15_22@1-2">Tunc placuit.</quote>
+            <ref xml:id="gom-act15-Rd1e329"><name xml:id="gom-act15-Nd1e330" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act15-Qd1e333">Dicente Petro narrantibus Barnaba et Paulo, judicante Jacobo Jerosolymorum episcopo, merito placuit sententia.</quote>
+          </p>
+          <p xml:id="gom-act15-d1e336">
+            <quote xml:id="gom-act15-Qd1e338" type="lemma" source="http://scta.info/resource/act15_22@14-15">Placuit mittere Antiochiam.</quote>
+            Missi a Christo legati suos possunt mittere legatos.
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e343">
+          <head xml:id="gom-act15-Hd1e345">Versus 23</head>
+          <p xml:id="gom-act15-d1e347">
+            <quote xml:id="gom-act15-Qd1e349" type="lemma" source="http://scta.info/resource/act15_23@5-7">Apostoli et seniores.</quote>
+            Apostolorum <pb ed="#P" n="0457D"/> communis titulus praeponitur, ne aliqua dissensionis relinquatur occasio.
+          </p>
+          <p xml:id="gom-act15-d1e355">
+            <quote xml:id="gom-act15-Qd1e357" type="lemma" source="http://scta.info/resource/act15_23@17-19">Fratribus ex gentibus.</quote>
+            <ref xml:id="gom-act15-Rd1e360"><name xml:id="gom-act15-Nd1e361" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e364">Primum styli beneficium est, quod apostoli gentiles vocant fratres, id est unius Dei filios.</quote>
+          </p>
+          <p xml:id="gom-act15-d1e367">
+            <quote xml:id="gom-act15-Qd1e369" type="lemma" source="http://scta.info/resource/act15_23@20-20">Salutem.</quote>
+            Eclipsis, quia latitudine charitatis omne verbum angustius est, et ideo nullum verbum ponitur, ut omnia simul bona eis velle intelligantur.
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e374">
+          <head xml:id="gom-act15-Hd1e376">Versus 24</head>
+          <p xml:id="gom-act15-d1e378">
+            <quote xml:id="gom-act15-Qd1e380" type="lemma" source="http://scta.info/resource/act15_24@11-12">Evertentes animas.</quote>
+            In Graeco: <quote xml:id="gom-act15-Qd1e383">Evertentes animas vestras, dicentes: Circumcidi oportet, et observare legem quibus non mandavimus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e387">
+          <head xml:id="gom-act15-Hd1e389">Versus 28</head>
+          <p xml:id="gom-act15-d1e391">
+            <quote xml:id="gom-act15-Qd1e393" type="lemma" source="http://scta.info/resource/act15_28@1-2">Visum est.</quote>
+            Id est placuit.
+          </p>
+          <p xml:id="gom-act15-d1e397">
+            <quote xml:id="gom-act15-Qd1e399" type="lemma" source="http://scta.info/resource/act15_28@4-5">Spiritui sancto.</quote>
+            Qui arbiter suae potestatis, ubi vult spirat, et quae vult loquitur.
+          </p>
+          <p xml:id="gom-act15-d1e403">
+            <pb ed="#P" n="0458A"/>
+            <quote xml:id="gom-act15-Qd1e407" type="lemma" source="http://scta.info/resource/act15_28@4-5">Spiritui sancto.</quote>
+            <ref xml:id="gom-act15-Rd1e410"><name xml:id="gom-act15-Nd1e411" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e414">Et nobis humano quidem sensu, sed sano.</quote>
+          </p>
+          <p xml:id="gom-act15-d1e417">
+            <quote xml:id="gom-act15-Qd1e419" type="lemma" source="http://scta.info/resource/act15_28@6-7">Et nobis.</quote>
+            Non tamen solum voluntate nostra, sed instinctu ejusdem Spiritus.
+          </p>
+          <p xml:id="gom-act15-d1e424">
+            <quote xml:id="gom-act15-Qd1e426" type="lemma" source="http://scta.info/resource/act15_28@13-15">Quam haec necessaria.</quote>
+            <ref xml:id="gom-act15-Rd1e429"><name xml:id="gom-act15-Nd1e430" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e433">Haec necessaria sunt sine quibus non est salus, sed circumcisio necessaria non est: verum ea quae vobis fieri non vultis, alii ne faciatis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e437">
+          <head xml:id="gom-act15-Hd1e439">Versus 29</head>
+          <p xml:id="gom-act15-d1e441">
+            <quote xml:id="gom-act15-Qd1e443" type="lemma" source="http://scta.info/resource/act15_29@1-3">Ut abstineatis vos,</quote>
+            etc.
+            <ref xml:id="gom-act15-Rd1e446"><name xml:id="gom-act15-Nd1e447">TERT.</name></ref>
+            <quote xml:id="gom-act15-Qd1e449"><seg type="qs">Propterea igitur quoniam utraque species</seg>, etc., usque ad <seg type="qs">quorum munditia magis ad Deum pertinet, quam intestinorum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e458">
+          <head xml:id="gom-act15-Hd1e460">Versus 34</head>
+          <p xml:id="gom-act15-d1e462">
+            <quote xml:id="gom-act15-Qd1e464" type="lemma" source="http://scta.info/resource/act15_34">Visum est autem</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-act15-Rd1e469"><name xml:id="gom-act15-Nd1e470" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e473">Materia est futuri sermonis: <quote xml:id="gom-act15-Qd1e475">Solus autem Judas abiit Jerusalem.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e480">
+          <head xml:id="gom-act15-Hd1e482">Versus 39</head>
+          <p xml:id="gom-act15-d1e484">
+            <quote xml:id="gom-act15-Qd1e486" type="lemma" source="http://scta.info/resource/act15_39@4-4">Dissensio.</quote>
+            Non in hoc delinquebant, <pb ed="#P" n="0458B"/> quia non omnis commotio est peccatum, sed irrationabilis, et quae juste non fit.
+          </p>
+          <p xml:id="gom-act15-d1e492">
+            <quote xml:id="gom-act15-Qd1e494" type="lemma" source="http://scta.info/resource/act15_39@12-13">Assumpto Marco.</quote>
+            Hic erat affinitatis vinculo conjunctus Barnabae, unde et leguntur fuisse consobrini. Barnabas a Paulo dimissus, patriam insulam repetiit, et nihilominus opus Evangelii sibi injunctum exercuit.
+          </p>
+        </div>
+        <div xml:id="gom-act15-Dd1e499">
+          <head xml:id="gom-act15-Hd1e501">Versus 40</head>
+          <p xml:id="gom-act15-d1e503">
+            <quote xml:id="gom-act15-Qd1e505" type="lemma" source="http://scta.info/resource/act15_40@3-4">Electo Sila.</quote>
+            <ref xml:id="gom-act15-Rd1e508"><name xml:id="gom-act15-Nd1e509" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act15-Qd1e512">Ad hoc remanere eum fecit Dominus, juxta illud: <quote xml:id="gom-act15-Qd1e514">Visum est autem Silae ibi remanere,</quote> ut Paulo cooperaretur sicut Marcus Barnabae. Fuit enim in hoc divinum consilium.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

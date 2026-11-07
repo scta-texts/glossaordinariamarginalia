@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 18</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 18</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0406C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num18">
+        <head xml:id="gom-num18-Hd1e98">Caput 18</head>
+        <p xml:id="gom-num18-d1e100">
+          <ref xml:id="gom-num18-Rd1e102"><name xml:id="gom-num18-Nd1e103" ref="#RabanusMaurus">RAB.</name>, in Num., tom. II.</ref>
+        </p>
+        <div xml:id="gom-num18-Dd1e108">
+          <head xml:id="gom-num18-Hd1e110">Versus 1</head>
+          <p xml:id="gom-num18-d1e112">
+            <quote xml:id="gom-num18-Qd1e114" type="lemma" source="http://scta.info/resource/num18_1@5-7">Tu et Filii,</quote>
+            etc. <quote xml:id="gom-num18-Qd1e117"><seg type="qs">Alia littera</seg>, etc., usque ad <seg type="qs">et pertinere dicit ad sacerdotem.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e125">
+            <ref xml:id="gom-num18-Rd1e127" type="lemma" subtype="implied" target="http://scta.info/resource/num18_1@5-7"/>
+            <ref xml:id="gom-num18-Rd1e129"><name xml:id="gom-num18-Nd1e130" ref="#Origen">ORIG.</name> hom. 10 in Num.</ref>
+            <quote xml:id="gom-num18-Qd1e134"><seg type="qs">Alia littera</seg>, etc., usque ad <seg type="qs">remissionem peccatorum significari.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e142">
+            <ref xml:id="gom-num18-Rd1e144" type="lemma" subtype="implied" target="http://scta.info/resource/num18_1@5-7"/>
+            <ref xml:id="gom-num18-Rd1e146"><name xml:id="gom-num18-Nd1e147" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e150"><seg type="qs">Jesus pontifex noster</seg>, etc., usque ad <seg type="qs">scit nos <pb ed="#P" n="0406D"/> Deus idoneos non esse martyrio.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e160">
+            <ref xml:id="gom-num18-Rd1e162" type="lemma" subtype="implied" target="http://scta.info/resource/num18_1@5-7"/>
+            <ref xml:id="gom-num18-Rd1e164"><name xml:id="gom-num18-Nd1e165" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e168"><seg type="qs">Quaerendum est quomodo aliqui sancti dicantur</seg>, etc., usque ad <seg type="qs">sanctus enim est, qui peccatum suum per pontificem curat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num18-Dd1e177">
+          <head xml:id="gom-num18-Hd1e179">Versus 7</head>
+          <p xml:id="gom-num18-d1e181">
+            <quote xml:id="gom-num18-Qd1e183" type="lemma" source="http://scta.info/resource/num18_7@1-4">Tu autem et filii.</quote>
+            <ref xml:id="gom-num18-Rd1e186"><name xml:id="gom-num18-Nd1e187" ref="#Origen">ID.</name>, hom. 16.</ref>
+            <quote xml:id="gom-num18-Qd1e191"><seg type="qs">Alia littera</seg>, etc., usque ad <seg type="qs">quae si bene excolamus fructum vitae afferent nobis.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e199">
+            <quote xml:id="gom-num18-Qd1e201" type="lemma" source="http://scta.info/resource/num18_7@1-5">Tu autem et filii tui.</quote>
+            Allegorice. Perfectiores scilicet in Ecclesia, sancti doctores, quorum officium est sacramenta divina manibus contrectare, vasa sancta, id est Scripturae mystica verba ventilare et ad intellectum perducere <!--<note>(II Par. XXVI)</note>-->. Caetera autem turba meditetur diligenter quae capere potest, et quae magistrorum discretio jubet.
+          </p>
+          <p xml:id="gom-num18-d1e207">
+            <quote xml:id="gom-num18-Qd1e209" type="lemma" source="http://scta.info/resource/num18_7@23-25">Si quis externus,</quote>
+            etc. Non de tribu Levi. Ozias <pb ed="#P" n="0407A"/> enim de tribu Juda, quia usurpavit sacerdotium, lepra percussus est.
+          </p>
+        </div>
+        <div xml:id="gom-num18-Dd1e216">
+          <head xml:id="gom-num18-Hd1e218">Versus 8</head>
+          <p xml:id="gom-num18-d1e220">
+            <quote xml:id="gom-num18-Qd1e222" type="lemma" source="http://scta.info/resource/num18_8@1-3">Locutus est Dominus,</quote>
+            etc.
+            <ref xml:id="gom-num18-Rd1e225"><name xml:id="gom-num18-Nd1e226" ref="#RabanusMaurus">RAB.</name>, in Num., tom. II.</ref>
+            <quote xml:id="gom-num18-Qd1e230"><seg type="qs">Alia littera</seg>, etc., usque ad <seg type="qs">qui cum semper comedatur semper permanet, imo augetur.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e238">
+            <quote xml:id="gom-num18-Qd1e240" type="lemma" source="http://scta.info/resource/num18_8@10-10">Primitiarum.</quote>
+            Primitiae litterales consumuntur, spirituales custodiuntur. Quanto enim verbum Dei amplius sumpseris, tanto abundabit.
+          </p>
+          <p xml:id="gom-num18-d1e244">
+            <quote xml:id="gom-num18-Qd1e246" type="lemma" source="http://scta.info/resource/num18_8@12-17">Omnia quae sanctificatur a filiis Israel.</quote>
+            <ref xml:id="gom-num18-Rd1e249"><name xml:id="gom-num18-Nd1e250" ref="#Origen">ORIG.</name>, hom. 11.</ref>
+            <quote xml:id="gom-num18-Qd1e254"><seg type="qs">Alia littera</seg>, etc., usque ad <seg type="qs">non sanctificatur, nec inter primitias recipitur.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e262">
+            <ref xml:id="gom-num18-Rd1e264" type="lemma" subtype="implied" target="http://scta.info/resource/num18_8@12-17"/>
+            <ref xml:id="gom-num18-Rd1e266"><name xml:id="gom-num18-Nd1e267" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num18-Qd1e270"><seg type="qs">Videtur autem secundum litteram proselytos excludere</seg>, etc., usque ad <seg type="qs">qui faciunt patres in Ecclesiam introire.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e279">
+            <ref xml:id="gom-num18-Rd1e281" type="lemma" subtype="implied" target="http://scta.info/resource/num18_8@12-17"/>
+            <ref xml:id="gom-num18-Rd1e283"><name xml:id="gom-num18-Nd1e284" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e287">Ter etiam in anno apparere jubetur omne <pb ed="#P" n="0407B"/> masculinum, non femininum <!--<note>(Exod. XXIII)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e295">
+            <quote xml:id="gom-num18-Qd1e297" type="lemma" source="http://scta.info/resource/num18_8@15-16">A filiis,</quote>
+            non a filiabus. Non enim otiose alibi nominat cum filiis etiam filias, alibi filiarum non facit mentionem. Quae tamen specialiter non ad sexum, sed ad discretionem animarum referenda sunt.
+          </p>
+          <p xml:id="gom-num18-d1e301">
+            <ref xml:id="gom-num18-Rd1e303" type="lemma" subtype="implied" target="http://scta.info/resource/num18_8@15-16"/>
+            <ref xml:id="gom-num18-Rd1e305"><name xml:id="gom-num18-Nd1e306" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e309">Difficile invenies sanctos, quibus Deus eximium praebeat testimonium filias genuisse, Abraham et Isaac non genuerunt filias. Solus Jacob unam filiam genuit, et ipsa fratribus et parentibus opprobrium fuit, et vindictae furorem fratribus incitavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num18-Dd1e314">
+          <head xml:id="gom-num18-Hd1e316">Versus 9</head>
+          <p xml:id="gom-num18-d1e318">
+            <quote xml:id="gom-num18-Qd1e320" type="lemma" source="http://scta.info/resource/num18_9">Et hoc sit vobis ex his quae sanctificantur sanctis de sacrificiis,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-num18-Rd1e325"><name xml:id="gom-num18-Nd1e326" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e329"><seg type="qs">Spiritus sanctus ita sanctus est</seg>, etc., usque ad <seg type="qs">tertio autem loco ex hoc fructu diligere debeo etiam inimicos meos.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e337">
+            <ref xml:id="gom-num18-Rd1e339" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9"/>
+            <ref xml:id="gom-num18-Rd1e341"><name xml:id="gom-num18-Nd1e342" ref="#Origen">ID.</name>, hom. 11.</ref>
+            <quote xml:id="gom-num18-Qd1e346"><seg type="qs">Primitias omnium frugum sacerdotibus <pb ed="#P" n="0407C"/> lex mandat offerri</seg>, etc., usque ad <seg type="qs">invenies apud Mosen legis titulo signari.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e356">
+            <ref xml:id="gom-num18-Rd1e358" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9"/>
+            <ref xml:id="gom-num18-Rd1e360"><name xml:id="gom-num18-Nd1e361" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e364">Ubi vero dicit: <quote xml:id="gom-num18-Qd1e366" source="http://scta.info/resource/lc18_20@3-5">Non occides, Non adulterabis,</quote> et hujusmodi, legis titulum non praemisit. Haec enim mandata sunt, et ideo non exinaniuntur apud discipulos Evangelii, sed implentur. Non enim mandatum, sed lux umbram habere futurorum dicitur bonorum</quote>
+          </p>
+          <p xml:id="gom-num18-d1e371">
+            <ref xml:id="gom-num18-Rd1e373" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9"/>
+            <ref xml:id="gom-num18-Rd1e375"><name xml:id="gom-num18-Nd1e376" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e379">Notandum vero quod lex dupliciter dicitur. Generaliter enim omnia haec, mandatum, justificationes, praecepta, testimonia, judicia lex dicuntur. Specialiter autem aliqua pars eorum quae in lege scripta sunt, ut supra dicta. Generaliter vero lex significatur, cum dicitur: <quote xml:id="gom-num18-Qd1e381" source="http://scta.info/resource/mt5_17@9-13">Non veni solvere legem, sed adimplere</quote>. Et alibi: <quote xml:id="gom-num18-Qd1e384" source="http://scta.info/resource/rom13_10@6-10">Plenitudo legis est dilectio</quote> <pb ed="#P" n="0407D"/> . Omnia enim quae in lege scripta sunt legem nominavit.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e392">
+            <ref xml:id="gom-num18-Rd1e394" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9"/>
+            <ref xml:id="gom-num18-Rd1e396"><name xml:id="gom-num18-Nd1e397" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e400">Alibi quoque: <quote xml:id="gom-num18-Qd1e402">Juste,</quote> inquit, <quote xml:id="gom-num18-Qd1e404" source="http://scta.info/resource/deut16_20@2-4">sectare quod justum est</quote>. Et quid opus est etiam in his allegoriam quaerere, cum aedificet littera?</quote>
+          </p>
+          <p xml:id="gom-num18-d1e409">
+            <ref xml:id="gom-num18-Rd1e411" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9"/>
+            <ref xml:id="gom-num18-Rd1e413"><name xml:id="gom-num18-Nd1e414" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e417"><seg type="qs">Quaero quoque si aliqua</seg>, etc., usque ad <seg type="qs">adjecit tamen Apostolus: <quote xml:id="gom-num18-Qd1e423" source="http://scta.info/resource/gal4_24@2-4">Haec autem sunt allegorica</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e428">
+            <quote xml:id="gom-num18-Qd1e430" type="lemma" source="http://scta.info/resource/num18_9@12-13">Omnis oblatio,</quote>
+            etc.
+            <ref xml:id="gom-num18-Rd1e433"><name xml:id="gom-num18-Nd1e434" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e437">Est autem sapientis scribae et docti de regno Dei, ut sciat de his thesauris proferre nova et vetera, et quomodo penitus litteram occidentem abjiciat et spiritum vivificantem requirat <!--<note>(Matth. XIII; I Cor. III)</note>-->, aut confirmet utilem et necessariam litterae doctrinam, aut manente historia <pb ed="#P" n="0408A"/> etiam mysticum sensum introducat, sicut in praesenti loco.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e445">
+            <ref xml:id="gom-num18-Rd1e447" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9@12-13"/>
+            <ref xml:id="gom-num18-Rd1e449"><name xml:id="gom-num18-Nd1e450" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e453"><seg type="qs">Utile est enim sacerdotibus Evangelii offerre primitias</seg>, etc., usque ad <seg type="qs">discipulis autem dicitur: <quote xml:id="gom-num18-Qd1e459" source="http://scta.info/resource/mt5_22@7-13">Qui irascitur fratri suo, reus erit judicio</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e464">
+            <ref xml:id="gom-num18-Rd1e466" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9@12-13"/>
+            <ref xml:id="gom-num18-Rd1e468"><name xml:id="gom-num18-Nd1e469" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e472">Christus nos redemit de maledicto legis, non de maledicto mandati vel testimonii, vel judiciorum, ne scilicet subjecti essemus circumcisioni carnis et sabbatorum observationi, et hujusmodi quae continentur in lege, non in mandatis <!--<note>(Galat. III)</note>-->. Abundat ergo justitia nostra, plus quam scribarum et Pharisaeorum <!--<note>(Matth. V)</note>-->; et illi de fructibus terrae gustare non audent, priusquam primitias sacerdotibus offerant, et Levitis decimas separent: ego autem nihil horum faciens, fructibus terrae ita abutar, <pb ed="#P" n="0408B"/> ut sacerdos et Levita et Dei altare non sentiat.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e482">
+            <ref xml:id="gom-num18-Rd1e484" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9@12-13"/>
+            <ref xml:id="gom-num18-Rd1e486"><name xml:id="gom-num18-Nd1e487" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e490"><seg type="qs">Petrus quoque et Paulus</seg>, etc., usque ad <seg type="qs">et singularum Ecclesiarum eligit et offert primitias.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e499">
+            <ref xml:id="gom-num18-Rd1e501" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9@12-13"/>
+            <ref xml:id="gom-num18-Rd1e503"><name xml:id="gom-num18-Nd1e504" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e507">Quisquis etiam doctor, quia docet, praedicat et instruit auditores, agrum Ecclesiae suae, id est, credentium corda videtur excolere. Habet quoque culturae suae fructum, et in fructu electum aliquem et praecipuum, quem quasi primitias offerat, et alium pro primogenitis, alium pro decimis.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e510">
+            <ref xml:id="gom-num18-Rd1e512" type="lemma" subtype="implied" target="http://scta.info/resource/num18_9@12-13"/>
+            <ref xml:id="gom-num18-Rd1e514"><name xml:id="gom-num18-Nd1e515" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e518">Habet forte aliquis primogenitos et inferiores, quos neque pro primitiis, neque pro primogenitis, sed pro decimis possit offerre.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num18-Dd1e522">
+          <head xml:id="gom-num18-Hd1e524">Versus 2</head>
+          <p xml:id="gom-num18-d1e526">
+            <quote xml:id="gom-num18-Qd1e528" type="lemma" source="http://scta.info/resource/num18_2">Jure perpetuo.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Quomodo potest aeternum esse quod visibile est? <quote xml:id="gom-num18-Qd1e533" source="http://scta.info/resource/IIcor4_18@10-14">Quae enim videntur temporalia sunt<!-- check: Migne cites Icor5; text matches IIcor4_18 --></quote>, primitiae autem quae offeruntur <pb ed="#P" n="0408C"/> Aaron, visibiles sunt; circumcisionem quoque et azyma et pascha visibile, necesse est aeternum non esse, sed temporale. Invisibilis ergo circumcisio, quae in occulto est, aeterna est, et azyma sinceritatis et veritatis <!--<note>(Rom. II)</note>-->. Sic et haec ei, qui non in manifesto, sed in occulto Judaeus, qui spiritu, non littera legem custodit, secundum interiorem hominem legitima aeterna dicuntur <!--<note>(II Cor. IV)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-num18-Dd1e545">
+          <head xml:id="gom-num18-Hd1e547">Versus 12</head>
+          <p xml:id="gom-num18-d1e549">
+            <quote xml:id="gom-num18-Qd1e551" type="lemma" source="http://scta.info/resource/num18_12@1-2">Omnem medullam,</quote>
+            etc.
+            <ref xml:id="gom-num18-Rd1e554"><name xml:id="gom-num18-Nd1e555" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num18-Qd1e558"><seg type="qs">Ostendimus mandatum de primitiis frugum</seg>, etc., usque ad <seg type="qs">unde per angelum videtur quasi primitiae Deo oblatus.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e566">
+            <ref xml:id="gom-num18-Rd1e568" type="lemma" subtype="implied" target="http://scta.info/resource/num18_12@1-2"/>
+            Christus est primitiae primitiarum. Cornelius primitiae gentium. Alii primitiae Ecclesiarum, sicut quidam primitiae Asiae, alii Achaiae.
+          </p>
+          <p xml:id="gom-num18-d1e571">
+            <pb ed="#P" n="0408D"/>
+            <ref xml:id="gom-num18-Rd1e575" type="lemma" subtype="implied" target="http://scta.info/resource/num18_12@1-2"/>
+            <ref xml:id="gom-num18-Rd1e577"><name xml:id="gom-num18-Nd1e578" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num18-Qd1e581"><seg type="qs">Aderit unusquisque angelorum</seg>, etc., usque ad <seg type="qs">quae non angeli vel principis, sed Dei portio est.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e589">
+            <ref xml:id="gom-num18-Rd1e591" type="lemma" subtype="implied" target="http://scta.info/resource/num18_12@1-2"/>
+            <ref xml:id="gom-num18-Rd1e593"><name xml:id="gom-num18-Nd1e594" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e597"><seg type="qs">Offerunt ergo angeli ex nobis primitias</seg>, etc., usque ad <seg type="qs">ut quaerant quae sursum sunt, non quae super terram.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e606">
+            <ref xml:id="gom-num18-Rd1e608" type="lemma" subtype="implied" target="http://scta.info/resource/num18_12@1-2"/>
+            <ref xml:id="gom-num18-Rd1e610"><name xml:id="gom-num18-Nd1e611" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e614"><seg type="qs">Offerunt angeli primitias</seg>, etc., usque ad <seg type="qs">alius princeps multorum esse ponitur, alius principatui subjectus.</seg></quote>
+          </p>
+          <p xml:id="gom-num18-d1e622">
+            <ref xml:id="gom-num18-Rd1e624" type="lemma" subtype="implied" target="http://scta.info/resource/num18_12@1-2"/>
+            <ref xml:id="gom-num18-Rd1e626"><name xml:id="gom-num18-Nd1e627" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e630">Agri angelorum corda nostra sunt, quisque eorum ex agro quem colit offert primitias Domino.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e633">
+            <ref xml:id="gom-num18-Rd1e635" type="lemma" subtype="implied" target="http://scta.info/resource/num18_12@1-2"/>
+            <ref xml:id="gom-num18-Rd1e637"><name xml:id="gom-num18-Nd1e638" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num18-Qd1e641"><seg type="qs">Sicut Christus Rex regum</seg>, etc., usque ad <seg type="qs">sufficeret nobis haec gratia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num18-Dd1e650">
+          <head xml:id="gom-num18-Hd1e652">Versus 13</head>
+          <p xml:id="gom-num18-d1e654">
+            <quote xml:id="gom-num18-Qd1e656" type="lemma" source="http://scta.info/resource/num18_13">Universa frugum. (AUG., quaest. 32 in <pb ed="#P" n="0409A"/> Num.)</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-num18-Qd1e663"><seg type="qs">Primogenita omnia</seg>, etc., usque ad <seg type="qs">quae primitus sumebantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num18-Dd1e672">
+          <head xml:id="gom-num18-Hd1e674">Versus 15</head>
+          <p xml:id="gom-num18-d1e676">
+            <quote xml:id="gom-num18-Qd1e678" type="lemma" source="http://scta.info/resource/num18_15">Quidquid primum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-num18-Rd1e683"><name xml:id="gom-num18-Nd1e684" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-num18-Qd1e687">Possunt forte illi primogeniti dici, qui cum mulieribus non sunt coinquinati, vel etiam martyres; primitia quoque Ecclesiae possunt dici virgines <!--<note>(Apoc. 14)</note>-->; decimae vero, qui post conjugium continentes sunt.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e693">
+            <quote xml:id="gom-num18-Qd1e695" type="lemma" source="http://scta.info/resource/num18_15@30-30">Omne.</quote>
+            <ref xml:id="gom-num18-Rd1e698"><name xml:id="gom-num18-Nd1e699" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num18-Qd1e702">In utroque testamento ministris altaris oblationes et decimae ad necessaria tribuuntur, ne terrenis possessionibus audeant inhiare, nec lucrum de ministerio quaerere: unde, <quote xml:id="gom-num18-Qd1e704" source="http://scta.info/resource/mt10_9@1-7">Gratis accepistis, gratis date. Nolite possidere aurum neque argentum, neque pecuniam</quote>.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e709">
+            <ref xml:id="gom-num18-Rd1e711" type="lemma" subtype="implied" target="http://scta.info/resource/num18_15@30-30"/>
+            Mystice autem decimae observantiam legis significant, vel sinceritatem integritatis fidei, vel perfectionem <pb ed="#P" n="0409B"/> boni operis, quae maxime habere debent qui ministerio divino se exhibent. In denario enim numero creaturae et creatoris cognitio comprehenditur, quia septenarius respicit ad humanam naturam, tribus scilicet vim animae ostendentibus; unde, <quote xml:id="gom-num18-Qd1e715" source="http://scta.info/resource/deut6_5@1-18">Diliges Dominum Deum tuum ex toto corde tuo, et ex tota anima tua, et ex tota fortitudine tua</quote>. Corpus autem ex quatuor constat elementis. Septenarium autem, si ternario numero fidem et confessionem Trinitatis exprimenti adjunxeris, denarium complebis.
+          </p>
+        </div>
+        <div xml:id="gom-num18-Dd1e720">
+          <head xml:id="gom-num18-Hd1e722">Versus 19</head>
+          <p xml:id="gom-num18-d1e724">
+            <quote xml:id="gom-num18-Qd1e726" type="lemma" source="http://scta.info/resource/num18_19@18-19">Pactum salis.</quote>
+            <ref xml:id="gom-num18-Rd1e729"><name xml:id="gom-num18-Nd1e730" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num18-Qd1e733">Pactum salis nominat oblationum universitatem, quae ad ministerium vel ad jus sacerdotum pertinet, unde in Levitico: <quote xml:id="gom-num18-Qd1e735" source="http://scta.info/resource/lev2_13@2-5">Quidquid obtuleris sacrificii sale condies,</quote> etc. <pb ed="#P" n="0409C"/> <!--<note>(Levit. II)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-num18-d1e744">
+            <ref xml:id="gom-num18-Rd1e746" type="lemma" subtype="implied" target="http://scta.info/resource/num18_19@18-19"/>
+            Mystice ostenditur sapientiam convenire sacerdotibus et praedicatoribus divinae legis, non saecularem, sed apostolicam, de qua Paulus dicit: <quote xml:id="gom-num18-Qd1e748" source="http://scta.info/resource/Icor2_6@1-10">Sapientiam loquimur inter perfectos, sapientiam non hujus saeculi</quote>. De qua apostolis dicitur: <quote xml:id="gom-num18-Qd1e751" source="http://scta.info/resource/mt5_13@1-4">Vos estis sal terrae</quote>. Sicut enim omnis cibus sale conditur, sic omnis sermo apostolica sapientia. Aaron ergo et filiis ejus pactum est salis sempiternum, quia non solum episcopis necessaria est sapientia, sed etiam presbyteris, diaconis et omnibus ordinibus: et hoc coram Deo, id est, ut pura et simplex sine versutia, et malitia Deo placeat. <quote xml:id="gom-num18-Qd1e754" source="http://scta.info/resource/rom8_7@2-5">Sapientia enim hujus mundi inimica est Deo</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

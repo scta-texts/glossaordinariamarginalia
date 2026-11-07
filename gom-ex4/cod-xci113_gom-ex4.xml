@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0193C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex4">
+        <head xml:id="gom-ex4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-ex4-Dd1e100">
+          <head xml:id="gom-ex4-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ex4-d1e104">
+            <quote xml:id="gom-ex4-Qd1e106" type="lemma" source="http://scta.info/resource/ex4_2@5-8">Quid est quod,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e109"><name xml:id="gom-ex4-Nd1e110" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-ex4-Qd1e113">Moses, Judaicus populus; virga, Divinitatis potestas; serpens, Christi mortalitas: quia enim per serpentem mors, per serpentem mortalitas signatur. Vel quia scriptum est Matth. X: <quote xml:id="gom-ex4-Qd1e115" source="http://scta.info/resource/mt10_16@10-14">Estote prudentes sicut serpentes;</quote> <pb ed="#P" n="0193D"/> et quia summa prudentia, id est Dei sapientia, incarnata est: recte ejus mortalitas in serpente figuratur. Unde Joan. IV: <quote xml:id="gom-ex4-Qd1e120" source="http://scta.info/resource/io3_14@2-12">Sicut exaltavit Moses serpentem in deserto, ita exaltari oportet Filium hominis.</quote> Moses virgam tenuit: quia Judaicus populus ante Redemptoris adventum in Dei potestate confisus est; in terram projecit, quia per patriarchas et prophetas Deum incarnandum nuntiavit; virga in colubrum vertitur, quia Christus Deus in se permanens, mortalis est in homine factus. Sed et Moses colubrum conspiciens pertimuit, et fugit, quia Judaicus populus dum Christum mortalem vidit, Deum credere expavit. Cui jubetur ut caudam teneat, quia populus qui modo credere recusat, in extrema corporis Dominici parte, id est, posteriore tempore Ecclesiae, <pb ed="#P" n="0194A"/> scilicet in fine mundi, sese ad fidem colliget; colubri caudam tenens, quia eum quem mortalem ante despexerat, in ultima parte Ecclesiae Redemptorem suum confitebitur. Mox serpens in virgam redit, quia ut Judaicus populus in Christum crediderit, mox ad judicium in potestate divinitatis suae apparebit: ut jam serpens virga sit: quia qui in terra homo despectus est, de coelo veniens super angelos videbitur Deus.</quote>
+          </p>
+          <p xml:id="gom-ex4-d1e127">
+            <ref xml:id="gom-ex4-Rd1e129" type="lemma" subtype="implied" target="http://scta.info/resource/ex4_2@5-8"/>
+            <ref xml:id="gom-ex4-Rd1e131"><name xml:id="gom-ex4-Nd1e132" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-ex4-Qd1e135">Serpens persuasit homini mortem. Mors ergo a serpente; virga in serpente, Christus in morte. Expavit Moses et fugit: mortuo enim Christo expaverunt discipuli a spe in qua fuerunt recedentes. Apprehendit caudam, id est posteriora, et factus est virga: quia primo occisus, postea patratis omnibus, <pb ed="#P" n="0194B"/> ad id quod fuerat resurgendo reversus est, ubi per vitam morte consumpta, nihil in eo serpentis apparuit. Vel cauda serpentis, finis saeculi, quia sic mortalitas Ecclesiae per lubrica tempora volvitur; alii eunt, alii veniunt per mortem, tanquam per serpentem, per quem mors seminata est: sed in fine saeculi, tanquam cauda, redimus ad manum Dei, et apprehensi reparabimur, et novissima inimica morte destructa, resurgentes in dextera Dei virga regni erimus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e142">
+          <head xml:id="gom-ex4-Hd1e144">Versus 6</head>
+          <p xml:id="gom-ex4-d1e146">
+            <ref xml:id="gom-ex4-Rd1e148" type="lemma" subtype="implied" target="http://scta.info/resource/ex4_6"/>
+            . . .
+          </p>
+          <p xml:id="gom-ex4-d1e151">
+            <quote xml:id="gom-ex4-Qd1e153" type="lemma" source="http://scta.info/resource/ex4_6@4-5">Mitte manum tuam,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e156"><name xml:id="gom-ex4-Nd1e157">PROCOP.</name></ref>
+            <quote xml:id="gom-ex4-Qd1e159">Quidam asserunt illud portentum contigisse ut ostenderetur justo non esse legem positam. Licet deinde leges sanciat, quo pacto morbus leprae sit examinandus, et immundus pronuntiandus, tamen pleraeque <pb ed="#P" n="0194C"/> leges ita feruntur, quasi stultis et infantibus dentur. Adeo nostrae infirmitati se accommodat Deus!</quote>
+          </p>
+          <p xml:id="gom-ex4-d1e165">
+            <ref xml:id="gom-ex4-Rd1e167" type="lemma" subtype="implied" target="http://scta.info/resource/ex4_6@4-5"/>
+            <ref xml:id="gom-ex4-Rd1e169"><name xml:id="gom-ex4-Nd1e170" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-ex4-Qd1e173">Manus alba, id est immunda, albor enim in cute lepra est, non candor. Ipsa enim haereditas Dei, id est populus, foras ab eo missus factus est immundus. Unde psal. LXXIII: <quote xml:id="gom-ex4-Qd1e175" source="http://scta.info/resource/ps73_11@1-8">Ut quid avertis manum tuam et dexteram tuam,</quote> etc. Sed revocata est manus in sinum, et reversa est ad colorem suum: sic plebs Judaica, alienata a sinu Dei, foras immunda remansit; sed revocata, redibit ad pristinum colorem, cum agnoverit Salvatorem. <quote xml:id="gom-ex4-Qd1e178" source="http://scta.info/resource/rom11_25@15-20">Caecitas enim ex parte contigit in Israel</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e184">
+          <head xml:id="gom-ex4-Hd1e186">Versus 9</head>
+          <p xml:id="gom-ex4-d1e188">
+            <quote xml:id="gom-ex4-Qd1e190" type="lemma" source="http://scta.info/resource/ex4_9@13-14">Sume aquam,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e193"><name xml:id="gom-ex4-Nd1e194" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-ex4-Qd1e197">Aqua populum significat; unde Apoc. XVII: <quote xml:id="gom-ex4-Qd1e199" source="http://scta.info/resource/ap17_15@4-13">Aquas, quas vidisti, populi sunt et gentes.</quote> Populus ergo vertitur in <pb ed="#P" n="0194D"/> sanguinem, id est, in sanguinis Christi fidem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e207">
+          <head xml:id="gom-ex4-Hd1e209">Versus 10</head>
+          <p xml:id="gom-ex4-d1e211">
+            <quote xml:id="gom-ex4-Qd1e213" type="lemma" source="http://scta.info/resource/ex4_10@3-4">Obsecro, Domine,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e216"><name xml:id="gom-ex4-Nd1e217" ref="#Augustine">AUG.</name> Quaest. in Exod.</ref>
+            <quote xml:id="gom-ex4-Qd1e221">Quod ait Moses ad Dominum: <quote xml:id="gom-ex4-Qd1e223">Precor, Domine, non sum eloquens ante hesternum neque ante nudiustertianum diem, neque ex quo coepisti loqui famulo tuo,</quote> intelligitur credere posse fieri Dei voluntate subito eloquentem, cum dicit: <quote xml:id="gom-ex4-Qd1e225">neque ex quo coepisti loqui famulo tuo,</quote> tanquam ostendens fieri potuisse ut qui ante hesternum et nudiustertianum diem eloquens non fuisset, repente fieret ex quo cum illo Dominus loqui coepit.</quote>
+          </p>
+          <p xml:id="gom-ex4-d1e229">
+            <ref xml:id="gom-ex4-Rd1e231" type="lemma" subtype="implied" target="http://scta.info/resource/ex4_10@3-4"/>
+            <ref xml:id="gom-ex4-Rd1e233"><name xml:id="gom-ex4-Nd1e234" ref="#Origen">ORIG.</name> homil. 3 in Exod.</ref>
+            <quote xml:id="gom-ex4-Qd1e238">Dum esset Moses in Aegypto, et erudiretur omni sapientia Aegyptiorum, non erat gracili voce, nec tardus lingua, nec profitebatur <pb ed="#P" n="0195A"/> se ineloquentem. Erat enim, quantum ad Aegyptios, sonorae vocis et eloquentiae incomparabilis. Ubi autem Dei vocem audivit, et eloquia Domini suscepit, sentit vocem suam gracilem, et exilem tardamque, et impeditam linguam, et se pronuntiat mutum, cum incipit cognoscere verum Verbum, quod erat in principio apud. Deum <!--<note>(Joan. I)</note>-->: mutis enim animalibus quamvis indoctus homo comparetur, eloquens videbitur; si vero eruditis et eloquentibus, stultus et mutus. At si quis Dei verbum et divinam respiciat sapientiam multo amplius guam apud nos pendens, apud Deum mutum se animal profitebitur. Unde psal. LXXII: <quote xml:id="gom-ex4-Qd1e244" source="http://scta.info/resource/ps72_23@1-6">Ut jumentum actus sum apud te.</quote> Quia igitur in id intelligentiae profecit, ut se cognosceret, quod est magna pars sapientiae, <pb ed="#P" n="0195B"/> remuneravit eum divina dignatio dicens: <quote xml:id="gom-ex4-Qd1e249" source="http://scta.info/resource/prov31_9@1-3">Aperiam os tuum,</quote> etc. Beati quorum os Deus aperit ut loquantur. Unde psal. LXXX: <quote xml:id="gom-ex4-Qd1e253" source="http://scta.info/resource/ps80_11@13-18">Dilata os tuum, et ego implebo illud.</quote> Similiter Paulus dicit ad Ephes. VI: <quote xml:id="gom-ex4-Qd1e256" source="http://scta.info/resource/eph6_19@4-11">Ut detur mihi sermo in apertione oris mei.</quote> Eorum ergo qui vera loquuntur, os Deus aperit: eorum qui loquuntur mendacium, falsum testimonium, scurrilitates, turpitudines, susurronum quoque et detractorum, et eorum qui otiosa loquuntur, diabolus aperit os. De Juda refertur Joan. XIII, <quote xml:id="gom-ex4-Qd1e259">quia introivit in illum Satanas, et misit in cor ejus ut traderet eum.</quote> Os ergo ejus aperuit, ut loqueretur cum Pharisaeis, quomodo eum traderet accepta pecunia. Non est autem parvae gratiae discernere os quod aperit Deus, et quod aperit diabolus. Aperit etiam Deus aures <pb ed="#P" n="0195C"/> sanctorum ad audienda verba divina; unde: Dominus aperiet mihi aurem. Aperit oculos, sicut aperuit oculos Agar, et vidit puteum aquae vivae; unde Eliseus: <quote xml:id="gom-ex4-Qd1e263" source="http://scta.info/resource/IIreg6_17@12-15">Aperi, Domine, oculos pueri tui, ut videat, quia plures sunt nobiscum</quote>. Auris vero quae per eruditionem Domini aperitur, aliquando aperta est, aliquando clausa; unde: Ne recipias auditum vanum <!--<note>(Eccli. XLV)</note>-->. Si dicuntur vana, profana, turpia, qui novit eruditionem Domini, claudit aurem et dicit: <quote xml:id="gom-ex4-Qd1e269" source="http://scta.info/resource/ps37_14@1-14">Ego autem sicut mutus, qui non aperuit os suum, et sicut surdus non audiebam</quote>. Si vero ad utilitatem animae pertinent quae dicuntur, si de Deo sermo est, si mores docet, ad virtutes invitat, vitia resecat, aures pateant et tota animae janua. Notandum autem quia summa moderatione <pb ed="#P" n="0195D"/> usa est lex ut diceret: <quote xml:id="gom-ex4-Qd1e274">Non recipies auditum vanum;</quote> non dixit, Non audies; sed, <quote xml:id="gom-ex4-Qd1e276">Non recipies.</quote> Nam vana saepe audimus: Marcion enim et Valentinus, et omnes contra Creatorem disputantes, vana loquuntur; frequenter tamen audimus ut contradicamus, sed non recipimus, quia illorum os diabolus aperit. Dignetur Dominus aperire os nostrum, ut possimus contradicentem revincere, et obturare os quod diabolus aperit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e282">
+          <head xml:id="gom-ex4-Hd1e284">Versus 11</head>
+          <p xml:id="gom-ex4-d1e286">
+            <quote xml:id="gom-ex4-Qd1e288" type="lemma" source="http://scta.info/resource/ex4_11@5-8">Quis fecit os hominis?</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e291"><name xml:id="gom-ex4-Nd1e292" ref="#Augustine">AUG.</name>, Quaest. 8.</ref>
+            <quote xml:id="gom-ex4-Qd1e296">Sunt qui Deo calumnientur, vel potius Scripturae Veteris Testamenti quia dixit Deus quod fecerit mutum. Quid ergo dicunt de Christo aperte dicente Joan. X: <quote xml:id="gom-ex4-Qd1e298" source="http://scta.info/resource/io9_39@6-20">Ego veni, ut qui non vident videant; <pb ed="#P" n="0196A"/> et qui vident, caeci fiant.</quote> Quis autem nisi insciens crediderit aliquid homini secundum vitia corporalia posse accidere quod Deus nolit? Sed eum juste totum velle nemo ambigit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e306">
+          <head xml:id="gom-ex4-Hd1e308">Versus 12</head>
+          <p xml:id="gom-ex4-d1e310">
+            <quote xml:id="gom-ex4-Qd1e312" type="lemma" source="http://scta.info/resource/ex4_12@1-2">Perge igitur,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e315"><name xml:id="gom-ex4-Nd1e316" ref="#Augustine">AUG.</name></ref>
+          </p>
+          <p xml:id="gom-ex4-d1e320">
+            Allegorice.
+          </p>
+          <p xml:id="gom-ex4-d1e322">
+            <ref xml:id="gom-ex4-Rd1e324" type="lemma" subtype="implied" target="http://scta.info/resource/ex4_12@1-2"/>
+            Quod dicit Dominus ad Mosen: <quote xml:id="gom-ex4-Qd1e326">Sed nunc vade tu, et ego aperiam os tuum et instruam te quae locuturus es,</quote> apparet non tantum instructionem oris, sed etiam ipsam apertionem ad Dei gratiam pertinere. Non enim ait, Aperi os tuum, et ego instruam te; sed utrumque promittit, aperiam, et instruam. In psalmo autem LXXX: <quote xml:id="gom-ex4-Qd1e328" source="http://scta.info/resource/ps80_11@13-18">Dilata os tuum, et ego adimplebo illud.</quote> Ubi significat in homine voluntatem accipiendi quod Deus donat volenti, ut ad voluntatis exordium pertineat, <quote xml:id="gom-ex4-Qd1e331" source="http://scta.info/resource/ps80_11@13-15">Dilata os tuum,</quote> ad Dei autem <pb ed="#P" n="0196B"/> gratiam, <quote xml:id="gom-ex4-Qd1e337" source="http://scta.info/resource/ex40_28@7-10">et implebo illud.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e342">
+          <head xml:id="gom-ex4-Hd1e344">Versus 14</head>
+          <p xml:id="gom-ex4-d1e346">
+            <quote xml:id="gom-ex4-Qd1e348" type="lemma" source="http://scta.info/resource/ex4_14@1-5">Iratus Dominus in Moysen, ait,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e351"><name xml:id="gom-ex4-Nd1e352" ref="#Augustine">AUG.</name> Quaest. 10 in Exod.</ref>
+            <quote xml:id="gom-ex4-Qd1e356"><seg type="qs">Videtur tanquam diffidenti non dedisse plenissimam facultatem</seg>, etc., usque ad <seg type="qs">cujus figuram gerat velut medius Moses inter Deum et Aaron, et Aaron inter Mosen et populum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e365">
+          <head xml:id="gom-ex4-Hd1e367">Versus 15</head>
+          <p xml:id="gom-ex4-d1e369">
+            <quote xml:id="gom-ex4-Qd1e371" type="lemma" source="http://scta.info/resource/ex4_15@11-19">Et ego ero in ore tuo et in ore illius,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e374"><name xml:id="gom-ex4-Nd1e375" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-ex4-Qd1e378">Non solum Mosi promittitur aperiri os a Domino, sed et Aaron. Dicitur enim: Ego aperiam os tuum et os illius, et instruam vos quae faciatis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e382">
+          <head xml:id="gom-ex4-Hd1e384">Versus 19</head>
+          <p xml:id="gom-ex4-d1e386">
+            <quote xml:id="gom-ex4-Qd1e388" type="lemma" source="http://scta.info/resource/ex4_19@1-3">Dixit ergo Dominus,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e391"><name xml:id="gom-ex4-Nd1e392" ref="#Augustine">AUG.</name>, Locut. in Gen., tom. III.</ref>
+            <quote xml:id="gom-ex4-Qd1e396">Post dies autem multos mortuus est rex Aegypti. Dixit autem Dominus ad Mosen in <pb ed="#P" n="0196C"/> Madian: <quote xml:id="gom-ex4-Qd1e400" source="http://scta.info/resource/ex4_19@8-11">Vade, perge in Aegyptum,</quote> etc. Multa in his verbis notanda sunt genera locutionis. Primo enim inquit: <quote xml:id="gom-ex4-Qd1e403" source="http://scta.info/resource/ex4_19@8-11">Vade, perge in Aegyptum,</quote> tanquam non sufficeret alterum, deinde, <quote xml:id="gom-ex4-Qd1e406" source="http://scta.info/resource/ex4_19@12-18">mortui sunt omnes qui quaerebant animam tuam,</quote> cum solum regem Aegypti Scriptura mortuum dixerit: de quo solo antea dictum fuerat quod Mosen quaerebat occidere: an ipse post alios inimicos ultimus mortuus est? Quod si ita est, non locutio, sed sensus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e412">
+          <head xml:id="gom-ex4-Hd1e414">Versus 20</head>
+          <p xml:id="gom-ex4-d1e416">
+            <quote xml:id="gom-ex4-Qd1e418" type="lemma" source="http://scta.info/resource/ex4_20@1-2">Tulit ergo Moyses,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e421"><name xml:id="gom-ex4-Nd1e422" ref="#Augustine">AUG.</name>, Quaest. 12 in Exod.</ref>
+            <quote xml:id="gom-ex4-Qd1e426">Quod dictum est, quia Moses uxorem et infantes suos imposuit super vehiculum, ut in Aegyptum iret: postea vero Jethro socer ejus illic cum eis occurrit, cum eduxisset populum de Aegypto; intelligendum est, post illam, quae ab angelo <pb ed="#P" n="0196D"/> futura erat, interfectionem, Mosi vel infantis uxorem reversam fuisse cum parvulis. Nam quidam putaverunt propter hoc angelum terruisse, ne ad impedimentum ministerii divinitus impositi femineus sexus comitaretur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e434">
+          <head xml:id="gom-ex4-Hd1e436">Versus 21</head>
+          <p xml:id="gom-ex4-d1e438">
+            <quote xml:id="gom-ex4-Qd1e440" type="lemma" source="http://scta.info/resource/ex4_21@19-22">Ego indurabo cor ejus.</quote>
+            <ref xml:id="gom-ex4-Rd1e443"><name xml:id="gom-ex4-Nd1e444" ref="#Augustine">AUG.</name>, Serm. 88.</ref>
+            <quote xml:id="gom-ex4-Qd1e448">Quid est, <quote xml:id="gom-ex4-Qd1e450" source="http://scta.info/resource/ex4_21@19-22">ego indurabo cor ejus,</quote> nisi cum abfuerit gratia mea, obduret illum nequitia sua? Sicut quoties nimio frigore constringitur aqua, solis calore superveniente resolvitur; et discedente sole iterum obduratur: ita peccatorum frigore refrigescit charitas multorum, et velut glacies obdurantur; et cum calor divinae misericordiae supervenerit, resolvuntur. Hoc in Pharaone cognoscimus, a quo <pb ed="#P" n="0197A"/> quoties flagella remota sunt, se contra Deum obduratus erexit; quoties afflictus est, supplicavit. Non est ergo iniquitas in Deo. Unde non tam potentia quam patientia Dei Pharaonem fecit obdurari. Quam rem etiam circa vernaculos nostros solemus exercere, quibus frequenter peccantibus indulgemus, dicentes: Ego talem te feci, ego tibi parcendo proterviam tuam negligentiamque nutrivi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e458">
+          <head xml:id="gom-ex4-Hd1e460">Versus 24</head>
+          <p xml:id="gom-ex4-d1e462">
+            <quote xml:id="gom-ex4-Qd1e464" type="lemma" source="http://scta.info/resource/ex4_24@7-9">Occurrit ei Dominus,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e467"><name xml:id="gom-ex4-Nd1e468" ref="#Augustine">AUG.</name>, Quaest. 11 in Exod.</ref>
+            <quote xml:id="gom-ex4-Qd1e472"><seg type="qs">Alia littera: <quote xml:id="gom-ex4-Qd1e475">Et factum est in via ad refectionem, obviavit ei angelus, et quaerebat eum occidere: et assumpto Sephora calculo circumcidit praeputium filii sui, et procidit ad pedes ejus et dixit: Stetit sanguis circumcisionis infantis mei, et recessit ab eo propter hoc quod dixit: Stetit sanguis <pb ed="#P" n="0197B"/> circumcisionis.</quote> Primum quaeritur quem volebat angelus interficere</seg>, etc., usque ad <seg type="qs">magno nisi fallor sacramento.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e486">
+          <head xml:id="gom-ex4-Hd1e488">Versus 25</head>
+          <p xml:id="gom-ex4-d1e490">
+            <quote xml:id="gom-ex4-Qd1e492" type="lemma" source="http://scta.info/resource/ex4_25@16-18">Sponsus sanguinum tu,</quote>
+            etc. Secundum historiam, mater gentilis admirans novitatem rei, potuit dicere Mosi: <quote xml:id="gom-ex4-Qd1e495" source="http://scta.info/resource/ex4_25@16-20">Sponsus sanguinum tu mihi es;</quote> quasi, ritus tuae gentis cogit me fundere sanguinem filii mei, quod aliis gentibus non est moris. Mystice autem Sephora Ecclesiam de gentibus significat, quae praeputium filii sui, id est gentilis populi, acutissima petra, id est Spiritus sancti doctrina, vel illa petra de qua dicitur II Cor. X: <quote xml:id="gom-ex4-Qd1e498" source="http://scta.info/resource/Icor10_4@14-17">Petra autem erat Christus,</quote> exspoliat, ut mundetur ab omni inquinamento carnis et spiritus: <quote xml:id="gom-ex4-Qd1e501" source="http://scta.info/resource/col3_9@6-9">Et exuat veterem hominem cum actibus suis</quote>. Stat <pb ed="#P" n="0197C"/> enim sanguis circumcisionis quando corruptibile hoc induet incorruptionem.
+          </p>
+        </div>
+        <div xml:id="gom-ex4-Dd1e508">
+          <head xml:id="gom-ex4-Hd1e510">Versus 27</head>
+          <p xml:id="gom-ex4-d1e512">
+            <quote xml:id="gom-ex4-Qd1e514" type="lemma" source="http://scta.info/resource/ex4_27@1-3">Dixitque Dominus,</quote>
+            etc.
+            <ref xml:id="gom-ex4-Rd1e517"><name xml:id="gom-ex4-Nd1e518" ref="#Origen">ORIG.</name>, hom. 32.</ref>
+            <quote xml:id="gom-ex4-Qd1e522">Occurrit Aaron Moysi, et exivit de Aegypto. Sed interest ubi occurrat Mosi, cujus os aperiendum est a Domino: occurrit autem in montem Dei. Merito os ejus aperitur, qui occurrit in montem Dei. Petrus, Jacobus et Joannes in monte et transfiguratum Dominum Jesum videre meruerunt, et Mosen et Eliam cum ipso in gloria. Tu quoque, nisi ascenderis montem Dei, et ibi occurreris Mosi, id est nisi excelsum legis ascensum ascenderis, nisi spiritalis intelligentiae cacumen invaseris, non est ostium apertum a Domino. Si in humili loco litterae steteris, non occurristi Mosi in montem Dei; non <pb ed="#P" n="0197D"/> os tuum aperuit Deus, neque instruxit quae te oporteat loqui; nisi Aaron Moysi in monte occurrisset, nisi ejus sensum vidisset arduum, non ei loqueretur verba Dei, neque virtutem signorum tradidisset, neque participem tanti mysterii concivisset.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

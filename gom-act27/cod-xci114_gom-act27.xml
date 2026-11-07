@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 27</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 27</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0467C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act27">
+        <head xml:id="gom-act27-Hd1e98">Caput 27</head>
+        <div xml:id="gom-act27-Dd1e100">
+          <head xml:id="gom-act27-Hd1e102">Versus 1</head>
+          <p xml:id="gom-act27-d1e104">
+            <quote xml:id="gom-act27-Qd1e106" type="lemma" source="http://scta.info/resource/act27_1@1-6">Ut autem judicatum est eum navigare,</quote>
+            etc. In Graeco: Ut judicatum est nos navigare in Italiam, tradiderunt Paulum et quosdam alios vinctos centurioni.
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e111">
+          <head xml:id="gom-act27-Hd1e113">Versus 2</head>
+          <p xml:id="gom-act27-d1e115">
+            <quote xml:id="gom-act27-Qd1e117" type="lemma" source="http://scta.info/resource/act27_2@4-4">Adrumetinam.</quote>
+            <ref xml:id="gom-act27-Rd1e120"><name xml:id="gom-act27-Nd1e121" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act27-Qd1e124">Id est ad Romam navigantem secundum quosdam, sed melius derivatur de nomine civitatis Africae quae Adrumetis dicitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e128">
+          <head xml:id="gom-act27-Hd1e130">Versus 5</head>
+          <p xml:id="gom-act27-d1e132">
+            <pb ed="#P" n="0467D"/>
+            <quote xml:id="gom-act27-Qd1e136" type="lemma" source="http://scta.info/resource/act27_5@7-8">Venimus Lystram.</quote>
+            <ref xml:id="gom-act27-Rd1e139"><name xml:id="gom-act27-Nd1e140" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-act27-Qd1e143">Pro Lystra, in Graeco Smyrna scriptum est. Hieronymus vero Myrrham ponit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e147">
+          <head xml:id="gom-act27-Hd1e149">Versus 9</head>
+          <p xml:id="gom-act27-d1e151">
+            <quote xml:id="gom-act27-Qd1e153" type="lemma" source="http://scta.info/resource/act27_9@15-15">Jejunium.</quote>
+            <ref xml:id="gom-act27-Rd1e156"><name xml:id="gom-act27-Nd1e157" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act27-Qd1e160">Fames magna in navigio infirmiores reddens nautas. Alii dicunt tunc fuisse quadragesimam ante natale Domini, quod non est probabile. Melius jejunium septimum putandum est, in quo occisus erat Godolias. Vel dies jejunii decimi in Januario, quando cognoverunt in Babylone captivi templum esse destructum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e165">
+          <head xml:id="gom-act27-Hd1e167">Versus 12</head>
+          <p xml:id="gom-act27-d1e169">
+            <quote xml:id="gom-act27-Qd1e171" type="lemma" source="http://scta.info/resource/act27_12@4-4">Portum,</quote>
+            etc.
+            <ref xml:id="gom-act27-Rd1e174"><name xml:id="gom-act27-Nd1e175" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act27-Qd1e178">Portus Cretae dicitur qui est in Phoenice e regione Cretae: portum autem Cretae petebant, quia Cretam navigabant.</quote>
+          </p>
+          <p xml:id="gom-act27-d1e181">
+            <pb ed="#P" n="0468A"/>
+            <quote xml:id="gom-act27-Qd1e185" type="lemma" source="http://scta.info/resource/act27_12@24-25">Ad Africum,</quote>
+            etc. Africus stat inter meridianam plagam et occidentalem, magis vergens ad occidentalem; Corus inter septentrionalem et occidentalem, plus deflexus ad occidentem; et provincia Phoenicis Cretam habebat ad occidentem.
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e190">
+          <head xml:id="gom-act27-Hd1e192">Versus 13</head>
+          <p xml:id="gom-act27-d1e194">
+            <quote xml:id="gom-act27-Qd1e196" type="lemma" source="http://scta.info/resource/act27_13@11-11">Asson.</quote>
+            <ref xml:id="gom-act27-Rd1e199"><name xml:id="gom-act27-Nd1e200" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act27-Qd1e203">Nomen est loci sic vocati, quia inde solvebantur naves in mare progredientes.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e207">
+          <head xml:id="gom-act27-Hd1e209">Versus 14</head>
+          <p xml:id="gom-act27-d1e211">
+            <quote xml:id="gom-act27-Qd1e213" type="lemma" source="http://scta.info/resource/act27_14@10-10">Typhonicus.</quote>
+            Alia translatio: ventus tempestuosus.
+          </p>
+          <p xml:id="gom-act27-d1e217">
+            <quote xml:id="gom-act27-Qd1e219" type="lemma" source="http://scta.info/resource/act27_14@13-13">Euroaquilo.</quote>
+            <ref xml:id="gom-act27-Rd1e222"><name xml:id="gom-act27-Nd1e223" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act27-Qd1e226">Id est Boreas, ventus inter aquilonem et orientem; hic ventus erat contrarius navi navigaturae in Phoenicen.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e230">
+          <head xml:id="gom-act27-Hd1e232">Versus 17</head>
+          <p xml:id="gom-act27-d1e234">
+            <quote xml:id="gom-act27-Qd1e236" type="lemma" source="http://scta.info/resource/act27_17@10-10">Syrtim.</quote>
+            <ref xml:id="gom-act27-Rd1e239"><name xml:id="gom-act27-Nd1e240" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act27-Qd1e243">Angustia sive tribulatio dicitur Syrtis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e247">
+          <head xml:id="gom-act27-Hd1e249">Versus 21</head>
+          <p xml:id="gom-act27-d1e251">
+            <pb ed="#P" n="0468B"/>
+            <quote xml:id="gom-act27-Qd1e255" type="lemma" source="http://scta.info/resource/act27_21@13-14">Oportebat quidem,</quote>
+            etc.
+            <ref xml:id="gom-act27-Rd1e258"><name xml:id="gom-act27-Nd1e259" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act27-Qd1e262">Quasi dicat: Deum non audistis, quod supra hortabatur eos Paulus; vel oportebat me audito, id est ut audiretis me.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e266">
+          <head xml:id="gom-act27-Hd1e268">Versus 26</head>
+          <p xml:id="gom-act27-d1e270">
+            <quote xml:id="gom-act27-Qd1e272" type="lemma" source="http://scta.info/resource/act27_26@1-7">In insulam autem quamdam oportet nos devenire.</quote>
+            <ref xml:id="gom-act27-Rd1e275"><name xml:id="gom-act27-Nd1e276" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act27-Qd1e279">Quasi dicat: Pro signo est prophetia veritatis de insula, ut, cum ad illam venerint, de salute sua certi sint.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e284">
+          <head xml:id="gom-act27-Hd1e286">Versus 27</head>
+          <p xml:id="gom-act27-d1e288">
+            <quote xml:id="gom-act27-Qd1e290" type="lemma" source="http://scta.info/resource/act27_27@8-9">In Adria.</quote>
+            Regio est ad quam navigabant; vel, nomen cujusdam freti in Tyrrhenc mari, seu potius videtur nomen illius terrae de qua Adriaticus sinus vocatur. Aliter, Adria pluraliter accipitur pro scopulis, et ideo putabant nautae regionem apparere. In libro Hebraeorum nominum, <pb ed="#P" n="0468C"/> Adria, continens mala, vel locus malorum dicitur.
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e297">
+          <head xml:id="gom-act27-Hd1e299">Versus 33</head>
+          <p xml:id="gom-act27-d1e301">
+            <quote xml:id="gom-act27-Qd1e303" type="lemma" source="http://scta.info/resource/act27_33@9-10">Sumere cibum.</quote>
+            <ref xml:id="gom-act27-Rd1e306"><name xml:id="gom-act27-Nd1e307" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-act27-Qd1e310">Nemo saeculi tempestates evadit, nisi qui pane vitae pascitur, et qui in nocte tribulationum, sapientiae, fortitudini, temperantiae et justitiae innititur, auxilio Domini coruscante portum salutis consequitur, ita ut saeculo expeditus, flammam dilectionis qua calefiunt interiora, quaerat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e314">
+          <head xml:id="gom-act27-Hd1e316">Versus 37</head>
+          <p xml:id="gom-act27-d1e318">
+            <quote xml:id="gom-act27-Qd1e320" type="lemma" source="http://scta.info/resource/act27_37@1-4">Eramus universae animae.</quote>
+            <ref xml:id="gom-act27-Rd1e323"><name xml:id="gom-act27-Nd1e324" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act27-Qd1e327">Non ait viri, quia fortasse erant et mulieres; vel, propter confusionem Christianorum, militum et nautarum ita dicitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act27-Dd1e331">
+          <head xml:id="gom-act27-Hd1e333">Versus 41</head>
+          <p xml:id="gom-act27-d1e335">
+            <quote xml:id="gom-act27-Qd1e337" type="lemma" source="http://scta.info/resource/act27_41@6-6">Bithalassum.</quote>
+            <ref xml:id="gom-act27-Rd1e340"><name xml:id="gom-act27-Nd1e341" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-act27-Qd1e344"><seg type="qs">Graeci Thalassan vocant mare</seg>, etc., usque ad <seg type="qs">et mare a Graecis dicitur Thelasson.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

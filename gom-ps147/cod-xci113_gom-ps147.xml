@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 147</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 147</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1075A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps147">
+        <head xml:id="gom-ps147-Hd1e98">Psalmus 147</head>
+        <div xml:id="gom-ps147-Dd1e100">
+          <head xml:id="gom-ps147-Hd1e102">Versus 12</head>
+          <p xml:id="gom-ps147-d1e104">
+            <quote xml:id="gom-ps147-Qd1e106" type="lemma" source="http://scta.info/resource/ps147_12">Alleluia.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Psalmus iste facit amorem futurae Jerusalem. Aggaei et Zachariae dicitur, qui in captivitate reparationem Jerusalem prophetaverunt, quae, ut Jeremias praedixit, post septuaginta annos <pb ed="#P" n="1075B"/> facta est, id est, post volubilitatem totius temporis, quod septem diebus agitur.
+          </p>
+          <p xml:id="gom-ps147-d1e114">
+            <quote xml:id="gom-ps147-Qd1e116" type="lemma" source="http://scta.info/resource/ps147_12">Lauda, Jerusalem.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps147-Rd1e121"><name xml:id="gom-ps147-Nd1e122" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e125">Totus hic psalmus potentiam Dei praedicat. Primo, dicit bona futurae Jerusalem, secundo, dicit quae bona hic dantur sanctis, <ref xml:id="gom-ps147-Rd1e127">ibi: <seg type="incipit">Qui emittit</seg>.</ref></quote>
+          </p>
+          <p xml:id="gom-ps147-d1e134">
+            <ref xml:id="gom-ps147-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/ps147_12"/>
+            <ref xml:id="gom-ps147-Rd1e138"><name xml:id="gom-ps147-Nd1e139" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e142"><seg type="qs">In captivitate adhuc constitutus propheta</seg>, etc., usque ad <seg type="qs">qui audivimus sic ructantem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps147-Dd1e151">
+          <head xml:id="gom-ps147-Hd1e153">Versus 13</head>
+          <p xml:id="gom-ps147-d1e155">
+            <quote xml:id="gom-ps147-Qd1e157" type="lemma" source="http://scta.info/resource/ps147_13">Confortavit seras portarum tuarum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps147-Rd1e162"><name xml:id="gom-ps147-Nd1e163" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e166">Nota clausam esse janam januam admissis prudentibus, et exclusis fatuis virginibus, ut nemo jam exeat vel intret. Et congrue post laudis admonitionem subdit de clausis januis: clausa enim janua Jerusalem secure laudat, quia nemo exiit unde doleat; nemo intrat quem timeat, unde sint scandala. scandala.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps147-Dd1e170">
+          <head xml:id="gom-ps147-Hd1e172">Versus 14</head>
+          <p xml:id="gom-ps147-d1e174">
+            <quote xml:id="gom-ps147-Qd1e176" type="lemma" source="http://scta.info/resource/ps147_14">Adipe frumenti.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps147-Rd1e181"><name xml:id="gom-ps147-Nd1e182" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e185">Pane qui de coelo <pb ed="#P" n="1075C"/> descendit: in mundo carne clausus est, sola fide cognitus, tunc videbitur sicut est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps147-Dd1e192">
+          <head xml:id="gom-ps147-Hd1e194">Versus 15</head>
+          <p xml:id="gom-ps147-d1e196">
+            <quote xml:id="gom-ps147-Qd1e198" type="lemma" source="http://scta.info/resource/ps147_15">Qui emittit eloquium suum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Secunda pars subdit quae munera hic dantur electis, per quae veritas futuri potest agnosci.
+          </p>
+          <p xml:id="gom-ps147-d1e204">
+            <quote xml:id="gom-ps147-Qd1e206" type="lemma" source="http://scta.info/resource/ps147_15">Terrae.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps147-Rd1e211"><name xml:id="gom-ps147-Nd1e212" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e215">Ut in terra cognoscatur. Nisi enim mitteret verbum terrae, qua gravamur et impedimur a reditu, ad adipem frumenti satiantem non levaremur. In terra enim, ubi laboramus fessi, languidi, pigri, frigidi, scilicet in eremo, non deserit, sed manna <quote xml:id="gom-ps147-Qd1e217" source="http://scta.info/resource/ps147_4@1-3">qui emittit eloquium,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps147-d1e222">
+            <quote xml:id="gom-ps147-Qd1e224" type="lemma" source="http://scta.info/resource/ps147_15">Velociter currit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps147-Rd1e229"><name xml:id="gom-ps147-Nd1e230" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps147-Qd1e234">Vel usque in velocitatem, id est, a Deo, ut sit ipsa velocitas quo electius vel expressius dici non potuit.</quote>
+          </p>
+          <p xml:id="gom-ps147-d1e237">
+            <ref xml:id="gom-ps147-Rd1e239" type="lemma" subtype="implied" target="http://scta.info/resource/ps147_15"/>
+            Non ait velox verbum, velox sit velocitate, qua <pb ed="#P" n="1075D"/> plus vel minus participat: sed ipsa velocitate, qua caetera dicuntur velocia, nihil est velocius. Et item quod velox est, ut equus alicui est, non ubique: velocitas vero ipsa ubique est, non est in parte. Ad verbum Dei pertinet non esse in parte, ubique esse per seipsum. Haec est sapientia, <quote xml:id="gom-ps147-Qd1e243" source="http://scta.info/resource/sap8_1@1-8">quae attingit a fine usque ad finem fortiter,</quote> non tamen motu locali, sed immobilitate. Sed et de sapientiae spiritu dicitur, <quote xml:id="gom-ps147-Qd1e246">actus mobilis, certus, incoinquinatus;</quote> hoc facit velocitas, ut et ubique semper sit, et nusquam inclausa teneatur. Sed quis ista sufficit cogitare? Est tamen spes ad capiendum verbum, quia praedestinavit nos.
+          </p>
+        </div>
+        <div xml:id="gom-ps147-Dd1e251">
+          <head xml:id="gom-ps147-Hd1e253">Versus 16</head>
+          <p xml:id="gom-ps147-d1e255">
+            <quote xml:id="gom-ps147-Qd1e257" type="lemma" source="http://scta.info/resource/ps147_16">Qui dat nivem,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-ps147-Rd1e262"><name xml:id="gom-ps147-Nd1e263" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e266"><seg type="qs">Terrae. Frigescente enim charitate</seg>, etc., usque ad <seg type="qs">et hos <pb ed="#P" n="1076A"/> dum vocat ad poenitentiam, <quote xml:id="gom-ps147-Qd1e274" source="http://scta.info/resource/ps147_5@7-10">nebulam sicut cinerem spargit.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps147-d1e278">
+            <ref xml:id="gom-ps147-Rd1e280" type="lemma" subtype="implied" target="http://scta.info/resource/ps147_16"/>
+            <ref xml:id="gom-ps147-Rd1e282"><name xml:id="gom-ps147-Nd1e283" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e286"><seg type="qs"><quote xml:id="gom-ps147-Qd1e288" source="http://scta.info/resource/ps147_5@7-10">Nebulam sicut cinerem spargit,</quote> etc. Cinis ad poenitentiam pertinet</seg>, etc., usque ad <seg type="qs">et qui praedestinavit et ad poenitentiam vocavit. Ad litteram: Spargit Deus nivem quasi lanam, nebulam ut cinerem, crystallum facit ut frusta candidi panis. Est enim crystallum species quaedam in modum vitri, sed candida est: dicitur autem esse nix glacie indurata per multos annos, ut resolvi non possit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps147-d1e296">
+            <quote xml:id="gom-ps147-Qd1e298" type="lemma" source="http://scta.info/resource/ps147_16">Crystallum suam,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Id est obstinatos, qui non facile ut nix solvuntur.
+          </p>
+        </div>
+        <div xml:id="gom-ps147-Dd1e305">
+          <head xml:id="gom-ps147-Hd1e307">Versus 17</head>
+          <p xml:id="gom-ps147-d1e309">
+            <quote xml:id="gom-ps147-Qd1e311" type="lemma" source="http://scta.info/resource/ps147_17">Mittit sicut bucellas,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Alias, <quote xml:id="gom-ps147-Qd1e316">ut frusta panis,</quote> ut pascant alios, ut praedicent veritatem, quam impugnant. Omnes, unus panis; singuli, <pb ed="#P" n="1076B"/> frusta; unde: <quote xml:id="gom-ps147-Qd1e320" source="http://scta.info/resource/Icor10_17@2-7">Multi unus panis sumus in Christo</quote>. Paulus crystallum fuit, durus et nitidus: durus, quia persecutus Ecclesiam; nitidus, quia in lege peritus. Hanc autem Deus solvit, et factus est panis, qui veritatem docuit. Sed nisi solvat,
+          </p>
+          <p xml:id="gom-ps147-d1e324">
+            <quote xml:id="gom-ps147-Qd1e326" type="lemma" source="http://scta.info/resource/ps147_17">Ante faciem ejus Dei quis sustinebit?</quote>
+            <!-- check: lemma not matched to verse text -->
+            Alias, subsistet.
+          </p>
+          <p xml:id="gom-ps147-d1e332">
+            <ref xml:id="gom-ps147-Rd1e334" type="lemma" subtype="implied" target="http://scta.info/resource/ps147_17"/>
+            <ref xml:id="gom-ps147-Rd1e336"><name xml:id="gom-ps147-Nd1e337" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e340">Frigus est, qui deserit, non vocat, non infundit gratiam: et quis alius solvet? Nullus. Unde Apostolus: <quote xml:id="gom-ps147-Qd1e342" source="http://scta.info/resource/rom7_24@4-10">Quis me liberabit de corpore mortis hujus?</quote> Quasi dicat: Frigesco, nullus solvit, nisi gratia Dei <quote xml:id="gom-ps147-Qd1e345" source="http://scta.info/resource/ps147_7@1-3">emittat verbum suum.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps147-Dd1e350">
+          <head xml:id="gom-ps147-Hd1e352">Versus 18</head>
+          <p xml:id="gom-ps147-d1e354">
+            <quote xml:id="gom-ps147-Qd1e356" type="lemma" source="http://scta.info/resource/ps147_18">Emittet verbum suum, et liquefaciet eam.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps147-Rd1e361"><name xml:id="gom-ps147-Nd1e362" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e365">Verbo namque Dei veniente, nec frigus, nec obscuritas, nec duritia desperare potest. Salubriter enim liquefiunt, et fluenta spiritualis beneficii <pb ed="#P" n="1076C"/> profundunt aliis unde bibant, juxta illud: <quote xml:id="gom-ps147-Qd1e369" source="http://scta.info/resource/is55_1@2-6">Omnes sitientes, venite ad aquas</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps147-Dd1e375">
+          <head xml:id="gom-ps147-Hd1e377">Versus 19</head>
+          <p xml:id="gom-ps147-d1e379">
+            <quote xml:id="gom-ps147-Qd1e381" type="lemma" source="http://scta.info/resource/ps147_19">Jacob . . . Israel.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps147-Rd1e386"><name xml:id="gom-ps147-Nd1e387" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e390"><seg type="qs">Vel idem significatur per Israel</seg>, etc., usque ad <seg type="qs">quia non fuit missus <quote xml:id="gom-ps147-Qd1e396" source="http://scta.info/resource/mt15_24@8-14">nisi ad oves quae perierunt domus Israel</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-ps147-d1e401">
+            <quote xml:id="gom-ps147-Qd1e403" type="lemma" source="http://scta.info/resource/ps147_19">Judicia sua.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps147-Rd1e408"><name xml:id="gom-ps147-Nd1e409" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps147-Qd1e412"><seg type="qs">Judicium incipit a domo Dei</seg>, etc., usque ad <seg type="qs">tres alios psalmos laudis subjungens, ut in hoc opere gratia Trinitatis eluceat.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

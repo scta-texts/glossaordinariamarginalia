@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum II, Caput 21</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum II, Caput 21</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0626A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIreg21">
+        <head xml:id="gom-IIreg21-Hd1e98">Caput 21</head>
+        <p xml:id="gom-IIreg21-d1e100">
+          <ref xml:id="gom-IIreg21-Rd1e102"><name xml:id="gom-IIreg21-Nd1e103" ref="#RabanusMaurus">RAB.</name></ref>
+          <quote xml:id="gom-IIreg21-Qd1e106">Cujus tempore Isaias (ut tradunt Hebraei) lignea serra per medium serratus est, quia princeps Sodomorum appellavit eos, vertentes ei in crimen quod dixerat: <quote xml:id="gom-IIreg21-Qd1e108" source="http://scta.info/resource/is6_1@8-13">Vidi Dominum sedentem super solium excelsum</quote>. Deo dicente: <quote xml:id="gom-IIreg21-Qd1e111" source="http://scta.info/resource/ex33_20@8-14">Non videbit me homo et vivet</quote>.</quote>
+        </p>
+        <p xml:id="gom-IIreg21-d1e116">
+          <ref xml:id="gom-IIreg21-Rd1e118"><name xml:id="gom-IIreg21-Nd1e119" ref="#RabanusMaurus">ID.</name></ref>
+          <quote xml:id="gom-IIreg21-Qd1e122">Manasses ad idola se convertit et abominationes. Locuto Deo vel Domino ad eum, attendere noluit; ideo victus ductus est in Babylonem, coangustatus oravit Dominum intente et egit poenitentiam valde, et exaudita est oratio ejus, reduxitque <pb ed="#P" n="0626B"/> eum in regnum suum, et cognovit Manasses quod Dominus ipse est Deus. Ergo post commissa scelera nullus de Dei misericordia desperet, sed magis per poenitentiam spem veniae habeat.</quote>
+        </p>
+        <div xml:id="gom-IIreg21-Dd1e128">
+          <head xml:id="gom-IIreg21-Hd1e130">Versus 24</head>
+          <p xml:id="gom-IIreg21-d1e132">
+            <quote xml:id="gom-IIreg21-Qd1e134" type="lemma" source="http://scta.info/resource/IIreg21_24@15-15">Josiam.</quote>
+            <ref xml:id="gom-IIreg21-Rd1e137"><name xml:id="gom-IIreg21-Nd1e138" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg21-Qd1e141">Josias omnem spurcitiam idolorum emendavit, et se in Dei cultu strenue exercuit, sicut de illo ante longe praedictum est per prophetam.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0108C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen8">
+        <head xml:id="gom-gen8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-gen8-Dd1e100">
+          <head xml:id="gom-gen8-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen8-d1e104">
+            <ref xml:id="gom-gen8-Rd1e106" type="lemma" subtype="implied" target="http://scta.info/resource/gen8_1"/>
+            « Recordatus est autem Deus <quote xml:id="gom-gen8-Qd1e108" source="http://scta.info/resource/gen8_1@4-4">Noe,</quote> etc.
+          </p>
+          <p xml:id="gom-gen8-d1e112">
+            <quote xml:id="gom-gen8-Qd1e114" type="lemma" source="http://scta.info/resource/gen8_1@16-19">Adduxit spiritum super terram,</quote>
+            etc.
+            <ref xml:id="gom-gen8-Rd1e117"><name xml:id="gom-gen8-Nd1e118">ALCUIN.</name>, quaest. in Gen.</ref>
+            <quote xml:id="gom-gen8-Qd1e121">De illo spiritu intelligi potest de quo dictum est, <quote xml:id="gom-gen8-Qd1e123" source="http://scta.info/resource/gen1_2@13-17">Spiritus Dei ferebatur super <pb ed="#P" n="0108D"/> aquas:</quote> tunc ferebatur, ut, congregatis in suum <quote xml:id="gom-gen8-Qd1e128">[Al., unum]</quote> locum, terra appareat: nunc adducitur, ut, ablatis aquis diluvii, faciem terrae revelaret. Potest per spiritum ventus intelligi, juxta illud psalmi CVI: <quote xml:id="gom-gen8-Qd1e130" source="http://scta.info/resource/ps106_25@2-5">Et stetit spiritus procellae,</quote> cujus scilicet flatibus aqua recederet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e136">
+          <head xml:id="gom-gen8-Hd1e138">Versus 4</head>
+          <p xml:id="gom-gen8-d1e140">
+            <quote xml:id="gom-gen8-Qd1e142" type="lemma" source="http://scta.info/resource/gen8_4@1-4">Requievitque arca mense septimo,</quote>
+            etc.
+            <ref xml:id="gom-gen8-Rd1e145"><name xml:id="gom-gen8-Nd1e146" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e149">Septenariam requiem significat, et quia perfecti requiescunt ibi, supradictae quoque quadraturae numerus iteratur. Nam vigesima septima die secundi mensis commendatur sacramentum, et rursus vigesima septima die septimi mensis confirmatur, cum arca requievit: quod enim promittitur in spe, exhibetur in re.</quote>
+          </p>
+          <p xml:id="gom-gen8-d1e152">
+            <pb ed="#P" n="0109A"/>
+            <ref xml:id="gom-gen8-Rd1e156" type="lemma" subtype="implied" target="http://scta.info/resource/gen8_4@1-4"/>
+            <ref xml:id="gom-gen8-Rd1e158"><name xml:id="gom-gen8-Nd1e159" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e162">Quaeritur utrum post centum quinquaginta dies haec facta sunt, an per recapitulationem omnia rememorata quae post quadraginta dies pluviae coeperunt fieri, ut hoc solum <quote xml:id="gom-gen8-Qd1e164" source="http://scta.info/resource/gen8_3@12-14">centum quinquaginta dies</quote> pertineat, quod usque ad ipsos montes aqua est exaltata, aut de fontibus abyssi jam cessante pluvia, aut quia mansit in altitudine nullo spiritu siccante. Caetera vero quae dicta sunt non post centum quinquaginta dies omnia facta sunt, sed commemorata: quae ex fine quadraginta dierum fieri coeperunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e170">
+          <head xml:id="gom-gen8-Hd1e172">Versus 5</head>
+          <p xml:id="gom-gen8-d1e174">
+            <quote xml:id="gom-gen8-Qd1e176" type="lemma" source="http://scta.info/resource/gen8_5@11-13">Decimo enim mense.</quote>
+            Notandum quod decimo mense apparuerunt cacumina montium, quae quindecim cubitis excesserant aquae diluvii, quia sacramenta aeternae quietis et gloriam <pb ed="#P" n="0109B"/> resurrectionis (quam nescivit sapientia superborum) intellexit eminentia sanctorum per impletionem praeceptorum; unde Psalmi CXVIII: <quote xml:id="gom-gen8-Qd1e181" source="http://scta.info/resource/ps118_104@1-4">A mandatis tuis intellexi.</quote> Et alibi, Luc X: <quote xml:id="gom-gen8-Qd1e184" source="http://scta.info/resource/mt11_25@15-24">Abscondisti haec a sapientibus et prudentibus, et revelasti ea parvulis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e189">
+          <head xml:id="gom-gen8-Hd1e191">Versus 7</head>
+          <p xml:id="gom-gen8-d1e193">
+            <quote xml:id="gom-gen8-Qd1e195" type="lemma" source="http://scta.info/resource/gen8_7@1-2">Qui egrediebatur,</quote>
+            etc.
+            <ref xml:id="gom-gen8-Rd1e198"><name xml:id="gom-gen8-Nd1e199" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e202">Quod post quadraginta dies corvus non rediit, aut aquis interceptus, aut cadavere natante illectus, figurat immunditia cupiditatis teterrimos: et ideo his quae foris sunt in mundo nimis intentos, aut rebaptizari, aut ab his quos praeter arcam, id est Ecclesiam, baptismus occidit, seduci et teneri.</quote>
+          </p>
+          <p xml:id="gom-gen8-d1e205">
+            <ref xml:id="gom-gen8-Rd1e207" type="lemma" subtype="implied" target="http://scta.info/resource/gen8_7@1-2"/>
+            <ref xml:id="gom-gen8-Rd1e209"><name xml:id="gom-gen8-Nd1e210" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e213">Quaeritur utrum corvus mortuus sit, an aliquo modo vivere potuerit? Si enim fuit terra ubi requiesceret, similiter columba requiem invenisset. <pb ed="#P" n="0109C"/> Unde conjicitur quod cadaveri potuit corvus insidere, quod naturaliter refugit columba.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e221">
+          <head xml:id="gom-gen8-Hd1e223">Versus 8</head>
+          <p xml:id="gom-gen8-d1e225">
+            <quote xml:id="gom-gen8-Qd1e227" type="lemma" source="http://scta.info/resource/gen8_8@1-2">Emisit quoque.</quote>
+            <ref xml:id="gom-gen8-Rd1e230"><name xml:id="gom-gen8-Nd1e231" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e234">Emissa columba, nec inventa requie reversa, significat per novum Testamentum requiem sanctis in hoc mundo non esse promissam: post quadraginta enim dies emissa est, quo numero vita quae in mundo agitur designatur.</quote>
+          </p>
+          <p xml:id="gom-gen8-d1e237">
+            <ref xml:id="gom-gen8-Rd1e239" type="lemma" subtype="implied" target="http://scta.info/resource/gen8_8@1-2"/>
+            <ref xml:id="gom-gen8-Rd1e241"><name xml:id="gom-gen8-Nd1e242">STRAB.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e244">Arca continet corvum et columbam, et Ecclesia bonos et malos. Corvus emissus non revertitur, quia reprobi illecebris saeculi inhaerentes pereunt. Columba rediit, portans ramum olivae virentibus foliis in ore suo, quia sancti, simplicitate gaudentes, munus pacis in ore portant, dicentes: <!--<note>(Psal. XIX)</note>--> <quote xml:id="gom-gen8-Qd1e248" source="http://scta.info/resource/ps119_7@1-11">Cum his qui oderunt pacem eram pacificus: <pb ed="#P" n="0109D"/> cum loquebar illis,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e256">
+          <head xml:id="gom-gen8-Hd1e258">Versus 9</head>
+          <p xml:id="gom-gen8-d1e260">
+            <quote xml:id="gom-gen8-Qd1e262" type="lemma" source="http://scta.info/resource/gen8_9@9-10">Reversa est.</quote>
+            <ref xml:id="gom-gen8-Rd1e265"><name xml:id="gom-gen8-Nd1e266" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e269">Quaestio est quomodo columba non invenerit ubi resideret, cum jam nudata essent cacumina montium, secundum narrationis ordinem? Quod recapitulatione potest solvi, ut posterius narrata intelligantur quae facta sunt prius, aut potius nondum siccata fuerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e273">
+          <head xml:id="gom-gen8-Hd1e275">Versus 10</head>
+          <p xml:id="gom-gen8-d1e277">
+            <quote xml:id="gom-gen8-Qd1e279" type="lemma" source="http://scta.info/resource/gen8_10@1-1">Exspectatis,</quote>
+            etc. Post septem dies alios, dimissa columba propter septenariam operationem spiritualem, olivae fructuosum surculum retulit, signans multos extra Ecclesiam baptizatos, si pinguedo charitatis non defuerit, posteriore tempore in ore columbae, tanquam in osculo pacis, ad unitatis societatem reduci.
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e284">
+          <head xml:id="gom-gen8-Hd1e286">Versus 11</head>
+          <p xml:id="gom-gen8-d1e288">
+            <pb ed="#P" n="0110A"/>
+            <quote xml:id="gom-gen8-Qd1e292" type="lemma" source="http://scta.info/resource/gen8_11@8-9">Portans ramum.</quote>
+            <ref xml:id="gom-gen8-Rd1e295"><name xml:id="gom-gen8-Nd1e296">ALC.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e298">Columba ramum olivae, expulso teterrimo alite, ad Noe post diluvium portat, quia columba Spiritus sancti, ad Christum post baptismum veniens, ramo refectionis et luminis pacem annuntiat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e302">
+          <head xml:id="gom-gen8-Hd1e304">Versus 12</head>
+          <p xml:id="gom-gen8-d1e306">
+            <quote xml:id="gom-gen8-Qd1e308" type="lemma" source="http://scta.info/resource/gen8_12@1-5">Exspectavitque nihilominus septem alios dies,</quote>
+            etc.
+            <ref xml:id="gom-gen8-Rd1e311"><name xml:id="gom-gen8-Nd1e312" ref="#IsidoreOfSeville">ISID.</name> in Gen.</ref>
+            <quote xml:id="gom-gen8-Qd1e316">Post alios septem dies dimissa columba, nec reversa, significat finem saeculi, quando requies sanctorum erit, non in sacramento spei, quo nunc Ecclesia consociatur, quandiu bibitur quod de latere Christi manavit, sed in perfectione salutis, cum tradetur regnum Deo et Patri, ut in illa conspicua contemplatione veritatis nullis egeamus mysteriis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e320">
+          <head xml:id="gom-gen8-Hd1e322">Versus 13</head>
+          <p xml:id="gom-gen8-d1e324">
+            <quote xml:id="gom-gen8-Qd1e326" type="lemma" source="http://scta.info/resource/gen8_13@2-4">Sexcentesimo primo anno,</quote>
+            etc. <pb ed="#P" n="0110B"/>
+          </p>
+          <p xml:id="gom-gen8-d1e332">
+            <ref xml:id="gom-gen8-Rd1e334" type="lemma" subtype="implied" target="http://scta.info/resource/gen8_13@2-4"/>
+            <ref xml:id="gom-gen8-Rd1e336"><name xml:id="gom-gen8-Nd1e337" ref="#IsidoreOfSeville">Ibid.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e340"><seg type="qs">Vitae Noe, id est, peractis sexcentis annis aperitur arcae tectum</seg>, etc., usque ad <seg type="qs">uno addito, propter unitatis vinculum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e350">
+          <head xml:id="gom-gen8-Hd1e352">Versus 14</head>
+          <p xml:id="gom-gen8-d1e354">
+            <quote xml:id="gom-gen8-Qd1e356" type="lemma" source="http://scta.info/resource/gen8_14@1-2">Mense secundo.</quote>
+          </p>
+          <p xml:id="gom-gen8-d1e360">
+            Historice.
+          </p>
+          <p xml:id="gom-gen8-d1e362">
+            <ref xml:id="gom-gen8-Rd1e364" type="lemma" subtype="implied" target="http://scta.info/resource/gen8_14@1-2"/>
+            <ref xml:id="gom-gen8-Rd1e366"><name xml:id="gom-gen8-Nd1e367">STRAB.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e369">Id est, Maio, Noe annum fecit in arca, et ipsa die qua ingressus fuerat, egressus est. Ingressus es enim vicesima septima die mensis secundi; num dicit quia egressus est septima et vicesima die ejusdem mensis. Sed sciendum est quia si praesenti diei addantur undecim, qualis luna hodie est, talis erit post annum ipsa die. Quando ergo Noe ingressus est, decima septima luna, vel septima decima dies mensis secundi fuit. Ideo post annum undecim additis, fuit vicesima septima dies et decima septima luna.</quote>
+          </p>
+          <p xml:id="gom-gen8-d1e372">
+            <quote xml:id="gom-gen8-Qd1e374" type="lemma" source="http://scta.info/resource/gen8_14@1-2">Mense secundo,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-gen8-d1e379">
+            Mystice.
+          </p>
+          <p xml:id="gom-gen8-d1e381">
+            <ref xml:id="gom-gen8-Rd1e383" type="lemma" subtype="implied" target="http://scta.info/resource/gen8_14@1-2"/>
+            Sicut supra dictum <pb ed="#P" n="0110C"/> est, decima septima die sexcentesimi anni aquis diluvii terra madefacta est, sed vigesima septima die secundi mensis arefacta est, quando praeceptum est ut de arca egrederentur, et pactum acciperent, ne ultra aquis diluvii perirent. In quo intelligi potest quia per decem et septem (sicut supra) status inchoantium significari potest, quando vitiis abrenuntiatur; per viginti septem promotio perfectorum in consummatione virtutum. Si enim decem et septem decem addas, fiunt viginti septem. Si enim decem praeceptis quibus peccatis renuntiatur, evangelicam perfectionem adjicias qua praecipitur non solum non irasci, sed etiam inimicos diligere, et similia, ad illam aetatem perfectionis pervenisti, in qua nec sacramentis praedictis egeas; et de arca <pb ed="#P" n="0110D"/> exiens, id est, de spe ad speciem perveniens, requiem in sacramentis promissam invenies.
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e391">
+          <head xml:id="gom-gen8-Hd1e393">Versus 16</head>
+          <p xml:id="gom-gen8-d1e395">
+            <quote xml:id="gom-gen8-Qd1e397" type="lemma" source="http://scta.info/resource/gen8_16@1-3">Egredere de arca,</quote>
+            etc.
+            <ref xml:id="gom-gen8-Rd1e400"><name xml:id="gom-gen8-Nd1e401" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e404">Juncti exeunt, qui disjuncti intraverunt, quia, <quote xml:id="gom-gen8-Qd1e406" source="http://scta.info/resource/gal5_17@1-9">nunc caro concupiscit adversus spiritum, et spiritus adversus carnem.</quote> Sed in resurrectione justorum perfecta pace spiritui corpus adhaerebit, nulla mutabilitatis indigentia vel concupiscentia resistente.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e412">
+          <head xml:id="gom-gen8-Hd1e414">Versus 20</head>
+          <p xml:id="gom-gen8-d1e416">
+            <quote xml:id="gom-gen8-Qd1e418" type="lemma" source="http://scta.info/resource/gen8_20@6-7">Et tollens,</quote>
+            etc.
+            <ref xml:id="gom-gen8-Rd1e421"><name xml:id="gom-gen8-Nd1e422" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen8-Qd1e425">Ingressa sunt in arcam munda et immunda animalia, sed post egressum non offeruntur Deo nisi munda. Quod vero ait: <quote xml:id="gom-gen8-Qd1e427" source="http://scta.info/resource/gen8_21@29-36">Non percutiam omnem animam viventem sicut feci,</quote> et addidit quae largitate bonitas donat indignis, forte Novi Testamenti indulgentia <pb ed="#P" n="0111A"/> figurata est, ut praeterita ultio ad legis pertineat severitatem, hoc ad gratiae bonitatem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen8-Dd1e435">
+          <head xml:id="gom-gen8-Hd1e437">Versus 21</head>
+          <p xml:id="gom-gen8-d1e439">
+            <quote xml:id="gom-gen8-Qd1e441" type="lemma" source="http://scta.info/resource/gen8_21@16-17">Sensus enim,</quote>
+            etc.
+            <ref xml:id="gom-gen8-Rd1e444"><name xml:id="gom-gen8-Nd1e445" ref="#GregoryGreat">GREG.</name>, Moral. libr. XXXVIII.</ref>
+            <quote xml:id="gom-gen8-Qd1e449">Nemo sibi attribuat, si cogitationes vicerit: quia corruptionis malum, quod quisque ab ortu carnalium desideriorum sumpsit, exercet in provectu aetatis: et nisi hoc citius divinae fortitudinis reprimat manus, omne bonum naturae culpa vorat in profundum; <quote xml:id="gom-gen8-Qd1e451" source="http://scta.info/resource/Icor3_7@2-14">Neque qui plantat est aliquid, neque qui rigat, sed qui incrementum dat Deus .</quote></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

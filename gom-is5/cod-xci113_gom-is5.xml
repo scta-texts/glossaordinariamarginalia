@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1241A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is5">
+        <head xml:id="gom-is5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-is5-Dd1e100">
+          <head xml:id="gom-is5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is5-d1e104">
+            <quote xml:id="gom-is5-Qd1e106" type="lemma" source="http://scta.info/resource/is5_1@1-2">Cantabo dilecto,</quote>
+            etc.
+            <ref xml:id="gom-is5-Rd1e109"><name xml:id="gom-is5-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is5-Qd1e113">Canticum aliquando in laetitia, aliquando in tristitia, ut hoc, scilicet quod ille composuit, qui videns civitatem flevit, dicens: <quote xml:id="gom-is5-Qd1e115" source="http://scta.info/resource/lc19_42@1-5">Quia si cognovisses et tu,</quote> etc. <!--<note>(Luc. XIX)</note>-->.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e123">
+          <head xml:id="gom-is5-Hd1e125">Versus 2</head>
+          <p xml:id="gom-is5-d1e127">
+            <quote xml:id="gom-is5-Qd1e129" type="lemma" source="http://scta.info/resource/is5_2">Vineam electam.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-is5-Rd1e134"><name xml:id="gom-is5-Nd1e135" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e138">Alia editio, vineam <pb ed="#P" n="1241B"/> Sorec, quod est genus vitis optimae, uberrimae perpetuis fructibus; cuncta quae de vinea dicuntur, ad statum animae referuntur, quae a Deo plantata non attulit uvas, sed labruscas: et tradita est bestiis conculcanda, nec imbrem doctrinae suscepit, quia dona praeterita contempsit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e145">
+          <head xml:id="gom-is5-Hd1e147">Versus 3</head>
+          <p xml:id="gom-is5-d1e149">
+            <quote xml:id="gom-is5-Qd1e151" type="lemma" source="http://scta.info/resource/is5_3@1-3">Nunc ergo habitatores,</quote>
+            etc. Similiter Nathan David interrogat, ut de se tanquam de alio sententiam proferat.
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e156">
+          <head xml:id="gom-is5-Hd1e158">Versus 4</head>
+          <p xml:id="gom-is5-d1e160">
+            <quote xml:id="gom-is5-Qd1e162" type="lemma" source="http://scta.info/resource/is5_4@13-15">An quod exspectavi,</quote>
+            etc.? Hoc secundum quosdam supra apud se dixit, hic vero quod cogitaverat, alios interrogat.
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e168">
+          <head xml:id="gom-is5-Hd1e170">Versus 5</head>
+          <p xml:id="gom-is5-d1e172">
+            <quote xml:id="gom-is5-Qd1e174" type="lemma" source="http://scta.info/resource/is5_5@1-4">Et nunc ostendam vobis.</quote>
+            Quasi diceret: Quia non vultis respondere, ergo respondebo pro vobis.
+          </p>
+          <p xml:id="gom-is5-d1e178">
+            <pb ed="#P" n="1241C"/>
+            <quote xml:id="gom-is5-Qd1e182" type="lemma" source="http://scta.info/resource/is5_5@10-10">Auferam,</quote>
+            etc. Ut scilicet qui Deum non senserunt per beneficia, sentiant per supplicia, et ideo minatur poenam, ut convertantur ad poenitentiam.
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e187">
+          <head xml:id="gom-is5-Hd1e189">Versus 6</head>
+          <p xml:id="gom-is5-d1e191">
+            <quote xml:id="gom-is5-Qd1e193" type="lemma" source="http://scta.info/resource/is5_6@15-16">Et nubibus.</quote>
+            <ref xml:id="gom-is5-Rd1e196"><name xml:id="gom-is5-Nd1e197" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e200"><seg type="qs">Quae sub Elia</seg>, etc., usque ad <seg type="qs">quando nec prophetas habuerunt, et apostolos repulerunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e209">
+          <head xml:id="gom-is5-Hd1e211">Versus 7</head>
+          <p xml:id="gom-is5-d1e213">
+            <quote xml:id="gom-is5-Qd1e215" type="lemma" source="http://scta.info/resource/is5_7@5-6">Domus Israel,</quote>
+            etc.
+            <ref xml:id="gom-is5-Rd1e218"><name xml:id="gom-is5-Nd1e219" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e222"><seg type="qs">Ex quo divisum est regnum</seg>, etc., usque ad <seg type="qs">quia Christus ex eis natus est.</seg></quote>
+          </p>
+          <p xml:id="gom-is5-d1e230">
+            <quote xml:id="gom-is5-Qd1e232" type="lemma" source="http://scta.info/resource/is5_7@24-25">Ecce clamor.</quote>
+            Quo vociferatus est contra Dominum et clamavit, dicens: Tolle, tolle, crucifige; vel, clamorem pro justitia fecerunt, quia Christum interfecerunt, cujus sanguis clamat ad Dominum: <quote xml:id="gom-is5-Qd1e235" source="http://scta.info/resource/gen4_10@6-14">Vox sanguis fratris tui Abel clamat ad me de terra</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e240">
+          <head xml:id="gom-is5-Hd1e242">Versus 8</head>
+          <p xml:id="gom-is5-d1e244">
+            <pb ed="#P" n="1241D"/>
+            <quote xml:id="gom-is5-Qd1e248" type="lemma" source="http://scta.info/resource/is5_8@1-3">Vae qui conjungitis.</quote>
+            <quote xml:id="gom-is5-Qd1e251"><seg type="qs">Hoc specialiter ad Judaeos qui avarissimi</seg>, etc., usque ad <seg type="qs">donec deficiat terra, sensus scilicet, et sermo humanus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e260">
+          <head xml:id="gom-is5-Hd1e262">Versus 9</head>
+          <p xml:id="gom-is5-d1e264">
+            <quote xml:id="gom-is5-Qd1e266" type="lemma" source="http://scta.info/resource/is5_9@1-2">In auribus.</quote>
+            <ref xml:id="gom-is5-Rd1e269"><name xml:id="gom-is5-Nd1e270" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e273">Quasi diceret propheta: Haec verba interioribus auribus audivi, quae sunt Domini exercituum.</quote>
+          </p>
+          <p xml:id="gom-is5-d1e276">
+            <quote xml:id="gom-is5-Qd1e278" type="lemma" source="http://scta.info/resource/is5_9@8-9">Nisi domus,</quote>
+            etc. <quote xml:id="gom-is5-Qd1e281"><seg type="qs">Pompa scilicet, et structura haereticorum</seg>, usque ad <seg type="qs">qui ad comparationem multiplicis numeri unione constringitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e290">
+          <head xml:id="gom-is5-Hd1e292">Versus 10</head>
+          <p xml:id="gom-is5-d1e294">
+            <quote xml:id="gom-is5-Qd1e296" type="lemma" source="http://scta.info/resource/is5_10@1-3">Decem enim jugera.</quote>
+            <ref xml:id="gom-is5-Rd1e299"><name xml:id="gom-is5-Nd1e300" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e303">Sterilitas terrae, quae captivitatem secutura est, ostenditur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e308">
+          <head xml:id="gom-is5-Hd1e310">Versus 11</head>
+          <p xml:id="gom-is5-d1e312">
+            <quote xml:id="gom-is5-Qd1e314" type="lemma" source="http://scta.info/resource/is5_11@1-3">Vae qui consurgitis.</quote>
+            <quote xml:id="gom-is5-Qd1e317"><seg type="qs">Quasi diceret: Captivitas imminet</seg>, etc., usque ad <seg type="qs">non intelligunt in se opera Domini.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e326">
+          <head xml:id="gom-is5-Hd1e328">Versus 17</head>
+          <p xml:id="gom-is5-d1e330">
+            <pb ed="#P" n="1242A"/>
+            <quote xml:id="gom-is5-Qd1e334" type="lemma" source="http://scta.info/resource/is5_17@1-3">Et pascentur agni.</quote>
+            <ref xml:id="gom-is5-Rd1e337"><name xml:id="gom-is5-Nd1e338" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e341">Juxta historiam idem est quod supra, regionem vestram alieni devorant coram vobis.</quote>
+          </p>
+          <p xml:id="gom-is5-d1e344">
+            <quote xml:id="gom-is5-Qd1e346" type="lemma" source="http://scta.info/resource/is5_17">Advenae: Auferetur a vobis regnum Dei,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. <quote xml:id="gom-is5-Qd1e351"><seg type="qs">De toto enim orbe congregata</seg>, etc., usque ad <seg type="qs">ut loca taurorum occuparent agni.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e360">
+          <head xml:id="gom-is5-Hd1e362">Versus 18</head>
+          <p xml:id="gom-is5-d1e364">
+            <quote xml:id="gom-is5-Qd1e366" type="lemma" source="http://scta.info/resource/is5_18@1-3">Vae qui trahitis.</quote>
+            <quote xml:id="gom-is5-Qd1e369"><seg type="qs">Haec ad principes Judaeorum</seg>, etc., usque ad <seg type="qs">anathematizant vocabulum Christianorum.</seg></quote>
+          </p>
+          <p xml:id="gom-is5-d1e377">
+            <quote xml:id="gom-is5-Qd1e379" type="lemma" source="http://scta.info/resource/is5_18@5-7">In funiculis vanitatis.</quote>
+            <ref xml:id="gom-is5-Rd1e382"><name xml:id="gom-is5-Nd1e383" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e386"><seg type="qs">In quibus erant</seg>, etc., usque ad <seg type="qs">tanquam solidissimis vinculis tenemur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e395">
+          <head xml:id="gom-is5-Hd1e397">Versus 20</head>
+          <p xml:id="gom-is5-d1e399">
+            <quote xml:id="gom-is5-Qd1e401" type="lemma" source="http://scta.info/resource/is5_20@1-3">Vae qui dicitis.</quote>
+            <ref xml:id="gom-is5-Rd1e404"><name xml:id="gom-is5-Nd1e405" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e408">Hoc specialiter contra Judaeos qui Barrabam elegerunt, Christum condemnaverunt; generaliter ad omnes qui injustum justificant, justum condemnant.</quote>
+          </p>
+          <p xml:id="gom-is5-d1e411">
+            <quote xml:id="gom-is5-Qd1e413" type="lemma" source="http://scta.info/resource/is5_20@8-10">Malum, tenebras, <pb ed="#P" n="1242B"/> amarum,</quote>
+            in simili significatione et figura ponuntur. In Barraba diabolum intelligimus, de quo: <quote xml:id="gom-is5-Qd1e418" source="http://scta.info/resource/is20_6@20-22">Libera nos a malo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e423">
+          <head xml:id="gom-is5-Hd1e425">Versus 21</head>
+          <p xml:id="gom-is5-d1e427">
+            <quote xml:id="gom-is5-Qd1e429" type="lemma" source="http://scta.info/resource/is5_21@1-4">Vae qui sapientes estis.</quote>
+            <quote xml:id="gom-is5-Qd1e432"><seg type="qs">Despecta Dei sapientia</seg>, etc., usque ad <seg type="qs">nec intrant ad Christum, nec permittunt intrare.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e441">
+          <head xml:id="gom-is5-Hd1e443">Versus 22</head>
+          <p xml:id="gom-is5-d1e445">
+            <quote xml:id="gom-is5-Qd1e447" type="lemma" source="http://scta.info/resource/is5_22@13-13">Ebrietatem.</quote>
+            Vinum continet omne vitium. Ebrietas (quae Hebraice <mentioned>sicera</mentioned> ) significat omnia quae statum mentis evertunt. Ex abundantia panis et vini peccatum Sodomorum crevit.
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e455">
+          <head xml:id="gom-is5-Hd1e457">Versus 23</head>
+          <p xml:id="gom-is5-d1e459">
+            <quote xml:id="gom-is5-Qd1e461" type="lemma" source="http://scta.info/resource/is5_23@1-5">Qui justificatis impium pro muneribus.</quote>
+            Supra dictum est, quia pro uvis attulerunt spinas, et fenum, et ligna, et stipulas, et vepres arsuros, quia non tantum ista fecerunt, sed et legem <pb ed="#P" n="1242C"/> abjecerunt, et eloquium Dei blasphemaverunt. De quibus: <quote xml:id="gom-is5-Qd1e466" source="http://scta.info/resource/is2_3@29-37">De Sion exibit lex, et verbum Domini de Jerusalem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e471">
+          <head xml:id="gom-is5-Hd1e473">Versus 24</head>
+          <p xml:id="gom-is5-d1e475">
+            <quote xml:id="gom-is5-Qd1e477" type="lemma" source="http://scta.info/resource/is5_24@13-14">Radix eorum.</quote>
+            <ref xml:id="gom-is5-Rd1e480"><name xml:id="gom-is5-Nd1e481" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e484">Prava cogitatio, ex qua procedit opus tanquam germen.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e488">
+          <head xml:id="gom-is5-Hd1e490">Versus 25</head>
+          <p xml:id="gom-is5-d1e492">
+            <quote xml:id="gom-is5-Qd1e494" type="lemma" source="http://scta.info/resource/is5_25@1-2">Ideo iratus.</quote>
+            <ref xml:id="gom-is5-Rd1e497"><name xml:id="gom-is5-Nd1e498" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e501">Notandum quod non exprobrat idololatriam et caetera peccata, sed quod abjecerunt legem Evangelii, et blasphemaverunt sanctum sermonem Domini: qui iratus fuerat contra principes et potentes, qui erant sapientes sibi et munera sequentes; quos devoravit lingua ignis, ut potentes potenter tormenta patiantur.</quote>
+          </p>
+          <p xml:id="gom-is5-d1e504">
+            <quote xml:id="gom-is5-Qd1e506" type="lemma" source="http://scta.info/resource/is5_25@2-3">Iratus est.</quote>
+            <ref xml:id="gom-is5-Rd1e509"><name xml:id="gom-is5-Nd1e510" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e513">Non quod humanis subjaceat passionibus; sed qui delinquimus, nisi Dominum irascentem audierimus, non timemus.</quote>
+          </p>
+          <p xml:id="gom-is5-d1e516">
+            <pb ed="#P" n="1242D"/>
+            <quote xml:id="gom-is5-Qd1e520" type="lemma" source="http://scta.info/resource/is5_25@15-16">Et percussit,</quote>
+            etc. Futura quasi praeterita dicit prophetali certitudine.
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e525">
+          <head xml:id="gom-is5-Hd1e527">Versus 26</head>
+          <p xml:id="gom-is5-d1e529">
+            <quote xml:id="gom-is5-Qd1e531" type="lemma" source="http://scta.info/resource/is5_26@6-12">Et sibilabit ad eum de finibus terrae,</quote>
+            etc.
+            <ref xml:id="gom-is5-Rd1e534"><name xml:id="gom-is5-Nd1e535" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is5-Qd1e538"><seg type="qs">Hebraei hunc locum de Babyloniis intelligunt</seg>, etc., usque ad <seg type="qs">affectu se jungit populo, et ait:</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is5-Dd1e547">
+          <head xml:id="gom-is5-Hd1e549">Versus 30</head>
+          <p xml:id="gom-is5-d1e551">
+            <quote xml:id="gom-is5-Qd1e553" type="lemma" source="http://scta.info/resource/is5_30@11-11">Aspiciemus.</quote>
+            Non ausi respicere coelum, cujus habitatorem Deum offendimus, et lux nostra, quam semper habebamus in Deo, tribulationum caligine obscurata est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

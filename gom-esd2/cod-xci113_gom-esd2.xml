@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Esdrae, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Esdrae, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0693D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-esd2">
+        <head xml:id="gom-esd2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-esd2-Dd1e100">
+          <head xml:id="gom-esd2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-esd2-d1e104">
+            <pb ed="#P" n="0693D"/>
+            <quote xml:id="gom-esd2-Qd1e108" type="lemma" source="http://scta.info/resource/esd2_1">Hi sunt,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Judaeae scilicet non Babyloniae. Ad hanc enim pertinebant etiam de captivorum stirpe in Babylonia lati. Toto enim animo Judaeam et Jerusalem suspirabant, quorum figuram gerit dux eorum Zorobabel, qui nomine ipso se ortum in Babylone demonstrat, sed intentione et opere civem Jerusalem. Altiori sensu filii Ecclesiae, filii sunt patriae coelestis, non solum qui Ecclesiae sacramentis jam sunt imbuti, sed etiam qui foris, id est inter impios aliquando aberrantes divina electione ante saecula praeordinati ad vitam divinae gratiae ministeriis sunt consecrandi.
+          </p>
+          <p xml:id="gom-esd2-d1e114">
+            <quote xml:id="gom-esd2-Qd1e116" type="lemma" source="http://scta.info/resource/esd2_1@17-21">Et reversi sunt in Jerusalem.</quote>
+            <ref xml:id="gom-esd2-Rd1e119"><name xml:id="gom-esd2-Nd1e120" ref="#Bede">BEDA</name> in Esdram, tom. II.</ref>
+            <quote xml:id="gom-esd2-Qd1e124"><seg type="qs">Cum enim liberati de potestate Satanae, etc., <pb ed="#P" n="0694A"/></seg> usque ad <seg type="qs">visio autem pacis et confessio in praesenti inchoatur, et in futuro perficitur.</seg></quote>
+          </p>
+          <p xml:id="gom-esd2-d1e133">
+            <quote xml:id="gom-esd2-Qd1e135" type="lemma" source="http://scta.info/resource/esd2_1@24-26">Unusquisque in civitatem.</quote>
+            <ref xml:id="gom-esd2-Rd1e138"><name xml:id="gom-esd2-Nd1e139" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e143"><seg type="qs">Ideo vigilanter Scriptura distinxit de qua generatione captivorum soluti in patriam redierint</seg>, etc., usque ad <seg type="qs">pro quibus certa mercede remuneret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e152">
+          <head xml:id="gom-esd2-Hd1e154">Versus 2</head>
+          <p xml:id="gom-esd2-d1e156">
+            <quote xml:id="gom-esd2-Qd1e158" type="lemma" source="http://scta.info/resource/esd2_2@15-15">Numerus,</quote>
+            etc.
+            <ref xml:id="gom-esd2-Rd1e161"><name xml:id="gom-esd2-Nd1e162" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e166"><seg type="qs">Populum Israel tribum Juda et Benjamin dicit</seg>, etc., usque ad <seg type="qs">una cum sacerdotibus et Levitis qui inter eos sortem habuerant, debere intelligi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e175">
+          <head xml:id="gom-esd2-Hd1e177">Versus 58</head>
+          <p xml:id="gom-esd2-d1e179">
+            <quote xml:id="gom-esd2-Qd1e181" type="lemma" source="http://scta.info/resource/esd2_58@2-4">Nathinaei filii,</quote>
+            etc.
+            <ref xml:id="gom-esd2-Rd1e184"><name xml:id="gom-esd2-Nd1e185" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e189">Nathinaei qui post sacerdotes, Levitas, cantores, et janitores in ordine describuntur, ipsi tunc fuere qui nunc in Ecclesia subdiaconi vocantur, obedientes officiis Levitarum, et oblationes in templo suscipientes <pb ed="#P" n="0694B"/> a populo.</quote>
+          </p>
+          <p xml:id="gom-esd2-d1e195">
+            <quote xml:id="gom-esd2-Qd1e197" type="lemma" source="http://scta.info/resource/esd2_58@1-2">Omnes Nathinaei.</quote>
+            <ref xml:id="gom-esd2-Rd1e200"><name xml:id="gom-esd2-Nd1e201" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e205">Hoc loco etiam secundum litteram gratia Dei ostenditur, qua etiam in Veteri Testamento gentiles ad salutem recipiebantur, dum exposito catalogo eorum quos veraciter ad populum Dei pertinere constabat adjuncti sunt, qui utrum ex Israel, an ex proselytis essent, ignorabatur: eorumque simul inter filios Israel numerus exponitur: etsi enim longa separatione patrum suorum a templo vel populo Dei quomodo ad eum pertinerent indicare nequierant: qui tamen data generali licentia de captivitate ascenderant, ut socii recipiebantur; gaudebant etenim caeteri Israelitae eos ob amorem communis fidei et religionis habere quasi fratres et notos, etsi in origine carnis minus <pb ed="#P" n="0694C"/> cognoscebant eos.</quote>
+          </p>
+          <p xml:id="gom-esd2-d1e211">
+            <ref xml:id="gom-esd2-Rd1e213" type="lemma" subtype="implied" target="http://scta.info/resource/esd2_58@1-2"/>
+            Allegorice autem inter poenitentes qui liberati a captivitate vitiorum ad aedificandam vel in se, vel in aliis domum Domini ascendunt, sunt nonnulli qui plurimis gravioribus peccatis astricti, qui a Deo ab omni actu pietatis et castitatis videntur alienati, ut nihili prorsus bonitatis et religionis quam a doctoribus acceperant, in eis remansisse videatur, nec possunt indicare utrum ex Israel, id est ex sancta Ecclesia fuerint generati, quia tales peccando facti sunt, quasi nunquam pertinuerint ad Spiritum sanctum, poenitendo tamen corriguntur et convertuntur, ut numerus eorum inter veros Israelitas in quibus dolus non est, conscribatur in coelis.
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e217">
+          <head xml:id="gom-esd2-Hd1e219">Versus 61</head>
+          <p xml:id="gom-esd2-d1e221">
+            <quote xml:id="gom-esd2-Qd1e223" type="lemma" source="http://scta.info/resource/esd2_61@1-4">Et de filiis sacerdotum.</quote>
+            <ref xml:id="gom-esd2-Rd1e226"><name xml:id="gom-esd2-Nd1e227" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e231"><pb ed="#P" n="0694D"/> Eadem cautela filii transmigrationis erga sacerdotes agunt, qua erga populum. Curabant enim, ut distincte patesceret qui vere ad populum Israel vel ad genus sacerdotale pertinerent, qui aut suspecti aut certa proselytorum, id est, advenarum essent stirpe procreati. Sacerdotes ergo suspectos ab altaris moverunt officio, usque dum certius eorum origo claresceret, sed nihilominus in societate transmigrantium, unanimi secum pace servaverunt.</quote>
+          </p>
+          <p xml:id="gom-esd2-d1e236">
+            <ref xml:id="gom-esd2-Rd1e238" type="lemma" subtype="implied" target="http://scta.info/resource/esd2_61@1-4"/>
+            Mystice autem quaerunt filii sacerdotum de captivitate Babylonica ascendentes scripturam genealogiae suae, nec invenientes, de sacerdotio ejiciuntur cum ministri altaris in tanta flagitia vel nefanda dogmata decidunt, ut etsi poenitendo ad salutem <pb ed="#P" n="0695A"/> animae redeant, non tamen digni sunt qui ad sacrum gradum restituantur. Etsi enim inter fideles vitam exspectent aeternam, non tamen scripturam gradus sui, quem repetere nequeunt inter perfectos sacerdotes inveniunt.
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e245">
+          <head xml:id="gom-esd2-Hd1e247">Versus 64</head>
+          <p xml:id="gom-esd2-d1e249">
+            <quote xml:id="gom-esd2-Qd1e251" type="lemma" source="http://scta.info/resource/esd2_64@1-4">Omnis multitudo quasi vir unus,</quote>
+            etc.
+            <ref xml:id="gom-esd2-Rd1e254"><name xml:id="gom-esd2-Nd1e255" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e259">Hi eos significant qui profectu emendatioris vitae vitia superare, et virtutum culmen ascendere satagunt, nondum tamen sibi ad providendam viam regularis vitae sufficiunt, sed eorum qui in Christo praecesserunt industria coercentur et diriguntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e263">
+          <head xml:id="gom-esd2-Hd1e265">Versus 65</head>
+          <p xml:id="gom-esd2-d1e267">
+            <quote xml:id="gom-esd2-Qd1e269" type="lemma" source="http://scta.info/resource/esd2_65@13-15">Et in ipsis.</quote>
+            <ref xml:id="gom-esd2-Rd1e272"><name xml:id="gom-esd2-Nd1e273" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e277"><seg type="qs">Mystice, in templo vel populo Dei sunt cantores</seg>, etc., usque ad <seg type="qs">et quasi suavitate suae vocis adjuvant aedificantes templum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e286">
+          <head xml:id="gom-esd2-Hd1e288">Versus 66</head>
+          <p xml:id="gom-esd2-d1e290">
+            <quote xml:id="gom-esd2-Qd1e292" type="lemma" source="http://scta.info/resource/esd2_66@6-7">Muli eorum.</quote>
+            <ref xml:id="gom-esd2-Rd1e295"><name xml:id="gom-esd2-Nd1e296" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e300">Mulus ex <pb ed="#P" n="0695B"/> asino et equa gignitur, mala ex equo et asina. Inter homines qui de captivitate ascenderant etiam animalia quibus adjuvabantur, describuntur. Et eorum sicut hominum numerus designatur, quia sunt multi in Ecclesia vel sensu tardiores, vel etiam carnales, qui tamen magistris spiritualibus devote obtemperant, et ad portanda onera fraternae necessitatis, dorsum mentis inclinant, et cum caeteris electis de confusione diabolicae captivitatis erepti, ad supernae civitatis moenia tendunt, quorum etiam numerus memoria Dei integer conservatur; unde: <quote xml:id="gom-esd2-Qd1e304" source="http://scta.info/resource/ps138_16@1-5">Imperfectum meum viderunt oculi tui</quote>. Et alibi: <quote xml:id="gom-esd2-Qd1e307" source="http://scta.info/resource/ps35_7@11-15">Homines et jumenta salvabis Domino</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e313">
+          <head xml:id="gom-esd2-Hd1e315">Versus 68</head>
+          <p xml:id="gom-esd2-d1e317">
+            <quote xml:id="gom-esd2-Qd1e319" type="lemma" source="http://scta.info/resource/esd2_68@13-18">Sponte obtulerunt in domum Dei ad,</quote>
+            <pb ed="#P" n="0695C"/> etc.
+          </p>
+          <p xml:id="gom-esd2-d1e325">
+            <ref xml:id="gom-esd2-Rd1e327" type="lemma" subtype="implied" target="http://scta.info/resource/esd2_68@13-18"/>
+            <ref xml:id="gom-esd2-Rd1e329"><name xml:id="gom-esd2-Nd1e330" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e334"><seg type="qs">Magnae devotionis indicium est</seg>, etc., usque ad <seg type="qs">quanto eos nec licitis uti considerant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e343">
+          <head xml:id="gom-esd2-Hd1e345">Versus 69</head>
+          <p xml:id="gom-esd2-d1e347">
+            <quote xml:id="gom-esd2-Qd1e349" type="lemma" source="http://scta.info/resource/esd2_69@1-2">Secundum vires.</quote>
+            Haec est enim mensura perfectionis, pro posse suo quemque pro Domino laborare, et statum Ecclesiae primo in se, deinde in proximis confirmare. Qui taliter conversantur, recte principes patrum vocantur, quia perfectionem vitae et doctrinae illis qui in Ecclesia per sollicitudinis studium patres vocantur altius vivendo principantur.
+          </p>
+          <p xml:id="gom-esd2-d1e353">
+            <quote xml:id="gom-esd2-Qd1e355" type="lemma" source="http://scta.info/resource/esd2_69@8-9">Auri solidos.</quote>
+            <ref xml:id="gom-esd2-Rd1e358"><name xml:id="gom-esd2-Nd1e359" ref="#Bede">BED.</name>, ibid.</ref>
+            <quote xml:id="gom-esd2-Qd1e363"><seg type="qs">Aurum et argentum et vestes sacerdotales</seg>, etc., usque ad <seg type="qs">Quo enim gravius se errasse meminerunt, eo ardentius bonis operibus insistunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-esd2-Dd1e372">
+          <head xml:id="gom-esd2-Hd1e374">Versus 70</head>
+          <p xml:id="gom-esd2-d1e376">
+            <quote xml:id="gom-esd2-Qd1e378" type="lemma" source="http://scta.info/resource/esd2_70@1-5">Habitaverunt ergo sacerdotes et <pb ed="#P" n="0695D"/> Levitae.</quote>
+            Levita a Chaldaeis captivatus civitatem recipit, cum diaconus virtutem perfectionis quam a diabolo seductus perdiderat Domino donante reintegrat. In Babylone vero natus civitatem in Judaeam veniens ingreditur, cum regeneratus in Christo et bene institutus in Ecclesia acceptum semel diaconatum regulariter custodit. Sicut enim ille per Christi gratiam quasi de Chaldaea servitute liberatus est, ita hic per exsecutionem bonorum, in quibus praedecessores ejusdem gradus conversati sunt, velut ad moenia propriae virtutis vel civitatis ascendunt.
+          </p>
+          <p xml:id="gom-esd2-d1e384">
+            <quote xml:id="gom-esd2-Qd1e386" type="lemma" source="http://scta.info/resource/esd2_70@18-19">Universusque Israel.</quote>
+            <ref xml:id="gom-esd2-Rd1e389"><name xml:id="gom-esd2-Nd1e390" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-esd2-Qd1e394"><seg type="qs">Universum Israel, non decem tribus tantum dicit, quae quondam vocabantur Israel ad distinctionem duarum quae <pb ed="#P" n="0696A"/> vocabantur Juda</seg>, etc., usque ad <seg type="qs">de quibus sibi promittunt Judaei, quod regnante Christo suo, cum caeteris suae gentis hominibus sint in Judaeam reversuri, et in toto orbe regnaturi.</seg></quote>
+          </p>
+          <p xml:id="gom-esd2-d1e404">
+            <ref xml:id="gom-esd2-Rd1e406" type="lemma" subtype="implied" target="http://scta.info/resource/esd2_70@18-19"/>
+            Allegorice sacerdotes, Levitae, cantores, janitores, et Nathinaei, omnisque Israel in civitatibus suis habitant, cum ministri altaris et doctores et plebs Christiana in suis gradibus Deo fideliter serviunt, sive qui eodem gradu aliquando vitiis sordidato vel perdito, per poenitentiam correpti sunt, sive qui nuper de regno diaboli ad Ecclesiam venientes bonum sibi gradum acquisierunt. Suas enim civitates introierunt Levitae vel filii Israel, non solum qui eas captivati amiserant, sed etiam qui de captivis geniti ad ipsas se paterna successione pertinere didicerant. <pb ed="#P" n="0696B"/> Quicunque vero ita captivati sunt, ut nunquam reversi aliis fundos suos possidendos reliquerunt, illos significant, qui sic peccando ab Ecclesia discedunt, ut nunquam resipiscant, et aliis promissa sibi praemia relinquant; unde: <quote xml:id="gom-esd2-Qd1e410" source="http://scta.info/resource/ap2_5@1-20">Memor esto unde excideris, et age poenitentiam, et prima opera fac: sin autem venio tibi, et movebo candelabrum tuum,</quote> etc. <!--<note>(Apoc. II)</note>-->; et alibi: <quote xml:id="gom-esd2-Qd1e415" source="http://scta.info/resource/ap3_11@3-10">Tene quod habes, ut nemo accipiat coronam tuam</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

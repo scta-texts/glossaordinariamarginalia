@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Romanos, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Romanos, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0503D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom10">
+        <head xml:id="gom-rom10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-rom10-Dd1e100">
+          <head xml:id="gom-rom10-Hd1e102">Versus 1</head>
+          <p xml:id="gom-rom10-d1e104">
+            <quote xml:id="gom-rom10-Qd1e106" type="lemma" source="http://scta.info/resource/rom10_1@6-7">Et obsecratio.</quote>
+            Voluntas enim, ut ad vera credenda moveatur non sibi sufficit, nisi per gratiam Deus sibi opituletur, unde: <quote xml:id="gom-rom10-Qd1e109" source="http://scta.info/resource/io6_66@7-18">Nemo venit ad me, nisi cui datum fuerit a Patre meo<!-- check: Migne cites io4; text matches io6_66 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e115">
+          <head xml:id="gom-rom10-Hd1e117">Versus 2</head>
+          <p xml:id="gom-rom10-d1e119">
+            <quote xml:id="gom-rom10-Qd1e121" type="lemma" source="http://scta.info/resource/rom10_2@1-5">Testimonium enim perhibeo illis quod.</quote>
+            <ref xml:id="gom-rom10-Rd1e124"><name xml:id="gom-rom10-Nd1e125" ref="#Ambrose">AMBR.</name></ref>
+            <quote xml:id="gom-rom10-Qd1e128">De his dicit, qui non ex invidia, sed ex errore Christum non receperunt, quibus Petrus: <quote xml:id="gom-rom10-Qd1e130" source="http://scta.info/resource/act3_17@4-8">Scio quod per ignorantiam hoc egistis</quote>.</quote>
+          </p>
+          <p xml:id="gom-rom10-d1e135">
+            <quote xml:id="gom-rom10-Qd1e137" type="lemma" source="http://scta.info/resource/rom10_2@10-12">Non secundum scientiam.</quote>
+            Stultum enim est legem venerari, et Deum legis persequi.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e142">
+          <head xml:id="gom-rom10-Hd1e144">Versus 3</head>
+          <p xml:id="gom-rom10-d1e146">
+            <quote xml:id="gom-rom10-Qd1e148" type="lemma" source="http://scta.info/resource/rom10_3@1-4">Ignorantes enim Dei justitiam.</quote>
+            Non <pb ed="#P" n="0504A"/> qua Deus justus, sed quae homini inest ex Deo.
+          </p>
+          <p xml:id="gom-rom10-d1e154">
+            <quote xml:id="gom-rom10-Qd1e156" type="lemma" source="http://scta.info/resource/rom10_3@9-13">Justitiae Dei non sunt subjecti.</quote>
+            Haec est justitia Dei, quae non in praecepto legis quo timor incutitur, sed in adjutorio gratiae Christi constituta est.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e161">
+          <head xml:id="gom-rom10-Hd1e163">Versus 4</head>
+          <p xml:id="gom-rom10-d1e165">
+            <quote xml:id="gom-rom10-Qd1e167" type="lemma" source="http://scta.info/resource/rom10_4@1-1">Finis.</quote>
+            Non consumens, sed perficiens: perficit ergo justitiam per fidem sine operibus legis.
+          </p>
+          <p xml:id="gom-rom10-d1e171">
+            <quote xml:id="gom-rom10-Qd1e173" type="lemma" source="http://scta.info/resource/rom10_4@4-4">Christus.</quote>
+            Ex Christo est justitia; quia si per legem scriptam vel naturalem esset, et non fide Christi, ergo Christus gratis moreretur.
+          </p>
+          <p xml:id="gom-rom10-d1e177">
+            <quote xml:id="gom-rom10-Qd1e179" type="lemma" source="http://scta.info/resource/rom10_4@5-6">Ad justitiam.</quote>
+            Non humanam, sed divinam. Est enim humana et divina: de humana <ref xml:id="gom-rom10-Rd1e182">ibi, <seg type="incipit">Moyses</seg>;</ref> de divina <ref xml:id="gom-rom10-Rd1e188">ibi: <seg type="incipit">Quae autem ex</seg>,</ref> etc.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e197">
+          <head xml:id="gom-rom10-Hd1e199">Versus 5</head>
+          <p xml:id="gom-rom10-d1e201">
+            <quote xml:id="gom-rom10-Qd1e203" type="lemma" source="http://scta.info/resource/rom10_5@3-3">Scriptura.</quote>
+            In Numeris et Levitico ita habetur: <quote xml:id="gom-rom10-Qd1e206" source="http://scta.info/resource/rom10_5@10-14">Qui fecerit ea, vivet in illis.</quote>
+          </p>
+          <p xml:id="gom-rom10-d1e210">
+            <quote xml:id="gom-rom10-Qd1e212" type="lemma" source="http://scta.info/resource/rom10_5@13-15">Vivet in ea.</quote>
+            Habet istud praemium, <pb ed="#P" n="0504B"/> scilicet ne ista morte puniatur. Non est autem magna justitia, timere, nec habet meritum apud Deum.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e219">
+          <head xml:id="gom-rom10-Hd1e221">Versus 6</head>
+          <p xml:id="gom-rom10-d1e223">
+            <quote xml:id="gom-rom10-Qd1e225" type="lemma" source="http://scta.info/resource/rom10_6@18-21">Id est Christum deducere.</quote>
+            Id est negare Christum ascendisse.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e230">
+          <head xml:id="gom-rom10-Hd1e232">Versus 8</head>
+          <p xml:id="gom-rom10-d1e234">
+            <quote xml:id="gom-rom10-Qd1e236" type="lemma" source="http://scta.info/resource/rom10_8@4-6">Prope est verbum.</quote>
+            Id est utile est, vel non est aliquid inconveniens vel dicere vel credere. Vel <quote xml:id="gom-rom10-Qd1e239" source="http://scta.info/resource/rom10_8@4-4">prope,</quote> quia non est longe a natura animorum: et loquendi ratione, quod nobis dicitur ut credamus.
+          </p>
+          <p xml:id="gom-rom10-d1e243">
+            <quote xml:id="gom-rom10-Qd1e245" type="lemma" source="http://scta.info/resource/rom10_8@14-16">Hoc est verbum.</quote>
+            <ref xml:id="gom-rom10-Rd1e248"><name xml:id="gom-rom10-Nd1e249" ref="#Augustine">AUG.</name>, Tract. 80, in Joannem.</ref>
+            <quote xml:id="gom-rom10-Qd1e253"><seg type="qs">De quo Dominus ait: <quote xml:id="gom-rom10-Qd1e256" source="http://scta.info/resource/io15_3@2-10">Nam vos mundi estis propter verbum quod locutus sum vobis,</quote></seg> etc., usque ad <seg type="qs">nam et in ipso verbo aliud est sonus transiens, aliud est virtus remanens.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e264">
+          <head xml:id="gom-rom10-Hd1e266">Versus 9</head>
+          <p xml:id="gom-rom10-d1e268">
+            <pb ed="#P" n="0504C"/>
+            <quote xml:id="gom-rom10-Qd1e272" type="lemma" source="http://scta.info/resource/rom10_9@1-3">Quia si confitearis.</quote>
+            <ref xml:id="gom-rom10-Rd1e275"><name xml:id="gom-rom10-Nd1e276" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom10-Qd1e279"><seg type="qs">Ecce lans fidei et merces. Laus fidei est, si credideris, quia Dominus est Jesus</seg>, etc., usque ad <seg type="qs">qui eam in resurrectione sibi congrua, hoc est in justificatione praecedit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e288">
+          <head xml:id="gom-rom10-Hd1e290">Versus 10</head>
+          <p xml:id="gom-rom10-d1e292">
+            <quote xml:id="gom-rom10-Qd1e294" type="lemma" source="http://scta.info/resource/rom10_10@1-3">Corde creditur.</quote>
+            Caetera potest nolens, sed credere non potest nisi volens.
+          </p>
+          <p xml:id="gom-rom10-d1e298">
+            <quote xml:id="gom-rom10-Qd1e300" type="lemma" source="http://scta.info/resource/rom10_10@8-8">Confessio.</quote>
+            <ref xml:id="gom-rom10-Rd1e303"><name xml:id="gom-rom10-Nd1e304" ref="#Augustine">AUG.</name>, in Psal. XXX, concione III.</ref>
+            <quote xml:id="gom-rom10-Qd1e308"><seg type="qs">Confiteri est dicere, quid sit in corde</seg>, etc., usque ad <seg type="qs">quia ita credit, ita et in ore debet, ut ita praedicet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e317">
+          <head xml:id="gom-rom10-Hd1e319">Versus 12</head>
+          <p xml:id="gom-rom10-d1e321">
+            <quote xml:id="gom-rom10-Qd1e323" type="lemma" source="http://scta.info/resource/rom10_12@15-16">Qui invocant.</quote>
+            Orans invocat; sed hoc certe non potest, nisi prius credat. Qui ergo invocant, non modo credunt, sed etiam orant, ut postquam crediderit alicujus animus, non desinat id <pb ed="#P" n="0504D"/> postulare, quod promisit Deus toto corde vigilantibus, quia credere dat remissionem peccatorum. Invocare autem impetrat promissa Dei.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e331">
+          <head xml:id="gom-rom10-Hd1e333">Versus 14</head>
+          <p xml:id="gom-rom10-d1e335">
+            <quote xml:id="gom-rom10-Qd1e337" type="lemma" source="http://scta.info/resource/rom10_14@1-3">Quomodo ergo invocabunt,</quote>
+            etc. Probato, qoud de utroque assumitur populo, ostendit per quid, scilicet per missionem utrisque factam, quam qui non receperit, inexcusabilis est. Invocatio salvat, ergo oportet credere: quia, <quote xml:id="gom-rom10-Qd1e340" source="http://scta.info/resource/rom10_14@1-1">quomodo,</quote> etc.
+          </p>
+          <p xml:id="gom-rom10-d1e344">
+            <quote xml:id="gom-rom10-Qd1e346" type="lemma" source="http://scta.info/resource/rom10_14@8-10">Aut quomodo credent,</quote>
+            etc. Quasi dicat: Non credent, nisi audiant. Nec enim olim aliquis credidit qui non aliquo modo audivit vel interius vel exterius. Dicit autem quod credere ex auditu sit, audire ex praedicatione, praedicare ex missione Dei; ita ut totum descendat ex fonte gratiae. Praedicatio autem vere <pb ed="#P" n="0505A"/> est ex missione, quia et pseudo bene nuntiantes, misit Deus qui in bonum malo novit uti. Aliquando etiam malos malis mittit in iram, id est praedicare permittit malos malis ad eorumdem poenam, ut vicissim per se, sicut justum est, pereant.
+          </p>
+          <p xml:id="gom-rom10-d1e352">
+            <ref xml:id="gom-rom10-Rd1e354" type="lemma" subtype="implied" target="http://scta.info/resource/rom10_14@8-10"/>
+            <ref xml:id="gom-rom10-Rd1e356"><name xml:id="gom-rom10-Nd1e357" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom10-Qd1e360"><seg type="qs">Apostolus quod ait: <quote xml:id="gom-rom10-Qd1e363" source="http://scta.info/resource/rom10_14@9-14">Quomodo credent ei quem non audierunt?</quote> De gentibus dixit</seg>, etc., usque ad <seg type="qs">praedicatores Christi esse mittendos.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e372">
+          <head xml:id="gom-rom10-Hd1e374">Versus 15</head>
+          <p xml:id="gom-rom10-d1e376">
+            <quote xml:id="gom-rom10-Qd1e378" type="lemma" source="http://scta.info/resource/rom10_15@1-5">Quomodo vero praedicabunt nisi mittantur?</quote>
+            Ecce apparet quod et ad gentes missi sunt praedicatores.
+          </p>
+          <p xml:id="gom-rom10-d1e382">
+            <quote xml:id="gom-rom10-Qd1e384" type="lemma" source="http://scta.info/resource/rom10_15@9-10">Quam speciosi.</quote>
+            Quia mundum illuminant, in quo apparet a Deo missos, alioquin hoc non poterant.
+          </p>
+          <p xml:id="gom-rom10-d1e388">
+            <quote xml:id="gom-rom10-Qd1e390" type="lemma" source="http://scta.info/resource/rom10_15@13-13">Pacem.</quote>
+            Reconciliationem inter populum et populum diruta maceria legalis ritus in Judaeis, et idololatriae in gentibus. Et inter Deum impios <pb ed="#P" n="0505B"/> per fidem justificantem, et homines in eum credentes.
+          </p>
+          <p xml:id="gom-rom10-d1e396">
+            <quote xml:id="gom-rom10-Qd1e398" type="lemma" source="http://scta.info/resource/rom10_15@14-15">Evangelizantium bona.</quote>
+            Pacem super pacem, quia et regnum Dei pax est.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e403">
+          <head xml:id="gom-rom10-Hd1e405">Versus 16</head>
+          <p xml:id="gom-rom10-d1e407">
+            <quote xml:id="gom-rom10-Qd1e409" type="lemma" source="http://scta.info/resource/rom10_16@6-8">Isaias enim dicit,</quote>
+            etc. Praescius Deus praedixit infidelitatem Judaeorum, sed non fecit; neque praescisset mala eorum, nisi ea haberent. Sic etiam excaecat quod est deserendo, non autem faciendo et hoc meruit voluntas. Si dicitur non possunt Judaei credere quia Isaias praedixit, dico non possunt, quia nolunt. Quod Deus praescivit, praedixit; sed non fecit. Non possunt, dum superbi, dum tales, ut scilicet omnia suis viribus attribuerent, et negarent sibi necessarium esse divinum auxilium ad bene operandum.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e414">
+          <head xml:id="gom-rom10-Hd1e416">Versus 17</head>
+          <p xml:id="gom-rom10-d1e418">
+            <quote xml:id="gom-rom10-Qd1e420" type="lemma" source="http://scta.info/resource/rom10_17@2-3">Fides ex,</quote>
+            etc. Etsi Deus intus doceat, <pb ed="#P" n="0505C"/> tamen praeco exterius annuntiat.
+          </p>
+          <p xml:id="gom-rom10-d1e426">
+            <quote xml:id="gom-rom10-Qd1e428" type="lemma" source="http://scta.info/resource/rom10_17@7-8">Per verbum.</quote>
+            Id est per gratiam Christi doctores verbi evangelici nobis mittentis. Nisi enim dicatur aliquid, nec audiri potest nec credi.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e433">
+          <head xml:id="gom-rom10-Hd1e435">Versus 18</head>
+          <p xml:id="gom-rom10-d1e437">
+            <quote xml:id="gom-rom10-Qd1e439" type="lemma" source="http://scta.info/resource/rom10_18@6-7">Et quidem.</quote>
+            Vel equidem, id est certe, et ita inexcusabiles, sicut in Psalmis ostendit David dicens: <quote xml:id="gom-rom10-Qd1e442" source="http://scta.info/resource/rom10_18@8-13">In omnem terram exivit sonus eorum.</quote>
+          </p>
+          <p xml:id="gom-rom10-d1e446">
+            <ref xml:id="gom-rom10-Rd1e448" type="lemma" subtype="implied" target="http://scta.info/resource/rom10_18@6-7"/>
+            <ref xml:id="gom-rom10-Rd1e450"><name xml:id="gom-rom10-Nd1e451" ref="#Augustine">AUG.</name>, epist. 80, quae est ad Hesych.</ref>
+            <quote xml:id="gom-rom10-Qd1e455"><seg type="qs">Non hoc tempore Apostoli impletum est</seg>, etc., usque ad <seg type="qs">sic et illud: <quote xml:id="gom-rom10-Qd1e461" source="http://scta.info/resource/act1_8@22-25">Testes mihi eritis usque ad ultimum terrae</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e467">
+          <head xml:id="gom-rom10-Hd1e469">Versus 19</head>
+          <p xml:id="gom-rom10-d1e471">
+            <quote xml:id="gom-rom10-Qd1e473" type="lemma" source="http://scta.info/resource/rom10_19@1-4">Sed dico: Nunquid Israel.</quote>
+            Probavit omnes audiisse, et ita Judaeos audiisse. Sed quia possent et audisse et non cognovisse, affirmat eos etiam cognovisse.
+          </p>
+          <p xml:id="gom-rom10-d1e477">
+            <quote xml:id="gom-rom10-Qd1e479" type="lemma" source="http://scta.info/resource/rom10_19@6-6">Cognovit.</quote>
+            Israel dicitur cognovisse doctrinam Evangelii et adventum Christi, quia contradicere <pb ed="#P" n="0505D"/> non potuit ratione vel auctoritate; sed non vere cognovit, ut menti eorum bene sederet.
+          </p>
+          <p xml:id="gom-rom10-d1e485">
+            <quote xml:id="gom-rom10-Qd1e487" type="lemma" source="http://scta.info/resource/rom10_19@11-12">Ad aemulationem.</quote>
+            Invidia Judaeis est, dum gentes eorum Deum suum dicunt, et promissiones et legem eorum et prophetas ad se pertinere.
+          </p>
+          <p xml:id="gom-rom10-d1e491">
+            <quote xml:id="gom-rom10-Qd1e493" type="lemma" source="http://scta.info/resource/rom10_19@15-17">In non gentem.</quote>
+            Gentiles non prius dicebantur gens sancta, quia sine lege erant; vel modo non gens, quia non gentiliter vivunt.
+          </p>
+          <p xml:id="gom-rom10-d1e498">
+            <quote xml:id="gom-rom10-Qd1e500" type="lemma" source="http://scta.info/resource/rom10_19@18-20">In gentem insipientem.</quote>
+            In id est, contra gentem insipientem, id est contra gentiles qui Deum verum non noverant.
+          </p>
+        </div>
+        <div xml:id="gom-rom10-Dd1e506">
+          <head xml:id="gom-rom10-Hd1e508">Versus 21</head>
+          <p xml:id="gom-rom10-d1e510">
+            <quote xml:id="gom-rom10-Qd1e512" type="lemma" source="http://scta.info/resource/rom10_21@5-6">Tota die.</quote>
+            Toto tempore quo cum eis commoratus sum, et mundum illuminavi, opera et affectus ample ostendi Judaeis; vel in parte diei totius, in cruce expandi manus meas, etc.
+          </p>
+          <p xml:id="gom-rom10-d1e516">
+            <quote xml:id="gom-rom10-Qd1e518" type="lemma" source="http://scta.info/resource/rom10_21@7-8">Expandi manus.</quote>
+            <pb ed="#P" n="0506A"/> Quasi dicat: Ampliora ostendi Judaeis. Etenim nullum eis beneficium negavit; nam mortuos illorum suscitavit, diversas eorum infirmitates curavit. Ille autem dicitur manus expandere, qui poscentibus beneficia largiter tribuit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

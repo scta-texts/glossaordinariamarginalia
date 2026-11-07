@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 49</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 49</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0178A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen49">
+        <head xml:id="gom-gen49-Hd1e98">Caput 49</head>
+        <p xml:id="gom-gen49-d1e100">
+          <!--<note>(ALBIN.)</note>--> In benedictionibus Jacob historia tenenda, et allegoria investiganda: historia de divisione terrae promissionis, allegoria de Christo et Ecclesia, quae in novissimis temporibus revelanda; prius tamen historiae fundamenta sunt jacienda.
+        </p>
+        <div xml:id="gom-gen49-Dd1e105">
+          <head xml:id="gom-gen49-Hd1e107">Versus 3</head>
+          <p xml:id="gom-gen49-d1e109">
+            <quote xml:id="gom-gen49-Qd1e111" type="lemma" source="http://scta.info/resource/gen49_3@1-3">Ruben primogenitus meus,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e114"><name xml:id="gom-gen49-Nd1e115" ref="#Jerome">HIERON.</name>, Quaest. in Gen.</ref>
+          </p>
+          <p xml:id="gom-gen49-d1e120">
+            <quote xml:id="gom-gen49-Qd1e122" type="lemma" source="http://scta.info/resource/gen49_3@1-6">Ruben primogenitus <pb ed="#P" n="0178B"/> meus, tu fortitudo mea,</quote>
+            <quote xml:id="gom-gen49-Qd1e127"><seg type="qs">et principium filiorum meorum</seg>, etc., usque ad <seg type="qs">primogeniti ordinem perdidisti.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e136">
+          <head xml:id="gom-gen49-Hd1e138">Versus 5</head>
+          <p xml:id="gom-gen49-d1e140">
+            <quote xml:id="gom-gen49-Qd1e142" type="lemma" source="http://scta.info/resource/gen49_5@1-3">Simeon et Levi,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e145"><name xml:id="gom-gen49-Nd1e146" ref="#Jerome">HIERON.</name>, ubi supra.</ref>
+            <quote xml:id="gom-gen49-Qd1e150"><seg type="qs">LXX: <quote xml:id="gom-gen49-Qd1e153" source="http://scta.info/resource/gen49_5@1-6">Simeon et Levi fratres consummaverunt iniquitatem adinventionis suae,</quote></seg> etc., usque ad <seg type="qs"><quote xml:id="gom-gen49-Qd1e157" source="http://scta.info/resource/gen49_6@1-7">in consilium eorum non veniat anima mea.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e162">
+          <head xml:id="gom-gen49-Hd1e164">Versus 8</head>
+          <p xml:id="gom-gen49-d1e166">
+            <quote xml:id="gom-gen49-Qd1e168" type="lemma" source="http://scta.info/resource/gen49_8@1-3">Juda, te laudabunt,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e171"><name xml:id="gom-gen49-Nd1e172" ref="#Jerome">HIERON.</name>, ubi supra.</ref>
+            <quote xml:id="gom-gen49-Qd1e176"><seg type="qs">Quia Juda <mentioned>confessio</mentioned> vel <mentioned>laus</mentioned> interpretatur</seg>, etc., usque ad <seg type="qs">juxta eumdem sensum aliis verbis Ecclesia monstratur, de qua dicitur Matth. V: <quote xml:id="gom-gen49-Qd1e186" source="http://scta.info/resource/mt5_14@5-11">Non potest civitas abscondi super montem posita.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e192">
+          <head xml:id="gom-gen49-Hd1e194">Versus 9</head>
+          <p xml:id="gom-gen49-d1e196">
+            <quote xml:id="gom-gen49-Qd1e198" type="lemma" source="http://scta.info/resource/gen49_9@1-12">Catulus leonis Juda: ad praedam, <pb ed="#P" n="0178C"/> fili mi, ascendisti: requiescens accubuisti ut leo,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e203"><name xml:id="gom-gen49-Nd1e204" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen49-Qd1e207">Vel catulus leonis in somno requievit, quia non necessitate, sed potestate. Unde: <quote xml:id="gom-gen49-Qd1e209" source="http://scta.info/resource/io10_18@1-9">Potestatem habeo ponendi animam meam, et nemo tollit eam a me, sed ego pono eam .</quote> Quod vero addit, <quote xml:id="gom-gen49-Qd1e212" source="http://scta.info/resource/is31_4@11-13">et ut catulus leonis,</quote> inde enim mortuus unde natus. Aiunt physici quod catulus leonis, cum fuerit natus, tribus diebus dormit et tribus noctibus. Deinde patris fremitu tremefactus cubilis locus excitat dormientem: Christus quoque in cubili sepulcri tribus noctibus jacens, somnium mortis implevit. Bene ergo Christus ut leo requievit, qui non solum mortis acerbitatem, sed et imperium vicit, et ut catulus leonis, quia die tertia resurrexit. Unde additur.</quote>
+          </p>
+          <p xml:id="gom-gen49-d1e217">
+            <pb ed="#P" n="0178D"/>
+            <quote xml:id="gom-gen49-Qd1e221" type="lemma" source="http://scta.info/resource/gen49_9@16-18">Quis suscitabit eum?</quote>
+            etc. Nullus, subaudi, nisi ipse qui ait Joan. II: <quote xml:id="gom-gen49-Qd1e224" source="http://scta.info/resource/io2_19@6-10">Solvite templum hoc et in triduo resuscitabo illud.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e229">
+          <head xml:id="gom-gen49-Hd1e231">Versus 10</head>
+          <p xml:id="gom-gen49-d1e233">
+            <quote xml:id="gom-gen49-Qd1e235" type="lemma" source="http://scta.info/resource/gen49_10@1-5">Non auferetur sceptrum de Juda,</quote>
+            etc. Tandiu enim ex semine Judae reges apud Judaeos fuerunt, donec Christus ex Virgine nasceretur. Primus enim in gente Judaeorum rex alienigena fuit. Herodes, quando jam Christus natus est. Qui ergo negat venisse Christum, ostendat regem de tribu Juda in gente Judaeorum.
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e240">
+          <head xml:id="gom-gen49-Hd1e242">Versus 11</head>
+          <p xml:id="gom-gen49-d1e244">
+            <quote xml:id="gom-gen49-Qd1e246" type="lemma" source="http://scta.info/resource/gen49_11@1-5">Ligans ad vineam pullum suum,</quote>
+            etc. Gentes quas sibi subjunxit. Unde Ezech. XVIII: <quote xml:id="gom-gen49-Qd1e249">Vivo ego, dicit Dominus, nisi hos homines induam sicut vestimentum.</quote> Nos enim Christus in sanguine <pb ed="#P" n="0179A"/> uvae mundavit quando sicut botrus in ligno crucis pependit, et ex latere ejus aqua in ablutionem, et sanguis exivit in redemptionem.
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e255">
+          <head xml:id="gom-gen49-Hd1e257">Versus 12</head>
+          <p xml:id="gom-gen49-d1e259">
+            <quote xml:id="gom-gen49-Qd1e261" type="lemma" source="http://scta.info/resource/gen49_12@1-2">Pulchriores oculi,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e264"><name xml:id="gom-gen49-Nd1e265" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen49-Qd1e268">Quia doctrina eorum austeritatem veteris legis exsuperat, et evangelica praecepta clariora sunt quam legis mandata.</quote>
+          </p>
+          <p xml:id="gom-gen49-d1e271">
+            <quote xml:id="gom-gen49-Qd1e273" type="lemma" source="http://scta.info/resource/gen49_12@7-7">Lacte,</quote>
+            id est doctrina legis, quae carnalem populum vel parvulum lacte alebat: sed <quote xml:id="gom-gen49-Qd1e276" source="http://scta.info/resource/gen49_12@8-8">candidiores,</quote> Ecclesiae doctores, qui fortem et validum verbi cibum manducant, et distribuunt. Unde Hebr. V: <quote xml:id="gom-gen49-Qd1e279" source="http://scta.info/resource/hebr5_14@1-5">Perfectorum est solidus cibus,</quote> qui bene <mentioned>candidiores lacte</mentioned> dicuntur, quia candidi, puri et ab omni macula liberi.
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e286">
+          <head xml:id="gom-gen49-Hd1e288">Versus 13</head>
+          <p xml:id="gom-gen49-d1e290">
+            <quote xml:id="gom-gen49-Qd1e292" type="lemma" source="http://scta.info/resource/gen49_13@1-3">Zabulon in littore,</quote>
+            etc. Ut credentibus <pb ed="#P" n="0179B"/> refugium et periclitantibus demonstret fidei portum. Contra omnes terminos saeculi solidata exspectat naufragium Judaeorum et procellas haereticorum: qui circumferuntur omni vento doctrinae, inde etiam apostoli aliqui assumpti: ibi saepe Dominus docuit. Pertingit autem usque ad Sidonem, id est, usque ad gentes pervenit. Unde Isa. IX: <quote xml:id="gom-gen49-Qd1e297" source="http://scta.info/resource/mt4_15@1-9">Terra Zabulon, et terra Nephthali, via maris trans Jordanem,</quote> etc. Sidon, <quote xml:id="gom-gen49-Qd1e300">venatio:</quote> et ex eis locis sumpti sunt venatores, de quibus dicitur Jer. XVI: <quote xml:id="gom-gen49-Qd1e302" source="http://scta.info/resource/ier16_16@14-23">Mittam venatores multos, et venabuntur vos in omni monte.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e307">
+          <head xml:id="gom-gen49-Hd1e309">Versus 14</head>
+          <p xml:id="gom-gen49-d1e311">
+            <quote xml:id="gom-gen49-Qd1e313" type="lemma" source="http://scta.info/resource/gen49_14@1-1">Issachar.</quote>
+            <ref xml:id="gom-gen49-Rd1e316"><name xml:id="gom-gen49-Nd1e317" ref="#Jerome">HIERON.</name> Quaest. Hebr.</ref>
+            <quote xml:id="gom-gen49-Qd1e321"><seg type="qs">Bonum desideravit requiescens inter medios clericos</seg>, etc., usque ad <seg type="qs">et ideo ei omnes tribus serviant, <pb ed="#P" n="0179C"/> quasi magistro dona portantes.</seg></quote>
+          </p>
+          <p xml:id="gom-gen49-d1e331">
+            <quote xml:id="gom-gen49-Qd1e333" type="lemma" source="http://scta.info/resource/gen49_14@4-6">Accubans inter terminos,</quote>
+            etc. Accubare, est exspectato mundi fine quiescere, nihilque de mundanis quaerere, sed ultima desiderare. Fortis asinus requiem vidit, et terram optimam: cum simplex gentilitas ad robur operis se erexit, quia ad vitae patriam tendit.
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e339">
+          <head xml:id="gom-gen49-Hd1e341">Versus 16</head>
+          <p xml:id="gom-gen49-d1e343">
+            <quote xml:id="gom-gen49-Qd1e345" type="lemma" source="http://scta.info/resource/gen49_16@1-4">Dan judicabit populum suum,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e348"><name xml:id="gom-gen49-Nd1e349" ref="#IsidoreOfSeville">ISID.</name> in Gen., tom. V.</ref>
+            <quote xml:id="gom-gen49-Qd1e353"><seg type="qs">Alii per haec verba putant praedici Antichristum de tribu Dan futurum</seg>, etc., usque ad <seg type="qs">et post beneficia fictae dulcedinis exercet cornua potestatis.</seg></quote>
+          </p>
+          <p xml:id="gom-gen49-d1e361">
+            <quote xml:id="gom-gen49-Qd1e363" type="lemma" source="http://scta.info/resource/gen49_16">Dan judicabit populum suum sicut unum de sceptris Israel. Fiat Dan coluber in via, regulus in <pb ed="#P" n="0179D"/> semita, mordens ungulas equi, et cadat ascensor ejus retrorsum. Salvatorem tuum exspectabo, Domine.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-gen49-Rd1e370"><name xml:id="gom-gen49-Nd1e371" ref="#Jerome">HIERON.</name>, ubi supra.</ref>
+            <quote xml:id="gom-gen49-Qd1e375"><seg type="qs">Samson judex Israel de tribu Dan fuit</seg>, etc., usque ad <seg type="qs">et ipse erit exspectatio gentium.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e384">
+          <head xml:id="gom-gen49-Hd1e386">Versus 19</head>
+          <p xml:id="gom-gen49-d1e388">
+            <quote xml:id="gom-gen49-Qd1e390" type="lemma" source="http://scta.info/resource/gen49_19@1-1">Gad.</quote>
+            <ref xml:id="gom-gen49-Rd1e393"><name xml:id="gom-gen49-Nd1e394" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen49-Qd1e397"><seg type="qs">Latrunculus latrocinabitur ante eum</seg>, etc., usque ad <seg type="qs">et victis hostibus fortiter dimicavit.</seg></quote>
+          </p>
+          <p xml:id="gom-gen49-d1e405">
+            <quote xml:id="gom-gen49-Qd1e407" type="lemma" source="http://scta.info/resource/gen49_19@1-5">Gad accinctus praeliabitur ante eum.</quote>
+            <ref xml:id="gom-gen49-Rd1e410"><name xml:id="gom-gen49-Nd1e411" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen49-Qd1e414">Christus ante et retro praeliabitur contra Antichristum: ante, occulto adventu humilitatis; post, manifestata gloria majestatis. Unde Moyses Deut. XXXIII: <quote xml:id="gom-gen49-Qd1e416" source="http://scta.info/resource/deut33_20@4-14">Benedictus in latitudine Gad, quasi leo requievit: cepitque brachium et verticem, et vidit principatum suum.</quote> Christus enim in sepulcro quievit, verticem <pb ed="#P" n="0180A"/> et superbiam excelsorum humiliavit, et ei datus est principatus, et honor, et regnum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e424">
+          <head xml:id="gom-gen49-Hd1e426">Versus 21</head>
+          <p xml:id="gom-gen49-d1e428">
+            <quote xml:id="gom-gen49-Qd1e430" type="lemma" source="http://scta.info/resource/gen49_21@1-1">Nephthali.</quote>
+            <ref xml:id="gom-gen49-Rd1e433"><name xml:id="gom-gen49-Nd1e434" ref="#Jerome">HIERON.</name></ref>
+          </p>
+          <p xml:id="gom-gen49-d1e438">
+            Allegorice.
+          </p>
+          <p xml:id="gom-gen49-d1e440">
+            <ref xml:id="gom-gen49-Rd1e442" type="lemma" subtype="implied" target="http://scta.info/resource/gen49_21@1-1"/>
+            <quote xml:id="gom-gen49-Qd1e444"><seg type="qs">Virgultum dissolutum, dans nationi pulchritudinem</seg>, etc., usque ad <seg type="qs">quia ibi vel maxime docuit, ut in Evangelio quoque scriptum est.</seg></quote>
+          </p>
+          <p xml:id="gom-gen49-d1e452">
+            <quote xml:id="gom-gen49-Qd1e454" type="lemma" source="http://scta.info/resource/gen49_21@1-3">Nephthali cervus emissus,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e457"><name xml:id="gom-gen49-Nd1e458" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen49-Qd1e461">Apostoli enim et praedicatores, velociter exsilientes, sicut cervi, transcendunt impedimenta saeculi, et excelsa meditantes, dant eloquia pulchritudinis, id est praedicant doctrinam Salvatoris.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e465">
+          <head xml:id="gom-gen49-Hd1e467">Versus 22</head>
+          <p xml:id="gom-gen49-d1e469">
+            <quote xml:id="gom-gen49-Qd1e471" type="lemma" source="http://scta.info/resource/gen49_22@1-3">Filius accrescens Joseph,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e474"><name xml:id="gom-gen49-Nd1e475" ref="#Jerome">HIERON.</name>, ubi supra.</ref>
+          </p>
+          <p xml:id="gom-gen49-d1e480">
+            <quote xml:id="gom-gen49-Qd1e482" type="lemma" source="http://scta.info/resource/gen49_22">Filius accrescens super fontem,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-gen49-Qd1e487">etc., usque ad <seg type="qs">imperans quoque decem tribubus Israel.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e494">
+          <head xml:id="gom-gen49-Hd1e496">Versus 27</head>
+          <p xml:id="gom-gen49-d1e498">
+            <pb ed="#P" n="0180B"/>
+            <quote xml:id="gom-gen49-Qd1e502" type="lemma" source="http://scta.info/resource/gen49_27@1-3">Benjamin lupus rapax,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e505"><name xml:id="gom-gen49-Nd1e506" ref="#Jerome">HIERON.</name>, ibid.</ref>
+          </p>
+          <p xml:id="gom-gen49-d1e511">
+            <quote xml:id="gom-gen49-Qd1e513" type="lemma" source="http://scta.info/resource/gen49_27@4-9">Mane comedet praedam et ad vesperam dividet escam.</quote>
+            <quote xml:id="gom-gen49-Qd1e516"><seg type="qs">Quanquam de Paulo manifestissime prophetia sit, quod in adolescentia sua persecutus Ecclesiam, in senectute praedicator Evangelii fuerit</seg>, etc., usque ad <seg type="qs">super sacerdotibus qui, servientes altari, vivant de altari <!--<note>(I Cor. IX)</note>-->.</seg></quote>
+          </p>
+          <p xml:id="gom-gen49-d1e526">
+            <quote xml:id="gom-gen49-Qd1e528" type="lemma" source="http://scta.info/resource/gen49_27@1-3">Benjamin lupus rapax,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e531"><name xml:id="gom-gen49-Nd1e532" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen49-Qd1e535"><seg type="qs">Quidam doctorum hoc ad Hierusalem retulit</seg>, etc., usque ad <seg type="qs">tunc dividet escam, intelligens a spiritu litteram esse dividendam, quia <quote xml:id="gom-gen49-Qd1e541" source="http://scta.info/resource/IIcor3_6@13-18">littera occidit, spiritus autem vivificat .</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e546">
+          <head xml:id="gom-gen49-Hd1e548">Versus 28</head>
+          <p xml:id="gom-gen49-d1e550">
+            <quote xml:id="gom-gen49-Qd1e552" type="lemma" source="http://scta.info/resource/gen49_28@1-4">Omnes hi in tribubus,</quote>
+            etc. Quaeritur cur Jacob omnes quos de liberis et ancillis <pb ed="#P" n="0180C"/> genuit, aequali honore filios et haeredes constituerit? quia sicut Christus omnibus qui per fidem corpori ejus conciliantur, pari honore et gloria coelestia praemia largitur. <quote xml:id="gom-gen49-Qd1e557">Non est enim ibi discretio an Judaeus sit an Graecus, Barbarus an Scytha, servus an liber: quia per omnia et in omnibus</quote> Christus, qui formam servi induit, et pro libero et pro servo servivit, ut omnibus aequale donum largiatur. Quicunque enim fidem Domini promeretur, nullis maculis carnalis nativitatis offuscatur. Unde Joel. II: <quote xml:id="gom-gen49-Qd1e559" source="http://scta.info/resource/act2_17@8-14">Effundam de spiritu meo super omnem carnem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen49-Dd1e565">
+          <head xml:id="gom-gen49-Hd1e567">Versus 32</head>
+          <p xml:id="gom-gen49-d1e569">
+            <quote xml:id="gom-gen49-Qd1e571" type="lemma" source="http://scta.info/resource/gen49_32@13-13">Appositusque,</quote>
+            etc.
+            <ref xml:id="gom-gen49-Rd1e574"><name xml:id="gom-gen49-Nd1e575">STRAB.</name></ref>
+            <quote xml:id="gom-gen49-Qd1e577">Quaerendum de quo populo dicatur? Nam de patribus nulla quaestio est. Notum est enim quod ad Abraham et Isaac appositus est, sed populus multitudo est. <pb ed="#P" n="0180D"/> Illi autem tam pauci non poterant populus dici. Intelligendum ergo hoc etiam de angelis dici, ad quorum societatem, de mundo transeuntes, apponuntur sancti. Unde Hebr. XII: <quote xml:id="gom-gen49-Qd1e581" source="http://scta.info/resource/hebr12_22@2-15">Accessistis ad montem Sion, et ad Hierusalem coelestem, et ad frequentiam angelorum,</quote> etc.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

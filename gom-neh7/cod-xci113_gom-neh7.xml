@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nehemiae, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Nehemiae, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0719D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-neh7">
+        <head xml:id="gom-neh7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-neh7-Dd1e100">
+          <head xml:id="gom-neh7-Hd1e102">Versus 1</head>
+          <p xml:id="gom-neh7-d1e104">
+            <quote xml:id="gom-neh7-Qd1e106" type="lemma" source="http://scta.info/resource/neh7_1@1-5">Postquam autem aedificatus est murus,</quote>
+            etc.
+            <ref xml:id="gom-neh7-Rd1e109"><name xml:id="gom-neh7-Nd1e110" ref="#Bede">BEDA</name>, in Esdr., lib. III, cap. 24, tom. II.</ref>
+            <quote xml:id="gom-neh7-Qd1e114">Mystice: ubi Ecclesiae murus collectis ad fidem novis populis <pb ed="#P" n="0720A"/> vel correctis his qui erraverant aedificatus fuerit, mox ponendae sunt valvae regularis disciplinae; ne diabolus, qui quasi leo rugiens circumit, in ovile Dei possit irrumpere.</quote>
+          </p>
+          <p xml:id="gom-neh7-d1e120">
+            <quote xml:id="gom-neh7-Qd1e122" type="lemma" source="http://scta.info/resource/neh7_1@10-11">Recensui janitores.</quote>
+            <ref xml:id="gom-neh7-Rd1e125"><name xml:id="gom-neh7-Nd1e126" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh7-Qd1e130">Janitores qui, scilicet, claves regni coelorum perceperunt, ut dignos et humiles suscipiant; superbos vero et indignos ab ingressu supernae civitatis arceant, dicendo: <quote xml:id="gom-neh7-Qd1e132" source="http://scta.info/resource/act8_21@1-17">Non est tibi pars, neque sors in sermone hoc. Cor enim tuum non est rectum coram Deo</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh7-Dd1e138">
+          <head xml:id="gom-neh7-Hd1e140">Versus 3</head>
+          <p xml:id="gom-neh7-d1e142">
+            <quote xml:id="gom-neh7-Qd1e144" type="lemma" source="http://scta.info/resource/neh7_3@4-11">Non aperiantur portae . . . usque ad calorem solis,</quote>
+            etc.
+            <ref xml:id="gom-neh7-Rd1e147"><name xml:id="gom-neh7-Nd1e148" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh7-Qd1e152"><seg type="qs">, id est, toto tempore noctis</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-neh7-Qd1e158" source="http://scta.info/resource/ap21_25@1-12">Et portae ejus non claudentur per diem, nox non erit illic</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-neh7-d1e163">
+            <quote xml:id="gom-neh7-Qd1e165" type="lemma" source="http://scta.info/resource/neh7_3@20-22">Et posui custodes.</quote>
+            <ref xml:id="gom-neh7-Rd1e168"><name xml:id="gom-neh7-Nd1e169" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh7-Qd1e173">Custodes animarum <pb ed="#P" n="0720B"/> non sunt de neophytis vel de plebe constituendi, sed de illis qui a certamine vitiorum Dei gratia liberati, jam mentem in Jerusalem, id est in visione tranquillae pacis habent, quorum conversatio in coelis est. Aliis enim consummato cursu de hac luce subtractis, alii mox substituuntur, nec unquam desinit qui pacem Ecclesiae excubando ambiant propter timores nocturnos, secundum illud: <quote xml:id="gom-neh7-Qd1e177" source="http://scta.info/resource/ps44_17@1-7">Pro patribus tuis nati sunt tibi filii</quote>.</quote>
+          </p>
+          <p xml:id="gom-neh7-d1e182">
+            <ref xml:id="gom-neh7-Rd1e184" type="lemma" subtype="implied" target="http://scta.info/resource/neh7_3@20-22"/>
+            Haec illi tempori typice conveniunt, quo seminato per apostolos longe lateque Dei verbo, totus orbis novum fidei germen accepit, necdum Ecclesiae aedificatae, sed tantum auditu verbi et sacramentis populi adhuc rudes erant imbuti. Ideo congregatis non solum optimatibus, sed et vulgo diligenter eorum numerum <pb ed="#P" n="0720C"/> recensere curavit, ut perspecta omnium summa, discernere posset, qui in Jerusalem, qui in aliis civitatibus habitare deberent.
+          </p>
+          <p xml:id="gom-neh7-d1e189">
+            <quote xml:id="gom-neh7-Qd1e191" type="lemma" source="http://scta.info/resource/neh7_3@31-33">Unumquemque contra domum.</quote>
+            Sic enim custodia sanctae Ecclesiae rite perficitur, si quisque ita sollicitudinem omnium fidelium gerat, ut specialiter eis quibus Deo auctore praelatus est, curam diligentioris studii impendat.
+          </p>
+        </div>
+        <div xml:id="gom-neh7-Dd1e196">
+          <head xml:id="gom-neh7-Hd1e198">Versus 66</head>
+          <p xml:id="gom-neh7-d1e200">
+            <quote xml:id="gom-neh7-Qd1e202" type="lemma" source="http://scta.info/resource/neh7_66@1-4">Omnis multitudo quasi vir unus.</quote>
+            <!--<note>(JOSE.)</note>--> Populum etiam agros colentem decimas fructuum ad Hierosolymam jussit offerre, ut habentes sacerdotes et levitae alimenta, perpetua religionis jura non derelinquerent. Et hi quidem libenter sequebantur decreta Nehemiae. Civitatem vero exinde contigit hominum multitudine compleri. Multa etiam talia <pb ed="#P" n="0720D"/> bona et laudibus digna cum summa fecisset magnificentia Nehemias, ad senectutem perveniens defunctus est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

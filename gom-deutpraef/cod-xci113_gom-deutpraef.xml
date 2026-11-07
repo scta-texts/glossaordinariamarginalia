@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium, Praefatio</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Deuteronomium, Praefatio</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0445D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-deutpraef">
+        <head xml:id="gom-deutpraef-Hd1e98">PRAEFATIO.</head>
+        <p xml:id="gom-deutpraef-d1e100">
+          <pb ed="#P" n="0445D"/>
+          <quote xml:id="gom-deutpraef-Qd1e104">Fasciculus myrrhae delectus mihi.</quote> Myrrha, arbor aromatica, quinque cubitis tantum in altum excrescit, <pb ed="#P" n="0446"/> cujus cortex et radix et folia et omnia amara sunt. Myrrha amara est et cadaveribus apponitur, ut arceat putredinem vermium. Haec est lex vetus in <pb ed="#P" n="0447A"/> quinque libris comprehensa; amara, id est, nemini parcens, unde et Marath designata est; apposita cadaveribus, id est inventa pro peccatoribus, ut corruptionem criminum ab eis arceret. Hujus fasciculus est Deuteronomius, id est ramusculorum plurium in unum collectio. Terminata enim lege in quatuor voluminibus, iste quintus additus est, diffuse dicta in unum breviter colligens, quaedam etiam praetermissa supplens. Additus autem est illis ut numero legali satisfaceret. Quinarius enim numerus est legis, quaternarius Evangelii. Unde et refectio quinque millium hominum in Evangelio ad patres Veteris Testamenti spectat: refectio quatuor millium ad patres novi; illis enim promissa sunt et data terrena, quae quinque sensibus subsunt: illis quadrata, <pb ed="#P" n="0447B"/> id est, soliditas terrae viventium. Deservit etiam liber iste Evangelio in nomine, in explanationis serie, in sui dignitate. Dicitur enim Hebraice <mentioned>Elleh Haddebarim</mentioned>, id est, haec verba, Graece <foreign xml:lang="greek">δευτερονόμιον,</foreign> quod est Latine secunda lex: Non ut quidam dixerunt, altera post praedictam, unde in praedictis dicebatur: <mentioned>Locutus est Dominus</mentioned>; hic autem, <mentioned>Locutus est Moyses</mentioned>; sed secunda, id est secundo iterata, hoc nomine Evangelium praefigurans, quod successit legi, cui nullum succedet. Cum etiam multa breviter colligit et supplet quaedam, formam Evangelii praefigurat: hoc est enim abbreviatum verbum quod fecit Dominus super terram, et supplet imperfecta legis; unde: <quote xml:id="gom-deutpraef-Qd1e122" source="http://scta.info/resource/mt5_17@9-13">Non veni solvere legem, sed adimplere</quote>. Cum autem dicitur <pb ed="#P" n="0447C"/> hoc opus adeo dignum, quod manibus regis gestari jubeatur, dignitatem Evangelii aperit, quod ordinatum est in manu Mediatoris. Cum ergo sic serviat Evangelio, merito est fasciculus dilectus Christo, non tantum pro se, quantum quia ostendit rotam in medio rotae. Intentio est recapitulare praedicta triplici fine, ut arctius memoriae commendetur, ut utilitas praedictorum inculcetur. Quod enim utile est, saepe dicere, nec pigrum esse debet, ut ait Apostolus <!--<note>(Phil. III)</note>-->, nec molestum audire, et ut duritia Judaeorum condemnetur, qui toties dicta non intellexerunt. Modus agendi: Praemittit quasi prologum, quo ostendit quis scripserit, et quid, etc. Post memorat grave delictum pro quo perierunt in deserto, ut hoc timore excitet ad audiendum. Post separat <pb ed="#P" n="0447D"/> civitates refugii. Post recapitulat dicta et facta bona et mala supplet. Post jubet hunc librum poni in arca, et septimo anno legi omni Israeli in scenophegia. Post subdit canticum: <quote xml:id="gom-deutpraef-Qd1e132">Audite,</quote> etc., in memoriam murmuris eorum et poenae, obedientiae et praemii. Et post benedictiones tribuum. Ultimo de morte Moysi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

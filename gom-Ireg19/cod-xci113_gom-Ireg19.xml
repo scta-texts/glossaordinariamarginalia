@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum I, Caput 19</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum I, Caput 19</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0607D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ireg19">
+        <head xml:id="gom-Ireg19-Hd1e98">Caput 19</head>
+        <div xml:id="gom-Ireg19-Dd1e100">
+          <head xml:id="gom-Ireg19-Hd1e102">Versus 3</head>
+          <p xml:id="gom-Ireg19-d1e104">
+            <quote xml:id="gom-Ireg19-Qd1e106" type="lemma" source="http://scta.info/resource/Ireg19_3@1-6">Timuit ergo Elias et surgens abiit,</quote>
+            etc.
+            <ref xml:id="gom-Ireg19-Rd1e109"><name xml:id="gom-Ireg19-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e113">Sancti viri, sublevante spiritu ad summa rapiuntur: quandiu vero in hac vita sunt, ne superbiant, tentationibus reprimuntur. Hinc est quod Elias cum tot virtutibus processisset, Jezabel postmodum quamvis reginam tamen mulierculam fugit: et qui mortuos suscitabat, ventura praevidebat, alia quoque praeclara faciebat, timore percussus de manu mulieris mortem fugit, de manu Dei mortem petit, nec accipit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg19-Dd1e117">
+          <head xml:id="gom-Ireg19-Hd1e119">Versus 5</head>
+          <p xml:id="gom-Ireg19-d1e121">
+            <pb ed="#P" n="0608A"/>
+            <quote xml:id="gom-Ireg19-Qd1e125" type="lemma" source="http://scta.info/resource/Ireg19_5@8-11">Et ecce angelus Domini tetigit.</quote>
+            <ref xml:id="gom-Ireg19-Rd1e128"><name xml:id="gom-Ireg19-Nd1e129" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e132">Angelus qui Eliam pavit, magni consilii angelum signat; cujus opera, tam in corporali quam in spirituali natura subsistimus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg19-Dd1e136">
+          <head xml:id="gom-Ireg19-Hd1e138">Versus 6</head>
+          <p xml:id="gom-Ireg19-d1e140">
+            <quote xml:id="gom-Ireg19-Qd1e142" type="lemma" source="http://scta.info/resource/Ireg19_6@2-6">Et ecce ad caput suum,</quote>
+            etc.
+            <ref xml:id="gom-Ireg19-Rd1e145"><name xml:id="gom-Ireg19-Nd1e146" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e149">Elias bis pastus exprimit nostrae naturae infirmitatem, quibus non sufficit simplex pastus, sed duplex, quatenus ad superna valeamus ascendere. Sicut enim corpus sine alimento corporali subsistere nequit, ita nec anima vivere potest sine verbo Dei.</quote>
+          </p>
+          <p xml:id="gom-Ireg19-d1e152">
+            <ref xml:id="gom-Ireg19-Rd1e154" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg19_6@2-6"/>
+            <ref xml:id="gom-Ireg19-Rd1e156"><name xml:id="gom-Ireg19-Nd1e157" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e160">Sic et nos dum inertiae somnum a nobis excutimus, necesse est ut divino solatio confortati, gressu bonorum operum per omne tempus vitae praesentis summopere festinemus ascendere in montem Dei et in locum sanctum ejus, ut ibi requiem inveniamus <pb ed="#P" n="0608B"/> aeternam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg19-Dd1e167">
+          <head xml:id="gom-Ireg19-Hd1e169">Versus 11</head>
+          <p xml:id="gom-Ireg19-d1e171">
+            <quote xml:id="gom-Ireg19-Qd1e173" type="lemma" source="http://scta.info/resource/Ireg19_11@15-16">Et spiritus.</quote>
+            <ref xml:id="gom-Ireg19-Rd1e176"><name xml:id="gom-Ireg19-Nd1e177" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e180"><seg type="qs">Spiritus ante Dominum evertit montes et petras conterit</seg>, etc., usque ad <seg type="qs">ad cognitionem veritatis incipere exire.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg19-d1e188">
+            <quote xml:id="gom-Ireg19-Qd1e190" type="lemma" source="http://scta.info/resource/Ireg19_11@27-29">Non in spiritu.</quote>
+            Id est, non arbitreris, quod cum vento veniat Dominus, sed post spiritum commotionis, id est, turbinem et impetum venti transibit ignis, deinde sibilus aurae tenuis, post hoc transibit Dominus, ut loquatur tecum.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg19-Dd1e196">
+          <head xml:id="gom-Ireg19-Hd1e198">Versus 14</head>
+          <p xml:id="gom-Ireg19-d1e200">
+            <quote xml:id="gom-Ireg19-Qd1e202" type="lemma" source="http://scta.info/resource/Ireg19_14@28-29">Ego solus,</quote>
+            etc.
+            <ref xml:id="gom-Ireg19-Rd1e205"><name xml:id="gom-Ireg19-Nd1e206" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e209">Tanto prophetae quid difficile fuit cognoscere in hoc mundo famulos remansisse Deo? Sed qui humilis etiam occulta Dei noverat, elatus etiam aperta nesciebat. Unde certum est, quod humilitatis radio se illuminat, qui aliorum bona subtiliter pensat: quia dum <pb ed="#P" n="0608C"/> ea quae ipse fecerit facta foris et ab aliis conspicit, eum qui de singularitate intus erumpere nititur superbiae tumorem premit. Hinc est, quod voce Dei ad Eliam solum se aestimantem dicitur. <quote xml:id="gom-Ireg19-Qd1e213" source="http://scta.info/resource/rom11_4@7-11">Reliqui mihi septem millia virorum,</quote> ut dum non solum se remansisse cognosceret elationis gloriam quae ei de singularitate surgebat, inclinaret.</quote>
+          </p>
+          <p xml:id="gom-Ireg19-d1e218">
+            <ref xml:id="gom-Ireg19-Rd1e220" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg19_14@28-29"/>
+            <ref xml:id="gom-Ireg19-Rd1e222"><name xml:id="gom-Ireg19-Nd1e223" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e226">Non aliter nisi quod eum regem futurum praedixit. Elisaeum non aliter quam pallium suum jactans super eum. Illos duos reges nec ipse per se, nec discipulis ejus Elisaeus unxit, sed quidam prophetarum missus est ut ungeret Jehu.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg19-Dd1e230">
+          <head xml:id="gom-Ireg19-Hd1e232">Versus 17</head>
+          <p xml:id="gom-Ireg19-d1e234">
+            <quote xml:id="gom-Ireg19-Qd1e236" type="lemma" source="http://scta.info/resource/Ireg19_17@3-3">Quicunque.</quote>
+            <ref xml:id="gom-Ireg19-Rd1e239"><name xml:id="gom-Ireg19-Nd1e240" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e243">Nocentes, justitia divina alios per reges plecti facit mucrone, alios per prophetas et sacerdotes transverberat gladio linguae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg19-Dd1e247">
+          <head xml:id="gom-Ireg19-Hd1e249">Versus 19</head>
+          <p xml:id="gom-Ireg19-d1e251">
+            <pb ed="#P" n="0608D"/>
+            <quote xml:id="gom-Ireg19-Qd1e255" type="lemma" source="http://scta.info/resource/Ireg19_19@1-1">Profectus.</quote>
+            Cum Redemptor noster descendens de coelo divino judicio acquisivit populum adhuc terrenis operibus inhiantem, in quo salutem fecit, cum eum ad fidem convertit. Elias enim interpretatur Dominus Deus, Saphat judicans, Elisaeus Dei mei salus. Super quem propheta pallium suum misit, cum Dominus populum fide catholica induit. Unde Apostolus: <quote xml:id="gom-Ireg19-Qd1e258" source="http://scta.info/resource/gal3_27@3-8">Qui in Christo baptizati estis, Christum induistis</quote>. Relictis bobus cucurrit post Eliam: quia electorum chorus audito, <quote xml:id="gom-Ireg19-Qd1e261" source="http://scta.info/resource/lc14_33@6-16">nisi quis renuntiat omnibus, non potest meus esse discipulus</quote>, statim cessavit terrenis lucris inhiare, saecularibus desideriis deservire, et sic aliis verbum vitae <pb ed="#P" n="0609A"/> praedicavit, hoc est enim osculari patrem et matrem, quoscunque potest sive de Judaeis, sive de gentibus sermone velle corrigere.
+          </p>
+          <p xml:id="gom-Ireg19-d1e267">
+            <ref xml:id="gom-Ireg19-Rd1e269" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg19_19@1-1"/>
+            <ref xml:id="gom-Ireg19-Rd1e271"><name xml:id="gom-Ireg19-Nd1e272" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e275">Populus quoque Christianus carnalia desideria mactans totum exercitum suum in opus evangelizandi convertit, unde sufficientem pastum adjutoribus suis praebere possit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg19-Dd1e279">
+          <head xml:id="gom-Ireg19-Hd1e281">Versus 21</head>
+          <p xml:id="gom-Ireg19-d1e283">
+            <quote xml:id="gom-Ireg19-Qd1e285" type="lemma" source="http://scta.info/resource/Ireg19_21@25-25">Secutus.</quote>
+            <ref xml:id="gom-Ireg19-Rd1e288"><name xml:id="gom-Ireg19-Nd1e289" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg19-Qd1e292">Nostrum Eliam sequitur et ministrat ei, qui vestigia ejus sequens, hoc est mandata illius observans, ministerium et honorem condigne satagit exhibere.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

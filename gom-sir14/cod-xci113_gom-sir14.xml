@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 14</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 14</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1198B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir14">
+        <head xml:id="gom-sir14-Hd1e98">Caput 14</head>
+        <div xml:id="gom-sir14-Dd1e100">
+          <head xml:id="gom-sir14-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir14-d1e104">
+            <quote xml:id="gom-sir14-Qd1e106" type="lemma" source="http://scta.info/resource/sir14_1@1-2">Beatus vir,</quote>
+            etc.
+            <ref xml:id="gom-sir14-Rd1e109"><name xml:id="gom-sir14-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir14-Qd1e113">Peccando. Hinc <pb ed="#P" n="1198C"/> Jacobus ait: <quote xml:id="gom-sir14-Qd1e117" source="http://scta.info/resource/iac3_2@7-14">Qui in verbo non offendit, perfectus est</quote>. Illo, scilicet verbo cujus offensionem humana potest vitare fragilitas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e123">
+          <head xml:id="gom-sir14-Hd1e125">Versus 3</head>
+          <p xml:id="gom-sir14-d1e127">
+            <quote xml:id="gom-sir14-Qd1e129" type="lemma" source="http://scta.info/resource/sir14_3@1-4">Viro cupido et tenaci.</quote>
+            Avaritiae pestem describit quae excruciat avarum ne consequatur laboris sui fructum, <quote xml:id="gom-sir14-Qd1e132" source="http://scta.info/resource/ps38_7@12-17">Qui thesaurizat et ignorat cui congregabit ea</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e137">
+          <head xml:id="gom-sir14-Hd1e139">Versus 5</head>
+          <p xml:id="gom-sir14-d1e141">
+            <quote xml:id="gom-sir14-Qd1e143" type="lemma" source="http://scta.info/resource/sir14_5@1-3">Qui sibi nequam.</quote>
+            Haec ad litteram mentem avari et invidi describunt, qui de bonis suis non laetantur. Allegorice vero significant philosophos et haereticos qui sine fide Christi congregant divitias pravi dogmatis, quae nihil proficiunt eis, imo poenam conferunt aeternam.
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e148">
+          <head xml:id="gom-sir14-Hd1e150">Versus 7</head>
+          <p xml:id="gom-sir14-d1e152">
+            <quote xml:id="gom-sir14-Qd1e154" type="lemma" source="http://scta.info/resource/sir14_7@1-3">Et si bene.</quote>
+            <ref xml:id="gom-sir14-Rd1e157"><name xml:id="gom-sir14-Nd1e158" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir14-Qd1e161"><seg type="qs">Dixerat nihil esse <pb ed="#P" n="1198D"/> nequius</seg>, etc., usque ad <seg type="qs">nunc vero idem repetit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e173">
+          <head xml:id="gom-sir14-Hd1e175">Versus 9</head>
+          <p xml:id="gom-sir14-d1e177">
+            <quote xml:id="gom-sir14-Qd1e179" type="lemma" source="http://scta.info/resource/sir14_9@1-2">Insatiabilis oculus.</quote>
+            Quia sine fructu bonorum consumit vitam, et sterilem animam gehennae ignibus tradit cruciendam.
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e184">
+          <head xml:id="gom-sir14-Hd1e186">Versus 10</head>
+          <p xml:id="gom-sir14-d1e188">
+            <quote xml:id="gom-sir14-Qd1e190" type="lemma" source="http://scta.info/resource/sir14_10@1-4">Oculus malus ad mala.</quote>
+            Haereticorum oculus semper malis est intentus, et panem coelestem, id est intellectum divinae sapientiae non meretur, et in Scripturae mensa marcescit indigentia.
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e195">
+          <head xml:id="gom-sir14-Hd1e197">Versus 11</head>
+          <p xml:id="gom-sir14-d1e199">
+            <quote xml:id="gom-sir14-Qd1e201" type="lemma" source="http://scta.info/resource/sir14_11@1-3">Fili, si habes.</quote>
+            Hortatur ut, contempta mundi luxuria, bonorum operum oblationes Deo offeramus: quia breve est spatium vitae in quo operari possumus: post mortem enim, quae festinat, non est tempus operandi, sed mercedem recipiendi: Unde, <quote xml:id="gom-sir14-Qd1e204">Operamini dum dies est: venit enim nox, quando jam non licet operari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e208">
+          <head xml:id="gom-sir14-Hd1e210">Versus 18</head>
+          <p xml:id="gom-sir14-d1e212">
+            <pb ed="#P" n="1199A"/>
+            <quote xml:id="gom-sir14-Qd1e216" type="lemma" source="http://scta.info/resource/sir14_18@1-2">Omnis caro.</quote>
+            Sicut fenum in terra vel folium in arbore nascitur, crescit, virescit, siccatur et dejicitur, ita caro nostra nascitur ex progenie parentum, crescit infantia et pueritia, florescit in adolescentia, maturescit in juventute, arescit in senectute, dejicitur in morte.
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e221">
+          <head xml:id="gom-sir14-Hd1e223">Versus 22</head>
+          <p xml:id="gom-sir14-d1e225">
+            <quote xml:id="gom-sir14-Qd1e227" type="lemma" source="http://scta.info/resource/sir14_22@1-2">Beatus vir,</quote>
+            etc. <quote xml:id="gom-sir14-Qd1e230" source="http://scta.info/resource/ps118_1@4-12">Beati immaculati in via, qui ambulant in lege Domini. Beati qui scrutantur testimonia ejus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir14-Dd1e235">
+          <head xml:id="gom-sir14-Hd1e237">Versus 25</head>
+          <p xml:id="gom-sir14-d1e239">
+            <quote xml:id="gom-sir14-Qd1e241" type="lemma" source="http://scta.info/resource/sir14_25@12-13">Statuet casulam.</quote>
+            Id est doctoris officium agens, sanae doctrinae opera justitiae conjunget, ut auditores verbo et exemplo instruat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

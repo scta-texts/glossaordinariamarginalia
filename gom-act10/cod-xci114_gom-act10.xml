@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0450A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act10">
+        <head xml:id="gom-act10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-act10-Dd1e100">
+          <head xml:id="gom-act10-Hd1e102">Versus 1</head>
+          <p xml:id="gom-act10-d1e104">
+            <quote xml:id="gom-act10-Qd1e106" type="lemma" source="http://scta.info/resource/act10_1@1-2">Vir autem,</quote>
+            etc.
+            <ref xml:id="gom-act10-Rd1e109"><name xml:id="gom-act10-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e113">Merito perfectionis et opere virili hic centurio dicitur vir, secundum <pb ed="#P" n="0450B"/> illud: <quote xml:id="gom-act10-Qd1e117" source="http://scta.info/resource/iob1_1@1-7">Vir erat in terra Hus, nomine Job.</quote></quote>
+          </p>
+          <p xml:id="gom-act10-d1e121">
+            <quote xml:id="gom-act10-Qd1e123" type="lemma" source="http://scta.info/resource/act10_1@8-8">Cornelius.</quote>
+            <ref xml:id="gom-act10-Rd1e126"><name xml:id="gom-act10-Nd1e127" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act10-Qd1e130">Non virtutibus ad fidem, sed fide pertingebat ad virtutes.</quote>
+          </p>
+          <p xml:id="gom-act10-d1e133">
+            <ref xml:id="gom-act10-Rd1e135" type="lemma" subtype="implied" target="http://scta.info/resource/act10_1@8-8"/>
+            <ref xml:id="gom-act10-Rd1e137"><name xml:id="gom-act10-Nd1e138" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-act10-Qd1e141"><seg type="qs">Cornelius, cujus eleemosynae ante baptismum angelo testante</seg>, etc., usque ad <seg type="qs">in fide vero solidatur per opera.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e150">
+          <head xml:id="gom-act10-Hd1e152">Versus 2</head>
+          <p xml:id="gom-act10-d1e154">
+            <quote xml:id="gom-act10-Qd1e156" type="lemma" source="http://scta.info/resource/act10_2@1-1">Religiosus,</quote>
+            etc.
+            <ref xml:id="gom-act10-Rd1e159"><name xml:id="gom-act10-Nd1e160" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e163"><seg type="qs">Haec omnia bono naturae</seg>, etc., usque ad <seg type="qs">sine virili semine, id est, doctrina magistri concepisse credatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e172">
+          <head xml:id="gom-act10-Hd1e174">Versus 3</head>
+          <p xml:id="gom-act10-d1e176">
+            <quote xml:id="gom-act10-Qd1e178" type="lemma" source="http://scta.info/resource/act10_3">Is vidit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-act10-Rd1e183"><name xml:id="gom-act10-Nd1e184" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e187"><seg type="qs">Non in nocte, non in somnis, quia Gentiles grosso sensu</seg>, etc., usque ad <seg type="qs">sicut prius in Petri et Joannis exemplo ostensum fuit.</seg></quote>
+          </p>
+          <p xml:id="gom-act10-d1e195">
+            <quote xml:id="gom-act10-Qd1e197" type="lemma" source="http://scta.info/resource/act10_3@9-10">Angelum Dei.</quote>
+            <ref xml:id="gom-act10-Rd1e200"><name xml:id="gom-act10-Nd1e201" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act10-Qd1e204">Non Satanae. In hoc excusantur apostoli gentibus praedicantes et eas baptizantes: quomodo enim zelaretur ab homine quod manifestabatur <pb ed="#P" n="0450C"/> ab angelo?</quote>
+          </p>
+          <p xml:id="gom-act10-d1e210">
+            <quote xml:id="gom-act10-Qd1e212" type="lemma" source="http://scta.info/resource/act10_3@11-11">Introeuntem,</quote>
+            ad se forsitan, vocantem cum, et datur excusandi occasio Petro Judaeis contra eum disceptantibus et dicentibus: <quote xml:id="gom-act10-Qd1e215" source="http://scta.info/resource/act11_3@3-7">Cur introisti ad viros praeputium habentes</quote>, etc.
+          </p>
+          <p xml:id="gom-act10-d1e219">
+            <quote xml:id="gom-act10-Qd1e221" type="lemma" source="http://scta.info/resource/act10_3@17-17">Corneli.</quote>
+            Familiaritas ostenditur, qua nomen gentilis hominis notitiae angelorum est insertum.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e226">
+          <head xml:id="gom-act10-Hd1e228">Versus 5</head>
+          <p xml:id="gom-act10-d1e230">
+            <quote xml:id="gom-act10-Qd1e232" type="lemma" source="http://scta.info/resource/act10_5@1-4">Et nunc mitte viros,</quote>
+            etc.
+            <ref xml:id="gom-act10-Rd1e235"><name xml:id="gom-act10-Nd1e236" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e239">Hic incipit retributio, ut qui misericors est misereatur tui Deus, quia: <quote xml:id="gom-act10-Qd1e241" source="http://scta.info/resource/mt5_7@1-5">Beati misericordes, quoniam misericordiam,</quote> etc. <!--<note>(Matth. V)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-act10-d1e248">
+            <quote xml:id="gom-act10-Qd1e250" type="lemma" source="http://scta.info/resource/act10_5@6-6">Joppen.</quote>
+            <ref xml:id="gom-act10-Rd1e253"><name xml:id="gom-act10-Nd1e254" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act10-Qd1e257">Civitas est terrae promissionis mari Tyrrheno proxima, et in ipsius orientali littore sita, in quam Jonas descendens intravit navem, ut fugeret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e262">
+          <head xml:id="gom-act10-Hd1e264">Versus 6</head>
+          <p xml:id="gom-act10-d1e266">
+            <quote xml:id="gom-act10-Qd1e268" type="lemma" source="http://scta.info/resource/act10_6@2-2">Hospitatur,</quote>
+            etc. Hospitatur Petrus in <pb ed="#P" n="0450D"/> domo Simonis, id est, obedientis, qui est coriarius, quia doctor Ecclesiae ibi libenter habitat, ubi sunt obedientes, qui castigant corpus et servituti subjiciunt, transgressi fluctus saeculi libertate mentis. Constantia enim fidei fluxam gloriam mundi et terrores contemnunt.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e275">
+          <head xml:id="gom-act10-Hd1e277">Versus 7</head>
+          <p xml:id="gom-act10-d1e279">
+            <quote xml:id="gom-act10-Qd1e281" type="lemma" source="http://scta.info/resource/act10_7@1-3">Et cum discessisset.</quote>
+            <ref xml:id="gom-act10-Rd1e284"><name xml:id="gom-act10-Nd1e285" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e288">Non ait, cum evigilasset Cornelius, quia ei nec per somnium, nec in exstasi, sed manifeste angelus visus est.</quote>
+          </p>
+          <p xml:id="gom-act10-d1e291">
+            <quote xml:id="gom-act10-Qd1e293" type="lemma" source="http://scta.info/resource/act10_7@13-13">Militem.</quote>
+            <ref xml:id="gom-act10-Rd1e296"><name xml:id="gom-act10-Nd1e297" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act10-Qd1e300">Non dicit domesticos metuentes Dominum, quia in principio dixerat eum religiosum fuisse, timentem Dominum cum omni domo sua.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e304">
+          <head xml:id="gom-act10-Hd1e306">Versus 9</head>
+          <p xml:id="gom-act10-d1e308">
+            <quote xml:id="gom-act10-Qd1e310" type="lemma" source="http://scta.info/resource/act10_9@8-8">Appropinquantibus,</quote>
+            etc. Alia littera: <quote xml:id="gom-act10-Qd1e313">Apparentibus illis,</quote> scilicet qui a Cornelio missi sunt, <pb ed="#P" n="0451A"/> id est, ita propinquantibus, ut videri possent a domo Simonis coriarii.
+          </p>
+          <p xml:id="gom-act10-d1e318">
+            <ref xml:id="gom-act10-Rd1e320" type="lemma" subtype="implied" target="http://scta.info/resource/act10_9@8-8"/>
+            <ref xml:id="gom-act10-Rd1e322"><name xml:id="gom-act10-Nd1e323" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e326">Pro, <quote xml:id="gom-act10-Qd1e328" source="http://scta.info/resource/act10_9@12-13">in superiora,</quote> alia littera habet, <quote xml:id="gom-act10-Qd1e331">in coenaculum,</quote> et bene: quia gentilis populus est quasi superior domus: Synagoga vero est infra, quia mundo immersa.</quote>
+          </p>
+          <p xml:id="gom-act10-d1e335">
+            <ref xml:id="gom-act10-Rd1e337" type="lemma" subtype="implied" target="http://scta.info/resource/act10_9@8-8"/>
+            Dicens <quote xml:id="gom-act10-Qd1e339" source="http://scta.info/resource/act10_9@12-13">in superiora,</quote> significavit Ecclesiam, relicta cupiditate terrenorum, conversationem in coelis habituram. Sexta hora Petrus inter preces esurit, salutem utique mundi, quem Jesus sexta aetate saeculi quaerere et salvare venit: quod indicavit cum eadem hora super puteum Samariae sedit.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e344">
+          <head xml:id="gom-act10-Hd1e346">Versus 10</head>
+          <p xml:id="gom-act10-d1e348">
+            <quote xml:id="gom-act10-Qd1e350" type="lemma" source="http://scta.info/resource/act10_10@2-3">Cum esuriret.</quote>
+            <ref xml:id="gom-act10-Rd1e353"><name xml:id="gom-act10-Nd1e354" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e357">Salutem gentium compatiendo esurit, quae nunc in visione ostenditur, quae ideo sexta hora est visa, quia sexta aetate <pb ed="#P" n="0451B"/> saeculi est facta.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e364">
+          <head xml:id="gom-act10-Hd1e366">Versus 11</head>
+          <p xml:id="gom-act10-d1e368">
+            <quote xml:id="gom-act10-Qd1e370" type="lemma" source="http://scta.info/resource/act10_11@3-4">Coelum apertum.</quote>
+            <ref xml:id="gom-act10-Rd1e373"><name xml:id="gom-act10-Nd1e374" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act10-Qd1e377">Apertio coeli revelatio est sacramentorum coelestium proxime futura gentibus. Designat autem in hoc coelos gentibus esse apertos, et introitum esse pandendum.</quote>
+          </p>
+          <p xml:id="gom-act10-d1e380">
+            <quote xml:id="gom-act10-Qd1e382" type="lemma" source="http://scta.info/resource/act10_11@7-8">Vas quoddam.</quote>
+            <ref xml:id="gom-act10-Rd1e385"><name xml:id="gom-act10-Nd1e386" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-act10-Qd1e389"><seg type="qs">Vas illud designat Ecclesiam</seg>, etc., usque ad <seg type="qs">per quos Ecclesia coelesti dono imbuta sublimatur.</seg></quote>
+          </p>
+          <p xml:id="gom-act10-d1e397">
+            <quote xml:id="gom-act10-Qd1e399" type="lemma" source="http://scta.info/resource/act10_11@10-10">Linteum.</quote>
+            Pro Ecclesia, pro candore sanctitatis, et mortificatione carnis.
+          </p>
+          <p xml:id="gom-act10-d1e403">
+            <quote xml:id="gom-act10-Qd1e405" type="lemma" source="http://scta.info/resource/act10_11@15-18">De coelo in terram.</quote>
+            <ref xml:id="gom-act10-Rd1e408"><name xml:id="gom-act10-Nd1e409" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e412">Inde monemur, ut ubi caput nostrum est et radix (cujus rami sumus) illuc penetret anchora spei nostrae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e416">
+          <head xml:id="gom-act10-Hd1e418">Versus 12</head>
+          <p xml:id="gom-act10-d1e420">
+            <quote xml:id="gom-act10-Qd1e422" type="lemma" source="http://scta.info/resource/act10_12@4-5">Omnia quadrupedia.</quote>
+            Omnes gentes crediturae et in unitatem corporis Christi assumendae, ut omnes efficiantur membra ejus.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e428">
+          <head xml:id="gom-act10-Hd1e430">Versus 13</head>
+          <p xml:id="gom-act10-d1e432">
+            <pb ed="#P" n="0451C"/>
+            <quote xml:id="gom-act10-Qd1e436" type="lemma" source="http://scta.info/resource/act10_13@10-10">Occide.</quote>
+            Munda, mortifica, et macta, ut hostias Deo facias, ut eruti de vetustate in novitatem transeant.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e441">
+          <head xml:id="gom-act10-Hd1e443">Versus 14</head>
+          <p xml:id="gom-act10-d1e445">
+            <quote xml:id="gom-act10-Qd1e447" type="lemma" source="http://scta.info/resource/act10_14">Mundacavi,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-act10-Rd1e452"><name xml:id="gom-act10-Nd1e453" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act10-Qd1e456">Qui manducat cibum foris positum in suum trajicit corpus. Praecepit ergo gentes per incredulitatem, foris positas, societati Ecclesiae (quam Petrus significat) inseri.</quote>
+          </p>
+          <p xml:id="gom-act10-d1e459">
+            <ref xml:id="gom-act10-Rd1e461" type="lemma" subtype="implied" target="http://scta.info/resource/act10_14"/>
+            <ref xml:id="gom-act10-Rd1e463"><name xml:id="gom-act10-Nd1e464" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-act10-Qd1e467"><seg type="qs">Gentiles Petrus immundos putabat</seg>, etc., usque ad <seg type="qs">sed in sola Dei dilectione constringat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e476">
+          <head xml:id="gom-act10-Hd1e478">Versus 21</head>
+          <p xml:id="gom-act10-d1e480">
+            <quote xml:id="gom-act10-Qd1e482" type="lemma" source="http://scta.info/resource/act10_21@1-1">Descendens.</quote>
+            <ref xml:id="gom-act10-Rd1e485"><name xml:id="gom-act10-Nd1e486" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act10-Qd1e489">Descendere de tecto, et ad praedicandum ire jubetur, etc., <quote xml:id="gom-act10-Qd1e491" source="http://scta.info/resource/phil3_13@14-19">usque ad, Sanctorum vero conversatio est in coelis</quote>.</quote>
+          </p>
+          <p xml:id="gom-act10-d1e496">
+            <quote xml:id="gom-act10-Qd1e498" type="lemma" source="http://scta.info/resource/act10_21@7-8">Ecce ego,</quote>
+            etc. Ostendit se scire adventum illorum, humilitatis etiam dans exemplum, dimittens circuitum <pb ed="#P" n="0451D"/> verborum.
+          </p>
+          <p xml:id="gom-act10-d1e504">
+            <quote xml:id="gom-act10-Qd1e506" type="lemma" source="http://scta.info/resource/act10_21@12-14">Quae causa est,</quote>
+            etc. Spiritus adesse milites dixit, et qua de causa venerant tacuit, quia ad conservandam humilitatem aliquando prophetiae spiritus ex parte animum tangit, et ex parte non tangit.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e511">
+          <head xml:id="gom-act10-Hd1e513">Versus 22</head>
+          <p xml:id="gom-act10-d1e515">
+            <quote xml:id="gom-act10-Qd1e517" type="lemma" source="http://scta.info/resource/act10_22@17-18">Responsum accepit.</quote>
+            Eleemosynis et orationibus ejus per angelum respondit Dominus.
+          </p>
+          <p xml:id="gom-act10-d1e521">
+            <quote xml:id="gom-act10-Qd1e523" type="lemma" source="http://scta.info/resource/act10_22@24-25">In domum.</quote>
+            Per hoc suadent quia angelus jussit introire in domum ejus, quamvis gentilis esset.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e528">
+          <head xml:id="gom-act10-Hd1e530">Versus 23</head>
+          <p xml:id="gom-act10-d1e532">
+            <quote xml:id="gom-act10-Qd1e534" type="lemma" source="http://scta.info/resource/act10_23@1-1">Introducens,</quote>
+            etc. Hic incipit communio apostolorum cum gentibus, quia descenderat ad eos, qui audierant ab angelo praeceptum ut intrarent in domum gentilis, ideo gentiles hospitio recepit.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e539">
+          <head xml:id="gom-act10-Hd1e541">Versus 24</head>
+          <p xml:id="gom-act10-d1e543">
+            <quote xml:id="gom-act10-Qd1e545" type="lemma" source="http://scta.info/resource/act10_24@10-11">Convocatis cognatis,</quote>
+            etc. Duplex <pb ed="#P" n="0452A"/> causa convocationis; proximitas cognationis, et amicitia.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e553">
+          <head xml:id="gom-act10-Hd1e555">Versus 27</head>
+          <p xml:id="gom-act10-d1e557">
+            <quote xml:id="gom-act10-Qd1e559" type="lemma" source="http://scta.info/resource/act10_27@1-2">Et loquens,</quote>
+            etc.
+            <ref xml:id="gom-act10-Rd1e562"><name xml:id="gom-act10-Nd1e563" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act10-Qd1e566">Communionem aequalitatis meruit sanctitas actionis, sicut in Ananiae et Sapphirae culpa zelus ultionis ejus aperuit potestatis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e570">
+          <head xml:id="gom-act10-Hd1e572">Versus 30</head>
+          <p xml:id="gom-act10-d1e574">
+            <quote xml:id="gom-act10-Qd1e576" type="lemma" source="http://scta.info/resource/act10_30@19-21">Et ecce vir,</quote>
+            etc. Non dicit angelum, adeo alienus erat a fastu, et inquit: <quote xml:id="gom-act10-Qd1e579" source="http://scta.info/resource/act10_31@1-11">Corneli, exaudita est oratio tua, et eleemosynae tuae in memoria habitae sunt coram Deo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e584">
+          <head xml:id="gom-act10-Hd1e586">Versus 31</head>
+          <p xml:id="gom-act10-d1e588">
+            <quote xml:id="gom-act10-Qd1e590" type="lemma" source="http://scta.info/resource/act10_31@11-13">In conspectu Dei.</quote>
+            <ref xml:id="gom-act10-Rd1e593"><name xml:id="gom-act10-Nd1e594" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e597">In Graeco, <quote xml:id="gom-act10-Qd1e599" source="http://scta.info/resource/act10_31@11-13">In conspectu Dei adsumus.</quote> Hoc recte dicitur ab eo qui Deo promptus erat obtemperare, credens eum ubique praesentem esse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e605">
+          <head xml:id="gom-act10-Hd1e607">Versus 34</head>
+          <p xml:id="gom-act10-d1e609">
+            <quote xml:id="gom-act10-Qd1e611" type="lemma" source="http://scta.info/resource/act10_34@10-13">Non est personarum acceptor,</quote>
+            etc. <pb ed="#P" n="0452B"/>
+          </p>
+          <p xml:id="gom-act10-d1e617">
+            <ref xml:id="gom-act10-Rd1e619" type="lemma" subtype="implied" target="http://scta.info/resource/act10_34@10-13"/>
+            <ref xml:id="gom-act10-Rd1e621"><name xml:id="gom-act10-Nd1e622" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act10-Qd1e625"><seg type="qs">Patet Deum non esse personarum acceptorem</seg>, etc., usque ad <seg type="qs">sed omnes credentes acciperent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e634">
+          <head xml:id="gom-act10-Hd1e636">Versus 37</head>
+          <p xml:id="gom-act10-d1e638">
+            <quote xml:id="gom-act10-Qd1e640" type="lemma" source="http://scta.info/resource/act10_37@1-2">Vos scitis,</quote>
+            etc.
+            <ref xml:id="gom-act10-Rd1e643"><name xml:id="gom-act10-Nd1e644" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e647">Sic legendum: Scitis Jesum ut praedicavit Joannes: Jesum a Nazareth, quomodo unxit eum, etc. Vel: hoc praedicavit Joannes, quod unxit eum, non quidem terreno more, sed spiritu et virtute signorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e651">
+          <head xml:id="gom-act10-Hd1e653">Versus 38</head>
+          <p xml:id="gom-act10-d1e655">
+            <quote xml:id="gom-act10-Qd1e657" type="lemma" source="http://scta.info/resource/act10_38@12-13">Qui pertransiit,</quote>
+            etc. In Graeco additur, <quote xml:id="gom-act10-Qd1e660">per quadraginta dies,</quote> non quod quotidie cum illo manducarent et biberent, nam esset contrarium Joanni, qui octo dies interponit quibus eis visus non est, ut tertio manifestaretur, et totidem diebus jejunavit ante mortem, cibo indigens, quod manducavit post resurrectionem jam cibo non indigens. Jejunavit ante mortem, ut nos abstineremus a desideriis <pb ed="#P" n="0452C"/> hujus saeculi. Manducavit, docens per hoc quod nobiscum est usque ad consummationem saeculi. Jejunium est in certamine, quia qui in agone est, ab omnibus se abstinet. Cibus est in spe pacis, quae perfecta erit, cum mortale hoc induerit immortalitatem. Nos autem cum viam Domini carpimus, a vanitate saeculi jejunamus, et futura repromissione reficimur.
+          </p>
+          <p xml:id="gom-act10-d1e665">
+            <ref xml:id="gom-act10-Rd1e667" type="lemma" subtype="implied" target="http://scta.info/resource/act10_38@12-13"/>
+            <ref xml:id="gom-act10-Rd1e669"><name xml:id="gom-act10-Nd1e670" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act10-Qd1e673">Per quadraginta dies, non assidue, sed quibusdam vicibus in illo quadragenario dierum numero factis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e678">
+          <head xml:id="gom-act10-Hd1e680">Versus 41</head>
+          <p xml:id="gom-act10-d1e682">
+            <quote xml:id="gom-act10-Qd1e684" type="lemma" source="http://scta.info/resource/act10_41@12-13">Et bibimus.</quote>
+            <ref xml:id="gom-act10-Rd1e687"><name xml:id="gom-act10-Nd1e688" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-act10-Qd1e691">Hic exponit Petrus quod in Evangelio tacetur, post resurrectionem se bibisse cum Christo, nisi forte illic credamus indicatum, ubi ait: <quote xml:id="gom-act10-Qd1e693" source="http://scta.info/resource/mt26_29@16-23">Donec illud bibam vobiscum in regno Patris mei</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e699">
+          <head xml:id="gom-act10-Hd1e701">Versus 45</head>
+          <p xml:id="gom-act10-d1e703">
+            <pb ed="#P" n="0452D"/>
+            <quote xml:id="gom-act10-Qd1e707" type="lemma" source="http://scta.info/resource/act10_45@15-15">Spiritus.</quote>
+            Spiritus, domum Dei est, inquantum eis datur qui per eum diligunt Deum; apud se autem Deus est, etiamsi nulli datur, Patri et Filio coaeternus. Nec, quia illi dant, et ipse datur, minor est illis. Ita enim datur sicut donum Dei, ut seipsum det sicut Deus: <quote xml:id="gom-act10-Qd1e710" source="http://scta.info/resource/io3_8@1-4">Spiritus enim ubi vult spirat</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e715">
+          <head xml:id="gom-act10-Hd1e717">Versus 47</head>
+          <p xml:id="gom-act10-d1e719">
+            <quote xml:id="gom-act10-Qd1e721" type="lemma" source="http://scta.info/resource/act10_47@4-5">Nunquid aquam,</quote>
+            etc. Quasi Deus quod majus est, prius dedit, et ordinem praeposteravit, nunquid quod minus est, potest prohibere Vos venistis ad hoc ut testes sitis, ergo judicate.
+          </p>
+        </div>
+        <div xml:id="gom-act10-Dd1e726">
+          <head xml:id="gom-act10-Hd1e728">Versus 48</head>
+          <p xml:id="gom-act10-d1e730">
+            <quote xml:id="gom-act10-Qd1e732" type="lemma" source="http://scta.info/resource/act10_48@4-7">In nomine Christi.</quote>
+            Cum sit regula Ecclesiae, baptismum tradi in nomine Trinitatis. Lucas tamen testatur in nomine Jesu Christi illum dari. Quod Ambrosius solvens, dicit per unitatem nominis <pb ed="#P" n="0453A"/> mysterium plenum fieri, quia qui Christum dicit, et Patrem a quo Filius, et Spiritum sanctum etiam designat: qui etiam Patrem dicit, et Filium et Spiritum paritet ostendit: et qui Spiritum nominat, Patrem a quo procedit Spiritus, et Filium, cujus etiam Spiritus est, nuncupat. Unde, ut rationi copuletur auctoritas, etiam in Spiritu baptizatur, secundum illud: <quote xml:id="gom-act10-Qd1e737" source="http://scta.info/resource/act11_16@12-16">Vos autem baptizabimini in Spiritu sancto</quote>, et Apostolus: <quote xml:id="gom-act10-Qd1e740" source="http://scta.info/resource/Icor12_13@2-11">In uno Spiritu baptizati sumus</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 24</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 24</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0560C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam24">
+        <head xml:id="gom-Isam24-Hd1e98">Caput 24</head>
+        <div xml:id="gom-Isam24-Dd1e100">
+          <head xml:id="gom-Isam24-Hd1e102">Versus 4</head>
+          <p xml:id="gom-Isam24-d1e104">
+            <quote xml:id="gom-Isam24-Qd1e106" type="lemma" source="http://scta.info/resource/Isam24_4@11-12">Eratque ibi,</quote>
+            etc.
+            <ref xml:id="gom-Isam24-Rd1e109"><name xml:id="gom-Isam24-Nd1e110" ref="#RabanusMaurus">RAB.</name> ex Euch.</ref>
+            <quote xml:id="gom-Isam24-Qd1e114"><seg type="qs">Rex ex improvisis exceptus insidiis</seg>, etc., usque ad <seg type="qs">ait Samuel: <quote xml:id="gom-Isam24-Qd1e120">Dirupit Dominus regnum Israel de manu tua.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-Isam24-d1e123">
+            <ref xml:id="gom-Isam24-Rd1e125" type="lemma" subtype="implied" target="http://scta.info/resource/Isam24_4@11-12"/>
+            <ref xml:id="gom-Isam24-Rd1e127"><name xml:id="gom-Isam24-Nd1e128" ref="#GregoryGreat">GREG.</name>, Moral., tom. II.</ref>
+            <quote xml:id="gom-Isam24-Qd1e132"><seg type="qs">Quid per Saul, nisi mali <pb ed="#P" n="0560D"/> rectores?</seg> etc., usque ad <seg type="qs">unde Moyses cum contra se et Aaron populum conqueri cognovisset, ait: <quote xml:id="gom-Isam24-Qd1e140" source="http://scta.info/resource/ex16_8@25-28">Nos enim quid sumus</quote>?</seg></quote>
+          </p>
+          <p xml:id="gom-Isam24-d1e145">
+            <quote xml:id="gom-Isam24-Qd1e147" type="lemma" source="http://scta.info/resource/Isam24_4">Vivit,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Defectiva litterae Josephus supplet: qui erant cum eo redarguebant eum. Servabat enim inimicum qui volebat delere eum, et sedavit eos, dicens: <quote xml:id="gom-Isam24-Qd1e152">Vivit Dominus,</quote> etc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

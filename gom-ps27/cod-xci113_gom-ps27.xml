@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 27</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 27</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0881C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps27">
+        <head xml:id="gom-ps27-Hd1e98">Psalmus 27</head>
+        <p xml:id="gom-ps27-d1e100">
+          <quote xml:id="gom-ps27-Qd1e102" type="lemma">Psalmus huic.</quote>
+          <!-- check: lemma not matched to verse text -->
+          Per David aliquando intelligitur caput, id est, Christus; aliquando corpus, id est, Ecclesia; interdum utrumque simul, id est, totus Christus intelligitur, ut hic.
+        </p>
+        <p xml:id="gom-ps27-d1e108">
+          <ref xml:id="gom-ps27-Rd1e110"><name xml:id="gom-ps27-Nd1e111" ref="#Cassiodorus">CASS.</name></ref>
+          <quote xml:id="gom-ps27-Qd1e114">Psalmus tertius, qui breviter de passione et resurrectione.</quote>
+        </p>
+        <p xml:id="gom-ps27-d1e117">
+          <ref xml:id="gom-ps27-Rd1e119"><name xml:id="gom-ps27-Nd1e120" ref="#Cassiodorus">ID.</name></ref>
+          <quote xml:id="gom-ps27-Qd1e123">Hic proponitur Christus (et si adeo dignus) non in se confidere, sed totum a Deo petere; utile exemplum justis.</quote>
+        </p>
+        <div xml:id="gom-ps27-Dd1e126">
+          <head xml:id="gom-ps27-Hd1e128">Versus 1</head>
+          <p xml:id="gom-ps27-d1e130">
+            <quote xml:id="gom-ps27-Qd1e132" type="lemma" source="http://scta.info/resource/ps27_1@4-6">Ad te, Domine.</quote>
+            <ref xml:id="gom-ps27-Rd1e135"><name xml:id="gom-ps27-Nd1e136" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e139">Oratio tempore <pb ed="#P" n="0881D"/> passionis habita.</quote>
+          </p>
+          <p xml:id="gom-ps27-d1e145">
+            <quote xml:id="gom-ps27-Qd1e147" type="lemma" source="http://scta.info/resource/ps27_1@11-12">Ne sileas.</quote>
+            <quote xml:id="gom-ps27-Qd1e150"><seg type="qs">Minus est in Hebraeo</seg>, etc., usque ad <seg type="qs">et a morte resuscitationem.</seg></quote>
+          </p>
+          <p xml:id="gom-ps27-d1e158">
+            <quote xml:id="gom-ps27-Qd1e160" type="lemma" source="http://scta.info/resource/ps27_1@11-12">Ne sileas,</quote>
+            etc., <quote xml:id="gom-ps27-Qd1e163" source="http://scta.info/resource/ps27_1@20-21">et assimilabor,</quote> etc.
+          </p>
+          <p xml:id="gom-ps27-d1e167">
+            <ref xml:id="gom-ps27-Rd1e169" type="lemma" subtype="implied" target="http://scta.info/resource/ps27_1@11-12"/>
+            <ref xml:id="gom-ps27-Rd1e171"><name xml:id="gom-ps27-Nd1e172" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e175">Ex eo, quod verbum mihi semper unitur, non talis homo sum quales caeteri, qui nascuntur in profundam miseriam saeculi.</quote>
+          </p>
+          <p xml:id="gom-ps27-d1e179">
+            <ref xml:id="gom-ps27-Rd1e181" type="lemma" subtype="implied" target="http://scta.info/resource/ps27_1@11-12"/>
+            <ref xml:id="gom-ps27-Rd1e183"><name xml:id="gom-ps27-Nd1e184" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e187">Ubi quasi si sileas non cognoscitur verbum tuum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps27-Dd1e192">
+          <head xml:id="gom-ps27-Hd1e194">Versus 2</head>
+          <p xml:id="gom-ps27-d1e196">
+            <quote xml:id="gom-ps27-Qd1e198" type="lemma" source="http://scta.info/resource/ps27_2@15-16">Ad templum.</quote>
+            <ref xml:id="gom-ps27-Rd1e201"><name xml:id="gom-ps27-Nd1e202" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e205">Secundum morem Judaeorum, quibus praeceptum est ut ubicunque essent ad illam partem orarent, ubi Jerusalem esse scirent: quod et Jesus legem implens fecit. Vel ad coelum, unde auxilium speramus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps27-Dd1e209">
+          <head xml:id="gom-ps27-Hd1e211">Versus 4</head>
+          <p xml:id="gom-ps27-d1e213">
+            <pb ed="#P" n="0882A"/>
+            <quote xml:id="gom-ps27-Qd1e217" type="lemma" source="http://scta.info/resource/ps27_4@1-2">Da illis.</quote>
+            <ref xml:id="gom-ps27-Rd1e220"><name xml:id="gom-ps27-Nd1e221" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e224">Praedicere est, non optare, secundum quod intenderunt, non secundum quod inde pervenit: vel optat justitiam Dei in hoc servari.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps27-Dd1e228">
+          <head xml:id="gom-ps27-Hd1e230">Versus 5</head>
+          <p xml:id="gom-ps27-d1e232">
+            <quote xml:id="gom-ps27-Qd1e234" type="lemma" source="http://scta.info/resource/ps27_5@1-2">Quoniam non,</quote>
+            etc.
+            <ref xml:id="gom-ps27-Rd1e237"><name xml:id="gom-ps27-Nd1e238" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e241">Et si deessent opera, hoc sufficeret damnationi, quod non intellexerunt per legem et Prophetas, quae invisibiliter Deus operatur per me, nec etiam visibilia.</quote>
+          </p>
+          <p xml:id="gom-ps27-d1e244">
+            <quote xml:id="gom-ps27-Qd1e246" type="lemma" source="http://scta.info/resource/ps27_5@11-11">Destrues.</quote>
+            <ref xml:id="gom-ps27-Rd1e249"><name xml:id="gom-ps27-Nd1e250" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e253">Ut nihil mihi noceat, nec post Ecclesiae tuae, vel meae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps27-Dd1e257">
+          <head xml:id="gom-ps27-Hd1e259">Versus 6</head>
+          <p xml:id="gom-ps27-d1e261">
+            <quote xml:id="gom-ps27-Qd1e263" type="lemma" source="http://scta.info/resource/ps27_6@1-1">Benedictus.</quote>
+            <ref xml:id="gom-ps27-Rd1e266"><name xml:id="gom-ps27-Nd1e267" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e270">Auditus in resurrectione gratias agit, subdens de salute credentium.</quote>
+          </p>
+          <p xml:id="gom-ps27-d1e273">
+            <quote xml:id="gom-ps27-Qd1e275" type="lemma" source="http://scta.info/resource/ps27_6@2-2">Dominus.</quote>
+            <ref xml:id="gom-ps27-Rd1e278"><name xml:id="gom-ps27-Nd1e279" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e282">Idem qui adjutor meus, et protector est fortitudo plebis, quae in eo confidit, et <pb ed="#P" n="0882B"/> protector ne laedantur, et tu, o Domine:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps27-Dd1e289">
+          <head xml:id="gom-ps27-Hd1e291">Versus 9</head>
+          <p xml:id="gom-ps27-d1e293">
+            <quote xml:id="gom-ps27-Qd1e295" type="lemma" source="http://scta.info/resource/ps27_9@1-1">Salvum.</quote>
+            Ecce quanta spes credentium cum pro eis orat: passus pro eis judex est et advocatus.
+          </p>
+          <p xml:id="gom-ps27-d1e299">
+            <quote xml:id="gom-ps27-Qd1e301" type="lemma" source="http://scta.info/resource/ps27_9@11-12">Et rege,</quote>
+            etc.
+            <ref xml:id="gom-ps27-Rd1e304"><name xml:id="gom-ps27-Nd1e305" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps27-Qd1e308">Ne declinent ad prava.</quote>
+          </p>
+          <p xml:id="gom-ps27-d1e311">
+            <quote xml:id="gom-ps27-Qd1e313" type="lemma" source="http://scta.info/resource/ps27_9@15-15">Extolle,</quote>
+            etc., a terrenis ad petenda aeterna, et intellectu Scripturarum, et bono opere per totum hoc saeculum usque in finem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

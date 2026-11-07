@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 24</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 24</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1208B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir24">
+        <head xml:id="gom-sir24-Hd1e98">Caput 24</head>
+        <div xml:id="gom-sir24-Dd1e100">
+          <head xml:id="gom-sir24-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir24-d1e104">
+            <quote xml:id="gom-sir24-Qd1e106" type="lemma" source="http://scta.info/resource/sir24_1@11-14">Et in medio populi,</quote>
+            etc.
+            <ref xml:id="gom-sir24-Rd1e109"><name xml:id="gom-sir24-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e113">Quia in ostensione miraculorum ad laudem Dei provocabat populum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e117">
+          <head xml:id="gom-sir24-Hd1e119">Versus 2</head>
+          <p xml:id="gom-sir24-d1e121">
+            <quote xml:id="gom-sir24-Qd1e123" type="lemma" source="http://scta.info/resource/sir24_2@11-12">Virtutis illius,</quote>
+            etc. Angelorum, religiosorum.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e128">
+          <head xml:id="gom-sir24-Hd1e130">Versus 5</head>
+          <p xml:id="gom-sir24-d1e132">
+            <quote xml:id="gom-sir24-Qd1e134" type="lemma" source="http://scta.info/resource/sir24_5@1-3">Ego ex ore.</quote>
+            Quia Verbum consubstantiale, coaeternum. Quia non sum creatura. Dicitur tamen primogenitus omnis creaturae, non tempore, scilicet, sed honore <!--<note>(Exod. IV)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e141">
+          <head xml:id="gom-sir24-Hd1e143">Versus 6</head>
+          <p xml:id="gom-sir24-d1e145">
+            <pb ed="#P" n="1208C"/>
+            <quote xml:id="gom-sir24-Qd1e149" type="lemma" source="http://scta.info/resource/sir24_6@1-3">Ego feci in coelis.</quote>
+            <ref xml:id="gom-sir24-Rd1e152"><name xml:id="gom-sir24-Nd1e153" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e156">In coelis oritur lumen, nebula tegitur caro, quia sicut claritate sua praecellit obscuritatem nebulae, sic spiritualis creatura corporalem praecellit dignitatem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e161">
+          <head xml:id="gom-sir24-Hd1e163">Versus 7</head>
+          <p xml:id="gom-sir24-d1e165">
+            <quote xml:id="gom-sir24-Qd1e167" type="lemma" source="http://scta.info/resource/sir24_7@6-7">Thronus meus.</quote>
+            <ref xml:id="gom-sir24-Rd1e170"><name xml:id="gom-sir24-Nd1e171" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e174">Humanum corpus nullo pondere peccati praegravatum, sed Dei virtute sublimatum, in quo potentia divinitatis judicia sua exercuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e178">
+          <head xml:id="gom-sir24-Hd1e180">Versus 12</head>
+          <p xml:id="gom-sir24-d1e182">
+            <quote xml:id="gom-sir24-Qd1e184" type="lemma" source="http://scta.info/resource/sir24_12@10-11">Creavit me,</quote>
+            etc. Secundum humanitatem singulari puritate de Spiritu sancto conceptam, de Virgine editam.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e189">
+          <head xml:id="gom-sir24-Hd1e191">Versus 13</head>
+          <p xml:id="gom-sir24-d1e193">
+            <quote xml:id="gom-sir24-Qd1e195" type="lemma" source="http://scta.info/resource/sir24_13@4-5">In Jacob.</quote>
+            Incarnatione Salvatoris specialiter Judaeis uti concessum est, et specialiter ad Judaeos venit. Unde per <quote xml:id="gom-sir24-Qd1e198" source="http://scta.info/resource/sir24_13@5-5">Jacob</quote> figurantur Judaei; <pb ed="#P" n="1208D"/> per <quote xml:id="gom-sir24-Qd1e203" source="http://scta.info/resource/sir24_13@9-9">Israel</quote> vero, Gentiles.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e208">
+          <head xml:id="gom-sir24-Hd1e210">Versus 14</head>
+          <p xml:id="gom-sir24-d1e212">
+            <quote xml:id="gom-sir24-Qd1e214" type="lemma" source="http://scta.info/resource/sir24_14@1-2">Ab initio.</quote>
+            Sacramentum incarnationis ante saecula praescitum et praedestinatum, permanet in saeculum saeculi. Et inhabitationes Ecclesiae, id est ritum verae religionis disposuit.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e219">
+          <head xml:id="gom-sir24-Hd1e221">Versus 15</head>
+          <p xml:id="gom-sir24-d1e223">
+            <quote xml:id="gom-sir24-Qd1e225" type="lemma" source="http://scta.info/resource/sir24_15@1-4">Et sic in Sion.</quote>
+            <ref xml:id="gom-sir24-Rd1e228"><name xml:id="gom-sir24-Nd1e229" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e232">Sion Ecclesia, quae et Jerusalem, quae a primo justo usque ad novissimum aedificatur, et in qua sapientia quotidie fructificat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e236">
+          <head xml:id="gom-sir24-Hd1e238">Versus 17</head>
+          <p xml:id="gom-sir24-d1e240">
+            <quote xml:id="gom-sir24-Qd1e242" type="lemma" source="http://scta.info/resource/sir24_17@5-6">In Libano.</quote>
+            <ref xml:id="gom-sir24-Rd1e245"><name xml:id="gom-sir24-Nd1e246" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e249"><seg type="qs"><quote xml:id="gom-sir24-Qd1e251" source="http://scta.info/resource/sir24_17@6-6">Libanus</quote> mons est Phoenicis</seg>, etc., usque ad <seg type="qs">constantiam et actionem eorum exprimens, qui altioribus Ecclesiam ornant virtutibus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e261">
+          <head xml:id="gom-sir24-Hd1e263">Versus 18</head>
+          <p xml:id="gom-sir24-d1e265">
+            <quote xml:id="gom-sir24-Qd1e267" type="lemma" source="http://scta.info/resource/sir24_18@2-3">Quasi palma.</quote>
+            Arbor diuturnus foliis, et suavibus pomis; palma dicta quia victricis manus <pb ed="#P" n="1209A"/> est ornatus: vel quia in modum humanae palmae ramus expandit, hanc Graeci <foreign xml:lang="greek">φοινίκον</foreign> dicunt, quia Phoenix avis multo tempore vivit. Huic comparatur Ecclesia, quae incurvari ad terrena despiciens, ad, coelestia se sustollit: ut finito agone coelestem palmam suscipiat, et quasi folia diuturna, verba rectae confessionis perpetuo conservat.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e277">
+          <head xml:id="gom-sir24-Hd1e279">Versus 19</head>
+          <p xml:id="gom-sir24-d1e281">
+            <quote xml:id="gom-sir24-Qd1e283" type="lemma" source="http://scta.info/resource/sir24_19@1-2">Quasi oliva.</quote>
+            Graece <foreign xml:lang="greek">ἐλαἴον,</foreign> fructus scilicet: <foreign xml:lang="greek">ἐλαία</foreign> enim arbor dicitur, succus oleum. Est autem arbor pacis insignis: per hanc Ecclesia signatur, quae campos totius mundi decore illustrat, et speciali gratia per unctionem chrismatis sanctificat.
+          </p>
+          <p xml:id="gom-sir24-d1e293">
+            <quote xml:id="gom-sir24-Qd1e295" type="lemma" source="http://scta.info/resource/sir24_19@7-8">Quasi platanus.</quote>
+            Platanus ab altitudine dicta, vel quia patula et ampla. Nam <foreign xml:lang="greek">πλατός</foreign> Graeci amplum vocant. Nomen ergo, et formam arboris expressit <pb ed="#P" n="1209B"/> dicens: Quasi platanus dilatata sum in plateis. Est autem tenerrima, et mollis foliis, et vitibus similis, et Christum significat, qui per membra sua in orbe dilatatur mitis et mansuetus.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e305">
+          <head xml:id="gom-sir24-Hd1e307">Versus 20</head>
+          <p xml:id="gom-sir24-d1e309">
+            <quote xml:id="gom-sir24-Qd1e311" type="lemma" source="http://scta.info/resource/sir24_20@1-2">Sicut cinnamomum.</quote>
+            Cinnamomum et balsamum aromaticae arbores sunt. Cinnamomum dictum, quia cortex ejus in modum cannae rotundus et gracilis. Gignitur in India et Ethiopia, frutice brevi duorum tantum cubitorum, colore subnigro vel cinereo, tenuissimarum virgarum. Nam quod crassum est despicitur; gracilius vero charius: quod cum frangitur, visibile spiramentum emittit in modum nebulae vel pulveris.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e316">
+          <head xml:id="gom-sir24-Hd1e318">Versus 21</head>
+          <p xml:id="gom-sir24-d1e320">
+            <quote xml:id="gom-sir24-Qd1e322" type="lemma" source="http://scta.info/resource/sir24_21@20-20">Balsamum.</quote>
+            <ref xml:id="gom-sir24-Rd1e325"><name xml:id="gom-sir24-Nd1e326" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e329"><seg type="qs">Aspaltum dicit Plinius, in eodem curriculo coeli nascitur, etc., <pb ed="#P" n="1209C"/></seg> usque ad <seg type="qs">memores Dominicae passionis pro Domino parati sunt pati.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e339">
+          <head xml:id="gom-sir24-Hd1e341">Versus 20</head>
+          <p xml:id="gom-sir24-d1e343">
+            <quote xml:id="gom-sir24-Qd1e345" type="lemma" source="http://scta.info/resource/sir24_20@8-9">Quasi myrrha.</quote>
+            Myrrha est in Arabia arbor quinque cubitis alta, spinae similis, quam <foreign xml:lang="greek">ἄκανθον</foreign> vocant Graeci, cujus gutta viridis et amara, unde et nomen accepit: quae omnia conveniunt mortificationi carnis, quae amara ad tempus sentitur, sed in spe semper virentis patriae libenter suscipitur. Spinae autem comparatur, quia ut mentem salvet corpus affligit. Gutta sponte manans pretiosior est; elicita corticis vulnere vilior, quia majoris est virtutis corpus sanum (cui arridet copia rerum) mortificare, quam aegrotum, vel paupertate afflictum.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e353">
+          <head xml:id="gom-sir24-Hd1e355">Versus 21</head>
+          <p xml:id="gom-sir24-d1e357">
+            <quote xml:id="gom-sir24-Qd1e359" type="lemma" source="http://scta.info/resource/sir24_21@2-3">Quasi storax.</quote>
+            <ref xml:id="gom-sir24-Rd1e362"><name xml:id="gom-sir24-Nd1e363" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e366"><seg type="qs">Storax, galbanus</seg>, etc., usque ad <seg type="qs">storax dicta, quia est gutta arboris profluens et congelata, nam Graeci <foreign xml:lang="greek">στακτήμ</foreign> guttam dicunt. <pb ed="#P" n="1209D"/></seg></quote>
+          </p>
+          <p xml:id="gom-sir24-d1e378">
+            <quote xml:id="gom-sir24-Qd1e380" type="lemma" source="http://scta.info/resource/sir24_21@4-5">Et galbanus.</quote>
+            <quote xml:id="gom-sir24-Qd1e383"><seg type="qs">Galbanum <ref xml:id="gom-sir24-Rd1e386"><name xml:id="gom-sir24-Nd1e387" ref="#RabanusMaurus">ID.</name></ref><!-- check: attribution inside gloss body --></seg> etc., usque ad <seg type="qs">ad similitudinem ammoniaci minimeque lignosum.</seg></quote>
+          </p>
+          <p xml:id="gom-sir24-d1e395">
+            <quote xml:id="gom-sir24-Qd1e397" type="lemma" source="http://scta.info/resource/sir24_21@7-7">Ungula.</quote>
+            Ungula est quae in Exodo onycha dicitur. Graece enim <foreign xml:lang="greek">ὀνύξ,</foreign> Latine ungula, quia humano ungui assimilatur.
+          </p>
+          <p xml:id="gom-sir24-d1e404">
+            <quote xml:id="gom-sir24-Qd1e406" type="lemma" source="http://scta.info/resource/sir24_21@9-9">Gutta.</quote>
+            <ref xml:id="gom-sir24-Rd1e409"><name xml:id="gom-sir24-Nd1e410" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e413"><seg type="qs">Gutta quae et ammoniaca dicitur</seg>, etc., usque ad <seg type="qs">quanto virtus virtuti jungitur, tanto incensum sincerius exhibetur.</seg></quote>
+          </p>
+          <p xml:id="gom-sir24-d1e422">
+            <quote xml:id="gom-sir24-Qd1e424" type="lemma" source="http://scta.info/resource/sir24_21@5-5">Libanus.</quote>
+            <quote xml:id="gom-sir24-Qd1e427"><seg type="qs">Libanus, ut aiunt, arbor est <ref xml:id="gom-sir24-Rd1e430"><name xml:id="gom-sir24-Nd1e431" ref="#RabanusMaurus">ID.</name></ref><!-- check: attribution inside gloss body --></seg> etc., usque ad <seg type="qs">incisis arboribus lacryma fluit, quia compuncta humilium corda puram Deo orationem emittunt. Libanus in Hebraeo candorem significat: in Graeco, <foreign xml:lang="greek">θοῦς.</foreign> Unde in Canticis, ubi legimus <quote xml:id="gom-sir24-Qd1e440" source="http://scta.info/resource/cant4_6@12-14">ad collem thuris</quote>, quidam codices habent <quote xml:id="gom-sir24-Qd1e443">ad collem libani. Balsamum non mistum.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-sir24-d1e446">
+            <ref xml:id="gom-sir24-Rd1e448" type="lemma" subtype="implied" target="http://scta.info/resource/sir24_21@5-5"/>
+            <ref xml:id="gom-sir24-Rd1e450"><name xml:id="gom-sir24-Nd1e451" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e454"><seg type="qs">Balsami arbor in Judaea, etc., <pb ed="#P" n="1210A"/></seg> usque ad <seg type="qs">et salutis sacramenta profudit. Unde, <quote xml:id="gom-sir24-Qd1e461" source="http://scta.info/resource/sir24_21@18-24">Et quasi balsamum non mistum odor meus.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e467">
+          <head xml:id="gom-sir24-Hd1e469">Versus 22</head>
+          <p xml:id="gom-sir24-d1e471">
+            <quote xml:id="gom-sir24-Qd1e473" type="lemma" source="http://scta.info/resource/sir24_22@3-3">Terebinthus,</quote>
+            etc.
+            <ref xml:id="gom-sir24-Rd1e476"><name xml:id="gom-sir24-Nd1e477" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e480"><seg type="qs">Arbor est</seg>, etc., usque ad <seg type="qs">et sine macula sunt ante thronum Dei.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e489">
+          <head xml:id="gom-sir24-Hd1e491">Versus 29</head>
+          <p xml:id="gom-sir24-d1e493">
+            <quote xml:id="gom-sir24-Qd1e495" type="lemma" source="http://scta.info/resource/sir24_29@1-3">Qui edunt me,</quote>
+            etc.
+            <ref xml:id="gom-sir24-Rd1e498"><name xml:id="gom-sir24-Nd1e499" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e502"><seg type="qs">Edimus sapientiam</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-sir24-Qd1e507" source="http://scta.info/resource/ps33_9@1-7">Gustate et videte, quoniam suavis est Dominus</quote>, etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e513">
+          <head xml:id="gom-sir24-Hd1e515">Versus 34</head>
+          <p xml:id="gom-sir24-d1e517">
+            <quote xml:id="gom-sir24-Qd1e519" type="lemma" source="http://scta.info/resource/sir24_34@1-2">Posuit David.</quote>
+            <ref xml:id="gom-sir24-Rd1e522"><name xml:id="gom-sir24-Nd1e523" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e526"><seg type="qs">Quatuor paradisi flumina</seg>, etc., usque ad <seg type="qs">qui mittit disciplinam sicut lucem, quia praecepta ejus vitam aeternam tribuunt, unde: <quote xml:id="gom-sir24-Qd1e532" source="http://scta.info/resource/mt28_19@3-15">Docete omnes gentes, baptizantes eos in nomine Patris, et Filii, et Spiritus sancti; docentes servare omnia quaecunque mandavi vobis<!-- check: Migne cites mt27; text matches mt28_19 --></quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e539">
+          <head xml:id="gom-sir24-Hd1e541">Versus 35</head>
+          <p xml:id="gom-sir24-d1e543">
+            <quote xml:id="gom-sir24-Qd1e545" type="lemma" source="http://scta.info/resource/sir24_35@3-4">Quasi Phison.</quote>
+            <ref xml:id="gom-sir24-Rd1e548"><name xml:id="gom-sir24-Nd1e549" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e552"><seg type="qs">Phison, qui et <pb ed="#P" n="1210B"/> Ganges</seg>, etc., usque ad <seg type="qs">et fertur sicut Nilus super Orientis terras exundare.</seg></quote>
+          </p>
+          <p xml:id="gom-sir24-d1e562">
+            <quote xml:id="gom-sir24-Qd1e564" type="lemma" source="http://scta.info/resource/sir24_35@7-8">Sicut Tigris,</quote>
+            etc.
+            <ref xml:id="gom-sir24-Rd1e567"><name xml:id="gom-sir24-Nd1e568" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e571"><seg type="qs">Tigris fluvius Mesopotamiae</seg>, etc., usque ad <seg type="qs">quia sicut Tigris bestia velociter fertur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e580">
+          <head xml:id="gom-sir24-Hd1e582">Versus 36</head>
+          <p xml:id="gom-sir24-d1e584">
+            <quote xml:id="gom-sir24-Qd1e586" type="lemma" source="http://scta.info/resource/sir24_36@3-4">Quasi Euphrates.</quote>
+            <ref xml:id="gom-sir24-Rd1e589"><name xml:id="gom-sir24-Nd1e590" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e593"><seg type="qs">Euphrates fluvius Mesopotamiae</seg>, etc., usque ad <seg type="qs">terraque quae ab ipsis ambitur, Mesopotamia dicitur.</seg></quote>
+          </p>
+          <p xml:id="gom-sir24-d1e601">
+            <quote xml:id="gom-sir24-Qd1e603" type="lemma" source="http://scta.info/resource/sir24_36@8-9">Quasi Jordanis.</quote>
+            Jordanis fluvius Judaeae, a duobus fontibus nominatur: <quote xml:id="gom-sir24-Qd1e606">Jor,</quote> scilicet et <quote xml:id="gom-sir24-Qd1e608">Dan,</quote> quibus foederatis colligitur. Oritur sub Libano monte, et dividit Judaeam et Arabiam, et juxta Jericho influit mari Mortuo.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e612">
+          <head xml:id="gom-sir24-Hd1e614">Versus 37</head>
+          <p xml:id="gom-sir24-d1e616">
+            <quote xml:id="gom-sir24-Qd1e618" type="lemma" source="http://scta.info/resource/sir24_37@8-9">Quasi Geon.</quote>
+            Geon hic Aethiopiam cingit, sic vocatus quia irrigat terram Aegypti.
+          </p>
+          <p xml:id="gom-sir24-d1e622">
+            <quote xml:id="gom-sir24-Qd1e624" type="lemma" source="http://scta.info/resource/sir24_37">Ge</quote>
+            <!-- check: lemma not matched to verse text -->
+            enim Graece terram significat: qui apud Aegyptios Nilus vocatur propter limum quem trahit, qui fecunditatem <pb ed="#P" n="1210C"/> efficit, unde et Nilus dictus est.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e634">
+          <head xml:id="gom-sir24-Hd1e636">Versus 38</head>
+          <p xml:id="gom-sir24-d1e638">
+            <quote xml:id="gom-sir24-Qd1e640" type="lemma" source="http://scta.info/resource/sir24_38@8-9">Non investigabit.</quote>
+            <ref xml:id="gom-sir24-Rd1e643"><name xml:id="gom-sir24-Nd1e644" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e647"><seg type="qs">Christus auctor est sapientiae</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-sir24-Qd1e652" source="http://scta.info/resource/mt11_27@9-19">Nemo novit Filium nisi Pater, nec Patrem quis novit, nisi Filius</quote>, etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e658">
+          <head xml:id="gom-sir24-Hd1e660">Versus 39</head>
+          <p xml:id="gom-sir24-d1e662">
+            <quote xml:id="gom-sir24-Qd1e664" type="lemma" source="http://scta.info/resource/sir24_39@1-3">A mari enim.</quote>
+            Mare significat profunditatem sapientiae inaestimabilem, et incomprehensibilem esse: quoniam nemo penetrare potest nisi unus et solus Deus Pater et Filius et Spiritus sanctus, qui seipsum vere novit, et consilium suum, et dat tantum nosse creaturae suae, quantum expedit.
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e669">
+          <head xml:id="gom-sir24-Hd1e671">Versus 41</head>
+          <p xml:id="gom-sir24-d1e673">
+            <quote xml:id="gom-sir24-Qd1e675" type="lemma" source="http://scta.info/resource/sir24_41@2-3">Quasi trames.</quote>
+            <ref xml:id="gom-sir24-Rd1e678"><name xml:id="gom-sir24-Nd1e679" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e682">Quia Deus de Deo, lumen de lumine. Tropice dicitur Pater origo Divinitatis: quia de Patre gignitur Filius et procedit <pb ed="#P" n="1210D"/> Spiritus sanctus, qui per aquam significatur: unde, <quote xml:id="gom-sir24-Qd1e686" source="http://scta.info/resource/io7_38@8-14">Flumina de ventre ejus fluent aquae vivae<!-- check: Migne cites iob7; text matches io7_38 --></quote>. <quote xml:id="gom-sir24-Qd1e690" source="http://scta.info/resource/sir15_3@8-12">Aqua sapientiae salutaris potavit illum</quote>.</quote>
+          </p>
+          <p xml:id="gom-sir24-d1e695">
+            <quote xml:id="gom-sir24-Qd1e697" type="lemma" source="http://scta.info/resource/sir24_41@8-11">Ego quasi fluvius Dorix.</quote>
+            <quote xml:id="gom-sir24-Qd1e700"><seg type="qs">Sapientia comparatur fluvio rapidissimo</seg>, etc., usque ad <seg type="qs">unde tertia lingua Graecorum Dorica dicitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e709">
+          <head xml:id="gom-sir24-Hd1e711">Versus 46</head>
+          <p xml:id="gom-sir24-d1e713">
+            <quote xml:id="gom-sir24-Qd1e715" type="lemma" source="http://scta.info/resource/sir24_46@1-2">Adhuc doctrinam.</quote>
+            <ref xml:id="gom-sir24-Rd1e718"><name xml:id="gom-sir24-Nd1e719" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir24-Qd1e722">Significat hujus operis scriptor librum esse mysticum, et utilem ad legendum. Historice enim moralitatem docet, et allegorice fidei sacramentum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir24-Dd1e726">
+          <head xml:id="gom-sir24-Hd1e728">Versus 47</head>
+          <p xml:id="gom-sir24-d1e730">
+            <quote xml:id="gom-sir24-Qd1e732" type="lemma" source="http://scta.info/resource/sir24_47@1-1">Videte,</quote>
+            etc. Ecclesiasticus doctor non solum sibi, sed et aliis scribendo et docendo proficit: unde, <quote xml:id="gom-sir24-Qd1e735" source="http://scta.info/resource/dan12_3@1-19">Qui docti fuerint, fulgebunt sicut splendor firmamenti, et qui ad justitiam erudiunmultos, <pb ed="#P" n="1211A"/> quasi stellae in perpetuas aeternitates</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

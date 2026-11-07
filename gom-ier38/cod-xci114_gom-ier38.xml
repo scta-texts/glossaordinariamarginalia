@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieremias, Caput 38</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieremias, Caput 38</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0050D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ier38">
+        <head xml:id="gom-ier38-Hd1e98">Caput 38</head>
+        <div xml:id="gom-ier38-Dd1e100">
+          <head xml:id="gom-ier38-Hd1e102">Versus 5</head>
+          <p xml:id="gom-ier38-d1e104">
+            <quote xml:id="gom-ier38-Qd1e106" type="lemma" source="http://scta.info/resource/ier38_5@1-4">Et dicit rex Sedecias,</quote>
+            etc. <quote xml:id="gom-ier38-Qd1e109"><seg type="qs">Pater Sedeciam sine puro affectu</seg>, etc., usque ad <seg type="qs">Postea vero flagellatum tradidit eum Judaeis, ut crucifigeretur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier38-Dd1e118">
+          <head xml:id="gom-ier38-Hd1e120">Versus 7</head>
+          <p xml:id="gom-ier38-d1e122">
+            <quote xml:id="gom-ier38-Qd1e124" type="lemma" source="http://scta.info/resource/ier38_7@1-3">Audivit autem Abdemelech.</quote>
+            <quote xml:id="gom-ier38-Qd1e127"><seg type="qs">Sicut illi principes, qui prophetam miserunt</seg>, etc., usque ad <seg type="qs">quanto nos districtius reos tenemus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier38-Dd1e136">
+          <head xml:id="gom-ier38-Hd1e138">Versus 17</head>
+          <p xml:id="gom-ier38-d1e140">
+            <quote xml:id="gom-ier38-Qd1e142" type="lemma" source="http://scta.info/resource/ier38_17@12-14">Si profectus exieris,</quote>
+            etc. Propheta, praevidens civitatem esse tradendam in manus Chaldaeorum, consilium dedit regi ut se traderet in manus regis Babylonis, ut sic furibundum ejus animum mitigaret, <pb ed="#P" n="0051A"/> et leviorem sententiam susciperet; sed mens indurata corrigi non poterat.
+          </p>
+        </div>
+        <div xml:id="gom-ier38-Dd1e149">
+          <head xml:id="gom-ier38-Hd1e151">Versus 22</head>
+          <p xml:id="gom-ier38-d1e153">
+            <quote xml:id="gom-ier38-Qd1e155" type="lemma" source="http://scta.info/resource/ier38_22@1-1">Ecce.</quote>
+            <quote xml:id="gom-ier38-Qd1e158"><seg type="qs">Significat quod fluxa cogitatio</seg>, etc., usque ad <seg type="qs">et animam igne comburet inexstinguibili.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

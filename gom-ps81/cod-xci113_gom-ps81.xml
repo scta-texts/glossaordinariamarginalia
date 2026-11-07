@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 81</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 81</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0981A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps81">
+        <head xml:id="gom-ps81-Hd1e98">Psalmus 81</head>
+        <div xml:id="gom-ps81-Dd1e100">
+          <head xml:id="gom-ps81-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps81-d1e104">
+            <quote xml:id="gom-ps81-Qd1e106" type="lemma" source="http://scta.info/resource/ps81_1@1-2">Psalmus Asaph.</quote>
+            <ref xml:id="gom-ps81-Rd1e109"><name xml:id="gom-ps81-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e113">Psalmus de duabus naturis in Christo, quo Christus, vel Propheta loquens, exprobrat ipsi Asaph, id est, Synagogae, quae Dominum corporaliter vidit, et tamen eum non cognovit. Primo nuntiat Deum stetisse, et <pb ed="#P" n="0981B"/> arguit contrarios, stat homo, discernit Deus.</quote>
+          </p>
+          <p xml:id="gom-ps81-d1e119">
+            <quote xml:id="gom-ps81-Qd1e121" type="lemma" source="http://scta.info/resource/ps81_1@3-4">Deus stetit.</quote>
+            Cujus non est stare, qui coelum et terram complet, qui est intra omnia non inclusus, extra omnia non exclusus, sed breviter Deum hominem indicat.
+          </p>
+          <p xml:id="gom-ps81-d1e125">
+            <quote xml:id="gom-ps81-Qd1e127" type="lemma" source="http://scta.info/resource/ps81_1@4-4">Stetit.</quote>
+            <ref xml:id="gom-ps81-Rd1e130"><name xml:id="gom-ps81-Nd1e131" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e134">Filius, qui missus ad oves domus Israel, spiritualis autem praesentia Deitatis, quae ubique non proprie ad Synagogam pertinet, nec tempore variatur. Cur ibi stetit: <quote xml:id="gom-ps81-Qd1e136" source="http://scta.info/resource/ps81_1@12-13">Ecce deos dijudicat,</quote> id est, secundum quod Deus, id est, non meritis, sed gratia discernit vasa, alia in honorem, alia in contumeliam. Hoc autem facit stans in medio, unde: <quote xml:id="gom-ps81-Qd1e139" source="http://scta.info/resource/io1_26@9-16">Medius vestrum stetit, quem vos nescitis,</quote> unde et hic: <quote xml:id="gom-ps81-Qd1e142" source="http://scta.info/resource/ps81_5@1-3">Nescierunt neque intellexerunt,</quote> sed <quote xml:id="gom-ps81-Qd1e145" source="http://scta.info/resource/io3_29@6-15">amicus sponsi stat et audit, et gaudio gaudet. Deorum.</quote> Quos post <quote xml:id="gom-ps81-Qd1e148">filios Excelsi</quote> dicit, <ref xml:id="gom-ps81-Rd1e151">ibi: <seg type="incipit">Ego dixi: dii estis, et <pb ed="#P" n="0981C"/> filiis Excelsi omnes</seg>.</ref> Unde etiam, <quote xml:id="gom-ps81-Qd1e159" source="http://scta.info/resource/is1_2@11-18">filios enutrivi et exaltavi, ipsi autem spreverunt me.</quote> Filii dicuntur non solum gratia novi testamenti, sed gratia veteris, quae eos de Aegypto liberavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e165">
+          <head xml:id="gom-ps81-Hd1e167">Versus 2</head>
+          <p xml:id="gom-ps81-d1e169">
+            <quote xml:id="gom-ps81-Qd1e171" type="lemma" source="http://scta.info/resource/ps81_2@1-1">Usquequo.</quote>
+            <ref xml:id="gom-ps81-Rd1e174"><name xml:id="gom-ps81-Nd1e175" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e178">Haec est vox discernentis: misit legem et Prophetas, et restitistis, sed quousque? Num usque ad adventum misi Prophetas, et injuriis affecistis, vel interfecistis, vel hoc agentibus consensistis? Sed cum haec agentibus nec loqui dignum sit, vos qui tacuistis, et imitari eos voluistis, <quote xml:id="gom-ps81-Qd1e180" source="http://scta.info/resource/ps81_2@1-7">usquequo judicatis iniquitatem et facies peccatorum sumitis?</quote> Num et haeres occidendus est, qui pro vobis venit, qui pro vobis sine patre esse voluit ut pupillus? qui propter vos esurivit et sitivit, ut egenus, qui propter vos pauper factus est, cum esset dives.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e186">
+          <head xml:id="gom-ps81-Hd1e188">Versus 3</head>
+          <p xml:id="gom-ps81-d1e190">
+            <pb ed="#P" n="0981D"/>
+            <quote xml:id="gom-ps81-Qd1e194" type="lemma" source="http://scta.info/resource/ps81_3@1-9">Judicate egeno et pupillo, pauperem et humilem justificate.</quote>
+            <ref xml:id="gom-ps81-Rd1e197"><name xml:id="gom-ps81-Nd1e198" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e201">Diapsalma, monet intelligeret Christum esse Deum, et si egenus et pauper fuit, quod eos non fecisse dicit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e205">
+          <head xml:id="gom-ps81-Hd1e207">Versus 4</head>
+          <p xml:id="gom-ps81-d1e209">
+            <quote xml:id="gom-ps81-Qd1e211" type="lemma" source="http://scta.info/resource/ps81_4@1-2">Eripite pauperem.</quote>
+            <ref xml:id="gom-ps81-Rd1e214"><name xml:id="gom-ps81-Nd1e215" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e218">Ostendit, nec illos immunes qui permiserunt principibus Christum, cum prae multitudine timerentur, et possent illos a facto, et se a consensu liberare.</quote>
+          </p>
+          <p xml:id="gom-ps81-d1e221">
+            <ref xml:id="gom-ps81-Rd1e223" type="lemma" subtype="implied" target="http://scta.info/resource/ps81_4@1-2"/>
+            <ref xml:id="gom-ps81-Rd1e225"><name xml:id="gom-ps81-Nd1e226" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e229">Qui enim desinit obviare cum potest, consentit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e234">
+          <head xml:id="gom-ps81-Hd1e236">Versus 5</head>
+          <p xml:id="gom-ps81-d1e238">
+            <quote xml:id="gom-ps81-Qd1e240" type="lemma" source="http://scta.info/resource/ps81_5@9-9">Movebuntur.</quote>
+            <ref xml:id="gom-ps81-Rd1e243"><name xml:id="gom-ps81-Nd1e244" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e247">Hinc patet de quo dixerat: hoc signum in crucifixione contigit. Vel spiritualiter, terreni moti sunt illo tempore, viso tanto miraculo; ut centurio, qui dixit: <quote xml:id="gom-ps81-Qd1e249" source="http://scta.info/resource/mt27_54@19-23">Vere Filius Dei erat iste.</quote></quote>
+          </p>
+          <p xml:id="gom-ps81-d1e253">
+            <ref xml:id="gom-ps81-Rd1e255"><name xml:id="gom-ps81-Nd1e256" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e259" type="lemma" source="http://scta.info/resource/ps81_5@9-11">Movebuntur omnia fundamenta.</quote>
+            <quote xml:id="gom-ps81-Qd1e262"><pb ed="#P" n="0982A"/> Quasi dicat per hanc Israel caecitatem, <quote xml:id="gom-ps81-Qd1e265" source="http://scta.info/resource/ps81_5@9-9">movebuntur</quote> ad fidem, <quote xml:id="gom-ps81-Qd1e268" source="http://scta.info/resource/ps81_5@10-12">omnia fundamenta terrae,</quote> id est, plenitudo gentium intrabit. Vel, in morte, et passione Domini mota est terra. Vel <quote xml:id="gom-ps81-Qd1e271" source="http://scta.info/resource/ps81_5@11-11">fundamenta,</quote> id est, felices copia terrenorum movebuntur. Vel admirando coli pauperem mortuum. Vel eum contemptis terrenis sectando. Addit <quote xml:id="gom-ps81-Qd1e274" source="http://scta.info/resource/ps81_5@10-10">omnia,</quote> quia nullus est qui non miretur, vel convertatur. Terrenae autem felicitatis regnum est superbia, contra quam venit humilis Christus, exprobrans eis, quos vult facere altos per humilitatem, his verbis: <quote xml:id="gom-ps81-Qd1e277" source="http://scta.info/resource/ps81_6@1-5">Ego dixi: dii estis,</quote> vos boni: <quote xml:id="gom-ps81-Qd1e281" source="http://scta.info/resource/ps81_7@1-2">vos autem</quote> mali, <quote xml:id="gom-ps81-Qd1e284" source="http://scta.info/resource/ps81_7@3-5">sicut homines moriemini.</quote> Vel omnibus dicit: <quote xml:id="gom-ps81-Qd1e287" source="http://scta.info/resource/ps81_6@4-5">dii estis,</quote> id est, omnibus promisi coelestia;</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e293">
+          <head xml:id="gom-ps81-Hd1e295">Versus 7</head>
+          <p xml:id="gom-ps81-d1e297">
+            <quote xml:id="gom-ps81-Qd1e299" type="lemma" source="http://scta.info/resource/ps81_7@1-4">vos autem sicut homines</quote>
+            primi, qui suasione peccaverunt, et vos majores sicut diabolus, qui superbia <pb ed="#P" n="0982B"/> peccavit.
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e306">
+          <head xml:id="gom-ps81-Hd1e308">Versus 6</head>
+          <p xml:id="gom-ps81-d1e310">
+            <quote xml:id="gom-ps81-Qd1e312" type="lemma" source="http://scta.info/resource/ps81_6@1-2">Ego dixi.</quote>
+            <ref xml:id="gom-ps81-Rd1e315"><name xml:id="gom-ps81-Nd1e316" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e319">Quid eis propositum? sed perierunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e323">
+          <head xml:id="gom-ps81-Hd1e325">Versus 5</head>
+          <p xml:id="gom-ps81-d1e327">
+            <quote xml:id="gom-ps81-Qd1e329" type="lemma" source="http://scta.info/resource/ps81_5@1-3">Ego dixi: Nescierunt neque intellexerunt;</quote>
+            tamen <quote xml:id="gom-ps81-Qd1e332" source="http://scta.info/resource/ps81_6@1-2">ego dixi.</quote> Has promissiones omnes accipiunt, si mandata custodiunt, ut sint filii et Dei: hoc ad justos;
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e337">
+          <head xml:id="gom-ps81-Hd1e339">Versus 7</head>
+          <p xml:id="gom-ps81-d1e341">
+            <quote xml:id="gom-ps81-Qd1e343" type="lemma" source="http://scta.info/resource/ps81_7@1-2">vos autem,</quote>
+            hoc ad malos.
+          </p>
+          <p xml:id="gom-ps81-d1e347">
+            <quote xml:id="gom-ps81-Qd1e349" type="lemma" source="http://scta.info/resource/ps81_7@3-4">Sicut homines.</quote>
+            <ref xml:id="gom-ps81-Rd1e352"><name xml:id="gom-ps81-Nd1e353" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e356">Quasi: Cum cito, sicut homines, sitis morituri, non inde corrigimini; sed ut diabolus, qui carne non moritur, extollimini, ut cadatis: quia per superbiam diabolicam inviderunt gloriae Christi, et viluit eis humilitas crucis. Sed, ut hoc vitium sanetur ex persona Prophetae, subditur: <quote xml:id="gom-ps81-Qd1e358" source="http://scta.info/resource/ps81_8@1-2">Surge Deus,</quote> etc., <quote xml:id="gom-ps81-Qd1e361" source="http://scta.info/resource/ps81_7@7-8">sicut unus.</quote> Turba quae cecidit dicitur unus, quia in superbia similis: Vos cadetis, sed:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps81-Dd1e367">
+          <head xml:id="gom-ps81-Hd1e369">Versus 8</head>
+          <p xml:id="gom-ps81-d1e371">
+            <pb ed="#P" n="0982C"/>
+            <quote xml:id="gom-ps81-Qd1e375" type="lemma" source="http://scta.info/resource/ps81_8@1-2">Surge Deus.</quote>
+            <ref xml:id="gom-ps81-Rd1e378"><name xml:id="gom-ps81-Nd1e379" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps81-Qd1e382">Id est, damna istos, quia his repulsis, tu haereditabis. Vel judica mundum, quia tuus est, et hoc est, tu haereditabis.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

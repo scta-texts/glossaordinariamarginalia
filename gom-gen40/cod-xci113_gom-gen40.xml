@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 40</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 40</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0169B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen40">
+        <head xml:id="gom-gen40-Hd1e98">Caput 40</head>
+        <div xml:id="gom-gen40-Dd1e100">
+          <head xml:id="gom-gen40-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen40-d1e104">
+            <quote xml:id="gom-gen40-Qd1e106" type="lemma" source="http://scta.info/resource/gen40_1@1-8">His ita gestis, accidit ut peccarent duo eunuchi,</quote>
+            etc.
+            <ref xml:id="gom-gen40-Rd1e109"><name xml:id="gom-gen40-Nd1e110" ref="#IsidoreOfSeville">ISID.</name> in Gen., tom. V.</ref>
+            <quote xml:id="gom-gen40-Qd1e114"><seg type="qs">Invenit Joseph duos eunuchos in carcere</seg>, etc., usque ad <seg type="qs">trangressionis ligno suspenditur.</seg></quote>
+          </p>
+          <p xml:id="gom-gen40-d1e122">
+            <quote xml:id="gom-gen40-Qd1e124" type="lemma" source="http://scta.info/resource/gen40_1@9-15">Pincerna regis Aegypti, et pistor, domino suo,</quote>
+            etc.
+            <ref xml:id="gom-gen40-Rd1e127"><name xml:id="gom-gen40-Nd1e128" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen40-Qd1e131">Ubi nos posuimus <quote xml:id="gom-gen40-Qd1e133">principem vinariorum</quote> in Hebraeo habetur <quote xml:id="gom-gen40-Qd1e135">masqueh</quote> , illud <pb ed="#P" n="0169C"/> verbum quod in nomine servi Abrahae dudum legimus, quem nos possumus more vulgi vocare <quote xml:id="gom-gen40-Qd1e139" source="http://scta.info/resource/gen40_1@9-9">pincernam,</quote> et usque hodie apud barbaros maximae dignitatis est, regi poculum porrexisse.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen40-Dd1e145">
+          <head xml:id="gom-gen40-Hd1e147">Versus 9</head>
+          <p xml:id="gom-gen40-d1e149">
+            <quote xml:id="gom-gen40-Qd1e151" type="lemma" source="http://scta.info/resource/gen40_9@6-9">Videbam coram me vitem,</quote>
+            etc.
+            <ref xml:id="gom-gen40-Rd1e154"><name xml:id="gom-gen40-Nd1e155" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen40-Qd1e158"><quote xml:id="gom-gen40-Qd1e159">Et ecce vitis in conspectu meo, et in vite tres fundi, et ipsa germinans tres fundos.</quote> Tria flagella, tres ramos, sive propagines, Hebraeus sermo significat, quae ab illis vocantur <mentioned>Sarigim</mentioned> .</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen40-Dd1e166">
+          <head xml:id="gom-gen40-Hd1e168">Versus 16</head>
+          <p xml:id="gom-gen40-d1e170">
+            <quote xml:id="gom-gen40-Qd1e172" type="lemma" source="http://scta.info/resource/gen40_16@15-16">Tria canistra.</quote>
+            <ref xml:id="gom-gen40-Rd1e175"><name xml:id="gom-gen40-Nd1e176" ref="#Augustine">AUG.</name> Quaest. in Gen.</ref>
+            <quote xml:id="gom-gen40-Qd1e180"><seg type="qs">Ubi in Latinis codicibus <quote xml:id="gom-gen40-Qd1e183" source="http://scta.info/resource/gen40_16@15-17">tria canistra farinae</quote> scriptum est</seg>, etc., usque ad <seg type="qs">et ex omni genere pistorii operis in eodem scilicet canistro superiore.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen40-Dd1e192">
+          <head xml:id="gom-gen40-Hd1e194">Versus 20</head>
+          <p xml:id="gom-gen40-d1e196">
+            <quote xml:id="gom-gen40-Qd1e198" type="lemma" source="http://scta.info/resource/gen40_20@4-5">Natalitius Pharaonis.</quote>
+            Pharao <pb ed="#P" n="0169D"/> et Herodes diem nativitatis celebraverunt, quia ex hora nativitatis se reges fuisse putaverunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

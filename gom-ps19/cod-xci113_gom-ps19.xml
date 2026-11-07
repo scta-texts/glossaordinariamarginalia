@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 19</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 19</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0872B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps19">
+        <head xml:id="gom-ps19-Hd1e98">Psalmus 19</head>
+        <div xml:id="gom-ps19-Dd1e100">
+          <head xml:id="gom-ps19-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps19-d1e104">
+            <pb ed="#P" n="0872B"/>
+            <quote xml:id="gom-ps19-Qd1e108" type="lemma" source="http://scta.info/resource/ps19_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps19-Rd1e111"><name xml:id="gom-ps19-Nd1e112" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps19-Qd1e115">Figura operandi, quae ventura sunt Propheta canit.</quote>
+          </p>
+          <p xml:id="gom-ps19-d1e118">
+            <ref xml:id="gom-ps19-Rd1e120" type="lemma" subtype="implied" target="http://scta.info/resource/ps19_1@1-2"/>
+            <ref xml:id="gom-ps19-Rd1e122"><name xml:id="gom-ps19-Nd1e123" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps19-Qd1e126">Propheta ex nimia charitate optat prospere evenire Ecclesiae, quae per Christum videbat ventura.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps19-Dd1e130">
+          <head xml:id="gom-ps19-Hd1e132">Versus 2</head>
+          <p xml:id="gom-ps19-d1e134">
+            <quote xml:id="gom-ps19-Qd1e136" type="lemma" source="http://scta.info/resource/ps19_2@1-1">Exaudiat:</quote>
+            quae tempore tribulationis vult ei fieri.
+          </p>
+          <p xml:id="gom-ps19-d1e140">
+            <quote xml:id="gom-ps19-Qd1e142" type="lemma" source="http://scta.info/resource/ps19_2@4-6">In die tribulationis,</quote>
+            quo majori desiderio Deum precamur.
+          </p>
+          <p xml:id="gom-ps19-d1e146">
+            <quote xml:id="gom-ps19-Qd1e148" type="lemma" source="http://scta.info/resource/ps19_2@11-12">Dei Jacob,</quote>
+            ut sicut illi, ita tibi gratiam benedictionis det, et praeponat Judaeis.
+          </p>
+        </div>
+        <div xml:id="gom-ps19-Dd1e153">
+          <head xml:id="gom-ps19-Hd1e155">Versus 3</head>
+          <p xml:id="gom-ps19-d1e157">
+            <quote xml:id="gom-ps19-Qd1e159" type="lemma" source="http://scta.info/resource/ps19_3@1-1">Mittat:</quote>
+            pater.
+          </p>
+          <p xml:id="gom-ps19-d1e163">
+            <quote xml:id="gom-ps19-Qd1e165" type="lemma" source="http://scta.info/resource/ps19_3@3-3">Auxilium,</quote>
+            misso Filio.
+          </p>
+        </div>
+        <div xml:id="gom-ps19-Dd1e170">
+          <head xml:id="gom-ps19-Hd1e172">Versus 4</head>
+          <p xml:id="gom-ps19-d1e174">
+            <quote xml:id="gom-ps19-Qd1e176" type="lemma" source="http://scta.info/resource/ps19_4@1-1">Memor.</quote>
+            Agit quasi de sacerdote immolaturo et rege pugnaturo.
+          </p>
+          <p xml:id="gom-ps19-d1e180">
+            <quote xml:id="gom-ps19-Qd1e182" type="lemma" source="http://scta.info/resource/ps19_4@4-4">Sacrificii.</quote>
+            <ref xml:id="gom-ps19-Rd1e185"><name xml:id="gom-ps19-Nd1e186" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps19-Qd1e189">Sacrificium <pb ed="#P" n="0872C"/> Ecclesiae praevidebat, non pecudum, sed sanguinis et corporis Christi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps19-Dd1e197">
+          <head xml:id="gom-ps19-Hd1e199">Versus 5</head>
+          <p xml:id="gom-ps19-d1e201">
+            <quote xml:id="gom-ps19-Qd1e203" type="lemma" source="http://scta.info/resource/ps19_5@1-1">Tribuat.</quote>
+            Diapsalma, quae tempore gloriae optat et affirmat.
+          </p>
+          <p xml:id="gom-ps19-d1e207">
+            <quote xml:id="gom-ps19-Qd1e209" type="lemma" source="http://scta.info/resource/ps19_5@7-7">Omne.</quote>
+            <ref xml:id="gom-ps19-Rd1e212"><name xml:id="gom-ps19-Nd1e213" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps19-Qd1e216">Non solum quo animam posuisti pro vita plurimorum; sed et quo <quote xml:id="gom-ps19-Qd1e218">caecitas ex parte contigit in Israel, et sic omnis Israel salvus fieret.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps19-Dd1e222">
+          <head xml:id="gom-ps19-Hd1e224">Versus 6</head>
+          <p xml:id="gom-ps19-d1e226">
+            <quote xml:id="gom-ps19-Qd1e228" type="lemma" source="http://scta.info/resource/ps19_6@1-1">Laetabimur.</quote>
+            <ref xml:id="gom-ps19-Rd1e231"><name xml:id="gom-ps19-Nd1e232" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps19-Qd1e235">Ideo haec oratio, quia laetabimur et magnificabimur, ostendit se unum de Ecclesia tanto ante tempore.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps19-Dd1e239">
+          <head xml:id="gom-ps19-Hd1e241">Versus 7</head>
+          <p xml:id="gom-ps19-d1e243">
+            <quote xml:id="gom-ps19-Qd1e245" type="lemma" source="http://scta.info/resource/ps19_7@21-22">In potentatibus.</quote>
+            <ref xml:id="gom-ps19-Rd1e248"><name xml:id="gom-ps19-Nd1e249" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps19-Qd1e252">Potentatus nostri sunt salus favoris ejus cum et de tribulatione dat auxilium, quia vana salus hominum, quae est sinistrae, unde et superbia nascitur.</quote>
+          </p>
+          <p xml:id="gom-ps19-d1e255">
+            <quote xml:id="gom-ps19-Qd1e257" type="lemma" source="http://scta.info/resource/ps19_7@23-24">Salus dexterae.</quote>
+            <quote xml:id="gom-ps19-Qd1e260"><seg type="qs"><pb ed="#P" n="0872D"/> <ref xml:id="gom-ps19-Rd1e264"><name xml:id="gom-ps19-Nd1e265" ref="#Augustine">Ibid.</name></ref><!-- check: attribution inside gloss body -->, id est gratia spiritualis</seg>, etc., usque ad <seg type="qs">qui terrena dignitate praesumunt.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

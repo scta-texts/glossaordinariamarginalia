@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 6</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 6</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1190D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir6">
+        <head xml:id="gom-sir6-Hd1e98">Caput 6</head>
+        <div xml:id="gom-sir6-Dd1e100">
+          <head xml:id="gom-sir6-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir6-d1e104">
+            <pb ed="#P" n="1190D"/>
+            <quote xml:id="gom-sir6-Qd1e108" type="lemma" source="http://scta.info/resource/sir6_1@1-2">Nolite fieri,</quote>
+            etc.
+            <ref xml:id="gom-sir6-Rd1e111"><name xml:id="gom-sir6-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir6-Qd1e115"><seg type="qs">Vim verae charitatis ostendit</seg>, etc., usque ad <seg type="qs">allidetur virtus ipsius.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e124">
+          <head xml:id="gom-sir6-Hd1e126">Versus 4</head>
+          <p xml:id="gom-sir6-d1e128">
+            <quote xml:id="gom-sir6-Qd1e130" type="lemma" source="http://scta.info/resource/sir6_4@3-3">Nequam.</quote>
+            Bonae voluntatis succedit boni operis fructus, et malitiosae menti nihil prosperitatis. Si enim desit charitas, frustra operam virtuti impendis; unde: <quote xml:id="gom-sir6-Qd1e133" source="http://scta.info/resource/iac2_10@8-13">Qui in uno offendit, omnium reus est</quote>. Et, <quote xml:id="gom-sir6-Qd1e136" source="http://scta.info/resource/lc19_26@11-19">ei qui non habet, et hoc quod habet, auferetur ab eo</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e141">
+          <head xml:id="gom-sir6-Hd1e143">Versus 6</head>
+          <p xml:id="gom-sir6-d1e145">
+            <quote xml:id="gom-sir6-Qd1e147" type="lemma" source="http://scta.info/resource/sir6_6@1-2">Multi pacifici,</quote>
+            etc. Cum omnibus pax est habenda, quantam permittit nostra fragilitas, sed non cum multis consilium, quia scriptum est: <quote xml:id="gom-sir6-Qd1e150" source="http://scta.info/resource/prov20_6@3-9">Misericordes vocantur, virum autem fidelem quis inveniet?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e155">
+          <head xml:id="gom-sir6-Hd1e157">Versus 7</head>
+          <p xml:id="gom-sir6-d1e159">
+            <pb ed="#P" n="1191A"/>
+            <quote xml:id="gom-sir6-Qd1e163" type="lemma" source="http://scta.info/resource/sir6_7@1-3">Si possides amicum,</quote>
+            etc.
+            <ref xml:id="gom-sir6-Rd1e166"><name xml:id="gom-sir6-Nd1e167" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir6-Qd1e170">Per diversas species falsos amicos exprimens, tandem ad verum pervenit amicum: quia multi amicos se esse profitentur in prosperis, et inimici apparent in adversis. Unde: <quote xml:id="gom-sir6-Qd1e172" source="http://scta.info/resource/sir6_12@1-5">Si humiliaverit se contra te,</quote> etc.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e179">
+          <head xml:id="gom-sir6-Hd1e181">Versus 13</head>
+          <p xml:id="gom-sir6-d1e183">
+            <quote xml:id="gom-sir6-Qd1e185" type="lemma" source="http://scta.info/resource/sir6_13@9-9">Attende.</quote>
+            <ref xml:id="gom-sir6-Rd1e188"><name xml:id="gom-sir6-Nd1e189" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir6-Qd1e192"><seg type="qs">Id est, discretionem habe</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-sir6-Qd1e197" source="http://scta.info/resource/rom16_17@1-11">Rogo autem vos, fratres, ut observetis eos qui dissensiones et offendicula faciunt</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e203">
+          <head xml:id="gom-sir6-Hd1e205">Versus 14</head>
+          <p xml:id="gom-sir6-d1e207">
+            <quote xml:id="gom-sir6-Qd1e209" type="lemma" source="http://scta.info/resource/sir6_14@1-4">Amicus fortis.</quote>
+            Amicus amoris consors, cui sic animum tuum applica ut ex duobus unum fiat, cui te tanquam tibi committas, a quo nihil timeas: et nihil inhonestum petas. Non est enim amicitia vectigalis, sed plena decoris; unde: <quote xml:id="gom-sir6-Qd1e212" source="http://scta.info/resource/io15_14@1-10">Vos amici mei estis, si feceritis quae ego praecipio <pb ed="#P" n="1191B"/> vobis</quote>, etc. Dedit nobis Dominus formam amicitiae quam sequamur, ut faciamus amici voluntatem, aperiamus ei secreta, et ipse nobis; unde: <quote xml:id="gom-sir6-Qd1e217" source="http://scta.info/resource/io15_15@13-26">Vos autem dixi amicos, quia omnia quae audivi a Patre meo, nota feci vobis</quote><ref xml:id="gom-sir6-Rd1e219"><name xml:id="gom-sir6-Nd1e220" ref="#RabanusMaurus">Ibid.</name></ref><!-- check: attribution inside gloss body -->.
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e226">
+          <head xml:id="gom-sir6-Hd1e228">Versus 16</head>
+          <p xml:id="gom-sir6-d1e230">
+            <quote xml:id="gom-sir6-Qd1e232" type="lemma" source="http://scta.info/resource/sir6_16@1-2">Amicus fidelis.</quote>
+            Secundum Deum scilicet. Hic ad medicamentum vitae aeternae et immortalitatis necessaria, cum amico tractat: unde Cicero dicit amicitiam nonnisi inter bonos esse posse, et libera debet esse amicitia, et ad omnem felicitatem proclivis.
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e237">
+          <head xml:id="gom-sir6-Hd1e239">Versus 17</head>
+          <p xml:id="gom-sir6-d1e241">
+            <quote xml:id="gom-sir6-Qd1e243" type="lemma" source="http://scta.info/resource/sir6_17@1-2">Qui timet Dominum.</quote>
+            <ref xml:id="gom-sir6-Rd1e246"><name xml:id="gom-sir6-Nd1e247" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir6-Qd1e250"><seg type="qs">Plena et perfecta amicitiae gratia</seg>, etc., usque ad <seg type="qs">ut de hoc mundo credas te quotidie migraturum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e259">
+          <head xml:id="gom-sir6-Hd1e261">Versus 27</head>
+          <p xml:id="gom-sir6-d1e263">
+            <quote xml:id="gom-sir6-Qd1e265" type="lemma" source="http://scta.info/resource/sir6_27@1-4">In omni animo tuo.</quote>
+            <ref xml:id="gom-sir6-Rd1e268"><name xml:id="gom-sir6-Nd1e269" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir6-Qd1e272"><seg type="qs">Corde, non <pb ed="#P" n="1191C"/> corpore accedendum est ad sapientiam</seg>, etc., usque ad <seg type="qs">perceptio veritatis; unde: <quote xml:id="gom-sir6-Qd1e280" source="http://scta.info/resource/io17_3@1-11">Haec est autem vita aeterna ut cognoscant te solum verum Deum</quote>, etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e286">
+          <head xml:id="gom-sir6-Hd1e288">Versus 33</head>
+          <p xml:id="gom-sir6-d1e290">
+            <quote xml:id="gom-sir6-Qd1e292" type="lemma" source="http://scta.info/resource/sir6_33@1-3">Fili, si attenderis.</quote>
+            Monet sapientia, ut in divina lege assidue meditemur. Primum hortatur ut discamus; post, ut animam ad hoc applicemus, tandem, ut inclinemus; demum, ut diligentiam ad audiendum adhibeamus. Sic enim sapientia sapientem esse promittit. Necesse est enim, ut qui verae sapientiae, quae Christus est, agnitionem desiderat, primum catholicis magistris se humiliter subdat, et omnes affectus animae suae disciplinae eorum. Dehinc intentionem cordis ab omni pravo desiderio avertens ad audiendum verbum Dei adhibeat diligenter, caveatque <pb ed="#P" n="1191D"/> ut meditationem legis non pro terrenarum rerum mercede, vel laudis humanae, sed pro ipsius boni amore impendat, ut verae sapientiae fructum percipiat.
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e300">
+          <head xml:id="gom-sir6-Hd1e302">Versus 35</head>
+          <p xml:id="gom-sir6-d1e304">
+            <quote xml:id="gom-sir6-Qd1e306" type="lemma" source="http://scta.info/resource/sir6_35@1-2">In multitudine.</quote>
+            Quasi: Ne sis sapiens tibi ipsi. Ne confidas proprio ingenio, haereticos superbiae fastus maxime supplantavit.
+          </p>
+        </div>
+        <div xml:id="gom-sir6-Dd1e311">
+          <head xml:id="gom-sir6-Hd1e313">Versus 37</head>
+          <p xml:id="gom-sir6-d1e315">
+            <quote xml:id="gom-sir6-Qd1e317" type="lemma" source="http://scta.info/resource/sir6_37@1-4">Cogitatum habe in praeceptis.</quote>
+            <ref xml:id="gom-sir6-Rd1e320"><name xml:id="gom-sir6-Nd1e321" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir6-Qd1e324"><seg type="qs">Merito illi datur</seg>, etc., usque ad <seg type="qs">et assidue legem meditatur et opere exsequitur.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

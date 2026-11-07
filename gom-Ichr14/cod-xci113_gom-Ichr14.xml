@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon I, Caput 14</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon I, Caput 14</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0651B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ichr14">
+        <head xml:id="gom-Ichr14-Hd1e98">Caput 14</head>
+        <div xml:id="gom-Ichr14-Dd1e100">
+          <head xml:id="gom-Ichr14-Hd1e102">Versus 3</head>
+          <p xml:id="gom-Ichr14-d1e104">
+            <pb ed="#P" n="0651B"/>
+            <quote xml:id="gom-Ichr14-Qd1e108" type="lemma" source="http://scta.info/resource/Ichr14_3@1-3">Accepit quoque David,</quote>
+            etc.
+            <ref xml:id="gom-Ichr14-Rd1e111"><name xml:id="gom-Ichr14-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr14-Qd1e115">Multae uxores David multas gentes significant, quae per fidem Christo copulantur. Concubinae, haereticorum ecclesias, quae Christiani nominis titulo gloriantur. Sed quia propter carnalia lucra Christum sequuntur, non conjuges, sed concubinae dicuntur. Nunc reges si plures habeant uxores, crimen est, quia figurae transierunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr14-Dd1e119">
+          <head xml:id="gom-Ichr14-Hd1e121">Versus 8</head>
+          <p xml:id="gom-Ichr14-d1e123">
+            <quote xml:id="gom-Ichr14-Qd1e125" type="lemma" source="http://scta.info/resource/Ichr14_8@1-2">Audientes autem.</quote>
+            Diffamata Evangelii gratia et regno Christi ubique praedicato, gentes undique surrexerunt contradicentes Evangelio pacis.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr14-Dd1e130">
+          <head xml:id="gom-Ichr14-Hd1e132">Versus 15</head>
+          <p xml:id="gom-Ichr14-d1e134">
+            <quote xml:id="gom-Ichr14-Qd1e136" type="lemma" source="http://scta.info/resource/Ichr14_15@5-7">In cacumine pyrorum.</quote>
+            <ref xml:id="gom-Ichr14-Rd1e139"><name xml:id="gom-Ichr14-Nd1e140" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr14-Qd1e143"><seg type="qs">In Hebraeo vero, <mentioned>flentium</mentioned>, id est, idolorum venire jubet</seg>, etc., usque ad <seg type="qs">quos Spiritus sanctus dirigit praemonendo.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr14-Dd1e154">
+          <head xml:id="gom-Ichr14-Hd1e156">Versus 16</head>
+          <p xml:id="gom-Ichr14-d1e158">
+            <pb ed="#P" n="0651C"/>
+            <quote xml:id="gom-Ichr14-Qd1e162" type="lemma" source="http://scta.info/resource/Ichr14_16@12-15">De Gabaon usque Gazera.</quote>
+            Percutit Christus qui in colle superbiae consistunt, et conterit sepem duritiae, eorum dividens pertinaciam ut solus dominetur in orbe terrarum, unde sequitur: <quote xml:id="gom-Ichr14-Qd1e165" source="http://scta.info/resource/Ichr14_17@1-9">Divulgatumque est nomen David in universis regionibus, et Dominus,</quote> etc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

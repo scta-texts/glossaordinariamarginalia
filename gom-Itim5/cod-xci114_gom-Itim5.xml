@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Timotheum I, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Timotheum I, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0630A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Itim5">
+        <head xml:id="gom-Itim5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-Itim5-Dd1e100">
+          <head xml:id="gom-Itim5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Itim5-d1e104">
+            <pb ed="#P" n="0630A"/>
+            <quote xml:id="gom-Itim5-Qd1e108" type="lemma" source="http://scta.info/resource/Itim5_1@1-3">Seniorem ne increpaveris.</quote>
+            Ne, indigne ferens se a minore correctum, magis exasperetur quam proficiat.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e113">
+          <head xml:id="gom-Itim5-Hd1e115">Versus 2</head>
+          <p xml:id="gom-Itim5-d1e117">
+            <quote xml:id="gom-Itim5-Qd1e119" type="lemma" source="http://scta.info/resource/Itim5_2@5-6">Ut sorores.</quote>
+            Ut videntes se amoris causa commoneri, facilius se corrigant.
+          </p>
+          <p xml:id="gom-Itim5-d1e123">
+            <quote xml:id="gom-Itim5-Qd1e125" type="lemma" source="http://scta.info/resource/Itim5_2@7-9">In omni castitate.</quote>
+            In alloquio juvencularum recte juvenis de castitate admonetur.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e130">
+          <head xml:id="gom-Itim5-Hd1e132">Versus 3</head>
+          <p xml:id="gom-Itim5-d1e134">
+            <quote xml:id="gom-Itim5-Qd1e136" type="lemma" source="http://scta.info/resource/Itim5_3@1-6">Viduas honora quae vere viduae sunt.</quote>
+            Hoc est, quae omnium suorum auxilio destitutae sunt, et quae manibus laborare non possunt, quas paupertas debilitat, aetasque conficit: quibus Deus spes est, et omne opus, oratio.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e141">
+          <head xml:id="gom-Itim5-Hd1e143">Versus 4</head>
+          <p xml:id="gom-Itim5-d1e145">
+            <quote xml:id="gom-Itim5-Qd1e147" type="lemma" source="http://scta.info/resource/Itim5_4@18-18">Parentibus.</quote>
+            Parentes sunt iidem, qui superius filii et nepotes. Unde et in mundana lege <pb ed="#P" n="0630B"/> parens parenti jubetur per gradum succedere. Quibus mutuam vicem reddimus, cum a patribus educati sumus, et alios pari lege nutrimus.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e155">
+          <head xml:id="gom-Itim5-Hd1e157">Versus 5</head>
+          <p xml:id="gom-Itim5-d1e159">
+            <quote xml:id="gom-Itim5-Qd1e161" type="lemma" source="http://scta.info/resource/Itim5_5">Desolata, speret.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Videns ex nulla parte se habere suffragium, toto animo est devota Deo, de quo solo sperat auxilium vitae et salutis
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e168">
+          <head xml:id="gom-Itim5-Hd1e170">Versus 6</head>
+          <p xml:id="gom-Itim5-d1e172">
+            <quote xml:id="gom-Itim5-Qd1e174" type="lemma" source="http://scta.info/resource/Itim5_6@2-4">Quae in deliciis.</quote>
+            Genus est imposturae honorem viduae habere velle, et non obsequi Deo et aliud agere, aliud profiteri, cum profiteatur religionem
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e179">
+          <head xml:id="gom-Itim5-Hd1e181">Versus 8</head>
+          <p xml:id="gom-Itim5-d1e183">
+            <quote xml:id="gom-Itim5-Qd1e185" type="lemma" source="http://scta.info/resource/Itim5_8@8-10">Curam non habet.</quote>
+            Cura impendenda parentibus, ut Jesus matrem Joanni commendavit.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e190">
+          <head xml:id="gom-Itim5-Hd1e192">Versus 10</head>
+          <p xml:id="gom-Itim5-d1e194">
+            <quote xml:id="gom-Itim5-Qd1e196" type="lemma" source="http://scta.info/resource/Itim5_10@14-14">Pedes.</quote>
+            <ref xml:id="gom-Itim5-Rd1e199"><name xml:id="gom-Itim5-Nd1e200" ref="#Augustine">AUG.</name>, in Tract. 58 in Joan.</ref>
+            <quote xml:id="gom-Itim5-Qd1e204"><seg type="qs">Faciamus haec invicem humiles, quod humiliter fecit excelsus</seg>, etc., usque ad <seg type="qs">confirmatur humilitatis effectus. <pb ed="#P" n="0630C"/></seg></quote>
+          </p>
+          <p xml:id="gom-Itim5-d1e213">
+            <quote xml:id="gom-Itim5-Qd1e215" type="lemma" source="http://scta.info/resource/Itim5_10@13-13">Sanctorum.</quote>
+            Quorum obsecro? Eorum, qui in tribulatione sunt, non sanctorum simpliciter: possunt enim esse sancti, summoque obsequio ab omnibus foveri. Noli hos prosequi copia rerum affluentes, sed afflictos, et qui a multis ignorantur. Noli praesuli Ecclesiae ista tribuere partienda, ipse potius ministra, nesolius impendii, verum obsequii praemium percipias: propriis eroga manibus, tu sulcum sere pietatis.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e220">
+          <head xml:id="gom-Itim5-Hd1e222">Versus 11</head>
+          <p xml:id="gom-Itim5-d1e224">
+            <quote xml:id="gom-Itim5-Qd1e226" type="lemma" source="http://scta.info/resource/Itim5_11@4-4">Devita.</quote>
+            Id est, vota castitatis earum non usque adeo cures, ut eas Ecclesiae alimoniis sustentandas suscipias.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e231">
+          <head xml:id="gom-Itim5-Hd1e233">Versus 12</head>
+          <p xml:id="gom-Itim5-d1e235">
+            <quote xml:id="gom-Itim5-Qd1e237" type="lemma" source="http://scta.info/resource/Itim5_12@1-1">Habentes.</quote>
+            <ref xml:id="gom-Itim5-Rd1e240"><name xml:id="gom-Itim5-Nd1e241" ref="#Augustine">AUG.</name>, de Bono viduitatis, cap. 8, 9, 10.</ref>
+            <quote xml:id="gom-Itim5-Qd1e245"><seg type="qs">In conjugali vinculo si pudicitia conservetur, damnatio non timetur</seg>, etc., usque ad <seg type="qs"><pb ed="#P" n="0630D"/> omnis hujusmodi similis est uxori Loth, quae retro aspexit.</seg></quote>
+          </p>
+          <p xml:id="gom-Itim5-d1e254">
+            <quote xml:id="gom-Itim5-Qd1e256" type="lemma" source="http://scta.info/resource/Itim5_12@6-7">Irritam fecerunt.</quote>
+            Etsi non nubendo, tamen volendo: non quia nuptiae damnentur, sed fraus propositi, et fracta fides voti damnatur et voluntas, quae a proposito recedit damnabilis est, sive nuptiae sequantur, sive non.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e262">
+          <head xml:id="gom-Itim5-Hd1e264">Versus 15</head>
+          <p xml:id="gom-Itim5-d1e266">
+            <quote xml:id="gom-Itim5-Qd1e268" type="lemma" source="http://scta.info/resource/Itim5_15@4-7">Conversae sunt retro Satanam.</quote>
+            Ab excellenti illo vidualis vel castitatis virginalis proposito in posteriora respiciendo ceciderunt et interierunt.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e273">
+          <head xml:id="gom-Itim5-Hd1e275">Versus 17</head>
+          <p xml:id="gom-Itim5-d1e277">
+            <quote xml:id="gom-Itim5-Qd1e279" type="lemma" source="http://scta.info/resource/Itim5_17@1-2">Qui bene.</quote>
+            De honore presbyterorum hic agit, quasi dicat: Illud quod dixi de viduis observa: et hoc etiam praecipe de presbyteris, ut presbyteri, <pb ed="#P" n="0631A"/> qui bene praesunt vita et doctrina, digni habeantur.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e286">
+          <head xml:id="gom-Itim5-Hd1e288">Versus 19</head>
+          <p xml:id="gom-Itim5-d1e290">
+            <quote xml:id="gom-Itim5-Qd1e292" type="lemma" source="http://scta.info/resource/Itim5_19@1-5">Adversus presbyterum accusationem noli recipere,</quote>
+            etc. Solet qui corripit non amari, et ideo habita occasione facile accusatur. Contra hoc monet, non esse recipiendam de facili accusationem adversus presbyterum.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e297">
+          <head xml:id="gom-Itim5-Hd1e299">Versus 20</head>
+          <p xml:id="gom-Itim5-d1e301">
+            <quote xml:id="gom-Itim5-Qd1e303" type="lemma" source="http://scta.info/resource/Itim5_20@2-3">Coram omnibus,</quote>
+            etc.
+            <ref xml:id="gom-Itim5-Rd1e306"><name xml:id="gom-Itim5-Nd1e307" ref="#Augustine">AUG.</name>, serm. 16 de Verb. Dom.</ref>
+            <quote xml:id="gom-Itim5-Qd1e311"><seg type="qs">Aliquando debes corripere peccantem inter te et ipsum solum</seg>, etc., usque ad <seg type="qs">quando autem palam peccatur, palam arguendum est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e320">
+          <head xml:id="gom-Itim5-Hd1e322">Versus 21</head>
+          <p xml:id="gom-Itim5-d1e324">
+            <quote xml:id="gom-Itim5-Qd1e326" type="lemma" source="http://scta.info/resource/Itim5_21@1-3">Testor coram Deo.</quote>
+            Id est, Deus sit mihi testis, quod animam meam salvavi tibi, cave.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e331">
+          <head xml:id="gom-Itim5-Hd1e333">Versus 23</head>
+          <p xml:id="gom-Itim5-d1e335">
+            <quote xml:id="gom-Itim5-Qd1e337" type="lemma" source="http://scta.info/resource/Itim5_23@1-3">Noli adhuc aquam,</quote>
+            etc. Quia castitatem admonuit, hac occasione immoderatam abstinentiam <pb ed="#P" n="0631B"/> prohibet, quam ipse inierat.
+          </p>
+        </div>
+        <div xml:id="gom-Itim5-Dd1e345">
+          <head xml:id="gom-Itim5-Hd1e347">Versus 24</head>
+          <p xml:id="gom-Itim5-d1e349">
+            <quote xml:id="gom-Itim5-Qd1e351" type="lemma" source="http://scta.info/resource/Itim5_24@1-3">Quorumdam hominum peccata,</quote>
+            etc. Quia dixerat sine praejudicio nihil faciendum, determinat ubi praejudicium sit necessarium, et ubi non, dividens bona et mala, in manifesta et occulta, quasi dicat: ideo opus est examinatione, quia sicut quaedam sunt manifesta, quae non oportet examinari, ita quaedam sunt occulta, de quibus sine praeexaminatione non potest fieri praejudicium.
+          </p>
+          <p xml:id="gom-Itim5-d1e355">
+            <quote xml:id="gom-Itim5-Qd1e357" type="lemma" source="http://scta.info/resource/Itim5_24@4-4">Manifestata.</quote>
+            Hoc dicit de iis, de quibus clarum est quo animo fiant, haec praecedunt ad judicium, quia si ista sequitur judicium, non est temerarium.
+          </p>
+          <p xml:id="gom-Itim5-d1e361">
+            <quote xml:id="gom-Itim5-Qd1e363" type="lemma" source="http://scta.info/resource/Itim5_24@12-12">Subsequuntur.</quote>
+            Sicut quae occulta sunt mala ipsa non latebunt tempore suo quando Christi tempus advenerit, quo manifestentur: sic et de bonis. De his ergo judicemus: <pb ed="#P" n="0631C"/> illa Dei judicio relinquantur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

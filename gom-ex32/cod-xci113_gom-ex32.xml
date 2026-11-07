@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 32</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 32</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0286D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex32">
+        <head xml:id="gom-ex32-Hd1e98">Caput 32</head>
+        <div xml:id="gom-ex32-Dd1e100">
+          <head xml:id="gom-ex32-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ex32-d1e104">
+            <quote xml:id="gom-ex32-Qd1e106" type="lemma" source="http://scta.info/resource/ex32_1@16-17">Fac nobis,</quote>
+            etc. Deos pluraliter, cum unus tantum vitulus factus sit, ad similitudinem scilicet bovis Apis, quem in Aegypto coluerunt; sed qui idololatriam colit, omnibus vitiis subjicit se, et quasi tot diis et daemonibus quot vitiis servit.
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e111">
+          <head xml:id="gom-ex32-Hd1e113">Versus 2</head>
+          <p xml:id="gom-ex32-d1e115">
+            <quote xml:id="gom-ex32-Qd1e117" type="lemma" source="http://scta.info/resource/ex32_2@1-2">Dixitque ad,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-ex32-d1e121">
+            <quote xml:id="gom-ex32-Qd1e123" type="lemma" source="http://scta.info/resource/ex32_2">(AUG., quaest. 141 <pb ed="#P" n="0287A"/> in Exod.)</quote>
+            <!-- check: lemma not matched to verse text -->
+            Intelligitur Aaron difficilia praecipere, ut hoc modo eos ab illa intentione revocaret. Factum est tamen illud ipsum difficile, ut esset aurum ad faciendum idolum: quod propter eos notandum putavi qui contristantur si quid tale propter vitam aeternam divinitus fieri, vel aequo animo tolerare jubeantur.
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e132">
+          <head xml:id="gom-ex32-Hd1e134">Versus 6</head>
+          <p xml:id="gom-ex32-d1e136">
+            <quote xml:id="gom-ex32-Qd1e138" type="lemma" source="http://scta.info/resource/ex32_6@8-11">Et sedit populus comedere,</quote>
+            etc. Esus potusque ad lusum impulit, lusus ad idololatriam: quia si vanitatis culpa non caute compescitur, ab iniquitate mens incauta devoratur. Unde: <quote xml:id="gom-ex32-Qd1e141" source="http://scta.info/resource/sir19_1@6-10">Qui modica spernit, paulatim decidit.</quote> Si enim curare parva negligimus insensibiliter seducti, etiam majora audenter perpetramus.
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e146">
+          <head xml:id="gom-ex32-Hd1e148">Versus 8</head>
+          <p xml:id="gom-ex32-d1e150">
+            <quote xml:id="gom-ex32-Qd1e152" type="lemma" source="http://scta.info/resource/ex32_8@19-22">Isti sunt dii tui.</quote>
+            <ref xml:id="gom-ex32-Rd1e155"><name xml:id="gom-ex32-Nd1e156" ref="#Augustine">AUG.</name>, quaest. 142.</ref>
+            <quote xml:id="gom-ex32-Qd1e160"><pb ed="#P" n="0287B"/> Dominus indicans Moysi quid fecerit populus de vitulo et de idolo quod ex auro suo fecerant, dicit eos dixisse: Hi sunt dii tui, Israel, qui te eduxerunt de terra Aegypti. Quod eos dixisse non legitur; sed animum eorum hunc fuisse Deus ostendit, horum quippe gerebant verborum in corde sententiam, quae Deum latere non poterat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e167">
+          <head xml:id="gom-ex32-Hd1e169">Versus 10</head>
+          <p xml:id="gom-ex32-d1e171">
+            <quote xml:id="gom-ex32-Qd1e173" type="lemma" source="http://scta.info/resource/ex32_10@1-2">Dimitte me,</quote>
+            etc.
+            <ref xml:id="gom-ex32-Rd1e176"><name xml:id="gom-ex32-Nd1e177" ref="#GregoryGreat">GREG.</name>, lib. IX Moral., cap. 11.</ref>
+            <quote xml:id="gom-ex32-Qd1e181"><seg type="qs">Quid est servo dicere</seg>, etc., usque ad <seg type="qs">iram Dei non valuit pro seipso temperare.</seg></quote>
+          </p>
+          <p xml:id="gom-ex32-d1e189">
+            <ref xml:id="gom-ex32-Rd1e191" type="lemma" subtype="implied" target="http://scta.info/resource/ex32_10@1-2"/>
+            <ref xml:id="gom-ex32-Rd1e193"><name xml:id="gom-ex32-Nd1e194" ref="#GregoryGreat">ID.</name>, lib. XX Moral., cap. 6.</ref>
+            <quote xml:id="gom-ex32-Qd1e198"><seg type="qs">Aedificare lectorem juxta historiam potest</seg>, etc., usque ad <seg type="qs">nec misericordia disciplinae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e207">
+          <head xml:id="gom-ex32-Hd1e209">Versus 13</head>
+          <p xml:id="gom-ex32-d1e211">
+            <quote xml:id="gom-ex32-Qd1e213" type="lemma" source="http://scta.info/resource/ex32_13@1-3">Recordare Abraham, Isaac,</quote>
+            etc. Patres, qui diliguntur, inducit pro filiis, qui offendunt, <pb ed="#P" n="0287C"/> nec merentur audiri; quia bona sanctorum patrum saepe subveniunt filiis.
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e220">
+          <head xml:id="gom-ex32-Hd1e222">Versus 14</head>
+          <p xml:id="gom-ex32-d1e224">
+            <quote xml:id="gom-ex32-Qd1e226" type="lemma" source="http://scta.info/resource/ex32_14@1-6">Placatusque est Dominus ne faceret malum.</quote>
+            <ref xml:id="gom-ex32-Rd1e229"><name xml:id="gom-ex32-Nd1e230" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ex32-Qd1e233">Malitiam hic poenam intelligi voluit, sicut est illud: Aestimata est malitia exitus illorum. Secundum hoc dicitur et bonum et malum esse a Deo, non secundum malitiam qua homines mali sunt. Malus enim Deus non est: sed malis ingerit mala, quia justus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e237">
+          <head xml:id="gom-ex32-Hd1e239">Versus 19</head>
+          <p xml:id="gom-ex32-d1e241">
+            <quote xml:id="gom-ex32-Qd1e243" type="lemma" source="http://scta.info/resource/ex32_19@9-10">Iratusque valde.</quote>
+            <ref xml:id="gom-ex32-Rd1e246"><name xml:id="gom-ex32-Nd1e247" ref="#Augustine">ID.</name>, quaest. 144.</ref>
+            <quote xml:id="gom-ex32-Qd1e251">Iratus Moyses, tabulas testimonii digito Dei scriptas fregisse videtur. Magno tamen mysterio figurata est iteratio Testamenti Novi, quia vetus fuerat abolendum, et Novum constituendum. Notandum sane quanta pro populo ad Deum supplicatione laboraverit, <pb ed="#P" n="0287D"/> qui tam severus in eos vindicando fuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e258">
+          <head xml:id="gom-ex32-Hd1e260">Versus 20</head>
+          <p xml:id="gom-ex32-d1e262">
+            <quote xml:id="gom-ex32-Qd1e264" type="lemma" source="http://scta.info/resource/ex32_20@1-4">Arripiensque vitulum quem fecerant.</quote>
+            <ref xml:id="gom-ex32-Rd1e267"><name xml:id="gom-ex32-Nd1e268" ref="#IsidoreOfSeville">ISID.</name> in Exod., tom. V.</ref>
+            <quote xml:id="gom-ex32-Qd1e272"><seg type="qs">Diaboli corpus significatur in vitulo</seg>, etc., usque ad <seg type="qs">absorptus est.</seg></quote>
+          </p>
+          <p xml:id="gom-ex32-d1e280">
+            <quote xml:id="gom-ex32-Qd1e282" type="lemma" source="http://scta.info/resource/ex32_20@15-21">Et dedit ex eo potum filiis Israel.</quote>
+            Tradunt Hebraei quod filii Israel bibentes aquam vituli pulvere infectam, qui commiserant idololatriam in barbis pulverem auri praeferebant, quo etiam signo rei vel immunes sceleris apparebant, et rei interficiebantur.
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e287">
+          <head xml:id="gom-ex32-Hd1e289">Versus 24</head>
+          <p xml:id="gom-ex32-d1e291">
+            <quote xml:id="gom-ex32-Qd1e293" type="lemma" source="http://scta.info/resource/ex32_24@9-11">Et dederunt mihi,</quote>
+            etc.
+            <ref xml:id="gom-ex32-Rd1e296"><name xml:id="gom-ex32-Nd1e297" ref="#Augustine">AUG.</name>, quaest. 145.</ref>
+            <quote xml:id="gom-ex32-Qd1e301"><seg type="qs">Compendiose locutus est</seg>, etc., usque ad <seg type="qs">non redarguit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e311">
+          <head xml:id="gom-ex32-Hd1e313">Versus 25</head>
+          <p xml:id="gom-ex32-d1e315">
+            <quote xml:id="gom-ex32-Qd1e317" type="lemma" source="http://scta.info/resource/ex32_25@8-17">Spoliaverat enim eum Aaron in ignominiam <pb ed="#P" n="0288A"/> sordis et inter hostes,</quote>
+            etc. Notandum, quod populus fecit, ipsi Aaron tribuitur, quia consensit ad faciendum quod male petiverat. Magis enim dictum est, nudavit eos Aaron, quia cessit eis, quam nudaverunt se ipsi, qui tantum malum flagitaverunt. Ornamentis quibus fabricatum fuerat idolum, vel quia malam voluntatem prius latentem ostenderat, vel auxilium et protectionem Dei perdiderat.
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e324">
+          <head xml:id="gom-ex32-Hd1e326">Versus 27</head>
+          <p xml:id="gom-ex32-d1e328">
+            <quote xml:id="gom-ex32-Qd1e330" type="lemma" source="http://scta.info/resource/ex32_27@8-10">Ponat vir gladium,</quote>
+            etc.
+            <ref xml:id="gom-ex32-Rd1e333"><name xml:id="gom-ex32-Nd1e334" ref="#GregoryGreat">GREG.</name>, Past. p. III, c. 26.</ref>
+            <quote xml:id="gom-ex32-Qd1e338"><seg type="qs">Gladium</seg>, etc., usque ad <seg type="qs">Unde subditur:</seg></quote>
+          </p>
+          <p xml:id="gom-ex32-d1e346">
+            <quote xml:id="gom-ex32-Qd1e348" type="lemma" source="http://scta.info/resource/ex32_27@26-28">Occidat unusquisque fratrem suum,</quote>
+            etc. Hos interfecit, quos puniendos invenit ab increpationis gladio, nec eis quos per cognationem carnis diligit, parcit. Si ergo ille Dei dicitur, qui ad ferienda vitia <pb ed="#P" n="0288B"/> zelo divini amoris excitatur, profecto esse se Dei negat, qui quantum sufficit, vitam carnalium increpare recusat.
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e355">
+          <head xml:id="gom-ex32-Hd1e357">Versus 28</head>
+          <p xml:id="gom-ex32-d1e359">
+            <quote xml:id="gom-ex32-Qd1e361" type="lemma" source="http://scta.info/resource/ex32_28@1-1">Feceruntque,</quote>
+            etc.
+            <ref xml:id="gom-ex32-Rd1e364"><name xml:id="gom-ex32-Nd1e365" ref="#Augustine">AUG.</name> in Locutionibus, locut. 124.</ref>
+            <quote xml:id="gom-ex32-Qd1e369"><seg type="qs">Plurale pro singulari posuit</seg>, etc., usque ad <seg type="qs">certisque regulis istae locutiones interponuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e378">
+          <head xml:id="gom-ex32-Hd1e380">Versus 31</head>
+          <p xml:id="gom-ex32-d1e382">
+            <quote xml:id="gom-ex32-Qd1e384" type="lemma" source="http://scta.info/resource/ex32_31@15-17">Aut dimitte eis,</quote>
+            etc.
+            <ref xml:id="gom-ex32-Rd1e387"><name xml:id="gom-ex32-Nd1e388" ref="#Augustine">AUG.</name>, quaest. 147 in Exod.</ref>
+            <quote xml:id="gom-ex32-Qd1e392"><seg type="qs">Securus quidem hoc dicit</seg>, etc., usque ad <seg type="qs">ut pro eis illa verba Deo funderet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex32-Dd1e401">
+          <head xml:id="gom-ex32-Hd1e403">Versus 35</head>
+          <p xml:id="gom-ex32-d1e405">
+            <quote xml:id="gom-ex32-Qd1e407" type="lemma" source="http://scta.info/resource/ex32_35@8-10">Quem fecit Aaron.</quote>
+            <ref xml:id="gom-ex32-Rd1e410"><name xml:id="gom-ex32-Nd1e411" ref="#Augustine">AUG.</name> quaest. 148.</ref>
+            <quote xml:id="gom-ex32-Qd1e415"><seg type="qs">Quaeritur cum superius populum nudasse dictus sit Aaron</seg>, etc., usque ad <seg type="qs">quod Apostolus dicit exclamans: <quote xml:id="gom-ex32-Qd1e421" source="http://scta.info/resource/rom11_33@8-12">Quam inscrutabilia enim sunt judicia ejus:</quote> etc. <!--<note>(Rom. XI)</note>-->.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

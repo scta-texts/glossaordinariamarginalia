@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0570C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam10">
+        <head xml:id="gom-IIsam10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-IIsam10-Dd1e100">
+          <head xml:id="gom-IIsam10-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIsam10-d1e104">
+            <pb ed="#P" n="0570C"/>
+            <quote xml:id="gom-IIsam10-Qd1e108" type="lemma" source="http://scta.info/resource/IIsam10_1@1-10">Factum est autem post haec, ut moreretur rex filiorum Ammon,</quote>
+            etc., <quote xml:id="gom-IIsam10-Qd1e111" source="http://scta.info/resource/IIsam10_2@3-3">Faciam,</quote> etc.
+          </p>
+          <p xml:id="gom-IIsam10-d1e115">
+            <ref xml:id="gom-IIsam10-Rd1e117" type="lemma" subtype="implied" target="http://scta.info/resource/IIsam10_1@1-10"/>
+            <ref xml:id="gom-IIsam10-Rd1e119"><name xml:id="gom-IIsam10-Nd1e120" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-IIsam10-Qd1e123">Quando David fugit a facie Achis regis Geth, venit ad Naas regem Ammon, qui fecit cum eo misericordiam. De Naas itaque venit ad speluncam Odollam, ubi venerunt ad eum pater ejus et mater, et omnis domus ejus: inde pervenit ad Moab, et dimisit apud eum patrem et matrem et omnem domum suam. Quod vero dixit Achis rex Geth: <quote xml:id="gom-IIsam10-Qd1e125" source="http://scta.info/resource/Isam22_1@1-9">Hic ne ingredietur domum meam? Abiit inde David et fugit in speluncam Odollam<!-- check: Migne cites Isam21; text matches Isam22_1 --></quote>, subaudiendum de domo Naas. Si quaeratur cur ad Achis redierit, quem prius fugerat, intelligendum est eum ad quem rediit fuisse filium ejus quem fugit. Unde in sequentibus de Achis, cum <pb ed="#P" n="0570D"/> quo descendebat David in praelium filius fuisse dicitur Maoch. Non enim a patre hoc patronymicum sed a matre sumpsit, quae Maacha vocabatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam10-Dd1e134">
+          <head xml:id="gom-IIsam10-Hd1e136">Versus 4</head>
+          <p xml:id="gom-IIsam10-d1e138">
+            <quote xml:id="gom-IIsam10-Qd1e140" type="lemma" source="http://scta.info/resource/IIsam10_4@1-6">Tulit itaque Hanon servos David, rasitque barbam,</quote>
+            etc.
+            <ref xml:id="gom-IIsam10-Rd1e143"><name xml:id="gom-IIsam10-Nd1e144" ref="#RabanusMaurus">RAB.</name>, ex Euch.</ref>
+            <quote xml:id="gom-IIsam10-Qd1e148">Significant haec bellum diaboli contra Ecclesiam. Hanon enim, id est, dolor eorum, diabolum significat, qui Ammonitarum, id est, malignorum spirituum, id est, rector populi moeroris et semper in angustia constituti, qui comprimere vel angustiare homines desiderat. Radit ergo Hanon barbam dimidiam nuntiorum David, cum diabolus quorumdam praedicatorum sermonem vel conversationem corrumpendo maculat. Praecidit tunicas usque ad inguina, cum <pb ed="#P" n="0571A"/> turpia facta quae persuadet, in oculis hominum revelat. His necesse est sedeant in Jericho donec crescat barba, ne sint opprobrium aliorum et anathema omnium, id est, donec incrementa virtutum in eis nascantur, et digni habeantur praesentari suo regi. David autem noster milites suos inultos esse non patitur, sed exercitu congregato suorum injuriam vindicat, nec solum adversarios per sanctorum suorum victoriam confundit, sed etiam in extremo judicio perpetuis ignibus tradit.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

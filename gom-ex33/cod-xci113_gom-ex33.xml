@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 33</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 33</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0288C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex33">
+        <head xml:id="gom-ex33-Hd1e98">Caput 33</head>
+        <div xml:id="gom-ex33-Dd1e100">
+          <head xml:id="gom-ex33-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ex33-d1e104">
+            <pb ed="#P" n="0288C"/>
+            <quote xml:id="gom-ex33-Qd1e108" type="lemma" source="http://scta.info/resource/ex33_1@1-1">Locutusque,</quote>
+            etc.
+            <ref xml:id="gom-ex33-Rd1e111"><name xml:id="gom-ex33-Nd1e112" ref="#Augustine">AUG.</name>, quaest. 149 in Exod.</ref>
+            <quote xml:id="gom-ex33-Qd1e116"><seg type="qs">Deus iratus</seg>, etc., usque ad <seg type="qs">voce terrebat.</seg></quote>
+          </p>
+          <p xml:id="gom-ex33-d1e124">
+            <quote xml:id="gom-ex33-Qd1e126" type="lemma" source="http://scta.info/resource/ex33_1@6-6">Vade,</quote>
+            etc.
+            <ref xml:id="gom-ex33-Rd1e129"><name xml:id="gom-ex33-Nd1e130" ref="#Augustine">ID.</name>, quaest. 150.</ref>
+            <quote xml:id="gom-ex33-Qd1e134"><seg type="qs">Continuo tanquam ad ipsum Mosen</seg>, etc., usque ad <seg type="qs">a facie Domini.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e143">
+          <head xml:id="gom-ex33-Hd1e145">Versus 2</head>
+          <p xml:id="gom-ex33-d1e147">
+            <quote xml:id="gom-ex33-Qd1e149" type="lemma" source="http://scta.info/resource/ex33_2@2-3">Mittam praecursorem.</quote>
+            <ref xml:id="gom-ex33-Rd1e152"><name xml:id="gom-ex33-Nd1e153" ref="#Augustine">AUG.</name>, quaest. 150.</ref>
+            <quote xml:id="gom-ex33-Qd1e157">Deus cum justis est visitando, miserando, et confortando: cum impiis vero, ulciscendo et puniendo. Et est sensus: Cum his non possum esse propter te, ut vindicem et puniam; nec propter eos, ut visitem et confortem: mittam angelum meum saltem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e161">
+          <head xml:id="gom-ex33-Hd1e163">Versus 4</head>
+          <p xml:id="gom-ex33-d1e165">
+            <quote xml:id="gom-ex33-Qd1e167" type="lemma" source="http://scta.info/resource/ex33_4@1-2">Audiens populus.</quote>
+            <ref xml:id="gom-ex33-Rd1e170"><name xml:id="gom-ex33-Nd1e171" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-ex33-Qd1e174">Pessimum <pb ed="#P" n="0288D"/> sermonem dicit audivisse populum, hoc est, crudelissimum atque moestissimum. Quod enim majus alicui praestari potest beneficium, quam Dei gratiam habere praesentem, ac conditorem suum agnoscere sibi esse propitium; aut quod majus est discrimen, quam auctoris sufferre iram? Nihil habet boni, qui creatoris sui carebit gratia atque praesentia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e181">
+          <head xml:id="gom-ex33-Hd1e183">Versus 7</head>
+          <p xml:id="gom-ex33-d1e185">
+            <quote xml:id="gom-ex33-Qd1e187" type="lemma" source="http://scta.info/resource/ex33_7@3-4">Tollens tabernaculum,</quote>
+            etc. Hoc per prolepsim accipiendum, si de illo tabernaculo accipitur, quod Moysi in monte monstratum est, et fabricatum, praecipiente Domino, a Beseleel et Ooliab. Vel aliud tabernaculum fuit, ad quod jam conveniebant ad judicandum.
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e193">
+          <head xml:id="gom-ex33-Hd1e195">Versus 8</head>
+          <p xml:id="gom-ex33-d1e197">
+            <pb ed="#P" n="0289A"/>
+            <quote xml:id="gom-ex33-Qd1e201" type="lemma" source="http://scta.info/resource/ex33_8@1-2">Cumque egrederetur,</quote>
+            etc.
+            <ref xml:id="gom-ex33-Rd1e204"><name xml:id="gom-ex33-Nd1e205" ref="#GregoryGreat">GREG.</name>, hom. 13 in Ezech.</ref>
+            <quote xml:id="gom-ex33-Qd1e209"><seg type="qs">Hebraeus populus de Aegyptiaca servitute liberatus</seg>, etc., usque ad <seg type="qs">progredi conantur.</seg></quote>
+          </p>
+          <p xml:id="gom-ex33-d1e217">
+            <quote xml:id="gom-ex33-Qd1e219" type="lemma" source="http://scta.info/resource/ex33_8@16-16">Aspiciebantque,</quote>
+            etc.
+            <ref xml:id="gom-ex33-Rd1e222"><name xml:id="gom-ex33-Nd1e223">STRAB.</name></ref>
+            <quote xml:id="gom-ex33-Qd1e225">Moyses tenet figuram legis. Moysi ergo tergum populus Judaicus aspiciebat, quia nihil mysticum, nihil spirituale in lege voluit intelligere, sed superficiem tantum litterae. Ideo ejus facies abscondita erat, id est, vera et mera cognitio. Ingresso illo tabernaculum, descendebat columna nubis, et stabat ad ostium. Alia translatio dicit quod Moysi volenti ingredi tabernaculum, opponebat se nubes ante et prohibebat eum. Hic autem dicitur, quod illo ingresso loquebatur nubes ante ostium cum eo. Sciendum ergo quod aliquam <pb ed="#P" n="0289B"/> quam partem ingrediebatur, atrium scilicet, et tunc antequam intraret in tabernaculum, opponebat se nubes: hoc ergo loco significat eos qui minus sunt perfecti scientia et opere, nec valent intima scripturarum penetrare. Alibi autem quando medium nebulae ingressus est, perfectorum figuram tenuit, scilicet qui mysticorum sensuum arcana investigant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e232">
+          <head xml:id="gom-ex33-Hd1e234">Versus 11</head>
+          <p xml:id="gom-ex33-d1e236">
+            <quote xml:id="gom-ex33-Qd1e238" type="lemma" source="http://scta.info/resource/ex33_11@1-3">Loquebatur autem Dominus.</quote>
+            Secundum opinionem populi loquitur Scriptura, qui putabat Moysen ore ad os loqui cum Deo, cum per subjectam creaturam, id est per angelum et nubem ei loqueretur et appareret. Nam ejus substantiam nec hominum nec angelorum (sicut est) quisquam videre potuit, unde: <quote xml:id="gom-ex33-Qd1e241" source="http://scta.info/resource/Itim1_17@1-5">Regi autem saeculorum immortali, invisibili,</quote> etc. Et alibi: <quote xml:id="gom-ex33-Qd1e244">Lucem habitat inaccessibilem,</quote> etc. <quote xml:id="gom-ex33-Qd1e246">(I Tim. <pb ed="#P" n="0289C"/> I, VI)</quote>.
+          </p>
+          <p xml:id="gom-ex33-d1e252">
+            <quote xml:id="gom-ex33-Qd1e254" type="lemma" source="http://scta.info/resource/ex33_11">Facies Dei</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ex33-Rd1e259"><name xml:id="gom-ex33-Nd1e260" ref="#GregoryGreat">GREG.</name>, in I Reg., cap. 10.</ref>
+            <quote xml:id="gom-ex33-Qd1e264">cognitio ejus est. Cognoscitur autem Deus per speculum, cognoscitur per seipsum. Per speculum hic, per semetipsum in coelo. Speculum vero est illa lux quam habitat Deus: ipse autem lux illa quae ipse est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e268">
+          <head xml:id="gom-ex33-Hd1e270">Versus 13</head>
+          <p xml:id="gom-ex33-d1e272">
+            <quote xml:id="gom-ex33-Qd1e274" type="lemma" source="http://scta.info/resource/ex33_13@1-4">Si ergo inveni gratiam,</quote>
+            etc.
+            <ref xml:id="gom-ex33-Rd1e277"><name xml:id="gom-ex33-Nd1e278" ref="#Augustine">AUG.</name>, quaest. 151.</ref>
+            <quote xml:id="gom-ex33-Qd1e282"><seg type="qs">His verbis ostendit Moyses</seg>, etc., usque ad <seg type="qs">ut se mundos et inviolatos custodiant et proficiant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e291">
+          <head xml:id="gom-ex33-Hd1e293">Versus 17</head>
+          <p xml:id="gom-ex33-d1e295">
+            <quote xml:id="gom-ex33-Qd1e297" type="lemma" source="http://scta.info/resource/ex33_17@18-21">Et teipsum novi,</quote>
+            <quote xml:id="gom-ex33-Qd1e300"><seg type="qs">etc. <quote xml:id="gom-ex33-Qd1e303">Quoniam scio te prae omnibus,</quote><ref xml:id="gom-ex33-Rd1e304"><name xml:id="gom-ex33-Nd1e305" ref="#Augustine">AUG.</name>, quaest. 153.</ref><!-- check: attribution inside gloss body --> etc. Nunquid Deus plus aliqua scit et aliqua minus?</seg> etc., usque ad <seg type="qs">sed diligentius requirendum est in prioribus Scripturae <pb ed="#P" n="0289D"/> partibus an vere sit ita.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e318">
+          <head xml:id="gom-ex33-Hd1e320">Versus 19</head>
+          <p xml:id="gom-ex33-d1e322">
+            <quote xml:id="gom-ex33-Qd1e324" type="lemma" source="http://scta.info/resource/ex33_19@2-3">Ego ostendam.</quote>
+            <ref xml:id="gom-ex33-Rd1e327"><name xml:id="gom-ex33-Nd1e328" ref="#Augustine">AUG.</name>, quaest. 154.</ref>
+            <quote xml:id="gom-ex33-Qd1e332"><seg type="qs">Cum dixisset Moyses ad Dominum</seg>, etc., usque ad <seg type="qs">vocatur Dominus Christus in omnibus gentibus.</seg></quote>
+          </p>
+          <p xml:id="gom-ex33-d1e340">
+            <quote xml:id="gom-ex33-Qd1e342" type="lemma" source="http://scta.info/resource/ex33_19@7-8">Et vocabo. Vocabo</quote>
+            <ref xml:id="gom-ex33-Rd1e345"><name xml:id="gom-ex33-Nd1e346" ref="#Augustine">AUG.</name>, quaest. 154.</ref>
+            <quote xml:id="gom-ex33-Qd1e350">autem dixit, non vocabor, activum verbum pro passivo ponens, genere locutionis inusitato, in quo forte significare voluit seipsum hoc facere, id est, gratia sua fieri, ut vocetur Dominus in omnibus gentibus.</quote>
+          </p>
+          <p xml:id="gom-ex33-d1e353">
+            <quote xml:id="gom-ex33-Qd1e355" type="lemma" source="http://scta.info/resource/ex33_19@14-15">Et miserebor,</quote>
+            etc.
+            <ref xml:id="gom-ex33-Rd1e358"><name xml:id="gom-ex33-Nd1e359" ref="#Augustine">AUG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-ex33-Qd1e363"><seg type="qs">Quod addidit</seg>, etc., usque ad <seg type="qs">sic Deus pronuntiavit misericordiam se esse facturum.</seg></quote>
+          </p>
+          <p xml:id="gom-ex33-d1e371">
+            <ref xml:id="gom-ex33-Rd1e373" type="lemma" subtype="implied" target="http://scta.info/resource/ex33_19@14-15"/>
+            <ref xml:id="gom-ex33-Rd1e375"><name xml:id="gom-ex33-Nd1e376" ref="#Augustine">AUG.</name>, lib. de Praedestinatione et Gratia, cap. 10.</ref>
+            <quote xml:id="gom-ex33-Qd1e380"><seg type="qs"><pb ed="#P" n="0290A"/>A Deo homines nullis praecedentibus meritis vocari</seg>, etc., usque ad <seg type="qs">si deserat qui vocavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e390">
+          <head xml:id="gom-ex33-Hd1e392">Versus 20</head>
+          <p xml:id="gom-ex33-d1e394">
+            <quote xml:id="gom-ex33-Qd1e396" type="lemma" source="http://scta.info/resource/ex33_20@3-4">Non poteris,</quote>
+            etc.
+            <ref xml:id="gom-ex33-Rd1e399"><name xml:id="gom-ex33-Nd1e400" ref="#Augustine">AUG.</name>, quaest. 154.</ref>
+            <quote xml:id="gom-ex33-Qd1e404"><seg type="qs">Post misericordiae suae commendationem</seg>, etc., usque ad <seg type="qs">huic vitae moriendum est.</seg></quote>
+          </p>
+          <p xml:id="gom-ex33-d1e412">
+            <quote xml:id="gom-ex33-Qd1e414" type="lemma" source="http://scta.info/resource/ex33_20@8-9">Non enim,</quote>
+            etc.
+            <ref xml:id="gom-ex33-Rd1e417"><name xml:id="gom-ex33-Nd1e418" ref="#GregoryGreat">GREG.</name>, lib. XVIII Moral., cap. 37, tom. I.</ref>
+            <quote xml:id="gom-ex33-Qd1e422"><seg type="qs">Joannes quoque ait</seg>: etc., usque ad <seg type="qs">quia satietas ex desiderio semper accenditur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e432">
+          <head xml:id="gom-ex33-Hd1e434">Versus 21</head>
+          <p xml:id="gom-ex33-d1e436">
+            <quote xml:id="gom-ex33-Qd1e438" type="lemma" source="http://scta.info/resource/ex33_21@3-3">Ecce,</quote>
+            inquit, <quote xml:id="gom-ex33-Qd1e441" source="http://scta.info/resource/ex33_21@6-10">locus est apud me, et stabis supra,</quote> etc.
+          </p>
+          <p xml:id="gom-ex33-d1e445">
+            <ref xml:id="gom-ex33-Rd1e447" type="lemma" subtype="implied" target="http://scta.info/resource/ex33_21@3-3"/>
+            <ref xml:id="gom-ex33-Rd1e449"><name xml:id="gom-ex33-Nd1e450" ref="#Augustine">AUG.</name>, quaest. 154.</ref>
+            <quote xml:id="gom-ex33-Qd1e454"><seg type="qs">Item interposito articulo dicente Scriptura</seg>, etc., usque ad <seg type="qs">stetit populus fidelis supra petram.</seg></quote>
+          </p>
+          <p xml:id="gom-ex33-d1e462">
+            <quote xml:id="gom-ex33-Qd1e464" type="lemma" source="http://scta.info/resource/ex33_21@5-8">Est locus apud me,</quote>
+            <ref xml:id="gom-ex33-Rd1e467"><name xml:id="gom-ex33-Nd1e468" ref="#GregoryGreat">GREG.</name>, lib. XXV Moral., cap. 16.</ref>
+            <quote xml:id="gom-ex33-Qd1e472">etc. Locus Ecclesia. Petra Dominus, Moyses <pb ed="#P" n="0290B"/> Judaica plebs, quae Domino praedicante in terra non credidit. Ipsa ergo in petra stetit terga Domini transeuntis aspiciens, quia, scilicet post passionem ascensionemque Domini intra Ecclesiam deducta per fidem Christum percipere meruit, et cujus praesentiam non vidit, ejus posteriora cognovit.</quote>
+          </p>
+          <p xml:id="gom-ex33-d1e478">
+            <quote xml:id="gom-ex33-Qd1e480" type="lemma" source="http://scta.info/resource/ex33_21@5-8">Est locus apud me,</quote>
+            <ref xml:id="gom-ex33-Rd1e483"><name xml:id="gom-ex33-Nd1e484" ref="#GregoryGreat">GREG.</name> ibid.</ref>
+            <quote xml:id="gom-ex33-Qd1e488"><seg type="qs">etc. Ecclesia scilicet</seg>, etc., usque ad <seg type="qs">De qua soliditate dicitur: <quote xml:id="gom-ex33-Qd1e494" source="http://scta.info/resource/mt16_18@10-14">Super hanc petram aedificabo Ecclesiam.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex33-Dd1e499">
+          <head xml:id="gom-ex33-Hd1e501">Versus 22</head>
+          <p xml:id="gom-ex33-d1e503">
+            <quote xml:id="gom-ex33-Qd1e505" type="lemma" source="http://scta.info/resource/ex33_22@1-4">Cumque transibit gloria mea,</quote>
+            etc. <!--<note>(EUCHERIUS, lib. de Form. spirit.)</note>--> Sed et transire dicitur Deus, cum de cordibus quorumdam hominum, in quibus ante per fidem credebatur, postea surrepente perfidia vel quolibet delicto, ab eis recedit et ad alios transit, quemadmodum de Judaeis ad gentes, <pb ed="#P" n="0290C"/> de haereticis ad catholicos, et de quibuslibet irreligiosis ad religiosos.
+          </p>
+          <p xml:id="gom-ex33-d1e513">
+            <quote xml:id="gom-ex33-Qd1e515" type="lemma" source="http://scta.info/resource/ex33_22@10-11">Et protegam</quote>
+            <ref xml:id="gom-ex33-Rd1e518"><name xml:id="gom-ex33-Nd1e519" ref="#Augustine">AUG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-ex33-Qd1e523"><seg type="qs"><quote xml:id="gom-ex33-Qd1e525">et tegam manu mea super te,</quote></seg> etc., usque ad <seg type="qs">deinde contexit quid Dominus postea dicat: <quote xml:id="gom-ex33-Qd1e529" source="http://scta.info/resource/ex34_1@5-8">Excide tibi duas tabulas lapideas,</quote> etc.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

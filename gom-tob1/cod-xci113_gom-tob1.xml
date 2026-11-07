@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tobiae, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Tobiae, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0725B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-tob1">
+        <head xml:id="gom-tob1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-tob1-Dd1e100">
+          <head xml:id="gom-tob1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-tob1-d1e104">
+            <pb ed="#P" n="0725B"/>
+            <quote xml:id="gom-tob1-Qd1e108" type="lemma" source="http://scta.info/resource/tob1_1@1-1">Tobias.</quote>
+            <ref xml:id="gom-tob1-Rd1e111"><name xml:id="gom-tob1-Nd1e112" ref="#Bede">BED.</name>, in Tob., tom. II.</ref>
+            <quote xml:id="gom-tob1-Qd1e116">Liber Tobiae est in superficie litterae salubris. Maximis enim vitae moralis exemplis abundat, et monitis. Sed quantum poma foliis, tantum historiae allegoria praecellit. Maxima enim Ecclesiae continet sacramenta. Ipse enim Tobias populum Israel significat, qui caeteris gentibus idololatriae deditis, fide recta <pb ed="#P" n="0725C"/> et operibus Deo serviebat. Unde: <quote xml:id="gom-tob1-Qd1e120">Cum irent, etc.</quote> Jeroboam namque qui fabricavit ad deceptionem subditorum vitulos aureos, idololatriae cultores exprimit, quorum complices significantur in subditis.</quote>
+          </p>
+          <p xml:id="gom-tob1-d1e124">
+            <quote xml:id="gom-tob1-Qd1e126" type="lemma" source="http://scta.info/resource/tob1_1@6-6">Nephtlali.</quote>
+            <ref xml:id="gom-tob1-Rd1e129"><name xml:id="gom-tob1-Nd1e130" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob1-Qd1e134">Latitudo, de qua: <quote xml:id="gom-tob1-Qd1e136" source="http://scta.info/resource/ps118_96@5-8">Latum mandatum tuum nimis ,</quote> cujus tribus, id est filii populus fidelis, ejus civitas Ecclesia, de qua: <quote xml:id="gom-tob1-Qd1e139" source="http://scta.info/resource/mt5_14@5-11">Non potest civitas abscondi supra montem posita .<!-- check: Migne cites mt15; text matches mt5_14 --></quote></quote>
+          </p>
+          <p xml:id="gom-tob1-d1e144">
+            <quote xml:id="gom-tob1-Qd1e146" type="lemma" source="http://scta.info/resource/tob1_1@12-13">Supra Naasson.</quote>
+            Naasson augurium, hujus civitas superiora auguratur, id est, contemplatur coelestia.
+          </p>
+          <p xml:id="gom-tob1-d1e150">
+            <ref xml:id="gom-tob1-Rd1e152" type="lemma" subtype="implied" target="http://scta.info/resource/tob1_1@12-13"/>
+            <ref xml:id="gom-tob1-Rd1e154"><name xml:id="gom-tob1-Nd1e155" ref="#Bede">BEDA</name> ubi supra.</ref>
+            <quote xml:id="gom-tob1-Qd1e159">Tobiae captivitas humani generis captivitatem designat per regem omnium pravorum, <pb ed="#P" n="0725D"/> id est diabolum, qui nos de patria coelesti in hujus exsilii vallem dejecit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e166">
+          <head xml:id="gom-tob1-Hd1e168">Versus 3</head>
+          <p xml:id="gom-tob1-d1e170">
+            <quote xml:id="gom-tob1-Qd1e172" type="lemma" source="http://scta.info/resource/tob1_3@1-3">Ita ut omnia, etc.</quote>
+            <ref xml:id="gom-tob1-Rd1e175"><name xml:id="gom-tob1-Nd1e176" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob1-Qd1e180">Sic populus Israel per doctores divini verbi eleemosynam non solum rudibus suae gentis auditoribus, sed gentibus ad Judaismum venientibus ministrabat. Quidquid enim naturaliter boni habuit quod hostis captivans non abstulit, hoc suis in exemplum virtutis ostendebat, et portionem salutaris scientiae tanquam decimam suae substantiae advenis, id est Gentilibus offerebat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e184">
+          <head xml:id="gom-tob1-Hd1e186">Versus 4</head>
+          <p xml:id="gom-tob1-d1e188">
+            <quote xml:id="gom-tob1-Qd1e190" type="lemma" source="http://scta.info/resource/tob1_4@8-10">Nihil tamen puerile.</quote>
+            Jam illud apostolicum gerebat in pectore: « Nolite, pueri, effici, etc. <!--<note>(I Cor. XIV)</note>-->. Hoc autem secundum illos dictum est quod incedebant in mandatis Domini sine querela, <pb ed="#P" n="0726B"/> secundum illam regulam Tyconii, qua tanquam de eodem agentes, aliquando propter bonos omnes laudamus, aliquando propter malos omnes vituperamus, quod est secunda regula.
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e199">
+          <head xml:id="gom-tob1-Hd1e201">Versus 6</head>
+          <p xml:id="gom-tob1-d1e203">
+            <quote xml:id="gom-tob1-Qd1e205" type="lemma" source="http://scta.info/resource/tob1_6@15-16">Omnia primitiva .</quote>
+            <ref xml:id="gom-tob1-Rd1e208"><name xml:id="gom-tob1-Nd1e209" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob1-Qd1e213">Videtur obloqui, quod prima decimatio cedebat in usus Levitarum, secunda in necessariis erogandis quando visitabatur templum. Sed tertii anni decimas quas <pb ed="#P" n="0726C"/> tunc consueverant facere, concedebant pauperibus. Et ideo dicimus omnem illam vel omnes secundas, quia non poterat accedere ad templum timore custodum regis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e221">
+          <head xml:id="gom-tob1-Hd1e223">Versus 9</head>
+          <p xml:id="gom-tob1-d1e225">
+            <quote xml:id="gom-tob1-Qd1e227" type="lemma" source="http://scta.info/resource/tob1_9@1-5">Cum vero factus esset vir .</quote>
+            <ref xml:id="gom-tob1-Rd1e230"><name xml:id="gom-tob1-Nd1e231" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob1-Qd1e235"><seg type="qs">Sic populus Israel</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-tob1-Qd1e241" source="http://scta.info/resource/ex4_22@9-11">Primogenitus meus Israel .</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e246">
+          <head xml:id="gom-tob1-Hd1e248">Versus 10</head>
+          <p xml:id="gom-tob1-d1e250">
+            <quote xml:id="gom-tob1-Qd1e252" type="lemma" source="http://scta.info/resource/tob1_10@1-3">Quem ab infantia timere,</quote>
+            etc., credendo et confitendo scilicet quod nunquam peccatum faceret, sed ipsum timoris Domini spiritu impleret.
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e257">
+          <head xml:id="gom-tob1-Hd1e259">Versus 13</head>
+          <p xml:id="gom-tob1-d1e261">
+            <quote xml:id="gom-tob1-Qd1e263" type="lemma" source="http://scta.info/resource/tob1_13@14-16">In conspectu Salmanasar,</quote>
+            etc. Non obloquitur quod alibi dicitur Salmanasar, qui et Sennacherib: erat enim binomius, vel generaliter omnes reges Medorum sic vocabantur sicut Aegypti <pb ed="#P" n="0726D"/> Pharaones.
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e270">
+          <head xml:id="gom-tob1-Hd1e272">Versus 16</head>
+          <p xml:id="gom-tob1-d1e274">
+            <quote xml:id="gom-tob1-Qd1e276" type="lemma" source="http://scta.info/resource/tob1_16@1-3">Cum autem venisset, etc.</quote>
+            <ref xml:id="gom-tob1-Rd1e279"><name xml:id="gom-tob1-Nd1e280" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-tob1-Qd1e284"><seg type="qs">Sic populus Dei</seg>, etc., usque ad <seg type="qs">et Scripturae arcana pandunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e293">
+          <head xml:id="gom-tob1-Hd1e295">Versus 20</head>
+          <p xml:id="gom-tob1-d1e297">
+            <quote xml:id="gom-tob1-Qd1e299" type="lemma" source="http://scta.info/resource/tob1_20@10-12">Sepulturam exhibebat, etc.,</quote>
+            peccatorum: ut nec memoria in illis remaneret. Tali sepultura voluerunt patres nostri honorari juxta sepulturam Christi. Unde Jacob in Judaea se voluit sepeliri, et Joseph de ossibus suis mandavit.
+          </p>
+        </div>
+        <div xml:id="gom-tob1-Dd1e304">
+          <head xml:id="gom-tob1-Hd1e306">Versus 21</head>
+          <p xml:id="gom-tob1-d1e308">
+            <quote xml:id="gom-tob1-Qd1e310" type="lemma" source="http://scta.info/resource/tob1_21@1-4">Denique cum reversus esset, etc.</quote>
+            Bene Sennacherib de Judaea fugit: diabolus enim veram confessionem pertimescit: et ante faciem ejus non subsistit
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

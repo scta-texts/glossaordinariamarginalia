@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Corinthios I, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Corinthios I, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0532A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Icor8">
+        <head xml:id="gom-Icor8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-Icor8-Dd1e100">
+          <head xml:id="gom-Icor8-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Icor8-d1e104">
+            <quote xml:id="gom-Icor8-Qd1e106" type="lemma" source="http://scta.info/resource/Icor8_1@1-2">De his.</quote>
+            Quasi dicat: scitis aeque ac ego, quod licet ea comedere; quia omnes scientiam habemus. Hoc de his dicit qui habentes scientiam cum <pb ed="#P" n="0532B"/> offendiculo edebant. Quos primum arguit, nec sufficienter scire dicit. Alii autem ignari sub veneratione idoli comedebant.
+          </p>
+          <p xml:id="gom-Icor8-d1e112">
+            <quote xml:id="gom-Icor8-Qd1e114" type="lemma" source="http://scta.info/resource/Icor8_1@12-13">Scientia inflat.</quote>
+            Per se inutilis est scientia, cum charitate utilis. Per se inflat in superbiam, ut daemones qui Graeco nomine a scientia sic sunt nominati. Propter elationem scientiae reprimendam datus est Paulo stimulus. Melius est scire infirmitatem nostram, quam naturas rerum; hanc scientiam qui apponit, apponit dolorem peregrinationis ex desiderio patriae.
+          </p>
+        </div>
+        <div xml:id="gom-Icor8-Dd1e119">
+          <head xml:id="gom-Icor8-Hd1e121">Versus 3</head>
+          <p xml:id="gom-Icor8-d1e123">
+            <quote xml:id="gom-Icor8-Qd1e125" type="lemma" source="http://scta.info/resource/Icor8_3@1-5">Si quis autem diligit Deum.</quote>
+            Hic diligit Deum, qui charitatis causa scientiam mitigat, ut prosit fratri pro quo Christus mortuus est.
+          </p>
+        </div>
+        <div xml:id="gom-Icor8-Dd1e130">
+          <head xml:id="gom-Icor8-Hd1e132">Versus 4</head>
+          <p xml:id="gom-Icor8-d1e134">
+            <quote xml:id="gom-Icor8-Qd1e136" type="lemma" source="http://scta.info/resource/Icor8_4@1-2">De escis.</quote>
+            Vituperata scientia eorum, <pb ed="#P" n="0532C"/> tandem aperit quae est ea vera.
+          </p>
+          <p xml:id="gom-Icor8-d1e142">
+            <quote xml:id="gom-Icor8-Qd1e144" type="lemma" source="http://scta.info/resource/Icor8_4@9-13">Idolum nihil est in mundo.</quote>
+            Id est, inter creaturas mundi. Materiam enim Deus formavit, sed stultitia hominum formam dedit. Quaecunque enim sunt in creaturis, facta sunt per Verbum. Sed forma hominis in idolo non est facta per Verbum, sicut nec peccatum per Verbum. Sed est nihil, et nihil fiunt homines cum peccant.
+          </p>
+          <p xml:id="gom-Icor8-d1e148">
+            <quote xml:id="gom-Icor8-Qd1e150" type="lemma" source="http://scta.info/resource/Icor8_4@18-19">Nisi unus.</quote>
+            Hoc dicit ne putetur Deus esse in idolo.
+          </p>
+        </div>
+        <div xml:id="gom-Icor8-Dd1e155">
+          <head xml:id="gom-Icor8-Hd1e157">Versus 5</head>
+          <p xml:id="gom-Icor8-d1e159">
+            <quote xml:id="gom-Icor8-Qd1e161" type="lemma" source="http://scta.info/resource/Icor8_5@14-17">Si quidem sunt dii multi.</quote>
+            Id est gentibus plures: quos terret Deus noster, id est daemones qui volentes videri dii sibi exigunt quae vero Deo debentur, aras, sacrificia, et alia. Noster vero homines deos facit.
+          </p>
+        </div>
+        <div xml:id="gom-Icor8-Dd1e167">
+          <head xml:id="gom-Icor8-Hd1e169">Versus 6</head>
+          <p xml:id="gom-Icor8-d1e171">
+            <quote xml:id="gom-Icor8-Qd1e173" type="lemma" source="http://scta.info/resource/Icor8_6@4-4">Deus.</quote>
+            Tribus modis Deus dicitur. Substantive dicitur Deus, Trinitas. Adoptive, sancti <pb ed="#P" n="0532D"/> qui per adoptionis gratiam dii sunt. Nuncupative, daemones et idola.
+          </p>
+          <p xml:id="gom-Icor8-d1e179">
+            <quote xml:id="gom-Icor8-Qd1e181" type="lemma" source="http://scta.info/resource/Icor8_6@6-7">Ex quo.</quote>
+            Omnia a Patre, sed per Filium creata sunt. Nec alia per Filium, alia per Patrem, sed eadem: alioquin jam non omnia per Patrem, nec omnia per Filium; si autem omnia per Patrem, et omnia per Filium; ergo eadem per Patrem quae et per Filium facta sunt; aequalis est ergo Patri Filius, et inseparabilis operatio utriusque.
+          </p>
+          <p xml:id="gom-Icor8-d1e185">
+            <quote xml:id="gom-Icor8-Qd1e187" type="lemma" source="http://scta.info/resource/Icor8_6@13-14">Et unus.</quote>
+            De Christo pro humanitate subdit, sed de Spiritu sancto non oportuit.
+          </p>
+        </div>
+        <div xml:id="gom-Icor8-Dd1e192">
+          <head xml:id="gom-Icor8-Hd1e194">Versus 7</head>
+          <p xml:id="gom-Icor8-d1e196">
+            <quote xml:id="gom-Icor8-Qd1e198" type="lemma" source="http://scta.info/resource/Icor8_7@22-22">Polluitur.</quote>
+            Per illos scilicet qui habent scientiam unius Dei, sed non cum charitate, per quos in hunc errorem infirmi inducebantur, quorum non cibus polluitur, sed conscientia.
+          </p>
+        </div>
+        <div xml:id="gom-Icor8-Dd1e203">
+          <head xml:id="gom-Icor8-Hd1e205">Versus 12</head>
+          <p xml:id="gom-Icor8-d1e207">
+            <pb ed="#P" n="0533A"/>
+            <quote xml:id="gom-Icor8-Qd1e211" type="lemma" source="http://scta.info/resource/Icor8_12@11-12">In Christum.</quote>
+            In Christum peccare, est Christum negare.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

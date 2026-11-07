@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 34</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 34</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1277A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is34">
+        <head xml:id="gom-is34-Hd1e98">Caput 34</head>
+        <div xml:id="gom-is34-Dd1e100">
+          <head xml:id="gom-is34-Hd1e102">Versus 4</head>
+          <p xml:id="gom-is34-d1e104">
+            <quote xml:id="gom-is34-Qd1e106" type="lemma" source="http://scta.info/resource/is34_4@3-5">Omnis militia coelorum.</quote>
+            <ref xml:id="gom-is34-Rd1e109"><name xml:id="gom-is34-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is34-Qd1e113">Sol, et luna, et stellae obscurari videbuntur, clarescente vera luce, quae est Christus. Spiritus quoque mali, amissa potestate, in inferno recludentur.</quote>
+          </p>
+          <p xml:id="gom-is34-d1e116">
+            <quote xml:id="gom-is34-Qd1e118" type="lemma" source="http://scta.info/resource/is34_4@6-9">Et complicabuntur sicut liber.</quote>
+            <quote xml:id="gom-is34-Qd1e121"><seg type="qs">Non scilicet interior</seg>, etc., usque ad <seg type="qs">nihil enim postea scribetur in eis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is34-Dd1e130">
+          <head xml:id="gom-is34-Hd1e132">Versus 6</head>
+          <p xml:id="gom-is34-d1e134">
+            <quote xml:id="gom-is34-Qd1e136" type="lemma" source="http://scta.info/resource/is34_6@21-22">In Bosra.</quote>
+            <ref xml:id="gom-is34-Rd1e139"><name xml:id="gom-is34-Nd1e140" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is34-Qd1e143">In civitate mundi contra Deum munita. Bosra enim munita, vel ex Deo; mundus enim voluntate Domini firmatur; unde: <quote xml:id="gom-is34-Qd1e145" source="http://scta.info/resource/ps23_2@2-6">Ipse super maria fundavit eum:</quote> et: <quote xml:id="gom-is34-Qd1e148" source="http://scta.info/resource/ps74_4@11-14">Ego confirmavi columnas ejus.</quote> Bosram et Edom, Hebraeorum magistri, Romam volunt intelligi, et omnia de ipsa dici quae sequenti continentur capitulo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is34-Dd1e154">
+          <head xml:id="gom-is34-Hd1e156">Versus 8</head>
+          <p xml:id="gom-is34-d1e158">
+            <pb ed="#P" n="1277B"/>
+            <quote xml:id="gom-is34-Qd1e162" type="lemma" source="http://scta.info/resource/is34_8@1-6">Quia dies ultionis Domini annus retributionis.</quote>
+            Post generalem mundi ultionem, ad Jerusalem revertitur, cui primum loquebatur et destructionem ejus plano sermone describit, quae facta est a Romanis.
+          </p>
+        </div>
+        <div xml:id="gom-is34-Dd1e167">
+          <head xml:id="gom-is34-Hd1e169">Versus 11</head>
+          <p xml:id="gom-is34-d1e171">
+            <quote xml:id="gom-is34-Qd1e173" type="lemma" source="http://scta.info/resource/is34_11@8-8">Ibis.</quote>
+            Avis aquatica serpentibus inimica: has aves dicit Josephus a Moyse delatas in bellum contra Aethiopes; quia serpentes abundant in terra illa per quam aditurus erat.
+          </p>
+        </div>
+        <div xml:id="gom-is34-Dd1e179">
+          <head xml:id="gom-is34-Hd1e181">Versus 12</head>
+          <p xml:id="gom-is34-d1e183">
+            <quote xml:id="gom-is34-Qd1e185" type="lemma" source="http://scta.info/resource/is34_12@1-2">Nobiles ejus.</quote>
+            Apostoli enim jam transierant ad gentes: alii fideles admonitione Spiritus sancti, imminente captivitate, transierunt Jordanem in regnum Agrippae qui pacem habebat cum Romanis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

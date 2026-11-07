@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 11</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 11</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0114C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen11">
+        <head xml:id="gom-gen11-Hd1e98">Caput 11</head>
+        <div xml:id="gom-gen11-Dd1e100">
+          <head xml:id="gom-gen11-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen11-d1e104">
+            <pb ed="#P" n="0114C"/>
+            <quote xml:id="gom-gen11-Qd1e108" type="lemma" source="http://scta.info/resource/gen11_1@1-5">Erat autem terra labii unius,</quote>
+            etc.
+            <ref xml:id="gom-gen11-Rd1e111"><name xml:id="gom-gen11-Nd1e112" ref="#Augustine">AUG.</name>, in Gen.</ref>
+            <quote xml:id="gom-gen11-Qd1e116">Dictum est superius quod filii Noe, vel filiorum ejus, distributi sunt per terras secundum linguas suas. Sed hoc per recapitulationem postea commemorat quod prius erat. Sed obscuritatem facit, quod eo genere locutionis ita contexit, quasi de his narratio quae postea facta sunt consequatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen11-Dd1e120">
+          <head xml:id="gom-gen11-Hd1e122">Versus 2</head>
+          <p xml:id="gom-gen11-d1e124">
+            <quote xml:id="gom-gen11-Qd1e126" type="lemma" source="http://scta.info/resource/gen11_2@1-2">Cumque proficiscerentur.</quote>
+            <ref xml:id="gom-gen11-Rd1e129"><name xml:id="gom-gen11-Nd1e130" ref="#JohnChrysostom">CHRYSOST.</name>, in Gen.</ref>
+            <quote xml:id="gom-gen11-Qd1e134">Vide quomodo humanum genus non potest subsistere intra suos limites, sed amplius concupiscens, majora semper appetit. Atque hoc est quod humanum genus perdit, quia non vult naturae suae mensuram agnoscere, sed semper majora desiderat. Quoniam <quote xml:id="gom-gen11-Qd1e136" source="http://scta.info/resource/gen11_2@6-9">viderunt, inquit, campum in terra <pb ed="#P" n="0114D"/> Sennaar,</quote> migrantes, et relicto priori loco illic habitaverunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen11-Dd1e144">
+          <head xml:id="gom-gen11-Hd1e146">Versus 3</head>
+          <p xml:id="gom-gen11-d1e148">
+            <quote xml:id="gom-gen11-Qd1e150" type="lemma" source="http://scta.info/resource/gen11_3@6-6">Venite.</quote>
+            Timebant iterum diluvium; ideo auctore Nemrod voluerunt sibi constituere turrem, in qua diluvium non timerent. Stulta et impia audacia, unde secuta vindicta est et linguarum divisio.
+          </p>
+          <p xml:id="gom-gen11-d1e154">
+            <ref xml:id="gom-gen11-Rd1e156" type="lemma" subtype="implied" target="http://scta.info/resource/gen11_3@6-6"/>
+            <ref xml:id="gom-gen11-Rd1e158"><name xml:id="gom-gen11-Nd1e159" ref="#IsidoreOfSeville">ISID.</name> in Gen.</ref>
+            <quote xml:id="gom-gen11-Qd1e163"><seg type="qs">Turris, mundi superbia, vel haereticorum dogmata</seg>, etc., usque ad <seg type="qs">unitas confessionis et fidei.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen11-Dd1e172">
+          <head xml:id="gom-gen11-Hd1e174">Versus 7</head>
+          <p xml:id="gom-gen11-d1e176">
+            <quote xml:id="gom-gen11-Qd1e178" type="lemma" source="http://scta.info/resource/gen11_7@1-2">Venite igitur,</quote>
+            etc. Ad angelos dixisse intelligitur; vel secundum illud: <quote xml:id="gom-gen11-Qd1e181" source="http://scta.info/resource/gen1_26@3-9">Faciamus hominem ad imaginem et similitudinem nostram.</quote> Nam singulari numero subjunctum est: <quote xml:id="gom-gen11-Qd1e184" source="http://scta.info/resource/gen11_8@3-4">et divisit <pb ed="#P" n="0115A"/> eos,</quote> etc., sicut <ref xml:id="gom-gen11-Rd1e189">ibi: <seg type="incipit">Fecit Deus hominem ad imaginem et similitudinem suam</seg>.</ref>
+          </p>
+          <p xml:id="gom-gen11-d1e196">
+            <ref xml:id="gom-gen11-Rd1e198"><name xml:id="gom-gen11-Nd1e199" ref="#GregoryGreat">GREG.</name> Moral. lib. II, c. 5.</ref>
+            <quote xml:id="gom-gen11-Qd1e203" type="lemma" source="http://scta.info/resource/gen11_7@1-1">Venite,</quote>
+            <quote xml:id="gom-gen11-Qd1e206">etc. Dicitur his qui Deo adhaerent, <quote xml:id="gom-gen11-Qd1e208" source="http://scta.info/resource/gen11_7@1-1">Venite,</quote> quia a divina contemplatione nunquam decrescere, sed semper accrescere, et nunquam corde recedere, stabili motu est semper venire. Ascendunt angeli Creatorem conspiciendo, descendunt creaturam illicite se erigentem examine districtionis premendo. Dicere ergo, <quote xml:id="gom-gen11-Qd1e211" source="http://scta.info/resource/gen11_7@3-8">Descendamus, et confundamus linguam eorum,</quote> est in semetipso quod recte agatur ostendere, et per vim internae visionis eorum mentibus exhibenda judicia occultis motibus inspirare.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen11-Dd1e218">
+          <head xml:id="gom-gen11-Hd1e220">Versus 8</head>
+          <p xml:id="gom-gen11-d1e222">
+            <quote xml:id="gom-gen11-Qd1e224" type="lemma" source="http://scta.info/resource/gen11_8@3-4">Divisit eos.</quote>
+            <ref xml:id="gom-gen11-Rd1e227"><name xml:id="gom-gen11-Nd1e228">ALC.</name></ref>
+            <quote xml:id="gom-gen11-Qd1e230">In hac divisione linguarum nihil novum fecit Deus, sed dicendi <pb ed="#P" n="0115B"/> modos et formas loquelarum diversis gentibus divisit. Unde easdem syllabas et ejusdem potestatis litteras aliter conjunctas in diversis linguis invenimus, et saepe eadem nomina vel verba aliud significantia; unde ubi dicitur psalmo II: <quote xml:id="gom-gen11-Qd1e234" source="http://scta.info/resource/ap2_27@4-6">In virga ferrea,</quote> in Graeco habetur, <foreign xml:lang="greek">ἐν ραβδῳ σιδηρᾶ,</foreign> <quote xml:id="gom-gen11-Qd1e240">in raudo sidera.</quote> Igitur in Latino <quote xml:id="gom-gen11-Qd1e242">sidera</quote> non <quote xml:id="gom-gen11-Qd1e245">ferrea</quote> significat, sicut in Graeco, sed <quote xml:id="gom-gen11-Qd1e247">astra.</quote></quote>
+          </p>
+          <p xml:id="gom-gen11-d1e250">
+            <ref xml:id="gom-gen11-Rd1e252" type="lemma" subtype="implied" target="http://scta.info/resource/gen11_8@3-4"/>
+            <ref xml:id="gom-gen11-Rd1e254"><name xml:id="gom-gen11-Nd1e255" ref="#Augustine">AUG.</name> lib. XVI de Civit. c. 4.</ref>
+            <quote xml:id="gom-gen11-Qd1e259">Merito malus punitur affectus, etiam cui non succedit effectus. Genus vero poenae quale fuit? Quoniam enim dominatio imperantis in lingua est, ibi damnata est superbia, ut non intelligeretur jubens homini, qui noluit intelligere ut obediret jubenti Deo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen11-Dd1e263">
+          <head xml:id="gom-gen11-Hd1e265">Versus 10</head>
+          <p xml:id="gom-gen11-d1e267">
+            <quote xml:id="gom-gen11-Qd1e269" type="lemma" source="http://scta.info/resource/gen11_10@4-7">Sem centum erat annorum.</quote>
+            <quote xml:id="gom-gen11-Qd1e272"><seg type="qs"><pb ed="#P" n="0115C"/> <ref xml:id="gom-gen11-Rd1e276"><name xml:id="gom-gen11-Nd1e277" ref="#Bede">BEDA</name>, Hexaem., lib. III, t. II, col. 131.</ref><!-- check: attribution inside gloss body --> Magna quaestio nobis nascitur secundum litteram, quomodo Sem biennio post diluvium centum esse annorum dicatur, cum supra quingentesimo anno Noe natus asseratur, et sexcentesimo anno ejusdem Noe diluvium venisse legatur</seg>, etc., usque ad <seg type="qs"><quote xml:id="gom-gen11-Qd1e284" source="http://scta.info/resource/gen5_24@7-10">quia tulit eum Deus.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen11-Dd1e289">
+          <head xml:id="gom-gen11-Hd1e291">Versus 26</head>
+          <p xml:id="gom-gen11-d1e293">
+            <quote xml:id="gom-gen11-Qd1e295" type="lemma" source="http://scta.info/resource/gen11_26@2-9">Thare genuit Abram et Nachor.</quote>
+            <ref xml:id="gom-gen11-Rd1e298"><name xml:id="gom-gen11-Nd1e299" ref="#Augustine">AUG.</name> quaest. 25 in Gen.</ref>
+            <quote xml:id="gom-gen11-Qd1e303">Non simul, sed suis temporibus, ex quo gignere coepit. Nec attendendus est in his ordo nativitatis, sed significatio futurae dignitatis, in qua excellit Abram.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen11-Dd1e307">
+          <head xml:id="gom-gen11-Hd1e309">Versus 31</head>
+          <p xml:id="gom-gen11-d1e311">
+            <quote xml:id="gom-gen11-Qd1e313" type="lemma" source="http://scta.info/resource/gen11_31@26-27">In Ur Chaldaeorum.</quote>
+            <ref xml:id="gom-gen11-Rd1e316"><name xml:id="gom-gen11-Nd1e317" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen11-Qd1e320">In Hebraeo <quote xml:id="gom-gen11-Qd1e322">in Ur Chesdim</quote> ( ), id est, <quote xml:id="gom-gen11-Qd1e324">in igne Chaldaeorum.</quote> Hic fabulantur Hebraei quod Abram in <pb ed="#P" n="0115D"/> ignem sit missus, quia ignem noluit adorare, quem Chaldaei colunt, et Dei auxilio liberatus, de idololatriae igne effugerit. Unde ad eum dicitur: <quote xml:id="gom-gen11-Qd1e328" source="http://scta.info/resource/gen15_7@4-11">Ego sum qui eduxi te de Ur Chaldaeorum.</quote></quote>
+          </p>
+          <p xml:id="gom-gen11-d1e332">
+            <quote xml:id="gom-gen11-Qd1e334" type="lemma" source="http://scta.info/resource/gen11_31">Aram patris Melchae.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-gen11-Rd1e339"><name xml:id="gom-gen11-Nd1e340" ref="#Jerome">Ibid.</name></ref>
+            <quote xml:id="gom-gen11-Qd1e343">Idem pater utriusque. Aram filius Thare, frater Abrae et Nachor, duas filias genuit, Melcham et Sarai, cognomento Jescham. Melcham duxit Nachor, et Sarai Abram. Nondum enim inter patruos et neptes nuptiae fuerant prohibitae, quae in principio etiam inter fratres et sorores sunt celebratae.</quote>
+          </p>
+          <p xml:id="gom-gen11-d1e346">
+            <quote xml:id="gom-gen11-Qd1e348" type="lemma" source="http://scta.info/resource/gen11_31@1-4">Tulit itaque Thare Abram,</quote>
+            <quote xml:id="gom-gen11-Qd1e351">etc., usque, <seg type="qs">facti sunt dies Thare ducentorum quinque annorum, et mortuus est in Haran. » <ref xml:id="gom-gen11-Rd1e355"><name xml:id="gom-gen11-Nd1e356" ref="#Augustine">AUG.</name></ref><!-- check: attribution inside gloss body --> Prius dicitur, <quote xml:id="gom-gen11-Qd1e360">quod <pb ed="#P" n="0116A"/> cum esset Thare septuaginta annorum genuit Abram, et postea cum omnibus suis mansit in Charan, et mortuus est.</quote> Et dictum est Abrae ut exiret de Charan, et exivit cum esset septuaginta quinque annorum. Sed per recapitulationem ostenditur vivo patre Dominum praecepisse</seg>, etc., usque ad <seg type="qs">a quo Judaei dicti propter regiam tribum.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

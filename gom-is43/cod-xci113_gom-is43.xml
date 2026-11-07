@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 43</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 43</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1285C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is43">
+        <head xml:id="gom-is43-Hd1e98">Caput 43</head>
+        <div xml:id="gom-is43-Dd1e100">
+          <head xml:id="gom-is43-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is43-d1e104">
+            <pb ed="#P" n="1285C"/>
+            <quote xml:id="gom-is43-Qd1e108" type="lemma" source="http://scta.info/resource/is43_1@1-3">Et nunc haec.</quote>
+            Superius locutus est de captivitate Judaeorum qui credere noluerunt, nunc primitivam alloquitur Ecclesiam, quae est de Judaeis, ut Creatorem animae suae et corporis intelligant.
+          </p>
+          <p xml:id="gom-is43-d1e112">
+            <quote xml:id="gom-is43-Qd1e114" type="lemma" source="http://scta.info/resource/is43_1@6-8">Creans te Jacob.</quote>
+            Jacob supplantator, Israel vir videns Deum. Hi sunt apostoli et apostolici viri, qui et vitia supplantaverunt, et Deum videre meruerunt.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e119">
+          <head xml:id="gom-is43-Hd1e121">Versus 2</head>
+          <p xml:id="gom-is43-d1e123">
+            <quote xml:id="gom-is43-Qd1e125" type="lemma" source="http://scta.info/resource/is43_2@3-4">Per aquas,</quote>
+            etc.
+            <ref xml:id="gom-is43-Rd1e128"><name xml:id="gom-is43-Nd1e129" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is43-Qd1e132"><seg type="qs">Secundum Hebraeos: Per aquas Aegyptii</seg>, etc., usque ad <seg type="qs">haec quoque regna praedicando transierunt apostoli, et Dominus ubique cum eis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e141">
+          <head xml:id="gom-is43-Hd1e143">Versus 3</head>
+          <p xml:id="gom-is43-d1e145">
+            <quote xml:id="gom-is43-Qd1e147" type="lemma" source="http://scta.info/resource/is43_3@10-11">Dedi propitiationem.</quote>
+            Ut inde acquiras tibi misericordiam et coronam, praedicando, scilicet, Aegyptiis, et Aethiopibus (qui pene ultimi) et Sabaeis: est autem Saba civitas in finibus Aethiopiae sita: <quote xml:id="gom-is43-Qd1e150" source="http://scta.info/resource/ps18_5@1-9">In <pb ed="#P" n="1285D"/> omnem terram exivit sonus eorum, et in fines,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e157">
+          <head xml:id="gom-is43-Hd1e159">Versus 5</head>
+          <p xml:id="gom-is43-d1e161">
+            <quote xml:id="gom-is43-Qd1e163" type="lemma" source="http://scta.info/resource/is43_5">Ab Oriente. Multi venient ab Oriente et Occidente, et recumbent cum Abraham, Isaac et Jacob, ab omnibus scilicet mundi partibus.</quote>
+            <!-- check: lemma not matched to verse text -->
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e171">
+          <head xml:id="gom-is43-Hd1e173">Versus 8</head>
+          <p xml:id="gom-is43-d1e175">
+            <quote xml:id="gom-is43-Qd1e177" type="lemma" source="http://scta.info/resource/is43_8@1-2">Educ foras.</quote>
+            Vox Patris ad Filium de Judaeis mente caecis. Et nota prius esse factum vocationem Judaeorum, deinde gentium.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e182">
+          <head xml:id="gom-is43-Hd1e184">Versus 9</head>
+          <p xml:id="gom-is43-d1e186">
+            <quote xml:id="gom-is43-Qd1e188" type="lemma" source="http://scta.info/resource/is43_9@1-2">Omnes gentes.</quote>
+            Propheta ad gentes, increpans de idololatria et admirans quod nullus in gentibus hoc praescire potuit; sed tantum populus Dei qui legem Dei accepit, prophetas habuit.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e193">
+          <head xml:id="gom-is43-Hd1e195">Versus 10</head>
+          <p xml:id="gom-is43-d1e197">
+            <quote xml:id="gom-is43-Qd1e199" type="lemma" source="http://scta.info/resource/is43_10@24-26">Non est formatus.</quote>
+            Quidam codices habent plasmatus; sed non convenit bene, sic tamen potest exponi: Ante me non est formatum <pb ed="#P" n="1286A"/> idolum, quia feci hominem justum a quo injuste formatum est idolum.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e206">
+          <head xml:id="gom-is43-Hd1e208">Versus 12</head>
+          <p xml:id="gom-is43-d1e210">
+            <quote xml:id="gom-is43-Qd1e212" type="lemma" source="http://scta.info/resource/is43_12@1-4">Ego annuntiavi et salvavi.</quote>
+            Per prophetas nativitatem Filii, vocationem gentium, expulsionem daemonum.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e217">
+          <head xml:id="gom-is43-Hd1e219">Versus 14</head>
+          <p xml:id="gom-is43-d1e221">
+            <quote xml:id="gom-is43-Qd1e223" type="lemma" source="http://scta.info/resource/is43_14@1-3">Haec dicit Dominus Salvator,</quote>
+            etc. Haec, scilicet quae sequuntur: Pater ad apostolos. Propter vos qui scilicet testes mei estis, qui scilicet Evangelium praedicatis. Quibus dixit: Noli timere.
+          </p>
+          <p xml:id="gom-is43-d1e227">
+            <quote xml:id="gom-is43-Qd1e229" type="lemma" source="http://scta.info/resource/is43_14@17-19">Chaldaeos in navibus.</quote>
+            Secundum historiam, Chaldaei abundant fluminibus, et strenui sunt navibus et inde gloriantur.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e234">
+          <head xml:id="gom-is43-Hd1e236">Versus 15</head>
+          <p xml:id="gom-is43-d1e238">
+            <quote xml:id="gom-is43-Qd1e240" type="lemma" source="http://scta.info/resource/is43_15@1-4">Ego Dominus sanctus vester.</quote>
+            Olim filiis Israel, modo vobis apostoli, in mundo expulsis daemonibus et omnibus victis principibus.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e246">
+          <head xml:id="gom-is43-Hd1e248">Versus 19</head>
+          <p xml:id="gom-is43-d1e250">
+            <pb ed="#P" n="1286B"/>
+            <quote xml:id="gom-is43-Qd1e254" type="lemma" source="http://scta.info/resource/is43_19@3-4">Facio nova.</quote>
+            Multa quae reficiunt animas, non corpora: olim de petra unum tantum produxi fontem ad corpora reficienda.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e259">
+          <head xml:id="gom-is43-Hd1e261">Versus 20</head>
+          <p xml:id="gom-is43-d1e263">
+            <quote xml:id="gom-is43-Qd1e265" type="lemma" source="http://scta.info/resource/is43_20@5-7">Dracones et struthiones.</quote>
+            Maligni, venenosi, qui in solitudine gentium morabantur, idololatriae sanguine morumque feritate bestiales.
+          </p>
+          <p xml:id="gom-is43-d1e269">
+            <ref xml:id="gom-is43-Rd1e271" type="lemma" subtype="implied" target="http://scta.info/resource/is43_20@5-7"/>
+            Struthio speciem alarum habet, volatu caret. Sic hypocrita speciem sanctitatis habet, rem autem nonhabet.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e275">
+          <head xml:id="gom-is43-Hd1e277">Versus 22</head>
+          <p xml:id="gom-is43-d1e279">
+            <quote xml:id="gom-is43-Qd1e281" type="lemma" source="http://scta.info/resource/is43_22@1-3">Non me invocasti.</quote>
+            <ref xml:id="gom-is43-Rd1e284"><name xml:id="gom-is43-Nd1e285" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is43-Qd1e288">Ad Judaeos loquitur, qui ante adventum Domini idola coluerunt; vel ad eos qui post adventum credere noluerunt.</quote>
+          </p>
+          <p xml:id="gom-is43-d1e291">
+            <quote xml:id="gom-is43-Qd1e293" type="lemma" source="http://scta.info/resource/is43_22@5-6">Nec laborasti.</quote>
+            Non feci te laborare post adventum Filii, ut pretiosa quaeque offerres, quia: <quote xml:id="gom-is43-Qd1e296" source="http://scta.info/resource/ps50_19@1-4">Sacrificium Deo spiritus contribulatus,</quote> etc. <!--<note>(Psal. L.)</note>--> Vel: Non laborasti in me tantum qui idolis offerebas.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e303">
+          <head xml:id="gom-is43-Hd1e305">Versus 23</head>
+          <p xml:id="gom-is43-d1e307">
+            <pb ed="#P" n="1286C"/>
+            <quote xml:id="gom-is43-Qd1e311" type="lemma" source="http://scta.info/resource/is43_23@23-24">In thure.</quote>
+            Per thus et calamum, qui est sarculus arboris aromaticae, omnia aromata accipe.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e316">
+          <head xml:id="gom-is43-Hd1e318">Versus 25</head>
+          <p xml:id="gom-is43-d1e320">
+            <quote xml:id="gom-is43-Qd1e322" type="lemma" source="http://scta.info/resource/is43_25@1-2">Ego sum.</quote>
+            <ref xml:id="gom-is43-Rd1e325"><name xml:id="gom-is43-Nd1e326" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is43-Qd1e329">Quasi diceret: Fecisti me laborare sub onere peccati tui; ideo jam non servum meum, non puerum voco, sed simpliciter appello Jacob et Israel, ut ostendam et arguam peccatores.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e333">
+          <head xml:id="gom-is43-Hd1e335">Versus 26</head>
+          <p xml:id="gom-is43-d1e337">
+            <quote xml:id="gom-is43-Qd1e339" type="lemma" source="http://scta.info/resource/is43_26@1-2">Reduc me.</quote>
+            Bona quae feci tibi. <quote xml:id="gom-is43-Qd1e342" source="http://scta.info/resource/is5_4@1-11">Quid ultra debui facere tibi, et non feci?</quote> Vel: Si quid justi habes, ego libenter recipiam.
+          </p>
+        </div>
+        <div xml:id="gom-is43-Dd1e348">
+          <head xml:id="gom-is43-Hd1e350">Versus 27</head>
+          <p xml:id="gom-is43-d1e352">
+            <quote xml:id="gom-is43-Qd1e354" type="lemma" source="http://scta.info/resource/is43_27@1-2">Pater tuus.</quote>
+            Abraham scilicet qui, Domino terram promissionis pollicente, respondit: <quote xml:id="gom-is43-Qd1e357">In quo sciam quia possidebo eam?</quote> Vel ipse Abraham qui peccasse dicitur in promissione filii dubitando; vel, populus in deserto contra Deum murmurando, quasi diceret: cognoscet de peccatoribus generatum.
+          </p>
+          <p xml:id="gom-is43-d1e360">
+            <pb ed="#P" n="1286D"/>
+            <quote xml:id="gom-is43-Qd1e364" type="lemma" source="http://scta.info/resource/is43_27@6-6">Interpretes.</quote>
+            Quasi diceret: inter partes, scilicet pacem ferentes.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

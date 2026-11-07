@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieremias, Caput 24</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieremias, Caput 24</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0039C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ier24">
+        <head xml:id="gom-ier24-Hd1e98">Caput 24</head>
+        <div xml:id="gom-ier24-Dd1e100">
+          <head xml:id="gom-ier24-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ier24-d1e104">
+            <pb ed="#P" n="0039C"/>
+            <quote xml:id="gom-ier24-Qd1e108" type="lemma" source="http://scta.info/resource/ier24_1@1-1">Ostendit.</quote>
+            <ref xml:id="gom-ier24-Rd1e111"><name xml:id="gom-ier24-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ier24-Qd1e115">Notandum hanc visionem factam esse tempore Sedeciae postquam Jechonias ductus est in transmigrationem, non in captivitatem, quia ultro se tradidit.</quote>
+          </p>
+          <p xml:id="gom-ier24-d1e118">
+            <quote xml:id="gom-ier24-Qd1e120" type="lemma" source="http://scta.info/resource/ier24_1@6-7">Duo calathi.</quote>
+            <quote xml:id="gom-ier24-Qd1e123"><seg type="qs">Duos calathos vel cophinos malarum et bonarum ficorum</seg>, etc., usque ad <seg type="qs">ad bonas ficus et calathum optimum referantur.</seg></quote>
+          </p>
+          <p xml:id="gom-ier24-d1e131">
+            <quote xml:id="gom-ier24-Qd1e133" type="lemma" source="http://scta.info/resource/ier24_1@10-12">Positi ante templum.</quote>
+            <quote xml:id="gom-ier24-Qd1e136"><seg type="qs">Non foris</seg> etc., usque ad <seg type="qs">et ficus malas malas valde.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier24-Dd1e145">
+          <head xml:id="gom-ier24-Hd1e147">Versus 2</head>
+          <p xml:id="gom-ier24-d1e149">
+            <quote xml:id="gom-ier24-Qd1e151" type="lemma" source="http://scta.info/resource/ier24_2@13-15">Et calathus unus,</quote>
+            <ref xml:id="gom-ier24-Rd1e154"><name xml:id="gom-ier24-Nd1e155" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier24-Qd1e158"><seg type="qs">Nos simplices quaerentes historias</seg>, etc., usque ad <seg type="qs">et in Babylonem ductus et ibi mortuus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier24-Dd1e167">
+          <head xml:id="gom-ier24-Hd1e169">Versus 4</head>
+          <p xml:id="gom-ier24-d1e171">
+            <pb ed="#P" n="0039D"/>
+            <quote xml:id="gom-ier24-Qd1e175" type="lemma" source="http://scta.info/resource/ier24_4@1-3">Et factum est.</quote>
+            <ref xml:id="gom-ier24-Rd1e178"><name xml:id="gom-ier24-Nd1e179" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier24-Qd1e182"><seg type="qs">Delirat hoc loco allegoricus interpres</seg>, etc., usque ad <seg type="qs">in terra hac et in valle lacrymarum esse morituros.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier24-Dd1e191">
+          <head xml:id="gom-ier24-Hd1e193">Versus 6</head>
+          <p xml:id="gom-ier24-d1e195">
+            <quote xml:id="gom-ier24-Qd1e197" type="lemma" source="http://scta.info/resource/ier24_6@1-4">Et ponam oculos meos.</quote>
+            <quote xml:id="gom-ier24-Qd1e200"><seg type="qs">In captivitate posuit oculos suos super illos</seg>, etc., usque ad <seg type="qs">magna pars reversa est in Jerusalem.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 25</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 25</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0687A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr25">
+        <head xml:id="gom-IIchr25-Hd1e98">Caput 25</head>
+        <div xml:id="gom-IIchr25-Dd1e100">
+          <head xml:id="gom-IIchr25-Hd1e102">Versus 11</head>
+          <p xml:id="gom-IIchr25-d1e104">
+            <quote xml:id="gom-IIchr25-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr25_11@9-11">In vallem Salinarum,</quote>
+            etc.
+            <ref xml:id="gom-IIchr25-Rd1e109"><name xml:id="gom-IIchr25-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr25-Qd1e113">Ubi sal fiebat, vel faeno salsuginis, ut multis in locis deciso et siccato et incenso, vel aquis puteorum salsis fervefactis, et ad salis firmitatem coquendo perductis. Vel aliter, ubi et Joab duodecim millia Idumoeorum percussisse legitur. Pro valle autem Salinarum <pb ed="#P" n="0687B"/> vetus editio quasi nomen regionis Gemel apposuit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr25-Dd1e120">
+          <head xml:id="gom-IIchr25-Hd1e122">Versus 16</head>
+          <p xml:id="gom-IIchr25-d1e124">
+            <quote xml:id="gom-IIchr25-Qd1e126" type="lemma" source="http://scta.info/resource/IIchr25_16@17-21">Scio, inquit, quod cogitaverit Dominus,</quote>
+            etc. Qui neminem vult perire, sed eum qui in peccato perseverat, justo judicio damnat. Ideo ergo Amasias periit, quia admonitus per prophetam ut ageret poenitentiam, non obedivit, sed usque ad finem permansit.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr25-Dd1e131">
+          <head xml:id="gom-IIchr25-Hd1e133">Versus 18</head>
+          <p xml:id="gom-IIchr25-d1e135">
+            <quote xml:id="gom-IIchr25-Qd1e137" type="lemma" source="http://scta.info/resource/IIchr25_18@6-7">Carduus qui,</quote>
+            etc. Hanc similitudinem innuit: quia Amasias nobilissimis ortus natalibus de stirpe David veniens, propter idololatriae foeditatem degens et vilis factus propriam mensuram non considerat, sed ultra modum superbiae fastu se elevat.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr25-Dd1e142">
+          <head xml:id="gom-IIchr25-Hd1e144">Versus 21</head>
+          <p xml:id="gom-IIchr25-d1e146">
+            <quote xml:id="gom-IIchr25-Qd1e148" type="lemma" source="http://scta.info/resource/IIchr25_21@17-17">Bethsames.</quote>
+            <ref xml:id="gom-IIchr25-Rd1e151"><name xml:id="gom-IIchr25-Nd1e152" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr25-Qd1e155">In Regum dicitur Bethsames oppidum Judae: quia pertinet ad regnum Judae, id est, ad duas tribus quibus imperabat domus <pb ed="#P" n="0687C"/> David; sed secundum situm locorum pertinet ad tribum Benjamin.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr25-Dd1e163">
+          <head xml:id="gom-IIchr25-Hd1e165">Versus 24</head>
+          <p xml:id="gom-IIchr25-d1e167">
+            <quote xml:id="gom-IIchr25-Qd1e169" type="lemma" source="http://scta.info/resource/IIchr25_24@14-16">Et apud Obededom,</quote>
+            etc. Quia non solum vasa abstulit quae in domo Dei reperit, sed etiam illa quae observabant janitores et custodes templi. In Regum autem legitur, quod David elegit de filiis Obededom septuaginta duo ad ministrandum in domo Dei, et custodiam templi.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr25-Dd1e174">
+          <head xml:id="gom-IIchr25-Hd1e176">Versus 27</head>
+          <p xml:id="gom-IIchr25-d1e178">
+            <quote xml:id="gom-IIchr25-Qd1e180" type="lemma" source="http://scta.info/resource/IIchr25_27@1-3">Qui postquam recessit.</quote>
+            Ex quo prophetae consilium non audivit, neque ad Dominum converti voluit, conjuratio praeparata est et dilata, donec ad consummationem perveniret.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

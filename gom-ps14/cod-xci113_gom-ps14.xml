@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 14</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 14</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0864A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps14">
+        <head xml:id="gom-ps14-Hd1e98">Psalmus 14</head>
+        <div xml:id="gom-ps14-Dd1e100">
+          <head xml:id="gom-ps14-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps14-d1e104">
+            <quote xml:id="gom-ps14-Qd1e106" type="lemma" source="http://scta.info/resource/ps14_1@3-4">Domine, quis?</quote>
+            <ref xml:id="gom-ps14-Rd1e109"><name xml:id="gom-ps14-Nd1e110" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps14-Qd1e113">Psalmus iste proprie morum est institutorius, praesumptionis repressio: ubi <pb ed="#P" n="0864B"/> agitur de unitate praesentis Ecclesiae et futura quiete. Primo interrogat propheta, quasi sacerdos ante faciem Domini stans, et responsa petit; volens scire quos Deus sua dignos judicet Ecclesia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps14-Dd1e120">
+          <head xml:id="gom-ps14-Hd1e122">Versus 2</head>
+          <p xml:id="gom-ps14-d1e124">
+            <quote xml:id="gom-ps14-Qd1e126" type="lemma" source="http://scta.info/resource/ps14_2@1-1">Qui.</quote>
+            <ref xml:id="gom-ps14-Rd1e129"><name xml:id="gom-ps14-Nd1e130" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps14-Qd1e133"><seg type="qs">Responsio Domini</seg>, etc. usque ad <seg type="qs">ut Christus agnus sine fractura membrorum, qui proprie templum ingressus est, non ut expiaretur sicut caeteri, sed sine macula.</seg></quote>
+          </p>
+          <p xml:id="gom-ps14-d1e141">
+            <quote xml:id="gom-ps14-Qd1e143" type="lemma" source="http://scta.info/resource/ps14_2@6-7">Operatur justitiam.</quote>
+            Ut dum vendentes et ementes ejecit de templo.
+          </p>
+        </div>
+        <div xml:id="gom-ps14-Dd1e148">
+          <head xml:id="gom-ps14-Hd1e150">Versus 3</head>
+          <p xml:id="gom-ps14-d1e152">
+            <quote xml:id="gom-ps14-Qd1e154" type="lemma" source="http://scta.info/resource/ps14_3@1-2">Qui loquitur.</quote>
+            Hic exsequitur plenius. Veritas est cum res ita est, ut dicitur: Hoc proprie Christus fecit.
+          </p>
+          <p xml:id="gom-ps14-d1e158">
+            <quote xml:id="gom-ps14-Qd1e160" type="lemma" source="http://scta.info/resource/ps14_3@4-5">In corde,</quote>
+            qui aliquando tacuit indignis fraudulenter quaerentibus.
+          </p>
+          <p xml:id="gom-ps14-d1e164">
+            <quote xml:id="gom-ps14-Qd1e166" type="lemma" source="http://scta.info/resource/ps14_3@9-11">Non egit dolum.</quote>
+            Dolus est in lingua, cum aliud dicitur, aliud est in pectore. Vel, <quote xml:id="gom-ps14-Qd1e169" source="http://scta.info/resource/ps14_3@9-11">non egit dolum,</quote> quia omnia quae audivit a Patre, <pb ed="#P" n="0864C"/> sine aliqua adjectione vel suppressione, nota fecit proximis, id est, discipulis; Judaeis, proximis secundum carnem.
+          </p>
+          <p xml:id="gom-ps14-d1e175">
+            <quote xml:id="gom-ps14-Qd1e177" type="lemma" source="http://scta.info/resource/ps14_3@15-19">Nec fecit proximo malum.</quote>
+            Sed pro eis oravit; non acceptum habuit opprobrium adversus proximos suos, sicut est patens per hoc quod Judam non mordaci increpatione lacerabat.
+          </p>
+        </div>
+        <div xml:id="gom-ps14-Dd1e182">
+          <head xml:id="gom-ps14-Hd1e184">Versus 4</head>
+          <p xml:id="gom-ps14-d1e186">
+            <quote xml:id="gom-ps14-Qd1e188" type="lemma" source="http://scta.info/resource/ps14_4@1-2">Ad nihilum,</quote>
+            etc.
+            <ref xml:id="gom-ps14-Rd1e191"><name xml:id="gom-ps14-Nd1e192" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps14-Qd1e195">Haec est perfectio, ut nihil in homine valeat malignus, et ut hic sit in conspectu, id est, certe sciat, malignum non esse, nisi qui a Creatore ad creata convertitur.</quote>
+          </p>
+          <p xml:id="gom-ps14-d1e198">
+            <quote xml:id="gom-ps14-Qd1e200" type="lemma" source="http://scta.info/resource/ps14_4@8-8">Malignus,</quote>
+            id est, diabolus, despicitur; ut cum dixit: <quote xml:id="gom-ps14-Qd1e203" source="http://scta.info/resource/mc8_33@11-14">Vade retro, Satanas,</quote> etc. E contra, <quote xml:id="gom-ps14-Qd1e206" source="http://scta.info/resource/ps14_4@10-13">timentes Dominum glorificat.</quote> Juravit, quando apostolis certissima veritate promisit: <quote xml:id="gom-ps14-Qd1e209">Jam non dicam vos servos, sed amicos.</quote>
+          </p>
+          <p xml:id="gom-ps14-d1e212">
+            <pb ed="#P" n="0864D"/>
+            <quote xml:id="gom-ps14-Qd1e216" type="lemma" source="http://scta.info/resource/ps14_4@14-16">Qui jurat proximo,</quote>
+            etc.
+            <ref xml:id="gom-ps14-Rd1e219"><name xml:id="gom-ps14-Nd1e220" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps14-Qd1e223"><seg type="qs">Haec tria non sunt magna</seg>, etc., usque ad <seg type="qs">cum in superiori conclusione praeteritum posuerit, <quote xml:id="gom-ps14-Qd1e229" source="http://scta.info/resource/ps14_4@1-4">ad nihilum deductus est.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps14-Dd1e235">
+          <head xml:id="gom-ps14-Hd1e237">Versus 5</head>
+          <p xml:id="gom-ps14-d1e239">
+            <quote xml:id="gom-ps14-Qd1e241" type="lemma" source="http://scta.info/resource/ps14_5@2-2">Pecuniam.</quote>
+            Vel terrena est, quae penitus ad usuram dari prohibetur, quam Dominus Judae tradidit ad erogandum pauperibus, non ad usuram. Vel spiritualis, quae ad usuram dari jubetur, id est, praedicatio ad instruendos homines.
+          </p>
+          <p xml:id="gom-ps14-d1e245">
+            <quote xml:id="gom-ps14-Qd1e247" type="lemma" source="http://scta.info/resource/ps14_5@8-11">Et munera super innocentem.</quote>
+            Accipit quidem Christus munera, ut a magis, et quotidie pias oblationes; sed non contra innocentes, imo animam pro eis dedit.
+          </p>
+          <p xml:id="gom-ps14-d1e251">
+            <quote xml:id="gom-ps14-Qd1e253" type="lemma" source="http://scta.info/resource/ps14_5@15-19">Qui facit haec, non movebitur.</quote>
+            Ecce absoluta responsio interroganti: facit (dicit), ut ad actum nos invitet, non solum ad <pb ed="#P" n="0865A"/> cantandum haec.
+          </p>
+          <p xml:id="gom-ps14-d1e259">
+            <quote xml:id="gom-ps14-Qd1e261" type="lemma" source="http://scta.info/resource/ps14_5@15-19">Qui facit haec, non movebitur.</quote>
+            <ref xml:id="gom-ps14-Rd1e264"><name xml:id="gom-ps14-Nd1e265" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps14-Qd1e268">Conclusio. Similiter qui facit haec, requiescet in monte.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

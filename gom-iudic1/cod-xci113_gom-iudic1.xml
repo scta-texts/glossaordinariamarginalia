@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0521C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudic1">
+        <head xml:id="gom-iudic1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-iudic1-Dd1e100">
+          <head xml:id="gom-iudic1-Hd1e102">Versus 2</head>
+          <p xml:id="gom-iudic1-d1e104">
+            <quote xml:id="gom-iudic1-Qd1e106" type="lemma" source="http://scta.info/resource/iudic1_2@1-4">Dixitque Dominus: Judas ascendet,</quote>
+            etc.
+            <ref xml:id="gom-iudic1-Rd1e109"><name xml:id="gom-iudic1-Nd1e110" ref="#Augustine">ID.</name>, quaest. 2.</ref>
+            <quote xml:id="gom-iudic1-Qd1e114"><seg type="qs">Quaeritur utrum aliquis homo Judas vocabatur, an ipsam tribum de more sic appellavit</seg>, etc., usque ad <seg type="qs">tunc assumpta etiam tribus Simeon ad pugnandum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic1-Dd1e123">
+          <head xml:id="gom-iudic1-Hd1e125">Versus 12</head>
+          <p xml:id="gom-iudic1-d1e127">
+            <quote xml:id="gom-iudic1-Qd1e129" type="lemma" source="http://scta.info/resource/iudic1_12@1-1">Dixitque,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-iudic1-d1e133">
+            <quote xml:id="gom-iudic1-Qd1e135" type="lemma" source="http://scta.info/resource/iudic1_12@4-14">Quicunque percusserit civitatem litterarum et ceperit eam, dabo ei filiam meam in uxorem.</quote>
+            <ref xml:id="gom-iudic1-Rd1e138"><name xml:id="gom-iudic1-Nd1e139" ref="#Augustine">AUG.</name>, quaest. 3.</ref>
+            <quote xml:id="gom-iudic1-Qd1e143"><seg type="qs">Hoc in libro Jesu memoratum est</seg>, etc., usque ad <seg type="qs">nec tamen hic frustra arbitror hoc de filia Caleb data in victoris praemium bis Scripturam memorasse.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic1-Dd1e152">
+          <head xml:id="gom-iudic1-Hd1e154">Versus 19</head>
+          <p xml:id="gom-iudic1-d1e156">
+            <pb ed="#P" n="0521D"/>
+            <quote xml:id="gom-iudic1-Qd1e160" type="lemma" source="http://scta.info/resource/iudic1_19@8-9">Nec potuit.</quote>
+            <ref xml:id="gom-iudic1-Rd1e163"><name xml:id="gom-iudic1-Nd1e164" ref="#Augustine">ID.</name>, quaest. 5 in Jud.</ref>
+            <quote xml:id="gom-iudic1-Qd1e168"><seg type="qs">In hoc ipso fuit Dominus</seg>, etc., usque ad <seg type="qs">dum dicit Apostolus: <quote xml:id="gom-iudic1-Qd1e174" source="http://scta.info/resource/IIcor12_7@2-5">Ne magnitudinem revelationum extollat,</quote> etc <!--<note>(II Cor. XII)</note>-->.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic1-Dd1e182">
+          <head xml:id="gom-iudic1-Hd1e184">Versus 21</head>
+          <p xml:id="gom-iudic1-d1e186">
+            <quote xml:id="gom-iudic1-Qd1e188" type="lemma" source="http://scta.info/resource/iudic1_21@1-1">Jebusaeum.</quote>
+            <ref xml:id="gom-iudic1-Rd1e191"><name xml:id="gom-iudic1-Nd1e192" ref="#Augustine">AUG.</name>, quaest. 7 in Jud.</ref>
+            <quote xml:id="gom-iudic1-Qd1e196"><seg type="qs">Superius legitur eadem civitas</seg>, etc., usque ad <seg type="qs">non sine illo tenuerunt terram quam possidebant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic1-Dd1e206">
+          <head xml:id="gom-iudic1-Hd1e208">Versus 27</head>
+          <p xml:id="gom-iudic1-d1e210">
+            <quote xml:id="gom-iudic1-Qd1e212" type="lemma" source="http://scta.info/resource/iudic1_27@1-1">Manasses.</quote>
+            <ref xml:id="gom-iudic1-Rd1e215"><name xml:id="gom-iudic1-Nd1e216" ref="#Augustine">AUG.</name>, quaest. 8.</ref>
+            <quote xml:id="gom-iudic1-Qd1e220"><seg type="qs">Et non <pb ed="#P" n="0522A"/> haereditavit Manasses Bethsan</seg>, etc., usque ad <seg type="qs">universam pene Asiam Scythas aliquando tenuisse.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic1-Dd1e231">
+          <head xml:id="gom-iudic1-Hd1e233">Versus 34</head>
+          <p xml:id="gom-iudic1-d1e235">
+            <quote xml:id="gom-iudic1-Qd1e237" type="lemma" source="http://scta.info/resource/iudic1_34">Arctavitque. Et contribulavit Amorrhaeos filios Dan in monte, quoniam non permisit eos descendere,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-iudic1-Rd1e242"><name xml:id="gom-iudic1-Nd1e243" ref="#Augustine">AUG.</name>, quaest. 11 in Jud.</ref>
+            <quote xml:id="gom-iudic1-Qd1e247">etc. Hoc autem in libro Jesu Nave praeoccupando memoratum est; hic autem recapitulando.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0382D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num1">
+        <head xml:id="gom-num1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-num1-Dd1e100">
+          <head xml:id="gom-num1-Hd1e102">Versus 3</head>
+          <p xml:id="gom-num1-d1e104">
+            <pb ed="#P" n="0382D"/>
+            <quote xml:id="gom-num1-Qd1e108" type="lemma" source="http://scta.info/resource/num1_3@6-7">Omnium virorum.</quote>
+            <ref xml:id="gom-num1-Rd1e111"><name xml:id="gom-num1-Nd1e112" ref="#Origen">ORIG.</name>, hom. 1 in Num.</ref>
+            <quote xml:id="gom-num1-Qd1e116"><seg type="qs">Alias LXX: <quote xml:id="gom-num1-Qd1e119">Omnis qui procedit in virtute Israel,</quote> etc. Qui ergo procedit</seg>, etc., usque ad <seg type="qs">per fidem evangelicam et apostolicam traditur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e127">
+          <head xml:id="gom-num1-Hd1e129">Versus 4</head>
+          <p xml:id="gom-num1-d1e131">
+            <quote xml:id="gom-num1-Qd1e133" type="lemma" source="http://scta.info/resource/num1_4@3-4">Principes tribuum,</quote>
+            etc.
+            <ref xml:id="gom-num1-Rd1e136"><name xml:id="gom-num1-Nd1e137" ref="#Augustine">AUG.</name>, quaest. 1 in Num.</ref>
+            <quote xml:id="gom-num1-Qd1e141"><seg type="qs">Quid est quod singulos de singulis tribubus eligi jubet principes</seg>, etc., usque ad <seg type="qs">ut vocentur <foreign xml:lang="greek">χιλίαρχοι.</foreign> .</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e153">
+          <head xml:id="gom-num1-Hd1e155">Versus 5</head>
+          <p xml:id="gom-num1-d1e157">
+            <quote xml:id="gom-num1-Qd1e159" type="lemma" source="http://scta.info/resource/num1_5@5-6">De tribu Ruben.</quote>
+            <ref xml:id="gom-num1-Rd1e162"><name xml:id="gom-num1-Nd1e163" ref="#RabanusMaurus">RAB.</name> in Num., tom. II.</ref>
+            <quote xml:id="gom-num1-Qd1e167"><seg type="qs">Moraliter Ruben primogenitus Israelis</seg>, etc., usque ad <seg type="qs">cor unum et anima una.</seg></quote>
+          </p>
+          <p xml:id="gom-num1-d1e175">
+            <ref xml:id="gom-num1-Rd1e177" type="lemma" subtype="implied" target="http://scta.info/resource/num1_5@5-6"/>
+            <ref xml:id="gom-num1-Rd1e179"><name xml:id="gom-num1-Nd1e180" ref="#RabanusMaurus">RAB.</name>, ibid.</ref>
+            <quote xml:id="gom-num1-Qd1e184"><seg type="qs">Princeps tribus Ruben eos generaliter significat</seg>, etc., usque ad <seg type="qs">continentium, virginum, et utriusque sexus curam gerens.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e193">
+          <head xml:id="gom-num1-Hd1e195">Versus 6</head>
+          <p xml:id="gom-num1-d1e197">
+            <pb ed="#P" n="0383A"/>
+            <quote xml:id="gom-num1-Qd1e201" type="lemma" source="http://scta.info/resource/num1_6@1-2">De tribu Simeon.</quote>
+            <ref xml:id="gom-num1-Rd1e204"><name xml:id="gom-num1-Nd1e205" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num1-Qd1e208"><seg type="qs">Simeon generaliter omnes obedientes</seg>, etc., usque ad <seg type="qs">dicentes: <quote xml:id="gom-num1-Qd1e214" source="http://scta.info/resource/ps122_1@3-11">Ad te levavi oculos meos, qui habitas in coelis</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e221">
+          <head xml:id="gom-num1-Hd1e223">Versus 7</head>
+          <p xml:id="gom-num1-d1e225">
+            <quote xml:id="gom-num1-Qd1e227" type="lemma" source="http://scta.info/resource/num1_7@1-2">De tribu Juda.</quote>
+            <ref xml:id="gom-num1-Rd1e230"><name xml:id="gom-num1-Nd1e231" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num1-Qd1e234">Possunt significari in Juda omnes qui recte invocant nomen Domini, nec sensu nec verbo dissentientes a norma fidei: quorum merito Naasson princeps est, qui scilicet non solum alios praedicando instruit, sed etiam virulenta vitiorum jacula corpus suum castigando in semetipso interficit, secundum illud: <quote xml:id="gom-num1-Qd1e236" source="http://scta.info/resource/Icor9_27@2-8">Castigo corpus meum et in servitutem redigo,</quote> etc. <!--<note>(I Cor. IX)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-num1-d1e243">
+            <ref xml:id="gom-num1-Rd1e245" type="lemma" subtype="implied" target="http://scta.info/resource/num1_7@1-2"/>
+            Allegorice, Juda, de quo reges, qui interpretatur <mentioned>confessio</mentioned> vel <mentioned>laudatio</mentioned>, hic populum significat Ecclesiae, cujus caput est leo de tribu Juda, id est, Christus. <pb ed="#P" n="0383B"/> Vere enim fidei laudatio vel confessio, id est, recta praedicatio, tantum in Ecclesia est. Naasson ergo, id est <quote xml:id="gom-num1-Qd1e253">serpentinus,</quote> vel <quote xml:id="gom-num1-Qd1e256">augurium,</quote> filius Aminadab, scilicet <quote xml:id="gom-num1-Qd1e258">spontanei populi,</quote> Salvator intelligitur de patriarchis, Deo devotis famulis, genitus, qui per mortem suam destruxit diabolum. In serpente enim, unde primum mortis causa, id est peccatum, processit, mors figuratur. Unde: <quote xml:id="gom-num1-Qd1e260" source="http://scta.info/resource/io3_14@2-12">Sicut exaltavit Moyses serpentem in deserto, sic exaltari oportet filium hominis,</quote> etc. <!--<note>(Joan. III)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e267">
+          <head xml:id="gom-num1-Hd1e269">Versus 8</head>
+          <p xml:id="gom-num1-d1e271">
+            <quote xml:id="gom-num1-Qd1e273" type="lemma" source="http://scta.info/resource/num1_8@1-2">De tribu Issachar.</quote>
+            <ref xml:id="gom-num1-Rd1e276"><name xml:id="gom-num1-Nd1e277" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num1-Qd1e280">Issachar monachos non incongrue exprimit, qui, omnibus mundi negotiis spretis, dono Dei, id est Spiritu sancto protegente, praemium aeternum districta vita, voluptate mortificata, quaerunt, et pompam mundi <pb ed="#P" n="0383C"/> calcantes, humilia amplectentes, soli Deo placere eupiunt.</quote>
+          </p>
+          <p xml:id="gom-num1-d1e286">
+            <quote xml:id="gom-num1-Qd1e288" type="lemma" source="http://scta.info/resource/num1_8@3-5">Nathanael filius Suar.</quote>
+            Qui pie exercent se ut mercedem in coelis accipiant, eorum princeps est Nathanael, id est <quote xml:id="gom-num1-Qd1e291">Deus meus</quote> vel <quote xml:id="gom-num1-Qd1e293" source="http://scta.info/resource/num1_8@1-5">donum Dei, Filius Suar,</quote> id est pusilli Christi, scilicet qui inter homines pusillus apparuit: ipse enim dux et ipse merces.
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e298">
+          <head xml:id="gom-num1-Hd1e300">Versus 9</head>
+          <p xml:id="gom-num1-d1e302">
+            <quote xml:id="gom-num1-Qd1e304" type="lemma" source="http://scta.info/resource/num1_9@1-2">De tribu Zabulon.</quote>
+            <ref xml:id="gom-num1-Rd1e307"><name xml:id="gom-num1-Nd1e308" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num1-Qd1e311"><seg type="qs">Zabulon patientes figurat</seg>, etc., usque ad <seg type="qs">contra haereticos scilicet et schismaticos.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e320">
+          <head xml:id="gom-num1-Hd1e322">Versus 10</head>
+          <p xml:id="gom-num1-d1e324">
+            <quote xml:id="gom-num1-Qd1e326" type="lemma" source="http://scta.info/resource/num1_10@3-3">Joseph.</quote>
+            Idem Joseph, pater duarum tribuum, Christum significat, Patrem populorum duorum et lapidem angularem. Ephraim minor, Manasse primogenito praelatus, gentilem populum <pb ed="#P" n="0383D"/> Judaico praelatum. Unde: <quote xml:id="gom-num1-Qd1e331" source="http://scta.info/resource/mt8_10@10-18">Amen dico vobis, non inveni tantam fidem in Israel</quote>.
+          </p>
+          <p xml:id="gom-num1-d1e335">
+            <quote xml:id="gom-num1-Qd1e337" type="lemma" source="http://scta.info/resource/num1_10@6-6">Elisama.</quote>
+            Elisama Christum significat, de quo dicitur: <quote xml:id="gom-num1-Qd1e340" source="http://scta.info/resource/phil2_8@4-8">Factus est obediens Patri usque ad mortem,</quote> etc. <!--<note>(Philip. II)</note>-->. Qui de se ait: <quote xml:id="gom-num1-Qd1e345" source="http://scta.info/resource/io8_26@16-23">Quae audivi ab eo haec loquor in mundo</quote>. Hic est filius Ammiud, id est <quote xml:id="gom-num1-Qd1e348">populi inclyti,</quote> de stirpe scilicet regum, patriarcharum et prophetarum.
+          </p>
+          <p xml:id="gom-num1-d1e351">
+            <ref xml:id="gom-num1-Rd1e353" type="lemma" subtype="implied" target="http://scta.info/resource/num1_10@6-6"/>
+            <ref xml:id="gom-num1-Rd1e355"><name xml:id="gom-num1-Nd1e356" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num1-Qd1e359">Elisama princeps in tribu Ephraim, significat eos qui attente verbum Dei audiunt corde bono et optimo, et fructum afferunt in patientia.</quote>
+          </p>
+          <p xml:id="gom-num1-d1e362">
+            <quote xml:id="gom-num1-Qd1e364" type="lemma" source="http://scta.info/resource/num1_10@10-10">Manasses,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-num1-d1e369">
+            <quote xml:id="gom-num1-Qd1e371" type="lemma" source="http://scta.info/resource/num1_10">Obliviosus,</quote>
+            <!-- check: lemma not matched to verse text -->
+            ea scilicet <quote xml:id="gom-num1-Qd1e376" source="http://scta.info/resource/phil3">quae retro sunt obliviscens et in anteriora se extendens: ut acci piat coronam vitae, quam retribuet Deus diligentibus se<!-- check: cited chapter given; verse not identified --></quote>.
+          </p>
+          <p xml:id="gom-num1-d1e381">
+            <pb ed="#P" n="0384A"/>
+            <quote xml:id="gom-num1-Qd1e385" type="lemma" source="http://scta.info/resource/num1_10@11-11">Gamaliel.</quote>
+            Gamaliel, <quote xml:id="gom-num1-Qd1e388" source="http://scta.info/resource/iudic1_7@19-21">reddidit mihi Deus,</quote> filius Phadassur, id est <quote xml:id="gom-num1-Qd1e391">redemptionis validae,</quote> princeps est in tribu Manasse, qui interpretatur <mentioned>oblitus</mentioned>, vel <mentioned>obliviosus</mentioned>: cum Christus (quem ad vocandum populum Judaicum Pater in mundum misit) in regno suo gentem obliviosam invenit. Oblitus est enim Israel creatoris sui. Non tamen omnes perierunt, sed cum <quote xml:id="gom-num1-Qd1e398" source="http://scta.info/resource/rom11_26@3-6">plenitudo gentium intraverit, omnis Israel salvus fiet</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e403">
+          <head xml:id="gom-num1-Hd1e405">Versus 11</head>
+          <p xml:id="gom-num1-d1e407">
+            <quote xml:id="gom-num1-Qd1e409" type="lemma" source="http://scta.info/resource/num1_11@1-2">De tribu Benjamin.</quote>
+            Benjamin Jerusalem significat, quae est in tribu sua: cujus populus, secundum prophetiam Rachel, Bennoni, id est <quote xml:id="gom-num1-Qd1e412">filius doloris</quote> fuit, quia gravi dolore matrem affecit. Sanguinem enim prophetarum fudit, et in Christi necem conspirans ait: <quote xml:id="gom-num1-Qd1e414" source="http://scta.info/resource/mt27_25@6-13">Sanguis ejus super nos et <pb ed="#P" n="0384B"/> super filios nostros</quote>. In credentibus vero, juxta patris prophetiam, <quote xml:id="gom-num1-Qd1e419">filius dextrae.</quote> Benjamin quoque gentilem populum potest significare, qui filius doloris fuit Christianos persequendo. Filius etiam dextrae potest dici, quia in judicio ad dexteram Dei erit, vel quia dextera, id est bona opera, facit. Hujus populi Abidan, id est <quote xml:id="gom-num1-Qd1e421">pater meus,</quote> judex, filius Gedeonis, qui interpretatur <mentioned>tentatio iniquitatis</mentioned> vel <mentioned>humilitatis</mentioned>; princeps est: quia Christus (quem humilem Judaeus sprevit et diabolus inique tentavit) caput est credentium, et judex venturus vivorum et mortuorum. Moraliter, Benjamin, <quote xml:id="gom-num1-Qd1e428">filius dextrae,</quote> significat eos qui fortiter pugnant contra inimicos, et fortiter premunt tentationis stimulos, nec femineum aliquid vel molle in se dominari permittunt.
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e432">
+          <head xml:id="gom-num1-Hd1e434">Versus 12</head>
+          <p xml:id="gom-num1-d1e436">
+            <pb ed="#P" n="0384C"/>
+            <quote xml:id="gom-num1-Qd1e440" type="lemma" source="http://scta.info/resource/num1_12@1-2">De tribu Dan.</quote>
+            Dan <quote xml:id="gom-num1-Qd1e443">judicium,</quote> vel <quote xml:id="gom-num1-Qd1e445">judicans.</quote> Hi sunt qui omnia discrete agunt, qui Abiezer, id est <quote xml:id="gom-num1-Qd1e447">fratrem adjutorem,</quote> sibi principem constituunt: quia secundum Patrum regulam omnia faciunt, vel omnia bona sua Deo tribuunt.
+          </p>
+          <p xml:id="gom-num1-d1e450">
+            <ref xml:id="gom-num1-Rd1e452" type="lemma" subtype="implied" target="http://scta.info/resource/num1_12@1-2"/>
+            <ref xml:id="gom-num1-Rd1e454"><name xml:id="gom-num1-Nd1e455" ref="#RabanusMaurus">RAB.</name>, ubi supra.</ref>
+            <quote xml:id="gom-num1-Qd1e459"><seg type="qs">Dan</seg>, etc., usque ad <seg type="qs">ad societatem spiritalis gratiae hortantur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e469">
+          <head xml:id="gom-num1-Hd1e471">Versus 13</head>
+          <p xml:id="gom-num1-d1e473">
+            <quote xml:id="gom-num1-Qd1e475" type="lemma" source="http://scta.info/resource/num1_13@1-2">De tribu Aser.</quote>
+            <ref xml:id="gom-num1-Rd1e478"><name xml:id="gom-num1-Nd1e479" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num1-Qd1e482"><seg type="qs">Aser</seg>, etc., usque ad <seg type="qs">retribuetur enim eis in resurrectione justorum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e491">
+          <head xml:id="gom-num1-Hd1e493">Versus 14</head>
+          <p xml:id="gom-num1-d1e495">
+            <quote xml:id="gom-num1-Qd1e497" type="lemma" source="http://scta.info/resource/num1_14@1-2">De tribu Gad.</quote>
+            <ref xml:id="gom-num1-Rd1e500"><name xml:id="gom-num1-Nd1e501" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num1-Qd1e504"><seg type="qs">Allegorice</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-num1-Qd1e510" source="http://scta.info/resource/prov30_31@1-11">Gallus succinctus lumbos et aries, nec est rex qui resistat ei</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e516">
+          <head xml:id="gom-num1-Hd1e518">Versus 15</head>
+          <p xml:id="gom-num1-d1e520">
+            <quote xml:id="gom-num1-Qd1e522" type="lemma" source="http://scta.info/resource/num1_15@1-2">De tribu Nephthali.</quote>
+            <quote xml:id="gom-num1-Qd1e525"><seg type="qs">Nephthali</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-num1-Qd1e531">Jam non dicam vos servos, sed amieos,</quote> <pb ed="#P" n="0384D"/> etc. <!--<note>(Joan. XV)</note>-->.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e540">
+          <head xml:id="gom-num1-Hd1e542">Versus 16</head>
+          <p xml:id="gom-num1-d1e544">
+            <quote xml:id="gom-num1-Qd1e546" type="lemma" source="http://scta.info/resource/num1_16@5-8">Per cognationes.</quote>
+            <ref xml:id="gom-num1-Rd1e549"><name xml:id="gom-num1-Nd1e550" ref="#Augustine">AUG.</name>, quaest. 2 in Num.</ref>
+            <quote xml:id="gom-num1-Qd1e554"><seg type="qs">Merito quaeritur quare</seg>, etc., usque ad <seg type="qs">et novum quatuor Evangeliis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e563">
+          <head xml:id="gom-num1-Hd1e565">Versus 18</head>
+          <p xml:id="gom-num1-d1e567">
+            <quote xml:id="gom-num1-Qd1e569" type="lemma" source="http://scta.info/resource/num1_18@20-21">A vicesimo.</quote>
+            <ref xml:id="gom-num1-Rd1e572"><name xml:id="gom-num1-Nd1e573" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-num1-Qd1e576">A vicesimo anno numerantur, qui ad bellum eliguntur, quia ab hac aetate contra unumquemque vitiorum bella nascuntur. Ideoque ad pugnam eliguntur, ut pugnent contra libidinem, ne luxuria superentur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e580">
+          <head xml:id="gom-num1-Hd1e582">Versus 37</head>
+          <p xml:id="gom-num1-d1e584">
+            <quote xml:id="gom-num1-Qd1e586" type="lemma" source="http://scta.info/resource/num1_37@1-3">Triginta quinque millia.</quote>
+            Boni conjugati, quia ad significandum tricenarium index et pollex blando osculo continguntur. Unde aliud tricesimum, aliud sexagesimum, aliud vero centesimum.
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e592">
+          <head xml:id="gom-num1-Hd1e594">Versus 59</head>
+          <p xml:id="gom-num1-d1e596">
+            <quote xml:id="gom-num1-Qd1e598" type="lemma" source="http://scta.info/resource/num1_59">Septingenti.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Spiritalibus donis provecti, et ad dexteram Dei locandi. Centenarius enim <pb ed="#P" n="0385A"/> numerus primus in dexteram computatur, pollice et indice in coronam flexis; unde: <quote xml:id="gom-num1-Qd1e605">Jam dextera computat annos.</quote>
+          </p>
+          <p xml:id="gom-num1-d1e608">
+            <ref xml:id="gom-num1-Rd1e610" type="lemma" subtype="implied" target="http://scta.info/resource/num1_59"/>
+            <ref xml:id="gom-num1-Rd1e612"><name xml:id="gom-num1-Nd1e613" ref="#RabanusMaurus">RAB.</name> in Num., tom. II.</ref>
+            <quote xml:id="gom-num1-Qd1e617"><seg type="qs">In tribu Levi</seg>, etc., usque ad <seg type="qs">quasi humeris laboris et patientiae Ecclesiam portant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e626">
+          <head xml:id="gom-num1-Hd1e628">Versus 51</head>
+          <p xml:id="gom-num1-d1e630">
+            <quote xml:id="gom-num1-Qd1e632" type="lemma" source="http://scta.info/resource/num1_51">Cumque proficiscendum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Id est, sermone et exemplo disponent, quomodo quisque humiliatus in profectu virtutum gradiatur.
+          </p>
+          <p xml:id="gom-num1-d1e638">
+            <quote xml:id="gom-num1-Qd1e640" type="lemma" source="http://scta.info/resource/num1_51@11-12">Quisquis externorum,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-num1-d1e644">
+            <quote xml:id="gom-num1-Qd1e646" type="lemma" source="http://scta.info/resource/num1_51">Alienigena qui accesserit, moriatur.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-num1-Rd1e651"><name xml:id="gom-num1-Nd1e652" ref="#Augustine">AUG.</name>, quaest. 3.</ref>
+            <quote xml:id="gom-num1-Qd1e656"><seg type="qs">Hic alienigena intelligendus est etiam de illis filiis Israel</seg>, etc., usque ad <seg type="qs">ut allophyli appellentur quasi aliarum tribuum homines.</seg></quote>
+          </p>
+          <p xml:id="gom-num1-d1e664">
+            <pb ed="#P" n="0385B"/>
+            Allegorice.
+          </p>
+          <p xml:id="gom-num1-d1e670">
+            <ref xml:id="gom-num1-Rd1e672" type="lemma" subtype="implied" target="http://scta.info/resource/num1_51"/>
+            Qui ad sacrum ministerium indignus accedit, poenam praesumptionis non evadit: <quote xml:id="gom-num1-Qd1e674" source="http://scta.info/resource/hebr5_4@4-12">Nemo enim debet sibi sumere honorem, nisi qui vocatur a Deo, tanquam Aaron</quote>. Unde Ozias, qui sacerdotium usurpavit, lepra percussus est.
+          </p>
+        </div>
+        <div xml:id="gom-num1-Dd1e679">
+          <head xml:id="gom-num1-Hd1e681">Versus 52</head>
+          <p xml:id="gom-num1-d1e683">
+            <quote xml:id="gom-num1-Qd1e685" type="lemma" source="http://scta.info/resource/num1_52@6-8">Unusquisque per turmas,</quote>
+            etc.
+            <ref xml:id="gom-num1-Rd1e688"><name xml:id="gom-num1-Nd1e689" ref="#Origen">ORIG.</name>, hom. 2 in Num.</ref>
+            <quote xml:id="gom-num1-Qd1e693"><seg type="qs">Unusquisque secundum signa sua</seg>, etc., usque ad <seg type="qs">si nihil inquietum, nihil inordinatum, nihil inhonestum inveniatur in nobis.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

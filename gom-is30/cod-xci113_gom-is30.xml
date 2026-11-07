@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 30</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 30</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1273A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is30">
+        <head xml:id="gom-is30-Hd1e98">Caput 30</head>
+        <div xml:id="gom-is30-Dd1e100">
+          <head xml:id="gom-is30-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is30-d1e104">
+            <quote xml:id="gom-is30-Qd1e106" type="lemma" source="http://scta.info/resource/is30_1@1-5">Vae, filii desertores, dicit Dominus.</quote>
+            <quote xml:id="gom-is30-Qd1e109"><seg type="qs"><pb ed="#P" n="1273B"/> <ref xml:id="gom-is30-Rd1e113"><name xml:id="gom-is30-Nd1e114" ref="#Jerome">ID.</name></ref><!-- check: attribution inside gloss body --> Post prophetiam contra Ariel et caetera</seg>, etc., usque ad <seg type="qs">fugerunt in Aegyptum: et hoc est: <quote xml:id="gom-is30-Qd1e121" source="http://scta.info/resource/is30_1@1-3">vae, filii desertores.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e126">
+          <head xml:id="gom-is30-Hd1e128">Versus 2</head>
+          <p xml:id="gom-is30-d1e130">
+            <quote xml:id="gom-is30-Qd1e132" type="lemma" source="http://scta.info/resource/is30_2@1-2">Qui ambulatis.</quote>
+            <quote xml:id="gom-is30-Qd1e135"><seg type="qs">Ut dicit Hieronymus: Jeremias cum eis ivit</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-is30-Qd1e140" source="http://scta.info/resource/ier42_12@9-14">ut habitaretis in terra vestra.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e145">
+          <head xml:id="gom-is30-Hd1e147">Versus 4</head>
+          <p xml:id="gom-is30-d1e149">
+            <quote xml:id="gom-is30-Qd1e151" type="lemma" source="http://scta.info/resource/is30_4@1-4">Erant enim in Thaphnis.</quote>
+            Quasi dicat: An ideo recessistis a me, ut fugeretis usque in Thaphnis et Anes? Thapnis civitas in qua magi contra Moysen signa fecerunt; Anes in finibus Aegypti sita est: forsitan timore turbati non ausi sunt in Thaphnis manere, et fugerunt usque ad Anes.
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e156">
+          <head xml:id="gom-is30-Hd1e158">Versus 6</head>
+          <p xml:id="gom-is30-d1e160">
+            <quote xml:id="gom-is30-Qd1e162" type="lemma" source="http://scta.info/resource/is30_6@1-2">Onus jumentorum.</quote>
+            <ref xml:id="gom-is30-Rd1e165"><name xml:id="gom-is30-Nd1e166" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is30-Qd1e169">Post decem onera diversarum gentium, undecimum onus reliquarum duarum tribuum ponit, quae remanserunt <pb ed="#P" n="1273C"/> ducto Sedechia et aliis principibus in Babylonem.</quote>
+          </p>
+          <p xml:id="gom-is30-d1e175">
+            <quote xml:id="gom-is30-Qd1e177" type="lemma" source="http://scta.info/resource/is30_6@4-5">In terra.</quote>
+            <ref xml:id="gom-is30-Rd1e180"><name xml:id="gom-is30-Nd1e181" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is30-Qd1e184">Eremus per quam pontifex Joanna filius Chareae et alii duces traduxerunt reliquias in Aegyptum contra praeceptum Domini; vel, ipsa Aegyptus in qua multas tribulationes et angustias sustinuerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e189">
+          <head xml:id="gom-is30-Hd1e191">Versus 8</head>
+          <p xml:id="gom-is30-d1e193">
+            <quote xml:id="gom-is30-Qd1e195" type="lemma" source="http://scta.info/resource/is30_8">Nunc ergo.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-is30-Rd1e200"><name xml:id="gom-is30-Nd1e201" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is30-Qd1e204"><seg type="qs">Dominus ad Jeremiam, vel ad Isaiam secundum Hebraeos</seg>, etc., usque ad <seg type="qs">quia bene feci eis, bene docui, et ipsi spreverunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e213">
+          <head xml:id="gom-is30-Hd1e215">Versus 12</head>
+          <p xml:id="gom-is30-d1e217">
+            <quote xml:id="gom-is30-Qd1e219" type="lemma" source="http://scta.info/resource/is30_12@6-10">Pro eo quod reprobastis verbum.</quote>
+            <ref xml:id="gom-is30-Rd1e222"><name xml:id="gom-is30-Nd1e223" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is30-Qd1e226"><seg type="qs">Haeretici quoque et omne dogma contrarium veritati</seg>, etc., usque ad <seg type="qs">et saltem coenosam et parvulam aquam sitientibus praebere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e235">
+          <head xml:id="gom-is30-Hd1e237">Versus 13</head>
+          <p xml:id="gom-is30-d1e239">
+            <quote xml:id="gom-is30-Qd1e241" type="lemma" source="http://scta.info/resource/is30_13@6-8">Sicut interruptio cadens.</quote>
+            Quasi: Quomodo interruptio muri altissimi qui longam traxit <pb ed="#P" n="1273D"/> ruinam difficile instaurari, et pristinum decorem recipere potest, sic veniet vobis repentina contritio.
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e248">
+          <head xml:id="gom-is30-Hd1e250">Versus 19</head>
+          <p xml:id="gom-is30-d1e252">
+            <quote xml:id="gom-is30-Qd1e254" type="lemma" source="http://scta.info/resource/is30_19@7-9">Plorans nequaquam plorabit.</quote>
+            <ref xml:id="gom-is30-Rd1e257"><name xml:id="gom-is30-Nd1e258" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is30-Qd1e261"><seg type="qs">Judaei referunt hoc ad tempus illud quando sub Zorobabel</seg>, etc., usque ad <seg type="qs">in specula scilicet et visione pacis, id est Ecclesia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e270">
+          <head xml:id="gom-is30-Hd1e272">Versus 21</head>
+          <p xml:id="gom-is30-d1e274">
+            <quote xml:id="gom-is30-Qd1e276" type="lemma" source="http://scta.info/resource/is30_21@6-7">Post tergum.</quote>
+            <quote xml:id="gom-is30-Qd1e279"><seg type="qs">Prima conditione quasi in facie Adam audivit a Domino</seg>, etc., usque ad <seg type="qs">et hoc est: <quote xml:id="gom-is30-Qd1e285" source="http://scta.info/resource/is30_21@2-7">Aures tuae audient verbum monentis post tergum.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-is30-d1e289">
+            <quote xml:id="gom-is30-Qd1e291" type="lemma" source="http://scta.info/resource/is30_21@14-16">Neque ad dexteram.</quote>
+            In utraque parte quidquid supra modum est, in vitio est.
+          </p>
+          <p xml:id="gom-is30-d1e295">
+            <quote xml:id="gom-is30-Qd1e297" type="lemma" source="http://scta.info/resource/is30_21@14-16">Neque ad dexteram,</quote>
+            etc. declinandum est, sed via publica gradiendum, id est regia, quae non fallit.
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e302">
+          <head xml:id="gom-is30-Hd1e304">Versus 22</head>
+          <p xml:id="gom-is30-d1e306">
+            <quote xml:id="gom-is30-Qd1e308" type="lemma" source="http://scta.info/resource/is30_22@1-3">Et contaminabis laminas.</quote>
+            <ref xml:id="gom-is30-Rd1e311"><name xml:id="gom-is30-Nd1e312" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is30-Qd1e315">Idola <pb ed="#P" n="1274A"/> scilicet quae ad similitudinem veritatis artifex lingua composuerit, in splendore eloquentiae (quod significat argentum) et in ratione sapientiae (quod significat aurum) comminues, et disperges, et immunda judicabis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e323">
+          <head xml:id="gom-is30-Hd1e325">Versus 23</head>
+          <p xml:id="gom-is30-d1e327">
+            <quote xml:id="gom-is30-Qd1e329" type="lemma" source="http://scta.info/resource/is30_23@1-3">Et dabitur pluvia.</quote>
+            <ref xml:id="gom-is30-Rd1e332"><name xml:id="gom-is30-Nd1e333" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is30-Qd1e336"><seg type="qs">In Regum volumine scriptum est</seg>, etc., usque ad <seg type="qs">nisi enim vitia abjecerint, virtutes non subeunt.</seg></quote>
+          </p>
+          <p xml:id="gom-is30-d1e344">
+            <quote xml:id="gom-is30-Qd1e346" type="lemma" source="http://scta.info/resource/is30_23@18-18">Pascetur.</quote>
+            Quidam haec hyperbolicos Cyri temporibus, qui captivitatem populi relaxavit, in Judaea completa, contendunt.
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e351">
+          <head xml:id="gom-is30-Hd1e353">Versus 24</head>
+          <p xml:id="gom-is30-d1e355">
+            <quote xml:id="gom-is30-Qd1e357" type="lemma" source="http://scta.info/resource/is30_24@10-11">Commixtum migma.</quote>
+            <quote xml:id="gom-is30-Qd1e360"><seg type="qs">Isaac hordeum sevit</seg>, etc., usque <seg type="qs">et <quote xml:id="gom-is30-Qd1e366">ad</quote> per paleas et hordeum paulatim proficiunt, et transeunt ad frumentum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e371">
+          <head xml:id="gom-is30-Hd1e373">Versus 25</head>
+          <p xml:id="gom-is30-d1e375">
+            <quote xml:id="gom-is30-Qd1e377" type="lemma" source="http://scta.info/resource/is30_25@1-2">Et erunt.</quote>
+            <quote xml:id="gom-is30-Qd1e380"><seg type="qs">In die judicii super montes <pb ed="#P" n="1274B"/> et colles erunt rivi</seg>, etc., usque ad <seg type="qs">qui enim biberit de aquis ejus non sitiet in aeternum.</seg></quote>
+          </p>
+          <p xml:id="gom-is30-d1e390">
+            <quote xml:id="gom-is30-Qd1e392" type="lemma" source="http://scta.info/resource/is30_25@17-18">Interfectionis multorum.</quote>
+            <ref xml:id="gom-is30-Rd1e395"><name xml:id="gom-is30-Nd1e396" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is30-Qd1e399"><seg type="qs">Multi enim sunt vocati</seg>, etc., usque ad <seg type="qs">quorum linguae in Babylone confusae, et super quos cecidit turris in Siloe.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e408">
+          <head xml:id="gom-is30-Hd1e410">Versus 26</head>
+          <p xml:id="gom-is30-d1e412">
+            <quote xml:id="gom-is30-Qd1e414" type="lemma" source="http://scta.info/resource/is30_26@1-3">Et erit lux.</quote>
+            Cum praemium laboris percipient, quia creatura liberabitur a servitute corruptionis. Non mirum si luna solis fulgorem recipiat: <quote xml:id="gom-is30-Qd1e417" source="http://scta.info/resource/mt13_43@2-5">Quia justi fulgebunt sicut sol</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e422">
+          <head xml:id="gom-is30-Hd1e424">Versus 27</head>
+          <p xml:id="gom-is30-d1e426">
+            <quote xml:id="gom-is30-Qd1e428" type="lemma" source="http://scta.info/resource/is30_27@1-3">Ecce nomen Domini.</quote>
+            Filius in nomine Patris, unum enim nomen est Patris et Filii et Spiritus sancti: unde: <quote xml:id="gom-is30-Qd1e431" source="http://scta.info/resource/mt28_19@6-15">Baptizantes eos in nomine Patris, et Filii, et Spiritus sancti:</quote> non in nominibus, sed in nomine quod est Deus.
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e436">
+          <head xml:id="gom-is30-Hd1e438">Versus 28</head>
+          <p xml:id="gom-is30-d1e440">
+            <quote xml:id="gom-is30-Qd1e442" type="lemma" source="http://scta.info/resource/is30_28@1-5">Spiritus ejus velut torrens inundans.</quote>
+            <pb ed="#P" n="1274C"/> <ref xml:id="gom-is30-Rd1e447"><name xml:id="gom-is30-Nd1e448" ref="#Jerome">HIER.</name></ref><!-- check: attribution inside gloss body --> Sicut torrens inundans cum pervenerit usque ad collum, animantem suffocat, sic spiritus irae Dei in judicio impios suffocabit. Finem omnium venisse significans, sicut torrens suffocat eum ad cujus collum pervenit; sic Dei judicium neminem transibit impunitum.
+          </p>
+          <p xml:id="gom-is30-d1e453">
+            <quote xml:id="gom-is30-Qd1e455" type="lemma" source="http://scta.info/resource/is30_28@18-21">Quod erat in maxillis.</quote>
+            Ut pro voluntate diaboli circumferrentur, haec perdet Dominus in die judicii, vel in praedicatione apostolorum cum gentes ad fidem venerint, et idola relinquent.
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e461">
+          <head xml:id="gom-is30-Hd1e463">Versus 29</head>
+          <p xml:id="gom-is30-d1e465">
+            <quote xml:id="gom-is30-Qd1e467" type="lemma" source="http://scta.info/resource/is30_29@1-3">Canticum erit vobis.</quote>
+            Post poenam malorum agit de gloria sanctorum. Sicut filii Israel, transito mari Rubro, cum vidissent Pharaonem et Aegyptios submersos, cum laetitia dixerunt: <quote xml:id="gom-is30-Qd1e470" source="http://scta.info/resource/ex15_21@4-7">Cantemus Domino, gloriose enim,</quote> etc.; sic in die judicii, <pb ed="#P" n="1274D"/> transito mundo et damnato diabolo et membris suis, sancti cum laetitia exsultabunt in Dei laudibus; eodem modo in conversione gentium.
+          </p>
+          <p xml:id="gom-is30-d1e476">
+            <quote xml:id="gom-is30-Qd1e478" type="lemma" source="http://scta.info/resource/is30_29@11-13">Sicut qui pergit.</quote>
+            Praeceptum est filiis Israel, ut decimam bonorum suorum Domino offerrent, Datorem bonorum glorificantes: sic sancti in judicio offerent manipulos suos exsultantes et Deum laudantes, et gentes conversae similiter.
+          </p>
+        </div>
+        <div xml:id="gom-is30-Dd1e483">
+          <head xml:id="gom-is30-Hd1e485">Versus 33</head>
+          <p xml:id="gom-is30-d1e487">
+            <quote xml:id="gom-is30-Qd1e489" type="lemma" source="http://scta.info/resource/is30_33@23-23">Sulphuris.</quote>
+            In inferno fetor intolerabilis et inexstinguibilis ignis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 42</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 42</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1224A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir42">
+        <head xml:id="gom-sir42-Hd1e98">Caput 42</head>
+        <div xml:id="gom-sir42-Dd1e100">
+          <head xml:id="gom-sir42-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir42-d1e104">
+            <pb ed="#P" n="1224A"/>
+            <quote xml:id="gom-sir42-Qd1e108" type="lemma" source="http://scta.info/resource/sir42_1@1-3">Non duplices sermonem,</quote>
+            etc.
+            <ref xml:id="gom-sir42-Rd1e111"><name xml:id="gom-sir42-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir42-Qd1e115">Prohibet de occulto cordis bonum et malum simul dicere; unde: Nunquid fons de eodem foramine emanat dulcem et amaram aquam?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e119">
+          <head xml:id="gom-sir42-Hd1e121">Versus 4</head>
+          <p xml:id="gom-sir42-d1e123">
+            <quote xml:id="gom-sir42-Qd1e125" type="lemma" source="http://scta.info/resource/sir42_4@1-3">De aequalitate staterae,</quote>
+            etc.
+            <ref xml:id="gom-sir42-Rd1e128"><name xml:id="gom-sir42-Nd1e129" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir42-Qd1e132"><seg type="qs">Ubique sequenda est aequitas</seg>, etc., usque ad <seg type="qs">subjectos quoque cum discretione disciplinae regamus.</seg></quote>
+          </p>
+          <p xml:id="gom-sir42-d1e140">
+            <quote xml:id="gom-sir42-Qd1e142" type="lemma" source="http://scta.info/resource/sir42_4@1-3">De aequalitate staterae.</quote>
+            Quantum hypocrisis et dolus Domino displiceat ostenditur his verbis: <quote xml:id="gom-sir42-Qd1e145" source="http://scta.info/resource/prov20_23@1-4">Statera dolosa abominatio est apud Deum.</quote> Qui aliter causam pauperis quam potentis librat; vel sua errata leviora quam aliorum putat; vel qui imponunt in humeros hominum onera importabilia; vel qui bona in publico, mala in occulto agit, abominabilis est <pb ed="#P" n="1224B"/> Domino.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e152">
+          <head xml:id="gom-sir42-Hd1e154">Versus 5</head>
+          <p xml:id="gom-sir42-d1e156">
+            <quote xml:id="gom-sir42-Qd1e158" type="lemma" source="http://scta.info/resource/sir42_5@11-12">Et servo pessimo.</quote>
+            Significat servum qui verbis non corrigitur, verberibus esse coercendum. Servus quoque vitiorum severa disciplina corrigendus est.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e163">
+          <head xml:id="gom-sir42-Hd1e165">Versus 7</head>
+          <p xml:id="gom-sir42-d1e167">
+            <quote xml:id="gom-sir42-Qd1e169" type="lemma" source="http://scta.info/resource/sir42_7@1-3">Ubi manus multae,</quote>
+            etc. Admonet ubi diversae sunt voluntates spirituali lucro inhiantes, caute esse dispensandum. Alii enim tentandi, alii discendi voto quaerunt verbum, sed non omnia omnibus conveniunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e175">
+          <head xml:id="gom-sir42-Hd1e177">Versus 8</head>
+          <p xml:id="gom-sir42-d1e179">
+            <quote xml:id="gom-sir42-Qd1e181" type="lemma" source="http://scta.info/resource/sir42_8@1-2">De disciplina.</quote>
+            Qui congrua disciplina unumquemque arguit, eruditum se et probabilem doctorem in conspectu sanctorum ostendit. Nec aetas juvenilis in doctore despicienda, quem vita et discretio commendat.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e186">
+          <head xml:id="gom-sir42-Hd1e188">Versus 9</head>
+          <p xml:id="gom-sir42-d1e190">
+            <pb ed="#P" n="1224C"/>
+            <quote xml:id="gom-sir42-Qd1e194" type="lemma" source="http://scta.info/resource/sir42_9@1-2">Filia patris.</quote>
+            <ref xml:id="gom-sir42-Rd1e197"><name xml:id="gom-sir42-Nd1e198" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir42-Qd1e201"><seg type="qs">Mystice filia patris</seg>, etc., usque ad <seg type="qs">vel transgrediatur legem Dei facta sterilis in omnibus bonis.</seg></quote>
+          </p>
+          <p xml:id="gom-sir42-d1e209">
+            <quote xml:id="gom-sir42-Qd1e211" type="lemma" source="http://scta.info/resource/sir42_9@1-2">Filia patris.</quote>
+            Docet, ad litteram, parentes sobolis suae curam gerere, et cum disciplina nutrire, et ne lasciviae et voluptati frena relaxent.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e216">
+          <head xml:id="gom-sir42-Hd1e218">Versus 11</head>
+          <p xml:id="gom-sir42-d1e220">
+            <quote xml:id="gom-sir42-Qd1e222" type="lemma" source="http://scta.info/resource/sir42_11@1-3">Super filiam luxuriosam,</quote>
+            etc. Quae diligentem quaerit custodiam. Si enim dimittitur suae voluntati, doctorem confundit et in multitudine populi erubescere facit. Unde, periculose tibi ministrat, cujus vultum frequenter attendis. Nam impudici oculi non norunt animae pulchritudinem considerare, sed corporum.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e227">
+          <head xml:id="gom-sir42-Hd1e229">Versus 14</head>
+          <p xml:id="gom-sir42-d1e231">
+            <quote xml:id="gom-sir42-Qd1e233" type="lemma" source="http://scta.info/resource/sir42_14@1-4">Melior est enim iniquitas viri,</quote>
+            etc.
+            <ref xml:id="gom-sir42-Rd1e236"><name xml:id="gom-sir42-Nd1e237" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir42-Qd1e240"><seg type="qs">Mulier aut sexum significat</seg>, etc., usque ad <seg type="qs"><pb ed="#P" n="1224D"/> quia res confusione dignas gerit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e250">
+          <head xml:id="gom-sir42-Hd1e252">Versus 15</head>
+          <p xml:id="gom-sir42-d1e254">
+            <quote xml:id="gom-sir42-Qd1e256" type="lemma" source="http://scta.info/resource/sir42_15@1-4">Memor ero igitur operum,</quote>
+            etc.
+            <ref xml:id="gom-sir42-Rd1e259"><name xml:id="gom-sir42-Nd1e260" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir42-Qd1e263"><seg type="qs">Hucusque de diversis rebus disputavit</seg>, etc., usque ad <seg type="qs">et postea patrum fortia facta describit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e272">
+          <head xml:id="gom-sir42-Hd1e274">Versus 19</head>
+          <p xml:id="gom-sir42-d1e276">
+            <quote xml:id="gom-sir42-Qd1e278" type="lemma" source="http://scta.info/resource/sir42_19@1-3">Cognovit enim Dominus,</quote>
+            etc. Quia omnes aetates mundi praesentes sunt ei, apud quem nihil praeteritum, nihil futurum est; ipse solus revelat mysteria, qui scit singulorum corda, qui omnes cogitatus et sermones inspicit.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e284">
+          <head xml:id="gom-sir42-Hd1e286">Versus 21</head>
+          <p xml:id="gom-sir42-d1e288">
+            <quote xml:id="gom-sir42-Qd1e290" type="lemma" source="http://scta.info/resource/sir42_21@1-2">Magnalia sapientiae.</quote>
+            Quando prophetis scilicet et apostolis sacramentum consilii sui absconditum a saeculis et generationibus fidelibus revelavit. Ipse enim est ante omnes, et post omnes, cui nihil additur, nihil minuitur.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e295">
+          <head xml:id="gom-sir42-Hd1e297">Versus 23</head>
+          <p xml:id="gom-sir42-d1e299">
+            <pb ed="#P" n="1225A"/>
+            <quote xml:id="gom-sir42-Qd1e303" type="lemma" source="http://scta.info/resource/sir42_23@6-8">Et tanquam scintilla.</quote>
+            Tanquam scintillam in opera Dei consideramus, quia vix parvam notitiam inde percipimus.
+          </p>
+        </div>
+        <div xml:id="gom-sir42-Dd1e308">
+          <head xml:id="gom-sir42-Hd1e310">Versus 25</head>
+          <p xml:id="gom-sir42-d1e312">
+            <quote xml:id="gom-sir42-Qd1e314" type="lemma" source="http://scta.info/resource/sir42_25@1-2">Omnia duplicia,</quote>
+            etc.
+            <ref xml:id="gom-sir42-Rd1e317"><name xml:id="gom-sir42-Nd1e318" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir42-Qd1e321">Ita ordinavit Deus omnia, ut quae sibi videntur esse contraria conveniant, ut elementa vel quatuor tempora.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

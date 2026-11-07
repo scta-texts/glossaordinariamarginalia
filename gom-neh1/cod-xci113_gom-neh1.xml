@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nehemiae, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Nehemiae, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0713A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-neh1">
+        <head xml:id="gom-neh1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-neh1-Dd1e100">
+          <head xml:id="gom-neh1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-neh1-d1e104">
+            <pb ed="#P" n="0713A"/>
+            <quote xml:id="gom-neh1-Qd1e108" type="lemma" source="http://scta.info/resource/neh1_1@1-3">Verba Nehemiae filii.</quote>
+            <ref xml:id="gom-neh1-Rd1e111"><name xml:id="gom-neh1-Nd1e112" ref="#Bede">BED.</name> in Esdram, tom. II.</ref>
+            <quote xml:id="gom-neh1-Qd1e116"><seg type="qs">Nehemias interpretatur <mentioned>consolator Domini</mentioned></seg>, etc., usque ad <seg type="qs">quasi diruta ab hostibus Hierosolymorum moenia restaurant.</seg></quote>
+          </p>
+          <p xml:id="gom-neh1-d1e125">
+            <quote xml:id="gom-neh1-Qd1e127" type="lemma" source="http://scta.info/resource/neh1_1@1-2">Verba Nehemiae.</quote>
+            <ref xml:id="gom-neh1-Rd1e130"><name xml:id="gom-neh1-Nd1e131" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh1-Qd1e135"><seg type="qs">Hucusque verba Esdrae</seg>, etc., usque ad <seg type="qs">qui non blandimentis temporalibus enervari, sed adversitatibus exerceri, et ad requiem sempiternam gaudent praeparari.</seg></quote>
+          </p>
+          <p xml:id="gom-neh1-d1e143">
+            <quote xml:id="gom-neh1-Qd1e145" type="lemma" source="http://scta.info/resource/neh1_1@8-10">In mense Casleu.</quote>
+            <ref xml:id="gom-neh1-Rd1e148"><name xml:id="gom-neh1-Nd1e149" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh1-Qd1e153">Mensis Casleu ipse est quem nos Decembrem vocamus, apud Hebraeos nonus, apud nos ultimus. Cujus nomen quod spes ejus interpretatur, bene congruit votis ejus, qui ad ruinas sanctae civitatis intendebat erigendas. Primum enim bonae actionis fundamentum est, spem habere <pb ed="#P" n="0713B"/> de auxilio Domini ad perficiendum quod cupimus. In hoc mense natus est Dominus, cujus nomine longe ante figurabatur, quod in eo mense verus Nehemias diu desideratus ad aedificationem Ecclesiae esset venturus.</quote>
+          </p>
+          <p xml:id="gom-neh1-d1e159">
+            <quote xml:id="gom-neh1-Qd1e161" type="lemma" source="http://scta.info/resource/neh1_1@15-17">Eram in Susis.</quote>
+            <ref xml:id="gom-neh1-Rd1e164"><name xml:id="gom-neh1-Nd1e165" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh1-Qd1e169">Susis metropolis est Persarum, sed tanta firmitate, ut castrum esse videatur, et interpretatur equitatio vel revertens, quae fidelibus convenienter aptatur, eis maxime, qui de captivitate Jerusalem curam gerunt, id est, de salute eorum, qui aliquando per insidias diaboli de Ecclesia rapti poenitentes denuo per gratiam Dei sunt redacti. Tales enim sunt in revertente castro, id est, in robore mentis revocatae ab infimis ad desiderium patriae coelestis, et in equitatu sanctorum <pb ed="#P" n="0713C"/> cordium, quae scilicet portant sessorem Deum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh1-Dd1e176">
+          <head xml:id="gom-neh1-Hd1e178">Versus 2</head>
+          <p xml:id="gom-neh1-d1e180">
+            <quote xml:id="gom-neh1-Qd1e182" type="lemma" source="http://scta.info/resource/neh1_2@18-19">Qui remanserunt.</quote>
+            <ref xml:id="gom-neh1-Rd1e185"><name xml:id="gom-neh1-Nd1e186" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh1-Qd1e190"><seg type="qs">Patet litterae sensus</seg>, etc., usque ad <seg type="qs">indignos arcere debuerant, avaritiae, luxuriae caeterorumque vitiorum incendio perire.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-neh1-Dd1e199">
+          <head xml:id="gom-neh1-Hd1e201">Versus 4</head>
+          <p xml:id="gom-neh1-d1e203">
+            <quote xml:id="gom-neh1-Qd1e205" type="lemma" source="http://scta.info/resource/neh1_4@7-9">Flevi et luxi.</quote>
+            Si vir sanctus audiens destructa lignorum et lapidum aedificia recte lugebat, jejunabat, et orabat, diu sedens in tristitia, quanto magis in destructione et ruina animarum continuis luctibus, et orationibus est insistendum, ut miserante Deo ad pristinam erigantur sospitatem, qui in opprobrio religionis triumphante inimico jacebant diutina vitiorum sorde squalentes.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0862D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps12">
+        <head xml:id="gom-ps12-Hd1e98">Psalmus 12</head>
+        <div xml:id="gom-ps12-Dd1e100">
+          <head xml:id="gom-ps12-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps12-d1e104">
+            <quote xml:id="gom-ps12-Qd1e106" type="lemma" source="http://scta.info/resource/ps12_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps12-Rd1e109"><name xml:id="gom-ps12-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e113"><seg type="qs">Psalmus de charitate <pb ed="#P" n="0863A"/> Christi</seg>, etc., usque ad <seg type="qs">secundum illud: <quote xml:id="gom-ps12-Qd1e121" source="http://scta.info/resource/phil1_23@7-10">Cupio dissolvi et esse cum Christo.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps12-Dd1e126">
+          <head xml:id="gom-ps12-Hd1e128">Versus 2</head>
+          <p xml:id="gom-ps12-d1e130">
+            <quote xml:id="gom-ps12-Qd1e132" type="lemma" source="http://scta.info/resource/ps12_2@1-1">Quandiu.</quote>
+            <ref xml:id="gom-ps12-Rd1e135"><name xml:id="gom-ps12-Nd1e136" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e139"><seg type="qs">Magnus ardor sustinentis</seg>, etc., usque ad <seg type="qs">quia spes protrahitur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps12-d1e147">
+            <quote xml:id="gom-ps12-Qd1e149" type="lemma" source="http://scta.info/resource/ps12_2@3-3">Consilia.</quote>
+            <ref xml:id="gom-ps12-Rd1e152"><name xml:id="gom-ps12-Nd1e153" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e156"><seg type="qs">Consilio non est opus</seg>, etc., usque ad <seg type="qs">dolens precansque aeterna.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps12-Dd1e165">
+          <head xml:id="gom-ps12-Hd1e167">Versus 3</head>
+          <p xml:id="gom-ps12-d1e169">
+            <quote xml:id="gom-ps12-Qd1e171" type="lemma" source="http://scta.info/resource/ps12_3@1-2">Usquequo exaltabitur,</quote>
+            etc.
+            <ref xml:id="gom-ps12-Rd1e174"><name xml:id="gom-ps12-Nd1e175" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e178">Dicit quia, ante adventum Christi, diabolus captivos tenebat homines. Vel <quote xml:id="gom-ps12-Qd1e180" source="http://scta.info/resource/ps12_3@5-6">super me,</quote> id est, meam crudelitatem, quia toto orbe colitur, et quia sic orbis interit, plorat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps12-Dd1e186">
+          <head xml:id="gom-ps12-Hd1e188">Versus 4</head>
+          <p xml:id="gom-ps12-d1e190">
+            <quote xml:id="gom-ps12-Qd1e192" type="lemma" source="http://scta.info/resource/ps12_4@1-1">Respice.</quote>
+            <ref xml:id="gom-ps12-Rd1e195"><name xml:id="gom-ps12-Nd1e196" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e199">Post conquestionem, oratio, ut illuminetur, ne cedat fraudibus inimici, qui in misericordia confidit.</quote>
+          </p>
+          <p xml:id="gom-ps12-d1e202">
+            <quote xml:id="gom-ps12-Qd1e204" type="lemma" source="http://scta.info/resource/ps12_4@1-1">Respice.</quote>
+            <ref xml:id="gom-ps12-Rd1e207"><name xml:id="gom-ps12-Nd1e208" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e211">Mitte quem missurus es.</quote>
+          </p>
+          <p xml:id="gom-ps12-d1e214">
+            <quote xml:id="gom-ps12-Qd1e216" type="lemma" source="http://scta.info/resource/ps12_4@3-3">Exaudi.</quote>
+            <ref xml:id="gom-ps12-Rd1e219"><name xml:id="gom-ps12-Nd1e220" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e223">Pro omnibus, pro quibus generaliter petit.</quote>
+          </p>
+          <p xml:id="gom-ps12-d1e226">
+            <quote xml:id="gom-ps12-Qd1e228" type="lemma" source="http://scta.info/resource/ps12_4@8-8">Illumina.</quote>
+            Si non corpore, <pb ed="#P" n="0863B"/> videamus vel mente.
+          </p>
+          <p xml:id="gom-ps12-d1e235">
+            <quote xml:id="gom-ps12-Qd1e237" type="lemma" source="http://scta.info/resource/ps12_4@13-13">Obdormiam.</quote>
+            Quando fidei lumine sepulto, carnali delectatione clauduntur.
+          </p>
+          <p xml:id="gom-ps12-d1e241">
+            <quote xml:id="gom-ps12-Qd1e243" type="lemma" source="http://scta.info/resource/ps12_4@14-15">In morte.</quote>
+            Id est, in peccato quod fit in Spiritum sanctum de quo Joannes: <quote xml:id="gom-ps12-Qd1e246" source="http://scta.info/resource/Iio5_16@19-27">Est peccatum ad mortem, non pro eo dico ut quis oret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps12-Dd1e252">
+          <head xml:id="gom-ps12-Hd1e254">Versus 6</head>
+          <p xml:id="gom-ps12-d1e256">
+            <quote xml:id="gom-ps12-Qd1e258" type="lemma" source="http://scta.info/resource/ps12_6@7-7">Exsultabunt.</quote>
+            <ref xml:id="gom-ps12-Rd1e261"><name xml:id="gom-ps12-Nd1e262" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e265">Non solum propter me illuminare, sed ne inimicus gaudeat.</quote>
+          </p>
+          <p xml:id="gom-ps12-d1e268">
+            <quote xml:id="gom-ps12-Qd1e270" type="lemma" source="http://scta.info/resource/ps12_6@6-6">Speravi</quote>
+            <ref xml:id="gom-ps12-Rd1e273"><name xml:id="gom-ps12-Nd1e274" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps12-Qd1e277">Et si festinat, tamen patiens est: quia et si differtur, firmus est in spe, et interius jam videns exsultat, quem carne videre desiderat: unde et sibi bona data dicit qui prius querebatur.</quote>
+          </p>
+          <p xml:id="gom-ps12-d1e280">
+            <quote xml:id="gom-ps12-Qd1e282" type="lemma" source="http://scta.info/resource/ps12_6@17-17">Tribuit.</quote>
+            Non tribuet: magna virtus fidei jam habet quod futurum est.
+          </p>
+          <p xml:id="gom-ps12-d1e286">
+            <quote xml:id="gom-ps12-Qd1e288" type="lemma" source="http://scta.info/resource/ps12_6@7-8">Exsultabit cor.</quote>
+            Si tantum desiderat, si sic famulatur venturo, quid faciendum suscepto?
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

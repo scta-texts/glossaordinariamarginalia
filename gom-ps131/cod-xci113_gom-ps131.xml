@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 131</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 131</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1050B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps131">
+        <head xml:id="gom-ps131-Hd1e98">Psalmus 131</head>
+        <div xml:id="gom-ps131-Dd1e100">
+          <head xml:id="gom-ps131-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps131-d1e104">
+            <quote xml:id="gom-ps131-Qd1e106" type="lemma" source="http://scta.info/resource/ps131_1@1-2">Canticum graduum.</quote>
+            <ref xml:id="gom-ps131-Rd1e109"><name xml:id="gom-ps131-Nd1e110" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e113"><seg type="qs">In tredecimo gradu jam humilis et mansuetus</seg>, etc., usque ad <seg type="qs">unde in Isaia: <quote xml:id="gom-ps131-Qd1e119">Super quem requiescet Spiritus meus, <pb ed="#P" n="1050C"/> nisi super humilem et quietum, et trementem sermones meos?</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps131-d1e125">
+            <quote xml:id="gom-ps131-Qd1e127" type="lemma" source="http://scta.info/resource/ps131_1@3-7">Memento, Domine, David et omnis.</quote>
+            <ref xml:id="gom-ps131-Rd1e130"><name xml:id="gom-ps131-Nd1e131" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e134">Primo ostendens votum aedificandi domum, precatur ut impleat. Secundo, ostendit domum aedificatam, <ref xml:id="gom-ps131-Rd1e136">ibi, <seg type="incipit">Ecce audi</seg>.</ref> Tertio, dicit promissiones Dei factas aedificatae Sion, <ref xml:id="gom-ps131-Rd1e142">ibi, <seg type="incipit">Juravit Dominus</seg>.</ref> Volens ergo aedificare domum Domino, ait in persona totius Christi capitis: <quote xml:id="gom-ps131-Qd1e148">O Domine,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e152">
+            <quote xml:id="gom-ps131-Qd1e154" type="lemma" source="http://scta.info/resource/ps131_1@5-5">David.</quote>
+            <ref xml:id="gom-ps131-Rd1e157"><name xml:id="gom-ps131-Nd1e158" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e161">Ad litteram, mansuetus, ut Sauli malum pro malo non redderet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e165">
+          <head xml:id="gom-ps131-Hd1e167">Versus 2</head>
+          <p xml:id="gom-ps131-d1e169">
+            <quote xml:id="gom-ps131-Qd1e171" type="lemma" source="http://scta.info/resource/ps131_2@1-6">Sicut juravit et votum vovit.</quote>
+            Id est, ut impleat quod promisit: nemo praesumat viribus suis reddere quod vovit. Vovit autem Ecclesia in mansuetudine, ut sit domus Dei, quo nihil gratius potest Deo offerri. Domus autem est, si sua non quaerit, sed de <pb ed="#P" n="1050D"/> communi gaudet: de propriis fiunt mala, unde ait: <quote xml:id="gom-ps131-Qd1e176" source="http://scta.info/resource/ps131_3@1-2">Si introiero.</quote> Sciebat se proprio impediri, ne fiat locus Dei.
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e181">
+          <head xml:id="gom-ps131-Hd1e183">Versus 3</head>
+          <p xml:id="gom-ps131-d1e185">
+            <quote xml:id="gom-ps131-Qd1e187" type="lemma" source="http://scta.info/resource/ps131_3@1-2">Si introiero</quote>
+            usque <quote xml:id="gom-ps131-Qd1e190" source="http://scta.info/resource/ps131_5@5-8">donec inveniam locum Domino.</quote> Littera suspenditur, et est aposiopesis, ac si diceret: Si hoc vel illud fecero, nunquam de caetero mihi credatur. Quasi juravit David Domino: <quote xml:id="gom-ps131-Qd1e193" source="http://scta.info/resource/ps131_3@1-6">Si introiero in tabernaculum domus meae,</quote> etc.
+          </p>
+          <p xml:id="gom-ps131-d1e197">
+            <ref xml:id="gom-ps131-Rd1e199" type="lemma" subtype="implied" target="http://scta.info/resource/ps131_3@1-2"/>
+            <ref xml:id="gom-ps131-Rd1e201"><name xml:id="gom-ps131-Nd1e202" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e205">Vel ex persona Christi ab illo loco: <quote xml:id="gom-ps131-Qd1e207" source="http://scta.info/resource/ps131_3@1-6">Si introiero in tabernaculum domus meae,</quote> scilicet, coelestis habitationis. Tabernaculum est coelestis habitatio.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e212">
+            <quote xml:id="gom-ps131-Qd1e214" type="lemma" source="http://scta.info/resource/ps131_3@8-9">Si ascendero,</quote>
+            etc., ad dexteram Patris, ubi lectus, id est requies et finis laborum.
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e219">
+          <head xml:id="gom-ps131-Hd1e221">Versus 4</head>
+          <p xml:id="gom-ps131-d1e223">
+            <quote xml:id="gom-ps131-Qd1e225" type="lemma" source="http://scta.info/resource/ps131_4@3-3">Sumnum,</quote>
+            requies mortis triduanae, <pb ed="#P" n="1051A"/> Deinde aliis verbis idem repetit. <quote xml:id="gom-ps131-Qd1e230">Et palpebris meis dormitationem. Et requiem temporibus meis</quote> donec Ecclesia sancta praedicatione sit fundata. Aposiopesis est quasi, non amplius credatur mihi.
+          </p>
+          <p xml:id="gom-ps131-d1e233">
+            <quote xml:id="gom-ps131-Qd1e235" type="lemma" source="http://scta.info/resource/ps131_4@6-7">Et palpebris.</quote>
+            <ref xml:id="gom-ps131-Rd1e238"><name xml:id="gom-ps131-Nd1e239" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e242">Est qui non dormit, sed dormitat: modo retrahitur a terrenis, modo illo revolvitur, crebro inclinat caput.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e247">
+          <head xml:id="gom-ps131-Hd1e249">Versus 5</head>
+          <p xml:id="gom-ps131-d1e251">
+            <quote xml:id="gom-ps131-Qd1e253" type="lemma" source="http://scta.info/resource/ps131_5@1-2">Et requiem.</quote>
+            A requie temporum somnus venit ad oculos quia dormituris tempora incipiunt. Cum ergo incipit delectare ad peccatum aliquid temporale, gravantur tempora, sed ne des te illi delectationi, et somnus non venit ad oculos, ista cogitatione, si quasi confricans frontem excutis somnum.
+          </p>
+          <p xml:id="gom-ps131-d1e257">
+            <quote xml:id="gom-ps131-Qd1e259" type="lemma" source="http://scta.info/resource/ps131_5@6-6">Inveniam:</quote>
+            <ref xml:id="gom-ps131-Rd1e262"><name xml:id="gom-ps131-Nd1e263" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e266">dicit, quia diu quaesivit.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e269">
+            <pb ed="#P" n="1051B"/>
+            <quote xml:id="gom-ps131-Qd1e273" type="lemma" source="http://scta.info/resource/ps131_5@7-8">Locum Domino:</quote>
+            in se quaerebat, qui super humilem et quietum requiescit. Locus autem Dei est, si suas deserit res; vel saltem, si se non amat, sed Deum.
+          </p>
+          <p xml:id="gom-ps131-d1e277">
+            <quote xml:id="gom-ps131-Qd1e279" type="lemma" source="http://scta.info/resource/ps131_5@9-9">Tabernaculum.</quote>
+            <ref xml:id="gom-ps131-Rd1e282"><name xml:id="gom-ps131-Nd1e283" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e286">Adhuc gemimus. In domo laudabimus, quia gemitus est peregrinantium; laudatio jam in patria commorantium.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e290">
+            <quote xml:id="gom-ps131-Qd1e292" type="lemma" source="http://scta.info/resource/ps131_5@10-11">Deo Jacob.</quote>
+            Dicit solvisse, sicut supra dixit promisisse.
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e297">
+          <head xml:id="gom-ps131-Hd1e299">Versus 6</head>
+          <p xml:id="gom-ps131-d1e301">
+            <quote xml:id="gom-ps131-Qd1e303" type="lemma" source="http://scta.info/resource/ps131_6@1-2">Ecce audivimus.</quote>
+            (CASS. Secunda pars ubi ostenditur aedificata domus, et ubi et precatur qui exaltentur, et ne Judaei sint penitus alieni.
+          </p>
+          <p xml:id="gom-ps131-d1e307">
+            <quote xml:id="gom-ps131-Qd1e309" type="lemma" source="http://scta.info/resource/ps131_6@3-5">Eam in Ephrata,</quote>
+            <ref xml:id="gom-ps131-Rd1e312"><name xml:id="gom-ps131-Nd1e313" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e316"><seg type="qs">vel <mentioned>eam</mentioned></seg>, etc., usque ad <seg type="qs">ubi erant vepres idololatriae.</seg></quote>
+          </p>
+          <p xml:id="gom-ps131-d1e325">
+            <ref xml:id="gom-ps131-Rd1e327" type="lemma" subtype="implied" target="http://scta.info/resource/ps131_6@3-5"/>
+            <ref xml:id="gom-ps131-Rd1e329"><name xml:id="gom-ps131-Nd1e330" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e333">Ecce audi, scilicet Dominum nasciturum in Ephrata Bethlehem, ubi natus est Dominus: auditum <pb ed="#P" n="1051C"/> est nasci in Bethlehem, sed propter fidem gentium <quote xml:id="gom-ps131-Qd1e337" source="http://scta.info/resource/ps131_6@9-11">in campis sylvae</quote> compertus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e343">
+          <head xml:id="gom-ps131-Hd1e345">Versus 7</head>
+          <p xml:id="gom-ps131-d1e347">
+            <quote xml:id="gom-ps131-Qd1e349" type="lemma" source="http://scta.info/resource/ps131_7@1-1">Introibimus.</quote>
+            <ref xml:id="gom-ps131-Rd1e352"><name xml:id="gom-ps131-Nd1e353" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e356">Nos quoque perseverando in militia nostra tamen introivimus (vel introibimus) in tabernaculum ejus, Dei Jacob: ad hanc domum pertinet, qui aliis tanquam vivis lapidibus charitate compaginatus est. Intrat ergo qui diligit, et qui intrat, domus Dei efficitur.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e359">
+            <quote xml:id="gom-ps131-Qd1e361" type="lemma" source="http://scta.info/resource/ps131_7@7-8">In loco.</quote>
+            Domus Dei est, ubi debet adorari: praeter quam non audit Deus ad vitam aeternam. Ille ad domum pertinet, qui est charitate compaginatus aliis. Vel locus in quo stant pedes domus Domini, Christus est, in quo perseverant.
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e366">
+          <head xml:id="gom-ps131-Hd1e368">Versus 8</head>
+          <p xml:id="gom-ps131-d1e370">
+            <quote xml:id="gom-ps131-Qd1e372" type="lemma" source="http://scta.info/resource/ps131_8@1-1">Surge.</quote>
+            <ref xml:id="gom-ps131-Rd1e375"><name xml:id="gom-ps131-Nd1e376" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e379">Et dicitur, qui dicit, <quote xml:id="gom-ps131-Qd1e381">Dormivi conturbatus:</quote> Surge a morte, in requiem <pb ed="#P" n="1051D"/> tuam, ut jam non conturberis, quia <quote xml:id="gom-ps131-Qd1e385" source="http://scta.info/resource/rom6_9@10-14">mors ultra non dominabitur.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e390">
+          <head xml:id="gom-ps131-Hd1e392">Versus 9</head>
+          <p xml:id="gom-ps131-d1e394">
+            <quote xml:id="gom-ps131-Qd1e396" type="lemma" source="http://scta.info/resource/ps131_9@1-1">Sacerdotes.</quote>
+            <ref xml:id="gom-ps131-Rd1e399"><name xml:id="gom-ps131-Nd1e400" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e403">Accipit eosdem sacerdotes et sanctos, scilicet omnes fideles. Vel, per <quote xml:id="gom-ps131-Qd1e405" source="http://scta.info/resource/ps131_9@1-1">sacerdotes,</quote> significat praelatos Ecclesiae; per <quote xml:id="gom-ps131-Qd1e408" source="http://scta.info/resource/ps131_8@9-9">sanctos,</quote> subjectos fideles. Arcam ergo, quam surgere precatus erat, per partes Ecclesiae distinguit.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e413">
+            <quote xml:id="gom-ps131-Qd1e415" type="lemma" source="http://scta.info/resource/ps131_9@1-1">Sacerdotes,</quote>
+            ut in Veteri Testamento sacerdotes diversis ornamentis, ita evangelici sacerdotes diversis virtutibus adornantur: haec sunt ornamenta, quae Deus exigit. Quae enim legales pontifices in vestibus gestabant, illa evangelici sacerdotes in cordibus habere debent.
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e420">
+          <head xml:id="gom-ps131-Hd1e422">Versus 10</head>
+          <p xml:id="gom-ps131-d1e424">
+            <quote xml:id="gom-ps131-Qd1e426" type="lemma" source="http://scta.info/resource/ps131_10@1-3">Propter David servum.</quote>
+            <ref xml:id="gom-ps131-Rd1e429"><name xml:id="gom-ps131-Nd1e430" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e433"><quote xml:id="gom-ps131-Qd1e434">Memento:</quote> <pb ed="#P" n="1052A"/> Et bene dico <quote xml:id="gom-ps131-Qd1e438" source="http://scta.info/resource/ps131_10@1-2">propter David,</quote> quia <quote xml:id="gom-ps131-Qd1e441" source="http://scta.info/resource/ps131_11@1-3">juravit Dominus David.</quote></quote>
+          </p>
+          <p xml:id="gom-ps131-d1e445">
+            <quote xml:id="gom-ps131-Qd1e447" type="lemma" source="http://scta.info/resource/ps131_10@1-1">Propter:</quote>
+            deinde ex persona ipsius David rogantis Deum Patrem.
+          </p>
+          <p xml:id="gom-ps131-d1e451">
+            <ref xml:id="gom-ps131-Rd1e453" type="lemma" subtype="implied" target="http://scta.info/resource/ps131_10@1-1"/>
+            <ref xml:id="gom-ps131-Rd1e455"><name xml:id="gom-ps131-Nd1e456" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e459">Quia enim Christus a Judaeis faciem avertit ad gentes, rogatur Pater propter reliquias, ut salvae fiant, quod in apostolis et in aliis multis impletum est. Et ait: <quote xml:id="gom-ps131-Qd1e461" source="http://scta.info/resource/ps131_10@1-2">propter David,</quote> ac si diceret: Mei etiam memento, ut propter me Judaeos funditus non repellas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e468">
+          <head xml:id="gom-ps131-Hd1e470">Versus 11</head>
+          <p xml:id="gom-ps131-d1e472">
+            <quote xml:id="gom-ps131-Qd1e474" type="lemma" source="http://scta.info/resource/ps131_11@1-1">Juravit.</quote>
+            <ref xml:id="gom-ps131-Rd1e477"><name xml:id="gom-ps131-Nd1e478" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e481">Tertia pars, ubi dicit promissiones Dei factas aedificatae Sion, id est Ecclesiae. Et loquitur David in sua vel in totius Christi persona.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e484">
+            <quote xml:id="gom-ps131-Qd1e486" type="lemma" source="http://scta.info/resource/ps131_11@5-7">Et non frustrabitur</quote>
+            (alias) <quote xml:id="gom-ps131-Qd1e489">non poenitebit.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e492">
+            <ref xml:id="gom-ps131-Rd1e494" type="lemma" subtype="implied" target="http://scta.info/resource/ps131_11@5-7"/>
+            <ref xml:id="gom-ps131-Rd1e496"><name xml:id="gom-ps131-Nd1e497" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e500"><seg type="qs">Poeniteri dicitur Deus</seg>, etc., usque ad <seg type="qs">in <pb ed="#P" n="1052B"/> enim facis quia erraveras: ille facit, et liberat.</seg></quote>
+          </p>
+          <p xml:id="gom-ps131-d1e510">
+            <quote xml:id="gom-ps131-Qd1e512" type="lemma" source="http://scta.info/resource/ps131_11@10-12">De fructu ventris tui.</quote>
+            <quote xml:id="gom-ps131-Qd1e515"><seg type="qs">Poterat dicere ex fructu femoris tui</seg>, etc., usque ad <seg type="qs">quia quos David temporaliter rexit, Christus spiritualiter.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e524">
+          <head xml:id="gom-ps131-Hd1e526">Versus 12</head>
+          <p xml:id="gom-ps131-d1e528">
+            <quote xml:id="gom-ps131-Qd1e530" type="lemma" source="http://scta.info/resource/ps131_12@1-2">Si custodierint.</quote>
+            <ref xml:id="gom-ps131-Rd1e533"><name xml:id="gom-ps131-Nd1e534" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e537"><seg type="qs">Meritum videntur facere</seg>, etc., usque ad <seg type="qs">hoc non mutatur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps131-d1e545">
+            <quote xml:id="gom-ps131-Qd1e547" type="lemma" source="http://scta.info/resource/ps131_12@14-16">Et filii eorum.</quote>
+            <ref xml:id="gom-ps131-Rd1e550"><name xml:id="gom-ps131-Nd1e551" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e554"><quote xml:id="gom-ps131-Qd1e555">Si custodierint testamentum. Sedebunt super sedem tuam,</quote> id est, participes erunt tuae beatitudinis: Ut sicut es regiae potestatis, ita et ipsi, pro modo suo, et hoc, <quote xml:id="gom-ps131-Qd1e557" source="http://scta.info/resource/ps131_12@17-19">Usque in saeculum saeculi,</quote> id est in aeternum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e563">
+          <head xml:id="gom-ps131-Hd1e565">Versus 14</head>
+          <p xml:id="gom-ps131-d1e567">
+            <quote xml:id="gom-ps131-Qd1e569" type="lemma" source="http://scta.info/resource/ps131_14@1-3">Haec requies mea.</quote>
+            <ref xml:id="gom-ps131-Rd1e572"><name xml:id="gom-ps131-Nd1e573" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e576">Sic amat nos Deus, ut dicat se requiescere, si nos requiescimus in illo.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e580">
+          <head xml:id="gom-ps131-Hd1e582">Versus 15</head>
+          <p xml:id="gom-ps131-d1e584">
+            <quote xml:id="gom-ps131-Qd1e586" type="lemma" source="http://scta.info/resource/ps131_15@1-1">Viduam.</quote>
+            <ref xml:id="gom-ps131-Rd1e589"><name xml:id="gom-ps131-Nd1e590" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e593">Vidua est anima, <pb ed="#P" n="1052C"/> quae se intelligit desertam omni auxilio, nisi solius Dei.</quote>
+          </p>
+          <p xml:id="gom-ps131-d1e599">
+            <quote xml:id="gom-ps131-Qd1e601" type="lemma" source="http://scta.info/resource/ps131_15@9-9">Panibus.</quote>
+            Deus est panis, qui in carne se lac fecit.
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e606">
+          <head xml:id="gom-ps131-Hd1e608">Versus 16</head>
+          <p xml:id="gom-ps131-d1e610">
+            <quote xml:id="gom-ps131-Qd1e612" type="lemma" source="http://scta.info/resource/ps131_16@1-2">Sacerdotes ejus.</quote>
+            Vel distinguendum inter sacerdotes et sanctos, sicut supra. Et est, <quote xml:id="gom-ps131-Qd1e615" source="http://scta.info/resource/ps131_16@1-2">Sacerdotes ejus,</quote> id est, praelatos, <quote xml:id="gom-ps131-Qd1e618" source="http://scta.info/resource/ps131_16@3-4">Induam salutari,</quote> id est Christo, id est, ut honesti sint ad docendum.
+          </p>
+          <p xml:id="gom-ps131-d1e622">
+            <quote xml:id="gom-ps131-Qd1e624" type="lemma" source="http://scta.info/resource/ps131_16@5-6">Et sancti,</quote>
+            id est subditi.
+          </p>
+          <p xml:id="gom-ps131-d1e628">
+            <quote xml:id="gom-ps131-Qd1e630" type="lemma" source="http://scta.info/resource/ps131_16@8-9">Exsultatione exsultabunt</quote>
+            de Christo.
+          </p>
+          <p xml:id="gom-ps131-d1e634">
+            <quote xml:id="gom-ps131-Qd1e636" type="lemma" source="http://scta.info/resource/ps131_16@8-9">Exsultatione exsultabunt.</quote>
+            <ref xml:id="gom-ps131-Rd1e639"><name xml:id="gom-ps131-Nd1e640" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e643"><seg type="qs">Quia induti sunt salutari</seg>, etc., usque ad <seg type="qs">qui habitat in eo, ergo, secure exaltavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e652">
+          <head xml:id="gom-ps131-Hd1e654">Versus 17</head>
+          <p xml:id="gom-ps131-d1e656">
+            <quote xml:id="gom-ps131-Qd1e658" type="lemma" source="http://scta.info/resource/ps131_17@3-8">Cornu David, paravi lucernam Christo.</quote>
+            <ref xml:id="gom-ps131-Rd1e661"><name xml:id="gom-ps131-Nd1e662" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e665"><seg type="qs">Ecclesiae altitudo spiritualis</seg>, etc., usque ad <seg type="qs">ante Christi mortem et resurrectionem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps131-Dd1e675">
+          <head xml:id="gom-ps131-Hd1e677">Versus 18</head>
+          <p xml:id="gom-ps131-d1e679">
+            <pb ed="#P" n="1052D"/>
+            <quote xml:id="gom-ps131-Qd1e683" type="lemma" source="http://scta.info/resource/ps131_18@3-4">Induam confusione,</quote>
+            etc.
+            <ref xml:id="gom-ps131-Rd1e686"><name xml:id="gom-ps131-Nd1e687" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps131-Qd1e690">Hoc faciet Filius, cui omne judicium datum. Sed nota Patrem, qui hic loquitur, facere quod Filius facit.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

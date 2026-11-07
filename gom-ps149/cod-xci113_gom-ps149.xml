@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 149</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 149</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1077C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps149">
+        <head xml:id="gom-ps149-Hd1e98">Psalmus 149</head>
+        <div xml:id="gom-ps149-Dd1e100">
+          <head xml:id="gom-ps149-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps149-d1e104">
+            <quote xml:id="gom-ps149-Qd1e106" type="lemma" source="http://scta.info/resource/ps149_1@1-1">Alleluia.</quote>
+            <ref xml:id="gom-ps149-Rd1e109"><name xml:id="gom-ps149-Nd1e110" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e113">Post omnes creaturas quas in praecedenti psalmo monuit laudare Deum, eo quod ab ipso creatae sunt, hic proprius et specialius Israel invitat ad novum canticum pro novitate sibi facta, quae mirabilior est Dei operatio: haec est sanctificatio Israel, per quam de veteri factus est novus.</quote>
+          </p>
+          <p xml:id="gom-ps149-d1e116">
+            <quote xml:id="gom-ps149-Qd1e118" type="lemma" source="http://scta.info/resource/ps149_1@2-3">Cantate Domino,</quote>
+            etc.
+            <ref xml:id="gom-ps149-Rd1e121"><name xml:id="gom-ps149-Nd1e122" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e125">Primo multis modis monet laudare regem qui eis benevolus et beneficus. Secundo agit de gaudiis sanctorum, <ref xml:id="gom-ps149-Rd1e127">ibi, <seg type="incipit">Exsultabunt</seg>.</ref></quote>
+          </p>
+          <p xml:id="gom-ps149-d1e134">
+            <ref xml:id="gom-ps149-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/ps149_1@2-3"/>
+            <ref xml:id="gom-ps149-Rd1e138"><name xml:id="gom-ps149-Nd1e139" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e142">Qui vult cantare hoc canticum, diligat aeterna, <pb ed="#P" n="1077D"/> ut fiat novus. Vetus enim homo vetus canticum cantat de terrenis. Novus homo novum cantat de spiritualibus; canticum scilicet pacis, canticum charitatis et jucunditatis. Quisquis enim sequitur veterem animositatem, non novam charitatem, novum canticum non cantat.</quote>
+          </p>
+          <p xml:id="gom-ps149-d1e148">
+            <quote xml:id="gom-ps149-Qd1e150" type="lemma" source="http://scta.info/resource/ps149_1@7-10">Laus ejus in Ecclesia.</quote>
+            <ref xml:id="gom-ps149-Rd1e153"><name xml:id="gom-ps149-Nd1e154" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e157">Hic ubi et a quibus cantari debeat hoc canticum determinat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps149-Dd1e161">
+          <head xml:id="gom-ps149-Hd1e163">Versus 2</head>
+          <p xml:id="gom-ps149-d1e165">
+            <quote xml:id="gom-ps149-Qd1e167" type="lemma" source="http://scta.info/resource/ps149_2@12-14">In rege suo.</quote>
+            <ref xml:id="gom-ps149-Rd1e170"><name xml:id="gom-ps149-Nd1e171" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e174">Id est, in Christo, qui est rex et sacerdos.</quote>
+          </p>
+          <p xml:id="gom-ps149-d1e177">
+            <ref xml:id="gom-ps149-Rd1e179" type="lemma" subtype="implied" target="http://scta.info/resource/ps149_2@12-14"/>
+            <ref xml:id="gom-ps149-Rd1e181"><name xml:id="gom-ps149-Nd1e182" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e185">Ut rex pugnavit pro nobis de cruce, diabolum vincens: ut sacerdos, se pro nobis obtulit, nihil inveniens in hominibus quod pro eis offerret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps149-Dd1e189">
+          <head xml:id="gom-ps149-Hd1e191">Versus 3</head>
+          <p xml:id="gom-ps149-d1e193">
+            <quote xml:id="gom-ps149-Qd1e195" type="lemma" source="http://scta.info/resource/ps149_3@4-5">In choro.</quote>
+            <ref xml:id="gom-ps149-Rd1e198"><name xml:id="gom-ps149-Nd1e199" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e202">Quia nulla dispersio, <pb ed="#P" n="1078A"/> sed charissima unitas; tunc exsultatio erit de tympano et psalterio, non ipsius actus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps149-Dd1e209">
+          <head xml:id="gom-ps149-Hd1e211">Versus 4</head>
+          <p xml:id="gom-ps149-d1e213">
+            <quote xml:id="gom-ps149-Qd1e215" type="lemma" source="http://scta.info/resource/ps149_4@1-4">Quia beneplacitum est Domino.</quote>
+            <ref xml:id="gom-ps149-Rd1e218"><name xml:id="gom-ps149-Nd1e219" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e222"><seg type="qs">In prima conditione rerum legimus omnia placuisse Deo</seg>, etc., usque ad <seg type="qs">vel cum parem angelis faciet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps149-Dd1e232">
+          <head xml:id="gom-ps149-Hd1e234">Versus 5</head>
+          <p xml:id="gom-ps149-d1e236">
+            <quote xml:id="gom-ps149-Qd1e238" type="lemma" source="http://scta.info/resource/ps149_5@1-2">Exsultabunt sancti.</quote>
+            <ref xml:id="gom-ps149-Rd1e241"><name xml:id="gom-ps149-Nd1e242" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e245">Secunda pars, ubi agit de gaudiis sanctorum et potestate.</quote>
+          </p>
+          <p xml:id="gom-ps149-d1e248">
+            <quote xml:id="gom-ps149-Qd1e250" type="lemma" source="http://scta.info/resource/ps149_5@4-4">Gloria.</quote>
+            Est bonorum actuum frequens laudatio, de quibus justi laetantur in cubilibus, id est in conscientia, ideo quia habent tam bonum Dominum, qui dat peccantibus gratiam et in meritis vitam aeternam. Fatuus extra in fabulis hominum laetatur; sanctis hic modus gaudii est, ut ad illum referantur bona qui dedit.
+          </p>
+        </div>
+        <div xml:id="gom-ps149-Dd1e255">
+          <head xml:id="gom-ps149-Hd1e257">Versus 6</head>
+          <p xml:id="gom-ps149-d1e259">
+            <quote xml:id="gom-ps149-Qd1e261" type="lemma" source="http://scta.info/resource/ps149_6@1-1">Exaltationes.</quote>
+            <ref xml:id="gom-ps149-Rd1e264"><name xml:id="gom-ps149-Nd1e265" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e268">Virtus Dei et potentia praedicatur in gloria sanctorum. In cubilibus, <pb ed="#P" n="1078B"/> in diversis mansionibus est gloria sanctorum. De quibus Dominus. <quote xml:id="gom-ps149-Qd1e272" source="http://scta.info/resource/io14_2@1-7">In domo Patris mei mansiones multae sunt.</quote></quote>
+          </p>
+          <p xml:id="gom-ps149-d1e276">
+            <quote xml:id="gom-ps149-Qd1e278" type="lemma" source="http://scta.info/resource/ps149_6@3-4">In gutture.</quote>
+            Qui in corde et in lingua non desinunt laudare eum, a quo aeterna habent.
+          </p>
+          <p xml:id="gom-ps149-d1e282">
+            <quote xml:id="gom-ps149-Qd1e284" type="lemma" source="http://scta.info/resource/ps149_6@7-7">Gladii.</quote>
+            Potestatem verbi Dei accipientes, cum Domino judicabunt, sedentes super duodecim sedes; et tunc vere fiet <quote xml:id="gom-ps149-Qd1e287" source="http://scta.info/resource/ps149_7@3-8">vindicta et increpatio in populis,</quote> tunc reges terrae ligabuntur: unde non sit liberum exire. Et nobiles ferent ferrea vincula, ut gravia ad portandum, et quae non possunt rumpi: et sic fiet judicium conscriptum, id est ab angelis comprobatum. De quo Apostolus: <quote xml:id="gom-ps149-Qd1e290" source="http://scta.info/resource/Icor6_3@1-4">Nescitis quia angelos judicabimus?</quote> Et ne putes solos apostolos judicare, addit, <quote xml:id="gom-ps149-Qd1e293">gloria haec,</quote> scilicet potestas judicii, est omnibus <pb ed="#P" n="1078C"/> sanctis ejus, id est perfectis, qui pro Christo omnia terrena reliquerunt.
+          </p>
+          <p xml:id="gom-ps149-d1e298">
+            <ref xml:id="gom-ps149-Rd1e300"><name xml:id="gom-ps149-Nd1e301" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e304" type="lemma" source="http://scta.info/resource/ps149_6@1-4">Exaltationes Dei in gutture.</quote>
+            <quote xml:id="gom-ps149-Qd1e307">Sic enim laetantur in cubilibus et faucibus, id est in corde et lingua, ut non sibi tribuant quod boni sunt, sed Deo, a quo acceperunt quod sunt, et sperant id quod nondum sunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps149-Dd1e311">
+          <head xml:id="gom-ps149-Hd1e313">Versus 8</head>
+          <p xml:id="gom-ps149-d1e315">
+            <quote xml:id="gom-ps149-Qd1e317" type="lemma" source="http://scta.info/resource/ps149_8@1-2">Ad alligandos.</quote>
+            His vinculis mandatorum et praeceptorum Dei ligantur gentium reges, nobiles saeculi, ab infirmis et contemptibilibus hujus mundi, quos elegit Dominus ut fortia quaeque confunderet; ipsosque implevit Spiritu sancto, et dedit eis frameas bis acutas, ut ad Christi timorem nobilium corda converterent, et saeculari nobilitate <pb ed="#P" n="1078D"/> contempta, paupertatem eligerent et nobilitatem in Christo. Voluit enim prodesse imperatori de piscatore, non piscatori de imperatore.
+          </p>
+          <p xml:id="gom-ps149-d1e323">
+            <ref xml:id="gom-ps149-Rd1e325" type="lemma" subtype="implied" target="http://scta.info/resource/ps149_8@1-2"/>
+            <ref xml:id="gom-ps149-Rd1e327"><name xml:id="gom-ps149-Nd1e328" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps149-Qd1e331">Per hos ligat reges et nobiles in vinculis ferreis, ne progrederentur ad illicita.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

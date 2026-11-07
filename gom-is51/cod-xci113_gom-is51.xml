@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 51</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 51</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1294B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is51">
+        <head xml:id="gom-is51-Hd1e98">Caput 51</head>
+        <div xml:id="gom-is51-Dd1e100">
+          <head xml:id="gom-is51-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is51-d1e104">
+            <quote xml:id="gom-is51-Qd1e106" type="lemma" source="http://scta.info/resource/is51_1@1-5">Audite me qui sequimini quod.</quote>
+            <ref xml:id="gom-is51-Rd1e109"><name xml:id="gom-is51-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is51-Qd1e113"><quote xml:id="gom-is51-Qd1e114" source="http://scta.info/resource/is51_1@11-13">Attendite ad petram.</quote> Christum. De qua, <quote xml:id="gom-is51-Qd1e117" source="http://scta.info/resource/Icor10_4@14-17">Petra autem <pb ed="#P" n="1294C"/> erat Christus, unde excisi estis</quote>, a Christo Christiani dicti.</quote>
+          </p>
+          <p xml:id="gom-is51-d1e124">
+            <quote xml:id="gom-is51-Qd1e126" type="lemma" source="http://scta.info/resource/is51_1@17-20">Et ad cavernam laci.</quote>
+            <quote xml:id="gom-is51-Qd1e129"><seg type="qs">Propter fossionem lateris Christi</seg>, etc., usque ad <seg type="qs">nascimur per lavacrum baptismi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is51-Dd1e138">
+          <head xml:id="gom-is51-Hd1e140">Versus 3</head>
+          <p xml:id="gom-is51-d1e142">
+            <quote xml:id="gom-is51-Qd1e144" type="lemma" source="http://scta.info/resource/is51_3@22-24">Gaudium et laetitia.</quote>
+            Nota in Sion quae comparatur paradiso Dei, tantum debet esse gaudium et laetitia et confessio et vox laudis, ut quod in coelo facturi sunt cum angelis, in terra jugiter meditentur.
+          </p>
+        </div>
+        <div xml:id="gom-is51-Dd1e149">
+          <head xml:id="gom-is51-Hd1e151">Versus 5</head>
+          <p xml:id="gom-is51-d1e153">
+            <quote xml:id="gom-is51-Qd1e155" type="lemma" source="http://scta.info/resource/is51_5@3-4">Justus meus.</quote>
+            Omnes justificans, vel justitia eleganter: non ut una gens, sed totus orbis salvetur.
+          </p>
+        </div>
+        <div xml:id="gom-is51-Dd1e160">
+          <head xml:id="gom-is51-Hd1e162">Versus 6</head>
+          <p xml:id="gom-is51-d1e164">
+            <quote xml:id="gom-is51-Qd1e166" type="lemma" source="http://scta.info/resource/is51_6@12-14">Coeli sicut fumus.</quote>
+            <ref xml:id="gom-is51-Rd1e169"><name xml:id="gom-is51-Nd1e170" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is51-Qd1e173"><seg type="qs">De sanctis scriptum est</seg>, etc., usque ad <seg type="qs">quidam tamen perire et inveterascere pro abolitione et morte accipiunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is51-Dd1e183">
+          <head xml:id="gom-is51-Hd1e185">Versus 9</head>
+          <p xml:id="gom-is51-d1e187">
+            <quote xml:id="gom-is51-Qd1e189" type="lemma" source="http://scta.info/resource/is51_9@1-1">Consurge.</quote>
+            Vox prophetae et fidelis populi <pb ed="#P" n="1240D"/> adventum Christi deprecantis, in quo promissum erat auxilium.
+          </p>
+        </div>
+        <div xml:id="gom-is51-Dd1e196">
+          <head xml:id="gom-is51-Hd1e198">Versus 12</head>
+          <p xml:id="gom-is51-d1e200">
+            <quote xml:id="gom-is51-Qd1e202" type="lemma" source="http://scta.info/resource/is51_12@6-11">Quis tu ut timeas ab homine,</quote>
+            <quote xml:id="gom-is51-Qd1e205">etc., usque ad <seg type="qs">ut erubescant et poenitentiam agant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is51-Dd1e212">
+          <head xml:id="gom-is51-Hd1e214">Versus 17</head>
+          <p xml:id="gom-is51-d1e216">
+            <quote xml:id="gom-is51-Qd1e218" type="lemma" source="http://scta.info/resource/is51_17@1-2">Elevare, elevare.</quote>
+            <ref xml:id="gom-is51-Rd1e221"><name xml:id="gom-is51-Nd1e222" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is51-Qd1e225">Eos hortatur ad poenitentiam qui in passione negaverunt; vel in infidelitate perstiterunt, clamantes, <quote xml:id="gom-is51-Qd1e227" source="http://scta.info/resource/io19_6@10-11">Crucifige, crucifige</quote>, etc.</quote>
+          </p>
+          <p xml:id="gom-is51-d1e232">
+            <quote xml:id="gom-is51-Qd1e234" type="lemma" source="http://scta.info/resource/is51_17@10-11">Calicem irae.</quote>
+            <ref xml:id="gom-is51-Rd1e237"><name xml:id="gom-is51-Nd1e238" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is51-Qd1e241"><seg type="qs">Solent medici amarissimum antidotum</seg>,etc., usque ad <seg type="qs">unde non patet quod de ultima captivitate hoc dicitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is51-Dd1e250">
+          <head xml:id="gom-is51-Hd1e252">Versus 22</head>
+          <p xml:id="gom-is51-d1e254">
+            <quote xml:id="gom-is51-Qd1e256" type="lemma" source="http://scta.info/resource/is51_22@14-14">Ecce.</quote>
+            <ref xml:id="gom-is51-Rd1e259"><name xml:id="gom-is51-Nd1e260" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is51-Qd1e263">Praedixit captivitatem futuram, nunc hortatur ad poenitentiam, ut evadant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is51-Dd1e267">
+          <head xml:id="gom-is51-Hd1e269">Versus 23</head>
+          <p xml:id="gom-is51-d1e271">
+            <quote xml:id="gom-is51-Qd1e273" type="lemma" source="http://scta.info/resource/is51_23@2-2">Ponam.</quote>
+            <quote xml:id="gom-is51-Qd1e276"><seg type="qs">Secundum litteram humiliaverunt, <pb ed="#P" n="1295A"/></seg> etc., usque ad <seg type="qs">et in judicio omnino humiliabuntur.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

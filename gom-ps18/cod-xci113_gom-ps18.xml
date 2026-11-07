@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 18</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 18</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0870C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps18">
+        <head xml:id="gom-ps18-Hd1e98">Psalmus 18</head>
+        <div xml:id="gom-ps18-Dd1e100">
+          <head xml:id="gom-ps18-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps18-d1e104">
+            <quote xml:id="gom-ps18-Qd1e106" type="lemma" source="http://scta.info/resource/ps18_1@1-2">In finem.</quote>
+            <ref xml:id="gom-ps18-Rd1e109"><name xml:id="gom-ps18-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e113">Psalmus de primo adventu, unde tyrannus cadit, homo absolvitur, hic propheta respicit in finem, id est, Christum, vel in ultima tempora.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e117">
+          <head xml:id="gom-ps18-Hd1e119">Versus 2</head>
+          <p xml:id="gom-ps18-d1e121">
+            <quote xml:id="gom-ps18-Qd1e123" type="lemma" source="http://scta.info/resource/ps18_2@1-2">Coeli enarrant.</quote>
+            <ref xml:id="gom-ps18-Rd1e126"><name xml:id="gom-ps18-Nd1e127" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e130">Primo, loquens de incarnatione, commendat praedicationem novae legis.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e133">
+            <ref xml:id="gom-ps18-Rd1e135" type="lemma" subtype="implied" target="http://scta.info/resource/ps18_2@1-2"/>
+            <ref xml:id="gom-ps18-Rd1e137"><name xml:id="gom-ps18-Nd1e138" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e141">Coeli, apostoli, de gloria Christi in qua <pb ed="#P" n="0870D"/> Patris aequalis.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e147">
+            <ref xml:id="gom-ps18-Rd1e149" type="lemma" subtype="implied" target="http://scta.info/resource/ps18_2@1-2"/>
+            <ref xml:id="gom-ps18-Rd1e151"><name xml:id="gom-ps18-Nd1e152" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e155">Vel coeli, qui stellam miserunt.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e158">
+            <quote xml:id="gom-ps18-Qd1e160" type="lemma" source="http://scta.info/resource/ps18_2@3-3">Gloriam.</quote>
+            <ref xml:id="gom-ps18-Rd1e163"><name xml:id="gom-ps18-Nd1e164" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e167">Quod Deus gratis peccata dimittat.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e171">
+            <quote xml:id="gom-ps18-Qd1e173" type="lemma" source="http://scta.info/resource/ps18_2@6-6">Opera.</quote>
+            <ref xml:id="gom-ps18-Rd1e176"><name xml:id="gom-ps18-Nd1e177" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e180"><seg type="qs">Quae secundum hominem</seg>, etc., usque ad <seg type="qs">et ipsi eidem facti nox, tenebrosis scientiam quae de humanis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps18-d1e188">
+            <ref xml:id="gom-ps18-Rd1e190" type="lemma" subtype="implied" target="http://scta.info/resource/ps18_2@6-6"/>
+            <ref xml:id="gom-ps18-Rd1e192"><name xml:id="gom-ps18-Nd1e193" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e196">Et hoc tam mirifice, quod in omnibus linguis; et tam late, quod in omni parte ambitus terrae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e200">
+          <head xml:id="gom-ps18-Hd1e202">Versus 3</head>
+          <p xml:id="gom-ps18-d1e204">
+            <quote xml:id="gom-ps18-Qd1e206" type="lemma" source="http://scta.info/resource/ps18_3@1-2">Dies diei.</quote>
+            <ref xml:id="gom-ps18-Rd1e209"><name xml:id="gom-ps18-Nd1e210" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e213">Demonstrative agit.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e216">
+            <ref xml:id="gom-ps18-Rd1e218"><name xml:id="gom-ps18-Nd1e219" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e222" type="lemma" source="http://scta.info/resource/ps18_3@1-2">Dies diei.</quote>
+            <quote xml:id="gom-ps18-Qd1e225"><seg type="qs">Spiritus spiritualibus profert plenitudinem sapientiae</seg>, etc., usque ad <seg type="qs">haec doctrina diebus et noctibus continuatur usque ad posteros.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e234">
+          <head xml:id="gom-ps18-Hd1e236">Versus 4</head>
+          <p xml:id="gom-ps18-d1e238">
+            <quote xml:id="gom-ps18-Qd1e240" type="lemma" source="http://scta.info/resource/ps18_4@3-3">Loquelae.</quote>
+            <ref xml:id="gom-ps18-Rd1e243"><name xml:id="gom-ps18-Nd1e244" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e247">Publicae suasiones.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e250">
+            <quote xml:id="gom-ps18-Qd1e252" type="lemma" source="http://scta.info/resource/ps18_4@5-5">Sermones.</quote>
+            Communes narrationes.
+          </p>
+          <p xml:id="gom-ps18-d1e256">
+            <quote xml:id="gom-ps18-Qd1e258" type="lemma" source="http://scta.info/resource/ps18_4@6-7">Quorum non.</quote>
+            Planius diceret, in quibus non audiantur voces eorum, <pb ed="#P" n="0871A"/> vel, omnium sermonum audiantur voces eorum: illud idem facit per relativum.
+          </p>
+          <p xml:id="gom-ps18-d1e264">
+            <ref xml:id="gom-ps18-Rd1e266" type="lemma" subtype="implied" target="http://scta.info/resource/ps18_4@6-7"/>
+            <ref xml:id="gom-ps18-Rd1e268"><name xml:id="gom-ps18-Nd1e269" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e272">Omnibus linguis primos loqui fecit spiritus, qui omnes gentes in unum erat congregaturus, unus homo tunc omnibus, sic modo unus Christus caput et corpus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e277">
+          <head xml:id="gom-ps18-Hd1e279">Versus 6</head>
+          <p xml:id="gom-ps18-d1e281">
+            <quote xml:id="gom-ps18-Qd1e283" type="lemma" source="http://scta.info/resource/ps18_6@1-2">In sole</quote>
+            <ref xml:id="gom-ps18-Rd1e286"><name xml:id="gom-ps18-Nd1e287" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e290">Quod alios fecisse laudat, ipse facit, praedicat incarnationem. Vel in sole, in manifesto mundi, vel in labore. Sol urit, lucet, et variat tempora.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e293">
+            <quote xml:id="gom-ps18-Qd1e295" type="lemma" source="http://scta.info/resource/ps18_6@4-5">Tabernaculum suum.</quote>
+            <ref xml:id="gom-ps18-Rd1e298"><name xml:id="gom-ps18-Nd1e299" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e302">Quasi militare habitaculum, id est, dispensationem incarnationis suae, in qua venit expugnare errores mundi. Vel tabernaculum, Ecclesiam in manifesto, non in occulto, ut lateat.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e305">
+            <quote xml:id="gom-ps18-Qd1e307" type="lemma" source="http://scta.info/resource/ps18_6@10-10">Sponsus.</quote>
+            <ref xml:id="gom-ps18-Rd1e310"><name xml:id="gom-ps18-Nd1e311" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e314">Toties prophetis promissus, magna similitudo sacramenti: ideo de <pb ed="#P" n="0871B"/> virgine natus, ut Ecclesiam sibi virginem copularet.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e320">
+            <quote xml:id="gom-ps18-Qd1e322" type="lemma" source="http://scta.info/resource/ps18_6@12-13">De thalamo.</quote>
+            <ref xml:id="gom-ps18-Rd1e325"><name xml:id="gom-ps18-Nd1e326" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e329">Id est, virginali utero, ubi Deus humanae naturae, ut sponsus sponsae, copulatus est. Ecce humilis misericordia, sed fortis majestate.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e333">
+            <quote xml:id="gom-ps18-Qd1e335" type="lemma" source="http://scta.info/resource/ps18_6@17-19">Gigas ad currendam.</quote>
+            <ref xml:id="gom-ps18-Rd1e338"><name xml:id="gom-ps18-Nd1e339" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e342">Imperturbabilis, irrevocabilis, humanam naturam potentia superans.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e346">
+          <head xml:id="gom-ps18-Hd1e348">Versus 7</head>
+          <p xml:id="gom-ps18-d1e350">
+            <quote xml:id="gom-ps18-Qd1e352" type="lemma" source="http://scta.info/resource/ps18_7@1-2">A summo.</quote>
+            <quote xml:id="gom-ps18-Qd1e355"><seg type="qs">Hic Trinitas ostenditur</seg>, etc., usque ad <seg type="qs">notat unitatem Trinitatis.</seg></quote>
+          </p>
+          <p xml:id="gom-ps18-d1e363">
+            <quote xml:id="gom-ps18-Qd1e365" type="lemma" source="http://scta.info/resource/ps18_7@14-18">Nec est qui se abscondat,</quote>
+            etc.
+            <ref xml:id="gom-ps18-Rd1e368"><name xml:id="gom-ps18-Nd1e369" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e372">Verbum caro factum, non permisit ullum se excusare de umbra mortis: quia et ipsam penetravit calor verbi. Vel, calor est Spiritus, quem misit reversus, qui lex, testimonium, justitia, praeceptum, timor et judicia, quia haec agit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e376">
+          <head xml:id="gom-ps18-Hd1e378">Versus 8</head>
+          <p xml:id="gom-ps18-d1e380">
+            <quote xml:id="gom-ps18-Qd1e382" type="lemma" source="http://scta.info/resource/ps18_8@1-2">Lex Domini.</quote>
+            <ref xml:id="gom-ps18-Rd1e385"><name xml:id="gom-ps18-Nd1e386" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e389">Secundo, laudat praecepta Novi et Veteris Testamenti.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e392">
+            <ref xml:id="gom-ps18-Rd1e394" type="lemma" subtype="implied" target="http://scta.info/resource/ps18_8@1-2"/>
+            <ref xml:id="gom-ps18-Rd1e396"><name xml:id="gom-ps18-Nd1e397" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e400">Lex per <pb ed="#P" n="0871C"/> Moysen data, omnia verba sua distinctione corrigens, et ad Christi gratiam mittens.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e406">
+            <quote xml:id="gom-ps18-Qd1e408" type="lemma" source="http://scta.info/resource/ps18_8@4-4">Convertens.</quote>
+            <ref xml:id="gom-ps18-Rd1e411"><name xml:id="gom-ps18-Nd1e412" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e415">Libertate, ad se imitandum, non premens jugo servitutis.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e418">
+            <quote xml:id="gom-ps18-Qd1e420" type="lemma" source="http://scta.info/resource/ps18_8@5-5">Animas.</quote>
+            Voluntates, non modo manus, ut Vetus Testamentum.
+          </p>
+          <p xml:id="gom-ps18-d1e425">
+            <quote xml:id="gom-ps18-Qd1e427" type="lemma" source="http://scta.info/resource/ps18_8@7-7">Testimonium.</quote>
+            Quaecunquae testimonia dedit Israel plena sunt veritate, et humilibus sapientiam dederunt.
+          </p>
+          <p xml:id="gom-ps18-d1e431">
+            <quote xml:id="gom-ps18-Qd1e433" type="lemma" source="http://scta.info/resource/ps18_8@10-10">Sapientiam:</quote>
+            de divinis.
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e438">
+          <head xml:id="gom-ps18-Hd1e440">Versus 9</head>
+          <p xml:id="gom-ps18-d1e442">
+            <quote xml:id="gom-ps18-Qd1e444" type="lemma" source="http://scta.info/resource/ps18_9@1-2">Justitiae Domini.</quote>
+            <ref xml:id="gom-ps18-Rd1e447"><name xml:id="gom-ps18-Nd1e448" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e451">Omnes in illo recte, qui non docuit quod non fecit, ut imitantes gauderent in eis, qui libere cum charitate facerent, non serviliter cum timore.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e454">
+            <ref xml:id="gom-ps18-Rd1e456"><name xml:id="gom-ps18-Nd1e457" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e460" type="lemma" source="http://scta.info/resource/ps18_9@1-1">Justitiae,</quote>
+            <quote xml:id="gom-ps18-Qd1e463">lex quae justificat; quidquid praecipit justum est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e467">
+          <head xml:id="gom-ps18-Hd1e469">Versus 10</head>
+          <p xml:id="gom-ps18-d1e471">
+            <quote xml:id="gom-ps18-Qd1e473" type="lemma" source="http://scta.info/resource/ps18_10@1-2">Timor Domini.</quote>
+            <ref xml:id="gom-ps18-Rd1e476"><name xml:id="gom-ps18-Nd1e477" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e480">Timor saeculi non sanctus, quia non proficuus, et cum temporibus mutatur.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e483">
+            <quote xml:id="gom-ps18-Qd1e485" type="lemma" source="http://scta.info/resource/ps18_10@1-2">Timor Domini</quote>
+            sine omni perturbatione, <pb ed="#P" n="0871D"/> quia est mista cum pavore dilectio, quia si timet judicem, scit misericordem.
+          </p>
+          <p xml:id="gom-ps18-d1e491">
+            <ref xml:id="gom-ps18-Rd1e493" type="lemma" subtype="implied" target="http://scta.info/resource/ps18_10@1-2"/>
+            <ref xml:id="gom-ps18-Rd1e495"><name xml:id="gom-ps18-Nd1e496" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e499">Timor, non ille poenalis pro terrenis quorum amore formidat anima, sed castus, quo quanto diligit, cavet offendere sponsum, et ideo non foras mittitur, sed permanet.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e502">
+            <quote xml:id="gom-ps18-Qd1e504" type="lemma" source="http://scta.info/resource/ps18_10@9-9">Judicia.</quote>
+            Judicia Dei non egent alterius auctoritate.
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e509">
+          <head xml:id="gom-ps18-Hd1e511">Versus 11</head>
+          <p xml:id="gom-ps18-d1e513">
+            <quote xml:id="gom-ps18-Qd1e515" type="lemma" source="http://scta.info/resource/ps18_11@1-1">Desiderabilia.</quote>
+            <ref xml:id="gom-ps18-Rd1e518"><name xml:id="gom-ps18-Nd1e519" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e522"><seg type="qs">Vel, multum desiderabilia, vel multum aurum et lapis; vel multum pretiosum. Desiderabilia super aurum</seg>, etc., usque ad, <seg type="qs">cujus voluntatem suae praeponit, et dulciora sunt quam ipse sibi.</seg></quote>
+          </p>
+          <p xml:id="gom-ps18-d1e530">
+            <quote xml:id="gom-ps18-Qd1e532" type="lemma" source="http://scta.info/resource/ps18_11@2-3">Super aurum,</quote>
+            id est, omne quod appetitur, pro divitiis, vel potentia, vel pro voluptate.
+          </p>
+          <p xml:id="gom-ps18-d1e536">
+            <quote xml:id="gom-ps18-Qd1e538" type="lemma" source="http://scta.info/resource/ps18_11@11-11">Mel.</quote>
+            Cibus Dei est mel; id est, solutus jam a saeculo; et favus, id est, quia adhuc circumplicatur, cui opus <pb ed="#P" n="0872A"/> est pressura exprimentis manus Dei, ut eat in vitam.
+          </p>
+        </div>
+        <div xml:id="gom-ps18-Dd1e546">
+          <head xml:id="gom-ps18-Hd1e548">Versus 13</head>
+          <p xml:id="gom-ps18-d1e550">
+            <quote xml:id="gom-ps18-Qd1e552" type="lemma" source="http://scta.info/resource/ps18_13@1-2">Delicta quis.</quote>
+            <ref xml:id="gom-ps18-Rd1e555"><name xml:id="gom-ps18-Nd1e556" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e559">Tertio petit se a vitiis purgari, ut sit dignus Psalmista, qui haec referat sacramenta. Menti videnti suavis est veritas, dulcia judicia; non videnti quae suavitas? sed quare non videtur? propter delicta: nec mirum: <quote xml:id="gom-ps18-Qd1e561" source="http://scta.info/resource/ps18_13@1-3">Delicta enim quis intelligit?</quote></quote>
+          </p>
+          <p xml:id="gom-ps18-d1e565">
+            <ref xml:id="gom-ps18-Rd1e567"><name xml:id="gom-ps18-Nd1e568" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e571" type="lemma" source="http://scta.info/resource/ps18_13@1-1">Delicta:</quote>
+            <quote xml:id="gom-ps18-Qd1e574">omnia, quaedam enim nota sunt.</quote>
+          </p>
+          <p xml:id="gom-ps18-d1e577">
+            <quote xml:id="gom-ps18-Qd1e579" type="lemma" source="http://scta.info/resource/ps18_13@9-9">Mea</quote>
+            inquinant, <quote xml:id="gom-ps18-Qd1e582" source="http://scta.info/resource/ps18_14@3-3">aliena</quote> affligunt, et jam parce, repelle suasorem.
+          </p>
+          <p xml:id="gom-ps18-d1e586">
+            <quote xml:id="gom-ps18-Qd1e588" type="lemma" source="http://scta.info/resource/ps18_13@5-6">Ab occultis.</quote>
+            <quote xml:id="gom-ps18-Qd1e591"><seg type="qs">Omnia peccata duobus includit</seg>, etc., usque ad <seg type="qs">quo homo seductus est; et consentiendo fecit suum.</seg></quote>
+          </p>
+          <p xml:id="gom-ps18-d1e600">
+            <ref xml:id="gom-ps18-Rd1e602" type="lemma" subtype="implied" target="http://scta.info/resource/ps18_13@5-6"/>
+            <ref xml:id="gom-ps18-Rd1e604"><name xml:id="gom-ps18-Nd1e605" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps18-Qd1e608">Non est majus delictum quam apostatare a Deo, quod est initium superbiae: superbia vero est initium et causa omnis peccati.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

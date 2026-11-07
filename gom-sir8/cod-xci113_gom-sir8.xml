@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 8</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 8</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1193C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir8">
+        <head xml:id="gom-sir8-Hd1e98">Caput 8</head>
+        <div xml:id="gom-sir8-Dd1e100">
+          <head xml:id="gom-sir8-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir8-d1e104">
+            <quote xml:id="gom-sir8-Qd1e106" type="lemma" source="http://scta.info/resource/sir8_1@1-5">Non litiges cum homine potente.</quote>
+            <ref xml:id="gom-sir8-Rd1e109"><name xml:id="gom-sir8-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir8-Qd1e113">Superbo. Unde, <quote xml:id="gom-sir8-Qd1e115" source="http://scta.info/resource/prov26_4@2-10">Non respondeas stulto juxta stultitiam suam, ne efficiaris ei similis</quote>: quia inter superbos semper jurgia sunt, servum autem Domini non oportet litigare.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir8-Dd1e121">
+          <head xml:id="gom-sir8-Hd1e123">Versus 2</head>
+          <p xml:id="gom-sir8-d1e125">
+            <pb ed="#P" n="1193D"/>
+            <quote xml:id="gom-sir8-Qd1e129" type="lemma" source="http://scta.info/resource/sir8_2@5-5">Locuplete.</quote>
+            Qui avaritiae aestibus anhelat. Inde enim oriuntur invidiae, contentiones, et hujusmodi, <quote xml:id="gom-sir8-Qd1e132" source="http://scta.info/resource/Itim6_10@1-6">Radix enim omnium malorum est cupiditas</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir8-Dd1e137">
+          <head xml:id="gom-sir8-Hd1e139">Versus 13</head>
+          <p xml:id="gom-sir8-d1e141">
+            <quote xml:id="gom-sir8-Qd1e143" type="lemma" source="http://scta.info/resource/sir8_13@1-3">Non incendas carbones.</quote>
+            <ref xml:id="gom-sir8-Rd1e146"><name xml:id="gom-sir8-Nd1e147" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir8-Qd1e150">Unde Apostolus: <quote xml:id="gom-sir8-Qd1e152" source="http://scta.info/resource/gal6_1@3-18">Si praeoccupatus fuerit homo in aliquo delicto, vos qui spirituales estis, instruite hujusmodi in spiritu lenitatis</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir8-Dd1e158">
+          <head xml:id="gom-sir8-Hd1e160">Versus 15</head>
+          <p xml:id="gom-sir8-d1e162">
+            <quote xml:id="gom-sir8-Qd1e164" type="lemma" source="http://scta.info/resource/sir8_15@1-2">Noli foenerari.</quote>
+            <ref xml:id="gom-sir8-Rd1e167"><name xml:id="gom-sir8-Nd1e168" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir8-Qd1e171">Unde: Bibe aquam de cisterna tua, et fluenta putei tui habeto solus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir8-Dd1e176">
+          <head xml:id="gom-sir8-Hd1e178">Versus 17</head>
+          <p xml:id="gom-sir8-d1e180">
+            <quote xml:id="gom-sir8-Qd1e182" type="lemma" source="http://scta.info/resource/sir8_17@1-4">Non judices contra judicem.</quote>
+            Quasi esto subjectus praepositis et judicibus, qui secundum Deum judicant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

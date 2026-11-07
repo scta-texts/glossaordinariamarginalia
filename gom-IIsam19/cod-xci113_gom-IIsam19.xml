@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis II, Caput 19</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis II, Caput 19</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0575D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIsam19">
+        <head xml:id="gom-IIsam19-Hd1e98">Caput 19</head>
+        <div xml:id="gom-IIsam19-Dd1e100">
+          <head xml:id="gom-IIsam19-Hd1e102">Versus 22</head>
+          <p xml:id="gom-IIsam19-d1e104">
+            <quote xml:id="gom-IIsam19-Qd1e106" type="lemma" source="http://scta.info/resource/IIsam19_22@4-5">Quid mihi.</quote>
+            Timebat David si interficeretur Semei, quod reliqui qui similiter regem offenderant, nollent eum sibi facere regem.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam19-Dd1e111">
+          <head xml:id="gom-IIsam19-Hd1e113">Versus 24</head>
+          <p xml:id="gom-IIsam19-d1e115">
+            <quote xml:id="gom-IIsam19-Qd1e117" type="lemma" source="http://scta.info/resource/IIsam19_24@9-9">Illotis.</quote>
+            In Hebraeo, <quote xml:id="gom-IIsam19-Qd1e120">infectis.</quote> Fecerat enim sibi Miphiboseth ligneos pedes secundum Hebraeum <pb ed="#P" n="0576A"/> quibus pro naturalibus utebatur: erat enim claudus.
+          </p>
+        </div>
+        <div xml:id="gom-IIsam19-Dd1e126">
+          <head xml:id="gom-IIsam19-Hd1e128">Versus 29</head>
+          <p xml:id="gom-IIsam19-d1e130">
+            <quote xml:id="gom-IIsam19-Qd1e132" type="lemma" source="http://scta.info/resource/IIsam19_29@13-15">Tu et siba.</quote>
+            <ref xml:id="gom-IIsam19-Rd1e135"><name xml:id="gom-IIsam19-Nd1e136" ref="#Jerome">HIERON.</name>, quaest. Hebr. in Reg.</ref>
+            <quote xml:id="gom-IIsam19-Qd1e140"><seg type="qs">In Hebraeo: <quote xml:id="gom-IIsam19-Qd1e143" source="http://scta.info/resource/IIsam19_29@13-16">Dixi, Tu et Siba dividite agrum.</quote> Quod David, immemor foederis et juramenti</seg>, etc., usque ad <seg type="qs">verba obliquando protulit contra Altissimum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIsam19-Dd1e152">
+          <head xml:id="gom-IIsam19-Hd1e154">Versus 37</head>
+          <p xml:id="gom-IIsam19-d1e156">
+            <quote xml:id="gom-IIsam19-Qd1e158" type="lemma" source="http://scta.info/resource/IIsam19_37@19-20">Est autem.</quote>
+            <quote xml:id="gom-IIsam19-Qd1e161"><seg type="qs">Est autem in Hebraeo: <quote xml:id="gom-IIsam19-Qd1e164" source="http://scta.info/resource/IIsam19_35@30-31">Ecce servus tuus</quote> Hebraice legitur <quote xml:id="gom-IIsam19-Qd1e167">Chime han Chanaan,</quote> Chanaan interpretatur <mentioned>suspirans</mentioned>; quandiu cum patre fuit, suspirans vocatus est: postquam vero ad doctrinam David transiit, non Chanaan sed Chamaan vocatus est, id est, fidelis</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-IIsam19-Qd1e173" source="http://scta.info/resource/gen48_5@19-27">Ephraim et Manasses tanquam Ruben et Simeon erunt mihi.</quote> Magnus itaque Moses et Josue ejus successor <pb ed="#P" n="0576B"/> duplicem illis tribuerunt sortem.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

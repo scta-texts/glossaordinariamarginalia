@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 22</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 22</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0559D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam22">
+        <head xml:id="gom-Isam22-Hd1e98">Caput 22</head>
+        <div xml:id="gom-Isam22-Dd1e100">
+          <head xml:id="gom-Isam22-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Isam22-d1e104">
+            <quote xml:id="gom-Isam22-Qd1e106" type="lemma" source="http://scta.info/resource/Isam22_1@10-11">Quod cum.</quote>
+            <ref xml:id="gom-Isam22-Rd1e109"><name xml:id="gom-Isam22-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam22-Qd1e113">Significavit quod Redemptor noster, peracta passione et redemptione humani generis, de Israelitica plebe in Judaea primum Ecclesiam collocavit, de qua et carnem sumpsit. Ubi fratres ejus, id est, apostoli et domus patris ejus, id est, qui crediderunt ex Judaeis, venerunt ad illum, et convenerunt ad eum omnes qui erant <pb ed="#P" n="0560A"/> in angustiis constituti, etc. Quibus scilicet, ait: <quote xml:id="gom-Isam22-Qd1e117" source="http://scta.info/resource/mt11_28@1-13">Venite ad me, omnes qui laboratis et onerati estis, et ego reficiam vos</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam22-Dd1e123">
+          <head xml:id="gom-Isam22-Hd1e125">Versus 2</head>
+          <p xml:id="gom-Isam22-d1e127">
+            <quote xml:id="gom-Isam22-Qd1e129" type="lemma" source="http://scta.info/resource/Isam22_2@13-14">Aere alieno.</quote>
+            <ref xml:id="gom-Isam22-Rd1e132"><name xml:id="gom-Isam22-Nd1e133" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam22-Qd1e136">Censu scilicet peccatorum quem diabolo persolvunt, dum exhibent membra servire iniquitati ad iniquitatem; necesse est ut tales in amaritudine animi poenitentiam agant, et ad David veniant, id est, ad Christum cunctis gentibus desideratum, ut fiat eorum princeps. <quote xml:id="gom-Isam22-Qd1e138">Ipse est enim judex vivorum et mortuorum, et princeps pacis, cujus regni non erit finis.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam22-Dd1e142">
+          <head xml:id="gom-Isam22-Hd1e144">Versus 5</head>
+          <p xml:id="gom-Isam22-d1e146">
+            <quote xml:id="gom-Isam22-Qd1e148" type="lemma" source="http://scta.info/resource/Isam22_5@1-2">Dixitque Gad.</quote>
+            <ref xml:id="gom-Isam22-Rd1e151"><name xml:id="gom-Isam22-Nd1e152" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam22-Qd1e155">De improviso Gad inducitur. Nulla enim fit mentio ejus in praecedentibus, sicut et Elias, ubi dicitur: <quote xml:id="gom-Isam22-Qd1e157" source="http://scta.info/resource/Ireg17_1@1-7">Et dixit Elias Thesbites de habitatoribus Galaad</quote>. Ex ore igitur <pb ed="#P" n="0560B"/> Domini Gad propheta dixit ad David, ut non moraretur inter gentes in terra polluta, sed in terram Judae redeat, ubi juxta voluntatem Domini persecutionem sustineat.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

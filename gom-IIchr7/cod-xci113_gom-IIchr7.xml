@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0676C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr7">
+        <head xml:id="gom-IIchr7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-IIchr7-Dd1e100">
+          <head xml:id="gom-IIchr7-Hd1e102">Versus 5</head>
+          <p xml:id="gom-IIchr7-d1e104">
+            <quote xml:id="gom-IIchr7-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr7_5@15-15">Dedicavit.</quote>
+            <ref xml:id="gom-IIchr7-Rd1e109"><name xml:id="gom-IIchr7-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr7-Qd1e113">Sanguine suo mundavit, et spirituali gratia sanctificavit Christus et diversis donis virtutum multiplicavit. Hancque dedicant filii Israel, quia quisque fidelis secundum donum sibi a Deo collatum verbo et exemplo proximos ad meliora et perfectiora convertit et provehit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr7-Dd1e117">
+          <head xml:id="gom-IIchr7-Hd1e119">Versus 7</head>
+          <p xml:id="gom-IIchr7-d1e121">
+            <quote xml:id="gom-IIchr7-Qd1e123" type="lemma" source="http://scta.info/resource/IIchr7_7@1-1">Sanctificavit.</quote>
+            Quia Christus ea quae in lege propter infirmitatem ejus perfici non poterant, in Ecclesia perficit. Ipsa est enim atrium domus <pb ed="#P" n="0676D"/> Domini, per quam ingressus patet in coelestem Jerusalem: quia ergo holocausta et sacrificia in altari Veteris Testamenti non potuerunt offerri; quia omnia figuraliter fiebant ibi, rex noster et sacerdos erexit novum altare fidei in Ecclesia, in quo quotidie offerunt pinguia holocausta et accepta Deo sacrificia. Unde <quote xml:id="gom-IIchr7-Qd1e128" source="http://scta.info/resource/ps49_23@1-7">Sacrificium laudis honorificabit me, et illic iter,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr7-Dd1e133">
+          <head xml:id="gom-IIchr7-Hd1e135">Versus 8</head>
+          <p xml:id="gom-IIchr7-d1e137">
+            <quote xml:id="gom-IIchr7-Qd1e139" type="lemma" source="http://scta.info/resource/IIchr7_8@1-2">Fecit ergo.</quote>
+            <ref xml:id="gom-IIchr7-Rd1e142"><name xml:id="gom-IIchr7-Nd1e143" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr7-Qd1e146"><seg type="qs">Non puto hoc aliud intelligendum</seg>, etc., usque ad <seg type="qs">in futura animarum requie, ipsius veritatis perceptione in re.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr7-Dd1e155">
+          <head xml:id="gom-IIchr7-Hd1e157">Versus 10</head>
+          <p xml:id="gom-IIchr7-d1e159">
+            <quote xml:id="gom-IIchr7-Qd1e161" type="lemma" source="http://scta.info/resource/IIchr7_10@1-3">Igitur in die,</quote>
+            etc. Hoc est post octavam scenophegiae solemnitatis diem: sicut in Regum continetur. Significat autem post illius vitae finem, et post <pb ed="#P" n="0677A"/> subbatismum animarum sanctarum, quo ante judicium quiescunt; in octava aetate, id est, resurrectionis die sanctos recepturos corpora immortalia, et in coelestibus mansionibus secundum meritorum qualitates locandos, ubi semper laetentur, laudantes Deum in omnibus bonis quae in Christo Pater contulit populo Christiano.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

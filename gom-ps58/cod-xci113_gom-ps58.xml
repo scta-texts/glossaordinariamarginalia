@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 58</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 58</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0929A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps58">
+        <head xml:id="gom-ps58-Hd1e98">Psalmus 58</head>
+        <div xml:id="gom-ps58-Dd1e100">
+          <head xml:id="gom-ps58-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps58-d1e104">
+            <quote xml:id="gom-ps58-Qd1e106" type="lemma" source="http://scta.info/resource/ps58_1@1-3">In finem ne.</quote>
+            <ref xml:id="gom-ps58-Rd1e109"><name xml:id="gom-ps58-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e113">Frustra tentat aliquis disperdere quod toties divina prohibet auctoritas.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e116">
+            <quote xml:id="gom-ps58-Qd1e118" type="lemma" source="http://scta.info/resource/ps58_1@3-4">Ne disperdas.</quote>
+            <ref xml:id="gom-ps58-Rd1e121"><name xml:id="gom-ps58-Nd1e122" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e125"><seg type="qs">Cum Pilatus dixit: <quote xml:id="gom-ps58-Qd1e128" source="http://scta.info/resource/io19_22@3-5">Quod scripsi, scripsi,</quote></seg> etc., usque ad <seg type="qs">et famam habere in omnibus gentibus.</seg></quote>
+          </p>
+          <p xml:id="gom-ps58-d1e135">
+            <ref xml:id="gom-ps58-Rd1e137" type="lemma" subtype="implied" target="http://scta.info/resource/ps58_1@3-4"/>
+            <ref xml:id="gom-ps58-Rd1e139"><name xml:id="gom-ps58-Nd1e140" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e143">Orat primo liberari ascendendo ab imis ad alta: orat etiam pro salute gentium.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e146">
+            <ref xml:id="gom-ps58-Rd1e148" type="lemma" subtype="implied" target="http://scta.info/resource/ps58_1@3-4"/>
+            <ref xml:id="gom-ps58-Rd1e150"><name xml:id="gom-ps58-Nd1e151" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e154">Loquitur hic integer Christus, scilicet caput et corpus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e158">
+          <head xml:id="gom-ps58-Hd1e160">Versus 2</head>
+          <p xml:id="gom-ps58-d1e162">
+            <quote xml:id="gom-ps58-Qd1e164" type="lemma" source="http://scta.info/resource/ps58_2@1-1">Eripe.</quote>
+            <ref xml:id="gom-ps58-Rd1e167"><name xml:id="gom-ps58-Nd1e168" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e171">Dum qui sine macula est, hoc petit, quid necessario petamus, ostendit.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e174">
+            <quote xml:id="gom-ps58-Qd1e176" type="lemma" source="http://scta.info/resource/ps58_2@3-4">De inimicis.</quote>
+            <ref xml:id="gom-ps58-Rd1e179"><name xml:id="gom-ps58-Nd1e180" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e183"><seg type="qs">Quatuor genera sunt adversariorum, <pb ed="#P" n="0929B"/></seg> etc., usque ad <seg type="qs">de his ergo ait: <quote xml:id="gom-ps58-Qd1e190" source="http://scta.info/resource/ps58_2@1-2">Eripe me,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e196">
+          <head xml:id="gom-ps58-Hd1e198">Versus 4</head>
+          <p xml:id="gom-ps58-d1e200">
+            <quote xml:id="gom-ps58-Qd1e202" type="lemma" source="http://scta.info/resource/ps58_4@10-10">Fortes.</quote>
+            <ref xml:id="gom-ps58-Rd1e205"><name xml:id="gom-ps58-Nd1e206" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e209"><seg type="qs">Etiam sunt, qui praesumunt de justitia sua</seg>, etc., usque ad <seg type="qs">sed <quote xml:id="gom-ps58-Qd1e215" source="http://scta.info/resource/ps51_9@11-20">sperantes in divitiis praevaluerunt in vanitate sua.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e220">
+          <head xml:id="gom-ps58-Hd1e222">Versus 5</head>
+          <p xml:id="gom-ps58-d1e224">
+            <quote xml:id="gom-ps58-Qd1e226" type="lemma" source="http://scta.info/resource/ps58_5@2-2">Iniquitas.</quote>
+            <ref xml:id="gom-ps58-Rd1e229"><name xml:id="gom-ps58-Nd1e230" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e233">Malivolentia: <quote xml:id="gom-ps58-Qd1e235" source="http://scta.info/resource/ps58_5@5-5">peccatum,</quote> operis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e242">
+          <head xml:id="gom-ps58-Hd1e244">Versus 6</head>
+          <p xml:id="gom-ps58-d1e246">
+            <quote xml:id="gom-ps58-Qd1e248" type="lemma" source="http://scta.info/resource/ps58_6@1-1">Exsurge.</quote>
+            <ref xml:id="gom-ps58-Rd1e251"><name xml:id="gom-ps58-Nd1e252" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e255">Quia dormire videris, <quote xml:id="gom-ps58-Qd1e257" source="http://scta.info/resource/ps58_6@2-3">In occursum.</quote> Quasi curro ad te merendo: Et tu, occurre mihi, id est, redde pro merito.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e262">
+            <quote xml:id="gom-ps58-Qd1e264" type="lemma" source="http://scta.info/resource/ps58_6@6-6">Vide.</quote>
+            <ref xml:id="gom-ps58-Rd1e267"><name xml:id="gom-ps58-Nd1e268" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e271"><seg type="qs">Id est, fac videri quomodo ad te curro</seg>, etc., usque ad <seg type="qs">postquam vidisti me mori, credis me patri aequalem.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e280">
+          <head xml:id="gom-ps58-Hd1e282">Versus 7</head>
+          <p xml:id="gom-ps58-d1e284">
+            <quote xml:id="gom-ps58-Qd1e286" type="lemma" source="http://scta.info/resource/ps58_7@1-1">Convertentur.</quote>
+            <ref xml:id="gom-ps58-Rd1e289"><name xml:id="gom-ps58-Nd1e290" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e293">Diapsalmus. Orata salus gentium affirmatur, et oraturo Judaeorum salus.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e296">
+            <quote xml:id="gom-ps58-Qd1e298" type="lemma" source="http://scta.info/resource/ps58_7@2-3">Ad vesperam,</quote>
+            <quote xml:id="gom-ps58-Qd1e301"><seg type="qs">id est, serius post ascensionem et missum <pb ed="#P" n="0929C"/> Spiritum</seg>, etc., usque ad <seg type="qs">jejuno bis in sabbato.</seg></quote>
+          </p>
+          <p xml:id="gom-ps58-d1e311">
+            <quote xml:id="gom-ps58-Qd1e313" type="lemma" source="http://scta.info/resource/ps58_7@11-11">Circumibunt.</quote>
+            <ref xml:id="gom-ps58-Rd1e316"><name xml:id="gom-ps58-Nd1e317" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e320">Munient Ecclesias contra haereticas impugnationes. Et, ecce in manifesto loquentur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e324">
+          <head xml:id="gom-ps58-Hd1e326">Versus 8</head>
+          <p xml:id="gom-ps58-d1e328">
+            <quote xml:id="gom-ps58-Qd1e330" type="lemma" source="http://scta.info/resource/ps58_8@6-7">Et gladius.</quote>
+            Ut mactent et manducent.
+          </p>
+          <p xml:id="gom-ps58-d1e334">
+            <quote xml:id="gom-ps58-Qd1e336" type="lemma" source="http://scta.info/resource/ps58_8@12-14">Quoniam quis audivit?</quote>
+            <quote xml:id="gom-ps58-Qd1e339"><seg type="qs">Quasi nullus, ita omnes mirabuntur</seg>, etc., usque ad <seg type="qs">ad nihilum deduces vel convertes.</seg></quote>
+          </p>
+          <p xml:id="gom-ps58-d1e347">
+            <quote xml:id="gom-ps58-Qd1e349" type="lemma" source="http://scta.info/resource/ps58_8@7-7">Gladius.</quote>
+            <ref xml:id="gom-ps58-Rd1e352"><name xml:id="gom-ps58-Nd1e353" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e356">Hic est gladius bis acutus utroque incidens Testamento, quo mactat Petrus reptilia sibi in disco ostensa, quando dictum est ei: <quote xml:id="gom-ps58-Qd1e358" source="http://scta.info/resource/act10_13@7-12">Surge, Petre, macta et manduca.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e363">
+          <head xml:id="gom-ps58-Hd1e365">Versus 9</head>
+          <p xml:id="gom-ps58-d1e367">
+            <quote xml:id="gom-ps58-Qd1e369" type="lemma" source="http://scta.info/resource/ps58_9@4-8">Deridebis eos ad nihilum.</quote>
+            <ref xml:id="gom-ps58-Rd1e372"><name xml:id="gom-ps58-Nd1e373" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e376">Eos dicentes, <quote xml:id="gom-ps58-Qd1e378" source="http://scta.info/resource/ps58_8@13-14">Quis audivit?</quote> quare? Quia pro nihilo habebit convertere omnes gentes, quia omnes gentes Christianae futurae sunt; et dicitis, quis audivit?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e384">
+          <head xml:id="gom-ps58-Hd1e386">Versus 10</head>
+          <p xml:id="gom-ps58-d1e388">
+            <pb ed="#P" n="0929D"/>
+            <quote xml:id="gom-ps58-Qd1e392" type="lemma" source="http://scta.info/resource/ps58_10@1-10">Fortitudinem meam ad te custodiam, quia Deus susceptor meus es, Deus.</quote>
+            <ref xml:id="gom-ps58-Rd1e395"><name xml:id="gom-ps58-Nd1e396" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e399">Etsi possem perdere Judaeos, qui irruerunt in me fortes; permitto tamen eos vivere, servans fortitudinem ad te, id est, ad tuam dispositionem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e403">
+          <head xml:id="gom-ps58-Hd1e405">Versus 12</head>
+          <p xml:id="gom-ps58-d1e407">
+            <quote xml:id="gom-ps58-Qd1e409" type="lemma" source="http://scta.info/resource/ps58_12@2-2">Ostendit.</quote>
+            <ref xml:id="gom-ps58-Rd1e412"><name xml:id="gom-ps58-Nd1e413" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e416">id est, quantam circa me habeat misericordiam demonstravit mihi in illis, circa quos non habet; unde Apostolus: <quote xml:id="gom-ps58-Qd1e418" source="http://scta.info/resource/rom9">Sustinuit vasa irae apta, et ad interitum, in multa patientia, ut notas faceret divitias suas in vasa misericordiae<!-- check: cited chapter given; verse not identified --></quote>.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e424">
+            <quote xml:id="gom-ps58-Qd1e426" type="lemma" source="http://scta.info/resource/ps58_12@8-9">Ne occidas.</quote>
+            <quote xml:id="gom-ps58-Qd1e429"><seg type="qs">Potest de Judaeis accipi</seg>, etc., usque ad <seg type="qs">ostenditur quae misericordia sit <quote xml:id="gom-ps58-Qd1e435">insertis.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps58-d1e438">
+            <ref xml:id="gom-ps58-Rd1e440" type="lemma" subtype="implied" target="http://scta.info/resource/ps58_12@8-9"/>
+            <ref xml:id="gom-ps58-Rd1e442"><name xml:id="gom-ps58-Nd1e443" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e446">Consideranti quid de eis sit agendum, si non sint testes legis et mortis Christi.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e449">
+            <quote xml:id="gom-ps58-Qd1e451" type="lemma" source="http://scta.info/resource/ps58_12@8-12">Ne quando obliviscantur.</quote>
+            <pb ed="#P" n="0930A"/> <ref xml:id="gom-ps58-Rd1e456"><name xml:id="gom-ps58-Nd1e457" ref="#Augustine">AUG.</name></ref><!-- check: attribution inside gloss body --> Etsi non modo obliti sunt, cum non sint testes legis et mortis Christi.
+          </p>
+          <p xml:id="gom-ps58-d1e463">
+            <quote xml:id="gom-ps58-Qd1e465" type="lemma" source="http://scta.info/resource/ps58_12@17-19">In virtute tua.</quote>
+            Quia tu fortis, non ipsi.
+          </p>
+          <p xml:id="gom-ps58-d1e469">
+            <quote xml:id="gom-ps58-Qd1e471" type="lemma" source="http://scta.info/resource/ps58_12@21-21">Depone,</quote>
+            ibi fuit opprobrium omnibus. Vel, depone eos in eo quod mali sunt, ut boni surgant: ut in Paulo, quia non surgeret Paulus, nisi prius caderet Saulus <!--<note>(Act. IX)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e479">
+          <head xml:id="gom-ps58-Hd1e481">Versus 13</head>
+          <p xml:id="gom-ps58-d1e483">
+            <quote xml:id="gom-ps58-Qd1e485" type="lemma" source="http://scta.info/resource/ps58_13@1-3">Delictum oris eorum.</quote>
+            <ref xml:id="gom-ps58-Rd1e488"><name xml:id="gom-ps58-Nd1e489" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e492">Non eos, sed <quote xml:id="gom-ps58-Qd1e494" source="http://scta.info/resource/ps58_13@1-1">delictum</quote> occide, ut, resuscitatum quem perdere voluerunt, paveant.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e499">
+            <ref xml:id="gom-ps58-Rd1e501"><name xml:id="gom-ps58-Nd1e502" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e505" type="lemma" source="http://scta.info/resource/ps58_13@8-9">Et comprehendantur</quote>
+            <quote xml:id="gom-ps58-Qd1e508"><seg type="qs">conversi; quia factum eorum</seg>, etc., usque ad <seg type="qs">facinus vero delevit venia.</seg></quote>
+          </p>
+          <p xml:id="gom-ps58-d1e516">
+            <quote xml:id="gom-ps58-Qd1e518" type="lemma" source="http://scta.info/resource/ps58_13@10-11">In superbia.</quote>
+            <ref xml:id="gom-ps58-Rd1e521"><name xml:id="gom-ps58-Nd1e522" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e525">Superbia comes est invidiae: nec fieri potest ut superbus non invideat: unde et diabolus invidet homini.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e528">
+            <quote xml:id="gom-ps58-Qd1e530" type="lemma" source="http://scta.info/resource/ps58_13@13-15">Et de exsecratione.</quote>
+            <quote xml:id="gom-ps58-Qd1e533"><seg type="qs">Vel maledicto, quod putastis maledictum</seg>, etc., usque ad <seg type="qs">quia in his deprehensi sunt. <pb ed="#P" n="0930B"/></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e543">
+          <head xml:id="gom-ps58-Hd1e545">Versus 14</head>
+          <p xml:id="gom-ps58-d1e547">
+            <quote xml:id="gom-ps58-Qd1e549" type="lemma" source="http://scta.info/resource/ps58_14@1-2">Annuntiabuntur in consummatione.</quote>
+            Vel, annuntiabuntur consummationes, id est, praedicabitur ab Apostolis: Ubi abundavit delictum exercitationis et mendacii, superabundavit gratia perfectionis; et pertinuit ad medicinam humilitatis et infirmitatis hominis.
+          </p>
+          <p xml:id="gom-ps58-d1e553">
+            <quote xml:id="gom-ps58-Qd1e555" type="lemma" source="http://scta.info/resource/ps58_14@4-6">In ira consummationis.</quote>
+            Est enim ira, id est, vindicta Dei <quote xml:id="gom-ps58-Qd1e558" source="http://scta.info/resource/ps58_14@2-2">consummationis,</quote> quia aliquando vindicat Deus, ut perficiat; est et <quote xml:id="gom-ps58-Qd1e561" source="http://scta.info/resource/ps58_14@2-2">consumptionis</quote> ut cum dicet: <quote xml:id="gom-ps58-Qd1e564" source="http://scta.info/resource/mt25_41@12-18">Ite, maledicti, in ignem aeternum. Et scient.</quote> Antea enim justi sibi videbantur Judaei: sed ostenditur eis, quod non sine Christo, qui dominatur Jacob: et deposita superbia, sciunt se pares gentibus, quia omnes peccaverunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e569">
+          <head xml:id="gom-ps58-Hd1e571">Versus 15</head>
+          <p xml:id="gom-ps58-d1e573">
+            <quote xml:id="gom-ps58-Qd1e575" type="lemma" source="http://scta.info/resource/ps58_15@1-3">Convertentur ad vesperam.</quote>
+            <ref xml:id="gom-ps58-Rd1e578"><name xml:id="gom-ps58-Nd1e579" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e582">Diapsalmus. Affirmatur salus Judaeorum, et utroque <pb ed="#P" n="0930C"/> pariete collecto grates aguntur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e589">
+          <head xml:id="gom-ps58-Hd1e591">Versus 16</head>
+          <p xml:id="gom-ps58-d1e593">
+            <quote xml:id="gom-ps58-Qd1e595" type="lemma" source="http://scta.info/resource/ps58_16@12-12">Murmurabunt.</quote>
+            <ref xml:id="gom-ps58-Rd1e598"><name xml:id="gom-ps58-Nd1e599" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e602">Vel, <quote xml:id="gom-ps58-Qd1e604" source="http://scta.info/resource/ps58_16@12-12">murmurabunt,</quote> id est, dolebunt, quod etiam nunc tantum dispergentur; vel, <quote xml:id="gom-ps58-Qd1e607" source="http://scta.info/resource/ps58_16@12-12">murmurabunt</quote> contra pigros, id est, increpabunt alios nolentes credere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps58-Dd1e613">
+          <head xml:id="gom-ps58-Hd1e615">Versus 17</head>
+          <p xml:id="gom-ps58-d1e617">
+            <quote xml:id="gom-ps58-Qd1e619" type="lemma" source="http://scta.info/resource/ps58_17@1-2">Ego autem.</quote>
+            <ref xml:id="gom-ps58-Rd1e622"><name xml:id="gom-ps58-Nd1e623" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps58-Qd1e626">Concluditur hic psalmus, ubi utroque pariete in angulari lapide conjuncto jam tota Ecclesia gaudet.</quote>
+          </p>
+          <p xml:id="gom-ps58-d1e629">
+            <quote xml:id="gom-ps58-Qd1e631" type="lemma" source="http://scta.info/resource/ps58_17@6-7">Et exaltabo.</quote>
+            Transactis temporibus cum nox saeculi transierit, ut et Christus mane surrexit: unde <quote xml:id="gom-ps58-Qd1e634" source="http://scta.info/resource/ps29_6@12-19">Ad vesperum demorabitur fletus, et ad matutinum laetitia.</quote> Apostoli, vespere fleverunt mortuum, mane ad resurgentem exsultaverunt.
+          </p>
+          <p xml:id="gom-ps58-d1e638">
+            <quote xml:id="gom-ps58-Qd1e640" type="lemma" source="http://scta.info/resource/ps58_17@9-9">Misericordiam.</quote>
+            Quia totum gratis das: cum multa dixerit, non tamen omnia, in hoc uno omnia comprehendit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

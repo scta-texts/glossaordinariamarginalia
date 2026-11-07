@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proverbia, Caput 26</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proverbia, Caput 26</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1109C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-prov26">
+        <head xml:id="gom-prov26-Hd1e98">Caput 26</head>
+        <div xml:id="gom-prov26-Dd1e100">
+          <head xml:id="gom-prov26-Hd1e102">Versus 1</head>
+          <p xml:id="gom-prov26-d1e104">
+            <pb ed="#P" n="1109C"/>
+            <quote xml:id="gom-prov26-Qd1e108" type="lemma" source="http://scta.info/resource/prov26_1@1-3">Quomodo nix in aestate.</quote>
+            <quote xml:id="gom-prov26-Qd1e111"><seg type="qs">Nix in aestate et pluviae in messe</seg>, etc., usque ad <seg type="qs">quod Arianae tempestatis calamitas probavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e120">
+          <head xml:id="gom-prov26-Hd1e122">Versus 2</head>
+          <p xml:id="gom-prov26-d1e124">
+            <quote xml:id="gom-prov26-Qd1e126" type="lemma" source="http://scta.info/resource/prov26_2@1-2">Nam sicut avis.</quote>
+            <quote xml:id="gom-prov26-Qd1e129"><seg type="qs">Verba comparat avibus</seg>, etc., usque ad <seg type="qs">de quibus: <quote xml:id="gom-prov26-Qd1e135" source="http://scta.info/resource/mt16_19@8-15">Quodcunque ligaveris super terram erit ligatum et in coelis</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e141">
+          <head xml:id="gom-prov26-Hd1e143">Versus 4</head>
+          <p xml:id="gom-prov26-d1e145">
+            <quote xml:id="gom-prov26-Qd1e147" type="lemma" source="http://scta.info/resource/prov26_4@2-5">Non respondeas . . . Responde stulto juxta stultitiam.</quote>
+            Non sunt contraria; utrumque enim pro tempore et personarum diversitate concordat; dum et stultus contemnit, quia non recipit sapientiam: et stulta superbia a sua dejicitur stultitia, unde: <quote xml:id="gom-prov26-Qd1e150" source="http://scta.info/resource/IIcor12_11@1-6">Factus sum insipiens, vos me coegistis</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e155">
+          <head xml:id="gom-prov26-Hd1e157">Versus 6</head>
+          <p xml:id="gom-prov26-d1e159">
+            <quote xml:id="gom-prov26-Qd1e161" type="lemma" source="http://scta.info/resource/prov26_6@1-2">Claudus pedibus.</quote>
+            Potest sapiens stultum mittere nesciens, nec tamen sapientiae suae gloriam <pb ed="#P" n="1109D"/> perdit: quia de ignoto, bonum quod audierat, credit. Sed et qui haereticum sciens mittit ad praedicandum, claudus est pedibus: <quote xml:id="gom-prov26-Qd1e166" source="http://scta.info/resource/prov26_6@3-5">Et iniquitatem bibens;</quote> quia et operis boni foris incessum amisit, et interiora sui sensus haustu stultitiae debriat.
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e172">
+          <head xml:id="gom-prov26-Hd1e174">Versus 9</head>
+          <p xml:id="gom-prov26-d1e176">
+            <quote xml:id="gom-prov26-Qd1e178" type="lemma" source="http://scta.info/resource/prov26_9@1-4">Quomodo si spina nascatur.</quote>
+            <quote xml:id="gom-prov26-Qd1e181"><seg type="qs">Spina nascitur in manu temulenti</seg>, etc., usque ad <seg type="qs">aut vituperationem quaerit aliorum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e190">
+          <head xml:id="gom-prov26-Hd1e192">Versus 11</head>
+          <p xml:id="gom-prov26-d1e194">
+            <quote xml:id="gom-prov26-Qd1e196" type="lemma" source="http://scta.info/resource/prov26_11@1-2">Sicut canis.</quote>
+            <quote xml:id="gom-prov26-Qd1e199"><seg type="qs">Canis vomens cibum quo pectus ejus premebatur, abjicit</seg>, etc., usque ad <seg type="qs">quam post confessionem, dum appetunt, resumunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e208">
+          <head xml:id="gom-prov26-Hd1e210">Versus 12</head>
+          <p xml:id="gom-prov26-d1e212">
+            <quote xml:id="gom-prov26-Qd1e214" type="lemma" source="http://scta.info/resource/prov26_12@1-2">Vidisti hominem.</quote>
+            In judicium ergo in hunc mundum veni <!--<note>(Joan. IX)</note>-->, ut qui non vident videant, et qui vident, caeci fiant <!--<note>(Eccl. X)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e223">
+          <head xml:id="gom-prov26-Hd1e225">Versus 13</head>
+          <p xml:id="gom-prov26-d1e227">
+            <pb ed="#P" n="1110A"/>
+            <quote xml:id="gom-prov26-Qd1e231" type="lemma" source="http://scta.info/resource/prov26_13@1-2">Dicit piger.</quote>
+            <quote xml:id="gom-prov26-Qd1e234"><seg type="qs">Multi cum verba exhortationis audiunt</seg>, etc., usque ad <seg type="qs">in suis jacere pravitatibus non desistunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e243">
+          <head xml:id="gom-prov26-Hd1e245">Versus 16</head>
+          <p xml:id="gom-prov26-d1e247">
+            <quote xml:id="gom-prov26-Qd1e249" type="lemma" source="http://scta.info/resource/prov26_16@1-1">Sapientior,</quote>
+            etc. <quote xml:id="gom-prov26-Qd1e252"><seg type="qs">Septem viri loquentes sententias</seg>, etc., usque ad <seg type="qs">et multos perfecisse monstraverunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov26-Dd1e261">
+          <head xml:id="gom-prov26-Hd1e263">Versus 17</head>
+          <p xml:id="gom-prov26-d1e265">
+            <quote xml:id="gom-prov26-Qd1e267" type="lemma" source="http://scta.info/resource/prov26_17@1-3">Sicut qui apprehendit.</quote>
+            Noli verbis contendere, ad nihilum utile est nisi ad subversionem audientium. Quicunque simplex sensu est et duobus inter se jurgantibus, mordaci sermone capta ejus aure, cito incipit quasi canis latrare et contentiones generare, sed sapiens omnino vitat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

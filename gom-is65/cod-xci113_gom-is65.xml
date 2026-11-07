@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 65</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 65</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1309B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is65">
+        <head xml:id="gom-is65-Hd1e98">Caput 65</head>
+        <div xml:id="gom-is65-Dd1e100">
+          <head xml:id="gom-is65-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is65-d1e104">
+            <quote xml:id="gom-is65-Qd1e106" type="lemma" source="http://scta.info/resource/is65_1@1-1">Quaesierunt,</quote>
+            etc.
+            <ref xml:id="gom-is65-Rd1e109"><name xml:id="gom-is65-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is65-Qd1e113"><seg type="qs">Ad hoc respondet <pb ed="#P" n="1309C"/> filius</seg>, etc., usque ad <seg type="qs">et <quote xml:id="gom-is65-Qd1e121" source="http://scta.info/resource/ps17_46@1-5">Filii alieni mentiti sunt mihi</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e127">
+          <head xml:id="gom-is65-Hd1e129">Versus 2</head>
+          <p xml:id="gom-is65-d1e131">
+            <quote xml:id="gom-is65-Qd1e133" type="lemma" source="http://scta.info/resource/is65_2@1-3">Expandi manus meas.</quote>
+            <ref xml:id="gom-is65-Rd1e136"><name xml:id="gom-is65-Nd1e137" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is65-Qd1e140"><seg type="qs">In cruce orans pro eis</seg>, etc., usque ad <seg type="qs">ipsi tamen semper exstiterunt increduli.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e149">
+          <head xml:id="gom-is65-Hd1e151">Versus 3</head>
+          <p xml:id="gom-is65-d1e153">
+            <quote xml:id="gom-is65-Qd1e155" type="lemma" source="http://scta.info/resource/is65_3@1-4">Populus qui ad iracundiam.</quote>
+            <ref xml:id="gom-is65-Rd1e158"><name xml:id="gom-is65-Nd1e159" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is65-Qd1e162"><seg type="qs">Allegorice. Omnis haereticus Deum ad iracundiam procat</seg>, etc., usque ad <seg type="qs">et in quadrum exstruere, et secti in latere pulveris roborare lineis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e171">
+          <head xml:id="gom-is65-Hd1e173">Versus 4</head>
+          <p xml:id="gom-is65-d1e175">
+            <quote xml:id="gom-is65-Qd1e177" type="lemma" source="http://scta.info/resource/is65_4@6-7">In delubris.</quote>
+            Delubra a delendo dicta, eo quod ibi putabatur ablui anima. Vel, quia prope erant piscinae ubi et sacerdos lavabatur et hostia. Allegorice.
+          </p>
+          <p xml:id="gom-is65-d1e181">
+            <ref xml:id="gom-is65-Rd1e183" type="lemma" subtype="implied" target="http://scta.info/resource/is65_4@6-7"/>
+            <ref xml:id="gom-is65-Rd1e185"><name xml:id="gom-is65-Nd1e186" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is65-Qd1e189"><seg type="qs">Haeretici in memoriis magistrorum</seg>, etc., usque ad <seg type="qs">ut qui ipsis non fuerit similis, quasi perditum detestetur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e199">
+          <head xml:id="gom-is65-Hd1e201">Versus 5</head>
+          <p xml:id="gom-is65-d1e203">
+            <quote xml:id="gom-is65-Qd1e205" type="lemma" source="http://scta.info/resource/is65_5@15-17">In furore meo.</quote>
+            Furorem, oblivionem, iram, poenitudinem, ita in Deo accipere debemus, quomodo manus, pedes, oculos, aures, et caetera membra quae habere dicitur: non quod his pareat perturbationibus qui eas exstinguit in nobis, sed per verba nostra; Dei intelligimus affectum erga nos.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e210">
+          <head xml:id="gom-is65-Hd1e212">Versus 6</head>
+          <p xml:id="gom-is65-d1e214">
+            <quote xml:id="gom-is65-Qd1e216" type="lemma" source="http://scta.info/resource/is65_6@6-7">Non tacebo.</quote>
+            Qui superius dixit: <quote xml:id="gom-is65-Qd1e219" source="http://scta.info/resource/is42_14@1-5">Tacui, semper silui, patiens fui,</quote> modo dicit: <quote xml:id="gom-is65-Qd1e222" source="http://scta.info/resource/is65_6@6-7">Non tacebo,</quote> id est, ne paream amplius, neque sustinebo iniquitates eorum.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e227">
+          <head xml:id="gom-is65-Hd1e229">Versus 7</head>
+          <p xml:id="gom-is65-d1e231">
+            <quote xml:id="gom-is65-Qd1e233" type="lemma" source="http://scta.info/resource/is65_7@4-5">Iniquitates patrum,</quote>
+            etc. Ut scilicet non solum pro peccatis vestris puniamini, sed etiam pro patrum iniquitatibus quos imitati estis. Aliter enim non portat filius iniquitatem patris.
+          </p>
+          <p xml:id="gom-is65-d1e237">
+            <quote xml:id="gom-is65-Qd1e239" type="lemma" source="http://scta.info/resource/is65_7@10-13">Qui sacrificaverunt <pb ed="#P" n="1310A"/> super montes.</quote>
+            Quando in Bethel et in Dan aureos vitulos adoraverunt. Haereticus quoque contemnens simplicitatem Ecclesiae sacrificat in montibus, et exprobrat Deo dum ejus praecepta contemnit.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e246">
+          <head xml:id="gom-is65-Hd1e248">Versus 8</head>
+          <p xml:id="gom-is65-d1e250">
+            <quote xml:id="gom-is65-Qd1e252" type="lemma" source="http://scta.info/resource/is65_8@4-4">Quomodo.</quote>
+            <ref xml:id="gom-is65-Rd1e255"><name xml:id="gom-is65-Nd1e256" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is65-Qd1e259">Quasi dicat: Propter malos non perdam bonos: <quote xml:id="gom-is65-Qd1e261">Sed quomodo,</quote> etc. Dixerat enim periturum Israel.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e266">
+          <head xml:id="gom-is65-Hd1e268">Versus 9</head>
+          <p xml:id="gom-is65-d1e270">
+            <quote xml:id="gom-is65-Qd1e272" type="lemma" source="http://scta.info/resource/is65_9@3-5">De Jacob semen.</quote>
+            Semen Jacob et Judae, apostoli, possidentes montes, alios, scilicet credentes virtutibus eminentes: unde, <quote xml:id="gom-is65-Qd1e275" source="http://scta.info/resource/rom9_29@5-14">Nisi Dominus Sabaoth reliquisset nobis semen, quasi Sodoma facti essemus</quote>.
+          </p>
+          <p xml:id="gom-is65-d1e279">
+            <quote xml:id="gom-is65-Qd1e281" type="lemma" source="http://scta.info/resource/is65_9@10-11">Montes sanctos meos.</quote>
+            Septuaginta: <quote xml:id="gom-is65-Qd1e284" source="http://scta.info/resource/is65_11@9-11">Montem meum,</quote> scilicet Christum, qui est mons montium. Montes enim sunt apostoli, qui de Judaeis possederunt Christum, in quo fundati sunt.
+          </p>
+          <p xml:id="gom-is65-d1e288">
+            <quote xml:id="gom-is65-Qd1e290" type="lemma" source="http://scta.info/resource/is65_9@12-13">Et haereditabunt.</quote>
+            <pb ed="#P" n="1310B"/> <ref xml:id="gom-is65-Rd1e295"><name xml:id="gom-is65-Nd1e296" ref="#Jerome">HIER.</name></ref><!-- check: attribution inside gloss body --> Unde: <quote xml:id="gom-is65-Qd1e300" source="http://scta.info/resource/ps104_6@1-9">Semen Abrahae servi ejus: filii Jacob, electi ejus.</quote> Quicunque adhuc semen sunt, etc., <quote xml:id="gom-is65-Qd1e303" source="http://scta.info/resource/rom8_15@1-13">usque ad non accepistis spiritum servitutis iterum in timore, sed accepistis spiritum adoptionis filiorum Dei<!-- check: Migne cites rom9; text matches rom8_15 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e309">
+          <head xml:id="gom-is65-Hd1e311">Versus 10</head>
+          <p xml:id="gom-is65-d1e313">
+            <quote xml:id="gom-is65-Qd1e315" type="lemma" source="http://scta.info/resource/is65_10@3-3">Campestria.</quote>
+            <ref xml:id="gom-is65-Rd1e318"><name xml:id="gom-is65-Nd1e319" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is65-Qd1e322">Alii saltus, unde: <quote xml:id="gom-is65-Qd1e324" source="http://scta.info/resource/ps18">Dominus revelabit condensa silvarum<!-- check: cited chapter given; verse not identified --></quote>, ut latrones ibi latitare desistant, et bestiae venenataque animalia in Ecclesiam Dei transeant.</quote>
+          </p>
+          <p xml:id="gom-is65-d1e330">
+            <quote xml:id="gom-is65-Qd1e332" type="lemma" source="http://scta.info/resource/is65_10@4-6">In caulas gregum.</quote>
+            Alia translatio habet Saronas, quae est regio inter Joppem, et Lyddam atque Jamniam fecunda et pabulosa, sed latronibus infesta: unde interpretatur <quote xml:id="gom-is65-Qd1e335">vallis effundens sanguinem. Et vallis Achor.</quote> Ubi Achor filius Charmi de spoliis Jericho furatus cum omni domo periit. Et quia populum turbavit et ibi <pb ed="#P" n="1310C"/> periit, vocatur locus vallis Achor, id est, turbationis vel tumultus. In quo significatur Gentilitas, sicut et per Saronas, quae interpretatur <mentioned>vallis fundens sanguinem</mentioned>, quae effusione sanguinis plena in tumultu et in turbatione vitiorum manebat. Sed vallis Achor versa est in caulas gregum sive ovilia, et in cubile armentorum, id est, ecclesias, et requiem praedicatorum et aliorum fidelium, qui designantur per armenta et greges ovium.
+          </p>
+          <p xml:id="gom-is65-d1e342">
+            <quote xml:id="gom-is65-Qd1e344" type="lemma" source="http://scta.info/resource/is65_10@12-12">Armentorum.</quote>
+            Praedicatorum, qui Ecclesiam armant et defendunt. Armentum enim dicitur ab armando.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e350">
+          <head xml:id="gom-is65-Hd1e352">Versus 11</head>
+          <p xml:id="gom-is65-d1e354">
+            <quote xml:id="gom-is65-Qd1e356" type="lemma" source="http://scta.info/resource/is65_11@1-4">Et vos qui dereliquistis,</quote>
+            etc. Allegorice. Omnes qui Ecclesiam deserunt, et obliviscuntur montem sanctum Dei, tradentes se spiritibus erroris, vel immundis doctrinis daemoniorum, parant <pb ed="#P" n="1310D"/> fortunae mensam, et nihil ad Deum pertinere credentes, sed vel stellarum cursu vel varietate fortunae omnia gubernari, hi tradentur aeternis suppliciis, ut nullus eorum possit evadere.
+          </p>
+          <p xml:id="gom-is65-d1e362">
+            <quote xml:id="gom-is65-Qd1e364" type="lemma" source="http://scta.info/resource/is65_11@14-15">Fortunae mensam.</quote>
+            <ref xml:id="gom-is65-Rd1e367"><name xml:id="gom-is65-Nd1e368" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is65-Qd1e371">Deae Aegyptiorum cui in fine anni parabant mensam, omnibus escis refertam, et poculis mulsa mixtis: vel quasi felicem annum praebuerit, vel quia futurum felicem praebitura sit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e375">
+          <head xml:id="gom-is65-Hd1e377">Versus 12</head>
+          <p xml:id="gom-is65-d1e379">
+            <quote xml:id="gom-is65-Qd1e381" type="lemma" source="http://scta.info/resource/is65_12@13-13">Vocavi.</quote>
+            Per prophetas dicens: <quote xml:id="gom-is65-Qd1e384" source="http://scta.info/resource/is45_22@1-6">Convertimini ad me et salvi eritis</quote>. Et per memetipsum: <quote xml:id="gom-is65-Qd1e387" source="http://scta.info/resource/mt3_2@3-4">Poenitentiam agite</quote>. Et alibi: <quote xml:id="gom-is65-Qd1e390" source="http://scta.info/resource/mt11_28@1-9">Venite ad me, omnes qui laboratis et onerati estis</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e395">
+          <head xml:id="gom-is65-Hd1e397">Versus 13</head>
+          <p xml:id="gom-is65-d1e399">
+            <quote xml:id="gom-is65-Qd1e401" type="lemma" source="http://scta.info/resource/is65_13@7-9">Ecce servi mei.</quote>
+            <ref xml:id="gom-is65-Rd1e404"><name xml:id="gom-is65-Nd1e405" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is65-Qd1e408"><seg type="qs">Quasi dicat: <pb ed="#P" n="1311A"/> Non solum corruetis gladio</seg>, etc., usque ad <seg type="qs">et, <quote xml:id="gom-is65-Qd1e416" source="http://scta.info/resource/ps16_15@9-13">Satiabor cum apparuerit gloria tua.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e421">
+          <head xml:id="gom-is65-Hd1e423">Versus 15</head>
+          <p xml:id="gom-is65-d1e425">
+            <quote xml:id="gom-is65-Qd1e427" type="lemma" source="http://scta.info/resource/is65_15@1-4">Et dimittetis nomen vestrum.</quote>
+            Ut aliqui affirmantes dicant: Si aliter fecero, contingat mihi sicut Judaeis Romanorum gladio occisis. Vel ita: Juro per Deum, in quem olim Judaei crediderunt. Vel, quia Deus juramentum eorum erat, quod Christiani modo jurant necessitate compulsi, <quote xml:id="gom-is65-Qd1e430">Vivit Dominus</quote> scilicet.
+          </p>
+          <p xml:id="gom-is65-d1e433">
+            <quote xml:id="gom-is65-Qd1e435" type="lemma" source="http://scta.info/resource/is65_15@9-11">Et interficiet te.</quote>
+            Ut vel hunc non habeatis, qui dicit, <quote xml:id="gom-is65-Qd1e438" source="http://scta.info/resource/io14_6@4-10">Ego sum via, veritas et vita</quote> Nec vocemini circumcisio, sed conscisio.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e443">
+          <head xml:id="gom-is65-Hd1e445">Versus 16</head>
+          <p xml:id="gom-is65-d1e447">
+            <quote xml:id="gom-is65-Qd1e449" type="lemma" source="http://scta.info/resource/is65_16@21-22">Quia oblivioni.</quote>
+            <ref xml:id="gom-is65-Rd1e452"><name xml:id="gom-is65-Nd1e453" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is65-Qd1e456"><seg type="qs">Ut non idolorum meminerint</seg>, etc., usque ad <seg type="qs">Forsitan et in futuro pristinae conversationis memoria omnino delebitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e465">
+          <head xml:id="gom-is65-Hd1e467">Versus 18</head>
+          <p xml:id="gom-is65-d1e469">
+            <pb ed="#P" n="1311B"/>
+            <quote xml:id="gom-is65-Qd1e473" type="lemma" source="http://scta.info/resource/is65_18@13-14">Quia ecce.</quote>
+            Ex angelis scilicet et hominibus unam Ecclesiam, et exsultabunt et gaudebunt, ut ego qui creavi exsultem, et gaudeam in eis.
+          </p>
+          <p xml:id="gom-is65-d1e477">
+            <quote xml:id="gom-is65-Qd1e479" type="lemma" source="http://scta.info/resource/is65_18@18-18">Exsultationem.</quote>
+            Universae terrae, ut quae vetus unigeniti erat gaudium, nova cunctis nationibus laetitia sit.
+          </p>
+          <p xml:id="gom-is65-d1e483">
+            <quote xml:id="gom-is65-Qd1e485" type="lemma" source="http://scta.info/resource/is65_18@22-22">Gaudium.</quote>
+            Quod vel post resurrectionem possumus intelligere, vel post baptismum in prima resurrectione. Hoc ad generalem resurrectionem qua omnes in perfecta aetate resurgent. Et hoc est: <quote xml:id="gom-is65-Qd1e488" source="http://scta.info/resource/is65_20@1-2">Non erit,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e494">
+          <head xml:id="gom-is65-Hd1e496">Versus 20</head>
+          <p xml:id="gom-is65-d1e498">
+            <quote xml:id="gom-is65-Qd1e500" type="lemma" source="http://scta.info/resource/is65_20@15-17">Puer centum annorum,</quote>
+            etc. Ille scilicet, qui etsi diu, tamen pueriliter vixit, serviens vitiis: et hoc exponit sic Gregorius.
+          </p>
+          <p xml:id="gom-is65-d1e504">
+            <quote xml:id="gom-is65-Qd1e506" type="lemma" source="http://scta.info/resource/is65_20@15-22">Puer centum annorum. Et peccator centum annorum.</quote>
+            Vita quidem pueri longum trahitur, ut a factis puerilibus corrigatur: sed si a peccati perpetratione, nec temporis <pb ed="#P" n="1311C"/> longinquitate compescitur, haec ipsa vitae longinquitas, quam per misericordiam Dei accepit ei ad cumulum maledictionis crescit.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e513">
+          <head xml:id="gom-is65-Hd1e515">Versus 21</head>
+          <p xml:id="gom-is65-d1e517">
+            <quote xml:id="gom-is65-Qd1e519" type="lemma" source="http://scta.info/resource/is65_21@3-3">Domos.</quote>
+            <ref xml:id="gom-is65-Rd1e522"><name xml:id="gom-is65-Nd1e523" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is65-Qd1e526"><seg type="qs">Virtutes pro quibus in coelestibus requiescent</seg>, etc., usque ad <seg type="qs">Multi enim sancti aedificant domos, sed non habitant in eis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e535">
+          <head xml:id="gom-is65-Hd1e537">Versus 22</head>
+          <p xml:id="gom-is65-d1e539">
+            <quote xml:id="gom-is65-Qd1e541" type="lemma" source="http://scta.info/resource/is65_22@11-13">Secundum enim.</quote>
+            <ref xml:id="gom-is65-Rd1e544"><name xml:id="gom-is65-Nd1e545" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is65-Qd1e548">Sicut Christus etc., <quote xml:id="gom-is65-Qd1e550" source="http://scta.info/resource/prov3_18@1-7">usque ad Lignum vitae est his qui apprehenderunt eam,</quote> scilicet, sapientiam, quae est Christus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e556">
+          <head xml:id="gom-is65-Hd1e558">Versus 23</head>
+          <p xml:id="gom-is65-d1e560">
+            <quote xml:id="gom-is65-Qd1e562" type="lemma" source="http://scta.info/resource/is65_23@11-12">Semen benedictorum.</quote>
+            Apostoli, et alii doctores in praedicatione, vel in aliis operibus, sicut Judaei, quia aeternam mercedem percipient, <quote xml:id="gom-is65-Qd1e565" source="http://scta.info/resource/ps125_6@10-15">quia venient cum exsultatione portantes manipulos suos</quote>.
+          </p>
+          <p xml:id="gom-is65-d1e569">
+            <quote xml:id="gom-is65-Qd1e571" type="lemma" source="http://scta.info/resource/is65_23@16-16">Nepotes.</quote>
+            Quos filii eorum in fide genuerunt, <pb ed="#P" n="1311D"/> sicut Marcus Petri discipulus, et Lucas Pauli filius.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e578">
+          <head xml:id="gom-is65-Hd1e580">Versus 24</head>
+          <p xml:id="gom-is65-d1e582">
+            <quote xml:id="gom-is65-Qd1e584" type="lemma" source="http://scta.info/resource/is65_24@2-3">Antequam clament.</quote>
+            In conturbatione, in dolore mentis, sed in gaudio et laetitia: unde, <quote xml:id="gom-is65-Qd1e587" source="http://scta.info/resource/IIth2_14@2-11">Quod enim est gaudium nostrum aut corona gloriae, nonne vos</quote>? etc.
+          </p>
+        </div>
+        <div xml:id="gom-is65-Dd1e592">
+          <head xml:id="gom-is65-Hd1e594">Versus 25</head>
+          <p xml:id="gom-is65-d1e596">
+            <quote xml:id="gom-is65-Qd1e598" type="lemma" source="http://scta.info/resource/is65_25@1-1">Lupus.</quote>
+            Lupus Saulus, id est persecutor, de quo, <quote xml:id="gom-is65-Qd1e601" source="http://scta.info/resource/gen49_27@1-3">Benjamin lupus rapax</quote>.
+          </p>
+          <p xml:id="gom-is65-d1e605">
+            <quote xml:id="gom-is65-Qd1e607" type="lemma" source="http://scta.info/resource/is65_25@3-3">Agnus.</quote>
+            Qui scilicet in candidis vestibus sequuntur agnum quocunque ierit: De quibus Petro dicitur, <quote xml:id="gom-is65-Qd1e610" source="http://scta.info/resource/io21_15@25-27">Pasce agnos meos</quote>.
+          </p>
+          <p xml:id="gom-is65-d1e614">
+            <quote xml:id="gom-is65-Qd1e616" type="lemma" source="http://scta.info/resource/is65_25@6-10">Et leo et bos comedent.</quote>
+            Vir scilicet disertus et potentissimus in saeculo spreta philosophiae eloquentia comedet paleas, id est utilitatem et superficiem historiae cum bobus, id est praedicatoribus Ecclesiae. Haec comedunt leones <pb ed="#P" n="1312A"/> donec multis laboribus veniatur ad profunditatem mysterii, sicut Augustinus et Cyprianus et alii.
+          </p>
+          <p xml:id="gom-is65-d1e622">
+            <quote xml:id="gom-is65-Qd1e624" type="lemma" source="http://scta.info/resource/is65_25@19-20">Neque occident.</quote>
+            Deposita feritate, vel in praesenti vel in futuro, et hoc est: <quote xml:id="gom-is65-Qd1e627" source="http://scta.info/resource/is65_25@21-23">In omni monte,</quote> etc. Hoc Judaei carnaliter accipiunt, dicentes quod in tempore Christi sui tanta pax et securitas sibi erit, ut lupi et agni, leones et boves, serpentes et homines commorentur simul, et comedant, neque eis noceant, qui in templo, et in monte sancto habitant. Ex quo colligitur, quod omnes alii occidentur. Sed hoc falsum esse ostenditur his verbis: <quote xml:id="gom-is65-Qd1e630" source="http://scta.info/resource/is66_1@1-11">Haec dicit Dominus: Caelum sedes mea, terra autem scabellum pedum meorum,</quote> etc., hoc tamen Judaei carnaliter intelligunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

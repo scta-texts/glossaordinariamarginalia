@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samuelis I, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Samuelis I, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0549B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Isam7">
+        <head xml:id="gom-Isam7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-Isam7-Dd1e100">
+          <head xml:id="gom-Isam7-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Isam7-d1e104">
+            <quote xml:id="gom-Isam7-Qd1e106" type="lemma" source="http://scta.info/resource/Isam7_1@16-16">Gabaa.</quote>
+            <ref xml:id="gom-Isam7-Rd1e109"><name xml:id="gom-Isam7-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam7-Qd1e113">Collis animae humilium, unde: <quote xml:id="gom-Isam7-Qd1e115" source="http://scta.info/resource/ps71_3@1-4">Suscipiant montes pacem populo,</quote> etc., id est montes majores animae colles minores. Seu etiam Gabaa interpretatur sublimitas, ubi Eleazar <pb ed="#P" n="0549C"/> sacerdos constituitur.</quote>
+          </p>
+          <p xml:id="gom-Isam7-d1e122">
+            <quote xml:id="gom-Isam7-Qd1e124" type="lemma" source="http://scta.info/resource/Isam7_1@17-17">Eleazarum.</quote>
+            <ref xml:id="gom-Isam7-Rd1e127"><name xml:id="gom-Isam7-Nd1e128" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam7-Qd1e131">Dei adjutorium. Bene autem qui hoc nomine vocatur, ad arcam Domini custodiendam eligitur, quia sancti viri quidquid habent boni, Deo attribuunt, non sibi. Unde: <quote xml:id="gom-Isam7-Qd1e133" source="http://scta.info/resource/IIcor3_6@2-8">Sufficientia nostra ex Deo est, qui idoneos fecit nos ministros Novi Testamenti</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam7-Dd1e139">
+          <head xml:id="gom-Isam7-Hd1e141">Versus 2</head>
+          <p xml:id="gom-Isam7-d1e143">
+            <quote xml:id="gom-Isam7-Qd1e145" type="lemma" source="http://scta.info/resource/Isam7_2@17-18">Annus vicesimus</quote>
+            erat, quando septimo anno regni Saul allata est in castra de Cariathiarim.
+          </p>
+          <p xml:id="gom-Isam7-d1e149">
+            <quote xml:id="gom-Isam7-Qd1e151" type="lemma" source="http://scta.info/resource/Isam7_2">Annus vice.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-Isam7-Rd1e156"><name xml:id="gom-Isam7-Nd1e157" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam7-Qd1e160"><seg type="qs">Non ita intelligendum est</seg>, etc., usque ad <seg type="qs">quia nulla societas lucis ad tenebras.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam7-Dd1e169">
+          <head xml:id="gom-Isam7-Hd1e171">Versus 6</head>
+          <p xml:id="gom-Isam7-d1e173">
+            <quote xml:id="gom-Isam7-Qd1e175" type="lemma" source="http://scta.info/resource/Isam7_6@4-4">Masphath.</quote>
+            Civitas est in tribu Juda juxta Cariathiarim.
+          </p>
+          <p xml:id="gom-Isam7-d1e179">
+            <ref xml:id="gom-Isam7-Rd1e181"><name xml:id="gom-Isam7-Nd1e182" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam7-Qd1e185" type="lemma" source="http://scta.info/resource/Isam7_6@4-4">Masphath.</quote>
+            <quote xml:id="gom-Isam7-Qd1e188"><seg type="qs">Speculatio, vel contemplatio, <pb ed="#P" n="0549D"/></seg> etc., usque ad <seg type="qs">et ad amorem patriae coelestis intentos esse perspexerit.</seg></quote>
+          </p>
+          <p xml:id="gom-Isam7-d1e197">
+            <quote xml:id="gom-Isam7-Qd1e199" type="lemma" source="http://scta.info/resource/Isam7_6@5-6">Hauseruntque aquam,</quote>
+            etc. Ut sicut aqua effusa non redit, sic nec ipsi redirent ad idololatriam.
+          </p>
+        </div>
+        <div xml:id="gom-Isam7-Dd1e204">
+          <head xml:id="gom-Isam7-Hd1e206">Versus 9</head>
+          <p xml:id="gom-Isam7-d1e208">
+            <quote xml:id="gom-Isam7-Qd1e210" type="lemma" source="http://scta.info/resource/Isam7_9@4-5">Agnum lactantem.</quote>
+            Agnus oblatus pro populo Dei victoriam praestat, et per passionem Christi daemonibus superatis, pax data est fidelibus.
+          </p>
+          <p xml:id="gom-Isam7-d1e214">
+            <ref xml:id="gom-Isam7-Rd1e216" type="lemma" subtype="implied" target="http://scta.info/resource/Isam7_9@4-5"/>
+            <ref xml:id="gom-Isam7-Rd1e218"><name xml:id="gom-Isam7-Nd1e219" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam7-Qd1e222">Innocentem vitam igne charitatis accensam.</quote>
+          </p>
+          <p xml:id="gom-Isam7-d1e225">
+            <ref xml:id="gom-Isam7-Rd1e227" type="lemma" subtype="implied" target="http://scta.info/resource/Isam7_9@4-5"/>
+            <ref xml:id="gom-Isam7-Rd1e229"><name xml:id="gom-Isam7-Nd1e230" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Isam7-Qd1e233">Cum per praedicatores Evangelii Dominus intonat, spiritales hostes in fugam convertuntur coram Israel, id est populo Dei, et persequuntur eos usque in domum agnitionis: usquequo, scilicet omnis error expurgetur, et Deus vere cognoscatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam7-Dd1e238">
+          <head xml:id="gom-Isam7-Hd1e240">Versus 11</head>
+          <p xml:id="gom-Isam7-d1e242">
+            <pb ed="#P" n="0550A"/>
+            <quote xml:id="gom-Isam7-Qd1e246" type="lemma" source="http://scta.info/resource/Isam7_11@18-18">Betchar.</quote>
+            <ref xml:id="gom-Isam7-Rd1e249"><name xml:id="gom-Isam7-Nd1e250" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Isam7-Qd1e253">Domus agnitionis, vel domus agni.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Isam7-Dd1e257">
+          <head xml:id="gom-Isam7-Hd1e259">Versus 12</head>
+          <p xml:id="gom-Isam7-d1e261">
+            <quote xml:id="gom-Isam7-Qd1e263" type="lemma" source="http://scta.info/resource/Isam7_12@6-8">Et posuit eum.</quote>
+            Alia editio: <quote xml:id="gom-Isam7-Qd1e266" source="http://scta.info/resource/Isam7_12@9-17">inter Masphath novam et veterem et vocavit nomen ejus Abenezer,</quote> vel <quote xml:id="gom-Isam7-Qd1e269" source="http://scta.info/resource/Isam7_12@14-19">Abongener, id est lapis adjutorii.</quote> Haec est medietas Salvatoris, per quam transeundum est a Masphath veteri ad novam, id est ab intentione qua exspectatur in carnali regno beatitudo falsa, ad intentionem qua per Novum Testamentum exspectatur in regno coelorum beatitudo vera, qua quoniam nihil est melius hucusque adjuvat Deus. Masphath intentio sedentium. Lapis inter haec, Christus inter intentionem Veteris Testamenti, et Evangelii praedicationem positus: ipse lapis propter firmitatem adjutorii, quia suos contra daemones adjuvat <pb ed="#P" n="0550B"/> dimicantes.
+          </p>
+          <p xml:id="gom-Isam7-d1e275">
+            <quote xml:id="gom-Isam7-Qd1e277" type="lemma" source="http://scta.info/resource/Isam7_12@21-22">Hucusque auxiliatus.</quote>
+            Quia qui hos terminos transcendunt, ut haeretici, auxilium Dei non merentur.
+          </p>
+        </div>
+        <div xml:id="gom-Isam7-Dd1e282">
+          <head xml:id="gom-Isam7-Hd1e284">Versus 14</head>
+          <p xml:id="gom-Isam7-d1e286">
+            <quote xml:id="gom-Isam7-Qd1e288" type="lemma" source="http://scta.info/resource/Isam7_14@23-23">Eratque.</quote>
+            Christus est nostra pax, qui fecit utraque unum, per quem facti sunt prope qui erant longe.
+          </p>
+        </div>
+        <div xml:id="gom-Isam7-Dd1e293">
+          <head xml:id="gom-Isam7-Hd1e295">Versus 16</head>
+          <p xml:id="gom-Isam7-d1e297">
+            <quote xml:id="gom-Isam7-Qd1e299" type="lemma" source="http://scta.info/resource/Isam7_16@9-9">Galgala.</quote>
+            Civitas est ubi Josue populum secundo circumcidit, et Pascha celebravit, et deficiente manna, Israel usus est panibus triticeis, ubi et lapides sunt translati de alveo Jordanis, ubi tabernaculum testimonii multo tempore fuit. Haec cecidit in sortem Judae: et usque hodie ostenditur locus in secundo a Jericho milliario hominibus illius regionis venerandus. Sed juxta Bethel quidam aliam Galgalam suspicantur.
+          </p>
+          <p xml:id="gom-Isam7-d1e303">
+            <pb ed="#P" n="0550C"/>
+            <ref xml:id="gom-Isam7-Rd1e307" type="lemma" subtype="implied" target="http://scta.info/resource/Isam7_16@9-9"/>
+            Galgala interpretatur volutatio vel revelatio. Bene ergo propheta in Bethel et in Galgala, et Masphath judicavit Israel, et revertens in Ramatha in domum suam judicavit ibi Israel; et aedificavit ibi altare Domino, exemplum tribuens judicium esse faciendum in domo Dei, non indiscrete vel malivola mente, sed secundum quod Scriptura revelaverit, et intentione bona et amore fraterno, et sic esse revertendum in Ramatha in domum nostram, id est, ad interna pectoris, ut vacemus contemplationi, et in altari fidei gratas hostias operis et veritatis offeramus.
+          </p>
+        </div>
+        <div xml:id="gom-Isam7-Dd1e311">
+          <head xml:id="gom-Isam7-Hd1e313">Versus 17</head>
+          <p xml:id="gom-Isam7-d1e315">
+            <quote xml:id="gom-Isam7-Qd1e317" type="lemma" source="http://scta.info/resource/Isam7_17@13-15">Aedificavit etiam ibi,</quote>
+            etc. Lex praecepit, non aedificari altare, nisi ubi Dominus elegisset; sed ne immolarent diis construxit altare, in quo non reprehenditur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

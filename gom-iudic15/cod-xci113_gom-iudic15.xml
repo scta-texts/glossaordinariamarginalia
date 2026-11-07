@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iudicium, Caput 15</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iudicium, Caput 15</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0531C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iudic15">
+        <head xml:id="gom-iudic15-Hd1e98">Caput 15</head>
+        <div xml:id="gom-iudic15-Dd1e100">
+          <head xml:id="gom-iudic15-Hd1e102">Versus 8</head>
+          <p xml:id="gom-iudic15-d1e104">
+            <quote xml:id="gom-iudic15-Qd1e106" type="lemma" source="http://scta.info/resource/iudic15_8@1-2">Percussitque eos,</quote>
+            etc.
+            <ref xml:id="gom-iudic15-Rd1e109"><name xml:id="gom-iudic15-Nd1e110" ref="#Augustine">AUG.</name>, quaest. 55 in Jud.</ref>
+            <quote xml:id="gom-iudic15-Qd1e114">LXX: Percussit alienigenas Samson ad <pb ed="#P" n="0532A"/> tibiam super femur, id est, tam mirabiliter, ut stupentes tibiam unius pedis super femur alterius ponerent.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic15-Dd1e121">
+          <head xml:id="gom-iudic15-Hd1e123">Versus 12</head>
+          <p xml:id="gom-iudic15-d1e125">
+            <quote xml:id="gom-iudic15-Qd1e127" type="lemma" source="http://scta.info/resource/iudic15_12@10-10">Jurate.</quote>
+            <ref xml:id="gom-iudic15-Rd1e130"><name xml:id="gom-iudic15-Nd1e131" ref="#Augustine">AUG.</name>, quaest. 56 in Jud.</ref>
+            <quote xml:id="gom-iudic15-Qd1e135"><seg type="qs">Quid est quod ait Samson viris Juda</seg>, etc., usque ad <seg type="qs">nisi audiendo vel legendo discantur, ita nec modi locutionum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iudic15-Dd1e144">
+          <head xml:id="gom-iudic15-Hd1e146">Versus 16</head>
+          <p xml:id="gom-iudic15-d1e148">
+            <quote xml:id="gom-iudic15-Qd1e150" type="lemma" source="http://scta.info/resource/iudic15_16@3-4">In maxilla.</quote>
+            <ref xml:id="gom-iudic15-Rd1e153"><name xml:id="gom-iudic15-Nd1e154" ref="#GregoryGreat">GREG.</name>, lib. XIII Moral., cap. 6.</ref>
+            <quote xml:id="gom-iudic15-Qd1e158">Maxilla asini praedicatores significat. Redemptor enim noster simplicitatem et patientiam praedicantium, suae manu virtutis tenens, a vitiis carnales interfecit, et maxilla in terram projecta, postmodum aquas fudit: quia tradita morti praedicatorum corpora magna populis monstravere miracula.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium, Caput 12</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Deuteronomium, Caput 12</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0463C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-deut12">
+        <head xml:id="gom-deut12-Hd1e98">Caput 12</head>
+        <div xml:id="gom-deut12-Dd1e100">
+          <head xml:id="gom-deut12-Hd1e102">Versus 6</head>
+          <p xml:id="gom-deut12-d1e104">
+            <pb ed="#P" n="0463C"/>
+            <quote xml:id="gom-deut12-Qd1e108" type="lemma" source="http://scta.info/resource/deut12_6@10-12">Decimas et primitias,</quote>
+            etc.
+            <ref xml:id="gom-deut12-Rd1e111"><name xml:id="gom-deut12-Nd1e112" ref="#Augustine">AUG.</name>, quaest. 18.</ref>
+            <quote xml:id="gom-deut12-Qd1e116">Quaerendum est quomodo jubeat decimationes omnium fructuum et primitiva omnium pecorum non manducari, nisi in civitate ubi templum erat, cum eas Levitis dari in lege praeceperit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut12-Dd1e120">
+          <head xml:id="gom-deut12-Hd1e122">Versus 13</head>
+          <p xml:id="gom-deut12-d1e124">
+            <quote xml:id="gom-deut12-Qd1e126" type="lemma" source="http://scta.info/resource/deut12_13@1-3">Cave ne offeras.</quote>
+            Occasionem amputat idolis sacrificandi. Ideo enim praecipit in templo et ad altare Domini hostias offerri, ut ubi integra est religio, ibi cultus congruus exhibeatur. Mystice autem innuit nullum munus acceptabile esse Deo extra catholicam Ecclesiam, hic enim est locus quem Deus elegit, ut poneret nomen suum <pb ed="#P" n="0463D"/> ibi, et habitet in eo.
+          </p>
+        </div>
+        <div xml:id="gom-deut12-Dd1e133">
+          <head xml:id="gom-deut12-Hd1e135">Versus 16</head>
+          <p xml:id="gom-deut12-d1e137">
+            <quote xml:id="gom-deut12-Qd1e139" type="lemma" source="http://scta.info/resource/deut12_16@1-2">Absque esu.</quote>
+            Homicidium prohibet. Sanguis pro anima ponitur, quia sedes animae, id est humanae vitae, in sanguine est.
+          </p>
+        </div>
+        <div xml:id="gom-deut12-Dd1e144">
+          <head xml:id="gom-deut12-Hd1e146">Versus 17</head>
+          <p xml:id="gom-deut12-d1e148">
+            <quote xml:id="gom-deut12-Qd1e150" type="lemma" source="http://scta.info/resource/deut12_17@4-5">In oppidis.</quote>
+            Id est, meritis tuis non assignabis, quae divina largitate perceperis, non viribus tuis, sed Deo, cujus munere hoc habueris <!--<note>(Gal. VI)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-deut12-Dd1e158">
+          <head xml:id="gom-deut12-Hd1e160">Versus 23</head>
+          <p xml:id="gom-deut12-d1e162">
+            <quote xml:id="gom-deut12-Qd1e164" type="lemma" source="http://scta.info/resource/deut12_23@1-3">Hoc solum cave.</quote>
+            Ad litteram apostoli hoc praeceperunt: Et in sanguine prohibetur homicidium, et odium fratrum. Qui enim odit fratrem suum homicida est <!--<note>(I Joan. III)</note>-->.
+          </p>
+          <p xml:id="gom-deut12-d1e170">
+            <quote xml:id="gom-deut12-Qd1e172" type="lemma" source="http://scta.info/resource/deut12_23@7-9">Sanguis enim eorum.</quote>
+            Quia aliquod vitale est in sanguine, et per ipsum maxime in hac carne vivitur, <pb ed="#P" n="0464A"/> qui per omnes venas diffunditur: ipsum animam vocat, id est, corporis vitam, quae morte finitur. Mystice autem innuitur, ut carnales homines a pristina conversatione discedentes, in unitate fidei et bonorum operum sociantes, eorum errores in usum nostrum non convertamus; sed effundamus, id est, per confessionem prolatos terrenae fragilitati deputemus, et quasi indignos viris spiritualibus abjiciamus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

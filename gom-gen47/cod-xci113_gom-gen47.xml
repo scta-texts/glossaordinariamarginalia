@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 47</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 47</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0175A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen47">
+        <head xml:id="gom-gen47-Hd1e98">Caput 47</head>
+        <div xml:id="gom-gen47-Dd1e100">
+          <head xml:id="gom-gen47-Hd1e102">Versus 9</head>
+          <p xml:id="gom-gen47-d1e104">
+            <quote xml:id="gom-gen47-Qd1e106" type="lemma" source="http://scta.info/resource/gen47_9@2-3">Dies peregrinationis,</quote>
+            etc.
+            <ref xml:id="gom-gen47-Rd1e109"><name xml:id="gom-gen47-Nd1e110" ref="#Augustine">AUG.</name> Q. in Gen., tom. III.</ref>
+            <quote xml:id="gom-gen47-Qd1e114"><seg type="qs">Quid est quod dicit Jacob <pb ed="#P" n="0175B"/> Pharaoni</seg>, etc., usque ad <seg type="qs">non manent in domo in aeternum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen47-Dd1e125">
+          <head xml:id="gom-gen47-Hd1e127">Versus 11</head>
+          <p xml:id="gom-gen47-d1e129">
+            <quote xml:id="gom-gen47-Qd1e131" type="lemma" source="http://scta.info/resource/gen47_11@1-6">Joseph vero patri et fratribus suis . . . Ramesse.</quote>
+            Quaerendum est utrum terra Ramesses ipsa sit Gessen: hanc enim petierant, et Pharao praeceperat dari.
+          </p>
+          <p xml:id="gom-gen47-d1e135">
+            <ref xml:id="gom-gen47-Rd1e137" type="lemma" subtype="implied" target="http://scta.info/resource/gen47_11@1-6"/>
+            <ref xml:id="gom-gen47-Rd1e139"><name xml:id="gom-gen47-Nd1e140" ref="#IsidoreOfSeville">ISID.</name></ref>
+          </p>
+          <p xml:id="gom-gen47-d1e144">
+            Allegorice.
+          </p>
+          <p xml:id="gom-gen47-d1e146">
+            <ref xml:id="gom-gen47-Rd1e148" type="lemma" subtype="implied" target="http://scta.info/resource/gen47_11@1-6"/>
+            Tradidit Joseph patri et fratribus optimam terram Gessen, praebens eis cibaria, quia fames terram oppresserat: sic et Dominus parentibus, id est patriarchis et prophetis, ex quibus est secundum carnem, sive omnibus sanctis, de quibus in Evangelio dicit Matth. II: <quote xml:id="gom-gen47-Qd1e150">Hi sunt fratres mei, qui faciunt voluntatem Patris mei,</quote> his dat terram optimam, de qua dicitur psal. XXVI: <quote xml:id="gom-gen47-Qd1e152" source="http://scta.info/resource/ps26_13@1-7">Credo videre bona Domini in terra viventium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen47-Dd1e157">
+          <head xml:id="gom-gen47-Hd1e159">Versus 12</head>
+          <p xml:id="gom-gen47-d1e161">
+            <pb ed="#P" n="0175C"/>
+            <quote xml:id="gom-gen47-Qd1e165" type="lemma" source="http://scta.info/resource/gen47_12@8-10">Praebens cibaria, singulis,</quote>
+            etc. Metiebatur triticum patri suo Joseph, nec tamen eum pater quando vidit, nec quando triticum accepit, adoravit: quomodo ergo somnium impletum putamus, nisi majoris rei contineat prophetiam.
+          </p>
+        </div>
+        <div xml:id="gom-gen47-Dd1e170">
+          <head xml:id="gom-gen47-Hd1e172">Versus 16</head>
+          <p xml:id="gom-gen47-d1e174">
+            <quote xml:id="gom-gen47-Qd1e176" type="lemma" source="http://scta.info/resource/gen47_16@4-9">Adducite pecora vestra, et dabo vobis,</quote>
+            etc. Quaeritur, eum Joseph frumenta colligeret, unde homines viverent, pecora unde vivebant, cum tanta fames invaluisset, et fratres Joseph Pharaoni dixerunt: <quote xml:id="gom-gen47-Qd1e179">Non sunt pascua pecoribus puerorum tuorum,</quote> etc. Si ergo ea fame pascua defecerant in terra Chanaan, cur in Aegypto non defecerant, cum eadem fames esset ubique? An, sicut perhibetur ab eis qui loca sciunt, in multis Aegypti paludibus poterant pascua non deesse, etiam <pb ed="#P" n="0175D"/> cum fames esset frumentorum, quae solent Nili inundatione provenire: dicuntur illae paludes feracius pascua gignere, quando aqua Nili minus excrescit.
+          </p>
+        </div>
+        <div xml:id="gom-gen47-Dd1e186">
+          <head xml:id="gom-gen47-Hd1e188">Versus 20</head>
+          <p xml:id="gom-gen47-d1e190">
+            <quote xml:id="gom-gen47-Qd1e192" type="lemma" source="http://scta.info/resource/gen47_20@1-2">Emit igitur,</quote>
+            etc. Non injustitiae vel iniquitatis arguitur Joseph, cum etiam fidelitas ejus inde commendetur, quia nullius personae gratiam suscepit, sed juxta emptoris pretium aequo libramine repensavit.
+          </p>
+          <p xml:id="gom-gen47-d1e196">
+            <ref xml:id="gom-gen47-Rd1e198" type="lemma" subtype="implied" target="http://scta.info/resource/gen47_20@1-2"/>
+            Mystice autem significat omnes qui in spiritali Aegypto sunt et ejus opes ambiunt, servos esse. Nullus est enim liber Aegyptius, qui carnalis est, et venundatus sub peccato: Pharao enim eos subjecit; unde fortasse dicitur Exod. XX: <quote xml:id="gom-gen47-Qd1e200" source="http://scta.info/resource/ex20_2@1-14">Ego sum Dominus Deus <pb ed="#P" n="0176A"/> tuus, qui eduxi te de Aegypto, de domo servitutis.</quote> Unde Rom. VI: <quote xml:id="gom-gen47-Qd1e205" source="http://scta.info/resource/rom6_12@1-8">Non regnet peccatum in vestro mortali corpore.</quote> etc. Et ibidem: <quote xml:id="gom-gen47-Qd1e208" source="http://scta.info/resource/rom6_16@9-19">Servi estis ejus cui obedistis, sive peccati in mortem, sive obeditionis ad justitiam.</quote> Aegyptii autem violenter in servitutem redacti sunt, Hebraei vero violenter in servitium. Vendiderunt autem Aegyptii semetipsos, nec dispensatoris culpa est, ubi digna repensantur pro meritis. Hoc et Paulus fecit, cum illum qui indignus numero sanctorum vel consortio fuit, Satanae tradit <!--<note>(I Cor. V)</note>-->. Nemo ergo dicat Paulum durius egisse, qui hominem de Ecclesia ejecit, ut expulsus disceret non blasphemare: hominis enim voluntas est iniqua, cum amans terrena despicit coelestia, et propter avaritiam se subjicit diabolo. Dei autem <pb ed="#P" n="0176B"/> permissio est justa, cum eum qui spernens meliora, elegit pejora, dimittit arbitrio suo ut cadat.
+          </p>
+          <p xml:id="gom-gen47-d1e217">
+            <quote xml:id="gom-gen47-Qd1e219" type="lemma" source="http://scta.info/resource/gen47_20@1-2">Emit igitur,</quote>
+            etc. Allegorice emptio Joseph, qui frugibus emit terram Aegypti, significat Christum doctrina et sanguinis pretio redimere mundum. Quod autem dicit: <quote xml:id="gom-gen47-Qd1e222">Accipite semina, et serite agros ut fruges habere possitis,</quote> etc., semen est verbum Dei, agri corpora quae vomere evangelico exarata, et semine spirituali seminata, fructum virtutum germinant. Quinta pars, quae regi dabatur, quinque sensuum census, qui Christo regi solvendus. Quatuor reliquae in sementem et cibos possessoribus permittuntur, quia actualis vitae usus unicuique conceditur, ut seminet virtutum opera, et fructus justitiae metat in vitam aeternam, qui a Christo nobis tribuitur. Unde <pb ed="#P" n="0176C"/> Joseph dicitur: <quote xml:id="gom-gen47-Qd1e226" source="http://scta.info/resource/gen47_25@3-8">Salus nostra in manu tua est,</quote> quia salus mundi in potestate Christi.
+          </p>
+        </div>
+        <div xml:id="gom-gen47-Dd1e231">
+          <head xml:id="gom-gen47-Hd1e233">Versus 22</head>
+          <p xml:id="gom-gen47-d1e235">
+            <quote xml:id="gom-gen47-Qd1e237" type="lemma" source="http://scta.info/resource/gen47_22@1-3">Praeter terram sacerdotum,</quote>
+            etc. Hoc significat, Ecclesiae terram, in qua veri sunt sacerdotes, liberam esse a censu mundano, quae verbo divino indesinenter pascitur, nec damnum panis spiritualis sustinebit.
+          </p>
+        </div>
+        <div xml:id="gom-gen47-Dd1e242">
+          <head xml:id="gom-gen47-Hd1e244">Versus 29</head>
+          <p xml:id="gom-gen47-d1e246">
+            <quote xml:id="gom-gen47-Qd1e248" type="lemma" source="http://scta.info/resource/gen47_29@1-5">Cumque appropinquare cerneret diem mortis suae,</quote>
+            etc.
+            <ref xml:id="gom-gen47-Rd1e251"><name xml:id="gom-gen47-Nd1e252" ref="#Augustine">AUG.</name>, Quaest. in Gen., tom. III.</ref>
+            <quote xml:id="gom-gen47-Qd1e256"><seg type="qs">Ea filium juratione constringit</seg>, etc., usque ad <seg type="qs">qui in baptismo apparuit fere trigesimo anno.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen47-Dd1e265">
+          <head xml:id="gom-gen47-Hd1e267">Versus 31</head>
+          <p xml:id="gom-gen47-d1e269">
+            <quote xml:id="gom-gen47-Qd1e271" type="lemma" source="http://scta.info/resource/gen47_31@7-8">Quo jurante.</quote>
+            <ref xml:id="gom-gen47-Rd1e274"><name xml:id="gom-gen47-Nd1e275" ref="#Augustine">AUG.</name>, ubi supra.</ref>
+            <quote xml:id="gom-gen47-Qd1e279"><seg type="qs">Quod habent Latini codices, <quote xml:id="gom-gen47-Qd1e282" source="http://scta.info/resource/lev14_18@2-4">Adoravit super caput virgae ejus,</quote> nonnulli emendatius habent: <quote xml:id="gom-gen47-Qd1e285" source="http://scta.info/resource/lev3_2@3-6">Adoravit <pb ed="#P" n="0176D"/> super caput virgae suae,</quote> vel <quote xml:id="gom-gen47-Qd1e290">in capite virgae suae,</quote> vel « in cacumine, <quote xml:id="gom-gen47-Qd1e292">vel</quote> super cacumen virgae suae. » Et ideo merito quaeritur quid sit quod dictum est</seg>, etc., usque ad <seg type="qs">ubi figura rei futurae praesignabatur.</seg></quote>
+          </p>
+          <p xml:id="gom-gen47-d1e299">
+            <ref xml:id="gom-gen47-Rd1e301" type="lemma" subtype="implied" target="http://scta.info/resource/gen47_31@7-8"/>
+            <ref xml:id="gom-gen47-Rd1e303"><name xml:id="gom-gen47-Nd1e304" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen47-Qd1e307"><quote xml:id="gom-gen47-Qd1e308">Et adoravit Israel contra summitatem virgae ejus.</quote> Hoc etiam in loco quidam frustra simulant adorasse Jacob summitatem sceptri Joseph: quod scilicet honorans filium potestatem illius adoraverit, cum in Hebraeo multo aliter legatur: <quote xml:id="gom-gen47-Qd1e310" source="http://scta.info/resource/gen47_31@9-15">Et adoravit Israel ad caput lectuli;</quote> quia postquam juravit ei filius, securus de petitione, adoravit Deum conversus ad caput lectuli. Sanctus enim vir et Deo deditus senectute oppressus, sic habebat <pb ed="#P" n="0177A"/> lectulum positum, ut ipse jacentis habitus absque ulla difficultate ad orationem esset paratus.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

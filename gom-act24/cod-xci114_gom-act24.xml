@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Actus Apostolorum, Caput 24</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Actus Apostolorum, Caput 24</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0466C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-act24">
+        <head xml:id="gom-act24-Hd1e98">Caput 24</head>
+        <div xml:id="gom-act24-Dd1e100">
+          <head xml:id="gom-act24-Hd1e102">Versus 14</head>
+          <p xml:id="gom-act24-d1e104">
+            <pb ed="#P" n="0466C"/>
+            <quote xml:id="gom-act24-Qd1e108" type="lemma" source="http://scta.info/resource/act24_14@13-15">Patri et Deo meo.</quote>
+            <ref xml:id="gom-act24-Rd1e111"><name xml:id="gom-act24-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-act24-Qd1e115">Cujus filius demonstror, non <quote xml:id="gom-act24-Qd1e117">servus,</quote> ut in aliis codicibus habetur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act24-Dd1e122">
+          <head xml:id="gom-act24-Hd1e124">Versus 21</head>
+          <p xml:id="gom-act24-d1e126">
+            <quote xml:id="gom-act24-Qd1e128" type="lemma" source="http://scta.info/resource/act24_21@1-4">Nisi de una hac.</quote>
+            <ref xml:id="gom-act24-Rd1e131"><name xml:id="gom-act24-Nd1e132" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act24-Qd1e135">Hoc loquitur per antiphrasim, sciebat enim hoc eis placere: quasi dicat nihil commisi, nisi quia praedicavi quod et ipsi credunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act24-Dd1e139">
+          <head xml:id="gom-act24-Hd1e141">Versus 23</head>
+          <p xml:id="gom-act24-d1e143">
+            <quote xml:id="gom-act24-Qd1e145" type="lemma" source="http://scta.info/resource/act24_23@11-13">De suis ministrare.</quote>
+            <ref xml:id="gom-act24-Rd1e148"><name xml:id="gom-act24-Nd1e149" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act24-Qd1e152">Discipulis et sociis; aliter, jussit non prohibere quemquam ministrare ei de suis rebus vel facultatibus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act24-Dd1e156">
+          <head xml:id="gom-act24-Hd1e158">Versus 25</head>
+          <p xml:id="gom-act24-d1e160">
+            <quote xml:id="gom-act24-Qd1e162" type="lemma" source="http://scta.info/resource/act24_25@12-12">Tremefactus,</quote>
+            etc., <quote xml:id="gom-act24-Qd1e165" source="http://scta.info/resource/act24_26@2-3">et sperans.</quote>
+          </p>
+          <p xml:id="gom-act24-d1e169">
+            <ref xml:id="gom-act24-Rd1e171" type="lemma" subtype="implied" target="http://scta.info/resource/act24_25@12-12"/>
+            <ref xml:id="gom-act24-Rd1e173"><name xml:id="gom-act24-Nd1e174" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act24-Qd1e177">Sic junge: tremefactus et sperans, pro his duobus dimisit eum liberae custodiae, prae timore Dei et spe pecuniae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-act24-Dd1e182">
+          <head xml:id="gom-act24-Hd1e184">Versus 27</head>
+          <p xml:id="gom-act24-d1e186">
+            <pb ed="#P" n="0466D"/>
+            <quote xml:id="gom-act24-Qd1e190" type="lemma" source="http://scta.info/resource/act24_27@15-17">Reliquit Paulum vinctum.</quote>
+            <ref xml:id="gom-act24-Rd1e193"><name xml:id="gom-act24-Nd1e194" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-act24-Qd1e197">Utrum Felix vivens an moriens Paulum reliquerit, incertum est; sed tamen melius videtur, quod vivens Judaeis gratiam praestiterit.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0385B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num2">
+        <head xml:id="gom-num2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-num2-Dd1e100">
+          <head xml:id="gom-num2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-num2-d1e104">
+            <quote xml:id="gom-num2-Qd1e106" type="lemma" source="http://scta.info/resource/num2_1">Locutusque est Dominus. Homo secundum ordinem suum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-num2-Rd1e111"><name xml:id="gom-num2-Nd1e112" ref="#Origen">ORIG.</name>, hom. 2 in Num.</ref>
+            <quote xml:id="gom-num2-Qd1e116">etc., usque ad <seg type="qs">et nihil secundum ordinem gerere.</seg></quote>
+          </p>
+          <p xml:id="gom-num2-d1e122">
+            <ref xml:id="gom-num2-Rd1e124" type="lemma" subtype="implied" target="http://scta.info/resource/num2_1"/>
+            <ref xml:id="gom-num2-Rd1e126"><name xml:id="gom-num2-Nd1e127" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num2-Qd1e130"><seg type="qs">Unusquisque nostrum</seg>, etc., usque ad <seg type="qs">ne <pb ed="#P" n="0385C"/> propter eum nomen Dei blasphemetur.</seg></quote>
+          </p>
+          <p xml:id="gom-num2-d1e140">
+            <ref xml:id="gom-num2-Rd1e142" type="lemma" subtype="implied" target="http://scta.info/resource/num2_1"/>
+            <ref xml:id="gom-num2-Rd1e144"><name xml:id="gom-num2-Nd1e145" ref="#Origen">ID.</name></ref>
+            <quote xml:id="gom-num2-Qd1e148"><seg type="qs"><quote xml:id="gom-num2-Qd1e150">Secundum sua signa,</quote> etc. Quibus scilicet cujusque proprietas designatur</seg>, etc., usque ad <seg type="qs">quanto magis reliqui homines propria signa in motibus animorum et animae virtutibus gerunt?</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num2-Dd1e158">
+          <head xml:id="gom-num2-Hd1e160">Versus 2</head>
+          <p xml:id="gom-num2-d1e162">
+            <quote xml:id="gom-num2-Qd1e164" type="lemma" source="http://scta.info/resource/num2_2@14-16">Per gyrum tabernaculi,</quote>
+            etc.
+            <ref xml:id="gom-num2-Rd1e167"><name xml:id="gom-num2-Nd1e168" ref="#RabanusMaurus">RAB.</name> in Num.</ref>
+            <quote xml:id="gom-num2-Qd1e172"><seg type="qs">Circa tabernaculum</seg>, etc., usque ad <seg type="qs">quorum precibus et doctrina munitur Ecclesia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num2-Dd1e181">
+          <head xml:id="gom-num2-Hd1e183">Versus 9</head>
+          <p xml:id="gom-num2-d1e185">
+            <quote xml:id="gom-num2-Qd1e187" type="lemma" source="http://scta.info/resource/num2_9@1-5">Universi qui in castris Judae.</quote>
+            His tribubus Judas praesidet, scilicet regalis tribus, de qua ortus est Christus, humani generis rex et salvator.
+          </p>
+        </div>
+        <div xml:id="gom-num2-Dd1e192">
+          <head xml:id="gom-num2-Hd1e194">Versus 10</head>
+          <p xml:id="gom-num2-d1e196">
+            <quote xml:id="gom-num2-Qd1e198" type="lemma" source="http://scta.info/resource/num2_10@6-9">Meridianam plagam erit princeps.</quote>
+            Haec significat antiquam Dei plebem, quae lucem Evangelii, vel legis suscipiens, amore Conditoris fervebat.
+          </p>
+        </div>
+        <div xml:id="gom-num2-Dd1e204">
+          <head xml:id="gom-num2-Hd1e206">Versus 17</head>
+          <p xml:id="gom-num2-d1e208">
+            <pb ed="#P" n="0385D"/>
+            <quote xml:id="gom-num2-Qd1e212" type="lemma" source="http://scta.info/resource/num2_17@1-4">Levabitur autem tabernaculum testimonii,</quote>
+            etc. Tabernaculi erectio vel depositio Ecclesiae situm significat, quae in credentibus erigitur, in negantibus deponitur, in quibusdam ordinibus sacris sublimatur, in aliis judicio sacerdotum excommunicatione humiliatur.
+          </p>
+        </div>
+        <div xml:id="gom-num2-Dd1e217">
+          <head xml:id="gom-num2-Hd1e219">Versus 18</head>
+          <p xml:id="gom-num2-d1e221">
+            <quote xml:id="gom-num2-Qd1e223" type="lemma" source="http://scta.info/resource/num2_18@1-4">Ad occidentalem plagam erunt,</quote>
+            etc.
+            <ref xml:id="gom-num2-Rd1e226"><name xml:id="gom-num2-Nd1e227" ref="#RabanusMaurus">RAB.</name> in Num., tom. II.</ref>
+            <quote xml:id="gom-num2-Qd1e231"><seg type="qs">Dicamus adhuc aliquid quod adjuvet lectorem</seg>, etc., usque ad <seg type="qs">ut secure possint divinum implere officium.</seg></quote>
+          </p>
+          <p xml:id="gom-num2-d1e239">
+            <quote xml:id="gom-num2-Qd1e241" type="lemma" source="http://scta.info/resource/num2_18@2-2">Occidentalem.</quote>
+            Haec plaga utrumque parietem tabernaculi in se recipiens, in se jungendo consummat, et consummationem Ecclesiae in fine mundi significat, quando in fructu bonorum operum <pb ed="#P" n="0386A"/> probabuntur electi, in oblivionem mortis tradentur impii, ad dexteram Dei locabuntur justi.
+          </p>
+        </div>
+        <div xml:id="gom-num2-Dd1e248">
+          <head xml:id="gom-num2-Hd1e250">Versus 25</head>
+          <p xml:id="gom-num2-d1e252">
+            <quote xml:id="gom-num2-Qd1e254" type="lemma" source="http://scta.info/resource/num2_25@1-7">Ad aquilonis partem castrametati sunt filii Dan.</quote>
+            Haec plaga significat multitudinem gentium usque ad Christum frigore infidelitatis torpentem, sed repulsis Judaeis judicio Dei in Ecclesia dilatata aeternam beatitudinem exspectat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

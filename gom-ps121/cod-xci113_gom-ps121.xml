@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 121</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 121</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1043B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps121">
+        <head xml:id="gom-ps121-Hd1e98">Psalmus 121</head>
+        <div xml:id="gom-ps121-Dd1e100">
+          <head xml:id="gom-ps121-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps121-d1e104">
+            <quote xml:id="gom-ps121-Qd1e106" type="lemma" source="http://scta.info/resource/ps121_1@1-2">Canticum graduum.</quote>
+            <ref xml:id="gom-ps121-Rd1e109"><name xml:id="gom-ps121-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps121-Qd1e113">Tertius gradus. Magnum gaudium; in Ecclesia pura mente versari, atque digne Deo in hac peregrinatione militare: unde suspiramus ad coelestem Jerusalem, ad <pb ed="#P" n="1043C"/> quam duabus alis dilectionis levamur.</quote>
+          </p>
+          <p xml:id="gom-ps121-d1e119">
+            <quote xml:id="gom-ps121-Qd1e121" type="lemma" source="http://scta.info/resource/ps121_1@3-6">Laetatus sum in his,</quote>
+            etc. Primo gaudet se monitum ire ad Jerusalem, ubi sancti securi et cum Domino judicabunt. Secundo, ascensurus optat abundantiam pacis: <quote xml:id="gom-ps121-Qd1e124" source="http://scta.info/resource/ps121_6@1-4">Rogate quae ad pacem,</quote> etc.
+          </p>
+        </div>
+        <div xml:id="gom-ps121-Dd1e129">
+          <head xml:id="gom-ps121-Hd1e131">Versus 4</head>
+          <p xml:id="gom-ps121-d1e133">
+            <quote xml:id="gom-ps121-Qd1e135" type="lemma" source="http://scta.info/resource/ps121_4@8-9">Testimonium Israel.</quote>
+            <ref xml:id="gom-ps121-Rd1e138"><name xml:id="gom-ps121-Nd1e139" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps121-Qd1e142">Id est, in quibus cognoscitur quod vere sunt Israel. Quando enim grana sunt cum paleis, totum palea putatur; sed cum separabuntur, tunc erit testimonium Israel.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps121-Dd1e146">
+          <head xml:id="gom-ps121-Hd1e148">Versus 5</head>
+          <p xml:id="gom-ps121-d1e150">
+            <quote xml:id="gom-ps121-Qd1e152" type="lemma" source="http://scta.info/resource/ps121_5@4-4">Sedes.</quote>
+            <ref xml:id="gom-ps121-Rd1e155"><name xml:id="gom-ps121-Nd1e156" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps121-Qd1e159"><seg type="qs">Id est justi, in quibus Deus sedet</seg>, etc., usque ad <seg type="qs">caveant ergo sibi omnes interrogandi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps121-Dd1e168">
+          <head xml:id="gom-ps121-Hd1e170">Versus 6</head>
+          <p xml:id="gom-ps121-d1e172">
+            <quote xml:id="gom-ps121-Qd1e174" type="lemma" source="http://scta.info/resource/ps121_6@1-1">Rogate.</quote>
+            <ref xml:id="gom-ps121-Rd1e177"><name xml:id="gom-ps121-Nd1e178" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps121-Qd1e181">Secunda pars, ubi loquitur ad judices, optans eis abundantiam pacis, quam amore fratrum praedicavit.</quote>
+          </p>
+          <p xml:id="gom-ps121-d1e184">
+            <quote xml:id="gom-ps121-Qd1e186" type="lemma" source="http://scta.info/resource/ps121_6@9-9">Diligentibus.</quote>
+            <pb ed="#P" n="1043D"/> <ref xml:id="gom-ps121-Rd1e191"><name xml:id="gom-ps121-Nd1e192" ref="#Augustine">AUG.</name></ref><!-- check: attribution inside gloss body --> Qui amat in alio bonum, quod ipse non potest habere, imputatur ei quasi haberet; unde: Si charitas non habet quod det, det calicem aquae; et tantum imputatur ei quantum Zachaeo multa <!--<note>(Matth. X)</note>-->. Impar facultas, sed non impar charitas.
+          </p>
+        </div>
+        <div xml:id="gom-ps121-Dd1e201">
+          <head xml:id="gom-ps121-Hd1e203">Versus 7</head>
+          <p xml:id="gom-ps121-d1e205">
+            <quote xml:id="gom-ps121-Qd1e207" type="lemma" source="http://scta.info/resource/ps121_7@1-2">Fiat pax.</quote>
+            <ref xml:id="gom-ps121-Rd1e210"><name xml:id="gom-ps121-Nd1e211" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps121-Qd1e214"><seg type="qs">Charitas est virtus fortis ut mors</seg>, etc., usque ad <seg type="qs">subdit: <quote xml:id="gom-ps121-Qd1e220" source="http://scta.info/resource/ps121_8@1-3">Propter fratres meos.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps121-d1e224">
+            <quote xml:id="gom-ps121-Qd1e226" type="lemma" source="http://scta.info/resource/ps121_7@8-9">In turribus.</quote>
+            <ref xml:id="gom-ps121-Rd1e229"><name xml:id="gom-ps121-Nd1e230" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps121-Qd1e233">Id est in excelsis tuis. Pauci sunt judices, sed multi ad singulos pertinebunt, quos recipient in aeterna tabernacula, et tunc erit <quote xml:id="gom-ps121-Qd1e235" source="http://scta.info/resource/ps121_7@7-9">abundantia in turribus;</quote> Deus autem est tota eorum abundantia, tam recipientium quam receptorum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps121-Dd1e241">
+          <head xml:id="gom-ps121-Hd1e243">Versus 9</head>
+          <p xml:id="gom-ps121-d1e245">
+            <quote xml:id="gom-ps121-Qd1e247" type="lemma" source="http://scta.info/resource/ps121_9@1-4">Propter domum Domini Dei.</quote>
+            Vel sic legas <pb ed="#P" n="1044A"/> ut hic versus sit expositio praecedentis. Quasi, <quote xml:id="gom-ps121-Qd1e252">loquebar pacem de te, propter proximos et fratres,</quote> scilicet: <quote xml:id="gom-ps121-Qd1e254" source="http://scta.info/resource/ps121_9@1-5">Quaesivi bona tibi propter domum Domini Dei nostri.</quote> Sententia horum verborum non mutatur.
+          </p>
+          <p xml:id="gom-ps121-d1e258">
+            <quote xml:id="gom-ps121-Qd1e260" type="lemma" source="http://scta.info/resource/ps121_9@8-8">Tibi.</quote>
+            O tu, coelestis Jerusalem, quia domus Dei es, et ita in hoc quod te diligo, Deum diligo.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

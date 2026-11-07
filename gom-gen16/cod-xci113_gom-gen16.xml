@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 16</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 16</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0121D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen16">
+        <head xml:id="gom-gen16-Hd1e98">Caput 16</head>
+        <div xml:id="gom-gen16-Dd1e100">
+          <head xml:id="gom-gen16-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen16-d1e104">
+            <quote xml:id="gom-gen16-Qd1e106" type="lemma" source="http://scta.info/resource/gen16_1@1-4">Igitur Sarai uxor Abram,</quote>
+            etc.
+            <ref xml:id="gom-gen16-Rd1e109"><name xml:id="gom-gen16-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen16-Qd1e113">Non est adulter Abram si, vivente uxore, ancillae jungitur, quia nondum promulgata erat lex Evangelii unius uxoris: et genus suum multiplicandum audierat, sed per quam mulierem nesciebat, quia Saram sterilem noverat. Non fuit in coitu libidinosa voluptas, sed prolis habendae pia charitas: <pb ed="#P" n="0122A"/> uxor quoque hoc voluit et coegit, quae filios habere non poterat; ideo ex alia suscipere cupiebat quem in locum proprii adoptaret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen16-Dd1e120">
+          <head xml:id="gom-gen16-Hd1e122">Versus 2</head>
+          <p xml:id="gom-gen16-d1e124">
+            <quote xml:id="gom-gen16-Qd1e126" type="lemma" source="http://scta.info/resource/gen16_2@10-12">Ingredere ad ancillam,</quote>
+            etc.
+            <ref xml:id="gom-gen16-Rd1e129"><name xml:id="gom-gen16-Nd1e130" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen16-Qd1e133"><seg type="qs">Nota diligenter quod procreatio filiorum in Hebraeo <quote xml:id="gom-gen16-Qd1e136">aedificatio</quote> dicta est</seg>, etc., usque ad <seg type="qs">tanquam per angelum lata in gratiam redeat et se subjiciat.</seg></quote>
+          </p>
+          <p xml:id="gom-gen16-d1e143">
+            <ref xml:id="gom-gen16-Rd1e145" type="lemma" subtype="implied" target="http://scta.info/resource/gen16_2@10-12"/>
+            <ref xml:id="gom-gen16-Rd1e147"><name xml:id="gom-gen16-Nd1e148" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-gen16-Qd1e151">Hae duae mulieres sunt duo Testamenta: Agar, Vetus, quod in Synagoga Judaicum populum servituti nutriebat obnoxium; Sara, Novum, quod populum Christianum in libertatem fidei generavit. Multiplicati sunt ancillae filii, ut non numerarentur prae multitudine, qui supra arenae comparantur. Ipse ergo populus ferocitate sua aemulus, et omnibus bonis contrarius, et maxime cum Christianum populum <pb ed="#P" n="0122B"/> toto orbe invidia stimulante persequitur, et longe lateque dispersus, vagando et negotiando omnibus est onerosus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen16-Dd1e158">
+          <head xml:id="gom-gen16-Hd1e160">Versus 12</head>
+          <p xml:id="gom-gen16-d1e162">
+            <quote xml:id="gom-gen16-Qd1e164" type="lemma" source="http://scta.info/resource/gen16_12@1-4">Hic erit ferus homo.</quote>
+            Vel <mentioned>rusticus</mentioned>, secundum alios.
+          </p>
+          <p xml:id="gom-gen16-d1e170">
+            <ref xml:id="gom-gen16-Rd1e172" type="lemma" subtype="implied" target="http://scta.info/resource/gen16_12@1-4"/>
+            <ref xml:id="gom-gen16-Rd1e174"><name xml:id="gom-gen16-Nd1e175" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen16-Qd1e178">In Hebraeo habetur <quote xml:id="gom-gen16-Qd1e180">phara</quote> quod interpretatur <mentioned>onager</mentioned>. Significat semen ejus habitaturum in deserto, id est, Saracenos vagos, incertisque sedibus, qui omnes gentes quibus desertum ex latere jungitur incursantes, impugnantur ab omnibus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen16-Dd1e187">
+          <head xml:id="gom-gen16-Hd1e189">Versus 13</head>
+          <p xml:id="gom-gen16-d1e191">
+            <quote xml:id="gom-gen16-Qd1e193" type="lemma" source="http://scta.info/resource/gen16_13@1-2">Vocavit autem Agar.</quote>
+            Recte nomen ejus ita vocavit, quia gratuito consulit miseris et humiles consolatur. Unde: <quote xml:id="gom-gen16-Qd1e196" source="http://scta.info/resource/ps9_35@3-17">Tu laborem et dolorem consideras, et tibi derelictus est pauper,</quote> etc.
+          </p>
+          <p xml:id="gom-gen16-d1e200">
+            <quote xml:id="gom-gen16-Qd1e202" type="lemma" source="http://scta.info/resource/gen16_13@16-21">Profecto hic vidi posteriora videntis me.</quote>
+            Tale est <pb ed="#P" n="0122C"/> illud: <quote xml:id="gom-gen16-Qd1e207" source="http://scta.info/resource/ex33_23@5-12">Videbis posteriora mea, nam facies non apparebit tibi.</quote> <quote xml:id="gom-gen16-Qd1e210" source="http://scta.info/resource/ex33_20@8-14">Non enim homo videbit faciem meam et vivet .</quote> Illam enim manifestationem sapientiae Dei nemo potest videre et vivere. Ipsa est species ad quam suspirat qui Deum diligit toto corde, tota anima, tota mente: ad quam contemplandam, etiam proximum diligendo sicut seipsum, quantum potest, aedificat. Posteriora vero ejus, id est, incarnationem ejus, quam assumpsit postremis temporibus, nunc per fidem et dilectionem desiderando contemplamur, et in futuro aeterna contemplatione fruemur.
+          </p>
+        </div>
+        <div xml:id="gom-gen16-Dd1e216">
+          <head xml:id="gom-gen16-Hd1e218">Versus 14</head>
+          <p xml:id="gom-gen16-d1e220">
+            <quote xml:id="gom-gen16-Qd1e222" type="lemma" source="http://scta.info/resource/gen16_14@1-4">Propterea appellavit puteum illum,</quote>
+            etc.
+            <ref xml:id="gom-gen16-Rd1e225"><name xml:id="gom-gen16-Nd1e226" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-gen16-Qd1e229">Usque hodie puteus Agar demonstratur in deserto Arabiae, inter Cades et Barad, <pb ed="#P" n="0122D"/> quod significat veteris legis et novae Scripturam, quam conditor noster, vita viventium, spes morientium, intuitu piae miserationis mortalibus dedit, ut edocti et a vitiis correcti, Dei visione perpetuo digni esse mereantur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

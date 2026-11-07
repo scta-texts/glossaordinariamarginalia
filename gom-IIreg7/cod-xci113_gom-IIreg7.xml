@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum II, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum II, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0616A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIreg7">
+        <head xml:id="gom-IIreg7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-IIreg7-Dd1e100">
+          <head xml:id="gom-IIreg7-Hd1e102">Versus 3</head>
+          <p xml:id="gom-IIreg7-d1e104">
+            <quote xml:id="gom-IIreg7-Qd1e106" type="lemma" source="http://scta.info/resource/IIreg7_3@1-1">Quatuor,</quote>
+            etc.
+            <ref xml:id="gom-IIreg7-Rd1e109"><name xml:id="gom-IIreg7-Nd1e110" ref="#RabanusMaurus">RAB.</name> in lib. Reg., tom. III.</ref>
+            <quote xml:id="gom-IIreg7-Qd1e114"><seg type="qs">Leprosi sunt</seg>, etc., usque ad <seg type="qs">in quatuor mundi partibus fidei veritatem praedicent.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg7-Dd1e123">
+          <head xml:id="gom-IIreg7-Hd1e125">Versus 17</head>
+          <p xml:id="gom-IIreg7-d1e127">
+            <quote xml:id="gom-IIreg7-Qd1e129" type="lemma" source="http://scta.info/resource/IIreg7_17@1-1">Porro.</quote>
+            Dux typum tenet Scribarum et Pharisaeorum, ad quos Veritas ait: <quote xml:id="gom-IIreg7-Qd1e132" source="http://scta.info/resource/mt23_13@1-21">Vae vobis, Scribae et Pharisaei hypocritae, qui clauditis regnum coelorum ante homines: vos enim non intratis, nec introeuntes sinitis intrare</quote>. Quem conculcavit turba in porta, quia gressum ad fidem introeuntium impediebat: unde merito conculcatus, id est, examine justi judicis damnatus, perpetuas mittetur <pb ed="#P" n="0616B"/> in tenebras.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

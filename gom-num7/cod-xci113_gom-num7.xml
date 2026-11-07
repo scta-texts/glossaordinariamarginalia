@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri, Caput 7</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Numeri, Caput 7</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0393D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-num7">
+        <head xml:id="gom-num7-Hd1e98">Caput 7</head>
+        <div xml:id="gom-num7-Dd1e100">
+          <head xml:id="gom-num7-Hd1e102">Versus 1</head>
+          <p xml:id="gom-num7-d1e104">
+            <quote xml:id="gom-num7-Qd1e106" type="lemma" source="http://scta.info/resource/num7_1@1-3">Factum est autem,</quote>
+            etc., <quote xml:id="gom-num7-Qd1e109" source="http://scta.info/resource/num7_1@9-9">tabernaculum.</quote>
+          </p>
+          <p xml:id="gom-num7-d1e113">
+            <ref xml:id="gom-num7-Rd1e115" type="lemma" subtype="implied" target="http://scta.info/resource/num7_1@1-3"/>
+            <ref xml:id="gom-num7-Rd1e117"><name xml:id="gom-num7-Nd1e118" ref="#RabanusMaurus">RAB.</name> in Num., tom. II.</ref>
+            <quote xml:id="gom-num7-Qd1e122">Ecclesiam vel perfectos, in quibus aromata virtutum et orationum adolentur, vel humanitatem Christi: in qua hostiam nostrae redemptionis Patri exhibuit. Ipse enim sacerdos, ipse hostia, et altare; quia in potestate mortem tenens propria voluntate suscepit. Unde: <quote xml:id="gom-num7-Qd1e124" source="http://scta.info/resource/io10_18@1-22">Nemo tollit <pb ed="#P" n="0394A"/> animam meam a me, sed ego pono eam, et iterum sumo eam</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e132">
+          <head xml:id="gom-num7-Hd1e134">Versus 2</head>
+          <p xml:id="gom-num7-d1e136">
+            <quote xml:id="gom-num7-Qd1e138" type="lemma" source="http://scta.info/resource/num7_2@2-5">Principes Israel et capita,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e141"><name xml:id="gom-num7-Nd1e142" ref="#RabanusMaurus">RAB.</name> in Num.</ref>
+            <quote xml:id="gom-num7-Qd1e146">Patriarchae, prophetae et apostoli, etc., <quote xml:id="gom-num7-Qd1e148" source="http://scta.info/resource/mt18_19@17-21">usque ad fiet illis a Patre meo.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e153">
+          <head xml:id="gom-num7-Hd1e155">Versus 3</head>
+          <p xml:id="gom-num7-d1e157">
+            <quote xml:id="gom-num7-Qd1e159" type="lemma" source="http://scta.info/resource/num7_3@4-5">Sex plaustra.</quote>
+            <ref xml:id="gom-num7-Rd1e162"><name xml:id="gom-num7-Nd1e163" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num7-Qd1e166">Plaustra quae filii Israel Levitis ad subvectionem tabernaculi obtulerunt, temporalia solatia significant, quae devoti populi praedicatoribus compensant, ut sine cura et impedimento divino vacent obsequio. Ut et qui Evangelium annuntiant, de Evangelio vivant: <quote xml:id="gom-num7-Qd1e168" source="http://scta.info/resource/Icor9_11@1-8">Si enim seminant spiritualia, non est magnum si metunt temporalia</quote>.</quote>
+          </p>
+          <p xml:id="gom-num7-d1e173">
+            <ref xml:id="gom-num7-Rd1e175" type="lemma" subtype="implied" target="http://scta.info/resource/num7_3@4-5"/>
+            Plaustra recte fide et misericordiae affectu ornata ut Deo sint accepta, duodecim sunt boves: qui enim <pb ed="#P" n="0394B"/> in obsequio sanctorum laborant sub jugo apostolicae doctrinae omnia honeste et ordinate faciunt. Vel boves, doctores accipimus, qui in agro Domini digne operantur. De quibus dicitur: <quote xml:id="gom-num7-Qd1e179" source="http://scta.info/resource/deut25_4@1-4">Non alligabis os bovis triturantis</quote>. Qui enim apostolicam normam vivendo et praedicando conservant dupli honore honorandi sunt.
+          </p>
+          <p xml:id="gom-num7-d1e183">
+            <quote xml:id="gom-num7-Qd1e185" type="lemma" source="http://scta.info/resource/num7_3@16-17">Unum bovem,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e188"><name xml:id="gom-num7-Nd1e189" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num7-Qd1e192"><seg type="qs">Quia unitas fidei</seg>, etc., usque ad <seg type="qs">tabernaculum Dei cum debito obsequio properare debere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e201">
+          <head xml:id="gom-num7-Hd1e203">Versus 9</head>
+          <p xml:id="gom-num7-d1e205">
+            <quote xml:id="gom-num7-Qd1e207" type="lemma" source="http://scta.info/resource/num7_9@1-3">Filiis aut. Cat.</quote>
+            <ref xml:id="gom-num7-Rd1e210"><name xml:id="gom-num7-Nd1e211" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num7-Qd1e214"><seg type="qs">Superius scriptum est</seg>, etc., usque ad <seg type="qs">nec ipsi qui habere aliquid exercitii et eruditionis videntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e224">
+          <head xml:id="gom-num7-Hd1e226">Versus 10</head>
+          <p xml:id="gom-num7-d1e228">
+            <quote xml:id="gom-num7-Qd1e230" type="lemma" source="http://scta.info/resource/num7_10@2-8">Obtulerunt duces in dedicationem altaris die qua.</quote>
+            Unusquisque pro posse suo, fidem, <pb ed="#P" n="0394C"/> doctrinam, et operationem bonam ad profectum et honorem Ecclesiae debet offerre.
+          </p>
+          <p xml:id="gom-num7-d1e236">
+            <quote xml:id="gom-num7-Qd1e238" type="lemma" source="http://scta.info/resource/num7_10@9-14">Unctum est, oblationem suam ante altare.</quote>
+            Tempore incarnationis, quando post resurrectionem et ascensionem susceperunt discipuli Spiritus sancti effusionem <!--<note>(Act. II)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e245">
+          <head xml:id="gom-num7-Hd1e247">Versus 11</head>
+          <p xml:id="gom-num7-d1e249">
+            <quote xml:id="gom-num7-Qd1e251" type="lemma" source="http://scta.info/resource/num7_11@6-11">Duces per singulos dies offerant munera.</quote>
+            Praedicatores recti itineris duces, qui licet eamdem fidei doctrinam, et boni operis eadem exempla offerant, pro diversitate tamen loci et temporis oblationes distribuunt.
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e256">
+          <head xml:id="gom-num7-Hd1e258">Versus 13</head>
+          <p xml:id="gom-num7-d1e260">
+            <quote xml:id="gom-num7-Qd1e262" type="lemma" source="http://scta.info/resource/num7_13@4-5">Acetabulum argenteum.</quote>
+            Haec habent os angustum, et angustiam litterae legis, et obscuritatem prophetarum significant.
+          </p>
+          <p xml:id="gom-num7-d1e266">
+            <ref xml:id="gom-num7-Rd1e268" type="lemma" subtype="implied" target="http://scta.info/resource/num7_13@4-5"/>
+            Varia vasa ad offerenda libamina facta, variae sunt <pb ed="#P" n="0394D"/> distinctiones verbi pro varia capacitate auditorum. Aliter enim sapientes, aliter insipientes; aliter divites, aliter pauperes; aliter sani, aliter infirmi docendi sunt; aliter rudis populus Judaeorum sub umbra legis, aliter Christianus in veritate Evangelii legis mysteria explanata conspiciens, in virum perfectum nutriendus est.
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e274">
+          <head xml:id="gom-num7-Hd1e276">Versus 19</head>
+          <p xml:id="gom-num7-d1e278">
+            <quote xml:id="gom-num7-Qd1e280" type="lemma" source="http://scta.info/resource/num7_19@7-11">Phialam argenteam habens septuaginta siclos,</quote>
+            etc. Spiritualis scientia in lege et in Evangelio est, quae spirituali gratia ministrante ad salutem hominum scripta et prolata est, hinc rite sacrificium fit, quia nihil tam acceptum Deo, quam meditatio legis cum exsecutione operis.
+          </p>
+          <p xml:id="gom-num7-d1e284">
+            <ref xml:id="gom-num7-Rd1e286" type="lemma" subtype="implied" target="http://scta.info/resource/num7_19@7-11"/>
+            <ref xml:id="gom-num7-Rd1e288"><name xml:id="gom-num7-Nd1e289" ref="#RabanusMaurus">RAB.</name>, in Num., tom. II.</ref>
+            <quote xml:id="gom-num7-Qd1e293"><seg type="qs">Phiala prius de vitro <pb ed="#P" n="0395A"/> facta</seg>, etc., usque ad <seg type="qs">in Novo Testamento manifestius datus est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e304">
+          <head xml:id="gom-num7-Hd1e306">Versus 20</head>
+          <p xml:id="gom-num7-d1e308">
+            <quote xml:id="gom-num7-Qd1e310" type="lemma" source="http://scta.info/resource/num7_20@1-1">Mortariolum.</quote>
+            <ref xml:id="gom-num7-Rd1e313"><name xml:id="gom-num7-Nd1e314" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num7-Qd1e317">Cor electorum divina sapientia plenum, continens aromata virtutum, unde dicitur: <quote xml:id="gom-num7-Qd1e319" source="http://scta.info/resource/act4_32@1-8">Quia multitudinis credentium erat cor unum et anima una</quote>.</quote>
+          </p>
+          <p xml:id="gom-num7-d1e324">
+            <quote xml:id="gom-num7-Qd1e326" type="lemma" source="http://scta.info/resource/num7_20@4-5">Ex decem siclis,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e329"><name xml:id="gom-num7-Nd1e330" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num7-Qd1e333">Quia cum impletione decem mandatorum odorem doctrinae et orationis emittunt, ut denarium aeternae vitae accipere mereantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e337">
+          <head xml:id="gom-num7-Hd1e339">Versus 21</head>
+          <p xml:id="gom-num7-d1e341">
+            <quote xml:id="gom-num7-Qd1e343" type="lemma" source="http://scta.info/resource/num7_21@1-3">Bovem de armento,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e346"><name xml:id="gom-num7-Nd1e347" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num7-Qd1e350"><seg type="qs">Haec diversas personas</seg>, etc., usque ad <seg type="qs">nostram vitam semper in meliora reformare certaremus.</seg></quote>
+          </p>
+          <p xml:id="gom-num7-d1e358">
+            <ref xml:id="gom-num7-Rd1e360" type="lemma" subtype="implied" target="http://scta.info/resource/num7_21@1-3"/>
+            Bovem offert, qui utilem in Ecclesia Dei proximis laborem impendit; arietem, qui se et alios in via <pb ed="#P" n="0395B"/> justitiae dirigit; agnum anniculum, qui simplex est et innocens. Haec omnia in holocaustum pro solius Dei amore et desiderio aeternae vitae. Hircum pro peccato offert, qui pro peccatis suis poenitere et orare non desistit. In sacrificium pacificorum offert duos boves, qui cum bonis operibus implet duo praecepta charitatis, Dei scilicet dilectionem, custodiendo mandata ejus; et proximi consulendo necessitatibus, in quibus tota lex pendet et prophetae. Offert autem arietes quinque hircos quinque, agnos anniculos quinque, quia quinque sensus corporis in via veritatis fortiter ducit, et a peccatis compescit, et simplicitatis exemplar proponit.
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e367">
+          <head xml:id="gom-num7-Hd1e369">Versus 85</head>
+          <p xml:id="gom-num7-d1e371">
+            <quote xml:id="gom-num7-Qd1e373" type="lemma" source="http://scta.info/resource/num7_85@24-25">Duo millia,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e376"><name xml:id="gom-num7-Nd1e377" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-num7-Qd1e380"><seg type="qs">In vasis argenteis</seg>, etc., usque ad <seg type="qs">illuc non pervenitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e389">
+          <head xml:id="gom-num7-Hd1e391">Versus 86</head>
+          <p xml:id="gom-num7-d1e393">
+            <pb ed="#P" n="0395C"/>
+            <quote xml:id="gom-num7-Qd1e397" type="lemma" source="http://scta.info/resource/num7_86@1-3">Mortariola aurea duodecim.</quote>
+            <ref xml:id="gom-num7-Rd1e400"><name xml:id="gom-num7-Nd1e401" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num7-Qd1e404">Quorum singula denos siclos habent, et simul omnia auri centum viginti siclos, corda electorum significant scientiam legis in omnibus servare secundum apostolicam doctrinam. Duodecies enim deni centum viginti faciunt, quo numero primitiva Ecclesia in Jerusalem Spiritum paracletum accipit <!--<note>(Act. II)</note>-->. Unde subditur:</quote>
+          </p>
+          <p xml:id="gom-num7-d1e410">
+            <quote xml:id="gom-num7-Qd1e412" type="lemma" source="http://scta.info/resource/num7_86@9-9">Pondere,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e415"><name xml:id="gom-num7-Nd1e416" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num7-Qd1e419">Sanctuarium enim Ecclesia est, cujus regulam fidei et intelligentiae sequentes, omnia quae in lege et prophetis scripta sunt nobis salubria esse credimus. Quidquid autem extra Ecclesiae unitatem sentitur et intelligitur aut servatur, animae damnationem parit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e423">
+          <head xml:id="gom-num7-Hd1e425">Versus 87</head>
+          <p xml:id="gom-num7-d1e427">
+            <quote xml:id="gom-num7-Qd1e429" type="lemma" source="http://scta.info/resource/num7_87@1-1">Boves,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e432"><name xml:id="gom-num7-Nd1e433" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num7-Qd1e436">Boves, arietes et <pb ed="#P" n="0395D"/> agni duodenario numero comprehensi, illos significant, qui vel in officio doctoris, vel in principatu alicujus honoris, vel simpliciter viventes, omnia secundum doctrinam apostolicam et propheticam agere student.</quote>
+          </p>
+          <p xml:id="gom-num7-d1e442">
+            <quote xml:id="gom-num7-Qd1e444" type="lemma" source="http://scta.info/resource/num7_87@15-15">Hirci,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e447"><name xml:id="gom-num7-Nd1e448" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num7-Qd1e451">Hi sunt qui poenitentiam student secundum regulam apostolicae fidei perficere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e455">
+          <head xml:id="gom-num7-Hd1e457">Versus 88</head>
+          <p xml:id="gom-num7-d1e459">
+            <quote xml:id="gom-num7-Qd1e461" type="lemma" source="http://scta.info/resource/num7_88@3-3">Boves,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e464"><name xml:id="gom-num7-Nd1e465" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-num7-Qd1e468">In his spiritualis scientia cum bonorum operum perfectione significatur, quia viginti quatuor horis cursus diei peragitur: lumen scientiae et fidei omni Christiano necessarium esse significant.</quote>
+          </p>
+          <p xml:id="gom-num7-d1e471">
+            <quote xml:id="gom-num7-Qd1e473" type="lemma" source="http://scta.info/resource/num7_88@7-7">Sexaginta.</quote>
+            Sexagenarius, id est, sexties denarius perfectionem mandatorum monstrat. Necesse est <pb ed="#P" n="0396A"/> enim ut praelati, subditi, et poenitentes omnia secundum Ecclesiae doctrinam faciant, quatenus oblatio eorum ritum et ordinem teneat pacificorum, ut Dei gratiam mereantur, non offensam.
+          </p>
+        </div>
+        <div xml:id="gom-num7-Dd1e480">
+          <head xml:id="gom-num7-Hd1e482">Versus 89</head>
+          <p xml:id="gom-num7-d1e484">
+            <quote xml:id="gom-num7-Qd1e486" type="lemma" source="http://scta.info/resource/num7_89@1-1">Cumque,</quote>
+            etc.
+            <ref xml:id="gom-num7-Rd1e489"><name xml:id="gom-num7-Nd1e490" ref="#GregoryGreat">GREG.</name>, lib. XXXIII Moral., cap. 21, tom. II.</ref>
+            <quote xml:id="gom-num7-Qd1e494"><seg type="qs">Quid est quod Moyses</seg>, etc., usque ad <seg type="qs">et quomodo benigne descendit ad infima, valenter recurrit ad summa.</seg></quote>
+          </p>
+          <p xml:id="gom-num7-d1e502">
+            <quote xml:id="gom-num7-Qd1e504" type="lemma" source="http://scta.info/resource/num7_89@14-15">De propitiatorio.</quote>
+            Quia per gratiam divinae propitiationis post culpam praevaricationis aperuit nobis Deus viam veritatis.
+          </p>
+          <p xml:id="gom-num7-d1e508">
+            <quote xml:id="gom-num7-Qd1e510" type="lemma" source="http://scta.info/resource/num7_89@21-23">Inter duos cherubin.</quote>
+            Quia per angelicam visionem, non in sua substantia apparuit Deus Moysi; unde: <quote xml:id="gom-num7-Qd1e513" source="http://scta.info/resource/gal3_19@13-18">Lex ordinata per angelos in manu mediatoris</quote>. Vel quia per utrumque Testamentum consona <pb ed="#P" n="0396B"/> voce ad fidem veritatis nos erudit; vel, quia per Filium, qui in medio duorum Testamentorum in carne apparuit, locutus est Pater humano generi.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

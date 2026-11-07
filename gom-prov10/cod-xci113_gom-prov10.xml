@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proverbia, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Proverbia, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1092C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-prov10">
+        <head xml:id="gom-prov10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-prov10-Dd1e100">
+          <head xml:id="gom-prov10-Hd1e102">Versus 1</head>
+          <p xml:id="gom-prov10-d1e104">
+            <quote xml:id="gom-prov10-Qd1e106" type="lemma" source="http://scta.info/resource/prov10_1@1-2">Parabolae Salomonis.</quote>
+            Novum ponit titulum, quia novum genus locutionis incipit, scilicet, ut non, sicut prius, de singulis bonorum malorumve partibus diutius disputet; sed alternis versibus actus utrorumque describat.
+          </p>
+          <p xml:id="gom-prov10-d1e110">
+            <quote xml:id="gom-prov10-Qd1e112" type="lemma" source="http://scta.info/resource/prov10_1@3-4">Filius sapiens.</quote>
+            Qui accepta fidei mysteria bene servat, laetificat Deum Patrem; qui vero haec actione mala vel haeresi commaculat, matrem contristat Ecclesiam.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e117">
+          <head xml:id="gom-prov10-Hd1e119">Versus 2</head>
+          <p xml:id="gom-prov10-d1e121">
+            <quote xml:id="gom-prov10-Qd1e123" type="lemma" source="http://scta.info/resource/prov10_2">Nil proderunt.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-prov10-Qd1e128"><seg type="qs">Et a transitoria morte</seg>, etc., usque ad <seg type="qs">quod pro vita sunt dati, conferunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e137">
+          <head xml:id="gom-prov10-Hd1e139">Versus 3</head>
+          <p xml:id="gom-prov10-d1e141">
+            <pb ed="#P" n="1092D"/>
+            <quote xml:id="gom-prov10-Qd1e145" type="lemma" source="http://scta.info/resource/prov10_3@1-3">Non affliget Dominus.</quote>
+            <quote xml:id="gom-prov10-Qd1e148"><seg type="qs">Et si aliquando</seg>, etc., usque ad <seg type="qs">juste vindicando, retorquet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e157">
+          <head xml:id="gom-prov10-Hd1e159">Versus 4</head>
+          <p xml:id="gom-prov10-d1e161">
+            <quote xml:id="gom-prov10-Qd1e163" type="lemma" source="http://scta.info/resource/prov10_4@1-2">Egestatem operata.</quote>
+            Qui negligenter vivit in hoc saeculo, egebit bonis in futuro; at qui fortiter Domino militant, divitiis aeternae beatitudinis remunerantur.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e169">
+          <head xml:id="gom-prov10-Hd1e171">Versus 5</head>
+          <p xml:id="gom-prov10-d1e173">
+            <quote xml:id="gom-prov10-Qd1e175" type="lemma" source="http://scta.info/resource/prov10_5@1-2">Qui congregat.</quote>
+            Qui congregat Christo animas fidelium, filius sapiens est. Et quidem haec <quote xml:id="gom-prov10-Qd1e178" source="http://scta.info/resource/mt9_37@5-10">messis multa est, operarii vero pauci</quote>. Qui vero hoc tempore acceptabili a sua salute curanda torpescit, confundetur in die tribulationis.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e183">
+          <head xml:id="gom-prov10-Hd1e185">Versus 6</head>
+          <p xml:id="gom-prov10-d1e187">
+            <quote xml:id="gom-prov10-Qd1e189" type="lemma" source="http://scta.info/resource/prov10_6@5-7">Os autem impiorum.</quote>
+            Quod comessationi, ebrietati et colloquiis malis serviebat, propter iniquitatem, quam congessit, condemnabitur. Denique <pb ed="#P" n="1093A"/> <quote xml:id="gom-prov10-Qd1e194" source="http://scta.info/resource/prov10_6@5-5">os</quote> illius <quote xml:id="gom-prov10-Qd1e197">iniquitas operuit</quote> qui in tormentis positus in lingua sibi, in qua ob plura scelera plus punitus est, refrigerium quaesivit.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e201">
+          <head xml:id="gom-prov10-Hd1e203">Versus 7</head>
+          <p xml:id="gom-prov10-d1e205">
+            <quote xml:id="gom-prov10-Qd1e207" type="lemma" source="http://scta.info/resource/prov10_7@1-1">Memoria.</quote>
+            <quote xml:id="gom-prov10-Qd1e210"><seg type="qs">In hac vita boni bonos</seg>, etc., usque ad <seg type="qs">et ignis eorum non exstinguetur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e219">
+          <head xml:id="gom-prov10-Hd1e221">Versus 8</head>
+          <p xml:id="gom-prov10-d1e223">
+            <quote xml:id="gom-prov10-Qd1e225" type="lemma" source="http://scta.info/resource/prov10_8@5-7">Stultus ceditur labiis,</quote>
+            vel suis, quibus damnari meruit, quia <quote xml:id="gom-prov10-Qd1e228" source="http://scta.info/resource/prov18_21@1-6">mors et vita in manibus linguae<!-- check: Migne cites is66; text matches prov18_21 --></quote>, vel eorum a quibus, quia corrigi non potuit, sententiam damnationis accepit; unde: <quote xml:id="gom-prov10-Qd1e232" source="http://scta.info/resource/ps119_2@1-7">Domine, libera animam meam a labiis iniquis</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e237">
+          <head xml:id="gom-prov10-Hd1e239">Versus 9</head>
+          <p xml:id="gom-prov10-d1e241">
+            <quote xml:id="gom-prov10-Qd1e243" type="lemma" source="http://scta.info/resource/prov10_9@1-2">Qui ambulat,</quote>
+            <quote xml:id="gom-prov10-Qd1e246"><seg type="qs">qui simpliciter se vivere novit</seg>, etc., usque ad <seg type="qs">ac digna factis recipit, <quote xml:id="gom-prov10-Qd1e252" source="http://scta.info/resource/mt10_26@5-10">nihil enim occultum quod non reveletur</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e258">
+          <head xml:id="gom-prov10-Hd1e260">Versus 13</head>
+          <p xml:id="gom-prov10-d1e262">
+            <quote xml:id="gom-prov10-Qd1e264" type="lemma" source="http://scta.info/resource/prov10_13@7-10">Virga in dorso ejus.</quote>
+            <quote xml:id="gom-prov10-Qd1e267"><seg type="qs">Vindicta in sequenti <pb ed="#P" n="1093B"/> vita</seg>, etc., usque ad <seg type="qs">recte subditur: <quote xml:id="gom-prov10-Qd1e275" source="http://scta.info/resource/prov10_14@1-2">Sapientes abscondunt,</quote> etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e282">
+          <head xml:id="gom-prov10-Hd1e284">Versus 15</head>
+          <p xml:id="gom-prov10-d1e286">
+            <quote xml:id="gom-prov10-Qd1e288" type="lemma" source="http://scta.info/resource/prov10_15@1-2">Substantia divitis.</quote>
+            Spiritualiter: Qui in Deum dives est per bona opera, confidit in illo, quasi qui in urbe inexpugnabili, quae a nullo hoste possit superari; at, qui virtutum inopia coangustantur, ideo coelestibus egent divitiis, quia noxio pavore timent duros pro Domino tolerare labores.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e293">
+          <head xml:id="gom-prov10-Hd1e295">Versus 18</head>
+          <p xml:id="gom-prov10-d1e297">
+            <quote xml:id="gom-prov10-Qd1e299" type="lemma" source="http://scta.info/resource/prov10_18">Abscondunt scientiam,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Si ergo verax et sapiens esse desideras, odium neque in abscondito cordis conteges, neque per oris contumeliam proferas; sed tuum cor dilectione et os veritate repleatur.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e306">
+          <head xml:id="gom-prov10-Hd1e308">Versus 23</head>
+          <p xml:id="gom-prov10-d1e310">
+            <quote xml:id="gom-prov10-Qd1e312" type="lemma" source="http://scta.info/resource/prov10_23@1-6">Quasi per risum stultus operatur scelus.</quote>
+            Prudentia a providendo nomen accepit. Stultus <pb ed="#P" n="1093C"/> est igitur qui gaudet in scelere. Sapientis autem est et ejus qui viri nomine dignus sit, praevidere, quia risus dolore miscebitur, et gaudia peccandi poena sequetur ultionis.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e319">
+          <head xml:id="gom-prov10-Hd1e321">Versus 24</head>
+          <p xml:id="gom-prov10-d1e323">
+            <quote xml:id="gom-prov10-Qd1e325" type="lemma" source="http://scta.info/resource/prov10_24@1-5">Quod timet impius, veniet super.</quote>
+            <quote xml:id="gom-prov10-Qd1e328"><seg type="qs">De illo impio dicit</seg>, etc., usque ad <seg type="qs">quod corde tenent, adveniet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e337">
+          <head xml:id="gom-prov10-Hd1e339">Versus 25</head>
+          <p xml:id="gom-prov10-d1e341">
+            <quote xml:id="gom-prov10-Qd1e343" type="lemma" source="http://scta.info/resource/prov10_25@1-2">Quasi tempestas.</quote>
+            De persecutoribus Ecclesiae dicit, qui domum fidei subvertere quaerunt. Sed illa in vero fundamento, id est, in Christo collocata, ipsi extemplo dispereunt.
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e348">
+          <head xml:id="gom-prov10-Hd1e350">Versus 26</head>
+          <p xml:id="gom-prov10-d1e352">
+            <quote xml:id="gom-prov10-Qd1e354" type="lemma" source="http://scta.info/resource/prov10_26@1-3">Sicut acetum dentibus.</quote>
+            <quote xml:id="gom-prov10-Qd1e357"><seg type="qs">Sicut haereticorum perfidia</seg>, etc., usque ad <seg type="qs">et etiam verbis impugnant, unde: <quote xml:id="gom-prov10-Qd1e363" source="http://scta.info/resource/Iio2_19@1-6">A nobis exierunt, sed ex nobis non erant</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e370">
+          <head xml:id="gom-prov10-Hd1e372">Versus 28</head>
+          <p xml:id="gom-prov10-d1e374">
+            <pb ed="#P" n="1093D"/>
+            <quote xml:id="gom-prov10-Qd1e378" type="lemma" source="http://scta.info/resource/prov10_28@4-5">Spes autem.</quote>
+            <quote xml:id="gom-prov10-Qd1e381"><seg type="qs">Non contra id quod supra dicitur</seg>, etc., usque ad <seg type="qs">De his qui scienter delinquunt, adjungit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-prov10-Dd1e390">
+          <head xml:id="gom-prov10-Hd1e392">Versus 29</head>
+          <p xml:id="gom-prov10-d1e394">
+            <quote xml:id="gom-prov10-Qd1e396" type="lemma" source="http://scta.info/resource/prov10_29@1-6">Fortitudo simplicis via ejus, et pavor.</quote>
+            <quote xml:id="gom-prov10-Qd1e399"><seg type="qs">Si obscura Scripturarum</seg>, etc., usque ad <seg type="qs">operari contemnunt.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

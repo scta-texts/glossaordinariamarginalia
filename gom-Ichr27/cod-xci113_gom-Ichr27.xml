@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon I, Caput 27</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon I, Caput 27</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0661D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ichr27">
+        <head xml:id="gom-Ichr27-Hd1e98">Caput 27</head>
+        <div xml:id="gom-Ichr27-Dd1e100">
+          <head xml:id="gom-Ichr27-Hd1e102">Versus 24</head>
+          <p xml:id="gom-Ichr27-d1e104">
+            <quote xml:id="gom-Ichr27-Qd1e106" type="lemma" source="http://scta.info/resource/Ichr27_24@22-26">Non est relatus in fastos.</quote>
+            <ref xml:id="gom-Ichr27-Rd1e109"><name xml:id="gom-Ichr27-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr27-Qd1e113">Quia superveniente ira conturbatus est numerus, nec juxta eum fuerunt distributi in ministeria.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr27-Dd1e117">
+          <head xml:id="gom-Ichr27-Hd1e119">Versus 25</head>
+          <p xml:id="gom-Ichr27-d1e121">
+            <quote xml:id="gom-Ichr27-Qd1e123" type="lemma" source="http://scta.info/resource/Ichr27_25@1-2">Super thesauros,</quote>
+            etc.
+            <ref xml:id="gom-Ichr27-Rd1e126"><name xml:id="gom-Ichr27-Nd1e127" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ichr27-Qd1e130">Thesaurus Christi scientia, sapientia virtutis, ex his honorat servientes sibi. His praeficitur Azmoth, qui interpretatur fortis morte, doctrina enim viri per patientiam dignoscitur; unde: <quote xml:id="gom-Ichr27-Qd1e132" source="http://scta.info/resource/prov16_32@1-5">Melior est patiens viro forti</quote>. Azmoth etiam filius Adiel, qui interpretatur pater meus Deus. Quidquid enim sancti virtutum habent, Deo attribuunt.</quote>
+          </p>
+          <p xml:id="gom-Ichr27-d1e137">
+            <pb ed="#P" n="0662A"/>
+            <quote xml:id="gom-Ichr27-Qd1e141" type="lemma" source="http://scta.info/resource/Ichr27_25@9-11">His autem thesauris.</quote>
+            Ille enim veri Salomonis thesauris in urbibus, vicis, et turribus merito praefertur, qui dignitatem nominis Jonathae, et patris ejus Oziae fide praefert et opere. Jonathas enim domum Dei, et Ozias fortitudo Domini. Qui enim dono Dei accipit lumen scientiae, et rectitudinem fidei fortiter servat in opere, ecclesiarum Dei curam non immerito accipit.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr27-Dd1e146">
+          <head xml:id="gom-Ichr27-Hd1e148">Versus 26</head>
+          <p xml:id="gom-Ichr27-d1e150">
+            <quote xml:id="gom-Ichr27-Qd1e152" type="lemma" source="http://scta.info/resource/Ichr27_26@10-12">Ezri filius Chelub.</quote>
+            Ezri adjutus Domino; Semeias audiens Dominum; Zabdias fructus vehemens vel abundans. Qui enim audit praecepta Domini, ope misericordiae ejus adjutus, abundantem boni operis fructum congregat in vitam aeternam.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr27-Dd1e157">
+          <head xml:id="gom-Ichr27-Hd1e159">Versus 28</head>
+          <p xml:id="gom-Ichr27-d1e161">
+            <quote xml:id="gom-Ichr27-Qd1e163" type="lemma" source="http://scta.info/resource/Ichr27_28@3-9">Oliveta et ficeta, quae erant in campestribus,</quote>
+            etc. In his olivae et ficus sunt, et significant <pb ed="#P" n="0662B"/> coetus sanctorum, qui misericordiae oleum habent in pectore, et mansuetudinis dulcedinem in mortalitate. Quae virtutes in campestribus, quae in propatulo et praesto sunt omnibus, nec acceptionem personarum, sed bonae voluntatis rectitudinem quaerunt auditoribus suis.
+          </p>
+          <p xml:id="gom-Ichr27-d1e169">
+            <quote xml:id="gom-Ichr27-Qd1e171" type="lemma" source="http://scta.info/resource/Ichr27_28@10-11">Balanam Gederites.</quote>
+            Balanam, qui interpretatur habens gratiam, super oliveta et ficeta constituitur. Ex Dei enim gratia datur bonorum operum ubertas. Joas vero, qui interpretatur sperans vel Domini robur, apothecas olei custodit, quia nemo pervenit ad praemium nisi qui per robur mentis fiducia spei tendit ad coeleste regnum.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr27-Dd1e177">
+          <head xml:id="gom-Ichr27-Hd1e179">Versus 29</head>
+          <p xml:id="gom-Ichr27-d1e181">
+            <quote xml:id="gom-Ichr27-Qd1e183" type="lemma" source="http://scta.info/resource/Ichr27_29@16-16">Saphat.</quote>
+            Qui interpretatur <mentioned>judicavi</mentioned>, filius Abdi, id est patris gratiae, significat apostolos <pb ed="#P" n="0662C"/> aliis doctoribus electione Domini praefectos, quibus dicitur: <quote xml:id="gom-Ichr27-Qd1e190" source="http://scta.info/resource/mt19_28@24-33">Sedebitis et vos super duodecim sedes, judicantes duodecim tribus Israel</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr27-Dd1e195">
+          <head xml:id="gom-Ichr27-Hd1e197">Versus 30</head>
+          <p xml:id="gom-Ichr27-d1e199">
+            <quote xml:id="gom-Ichr27-Qd1e201" type="lemma" source="http://scta.info/resource/Ichr27_30@1-9">Super camelos vero Ubil Ismaelites, et super asinos Jadias.</quote>
+            Deformia et immunda sunt haec animalia, et significant gentiles peccato distortos et libidine immundos, sed in regnum nostri David venientes habent magistros Ubil et Jadias, qui spernentes philosophiam et inanem fallaciam mundi, elegerunt simplicitatem Evangelii, tanquam humiles et despecti, unde: <quote xml:id="gom-Ichr27-Qd1e204" source="http://scta.info/resource/Icor3_18@4-15">Si quis videtur inter vos sapiens esse, stultus fiat</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr27-Dd1e209">
+          <head xml:id="gom-Ichr27-Hd1e211">Versus 32</head>
+          <p xml:id="gom-Ichr27-d1e213">
+            <quote xml:id="gom-Ichr27-Qd1e215" type="lemma" source="http://scta.info/resource/Ichr27_32@1-1">Jonathan.</quote>
+            <ref xml:id="gom-Ichr27-Rd1e218"><name xml:id="gom-Ichr27-Nd1e219" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr27-Qd1e222"><seg type="qs">Cum Jonathan fuit</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-Ichr27-Qd1e228">Super quem requiescet Spiritus meus, nisi super humilem et quietum et trementem <pb ed="#P" n="0662D"/> sermones meos?</quote></seg></quote>
+          </p>
+          <p xml:id="gom-Ichr27-d1e234">
+            <ref xml:id="gom-Ichr27-Rd1e236" type="lemma" subtype="implied" target="http://scta.info/resource/Ichr27_32@1-1"/>
+            <quote xml:id="gom-Ichr27-Qd1e238" source="http://scta.info/resource/IIsam16_15@12-12">Achitophel</quote>. Qui postea cupiditate de pravatus cum Absalon de nece David tractavit, et interpretatur frater meus cadens, vel irruens vel tractans. Hic est Judas Scarioth, qui inter apostolos familiaris Domino fuit, sed postea cum Judaeis avaritia corruptus de morte ejus tractando, perpetuae mortis ruinam meruit, qui etiam, secundum librum Regum, laqueo se suspendit. Possunt etiam per Achitophel Judaei significari, qui Patrum praerogativa aliquando charissimi et collocutione Dei fuere clarissimi: sed postea contra Christum consilium mortis facientes, a Romanis in propria domo sicut Achitophel, id est, in Jerusalem exstincti sunt.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr27-Dd1e243">
+          <head xml:id="gom-Ichr27-Hd1e245">Versus 33</head>
+          <p xml:id="gom-Ichr27-d1e247">
+            <pb ed="#P" n="0663A"/>
+            <quote xml:id="gom-Ichr27-Qd1e251" type="lemma" source="http://scta.info/resource/Ichr27_33">Chusai.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Id est, Aethiops et David fidelis, per omnia gentiles signat, de quibus dicitur: <quote xml:id="gom-Ichr27-Qd1e256" source="http://scta.info/resource/ps17_45@1-12">Populus quem non cognovi servivit mihi, in auditu auris obedivit mihi</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr27-Dd1e261">
+          <head xml:id="gom-Ichr27-Hd1e263">Versus 34</head>
+          <p xml:id="gom-Ichr27-d1e265">
+            <quote xml:id="gom-Ichr27-Qd1e267" type="lemma" source="http://scta.info/resource/Ichr27_34@1-4">Post Achitophel fuit Joiada.</quote>
+            Praevaricante Juda non remansit vacuus duodecimus locus: sed successit cognoscens gratiam Dei Matthias humilis et fidelis: qui gratiam quam dono Dei percepit, humiliter servavit. Interpretatur enim Joiada sciens vel cognoscens; Banaias aedificator Domini. Quem enim gratia Dei in apostolum elegit, agnitio sanae fidei in ipsa dignitate solidavit. Abiathar, qui ad tempus est inter consiliarios David, sed in electione a Domino cum Joab contra Salomonem deviavit, significat eos qui dignitatis suae gradum, <pb ed="#P" n="0663B"/> quem a Domino perceperunt, cupiditate corrupti non custodiunt. Hi enim a vero Salomone si in carcere poenitentiae juxta timorem Achitophel permanere noluerint, in perpetuum puniendi sunt.
+          </p>
+          <p xml:id="gom-Ichr27-d1e273">
+            <quote xml:id="gom-Ichr27-Qd1e275" type="lemma" source="http://scta.info/resource/Ichr27_34@14-14">Joab.</quote>
+            Id est, inimicus, signat eos ex quorum persona dicitur: <quote xml:id="gom-Ichr27-Qd1e278" source="http://scta.info/resource/ps118_128@2-12">Ad omnia mandata tua dirigebar, omnem viam iniquitatis odio habui</quote>, quibus alibi dicitur: <quote xml:id="gom-Ichr27-Qd1e281" source="http://scta.info/resource/mt5_48@1-11">Estote perfecti sicut Pater vester coelestis perfectus est</quote>. Interpretatur enim Joab idem pater.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

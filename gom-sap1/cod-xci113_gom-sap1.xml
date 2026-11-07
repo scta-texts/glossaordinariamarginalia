@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1167B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap1">
+        <head xml:id="gom-sap1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-sap1-Dd1e100">
+          <head xml:id="gom-sap1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sap1-d1e104">
+            <quote xml:id="gom-sap1-Qd1e106" type="lemma" source="http://scta.info/resource/sap1_1@1-2">Diligite justitiam,</quote>
+            etc.
+            <ref xml:id="gom-sap1-Rd1e109"><name xml:id="gom-sap1-Nd1e110" ref="#RabanusMaurus">RAB.</name> in lib. Sap., tom. III.</ref>
+            <quote xml:id="gom-sap1-Qd1e114">Hunc librum Hieronymus asserit non a Salomone, etc., <quote xml:id="gom-sap1-Qd1e116">usque ad Diligite justitiam,</quote> etc.</quote>
+          </p>
+          <p xml:id="gom-sap1-d1e120">
+            <quote xml:id="gom-sap1-Qd1e122" type="lemma" source="http://scta.info/resource/sap1_1@5-5">Terram.</quote>
+            Carnem, scilicet discrete reprimitis, ne superbiat contra spiritum. Quasi: <quote xml:id="gom-sap1-Qd1e125" source="http://scta.info/resource/mt6_33@3-4">Primum quaerite regnum Dei</quote>, etc.
+          </p>
+          <p xml:id="gom-sap1-d1e129">
+            <quote xml:id="gom-sap1-Qd1e131" type="lemma" source="http://scta.info/resource/sap1_1@12-13">In simplicitate.</quote>
+            Id est voluntati illius vos subjicite: et mandata custodite; <pb ed="#P" n="1167C"/> quasi dicat: Qui non intelligitis, nolite reprehendere, quia secreta Dei non possunt humana ratione comprehendi, quia incomprehensibilia sunt judicia ejus, et investigabiles viae ejus <!--<note>(Rom. XI)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-sap1-Dd1e140">
+          <head xml:id="gom-sap1-Hd1e142">Versus 4</head>
+          <p xml:id="gom-sap1-d1e144">
+            <quote xml:id="gom-sap1-Qd1e146" type="lemma" source="http://scta.info/resource/sap1_4@1-3">Quoniam in malevolam,</quote>
+            etc. Id est in animali homine, juxta illud: <quote xml:id="gom-sap1-Qd1e149" source="http://scta.info/resource/Icor2_14@1-5">Animalis homo non percipit</quote>, etc. Et ideo non dixit spiritum, id est animam spiritualem.
+          </p>
+          <p xml:id="gom-sap1-d1e153">
+            <ref xml:id="gom-sap1-Rd1e155" type="lemma" subtype="implied" target="http://scta.info/resource/sap1_4@1-3"/>
+            <ref xml:id="gom-sap1-Rd1e157"><name xml:id="gom-sap1-Nd1e158" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap1-Qd1e161">Frustra sibi blandiuntur philosophi, et haeretici, et falsi Christiani. Soli enim mundo corde sapientiam Dei possunt cipere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap1-Dd1e165">
+          <head xml:id="gom-sap1-Hd1e167">Versus 6</head>
+          <p xml:id="gom-sap1-d1e169">
+            <quote xml:id="gom-sap1-Qd1e171" type="lemma" source="http://scta.info/resource/sap1_6@1-1">Benignus.</quote>
+            Contra illos invehitur, qui cogitationes bonas et malas dicunt a Deo immitti; cum Deus velit omnes salvos fieri homines, et ad <pb ed="#P" n="1167D"/> cognitionem veritatis venire. Ipse enim neminem tentat, ut decipiat, sed ut probet, unde: <quote xml:id="gom-sap1-Qd1e176" source="http://scta.info/resource/gen22_1@5-7">Tentavit Deus Abraham</quote>; et, <quote xml:id="gom-sap1-Qd1e179" source="http://scta.info/resource/ps25_2@1-6">Proba me et tenta me</quote>, etc. Unusquisque autem tentatur a concupiscentia sua, et justo Dei judicio permittitur cadere, qui spiritui veritatis noluit obedire.
+          </p>
+        </div>
+        <div xml:id="gom-sap1-Dd1e184">
+          <head xml:id="gom-sap1-Hd1e186">Versus 7</head>
+          <p xml:id="gom-sap1-d1e188">
+            <quote xml:id="gom-sap1-Qd1e190" type="lemma" source="http://scta.info/resource/sap1_7@7-11">Et hoc quod continet omnia.</quote>
+            Id est Spiritus, qui omnia gubernat et regit. Vel, qui attingit a fine usque ad finem, <quote xml:id="gom-sap1-Qd1e193" source="http://scta.info/resource/sap1_7@12-14">scientiam habet vocis,</quote> id est, intelligentiam Scripturarum praestat hominibus. Vel, <quote xml:id="gom-sap1-Qd1e196" source="http://scta.info/resource/sap1_7@9-11">quod continet omnia,</quote> id est, homo qui convenientem habet cum omni creatura.
+          </p>
+          <p xml:id="gom-sap1-d1e200">
+            <quote xml:id="gom-sap1-Qd1e202" type="lemma" source="http://scta.info/resource/sap1_7@12-14">Scientiam habet vocis,</quote>
+            id est diversarum linguarum Spiritu sancto, qui dedit apostolis loqui diversis linguis magnalia Dei. Vel <quote xml:id="gom-sap1-Qd1e205" source="http://scta.info/resource/sap1_7@9-11">quod continet omnia,</quote> id est Spiritus sanctus, <pb ed="#P" n="1168B"/> qui omnia replet sua essentia, <quote xml:id="gom-sap1-Qd1e210" source="http://scta.info/resource/sap1_7@12-14">scientiam habet vocis,</quote> id est Verbi Dei, id est ejusdem est scientiae cum Verbo. Vel, <quote xml:id="gom-sap1-Qd1e213" source="http://scta.info/resource/sap1_7@8-11">hoc quod continet omnia,</quote> id est Ecclesiam, in qua <quote xml:id="gom-sap1-Qd1e217" source="http://scta.info/resource/Icor12_8@1-7">alii datur sermo scientiae,</quote> etc.
+          </p>
+          <p xml:id="gom-sap1-d1e221">
+            <ref xml:id="gom-sap1-Rd1e223" type="lemma" subtype="implied" target="http://scta.info/resource/sap1_7@12-14"/>
+            <ref xml:id="gom-sap1-Rd1e225"><name xml:id="gom-sap1-Nd1e226" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap1-Qd1e229">Qui in principio <quote xml:id="gom-sap1-Qd1e231" source="http://scta.info/resource/gen7_18@11-13">ferebatur super aquas,</quote> et majestate sua omnem creaturam implet et continet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap1-Dd1e238">
+          <head xml:id="gom-sap1-Hd1e240">Versus 8</head>
+          <p xml:id="gom-sap1-d1e242">
+            <quote xml:id="gom-sap1-Qd1e244" type="lemma" source="http://scta.info/resource/sap1_8@1-2">Propter hoc.</quote>
+            <ref xml:id="gom-sap1-Rd1e247"><name xml:id="gom-sap1-Nd1e248" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap1-Qd1e251">Sicut electi donum scientiae et pietatis per Spiritum accipiunt: sic reprobi, superbia sua inflati, errorem suum impudenter proferunt; quoniam spiritum Dei celare non possunt, nec justam poenam evadunt: quia sicut oculi Domini super justos, et aures ejus in preces eorum, ita vultus Domini super facientes mala.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap1-Dd1e255">
+          <head xml:id="gom-sap1-Hd1e257">Versus 11</head>
+          <p xml:id="gom-sap1-d1e259">
+            <quote xml:id="gom-sap1-Qd1e261" type="lemma" source="http://scta.info/resource/sap1_11@1-2">Custodite ergo.</quote>
+            <ref xml:id="gom-sap1-Rd1e264"><name xml:id="gom-sap1-Nd1e265" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap1-Qd1e268">Perniciosae sunt murmurationes et detractiones, unde: <quote xml:id="gom-sap1-Qd1e270" source="http://scta.info/resource/rom1_30@1-3">Susurrones <pb ed="#P" n="1168C"/> enim et detractores Deo sunt odibiles</quote>; unde: <quote xml:id="gom-sap1-Qd1e275" source="http://scta.info/resource/prov13_13@1-9">Qui detrahit alicui rei, in futurum se obligat</quote>.</quote>
+          </p>
+          <p xml:id="gom-sap1-d1e280">
+            <quote xml:id="gom-sap1-Qd1e282" type="lemma" source="http://scta.info/resource/sap1_11@21-24">Os quod mentitur.</quote>
+            <ref xml:id="gom-sap1-Rd1e285"><name xml:id="gom-sap1-Nd1e286" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sap1-Qd1e289"><seg type="qs">Est mendacium levioris culpae</seg>, etc., usque ad <seg type="qs">et ipsum bonum remunerat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap1-Dd1e298">
+          <head xml:id="gom-sap1-Hd1e300">Versus 12</head>
+          <p xml:id="gom-sap1-d1e302">
+            <quote xml:id="gom-sap1-Qd1e304" type="lemma" source="http://scta.info/resource/sap1_12@1-2">Nolite zelare.</quote>
+            <ref xml:id="gom-sap1-Rd1e307"><name xml:id="gom-sap1-Nd1e308" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sap1-Qd1e311"><seg type="qs">Enumeravit, quae sunt homini noxia</seg>, etc., usque ad <seg type="qs">sed potius ex vitio.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap1-Dd1e320">
+          <head xml:id="gom-sap1-Hd1e322">Versus 16</head>
+          <p xml:id="gom-sap1-d1e324">
+            <quote xml:id="gom-sap1-Qd1e326" type="lemma" source="http://scta.info/resource/sap1_16@13-14">Et sponsiones.</quote>
+            Percussimus foedus cum morte, et cum inferno fecimus pactum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

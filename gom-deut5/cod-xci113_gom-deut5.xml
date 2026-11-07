@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium, Caput 5</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Deuteronomium, Caput 5</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0457C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-deut5">
+        <head xml:id="gom-deut5-Hd1e98">Caput 5</head>
+        <div xml:id="gom-deut5-Dd1e100">
+          <head xml:id="gom-deut5-Hd1e102">Versus 1</head>
+          <p xml:id="gom-deut5-d1e104">
+            <quote xml:id="gom-deut5-Qd1e106" type="lemma" source="http://scta.info/resource/deut5_1@9-10">Audi, Israel,</quote>
+            etc.
+            <ref xml:id="gom-deut5-Rd1e109"><name xml:id="gom-deut5-Nd1e110" ref="#Augustine">AUG.</name>, quaest. 9 in Deut.</ref>
+            <quote xml:id="gom-deut5-Qd1e114"><seg type="qs">An ideo dictum est</seg>, etc., usque ad <seg type="qs">et videre, et audire, et memoria retinere?</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut5-Dd1e123">
+          <head xml:id="gom-deut5-Hd1e125">Versus 4</head>
+          <p xml:id="gom-deut5-d1e127">
+            <quote xml:id="gom-deut5-Qd1e129" type="lemma" source="http://scta.info/resource/deut5_4@1-3">Facie ad faciem,</quote>
+            etc.
+            <ref xml:id="gom-deut5-Rd1e132"><name xml:id="gom-deut5-Nd1e133" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-deut5-Qd1e136"><seg type="qs">Paulo ante admonere curavit</seg>, etc., usque ad <seg type="qs">quamvis aliqui hoc speraverint.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut5-Dd1e145">
+          <head xml:id="gom-deut5-Hd1e147">Versus 5</head>
+          <p xml:id="gom-deut5-d1e149">
+            <quote xml:id="gom-deut5-Qd1e151" type="lemma" source="http://scta.info/resource/deut5_5">Inter vos et Deum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-deut5-Rd1e156"><name xml:id="gom-deut5-Nd1e157" ref="#Augustine">ID.</name>, quaest. 10.</ref>
+            <quote xml:id="gom-deut5-Qd1e161"><seg type="qs">Tanquam <pb ed="#P" n="0457D"/> Dominus esset in loco</seg>, etc., usque ad <seg type="qs">audiens de medio ignis vocem Dei dicentis decalogum legis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut5-Dd1e172">
+          <head xml:id="gom-deut5-Hd1e174">Versus 9</head>
+          <p xml:id="gom-deut5-d1e176">
+            <quote xml:id="gom-deut5-Qd1e178" type="lemma" source="http://scta.info/resource/deut5_9@15-16">Reddens iniquitatem,</quote>
+            etc.
+            <ref xml:id="gom-deut5-Rd1e181"><name xml:id="gom-deut5-Nd1e182" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-deut5-Qd1e185"><seg type="qs">Sunt qui ita edisserant</seg>, etc., usque ad <seg type="qs">sed sententiam diu differat.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut5-Dd1e195">
+          <head xml:id="gom-deut5-Hd1e197">Versus 10</head>
+          <p xml:id="gom-deut5-d1e199">
+            <quote xml:id="gom-deut5-Qd1e201" type="lemma" source="http://scta.info/resource/deut5_10@1-8">His qui oderunt me, et faciens misericordiam in multa millia diligentibus me,</quote>
+            etc. His scilicet, qui haereditaria impietate Dominum oderunt. Perversum est enim peccata patrum filiis non peccantibus imputari, cum per Ezechielem dictum sit: <quote xml:id="gom-deut5-Qd1e204" source="http://scta.info/resource/ez18_20@6-9">Filius non portabit iniquitatem,</quote> etc. <!--<note>(Ezech. XVIII)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-deut5-Dd1e211">
+          <head xml:id="gom-deut5-Hd1e213">Versus 11</head>
+          <p xml:id="gom-deut5-d1e215">
+            <quote xml:id="gom-deut5-Qd1e217" type="lemma" source="http://scta.info/resource/deut5_11@1-7">Non usurpabis nomen Domini Dei frustra,</quote>
+            etc. Primum mandatum ad Patrem pertinet quod dicitur in sequentibus: <quote xml:id="gom-deut5-Qd1e220" source="http://scta.info/resource/deut6_4@1-8">Audi, Israel, Dominus <pb ed="#P" n="0458A"/> Deus tuus unus est</quote>; ut hoc scilicet audiens, unum Deum Patrem colas, non multos deos suscipias. Secundum pertinet ad Filium, de quo hic dicitur: <quote xml:id="gom-deut5-Qd1e225" source="http://scta.info/resource/ex20_7@1-8">Non assumes nomen Dei tui in vanum,</quote> id est, non aestimes creaturam esse Dei Filium. Omnis enim creatura subjecta est vanitati, sed credas eum aequalem Patri, Deum deorum, Deum apud Deum, per quem omnia facta sunt. Tertium ad Spiritum, cujus dono requies aeterna promittitur: quia enim Spiritus sanctus dicitur septiformis, ideo septimum diem sanctificavit Deus. In aliis enim diebus operum sanctificatio non nominatur, nisi in sabbato, in quo requievit Deus. Recte ergo hoc mandatum pertinet ad Spiritum: tum propter sanctificationis nomen; tum propter aeternam requiem, ad donum sancti <pb ed="#P" n="0458B"/> Spiritus pertinentem. Dicitur enim sic: <quote xml:id="gom-deut5-Qd1e230" source="http://scta.info/resource/ex20_8@1-5">Memento ut diem sabbati sanctifices: sex diebus operaberis,</quote> etc. In opere sex dierum, etc., videtur sex millium annorum operatio signari, in septimo tempus aeternae quietis, in quo post bona opera quies aeterna promittitur. Quidquid ergo agimus, si propter futuram requiem facimus, sabbatum observamus.
+          </p>
+        </div>
+        <div xml:id="gom-deut5-Dd1e235">
+          <head xml:id="gom-deut5-Hd1e237">Versus 16</head>
+          <p xml:id="gom-deut5-d1e239">
+            <quote xml:id="gom-deut5-Qd1e241" type="lemma" source="http://scta.info/resource/deut5_16@1-8">Honora patrem tuum et matrem, sicut praecepit tibi.</quote>
+            Post tria praecepta succedunt septem quae ad proximum pertinent. Inter septem primum, sed in ordine omnium quartum est: <quote xml:id="gom-deut5-Qd1e244" source="http://scta.info/resource/deut5_16@1-3">Honora patrem tuum,</quote> etc. A parentibus enim homo oculos aperit, et vita haec ab eorum dilectione exordium sumit: unde hoc mandatum, maximum et primum dicitur in altera scilicet tabula. Jubemur ergo parentes honorare, et <pb ed="#P" n="0458C"/> officium pietatis et reverentiam eis exhibere; qui enim hoc parentibus non facit, quomodo faciet aliis? Quintum: <quote xml:id="gom-deut5-Qd1e249">Non maechaberis.</quote> Id est praeter legitimam uxorem nulli misceberis. Sextum: <quote xml:id="gom-deut5-Qd1e251" source="http://scta.info/resource/deut5_17@1-2">Non occides.</quote> Occidit etiam qui fame vel nuditate proximum mori videt, nec subvenit in quantum potest. Septimum: <quote xml:id="gom-deut5-Qd1e255" source="http://scta.info/resource/deut5_14@11-12">Non furtum facies.</quote> In quo omnem rapinam prohibet. Octavum: <quote xml:id="gom-deut5-Qd1e258" source="http://scta.info/resource/lc18_20@10-13">Non falsum testimonium dices.</quote> Crimen mendacii et falsitatis abominatur. Nonum: <quote xml:id="gom-deut5-Qd1e261" source="http://scta.info/resource/deut5_21@1-5">Non concupisces uxorem proximi tui.</quote> In quo etiam adulterinam cogitationem interdicit. Decimum: <quote xml:id="gom-deut5-Qd1e264" source="http://scta.info/resource/deut5_21@1-5">Non concupisces rem proximi tui.</quote> In quo ambitionem et concupiscentiam percutit. Primum ergo prohibet subreptionem; secundum, errorem; tertium <pb ed="#P" n="0458D"/> saeculi amorem; quartum, impietatem; quintum, fornicationem; sextum, crudelitatem; septimum, rapacitatem; octavum, falsitatem; nonum, cogitationem adulterii; decimum, cupiditatem mundi. Et notandum, quod sicut decem plagis percutiuntur Aegyptii, sic decem praeceptis regitur populus Dei, et daemones occiduntur.
+          </p>
+        </div>
+        <div xml:id="gom-deut5-Dd1e271">
+          <head xml:id="gom-deut5-Hd1e273">Versus 22</head>
+          <p xml:id="gom-deut5-d1e275">
+            <quote xml:id="gom-deut5-Qd1e277" type="lemma" source="http://scta.info/resource/deut5_22@27-33">In duabus tabulis lapideis quas tradidit mihi.</quote>
+            <ref xml:id="gom-deut5-Rd1e280"><name xml:id="gom-deut5-Nd1e281" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-deut5-Qd1e284"><seg type="qs">Duo Testamenta</seg>, etc., usque ad <seg type="qs">sensibile scilicet et intelligibile.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut5-Dd1e293">
+          <head xml:id="gom-deut5-Hd1e295">Versus 29</head>
+          <p xml:id="gom-deut5-d1e297">
+            <quote xml:id="gom-deut5-Qd1e299" type="lemma" source="http://scta.info/resource/deut5_29@1-6">Quis det talem eos habere mentem?</quote>
+            Vult Deus intelligi gratia sua hoc beneficium concedi, ut in omnibus sit justitia Dei ex fide, non quasi propria ex lege, unde: <quote xml:id="gom-deut5-Qd1e302" source="http://scta.info/resource/ez36_26@14-24">Auferam eis cor lapideum, et dabo cor carneum</quote>, id est, <pb ed="#P" n="0459A"/> sensatum, caro enim sensum habet, lapis vero non habet; et alibi: <quote xml:id="gom-deut5-Qd1e307" source="http://scta.info/resource/IIcor3_6@3-12">Idoneos nos fecit ministros Novi Testamenti, non littera sed spiritu.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

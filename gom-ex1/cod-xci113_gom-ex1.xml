@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0183B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex1">
+        <head xml:id="gom-ex1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-ex1-Dd1e100">
+          <head xml:id="gom-ex1-Hd1e102">Versus 5</head>
+          <p xml:id="gom-ex1-d1e104">
+            <quote xml:id="gom-ex1-Qd1e106" type="lemma" source="http://scta.info/resource/ex1_5@1-12">Erant igitur omnes animae eorum qui <pb ed="#P" n="0183C"/> egressi sunt de femore Jacob, septuaginta,</quote>
+            etc. Septuaginta animae, id est, septuaginta discipuli, cum Jacob, id est, Christo, ingrediuntur in Aegyptum, id est, mundum, missi scilicet ad praedicandum. Aliter, septuaginta animae Aegyptum ingressae, mystice in numero remissionis accipiuntur, ut huic scilicet saeculo, quod per Aegyptum figuratur, post tanta peccata detur remissio peccatorum.
+          </p>
+        </div>
+        <div xml:id="gom-ex1-Dd1e113">
+          <head xml:id="gom-ex1-Hd1e115">Versus 6</head>
+          <p xml:id="gom-ex1-d1e117">
+            <quote xml:id="gom-ex1-Qd1e119" type="lemma" source="http://scta.info/resource/ex1_6@1-2">Quo mortuo,</quote>
+            etc.
+            <ref xml:id="gom-ex1-Rd1e122"><name xml:id="gom-ex1-Nd1e123" ref="#IsidoreOfSeville">ISID.</name> in Exod.</ref>
+            <quote xml:id="gom-ex1-Qd1e127">Sic postquam verus Joseph pro omnibus gustavit mortem, et destruxit eum qui mortis imperium habebat, multiplicatus est populus fidelium. Nisi enim in terra granum mortuum fuisset, solum mansisset.</quote>
+          </p>
+          <p xml:id="gom-ex1-d1e130">
+            <ref xml:id="gom-ex1-Rd1e132" type="lemma" subtype="implied" target="http://scta.info/resource/ex1_6@1-2"/>
+            <ref xml:id="gom-ex1-Rd1e134"><name xml:id="gom-ex1-Nd1e135" ref="#Origen">ORIG.</name>, hom. 1, in Exod.</ref>
+            <quote xml:id="gom-ex1-Qd1e139">Si moriatur in te Joseph, <pb ed="#P" n="0183D"/> id est, mortificationem Christi in te suscipias, et mortifices membra tua peccato, multiplicantur in te filii Israel, sensus scilicet boni et spirituales. Si enim sensus carnis mortificentur, sensus animae crescunt, et morientibus in te vitiis, virtutes augentur, et terra et multiplicat in operibus bonis, quae per officium corporis ministrantur. Paulum multiplicaverat terra, qui dicebat: <quote xml:id="gom-ex1-Qd1e143" source="http://scta.info/resource/phil1_24@1-9">Permanere autem <pb ed="#P" n="0184A"/> in carne magis necessarium est propter vos.</quote> Dum enim manet in terra, id est in carne sua, multiplicatur credendo Ecclesia, acquirendo populum Deo, et ab Hierusalem usque ad Illyricum Evangelium praedicando.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex1-Dd1e151">
+          <head xml:id="gom-ex1-Hd1e153">Versus 8</head>
+          <p xml:id="gom-ex1-d1e155">
+            <quote xml:id="gom-ex1-Qd1e157" type="lemma" source="http://scta.info/resource/ex1_8@1-6">Surrexit interea rex novus super Aegyptum,</quote>
+            etc.
+            <ref xml:id="gom-ex1-Rd1e160"><name xml:id="gom-ex1-Nd1e161" ref="#Origen">ORIG.</name></ref>
+          </p>
+          <p xml:id="gom-ex1-d1e165">
+            Allegorice.
+          </p>
+          <p xml:id="gom-ex1-d1e167">
+            <ref xml:id="gom-ex1-Rd1e169" type="lemma" subtype="implied" target="http://scta.info/resource/ex1_8@1-6"/>
+            Hic est diabolus, qui <quote xml:id="gom-ex1-Qd1e171" source="http://scta.info/resource/ps52_1@7-15">dixit in corde suo: Non est Deus;</quote> qui genti suae, id est apostatis angelis, dicit: <quote xml:id="gom-ex1-Qd1e174" source="http://scta.info/resource/ex1_9@6-9">Ecce populus filiorum Israel,</quote> eorum scilicet qui possunt mente Deum videre, potentior est nobis: <quote xml:id="gom-ex1-Qd1e177" source="http://scta.info/resource/ex1_10@1-4">Venite, opprimamus eum sapienter.</quote> Sentit diabolus quia magnus sit populus Israel, et fortior ipso, quia saepe congressus est, saepe superatur. Scit Jacob luctatum esse, et adjutorio angeli obtinuisse contra adversarium, et invaluisse <pb ed="#P" n="0184B"/> cum Deo. Aliorum quoque sanctorum luctas sensit, spiritualia certamina pertulit: timet ne quando eveniat bellum, et consentiant adversariis ejus, et divictis eis [devicto eo] discedant de terra sua. Videtur mihi ex his quae patriarchis et prophetis de adventu Christi indicata fuerant, quia sentit venturum qui exuat principatus ejus et potestates, cum fiducia triumphet eos et affligat in ligno crucis.
+          </p>
+          <p xml:id="gom-ex1-d1e183">
+            <ref xml:id="gom-ex1-Rd1e185" type="lemma" subtype="implied" target="http://scta.info/resource/ex1_8@1-6"/>
+            <ref xml:id="gom-ex1-Rd1e187"><name xml:id="gom-ex1-Nd1e188" ref="#RabanusMaurus">RAB.</name> in Exod., tom. II.</ref>
+            <quote xml:id="gom-ex1-Qd1e192"><seg type="qs">In Chronicis Eusebii et Hieronymi legimus</seg>, etc., usque ad <seg type="qs">et in mari Rubro periit, multi Pharaones fuerunt.</seg></quote>
+          </p>
+          <p xml:id="gom-ex1-d1e201">
+            Moraliter.
+          </p>
+          <p xml:id="gom-ex1-d1e203">
+            <ref xml:id="gom-ex1-Rd1e205" type="lemma" subtype="implied" target="http://scta.info/resource/ex1_8@1-6"/>
+            <ref xml:id="gom-ex1-Rd1e207"><name xml:id="gom-ex1-Nd1e208" ref="#Origen">ORIG.</name> homil. 1.</ref>
+            <quote xml:id="gom-ex1-Qd1e212">Primum requirere volo quis est rex in Aegypto qui scit Joseph, et qui nescit. Dum enim ille regnaret qui sciebat Joseph, non dicuntur <pb ed="#P" n="0184C"/> afflicti filii Israel, neque in luto et latere consumpti; neque masculi eorum necati, et feminae vivificatae; sed cum coepit regnare, qui non noverat Joseph. Si Dominus regit nos, et sensus mentis vel animae nostrae illuminatur a Deo, memorans Christum resurrexisse a mortuis, in Aegypto, id est in carne nostra, spiritus noster regnum cum justitia tenet, et filios Israel, id est sensus rationabiles vel virtutes, in luto et latere non consumit, nec curis terrenis atterit. Si horum memoriam sensus noster perdiderit, Christum nescierit: tunc sapientia carnis, quae est inimica Deo, succedit in regnum; alloquitur gentem suam, id est corporeas voluptates, et vitiorum ducibus ad consilium vocatis, deliberat contra filios Israel, quomodo circumveniantur, opprimantur <pb ed="#P" n="0184D"/> luto, et latere affligantur; mares exponant, feminas alant, aedificent civitates Aegyptii et civitates munitas. Nec putandum est divinos libros Aegyptiorum gesta narrare sine causa: sed quae <quote xml:id="gom-ex1-Qd1e218" source="http://scta.info/resource/rom15_4@3-9">scripta sunt ad nostram doctrinam scripta sunt</quote>, ut qui haec audis, si forsitan baptizatus es et annumeratus inter filios Israel, et suscepisti in te Dominum regem, et post haec volueris declinare et opera <pb ed="#P" n="0185A"/> saeculi agere, actus terrae et lutea explere ministeria: scias quia surrexit in te rex alius, qui nescit Joseph, rex Aegypti; ipse te cogit ad opera sua, et laterem operari et lutum; ipse, superappositis magistris et compulsoribus, ad opera terrena flagellis agit, ut aedifices illi civitates; per saeculum discurrere facit maris, et terrae elementa pro cupiditate turbare: forum litibus pulsare et pro exiguo terrae cespite propinquos jurgiis fatigare; castitati insidiari, decipere innocentiam, domi foeda, foris crudelia, intra concientiam flagitiosa committere; in hujusmodi scito te regi Aegypti militare, quod est mundi hujus spiritu agi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex1-Dd1e226">
+          <head xml:id="gom-ex1-Hd1e228">Versus 11</head>
+          <p xml:id="gom-ex1-d1e230">
+            <quote xml:id="gom-ex1-Qd1e232" type="lemma" source="http://scta.info/resource/ex1_11@1-3">Praeposuit itaque eis,</quote>
+            etc.
+            <ref xml:id="gom-ex1-Rd1e235"><name xml:id="gom-ex1-Nd1e236" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-ex1-Qd1e239">Diabolus, convocata gente sua, opprimere cupit <pb ed="#P" n="0185B"/> rationabilem sensum, qui nunc figuraliter dicitur Israel: praeficit magistros operum, qui cogant eos discere opera carnis, secundum illud psalmi CV: <quote xml:id="gom-ex1-Qd1e243" source="http://scta.info/resource/ps105_35@2-9">Commisti sunt inter gentes, et didicerunt opera eorum.</quote> Docet aedificare civitates Pharaoni. Phitom, quae significat <quote xml:id="gom-ex1-Qd1e246">os defectionis,</quote> vel <quote xml:id="gom-ex1-Qd1e248">abyssi;</quote> et Ramesses, quae est <quote xml:id="gom-ex1-Qd1e250">commotio tineae,</quote> et On, id est Heliopolis, quae dicitur civitas solis. Deficit os, cum mendacium loquitur a veritate et probationibus. Ille ab initio mendax fuit, et ideo tales civitates vult sibi aedificari: <quote xml:id="gom-ex1-Qd1e253">os abyssi,</quote> quia abyssus perditionis ejus est locus; alia ejus civitas est <quote xml:id="gom-ex1-Qd1e255">commotio tineae:</quote> qui enim eum sequitur, ibi thesaurizat ubi tinea demolitur, et fures effodiunt et furantur <!--<note>(Matth. VI)</note>-->. Civitatem quoque Solis aedificat, falso nomine <quote xml:id="gom-ex1-Qd1e259" source="http://scta.info/resource/IIcor11_14@7-11">transfigurans se <pb ed="#P" n="0185C"/> in angelum lucis.</quote> In his occupat mentes, quae factae sunt ut videant Deum. Prospicit tamen imminere sibi bella et maturum gentis suae exitium; ideo dicit, Gens Israel valet super nos, utinam et nos sentiat valere super se: ut scilicet cogitationes, et concupiscentias malas, quas immittit, non suscipiam sed jacula ignita scuto fidei repellam, et in omnibus quae suggesserit, dicam: <quote xml:id="gom-ex1-Qd1e264" source="http://scta.info/resource/mt4_10@5-16">Vade retro, Satana: scriptum est enim: Dominum Deum tuum adorabis, et illi soli servies</quote>. Sed et hoc quod dicit, Ne forte accidat nobis bellum, et consentiant hi cum adversariis nostris, ex propheticis vocibus praevidet sibi venturum bellum, et derelinquendum se a filiis Israel, et quod consentiant adversario ejus, et adjiciantur ad <pb ed="#P" n="0185D"/> Dominum. Hoc est quod Jeremias ait <!--<note>(cap. XVII)</note>-->. <quote xml:id="gom-ex1-Qd1e272" source="http://scta.info/resource/ier17_11@1-22">Clamavit perdix, congregavit quae non peperit, fecit divitias, et non in judicio: in dimidio dierum ejus derelinquent eum, et in novissimis suis erit stultus.</quote> Intelligit ergo perdicem se, quae non peperit, congregasse; et quod hi, quos sine judicio congregavit, relinquent eum, et sequentur Christum, qui genuit. Ipse stultus remanebit, cum ad factorem suum et parentem universa creatura confugerit; ideo indignatur, dicens: Ne expugnantes nos exeant de terra nostra. Non vult nos exire de terra sua, ut semper portemus imaginem terreni: ne eo relicto fugiamus ad eum qui praeparavit regnum coelorum, relinquentes imaginem terreni, et suscipientes imaginem coelestis. Ideo statuit magistros operum, qui artes suas <pb ed="#P" n="0186A"/> doceant, et nos artifices malitiae faciant. Et quia sunt multi magistri malitiae, quos praefecit Pharao, qui imperant, exigunt, extorquent terrena opera: ideo Christo veniente fecit alios doctores contra illos pugnantes, qui subjicientes omnes principatus eorum, et potestates, et virtutes, defendant a violentia filios Israel, et doceant Israelitica opera, et mente videre Deum; relinquere opera Pharaonis, exire de terra Aegypti, Aegyptios mores et totum veterem hominem cum actibus suis exuere, et induere novum, qui secundum Deum creatus est.</quote>
+          </p>
+          <p xml:id="gom-ex1-d1e279">
+            <ref xml:id="gom-ex1-Rd1e281" type="lemma" subtype="implied" target="http://scta.info/resource/ex1_11@1-3"/>
+            <ref xml:id="gom-ex1-Rd1e283"><name xml:id="gom-ex1-Nd1e284" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-ex1-Qd1e287">Israel populum Christianum, Pharao diabolum significat: qui luti et lateris imponit gravissimum jugum, servitutem scilicet terreni et lutulenti operis; admistis paleis, id est, levibus et irrationabilibus <pb ed="#P" n="0186B"/> factis: ut omnibus onere peccatorum oppressis, nemo sit qui regnum ejus disperdat aut vincat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex1-Dd1e295">
+          <head xml:id="gom-ex1-Hd1e297">Versus 15</head>
+          <p xml:id="gom-ex1-d1e299">
+            <quote xml:id="gom-ex1-Qd1e301" type="lemma" source="http://scta.info/resource/ex1_15@1-5">Dixit autem rex Aegypti obstetricibus,</quote>
+            etc.
+            <ref xml:id="gom-ex1-Rd1e304"><name xml:id="gom-ex1-Nd1e305" ref="#Origen">ORIG.</name>, hom. 2.</ref>
+            <quote xml:id="gom-ex1-Qd1e309">Haec non solum in mundo, qui Aegyptus spiritualiter dicitur, sed in unoquoque nostrum deprehendimus: princeps hujus mundi non vult vivificari masculos, sed feminas; in femina caro et affectus carnis designatur: vir autem rationabilis est sensus, et intellectualis est spiritus, qui potest coelestia capere, Deum intelligere, quae sursum sunt quaerere. Hunc odit princeps Aegypti et necari cupit; cupit autem quae carnis sunt, vivere, et quae ad materiam pertinent corporalem, hae non solum vivere, sed augeri et excoli: vult enim ut omnes carnalia sapiant, temporalia et quae sunt super terram quaerant; nemo <pb ed="#P" n="0186C"/> levet ad coelum oculos; nemo requirat unde huc venerit; nemo patriam paradisum recordetur. Cum ergo videris homines in voluptatibus vitam ducere, luxu fluitare, conviviis et impudicitiis operam dare, scito quia in his rex Aegypti masculos necat, et vivificat feminas. Si vero unum de mille ad Deum converti, oculos sursum erigere, aeterna quaerere, odisse delicias et luxuriam, amare continentiam: istum quasi masculum necari cupit Pharao, persequitur, mille machinis oppugnat; odit tales, vivere in Aegypto non sinit. Inde est quod in hoc mundo servi Dei habentur contemptui, expositi contumeliis; inde in eos odia et persecutiones concitantur.</quote>
+          </p>
+          <p xml:id="gom-ex1-d1e315">
+            <quote xml:id="gom-ex1-Qd1e317" type="lemma" source="http://scta.info/resource/ex1_15@5-5">Obstetricibus.</quote>
+            <ref xml:id="gom-ex1-Rd1e320"><name xml:id="gom-ex1-Nd1e321" ref="#Origen">ORIG.</name>, ibid.</ref>
+            <quote xml:id="gom-ex1-Qd1e325">Iste etiam obstetrices corrumpere nititur.</quote>
+          </p>
+          <p xml:id="gom-ex1-d1e328">
+            <quote xml:id="gom-ex1-Qd1e330" type="lemma" source="http://scta.info/resource/ex1_15@7-10">Quarum una vocabatur Sephora,</quote>
+            <pb ed="#P" n="0186D"/> id est, <quote xml:id="gom-ex1-Qd1e335" source="http://scta.info/resource/ex1_15@11-12">passer; altera Phua,</quote> scilicet <quote xml:id="gom-ex1-Qd1e338">rubens</quote> vel <quote xml:id="gom-ex1-Qd1e340">verecunda;</quote> per has necari mares et vivificari feminas quaerit: sed et timebant obstetrices Deum, et non sicut praecepit eis, fecerunt. Obstetrices docuerunt ante nos quamdam rationabilis eruditionis formam tenere. Obstetrices enim medicae sunt, et tam masculos nascentes quam feminas fovent. Eruditio ergo communis est rationabilis scientia, et ad omnem pene pervenit sensum, omnes instruit et fovet. Si quis in ea virilis animi fuerit, qui velit coelestia quaerere, divina sectari, velut medicatus et fortis, per has eruditiones ad divirorum intelligentiam paratior veniret. Est enim una, velut <quote xml:id="gom-ex1-Qd1e343">passer,</quote> quae celsiora docet, et rationabilis doctrinae pennis in altum provocat; <pb ed="#P" n="0187A"/>
+          </p>
+          <p xml:id="gom-ex1-d1e348">
+            <quote xml:id="gom-ex1-Qd1e350" type="lemma" source="http://scta.info/resource/ex1_15">altera, rubens</quote>
+            <!-- check: lemma not matched to verse text -->
+            vel <mentioned>verecunda</mentioned>, moralis est, mores componit, verecundiam docet et honestatem. Mihi tamen (quia dicit Scriptura de his quod <quote xml:id="gom-ex1-Qd1e357" source="http://scta.info/resource/ex1_17@1-11">timuerunt Deum, et non fecerunt juxta praeceptum regis Aegypti</quote> ) videntur utriusque Testamenti figuram servare, et Sephora, quae <mentioned>passer</mentioned> interpretatur, legi, quae spiritualis est, convenire: Phua vero, quae <mentioned>rubens</mentioned> vel <mentioned>verecunda</mentioned>, indicare Evangelia, quae Christi sanguine rubent, et per universum mundum passionis cruore rutilant. Ab his ergo animae quae nascuntur in Ecclesia, velut obstetricibus medicantur, quia de Scripturis cuncta eruditionis medicamina conferuntur. Tentat tamen Pharao per has necare masculos, cum studiosis in divinis Scripturis haereses et prava dogmata suggerit. Sed stat immobile fundamentum <pb ed="#P" n="0187B"/> Dei. Timent enim obstetrices Deum, id est, timorem Dei docent, qui est initium sapientiae. Sic competentius aptatur quod sequitur, quia timebant obstetrices Deum, fecerunt sibi domos. Quod secundum litteram, nullam consequentiam habet: non enim propterea domus fit, quia timetur Deus. Si autem videas quomodo Scripturae Novi et Veteris Testamenti timorem Dei docentes domos Ecclesiae faciant, et totum orbem domibus orationis impleant, rationabiliter scriptum videbitur. Sic ergo istae obstetrices, quia timent Deum, id est, timorem Dei docent, non faciunt praeceptum regis Aegypti, sed vivificant masculos, nec tamen dicitur quia paruerunt feminas vivificantes. Ego autem confidenter dico, non vivificant feminas. Neque enim vitia aut <pb ed="#P" n="0187C"/> luxuria in Ecclesia docentur, aut peccata nutriuntur, quod vult Pharao cum vivificari feminas jubet, sed sola virtus excolitur et nutritur. Verum haec ad unumquemque referamus. Si times Deum, non facias praeceptum regis Aegypti: ille enim praecipit ut in deliciis vivas, praesentia concupiscas; tu, si times Deum, et exhibes officium obstetricis, animae tuae si conferre cupis, vivificas masculos, id est, interiorem hominem, qui in te est, medicaris et foves, et per actus et intellectus bonos vitam acquiris aeternam.
+          </p>
+        </div>
+        <div xml:id="gom-ex1-Dd1e373">
+          <head xml:id="gom-ex1-Hd1e375">Versus 16</head>
+          <p xml:id="gom-ex1-d1e377">
+            <quote xml:id="gom-ex1-Qd1e379" type="lemma" source="http://scta.info/resource/ex1_16@10-12">Si masculus fuerit,</quote>
+            etc.
+            <ref xml:id="gom-ex1-Rd1e382"><name xml:id="gom-ex1-Nd1e383" ref="#IsidoreOfSeville">ISID.</name></ref>
+          </p>
+          <p xml:id="gom-ex1-d1e387">
+            Allegorice.
+          </p>
+          <p xml:id="gom-ex1-d1e389">
+            <ref xml:id="gom-ex1-Rd1e391" type="lemma" subtype="implied" target="http://scta.info/resource/ex1_16@10-12"/>
+            Jubet Pharao masculos occidi, feminas vivere: sic diabolus, ne possit robur fidei praevalere, interfectis virtutibus, vult vitia vivere, fortesque et viriles animi sensus, quibus divina sapimus, id est, <pb ed="#P" n="0187D"/> rationem, prudentiam, constantiam, innocentiamque, et fidem nititur occidere; et quod femineum, imbecillum, fragile et pronum est ad vitia, cupit superesse, id est, ambitionem, violentiam, libidinem, iracundiam, et his similia, quae feminarum figura sunt.
+          </p>
+        </div>
+        <div xml:id="gom-ex1-Dd1e397">
+          <head xml:id="gom-ex1-Hd1e399">Versus 19</head>
+          <p xml:id="gom-ex1-d1e401">
+            <quote xml:id="gom-ex1-Qd1e403" type="lemma" source="http://scta.info/resource/ex1_19@1-2">Quae responderunt,</quote>
+            etc.
+            <ref xml:id="gom-ex1-Rd1e406"><name xml:id="gom-ex1-Nd1e407" ref="#Augustine">AUG.</name> in Gen., tom. III.</ref>
+            <quote xml:id="gom-ex1-Qd1e411"><seg type="qs">Quaeritur utrum talia mendacia approbata sint auctoritate divina</seg>, etc., usque ad <seg type="qs">quorum autem jam conversatio in coelis est, non eos aestimo linguae modum circa veritatem falsitatemque exemplo obstetricum debere informare.</seg></quote>
+          </p>
+          <p xml:id="gom-ex1-d1e419">
+            <ref xml:id="gom-ex1-Rd1e421" type="lemma" subtype="implied" target="http://scta.info/resource/ex1_19@1-2"/>
+            <ref xml:id="gom-ex1-Rd1e423"><name xml:id="gom-ex1-Nd1e424" ref="#GregoryGreat">GREG.</name>, Moral., lib. XXXVIII, cap. 2, 3.</ref>
+            <quote xml:id="gom-ex1-Qd1e428"><seg type="qs">Summopere cavendum est mendacium</seg>, etc., usque ad <seg type="qs">parcendo <pb ed="#P" n="0188A"/> enim conatae sunt infantium vitam tegere, mentiendo, suam.</seg></quote>
+          </p>
+          <p xml:id="gom-ex1-d1e438">
+            <ref xml:id="gom-ex1-Rd1e440" type="lemma" subtype="implied" target="http://scta.info/resource/ex1_19@1-2"/>
+            <ref xml:id="gom-ex1-Rd1e442"><name xml:id="gom-ex1-Nd1e443" ref="#Augustine">AUG.</name>, in lib. de Locutionibus in Exod., tom. III.</ref>
+            <quote xml:id="gom-ex1-Qd1e447"><seg type="qs">Et quia timuerunt obstetrices Deum</seg>, etc., usque ad <seg type="qs">ut ad ipsam domum faciendam pertinere videatur, quod consequenter a Laban merces statuenda proponitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex1-Dd1e456">
+          <head xml:id="gom-ex1-Hd1e458">Versus 22</head>
+          <p xml:id="gom-ex1-d1e460">
+            <quote xml:id="gom-ex1-Qd1e462" type="lemma" source="http://scta.info/resource/ex1_22@1-3">Praecepit ergo Pharao,</quote>
+            etc.
+            <ref xml:id="gom-ex1-Rd1e465"><name xml:id="gom-ex1-Nd1e466" ref="#Origen">ORIG.</name>, homil. 2.</ref>
+            <quote xml:id="gom-ex1-Qd1e470">Aegyptii, quibus hic praecepit Pharao ut feminas tantum vivificent, oderant masculos. Oderunt enim virtutes, vitia nutrierunt. Nunc quoque insidiantur Aegyptii, si nascatur masculus Hebraeis, ut statim interficiant, nisi caveant, observent et occultent. Refert Scriptura quod de tribu Levi aliquis genuit masculum, et vidit infantem esse elegantem <pb ed="#P" n="0188B"/> et occultavit eum. Ne ergo justitiam nostram faciamus coram hominibus, sed clauso ostio oremus Patrem nostrum in occulto, et nesciat sinistra quid faciat dextera, ne diripiatur ab Aegyptiis, invadatur, fluctibus submergatur. Si facio eleemosynam quia est opus Dei, masculum genero; sed si laudem ab hominibus quaero, et non occulto, rapitur ab Aegyptiis, in flumen mergitur, et tanto labore tantoque studio Aegyptiis masculum genui.</quote>
+          </p>
+          <p xml:id="gom-ex1-d1e476">
+            <quote xml:id="gom-ex1-Qd1e478" type="lemma" source="http://scta.info/resource/ex1_22">Quidquid feminini</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ex1-Rd1e483"><name xml:id="gom-ex1-Nd1e484" ref="#Jerome">HIERON.</name>, in Ecclesiasten., c. 3</ref>
+            <quote xml:id="gom-ex1-Qd1e488">Ubicunque in Scripturis femina legitur et sexus fragilior, ad materiae intelligentiam transferamus. Unde et Pharao non vult masculos nasci, sed feminas, quae materiae sunt vicinae, et contrario nullus sanctorum nisi perraro feminas genuisse narratur. Solusque <pb ed="#P" n="0188C"/> Salphaat, qui in peccatis mortuus est, omnes filias genuit: Jacob unius filiae pater est, et ob ipsam periclitatur.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

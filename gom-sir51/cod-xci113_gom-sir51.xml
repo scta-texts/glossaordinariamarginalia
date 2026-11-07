@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 51</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 51</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1230C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir51">
+        <head xml:id="gom-sir51-Hd1e98">Caput 51</head>
+        <div xml:id="gom-sir51-Dd1e100">
+          <head xml:id="gom-sir51-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir51-d1e104">
+            <quote xml:id="gom-sir51-Qd1e106" type="lemma" source="http://scta.info/resource/sir51_1@1-4">Oratio Jesu filii Sirach.</quote>
+            Melius ad totam Ecclesiam refertur, quam ad unam personam, quia in ea multae species tribulationum et diversa solatia describuntur.
+          </p>
+          <p xml:id="gom-sir51-d1e110">
+            <quote xml:id="gom-sir51-Qd1e112" type="lemma" source="http://scta.info/resource/sir51_1@5-8">Confitebor tibi, Domine rex.</quote>
+            <ref xml:id="gom-sir51-Rd1e115"><name xml:id="gom-sir51-Nd1e116" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir51-Qd1e119">JesusChristus adjutor et protector est sponsae suae, qui tradidit semetipsum pro ea, ut liberaret eam a perditione originalis peccati.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e123">
+          <head xml:id="gom-sir51-Hd1e125">Versus 5</head>
+          <p xml:id="gom-sir51-d1e127">
+            <quote xml:id="gom-sir51-Qd1e129" type="lemma" source="http://scta.info/resource/sir51_5@8-9">Portis tribulationum.</quote>
+            Haec sunt ora principum et tyrannorum, unde minae prodeunt et fraudulentiae, quae servos Dei negare fidem compellunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e134">
+          <head xml:id="gom-sir51-Hd1e136">Versus 6</head>
+          <p xml:id="gom-sir51-d1e138">
+            <pb ed="#P" n="1230D"/>
+            <quote xml:id="gom-sir51-Qd1e142" type="lemma" source="http://scta.info/resource/sir51_6@1-3">A pressura flammae.</quote>
+            Hoc tribus pueris contigit in camino ignis corporaliter; sed omnes sancti ab aestu persecutionis liberantur spiritualiter.
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e147">
+          <head xml:id="gom-sir51-Hd1e149">Versus 9</head>
+          <p xml:id="gom-sir51-d1e151">
+            <quote xml:id="gom-sir51-Qd1e153" type="lemma" source="http://scta.info/resource/sir51_9@1-6">Et vita mea appropinquans erat inferno.</quote>
+            Quia vita carnis quotidie deficiendo ad mortem tendit. Mortem enim <quote xml:id="gom-sir51-Qd1e156" source="http://scta.info/resource/sir51_7@4-4">infernum</quote> vocat, quia mors carnis, primi peccati vindicta est, sicut infernus peccantium animarum poena perpetua.
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e162">
+          <head xml:id="gom-sir51-Hd1e164">Versus 10</head>
+          <p xml:id="gom-sir51-d1e166">
+            <quote xml:id="gom-sir51-Qd1e168" type="lemma" source="http://scta.info/resource/sir51_10@1-3">Circumdederunt me undique,</quote>
+            etc. Videns Ecclesia se ab hostibus circumdari, et humanum deesse solatium, a Deo quaerit adjutorium, a quo est omne bonum, cui attribuit quod liberatur ab inimicis.
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e173">
+          <head xml:id="gom-sir51-Hd1e175">Versus 18</head>
+          <p xml:id="gom-sir51-d1e177">
+            <pb ed="#P" n="1231A"/>
+            <quote xml:id="gom-sir51-Qd1e181" type="lemma" source="http://scta.info/resource/sir51_18@1-3">Cum adhuc junior essem.</quote>
+            <ref xml:id="gom-sir51-Rd1e184"><name xml:id="gom-sir51-Nd1e185" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir51-Qd1e188"><seg type="qs">In juventute, vel pueritia</seg>, etc., usque ad <seg type="qs">quomodo ab infantia quaesierit sapientiam.</seg></quote>
+          </p>
+          <p xml:id="gom-sir51-d1e196">
+            <quote xml:id="gom-sir51-Qd1e198" type="lemma" source="http://scta.info/resource/sir51_18@5-6">Priusquam oberrarem,</quote>
+            etc. Signat se ante errorem pueritiae vel juventutis desiderasse sapientiam, et a Domino postulasse, et usque ad novissimum perseverasse.
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e203">
+          <head xml:id="gom-sir51-Hd1e205">Versus 19</head>
+          <p xml:id="gom-sir51-d1e207">
+            <quote xml:id="gom-sir51-Qd1e209" type="lemma" source="http://scta.info/resource/sir51_19@13-15">Tanquam praecox uva.</quote>
+            Decorem sapientiae comparat praecoquae uvae, ut ostendat jucunditatem apud eam esse. Praecoqua enim uva dicitur eo quod cito maturescat.
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e214">
+          <head xml:id="gom-sir51-Hd1e216">Versus 24</head>
+          <p xml:id="gom-sir51-d1e218">
+            <quote xml:id="gom-sir51-Qd1e220" type="lemma" source="http://scta.info/resource/sir51_24@1-2">Consiliatus sum,</quote>
+            etc.
+            <ref xml:id="gom-sir51-Rd1e223"><name xml:id="gom-sir51-Nd1e224" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir51-Qd1e227"><seg type="qs">Prius dicit se consilium inisse ut faceret illam</seg>, etc., usque ad <seg type="qs">sic enim confirmatus, perveniet ad fructum sapientiae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e236">
+          <head xml:id="gom-sir51-Hd1e238">Versus 29</head>
+          <p xml:id="gom-sir51-d1e240">
+            <quote xml:id="gom-sir51-Qd1e242" type="lemma" source="http://scta.info/resource/sir51_29@1-2">Venter meus.</quote>
+            Commotus ad poenitentiam per sapientiae notitiam.
+          </p>
+          <p xml:id="gom-sir51-d1e246">
+            <quote xml:id="gom-sir51-Qd1e248" type="lemma" source="http://scta.info/resource/sir51_29@7-7">Propterea.</quote>
+            Ad perfectionem sapientiae pervenire non est humani studii, sed divini muneris.
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e253">
+          <head xml:id="gom-sir51-Hd1e255">Versus 30</head>
+          <p xml:id="gom-sir51-d1e257">
+            <quote xml:id="gom-sir51-Qd1e259" type="lemma" source="http://scta.info/resource/sir51_30@1-4">Dedit mihi Dominus,</quote>
+            etc. Bona merces est lingua erudita, quae fecit fratres instruere et corrigere.
+          </p>
+        </div>
+        <div xml:id="gom-sir51-Dd1e265">
+          <head xml:id="gom-sir51-Hd1e267">Versus 37</head>
+          <p xml:id="gom-sir51-d1e269">
+            <quote xml:id="gom-sir51-Qd1e271" type="lemma" source="http://scta.info/resource/sir51_37@1-2">Laetetur anima.</quote>
+            Magna est jucunditas cordis, si recordatur misericordiam superni judicis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

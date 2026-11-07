@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 60</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 60</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0931D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps60">
+        <head xml:id="gom-ps60-Hd1e98">Psalmus 60</head>
+        <div xml:id="gom-ps60-Dd1e100">
+          <head xml:id="gom-ps60-Hd1e102">Versus 3</head>
+          <p xml:id="gom-ps60-d1e104">
+            <quote xml:id="gom-ps60-Qd1e106" type="lemma" source="http://scta.info/resource/ps60_3@6-8">Clamavi dum anxiaretur.</quote>
+            <ref xml:id="gom-ps60-Rd1e109"><name xml:id="gom-ps60-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e113"><seg type="qs">In anxietate</seg>, etc., usque ad <seg type="qs">sequitur clamoris exaudito in petra Christo.</seg></quote>
+          </p>
+          <p xml:id="gom-ps60-d1e121">
+            <quote xml:id="gom-ps60-Qd1e123" type="lemma" source="http://scta.info/resource/ps60_3@14-15">Exaltasti me.</quote>
+            <ref xml:id="gom-ps60-Rd1e126"><name xml:id="gom-ps60-Nd1e127" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e130">De imo vitiorum.</quote>
+          </p>
+          <p xml:id="gom-ps60-d1e133">
+            <ref xml:id="gom-ps60-Rd1e135" type="lemma" subtype="implied" target="http://scta.info/resource/ps60_3@14-15"/>
+            <ref xml:id="gom-ps60-Rd1e137"><name xml:id="gom-ps60-Nd1e138" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e141">Et exaltatum deduxisti.</quote>
+          </p>
+          <p xml:id="gom-ps60-d1e144">
+            <ref xml:id="gom-ps60-Rd1e146"><name xml:id="gom-ps60-Nd1e147" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e150" type="lemma" source="http://scta.info/resource/ps60_3@12-13">In petra,</quote>
+            <quote xml:id="gom-ps60-Qd1e153">et ideo non vincor;</quote>
+          </p>
+          <p xml:id="gom-ps60-d1e157">
+            <quote xml:id="gom-ps60-Qd1e159" type="lemma" source="http://scta.info/resource/ps60_3@14-14">Exaltasti:</quote>
+            per exemplum istius magna spes audiendi praestatur aliis.
+          </p>
+          <p xml:id="gom-ps60-d1e163">
+            <quote xml:id="gom-ps60-Qd1e165" type="lemma" source="http://scta.info/resource/ps60_3@16-17">Deduxisti me,</quote>
+            <ref xml:id="gom-ps60-Rd1e168"><name xml:id="gom-ps60-Nd1e169" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e172">per te <quote xml:id="gom-ps60-Qd1e174">viam,</quote> ad te <quote xml:id="gom-ps60-Qd1e176">veritatem et vitam.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps60-Dd1e180">
+          <head xml:id="gom-ps60-Hd1e182">Versus 5</head>
+          <p xml:id="gom-ps60-d1e184">
+            <pb ed="#P" n="0932A"/>
+            <quote xml:id="gom-ps60-Qd1e188" type="lemma" source="http://scta.info/resource/ps60_5@1-1">Inhabitabo.</quote>
+            <ref xml:id="gom-ps60-Rd1e191"><name xml:id="gom-ps60-Nd1e192" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e195">De beneficiis Dei confidit, ut contra pericula mundi in tabernaculo Dei tutus perseveret.</quote>
+          </p>
+          <p xml:id="gom-ps60-d1e198">
+            <quote xml:id="gom-ps60-Qd1e200" type="lemma" source="http://scta.info/resource/ps60_5@5-6">In saecula.</quote>
+            Quousque saecula peragantur; quia etsi multi contra: <quote xml:id="gom-ps60-Qd1e203" source="http://scta.info/resource/ps60_5@5-11">Protegar in velamento. Protegar in velamento alarum.</quote> Quae nec onerant, et omnem laesionem avertunt. In saecula, non unus homo usque in saecula, sed Ecclesia, quae usque ad finem mundi accolit in terra, et nunquam eradicatur per adversa.
+          </p>
+        </div>
+        <div xml:id="gom-ps60-Dd1e208">
+          <head xml:id="gom-ps60-Hd1e210">Versus 6</head>
+          <p xml:id="gom-ps60-d1e212">
+            <quote xml:id="gom-ps60-Qd1e214" type="lemma" source="http://scta.info/resource/ps60_6@1-6">Quoniam tu, Deus meus, exaudisti orationem,</quote>
+            etc.
+            <ref xml:id="gom-ps60-Rd1e217"><name xml:id="gom-ps60-Nd1e218" ref="#Cassiodorus">Ibid.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e221">Diapsalma. Jam audita de haereditate habita vel habenda, affirmat, unde laudes promittit.</quote>
+          </p>
+          <p xml:id="gom-ps60-d1e224">
+            <quote xml:id="gom-ps60-Qd1e226" type="lemma" source="http://scta.info/resource/ps60_6@9-9">Dedisti.</quote>
+            Nec dicam, dabis: adeo certus sum, quasi jam essem in ipsa.
+          </p>
+        </div>
+        <div xml:id="gom-ps60-Dd1e231">
+          <head xml:id="gom-ps60-Hd1e233">Versus 7</head>
+          <p xml:id="gom-ps60-d1e235">
+            <quote xml:id="gom-ps60-Qd1e237" type="lemma" source="http://scta.info/resource/ps60_7@1-3">Dies super dies.</quote>
+            <ref xml:id="gom-ps60-Rd1e240"><name xml:id="gom-ps60-Nd1e241" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e244"><seg type="qs">Quidquid vis <pb ed="#P" n="0932B"/> dicis de aeternitate</seg>, etc., usque ad <seg type="qs">sed regnent cum illo sancti in aeternum. Vel <quote xml:id="gom-ps60-Qd1e252">dabis haereditatem.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps60-d1e255">
+            <ref xml:id="gom-ps60-Rd1e257" type="lemma" subtype="implied" target="http://scta.info/resource/ps60_7@1-3"/>
+            <ref xml:id="gom-ps60-Rd1e259"><name xml:id="gom-ps60-Nd1e260" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e263"><seg type="qs">Hanc scilicet, quia super dies, Christi</seg>, etc., usque ad <seg type="qs">quia rex ille permanet in aeternum, sic et illi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps60-Dd1e273">
+          <head xml:id="gom-ps60-Hd1e275">Versus 8</head>
+          <p xml:id="gom-ps60-d1e277">
+            <quote xml:id="gom-ps60-Qd1e279" type="lemma" source="http://scta.info/resource/ps60_8@8-10">Misericordiam et veritatem.</quote>
+            <ref xml:id="gom-ps60-Rd1e282"><name xml:id="gom-ps60-Nd1e283" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e286"><quote xml:id="gom-ps60-Qd1e287" source="http://scta.info/resource/ps60_8@8-8">Misericordia</quote> est, quia non meritis, sed bonitate peccata dimittit, et vitam promittit.</quote>
+          </p>
+          <p xml:id="gom-ps60-d1e292">
+            <quote xml:id="gom-ps60-Qd1e294" type="lemma" source="http://scta.info/resource/ps60_8@10-10">Veritas,</quote>
+            quia non fallit, sed reddit quod promisit.
+          </p>
+          <p xml:id="gom-ps60-d1e298">
+            <quote xml:id="gom-ps60-Qd1e300" type="lemma" source="http://scta.info/resource/ps60_8@8-8">Misericordiam</quote>
+            sequi debemus circa infirmos et circa inimicos.
+          </p>
+          <p xml:id="gom-ps60-d1e304">
+            <quote xml:id="gom-ps60-Qd1e306" type="lemma" source="http://scta.info/resource/ps60_8@10-10">Veritatem,</quote>
+            non peccando, ut sit justus.
+          </p>
+          <p xml:id="gom-ps60-d1e311">
+            <ref xml:id="gom-ps60-Rd1e313"><name xml:id="gom-ps60-Nd1e314" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e317" type="lemma" source="http://scta.info/resource/ps60_8@8-10">Misericordiam et veritatem.</quote>
+            <quote xml:id="gom-ps60-Qd1e320"><seg type="qs">Est hic conclusio psalmi</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-ps60-Qd1e325" source="http://scta.info/resource/ps60_8@12-13">quis requiret ei?</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps60-d1e329">
+            <ref xml:id="gom-ps60-Rd1e331" type="lemma" subtype="implied" target="http://scta.info/resource/ps60_8@8-10"/>
+            <ref xml:id="gom-ps60-Rd1e333"><name xml:id="gom-ps60-Nd1e334" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps60-Qd1e337">Ut non quaerat aliquis discere haec in libris, et post sibi vivat, non illi.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

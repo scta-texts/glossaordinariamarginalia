@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Leviticus, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0301B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-lev2">
+        <head xml:id="gom-lev2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-lev2-Dd1e100">
+          <head xml:id="gom-lev2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-lev2-d1e104">
+            <pb ed="#P" n="0301B"/>
+            <quote xml:id="gom-lev2-Qd1e108" type="lemma" source="http://scta.info/resource/lev2_1@1-1">Anima,</quote>
+            etc. A meliori parte totum hominem significat: requirit enim spiritualem et perfectum auditorem, quia anima est sapientiae capax, non caro.
+          </p>
+          <p xml:id="gom-lev2-d1e112">
+            <ref xml:id="gom-lev2-Rd1e114"><name xml:id="gom-lev2-Nd1e115" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-lev2-Qd1e118" type="lemma" source="http://scta.info/resource/lev2_1@1-1">Anima,</quote>
+            <quote xml:id="gom-lev2-Qd1e121">etc. Quartum sacrificium offert anima. Simila Ecclesiam significat, quae de multis personis quasi granis est collecta, legis et Evangelii mola inter litteram et spiritum separata, per aquam baptismi adunata, chrismate peruncta et solidata spirituali igne; per humilitatem fit accepta hostia.</quote>
+          </p>
+          <p xml:id="gom-lev2-d1e124">
+            <ref xml:id="gom-lev2-Rd1e126" type="lemma" subtype="implied" target="http://scta.info/resource/lev2_1@1-1"/>
+            <ref xml:id="gom-lev2-Rd1e128"><name xml:id="gom-lev2-Nd1e129" ref="#Origen">ORIG.</name></ref>
+            <quote xml:id="gom-lev2-Qd1e132"><seg type="qs"><quote xml:id="gom-lev2-Qd1e134">hom 2 in Lev. Anima.</quote> Quae scilicet nec vitulum habet</seg>, etc.; usque ad <seg type="qs">oleo divinae misericordiae vel gratiae.</seg></quote>
+          </p>
+          <p xml:id="gom-lev2-d1e141">
+            <ref xml:id="gom-lev2-Rd1e143" type="lemma" subtype="implied" target="http://scta.info/resource/lev2_1@1-1"/>
+            Mystice, significat, sicut <ref xml:id="gom-lev2-Rd1e145">ibi: <seg type="incipit">Cunctae animae quae <pb ed="#P" n="0301C"/> ingessae sunt cum Jacob in Aegyptum</seg>,</ref> etc. <!--<note>(Gen. XLVI.)</note>--> Lucas autem ait: <quote xml:id="gom-lev2-Qd1e155" source="http://scta.info/resource/act27_37@1-9">Eramus autem omnes animae in navi ducentae septuaginta sex</quote>. Forsitan per animam, Gentilem significat. Supra enim filiis Israel praecepit, ut sacrificia offerrent cum sanguine. Hic autem qui est sine lege, offerre praecipiens, non dicit homo, sicut supra, sed <quote xml:id="gom-lev2-Qd1e158" source="http://scta.info/resource/lev2_1@1-1">anima.</quote> Animalis erat Gentilis, non intelligens ea quae sunt Dei, sed vocatur ad oblationem misericordia Dei, ut percipiat salutem; cum pro peccatis sacrificia disponit, qui nec habet ovem nec capram, turturem vel columbam offerre praecipitur; qui nec habet illud, similam. Non enim jam ex operibus, ut pauper virtutibus, sed sola cognitione Dei salvatur, quae licet principium sit salutis, tamen thus et <pb ed="#P" n="0301D"/> oleum, supponendum, ut gratia de eleemosynis et orationibus misceatur. Unde angelus ad Cornelium ait: <quote xml:id="gom-lev2-Qd1e164" source="http://scta.info/resource/act10_4@14-19">Orationes tuae et eleemosynae tuae ascenderunt ad Dominum</quote>. In thure interiores curantur passiones, et fumo ejus sanantur occuli ex infirmitate lacrymantes. Oratio quippe animae passiones sanat, oculos interiores curat ab ignorantia lacrymas ex aegritudine peccati accendentes fugat.
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e169">
+          <head xml:id="gom-lev2-Hd1e171">Versus 2</head>
+          <p xml:id="gom-lev2-d1e173">
+            <quote xml:id="gom-lev2-Qd1e175" type="lemma" source="http://scta.info/resource/lev2_2@4-4">Filios,</quote>
+            ministros Ecclesiae; quia quidquid offerimus, cum sanctis Ecclesiae doctoribus conferre debemus. Unde Paulus cum apostolis contulit Evangelium, ne in vacuum cucurrisset <!--<note>(Gal. II)</note>-->.
+          </p>
+          <p xml:id="gom-lev2-d1e181">
+            <quote xml:id="gom-lev2-Qd1e183" type="lemma" source="http://scta.info/resource/lev2_2@7-7">Quorum.</quote>
+            Unitas Ecclesiae pugillum similae tollit, <pb ed="#P" n="0302A"/> quia pro capacitate sensus unusquisque fidelis Scripturae scientiam debet appetere. Unde: <quote xml:id="gom-lev2-Qd1e188" source="http://scta.info/resource/rom12_3@14-23">Non plus sapere quam oportet, sed sapere ad sobrietatem. Quorum unus,</quote> etc. <!--<note>(Rom. XII)</note>-->. Notandum quod pugillus similae et olei, totum vero thus offerri jubetur; quia sapientia quae in simila, et charitas vel misericordia quae in oleo signatur, in hac vita non possunt esse plena. Unde: <quote xml:id="gom-lev2-Qd1e193" source="http://scta.info/resource/Icor13_12@1-6">Videmus nunc per speculum in aenigmate:</quote> et, <quote xml:id="gom-lev2-Qd1e197" source="http://scta.info/resource/Icor13_12@12-15">nunc cognosco ex parte,</quote> etc. <!--<note>(I Cor. XII)</note>-->. Olei quoque pars offertur, quia misericordia nunquam impletur, quia etsi miserearis quantum potes, plus tamen debes velle. Charitas etiam quae oleo figuratur, in praesenti inchoatur, in futuro perficietur. Thus autem totum crematur, quia semper orationi insistitur.
+          </p>
+          <p xml:id="gom-lev2-d1e203">
+            <pb ed="#P" n="0302B"/>
+            <quote xml:id="gom-lev2-Qd1e207" type="lemma" source="http://scta.info/resource/lev2_2@12-12">Similae.</quote>
+            Scientiae vel cognitionis Dei. Accepta enim est scientia a Deo, quam fides comprehendere potest, et sicut qui pugillo vult plus comprehendere, nihil proficit, totum quippe decurrit: sic fides est mensura scientiae Dei. <quote xml:id="gom-lev2-Qd1e210" source="http://scta.info/resource/hebr11_6@6-14">Credere enim oportet accedentem ad Deum, et quod non est ex fide, peccatum est</quote>.
+          </p>
+          <p xml:id="gom-lev2-d1e214">
+            <quote xml:id="gom-lev2-Qd1e216" type="lemma" source="http://scta.info/resource/lev2_2@20-20">Memoriale,</quote>
+            etc., cognitionis Dei perfectam scientiam, cujus memores erimus, quae nunquam destruitur; et eam quae nunc est, non ut contrariam, destruit, sed partem minimam esse per plenitudinem suam ostendit: <quote xml:id="gom-lev2-Qd1e219" source="http://scta.info/resource/Icor13_10@1-11">Cum enim venerit quod perfectum est, evacuabitur quod ex parte est</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e224">
+          <head xml:id="gom-lev2-Hd1e226">Versus 3</head>
+          <p xml:id="gom-lev2-d1e228">
+            <quote xml:id="gom-lev2-Qd1e230" type="lemma" source="http://scta.info/resource/lev2_3@5-6">De sacrificio,</quote>
+            etc.
+            <ref xml:id="gom-lev2-Rd1e233"><name xml:id="gom-lev2-Nd1e234">ISICH.</name> in Lev.</ref>
+            <quote xml:id="gom-lev2-Qd1e237">De illa scilicet perfecta et in coelis abscondita, in Christoque <pb ed="#P" n="0302C"/> reposita scientia, <quote xml:id="gom-lev2-Qd1e241" source="http://scta.info/resource/col2_3@1-9">in quo sunt omnes thesauri sapientiae et scientiae absconditi</quote>.</quote>
+          </p>
+          <p xml:id="gom-lev2-d1e246">
+            <quote xml:id="gom-lev2-Qd1e248" type="lemma" source="http://scta.info/resource/lev2_3@8-8">Aaron,</quote>
+            montanus interpretatur, id est, altiora de Deo intelligens; vel arcanus, quasi in se legem Dei et eloquia habens: hic sacrificium offerre potest. Sanctum sanctorum, est de oblationibus Domino: partile enim est quod reliquum est, omnes tamen scientias superans et ad perfectionem exaltans
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e253">
+          <head xml:id="gom-lev2-Hd1e255">Versus 4</head>
+          <p xml:id="gom-lev2-d1e257">
+            <quote xml:id="gom-lev2-Qd1e259" type="lemma" source="http://scta.info/resource/lev2_4@1-4">Cum obtuleris sacrificium,</quote>
+            etc.
+            <ref xml:id="gom-lev2-Rd1e262"><name xml:id="gom-lev2-Nd1e263">ISICH.</name>, ibid.</ref>
+            <quote xml:id="gom-lev2-Qd1e266">Sacrificium Christus pro nobis immolatus.</quote>
+          </p>
+          <p xml:id="gom-lev2-d1e269">
+            <quote xml:id="gom-lev2-Qd1e271" type="lemma" source="http://scta.info/resource/lev2_4@5-7">Coctum in clibano</quote>
+            virginis, scilicet utero. Clibanus enim panem suscipit et ignem: sic uterus virginis panem vitae, id est, Dei verbum, et ignem Spiritus sancti de coelo suscepit. Unde: <quote xml:id="gom-lev2-Qd1e274" source="http://scta.info/resource/lc1_35@6-10">Spiritus sanctus superveniet in te,</quote> etc. <!--<note>(Luc. I)</note>-->. Si ergo offers munus <pb ed="#P" n="0302D"/> incarnationis Christi, quae facta est in ventre virginis, non est acceptum Deo, nisi de simila, id est, scientia vel notitia Dei fiat. De hac re siquidem locutionem ab apostolis et a prophetis suscipimus, Verba apostolorum sunt panes, lagana prophetarum. Quanto enim panes laganis, ad nutriendum aptiores, tantum praecellunt verba apostolorum verbis prophetarum. Utrique autem azymi sine fermento scientiae saecularis. Utraque tamen in oleo fiunt, concorditer enim ab illis de Christi miseratione scriptum est, quia apostoli et prophetae scripserunt, sed apostoli plenius scripserunt, qui completum ostenderunt, quod illi nuntiabant futurum.
+          </p>
+          <p xml:id="gom-lev2-d1e282">
+            <quote xml:id="gom-lev2-Qd1e284" type="lemma" source="http://scta.info/resource/lev2_4@17-17">Lagana.</quote>
+            Panis latus et tenuis, qui prophetiam et <pb ed="#P" n="0303A"/> legem significat, quantum enim distat inter soliditatem panis et tenuitatem lagani, tantum inter Evangelium et verba legis et prophetarum: haec tamen oleo lita, quia lex et prophetia charitatem Christi praedixerunt, qua in salutem humani generis venit.
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e292">
+          <head xml:id="gom-lev2-Hd1e294">Versus 5</head>
+          <p xml:id="gom-lev2-d1e296">
+            <quote xml:id="gom-lev2-Qd1e298" type="lemma" source="http://scta.info/resource/lev2_5@1-4">Si oblatio tua fuerit,</quote>
+            etc.
+            <ref xml:id="gom-lev2-Rd1e301"><name xml:id="gom-lev2-Nd1e302">ISICH.</name> in Lev.</ref>
+            <quote xml:id="gom-lev2-Qd1e305"><seg type="qs">Oblatio de sartagine</seg>, etc., usque ad <seg type="qs">et ideo ab ejus scientia recessit.</seg></quote>
+          </p>
+          <p xml:id="gom-lev2-d1e313">
+            <quote xml:id="gom-lev2-Qd1e315" type="lemma" source="http://scta.info/resource/lev2_5@7-8">Similae conspersae,</quote>
+            etc. Quia mortuus est et misertus nostri.
+          </p>
+          <p xml:id="gom-lev2-d1e319">
+            <quote xml:id="gom-lev2-Qd1e321" type="lemma" source="http://scta.info/resource/lev2_5@11-12">Absque fermento,</quote>
+            id est, sine macula.
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e326">
+          <head xml:id="gom-lev2-Hd1e328">Versus 6</head>
+          <p xml:id="gom-lev2-d1e330">
+            <quote xml:id="gom-lev2-Qd1e332" type="lemma" source="http://scta.info/resource/lev2_6@1-3">Divides eam minutatim:</quote>
+            ut sermonem passionum ejus, qui per partes processerunt, dividamus, alapas, scilicet colaphos, sputa et vulnera <pb ed="#P" n="0303B"/> diligenter distinguamus.
+          </p>
+          <p xml:id="gom-lev2-d1e338">
+            <quote xml:id="gom-lev2-Qd1e340" type="lemma" source="http://scta.info/resource/lev2_6@4-6">Et fundes super,</quote>
+            etc., ut quemadmodum misericorditer pro nobis mortuus est, nos quoque pro fratribus usque ad mortem misereamur.
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e345">
+          <head xml:id="gom-lev2-Hd1e347">Versus 5</head>
+          <p xml:id="gom-lev2-d1e349">
+            <quote xml:id="gom-lev2-Qd1e351" type="lemma" source="http://scta.info/resource/lev2_5@5-6">De sartagine.</quote>
+            Sicut enim sartago media inter ignem et cibum, sic quodammodo crux inter impassibilem divinitatem et humanitatem, quae igne passionis est assata. Et sicut in sartagine mollia durescunt, dura mollescunt, sic in passione crucis lapidea corda mollita, mollia et fluxa solidata. De sartagine ergo sacrificium offerre est de mysterio crucis cum veneratione disputare.
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e356">
+          <head xml:id="gom-lev2-Hd1e358">Versus 7</head>
+          <p xml:id="gom-lev2-d1e360">
+            <quote xml:id="gom-lev2-Qd1e362" type="lemma" source="http://scta.info/resource/lev2_7@1-3">Sin autem de,</quote>
+            etc.
+            <ref xml:id="gom-lev2-Rd1e365"><name xml:id="gom-lev2-Nd1e366">ISICH.</name> in Lev.</ref>
+            <quote xml:id="gom-lev2-Qd1e369"><seg type="qs">Sicut in sartagine crucem</seg>, etc., usque ad <seg type="qs">ex misericordia quippe mortem sustinuit, et resurrectionem <pb ed="#P" n="0303C"/> dispensavit.</seg></quote>
+          </p>
+          <p xml:id="gom-lev2-d1e379">
+            <quote xml:id="gom-lev2-Qd1e381" type="lemma" source="http://scta.info/resource/lev2_7@1-2">Sin autem,</quote>
+            etc. Moraliter, similam offert qui in aliquibus communis vitae usibus bene conversari studet. Haec oleo conspergenda est, quia omnis anima oleo eget misericordiae, nec vitam praesentem evadere potest, nisi misericordia coelestis affuerit. Clibanus autem pondus tentationis exprimit, sartago constantiam et robur animi, craticula multiplicem impugnationem.
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e386">
+          <head xml:id="gom-lev2-Hd1e388">Versus 11</head>
+          <p xml:id="gom-lev2-d1e390">
+            <quote xml:id="gom-lev2-Qd1e392" type="lemma" source="http://scta.info/resource/lev2_11@1-2">Omnis oblatio.</quote>
+            <ref xml:id="gom-lev2-Rd1e395"><name xml:id="gom-lev2-Nd1e396" ref="#Origen">ORIG.</name> homil. 2 in Lev.</ref>
+            <quote xml:id="gom-lev2-Qd1e400"><seg type="qs">Dicat aliquis</seg>, etc., usque ad <seg type="qs">hoc modo verius et perfectius secundum Evangelium sacrificia offers, quae jam secundum legem non potest offerre Israel.</seg></quote>
+          </p>
+          <p xml:id="gom-lev2-d1e408">
+            <quote xml:id="gom-lev2-Qd1e410" type="lemma" source="http://scta.info/resource/lev2_11@11-13">Fermenti ac mellis.</quote>
+            Nihil voluptuosum, nihil suave placet Deo, sed quod habet aliquid mordacitatis et <pb ed="#P" n="0303D"/> severitatis. Unde pascha cum amaritudinibus manducatur.
+          </p>
+          <p xml:id="gom-lev2-d1e416">
+            <quote xml:id="gom-lev2-Qd1e418" type="lemma" source="http://scta.info/resource/lev2_11@12-13">Ac mellis.</quote>
+            Gentilis eloquentiae, quae voce suavis est, non re. Unde: <quote xml:id="gom-lev2-Qd1e421" source="http://scta.info/resource/prov5_3@1-5">Favus distillans labia meretricis</quote>. Quod autem dicitur in Canticis: <quote xml:id="gom-lev2-Qd1e424" source="http://scta.info/resource/cant4_11@6-11">Mel et lac sub lingua tua</quote>, praesentibus non contradicit. Sub lingua enim dicitur, non in lingua, ut ostendatur paganorum sapientia, et Judaeorum littera linguae Ecclesiae, id est doctrinae subjecta esse. Horum non vult integram doctrinam offerre. Unde ait: <quote xml:id="gom-lev2-Qd1e427" source="http://scta.info/resource/lev2_11@14-16">Non adolebitur in sacrificium,</quote> id est, holocaustum: <quote xml:id="gom-lev2-Qd1e430" source="http://scta.info/resource/lev2_12@1-4">primitias tantum eorum offeretis.</quote> Primitias enim illius sapientiae offerimus, non totam, sicut Paulus ad Athenienses, inquit: <quote xml:id="gom-lev2-Qd1e434">Sicut vester poeta dixit: hujus <pb ed="#P" n="0304A"/> et genus sumus.</quote> Quod enim invenit congruum scientiae Dei, non respuit: non tamen ultra testimonia multiplicavit, quia placuit Deo per stultitiam praedicationis salvos facere credentes; unde Moyses ait: <quote xml:id="gom-lev2-Qd1e439" source="http://scta.info/resource/lev2_12@7-11">Super altare vero non imponentur,</quote> et cum liceret dici non ponentur, dicit: <quote xml:id="gom-lev2-Qd1e442" source="http://scta.info/resource/lev2_12@10-14">Non imponentur in odorem suavitatis:</quote> significans, quia si tentaverimus de exterioribus divinitatis adipisci notitiam, tale sacrificium ad altare non ascendit, sed deprimitur in terrenis, quia de terra est.
+          </p>
+          <p xml:id="gom-lev2-d1e446">
+            <ref xml:id="gom-lev2-Rd1e448" type="lemma" subtype="implied" target="http://scta.info/resource/lev2_11@12-13"/>
+            <ref xml:id="gom-lev2-Rd1e450"><name xml:id="gom-lev2-Nd1e451" ref="#Bede">BEDA.</name> in Lev., tom. II</ref>
+            <quote xml:id="gom-lev2-Qd1e455"><seg type="qs">Quod mel in Dei sacrificium non offerretur</seg>, etc., usque ad <seg type="qs">imperfecta quaeque omittimus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e464">
+          <head xml:id="gom-lev2-Hd1e466">Versus 13</head>
+          <p xml:id="gom-lev2-d1e468">
+            <quote xml:id="gom-lev2-Qd1e470" type="lemma" source="http://scta.info/resource/lev2_13@4-9">Sale condies nec auferes sal foederis.</quote>
+            Apostolica sapientia. Unde: <quote xml:id="gom-lev2-Qd1e473" source="http://scta.info/resource/mt5_13@1-4">Vos estis sal terrae,</quote> etc. <pb ed="#P" n="0304B"/> <!--<note>(Matth. V)</note>-->. Sicut omnis cibus sale conditur, ita apostolica doctrina sermo praedicationis. Ideo praecipitur sal in omni sacrificio offerri, ut secundum Apostolicam doctrinam et institutionem et imitationem operis vivamus. Unde Paulus, ait: <quote xml:id="gom-lev2-Qd1e480" source="http://scta.info/resource/Icor4_16@4-6">Imitatores mei estote, sicut et ego Christi</quote>. Et alibi: <quote xml:id="gom-lev2-Qd1e484" source="http://scta.info/resource/eph2_20@1-6">Superaedificati super fundamentum apostolorum et prophetarum</quote>. Unde et legislator non dixit simpliciter sal: sed, <quote xml:id="gom-lev2-Qd1e487" source="http://scta.info/resource/lev2_13@8-11">sal foederis Dei tui.</quote> Sicut enim foedus rationale, sic etiam sal rationale. Testamenti ergo Evangelici et salis Apostolici nos commonere voluit. Oleum in sacrificium offertur, si cum hilaritate offeramus, non ex tristitia aut ex necessitate. Hilarem enim datorem diligit Deus <!--<note>(II Cor. IX)</note>-->.
+          </p>
+          <p xml:id="gom-lev2-d1e493">
+            <ref xml:id="gom-lev2-Rd1e495" type="lemma" subtype="implied" target="http://scta.info/resource/lev2_13@4-9"/>
+            Sal qui stypticam vim habet, et contrarius est <pb ed="#P" n="0304C"/> melli, jubetur addi sacrificiis: sal symbolum est prudentiae, quae restringit et exsiccat voluptatem.
+          </p>
+          <p xml:id="gom-lev2-d1e500">
+            <quote xml:id="gom-lev2-Qd1e502" type="lemma" source="http://scta.info/resource/lev2_13@15-17">In omni oblatione,</quote>
+            etc. Placere enim Deo non poterit quod non ad normam voluntatis ejus correctum fuerit. Nam si in rebus humanis tanta cautela agendum admonuit quidam de mundi hujus sapientibus, ut diceret: Omnis actio temeritate et negligentia vacare debet: quid de Dei rebus aestimandum est?
+          </p>
+        </div>
+        <div xml:id="gom-lev2-Dd1e508">
+          <head xml:id="gom-lev2-Hd1e510">Versus 14</head>
+          <p xml:id="gom-lev2-d1e512">
+            <quote xml:id="gom-lev2-Qd1e514" type="lemma" source="http://scta.info/resource/lev2_14@1-3">Si autem obtuleris,</quote>
+            etc.
+            <ref xml:id="gom-lev2-Rd1e517"><name xml:id="gom-lev2-Nd1e518" ref="#Origen">ORIG.</name>, lib. I in Levit.</ref>
+            <quote xml:id="gom-lev2-Qd1e522"><seg type="qs">Secundo in loco primitiarum</seg>, etc., usque ad <seg type="qs">quia littera separabatur a spiritu.</seg></quote>
+          </p>
+          <p xml:id="gom-lev2-d1e530">
+            <ref xml:id="gom-lev2-Rd1e532"><name xml:id="gom-lev2-Nd1e533">ISICH.</name></ref>
+            <quote xml:id="gom-lev2-Qd1e535" type="lemma" source="http://scta.info/resource/lev2_14@17-19">Confringes in morem,</quote>
+            <quote xml:id="gom-lev2-Qd1e538"><seg type="qs">etc. Non modo praecepit eos Dei notitiam</seg>, etc., usque ad <seg type="qs">per eleemosynam quippe et orationem scientia divina nobis perficitur.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

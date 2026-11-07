@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieremias, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieremias, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0009B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ier1">
+        <head xml:id="gom-ier1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-ier1-Dd1e100">
+          <head xml:id="gom-ier1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ier1-d1e104">
+            <quote xml:id="gom-ier1-Qd1e106" type="lemma" source="http://scta.info/resource/ier1_1@1-2">Verba Jeremiae.</quote>
+            <ref xml:id="gom-ier1-Rd1e109"><name xml:id="gom-ier1-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ier1-Qd1e113">LXX: Verbum Dei, quia verba Jeremiae verbum Domini est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e117">
+          <head xml:id="gom-ier1-Hd1e119">Versus 2</head>
+          <p xml:id="gom-ier1-d1e121">
+            <quote xml:id="gom-ier1-Qd1e123" type="lemma" source="http://scta.info/resource/ier1_2@8-9">In diebus,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-ier1-d1e127">
+            <quote xml:id="gom-ier1-Qd1e129" type="lemma" source="http://scta.info/resource/ier1_2">(ID)</quote>
+            <!-- check: lemma not matched to verse text -->
+            . Mirabilis Dei clementia. Jam captivitate vicina, et Babylonio exercitu <pb ed="#P" n="0009C"/> vallante Jerusalem, nihilominus populum ad poenitentiam vocat, mallens servare conversos quam perdere delinquentes.
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e138">
+          <head xml:id="gom-ier1-Hd1e140">Versus 5</head>
+          <p xml:id="gom-ier1-d1e142">
+            <quote xml:id="gom-ier1-Qd1e144" type="lemma" source="http://scta.info/resource/ier1_5@1-2">Priusquam te.</quote>
+            Non quod ante conceptionem fuerit, ut haeretici suspicantur; sed quia praescivit eum Dominus futurum, cui facienda jam facta sunt; qui vocat ea quae non sunt tanquam ea quae sunt.
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e149">
+          <head xml:id="gom-ier1-Hd1e151">Versus 6</head>
+          <p xml:id="gom-ier1-d1e153">
+            <pb ed="#P" n="0010A"/>
+            <quote xml:id="gom-ier1-Qd1e157" type="lemma" source="http://scta.info/resource/ier1_6@3-7">A, a, a, Domine Deus.</quote>
+            Detestatur officium quod pro aetate non potest sustinere. Eadem verecundia, qua Moyses gracilis et tenuis vocis se esse dicit; sed ille quasi magnae et robustae aetatis corripitur, quasi puero huic venia datur, qui verecundia et pudore decoratur.
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e163">
+          <head xml:id="gom-ier1-Hd1e165">Versus 9</head>
+          <p xml:id="gom-ier1-d1e167">
+            <quote xml:id="gom-ier1-Qd1e169" type="lemma" source="http://scta.info/resource/ier1_9@1-2">Et misit,</quote>
+            etc.
+            <ref xml:id="gom-ier1-Rd1e172"><name xml:id="gom-ier1-Nd1e173" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier1-Qd1e176"><seg type="qs">Notandum quod hic manus Dei mittitur</seg>, etc., usque ad <seg type="qs">ut confidentiam accipiat praedicandi.</seg></quote>
+          </p>
+          <p xml:id="gom-ier1-d1e184">
+            <ref xml:id="gom-ier1-Rd1e186" type="lemma" subtype="implied" target="http://scta.info/resource/ier1_9@1-2"/>
+            <ref xml:id="gom-ier1-Rd1e188"><name xml:id="gom-ier1-Nd1e189" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier1-Qd1e192"><seg type="qs">Quatuor tristibus duo laeta succedunt</seg>, etc., usque ad <seg type="qs">et propinare jubetur omnibus nationibus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e201">
+          <head xml:id="gom-ier1-Hd1e203">Versus 11</head>
+          <p xml:id="gom-ier1-d1e205">
+            <quote xml:id="gom-ier1-Qd1e207" type="lemma" source="http://scta.info/resource/ier1_11@15-16">Virgam vigiliarum.</quote>
+            <ref xml:id="gom-ier1-Rd1e210"><name xml:id="gom-ier1-Nd1e211" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier1-Qd1e214"><seg type="qs">Virga vigiliarum</seg>, etc., usque ad <seg type="qs">resurrectione Domini floruisse narratur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e223">
+          <head xml:id="gom-ier1-Hd1e225">Versus 13</head>
+          <p xml:id="gom-ier1-d1e227">
+            <quote xml:id="gom-ier1-Qd1e229" type="lemma" source="http://scta.info/resource/ier1_13@1-3">Et factum est.</quote>
+            Gradatim peccantes <pb ed="#P" n="0010B"/> corripiuntur; qui noluerunt, percutiente virga, corrigi vel emendari, mittuntur in ollam succensam, de qua plenius Ezechiel.
+          </p>
+          <p xml:id="gom-ier1-d1e235">
+            <quote xml:id="gom-ier1-Qd1e237" type="lemma" source="http://scta.info/resource/ier1_13@15-16">Ollam succensam.</quote>
+            <quote xml:id="gom-ier1-Qd1e240"><seg type="qs">Hinc Dominus ad Job dicit</seg>, etc., usque ad <seg type="qs">sed haec violenta et prava interpretatio est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e249">
+          <head xml:id="gom-ier1-Hd1e251">Versus 14</head>
+          <p xml:id="gom-ier1-d1e253">
+            <quote xml:id="gom-ier1-Qd1e255" type="lemma" source="http://scta.info/resource/ier1_14@12-13">Habitatores terrae.</quote>
+            <quote xml:id="gom-ier1-Qd1e258"><seg type="qs">De quibus in Apocalypsi</seg>, etc., usque ad <seg type="qs">et Petrus: <quote xml:id="gom-ier1-Qd1e264" source="http://scta.info/resource/Ipetr1_1@5-13">Electis advenis Ponti, Galatiae, Cappadociae, Asiae et Bithyniae.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e269">
+          <head xml:id="gom-ier1-Hd1e271">Versus 17</head>
+          <p xml:id="gom-ier1-d1e273">
+            <quote xml:id="gom-ier1-Qd1e275" type="lemma" source="http://scta.info/resource/ier1_17@1-3">Tu ergo accinge,</quote>
+            etc.
+            <ref xml:id="gom-ier1-Rd1e278"><name xml:id="gom-ier1-Nd1e279" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier1-Qd1e282"><seg type="qs">Job quoque praecipitur</seg>, etc., usque ad <seg type="qs">sed civitatem totam quae super montem posita latere non potest.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier1-Dd1e291">
+          <head xml:id="gom-ier1-Hd1e293">Versus 18</head>
+          <p xml:id="gom-ier1-d1e295">
+            <quote xml:id="gom-ier1-Qd1e297" type="lemma" source="http://scta.info/resource/ier1_18@9-11">Et in columnam.</quote>
+            De qua Apostolus: <quote xml:id="gom-ier1-Qd1e300" source="http://scta.info/resource/Itim3_15@18-21">Columna et firmamentum veritatis</quote><!--<note>(I Tim.)</note>-->. Et Petrus et Jacobus et Joannes <quote xml:id="gom-ier1-Qd1e304">qui putabantur esse columnae <pb ed="#P" n="0010C"/> Ecclesiae,</quote> et Paulo et Barnabae dederunt dextras communionis.
+          </p>
+          <p xml:id="gom-ier1-d1e310">
+            <quote xml:id="gom-ier1-Qd1e312" type="lemma" source="http://scta.info/resource/ier1_18@20-21">Regibus Juda.</quote>
+            <ref xml:id="gom-ier1-Rd1e315"><name xml:id="gom-ier1-Nd1e316" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier1-Qd1e319"><seg type="qs">Si quando reges Juda</seg>, etc., usque ad <seg type="qs">in Domino speret ut vincat.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

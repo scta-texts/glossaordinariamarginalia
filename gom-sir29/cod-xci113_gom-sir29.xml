@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 29</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 29</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1213D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir29">
+        <head xml:id="gom-sir29-Hd1e98">Caput 29</head>
+        <div xml:id="gom-sir29-Dd1e100">
+          <head xml:id="gom-sir29-Hd1e102">Versus 5</head>
+          <p xml:id="gom-sir29-d1e104">
+            <quote xml:id="gom-sir29-Qd1e106" type="lemma" source="http://scta.info/resource/sir29_5@1-2">Donec accipiant.</quote>
+            <ref xml:id="gom-sir29-Rd1e109"><name xml:id="gom-sir29-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir29-Qd1e113">Hujusmodi morbum melius curat timor Dei. Qui enim Deum <pb ed="#P" n="1214A"/> quasi semper praesentem pertimescit, neminem fraudare intendit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e120">
+          <head xml:id="gom-sir29-Hd1e122">Versus 10</head>
+          <p xml:id="gom-sir29-d1e124">
+            <quote xml:id="gom-sir29-Qd1e126" type="lemma" source="http://scta.info/resource/sir29_10@1-1">Multis,</quote>
+            etc.
+            <ref xml:id="gom-sir29-Rd1e129"><name xml:id="gom-sir29-Nd1e130" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir29-Qd1e133">Illos notat, qui neminem laedere volunt, sed prae timore periturarum rerum prodesse nolunt. Contra quos dicitur: <quote xml:id="gom-sir29-Qd1e135" source="http://scta.info/resource/mt6_19@1-6">Nolite thesaurizare vobis thesauros in terra</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e141">
+          <head xml:id="gom-sir29-Hd1e143">Versus 12</head>
+          <p xml:id="gom-sir29-d1e145">
+            <quote xml:id="gom-sir29-Qd1e147" type="lemma" source="http://scta.info/resource/sir29_12@1-2">Propter mandatum.</quote>
+            Omnibus indigentibus misericordia est facienda, nec pro avaritia charitas proximi amittenda.
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e152">
+          <head xml:id="gom-sir29-Hd1e154">Versus 13</head>
+          <p xml:id="gom-sir29-d1e156">
+            <quote xml:id="gom-sir29-Qd1e158" type="lemma" source="http://scta.info/resource/sir29_13@7-9">Et non abscondas.</quote>
+            Qui enim viderit fratrem suum necesse habere, et clauserit viscera sua ab eo, quomodo charitas Dei manet in eo?
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e164">
+          <head xml:id="gom-sir29-Hd1e166">Versus 18</head>
+          <p xml:id="gom-sir29-d1e168">
+            <quote xml:id="gom-sir29-Qd1e170" type="lemma" source="http://scta.info/resource/sir29_18@1-3">Super scutum potentis,</quote>
+            etc. Magis valet eleemosyna contra jacula inimici, quam <pb ed="#P" n="1214B"/> arma terrena: quia haec dubiam, illa certissimam parit victoriam, ut absorbeatur mors in victoria.
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e177">
+          <head xml:id="gom-sir29-Hd1e179">Versus 23</head>
+          <p xml:id="gom-sir29-d1e181">
+            <quote xml:id="gom-sir29-Qd1e183" type="lemma" source="http://scta.info/resource/sir29_23">Qui perdiderit,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc. Id est, qui unitatem fidei, et sinceritatem legis non custodit, sed implicatur erroribus variis.
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e190">
+          <head xml:id="gom-sir29-Hd1e192">Versus 20</head>
+          <p xml:id="gom-sir29-d1e194">
+            <quote xml:id="gom-sir29-Qd1e196" type="lemma" source="http://scta.info/resource/sir29_20@1-2">Gratiam fidejussoris,</quote>
+            etc. Doctorem scilicet qui pro fide et bonis operibus promittit vitam aeternam. Haec sententia Pelagium reprehendit qui liberum arbitrium gratiae praeponit, cum per solam gratiam liberentur electi.
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e201">
+          <head xml:id="gom-sir29-Hd1e203">Versus 27</head>
+          <p xml:id="gom-sir29-d1e205">
+            <quote xml:id="gom-sir29-Qd1e207" type="lemma" source="http://scta.info/resource/sir29_27@1-2">Recupera proximum.</quote>
+            Consulit, ut secundum vires proximo praebeas solatium, et sic tibi praevideas, ne in laqueum cadas.
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e212">
+          <head xml:id="gom-sir29-Hd1e214">Versus 28</head>
+          <p xml:id="gom-sir29-d1e216">
+            <quote xml:id="gom-sir29-Qd1e218" type="lemma" source="http://scta.info/resource/sir29_28@1-2">Initium vitae,</quote>
+            etc.
+            <ref xml:id="gom-sir29-Rd1e221"><name xml:id="gom-sir29-Nd1e222" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir29-Qd1e225"><seg type="qs">Fragilitatem, et hospitalitatem et honestatem docet, etc., <pb ed="#P" n="1214C"/></seg> usque ad <seg type="qs">et Dominus primis parentibus pelliceas tunicas post peccatum fecit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e235">
+          <head xml:id="gom-sir29-Hd1e237">Versus 29</head>
+          <p xml:id="gom-sir29-d1e239">
+            <quote xml:id="gom-sir29-Qd1e241" type="lemma" source="http://scta.info/resource/sir29_29@1-3">Melior est victus pauperis,</quote>
+            etc. Ad litteram. Melius est tenuem victum sub vili tugurio sumere in securitate, quam splendidas epulas cum fatigatione in incertis locis quaerere.
+          </p>
+          <p xml:id="gom-sir29-d1e245">
+            <ref xml:id="gom-sir29-Rd1e247" type="lemma" subtype="implied" target="http://scta.info/resource/sir29_29@1-3"/>
+            <ref xml:id="gom-sir29-Rd1e249"><name xml:id="gom-sir29-Nd1e250" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir29-Qd1e253"><seg type="qs">Allegorice. Melior est victus</seg>, etc., usque ad <seg type="qs">ubi labor et superflua cura.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e263">
+          <head xml:id="gom-sir29-Hd1e265">Versus 30</head>
+          <p xml:id="gom-sir29-d1e267">
+            <quote xml:id="gom-sir29-Qd1e269" type="lemma" source="http://scta.info/resource/sir29_30@2-2">Minimum.</quote>
+            <ref xml:id="gom-sir29-Rd1e272"><name xml:id="gom-sir29-Nd1e273" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir29-Qd1e276"><seg type="qs">Sufficiat tibi quod habes</seg>, etc., usque ad <seg type="qs">melius est nomen bonum quam deliciae multae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e285">
+          <head xml:id="gom-sir29-Hd1e287">Versus 33</head>
+          <p xml:id="gom-sir29-d1e289">
+            <quote xml:id="gom-sir29-Qd1e291" type="lemma" source="http://scta.info/resource/sir29_33@1-1">Transi.</quote>
+            Quasi: Qui alieno delectaris hospitio, redi ad propria, et de labore tuo te et alios pasce. Noli de aliena domo pastum tibi superfluum quaerere. Sufficit tibi susceptio proximorum.
+          </p>
+        </div>
+        <div xml:id="gom-sir29-Dd1e296">
+          <head xml:id="gom-sir29-Hd1e298">Versus 35</head>
+          <p xml:id="gom-sir29-d1e300">
+            <pb ed="#P" n="1214D"/>
+            <quote xml:id="gom-sir29-Qd1e304" type="lemma" source="http://scta.info/resource/sir29_35@9-9">Improperium.</quote>
+            <ref xml:id="gom-sir29-Rd1e307"><name xml:id="gom-sir29-Nd1e308" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir29-Qd1e311"><seg type="qs">Mystice autem monetur vir ecclesiasticus</seg>, etc., usque ad <seg type="qs">in futuro autem examine aeternum confusionis improperium sustineat.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

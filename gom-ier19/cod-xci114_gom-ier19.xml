@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ieremias, Caput 19</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ieremias, Caput 19</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0035C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ier19">
+        <head xml:id="gom-ier19-Hd1e98">Caput 19</head>
+        <div xml:id="gom-ier19-Dd1e100">
+          <head xml:id="gom-ier19-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ier19-d1e104">
+            <pb ed="#P" n="0035C"/>
+            <quote xml:id="gom-ier19-Qd1e108" type="lemma" source="http://scta.info/resource/ier19_1@1-7">Haec dicit Dominus: Vade et accipe lagunculam.</quote>
+            <ref xml:id="gom-ier19-Rd1e111"><name xml:id="gom-ier19-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ier19-Qd1e115">Vult divina Scriptura non solum auribus docere populum, sed etiam oculis. Magis enim mente retinetur quod visu percipitur quam quod auditu.</quote>
+          </p>
+          <p xml:id="gom-ier19-d1e118">
+            <quote xml:id="gom-ier19-Qd1e120" type="lemma" source="http://scta.info/resource/ier19_1@7-8">Lagunculam figuli</quote>
+            <quote xml:id="gom-ier19-Qd1e123"><seg type="qs">pro laguncula figuli</seg>, etc., usque ad <seg type="qs">et pro Hierihoh <quote xml:id="gom-ier19-Qd1e129">Chiricho.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier19-Dd1e133">
+          <head xml:id="gom-ier19-Hd1e135">Versus 4</head>
+          <p xml:id="gom-ier19-d1e137">
+            <quote xml:id="gom-ier19-Qd1e139" type="lemma" source="http://scta.info/resource/ier19_4@1-2">Eo quod.</quote>
+            <ref xml:id="gom-ier19-Rd1e142"><name xml:id="gom-ier19-Nd1e143" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier19-Qd1e146"><seg type="qs">Omnis haereticus derelinquit Deum</seg>, etc., usque ad <seg type="qs">et comburunt idolis filios suos quos in haeresi genuerunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier19-Dd1e155">
+          <head xml:id="gom-ier19-Hd1e157">Versus 5</head>
+          <p xml:id="gom-ier19-d1e159">
+            <quote xml:id="gom-ier19-Qd1e161" type="lemma" source="http://scta.info/resource/ier19_5@13-15">Quae non praecepi.</quote>
+            <quote xml:id="gom-ier19-Qd1e164"><seg type="qs">Non praecepi vel cogitavi</seg>, etc., usque ad <seg type="qs">haec de Deo accipienda sunt, sicut alia.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier19-Dd1e173">
+          <head xml:id="gom-ier19-Hd1e175">Versus 6</head>
+          <p xml:id="gom-ier19-d1e177">
+            <quote xml:id="gom-ier19-Qd1e179" type="lemma" source="http://scta.info/resource/ier19_6@13-17">Topheth, et vallis filii Ennom,</quote>
+            etc. <pb ed="#P" n="0035D"/>
+          </p>
+          <p xml:id="gom-ier19-d1e185">
+            <ref xml:id="gom-ier19-Rd1e187" type="lemma" subtype="implied" target="http://scta.info/resource/ier19_6@13-17"/>
+            <ref xml:id="gom-ier19-Rd1e189"><name xml:id="gom-ier19-Nd1e190" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier19-Qd1e193"><seg type="qs">Quae sit vallis filii Ennom</seg>, etc., usque ad <seg type="qs">vel historialiter Babylonio vastante.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier19-Dd1e203">
+          <head xml:id="gom-ier19-Hd1e205">Versus 7</head>
+          <p xml:id="gom-ier19-d1e207">
+            <quote xml:id="gom-ier19-Qd1e209" type="lemma" source="http://scta.info/resource/ier19_7@24-26">Et dabo cadavera.</quote>
+            <quote xml:id="gom-ier19-Qd1e212"><seg type="qs">Quamvis haec in Babylonica captivitate populo acciderint</seg>, etc., usque ad <seg type="qs">ventres suos sepulcra facerent liberorum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier19-Dd1e221">
+          <head xml:id="gom-ier19-Hd1e223">Versus 11</head>
+          <p xml:id="gom-ier19-d1e225">
+            <quote xml:id="gom-ier19-Qd1e227" type="lemma" source="http://scta.info/resource/ier19_11@9-12">Sic conteram populum istum.</quote>
+            Sub Aelio Adriano civitas, et nomen perdidit, et statum, ad frangendam superbiam habitatorum. Sanctae autem crucis et resurrectionis vocabula non urbem significant, sed locum.
+          </p>
+          <p xml:id="gom-ier19-d1e231">
+            <ref xml:id="gom-ier19-Rd1e233" type="lemma" subtype="implied" target="http://scta.info/resource/ier19_11@9-12"/>
+            <ref xml:id="gom-ier19-Rd1e235"><name xml:id="gom-ier19-Nd1e236" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-ier19-Qd1e239"><seg type="qs">Judaei auream atque gemmatam Jerusalem</seg>, etc., usque ad <seg type="qs">et vero judici cuncta reserventur.</seg></quote>
+          </p>
+          <p xml:id="gom-ier19-d1e247">
+            <quote xml:id="gom-ier19-Qd1e249" type="lemma" source="http://scta.info/resource/ier19_11@25-28">Et in Topheth sepelientur,</quote>
+            <quote xml:id="gom-ier19-Qd1e252">etc., usque ad <seg type="qs">quae huic imminet loco, fiat sicut Topheth.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ier19-Dd1e259">
+          <head xml:id="gom-ier19-Hd1e261">Versus 13</head>
+          <p xml:id="gom-ier19-d1e263">
+            <pb ed="#P" n="0036A"/>
+            <quote xml:id="gom-ier19-Qd1e267" type="lemma" source="http://scta.info/resource/ier19_13@1-7">Et erunt domus Jerusalem et domus regum.</quote>
+            Omnis domus regum Juda sicut locus Topheth. Hoc in Hebraeo non habetur, sed a LXX interseritur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

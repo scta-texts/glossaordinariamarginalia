@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon I, Caput 26</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon I, Caput 26</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0660B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ichr26">
+        <head xml:id="gom-Ichr26-Hd1e98">Caput 26</head>
+        <div xml:id="gom-Ichr26-Dd1e100">
+          <head xml:id="gom-Ichr26-Hd1e102">Versus 2</head>
+          <p xml:id="gom-Ichr26-d1e104">
+            <quote xml:id="gom-Ichr26-Qd1e106" type="lemma" source="http://scta.info/resource/Ichr26_2@2-2">Meselemiae.</quote>
+            <ref xml:id="gom-Ichr26-Rd1e109"><name xml:id="gom-Ichr26-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr26-Qd1e113">Qui interpretatur <pb ed="#P" n="0660C"/> <quote xml:id="gom-Ichr26-Qd1e117">reddente Domino,</quote> et significat ordinem apostolorum et primorum doctorum, quibus orientalis porta, id est, primitiva commendatur Ecclesia, quibus antiquorum Patrum redditae sunt promissiones.</quote>
+          </p>
+          <p xml:id="gom-Ichr26-d1e121">
+            <quote xml:id="gom-Ichr26-Qd1e123" type="lemma" source="http://scta.info/resource/Ichr26_2">Zachariae.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Qui memoria Domini interpretatur, et significat doctores gentium, quia a primis praedicatoribus ad praedicandum ordinati sunt. Unde <quote xml:id="gom-Ichr26-Qd1e128" source="http://scta.info/resource/act3">orantibus apostolis et jejunantibus, ait Spiritus sanctus: Segregate mihi et Paulum et Barnabam<!-- check: cited chapter given; verse not identified --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e134">
+          <head xml:id="gom-Ichr26-Hd1e136">Versus 4</head>
+          <p xml:id="gom-Ichr26-d1e138">
+            <quote xml:id="gom-Ichr26-Qd1e140" type="lemma" source="http://scta.info/resource/Ichr26_4@3-3">Obededom.</quote>
+            Rubeus: qui in servitute erant generati, et rubore sanguinis Christi perfusi, reatum suum in propatulo habuerunt; recte per condescensionem magistrorum reducuntur ad gradum pristinum, unde Paulus: <quote xml:id="gom-Ichr26-Qd1e143" source="http://scta.info/resource/Icor9_19@7-13">Omnium servum me feci, ut omnes lucrifacerem</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e148">
+          <head xml:id="gom-Ichr26-Hd1e150">Versus 15</head>
+          <p xml:id="gom-Ichr26-d1e152">
+            <pb ed="#P" n="0660D"/>
+            <quote xml:id="gom-Ichr26-Qd1e156" type="lemma" source="http://scta.info/resource/Ichr26_15@6-7">Ad austrum.</quote>
+            <ref xml:id="gom-Ichr26-Rd1e159"><name xml:id="gom-Ichr26-Nd1e160" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr26-Qd1e163">Australis porta significat Judaicam plebem lege et prophetis illuminatam, calori fidei et lumini sapientiae percipiendo vicinam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e167">
+          <head xml:id="gom-Ichr26-Hd1e169">Versus 16</head>
+          <p xml:id="gom-Ichr26-d1e171">
+            <quote xml:id="gom-Ichr26-Qd1e173" type="lemma" source="http://scta.info/resource/Ichr26_16@4-7">Ad occidentem, juxta portam,</quote>
+            etc. Per occidentalem plagam finis mundi significatur, in quo erit persecutio Antichristi: et <quote xml:id="gom-Ichr26-Qd1e176" source="http://scta.info/resource/mt24_12@3-7">abundabit iniquitas, et refrigescet charitas multorum</quote>. Hujus portae janitores, sunt doctores illius temporis, qui Ecclesiam docendo et exhortando roborant: unde Sephim humilis vel campestris, et Hosa divinans interpretatur. Humiliabitur enim in persecutione Ecclesia, et in campo lasciviae erit dissoluta. Sed in perfectorum actione elevata, quod divinis praesignatur <pb ed="#P" n="0661A"/> eloquiis, unde: <quote xml:id="gom-Ichr26-Qd1e181" source="http://scta.info/resource/dan12_9@6-13">Clausi sunt sermones usque ad praefinitum tempus</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e187">
+          <head xml:id="gom-Ichr26-Hd1e189">Versus 17</head>
+          <p xml:id="gom-Ichr26-d1e191">
+            <quote xml:id="gom-Ichr26-Qd1e193" type="lemma" source="http://scta.info/resource/Ichr26_17@4-11">Levitae sex, et ad aquilonem quatuor per diem,</quote>
+            etc. Senarius bonum opus ministeriorum Dei significat, quaternarius evangelicam doctrinam et principalium virtutum plenitudinem.
+          </p>
+          <p xml:id="gom-Ichr26-d1e197">
+            <quote xml:id="gom-Ichr26-Qd1e199" type="lemma" source="http://scta.info/resource/Ichr26_17@23-25">Bini et bini.</quote>
+            Janitores binos et binos dicit esse in cellulis atque in via, quia sive in cellulis cordis sui curam gerant, sive in via exterius verbum Dei exponant, duo praecepta charitatis et regulam utriusque Testamenti omnino servent.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e204">
+          <head xml:id="gom-Ichr26-Hd1e206">Versus 24</head>
+          <p xml:id="gom-Ichr26-d1e208">
+            <quote xml:id="gom-Ichr26-Qd1e210" type="lemma" source="http://scta.info/resource/Ichr26_24@5-6">Filii Moysi,</quote>
+            etc. Qui praecipue a David honorabantur secundum Josephum, et super thesauros constituti erant, doctores de Judaeis significat, quibus ornamentum Ecclesiae, id est, decor <pb ed="#P" n="0661B"/> animae commendatur.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e217">
+          <head xml:id="gom-Ichr26-Hd1e219">Versus 25</head>
+          <p xml:id="gom-Ichr26-d1e221">
+            <quote xml:id="gom-Ichr26-Qd1e223" type="lemma" source="http://scta.info/resource/Ichr26_25@1-4">Fratres quoque ejus Eliezer.</quote>
+            Ostendit donaria principum thesauros esse sanctorum, quae enim hostibus offerebant, in supellectilem templi donabant. Quicunque enim bene laborans aliquid virtutis vel boni operis acquirit, Deo, non sibi bonum attribuat. Unde: <quote xml:id="gom-Ichr26-Qd1e226" source="http://scta.info/resource/ps113_9@1-10">Non nobis, Domine, non nobis, sed nomini tuo da gloriam</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e231">
+          <head xml:id="gom-Ichr26-Hd1e233">Versus 29</head>
+          <p xml:id="gom-Ichr26-d1e235">
+            <quote xml:id="gom-Ichr26-Qd1e237" type="lemma" source="http://scta.info/resource/Ichr26_29@1-4">Isaaritis vero praeerat Chonenias,</quote>
+            etc. Hi sunt qui in Ecclesia humiliter et obedienter, quae a magistris audiunt, devota mente suscipiunt, et qui lingua non possunt, faciendo doctrinam virtutum ostendunt.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e242">
+          <head xml:id="gom-Ichr26-Hd1e244">Versus 30</head>
+          <p xml:id="gom-Ichr26-d1e246">
+            <quote xml:id="gom-Ichr26-Qd1e248" type="lemma" source="http://scta.info/resource/Ichr26_30@13-17">Israeli trans Jordanem contra occidentem,</quote>
+            etc. Israelitae qui trans Jordanem possessionem <pb ed="#P" n="0661C"/> acceperunt, significant eos, qui mediocritate contenti, arcem virtutum, turbulentiam hujus saeculi transcendendo, non appetunt, sed tamen mandata Dei opere exercere non negligunt. Quia vero nemo haec agit nisi dono Dei, is praepositus dicitur esse Asabias, id est <quote xml:id="gom-Ichr26-Qd1e253">faciente domino,</quote> ut dicant cum propheta: <quote xml:id="gom-Ichr26-Qd1e255" source="http://scta.info/resource/is26_12@5-11">Omnia opera nostra operatus es in nobis<!-- check: Migne cites ps26; text matches is26_12 --></quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr26-Dd1e261">
+          <head xml:id="gom-Ichr26-Hd1e263">Versus 31</head>
+          <p xml:id="gom-Ichr26-d1e265">
+            <quote xml:id="gom-Ichr26-Qd1e267" type="lemma" source="http://scta.info/resource/Ichr26_31@1-10">Hebronitarum autem princeps fuit Jeria secundum familias et cognationes eorum.</quote>
+            In Hebrun coepit David regnare, qui significat eos, qui bene conversati incipiunt, et David in vita sua parant regnum. Hebronitis Jerias, timens Dominum princeps est, quia <quote xml:id="gom-Ichr26-Qd1e270" source="http://scta.info/resource/ps110_10@1-4">initium sapientiae timor Domini</quote>. Hebron vero interpretatur conjugium: <quote xml:id="gom-Ichr26-Qd1e273" source="http://scta.info/resource/Iio4">qui enim <pb ed="#P" n="0661D"/> timet, proficit ut amet, et foras mittat timorem<!-- check: cited chapter given; verse not identified --></quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

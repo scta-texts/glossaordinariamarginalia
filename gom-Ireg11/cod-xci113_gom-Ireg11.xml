@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum I, Caput 11</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum I, Caput 11</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0603B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ireg11">
+        <head xml:id="gom-Ireg11-Hd1e98">Caput 11</head>
+        <div xml:id="gom-Ireg11-Dd1e100">
+          <head xml:id="gom-Ireg11-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ireg11-d1e104">
+            <quote xml:id="gom-Ireg11-Qd1e106" type="lemma" source="http://scta.info/resource/Ireg11_1@1-2">Rex autem.</quote>
+            <ref xml:id="gom-Ireg11-Rd1e109"><name xml:id="gom-Ireg11-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg11-Qd1e113"><seg type="qs">Salomonem arguit vehementer Scriptura</seg>, etc., usque ad <seg type="qs">mala illius mala Ecclesiae significant.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg11-Dd1e122">
+          <head xml:id="gom-Ireg11-Hd1e124">Versus 27</head>
+          <p xml:id="gom-Ireg11-d1e126">
+            <quote xml:id="gom-Ireg11-Qd1e128" type="lemma" source="http://scta.info/resource/Ireg11_27@13-13">Voraginem.</quote>
+            Murus civitatis cecidit, eo quod ex uno latere praecipitio immineret. Quam voraginem cum rex vellet coaequare muris, constituit ducibus, ut hoc implerent opus; sed Jeroboam, qui erat princeps tribus Joseph, noluit obedire regi, qui constituerat eum prius super aedificia propugnaculorum, quae faciebat in Jerosolymis, ubi laboravit ita, ut rex <pb ed="#P" n="0603C"/> ei principatum militiae super tribum Joseph conferret. Sed rebellis factus egreditur de Jerusalem: cui occurrit propheta deflectens eum in agrum, ut nullus audiret quid ei diceret. Elatusque verbis prophetae suadebat populo, ut se regem faceret: Quod audiens Salomon quaerebat eum interficere.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg11-Dd1e135">
+          <head xml:id="gom-Ireg11-Hd1e137">Versus 28</head>
+          <p xml:id="gom-Ireg11-d1e139">
+            <quote xml:id="gom-Ireg11-Qd1e141" type="lemma" source="http://scta.info/resource/Ireg11_28@1-2">Erat autem.</quote>
+            Hoc mandatum restitutionis murorum recusavit. Sed unde tanta audacia? quia rex constituerat eum praefectum.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg11-Dd1e146">
+          <head xml:id="gom-Ireg11-Hd1e148">Versus 31</head>
+          <p xml:id="gom-Ireg11-d1e150">
+            <quote xml:id="gom-Ireg11-Qd1e152" type="lemma" source="http://scta.info/resource/Ireg11_31@5-6">Tolle tibi.</quote>
+            <ref xml:id="gom-Ireg11-Rd1e155"><name xml:id="gom-Ireg11-Nd1e156" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg11-Qd1e159"><seg type="qs">Decem tribus a domo David separatae sunt</seg>, etc., usque ad <seg type="qs">quia <quote xml:id="gom-Ireg11-Qd1e165" source="http://scta.info/resource/eph4_5@1-6">unus Deus, una fides, unum baptisma.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg11-Dd1e171">
+          <head xml:id="gom-Ireg11-Hd1e173">Versus 42</head>
+          <p xml:id="gom-Ireg11-d1e175">
+            <quote xml:id="gom-Ireg11-Qd1e177" type="lemma" source="http://scta.info/resource/Ireg11_42@1-2">Dies autem.</quote>
+            Josephus dixit regnasse octoginta annis, et vixisse nonaginta quatuor. Sed divina Scriptura eos tantum annos exprimit quibus <pb ed="#P" n="0603D"/> regnavit antequam praevaricaretur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

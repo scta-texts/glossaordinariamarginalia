@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 42</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 42</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1284B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is42">
+        <head xml:id="gom-is42-Hd1e98">Caput 42</head>
+        <div xml:id="gom-is42-Dd1e100">
+          <head xml:id="gom-is42-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is42-d1e104">
+            <pb ed="#P" n="1284B"/>
+            <quote xml:id="gom-is42-Qd1e108" type="lemma" source="http://scta.info/resource/is42_1@1-2">Ecce servus.</quote>
+            <ref xml:id="gom-is42-Rd1e111"><name xml:id="gom-is42-Nd1e112" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is42-Qd1e115">Notandum quia apostoli Jacob, Israel, et semen Abrahae appellantur, quibus postea quasi servis et hominibus dicitur: <quote xml:id="gom-is42-Qd1e117" source="http://scta.info/resource/is41_14@1-4">Noli timere, vermis Jacob,</quote> etc. Christus autem non semen Jacob vel Israel, sed servus dicitur.</quote>
+          </p>
+          <p xml:id="gom-is42-d1e122">
+            <quote xml:id="gom-is42-Qd1e124" type="lemma" source="http://scta.info/resource/is42_1@14-15">Dedi Spiritum.</quote>
+            In conceptione; unde: <quote xml:id="gom-is42-Qd1e127" source="http://scta.info/resource/lc1_35@6-10">Spiritus sanctus superveniet in te,</quote> etc. <!--<note>(Phil. II)</note>-->. Et in baptismo claruit, cum Spiritus in specie columbae super ipsum requievit <!--<note>(Luc. I)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e136">
+          <head xml:id="gom-is42-Hd1e138">Versus 3</head>
+          <p xml:id="gom-is42-d1e140">
+            <quote xml:id="gom-is42-Qd1e142" type="lemma" source="http://scta.info/resource/is42_3@6-7">Linum fumigans.</quote>
+            Sacerdotium jam pene exstinctum, de lino autem fit sacerdotale vestimentum.
+          </p>
+          <p xml:id="gom-is42-d1e146">
+            <quote xml:id="gom-is42-Qd1e148" type="lemma" source="http://scta.info/resource/is42_3@12-13">Educet judicium.</quote>
+            Judicabit, scilicet non metuens Scribas et Pharisaeos.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e153">
+          <head xml:id="gom-is42-Hd1e155">Versus 4</head>
+          <p xml:id="gom-is42-d1e157">
+            <quote xml:id="gom-is42-Qd1e159" type="lemma" source="http://scta.info/resource/is42_4@1-3">Non erit tristis.</quote>
+            <ref xml:id="gom-is42-Rd1e162"><name xml:id="gom-is42-Nd1e163" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is42-Qd1e166">Hoc Matthaeus <pb ed="#P" n="1284C"/> non posuit, sive inter judicium et judicium media scriptoris errore sublata sunt. Est autem sensus, aequalitatem vultus omni tempore conservabit: Quod de Socrate falso gloriantur philosophi, quod scilicet plus solito non tristis fuerit, nec laetus.</quote>
+          </p>
+          <p xml:id="gom-is42-d1e172">
+            <quote xml:id="gom-is42-Qd1e174" type="lemma" source="http://scta.info/resource/is42_4@8-10">In terra judicium.</quote>
+            Unde: <quote xml:id="gom-is42-Qd1e177" source="http://scta.info/resource/io9_39@4-15">In judicium ego veni in hunc mundum, ut qui non vident videant,</quote> etc. <!--<note>(Joan. IX)</note>-->.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e184">
+          <head xml:id="gom-is42-Hd1e186">Versus 6</head>
+          <p xml:id="gom-is42-d1e188">
+            <quote xml:id="gom-is42-Qd1e190" type="lemma" source="http://scta.info/resource/is42_6@6-6">Justitia.</quote>
+            Justum fuit ut transiret per apostolos ad gentes contemptus a Judaeis.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e196">
+          <head xml:id="gom-is42-Hd1e198">Versus 7</head>
+          <p xml:id="gom-is42-d1e200">
+            <quote xml:id="gom-is42-Qd1e202" type="lemma" source="http://scta.info/resource/is42_7@9-9">Vinctum.</quote>
+            Funibus peccatorum: in Evangelio, quem Satanas vinxerat Dominus solvit.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e207">
+          <head xml:id="gom-is42-Hd1e209">Versus 8</head>
+          <p xml:id="gom-is42-d1e211">
+            <quote xml:id="gom-is42-Qd1e213" type="lemma" source="http://scta.info/resource/is42_8@9-9">Alteri.</quote>
+            Filius et Spiritus sanctus in Deitate a Patre alter non est, et ideo eamdem et gloriam <pb ed="#P" n="1284D"/> et laudem habet.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e220">
+          <head xml:id="gom-is42-Hd1e222">Versus 9</head>
+          <p xml:id="gom-is42-d1e224">
+            <pb ed="#P" n="1284D"/>
+            <quote xml:id="gom-is42-Qd1e228" type="lemma" source="http://scta.info/resource/is42_9@13-14">Vobis faciam.</quote>
+            Ut sciatis, quia ego Dominus, non est alius praeter me: et qui priora cernitis impleta, credatis quae polliceor futura.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e233">
+          <head xml:id="gom-is42-Hd1e235">Versus 10</head>
+          <p xml:id="gom-is42-d1e237">
+            <quote xml:id="gom-is42-Qd1e239" type="lemma" source="http://scta.info/resource/is42_10@4-4">Novum.</quote>
+            In novitate Spiritus, non in vestustate litterae; nec solum in Veteri Testamento, sed etiam in Novo.
+          </p>
+          <p xml:id="gom-is42-d1e243">
+            <quote xml:id="gom-is42-Qd1e245" type="lemma" source="http://scta.info/resource/is42_10@10-13">Qui descenditis in mare.</quote>
+            <ref xml:id="gom-is42-Rd1e248"><name xml:id="gom-is42-Nd1e249" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is42-Qd1e252">Prius piscatores piscium, post hominum; unde ad litteram: multa maria transierunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e256">
+          <head xml:id="gom-is42-Hd1e258">Versus 11</head>
+          <p xml:id="gom-is42-d1e260">
+            <quote xml:id="gom-is42-Qd1e262" type="lemma" source="http://scta.info/resource/is42_11@9-9">Cedar.</quote>
+            Filius Ismaelis: Saraceni ab eo, qui melius Agareni: sed nomine liberae velaverunt ignominiam ancillae. Ismael enim filius ancillae Agar fuit, ab hac Saraceni. Duodecim enim duces genuit. Nomine quoque ejus ipsa dicitur provincia.
+          </p>
+          <p xml:id="gom-is42-d1e266">
+            <pb ed="#P" n="1285A"/>
+            <quote xml:id="gom-is42-Qd1e270" type="lemma" source="http://scta.info/resource/is42_11@13-15">De vertice montium.</quote>
+            <ref xml:id="gom-is42-Rd1e273"><name xml:id="gom-is42-Nd1e274" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is42-Qd1e277"><quote xml:id="gom-is42-Qd1e278">Super montem excelsum ascende. De vertice montis.</quote> De altitudine virtutis et contemplationis, ut etiam exemplo doceant quae praedicant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e283">
+          <head xml:id="gom-is42-Hd1e285">Versus 13</head>
+          <p xml:id="gom-is42-d1e287">
+            <quote xml:id="gom-is42-Qd1e289" type="lemma" source="http://scta.info/resource/is42_13@10-10">Vociferabitur.</quote>
+            Unde: <quote xml:id="gom-is42-Qd1e292" source="http://scta.info/resource/deut32_21@1-9">Ipsi me provocaverunt in eo qui non erat Deus</quote>; et ego in gente stulta irritabo eos.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e298">
+          <head xml:id="gom-is42-Hd1e300">Versus 14</head>
+          <p xml:id="gom-is42-d1e302">
+            <quote xml:id="gom-is42-Qd1e304" type="lemma" source="http://scta.info/resource/is42_14@6-7">Sicut parturiens.</quote>
+            Partum consilii mei profundam in lucem sicut mulier infantem, sic proferam dissimulatum dolorem.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e309">
+          <head xml:id="gom-is42-Hd1e311">Versus 16</head>
+          <p xml:id="gom-is42-d1e313">
+            <quote xml:id="gom-is42-Qd1e315" type="lemma" source="http://scta.info/resource/is42_16@8-9">In semitis.</quote>
+            <ref xml:id="gom-is42-Rd1e318"><name xml:id="gom-is42-Nd1e319" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is42-Qd1e322">In cognitione prophetarum, qui sunt semitae ad Christum, cum ejus nativitatem, resurrectionem et ascensionem praedicunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e326">
+          <head xml:id="gom-is42-Hd1e328">Versus 17</head>
+          <p xml:id="gom-is42-d1e330">
+            <quote xml:id="gom-is42-Qd1e332" type="lemma" source="http://scta.info/resource/is42_17">Confundantur. Cum plenitudo gentium intraverit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Tunc etiam Israel conversus, erroris sui <pb ed="#P" n="1285B"/> poenitebit, qui idolis ante servivit.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e341">
+          <head xml:id="gom-is42-Hd1e343">Versus 22</head>
+          <p xml:id="gom-is42-d1e345">
+            <quote xml:id="gom-is42-Qd1e347" type="lemma" source="http://scta.info/resource/is42_22@7-8">Laqueus juvenum.</quote>
+            Revertitur ad praedicationem Domini, increpans Scribas et Pharisaeos: Hi enim erant laquei simplicibus ne ad Dominum converterentur.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e352">
+          <head xml:id="gom-is42-Hd1e354">Versus 23</head>
+          <p xml:id="gom-is42-d1e356">
+            <quote xml:id="gom-is42-Qd1e358" type="lemma" source="http://scta.info/resource/is42_23@1-2">Quis est.</quote>
+            Hortatur eos propheta, ut saltem aliqui audiant et causam suae captivitatis intelligant et caveant.
+          </p>
+        </div>
+        <div xml:id="gom-is42-Dd1e363">
+          <head xml:id="gom-is42-Hd1e365">Versus 25</head>
+          <p xml:id="gom-is42-d1e367">
+            <quote xml:id="gom-is42-Qd1e369" type="lemma" source="http://scta.info/resource/is42_25@3-4">Super eum.</quote>
+            Ut quod prius tacuerat, jam non taceret nec verbis, sed tormentis corriperet.
+          </p>
+          <p xml:id="gom-is42-d1e373">
+            <quote xml:id="gom-is42-Qd1e375" type="lemma" source="http://scta.info/resource/is42_25@16-18">Et non cognovit.</quote>
+            Sicut historiae tradunt, nec gentes hoc fieri in ultionem filii intellexerunt, nec Judaei malitia sua excaecati.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

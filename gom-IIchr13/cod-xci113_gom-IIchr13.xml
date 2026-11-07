@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 13</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 13</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0682B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr13">
+        <head xml:id="gom-IIchr13-Hd1e98">Caput 13</head>
+        <div xml:id="gom-IIchr13-Dd1e100">
+          <head xml:id="gom-IIchr13-Hd1e102">Versus 4</head>
+          <p xml:id="gom-IIchr13-d1e104">
+            <quote xml:id="gom-IIchr13-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr13_4@6-6">Semeron.</quote>
+            <ref xml:id="gom-IIchr13-Rd1e109"><name xml:id="gom-IIchr13-Nd1e110" ref="#RabanusMaurus">RAB.</name> ex Hieron.</ref>
+            <quote xml:id="gom-IIchr13-Qd1e114">Civitas est quam cepit Jesus rege illius interfecto, quam dicunt vocari nunc Sebasten oppidum Palestinae, ubi Joannis Baptistae conditae sunt reliquiae. Legimus autem in Regum, quod Amri rex Israel emerit montem Semeron a quodam Semer, et aedificaverit in vertice illius civitatem, quam ex nomine domini, scilicet Semer, Semeron appellavit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr13-Dd1e118">
+          <head xml:id="gom-IIchr13-Hd1e120">Versus 19</head>
+          <p xml:id="gom-IIchr13-d1e122">
+            <pb ed="#P" n="0682C"/>
+            <quote xml:id="gom-IIchr13-Qd1e126" type="lemma" source="http://scta.info/resource/IIchr13_19@11-11">Bethel.</quote>
+            <ref xml:id="gom-IIchr13-Rd1e129"><name xml:id="gom-IIchr13-Nd1e130" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr13-Qd1e133">Civitas in proximo lapide ab Elia ad dexteram euntibus Neopolim, quae prius Luza, id est Amigdalon vocabatur, et cecidit in sortem Benjamin juxta Bethan et Hai, quam expugnavit Jesus rege illius interfecto.</quote>
+          </p>
+          <p xml:id="gom-IIchr13-d1e136">
+            <quote xml:id="gom-IIchr13-Qd1e138" type="lemma" source="http://scta.info/resource/IIchr13_19@20-20">Ephron.</quote>
+            Civitas est in tribu Juda. Unde et villa pergrandis Ephrea contra septentrionem in vicesisimo ab Elia milliario hactenus vocatur.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr13-Dd1e143">
+          <head xml:id="gom-IIchr13-Hd1e145">Versus 20</head>
+          <p xml:id="gom-IIchr13-d1e147">
+            <quote xml:id="gom-IIchr13-Qd1e149" type="lemma" source="http://scta.info/resource/IIchr13_20@6-7">In diebus.</quote>
+            Non Jeroboam, in cujus vicesimo anno secundum librum Regum imperavit Asa filius Abia super Judam et Jerusalem, sed Abiam, qui accepta Bethel idola reservavit Israeli in scandalum, ut Hebraei asserunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

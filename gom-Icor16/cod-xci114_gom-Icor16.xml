@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Corinthios I, Caput 16</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Corinthios I, Caput 16</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0550C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Icor16">
+        <head xml:id="gom-Icor16-Hd1e98">Caput 16</head>
+        <div xml:id="gom-Icor16-Dd1e100">
+          <head xml:id="gom-Icor16-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Icor16-d1e104">
+            <pb ed="#P" n="0550C"/>
+            <quote xml:id="gom-Icor16-Qd1e108" type="lemma" source="http://scta.info/resource/Icor16_1@1-2">De collectis.</quote>
+            Post alia, de collectis faciendis in sanctos qui erant in Hierosolymis breviter monet. Quod non est contra illud: <quote xml:id="gom-Icor16-Qd1e111">Nolite cogitare de crastino.</quote> Non est enim cogitare de crastino, si quis humano more ista cogitet: sed si quis propter ista Deo militet, ut in operibus suis non regnum Dei, sed istorum acquisitionem intueatur.
+          </p>
+          <p xml:id="gom-Icor16-d1e114">
+            <quote xml:id="gom-Icor16-Qd1e116" type="lemma" source="http://scta.info/resource/Icor16_1@12-14">Ita et vos.</quote>
+            <ref xml:id="gom-Icor16-Rd1e119"><name xml:id="gom-Icor16-Nd1e120" ref="#Ambrose">AMBROS.</name></ref>
+            <quote xml:id="gom-Icor16-Qd1e123"><seg type="qs">Praecipit Apostolus omnem plebem die Dominico convenire</seg>, etc., usque ad <seg type="qs">nec grave est, et multum invenitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Icor16-Dd1e132">
+          <head xml:id="gom-Icor16-Hd1e134">Versus 2</head>
+          <p xml:id="gom-Icor16-d1e136">
+            <quote xml:id="gom-Icor16-Qd1e138" type="lemma" source="http://scta.info/resource/Icor16_2@1-1">Per,</quote>
+            etc. Id est Dominica die. Quia una dies sabbati vel una sabbatorum, vel prima sabbati vocatur apud Judaeos dies iste, quem Christiani Dominicum appellamus.
+          </p>
+        </div>
+        <div xml:id="gom-Icor16-Dd1e143">
+          <head xml:id="gom-Icor16-Hd1e145">Versus 6</head>
+          <p xml:id="gom-Icor16-d1e147">
+            <pb ed="#P" n="0550D"/>
+            <quote xml:id="gom-Icor16-Qd1e151" type="lemma" source="http://scta.info/resource/Icor16_6@5-8">Manebo vel etiam hiemabo,</quote>
+            etc. Ibi tanquam medicus, moram habuit, ubi multi aegrotabant.
+          </p>
+        </div>
+        <div xml:id="gom-Icor16-Dd1e156">
+          <head xml:id="gom-Icor16-Hd1e158">Versus 15</head>
+          <p xml:id="gom-Icor16-d1e160">
+            <quote xml:id="gom-Icor16-Qd1e162" type="lemma" source="http://scta.info/resource/Icor16_15@1-9">Obsecro autem vos, fratres, nostis domum Stephanae et Fortunati,</quote>
+            etc. Ordo hujus litterae respicit et pendet usque illuc, <quote xml:id="gom-Icor16-Qd1e165" source="http://scta.info/resource/Icor16_16@1-5">ut et vos subditi sitis.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Icor16-Dd1e171">
+          <head xml:id="gom-Icor16-Hd1e173">Versus 18</head>
+          <p xml:id="gom-Icor16-d1e175">
+            <quote xml:id="gom-Icor16-Qd1e177" type="lemma" source="http://scta.info/resource/Icor16_18@5-7">Spiritum meum et vestrum,</quote>
+            etc. Meum, laetitia: vestrum, charitate.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

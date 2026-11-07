@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 108</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 108</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1028C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps108">
+        <head xml:id="gom-ps108-Hd1e98">Psalmus 108</head>
+        <div xml:id="gom-ps108-Dd1e100">
+          <head xml:id="gom-ps108-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps108-d1e104">
+            <quote xml:id="gom-ps108-Qd1e106" type="lemma" source="http://scta.info/resource/ps108_1@1-3">In finem, Psalmus.</quote>
+            <ref xml:id="gom-ps108-Rd1e109"><name xml:id="gom-ps108-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e113"><seg type="qs">Prophetia de Christo</seg>, etc., usque ad <seg type="qs">et quae de Juda expressa sunt, ut illud: <quote xml:id="gom-ps108-Qd1e119" source="http://scta.info/resource/ps108_8@5-9">Et episcopatum ejus accipiat <pb ed="#P" n="1028D"/> alter.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps108-d1e125">
+            <ref xml:id="gom-ps108-Rd1e127" type="lemma" subtype="implied" target="http://scta.info/resource/ps108_1@1-3"/>
+            <ref xml:id="gom-ps108-Rd1e129"><name xml:id="gom-ps108-Nd1e130" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e133">Quintus eorum qui latius de passione agunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e137">
+          <head xml:id="gom-ps108-Hd1e139">Versus 2</head>
+          <p xml:id="gom-ps108-d1e141">
+            <quote xml:id="gom-ps108-Qd1e143" type="lemma" source="http://scta.info/resource/ps108_2@1-2">Deus laudem.</quote>
+            <ref xml:id="gom-ps108-Rd1e146"><name xml:id="gom-ps108-Nd1e147" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e150"><seg type="qs">Monet Judae malitiam declinare</seg>, etc., usque ad <seg type="qs">Christus ergo secundum quod homo orans ad Patrem ait: <quote xml:id="gom-ps108-Qd1e156" source="http://scta.info/resource/ps108_2@6-8">Quia os peccatoris.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps108-d1e160">
+            <ref xml:id="gom-ps108-Rd1e162" type="lemma" subtype="implied" target="http://scta.info/resource/ps108_2@1-2"/>
+            <ref xml:id="gom-ps108-Rd1e164"><name xml:id="gom-ps108-Nd1e165" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e168">Decora diversitas, quia iniqui non tacent vituperium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e172">
+          <head xml:id="gom-ps108-Hd1e174">Versus 3</head>
+          <p xml:id="gom-ps108-d1e176">
+            <quote xml:id="gom-ps108-Qd1e178" type="lemma" source="http://scta.info/resource/ps108_3@16-16">Gratis.</quote>
+            <ref xml:id="gom-ps108-Rd1e181"><name xml:id="gom-ps108-Nd1e182" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e185">Sicut piis per se placet aequitas, sic impiis iniquitas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e189">
+          <head xml:id="gom-ps108-Hd1e191">Versus 4</head>
+          <p xml:id="gom-ps108-d1e193">
+            <quote xml:id="gom-ps108-Qd1e195" type="lemma" source="http://scta.info/resource/ps108_4@1-4">Pro eo ut me.</quote>
+            <ref xml:id="gom-ps108-Rd1e198"><name xml:id="gom-ps108-Nd1e199" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e202">Plus nocent, in membris detrahentes Christo, quia animas crediturorum interficiunt, quam qui carnem ejus mox resurrecturam peremerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e207">
+          <head xml:id="gom-ps108-Hd1e209">Versus 5</head>
+          <p xml:id="gom-ps108-d1e211">
+            <pb ed="#P" n="1029A"/>
+            <quote xml:id="gom-ps108-Qd1e215" type="lemma" source="http://scta.info/resource/ps108_5@1-3">Et posuerunt adversum.</quote>
+            <ref xml:id="gom-ps108-Rd1e218"><name xml:id="gom-ps108-Nd1e219" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e222"><seg type="qs">Sex differentiae sunt</seg>, etc., usque ad <seg type="qs">quod est bonum pro malo, quod et Deus judex facit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps108-d1e230">
+            <ref xml:id="gom-ps108-Rd1e232" type="lemma" subtype="implied" target="http://scta.info/resource/ps108_5@1-3"/>
+            <ref xml:id="gom-ps108-Rd1e234"><name xml:id="gom-ps108-Nd1e235" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e238"><seg type="qs">Tribus modis omne peccatum contrahitur</seg>, etc., usque ad <seg type="qs">quod Christus orans pro Judaeis fecit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e247">
+          <head xml:id="gom-ps108-Hd1e249">Versus 6</head>
+          <p xml:id="gom-ps108-d1e251">
+            <quote xml:id="gom-ps108-Qd1e253" type="lemma" source="http://scta.info/resource/ps108_6@1-2">Constitue super.</quote>
+            <ref xml:id="gom-ps108-Rd1e256"><name xml:id="gom-ps108-Nd1e257" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e260"><seg type="qs">Secunda pars, ubi incipit prophetare, quae pro impietate recipiant. Supra de pluribus</seg>, etc., usque ad <seg type="qs">quorum personam Judas gessit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps108-d1e268">
+            <quote xml:id="gom-ps108-Qd1e270" type="lemma" source="http://scta.info/resource/ps108_6@1-4">Constitue super eum peccatorem.</quote>
+            Sicut de Juda, ita de eis.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e275">
+          <head xml:id="gom-ps108-Hd1e277">Versus 7</head>
+          <p xml:id="gom-ps108-d1e279">
+            <quote xml:id="gom-ps108-Qd1e281" type="lemma" source="http://scta.info/resource/ps108_7@1-4">Cum judicatur exeat condemnatus.</quote>
+            Quia in nequitia permanentes thesaurizant sibi iram.
+          </p>
+          <p xml:id="gom-ps108-d1e285">
+            <quote xml:id="gom-ps108-Qd1e287" type="lemma" source="http://scta.info/resource/ps108_7@7-11">Oratio in peccatum:</quote>
+            quia non fit per mediatorem.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e292">
+          <head xml:id="gom-ps108-Hd1e294">Versus 8</head>
+          <p xml:id="gom-ps108-d1e296">
+            <quote xml:id="gom-ps108-Qd1e298" type="lemma" source="http://scta.info/resource/ps108_8@2-4">Dies pauci.</quote>
+            Secundum regnum, quod <pb ed="#P" n="1029B"/> post non diu stetit.
+          </p>
+          <p xml:id="gom-ps108-d1e304">
+            <quote xml:id="gom-ps108-Qd1e306" type="lemma" source="http://scta.info/resource/ps108_8@6-6">Episcopatum,</quote>
+            id est Christum (qui ad eos missus) accepit populus gentium.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e311">
+          <head xml:id="gom-ps108-Hd1e313">Versus 9</head>
+          <p xml:id="gom-ps108-d1e315">
+            <quote xml:id="gom-ps108-Qd1e317" type="lemma" source="http://scta.info/resource/ps108_9@2-4">Filii orphani:</quote>
+            amisso, quasi patre, regno; vel patre Deo.
+          </p>
+          <p xml:id="gom-ps108-d1e321">
+            <quote xml:id="gom-ps108-Qd1e323" type="lemma" source="http://scta.info/resource/ps108_9@6-6">Uxor,</quote>
+            id est plebs.
+          </p>
+          <p xml:id="gom-ps108-d1e327">
+            <quote xml:id="gom-ps108-Qd1e329" type="lemma" source="http://scta.info/resource/ps108_9@8-8">Viduae,</quote>
+            amisso regno.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e334">
+          <head xml:id="gom-ps108-Hd1e336">Versus 10</head>
+          <p xml:id="gom-ps108-d1e338">
+            <quote xml:id="gom-ps108-Qd1e340" type="lemma" source="http://scta.info/resource/ps108_10@2-2">Transferatur,</quote>
+            ut in captivitate factum est.
+          </p>
+          <p xml:id="gom-ps108-d1e344">
+            <quote xml:id="gom-ps108-Qd1e346" type="lemma" source="http://scta.info/resource/ps108_10@6-6">Mendicent,</quote>
+            sub regibus gentium.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e352">
+          <head xml:id="gom-ps108-Hd1e354">Versus 11</head>
+          <p xml:id="gom-ps108-d1e356">
+            <quote xml:id="gom-ps108-Qd1e358" type="lemma" source="http://scta.info/resource/ps108_11@3-5">Omnem substantiam ejus,</quote>
+            id est, vitam, singula peccati puniens; debita eorum non dimittuntur, quia in solo Christo dimittuntur.
+          </p>
+          <p xml:id="gom-ps108-d1e362">
+            <quote xml:id="gom-ps108-Qd1e364" type="lemma" source="http://scta.info/resource/ps108_11@6-8">Et alieni,</quote>
+            id est, diabolus et angeli ejus.
+          </p>
+          <p xml:id="gom-ps108-d1e368">
+            <quote xml:id="gom-ps108-Qd1e370" type="lemma" source="http://scta.info/resource/ps108_11@7-10">Diripiant labore ejus,</quote>
+            Quia non thesaurizant in coelo.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e375">
+          <head xml:id="gom-ps108-Hd1e377">Versus 12</head>
+          <p xml:id="gom-ps108-d1e379">
+            <quote xml:id="gom-ps108-Qd1e381" type="lemma" source="http://scta.info/resource/ps108_12@1-3">Et non sit illi,</quote>
+            etc. Id est, adjutor non est ei, cui Christus deest.
+          </p>
+          <p xml:id="gom-ps108-d1e385">
+            <quote xml:id="gom-ps108-Qd1e387" type="lemma" source="http://scta.info/resource/ps108_12@5-8">Nec sit qui misereatur.</quote>
+            Non dico ad temporalia, habenda, sed aeterna.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e392">
+          <head xml:id="gom-ps108-Hd1e394">Versus 13</head>
+          <p xml:id="gom-ps108-d1e396">
+            <pb ed="#P" n="1029C"/>
+            <quote xml:id="gom-ps108-Qd1e400" type="lemma" source="http://scta.info/resource/ps108_13@1-5">Fiant nati ejus in interitum</quote>
+            sempiternum. Ideo quia manserunt in <quote xml:id="gom-ps108-Qd1e403" source="http://scta.info/resource/ps108_13@8-9">generatione una,</quote> id est, quia non regenerati fuerunt.
+          </p>
+          <p xml:id="gom-ps108-d1e407">
+            <quote xml:id="gom-ps108-Qd1e409" type="lemma" source="http://scta.info/resource/ps108_13@10-11">Et deleatur nomen.</quote>
+            Id est, Jerusalem terrenae, quae servit cum filiis suis quae prophetas interfecit.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e414">
+          <head xml:id="gom-ps108-Hd1e416">Versus 15</head>
+          <p xml:id="gom-ps108-d1e418">
+            <quote xml:id="gom-ps108-Qd1e420" type="lemma" source="http://scta.info/resource/ps108_15@5-8">Et dispereat de terra viventium,</quote>
+            id est Ecclesia.
+          </p>
+          <p xml:id="gom-ps108-d1e424">
+            <quote xml:id="gom-ps108-Qd1e426" type="lemma" source="http://scta.info/resource/ps108_15@9-10">Memoria eorum,</quote>
+            quia cum essent rami naturales, facti sunt.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e431">
+          <head xml:id="gom-ps108-Hd1e433">Versus 16</head>
+          <p xml:id="gom-ps108-d1e435">
+            <quote xml:id="gom-ps108-Qd1e437" type="lemma" source="http://scta.info/resource/ps108_16@1-6">Pro eo quod non est recordatus.</quote>
+            Poenitendo.
+          </p>
+          <p xml:id="gom-ps108-d1e441">
+            <quote xml:id="gom-ps108-Qd1e443" type="lemma" source="http://scta.info/resource/ps108_16@7-8">Facere misericordiam.</quote>
+            Supra membra Christi.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e448">
+          <head xml:id="gom-ps108-Hd1e450">Versus 18</head>
+          <p xml:id="gom-ps108-d1e452">
+            <quote xml:id="gom-ps108-Qd1e454" type="lemma" source="http://scta.info/resource/ps108_18@3-10">Maledictionem, et veniet ei: et noluit benedictionem.</quote>
+            <ref xml:id="gom-ps108-Rd1e457"><name xml:id="gom-ps108-Nd1e458" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e461">Peccata modo delectant, sed dicuntur maledictio, quia tormenta parant.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e466">
+          <head xml:id="gom-ps108-Hd1e468">Versus 19</head>
+          <p xml:id="gom-ps108-d1e470">
+            <quote xml:id="gom-ps108-Qd1e472" type="lemma" source="http://scta.info/resource/ps108_19@5-6">Quo operitur.</quote>
+            <quote xml:id="gom-ps108-Qd1e475"><seg type="qs">Videtur dicere hic, <pb ed="#P" n="1029D"/></seg> etc., usque ad <seg type="qs">semper sit paratus, unde hic ait <quote xml:id="gom-ps108-Qd1e482" source="http://scta.info/resource/ps108_19@11-12">semper praecingitur.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e487">
+          <head xml:id="gom-ps108-Hd1e489">Versus 20</head>
+          <p xml:id="gom-ps108-d1e491">
+            <quote xml:id="gom-ps108-Qd1e493" type="lemma" source="http://scta.info/resource/ps108_20@7-8">Apud Dominum.</quote>
+            <ref xml:id="gom-ps108-Rd1e496"><name xml:id="gom-ps108-Nd1e497" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e500">Specialiter Christo detrahunt, qui dicunt non esse ex Patre, vel minorem Patre.</quote>
+          </p>
+          <p xml:id="gom-ps108-d1e503">
+            <quote xml:id="gom-ps108-Qd1e505" type="lemma" source="http://scta.info/resource/ps108_20@12-14">Mala adversus animam.</quote>
+            Dicentes, non potuisse surgere, cum vellet.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e510">
+          <head xml:id="gom-ps108-Hd1e512">Versus 21</head>
+          <p xml:id="gom-ps108-d1e514">
+            <quote xml:id="gom-ps108-Qd1e516" type="lemma" source="http://scta.info/resource/ps108_21@1-3">Et tu, Domine.</quote>
+            <ref xml:id="gom-ps108-Rd1e519"><name xml:id="gom-ps108-Nd1e520" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e523"><seg type="qs">Tertia pars, ubi precatur</seg>, etc., usque ad <seg type="qs">adjuva me, secundum hominem.</seg></quote>
+          </p>
+          <p xml:id="gom-ps108-d1e531">
+            <quote xml:id="gom-ps108-Qd1e533" type="lemma" source="http://scta.info/resource/ps108_21@7-9">Propter nomen tuum.</quote>
+            Nullis enim operum etc., <quote xml:id="gom-ps108-Qd1e536" source="http://scta.info/resource/ps108_21@10-14">usque ad quia suavis est misericordia tua.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e541">
+          <head xml:id="gom-ps108-Hd1e543">Versus 22</head>
+          <p xml:id="gom-ps108-d1e545">
+            <quote xml:id="gom-ps108-Qd1e547" type="lemma" source="http://scta.info/resource/ps108_22@3-6">Quia egenus et pauper.</quote>
+            <ref xml:id="gom-ps108-Rd1e550"><name xml:id="gom-ps108-Nd1e551" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e554">Egestas et paupertas Christi est infirmitas, ex qua crucifixus est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e558">
+          <head xml:id="gom-ps108-Hd1e560">Versus 23</head>
+          <p xml:id="gom-ps108-d1e562">
+            <pb ed="#P" n="1030A"/>
+            <quote xml:id="gom-ps108-Qd1e566" type="lemma" source="http://scta.info/resource/ps108_23@1-6">Sicut umbra cum declinat ablatus sum.</quote>
+            <ref xml:id="gom-ps108-Rd1e569"><name xml:id="gom-ps108-Nd1e570" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e573">Sicut ex umbra declinante fit nox, sic ex mortali carne fit mors.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e577">
+          <head xml:id="gom-ps108-Hd1e579">Versus 24</head>
+          <p xml:id="gom-ps108-d1e581">
+            <quote xml:id="gom-ps108-Qd1e583" type="lemma" source="http://scta.info/resource/ps108_24@10-11">Immutata est.</quote>
+            <ref xml:id="gom-ps108-Rd1e586"><name xml:id="gom-ps108-Nd1e587" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e590">Immutata est ergo caro Christi, etc., <quote xml:id="gom-ps108-Qd1e592">usque ad quia Jesus nondum fuit glorificatus. Propter oleum,</quote> id est, spiritualem gratiam, unde Christus dicitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e598">
+          <head xml:id="gom-ps108-Hd1e600">Versus 25</head>
+          <p xml:id="gom-ps108-d1e602">
+            <quote xml:id="gom-ps108-Qd1e604" type="lemma" source="http://scta.info/resource/ps108_25@11-12">Moverunt capita.</quote>
+            <ref xml:id="gom-ps108-Rd1e607"><name xml:id="gom-ps108-Nd1e608" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e611">Furiosi commotione capitis minantur.</quote>
+          </p>
+          <p xml:id="gom-ps108-d1e614">
+            <ref xml:id="gom-ps108-Rd1e616" type="lemma" subtype="implied" target="http://scta.info/resource/ps108_25@11-12"/>
+            <ref xml:id="gom-ps108-Rd1e618"><name xml:id="gom-ps108-Nd1e619" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e622">Moverunt capita, quia viderunt pendere in cruce, sed nondum quando caro immutata.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e626">
+          <head xml:id="gom-ps108-Hd1e628">Versus 26</head>
+          <p xml:id="gom-ps108-d1e630">
+            <quote xml:id="gom-ps108-Qd1e632" type="lemma" source="http://scta.info/resource/ps108_26@1-3">Adjuva me, Domine.</quote>
+            <ref xml:id="gom-ps108-Rd1e635"><name xml:id="gom-ps108-Nd1e636" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e639">Rogat ut homo, praestat ut Deus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e643">
+          <head xml:id="gom-ps108-Hd1e645">Versus 27</head>
+          <p xml:id="gom-ps108-d1e647">
+            <quote xml:id="gom-ps108-Qd1e649" type="lemma" source="http://scta.info/resource/ps108_27@4-6">Manus tua haec.</quote>
+            <ref xml:id="gom-ps108-Rd1e652"><name xml:id="gom-ps108-Nd1e653" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e656">Christus haec manus, et est Verbum apud Deum et fecit eam, dum Verbum caro factum est. Erat enim sine <pb ed="#P" n="1030B"/> tempore secundum divinitatem, et facta est in tempore secundum carnem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e663">
+          <head xml:id="gom-ps108-Hd1e665">Versus 28</head>
+          <p xml:id="gom-ps108-d1e667">
+            <quote xml:id="gom-ps108-Qd1e669" type="lemma" source="http://scta.info/resource/ps108_28@1-5">Maledicent illi et tu benedices.</quote>
+            Una est maledictio malorum Deus, cum benedicit, facit quod dicit.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e674">
+          <head xml:id="gom-ps108-Hd1e676">Versus 29</head>
+          <p xml:id="gom-ps108-d1e678">
+            <quote xml:id="gom-ps108-Qd1e680" type="lemma" source="http://scta.info/resource/ps108_29@8-9">Sicut diploide,</quote>
+            etc. Alii interpretantur pro diploide, duplex pallium, id est, confundantur intus et foris, id est, coram Deo, et hominibus.
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e685">
+          <head xml:id="gom-ps108-Hd1e687">Versus 30</head>
+          <p xml:id="gom-ps108-d1e689">
+            <quote xml:id="gom-ps108-Qd1e691" type="lemma" source="http://scta.info/resource/ps108_30@3-6">Nimis in ore meo.</quote>
+            Solet poni <quote xml:id="gom-ps108-Qd1e694" source="http://scta.info/resource/ps108_30@3-3">nimis,</quote> pro plus quam debet, sed et pro valde.
+          </p>
+          <p xml:id="gom-ps108-d1e698">
+            <quote xml:id="gom-ps108-Qd1e700" type="lemma" source="http://scta.info/resource/ps108_30@8-9">In medio.</quote>
+            <ref xml:id="gom-ps108-Rd1e703"><name xml:id="gom-ps108-Nd1e704" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps108-Qd1e707">Id est, in communi, vel in corde.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps108-Dd1e712">
+          <head xml:id="gom-ps108-Hd1e714">Versus 31</head>
+          <p xml:id="gom-ps108-d1e716">
+            <quote xml:id="gom-ps108-Qd1e718" type="lemma" source="http://scta.info/resource/ps108_31@1-5">Quia astitit a dextris pauperis.</quote>
+            <quote xml:id="gom-ps108-Qd1e721"><seg type="qs">Diabolus a dextris Judae</seg>, etc., usque ad <seg type="qs">sed ut animam <pb ed="#P" n="1030C"/> salvaret a persequentibus.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

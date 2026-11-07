@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 41</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 41</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0904D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps41">
+        <head xml:id="gom-ps41-Hd1e98">Psalmus 41</head>
+        <div xml:id="gom-ps41-Dd1e100">
+          <head xml:id="gom-ps41-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps41-d1e104">
+            <quote xml:id="gom-ps41-Qd1e106" type="lemma" source="http://scta.info/resource/ps41_1@1-3">In fine intellectus.</quote>
+            <ref xml:id="gom-ps41-Rd1e109"><name xml:id="gom-ps41-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e113"><seg type="qs"><mentioned>Core</mentioned> interpretatur <mentioned>Calvaria</mentioned>. Filii ergo</seg>, etc., usque ad, <seg type="qs">cui <pb ed="#P" n="0905A"/> obviat malorum insultatio.</seg></quote>
+          </p>
+          <p xml:id="gom-ps41-d1e126">
+            <ref xml:id="gom-ps41-Rd1e128"><name xml:id="gom-ps41-Nd1e129" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e132" type="lemma" source="http://scta.info/resource/ps41_1@4-5">Filii Core,</quote>
+            <quote xml:id="gom-ps41-Qd1e135"><seg type="qs">id est, <quote xml:id="gom-ps41-Qd1e138">filii calvi,</quote></seg> etc., usque ad <seg type="qs">verbum puerorum deridentium Eliseum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e145">
+          <head xml:id="gom-ps41-Hd1e147">Versus 2</head>
+          <p xml:id="gom-ps41-d1e149">
+            <quote xml:id="gom-ps41-Qd1e151" type="lemma" source="http://scta.info/resource/ps41_2@1-2">Quemadmodum desiderat,</quote>
+            etc.
+            <ref xml:id="gom-ps41-Rd1e154"><name xml:id="gom-ps41-Nd1e155" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e158">Vox haec convenit catechumenis, et etiam omnibus adhuc peregrinantibus.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e161">
+            <quote xml:id="gom-ps41-Qd1e163" type="lemma" source="http://scta.info/resource/ps41_2@3-3">Cervus.</quote>
+            Cervus senio gravatus, excrescentibus pilis et cornibus, serpentem naribus haurit: unde veneno aestuans, fontem ab bibendum ardentissime desiderat; quo hausto, cornua et pilos deponit.
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e168">
+          <head xml:id="gom-ps41-Hd1e170">Versus 3</head>
+          <p xml:id="gom-ps41-d1e172">
+            <quote xml:id="gom-ps41-Qd1e174" type="lemma" source="http://scta.info/resource/ps41_3@1-1">Sitivit.</quote>
+            <ref xml:id="gom-ps41-Rd1e177"><name xml:id="gom-ps41-Nd1e178" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e181">Determinat desiderium suum, quia poterat intelligi desiderare cervus fontem causa bibendi, vel lavandi; hic omne desiderium esse ad Deum ostenditur.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e184">
+            <quote xml:id="gom-ps41-Qd1e186" type="lemma" source="http://scta.info/resource/ps41_3@9-10">Quando veniam.</quote>
+            Quod citius est Deo, tardum est hominis desiderio. <pb ed="#P" n="0905B"/> Talis cervus dum currit, patitur insultantes; unde: <quote xml:id="gom-ps41-Qd1e191" source="http://scta.info/resource/ps41_4@1-5">Fuerunt mihi lacrymae meae panes.</quote> In prosperis etiam, quae despicit, sicut in adversis.
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e196">
+          <head xml:id="gom-ps41-Hd1e198">Versus 4</head>
+          <p xml:id="gom-ps41-d1e200">
+            <quote xml:id="gom-ps41-Qd1e202" type="lemma" source="http://scta.info/resource/ps41_4@5-5">Panes.</quote>
+            <ref xml:id="gom-ps41-Rd1e205"><name xml:id="gom-ps41-Nd1e206" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e209">Non amaritudo, vel peremptio, sed <quote xml:id="gom-ps41-Qd1e211" source="http://scta.info/resource/ps41_4@5-5">panes.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e217">
+          <head xml:id="gom-ps41-Hd1e219">Versus 5</head>
+          <p xml:id="gom-ps41-d1e221">
+            <quote xml:id="gom-ps41-Qd1e223" type="lemma" source="http://scta.info/resource/ps41_5@1-3">Haec recordatus sum.</quote>
+            <ref xml:id="gom-ps41-Rd1e226"><name xml:id="gom-ps41-Nd1e227" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e230">Dum quaerunt, Ubi est Deus tuus? ego etiam sum meditatus per omnia visibilia haec, et per ipsam animam meam, ut per ea exteriora, invisibilia Dei inveniam. Ecce intellectus tituli.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e233">
+            <quote xml:id="gom-ps41-Qd1e235" type="lemma" source="http://scta.info/resource/ps41_5@5-5">Effudi.</quote>
+            <ref xml:id="gom-ps41-Rd1e238"><name xml:id="gom-ps41-Nd1e239" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e242">Ad intelligendum et attingendum dilatavi super seipsam.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e245">
+            <quote xml:id="gom-ps41-Qd1e247" type="lemma" source="http://scta.info/resource/ps41_5@5-5">Effudi.</quote>
+            <ref xml:id="gom-ps41-Rd1e250"><name xml:id="gom-ps41-Nd1e251" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e254">Vel laetatus sum. Liquefacta est anima mea in me; non extra, sed in se compuncta revertitur. Etsi visibiliter Deum non videam, cogito tamen quod per Ecclesiam, in qua admirabiles sunt sancti, ad Jerusalem coelestem perveniam, <pb ed="#P" n="0905C"/> captus suavitate laudis angelicae, quae suscipitur mente.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e260">
+            <quote xml:id="gom-ps41-Qd1e262" type="lemma" source="http://scta.info/resource/ps41_5@12-14">In locum tabernaculi.</quote>
+            <ref xml:id="gom-ps41-Rd1e265"><name xml:id="gom-ps41-Nd1e266" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e269"><seg type="qs">Tabernaculum Dei in terra</seg>, etc., usque ad, <seg type="qs">id est, de refectione aeterna gaudentium.</seg></quote>
+          </p>
+          <p xml:id="gom-ps41-d1e278">
+            <quote xml:id="gom-ps41-Qd1e280" type="lemma" source="http://scta.info/resource/ps41_5@20-22">In voce exsultationis.</quote>
+            <ref xml:id="gom-ps41-Rd1e283"><name xml:id="gom-ps41-Nd1e284" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e287">De aeterna festivitate sonat quid dulce cordi: unde rapitur cervus ad fontes aquarum, et mulcetur. Sed quia perstrepit mundus, et caro gravat animam: comparans haec tristitia illis jucundis, ait:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e291">
+          <head xml:id="gom-ps41-Hd1e293">Versus 6</head>
+          <p xml:id="gom-ps41-d1e295">
+            <quote xml:id="gom-ps41-Qd1e297" type="lemma" source="http://scta.info/resource/ps41_6@1-2">Quare tristis?</quote>
+            etc.
+            <ref xml:id="gom-ps41-Rd1e300"><name xml:id="gom-ps41-Nd1e301" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e304">De perturbationibus contra quas ratio confirmat animam sensualem spe Dei.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e307">
+            <quote xml:id="gom-ps41-Qd1e309" type="lemma" source="http://scta.info/resource/ps41_6@8-9">Quare conturbas?</quote>
+            <ref xml:id="gom-ps41-Rd1e312"><name xml:id="gom-ps41-Nd1e313" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e316">Qui, si investigas, nihil est in mundo quare hoc debeas: spera potius salutare remedium adhuc, et si non modo, plene in futuro.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e319">
+            <quote xml:id="gom-ps41-Qd1e321" type="lemma" source="http://scta.info/resource/ps41_6@12-12">Spera.</quote>
+            <ref xml:id="gom-ps41-Rd1e324"><name xml:id="gom-ps41-Nd1e325" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e328">Vel sperare potest, quia <quote xml:id="gom-ps41-Qd1e330" source="http://scta.info/resource/ps41_6@16-16">adhuc</quote> in praesenti <quote xml:id="gom-ps41-Qd1e333" source="http://scta.info/resource/ps41_6@17-17">confitebor,</quote> id est, de <pb ed="#P" n="0905D"/> peccatis poenitentiam agam, ut tibi non obsistam.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e341">
+          <head xml:id="gom-ps41-Hd1e343">Versus 7</head>
+          <p xml:id="gom-ps41-d1e345">
+            <quote xml:id="gom-ps41-Qd1e347" type="lemma" source="http://scta.info/resource/ps41_7@4-5">Ad meipsum.</quote>
+            Conversus ad Deum dicit ex seipso conturbationes, ex Deo finem earum: unde in eo est ei spes. Et hoc est <quote xml:id="gom-ps41-Qd1e350" source="http://scta.info/resource/ps41_7@4-5">ad meipsum,</quote> vel a meipso.
+          </p>
+          <p xml:id="gom-ps41-d1e354">
+            <ref xml:id="gom-ps41-Rd1e356" type="lemma" subtype="implied" target="http://scta.info/resource/ps41_7@4-5"/>
+            <ref xml:id="gom-ps41-Rd1e358"><name xml:id="gom-ps41-Nd1e359" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e362">Ecce qui superius corrigebat animam ad conditionem hominis, reversus dicit hic animam a se turbari, quae nisi vitia carnis essent, tranquilla permaneret. Ecce ex qua diversitate constat homo. Quasi: propterea, id est, propter conturbationes animae, <quote xml:id="gom-ps41-Qd1e364" source="http://scta.info/resource/ps41_7@12-13">memor ero.</quote></quote>
+          </p>
+          <p xml:id="gom-ps41-d1e368">
+            <ref xml:id="gom-ps41-Rd1e370" type="lemma" subtype="implied" target="http://scta.info/resource/ps41_7@4-5"/>
+            <ref xml:id="gom-ps41-Rd1e372"><name xml:id="gom-ps41-Nd1e373" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e376">Id est, festino ad te, quia excludis mala omnia. Ecce remedium, quo evadat conturbationes: unde pro quibus sit memor, subdit: <quote xml:id="gom-ps41-Qd1e378" source="http://scta.info/resource/ps41_7@15-17">De terra Jordanis,</quote> ubi Dominus consecravit baptismum, in quo humiliati lavantur, et <pb ed="#P" n="0906A"/> fiunt terra fructifera.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e385">
+            <ref xml:id="gom-ps41-Rd1e387" type="lemma" subtype="implied" target="http://scta.info/resource/ps41_7@4-5"/>
+            <ref xml:id="gom-ps41-Rd1e389"><name xml:id="gom-ps41-Nd1e390" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e393">Horum memor malis non turbatur.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e397">
+            <quote xml:id="gom-ps41-Qd1e399" type="lemma" source="http://scta.info/resource/ps41_7@11-12">Propterea memor.</quote>
+            <ref xml:id="gom-ps41-Rd1e402"><name xml:id="gom-ps41-Nd1e403" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e406">Qua ad me turbatur anima, ideo <quote xml:id="gom-ps41-Qd1e408" source="http://scta.info/resource/ps41_7@12-12">memor,</quote> etc. Nemo currit ad remissionem, nisi qui sibi displicet, nisi qui se fatetur peccatorem: quod notat <quote xml:id="gom-ps41-Qd1e411" source="http://scta.info/resource/ps41_7@19-19">Hermoniim;</quote> nemo confitetur nisi se humiliet, quod notatur in <quote xml:id="gom-ps41-Qd1e414">modico. Jordanis.</quote></quote>
+          </p>
+          <p xml:id="gom-ps41-d1e417">
+            <ref xml:id="gom-ps41-Rd1e419" type="lemma" subtype="implied" target="http://scta.info/resource/ps41_7@11-12"/>
+            <ref xml:id="gom-ps41-Rd1e421"><name xml:id="gom-ps41-Nd1e422" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e425">Descensio. Descende ergo ut eleveris.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e428">
+            <ref xml:id="gom-ps41-Rd1e430" type="lemma" subtype="implied" target="http://scta.info/resource/ps41_7@11-12"/>
+            <ref xml:id="gom-ps41-Rd1e432"><name xml:id="gom-ps41-Nd1e433" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e436">In Jordane Dominus baptisma consecravit, in quo humiliati lavantur, et fiunt terra fructifera, quae reddit fructum tricesimum, sexagesimum et centesimum <!--<note>(Matth. XIII)</note>-->.</quote>
+          </p>
+          <p xml:id="gom-ps41-d1e442">
+            <quote xml:id="gom-ps41-Qd1e444" type="lemma" source="http://scta.info/resource/ps41_7@19-19">Hermoniim.</quote>
+            <ref xml:id="gom-ps41-Rd1e447"><name xml:id="gom-ps41-Nd1e448" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e451"><seg type="qs">Parvus mons juxta Jordanem</seg>, etc., usque ad <seg type="qs">quia non in superbis, sed in humilibus memor Dei est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e460">
+          <head xml:id="gom-ps41-Hd1e462">Versus 8</head>
+          <p xml:id="gom-ps41-d1e464">
+            <quote xml:id="gom-ps41-Qd1e466" type="lemma" source="http://scta.info/resource/ps41_8@1-2">Abyssus abyssum.</quote>
+            <ref xml:id="gom-ps41-Rd1e469"><name xml:id="gom-ps41-Nd1e470" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e473"><seg type="qs">Decet ut <pb ed="#P" n="0906B"/> sim memor</seg>, etc., usque ad <seg type="qs">et propter haec omnia oro in adversis, et hoc est: <quote xml:id="gom-ps41-Qd1e481" source="http://scta.info/resource/ps41_9@12-14">Apud me oratio.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps41-d1e485">
+            <ref xml:id="gom-ps41-Rd1e487" type="lemma" subtype="implied" target="http://scta.info/resource/ps41_8@1-2"/>
+            <ref xml:id="gom-ps41-Rd1e489"><name xml:id="gom-ps41-Nd1e490" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e493"><seg type="qs">Vel <mentioned>abyssus abyssum invocat</mentioned>, id est, judicium quod intulit Deus peccanti</seg>, etc., usque ad <seg type="qs">quia timet judicia.</seg></quote>
+          </p>
+          <p xml:id="gom-ps41-d1e503">
+            <quote xml:id="gom-ps41-Qd1e505" type="lemma" source="http://scta.info/resource/ps41_8@6-6">Cataractarum.</quote>
+            Cataractae ad litteram sunt ostia fluviorum.
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e510">
+          <head xml:id="gom-ps41-Hd1e512">Versus 9</head>
+          <p xml:id="gom-ps41-d1e514">
+            <quote xml:id="gom-ps41-Qd1e516" type="lemma" source="http://scta.info/resource/ps41_9@1-2">In die.</quote>
+            <ref xml:id="gom-ps41-Rd1e519"><name xml:id="gom-ps41-Nd1e520" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e523"><seg type="qs">Id est, in prosperis</seg>, etc., usque ad <seg type="qs">unde vivamus in adversitate.</seg></quote>
+          </p>
+          <p xml:id="gom-ps41-d1e531">
+            <quote xml:id="gom-ps41-Qd1e533" type="lemma" source="http://scta.info/resource/ps41_9@12-14">Apud me oratio.</quote>
+            <ref xml:id="gom-ps41-Rd1e536"><name xml:id="gom-ps41-Nd1e537" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e540">Oratio in conturbationibus est mihi, et haec apud me.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e544">
+          <head xml:id="gom-ps41-Hd1e546">Versus 10</head>
+          <p xml:id="gom-ps41-d1e548">
+            <quote xml:id="gom-ps41-Qd1e550" type="lemma" source="http://scta.info/resource/ps41_10@8-9">Quare oblitus.</quote>
+            <ref xml:id="gom-ps41-Rd1e553"><name xml:id="gom-ps41-Nd1e554" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e557">Quare nunc me pateris his miseriis vexari? Videbat quae dulcedo patriae, et pericula mundi horrebat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps41-Dd1e562">
+          <head xml:id="gom-ps41-Hd1e564">Versus 11</head>
+          <p xml:id="gom-ps41-d1e566">
+            <quote xml:id="gom-ps41-Qd1e568" type="lemma" source="http://scta.info/resource/ps41_11@1-3">Dum confringuntur ossa.</quote>
+            <ref xml:id="gom-ps41-Rd1e571"><name xml:id="gom-ps41-Nd1e572" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps41-Qd1e575">Quasi ossa franguntur, dum virtus patientiae affligitur, <pb ed="#P" n="0906C"/> quod irrident mali. Haec est exprobratio illa: <quote xml:id="gom-ps41-Qd1e579" source="http://scta.info/resource/ps41_11@12-20">Dum dicitur mihi: Ubi est?</quote> vel nullus est, vel de te non curat.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

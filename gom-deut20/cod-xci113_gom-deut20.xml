@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium, Caput 20</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Deuteronomium, Caput 20</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0472D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-deut20">
+        <head xml:id="gom-deut20-Hd1e98">Caput 20</head>
+        <div xml:id="gom-deut20-Dd1e100">
+          <head xml:id="gom-deut20-Hd1e102">Versus 1</head>
+          <p xml:id="gom-deut20-d1e104">
+            <quote xml:id="gom-deut20-Qd1e106" type="lemma" source="http://scta.info/resource/deut20_1@24-25">Quia Dominus.</quote>
+            Mystice.
+          </p>
+          <p xml:id="gom-deut20-d1e110">
+            <ref xml:id="gom-deut20-Rd1e112" type="lemma" subtype="implied" target="http://scta.info/resource/deut20_1@24-25"/>
+            <ref xml:id="gom-deut20-Rd1e114"><name xml:id="gom-deut20-Nd1e115" ref="#Augustine">AUG.</name>, quaest. 30.</ref>
+            <quote xml:id="gom-deut20-Qd1e119"><seg type="qs">LXX: <quote xml:id="gom-deut20-Qd1e122">Quoniam Dominus,</quote></seg> etc., usque ad <seg type="qs">ut etiam ipsos acturos ostenderet.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-deut20-Dd1e129">
+          <head xml:id="gom-deut20-Hd1e131">Versus 5</head>
+          <p xml:id="gom-deut20-d1e133">
+            <quote xml:id="gom-deut20-Qd1e135" type="lemma" source="http://scta.info/resource/deut20_5@9-11">Quis est homo.</quote>
+            <ref xml:id="gom-deut20-Rd1e138"><name xml:id="gom-deut20-Nd1e139" ref="#Augustine">ID.</name>, quaest. 31.</ref>
+            <quote xml:id="gom-deut20-Qd1e143"><seg type="qs">Non est melior in bello qui jam aedificia dedicavit</seg>, etc., usque ad <seg type="qs">sed haec instituta sunt propter virorum animos explorandos.</seg></quote>
+          </p>
+          <p xml:id="gom-deut20-d1e151">
+            <quote xml:id="gom-deut20-Qd1e153" type="lemma" source="http://scta.info/resource/deut20_5@9-11">Quis est homo.</quote>
+            <ref xml:id="gom-deut20-Rd1e156"><name xml:id="gom-deut20-Nd1e157" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-deut20-Qd1e160"><seg type="qs">Docet non posse quemquam professionem contemplationis vel militiae spiritalis <pb ed="#P" n="0473A"/> arripere</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-deut20-Qd1e167" source="http://scta.info/resource/IItim2_4@7-12">ut ei placeat cui se probavit</quote>.</seg></quote>
+          </p>
+          <p xml:id="gom-deut20-d1e172">
+            <ref xml:id="gom-deut20-Rd1e174" type="lemma" subtype="implied" target="http://scta.info/resource/deut20_5@9-11"/>
+            Melius est professionem vel persecutionem devitare, quam in ea succumbere. Ad disputationem quoque contra haereticos venire non debet, nisi doctus et perfectus, ne scandalizet alios superatus.
+          </p>
+        </div>
+        <div xml:id="gom-deut20-Dd1e178">
+          <head xml:id="gom-deut20-Hd1e180">Versus 16</head>
+          <p xml:id="gom-deut20-d1e182">
+            <quote xml:id="gom-deut20-Qd1e184" type="lemma" source="http://scta.info/resource/deut20_16@8-10">Nullum omnino permittes.</quote>
+            Nulli vitio in nostra conversatione parcendum, ne coram oculis Domini voluptatibus corrupti et abominabiles appareamus, et exsultantes inimici de ruina nostra dicant: <quote xml:id="gom-deut20-Qd1e187" source="http://scta.info/resource/ps34_25@7-16">Euge, euge animae nostrae, devorabimus eum</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

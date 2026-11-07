@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiastes, Caput 1</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiastes, Caput 1</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1115D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-qoh1">
+        <head xml:id="gom-qoh1-Hd1e98">Caput 1</head>
+        <div xml:id="gom-qoh1-Dd1e100">
+          <head xml:id="gom-qoh1-Hd1e102">Versus 1</head>
+          <p xml:id="gom-qoh1-d1e104">
+            <pb ed="#P" n="1115D"/>
+            <quote xml:id="gom-qoh1-Qd1e108" type="lemma" source="http://scta.info/resource/qoh1_1@1-2">Verba Ecclesiastae.</quote>
+            <ref xml:id="gom-qoh1-Rd1e111"><name xml:id="gom-qoh1-Nd1e112" ref="#Jerome">HIERON.</name> in Eccle., t. III.</ref>
+            <quote xml:id="gom-qoh1-Qd1e116"><seg type="qs">Tribus nominibus vocatus est Salomon, etc. <pb ed="#P" n="1116D"/></seg> usque ad <seg type="qs">et aequalis magister est, et nescit se esse regem.</seg></quote>
+          </p>
+          <p xml:id="gom-qoh1-d1e125">
+            <ref xml:id="gom-qoh1-Rd1e127" type="lemma" subtype="implied" target="http://scta.info/resource/qoh1_1@1-2"/>
+            <!--<note>(ALBINUS.)</note>--> Tradunt Hebraei hunc librum Salomomonis esse agentis poenitentiam, quia in sapientia <pb ed="#P" n="1117A"/> divitiisque confisus per mulieres Deum offendit. Secum enim omnia vana reputavit esse et ad miseriam devenire eos qui in eis spem ponunt.
+          </p>
+          <p xml:id="gom-qoh1-d1e134">
+            <ref xml:id="gom-qoh1-Rd1e136" type="lemma" subtype="implied" target="http://scta.info/resource/qoh1_1@1-2"/>
+            <ref xml:id="gom-qoh1-Rd1e138"><name xml:id="gom-qoh1-Nd1e139" ref="#Jerome">HIERON.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e142"><seg type="qs">Allegorice. Pacificus et dilectus Dei Patris Filius</seg>, etc., usque ad <seg type="qs">unde: <quote xml:id="gom-qoh1-Qd1e148" source="http://scta.info/resource/ps18_5@1-13">In omnem terram exivit sonus eorum: et in fines orbis terrae verba eorum</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e154">
+          <head xml:id="gom-qoh1-Hd1e156">Versus 2</head>
+          <p xml:id="gom-qoh1-d1e158">
+            <quote xml:id="gom-qoh1-Qd1e160" type="lemma" source="http://scta.info/resource/qoh1_2@1-2">Vanitas vanitatum.</quote>
+            <ref xml:id="gom-qoh1-Rd1e163"><name xml:id="gom-qoh1-Nd1e164" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e167"><seg type="qs">Pro <quote xml:id="gom-qoh1-Qd1e170" source="http://scta.info/resource/qoh1_2@1-2">vanitas vanitatum</quote> secundum quosdam interpretes possumus dicere</seg>, etc., usque ad <seg type="qs">donec veniat quod perfectum est.</seg></quote>
+          </p>
+          <p xml:id="gom-qoh1-d1e178">
+            <ref xml:id="gom-qoh1-Rd1e180" type="lemma" subtype="implied" target="http://scta.info/resource/qoh1_2@1-2"/>
+            Antequam suam ponat sententiam, quemdam apparatum videtur et ornamentum facere, cum dicit: <quote xml:id="gom-qoh1-Qd1e182" source="http://scta.info/resource/qoh1_2@5-8">Vanitas vanitatum, et omnia vanitas.</quote> Postea a majori, id est ab homine incipit, ostendens ipsum vanitati <pb ed="#P" n="1117B"/> subjectum, id est mutabilitati. Et hoc est, <quote xml:id="gom-qoh1-Qd1e187" source="http://scta.info/resource/qoh1_2@1-1">vanitas,</quote> etc. Vanitas omnis homo vivens: quanto magis caetera! Unde, <quote xml:id="gom-qoh1-Qd1e190" source="http://scta.info/resource/rom8_20@1-11">Vanitati subjecta est creatura, non volens, sed propter eum qui,</quote> etc. Quidquid enim non esse potest, vanitas dici potest, quia mutari potest. Solus Deus semper idem est quod est. Quod autem mutatur, quodammodo evanescit, et non est quod erat; ad comparationem Creatoris, omnis creatura vanitas potest dici et quasi nihilum computari.
+          </p>
+          <p xml:id="gom-qoh1-d1e194">
+            <ref xml:id="gom-qoh1-Rd1e196" type="lemma" subtype="implied" target="http://scta.info/resource/qoh1_2@1-2"/>
+            <ref xml:id="gom-qoh1-Rd1e198"><name xml:id="gom-qoh1-Nd1e199" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e202"><seg type="qs">Si cuncta quae fecit Deus</seg>, etc., usque ad <seg type="qs">cogor non semel, sed bis dicere, <quote xml:id="gom-qoh1-Qd1e208" source="http://scta.info/resource/qoh1_2@5-8">Vanitas vanitatum, et omnia vanitas.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e213">
+          <head xml:id="gom-qoh1-Hd1e215">Versus 3</head>
+          <p xml:id="gom-qoh1-d1e217">
+            <quote xml:id="gom-qoh1-Qd1e219" type="lemma" source="http://scta.info/resource/qoh1_3@1-4">Quid habet amplius homo.</quote>
+            <ref xml:id="gom-qoh1-Rd1e222"><name xml:id="gom-qoh1-Nd1e223" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e226"><seg type="qs">Post generalem sententiam</seg>, etc., usque ad <seg type="qs">sed nudi in terram redeunt, unde sumpti sunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e235">
+          <head xml:id="gom-qoh1-Hd1e237">Versus 4</head>
+          <p xml:id="gom-qoh1-d1e239">
+            <pb ed="#P" n="1117C"/>
+            <quote xml:id="gom-qoh1-Qd1e243" type="lemma" source="http://scta.info/resource/qoh1_4@1-2">Generatio praeterit,</quote>
+            etc.
+            <ref xml:id="gom-qoh1-Rd1e246"><name xml:id="gom-qoh1-Nd1e247" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e250"><seg type="qs">. Prima recedit generatio Judaeorum</seg>, etc., usque ad <seg type="qs">nos autem Deum laudamus non in uno saeculo, sed in saeculis saeculorum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e260">
+          <head xml:id="gom-qoh1-Hd1e262">Versus 5</head>
+          <p xml:id="gom-qoh1-d1e264">
+            <quote xml:id="gom-qoh1-Qd1e266" type="lemma" source="http://scta.info/resource/qoh1_5@1-4">Oritur sol et occidit.</quote>
+            <ref xml:id="gom-qoh1-Rd1e269"><name xml:id="gom-qoh1-Nd1e270" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e273"><seg type="qs">Ipse sol</seg>, etc., usque ad <seg type="qs">qui oritur fideli, occidit infideli.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e282">
+          <head xml:id="gom-qoh1-Hd1e284">Versus 6</head>
+          <p xml:id="gom-qoh1-d1e286">
+            <quote xml:id="gom-qoh1-Qd1e288" type="lemma" source="http://scta.info/resource/qoh1_6">Vadit ad austrum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            etc.
+            <ref xml:id="gom-qoh1-Rd1e293"><name xml:id="gom-qoh1-Nd1e294" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e297"><seg type="qs">Hinc existimare possumus</seg>, etc., usque ad <seg type="qs">et ita ad orientem revertitur.</seg></quote>
+          </p>
+          <p xml:id="gom-qoh1-d1e305">
+            <quote xml:id="gom-qoh1-Qd1e307" type="lemma" source="http://scta.info/resource/qoh1_6@10-12">In circumitu pergit spiritus.</quote>
+            <ref xml:id="gom-qoh1-Rd1e310"><name xml:id="gom-qoh1-Nd1e311" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e314"><seg type="qs">Ipsum solem spiritum vocat</seg>, etc., usque ad <seg type="qs">alia frigus consumeret.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e323">
+          <head xml:id="gom-qoh1-Hd1e325">Versus 7</head>
+          <p xml:id="gom-qoh1-d1e327">
+            <quote xml:id="gom-qoh1-Qd1e329" type="lemma" source="http://scta.info/resource/qoh1_7@1-4">Omnia flumina intrant in mare.</quote>
+            Dicunt philosophi, aquas dulces, quae mari influunt, vel ardente sole consumi, vel salsuginis maris esse pabula. Sed Ecclesiastes noster et ipsarum Conditor <pb ed="#P" n="1117D"/> aquarum, dicit eas per occultas terrae venas ad capita fontium regredi et de matrice abysso in sua semper ebullire principia. Possumus per flumina, et mare, humanum genus accipere, quod in terram, unde sumptum est redit, secundum illud: <quote xml:id="gom-qoh1-Qd1e334" source="http://scta.info/resource/gen3_19@17-19">Terra es, et in terram ibis</quote>. Nec terra impletur multitudine mortuorum. Et Hieronymus dicit torrentes non flumina, eo quod cito transeant.
+          </p>
+          <p xml:id="gom-qoh1-d1e338">
+            <ref xml:id="gom-qoh1-Rd1e340" type="lemma" subtype="implied" target="http://scta.info/resource/qoh1_7@1-4"/>
+            <ref xml:id="gom-qoh1-Rd1e342"><name xml:id="gom-qoh1-Nd1e343" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e346"><seg type="qs">Omnes torrentes</seg>, etc., usque ad <seg type="qs">quomodo in proverbiis filiae sanguisugae.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e355">
+          <head xml:id="gom-qoh1-Hd1e357">Versus 8</head>
+          <p xml:id="gom-qoh1-d1e359">
+            <quote xml:id="gom-qoh1-Qd1e361" type="lemma" source="http://scta.info/resource/qoh1_8@1-3">Cunctae res difficiles.</quote>
+            Non potest homo causas et naturas rerum explicare, nec oculus ad plenum intueri, nec auris, instruente doctore, ad summam scientiam pervenire. <quote xml:id="gom-qoh1-Qd1e364" source="http://scta.info/resource/Icor13_12@1-15">Videmus enim nunc <pb ed="#P" n="1118A"/> per speculum in aenigmate et ex parte, donec veniat quod perfectum est</quote>, quod in hoc mortali corpore esse non poterit. Haec sententia contra eos est qui sine labore et dicendi studio sanctas Scripturas se novisse putant, et se sapientes, cum insipientes sint.
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e371">
+          <head xml:id="gom-qoh1-Hd1e373">Versus 9</head>
+          <p xml:id="gom-qoh1-d1e375">
+            <quote xml:id="gom-qoh1-Qd1e377" type="lemma" source="http://scta.info/resource/qoh1_9@1-3">Quid est quod.</quote>
+            <ref xml:id="gom-qoh1-Rd1e380"><name xml:id="gom-qoh1-Nd1e381" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e384"><seg type="qs">De his videtur dicere</seg>, etc., usque ad <seg type="qs">ut requiesceret Deus ab omnibus operibus suis die septima.</seg></quote>
+          </p>
+          <p xml:id="gom-qoh1-d1e392">
+            <quote xml:id="gom-qoh1-Qd1e394" type="lemma" source="http://scta.info/resource/qoh1_9@1-3">Quid est quod,</quote>
+            etc. De naturis in principio mundi creatis, et de successione earum, quomodo veniunt et transeunt; ut homo moritur, homo nascitur, eadem natura est nascentis, quae fuit morientis. Sic de avibus, piscibus, serpentibus et omnibus animantibus; sic de herbis, arboribus et aliis naturis nihil <pb ed="#P" n="1118B"/> novum invenitur quod antea non fuerit: nihil praeteritum quod post non fiat. Unde, <quote xml:id="gom-qoh1-Qd1e399" source="http://scta.info/resource/gen2_3@3-15">Requievit Deus die septimo ab omni opere suo</quote>, a novarum creatione naturarum, non a gubernatione, secundum illud: <quote xml:id="gom-qoh1-Qd1e402" source="http://scta.info/resource/io5_17@5-12">Pater meus usque modo operatur, et ego operor</quote>. Sic ex primordialibus rerum seminibus totius saeculi tempus naturali cursu peragitur.
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e407">
+          <head xml:id="gom-qoh1-Hd1e409">Versus 10</head>
+          <p xml:id="gom-qoh1-d1e411">
+            <quote xml:id="gom-qoh1-Qd1e413" type="lemma" source="http://scta.info/resource/qoh1_10@5-6">Nec valet,</quote>
+            etc.
+            <ref xml:id="gom-qoh1-Rd1e416"><name xml:id="gom-qoh1-Nd1e417" ref="#Jerome">HIER.</name></ref>
+          </p>
+          <p xml:id="gom-qoh1-d1e421">
+            <quote xml:id="gom-qoh1-Qd1e423" type="lemma" source="http://scta.info/resource/qoh1_10">Estne verbum,</quote>
+            <!-- check: lemma not matched to verse text -->
+            <quote xml:id="gom-qoh1-Qd1e428">etc., usque ad <seg type="qs">et praedestinatione Dei jam ea facta sunt quae futura sunt.</seg></quote>
+          </p>
+          <p xml:id="gom-qoh1-d1e434">
+            <quote xml:id="gom-qoh1-Qd1e436" type="lemma" source="http://scta.info/resource/qoh1_10@13-15">Jam enim praecessit.</quote>
+            Sicut praeterita quae olim fuerunt apud nos, abscondit oblivio, sic quae nunc fiunt, qui nascituri sunt, scire non poterunt; silentio enim peribunt, et quasi non fuerint, abscondentur.
+          </p>
+          <p xml:id="gom-qoh1-d1e440">
+            <ref xml:id="gom-qoh1-Rd1e442" type="lemma" subtype="implied" target="http://scta.info/resource/qoh1_10@13-15"/>
+            Vanitas enim vanitatum et omnia vanitas, quia <pb ed="#P" n="1118C"/> omnia more fluentis aquae transeunt, et non redibunt. Cui sententiae totus mundus acclamat, et maxime genus humanum.
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e449">
+          <head xml:id="gom-qoh1-Hd1e451">Versus 11</head>
+          <p xml:id="gom-qoh1-d1e453">
+            <quote xml:id="gom-qoh1-Qd1e455" type="lemma" source="http://scta.info/resource/qoh1_11@1-3">Non est priorum.</quote>
+            <ref xml:id="gom-qoh1-Rd1e458"><name xml:id="gom-qoh1-Nd1e459" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e462"><seg type="qs">Seraphin propterea</seg>, etc., usque ad <seg type="qs">unde post, <quote xml:id="gom-qoh1-Qd1e468">Non est memoria sapienti cum stulto in aeternum.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e472">
+          <head xml:id="gom-qoh1-Hd1e474">Versus 13</head>
+          <p xml:id="gom-qoh1-d1e476">
+            <quote xml:id="gom-qoh1-Qd1e478" type="lemma" source="http://scta.info/resource/qoh1_13@1-5">Et proposui in animo meo,</quote>
+            etc. <quote xml:id="gom-qoh1-Qd1e481"><seg type="qs">Proposuit ergo Ecclesiastes</seg>, etc., usque ad <seg type="qs">quam sponte incurrerunt.</seg></quote>
+          </p>
+          <p xml:id="gom-qoh1-d1e489">
+            <ref xml:id="gom-qoh1-Rd1e491" type="lemma" subtype="implied" target="http://scta.info/resource/qoh1_13@1-5"/>
+            Hucusque generaliter de vanitatibus saeculi: hinc ad seipsum redit, et quis esset ostendit, quomodo omnia cognoverit, et docuerit, unde: <quote xml:id="gom-qoh1-Qd1e493" source="http://scta.info/resource/qoh1_13@1-5">Et proposui in animo meo,</quote> et caetera.
+          </p>
+          <p xml:id="gom-qoh1-d1e497">
+            <quote xml:id="gom-qoh1-Qd1e499" type="lemma" source="http://scta.info/resource/qoh1_13@16-17">Hanc occupationem.</quote>
+            <ref xml:id="gom-qoh1-Rd1e502"><name xml:id="gom-qoh1-Nd1e503" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e506"><seg type="qs">Verbum <quote xml:id="gom-qoh1-Qd1e509">anian</quote> Aquila, LXX et Theodotio <foreign xml:lang="greek">περισπασμὸν</foreign> quod latine <pb ed="#P" n="1118D"/> <quote xml:id="gom-qoh1-Qd1e516">distensio,</quote></seg> etc., usque ad <seg type="qs">ad superiorem sensum cuncta referuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e523">
+          <head xml:id="gom-qoh1-Hd1e525">Versus 14</head>
+          <p xml:id="gom-qoh1-d1e527">
+            <quote xml:id="gom-qoh1-Qd1e529" type="lemma" source="http://scta.info/resource/qoh1_14@1-1">Vidi,</quote>
+            etc. Consideravi omnia mundana, et vidi vanitatem et malitiam esse, id est, miserias spiritus, quibus animus diversis fatigatus cogitationibus laborat cognoscere, quod homini non conceditur.
+          </p>
+          <p xml:id="gom-qoh1-d1e533">
+            <ref xml:id="gom-qoh1-Rd1e535" type="lemma" subtype="implied" target="http://scta.info/resource/qoh1_14@1-1"/>
+            <ref xml:id="gom-qoh1-Rd1e537"><name xml:id="gom-qoh1-Nd1e538" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e541"><seg type="qs">Verbum <quote xml:id="gom-qoh1-Qd1e544">Routh</quote> Aquila et Theodotio</seg>, etc., usque ad <seg type="qs">quibus anima diversis cogitationibus affligitur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e552">
+          <head xml:id="gom-qoh1-Hd1e554">Versus 15</head>
+          <p xml:id="gom-qoh1-d1e556">
+            <quote xml:id="gom-qoh1-Qd1e558" type="lemma" source="http://scta.info/resource/qoh1_15@1-1">Perversi.</quote>
+            <ref xml:id="gom-qoh1-Rd1e561"><name xml:id="gom-qoh1-Nd1e562" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e565"><seg type="qs">Perversus non poterit adornari</seg>, etc., usque ad <seg type="qs">ut non possit comprehendi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-qoh1-Dd1e574">
+          <head xml:id="gom-qoh1-Hd1e576">Versus 17</head>
+          <p xml:id="gom-qoh1-d1e578">
+            <quote xml:id="gom-qoh1-Qd1e580" type="lemma" source="http://scta.info/resource/qoh1_17@9-11">Erroresque et stulti.</quote>
+            <ref xml:id="gom-qoh1-Rd1e583"><name xml:id="gom-qoh1-Nd1e584" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-qoh1-Qd1e587"><seg type="qs">Prima sa <pb ed="#P" n="1119A"/> pientia est stultitia caruisse</seg>, etc., usque ad <seg type="qs">supra disseruisse sufficiat.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

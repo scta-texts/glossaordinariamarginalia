@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 36</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 36</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0691A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr36">
+        <head xml:id="gom-IIchr36-Hd1e98">Caput 36</head>
+        <div xml:id="gom-IIchr36-Dd1e100">
+          <head xml:id="gom-IIchr36-Hd1e102">Versus 4</head>
+          <p xml:id="gom-IIchr36-d1e104">
+            <quote xml:id="gom-IIchr36-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr36_4@1-1">Constituitque.</quote>
+            Nechao regem Joakim constituit, imposuit mulctam terrae centum talentis argenti: quia diabolus pensum servitii a populo perditorum <pb ed="#P" n="0691B"/> expetiit, ut tam sensu quam eloquio parati sint ejus obsequio.
+          </p>
+          <p xml:id="gom-IIchr36-d1e112">
+            <quote xml:id="gom-IIchr36-Qd1e114" type="lemma" source="http://scta.info/resource/IIchr36_4@12-13">Et vertit.</quote>
+            Notandum quod de eodem Joakim filio Josiae in Regum ita scriptum est: <quote xml:id="gom-IIchr36-Qd1e117" source="http://scta.info/resource/IIreg24_6@1-6">Dormivit Joakim cum patribus suis, regnavitque Joachin filius ejus pro eo</quote>. Josephus tamen dicit: Dum rex Babylonis intrasset civitatem, fidem nequaquam servavit, sed juvenes fortissimos et pulchritudine decoros occidit una cum rege Joakim, quem ante murum insepultum projici jussit. Filium vero ejus Joachin constituit regem universae provinciae. Eos autem qui erant in dignitatibus constituti numero tria millia, duxit in Babylonem, inter quos erat Ezechiel adhuc puer. Hic ergo finis habuit Joakim regem qui vixit annos decem et triginta, regnavit <pb ed="#P" n="0691C"/> autem undecim annis. Successor vero regni Joakim rex nomine Ononimus regnavit mensibus tribus et diebus decem. Sciendum autem, quod cum semel quis cuilibet vitio se mancipaverit, multis dominis obnoxius erit. Unde Joakim quem Pharao ante censum sibi solvere coegit, hunc Nabuchodonosor rex Babylonis tribus annis servire compellit. Nabuchodonosor eumdem significat quem et Pharao; principem scilicet confusionis et rectorem tenebrarum harum. Cum autem diabolus aliquem sibi censum peccati solvere coegit, totum in dominium suum <pb ed="#P" n="0692A"/> redigit, et plenum servitium exigit, persuasione scilicet, delectatione, consensu, cogitatione quoque, locutione, et operatione.
+          </p>
+          <p xml:id="gom-IIchr36-d1e125">
+            <ref xml:id="gom-IIchr36-Rd1e127" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr36_4@12-13"/>
+            <ref xml:id="gom-IIchr36-Rd1e129"><name xml:id="gom-IIchr36-Nd1e130" ref="#Jerome">HIERON.</name>, quaest. in Paral., tom. III.</ref>
+            <quote xml:id="gom-IIchr36-Qd1e134"><seg type="qs">Sciendum quod nomen istius Joachin</seg>, etc., usque ad <seg type="qs">praepositorum depravati exemplis cedunt cum ipsis in praedam diaboli.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr36-Dd1e143">
+          <head xml:id="gom-IIchr36-Hd1e145">Versus 10</head>
+          <p xml:id="gom-IIchr36-d1e147">
+            <quote xml:id="gom-IIchr36-Qd1e149" type="lemma" source="http://scta.info/resource/IIchr36_10@20-21">Regem vero.</quote>
+            Sedecias significat eos qui regimen in populo Dei suscipiunt: interpretatur enim Sedecias justus Domini. Illi enim accipiunt sedem justitiae ad exercenda opera justitiae, honoris et officii accipiunt dignitatem, maxime quia filii Josiae, id est salutis Domini, per gratiam baptismi et unctionem chrismatis nuncupari merentur: sed degenerantes relabuntur in vitiorum foeditate, et se <pb ed="#P" n="0692B"/> subditos convertunt ad impietatem, nec fidem quam Deo promiserant, custodiunt, nec cum hominibus pacis foedera servant. Tales quotidie lex divina, prophetarum, et apostolorum miracula e peccatis recedere, et ad Dominum per poenitentiam reverti monent: sed semel indurati, verba salutis despiciunt, unde Deus iratus mittit contra eos regem Chaldaeorum, id est, diabolum cum satellitibus suis, id est, spiritualibus nequitiis, qui nulli parcentes aetati, nulli deferentes dignitati, quoscunque capiunt, in Babylonem, id est, in confusionem tranferunt; et domum Domini incendunt, quia fideles, qui sunt templum Dei, blasphemare compellunt. Muros Jerusalem destruunt, cum custodias pastorum decjiciunt, turres comburunt, cum praelatos per illicita desideria <pb ed="#P" n="0692C"/> exurunt: omne pretiosum demoliuntur, cum eos qui de virtutis et scientiae praerogativa sibi applaudunt, ad nihilum redigunt.
+          </p>
+          <p xml:id="gom-IIchr36-d1e157">
+            <ref xml:id="gom-IIchr36-Rd1e159" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr36_10@20-21"/>
+            Finis libri Paralipomenon similis principio libri sacerdotis Esdrae: unde quod ibi exposuimus, hic replicare non est opus. De Cyro quoque quomodo Christum significet, et quae de eo dicantur, et quae ad ipsum referantur, in Isaia exposuimus.
+          </p>
+          <p xml:id="gom-IIchr36-d1e162">
+            <ref xml:id="gom-IIchr36-Rd1e164" type="lemma" subtype="implied" target="http://scta.info/resource/IIchr36_10@20-21"/>
+            <ref xml:id="gom-IIchr36-Rd1e166"><name xml:id="gom-IIchr36-Nd1e167" ref="#RabanusMaurus">RAB.</name> ex Beda.</ref>
+            <quote xml:id="gom-IIchr36-Qd1e171"><seg type="qs">Salomon templum Domini septem annis construxit in Jerusalem</seg>, etc., usque ad <seg type="qs">scilicet et civitatis Dei de qua ejecti fuerant, recipiunt.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

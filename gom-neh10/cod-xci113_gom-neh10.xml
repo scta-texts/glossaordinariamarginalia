@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nehemiae, Caput 10</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Nehemiae, Caput 10</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0722C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-neh10">
+        <head xml:id="gom-neh10-Hd1e98">Caput 10</head>
+        <div xml:id="gom-neh10-Dd1e100">
+          <head xml:id="gom-neh10-Hd1e102">Versus 1</head>
+          <p xml:id="gom-neh10-d1e104">
+            <quote xml:id="gom-neh10-Qd1e106" type="lemma" source="http://scta.info/resource/neh10_1@1-1">Signatores,</quote>
+            etc. Alia translatio: <quote xml:id="gom-neh10-Qd1e109">Nehemias qui Athersata fertur,</quote> erat enim dionymos unde singulariter subjungitur filius Achelai, quod superius apertius dicitur: <quote xml:id="gom-neh10-Qd1e111" source="http://scta.info/resource/neh8_9@1-6">Dixit autem Nehemias, et ipse est Athersata</quote><!--<note>(II Esd. VII)</note>-->.
+          </p>
+          <p xml:id="gom-neh10-d1e116">
+            <ref xml:id="gom-neh10-Rd1e118" type="lemma" subtype="implied" target="http://scta.info/resource/neh10_1@1-1"/>
+            <ref xml:id="gom-neh10-Rd1e120"><name xml:id="gom-neh10-Nd1e121" ref="#Bede">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-neh10-Qd1e125"><seg type="qs">Nobis quoque sabbatum spirituale semper agendum est</seg>, etc., usque ad <seg type="qs">primo die a malis emundare necesse est, deinde bonis actibus adornari.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

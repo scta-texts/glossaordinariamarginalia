@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 33</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 33</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1216D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir33">
+        <head xml:id="gom-sir33-Hd1e98">Caput 33</head>
+        <div xml:id="gom-sir33-Dd1e100">
+          <head xml:id="gom-sir33-Hd1e102">Versus 5</head>
+          <p xml:id="gom-sir33-d1e104">
+            <pb ed="#P" n="1216D"/>
+            <quote xml:id="gom-sir33-Qd1e108" type="lemma" source="http://scta.info/resource/sir33_5@1-2">Praecordia fatui.</quote>
+            <ref xml:id="gom-sir33-Rd1e111"><name xml:id="gom-sir33-Nd1e112" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir33-Qd1e115"><seg type="qs">Sicut rota carri et axis</seg>, etc., usque ad: <seg type="qs"><quote xml:id="gom-sir33-Qd1e120" source="http://scta.info/resource/prov15_7@5-8">Cor stultorum dissimile erit</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e126">
+          <head xml:id="gom-sir33-Hd1e128">Versus 6</head>
+          <p xml:id="gom-sir33-d1e130">
+            <quote xml:id="gom-sir33-Qd1e132" type="lemma" source="http://scta.info/resource/sir33_6@1-1">Equus,</quote>
+            etc.
+            <ref xml:id="gom-sir33-Rd1e135"><name xml:id="gom-sir33-Nd1e136" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir33-Qd1e139"><seg type="qs">Sicut jumento nulla est ratio</seg>, etc., usque ad <seg type="qs">sed per oris officia aequaliter utrique pandit secreta.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e148">
+          <head xml:id="gom-sir33-Hd1e150">Versus 7</head>
+          <p xml:id="gom-sir33-d1e152">
+            <quote xml:id="gom-sir33-Qd1e154" type="lemma" source="http://scta.info/resource/sir33_7@1-2">Quare dies.</quote>
+            <ref xml:id="gom-sir33-Rd1e157"><name xml:id="gom-sir33-Nd1e158" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir33-Qd1e161"><seg type="qs">Quia superius stultum vituperavit</seg>, etc., usque ad <seg type="qs">ut sint in signa et tempora, et dies, et annos.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e170">
+          <head xml:id="gom-sir33-Hd1e172">Versus 8</head>
+          <p xml:id="gom-sir33-d1e174">
+            <quote xml:id="gom-sir33-Qd1e176" type="lemma" source="http://scta.info/resource/sir33_8@6-7">Facto sole.</quote>
+            <ref xml:id="gom-sir33-Rd1e179"><name xml:id="gom-sir33-Nd1e180" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir33-Qd1e183"><seg type="qs">Praecepit Deus in lege</seg>, etc., usque ad <seg type="qs">et maxime placere quod ordine et ratione fit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e193">
+          <head xml:id="gom-sir33-Hd1e195">Versus 10</head>
+          <p xml:id="gom-sir33-d1e197">
+            <quote xml:id="gom-sir33-Qd1e199" type="lemma" source="http://scta.info/resource/sir33_10@1-3">Ex ipsis exaltavit.</quote>
+            <ref xml:id="gom-sir33-Rd1e202"><name xml:id="gom-sir33-Nd1e203" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir33-Qd1e206">Id est, sua <pb ed="#P" n="1217A"/> discretione illos distinxit, quos pro benefactis remuneravit, et quibus pro malefactis dignam mercedem retribuit.</quote>
+          </p>
+          <p xml:id="gom-sir33-d1e212">
+            <quote xml:id="gom-sir33-Qd1e214" type="lemma" source="http://scta.info/resource/sir33_10@14-16">Et omnes homines.</quote>
+            <quote xml:id="gom-sir33-Qd1e217"><seg type="qs">Post dispositionem siderum</seg>, etc., usque ad <seg type="qs">impios vero aeterna maledictione damnavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e226">
+          <head xml:id="gom-sir33-Hd1e228">Versus 13</head>
+          <p xml:id="gom-sir33-d1e230">
+            <quote xml:id="gom-sir33-Qd1e232" type="lemma" source="http://scta.info/resource/sir33_13@1-2">Quasi lutum,</quote>
+            etc.
+            <ref xml:id="gom-sir33-Rd1e235"><name xml:id="gom-sir33-Nd1e236" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir33-Qd1e239"><seg type="qs">In manu sua habet conditor massam humani generis</seg>, etc., usque ad <seg type="qs">et quem debeat indurare secundum justitiam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e248">
+          <head xml:id="gom-sir33-Hd1e250">Versus 15</head>
+          <p xml:id="gom-sir33-d1e252">
+            <quote xml:id="gom-sir33-Qd1e254" type="lemma" source="http://scta.info/resource/sir33_15@1-2">Contra malum.</quote>
+            Investigator operum Dei invenit in ipsis quamdam contrarietatem, sed mirabiliter a Deo ordinatam. Non est ergo mali conditor Deus, qui fecit omnia bona valde; nec mortem fecit, nec laetatur in perditione mortuorum, sed universitatis est mirabilis ordinator. Naturae ergo bonae sunt, et a Deo sunt: vitia vero non ex Deo.
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e89">
+          <head xml:id="gom-sir33-Hd1e91">Versus 18</head>
+          <p xml:id="gom-sir33-d1e95">
+            <pb ed="#P" n="1217B"/>
+            <quote xml:id="gom-sir33-Qd1e98" type="lemma" source="http://scta.info/resource/sir33_18@1-1">Respicite.</quote>
+            Omnes communiter admonet, ut juris sui rationem non omittant, quia non aliter potest habere pacem et quietem. Qui enim primatus sui auctoritatem perdit, in despectionem et angustiam se mittit: qui autem locum suum sapienter custodit, se et suos ad profectum virtutis dirigit.
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e127">
+          <head xml:id="gom-sir33-Hd1e105">Versus 19</head>
+          <p xml:id="gom-sir33-d1e109">
+            <quote xml:id="gom-sir33-Qd1e136" type="lemma" source="http://scta.info/resource/sir33_19@1-1">Audite.</quote>
+            Ad litteram patres docet, ut filios regant, et cum disciplina nutriant, donec veniant ad aetatem perfectam, ut digni haeredes patrum suorum possint esse. Spiritualiter vero instruit rectores Ecclesiae, ut dignitatem suam usque ad finem teneant et discipulos suos bene nutritos haeredes sui laboris relinquant. Tenere debent rectores exterius quod pro aliorum utilitate suscipiunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e285">
+          <head xml:id="gom-sir33-Hd1e287">Versus 25</head>
+          <p xml:id="gom-sir33-d1e289">
+            <quote xml:id="gom-sir33-Qd1e291" type="lemma" source="http://scta.info/resource/sir33_25@1-3">Cibaria et virga,</quote>
+            etc.
+            <ref xml:id="gom-sir33-Rd1e294"><name xml:id="gom-sir33-Nd1e295" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir33-Qd1e298"><seg type="qs">Necesse <pb ed="#P" n="1217C"/> est ut iniqui servi</seg>, etc., usque ad <seg type="qs">ut habeant, scilicet victum et vestitum, non vagandi otium.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir33-Dd1e310">
+          <head xml:id="gom-sir33-Hd1e312">Versus 31</head>
+          <p xml:id="gom-sir33-d1e314">
+            <quote xml:id="gom-sir33-Qd1e316" type="lemma" source="http://scta.info/resource/sir33_31@1-3">Si est tibi fidelis,</quote>
+            etc.
+            <ref xml:id="gom-sir33-Rd1e319"><name xml:id="gom-sir33-Nd1e320" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir33-Qd1e323"><seg type="qs">Boni servi legem tradidit</seg>, etc., usque ad <seg type="qs">non est enim homo persequendus, sed vitia.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iosiah, Caput 22</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iosiah, Caput 22</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0520A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ios22">
+        <head xml:id="gom-ios22-Hd1e98">Caput 22</head>
+        <div xml:id="gom-ios22-Dd1e100">
+          <head xml:id="gom-ios22-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ios22-d1e104">
+            <quote xml:id="gom-ios22-Qd1e106" type="lemma" source="http://scta.info/resource/ios22_1@1-2">Eodem tempore.</quote>
+            <ref xml:id="gom-ios22-Rd1e109"><name xml:id="gom-ios22-Nd1e110" ref="#Origen">ADAMAN.</name>, hom. 26 in Job.</ref>
+            <quote xml:id="gom-ios22-Qd1e114"><seg type="qs">Congregat Jesus filios Ruben et Gad</seg>, etc., usque ad <seg type="qs">omni impugnatione cessante.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios22-Dd1e123">
+          <head xml:id="gom-ios22-Hd1e125">Versus 10</head>
+          <p xml:id="gom-ios22-d1e127">
+            <pb ed="#P" n="0520B"/>
+            <quote xml:id="gom-ios22-Qd1e131" type="lemma" source="http://scta.info/resource/ios22_10@1-1">Cumque.</quote>
+            <ref xml:id="gom-ios22-Rd1e134"><name xml:id="gom-ios22-Nd1e135" ref="#Origen">ADAMANT.</name>, hom. 26.</ref>
+            <quote xml:id="gom-ios22-Qd1e139"><seg type="qs">Filii Ruben et Gad et dimidia tribus Manasse</seg>, etc., usque ad <seg type="qs">fit ergo unus grex, et unus pastor: illi justi, et isti justi Christiani.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios22-Dd1e148">
+          <head xml:id="gom-ios22-Hd1e150">Versus 17</head>
+          <p xml:id="gom-ios22-d1e152">
+            <quote xml:id="gom-ios22-Qd1e154" type="lemma" source="http://scta.info/resource/ios22_17@20-20">Multi.</quote>
+            <ref xml:id="gom-ios22-Rd1e157"><name xml:id="gom-ios22-Nd1e158" ref="#Origen">ADAM.</name></ref>
+            <quote xml:id="gom-ios22-Qd1e161"><seg type="qs">Cadebat ergo aliquando populus in deserto et moriebatur</seg>, etc., usque ad <seg type="qs">et ubi est verus Israel in Christo Jesu Domino nostro.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ios22-Dd1e170">
+          <head xml:id="gom-ios22-Hd1e172">Versus 29</head>
+          <p xml:id="gom-ios22-d1e174">
+            <quote xml:id="gom-ios22-Qd1e176" type="lemma" source="http://scta.info/resource/ios22_29">Exstructo. Et in sacrificiis salutarium nostrorum.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ios22-Rd1e181"><name xml:id="gom-ios22-Nd1e182" ref="#Augustine">AUG.</name>, quaest. 32 in Jos.</ref>
+            <quote xml:id="gom-ios22-Qd1e186"><seg type="qs">Quia pluraliter dicta sunt sacrificia</seg>, etc., usque ad <seg type="qs">Solus enim Salvator est ipse</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

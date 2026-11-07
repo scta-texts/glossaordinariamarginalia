@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon II, Caput 21</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon II, Caput 21</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0684D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIchr21">
+        <head xml:id="gom-IIchr21-Hd1e98">Caput 21</head>
+        <div xml:id="gom-IIchr21-Dd1e100">
+          <head xml:id="gom-IIchr21-Hd1e102">Versus 2</head>
+          <p xml:id="gom-IIchr21-d1e104">
+            <quote xml:id="gom-IIchr21-Qd1e106" type="lemma" source="http://scta.info/resource/IIchr21_2@17-20">Omnes hi, filii Josaphat,</quote>
+            etc.
+            <ref xml:id="gom-IIchr21-Rd1e109"><name xml:id="gom-IIchr21-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIchr21-Qd1e113">Imitatores operum ejus, fratre eorum Joram semper in deteriora labente, unde ipse Joram legitur eos interfecisse cum principibus Israel.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIchr21-Dd1e117">
+          <head xml:id="gom-IIchr21-Hd1e119">Versus 14</head>
+          <p xml:id="gom-IIchr21-d1e121">
+            <quote xml:id="gom-IIchr21-Qd1e123" type="lemma" source="http://scta.info/resource/IIchr21_14@1-4">Ecce Dominus percutiet te,</quote>
+            etc. Per Philisthaeos et Arabes qui ejus terram vastaverunt, et diripuerunt substantiam et filios pariter et uxores Joram, qui interpretatur, Quis est excelsus: qui de <pb ed="#P" n="0685A"/> religioso patre ad perfidiam declinavit, et fornicari fecit filios Juda: significat eos qui fide imbuti et baptismo regenerati, relinquunt fidei veritatem, haereticorum sequentes errorem, et alios secum pervertentes. Unde eos Elias, id est, sermo propheticus redarguit: quia omnis divinorum librorum auctoritas tales reprehendit, et merito perversitatis suae increpat contestationibus gravissimis.
+          </p>
+        </div>
+        <div xml:id="gom-IIchr21-Dd1e130">
+          <head xml:id="gom-IIchr21-Hd1e132">Versus 20</head>
+          <p xml:id="gom-IIchr21-d1e134">
+            <quote xml:id="gom-IIchr21-Qd1e136" type="lemma" source="http://scta.info/resource/IIchr21_20@8-11">Et octo annis regnavit,</quote>
+            etc. De Joram octo annis regnasse et quadraginta vixisse; filium autem ejus Ochoziam cum regnare coepisset fuisse quadraginta duorum annorum, quod si ita est, duobus annis antequam pater ipse nasceretur, filium genuit. Sed Hebraei dicunt quod Joram qui quadraginta annis vixisse describitur et octo annis regnasse, <pb ed="#P" n="0685B"/> quod vixerit annos quadraginta et regnaverit viginti et octo. Anni enim octo qui ei in regno tribuuntur, ipsi sunt quibus regnavit antequam fratres occideret, cum adhuc innocenter viveret. Reliqui vero viginti anni, quibus postea regnavit, ideo non numerantur, quia in languore et tribulatione vixit: ideoque filio ejus tribuuntur, qui non amplius quam viginti duorum annorum secundum librum Regum esse perhibetur, ne de numerorum summa anni remanentes, in temporum computatione errorem facerent.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

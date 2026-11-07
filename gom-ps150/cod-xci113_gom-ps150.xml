@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 150</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 150</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1078D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps150">
+        <head xml:id="gom-ps150-Hd1e98">Psalmus 150</head>
+        <div xml:id="gom-ps150-Dd1e100">
+          <head xml:id="gom-ps150-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps150-d1e104">
+            <quote xml:id="gom-ps150-Qd1e106" type="lemma" source="http://scta.info/resource/ps150_1@2-3">Laudate Dominum.</quote>
+            <ref xml:id="gom-ps150-Rd1e109"><name xml:id="gom-ps150-Nd1e110" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps150-Qd1e113">De laude Dei in sanctis ejus, qui glorificati sine fine laudant. Monetur civitas Dei, scilicet unitas omnium sanctorum, ore et animo cantare. In hoc culmen omnis psalmodia perducitur, quae nuptiali dulcedine cantatur.</quote>
+          </p>
+          <p xml:id="gom-ps150-d1e116">
+            <quote xml:id="gom-ps150-Qd1e118" type="lemma" source="http://scta.info/resource/ps150_1@8-11">Laudate eum in firmamento.</quote>
+            <ref xml:id="gom-ps150-Rd1e121"><name xml:id="gom-ps150-Nd1e122" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps150-Qd1e125"><seg type="qs">Virtus est in <pb ed="#P" n="1079A"/> firmamento</seg>, etc., usque ad <seg type="qs">qui invicem se honorantes, dant laudem Deo.</seg></quote>
+          </p>
+          <p xml:id="gom-ps150-d1e135">
+            <ref xml:id="gom-ps150-Rd1e137" type="lemma" subtype="implied" target="http://scta.info/resource/ps150_1@8-11"/>
+            <ref xml:id="gom-ps150-Rd1e139"><name xml:id="gom-ps150-Nd1e140" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps150-Qd1e143">Quibus propheta in principio formam conversationis ostendit, jam in illa Jerusalem receptis, dicit in eis laudandum esse Deum, qui omnia dedit.</quote>
+          </p>
+          <p xml:id="gom-ps150-d1e146">
+            <quote xml:id="gom-ps150-Qd1e148" type="lemma" source="http://scta.info/resource/ps150_1@10-11">In firmamento,</quote>
+            quia morte sua diabolum vicit, et credentes ad coelum perduxit. In virtutibus vel potentatibus, quia omnia subjecta pedibus ejus.
+          </p>
+        </div>
+        <div xml:id="gom-ps150-Dd1e153">
+          <head xml:id="gom-ps150-Hd1e155">Versus 2</head>
+          <p xml:id="gom-ps150-d1e157">
+            <quote xml:id="gom-ps150-Qd1e159" type="lemma" source="http://scta.info/resource/ps150_2@9-12">Secundum multitudinem magnitudinis ejus.</quote>
+            Quomodo hoc, cum magnitudinis ejus non est finis? sed spiritualibus et sanctis dicitur hoc. Et cum non sit finis magnitudinis, secundum eam laudatur Deus, cum sine fine laudetur. Quomodo autem debeat laudari, per similitudines mysticas usque ad finem psalmi dicit: <quote xml:id="gom-ps150-Qd1e162">Tuba</quote> concrepet regi, <quote xml:id="gom-ps150-Qd1e164" source="http://scta.info/resource/ps150_3@10-10">psalterium</quote> canat <pb ed="#P" n="1079B"/> Deo: <quote xml:id="gom-ps150-Qd1e169" source="http://scta.info/resource/ps150_3@12-12">cithara</quote> cum reliquis sponso. Tuba enim terribilis, vel in bello sumitur, vel, in adventibus regum apparatur; psalterium a summo, cithara ab imo sonat: haec omnia, humanis actibus comparata, figuraliter ibi dicuntur laudes Dei personare.
+          </p>
+        </div>
+        <div xml:id="gom-ps150-Dd1e174">
+          <head xml:id="gom-ps150-Hd1e176">Versus 4</head>
+          <p xml:id="gom-ps150-d1e178">
+            <quote xml:id="gom-ps150-Qd1e180" type="lemma" source="http://scta.info/resource/ps150_4@10-13">In chordis et organo.</quote>
+            <ref xml:id="gom-ps150-Rd1e183"><name xml:id="gom-ps150-Nd1e184" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps150-Qd1e187"><quote xml:id="gom-ps150-Qd1e188" source="http://scta.info/resource/ps150_4@11-11">Chordas</quote> ponit pro omni instrumento musico, quod chordarum tensione sonat.</quote>
+          </p>
+          <p xml:id="gom-ps150-d1e193">
+            <quote xml:id="gom-ps150-Qd1e195" type="lemma" source="http://scta.info/resource/ps150_4@13-13">Organum</quote>
+            est quasi turris fistulis diversis fabricata, flatu follium sonans; et ut haec <pb ed="#P" n="1080A"/> omnia de hominibus acciperes, ad hominis os venit: et exponens quid sit laudare <quote xml:id="gom-ps150-Qd1e200" source="http://scta.info/resource/ps150_4@10-13">in chordis et organo</quote> subdit.
+          </p>
+        </div>
+        <div xml:id="gom-ps150-Dd1e205">
+          <head xml:id="gom-ps150-Hd1e207">Versus 5</head>
+          <p xml:id="gom-ps150-d1e209">
+            <quote xml:id="gom-ps150-Qd1e211" type="lemma" source="http://scta.info/resource/ps150_5@1-4">Laudate eum in cymbalis,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-ps150-d1e215">
+            <quote xml:id="gom-ps150-Qd1e217" type="lemma" source="http://scta.info/resource/ps150_5@4-4">Cymbala</quote>
+            bene sonantia labia nostra sunt quae cordi concinna in laudibus Dei bene sonant, in quibus est similitudo cymbalorum, et harmoniam reddunt, et ideo bene inter musica instrumenta sunt.
+          </p>
+          <p xml:id="gom-ps150-d1e221">
+            <ref xml:id="gom-ps150-Rd1e223" type="lemma" subtype="implied" target="http://scta.info/resource/ps150_5@4-4"/>
+            <ref xml:id="gom-ps150-Rd1e225"><name xml:id="gom-ps150-Nd1e226" ref="#Cassiodorus">CAS.</name></ref>
+            <quote xml:id="gom-ps150-Qd1e229">Cymbala bene tinnientia sunt ex permistis metallis parvissimae phialae, quae acutum sonum reddunt. Sed quia omnia spiritualiter intelligi vult, apto fine concludit:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps150-Dd1e234">
+          <head xml:id="gom-ps150-Hd1e236">Versus 6</head>
+          <p xml:id="gom-ps150-d1e238">
+            <quote xml:id="gom-ps150-Qd1e240" type="lemma" source="http://scta.info/resource/ps150_6@1-2">Omnis spiritus,</quote>
+            angelicus et humanus, <quote xml:id="gom-ps150-Qd1e243" source="http://scta.info/resource/ps150_6@3-4">laudet Dominum.</quote> Non caro et sanguis, non habitus saeculi: sed quod est in natura rerum sublimius, <pb ed="#P" n="1080B"/> quod coelestia sapit, aeterna capit. Brevis et perfecta scientia, ut Deum spiritualiter omnia laudent, in his totius musicae perfectio est. Est enim flatus in tuba, pulsus in cithara et in cymbalis, vox in choro. Quibus musicis instrumentis significatur spiritualis harmonia, quae non auribus, sed pura mente advertitur.
+          </p>
+          <p xml:id="gom-ps150-d1e249">
+            <ref xml:id="gom-ps150-Rd1e251" type="lemma" subtype="implied" target="http://scta.info/resource/ps150_6@1-2"/>
+            <ref xml:id="gom-ps150-Rd1e253"><name xml:id="gom-ps150-Nd1e254" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps150-Qd1e257"><seg type="qs">Tria sunt genera</seg>, etc., usque ad <seg type="qs">vitae aeternae vox est: <quote xml:id="gom-ps150-Qd1e263" source="http://scta.info/resource/ps150_6@1-4">Omnis spiritus laudet Dominum.</quote></seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 41</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 41</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1223A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir41">
+        <head xml:id="gom-sir41-Hd1e98">Caput 41</head>
+        <div xml:id="gom-sir41-Dd1e100">
+          <head xml:id="gom-sir41-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir41-d1e104">
+            <quote xml:id="gom-sir41-Qd1e106" type="lemma" source="http://scta.info/resource/sir41_1@1-2">O mors,</quote>
+            etc.
+            <ref xml:id="gom-sir41-Rd1e109"><name xml:id="gom-sir41-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir41-Qd1e113">Qui prosperitatem mundi et divitias amat, amara est illi mors corporalis, quia futurae vitae gaudia negligit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e117">
+          <head xml:id="gom-sir41-Hd1e119">Versus 5</head>
+          <p xml:id="gom-sir41-d1e121">
+            <pb ed="#P" n="1223B"/>
+            <quote xml:id="gom-sir41-Qd1e125" type="lemma" source="http://scta.info/resource/sir41_5@15-16">Hoc judicium.</quote>
+            <ref xml:id="gom-sir41-Rd1e128"><name xml:id="gom-sir41-Nd1e129" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir41-Qd1e132">Commune est omni carni, nec quisquam evadere potest, etiamsi centum aut mille annos vixerit aut ultra; unde: <quote xml:id="gom-sir41-Qd1e134" source="http://scta.info/resource/ps88_49@1-9">Quis est homo qui vivet, et non videbit mortem?</quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e140">
+          <head xml:id="gom-sir41-Hd1e142">Versus 8</head>
+          <p xml:id="gom-sir41-d1e144">
+            <quote xml:id="gom-sir41-Qd1e146" type="lemma" source="http://scta.info/resource/sir41_8@1-2">Filii abominationum.</quote>
+            Abominabiles sunt filii peccatorum, qui scilicet, impios patres imitati sunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e151">
+          <head xml:id="gom-sir41-Hd1e153">Versus 10</head>
+          <p xml:id="gom-sir41-d1e155">
+            <quote xml:id="gom-sir41-Qd1e157" type="lemma" source="http://scta.info/resource/sir41_10@1-3">De patre impio.</quote>
+            Qui male filios nutrit, vel exemplo perdit, reus est eorum perditionis. Vel, qui mala opera de prava voluntate gignit, damnabitur pro eis
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e163">
+          <head xml:id="gom-sir41-Hd1e165">Versus 13</head>
+          <p xml:id="gom-sir41-d1e167">
+            <quote xml:id="gom-sir41-Qd1e169" type="lemma" source="http://scta.info/resource/sir41_13@13-14">In perditionem.</quote>
+            Superioribus respondet, in quibus de morte temporali disputavit: quia sicut homo de terra creatus pro peccato originali in <pb ed="#P" n="1223C"/> terram redit, quamvis in incorruptione surrecturus; sic impii pro peccatis suis maledicti, in aeternam perditionem cum corpore et anima ibunt.
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e176">
+          <head xml:id="gom-sir41-Hd1e178">Versus 15</head>
+          <p xml:id="gom-sir41-d1e180">
+            <quote xml:id="gom-sir41-Qd1e182" type="lemma" source="http://scta.info/resource/sir41_15@1-5">Curam habe de bono nomine,</quote>
+            etc. Ut bene et religiose vivas. Sic autem acquiritur bonum nomen.
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e187">
+          <head xml:id="gom-sir41-Hd1e189">Versus 18</head>
+          <p xml:id="gom-sir41-d1e191">
+            <quote xml:id="gom-sir41-Qd1e193" type="lemma" source="http://scta.info/resource/sir41_18@1-7">Melior est homo qui abscondit stultitiam suam,</quote>
+            etc. Qui abscondet frumentum, maledicetur in populis, benedictio autem super caput vendentium.
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e198">
+          <head xml:id="gom-sir41-Hd1e200">Versus 19</head>
+          <p xml:id="gom-sir41-d1e202">
+            <quote xml:id="gom-sir41-Qd1e204" type="lemma" source="http://scta.info/resource/sir41_19@1-6">Verumtamen revertimini in his quae procedunt.</quote>
+            Quia bonum nomen et bonam et vitam utilem esse praedixit, et occultantes scientiam reprehendit, suadet ut revertantur ad studium docendi, quia non est bonum irreverentem et inobedientem <pb ed="#P" n="1223D"/> esse suo doctori.
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e211">
+          <head xml:id="gom-sir41-Hd1e213">Versus 20</head>
+          <p xml:id="gom-sir41-d1e215">
+            <quote xml:id="gom-sir41-Qd1e217" type="lemma" source="http://scta.info/resource/sir41_20@1-7">Non est bonum omnem irreverentiam observare.</quote>
+            Juxta litteram, nos instruit ut a vitiis caveamus, et virtutibus operam demus, et ne spretis melioribus, eligamus pejora, quae sequitur confusio sempiterna.
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e222">
+          <head xml:id="gom-sir41-Hd1e224">Versus 26</head>
+          <p xml:id="gom-sir41-d1e226">
+            <quote xml:id="gom-sir41-Qd1e228" type="lemma" source="http://scta.info/resource/sir41_26@2-6">Non avertas faciem tuam a proximo tuo,</quote>
+            etc.
+            <ref xml:id="gom-sir41-Rd1e231"><name xml:id="gom-sir41-Nd1e232" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir41-Qd1e235"><seg type="qs">Cum angeli colligent de Ecclesia omnia scandala</seg>, etc., usque ad <seg type="qs">et fornicationibus haereticorum se miscuit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir41-Dd1e245">
+          <head xml:id="gom-sir41-Hd1e247">Versus 27</head>
+          <p xml:id="gom-sir41-d1e249">
+            <quote xml:id="gom-sir41-Qd1e251" type="lemma" source="http://scta.info/resource/sir41_27@1-5">Ne respicias mulierem alieni viri,</quote>
+            etc. Cupiditatem carnalem quae debet subesse spiritui, hanc non debemus scrutari et suggestionibus ejus subjici.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

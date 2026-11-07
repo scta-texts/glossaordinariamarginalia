@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Caput 31</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Caput 31</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0286A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ex31">
+        <head xml:id="gom-ex31-Hd1e98">Caput 31</head>
+        <div xml:id="gom-ex31-Dd1e100">
+          <head xml:id="gom-ex31-Hd1e102">Versus 2</head>
+          <p xml:id="gom-ex31-d1e104">
+            <quote xml:id="gom-ex31-Qd1e106" type="lemma" source="http://scta.info/resource/ex31_2@5-5">Beseleel,</quote>
+            etc., qui interpretatur <mentioned>in umbra Dei</mentioned>. q. d. <quote xml:id="gom-ex31-Qd1e111" source="http://scta.info/resource/ps26_1@5-12">Dominus illuminatio mea et salus mea quem<!-- check: Migne cites ps62; text matches ps26_1 --></quote>. Ab hoc dicitur David duxisse originem, et polymitarii nomen, quia Beseleel opere polymito tabernaculum construxit.
+          </p>
+        </div>
+        <div xml:id="gom-ex31-Dd1e117">
+          <head xml:id="gom-ex31-Hd1e119">Versus 3</head>
+          <p xml:id="gom-ex31-d1e121">
+            <quote xml:id="gom-ex31-Qd1e123" type="lemma" source="http://scta.info/resource/ex31_3@1-2">Et implevi</quote>
+            <ref xml:id="gom-ex31-Rd1e126"><name xml:id="gom-ex31-Nd1e127" ref="#Augustine">AUG.</name>, quaest. 128.</ref>
+            <quote xml:id="gom-ex31-Qd1e131">Utrum Spiritus sancti dono opera ista tribuenda sunt, quae pertinere videntur ad opificium? an hoc etiam significative dictum est, ut ea pertineant ad divinum Spiritum sapientiae et intellectus et scientiae, quae his <pb ed="#P" n="0286B"/> rebus significantur? Tum etiam hic cum Spiritu repletus dicatur, iste divino sapientiae et scientiae, nondum legitur Spiritus sanctus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex31-Dd1e138">
+          <head xml:id="gom-ex31-Hd1e140">Versus 6</head>
+          <p xml:id="gom-ex31-d1e142">
+            <quote xml:id="gom-ex31-Qd1e144" type="lemma" source="http://scta.info/resource/ex31_6@4-4">Oliab,</quote>
+            qui interpretatur <mentioned>protectio mea</mentioned>, tanquam nomine dicat, <quote xml:id="gom-ex31-Qd1e149" source="http://scta.info/resource/ps26_1@15-22">Dominus protector vitae meae; a quo trepidabo</quote>? Bene autem tabernaculum construunt, qui tam constanter in Domino confidunt.
+          </p>
+          <p xml:id="gom-ex31-d1e153">
+            <ref xml:id="gom-ex31-Rd1e155" type="lemma" subtype="implied" target="http://scta.info/resource/ex31_6@4-4"/>
+            <ref xml:id="gom-ex31-Rd1e157"><name xml:id="gom-ex31-Nd1e158">STRAB.</name></ref>
+            <quote xml:id="gom-ex31-Qd1e160">Notandum quod in constructione tabernaculi mysterium Trinitatis ostenditur, sicut in baptismo et in transfiguratione. In baptismo enim in voce sonuit Pater: et Filius baptizatus est; in specie columbae Spiritus apparuit. Ooliab quoque, qui interpretatur <mentioned>protectio mea pater</mentioned>, Patris personam: Beseleel quoque, qui <mentioned>in umbra Dei</mentioned> significat, personam <pb ed="#P" n="0286C"/> Spiritus sancti: de quo dicitur. <quote xml:id="gom-ex31-Qd1e168" source="http://scta.info/resource/lc1_35@11-15">Et virtus Altissimi obumbrabit tibi.</quote> Virtus enim Altissimi Spiritus sanctus intelligitur. Unde Dominus dicit: <quote xml:id="gom-ex31-Qd1e171" source="http://scta.info/resource/lc8_46@8-13">Ego novi virtutem de me exisse</quote>. Jussio autem, id est verbum, quo tabernaculum fieri jussum est, Filius est, per quem Pater in virtute Spiritus sancti omnia operatur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ex31-Dd1e177">
+          <head xml:id="gom-ex31-Hd1e179">Versus 13</head>
+          <p xml:id="gom-ex31-d1e181">
+            <quote xml:id="gom-ex31-Qd1e183" type="lemma" source="http://scta.info/resource/ex31_13@8-8">Videte,</quote>
+            etc. Frustra gloriantur Judaei de legali observatione. Aperte enim dicitur quia signum est futurae, scilicet quietis, et beatitudinis; vel quietis sanctorum in praesenti, quia quiescunt a tumultu mundialium operum et vitiorum.
+          </p>
+        </div>
+        <div xml:id="gom-ex31-Dd1e189">
+          <head xml:id="gom-ex31-Hd1e191">Versus 18</head>
+          <p xml:id="gom-ex31-d1e193">
+            <quote xml:id="gom-ex31-Qd1e195" type="lemma" source="http://scta.info/resource/ex31_18@10-11">Duas tabulas</quote>
+            <ref xml:id="gom-ex31-Rd1e198"><name xml:id="gom-ex31-Nd1e199" ref="#Augustine">AUG.</name>, quaest. 140.</ref>
+            <quote xml:id="gom-ex31-Qd1e203">Cum multa locutus sit Deus, duae tantum tabulae dantur Mosi lapideae, quae dicuntur tabulae testimonii; <pb ed="#P" n="0286D"/> quia caetera omnia, quae praecepit Deus, ex illis decem praeceptis, quae in duabus scripta sunt tabulis, pendere intelliguntur, si diligenter quaerantur, et bene intelligantur; sicut ipsa decem ex duobus, dilectione, scilicet, Dei et proximi: in quibus scilicet <quote xml:id="gom-ex31-Qd1e207" source="http://scta.info/resource/mt22_40@6-9">tota lex pendet et prophetae</quote>.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

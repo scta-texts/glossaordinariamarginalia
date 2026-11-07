@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 26</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 26</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0880A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps26">
+        <head xml:id="gom-ps26-Hd1e98">Psalmus 26</head>
+        <div xml:id="gom-ps26-Dd1e100">
+          <head xml:id="gom-ps26-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps26-d1e104">
+            <quote xml:id="gom-ps26-Qd1e106" type="lemma" source="http://scta.info/resource/ps26_1">In finem.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps26-Rd1e111"><name xml:id="gom-ps26-Nd1e112" ref="#Augustine">AUG.</name>, CASS.</ref>
+            <quote xml:id="gom-ps26-Qd1e116"><seg type="qs">Primo, David electus</seg>, etc., usque ad <seg type="qs">unde in sacramento gemens et laborans; ut in re gaudeat.</seg></quote>
+          </p>
+          <p xml:id="gom-ps26-d1e124">
+            <pb ed="#P" n="0880B"/>
+            <quote xml:id="gom-ps26-Qd1e128" type="lemma" source="http://scta.info/resource/ps26_1@5-6">Dominus illuminatio,</quote>
+            etc.
+            <ref xml:id="gom-ps26-Rd1e131"><name xml:id="gom-ps26-Nd1e132" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e135">De prima unctione per quam certificatur secunda, hic loquitur.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e138">
+            <quote xml:id="gom-ps26-Qd1e140" type="lemma" source="http://scta.info/resource/ps26_1@15-18">Dominus protector vitae meae.</quote>
+            <ref xml:id="gom-ps26-Rd1e143"><name xml:id="gom-ps26-Nd1e144" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e147">Dat vitam virtutum, quam et protegit, sine quo omnia dona ejus perduntur.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e150">
+            <quote xml:id="gom-ps26-Qd1e152" type="lemma" source="http://scta.info/resource/ps26_1@20-22">A quo trepidabo?</quote>
+            <ref xml:id="gom-ps26-Rd1e155"><name xml:id="gom-ps26-Nd1e156" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e159">Quem trepidet, caro, cum induerit corruptionem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e163">
+          <head xml:id="gom-ps26-Hd1e165">Versus 2</head>
+          <p xml:id="gom-ps26-d1e167">
+            <quote xml:id="gom-ps26-Qd1e169" type="lemma" source="http://scta.info/resource/ps26_2@3-5">Super me nocentes.</quote>
+            <ref xml:id="gom-ps26-Rd1e172"><name xml:id="gom-ps26-Nd1e173" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e176">Ut se mihi praeferant insultantes: quod vertit Deus in melius, ut maledico dente non me, sed carnalia desideria consumant. Vel <quote xml:id="gom-ps26-Qd1e178" source="http://scta.info/resource/ps26_2@7-7">edant,</quote> id est, delectetur in morte mea crudelitas inimicorum, <quote xml:id="gom-ps26-Qd1e181" source="http://scta.info/resource/ps26_2@8-8">carnes;</quote> animam non possunt.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e186">
+            <quote xml:id="gom-ps26-Qd1e188" type="lemma" source="http://scta.info/resource/ps26_2@16-17">Infirmati sunt.</quote>
+            <ref xml:id="gom-ps26-Rd1e191"><name xml:id="gom-ps26-Nd1e192" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e195">Dum Christus carnem accepit, nutantes facti, et post ex toto se fidei subdiderunt.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e198">
+            <pb ed="#P" n="0880C"/>
+            <ref xml:id="gom-ps26-Rd1e202" type="lemma" subtype="implied" target="http://scta.info/resource/ps26_2@16-17"/>
+            <ref xml:id="gom-ps26-Rd1e204"><name xml:id="gom-ps26-Nd1e205" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e208">Vel, debilitati paulatim ad ruinam animae pervenerunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e212">
+          <head xml:id="gom-ps26-Hd1e214">Versus 3</head>
+          <p xml:id="gom-ps26-d1e216">
+            <quote xml:id="gom-ps26-Qd1e218" type="lemma" source="http://scta.info/resource/ps26_3@5-5">Castra.</quote>
+            <ref xml:id="gom-ps26-Rd1e221"><name xml:id="gom-ps26-Nd1e222" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e225">Molimina, praelium, conflictus.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e228">
+            <quote xml:id="gom-ps26-Qd1e230" type="lemma" source="http://scta.info/resource/ps26_3@16-18">In hoc ego.</quote>
+            <ref xml:id="gom-ps26-Rd1e233"><name xml:id="gom-ps26-Nd1e234" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e237">Habeo spem victoriae in Domino remunerationis aeternae.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e241">
+          <head xml:id="gom-ps26-Hd1e243">Versus 4</head>
+          <p xml:id="gom-ps26-d1e245">
+            <quote xml:id="gom-ps26-Qd1e247" type="lemma" source="http://scta.info/resource/ps26_4@1-2">Unam petii.</quote>
+            <ref xml:id="gom-ps26-Rd1e250"><name xml:id="gom-ps26-Nd1e251" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e254">Haec una domus aeterna, in qua semper maneatur, ubi aeterni dies, cur ibi? ut contempler delectationem Dei, quod est verum bonum.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e257">
+            <quote xml:id="gom-ps26-Qd1e259" type="lemma" source="http://scta.info/resource/ps26_4@12-15">Omnibus diebus vitae meae.</quote>
+            <ref xml:id="gom-ps26-Rd1e262"><name xml:id="gom-ps26-Nd1e263" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e266"><seg type="qs">Ut quandiu vivo</seg>, etc., usque ad <seg type="qs">opus manifestabo.</seg></quote>
+          </p>
+          <p xml:id="gom-ps26-d1e274">
+            <quote xml:id="gom-ps26-Qd1e276" type="lemma" source="http://scta.info/resource/ps26_4@17-18">Ut videam.</quote>
+            <ref xml:id="gom-ps26-Rd1e279"><name xml:id="gom-ps26-Nd1e280" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e283"><seg type="qs">Alia littera: <quote xml:id="gom-ps26-Qd1e286">Ut contempler delectationem Domini,</quote> id est, eo fine, ut demum appareat, <pb ed="#P" n="0880D"/></seg> etc., usque ad <seg type="qs">et ideo non temere peto <quote xml:id="gom-ps26-Qd1e292" source="http://scta.info/resource/ps26_4@1-1">unam,</quote> etsi peccator.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e299">
+          <head xml:id="gom-ps26-Hd1e301">Versus 5</head>
+          <p xml:id="gom-ps26-d1e303">
+            <quote xml:id="gom-ps26-Qd1e305" type="lemma" source="http://scta.info/resource/ps26_5@13-14">In abscondito</quote>
+            :
+            <ref xml:id="gom-ps26-Rd1e308"><name xml:id="gom-ps26-Nd1e309" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e312"><seg type="qs">quasi multae partes sunt</seg>, etc., usque ad <seg type="qs">quem mox vocat petram.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e321">
+          <head xml:id="gom-ps26-Hd1e323">Versus 6</head>
+          <p xml:id="gom-ps26-d1e325">
+            <quote xml:id="gom-ps26-Qd1e327" type="lemma" source="http://scta.info/resource/ps26_6@13-13">Circumivi.</quote>
+            <ref xml:id="gom-ps26-Rd1e330"><name xml:id="gom-ps26-Nd1e331" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e334"><seg type="qs">Quia mihi se praebuit ducem</seg>, etc., usque ad <seg type="qs">ut omnes voluntates ejus implerem.</seg></quote>
+          </p>
+          <p xml:id="gom-ps26-d1e342">
+            <ref xml:id="gom-ps26-Rd1e344" type="lemma" subtype="implied" target="http://scta.info/resource/ps26_6@13-13"/>
+            <ref xml:id="gom-ps26-Rd1e346"><name xml:id="gom-ps26-Nd1e347" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e350">Vel circumspexi omnia creata, vel exempla sanctorum.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e353">
+            <ref xml:id="gom-ps26-Rd1e355" type="lemma" subtype="implied" target="http://scta.info/resource/ps26_6@13-13"/>
+            <ref xml:id="gom-ps26-Rd1e357"><name xml:id="gom-ps26-Nd1e358" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e361"><seg type="qs">Circumivi animo omnia creata</seg>, etc., usque ad <seg type="qs">tanto ardentius appetit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e370">
+          <head xml:id="gom-ps26-Hd1e372">Versus 7</head>
+          <p xml:id="gom-ps26-d1e374">
+            <quote xml:id="gom-ps26-Qd1e376" type="lemma" source="http://scta.info/resource/ps26_7@1-4">Exaudi, Domine, vocem meam,</quote>
+            etc.
+            <ref xml:id="gom-ps26-Rd1e379"><name xml:id="gom-ps26-Nd1e380" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e383">Quis labor, quis gemitus? Oratio ante secundam <pb ed="#P" n="0881A"/> unctionem, ut possit haberi quam et sibi prophetiae spiritu promittit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e390">
+          <head xml:id="gom-ps26-Hd1e392">Versus 8</head>
+          <p xml:id="gom-ps26-d1e394">
+            <quote xml:id="gom-ps26-Qd1e396" type="lemma" source="http://scta.info/resource/ps26_8@1-2">Tibi dixit.</quote>
+            <ref xml:id="gom-ps26-Rd1e399"><name xml:id="gom-ps26-Nd1e400" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e403"><quote xml:id="gom-ps26-Qd1e404" source="http://scta.info/resource/ps26_8@3-3">Cor,</quote> ratio a te edocta tibi confabulatur de una, non aliud quam doces pertractet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e410">
+          <head xml:id="gom-ps26-Hd1e412">Versus 9</head>
+          <p xml:id="gom-ps26-d1e414">
+            <quote xml:id="gom-ps26-Qd1e416" type="lemma" source="http://scta.info/resource/ps26_9@1-2">Ne avertas.</quote>
+            <ref xml:id="gom-ps26-Rd1e419"><name xml:id="gom-ps26-Nd1e420" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e423">Alius petit hic bona temporalia a Deo, et de datis gaudet, hic non nisi <quote xml:id="gom-ps26-Qd1e425">unam.</quote> Alius habens timet iratum, ne tollat ea; iste non putat iram, nisi si <quote xml:id="gom-ps26-Qd1e427">avertat vultum,</quote> etiam si quid in eo vindicet; nil divinius poterat dicere.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e431">
+            <quote xml:id="gom-ps26-Qd1e433" type="lemma" source="http://scta.info/resource/ps26_9@8-9">Ne declines.</quote>
+            <ref xml:id="gom-ps26-Rd1e436"><name xml:id="gom-ps26-Nd1e437" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e440">Non in ira declinat, quando a peccatis faciem avertit; vel, <quote xml:id="gom-ps26-Qd1e442" source="http://scta.info/resource/ps26_9@8-9">ne declines,</quote> ut me labi sinas in ira, id est, quod punias; sed ut nostra infirmitas cautior fiat.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e447">
+            <pb ed="#P" n="0881B"/>
+            <quote xml:id="gom-ps26-Qd1e451" type="lemma" source="http://scta.info/resource/ps26_9@26-27">Salutaris meus,</quote>
+            etc.
+            <ref xml:id="gom-ps26-Rd1e454"><name xml:id="gom-ps26-Nd1e455" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e458"><seg type="qs">Quasi, frustra creasti et recreasti</seg>, etc., usque ad <seg type="qs">a Domino est per Samuelem electus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e467">
+          <head xml:id="gom-ps26-Hd1e469">Versus 10</head>
+          <p xml:id="gom-ps26-d1e471">
+            <quote xml:id="gom-ps26-Qd1e473" type="lemma" source="http://scta.info/resource/ps26_10@1-2">Quoniam pater,</quote>
+            etc. Fecit se parvulum Deo, ipsum fecit sibi <quote xml:id="gom-ps26-Qd1e476">patrem:</quote> quia jubet, vocat, condidit, et regit.
+          </p>
+          <p xml:id="gom-ps26-d1e479">
+            <quote xml:id="gom-ps26-Qd1e481" type="lemma" source="http://scta.info/resource/ps26_10">Matrem,</quote>
+            <!-- check: lemma not matched to verse text -->
+            quia fovet, continet, collactat et nutrit; sed saeculum pater vel diabolus, mater Babylonia, id est, societas impiorum.
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e489">
+          <head xml:id="gom-ps26-Hd1e491">Versus 11</head>
+          <p xml:id="gom-ps26-d1e493">
+            <quote xml:id="gom-ps26-Qd1e495" type="lemma" source="http://scta.info/resource/ps26_11@1-3">Legem pone mihi,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e500">
+          <head xml:id="gom-ps26-Hd1e502">Versus 12</head>
+          <p xml:id="gom-ps26-d1e504">
+            <quote xml:id="gom-ps26-Qd1e506" type="lemma" source="http://scta.info/resource/ps26_12@6-6">Tribulantium.</quote>
+            <ref xml:id="gom-ps26-Rd1e509"><name xml:id="gom-ps26-Nd1e510" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e513"><seg type="qs">Ut Saulis et adjutorum</seg>, etc., usque ad <seg type="qs">quia falsi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e522">
+          <head xml:id="gom-ps26-Hd1e524">Versus 13</head>
+          <p xml:id="gom-ps26-d1e526">
+            <quote xml:id="gom-ps26-Qd1e528" type="lemma" source="http://scta.info/resource/ps26_13@1-2">Credo videre.</quote>
+            <ref xml:id="gom-ps26-Rd1e531"><name xml:id="gom-ps26-Nd1e532" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e535">Sed inter omnia pericula, Deo dirigente, credo videre.</quote>
+          </p>
+          <p xml:id="gom-ps26-d1e538">
+            <quote xml:id="gom-ps26-Qd1e540" type="lemma" source="http://scta.info/resource/ps26_13@3-3">Bona.</quote>
+            <ref xml:id="gom-ps26-Rd1e543"><name xml:id="gom-ps26-Nd1e544" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e547">Bona, quae sunt vera, aeterna. Illi <pb ed="#P" n="0881C"/> suadent beatitudinem in terra ista, quae est morientium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps26-Dd1e554">
+          <head xml:id="gom-ps26-Hd1e556">Versus 14</head>
+          <p xml:id="gom-ps26-d1e558">
+            <quote xml:id="gom-ps26-Qd1e560" type="lemma" source="http://scta.info/resource/ps26_14@1-1">Exspecta.</quote>
+            <ref xml:id="gom-ps26-Rd1e563"><name xml:id="gom-ps26-Nd1e564" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps26-Qd1e567"><seg type="qs">Ut ego certus sum de illa</seg>, etc., usque ad <seg type="qs">sustine quod pateris.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

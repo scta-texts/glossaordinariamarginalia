@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum I, Caput 3</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum I, Caput 3</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0582A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ireg3">
+        <head xml:id="gom-Ireg3-Hd1e98">Caput 3</head>
+        <div xml:id="gom-Ireg3-Dd1e100">
+          <head xml:id="gom-Ireg3-Hd1e102">Versus 4</head>
+          <p xml:id="gom-Ireg3-d1e104">
+            <pb ed="#P" n="0582A"/>
+            <quote xml:id="gom-Ireg3-Qd1e108" type="lemma" source="http://scta.info/resource/Ireg3_4@1-2">Abiit itaque Salomon.</quote>
+            In Gabaon erat excelsum maximum, ubi erat tabernaculum, quod fecit Moses, et altare aeneum, super quod Salomon offerens mille hostias divinum meruit oraculum.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg3-Dd1e113">
+          <head xml:id="gom-Ireg3-Hd1e115">Versus 14</head>
+          <p xml:id="gom-Ireg3-d1e117">
+            <quote xml:id="gom-Ireg3-Qd1e119" type="lemma" source="http://scta.info/resource/Ireg3_14@1-6">Si autem ambulaveris in viis meis,</quote>
+            etc. Absque observatione mandatorum Dei, adipisci nemo potest longos dies, id est beatitudinem.
+          </p>
+          <p xml:id="gom-Ireg3-d1e123">
+            <ref xml:id="gom-Ireg3-Rd1e125" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg3_14@1-6"/>
+            <ref xml:id="gom-Ireg3-Rd1e127"><name xml:id="gom-Ireg3-Nd1e128" ref="#GregoryGreat">GREG.</name>, lib. VIII Moral., cap. 17.</ref>
+            <quote xml:id="gom-Ireg3-Qd1e132"><seg type="qs">Postquam Dominus erroris nostri tenebras luce suae cognitionis illustrat</seg>, etc., usque ad <seg type="qs">ut ad promissae incorruptionis substantiam reformemur.</seg></quote>
+          </p>
+          <p xml:id="gom-Ireg3-d1e140">
+            <ref xml:id="gom-Ireg3-Rd1e142" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg3_14@1-6"/>
+            <ref xml:id="gom-Ireg3-Rd1e144"><name xml:id="gom-Ireg3-Nd1e145" ref="#Jerome">HIER.</name>, epist. 131, tom. I.</ref>
+            <quote xml:id="gom-Ireg3-Qd1e149"><seg type="qs">Quidam autumant super Synagogam et Ecclesiam hoc esse sentiendum</seg>, etc., usque ad <seg type="qs">notandum quoque quid dicat Ecclesia <pb ed="#P" n="0582B"/> contra Synagogam.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg3-Dd1e160">
+          <head xml:id="gom-Ireg3-Hd1e162">Versus 17</head>
+          <p xml:id="gom-Ireg3-d1e164">
+            <quote xml:id="gom-Ireg3-Qd1e166" type="lemma" source="http://scta.info/resource/Ireg3_17@7-9">Ego et mulier.</quote>
+            Quia post resurrectionem Salvatoris una de utroque populo congregata est. Eleganter vero adjunxit: <quote xml:id="gom-Ireg3-Qd1e169" source="http://scta.info/resource/Ireg3_17@16-20">Peperi apud eam in cubiculo.</quote> Ecclesia enim de gentibus, quae non habebat legem et prophetas, peperit in domo synagogae, nec egressa est de cubiculo, sed ingressa. Unde: <quote xml:id="gom-Ireg3-Qd1e172" source="http://scta.info/resource/cant2_4@1-3">Introduxit me rex in cubiculum suum</quote>. Et: <quote xml:id="gom-Ireg3-Qd1e175" source="http://scta.info/resource/cant3_4@15-25">Introducam te in domum matris meae, et in cubiculum ejus, quae concepit me</quote>.
+          </p>
+          <p xml:id="gom-Ireg3-d1e179">
+            <ref xml:id="gom-Ireg3-Rd1e181" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg3_17@7-9"/>
+            <ref xml:id="gom-Ireg3-Rd1e183"><name xml:id="gom-Ireg3-Nd1e184" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg3-Qd1e187">Si consideres Pilatum lavantem manus et dicentem: <quote xml:id="gom-Ireg3-Qd1e189" source="http://scta.info/resource/mt27_24@19-24">Mundus ego sum a sanguine justi hujus</quote>: et centurionem confitentem: <quote xml:id="gom-Ireg3-Qd1e192" source="http://scta.info/resource/mc15_39@13-17">Vere hic erat Filius Dei</quote>, et eos, qui ante passionem per Philippum Dominum videre desiderant, <pb ed="#P" n="0582C"/> non ambigis primum peperisse Ecclesiam; et post, natum populum Judaeorum, pro quo Dominus precabatur: <quote xml:id="gom-Ireg3-Qd1e197">Pater, ignosce illis,</quote> etc., et crediderunt una die tria millia et alia quinque millia.</quote>
+          </p>
+          <p xml:id="gom-Ireg3-d1e201">
+            <ref xml:id="gom-Ireg3-Rd1e203" type="lemma" subtype="implied" target="http://scta.info/resource/Ireg3_17@7-9"/>
+            <ref xml:id="gom-Ireg3-Rd1e205"><name xml:id="gom-Ireg3-Nd1e206" ref="#GregoryGreat">GREG.</name></ref>
+            <quote xml:id="gom-Ireg3-Qd1e209"><seg type="qs">Per matres lactantes ordo doctorum</seg>, etc., usque ad <seg type="qs">ipsi integros et viventes filios recipiunt, quando in supremo judicio ex eorum vita perfectam retributionem assequuntur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg3-Dd1e218">
+          <head xml:id="gom-Ireg3-Hd1e220">Versus 19</head>
+          <p xml:id="gom-Ireg3-d1e222">
+            <quote xml:id="gom-Ireg3-Qd1e224" type="lemma" source="http://scta.info/resource/Ireg3_19@1-1">Mortuus.</quote>
+            <ref xml:id="gom-Ireg3-Rd1e227"><name xml:id="gom-Ireg3-Nd1e228" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg3-Qd1e231">Dum enim legis sequitur observantiam et gratiam Evangelii copulat legi, tenebrarum errore cooperta est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg3-Dd1e236">
+          <head xml:id="gom-Ireg3-Hd1e238">Versus 20</head>
+          <p xml:id="gom-Ireg3-d1e240">
+            <quote xml:id="gom-Ireg3-Qd1e242" type="lemma" source="http://scta.info/resource/Ireg3_20@6-7">Tulit filium.</quote>
+            Vivum, scilicet: non ut possideret, sed ut occideret. Non enim fecit hoc filii amore, sed odio aemulae.
+          </p>
+        </div>
+        <div xml:id="gom-Ireg3-Dd1e247">
+          <head xml:id="gom-Ireg3-Hd1e249">Versus 21</head>
+          <p xml:id="gom-Ireg3-d1e251">
+            <quote xml:id="gom-Ireg3-Qd1e253" type="lemma" source="http://scta.info/resource/Ireg3_21@11-13">Quem diligentius intuens,</quote>
+            etc.
+            <ref xml:id="gom-Ireg3-Rd1e256"><name xml:id="gom-Ireg3-Nd1e257" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg3-Qd1e260"><pb ed="#P" n="0582D"/> Longum est ostendere quomodo per Paulum et alios ecclesiasticos intellexerit Ecclesia non esse filium suum, qui timebatur in lege, et in luce cognovit quem in tenebris non videbat. Duae mulieres, quarum una dilectione ardebat, in altera simulatio subrepebat, Ecclesiam figurant, et Synagogam sive haereticam <pb ed="#P" n="0583A"/> pravitatem, quarum utraque et suos nequiter nutriendo interimit, et alienos quousque perdat alliciendo persuadet. Inter duas mulieres Dominus, dum id quod justum est spiritu oris sui dirimit, unicuique quod debetur restituit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg3-Dd1e268">
+          <head xml:id="gom-Ireg3-Hd1e270">Versus 24</head>
+          <p xml:id="gom-Ireg3-d1e272">
+            <quote xml:id="gom-Ireg3-Qd1e274" type="lemma" source="http://scta.info/resource/Ireg3_24@1-2">Dixit ergo.</quote>
+            <ref xml:id="gom-Ireg3-Rd1e277"><name xml:id="gom-Ireg3-Nd1e278" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ireg3-Qd1e281">Simulans ignorantiam humanos pro dispensatione carnis metitur affectus, sicut et ibi: <quote xml:id="gom-Ireg3-Qd1e283" source="http://scta.info/resource/io20_15@23-25">Ubi posuisti eum</quote>? Et alibi: <quote xml:id="gom-Ireg3-Qd1e286" source="http://scta.info/resource/lc8_45@6-8">Quis me tetigit</quote>?</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg3-Dd1e292">
+          <head xml:id="gom-Ireg3-Hd1e294">Versus 25</head>
+          <p xml:id="gom-Ireg3-d1e296">
+            <quote xml:id="gom-Ireg3-Qd1e298" type="lemma" source="http://scta.info/resource/Ireg3_25@1-1">Dividite.</quote>
+            <ref xml:id="gom-Ireg3-Rd1e301"><name xml:id="gom-Ireg3-Nd1e302" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg3-Qd1e305">Tentat naturam naturae Dominus, et vult secundum utriusque voluntatem, viventem filium, in legem gratiamque dividere: non quod probet, sed ad arguendam Synagogae calumniam hoc se velle dicit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ireg3-Dd1e309">
+          <head xml:id="gom-Ireg3-Hd1e311">Versus 26</head>
+          <p xml:id="gom-Ireg3-d1e313">
+            <quote xml:id="gom-Ireg3-Qd1e315" type="lemma" source="http://scta.info/resource/Ireg3_26@1-2">Dixit autem.</quote>
+            <ref xml:id="gom-Ireg3-Rd1e318"><name xml:id="gom-Ireg3-Nd1e319" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ireg3-Qd1e322">Ecclesia, quae <pb ed="#P" n="0583B"/> scit suum esse, libenter concedit aemulae, ut vivat saltem apud eam, ne inter legem divisus et gratiam, Christi mucrone feriatur, unde: <quote xml:id="gom-Ireg3-Qd1e326" source="http://scta.info/resource/gal5_2@1-12">Ecce ego Paulus dico vobis, quia si legem observatis, Christus vobis nihil proderit</quote>.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

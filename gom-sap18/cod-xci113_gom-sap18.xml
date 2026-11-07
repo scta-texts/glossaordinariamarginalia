@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sapientia, Caput 18</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sapientia, Caput 18</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1182B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sap18">
+        <head xml:id="gom-sap18-Hd1e98">Caput 18</head>
+        <div xml:id="gom-sap18-Dd1e100">
+          <head xml:id="gom-sap18-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sap18-d1e104">
+            <quote xml:id="gom-sap18-Qd1e106" type="lemma" source="http://scta.info/resource/sap18_1@1-3">Santis autem tuis.</quote>
+            <ref xml:id="gom-sap18-Rd1e109"><name xml:id="gom-sap18-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap18-Qd1e113"><seg type="qs">Israelitae in Aegypto</seg>, etc., usque ad <seg type="qs">in prosperis et in adversis protegit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap18-Dd1e122">
+          <head xml:id="gom-sap18-Hd1e124">Versus 4</head>
+          <p xml:id="gom-sap18-d1e126">
+            <quote xml:id="gom-sap18-Qd1e128" type="lemma" source="http://scta.info/resource/sap18_4@1-2">Digni quidem,</quote>
+            etc.
+            <ref xml:id="gom-sap18-Rd1e131"><name xml:id="gom-sap18-Nd1e132" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap18-Qd1e135"><seg type="qs">Merito Aegyptii tenebrarum poenam patiebantur</seg>, etc., usque ad <seg type="qs">cujus mysterii ratio in antiquis patribus figurata, et <pb ed="#P" n="1182C"/> in adventu Christi completa est.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap18-Dd1e146">
+          <head xml:id="gom-sap18-Hd1e148">Versus 9</head>
+          <p xml:id="gom-sap18-d1e150">
+            <quote xml:id="gom-sap18-Qd1e152" type="lemma" source="http://scta.info/resource/sap18_9@1-3">Absconse enim sacrificabant.</quote>
+            <ref xml:id="gom-sap18-Rd1e155"><name xml:id="gom-sap18-Nd1e156" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap18-Qd1e159"><seg type="qs">Populus Israel in Aegypto jussu Domini Pascha celebravit</seg>, etc., usque ad <seg type="qs">sed in abscondito cordis semper Domino sacrificant, unde: <quote xml:id="gom-sap18-Qd1e165" source="http://scta.info/resource/ps50_19@1-4">Sacrificium Deo spiritus contribulatus</quote>. Et alibi: <quote xml:id="gom-sap18-Qd1e168" source="http://scta.info/resource/ps55_12@1-6">In me sunt, Deus, vota tua</quote>, etc.</seg></quote>
+          </p>
+          <p xml:id="gom-sap18-d1e173">
+            <ref xml:id="gom-sap18-Rd1e175" type="lemma" subtype="implied" target="http://scta.info/resource/sap18_9@1-3"/>
+            <ref xml:id="gom-sap18-Rd1e177"><name xml:id="gom-sap18-Nd1e178" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sap18-Qd1e181">Memorat Deum percussisse primogenita Aegypti, ubi nec sicut prius simulaverunt Aegyptii, sed palam cogebant exire populum Dei dicentes: <quote xml:id="gom-sap18-Qd1e183" source="http://scta.info/resource/ex12_33@9-10">Omnes moriemur<!-- check: Migne cites ex11; text matches ex12_33 --></quote>.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap18-Dd1e190">
+          <head xml:id="gom-sap18-Hd1e192">Versus 15</head>
+          <p xml:id="gom-sap18-d1e194">
+            <quote xml:id="gom-sap18-Qd1e196" type="lemma" source="http://scta.info/resource/sap18_15@1-3">Omnipotens sermo tuus.</quote>
+            Filius de quo dicitur: <quote xml:id="gom-sap18-Qd1e199" source="http://scta.info/resource/io1_1@1-4">In principio erat Verbum</quote>, etc., hic brachium et dextera nominatur: propter effectivam divinae virtutis potentiam, hic tunc per angeli <pb ed="#P" n="1182D"/> ministerium judicia sua fecit in primogenitis Aegyptiorum, qui postmodum sanctificavit sibi primogenitos Hebraeos. Nunc quoque per aquam baptismi salvat multitudinem credentium, et interficit multitudinem spiritualium hostium.
+          </p>
+        </div>
+        <div xml:id="gom-sap18-Dd1e207">
+          <head xml:id="gom-sap18-Hd1e209">Versus 19</head>
+          <p xml:id="gom-sap18-d1e211">
+            <quote xml:id="gom-sap18-Qd1e213" type="lemma" source="http://scta.info/resource/sap18_19@1-1">Visiones.</quote>
+            <ref xml:id="gom-sap18-Rd1e216"><name xml:id="gom-sap18-Nd1e217" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap18-Qd1e220">Hoc divinae bonitatis est, quae peccantes castigat ut abstineant, et poenitentiam agant. Si autem patientia Dei abutuntur, sine excusatione in aeternum punientur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap18-Dd1e224">
+          <head xml:id="gom-sap18-Hd1e226">Versus 20</head>
+          <p xml:id="gom-sap18-d1e228">
+            <quote xml:id="gom-sap18-Qd1e230" type="lemma" source="http://scta.info/resource/sap18_20@1-5">Tetigit autem tunc et justos.</quote>
+            <ref xml:id="gom-sap18-Rd1e233"><name xml:id="gom-sap18-Nd1e234" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap18-Qd1e237"><seg type="qs">Memorat</seg>, etc., usque ad <seg type="qs">per quos interitum possimus evadere.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sap18-Dd1e246">
+          <head xml:id="gom-sap18-Hd1e248">Versus 24</head>
+          <p xml:id="gom-sap18-d1e250">
+            <quote xml:id="gom-sap18-Qd1e252" type="lemma" source="http://scta.info/resource/sap18_24@1-4">In veste enim poderis.</quote>
+            <ref xml:id="gom-sap18-Rd1e255"><name xml:id="gom-sap18-Nd1e256" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sap18-Qd1e259"><seg type="qs">Byssum terrae deputant Hebraei</seg>, etc., usque ad <seg type="qs">in figura pontificali, <pb ed="#P" n="1183A"/> Christum futurum praenoscebat, sed quia viderat carne indutum, non Deum sed hominem purum credidit; unde: <quote xml:id="gom-sap18-Qd1e267" source="http://scta.info/resource/Icor2_8@7-13">Si cognovissent, nunquam Dominum gloriae crucifixissent</quote>.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

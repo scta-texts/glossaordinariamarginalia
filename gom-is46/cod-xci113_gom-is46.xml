@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Isaias, Caput 46</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Isaias, Caput 46</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1289B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-is46">
+        <head xml:id="gom-is46-Hd1e98">Caput 46</head>
+        <div xml:id="gom-is46-Dd1e100">
+          <head xml:id="gom-is46-Hd1e102">Versus 1</head>
+          <p xml:id="gom-is46-d1e104">
+            <quote xml:id="gom-is46-Qd1e106" type="lemma" source="http://scta.info/resource/is46_1@1-3">Confractus est Bel.</quote>
+            <ref xml:id="gom-is46-Rd1e109"><name xml:id="gom-is46-Nd1e110" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-is46-Qd1e113">Post vocationem <pb ed="#P" n="1289C"/> gentium subjicitur destructio idolorum.</quote>
+          </p>
+          <p xml:id="gom-is46-d1e119">
+            <quote xml:id="gom-is46-Qd1e121" type="lemma" source="http://scta.info/resource/is46_1@6-6">Nabo.</quote>
+            <quote xml:id="gom-is46-Qd1e124"><seg type="qs">Nabo est aurum</seg>, etc., usque ad <seg type="qs">et prophetia daemonum, et divinatio magorum ad nihilum devenerunt.</seg></quote>
+          </p>
+          <p xml:id="gom-is46-d1e132">
+            <quote xml:id="gom-is46-Qd1e134" type="lemma" source="http://scta.info/resource/is46_1@11-13">Bestiis et jumentis.</quote>
+            <ref xml:id="gom-is46-Rd1e137"><name xml:id="gom-is46-Nd1e138" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is46-Qd1e141">Bestias enim et jumenta adorabant, et regio eorum plerisque oppidis ex bestiis et jumentis, quae adorabant, nomina imposuit, ut scilicet, Leonata a Leone, et alia hujusmodi.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-is46-Dd1e145">
+          <head xml:id="gom-is46-Hd1e147">Versus 2</head>
+          <p xml:id="gom-is46-d1e149">
+            <quote xml:id="gom-is46-Qd1e151" type="lemma" source="http://scta.info/resource/is46_2@10-12">Et anima eorum.</quote>
+            <quote xml:id="gom-is46-Qd1e154"><seg type="qs">Non quod simulacra habeant animam</seg>, etc., usque ad <seg type="qs">quas diabolo et daemonibus subjugavit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is46-Dd1e163">
+          <head xml:id="gom-is46-Hd1e165">Versus 3</head>
+          <p xml:id="gom-is46-d1e167">
+            <quote xml:id="gom-is46-Qd1e169" type="lemma" source="http://scta.info/resource/is46_3@3-4">Domus Jacob.</quote>
+            Non dicit Jacob, servi mei, electi mei cum adjectione honoris, sed simpliciter: et alloquitur tanquam carnales et recedentes a mandatis suis.
+          </p>
+          <p xml:id="gom-is46-d1e173">
+            <pb ed="#P" n="1289D"/>
+            <quote xml:id="gom-is46-Qd1e177" type="lemma" source="http://scta.info/resource/is46_3@10-11">Qui portamini.</quote>
+            Qui gestamini tanquam fetus conceptus per desertum usque ad terram promissionis. Diu enim patienter eos exspectavit, et in terra promissionis, et post passionem per duos et quadraginta annos.
+          </p>
+        </div>
+        <div xml:id="gom-is46-Dd1e182">
+          <head xml:id="gom-is46-Hd1e184">Versus 5</head>
+          <p xml:id="gom-is46-d1e186">
+            <quote xml:id="gom-is46-Qd1e188" type="lemma" source="http://scta.info/resource/is46_5@1-2">Cui assimilastis?</quote>
+            In eos praecipue invehitur, qui tempore Achaz et Ezechielis idola coluerunt in angulis platearum, in hortis, in lucis super domos.
+          </p>
+        </div>
+        <div xml:id="gom-is46-Dd1e194">
+          <head xml:id="gom-is46-Hd1e196">Versus 8</head>
+          <p xml:id="gom-is46-d1e198">
+            <quote xml:id="gom-is46-Qd1e200" type="lemma" source="http://scta.info/resource/is46_8@1-2">Mementote istud.</quote>
+            Quia vos genui et usque ad senectam portavi, deserite idola quae fecistis, et ad unius Dei cultum revertimini.
+          </p>
+          <p xml:id="gom-is46-d1e204">
+            <quote xml:id="gom-is46-Qd1e206" type="lemma" source="http://scta.info/resource/is46_8@7-8">Ad cor.</quote>
+            Intellectum, qui quasi bestiae vixistis, simulacra venerantes, ut furiosi in ligna et lapides impingentes.
+          </p>
+        </div>
+        <div xml:id="gom-is46-Dd1e211">
+          <head xml:id="gom-is46-Hd1e213">Versus 10</head>
+          <p xml:id="gom-is46-d1e215">
+            <pb ed="#P" n="1290A"/>
+            <quote xml:id="gom-is46-Qd1e219" type="lemma" source="http://scta.info/resource/is46_10@1-1">Annuntians.</quote>
+            Per prophetas, ut cum praedicta implevero per divinationem, id est prophetam praedicentem futura, probem divinitatem meam.
+          </p>
+          <p xml:id="gom-is46-d1e223">
+            <quote xml:id="gom-is46-Qd1e225" type="lemma" source="http://scta.info/resource/is46_10">Novissimum. Nos sumus in quos fines saeculorum devenerunt</quote>
+            <!-- check: lemma not matched to verse text -->
+            <!--<note>(I Cor.. X)</note>-->. Et alibi: <quote xml:id="gom-is46-Qd1e232" source="http://scta.info/resource/gal4_4@1-9">At ubi venit plenitudo temporis misit Deus Filium suum</quote>.
+          </p>
+          <p xml:id="gom-is46-d1e236">
+            <quote xml:id="gom-is46-Qd1e238" type="lemma" source="http://scta.info/resource/is46_10">Et Joannes: Filioli,</quote>
+            <!-- check: lemma not matched to verse text -->
+            inquit, <quote xml:id="gom-is46-Qd1e243" source="http://scta.info/resource/Iio2_18@2-4">novissima hora est</quote>.
+          </p>
+          <p xml:id="gom-is46-d1e247">
+            <quote xml:id="gom-is46-Qd1e249" type="lemma" source="http://scta.info/resource/is46_10@13-13">Consilium:</quote>
+            redimendi mundum per Filium, quasi, consilium meum statutum nunc dico, ut cum videritis effectum, sciatis nullum esse Deum nisi qui futura cognovit et fieri praecepit.
+          </p>
+        </div>
+        <div xml:id="gom-is46-Dd1e254">
+          <head xml:id="gom-is46-Hd1e256">Versus 11</head>
+          <p xml:id="gom-is46-d1e258">
+            <quote xml:id="gom-is46-Qd1e260" type="lemma" source="http://scta.info/resource/is46_11@1-4">Vocans ab oriente avem:</quote>
+            <ref xml:id="gom-is46-Rd1e263"><name xml:id="gom-is46-Nd1e264" ref="#Jerome">ID.</name></ref>
+            <quote xml:id="gom-is46-Qd1e267"><seg type="qs">Secundum Hebraeos Cyrum regem Persarum</seg>, etc., usque ad <seg type="qs">et quem Magi ob oriente venientes adoraverunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-is46-Dd1e276">
+          <head xml:id="gom-is46-Hd1e278">Versus 12</head>
+          <p xml:id="gom-is46-d1e280">
+            <quote xml:id="gom-is46-Qd1e282" type="lemma" source="http://scta.info/resource/is46_12@3-4">Duro corde.</quote>
+            Qui semper resistitis veritati, <pb ed="#P" n="1290B"/> primo prophetis, tandem, et Filio.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

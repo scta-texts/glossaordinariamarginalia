@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Petri I, Caput 4</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Petri I, Caput 4</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0686D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ipetr4">
+        <head xml:id="gom-Ipetr4-Hd1e98">Caput 4</head>
+        <div xml:id="gom-Ipetr4-Dd1e100">
+          <head xml:id="gom-Ipetr4-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ipetr4-d1e104">
+            <quote xml:id="gom-Ipetr4-Qd1e106" type="lemma" source="http://scta.info/resource/Ipetr4_1@11-13">Quia qui passus.</quote>
+            <ref xml:id="gom-Ipetr4-Rd1e109"><name xml:id="gom-Ipetr4-Nd1e110" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e113">Qui timore judiciorum coelestium carnales in mente concupiscentias exstinguit, jam similis Christo crucifixo, quasi mortuus exsistens peccatis. Dei tantum servitio vivit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e117">
+          <head xml:id="gom-Ipetr4-Hd1e119">Versus 4</head>
+          <p xml:id="gom-Ipetr4-d1e121">
+            <quote xml:id="gom-Ipetr4-Qd1e123" type="lemma" source="http://scta.info/resource/Ipetr4_4@11-11">Blasphemantes.</quote>
+            <ref xml:id="gom-Ipetr4-Rd1e126"><name xml:id="gom-Ipetr4-Nd1e127" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e130">Et si blasphemant vos segregatos a perfidia sua, tamen in conversatione <pb ed="#P" n="0687A"/> vestra opera justitiae et pietatis videntes mirantur, et fidem quodammodo venerantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e137">
+          <head xml:id="gom-Ipetr4-Hd1e139">Versus 6</head>
+          <p xml:id="gom-Ipetr4-d1e141">
+            <quote xml:id="gom-Ipetr4-Qd1e143" type="lemma" source="http://scta.info/resource/Ipetr4_6@1-7">Propter hoc enim et mortuis evangelixatum est.</quote>
+            <ref xml:id="gom-Ipetr4-Rd1e146"><name xml:id="gom-Ipetr4-Nd1e147" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e150"><seg type="qs">Tanta cura est Deo nos mortificari carne</seg>, etc., usque ad <seg type="qs">ut ratio ipsorum damnet mala in impiis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e159">
+          <head xml:id="gom-Ipetr4-Hd1e161">Versus 7</head>
+          <p xml:id="gom-Ipetr4-d1e163">
+            <quote xml:id="gom-Ipetr4-Qd1e165" type="lemma" source="http://scta.info/resource/Ipetr4_7@1-1">Omnium.</quote>
+            Quia dixerat in judicio judicandos vivos et mortuos, ne quis blandiretur sibi de longinquitate futuri judicii, consulte admonet, quia etsi incertus adventus est extremi discriminis, tamen certum est omnibus quod in hac vita diu subsistere nequimus.
+          </p>
+          <p xml:id="gom-Ipetr4-d1e169">
+            <quote xml:id="gom-Ipetr4-Qd1e171" type="lemma" source="http://scta.info/resource/Ipetr4_7@9-11">Vigilate in orationibus.</quote>
+            <ref xml:id="gom-Ipetr4-Rd1e174"><name xml:id="gom-Ipetr4-Nd1e175" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e178">Ne animus aliquid cogitet praeter id solum quod precatur. Cum ad orandum stamus, omnis carnalis cogitatio absistat, <pb ed="#P" n="0687B"/> intentio cordis sincera Deum non sono vocis, sed sensu animi oret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e186">
+          <head xml:id="gom-Ipetr4-Hd1e188">Versus 8</head>
+          <p xml:id="gom-Ipetr4-d1e190">
+            <quote xml:id="gom-Ipetr4-Qd1e192" type="lemma" source="http://scta.info/resource/Ipetr4_8@7-9">Charitatem continuam habentes.</quote>
+            <ref xml:id="gom-Ipetr4-Rd1e195"><name xml:id="gom-Ipetr4-Nd1e196" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e199"><seg type="qs">Qui per charitatem proximum monet, increpat</seg>, etc., usque ad <seg type="qs">quamvis in publicum non semper ostendi, potest.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e208">
+          <head xml:id="gom-Ipetr4-Hd1e210">Versus 11</head>
+          <p xml:id="gom-Ipetr4-d1e212">
+            <quote xml:id="gom-Ipetr4-Qd1e214" type="lemma" source="http://scta.info/resource/Ipetr4_11@1-3">Si quis loquitur.</quote>
+            Si quis habet scientiam loquendi, non sibi, sed Deo imputet: timeat ne praeter voluntatem Dei, vel auctoritatem sanctarum Scripturarum, vel praeter utilitatem, fratrem doceat, nec quod dicendum est, taceat.
+          </p>
+          <p xml:id="gom-Ipetr4-d1e218">
+            <quote xml:id="gom-Ipetr4-Qd1e220" type="lemma" source="http://scta.info/resource/Ipetr4_11@7-9">Si quis ministrat.</quote>
+            <ref xml:id="gom-Ipetr4-Rd1e223"><name xml:id="gom-Ipetr4-Nd1e224" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e227">Cum omnia bene et secundum voluntatem ejus feceritis, non vestris meritis, sed gratiae ejus attribuatis, ut alii videntes vestra bona opera, glorificent Patrem vestrum qui in <pb ed="#P" n="0687C"/> coelis est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e234">
+          <head xml:id="gom-Ipetr4-Hd1e236">Versus 12</head>
+          <p xml:id="gom-Ipetr4-d1e238">
+            <quote xml:id="gom-Ipetr4-Qd1e240" type="lemma" source="http://scta.info/resource/Ipetr4_12@1-2">Charissimi, nolite.</quote>
+            Si patimini fervorem tribulationum quae contra rationem inferuntur ad vestram probationem et gloriam, non ideo putetis vos esse exsules a membris Christi, et nolite mirari de illatis malis, ut per illa tentet vos Deus et probet, quia antiquum et frequens est electos Dei pro aeterna salute in praesenti adversa pati.
+          </p>
+          <p xml:id="gom-Ipetr4-d1e244">
+            <ref xml:id="gom-Ipetr4-Rd1e246" type="lemma" subtype="implied" target="http://scta.info/resource/Ipetr4_12@1-2"/>
+            VERS 14.-- <quote xml:id="gom-Ipetr4-Qd1e248">Beati eritis,</quote> etc. Qui patitur pro nomine Christi, beatus; non enim debetis credere quod sine remuneratione patiamini, sicut illi qui pro suis sceleribus patiuntur, et inviti puniuntur.
+          </p>
+          <p xml:id="gom-Ipetr4-d1e251">
+            <quote xml:id="gom-Ipetr4-Qd1e253" type="lemma" source="http://scta.info/resource/Ipetr4_12">Spiritus ejus super vos requiescit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            Quia requiescent super vos patientes, et in praesenti ex parte ad bene operandum, et in futuro perfecte ad remunerandum.
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e260">
+          <head xml:id="gom-Ipetr4-Hd1e262">Versus 17</head>
+          <p xml:id="gom-Ipetr4-d1e264">
+            <pb ed="#P" n="0687D"/>
+            <quote xml:id="gom-Ipetr4-Qd1e268" type="lemma" source="http://scta.info/resource/Ipetr4_17@1-2">Quoniam tempus,</quote>
+            etc.
+            <ref xml:id="gom-Ipetr4-Rd1e271"><name xml:id="gom-Ipetr4-Nd1e272" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e275"><seg type="qs">Ideo patiendum est pro nomine Christi</seg>, etc., usque ad <seg type="qs">reprobi vero nunc <quote xml:id="gom-Ipetr4-Qd1e281" source="http://scta.info/resource/iob21_13@1-11">ducunt in bonis suis dies suos, et in puncto ad inferna descendent</quote>.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e287">
+          <head xml:id="gom-Ipetr4-Hd1e289">Versus 18</head>
+          <p xml:id="gom-Ipetr4-d1e291">
+            <quote xml:id="gom-Ipetr4-Qd1e293" type="lemma" source="http://scta.info/resource/Ipetr4_18@1-3">Et si justus,</quote>
+            etc.
+            <ref xml:id="gom-Ipetr4-Rd1e296"><name xml:id="gom-Ipetr4-Nd1e297" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e300">De Proverbiis hoc sumptum est juxta veterem editionem. In nostra quae secundum Hebraicam veritatem, ita est: <quote xml:id="gom-Ipetr4-Qd1e302" source="http://scta.info/resource/prov11_31@1-10">Si justus in terra recipit, quanto magis impius et peccator?</quote> id est, si tanta est fragilitas moralis vitae, ut nec justi quidem (qui in coelo coronandi sunt) hanc sine tribulationibus propter innumerabilem vitiatae naturae labem transeant: quanto magis hi qui coelestis gloriae sunt exsortes, certum damnationis suae perpetuae exitium spectant!</quote>
+          </p>
+          <p xml:id="gom-Ipetr4-d1e307">
+            <pb ed="#P" n="0688A"/>
+            <ref xml:id="gom-Ipetr4-Rd1e311" type="lemma" subtype="implied" target="http://scta.info/resource/Ipetr4_18@1-3"/>
+            <ref xml:id="gom-Ipetr4-Rd1e313"><name xml:id="gom-Ipetr4-Nd1e314" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e317">Quaeritis causam quare justus vix in Dei judicio salvus esse possit, et quare? nisi quia Dei justitiam tantam esse certum est, ut interdum quae videntur in hominibus nostro judicio esse justa, judicio Dei inveniuntur injusta, secundum illud: <quote xml:id="gom-Ipetr4-Qd1e319" source="http://scta.info/resource/Isam16_7@22-31">Homo videt in facie, Deus autem intuetur cor</quote>.</quote>
+          </p>
+          <p xml:id="gom-Ipetr4-d1e324">
+            <ref xml:id="gom-Ipetr4-Rd1e326" type="lemma" subtype="implied" target="http://scta.info/resource/Ipetr4_18@1-3"/>
+            <ref xml:id="gom-Ipetr4-Rd1e328"><name xml:id="gom-Ipetr4-Nd1e329" ref="#Bede">BEDA.</name></ref>
+            <quote xml:id="gom-Ipetr4-Qd1e332">Non est laboriosum Deo liberare justum; sed ut ostendatur quod merito fuerit damnata tota humana natura, non vult facile de tanto malo ipse Deus liberare: propter quod et peccata proclivia sunt et laboriosa justitia, nisi amantibus: sed charitas quae homines amantes facit, ex Deo est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ipetr4-Dd1e336">
+          <head xml:id="gom-Ipetr4-Hd1e338">Versus 19</head>
+          <p xml:id="gom-Ipetr4-d1e340">
+            <quote xml:id="gom-Ipetr4-Qd1e342" type="lemma" source="http://scta.info/resource/Ipetr4_19@11-13">Commendent animas suas,</quote>
+            etc. Et quia incipit judicium a domo Domini, et per multas tribulationes oportet ingredi in regnum Dei, itaque <pb ed="#P" n="0688B"/> hoc restat illis passuris: ut quando patiuntur secundum quod Deus vult, id est propter justitiam, commendent animas suas Deo, nil de se praesumentes, ut et hic, secundum quod vult, purget, et in futuro beatificet, quia fidelis est bona reddendo illis quos creavit. Patiuntur dico <quote xml:id="gom-Ipetr4-Qd1e347" source="http://scta.info/resource/Ipetr4_19@14-15">in benefactis,</quote> non propter peccata.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

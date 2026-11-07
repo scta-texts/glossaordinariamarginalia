@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis, Caput 29</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Genesis, Caput 29</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0155C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-gen29">
+        <head xml:id="gom-gen29-Hd1e98">Caput 29</head>
+        <div xml:id="gom-gen29-Dd1e100">
+          <head xml:id="gom-gen29-Hd1e102">Versus 1</head>
+          <p xml:id="gom-gen29-d1e104">
+            <pb ed="#P" n="0155C"/>
+            <quote xml:id="gom-gen29-Qd1e108" type="lemma" source="http://scta.info/resource/gen29_1@1-3">Profectus ergo Jacob,</quote>
+            etc.
+          </p>
+        </div>
+        <div xml:id="gom-gen29-Dd1e113">
+          <head xml:id="gom-gen29-Hd1e115">Versus 2</head>
+          <p xml:id="gom-gen29-d1e117">
+            <quote xml:id="gom-gen29-Qd1e119" type="lemma" source="http://scta.info/resource/gen29_2@2-5">Vidit puteum in agro,</quote>
+            etc. Aqua putei scientia Veteris Testamenti: quam lapis claudebat, quia littera legis spiritualem sensum in eo celabat; sed veniente Christo lapis remotus est, cum per praedicationem Novi Testamenti umbra legis exclusa et veritas Evangelii patefacta est.
+          </p>
+          <p xml:id="gom-gen29-d1e123">
+            Allegorice.
+          </p>
+          <p xml:id="gom-gen29-d1e125">
+            <ref xml:id="gom-gen29-Rd1e127" type="lemma" subtype="implied" target="http://scta.info/resource/gen29_2@2-5"/>
+            Per puteum baptismus, per agrum mundus exprimitur: per tres greges juxta puteum accubantes, signantur illi qui ad fidem Trinitatis capiendam pertinent, in humilitate expetentes baptismi gratiam.
+          </p>
+          <p xml:id="gom-gen29-d1e130">
+            <quote xml:id="gom-gen29-Qd1e132" type="lemma" source="http://scta.info/resource/gen29_2@21-21">Lapidem.</quote>
+            Duritia infidelitatis, qua abjecta, percipitur baptismus vitae. Pastores autem sunt praelati <pb ed="#P" n="0155D"/> Ecclesiae, qui, amoto lapide, per Jacob adaquare greges cupiunt: quia Christo auferente infidelitatem ab eorum cordibus quos praedestinavit ad sacramentum baptismi, abluuntur unda purificationis.
+          </p>
+        </div>
+        <div xml:id="gom-gen29-Dd1e139">
+          <head xml:id="gom-gen29-Hd1e141">Versus 11</head>
+          <p xml:id="gom-gen29-d1e143">
+            <quote xml:id="gom-gen29-Qd1e145" type="lemma" source="http://scta.info/resource/gen29_11@4-6">Osculatus est eam.</quote>
+            <ref xml:id="gom-gen29-Rd1e148"><name xml:id="gom-gen29-Nd1e149" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-gen29-Qd1e152">Consuetudinis fuit maxime in illa simplicitate antiquorum, ut propinqui propinquos oscularentur, et hodie fit in multis locis. Sed quaeri potest quomodo illa ab ignoto osculum acceperit, si postea indicavit Jacob propinquitatem? Ergo intelligendum est: aut illum, qui propinquitatem noverat, fidenter in osculum irruisse, aut postea Scripturam narrasse per recapitulationem, cum primum Jacob indicaverit quis esset.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen29-Dd1e156">
+          <head xml:id="gom-gen29-Hd1e158">Versus 16</head>
+          <p xml:id="gom-gen29-d1e160">
+            <quote xml:id="gom-gen29-Qd1e162" type="lemma" source="http://scta.info/resource/gen29_16@5-7">Nomen majoris Lia,</quote>
+            etc. Victorinus <pb ed="#P" n="0156A"/> martyr Rachel et Liam in similitudinem Ecclesiae et Synagogae interpretatus est. Liam majorem natu Synagogam significare existimat, quia prior populum Dei genuit: quae oculis lippa dicitur, quia lex per Mosen data cooperata est et signata. Rachel minor et pulchra, prius sterilis, post fecunda, Ecclesiam signat, quae tempore posterior, sed sancta corpore et spiritu. Oculi ejus decori, quia Evangelium videre meruerunt. Sed diu sterilis dum Synagoga populum generavit. Pro Rachel Jacob servivit, et supponitur ei Lia: quia Christus ut Ecclesiam sibi assumeret, prius sibi Synagogam conjunxit.
+          </p>
+        </div>
+        <div xml:id="gom-gen29-Dd1e170">
+          <head xml:id="gom-gen29-Hd1e172">Versus 20</head>
+          <p xml:id="gom-gen29-d1e174">
+            <quote xml:id="gom-gen29-Qd1e176" type="lemma" source="http://scta.info/resource/gen29_20@1-7">Servivit ergo Jacob pro Rachel septem annis.</quote>
+            Servitus Jacob septem annorum pro duabus uxoribus, praesentis vitae tempus signat, <pb ed="#P" n="0156B"/> quod septem diebus volvitur; in quo Dominus formam servi accepit, obediens Patri usque ad mortem. Jacob servivit, quia <quote xml:id="gom-gen29-Qd1e181" source="http://scta.info/resource/mt20_28@2-8">filius hominis non venit ministrari, sed ministrare :</quote> Ille oves pavit, et Christus dixit <!--<note>(Joan. X)</note>-->: <quote xml:id="gom-gen29-Qd1e186" source="http://scta.info/resource/io10_11@1-4">Ego sum pastor bonus.</quote> Ille pro mercede varium pecus sibi abstulit: Christus diversarum gentium varietatem sibi congregavit. Ille tres virgas amputatis corticibus in alveis aquarum posuit, ut earum contemplatione multiplicarentur oves: et Dominus noster in aqua baptismatis trium personarum nomina Patris, et Filii, et Spiritus sancti, populo fideli proposuit, ut qui hoc pleno corde prospexerit, efficiatur ovis Dei.
+          </p>
+          <p xml:id="gom-gen29-d1e190">
+            <quote xml:id="gom-gen29-Qd1e192" type="lemma" source="http://scta.info/resource/gen29_20@8-12">Et videbantur illi pauci dies,</quote>
+            etc. Quomodo hoc dictum sit quaerendum est, cum et breve tempus <pb ed="#P" n="0156C"/> longum videatur amantibus? Dictum est ergo propter laborem servitutis, quem facilem faciebat amor.
+          </p>
+          <p xml:id="gom-gen29-d1e198">
+            <ref xml:id="gom-gen29-Rd1e200" type="lemma" subtype="implied" target="http://scta.info/resource/gen29_20@8-12"/>
+            <ref xml:id="gom-gen29-Rd1e202"><name xml:id="gom-gen29-Nd1e203" ref="#Augustine">AUG.</name>, lib. XXII contra Faustum.</ref>
+            <quote xml:id="gom-gen29-Qd1e207"><seg type="qs">Pro ingenti crimine objiciuntur Jacob quatuor uxores. Sed quoniam tunc mos erat, crimen non erat; nunc autem crimen est, quia mos non est</seg>, etc., usque ad <seg type="qs">nisi concupiscentiae carnalis flagrantia.</seg></quote>
+          </p>
+          <p xml:id="gom-gen29-d1e215">
+            <ref xml:id="gom-gen29-Rd1e217" type="lemma" subtype="implied" target="http://scta.info/resource/gen29_20@8-12"/>
+            <ref xml:id="gom-gen29-Rd1e219"><name xml:id="gom-gen29-Nd1e220" ref="#IsidoreOfSeville">ISID.</name>, in Gen., tom. V.</ref>
+            <quote xml:id="gom-gen29-Qd1e224"><seg type="qs">Duae sunt ergo uxores Jacob liberae, ambae enim filiae remissionis peccatorum</seg>, etc., usque ad <seg type="qs">et vidit in principio Verbum apud Deum, et vult parere, et non potest, quia <quote xml:id="gom-gen29-Qd1e230" source="http://scta.info/resource/act8_33@7-10">generationem ejus quis enarrabit?</quote></seg></quote>
+          </p>
+          <p xml:id="gom-gen29-d1e235">
+            <ref xml:id="gom-gen29-Rd1e237" type="lemma" subtype="implied" target="http://scta.info/resource/gen29_20@8-12"/>
+            <ref xml:id="gom-gen29-Rd1e239"><name xml:id="gom-gen29-Nd1e240" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-gen29-Qd1e243"><seg type="qs">Duae liberae uxores Jacob, quia duae vitae nobis in corpore Jesu Christi praedicantur</seg>, etc., usque ad <seg type="qs">Sed hoc non potest in terra morientium, quod <pb ed="#P" n="0156D"/> his verbis significatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-gen29-Dd1e254">
+          <head xml:id="gom-gen29-Hd1e256">Versus 26</head>
+          <p xml:id="gom-gen29-d1e258">
+            <quote xml:id="gom-gen29-Qd1e260" type="lemma" source="http://scta.info/resource/gen29_26@3-8">Non est in loco nostro consuetudinis,</quote>
+            etc.
+            <ref xml:id="gom-gen29-Rd1e263"><name xml:id="gom-gen29-Nd1e264" ref="#IsidoreOfSeville">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-gen29-Qd1e268"><seg type="qs">Major appellatur quae tempore prior est</seg>, etc., usque ad <seg type="qs">ad unum ergo tendendum, sed propter hoc multa ferenda.</seg></quote>
+          </p>
+          <p xml:id="gom-gen29-d1e276">
+            <ref xml:id="gom-gen29-Rd1e278" type="lemma" subtype="implied" target="http://scta.info/resource/gen29_26@3-8"/>
+            <ref xml:id="gom-gen29-Rd1e280"><name xml:id="gom-gen29-Nd1e281" ref="#IsidoreOfSeville">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-gen29-Qd1e285"><seg type="qs">Proinde vita quae studio contemplationis competit</seg>, etc., usque ad <seg type="qs">unde infra XXX: <quote xml:id="gom-gen29-Qd1e291">Zelabat Rachel sororem suam.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-gen29-d1e294">
+            <ref xml:id="gom-gen29-Rd1e296" type="lemma" subtype="implied" target="http://scta.info/resource/gen29_26@3-8"/>
+            <ref xml:id="gom-gen29-Rd1e298"><name xml:id="gom-gen29-Nd1e299" ref="#IsidoreOfSeville">ID.</name>, ibid.</ref>
+            <quote xml:id="gom-gen29-Qd1e303"><seg type="qs">Proinde quia purus intellectus de illa divina substantia</seg>, etc., usque ad <seg type="qs">non quia numen.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

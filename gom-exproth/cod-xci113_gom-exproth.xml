@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus, Prothemata in Exodum</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Exodus, Prothemata in Exodum</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0183A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-exproth">
+        <head xml:id="gom-exproth-Hd1e98">PROTHEMATA IN EXODUM.</head>
+        <p xml:id="gom-exproth-d1e100">
+          <pb ed="#P" n="0183A"/>
+          <ref xml:id="gom-exproth-Rd1e104"><name xml:id="gom-exproth-Nd1e105" ref="#RabanusMaurus">RAB.</name></ref>
+          <quote xml:id="gom-exproth-Qd1e108">In Pentateucho excellit Exodus, in quo pene omnia sacramenta quibus Ecclesia instruitur, figuraliter exprimuntur. Per corporalem enim exitum filiorum Israel de Aegypto corporalis noster exitus de Aegypto spirituali signatur. Per mare Rubrum, et Pharaonis submersionem atque Aegyptiorum, baptismi mysterium et spiritualium hostium interitus. Per typici agni immolationem, et Hebraeorum liberationum, veri Agni passio et nostra redemptio. De coelo datur manna, et aqua de petra. <quote xml:id="gom-exproth-Qd1e110" source="http://scta.info/resource/io6_59@1-7">Hic est panis qui de coelo descendit</quote> et doctrina Christi. In monte dantur praecepta atque judicia populo Dei, ut supernis subjiciamur disciplinis. <pb ed="#P" n="0183B"/> Tabernaculum, et vasa ejus construuntur, cultus et sacrificia imperantur, quibus Ecclesiae ornatus et spiritualia sacrificia significantur. Mystica unctio et thymiamata conficiuntur, quibus sanctificatio spiritus et orationis odoramenta commendantur. Hinc Paulus ait: <quote xml:id="gom-exproth-Qd1e115">Omnes eamdem escam spiritualem manducaverunt, et omnes eumdem potum spiritualem biberunt,</quote> etc.</quote>
+        </p>
+        <p xml:id="gom-exproth-d1e119">
+          <!--<note>(I Cor. X.)</note>--> Hinc quoque Joannes: <quote xml:id="gom-exproth-Qd1e123">Facta sunt haec,</quote> inquit, <quote xml:id="gom-exproth-Qd1e125" source="http://scta.info/resource/io19_36@5-12">ut Scriptura impleretur: Os non comminuetis ex eo</quote>.
+        </p>
+        <p xml:id="gom-exproth-d1e129">
+          <ref xml:id="gom-exproth-Rd1e131"><name xml:id="gom-exproth-Nd1e132" ref="#Bede">BED.</name></ref>
+          <quote xml:id="gom-exproth-Qd1e135"><quote xml:id="gom-exproth-Qd1e136">Veelle Semoth</quote> ( ) Hebraice: <foreign xml:lang="greek">ἒξοδος</foreign> Graece: <quote xml:id="gom-exproth-Qd1e141">exodus, exitus</quote> vel <quote xml:id="gom-exproth-Qd1e143">egressus</quote> Latine.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

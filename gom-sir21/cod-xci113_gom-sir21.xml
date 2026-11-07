@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ecclesiasticus, Caput 21</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ecclesiasticus, Caput 21</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1205B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-sir21">
+        <head xml:id="gom-sir21-Hd1e98">Caput 21</head>
+        <div xml:id="gom-sir21-Dd1e100">
+          <head xml:id="gom-sir21-Hd1e102">Versus 1</head>
+          <p xml:id="gom-sir21-d1e104">
+            <quote xml:id="gom-sir21-Qd1e106" type="lemma" source="http://scta.info/resource/sir21_1@1-2">Fili, peccasti,</quote>
+            etc.
+            <ref xml:id="gom-sir21-Rd1e109"><name xml:id="gom-sir21-Nd1e110" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir21-Qd1e113">Consilium dat, cum peccamus: <quote xml:id="gom-sir21-Qd1e115" source="http://scta.info/resource/qoh7_21@1-13">Non est enim qui faciat bonum, et non peccet</quote>, ne iterum peccemus; sed de praeteritis poenitentiam agamus, deprecantes ut nobis dimittantur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e121">
+          <head xml:id="gom-sir21-Hd1e123">Versus 2</head>
+          <p xml:id="gom-sir21-d1e125">
+            <pb ed="#P" n="1205C"/>
+            <quote xml:id="gom-sir21-Qd1e129" type="lemma" source="http://scta.info/resource/sir21_2@4-4">Colubri.</quote>
+            <ref xml:id="gom-sir21-Rd1e132"><name xml:id="gom-sir21-Nd1e133" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir21-Qd1e136">Diaboli qui semper colit umbras peccati, et regnat in filiis tenebrarum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e140">
+          <head xml:id="gom-sir21-Hd1e142">Versus 3</head>
+          <p xml:id="gom-sir21-d1e144">
+            <quote xml:id="gom-sir21-Qd1e146" type="lemma" source="http://scta.info/resource/sir21_3@1-2">Dentes leonis,</quote>
+            etc. <quote xml:id="gom-sir21-Qd1e149" source="http://scta.info/resource/Ipetr5_8@5-14">Adversarius noster diabolus, tanquam leo rugiens, circuit quaerens quem devoret</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e154">
+          <head xml:id="gom-sir21-Hd1e156">Versus 5</head>
+          <p xml:id="gom-sir21-d1e158">
+            <quote xml:id="gom-sir21-Qd1e160" type="lemma" source="http://scta.info/resource/sir21_5@2-3">Objurgatio et injuriae,</quote>
+            etc.
+            <ref xml:id="gom-sir21-Rd1e163"><name xml:id="gom-sir21-Nd1e164" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir21-Qd1e167"><seg type="qs">Concordia minimae res crescunt</seg>, etc., usque ad <seg type="qs">quia veritatem fidei et unitatem pacis abominatur.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e177">
+          <head xml:id="gom-sir21-Hd1e179">Versus 6</head>
+          <p xml:id="gom-sir21-d1e181">
+            <quote xml:id="gom-sir21-Qd1e183" type="lemma" source="http://scta.info/resource/sir21_6@1-2">Deprecatio pauperis,</quote>
+            etc. Quia judicabit Deus impios, qui affligunt sanctos.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e188">
+          <head xml:id="gom-sir21-Hd1e190">Versus 7</head>
+          <p xml:id="gom-sir21-d1e192">
+            <quote xml:id="gom-sir21-Qd1e194" type="lemma" source="http://scta.info/resource/sir21_7@3-3">Correptionem.</quote>
+            Id est, judicium sui peccati, quia mentem suam induravit, ne obediret veritati.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e199">
+          <head xml:id="gom-sir21-Hd1e201">Versus 8</head>
+          <p xml:id="gom-sir21-d1e203">
+            <quote xml:id="gom-sir21-Qd1e205" type="lemma" source="http://scta.info/resource/sir21_8@1-3">Notus a longe.</quote>
+            Manifestatur praesumptio haeretica in lingua temeraria, quae loquitur adversus <pb ed="#P" n="1205D"/> Deum iniquitatem.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e212">
+          <head xml:id="gom-sir21-Hd1e214">Versus 9</head>
+          <p xml:id="gom-sir21-d1e216">
+            <quote xml:id="gom-sir21-Qd1e218" type="lemma" source="http://scta.info/resource/sir21_9@1-3">Qui aedificat domum,</quote>
+            etc. Haereticum significat, qui Scripturae testimonia a pravo sensu aliena, ad confirmationem sui erroris congregat. Sed vindicta ultionis justae dissolvetur duritia nefandae actionis; vel tropologice: Avarum raptorem, qui ex alienis rebus auget divitias, et vacuus omnibus bonis in die judicii pro iniquitate sua punietur.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e223">
+          <head xml:id="gom-sir21-Hd1e225">Versus 11</head>
+          <p xml:id="gom-sir21-d1e227">
+            <quote xml:id="gom-sir21-Qd1e229" type="lemma" source="http://scta.info/resource/sir21_11@1-2">Via peccantium.</quote>
+            Ideo velox malorum interitus, quia via, id est vita illorum plena est doloribus: et duris peccatorum operibus.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e234">
+          <head xml:id="gom-sir21-Hd1e236">Versus 14</head>
+          <p xml:id="gom-sir21-d1e238">
+            <quote xml:id="gom-sir21-Qd1e240" type="lemma" source="http://scta.info/resource/sir21_14@1-2">Non erudietur,</quote>
+            etc.
+            <ref xml:id="gom-sir21-Rd1e243"><name xml:id="gom-sir21-Nd1e244" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-sir21-Qd1e247"><seg type="qs">His sententiis confundit</seg>, etc., usque ad <seg type="qs">et ipse immiscuit se infinitis quaestionibus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e257">
+          <head xml:id="gom-sir21-Hd1e259">Versus 18</head>
+          <p xml:id="gom-sir21-d1e261">
+            <pb ed="#P" n="1206A"/>
+            <quote xml:id="gom-sir21-Qd1e265" type="lemma" source="http://scta.info/resource/sir21_18@14-15">Displicet illi,</quote>
+            etc. Unde: <quote xml:id="gom-sir21-Qd1e268" source="http://scta.info/resource/lc16_8@10-19">Filii hujus saeculi prudentiores filiis lucis in generatione sua sunt</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e273">
+          <head xml:id="gom-sir21-Hd1e275">Versus 22</head>
+          <p xml:id="gom-sir21-d1e277">
+            <quote xml:id="gom-sir21-Qd1e279" type="lemma" source="http://scta.info/resource/sir21_22@1-3">Compedes in pedibus,</quote>
+            etc.
+            <ref xml:id="gom-sir21-Rd1e282"><name xml:id="gom-sir21-Nd1e283" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir21-Qd1e286">Quia gressibus eorum, quibus incedunt, ruina iniquitatis contradicit, actiones eorum damnando reprehendit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e290">
+          <head xml:id="gom-sir21-Hd1e292">Versus 23</head>
+          <p xml:id="gom-sir21-d1e294">
+            <quote xml:id="gom-sir21-Qd1e296" type="lemma" source="http://scta.info/resource/sir21_23@1-3">Fatuus in risu,</quote>
+            etc. Coetus haereticorum plausibili operatione per rhetoricam artem docendo quaerit auditorum favorem. Sancti vero doctores jucunditatem locutione sic intermiscent praedicationi, ut non recedant a tramite veritatis.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e301">
+          <head xml:id="gom-sir21-Hd1e303">Versus 25</head>
+          <p xml:id="gom-sir21-d1e305">
+            <quote xml:id="gom-sir21-Qd1e307" type="lemma" source="http://scta.info/resource/sir21_25@1-2">Pes fatui,</quote>
+            etc. Quia haeretici auctorum suorum sectam in domicilio scriptorum suorum latitantem student imitari.
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e312">
+          <head xml:id="gom-sir21-Hd1e314">Versus 26</head>
+          <p xml:id="gom-sir21-d1e316">
+            <quote xml:id="gom-sir21-Qd1e318" type="lemma" source="http://scta.info/resource/sir21_26@1-3">Stultus a fenestra.</quote>
+            <ref xml:id="gom-sir21-Rd1e321"><name xml:id="gom-sir21-Nd1e322" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-sir21-Qd1e325">Notat haereticorum <pb ed="#P" n="1206B"/> calliditatem, et catholicorum simplicitatem.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-sir21-Dd1e332">
+          <head xml:id="gom-sir21-Hd1e334">Versus 30</head>
+          <p xml:id="gom-sir21-d1e336">
+            <quote xml:id="gom-sir21-Qd1e338" type="lemma" source="http://scta.info/resource/sir21_30@1-2">Dum maledicit.</quote>
+            Non quia maledictum dicit diabolum, sed quia quem maledictum novit, non cessat imitari. Dum enim mavult diabolum imitari, quam Christum, jure damnatur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

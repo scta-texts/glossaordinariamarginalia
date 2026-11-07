@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 62</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 62</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0933D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps62">
+        <head xml:id="gom-ps62-Hd1e98">Psalmus 62</head>
+        <div xml:id="gom-ps62-Dd1e100">
+          <head xml:id="gom-ps62-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps62-d1e104">
+            <quote xml:id="gom-ps62-Qd1e106" type="lemma" source="http://scta.info/resource/ps62_1@1-2">Psalmus David.</quote>
+            <ref xml:id="gom-ps62-Rd1e109"><name xml:id="gom-ps62-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e113">Loquitur de Ecclesia, quae in ariditate sitit saeculi, et misericordiam expetit, donec aeterna capiat, docens bene conversari in medio pravae nationis.</quote>
+          </p>
+          <p xml:id="gom-ps62-d1e116">
+            <ref xml:id="gom-ps62-Rd1e118" type="lemma" subtype="implied" target="http://scta.info/resource/ps62_1@1-2"/>
+            <ref xml:id="gom-ps62-Rd1e120"><name xml:id="gom-ps62-Nd1e121" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e124">Psalmus ex persona capitis et membrorum; vox ipsius nostra est, et nostra ipsius est.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e128">
+          <head xml:id="gom-ps62-Hd1e130">Versus 2</head>
+          <p xml:id="gom-ps62-d1e132">
+            <quote xml:id="gom-ps62-Qd1e134" type="lemma" source="http://scta.info/resource/ps62_2@1-7">Deus, Deus meus, ad te de luce,</quote>
+            etc.
+            <ref xml:id="gom-ps62-Rd1e137"><name xml:id="gom-ps62-Nd1e138" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e141">Quomodo se habeat in deserto, scilicet sponsa, Deum videre desiderat, quem et laudat, et id amplius <pb ed="#P" n="0934A"/> agere optat.</quote>
+          </p>
+          <p xml:id="gom-ps62-d1e147">
+            <quote xml:id="gom-ps62-Qd1e149" type="lemma" source="http://scta.info/resource/ps62_2@1-1">Deus.</quote>
+            <ref xml:id="gom-ps62-Rd1e152"><name xml:id="gom-ps62-Nd1e153" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e156">Communis <quote xml:id="gom-ps62-Qd1e158" source="http://scta.info/resource/ps62_2@2-3">Deus meus</quote> quodam modo specialiori; vide affectum piae deprecationis per hanc geminationem.</quote>
+          </p>
+          <p xml:id="gom-ps62-d1e163">
+            <quote xml:id="gom-ps62-Qd1e165" type="lemma" source="http://scta.info/resource/ps62_2@6-7">De luce.</quote>
+            Vel diluculo, quando surrexit Christus, ut tunc laudet eum Ecclesia quando exemplo suae resurrectionis eam ad surgendum animavit.
+          </p>
+          <p xml:id="gom-ps62-d1e169">
+            <quote xml:id="gom-ps62-Qd1e171" type="lemma" source="http://scta.info/resource/ps62_2@8-8">Vigilo,</quote>
+            dummodo dormio, non amans quae mundi sunt.
+          </p>
+          <p xml:id="gom-ps62-d1e176">
+            <ref xml:id="gom-ps62-Rd1e178" type="lemma" subtype="implied" target="http://scta.info/resource/ps62_2@8-8"/>
+            <ref xml:id="gom-ps62-Rd1e180"><name xml:id="gom-ps62-Nd1e181" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e184">Et sitio animo et corpore.</quote>
+          </p>
+          <p xml:id="gom-ps62-d1e187">
+            <quote xml:id="gom-ps62-Qd1e189" type="lemma" source="http://scta.info/resource/ps62_2@6-7">De luce.</quote>
+            <ref xml:id="gom-ps62-Rd1e192"><name xml:id="gom-ps62-Nd1e193" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e196">Non enim vigilares; nisi lux oriretur, quae te excitaret.</quote>
+          </p>
+          <p xml:id="gom-ps62-d1e199">
+            <quote xml:id="gom-ps62-Qd1e201" type="lemma" source="http://scta.info/resource/ps62_2@9-13">Sitivit in te anima mea:</quote>
+            et hic caro Deo, dum ab eo quaerit hic necessaria.
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e206">
+          <head xml:id="gom-ps62-Hd1e208">Versus 3</head>
+          <p xml:id="gom-ps62-d1e210">
+            <quote xml:id="gom-ps62-Qd1e212" type="lemma" source="http://scta.info/resource/ps62_3@3-3">Deserta.</quote>
+            <ref xml:id="gom-ps62-Rd1e215"><name xml:id="gom-ps62-Nd1e216" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e219">Ubi nullus sanctorum habitat.</quote>
+          </p>
+          <p xml:id="gom-ps62-d1e222">
+            <quote xml:id="gom-ps62-Qd1e224" type="lemma" source="http://scta.info/resource/ps62_3@5-5">Invia,</quote>
+            quia non est qua inde exeas.
+          </p>
+          <p xml:id="gom-ps62-d1e228">
+            <quote xml:id="gom-ps62-Qd1e230" type="lemma" source="http://scta.info/resource/ps62_3@7-7">Inaquosa,</quote>
+            quia nec, dum ubi moraris, est ibi aqua. Sed Deus hic fecit viam Christum, et misit aquam <pb ed="#P" n="0934B"/> Verbi sui Spiritu sancto implens praedicatores: <quote xml:id="gom-ps62-Qd1e235" source="http://scta.info/resource/io4_14@6-14">Ut fieret in eis fons aquae salientis in vitam aeternam</quote>.
+          </p>
+          <p xml:id="gom-ps62-d1e239">
+            <quote xml:id="gom-ps62-Qd1e241" type="lemma" source="http://scta.info/resource/ps62_3@8-14">Sic in sancto apparui tibi ut viderem,</quote>
+            etc.
+            <ref xml:id="gom-ps62-Rd1e244"><name xml:id="gom-ps62-Nd1e245" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e248"><seg type="qs">Cui non apparet Deus sit in sancto desiderio</seg>, etc., usque ad <seg type="qs">Sol enim sua luce facit nos videre, ita et Deus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e257">
+          <head xml:id="gom-ps62-Hd1e259">Versus 4</head>
+          <p xml:id="gom-ps62-d1e261">
+            <quote xml:id="gom-ps62-Qd1e263" type="lemma" source="http://scta.info/resource/ps62_4@6-7">Super vitas.</quote>
+            <ref xml:id="gom-ps62-Rd1e266"><name xml:id="gom-ps62-Nd1e267" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e270">Humanitatis, quae multae sunt, ut militis, agricolae et caeterorum: melius est quod das correctis, quam quod eligunt perversi.</quote>
+          </p>
+          <p xml:id="gom-ps62-d1e273">
+            <quote xml:id="gom-ps62-Qd1e275" type="lemma" source="http://scta.info/resource/ps62_4@8-9">Labia mea.</quote>
+            Post beneficia Dei: laudem promittit.
+          </p>
+          <p xml:id="gom-ps62-d1e279">
+            <quote xml:id="gom-ps62-Qd1e281" type="lemma" source="http://scta.info/resource/ps62_4@10-10">Laudabunt,</quote>
+            ad proximum, de quo etiam sollicitor, quia nisi misericordia tua me praeveniret, te laudare non possem, et sicut labiis, sic benedicant in vita. Vel sic, <quote xml:id="gom-ps62-Qd1e284" source="http://scta.info/resource/ps62_4@6-7">Quia super vitas.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e290">
+          <head xml:id="gom-ps62-Hd1e292">Versus 5</head>
+          <p xml:id="gom-ps62-d1e294">
+            <quote xml:id="gom-ps62-Qd1e296" type="lemma" source="http://scta.info/resource/ps62_5@1-2">Sic benedicam.</quote>
+            <ref xml:id="gom-ps62-Rd1e299"><name xml:id="gom-ps62-Nd1e300" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e303">Ut dedisti per <pb ed="#P" n="0934C"/> misericordiam laudare te, <quote xml:id="gom-ps62-Qd1e307" source="http://scta.info/resource/ps62_5@1-2">sic benedicam,</quote> ut misericordiae tribuam vitam, in qua laudo.</quote>
+          </p>
+          <p xml:id="gom-ps62-d1e312">
+            <quote xml:id="gom-ps62-Qd1e314" type="lemma" source="http://scta.info/resource/ps62_5@8-13">In nomine tuo levabo manus meas.</quote>
+            <ref xml:id="gom-ps62-Rd1e317"><name xml:id="gom-ps62-Nd1e318" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e321">Levat manus qui, bonis operibus insistens, tensis manibus in figura crucis, Deum adorat; unde Apostolus: Levantes puras manus in oratione, sine ira et disceptatione.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e325">
+          <head xml:id="gom-ps62-Hd1e327">Versus 6</head>
+          <p xml:id="gom-ps62-d1e329">
+            <quote xml:id="gom-ps62-Qd1e331" type="lemma" source="http://scta.info/resource/ps62_6@2-2">Adipe.</quote>
+            <ref xml:id="gom-ps62-Rd1e334"><name xml:id="gom-ps62-Nd1e335" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e338">In intestinis. Pinguedo in carne, id est, sapientia, quae in abscondito et fortitudo spiritus.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e342">
+          <head xml:id="gom-ps62-Hd1e344">Versus 5</head>
+          <p xml:id="gom-ps62-d1e346">
+            <quote xml:id="gom-ps62-Qd1e348" type="lemma" source="http://scta.info/resource/ps62_5@11-12">Levabo manus.</quote>
+            <ref xml:id="gom-ps62-Rd1e351"><name xml:id="gom-ps62-Nd1e352" ref="#Augustine">Ibid.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e355"><seg type="qs">In Exod. Moyses, dum levaret manus ad Dominum</seg>, etc., usque ad <seg type="qs">pro terrenis operatur, vincitur ab Amalech.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e364">
+          <head xml:id="gom-ps62-Hd1e366">Versus 7</head>
+          <p xml:id="gom-ps62-d1e368">
+            <quote xml:id="gom-ps62-Qd1e370" type="lemma" source="http://scta.info/resource/ps62_7@1-3">Si memor fui.</quote>
+            <ref xml:id="gom-ps62-Rd1e373"><name xml:id="gom-ps62-Nd1e374" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e377"><seg type="qs">Exponit bona malaque utriusque partis</seg>, etc., usque ad <seg type="qs">nisi qui in <pb ed="#P" n="0934D"/> Christo operatur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps62-d1e387">
+            <ref xml:id="gom-ps62-Rd1e389"><name xml:id="gom-ps62-Nd1e390" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e393" type="lemma" source="http://scta.info/resource/ps62_7@8-9">In matutinis,</quote>
+            <quote xml:id="gom-ps62-Qd1e396">id est, in luce Christi, ut <ref xml:id="gom-ps62-Rd1e398">supra <seg type="incipit">de luce vigilo ad te</seg>,</ref> ut filius lucis, id est Christi, ad lucis auctorem vigilet, ad Deum.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e407">
+          <head xml:id="gom-ps62-Hd1e409">Versus 8</head>
+          <p xml:id="gom-ps62-d1e411">
+            <quote xml:id="gom-ps62-Qd1e413" type="lemma" source="http://scta.info/resource/ps62_8@3-3">Adjutor,</quote>
+            etc.
+            <ref xml:id="gom-ps62-Rd1e416"><name xml:id="gom-ps62-Nd1e417" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e420"><seg type="qs">In periculis Idumaeae</seg>, etc., usque ad <seg type="qs">quia <quote xml:id="gom-ps62-Qd1e426" source="http://scta.info/resource/ps62_9@7-8">me suscepit</quote> a periculis <quote xml:id="gom-ps62-Qd1e429" source="http://scta.info/resource/ps62_9@9-10">dextera tua,</quote> id est propitatio.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e435">
+          <head xml:id="gom-ps62-Hd1e437">Versus 10</head>
+          <p xml:id="gom-ps62-d1e439">
+            <quote xml:id="gom-ps62-Qd1e441" type="lemma" source="http://scta.info/resource/ps62_10@1-6">Ipsi vero in vanum quaesierunt animam.</quote>
+            Rex vero. Confert in his duobus versibus bona et mala diversarum partium.
+          </p>
+          <p xml:id="gom-ps62-d1e445">
+            <quote xml:id="gom-ps62-Qd1e447" type="lemma" source="http://scta.info/resource/ps62_10@10-12">In inferiora terrae.</quote>
+            <ref xml:id="gom-ps62-Rd1e450"><name xml:id="gom-ps62-Nd1e451" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e454">Quia non ad coelos evecti sunt. A terra sorbentur malae cogitationes, quia de terra natae, in ima terrae, quasi in coenum, vergunt.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e459">
+          <head xml:id="gom-ps62-Hd1e461">Versus 11</head>
+          <p xml:id="gom-ps62-d1e463">
+            <quote xml:id="gom-ps62-Qd1e465" type="lemma" source="http://scta.info/resource/ps62_11@6-8">Partes vulpium erunt,</quote>
+            etc.
+            <ref xml:id="gom-ps62-Rd1e468"><name xml:id="gom-ps62-Nd1e469" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e472"><seg type="qs"><pb ed="#P" n="0935A"/> Principium saeculi</seg>, etc., usque ad <seg type="qs">dum se dolosis prava voluntate conjungunt.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps62-Dd1e482">
+          <head xml:id="gom-ps62-Hd1e484">Versus 12</head>
+          <p xml:id="gom-ps62-d1e486">
+            <quote xml:id="gom-ps62-Qd1e488" type="lemma" source="http://scta.info/resource/ps62_12@4-5">In Deo.</quote>
+            <ref xml:id="gom-ps62-Rd1e491"><name xml:id="gom-ps62-Nd1e492" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps62-Qd1e495">Patre, unde: <quote xml:id="gom-ps62-Qd1e497" source="http://scta.info/resource/io14_11@4-10">Ego in Patre, et Pater in me. Jurant,</quote> non per eum, ne imperet juramentum, sed in eo, promittendo ei obsequium.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

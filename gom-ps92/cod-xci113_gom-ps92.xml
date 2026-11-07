@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 92</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 92</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1001D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps92">
+        <head xml:id="gom-ps92-Hd1e98">Psalmus 92</head>
+        <div xml:id="gom-ps92-Dd1e100">
+          <head xml:id="gom-ps92-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps92-d1e104">
+            <quote xml:id="gom-ps92-Qd1e106" type="lemma" source="http://scta.info/resource/ps92_1@5-6">In diem,</quote>
+            etc.
+            <ref xml:id="gom-ps92-Rd1e109"><name xml:id="gom-ps92-Nd1e110" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e113"><seg type="qs">In die ante sabbatum</seg>, etc., usque ad <seg type="qs">quod significat sextus dies.</seg></quote>
+          </p>
+          <p xml:id="gom-ps92-d1e121">
+            <quote xml:id="gom-ps92-Qd1e123" type="lemma" source="http://scta.info/resource/ps92_1@13-14">Dominus regnavit,</quote>
+            etc.
+            <ref xml:id="gom-ps92-Rd1e126"><name xml:id="gom-ps92-Nd1e127" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e130"><seg type="qs">Laus <pb ed="#P" n="1002A"/> Christi hic cantatur</seg>, etc., usque ad <seg type="qs">a laude domus, <ref xml:id="gom-ps92-Rd1e138">ibi, <seg type="incipit">Domum tuam. Decorem indutus</seg>.</ref></seg></quote>
+          </p>
+          <p xml:id="gom-ps92-d1e145">
+            <ref xml:id="gom-ps92-Rd1e147" type="lemma" subtype="implied" target="http://scta.info/resource/ps92_1@13-14"/>
+            <ref xml:id="gom-ps92-Rd1e149"><name xml:id="gom-ps92-Nd1e150" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e153"><seg type="qs">Christus decorus his</seg>, etc., usque ad <seg type="qs">orbis qui non commovebitur.</seg></quote>
+          </p>
+          <p xml:id="gom-ps92-d1e161">
+            <quote xml:id="gom-ps92-Qd1e163" type="lemma" source="http://scta.info/resource/ps92_1">Decorem induit.</quote>
+            <!-- check: lemma not matched to verse text -->
+            <ref xml:id="gom-ps92-Rd1e168"><name xml:id="gom-ps92-Nd1e169" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e172"><seg type="qs">Id est, pulchritudinem</seg>, etc., usque ad <seg type="qs">ab incarnatione, quando homines docuit.</seg></quote>
+          </p>
+          <p xml:id="gom-ps92-d1e181">
+            <quote xml:id="gom-ps92-Qd1e183" type="lemma" source="http://scta.info/resource/ps92_1@24-25">Praecinxit se.</quote>
+            Non ait, cinxit, vel succinxit, vel accinxit, sed praecinxit. Cingimur enim operaturi, accingimur pugnaturi, succingimur ituri, praecingimur ministraturi.
+          </p>
+          <p xml:id="gom-ps92-d1e187">
+            <ref xml:id="gom-ps92-Rd1e189" type="lemma" subtype="implied" target="http://scta.info/resource/ps92_1@24-25"/>
+            <ref xml:id="gom-ps92-Rd1e191"><name xml:id="gom-ps92-Nd1e192" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e195"><seg type="qs">Cinctio ergo opera significat</seg>, etc., usque ad <seg type="qs">quia <quote xml:id="gom-ps92-Qd1e201">melior est qui vincit iram quam qui capit civitatem. Praecinxit.</quote></seg></quote>
+          </p>
+          <p xml:id="gom-ps92-d1e204">
+            <ref xml:id="gom-ps92-Rd1e206" type="lemma" subtype="implied" target="http://scta.info/resource/ps92_1@24-25"/>
+            <ref xml:id="gom-ps92-Rd1e208"><name xml:id="gom-ps92-Nd1e209" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e212">Coetu angelorum ascendens, vel strenuitate operandi.</quote>
+          </p>
+          <p xml:id="gom-ps92-d1e215">
+            <quote xml:id="gom-ps92-Qd1e217" type="lemma" source="http://scta.info/resource/ps92_1@26-27">Etenim firmavit.</quote>
+            <ref xml:id="gom-ps92-Rd1e220"><name xml:id="gom-ps92-Nd1e221" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e224">Decorem et fortitudinem induit, ut fundaret terram, unde addit: <quote xml:id="gom-ps92-Qd1e226" source="http://scta.info/resource/ps92_1@26-27">Etenim firmavit.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps92-Dd1e231">
+          <head xml:id="gom-ps92-Hd1e233">Versus 2</head>
+          <p xml:id="gom-ps92-d1e235">
+            <quote xml:id="gom-ps92-Qd1e237" type="lemma" source="http://scta.info/resource/ps92_2@4-5">Ex tunc.</quote>
+            <ref xml:id="gom-ps92-Rd1e240"><name xml:id="gom-ps92-Nd1e241" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e244">Vel ex illo, tempus gratiae <pb ed="#P" n="1002B"/> designat, forte intelligit hoc ex die ante sabbatum, id est, sexto tempore hujus mundi, quo Dominus venit: sed ne putes tunc coepisse, quando natus venit addit, <quote xml:id="gom-ps92-Qd1e248" source="http://scta.info/resource/ps92_2@7-10">a saeculo tu es.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps92-Dd1e253">
+          <head xml:id="gom-ps92-Hd1e255">Versus 3</head>
+          <p xml:id="gom-ps92-d1e257">
+            <quote xml:id="gom-ps92-Qd1e259" type="lemma" source="http://scta.info/resource/ps92_3@4-6">Elevaverunt flumina vocem.</quote>
+            <ref xml:id="gom-ps92-Rd1e262"><name xml:id="gom-ps92-Nd1e263" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e266"><seg type="qs">Quia discipuli audientes</seg>, etc., usque ad <seg type="qs">saeculi, quod coepit irasci, vel persequi.</seg></quote>
+          </p>
+          <p xml:id="gom-ps92-d1e274">
+            <quote xml:id="gom-ps92-Qd1e276" type="lemma" source="http://scta.info/resource/ps92_3@9-12">Elevaverunt flumina fluctus suos,</quote>
+            etc.
+            <ref xml:id="gom-ps92-Rd1e279"><name xml:id="gom-ps92-Nd1e280" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e283"><seg type="qs">Hoc deest in aliis</seg>, etc., usque ad <seg type="qs">qui facit omnia bona, addit: <quote xml:id="gom-ps92-Qd1e289" source="http://scta.info/resource/ps92_4@9-12">Mirabilis in altis Dominus.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps92-Dd1e294">
+          <head xml:id="gom-ps92-Hd1e296">Versus 5</head>
+          <p xml:id="gom-ps92-d1e298">
+            <quote xml:id="gom-ps92-Qd1e300" type="lemma" source="http://scta.info/resource/ps92_5@1-1">Testimonia.</quote>
+            <ref xml:id="gom-ps92-Rd1e303"><name xml:id="gom-ps92-Nd1e304" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e307"><seg type="qs">Quia <quote xml:id="gom-ps92-Qd1e310" source="http://scta.info/resource/ps92_4@5-7">mirabilis elatio maris,</quote></seg> etc., usque ad <seg type="qs">et coronas ex praedictione.</seg></quote>
+          </p>
+          <p xml:id="gom-ps92-d1e317">
+            <ref xml:id="gom-ps92-Rd1e319"><name xml:id="gom-ps92-Nd1e320" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps92-Qd1e323" type="lemma" source="http://scta.info/resource/ps92_5@1-1">Testimonia.</quote>
+            <quote xml:id="gom-ps92-Qd1e326"><seg type="qs">Vel ita</seg>, etc., usque ad <seg type="qs">licet brevibus verbis, continet.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

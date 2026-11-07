@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ad Romanos, Caput 11</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>ad Romanos, Caput 11</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0506A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-rom11">
+        <head xml:id="gom-rom11-Hd1e98">Caput 11</head>
+        <p xml:id="gom-rom11-d1e100">
+          Vers. 1.-- <quote xml:id="gom-rom11-Qd1e102">Dico ergo.</quote> Quia tot auctoritatibus confutavit Judaeos, insultare possent gentiles, dicentes eos ex toto repulsos esse.
+        </p>
+        <div xml:id="gom-rom11-Dd1e105">
+          <head xml:id="gom-rom11-Hd1e107">Versus 2</head>
+          <p xml:id="gom-rom11-d1e109">
+            <quote xml:id="gom-rom11-Qd1e111" type="lemma" source="http://scta.info/resource/rom11_2@7-7">Praescivit.</quote>
+            Pro praedestinavit, posuit praescivit. Sic enim debet accipi, ut ex sequentibus patet; ideo autem dixit, praescivit, ne iterum Judaei superbiant ex eo quo dixit eos non repulsos, et plebem Dei.
+          </p>
+          <p xml:id="gom-rom11-d1e115">
+            <ref xml:id="gom-rom11-Rd1e117" type="lemma" subtype="implied" target="http://scta.info/resource/rom11_2@7-7"/>
+            <ref xml:id="gom-rom11-Rd1e119"><name xml:id="gom-rom11-Nd1e120" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e123">An quisquam dicere audebit Deum non praesciisse quibus esset daturus ut crederent, aut <pb ed="#P" n="0506B"/> quos daturus esset Filio suo, ut ex eis non perderet quemquam? Quae utique si praescivit, profecto beneficia sua, quibus nos dignatur liberare, praescivit. Haec praedestinatio sanctorum nihil aliud est quam praescientia, scilicet et preparatio beneficiorum Dei, quibus certissime liberantur quicunque liberantur.</quote>
+          </p>
+          <p xml:id="gom-rom11-d1e129">
+            <quote xml:id="gom-rom11-Qd1e131" type="lemma" source="http://scta.info/resource/rom11_2@8-9">An nescitis.</quote>
+            Quasi dicat: ita reliquias in hoc tempore non repulit Dominus, sed salvavit; sicut tempore Eliae multos sibi reservavit, cum Elias solus sibi videretur, qui si ignoravit et alios praeter se reservatos, non mirum si isti ignorent.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e136">
+          <head xml:id="gom-rom11-Hd1e138">Versus 4</head>
+          <p xml:id="gom-rom11-d1e140">
+            <quote xml:id="gom-rom11-Qd1e142" type="lemma" source="http://scta.info/resource/rom11_4@9-10">Septem millia.</quote>
+            Per septenarium universitas, per millenarium perfectio designatur.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e147">
+          <head xml:id="gom-rom11-Hd1e149">Versus 5</head>
+          <p xml:id="gom-rom11-d1e151">
+            <quote xml:id="gom-rom11-Qd1e153" type="lemma" source="http://scta.info/resource/rom11_5@1-2">Sic ergo.</quote>
+            Quasi dicat: Tunc erant <pb ed="#P" n="0506C"/> multi etsi nesciret Elias. Ergo sic, id est ita latenter; vel sic, id est per eamdem gratiam.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e161">
+          <head xml:id="gom-rom11-Hd1e163">Versus 6</head>
+          <p xml:id="gom-rom11-d1e165">
+            <quote xml:id="gom-rom11-Qd1e167" type="lemma" source="http://scta.info/resource/rom11_6@7-12">Alioquin gratia jam non est gratia.</quote>
+            Hoc est, si aliter salvi facti sunt (quod non potest fieri nisi gratia Dei), ergo ipsa gratia jam non erit gratia, sed debitum.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e172">
+          <head xml:id="gom-rom11-Hd1e174">Versus 7</head>
+          <p xml:id="gom-rom11-d1e176">
+            <quote xml:id="gom-rom11-Qd1e178" type="lemma" source="http://scta.info/resource/rom11_7@1-2">Quid ergo?</quote>
+            Audito quod reliquiae salvae factae sunt gratia, et non ex operibus, quid ergo dicendum est?
+          </p>
+          <p xml:id="gom-rom11-d1e182">
+            <quote xml:id="gom-rom11-Qd1e184" type="lemma" source="http://scta.info/resource/rom11_7@10-13">Electio autem consecuta est.</quote>
+            Electio gratiae est, non meritorum. Excaecatio vero meritorum est. Excaecati enim sunt, quia credere noluerunt, sicut illi quia voluerunt, crediderunt. Misericordia igitur et judicium in ipsis voluntatibus facta sunt a Deo, illis vel per misericordiam gratiam apponente, ipsos vero per judicium excaecari permittente. <pb ed="#P" n="0506D"/> Quicunque enim cum intellexisset credere noluit, id debet consequi quod vult, scilicet ne de caetero possit credere. In voluntate ergo sua adjuti sunt, non immissa malitia, sed deferente gratia; ut quia scientes verum, dicebant esse falsum, de caetero non intelligerent quod verum est. Hoc meretur invidia malae voluntatis, non ita est de his qui errore hoc agunt.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e191">
+          <head xml:id="gom-rom11-Hd1e193">Versus 8</head>
+          <p xml:id="gom-rom11-d1e195">
+            <quote xml:id="gom-rom11-Qd1e197" type="lemma" source="http://scta.info/resource/rom11_8@4-8">Dedit illis spiritum compunctionis.</quote>
+            Malam compunctionem hoc signat, quia saepe fit ut etiam bonum sit homini molestum, ut Pharisaeis doctrina Christi; et sic spiritum compunctionis appellat mentem invidentem, qua inviderunt doctrinae Christi.
+          </p>
+          <p xml:id="gom-rom11-d1e201">
+            <pb ed="#P" n="0507A"/>
+            <quote xml:id="gom-rom11-Qd1e205" type="lemma" source="http://scta.info/resource/rom11_8@18-21">Usque in hodiernum diem.</quote>
+            Id est, quandiu poterit dici hodiernus dies, id est usque in praesentem diem, omnium ad quos hoc scriptum perveniet.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e210">
+          <head xml:id="gom-rom11-Hd1e212">Versus 9</head>
+          <p xml:id="gom-rom11-d1e214">
+            <quote xml:id="gom-rom11-Qd1e216" type="lemma" source="http://scta.info/resource/rom11_9@5-5">Mensa.</quote>
+            Id est Scriptura: <quote xml:id="gom-rom11-Qd1e219" source="http://scta.info/resource/rom11_9@6-6">eorum,</quote> id est quae ipsis primo oblata est, et <quote xml:id="gom-rom11-Qd1e222">coram ipsis</quote> posita, quia in ejus carnalibus observationibus delectantur; vel, <quote xml:id="gom-rom11-Qd1e224">coram eis,</quote> quia si rationem vellent attendere, possent intelligere.
+          </p>
+          <p xml:id="gom-rom11-d1e227">
+            <quote xml:id="gom-rom11-Qd1e229" type="lemma" source="http://scta.info/resource/rom11_9@7-8">In laqueum,</quote>
+            etc. Sicut seipsos acetum mihi obtulerunt, sic fiat ipsis iniquitas laqueus, quia iniquitatem noverunt, et in ea perstiterunt.
+          </p>
+          <p xml:id="gom-rom11-d1e233">
+            <quote xml:id="gom-rom11-Qd1e235" type="lemma" source="http://scta.info/resource/rom11_9@7-8">In laqueum,</quote>
+            etc. Scriptura quae intelligentibus est panis, illaqueat dum male intelligitur et pro ea praedicatio Christi respuitur. Item Scriptura legis fuit causa captivitatis, dum zelo ejus Christum occiderunt, et in illa captivitate fuit causa eis scandali <pb ed="#P" n="0507B"/> et opprobrii, et post erit causa aeternae damnationis, quae specialiter retributio Dei dicitur.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e242">
+          <head xml:id="gom-rom11-Hd1e244">Versus 10</head>
+          <p xml:id="gom-rom11-d1e246">
+            <quote xml:id="gom-rom11-Qd1e248" type="lemma" source="http://scta.info/resource/rom11_10@1-2">Obscurentur oculi.</quote>
+            Quia sine causa non viderunt, fiat eis non videre.
+          </p>
+          <p xml:id="gom-rom11-d1e252">
+            <quote xml:id="gom-rom11-Qd1e254" type="lemma" source="http://scta.info/resource/rom11_10@1-2">Obscurentur oculi.</quote>
+            Haec verba non optantis voto, sed praedicentis officio dicuntur.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e259">
+          <head xml:id="gom-rom11-Hd1e261">Versus 11</head>
+          <p xml:id="gom-rom11-d1e263">
+            <quote xml:id="gom-rom11-Qd1e265" type="lemma" source="http://scta.info/resource/rom11_11@1-3">Dico ergo, Nunquid.</quote>
+            Quia dico excaecatos auctoritate prophetarum, putatis quod irrecuperabiliter et sine utilitate ceciderunt? quasi dicat, non. Sed casus eorum prodest, et possunt restitui, ne quis eos despiciat.
+          </p>
+          <p xml:id="gom-rom11-d1e269">
+            <quote xml:id="gom-rom11-Qd1e271" type="lemma" source="http://scta.info/resource/rom11_11@3-7">Nunquid sic offenderunt, ut caderent?</quote>
+            <ref xml:id="gom-rom11-Rd1e274"><name xml:id="gom-rom11-Nd1e275" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e278"><seg type="qs">Hoc non ideo dicit quia non ceciderunt</seg>, etc., usque ad <seg type="qs">sed magis caveant ne dum superbiunt, cadant.</seg></quote>
+          </p>
+          <p xml:id="gom-rom11-d1e286">
+            <quote xml:id="gom-rom11-Qd1e288" type="lemma" source="http://scta.info/resource/rom11_11@12-12">Salus.</quote>
+            Dum divisi per mundum in testimonium <pb ed="#P" n="0507C"/> sunt non fictas de Christo esse prophetias.
+          </p>
+          <p xml:id="gom-rom11-d1e294">
+            <quote xml:id="gom-rom11-Qd1e296" type="lemma" source="http://scta.info/resource/rom11_11@14-16">Ut illos aemulentur.</quote>
+            Potest sic accipi: ut Judaei imitentur gentiles in bono. Hoc saepe factum est, et plenius fiet in fine saeculi, quando Judaei Christianos sequentur in fine Christi. Tunc enim manus Moysi revocabitur in sinum, tunc Moyses noster revertetur ad matrem et ad fratres. Potest etiam intelligi, ut gentes Judaeos aemulentur, id est credant, sicut et ipsi credebant. Velut gentes Dei aemulatione circa opera Judaeorum mala moveantur.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e302">
+          <head xml:id="gom-rom11-Hd1e304">Versus 12</head>
+          <p xml:id="gom-rom11-d1e306">
+            <quote xml:id="gom-rom11-Qd1e308" type="lemma" source="http://scta.info/resource/rom11_12@1-2">Quod si,</quote>
+            etc. Quasi dicat: Dixi delictum Judaeorum prodesse; quod si est, tunc magis conversio eorum proderit.
+          </p>
+          <p xml:id="gom-rom11-d1e312">
+            <quote xml:id="gom-rom11-Qd1e314" type="lemma" source="http://scta.info/resource/rom11_12@13-14">Quanto magis.</quote>
+            Id est, si malum eorum vertit Deus in bonum, id est in divitias mundi, multo magis bonum eorum, cum in fine plenitudo <pb ed="#P" n="0507D"/> eorum conversa ditabit gentes doctrina et exemplo. In quo ostendit nec inutilem, nec irrecuperabilem casum eorum.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e321">
+          <head xml:id="gom-rom11-Hd1e323">Versus 13</head>
+          <p xml:id="gom-rom11-d1e325">
+            <quote xml:id="gom-rom11-Qd1e327" type="lemma" source="http://scta.info/resource/rom11_13@5-5">Quandiu.</quote>
+            <ref xml:id="gom-rom11-Rd1e330"><name xml:id="gom-rom11-Nd1e331" ref="#per-s7hans">ANSELM.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e334">Etsi apostolus sim gentium, tamen honorificabo ministerium superaddendo ultra hoc quod debeo, ut etiam de Judaeis laborem tentans; si hac non succedit via, aggrediar alia, quod non facerem, si de salute eorum desperarem.</quote>
+          </p>
+          <p xml:id="gom-rom11-d1e337">
+            <ref xml:id="gom-rom11-Rd1e339" type="lemma" subtype="implied" target="http://scta.info/resource/rom11_13@5-5"/>
+            <ref xml:id="gom-rom11-Rd1e341"><name xml:id="gom-rom11-Nd1e342" ref="#JohnChrysostom">CHRYS.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e345">Rursus mala suspicione seipsum liberare satagit. Videtur autem eos quidem qui ex gentibus erant, objurgare, mentesque illorum humiliare; sensim tamen Judaeum vellicat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e349">
+          <head xml:id="gom-rom11-Hd1e351">Versus 16</head>
+          <p xml:id="gom-rom11-d1e353">
+            <quote xml:id="gom-rom11-Qd1e355" type="lemma" source="http://scta.info/resource/rom11_16@1-3">Quod si delibatio.</quote>
+            Dixi quod assumptio <pb ed="#P" n="0508A"/> eorum erit multum utilis; quam ne dicatis gentiles non posse fieri, quasi totum genus sit repudiatum, dico quod si delibatio, id est pauci de illis assumpti, ut apostoli et alii discipuli sunt sancti.
+          </p>
+          <p xml:id="gom-rom11-d1e361">
+            <quote xml:id="gom-rom11-Qd1e363" type="lemma" source="http://scta.info/resource/rom11_16@6-7">Et massa.</quote>
+            Id est, genus potest sanctificari.
+          </p>
+          <p xml:id="gom-rom11-d1e367">
+            <quote xml:id="gom-rom11-Qd1e369" type="lemma" source="http://scta.info/resource/rom11_16@8-10">Et si radix.</quote>
+            Id est patriarchae, a quibus contrahunt sancti humorem fidei.
+          </p>
+          <p xml:id="gom-rom11-d1e373">
+            <quote xml:id="gom-rom11-Qd1e375" type="lemma" source="http://scta.info/resource/rom11_16@12-13">Et rami.</quote>
+            Qui de eorum genere excreverunt in eorum fide fundati.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e380">
+          <head xml:id="gom-rom11-Hd1e382">Versus 17</head>
+          <p xml:id="gom-rom11-d1e384">
+            <quote xml:id="gom-rom11-Qd1e386" type="lemma" source="http://scta.info/resource/rom11_17@10-13">Cum oleaster esses, insertus,</quote>
+            etc.
+            <ref xml:id="gom-rom11-Rd1e389"><name xml:id="gom-rom11-Nd1e390" ref="#per-s7hans">ANSELM.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e393"><seg type="qs">Videamus quemadmodum et ipse Dominus praenuntiet insertionem oleastri et fractionem ramorum</seg>, etc., usque ad <seg type="qs">quod Dominus praedixit faciendum</seg></quote>
+          </p>
+          <p xml:id="gom-rom11-d1e401">
+            <quote xml:id="gom-rom11-Qd1e403" type="lemma" source="http://scta.info/resource/rom11_17@18-18">Socius.</quote>
+            In spe promissionis: hoc contra morem. Bona enim arbor in non bonam inseri solet, hic non bona in bonam.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e408">
+          <head xml:id="gom-rom11-Hd1e410">Versus 18</head>
+          <p xml:id="gom-rom11-d1e412">
+            <pb ed="#P" n="0508B"/>
+            <quote xml:id="gom-rom11-Qd1e416" type="lemma" source="http://scta.info/resource/rom11_18@1-2">Noli gloriari,</quote>
+            etc.
+            <ref xml:id="gom-rom11-Rd1e419"><name xml:id="gom-rom11-Nd1e420" ref="#per-s7hans">ANSELM.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e423">Gentes jam in Christum credentes erigebant se contra Judaeos, quia crucifixerant Christum, cum et de ipsis veniret alius paries ad angularem lapidem, et ideo reprimit illas Apostolus.</quote>
+          </p>
+          <p xml:id="gom-rom11-d1e426">
+            <quote xml:id="gom-rom11-Qd1e428" type="lemma" source="http://scta.info/resource/rom11_18@1-1">Noli,</quote>
+            inquiens, <quote xml:id="gom-rom11-Qd1e431" source="http://scta.info/resource/rom11_18@2-2">gloriari,</quote> etc., id est, non es stabilis si illos per quos stas destruis.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e436">
+          <head xml:id="gom-rom11-Hd1e438">Versus 19</head>
+          <p xml:id="gom-rom11-d1e440">
+            <quote xml:id="gom-rom11-Qd1e442" type="lemma" source="http://scta.info/resource/rom11_19@1-3">Dicis ergo fracti.</quote>
+            Quasi dicat: si non contra stantes, tamen contra eos licet gloriari, qui causa insertionis meae repulsi sunt; quod removet Apostolus, ita: Bene dicis, quia verum est quod fracti sunt propter incredulitatem; tu stas fide, id est non merito tuo, sed gratia Dei; et ideo noli superbire, ne et tu frangaris per superbiam, ut illi per incredulitatem. Non es stabilis, si per quos stas destruis. Facile decipitur, qui alienis malis gaudet.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e448">
+          <head xml:id="gom-rom11-Hd1e450">Versus 20</head>
+          <p xml:id="gom-rom11-d1e452">
+            <pb ed="#P" n="0508C"/>
+            <quote xml:id="gom-rom11-Qd1e456" type="lemma" source="http://scta.info/resource/rom11_20@8-9">Fide stas.</quote>
+            Dei est beneficium quod tu stas, non tuum meritum.
+          </p>
+          <p xml:id="gom-rom11-d1e460">
+            <quote xml:id="gom-rom11-Qd1e462" type="lemma" source="http://scta.info/resource/rom11_20@13-14">Sed time.</quote>
+            Ne tantae gratiae beneficium amittas, et in supplicium incidas. Castus enim timor est cum cavet anima ne Deus illam desertus deserat.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e467">
+          <head xml:id="gom-rom11-Hd1e469">Versus 22</head>
+          <p xml:id="gom-rom11-d1e471">
+            <quote xml:id="gom-rom11-Qd1e473" type="lemma" source="http://scta.info/resource/rom11_22@18-21">Si permanseris in bonitate.</quote>
+            Si digna Dei benignitate operatus fueris, neque enim tibi sola fide opus est.
+          </p>
+          <p xml:id="gom-rom11-d1e477">
+            <quote xml:id="gom-rom11-Qd1e479" type="lemma" source="http://scta.info/resource/rom11_22@12-17">Severitatem autem Dei.</quote>
+            Quod eis non pepercerit, eo quod patrum virtute indignos ipsos invenerit.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e484">
+          <head xml:id="gom-rom11-Hd1e486">Versus 24</head>
+          <p xml:id="gom-rom11-d1e488">
+            <quote xml:id="gom-rom11-Qd1e490" type="lemma" source="http://scta.info/resource/rom11_24@10-11">Contra naturam.</quote>
+            Dicitur id contra naturam quod est contra consuetudinem naturae, ut si surculus fructum radicis ferat. Deus tamen nihil contra naturam facit, quia id est natura quod facit.
+          </p>
+          <p xml:id="gom-rom11-d1e494">
+            <quote xml:id="gom-rom11-Qd1e496" type="lemma" source="http://scta.info/resource/rom11_24@16-16">Olivam.</quote>
+            Per olivam intelligitur hic fides Patrum.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e501">
+          <head xml:id="gom-rom11-Hd1e503">Versus 25</head>
+          <p xml:id="gom-rom11-d1e505">
+            <pb ed="#P" n="0508D"/>
+            <quote xml:id="gom-rom11-Qd1e509" type="lemma" source="http://scta.info/resource/rom11_25@1-4">Nolo enim vos ignorare,</quote>
+            etc.
+            <ref xml:id="gom-rom11-Rd1e512"><name xml:id="gom-rom11-Nd1e513" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e516">Legis defensores, legis tractatores, legis doctores, legis intellectores, auctorem legis crucifixerunt. O caecitas! Ipsa est quae ex parte cecidit in Israel, ut crucifigeretur Christus, et plenitudo gentium intraret.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e520">
+          <head xml:id="gom-rom11-Hd1e522">Versus 26</head>
+          <p xml:id="gom-rom11-d1e524">
+            <quote xml:id="gom-rom11-Qd1e526" type="lemma" source="http://scta.info/resource/rom11_26@16-16">Impietatem.</quote>
+            Id est infidelitatem, vel legalis observantiae cultum. Cultus enim Judaeorum ab adventu Christi cognito est impietas.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e531">
+          <head xml:id="gom-rom11-Hd1e533">Versus 27</head>
+          <p xml:id="gom-rom11-d1e535">
+            <quote xml:id="gom-rom11-Qd1e537" type="lemma" source="http://scta.info/resource/rom11_27@8-8">Abstulero.</quote>
+            Hoc erit in fine quando praedicatione Eliae et Enoch convertentur Judaei, unde per Malachiam: <quote xml:id="gom-rom11-Qd1e540" source="http://scta.info/resource/mal4_6@2-11">Mittam vobis Eliam Thesbitem qui convertet corda patrum ad filios, et corda filiorum ad patrem</quote>; ut intelligant filii ut patres, id est ut prophetae intellexerunt.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e546">
+          <head xml:id="gom-rom11-Hd1e548">Versus 28</head>
+          <p xml:id="gom-rom11-d1e550">
+            <pb ed="#P" n="0509A"/>
+            <quote xml:id="gom-rom11-Qd1e554" type="lemma" source="http://scta.info/resource/rom11_28@1-2">Secundum Evangelium,</quote>
+            <ref xml:id="gom-rom11-Rd1e557"><name xml:id="gom-rom11-Nd1e558" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e561">etc. Vel ita: tunc converterentur; sed modo inimici quidem sunt Christi, et quidem nostri. Iterum ex se, ex suo scilicet vitio. Sed hoc est secundum Evangelium et propter vos, id est ad profectum Evangelii et vestrum.</quote>
+          </p>
+          <p xml:id="gom-rom11-d1e564">
+            <quote xml:id="gom-rom11-Qd1e566" type="lemma" source="http://scta.info/resource/rom11_28@4-5">Inimici propter.</quote>
+            Ostendit hoc ex Dei dispositione provenire. Ex se enim possunt inimicari, quod proficit Evangelio, Deo utente malis ad bonum, ut cum faciant contra voluntatem Dei impleatur voluntas Dei sapienter omnia disponens.
+          </p>
+          <p xml:id="gom-rom11-d1e570">
+            <quote xml:id="gom-rom11-Qd1e572" type="lemma" source="http://scta.info/resource/rom11_28@11-12">Propter patres.</quote>
+            Electi sunt dilecti propter patres, quibus haec promissa sunt; quia non sunt vocati ea vocatione qua multi non praesciti, qui tamen pereunt, de qua dictum est: <quote xml:id="gom-rom11-Qd1e575" source="http://scta.info/resource/mt22_14@1-7">Multi sunt vocati, pauci vero electi<!-- check: Migne cites mc20; text matches mt22_14 --></quote>; sed <pb ed="#P" n="0509B"/> ea qua vocantur electi, quae est sine mutatione: quia qui audit a Patre venit ad Filium, qui non perdit quidquam de omni dato; quisquis vero perit, non inde fuit; unde: <quote xml:id="gom-rom11-Qd1e581" source="http://scta.info/resource/Iio2_19@2-8">A nobis exierunt, sed ex nobis non fuerunt</quote>.
+          </p>
+          <p xml:id="gom-rom11-d1e585">
+            <quote xml:id="gom-rom11-Qd1e587" type="lemma" source="http://scta.info/resource/rom11_28@7-12">Secundum electionem et propter patres</quote>
+            <ref xml:id="gom-rom11-Rd1e590"><name xml:id="gom-rom11-Nd1e591" ref="#Augustine">Aug.</name>, lib. de Praedest. sanc., c. 16.</ref>
+            <quote xml:id="gom-rom11-Qd1e595"><seg type="qs">Sunt salvandi: quia <quote xml:id="gom-rom11-Qd1e598" source="http://scta.info/resource/rom11_29@5-5">dona,</quote> id est promissiones</seg>, etc., usque ad <seg type="qs">quia eos dolore non vident.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e607">
+          <head xml:id="gom-rom11-Hd1e609">Versus 30</head>
+          <p xml:id="gom-rom11-d1e611">
+            <quote xml:id="gom-rom11-Qd1e613" type="lemma" source="http://scta.info/resource/rom11_30@1-2">Sicut enim.</quote>
+            Id est qua ratione vos olim permisit Deus non credere, scilicet ne causam superbiendi haberetis postea conversi.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e618">
+          <head xml:id="gom-rom11-Hd1e620">Versus 31</head>
+          <p xml:id="gom-rom11-d1e622">
+            <quote xml:id="gom-rom11-Qd1e624" type="lemma" source="http://scta.info/resource/rom11_31@10-12">Ut et ipsi.</quote>
+            Experti non per legem esse salutem, sed per gratiam: ut et sic per humilitatem consequentur misericordiam.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e629">
+          <head xml:id="gom-rom11-Hd1e631">Versus 32</head>
+          <p xml:id="gom-rom11-d1e633">
+            <pb ed="#P" n="0509C"/>
+            <quote xml:id="gom-rom11-Qd1e637" type="lemma" source="http://scta.info/resource/rom11_32@1-1">Conclusit.</quote>
+            Id est permisit concludi. Hic videtur aliquo modo mysterium exponere.
+          </p>
+          <p xml:id="gom-rom11-d1e641">
+            <quote xml:id="gom-rom11-Qd1e643" type="lemma" source="http://scta.info/resource/rom11_32@1-5">Conclusit enim Deus omnia in infideli,</quote>
+            ut de amaritudine infidelitatis suae poenitendo confusi, ad dulcedinem misericordiae Dei credendo conversi, humiliores permanerent, ut et gratia muneris esset gratissima, et clamarent: <quote xml:id="gom-rom11-Qd1e646" source="http://scta.info/resource/ps30_20@1-6">Quam magna multitudo dulcedinis tuae, Domine Omnium.</quote> Id est Judaeorum et gentium, non quod nullum damnaturus sit, quod quidam falso opinati sunt.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e651">
+          <head xml:id="gom-rom11-Hd1e653">Versus 33</head>
+          <p xml:id="gom-rom11-d1e655">
+            <quote xml:id="gom-rom11-Qd1e657" type="lemma" source="http://scta.info/resource/rom11_33@1-2">O altitudo,</quote>
+            etc. Praemiserat sententiam mirae profunditatis, cujus profunditatis veluti horrore perculsus, exclamat <quote xml:id="gom-rom11-Qd1e660" source="http://scta.info/resource/rom11_33@1-2">o altitudo,</quote> etc. Valde enim parvum sensum habemus ad discutiendam justitiam <pb ed="#P" n="0509D"/> judiciorum Dei, ad discutiendam gratiam gratuitam nullis meritis praecedentibus redditam. Nec tam movet nos, quod gratia praestatur indignis, quam quod aeque indignis aliis denegatur.
+          </p>
+          <p xml:id="gom-rom11-d1e666">
+            <ref xml:id="gom-rom11-Rd1e668" type="lemma" subtype="implied" target="http://scta.info/resource/rom11_33@1-2"/>
+            <ref xml:id="gom-rom11-Rd1e670"><name xml:id="gom-rom11-Nd1e671" ref="#Augustine">AUG.</name>, lib. de Spirit, et lit., c. 36 in fine.</ref>
+            <quote xml:id="gom-rom11-Qd1e675"><seg type="qs">Scio quod sicut impossibilitas, et ita iniquitas non est apud Deum</seg>, etc., usque ad <seg type="qs">ut prius permitteret eos concludi in infidelitate.</seg></quote>
+          </p>
+          <p xml:id="gom-rom11-d1e683">
+            <ref xml:id="gom-rom11-Rd1e685" type="lemma" subtype="implied" target="http://scta.info/resource/rom11_33@1-2"/>
+            <ref xml:id="gom-rom11-Rd1e687"><name xml:id="gom-rom11-Nd1e688" ref="#Augustine">ID.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e691"><seg type="qs">Aliquando filiis infidelium praestatur Dei gratia</seg>, etc., usque ad <seg type="qs">et si non in hac vita, certe in altera, etc.</seg></quote>
+          </p>
+          <p xml:id="gom-rom11-d1e699">
+            <quote xml:id="gom-rom11-Qd1e701" type="lemma" source="http://scta.info/resource/rom11_33@15-16">Viae ejus.</quote>
+            Id est impletiones dispositionis, quia nec in exhibitione potest cognosci quod disposuit.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e706">
+          <head xml:id="gom-rom11-Hd1e708">Versus 34</head>
+          <p xml:id="gom-rom11-d1e710">
+            <quote xml:id="gom-rom11-Qd1e712" type="lemma" source="http://scta.info/resource/rom11_34@8-8">Consiliarius.</quote>
+            Patris consiliarius est unigenitus <pb ed="#P" n="0510A"/> Filius ejus, qui et Angelus magni consilii appellatur. Sed ex hominibus et angelis nullus fuit ei consiliarius.
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e720">
+          <head xml:id="gom-rom11-Hd1e722">Versus 35</head>
+          <p xml:id="gom-rom11-d1e724">
+            <quote xml:id="gom-rom11-Qd1e726" type="lemma" source="http://scta.info/resource/rom11_35@1-3">Aut quis prior.</quote>
+            Etsi judicia Dei non possumus scire, saltem hoc constat quod ex sola gratia dat bona, et non ex praecedenti merito.
+          </p>
+          <p xml:id="gom-rom11-d1e730">
+            <ref xml:id="gom-rom11-Rd1e732" type="lemma" subtype="implied" target="http://scta.info/resource/rom11_35@1-3"/>
+            <ref xml:id="gom-rom11-Rd1e734"><name xml:id="gom-rom11-Nd1e735" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-rom11-Qd1e738"><seg type="qs">Deus debitor factus est, non aliquid a nobis accipiendo</seg>, etc., usque ad <seg type="qs">et hoc tu fecisti qui laborantes juvisti, etc.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-rom11-Dd1e747">
+          <head xml:id="gom-rom11-Hd1e749">Versus 36</head>
+          <p xml:id="gom-rom11-d1e751">
+            <quote xml:id="gom-rom11-Qd1e753" type="lemma" source="http://scta.info/resource/rom11_36@1-3">Quoniam ex ipso,</quote>
+            etc.
+          </p>
+          <p xml:id="gom-rom11-d1e757">
+            <quote xml:id="gom-rom11-Qd1e759" type="lemma" source="http://scta.info/resource/rom11_36@2-8">Ex, per, in,</quote>
+            distinctionem personarum indicant; ipse vero idem pronomen repetitum, identitatem substantiae; et quia talis ipsi gloria, non justis ipsis.
+          </p>
+          <p xml:id="gom-rom11-d1e763">
+            <ref xml:id="gom-rom11-Rd1e765" type="lemma" subtype="implied" target="http://scta.info/resource/rom11_36@2-8"/>
+            <ref xml:id="gom-rom11-Rd1e767"><name xml:id="gom-rom11-Nd1e768" ref="#Augustine">AUG.</name>, lib. de Natura boni, cap. 27, Ex ipso.</ref>
+            <quote xml:id="gom-rom11-Qd1e772"><seg type="qs">Non de ipso sunt omnia</seg>, etc., usque ad <seg type="qs">singula horum <pb ed="#P" n="0510B"/> trium referri ad singulos voluit.</seg></quote>
+          </p>
+          <p xml:id="gom-rom11-d1e782">
+            <quote xml:id="gom-rom11-Qd1e784" type="lemma" source="http://scta.info/resource/rom11_36@10-10">Omnia.</quote>
+            Cum audivimus <quote xml:id="gom-rom11-Qd1e787" source="http://scta.info/resource/Icor11_12@11-14">omnia esse ex Deo,</quote> omnes utique naturas intelligere debemus, et omnia quae naturaliter sunt; neque enim ex ipso sunt peccata quae naturam vitiant, quae ex voluntate peccantium nascuntur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

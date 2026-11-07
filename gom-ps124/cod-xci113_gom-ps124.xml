@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 124</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 124</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1045B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps124">
+        <head xml:id="gom-ps124-Hd1e98">Psalmus 124</head>
+        <div xml:id="gom-ps124-Dd1e100">
+          <head xml:id="gom-ps124-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps124-d1e104">
+            <quote xml:id="gom-ps124-Qd1e106" type="lemma" source="http://scta.info/resource/ps124_1@1-1">Canticum.</quote>
+            <ref xml:id="gom-ps124-Rd1e109"><name xml:id="gom-ps124-Nd1e110" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e113">Sextus gradus, confidentia fidelissimi Christiani solidissimis montibus comparatur, quam habet in Domino, ne zelet felices in hoc saeculo.</quote>
+          </p>
+          <p xml:id="gom-ps124-d1e116">
+            <quote xml:id="gom-ps124-Qd1e118" type="lemma" source="http://scta.info/resource/ps124_1@3-4">Qui confidunt.</quote>
+            <ref xml:id="gom-ps124-Rd1e121"><name xml:id="gom-ps124-Nd1e122" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e125"><seg type="qs">Hic psalmus docet</seg>, etc., usque ad <seg type="qs">qui sunt isti? qualis est ista Jerusalem? breviter describit.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps124-Dd1e134">
+          <head xml:id="gom-ps124-Hd1e136">Versus 2</head>
+          <p xml:id="gom-ps124-d1e138">
+            <quote xml:id="gom-ps124-Qd1e140" type="lemma" source="http://scta.info/resource/ps124_2@3-5">Montes in circuitu,</quote>
+            id est, angeli, prophetae, <pb ed="#P" n="1045C"/> apostoli sunt murus ejus: unde Isaias: <quote xml:id="gom-ps124-Qd1e145" source="http://scta.info/resource/is26_1@15-19">Et erit in ea murus, et antemurale</quote>; sed ne in montibus remaneas, addit, et Dominus in circuitu. <quote xml:id="gom-ps124-Qd1e148">Ne ergo sit spes in montibus,</quote> sed in vertice montium: unde Isaias: <quote xml:id="gom-ps124-Qd1e150" source="http://scta.info/resource/is2_2@2-11">Erit in novissimis diebus mons in vertice<!-- check: Migne cites is21; text matches is2_2 --></quote>, etc.
+          </p>
+        </div>
+        <div xml:id="gom-ps124-Dd1e156">
+          <head xml:id="gom-ps124-Hd1e158">Versus 1</head>
+          <p xml:id="gom-ps124-d1e160">
+            <quote xml:id="gom-ps124-Qd1e162" type="lemma" source="http://scta.info/resource/ps124_1@3-4">Qui confidunt.</quote>
+            <ref xml:id="gom-ps124-Rd1e165"><name xml:id="gom-ps124-Nd1e166" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e169"><seg type="qs">Primo asserit</seg>, etc., usque ad <seg type="qs">quia et multi sunt, et unum sunt.</seg></quote>
+          </p>
+          <p xml:id="gom-ps124-d1e177">
+            <quote xml:id="gom-ps124-Qd1e179" type="lemma" source="http://scta.info/resource/ps124_1@8-9">Mons Sion.</quote>
+            <ref xml:id="gom-ps124-Rd1e182"><name xml:id="gom-ps124-Nd1e183" ref="#Jerome">HIER.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e186">Christus, in quo fundata est Ecclesia: Mons ille ad litteram, in fine saeculi commovebitur.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps124-Dd1e190">
+          <head xml:id="gom-ps124-Hd1e192">Versus 3</head>
+          <p xml:id="gom-ps124-d1e194">
+            <quote xml:id="gom-ps124-Qd1e196" type="lemma" source="http://scta.info/resource/ps124_3@5-6">Virgam peccatorum.</quote>
+            <ref xml:id="gom-ps124-Rd1e199"><name xml:id="gom-ps124-Nd1e200" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e203">Dominantur enim aliquando propter disciplinam bonorum, sed hoc non semper erit, ut hic aperte dicit propheta: et ideo non deficiunt justi, quia sciunt tempus futurum, quo Christus in claritate sua apparens, congregabit <pb ed="#P" n="1045D"/> ante se omnes gentes, et dividet eas sicut pastor dividit haedos ab ovibus, ovesque ponet a dextris, haedos a sinistris.</quote>
+          </p>
+          <p xml:id="gom-ps124-d1e209">
+            <quote xml:id="gom-ps124-Qd1e211" type="lemma" source="http://scta.info/resource/ps124_3@7-7">Sortem.</quote>
+            <ref xml:id="gom-ps124-Rd1e214"><name xml:id="gom-ps124-Nd1e215" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e218">Id est, justos sorte electos, vel qui sunt sors et haereditas Dei.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps124-Dd1e223">
+          <head xml:id="gom-ps124-Hd1e225">Versus 4</head>
+          <p xml:id="gom-ps124-d1e227">
+            <quote xml:id="gom-ps124-Qd1e229" type="lemma" source="http://scta.info/resource/ps124_4@1-2">Benefac, Domine.</quote>
+            <ref xml:id="gom-ps124-Rd1e232"><name xml:id="gom-ps124-Nd1e233" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e236">Secunda pars, ubi confirmato populo, precatur quod scit futurum ut bonis prosperitas, malis vindicta veniat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps124-Dd1e240">
+          <head xml:id="gom-ps124-Hd1e242">Versus 5</head>
+          <p xml:id="gom-ps124-d1e244">
+            <quote xml:id="gom-ps124-Qd1e246" type="lemma" source="http://scta.info/resource/ps124_5@1-2">Declinantes autem.</quote>
+            <ref xml:id="gom-ps124-Rd1e249"><name xml:id="gom-ps124-Nd1e250" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e253">Pari etiam sententia pereunt, qui declinant jussa principis, et qui opera mala velle contendunt; deficientes, cum cogentibus deficere.</quote>
+          </p>
+          <p xml:id="gom-ps124-d1e256">
+            <quote xml:id="gom-ps124-Qd1e258" type="lemma" source="http://scta.info/resource/ps124_5@10-12">Pax super Israel.</quote>
+            <ref xml:id="gom-ps124-Rd1e261"><name xml:id="gom-ps124-Nd1e262" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps124-Qd1e265">Uno nomine patria haereditas dicitur quae est Christus. Ipse enim est pax nostra, qui fecit utraque unum, qui pacem supra pacem dabit nobis.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

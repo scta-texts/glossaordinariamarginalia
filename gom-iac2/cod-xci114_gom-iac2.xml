@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iacobi, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Iacobi, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci114">Patrologia Latina, vol. 114</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0673C"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-iac2">
+        <head xml:id="gom-iac2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-iac2-Dd1e100">
+          <head xml:id="gom-iac2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-iac2-d1e104">
+            <pb ed="#P" n="0673C"/>
+            <quote xml:id="gom-iac2-Qd1e108" type="lemma" source="http://scta.info/resource/iac2_1">Nolite. Quasi dicat:</quote>
+            <!-- check: lemma not matched to verse text -->
+            Dominus non divites invitat ad fidem et pauperes despicit, sed pauperes elegit in hoc mundo, et eos fide donavit. Mundus pauperem abjicit, divitem colit; fides Christi econtra docet quia omnis gloria divitum tanquam flos feni, misericordia in pauperes floret in aeternum.
+          </p>
+          <p xml:id="gom-iac2-d1e114">
+            <quote xml:id="gom-iac2-Qd1e116" type="lemma" source="http://scta.info/resource/iac2_1@9-13">Domini gloriae.</quote>
+            Dominum gloriae nominat, ut ejus jussis obediatur, qui sempiterna gloria remunerat id quod pro ejus amore pauperibus datur.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e121">
+          <head xml:id="gom-iac2-Hd1e123">Versus 5</head>
+          <p xml:id="gom-iac2-d1e125">
+            <quote xml:id="gom-iac2-Qd1e127" type="lemma" source="http://scta.info/resource/iac2_5@1-1">Audite.</quote>
+            <ref xml:id="gom-iac2-Rd1e130"><name xml:id="gom-iac2-Nd1e131" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e134"><seg type="qs">Diligentius attendite, quia non qui ditiores in saeculo</seg>, etc., usque ad <seg type="qs">sed hos tamen exspectatione futuri regni praeclaros reddidit et nobiles.</seg></quote>
+          </p>
+          <p xml:id="gom-iac2-d1e142">
+            <quote xml:id="gom-iac2-Qd1e144" type="lemma" source="http://scta.info/resource/iac2_5@5-6">Nonne Deus.</quote>
+            <ref xml:id="gom-iac2-Rd1e147"><name xml:id="gom-iac2-Nd1e148" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e151">Pauperes elegit Deus qui alibi ait: <quote xml:id="gom-iac2-Qd1e153" source="http://scta.info/resource/lc12_32@1-11">Nolite timere, pusillus grex, quia complacuit Patri <pb ed="#P" n="0673D"/> vestro dare vobis regnum.</quote> Pauperes etiam parentes quorum nutriretur officio elegit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e161">
+          <head xml:id="gom-iac2-Hd1e163">Versus 6</head>
+          <p xml:id="gom-iac2-d1e165">
+            <quote xml:id="gom-iac2-Qd1e167" type="lemma" source="http://scta.info/resource/iac2_6@5-6">Nonne divites.</quote>
+            Apertius ostendit quos divites superius dixerit, scilicet illos qui divitias Christo praeferunt, et ipsi alieni a fide, eos qui credunt per potentiam opprimunt, et ad judicia potentiorum trahunt. Et est alia causa quare non sunt eligendi, quia mala inferunt fidelibus.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e172">
+          <head xml:id="gom-iac2-Hd1e174">Versus 7</head>
+          <p xml:id="gom-iac2-d1e176">
+            <quote xml:id="gom-iac2-Qd1e178" type="lemma" source="http://scta.info/resource/iac2_7@3-3">Blasphemant.</quote>
+            Haec apostolorum temporibus plures gentilium et Judaeorum, maxime ditiores fecisse inveniuntur.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e184">
+          <head xml:id="gom-iac2-Hd1e186">Versus 8</head>
+          <p xml:id="gom-iac2-d1e188">
+            <quote xml:id="gom-iac2-Qd1e190" type="lemma" source="http://scta.info/resource/iac2_8@1-3">Si tamen legem.</quote>
+            Quia aspere et de contemptu divitum locutus erat, et quodammodo contrarius legi divinae, quae omnes diligi praecipit, <pb ed="#P" n="0674A"/> ne omnino contemnendi divites putentur, subdit: quasi dicat propter praedictas causas non sunt eligendi, sed si perficitis hanc legem quae dicit: <quote xml:id="gom-iac2-Qd1e195" source="http://scta.info/resource/mt22_39@6-7">Diliges proximum</quote>, benefacitis; quia, etsi divites propter divitias non sunt eligendi, non tamen propter Deum minus sunt diligendi.
+          </p>
+          <p xml:id="gom-iac2-d1e199">
+            <quote xml:id="gom-iac2-Qd1e201" type="lemma" source="http://scta.info/resource/iac2_8@5-5">Regalem.</quote>
+            Id est excellentem, vel quia communis est omnibus, et omnes complectitur. Vel quae dicit: <quote xml:id="gom-iac2-Qd1e204" source="http://scta.info/resource/lev19_15@11-16">Non confundas personam pauperis, nec honores vultum potentis</quote>, et alibi: <quote xml:id="gom-iac2-Qd1e207" source="http://scta.info/resource/deut1_17@1-17">Nulla erit distantia personarum: ita parvum ut magnum audietis, quia judicium Dei est</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e212">
+          <head xml:id="gom-iac2-Hd1e214">Versus 10</head>
+          <p xml:id="gom-iac2-d1e216">
+            <quote xml:id="gom-iac2-Qd1e218" type="lemma" source="http://scta.info/resource/iac2_10@1-2">Quicunque autem.</quote>
+            Ne putarent contemptibile esse peccatum in hac una re legem transgredi, addit: <quote xml:id="gom-iac2-Qd1e221" source="http://scta.info/resource/iac2_10@1-2">Quicunque autem,</quote> etc.
+          </p>
+          <p xml:id="gom-iac2-d1e225">
+            <quote xml:id="gom-iac2-Qd1e227" type="lemma" source="http://scta.info/resource/iac2_10@6-13">Offendat autem <pb ed="#P" n="0674B"/> in uno factus est omnium reus.</quote>
+            Vere qui in uno offendit est transgressor totius legis, quia qui peccat, contra auctorem legis facit, quem in sua lege negligit, et contra charitatem, quae est causa et mater totius legis. Hanc sententiam ex simili videamus: Si quis me offenderet, omnes fratres et amicos meos in me offenderet, et quodammodo contra omnes peccaret. Sic qui unum mandatum negligit, caetera, quae completa videbantur adjuvare, sibi inutilia reddit.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e234">
+          <head xml:id="gom-iac2-Hd1e236">Versus 12</head>
+          <p xml:id="gom-iac2-d1e238">
+            <quote xml:id="gom-iac2-Qd1e240" type="lemma" source="http://scta.info/resource/iac2_12@1-2">Sic loquimini.</quote>
+            <ref xml:id="gom-iac2-Rd1e243"><name xml:id="gom-iac2-Nd1e244" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e247"><seg type="qs">Quandoquidem malum est divitem propter divitias eligi</seg>, etc., usque ad <seg type="qs">quae spontaneos vocat ad poenitentiam et peccata dimittit.</seg></quote>
+          </p>
+          <p xml:id="gom-iac2-d1e255">
+            <ref xml:id="gom-iac2-Rd1e257" type="lemma" subtype="implied" target="http://scta.info/resource/iac2_12@1-2"/>
+            Quasi diceret: Bene loquimini, et bene facite: quia si negligitis, gravius damnabimini quam qui fuerunt <pb ed="#P" n="0674C"/> in tempore Moysi, quia cui plus committitur, plus ab eo exigitur. Quo plus majorem quis misericordiam a Domino consequitur, eo injustius indigenti proximo misericordiam negat, et justius luit poenas impietatis.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e263">
+          <head xml:id="gom-iac2-Hd1e265">Versus 13</head>
+          <p xml:id="gom-iac2-d1e267">
+            <quote xml:id="gom-iac2-Qd1e269" type="lemma" source="http://scta.info/resource/iac2_13@10-11">Superexaltat autem.</quote>
+            <ref xml:id="gom-iac2-Rd1e272"><name xml:id="gom-iac2-Nd1e273" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e276">Sicut in judicio dolebit ille qui non fecit misericordiam, ita qui fecit, remuneratus exsultabit atque gaudebit.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e280">
+          <head xml:id="gom-iac2-Hd1e282">Versus 14</head>
+          <p xml:id="gom-iac2-d1e284">
+            <quote xml:id="gom-iac2-Qd1e286" type="lemma" source="http://scta.info/resource/iac2_14@1-2">Quid proderit,</quote>
+            etc.
+            <ref xml:id="gom-iac2-Rd1e289"><name xml:id="gom-iac2-Nd1e290" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e293">Hic latius disputat de operibus misericordiae, ut quos praecedente sententia terruerat, consoletur, docendo quibus remediis expientur quotidiana peccata, sine quibus non agitur vita. Ne illi qui non in uno tantum, sed in multis offendunt, in judicio inveniantur rei omnium.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e297">
+          <head xml:id="gom-iac2-Hd1e299">Versus 18</head>
+          <p xml:id="gom-iac2-d1e301">
+            <pb ed="#P" n="0674D"/>
+            <quote xml:id="gom-iac2-Qd1e305" type="lemma" source="http://scta.info/resource/iac2_18@1-3">Sed dicet quis.</quote>
+            Non solum propter praedictas rationes debetis ad bene operandum incitari, sed etiam propter hoc ne improperium ab aliis patiamini, quia aliquis assumpta fiducia de suis operibus ut ostendat solam fidem non valere, improperando dicet: <quote xml:id="gom-iac2-Qd1e308" source="http://scta.info/resource/iac2_18@4-5">Tu fidem,</quote> etc.
+          </p>
+          <p xml:id="gom-iac2-d1e312">
+            <ref xml:id="gom-iac2-Rd1e314" type="lemma" subtype="implied" target="http://scta.info/resource/iac2_18@1-3"/>
+            VERS 19.-- <quote xml:id="gom-iac2-Qd1e316" source="http://scta.info/resource/iac2_19@1-2">Tu credis,</quote> etc. Probavit eos qui opera non habent veram fidem non habere; nunc cujusmodi fidem habeant, patefacit, ne illam talem fidem magnifaciant.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e322">
+          <head xml:id="gom-iac2-Hd1e324">Versus 19</head>
+          <p xml:id="gom-iac2-d1e326">
+            <quote xml:id="gom-iac2-Qd1e328" type="lemma" source="http://scta.info/resource/iac2_19@9-13">Et daemones credunt, et contremiscunt.</quote>
+            <ref xml:id="gom-iac2-Rd1e331"><name xml:id="gom-iac2-Nd1e332" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e335"><seg type="qs">Scriptum est</seg>, etc., usque ad <seg type="qs">daemonibus tardiores et proterviores sunt existimandi.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e344">
+          <head xml:id="gom-iac2-Hd1e346">Versus 20</head>
+          <p xml:id="gom-iac2-d1e348">
+            <pb ed="#P" n="0675A"/>
+            <quote xml:id="gom-iac2-Qd1e352" type="lemma" source="http://scta.info/resource/iac2_20@1-6">Vis autem scire, o homo inanis?</quote>
+            <ref xml:id="gom-iac2-Rd1e355"><name xml:id="gom-iac2-Nd1e356" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e359"><seg type="qs">Probato, quod fides sine operibus mortua est</seg>, etc., usque ad <seg type="qs">imitentur in tentatione et in operatione.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e368">
+          <head xml:id="gom-iac2-Hd1e370">Versus 21</head>
+          <p xml:id="gom-iac2-d1e372">
+            <quote xml:id="gom-iac2-Qd1e374" type="lemma" source="http://scta.info/resource/iac2_21@1-3">Abraham pater noster,</quote>
+            etc.
+            <ref xml:id="gom-iac2-Rd1e377"><name xml:id="gom-iac2-Nd1e378" ref="#Bede">ID.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e381"><seg type="qs">Quod Abraham per fidem sine operibus justificatus dicitur</seg>, etc., usque ad <seg type="qs">de utroque in exemplum proponitur.</seg></quote>
+          </p>
+          <p xml:id="gom-iac2-d1e389">
+            <quote xml:id="gom-iac2-Qd1e391" type="lemma" source="http://scta.info/resource/iac2_21@9-14">Offerens filium suum Isaac super altare?</quote>
+            Magna tentatio, cum filium jubebatur occidere; magna fides, cum etiam de mortuo credebat se posse semen accipere; magnum opus, cum dilectissimum non dubitaret offerre.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e396">
+          <head xml:id="gom-iac2-Hd1e398">Versus 22</head>
+          <p xml:id="gom-iac2-d1e400">
+            <quote xml:id="gom-iac2-Qd1e402" type="lemma" source="http://scta.info/resource/iac2_22@1-9">Vides quoniam fides cooperabatur operibus illius, et ex operibus,</quote>
+            etc. Quia obtulit illum, in quo acceperat promissionem, apparet magna virtus fidei: quia, etsi eum offerret, credebat promissionem <pb ed="#P" n="0675B"/> implendam, quia potentem credebat Deum etiam suscitare mortuum.
+          </p>
+        </div>
+        <div xml:id="gom-iac2-Dd1e409">
+          <head xml:id="gom-iac2-Hd1e411">Versus 25</head>
+          <p xml:id="gom-iac2-d1e413">
+            <quote xml:id="gom-iac2-Qd1e415" type="lemma" source="http://scta.info/resource/iac2_25@1-5">Similiter et Raab meretrix.</quote>
+            <ref xml:id="gom-iac2-Rd1e418"><name xml:id="gom-iac2-Nd1e419" ref="#Bede">BED.</name></ref>
+            <quote xml:id="gom-iac2-Qd1e422"><seg type="qs">Ne causarentur opera tanti patris se imitari non posse</seg>, etc., usque ad <seg type="qs">et annumerata in generationibus Salvatoris.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

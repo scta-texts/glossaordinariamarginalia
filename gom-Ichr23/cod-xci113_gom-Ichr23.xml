@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paralipomenon I, Caput 23</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Paralipomenon I, Caput 23</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0658D"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-Ichr23">
+        <head xml:id="gom-Ichr23-Hd1e98">Caput 23</head>
+        <div xml:id="gom-Ichr23-Dd1e100">
+          <head xml:id="gom-Ichr23-Hd1e102">Versus 1</head>
+          <p xml:id="gom-Ichr23-d1e104">
+            <quote xml:id="gom-Ichr23-Qd1e106" type="lemma" source="http://scta.info/resource/Ichr23_1@1-2">Igitur David,</quote>
+            etc. Post completionem <pb ed="#P" n="0659A"/> Veteris Testamenti, successit incarnatio Salvatoris, cujus regni non erit finis, unde: <quote xml:id="gom-Ichr23-Qd1e111" source="http://scta.info/resource/gal4_4@2-9">Ubi venit plenitudo temporis, misit Deus Filium suum</quote>.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr23-Dd1e116">
+          <head xml:id="gom-Ichr23-Hd1e118">Versus 3</head>
+          <p xml:id="gom-Ichr23-d1e120">
+            <quote xml:id="gom-Ichr23-Qd1e122" type="lemma" source="http://scta.info/resource/Ichr23_3@1-1">Numeratique.</quote>
+            Qui ministerio Domini funguntur, fidem sanctae Trinitatis, et mandatorum impletionem servare debent. Unde: <quote xml:id="gom-Ichr23-Qd1e125" source="http://scta.info/resource/Ichr23_3@10-15">Inventa sunt triginta octo millia virorum.</quote> Quisquis enim sana fide et recto opere usque ad finem Deo servit, et ad resurrectionis gratiam, et beatitudinem aeternam quae in octonario signantur, perveniet.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr23-Dd1e130">
+          <head xml:id="gom-Ichr23-Hd1e132">Versus 4</head>
+          <p xml:id="gom-Ichr23-d1e134">
+            <quote xml:id="gom-Ichr23-Qd1e136" type="lemma" source="http://scta.info/resource/Ichr23_4@11-12">Viginti quatuor.</quote>
+            Quia veri ministri lucis debent instare, et a via justitiae non declinare. Nam viginti quatuor horis totus per circulum orbis illustratur, et tenebrarum umbra pellitur. Unde septuaginta duo discipuli ad praedicandum missi, quia <pb ed="#P" n="0659B"/> fides sanctae Trinitatis cum operibus lucis ad justitiam sufficit: ter enim viceni et quater terni septuaginta duo fiunt, quo numero linguarum diversitas, et librorum utriusque Testamenti series comprehenditur.
+          </p>
+          <p xml:id="gom-Ichr23-d1e142">
+            <quote xml:id="gom-Ichr23-Qd1e144" type="lemma" source="http://scta.info/resource/Ichr23_4@14-14">Praepositorum.</quote>
+            Quia nemo hujus ordinis dignitatem appetere debet, nisi qui perfectioni et doctrinae studet. Senario enim numero mundus factus est, et homo sexto die creatus, quo et redemptus est.
+          </p>
+          <p xml:id="gom-Ichr23-d1e148">
+            <ref xml:id="gom-Ichr23-Rd1e150" type="lemma" subtype="implied" target="http://scta.info/resource/Ichr23_4@14-14"/>
+            <ref xml:id="gom-Ichr23-Rd1e152"><name xml:id="gom-Ichr23-Nd1e153" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-Ichr23-Qd1e156"><seg type="qs">Quia lex et prophetae</seg>, etc., usque ad <seg type="qs">et patienter toleret omnia, amarus et iratus peccatis suis.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr23-Dd1e165">
+          <head xml:id="gom-Ichr23-Hd1e167">Versus 25</head>
+          <p xml:id="gom-Ichr23-d1e169">
+            <quote xml:id="gom-Ichr23-Qd1e171" type="lemma" source="http://scta.info/resource/Ichr23_25@1-7">Dixit enim David: Requiem dedit Dominus Deus,</quote>
+            etc.
+            <ref xml:id="gom-Ichr23-Rd1e174"><name xml:id="gom-Ichr23-Nd1e175" ref="#RabanusMaurus">ID.</name></ref>
+            <quote xml:id="gom-Ichr23-Qd1e178"><seg type="qs">Dum filii Israel in deserto fuerunt</seg>, etc., usque ad <seg type="qs">Evangelium vero stabile et <pb ed="#P" n="0659C"/> fixum.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-Ichr23-Dd1e190">
+          <head xml:id="gom-Ichr23-Hd1e192">Versus 28</head>
+          <p xml:id="gom-Ichr23-d1e194">
+            <quote xml:id="gom-Ichr23-Qd1e196" type="lemma" source="http://scta.info/resource/Ichr23_28@1-9">Et erunt sub manu filiorum Aaron, in cultum domus,</quote>
+            etc. Ut minores discant majoribus obedire, et majores adjuti a minoribus possint dignius officium explere: sicut in Ecclesia fit hodie.
+          </p>
+          <p xml:id="gom-Ichr23-d1e200">
+            <quote xml:id="gom-Ichr23-Qd1e202" type="lemma" source="http://scta.info/resource/Ichr23_28@15-19">Exedris et in loco purificationis.</quote>
+            Thalamis vel cubiculis in quibus habitant Levitae et sacerdotes. Ipsi quoque veri templi ministri aditum debent diligenter observare, dignos intromittere, indignos vero repellere.
+          </p>
+        </div>
+        <div xml:id="gom-Ichr23-Dd1e207">
+          <head xml:id="gom-Ichr23-Hd1e209">Versus 29</head>
+          <p xml:id="gom-Ichr23-d1e211">
+            <quote xml:id="gom-Ichr23-Qd1e213" type="lemma" source="http://scta.info/resource/Ichr23_29@18-21">Ad ferventem similam, et ad torrentem,</quote>
+            etc. Spicas scilicet primitiarum, quae torrebantur et grana comedebantur, quas vulgo grancas vocant; in quibusdam codicibus habetur: <quote xml:id="gom-Ichr23-Qd1e216" source="http://scta.info/resource/Ichr23_29@18-20">Ad ferventem similam.</quote> In aliis <quote xml:id="gom-Ichr23-Qd1e219" source="http://scta.info/resource/Ichr23_29@18-19">ad ferventem,</quote> tantum: sed <pb ed="#P" n="0659D"/> in Hebraeo habetur, <quote xml:id="gom-Ichr23-Qd1e224">ad torrendum.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

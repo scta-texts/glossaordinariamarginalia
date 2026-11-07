@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regum II, Caput 2</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Regum II, Caput 2</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="0611B"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-IIreg2">
+        <head xml:id="gom-IIreg2-Hd1e98">Caput 2</head>
+        <div xml:id="gom-IIreg2-Dd1e100">
+          <head xml:id="gom-IIreg2-Hd1e102">Versus 1</head>
+          <p xml:id="gom-IIreg2-d1e104">
+            <quote xml:id="gom-IIreg2-Qd1e106" type="lemma" source="http://scta.info/resource/IIreg2_1@1-2">Factum est.</quote>
+            <ref xml:id="gom-IIreg2-Rd1e109"><name xml:id="gom-IIreg2-Nd1e110" ref="#RabanusMaurus">RAB.</name> in lib. Reg., t. III.</ref>
+            <quote xml:id="gom-IIreg2-Qd1e114"><seg type="qs">Turbo, id est validissimus ventus</seg>, etc., usque ad <seg type="qs">Assumptus est Dominus per coitum nec generans, nec generatus.</seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg2-Dd1e123">
+          <head xml:id="gom-IIreg2-Hd1e125">Versus 9</head>
+          <p xml:id="gom-IIreg2-d1e127">
+            <pb ed="#P" n="0611C"/>
+            <quote xml:id="gom-IIreg2-Qd1e131" type="lemma" source="http://scta.info/resource/IIreg2_9@21-25">Fiat in.</quote>
+            Elias spiritu prophetali et operatione miraculorum excellenter pollebat, geminam ergo gratiam quam Elisaeus in magistro vigere cognoscebat, sibi tribui rogavit. Unde patet quod non esse discipulus super magistrum postulavit.
+          </p>
+          <p xml:id="gom-IIreg2-d1e135">
+            <ref xml:id="gom-IIreg2-Rd1e137" type="lemma" subtype="implied" target="http://scta.info/resource/IIreg2_9@21-25"/>
+            <ref xml:id="gom-IIreg2-Rd1e139"><name xml:id="gom-IIreg2-Nd1e140" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg2-Qd1e143">Fiducia petendi accepta a Domino Ecclesia postulat spiritum Christi, et quia remissione peccatorum indiget qua non eguit Christus, et munere virtutum quas ex plenitudine sua per Spiritum sanctum tribuit Christus, <quote xml:id="gom-IIreg2-Qd1e145" source="http://scta.info/resource/eph4_8@4-12">qui ascendens in, altum captivam duxit captivitatem, dedit dona hominibus</quote>, illis videlicet qui spem suam in illo ponunt. Hinc est quod ait:</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg2-Dd1e151">
+          <head xml:id="gom-IIreg2-Hd1e153">Versus 10</head>
+          <p xml:id="gom-IIreg2-d1e155">
+            <quote xml:id="gom-IIreg2-Qd1e157" type="lemma" source="http://scta.info/resource/IIreg2_10@7-8">Si videris.</quote>
+            Id est si oculos fidei aperueris, et cum passione et resurrectione etiam ascensionem meam fideliter credideris, petitionis tuae <pb ed="#P" n="0611D"/> effectum consequeris.
+          </p>
+        </div>
+        <div xml:id="gom-IIreg2-Dd1e164">
+          <head xml:id="gom-IIreg2-Hd1e166">Versus 13</head>
+          <p xml:id="gom-IIreg2-d1e168">
+            <quote xml:id="gom-IIreg2-Qd1e170" type="lemma" source="http://scta.info/resource/IIreg2_13@3-3">Pallium.</quote>
+            <ref xml:id="gom-IIreg2-Rd1e173"><name xml:id="gom-IIreg2-Nd1e174" ref="#RabanusMaurus">RAB.</name></ref>
+            <quote xml:id="gom-IIreg2-Qd1e177">Incarnatio est per quam Lethi fluvium dirupit nobisque transitum ad vitam praeparavit, hoc Elisaeus post transitum Eliae retinuit, quia fidem incarnationis Ecclesia post ascensionem Christi reservavit, per quam praesentis <pb ed="#P" n="0612A"/> vitae fluctus transire satagit; sed sicut Elisaeus non nisi invocato nomine Eliae aquas divisit, ita Ecclesia nisi per invocationem nominis Christi virtutes ullas facere non potest. Deus est enim qui operatur in nobis et velle et perficere.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg2-Dd1e185">
+          <head xml:id="gom-IIreg2-Hd1e187">Versus 17</head>
+          <p xml:id="gom-IIreg2-d1e189">
+            <quote xml:id="gom-IIreg2-Qd1e191" type="lemma" source="http://scta.info/resource/IIreg2_17@7-7">Mittite.</quote>
+            <ref xml:id="gom-IIreg2-Rd1e194"><name xml:id="gom-IIreg2-Nd1e195" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-IIreg2-Qd1e198">Sal, id est, sapientia in vase fictili, id est, corpore humano posita aquas sanat, id est, populos dulcedine dilectionis et bonorum operum per Christi incarnationem fecundat.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-IIreg2-Dd1e202">
+          <head xml:id="gom-IIreg2-Hd1e204">Versus 23</head>
+          <p xml:id="gom-IIreg2-d1e206">
+            <quote xml:id="gom-IIreg2-Qd1e208" type="lemma" source="http://scta.info/resource/IIreg2_23@1-2">Ascendit autem.</quote>
+            <ref xml:id="gom-IIreg2-Rd1e211"><name xml:id="gom-IIreg2-Nd1e212" ref="#IsidoreOfSeville">ISID.</name></ref>
+            <quote xml:id="gom-IIreg2-Qd1e215">Elisaeus salus Dei. Is est qui Salvator vocatur, cui illudunt Judaei, quia in Calvariae loco ascensurus erat in crucem; sed Christus postquam ascendit in coelos, sicut Elisaeus ascendit in Bethel, id est in domum Dei quadragesimo secundo anno, immisit duos ursos de silvis <pb ed="#P" n="0612B"/> gentium, Vespasianum scilicet et Titum, qui eos crudeli strage dejecerunt, ibique sanguis eorum effusus est ubi Dominum suspenderunt.</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

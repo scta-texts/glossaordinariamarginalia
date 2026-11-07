@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmi, Psalmus 127</title>
+        <author ref="#per-s7hans">Anselm of Laon</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Psalmi, Psalmus 127</title>
+          <date when="2026-11-07">Nov 7, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci113">Patrologia Latina, vol. 113</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1048A"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gom-ps127">
+        <head xml:id="gom-ps127-Hd1e98">Psalmus 127</head>
+        <div xml:id="gom-ps127-Dd1e100">
+          <head xml:id="gom-ps127-Hd1e102">Versus 1</head>
+          <p xml:id="gom-ps127-d1e104">
+            <pb ed="#P" n="1048A"/>
+            <quote xml:id="gom-ps127-Qd1e108" type="lemma" source="http://scta.info/resource/ps127_1@1-2">Canticum graduum.</quote>
+            <ref xml:id="gom-ps127-Rd1e111"><name xml:id="gom-ps127-Nd1e112" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps127-Qd1e115">Nonus gradus est, ut pacificus caste timeatur, qui solus exaltat, custodit, aedificat. Primo bona timentis enumerat; secundo optat bona timentis.</quote>
+          </p>
+          <p xml:id="gom-ps127-d1e118">
+            <quote xml:id="gom-ps127-Qd1e120" type="lemma" source="http://scta.info/resource/ps127_1@3-7">Beati omne qui timent Dominum.</quote>
+            <quote xml:id="gom-ps127-Qd1e123"><seg type="qs">Sciendum quatuor esse timores</seg>, etc., usque ad <seg type="qs">de quo hic dicit Propheta: <quote xml:id="gom-ps127-Qd1e129" source="http://scta.info/resource/ps127_1@3-7">Beati omnes qui timent Dominum.</quote></seg></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps127-Dd1e134">
+          <head xml:id="gom-ps127-Hd1e136">Versus 2</head>
+          <p xml:id="gom-ps127-d1e138">
+            <quote xml:id="gom-ps127-Qd1e140" type="lemma" source="http://scta.info/resource/ps127_2@1-2">Labores manuum.</quote>
+            <ref xml:id="gom-ps127-Rd1e143"><name xml:id="gom-ps127-Nd1e144" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps127-Qd1e147">Et nota quod a pluribus coepit dicens: <quote xml:id="gom-ps127-Qd1e149" source="http://scta.info/resource/ps127_1@3-3">Beati:</quote> sed quia omnes unum sunt in Christo singulariter, sequitur, <quote xml:id="gom-ps127-Qd1e152" source="http://scta.info/resource/ps127_2@1-3">Labores manuum tuarum.</quote></quote>
+          </p>
+          <p xml:id="gom-ps127-d1e156">
+            <ref xml:id="gom-ps127-Rd1e158" type="lemma" subtype="implied" target="http://scta.info/resource/ps127_2@1-2"/>
+            <ref xml:id="gom-ps127-Rd1e160"><name xml:id="gom-ps127-Nd1e161" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps127-Qd1e164">Labores fructuum dicit, cum deberet dicere: Fructum laborum; sed quia et labores cum gaudio sumuntur propter spem, et ipsi jucundant, et modo sunt cibus; sed jucundior <pb ed="#P" n="1048B"/> eorum fructus erit, quando sancti venient <quote xml:id="gom-ps127-Qd1e168" source="http://scta.info/resource/ps125_6@11-15">cum exsultatione portantes manipulos suos.</quote></quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps127-Dd1e173">
+          <head xml:id="gom-ps127-Hd1e175">Versus 3</head>
+          <p xml:id="gom-ps127-d1e177">
+            <quote xml:id="gom-ps127-Qd1e179" type="lemma" source="http://scta.info/resource/ps127_3@1-2">Uxor tua.</quote>
+            <ref xml:id="gom-ps127-Rd1e182"><name xml:id="gom-ps127-Nd1e183" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps127-Qd1e186"><seg type="qs">Etsi hoc ad litteram accipi posset</seg>, etc., usque ad <seg type="qs">ad Novum Testamentum pertinet.</seg></quote>
+          </p>
+          <p xml:id="gom-ps127-d1e194">
+            <ref xml:id="gom-ps127-Rd1e196" type="lemma" subtype="implied" target="http://scta.info/resource/ps127_3@1-2"/>
+            <ref xml:id="gom-ps127-Rd1e198"><name xml:id="gom-ps127-Nd1e199" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps127-Qd1e202">Vel per <quote xml:id="gom-ps127-Qd1e204" source="http://scta.info/resource/ps127_3@1-1">uxorem</quote> intelligitur Ecclesia, et dirigitur sermo ad Christum, cum dicitur <mentioned>tua</mentioned> et <mentioned>tui</mentioned>; nec tamen mutatur vox, vel persona propter unitatem capitis et corporis. Unus enim homo Christus, caput est, et corpus, et in capite quisque fidelium hoc habet.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps127-Dd1e214">
+          <head xml:id="gom-ps127-Hd1e216">Versus 4</head>
+          <p xml:id="gom-ps127-d1e218">
+            <quote xml:id="gom-ps127-Qd1e220" type="lemma" source="http://scta.info/resource/ps127_4@3-3">Benedicetur.</quote>
+            <ref xml:id="gom-ps127-Rd1e223"><name xml:id="gom-ps127-Nd1e224" ref="#Cassiodorus">CASS.</name></ref>
+            <quote xml:id="gom-ps127-Qd1e227">Ubi benedictio est, omnia bona confluunt ad gaudium suavitatis.</quote>
+          </p>
+          <p xml:id="gom-ps127-d1e230">
+            <quote xml:id="gom-ps127-Qd1e232" type="lemma" source="http://scta.info/resource/ps127_4@3-3">Benedicetur.</quote>
+            <ref xml:id="gom-ps127-Rd1e235"><name xml:id="gom-ps127-Nd1e236" ref="#Cassiodorus">ID.</name></ref>
+            <quote xml:id="gom-ps127-Qd1e239">Secunda pars, ubi ex pietate postulat benedici timentes, optat hic bona timenti, quae, scilicet non sunt malis communia.</quote>
+          </p>
+        </div>
+        <div xml:id="gom-ps127-Dd1e244">
+          <head xml:id="gom-ps127-Hd1e246">Versus 5</head>
+          <p xml:id="gom-ps127-d1e248">
+            <pb ed="#P" n="1048C"/>
+            <ref xml:id="gom-ps127-Rd1e252" type="lemma" subtype="implied" target="http://scta.info/resource/ps127_5"/>
+            Vel, <quote xml:id="gom-ps127-Qd1e254" source="http://scta.info/resource/ps127_3@7-7">Dominus.</quote>
+          </p>
+          <p xml:id="gom-ps127-d1e258">
+            <ref xml:id="gom-ps127-Rd1e260" type="lemma" subtype="implied" target="http://scta.info/resource/ps127_5"/>
+            <ref xml:id="gom-ps127-Rd1e262"><name xml:id="gom-ps127-Nd1e263" ref="#Augustine">AUG.</name></ref>
+            <quote xml:id="gom-ps127-Qd1e266"><seg type="qs">Judaeorum, Ex Sion</seg>, etc., usque ad <seg type="qs">quod non ita possunt.</seg></quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
